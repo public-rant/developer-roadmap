@@ -22,7 +22,7 @@ done
 Each of the URLs in the bookmarks match a target in the [`Makefile`](./Makefile). This will hydrate/inflate the amount of text we are creating.
 
 ```sh
-for target in $(cat $ROADMAP-100.json | jq -r .[].href); do make $target; done
+for target in $(cat $ROADMAP-100.json | jq -r .[].href); do make -n $target; done
 ```
 
 Now ingest the content
