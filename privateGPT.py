@@ -8,6 +8,7 @@ from langchain.llms import GPT4All, LlamaCpp
 import os
 import argparse
 import time
+from langchain import PromptTemplate
 
 load_dotenv()
 
@@ -40,7 +41,25 @@ def main():
             # raise exception if model_type is not supported
             raise Exception(f"Model type {model_type} is not supported. Please choose one of the following: LlamaCpp, GPT4All")
         
-    qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents= not args.hide_source)
+    # qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents= not args.hide_source)
+    prompt_template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+    {context}
+
+    Question: {question}
+    Answer:
+    """
+    PROMPT = PromptTemplate(
+        template=prompt_template, input_variables=["context", "question"]
+    )
+    chain_type_kwargs = {"prompt": PROMPT}
+    qa = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type="stuff",
+        retriever=retriever,
+        return_source_documents=not args.hide_source,
+        chain_type_kwargs=chain_type_kwargs,
+    )
 
     # BEGIN: 8f7d6t5r4e3w
     questions = args.questions.split(",")
@@ -51,7 +70,8 @@ def main():
     # Interactive questions and answers
     for query in questions:
 
-        # query = input("\nEnter a query: ")
+
+        print(f"\n\n## {query}\n")
         if query == "exit":
             break
         if query.strip() == "":
@@ -64,18 +84,12 @@ def main():
         end = time.time()
 
 
-        
-        # Print the relevant sources used for the answer
-        for document in docs:
-            
-            with open(f"{query}.txt", "w") as f:
-                # Print the result
-                f.write("\n\n> Question:\n")
-                f.write(query + "\n")
-                f.write(f"\n> Answer (took {round(end - start, 2)} s.):\n")
-                f.write(answer + "\n")
-                f.write("\n> " + document.metadata["source"] + ":")
-                f.write(document.page_content)
+        with open(f"{query}.txt", "w") as f:
+            f.write("## " + query + "\n\n")
+            f.write(answer + "\n")
+            for document in docs:
+                f.write(document.page_content + "\n")
+                f.write("\n\n" + document.metadata["source"] + "\n")
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='privateGPT: Ask questions to your documents without an internet connection, '
