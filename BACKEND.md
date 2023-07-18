@@ -10,7 +10,7 @@ You might also think of this as an exercise in #LiterateProgramming.
 
 Create a set of bookmarks for further reading and some documents to ingest into our machine learning model.
 
-```sh
+```
 for n in $(seq 100 123); do
     find src -name '*.md' -type f -path '*backend*' -and -path "*content/$n*" | xargs awk 'FNR==1{print ""}1' > $ROADMAP-$n.out
     pandoc --standalone $ROADMAP-$n.out | pup 'h1, a json{}' > $ROADMAP-$n.json
@@ -21,11 +21,18 @@ done
 
 Each of the URLs in the bookmarks match a target in the [`Makefile`](./Makefile). This will hydrate/inflate the amount of text we are creating.
 
+By setting null output `-n` we can see what the targets are and go through them one by one, removing andy errors as they come up.
+
 ```sh
-for target in $(cat $ROADMAP-100.json | jq -r .[].href); do make -n $target; done
+for n in $(seq 100 123); do
+    for target in $(cat $ROADMAP-$n.json | jq -r .[].href); do make -n $target; done
+done > targets.txt
 ```
 
+Once all the content has been downloaded and parsed, we can start to look at the data.
+
 Now ingest the content
+
 
 ```python
 python3 ingest.py
@@ -33,7 +40,7 @@ python3 ingest.py
 
 Bookmarks tagged `h1` are good candiates for questions
 
-```sh
+```
 cat $ROADMAP-100.json | jq '.[] | select(.tag == "h1").id'
 ```
 
