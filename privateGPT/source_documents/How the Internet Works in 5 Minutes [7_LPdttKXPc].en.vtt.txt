@@ -1,0 +1,132 @@
+so how does the internet work most of us
+know how to use the internet without
+actually understanding how it works sort
+of like electricity in your home you use
+it every day but may not understand the
+mechanics behind it
+and if the electric grid is difficult to
+understand then the internet must be
+impossible right
+wrong
+in the next few minutes I ll put you in
+the top 10 percent of people who
+understand how the internet actually
+works for security catalyst com I m
+Aaron Titus
+whenever most people think of the
+internet this is what comes to mind
+the internet is not a bubble Cloud even
+in the new age of cloud computing the
+whole fuzzy Cloud picture was created by
+people more concerned about job security
+than education
+this is the internet
+the internet is a wire a actually buried
+in the ground it might be fiber optics
+copper or occasionally beam to
+satellites or through cell phone
+networks but the internet is simply a
+wire
+the internet is useful because two
+computers connected directly to this
+wire can communicate a server is a
+special computer connected directly to
+the internet and web pages or files on
+that server s hard drive
+every server has a unique Internet
+Protocol address or IP address just like
+a postal address IP addresses help
+computers find each other
+
+72 14 205 100 it doesn t exactly roll
+off the tongue we also give them names
+like google com facebook com or security
+catalyst com
+so this is how it works your computer at
+home is not a server because it s not
+connected directly to the internet
+computers you and I use every day are
+called clients because they re connected
+indirectly to the internet through an
+internet service provider
+here we ll pretend that this is my home
+laptop and I m using DSL
+now let s pretend that I want to visit
+aol com which is coincidentally both a
+server and an ISP
+I hop onto my laptop with DSL go through
+my ISP onto the internet and look at
+AOL com my computer connects with
+aol com and I can look at its web pages
+now let s say that I want to send an
+email to Aunt Ruth
+and Ruth has AOL dial up from home and
+I ve got a Gmail account
+I log onto gmail com and compose a
+message to Aunt Ruth s email address and
+Ruth aol com
+once I click Send gmail com sends the
+email to aol com the next day Aunt Ruth
+dials into AOL servers and retrieves the
+email
+whenever an email picture or web page
+travels across the internet computers
+break the information into smaller
+pieces called packets
+when information reaches its destination
+the packets are reassembled in their
+original order to make a picture email
+
+okay so imagine you re at work sitting
+next to your boss and you re both
+surfing online
+your boss is doing market research and
+you re updating your Facebook profile
+you re both sending packets back and
+forth over the internet
+but what s to keep your packets from
+accidentally ending up on your boss s
+screen that could be embarrassing
+the solution to that problem is IP
+addresses and routers
+everything connected directly or
+indirectly to the internet has an IP
+address everything
+that includes your computer servers cell
+phones and all of the equipment in
+between
+anywhere two or more parts of the
+internet intersect there s a piece of
+equipment called a router
+routers direct your packets around the
+internet helping each packet get one
+step closer to its destination
+every time you visit a website upwards
+of 10 to 15 routers may help your
+packets find their way to and from your
+computer
+imagine each packet as a piece of candy
+wrapped in several layers the first
+layer is your computer s IP address
+your computer sends the packet to the
+first router which adds its own IP
+address
+each time the packet reaches a new
+router another layer is added until it
+reaches the server then when the server
+sends back information it creates
+packets with an identical wrapping as
+the packet makes its way over the
+internet back to your computer each
+router unwraps a layer to discover where
+to send the packet next until it reaches
+your computer and not your bosses
+and that s how the internet works in
+five minutes or less and you re now
+easily in the top 10 percent of people
+who understand the basics of the
+internet
+if you found this video helpful check
+out security catalyst com for all kinds
+of ideas on how to protect your
+information

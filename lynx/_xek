@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa > $(basename https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa).txt

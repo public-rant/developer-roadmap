@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/ > $(basename https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/).txt

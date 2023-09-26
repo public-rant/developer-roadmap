@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.geeksforgeeks.org/horizontal-and-vertical-scaling-in-databases/ > $(basename https://www.geeksforgeeks.org/horizontal-and-vertical-scaling-in-databases/).txt

@@ -1,0 +1,2180 @@
+hello everybody and welcome back to the
+channel in this video we re gonna cover
+neo4j which is an extremely popular
+graph database now let s quickly explain
+exactly what a graph database is let s
+begin with the database portion a
+database is somewhere where we are going
+to store our applications data so for
+example let s say well we own twitter
+twitter is our application we need a
+place to store the tweets we need a
+place to store the pictures the accounts
+etc and of course we re gonna do that
+inside of a database so inside of our
+database we re gonna store our data
+we re going to also retrieve data from
+our database we re going to update data
+we re going to delete data and we re
+also going to create data inside of our
+database
+now what is a graph database well in the
+database community we have hundreds if
+not thousands of different databases
+that we can utilize and there s
+different types of databases for example
+over here for postgres and sql we have
+sql databases over here we have document
+databases such as mongodb and dynamodb
+and here we have key value pair
+databases like redis and each each
+database even though they are storing
+data our applications data the way that
+they store is a little bit different and
+thus their functionality and their
+purpose is a little bit different for
+example sql databases they store their
+data in tables and they have a very
+strict schema whereas document databases
+they store them in documents and their
+schema lists key value pair databases
+while they store their data in key value
+pairs and thus they allow us for fast
+retrieval of data so you really have to
+think about you know what your
+application s need is before you utilize
+whatever database for example if you
+want to cache your data somewhere you re
+probably not going to use a sql database
+to do that instead you re going to use a
+very quick key value pair database if
+you want to store very sensitive data
+and you need to make sure that the
+schema is correct well you re probably
+going to want to use a sql database for
+this so what does this have to do with
+graph databases well graph databases are
+a different type of databases and
+they re databases that are used when our
+application has a lot of relationships
+and twitter is actually a great example
+of this so we can have twitter we can
+have a tweet and then people can
+actually like that tweet so we have a
+relationship between the user that liked
+that tweet and that tweet and also that
+tweet belongs to a specific account so
+we have that relationship as well so
+there s so many different relationships
+now of course we can
+utilize sql databases or even nosql
+databases for these types of
+relationships but sometimes the
+relationships are so cumbersome that we
+might want to use a different databases
+different database that really focus on
+storing data as well as their
+relationships and that is what graph
+databases are for and that is exactly
+what neo4j is going to do so now that we
+understand what a graph database is
+let s actually look at how data is
+stored inside of a graph database
+inside of graph databases things are
+stored inside of something called nodes
+and over here we have this circle that
+is representative of a node and inside
+of that node we can have any one thing
+now you might be thinking what is this
+thing well this thing can be anything
+that we define this could be a food item
+this could be a laptop this could be a
+building this could be a person
+but again we re going to store that
+thing inside of that node for example
+let s say that thing is an nba player
+then what we would do is we would store
+well let s say lebron inside of this
+node so we would store it inside of this
+node and now if we wanted to store
+multiple mba players then what we would
+do is we would have multiple nodes and
+we would store those nba players in
+those nodes so over here we have lebron
+anthony davis russell westbrook james
+harden and kevin durant obviously you
+don t have to know them but if you watch
+this channel i always have basketball
+everywhere you guys probably know i m a
+huge basketball fan but again those
+things which are mba players are stored
+inside of nodes so that is how things
+are stored inside of graph databases now
+of course we can also store multiple
+things so over here we can have a node
+that is storing the team the the team
+los angeles lakers over here we can also
+have another node that is storing the
+team brooklyn nets so we can store
+multiple things they don t all have to
+be you know players we can have players
+we can have teams we can have coaches
+etc we could have a bunch of different
+things
+now the special part about graph
+databases is that we are going to be
+able to relate these nodes together
+so for example over here we have this
+node and then we have this relationship
+so we have this relationship so this
+node lebron james has this relationship
+with this other node los angeles lakers
+and what is this relationship well this
+relationship is place for
+so lebron plays for the los angeles
+lakers and notice that this relationship
+is directional and it s only one
+direction it s only moving in one
+direction lebron he plays for the los
+angeles lakers not the lakers plays for
+lebron james similarly over here we have
+russell westbrook he plays for the los
+angeles lakers and over here we also
+have anthony davis he plays for the los
+angeles lakers so over here we can also
+define these relationships and over here
+we have kevin durant and james harden
+they play for the brooklyn nets
+and of course we can have multiple
+different types of relationships for
+example we can also have lebron james is
+a teammate to russell westbrook russell
+westbrook is also a teammate to lebron
+james now notice that this is going two
+ways but these are two separate
+relationships so this is going one way
+and then this is going the other way and
+then over here we have you guys probably
+get the point russell westbrook is a
+teammate to anthony davis anthony davis
+is a teammate to russell westbrook so
+you can see here we can actually have a
+bunch of these relationships across
+these different nodes and if you re
+familiar with data structures this
+awfully looks like a graph data
+structure where we have nodes that are
+attached to a bunch of other nodes with
+edges and that s exactly why it s called
+a graph database because it simulates
+the graph data structure and that again
+is how data is stored in neo4j which is
+a graph database and this is going to
+make you know when we have applications
+that are heavily related there s data
+that are heavily related it s going to
+make querying for that data adding that
+data retrieving that data deleting that
+data a lot simpler than maybe dealing
+with a traditional sql database
+okay cool so i got one question for
+myself right now so over here we have
+this node how do we know that this node
+has you know how do we know that this
+node belongs to lebron james
+well each node we can actually put
+different properties inside of it
+and really it s not going to look like
+this it s going to look something like
+this so over here we have a node and
+then over here we have different
+properties we have the name lebron and
+we could also have multiple different
+properties it doesn t just have to be
+the name we can have the weight which is
+you know 120 kilograms the height which
+is 2 2 meters so we can have different
+types of properties inside of our node
+and that s how we store data for a
+specific node
+now let s actually talk about
+the los angeles lakers so okay we
+understand that now we can have
+different properties inside of
+the nodes over here we have the name
+lebron weight 120 height 2 2 and then
+over here we have the los angeles lakers
+which is named you know los angeles
+lakers
+now my question is is how do we know
+that this node belongs to well is a team
+whereas this node over here is a player
+well what we can do actually to kind of
+distinguish the two is give each node a
+label so we can give this node the
+player label and then over here we can
+give this node the team label so in
+order to separate our nodes because they
+might be different entities we give them
+labels so over here player label and
+over here we have the team label
+now the last thing i want to talk about
+is the relationship remember
+relationships are only going to go in
+one direction so we have one direction
+now if we want to have you know two
+directions we would have to create two
+different relationships we have to
+create a relationship here and then a
+relationship here but now let s say
+though i want to say that okay this guy
+plays for the los angeles lakers but
+what s great about it is i can also add
+properties inside of the relationship
+itself so maybe i can add lebron s
+salary inside of this relationship and
+we can add of course multiple other ones
+but that s what s nice about neo4j and
+graph databases you can actually add
+properties to the relationship itself so
+if i wanted to get lebron salary i can
+just go to this relationship and get
+okay he makes 40 million dollars a year
+so that is how data is stored inside of
+graph databases and specifically neo4j
+now that we have a good understanding of
+that let s actually go ahead and get our
+hands dirty and start coding out neo4j
+code
+in order to get started with neo4j we
+need to install it on our local machine
+so to do that we need to go to
+neo4j com
+download and i ll have this link in the
+description below the first thing that
+we need to do is just accept all cookies
+i m just going to go ahead and do that
+now over here it s going to say well
+download neo4j and it s going to say
+version 4 3 or greater for you guys
+probably nonetheless this is the one
+that you want to download so you re
+going to go ahead over here and click
+download now i am on a mac but the
+process for windows is going to be
+pretty much the same 90 percent the same
+was just going to be a little bit of
+differences that you guys can probably
+spot relatively easily
+so over here the first thing it s going
+to say is okay well i want some of our
+information so i m just going to put in
+my first name my last name let me just
+zoom in here for you guys
+or maybe i should zoom out because i
+don t want you to see any of this stuff
+whatever it s fine
+gmail com and then over here i m just
+gonna say
+me
+i am in canada so i m going to say
+canada
+if i can find it and i m in i m in
+ontario
+all right so i m going to go ahead and
+download this and this should uh give us
+a little bit of so what this should do
+is redirect us to this page over here
+and over here you can see that we have
+this key and this key is really really
+important and we actually need this in
+order to download neo4j and activate it
+to our account now the other thing is is
+if you look over here you can see that
+neo4j desktop is downloading so let s
+just wait for that and then we re going
+to go ahead and click it once it s done
+downloading which should be in like five
+seconds
+so let s give it a quick wait
+and
+then we can click on it all right
+so once that is done
+uh we should get
+this over here and this is where it s a
+little bit different for you guys on
+windows the process might be a little
+bit different it probably is going to be
+some sort of wizard if you re on mac all
+you have to do is just simply move this
+into your application directory so we re
+going to go ahead and we re going to
+move that in there
+and then on windows it s going to ask
+you to run it once you re done
+installing it on mac what you have to do
+is specifically go and search for neo4j
+click on it and then it s going to go
+ahead and run so that s really the only
+difference between windows and mac
+otherwise it s exactly the same and
+again we re going to need this key so
+let s just go ahead and copy it to our
+clipboard
+so let s just wait right now the first
+thing we have to do is read this
+licensing agreement so go ahead and read
+it i read the whole thing i m joking i
+didn t read any of it i just agreed and
+then i m gonna go over here and you can
+either register with your email or with
+that key that you were provided we re
+gonna go ahead and paste in that key
+and we re gonna activate our account
+
+all right so now it s just gonna do a
+little bit of checking you know it s
+gonna check our system requirements it s
+gonna download the runtime which i m not
+gonna pause for because it seems like
+it s going really fast that s gonna look
+for neo4j et cetera blah blah blah you
+guys kind of get the point this is just
+a download process
+so let s just wait for this to
+finish up all right
+so how was your day guys i m trying to
+stall as much as possible
+okay it seems like this is going to take
+a while so i m just going to pause the
+video
+once the download procedure is done you
+should get redirected to a page that
+looks like this you ll probably see
+something regarding movie databases and
+what i want to do is i want to just go
+ahead and delete that project so just go
+ahead and delete it and let s create a
+brand new one
+and so this project is going to be
+storing a lot of mba data that s what
+we re going to be working with within
+this crash course to learn neo4j
+so what we re going to do is we re going
+to change this project name to mba and
+what we want to do is we want to add a
+neo4j database management system so what
+we re going to do here is we re going to
+click add here we re going to say local
+dbms for database management system let
+me just zoom in here click over here
+we re going to do this and then over
+here what we re going to do is we re
+going to give our database a name let s
+just call it mba
+neo4j
+and then we re going to give it a
+password i m going to call it well
+password and you have to remember this
+password let me just go over here again
+password you have to remember it
+remember
+we re going to go ahead and we re going
+to create this database management
+system
+so let s just give it a while this this
+will take maybe you know a few seconds i
+don t suspect that it will take a minute
+or two but it should take a few seconds
+so tick tock mba stands for national
+basketball association and so now what
+we want to do is we want to go ahead and
+start this so let s go ahead and start
+it
+and again this should take a few seconds
+not a minute or two but a few seconds i
+hope
+let s just wait this out
+now that we started our database
+management system you can see that
+inside of our database management
+systems we have two databases we have
+the system database and we have this
+default neo4j database remember the
+database is where we are going to store
+our nodes as well as our relationships
+okay so now what i want to do is i want
+to connect to this database and start
+writing some queries in order to add
+nodes as well as retrieve nodes etc
+so in order to do this what we re going
+to do is we re going to go to this over
+here graph apps we re going to click on
+neo4j browser and what it should do is
+redirect us right over here
+and now what we want to do is
+connect to our database so what i m
+going to do is i m just going to write a
+quick query let me just zoom in here you
+don t have to understand this query i m
+just going to go ahead and write this
+and what we should get back is nothing
+and what s happening is it s actually
+already pre connected to our query so
+you can see here that this is the
+database information is called neo4j and
+is connected to
+the mba app so it s automatically
+connected to it isn t that amazing so
+right in here this is where we are going
+to start executing our neo4j code so you
+know what let s just get right into it
+in this section of the course what we re
+going to learn about is querying data
+that is retrieving nodes as well as
+their relationships however in order to
+do this we need to have data inside of
+our database and as of yet we have no
+data
+so we re going to learn about how we can
+add and create data inside of our
+database but for now what i want you to
+do is i want you to go to my github page
+and go to o1 initial data and i ll have
+this somewhere linked in the description
+below
+and what this is going to do is run a
+mutation that is going to create a bunch
+of nodes as well as their relationships
+and all this data pertains to something
+related to the mba so over here we have
+nba players we have coaches and then
+over here we also have some teams and
+then over here we have a bunch of
+relationships so if this code doesn t
+make any sense to you that s completely
+fine we ll learn about how we can create
+data a little bit later but for now i
+want to focus in on how we can query
+data so let s just quickly copy all this
+code
+let s copy all this
+awesome and what we re going to do is
+we re going to paste it right in here
+now
+this right here is actually known as
+cipher code so neo4j uses cipher so
+just like postgres uses the sql query
+language this is another language called
+cipher it s not really important but
+just for you guys to know so we re going
+to go ahead here we re going to execute
+this and we should see this window right
+over here saying that hey we have added
+25 labels we ll talk about what labels
+are but you probably know what they are
+already because i explained them to you
+and then over here we have 25 nodes that
+were added we have a bunch of properties
+and relationships and so what we can do
+is we can just get rid of that we have
+data inside of our database so let s
+begin with querying data now let s
+remember inside of neo4j we have two
+different types of things that we can
+store we can store a node which you can
+think of as an entity a thing so in this
+case it s either going to be an nba
+player an nba coach or an nba team and
+then we have the relationships between
+those nodes
+so let s forget about the relationships
+let s first learn how we can query nodes
+themselves
+now using the cipher language what we
+need to do in order to query for
+something is state that we need to query
+for something and we state that by using
+the keyword match so let me just zoom in
+here for you guys just so you can see
+match is the keyword that we utilize in
+order to query for things so that s
+exactly what we re always going to start
+with when we want to fetch data
+and then well we want to fetch a node a
+node in cypher is always going to be
+representative as
+two parentheses so two parenthesis so we
+want what we want to do is we want to
+match a node
+and then in here we can give this node a
+specific variable so we can just call
+this node we can call it whatever it is
+that we want but we can call this node
+and it seems like node is actually a
+keyword let s just yeah let s just use n
+for for for node
+and then what we want to do is well we
+want to return those nodes because okay
+this matches the nodes but now what we
+want to do is we want to return that
+node we eventually want to get that node
+back so what we can do is we can do
+control shift to uh or ctrl enter to go
+to the other line
+and then we can say return
+and return
+n
+and what this is going to do what this
+very simple query is going to do is
+going to take all of the nodes inside of
+our application and return it so let s
+go ahead and execute this
+and there we go let s actually zoom out
+a little bit so i m going to be zooming
+in and out quite a bit
+and over here you can see that well we
+have a bunch of different nodes we got
+all of our nodes so you can see here we
+have the player nodes you can see that
+they re all organized in different
+colors so over here we have the players
+and also we have these crazy
+relationships even though we didn t ask
+for the relationships from this graph
+format we always get the relationships
+if there are relationships between notes
+so over here you can see that we got
+anthony davis we got russell westbrook
+we got frank vogel which is the coach we
+got the grizzlies so we got a bunch of
+different notes and that was the query
+to get those notes
+so now let s actually think about how we
+can maybe filter for specific nodes for
+example maybe i don t care about the
+coach maybe i don t care about the team
+i just want to get all of the different
+players so let s zoom back in here
+and let s think about how we can run
+this query so i can get all of the
+player nodes rather than you know the
+team nodes and the coach nodes
+so the first thing that we re going to
+do is we re going to say match then
+we re going to say we want to get a node
+so we re going to represent that with
+these two parentheses and then we re
+going to say return and what we want to
+do is we want to return
+whatever the variable we add in here so
+let s just say n n
+so what we want to do right now is this
+is going to match every single node and
+give it to us now we want to specify
+that we only want the player nodes
+now remember
+all nodes have different labels attached
+to them so we can actually attach labels
+to them and if actually if i hover over
+lebron james you can see
+that
+to the right we have these node
+node properties and it says player this
+one says team this one over here says
+coach
+and so what we can actually do
+is inside of these parentheses that are
+that is representative of the node we
+can say colon and
+specify what label we want to get in
+this case we re saying that hey we want
+to get all of the nodes that have the
+player property and we can actually
+change this right now this variable name
+this is variable so we can call it
+whatever it is that we want you can
+change it to player if we want to
+because now it s more indicative of
+being a player so we can go over here
+say player we want to return player and
+if i were to execute this
+and let s zoom out again
+you can see now we get all of the
+players as well as their relationships
+so over here you can see we have kevin
+durant we also have james harden their
+teammates giannis and then chris
+middleton luca doncic and then we have
+all of these relationships and of course
+we can do this for coach as well as for
+team
+so we can go over here
+and if we want what we can do and let me
+zoom right back in we can say match and
+we can say coach
+and then over here we can say i want to
+the coach and i m going to say return
+coach
+return coach so let s go ahead and
+execute this and you can see now we get
+all of our coaches and there s no
+relationship between coaches so that s
+completely fine
+now i highly encourage try this on your
+own get all of the team nodes so i ll
+give you guys five seconds to pause the
+video and do it on your own
+all right hopefully you guys tried this
+this is going to be relatively simple
+we re going to say well we want to get a
+node we re going to call this team
+and then over here we re going to give
+it the label team
+and then we re gonna go here and we re
+gonna say return team and then over here
+you can see that we get all of our teams
+how terrific is that
+okay so let s actually go back a bit and
+let s go to all of the players
+now what i want to do is i want to click
+on a particular player so when i click
+on this particular player you can see
+that this player has the label player
+and then over here we have a bunch of
+different properties so remember a node
+is going to have a label as well as a
+bunch of different properties it has an
+id it has well i added an age it has a
+height it has a name it has a number and
+also has a weight
+so what we can actually do is we can
+actually fetch for specific properties
+we don t have to fetch for the node
+itself so in order to do this what we
+can do is well we can do match we can do
+this query but instead of returning the
+whole player node what we can do is we
+can return a specific property on that
+player so we can return maybe their name
+and if we were to execute this what we
+get is we get this table format because
+at this point we re not returning nodes
+we re returning properties but you can
+see here that well we have russell
+westbrook lebron john rand luca and all
+these names and that s all we re getting
+and we can actually get more if we want
+to we can get more properties all we
+have to do is say comma and then player
+dot and then whatever property we want
+so for example we can also get their
+height so if you were to execute this
+you can see here we get their name
+as well as their height
+now over here you can see at the table
+it s called the player dot name over
+here also this is called player dot
+height
+we might not like this name at all so
+what we can do is we can actually change
+this name by using an alias so in order
+to use that we say as
+and then we can say i don t know
+mba player name or we can call this
+whatever it is that we want we can just
+call it name if we want to
+and then over here we can say as and we
+can say as height
+so if you were to execute this let s
+just execute it here you can see that
+the names are now different rather than
+player name they re called name and
+height
+all right cool so i hope this makes
+sense and that s really how we can query
+for specific
+uh specific uh nodes
+now one thing that i want to note is
+that of course you can filter your nodes
+so we actually started filtering our
+nodes by utilizing the label
+and maybe that s not enough for us maybe
+we want to filter for you know
+nodes within the player label
+so let s start talking about how we can
+filter our nodes
+so for example let s begin with a very
+very simple thing let s say we want to
+query for
+lebron james s node we just want to get
+this node right over here we don t want
+to get any of the other ones we just
+want to get this node how do we go about
+doing that
+well let s zoom in here
+in order to do this what we re going to
+say is very simply match
+and then of course we want to match a
+node now this node we can actually just
+call lebron and we could specify that
+this is going to be a player node
+and now what we re going to do is let s
+do shift
+enter let s just say we want to return
+lebron
+so return lebron so here what we re
+saying is we want to get all of the
+nodes that have a player and we want to
+return it
+now at this at the end of the day what
+this is going to do is just return us
+every single node that has the player
+label of course this is not what we want
+so what we want to do is we want to get
+just a lebron node so in order to do
+this what we need to do
+is start filtering out for this node
+based on some of its properties
+so the best property that i think of
+utilizing is the name because it s going
+to be unique across every single
+individual now if we have a large
+database maybe there might be two lebron
+james s so maybe in in that case we
+could use the id but i m going to use
+the name
+so how do i filter for all of the nodes
+where the name is lebron james well it s
+actually pretty easy so in between the
+match and the return what we re going to
+do is we re going to do another shift
+enter and then here we re going to say
+the keyword where so we re going to
+utilize this in order to filter for
+specific
+nodes
+so we re going to say where and then
+we re going to say where the player or
+sorry where
+the lebron dot name and maybe over here
+what we can do is we can change this to
+player just so it makes a little bit
+more sense
+so we re gonna say player
+and then over here we re going to say
+where the player
+dot name
+and we re going to say where the
+player name is equal to
+lebron james and the capital case is
+really important we can t just have
+something like
+lebron james or whatever make sure that
+the capitalization is correct because
+cipher detects this so because there is
+a difference between this and this just
+to let you know
+so now what we can do is we can execute
+this query and now all we get is lebron
+james how awesome is that
+and of course now we can click on it and
+see all of the properties one thing is
+right now we re getting the graph aspect
+of it and this is the visualization but
+when we actually get our data back
+inside of our application it s going to
+look a little something like this
+so it s going to look something like
+this but this is again representative of
+a node
+all right cool
+so
+that is how we can do the first
+filtration now there s actually another
+way we can do the exact same thing
+so instead of doing the where clause
+just like we did here what we can do is
+we can get rid of this
+and then inside of this node what we can
+do is
+what we can do is we can say space
+space oh my goodness space and then we
+can add these curly braces and then in
+here what we can do is we can have a key
+value pair system so we can say here
+name and then here we can say lebron
+james
+and this is going to do the exact same
+thing what this is going to do is it s
+going to filter for the player where the
+name is lebron james so we can go ahead
+over here and we can execute this and of
+course for both commands we can have
+multiple multiple different things over
+here we can say lebron james we can say
+here height is two point i don t know
+one
+at this point if i were to click on this
+his height is
+2 06 so we should get nothing
+and we get nothing however if i were to
+change this to
+this
+we should get lebron back and we do
+all right cool so that is how we can
+filter for specific things but well
+maybe this is not enough maybe we want
+to get all of the players that are not
+named lebron james
+so let s actually go back to the where
+so we can say here where
+uh and we can say player dot name
+is equal to lebron james so that s what
+we had
+before and now what we want to do is we
+want to query for the players that are
+not
+named lebron james in order to do this
+what we can say is instead of having
+equal we can have
+two
+square or two triangle brackets over
+here this is just simply saying that i
+want all of the players where the name
+is not equal to lebron james and so if
+you were to execute this
+you can see here we got kevin durant
+james harden giannis we get absolutely
+no lebron james so over here lebron
+should be here because he s tame
+teammates with these people
+okay cool
+so the next thing that i want to teach
+you is some other conditions so maybe
+now we want something more reasonable
+maybe we want to query for nba players
+based on their height and we want to see
+all of the players that are taller than
+two feet so earth s are not two feet
+i hope that every nba player is taller
+than two feet but taller than two meters
+and honestly i m i m in canada i use a
+feet in inches and then i also use
+pounds instead of kilograms but when i
+search for these players on on google it
+just shows me them in meters and
+kilograms so that s what i m utilizing
+all right so we want to get the players
+that are taller than two meters so in
+order to do this we re going to say
+match
+we re going to say player we re also
+going to say that we want to get the
+the player label
+and then let s go over here and let s
+just say return player
+and then in here we re gonna have a
+where clause so in here we re gonna have
+a where clause
+and then inside of this where clause
+we re gonna simply say where player dot
+height
+is greater than or equal to
+two
+so if we were to execute this
+you can see that now we don t have john
+morant i think john morant was the only
+player that was
+under two feet
+and i think we don t have him at this
+point
+okay yeah okay cool
+now we can of course do the same thing
+for any players that are less than two
+feet so we can run this exact same query
+and by the way what i m doing to get
+this query back is i m just clicking on
+this and then clicking the up keyword
+and this gets me my query back
+so now what we can say here
+we can get rid of that get rid of this
+we can say it s less than two feet and
+if you were to execute this oh we get
+james harden we get we got a bunch of
+players actually not just john marant
+all right awesome and what we can
+actually do in here is
+do some arithmetic so for example maybe
+i want to get um
+players that have a bmi
+that is greater than 25 and if you don t
+know what the bmi is it is the weight of
+the individual divided by the height
+squared and what it s
+supposed to do is just tell you if
+you re you know if you re obese or
+you re too skinny or you re just right
+now a lot of these players are going to
+have a bmi that is greater than 25 which
+it means that hey they re obese but
+they re nba players and they re
+extremely muscular so they re actually
+not that obese but you know let s just
+go ahead and calculate it
+so over here what we can say is we can
+match player
+and we re going to say player
+colon player
+and then let s go ahead and just return
+the player and then in here
+so in the where clause
+in the where clause what we can say is
+we can have a little bit of an
+arithmetic statement so what we can say
+is we want to get the player
+dot weight and remember we want to mult
+we want to divide it by
+and we want to divide it by the player
+dot height squared so what we can do
+here is player dot height
+and then over here times player dot
+
+and what we can do is we can actually
+wrap this whole thing in parentheses
+and we can say that this we want this
+to be greater than 25
+so we want to essentially do this
+calculation over here and then we want
+to filter for the players that have
+this
+be greater than 25
+so let s go ahead and let s execute this
+and
+of course we get you know the heavier
+players so luka doncic we get you know
+joel embiid we got james harden these
+three players are actually kind of
+considered almost out of shape all the
+time
+so this actually kind of makes sense and
+then over here lebron a d and then kevin
+durant well they re just freaks of
+nature that are very muscular i m
+actually surprised kevin durant is there
+but these are very fit people okay cool
+so we actually did the arithmetic
+correctly
+okay so now
+one thing that i want to note is we have
+been
+querying for specific players based on
+one condition so you know whether their
+height is greater than two feet or
+whether their name is lebron james or
+whether their bmi is greater than 25
+but what if we have multiple conditions
+what if for example we want to get all
+of the players that weigh more than 100
+kilograms but are shorter than 2 meters
+long
+how do we do a query like this well
+let s just get right into it
+so in here what we re going to say is
+we re going to say match and we re going
+to match of course player
+we re going to say colon player here
+and of course let s just have our return
+we re going to return this player
+the player nodes
+and over here what we want to do is we
+want to query for all of the players
+that are heavier than 100 kilograms so
+let s just say player dot weight is
+greater than or equal to 100 kilograms
+now what we also want to do is we want
+to make sure that these players are also
+under two meters long so in order to do
+this what we can do to to add additional
+conditions what we can say is and
+so you can say we want the player to be
+greater than 100 kilograms and we want
+the player
+to have a height
+that is less than 2 meters we can say
+less than or equal to and by the way in
+order to show you what i m doing here
+i m doing
+less than and then the equal sign and
+what this is doing is just simply
+changing the
+changing the syntax but that s exactly
+what i m doing here
+okay cool so if i were to execute this
+right now all i get is james harden
+james harden is the only person that is
+under two feet and weighs
+you know equal
+more or equal to 100 kilograms
+all right and that s exactly how we can
+do multiple conditions now of course
+what we can do is we can do the um
+we can also do a or clause so maybe we
+want to get all of the players that
+weigh more than 120 kilograms or all of
+the players that are taller than 2 1
+meters so we want to kind of get the
+freaks of nature
+so what we can do here is we can say
+match
+
+match player and then we re going to say
+we want a player
+and then we re going to say return
+player
+and what i m going to do is i m just
+going to copy this command because it
+seems like we always write this out
+and then in here we re going to say
+where
+and then what we want here is we want
+all of the players that are way more so
+greater than or equal to 120
+and then we re going to say or
+the player s height
+is greater than or equal to
+and we re going to say 2 1 this is just
+going to get us you know the freaks of
+nature in the nba if you were to execute
+this we get joel embiid who is well more
+than
+120 and the height is this so he
+actually matches both conditions you get
+giannis you get chris happs porzingis
+i think that s that s it it seems at
+this point uh all the players that we
+get back actually match both conditions
+so maybe if i were to change this to
+see this is kristaps
+so maybe if i were to change this to
+something like
+2 25
+so at this point this condition over
+here
+is
+going to
+and not match actually wait
+yeah so actually maybe if i change this
+to like something like this
+2 15 so at this point giannis attitude
+he s not going to match this condition
+however he is going to well he s going
+to also not going to match this
+condition yeah so this is actually a
+perfect example so giannis doesn t match
+the first condition but he matches the
+second condition so he s in here same
+with porzingis the only person that
+actually matches both conditions is joel
+embiid and we get him back of course
+all right awesome
+but now what if we wanted to get all the
+players that did not meet this condition
+well in order to do this what we can do
+is we can just flip these arrows instead
+of saying greater than or equal to we
+can just say less than and over here
+less than as well
+but instead what we can do is we can say
+not
+so what we can say is here where not
+this condition so where they don t meet
+this condition and at this point what we
+should get back are all the nodes except
+for joelle embiid so if you were to
+execute this you can see here we don t
+have joel and b to buy his hairs doesn t
+have a teammate
+and so remember the knot is just how we
+can flip things if we wanted to do that
+all right that s awesome
+so what s the next thing that we want to
+learn
+well right now what we re doing is we re
+getting back a lot of players so let s
+go here and let s just say where player
+dot height
+is greater than or equal to greater than
+or equal to two
+and we want to return all these players
+and right now actually this is not at
+that many players we have what um six
+eight nine players but what if our
+database is humongous and we re getting
+so many different players maybe
+thousands of different nba players
+how do we limit it
+so we get you know maybe 10 nba players
+in order to do this what we need to do
+is right after the return what we can do
+is we can say limit and then we can say
+limit well however nodes we want to get
+back over here we can say limit five
+which will give us five different nodes
+over here you can see now we only get
+five nodes and we can actually utilize
+this if you want to do something like
+pagination so instead of getting all of
+the different nodes we can say limit 10
+show the first 10 if the person scrolls
+down some more then we can show the next
+10
+so for example let s just go back over
+here let s just say limit 2
+so limit to 2 and what this is going to
+do is it s going to actually give us uh
+all the players in
+a particular order so you can see here
+that we re getting anthony davis and
+then we re also getting lebron james
+so we get these two players
+but what if maybe we wanted to get the
+next two players
+well what we can do at this point is
+utilize another keyword called skip
+so we can say hey we want to skip the
+first two we want to get the next two
+and of course we want to limit it to two
+so we want to skip the first two and
+then get the just the next two
+so at this point if i were to execute
+this
+we don t get anthony davis and lebron we
+get chris tapps and luca and just to
+really explain this let s get rid of the
+skip
+and then over here we re going to say
+limit four so you can see here that
+we re getting back if we limit it to
+four we get back lebron and anthony
+davis and lebron and anthony davis were
+the first two that we got back
+and then over here we get back the next
+two are luca and kristaps so essentially
+what we re saying here is what we want
+to do is well we don t want to get the
+first two which is
+uh
+which is lebron and anthony davis we
+want to get the next two because again
+we re limiting it to two so if you were
+to execute this again we get back those
+two players
+so the next thing that we can actually
+do is act order by specific players so
+maybe what we want to do here is well we
+want to get all of these players and
+instead what we want to do is instead of
+ordering by whatever the whatever neo4j
+is ordering these players by we want to
+specify that we want to order these
+players by
+maybe their height we want to get the
+tallest players first so we re going to
+say order by player dot height and we
+want it in descending order so we start
+from the tallest and we descend down to
+the lowest so if you were to execute
+this
+in the node format it doesn t seem like
+it we re ordering them in any way but
+remember the node format over here is
+just showing us how the data is going to
+look what we ultimately get back is
+something like this and you can see here
+if i were to zoom out we get kristaps
+posing as first who is the tallest
+player and you can see here that now
+we re you know we re descending we re
+descending of course what we can do is
+ascend so we can get the shortest player
+first
+you can do ascending order
+and
+at that point we get luka doncic and you
+can see now we re ascending
+all right awesome and that really pretty
+much concludes
+filtering for notes we ve actually
+learned quite a bit as to how we can
+filter notes
+the only thing that i haven t really
+taught you is how we can filter for
+multiple nodes at the same time
+so in order to do this what we can very
+simply do is say match
+and then we can say match and of course
+we have these parentheses to specify
+that we want a player so we re going to
+say player we re going to say player but
+what if we also wanted to get the
+coaches
+in order to do this all we have to do is
+say comma and then we say another set of
+parentheses because we want to get
+another set of nodes so over here we can
+say coach
+and then over here we can specify that
+we want the coach label
+and then right down here we can return
+both the player as well as the coach
+and if i were to execute this
+if we were to execute this you can see
+here now we get
+both the player as well as the uh
+as well as the uh
+coaches nodes and we also get their
+relationships
+now of course we can also add where
+clauses in here just the same so we can
+say where the player dot height
+where the player dot height is greater
+than or equal to two meters and we can
+of course add additional where clauses
+for the coaches as well so that s just
+something that you guys should probably
+know so now we don t have the shorter
+players so for example
+taylor jenkins doesn t have his player
+because he s too short
+and now steve nash only has one player
+because
+james harden was too short so i hope
+this is making sense and of course i m
+gonna highly suggest that maybe try to
+query for the team as well how do we go
+about doing that well we would go here
+and we would say team
+and then we can say something like we
+can label it team
+and then over here we can just return
+team
+at this point we get everything back
+now this is looking very similar to what
+we had at the very beginning and
+remember we had something like this at
+the very beginning so if we don t
+specify a label we get all of the notes
+back regardless of the label and that is
+exactly what we did in the very
+beginning and that s what we got
+all right cool so the next thing that i
+want to teach you guys is querying for
+relationships so remember all of these
+nodes have these relationships and let s
+actually start querying for specific
+relationships
+in this section what we re going to
+start doing is querying for specific
+nodes based on their relationship and
+probably the best example of this is if
+we wanted to query for all of the
+players that play for a specific team
+for example maybe we want all of the
+players that play for the los angeles
+lakers now you might be thinking okay
+well lebron james he plays for the los
+angeles lakers so maybe we can query for
+all the players based on their
+properties but there s no properties
+that links lebron james to the los
+angeles lakers instead this relationship
+right over here it s the one that links
+lebron to the lakers
+so how are we going to query for
+specific nodes based on their
+relationship
+well let s get into it let s actually
+write a query where we query for all of
+the players that play for the lakers
+so the first thing that we have to do is
+specify the keyword match that is well
+that s a given we want to query we
+always have to specify match and then we
+want to query for the players so let s
+say that we want the player nodes and
+let s specify that we want the player
+however what we want is we want the
+players that play for the los angeles
+lakers
+and so really what we need here is two
+nodes and then this is going to be the
+team and this we can label it as team so
+we can over here say that this node is
+team
+and we want to specify the relationship
+between these nodes and we actually
+specify the relationship between these
+nodes with an arrow so we do a
+minus sign and then square brackets and
+then another minus sign and then
+the uh
+the triangle the right triangle and over
+here what we re saying is we have this
+player node
+we have this team node and then we have
+this relationship between the player
+node and the team node and then inside
+of this square bracket we can specify
+anything that we want we can specify
+what relationship we can have because
+over here if i do colon we have
+different labels for these relationships
+like play four played against played
+whatever we can specify exactly what
+relationship we want in this case we
+want the place for
+relationship so this is how we specify a
+relationship again we have the player
+node and then over here we have the team
+node and over here we have this
+relationship and remember this is going
+to be a minus sign minus sign arrow and
+then over here in the square brackets
+we re going to define
+exactly what we need and we can also
+call this whatever it is that we want we
+can give this a varying variable name
+called relationship
+so the other thing that i want to note
+is remember this is one directional a
+player has a place for relationship with
+a team not the other way around and
+that s why the arrow is going this way
+we could also move the arrow over here
+like this if we wanted to but of course
+then we re gonna have to change this to
+team and we re gonna have to change the
+other one to player so remember we re
+moving in one direction we have to
+specify the direction all right cool
+so let s go ahead and we have this thus
+far
+now what we want to do is we want to
+return all of the players that play for
+a specific team so now what we can do is
+simply say where
+team dot name
+is equal to los angeles lakers and this
+is also going to filter the team as well
+as the players so the players also have
+to play for the los angeles lakers
+and then what we re going to do
+is we re going to return
+we re going to return the player so it s
+going to return the player and if you
+were to execute this you can see now we
+get all of the players that play for the
+los angeles lakers
+okay i hope that makes sense so again we
+have a node here for the player we have
+the relationship we have the team over
+here we have our where clause over here
+we re returning the players that play
+for the los angeles lakers which are all
+of these and of course if we wanted to
+we can also return the team itself
+so we can go here and now we have
+this relationship
+and it looks kind of wacky but again we
+have russell that plays for all of these
+teams so russell lebron ad
+okay cool and of course we can have more
+complex queries if we want to we can
+have here you know we want or
+the team dot name is maybe the mavericks
+maybe we want to get the lakers and the
+mavericks so we can say dallas
+mavericks
+mavrix
+and if i were to execute this
+then we get where are the mavericks
+let s zoom out here okay maybe we made a
+typo because we should have the dallas
+mavericks in here as well
+uh dallas yeah i misspelled this so
+dallas mavericks
+if i were to spell that correctly you
+can see now we have these relationships
+cool
+all right that is awesome
+so now what i actually want to look at
+is if you go to the play for if you
+click on any play for a relationship you
+can actually see that this relationship
+itself has a property called salary
+so remember
+nodes can have properties relationships
+can also have properties
+and you know these properties can have
+whatever it is that they want in them
+now over here for the place for we have
+the salary property
+so let s actually write a query where we
+query for all of the players that have a
+salary that is greater than
+35 million dollars so we want to see
+who s like the richest players now all
+these players are making incredible
+money but let s just get the ones that
+are making more than 35 million dollars
+a year
+so let s go ahead and let s do this so
+we re going to do this from scratch so
+we re going to say well we want the
+player node and we want to get the uh we
+want to get the play for relationship
+because that s where the property salary
+property exists so let s specify this
+with the label we re going to say we
+want
+to get
+the team so we re going to say over here
+team and we re going to say colon team
+and over here what we want is we want
+the place for
+uh relationship and we can actually give
+this a variable name i m going to call
+it contract so i m going to call this
+contract so now what we can do is we can
+simply say
+where
+contract
+dot
+salary
+is greater than or equal to
+35 million so let s make sure that i
+have
+the right zeros
+and then what we can do is simply just
+return the player and because we re not
+using team here we can just simply omit
+this over here
+so let s go ahead and execute this and
+now you can see we get kevin durant we
+get luca
+we get russell we get a d chris
+middleton and giannis surprised lebron s
+not here
+oh well i guess lebron s not making 35
+million so that is the query and if we
+wanted to know exactly how much they re
+making then we need the relationship so
+this time we might need the team so we
+can see the relationship between the
+team as well as the player
+so now we have
+giannis who plays so this is plays
+against so played again so this is not
+place four this has another set of uh
+properties which is like the actual
+points that they got the minutes or
+whatever if you go go to place four okay
+giannis is making 47 million
+if i go over here chris milton s making
+43
+lucas making 50 million i wish i could
+make 15 million oh my goodness we got
+kevin durant he makes 45 million
+
+anthony anthony davis is probably the
+poorest one out of them we might need to
+make a gofundme page for anthony davis
+only 38 million wow while everyone else
+is making 45 million plus okay so you
+guys get the point
+so that is that is well pretty much it
+so let s actually
+make one last relatively complex query
+let s now
+do something and i highly encourage you
+to try to do this on your own this is a
+little bit tougher
+i want you to get all of lebron s
+teammates so all of lebron s teammates
+that make more than 40 million dollars
+so let s actually try that query out
+so i m gonna give you guys five seconds
+to try it on your own
+five four three two one hopefully you
+guys paused the video and gave that a go
+remember the problem is we want to get
+to all of lebron s teammates to make
+more than 40 million dollars
+so this is a relatively complex problem
+but we can actually simplify this
+problem into many well smaller problems
+that we can solve pretty easily for
+example
+the first thing that we probably want to
+do is figure out a way to query for
+lebron s teammates and then once we get
+lebron s teammates we can query for the
+players that make over 40 million
+dollars
+so let s begin by just getting all of
+lebron s teammates so to do this what
+we re going to do is we re going to say
+match and what we want to do is we want
+to have two nodes so the first node is
+going to represent lebron james and the
+second node is going to represent his
+teammates we re gonna have a
+relationship between them
+which is the teammates relationship
+right over here
+so the first one is going to be lebron
+and this is going to be a player and
+we re going to have
+lebron the lebron node have a teammate s
+relationship
+with
+the
+well with another player that we re
+going to call them
+a teammate and now what we can simply do
+is just return the teammate and if we
+were to execute this
+we would get
+nothing so this is not what we re
+getting and the reason for this is right
+now lebron is anybody we have to
+actually filter for the actual lebron so
+what we can do here is we can say simply
+name lebron
+james
+and now we can
+we only get russell westbrook and
+anthony davis which are lebron s
+teammates
+so now what we want to do is we want to
+get the salaries of these two players so
+let s go back here
+click the up key
+and remember the salaries lives in the
+relationship between the uh the player
+node as well as the team node the place
+for relationship
+so what we need to do is we need to get
+the uh we need to get the players so we
+need sorry we need to get the team
+so we can actually do this by having
+another match so this is the first time
+we ve actually done this we can actually
+have as much matches as we want to query
+for specific things
+and over here we can say
+that we want the teammate node
+to have a relationship or we want to
+query for the teammate node that has a
+place for relationship with the team
+node so with the team node
+and we can actually call this over here
+the contract
+and now what we can simply do is just
+filter where the contract dot salary
+is a greater than or equal to 40 million
+so let s let s make sure i have enough
+zeros in there one two three one two
+three forty million
+so let s execute this and if we were to
+execute this we only get russell
+westbrook who s making more than 40
+million so i hope that query makes sense
+over here we re getting all of lebron s
+teammates here we re just getting access
+to that contracts relationship here
+we re doing the filter and then we re
+returning those teammates
+the last thing that we need to learn
+when it comes to querying data is
+aggregation so aggregation is the
+process where we have multiple data sets
+and we aggregate them into one value
+and the best way to actually learn it is
+to just go through an example so we re
+going to go through an example where
+what we want to do is
+return the players names as well as the
+number of games they played
+so in order to determine the number of
+games a specific player has played there
+is this played against relationship so
+what we want to do is we want to go get
+a specific player and then we want to
+get all of these played against because
+as you can see we have multiple
+it might be difficult to see but we have
+played against here played against here
+played against here and we just simply
+want to sum them or just count how many
+we have and that right there is
+aggregation we re getting all these
+played against relationship for that
+specific player
+and we are
+aggregating it into one value which in
+this case is the sum or the count
+so let s actually do that right now so
+the first thing that we want to do is
+well we want to specify that we want to
+get the player so of course we want to
+get the player because we want to get
+the player node
+and the played against relationship is
+going to be with the team node so over
+here we can specify
+that we want the played against
+relationship
+and then this is going to be on the team
+node itself so the team node
+and so now
+all we simply have to do is return the
+player dot name because we want the name
+and then what we can do is we can give
+this relationship a variable name called
+i don t know games played
+so games played or game played and then
+over here all we need to do is very
+simply say count game play so how many
+game played does this specific player
+have and if we were to execute this you
+can see here
+we have uh the name as well as the
+number of games that that player has
+played so you can see you know porzingis
+has three milton has two
+giannis has two etc so that right there
+so this right here is an aggregation
+because we re aggregating the number of
+games played
+uh into one specific specific value
+which is the count
+all right awesome
+so now because we know aggregation we
+can actually do some really cool things
+so this played against so let s go back
+over here this played against property
+actually has different or played against
+relationship has different properties
+within it it has the minutes it has the
+assist it has the points it has the
+rebounds it has the turnovers
+so actually now what we can do is we can
+aggregate these properties as well so we
+don t have to aggregate the relationship
+itself we can aggregate the properties
+into a specific value
+so maybe what we wanted to do is well we
+want to get
+uh we want to get uh
+all all the players names as well as how
+much they average per game so how much
+points they average per game
+so we can actually do that very easily
+by switching out this from average
+and what we want to do is we want to get
+the average of their points because
+remember the game s played is a property
+that has or the game is played is a
+relationship that has the points
+property so if you were to query for
+this
+and if we were to scroll all the way up
+you can see here we get their average
+points per game all right awesome
+so now of course we can do some really
+cool things if we wanted to get maybe
+the highest uh highest uh uh person that
+scores the most points highest points
+per game what we could do is we can
+actually aliase this so we can say as
+points per game and then and down here
+what we can do is we can actually order
+by and we can make this whole capital
+case
+order by points per game and we can make
+a descending order and then very simply
+we can just limit it to the first person
+and if we were to execute this we should
+get kevin durant who is averaging 37
+points a game now there s a bunch of
+different methods that we can utilize
+such as sum which sums up
+well you guys probably get the point it
+sums up a bunch of values we also have
+max and min that we won t get into
+because i don t want to make this course
+too too long but you probably get the
+point max is going to get the maximum
+value min is going to get the minimum
+value
+okay my good friends in this part of the
+course what we re going to do is we re
+going to learn how we can delete nodes
+so the first thing i want to do is let s
+just return every single node that we
+have
+and let s say what we want to do is
+delete john morant let s say for some
+reason he s out of the league or we
+don t want him inside of our database
+so in order to delete jaw morant the
+first thing that we need to do is find
+jaw morant node that john morant node so
+over here we can specify match node we
+can also say that the name is going to
+be john marant so we can say jaw
+mo rent so you can say john rant and
+then what we can simply do here is say
+delete
+jaw
+now if we were to execute this we are
+going to get an error and the reason why
+we re getting an error is because jaw
+has
+relationships and so if i were to go
+here
+you can see jaw still has the the played
+against relationship as well as the
+played for relationship
+so what we need to do is we need to
+delete
+the we need to delete the node as well
+as those relationships and a very quick
+way to do this is by prepending
+the detach keyword and what this is
+going to do is going to detach all of
+the relationships thus deleting them and
+then it s also going to delete that jaw
+node so now if we were to execute this
+it has been deleted so we have one node
+deleted as well as five relationships so
+if we were to try to do a match
+you know get all the nodes let s do that
+again here
+let s do match n
+Music
+
+return n
+and if you were to execute this
+you can see here jaw doesn t exist
+anywhere
+okay so now let s actually talk about
+another thing that i want to delete
+let s say we don t want to delete the
+actual
+node itself but we want to delete the
+relationship so for example let s say uh
+joelle embiid got traded or he decided
+to retire or whatever and thus he
+doesn t play for the philadelphia 76ers
+and so we want to actually keep joel
+embiid but we do want to just delete
+this relationship in order to do this
+this is going to be very simple we have
+to find that relationship so we re gonna
+say over here
+joel
+
+name is joelle
+embiid
+and then over here we re going to say
+that we want the place for relationship
+and we can give this a relationship of
+rel
+and then over here we re going to say
+that this is going to be
+with the team and now what we can simply
+do is delete we don t have to add the
+detach because here we re just deleting
+a relationship and we can just simply
+delete the relationship and remember
+this relationship is only going to be
+the place for relationship which is
+going to be one if we have multiple
+relationships we can actually just
+filter for whatever relationship that we
+want for example maybe we wanted to
+delete a plate again so we can filter
+for maybe with the id that we want and
+then that would get deleted so if you
+were to execute this you can see here
+that no node was deleted but now we have
+a relationship deleted
+okay cool so that is really all we have
+to know with um deleting nodes
+so it s not very difficult at all
+and now what i want to do is i want to
+delete every single node in our
+application and i highly encourage you
+to try to do this yourself so five four
+three two one hopefully you pause the
+video so to do this what we re going to
+do is we re going to get every single
+node
+and then we re going to detach
+everything so we re going to detach all
+the relationships
+and then we re just going to do delete
+end
+so execute that and now we get 24 nodes
+deleted we got 75 relationships deleted
+and the reason why we did this is now
+we re going to start learning about how
+to create data and then later on we re
+going to learn how to update data and so
+i want to just have a nice clean slate
+let s start adding back some of the data
+that we deleted because right now if we
+did a match
+n
+return n
+return n we re going to get nothing back
+this is going to be deleted absolutely
+everything
+so the first thing that i want to do is
+what i want to do is create a node
+that is going to be representative of
+lebron james so we deleted everything
+let s just add a node that is going to
+be player and it s going to be lebron
+james so let s go ahead and in order to
+do this we re going to utilize the
+create a keyword and then we re going to
+specify the node itself so the first
+thing we can do is we can specify the
+label so we can say that the label is
+going to be player but of course this is
+lebron james so we re going to say label
+player and we can also specify multiple
+labels onto a node this is something
+that we haven t seen before but a node
+can have multiple labels so over here we
+have a player we have coach let s also
+give him a general manager label so
+general manager
+now of course a node can have a label
+but it can also have properties so let s
+go over here and we can also specify the
+property properties with these curly
+braces so we can say name and then we
+can say lebron
+james
+lebron james and then we can also say
+the height is you know 2 01
+uh meters and of course we can
+continuously add more and more but this
+is the only query that we need in order
+to create a brand new node
+so what we can do here is we can
+actually get the query assign it a
+variable name and we can simply return
+it so we can say return lebron
+and if we were to execute this
+you can see here that we get this lebron
+node he has these three labels and if
+you click on the properties he has
+height as well as name
+all right cool so let s actually just go
+ahead and let s delete this node because
+now what we want to do is actually know
+what let s just leave this node and now
+what we want to do is we want to create
+a node as well as the relationship
+so let s create anthony davis
+and let s create a relationship as well
+to another node that we re also going to
+create which is the los angeles lakers
+so in order to do this what we re going
+to do is specify create and then over
+here we re going to give anthony the
+player tag or player label
+so we re going to say player and then
+just like we did match we re going to
+have our
+our relationship and of course because
+this doesn t exist and we have the
+create keyword we re going to create it
+and then over here we can say simply
+plays for so simply place force over
+here we can add that and we can also add
+properties in as well so we can say
+salary
+of
+34 million dollars
+34 million dollars and then we can have
+another node that we can create and this
+is going to be called team and we can
+give this the name give it some
+properties name of
+let s give it la
+lakers
+so if we were to execute this this is
+going to pass we have created uh two
+labels we ve created some nodes and
+everything so the two labels are for the
+los angeles lakers and for anthony
+the two nodes are again for the team and
+the player and then we have some other
+properties so now what we can do is very
+simply do match n return n to get all of
+the nodes as well as their relationships
+and we should see this
+now the only issue that we re facing and
+that s actually my bad is i forgot to
+give the uh this particular node the
+property of anthony davis but uh i hope
+that s kind of clear
+that was my my apologies i completely
+forgot about that
+so let s just assume that i i did this
+remember the same way we do it the same
+way that i showed you with the curly
+braces
+but now let s say we have existing data
+so we have lebron james and what i want
+to do is i want to add a relationship
+between these two nodes so i don t want
+to completely delete the lakers and
+lebron james and create them all at once
+i already have the relationship and i
+just already have the nodes and i want
+to create the relationship
+so in order to do this all we need to do
+is very simply get the node that is
+representative of lebron james so we can
+say this is going to be
+we can just say simply
+well again he s everything so we could
+just say player
+and we can call this lebron
+and then we can say that the name is
+going to be
+lebron
+james
+and now we also need to get the team the
+lakers so we can do comma we can have
+another node here
+and we can say well the lakers
+which is a team
+
+is the lakers so l a
+lakers
+so now what we can do is create the
+relationship between the already
+existing lebron node so we can say
+lebron
+and then what we can do here is say hey
+we want a relationship
+between the already existing lebron node
+and the already existing lakers node and
+we want a place for relationship
+and we want to give this a salary of 40
+million
+i think that s 40 million let s double
+check yes and now if we were to execute
+this
+it has worked so we didn t create any
+new nodes all we did was create a
+relationship so now if we did match and
+return n
+and execute this
+you can see that we have that
+relationship and that s really all we
+need to know about well
+uh uh creating data the last thing that
+we are going to learn about is how we
+can update our nodes and relationship
+now this right here we want to add the
+name of anthony davis because we missed
+this now of course we don t want to
+completely delete the node and then
+re add it we just want to update it
+so in order to update it the first thing
+that we need to do is find that specific
+node now this node right here has no
+specific attributes but the id so we re
+gonna have to query for this node by the
+id now you might be thinking okay well
+that s relatively easy what we can say
+here is anthony or we can call this
+whatever note it is that we want and
+then we can say that we want the id of 0
+in this case so of 0 in this case
+however if i went ahead and i returned
+anthony what s gonna happen
+is if i scroll all the way up there s
+nothing there
+so the way that we actually query
+using an id is going to be a little bit
+different than the way that we would
+query using other properties so in order
+to query using an id and this is only
+using an id this is just the only
+difference we re going to say anthony
+we re going to say anthony is also a
+player
+and then what we re going to say
+is where the id of anthony so the id of
+the anthony node is equal to and i think
+it was zero
+and then we can very simply just return
+anthony so anthony
+so let s go ahead and return that and
+now we get anthony
+so what i want to do is i want to set a
+property in here called name anthony
+davis
+so in order to do this what we re going
+to do is right after the where clause
+we re going to use another keyword
+called set and then in here we re going
+to get our node and then we re going to
+do dot
+and then whatever we want to say so
+anthony name and that s going to be
+equal to anthony
+davis
+and then we re going to return anthony
+so if you were to actually execute this
+you can see that now we actually created
+and updated our node by adding this
+particular property so of course we can
+add properties we can also update
+properties so let s actually kind of do
+things on the lebron lebron node so
+let s say here lebron we re going to say
+lebron s a player
+and then we re gonna say let s just use
+the where as well so we re gonna say
+where the lebron node has an id
+lebron node has an id that s equal to
+three that s what it was
+and then in here what we re going to do
+is
+we are going to update lebron s height
+so we re going to update lebron s height
+to be just a little bit taller maybe we
+we miscalculated lebron s height
+we re going to update it to
+0 0 or 2 02
+before it was 0 01
+and what we can also do is we can also
+add another property if you want to so
+we can update a property and add another
+property at the same time by simply
+doing and we should call this lebron not
+n
+lebron
+and we could do that by having a comma
+and then have lebron dot age
+and i think lebron is 36 and then we can
+return lebron
+the lebron node so if we were to execute
+this there we go everything seems all
+fine and dandy now of course we can also
+update the labels so let s actually go
+ahead and we re going to re execute this
+query but instead this time i m going to
+add another label right now lebron has
+the coach general manager and player
+label let s also give him a ref label
+and so all we have to do is say set and
+then lebron and then whatever that label
+is so call in that label so now if you
+were to execute this you can see that
+now he has three different labels
+all right isn t that terrific
+so we can of course do the exact same
+thing with the relationships
+so what if we have remember that playful
+relationship has a salary and we want to
+update that salary to be you know a
+little bit larger than what it was
+before so just to quickly show you we re
+gonna have a match and let s say we want
+to update lebron salaries we re gonna
+say lebron where the name
+is lebron
+james
+and then what we want to do is we want
+to get the salary so we want to get the
+salary so we can say contract here
+and this is going to be place four
+and then over here we can specify that
+this is a team we don t really need to
+get the team but we want it we will we
+will just say that it is a team so we
+need we don t need a variable here
+and then here we can simply just say
+actually you know what let s just return
+the team itself so we can also see the
+relationship between
+lebron and the team
+so we re going to say lebron
+and then team so if we were to do this
+we were to get this and let s say what i
+wanted to do is i wanted to update this
+so i want to update this label
+so that the
+salary is maybe 60 million a year and
+this is actually very easy it s very
+similar to what we ve done before
+so now what we can very simply do
+is say we want the contract
+dot
+salary
+to equal instead of 40 million 60
+million
+so let s add the appropriate number of
+zeros and of course here we need to
+add the set keyword and if we were to
+execute this
+and now if you were to click on here you
+can see we have 60 million
+so now we talked about how we can update
+our data as well as add you know
+different properties to our nodes let s
+talk about how we can start removing
+stuff maybe i want to remove the ref
+label maybe i want to remove the age
+property from lebron how do i do that
+well really simple so let s first
+actually find lebron and i guess i m
+gonna have to rewrite this query so
+we re going to say we re going to find
+the lebron node and let s just use its
+name so we re going to say
+lebron james
+and then what we are going to do is very
+simply
+just say remove and we don t want to
+remove lebron itself what we want to do
+is we want to remove
+lebron dot whatever property we want to
+remove in this case it s going to be
+lebron dot age now if you were to
+execute this and just return lebron
+himself
+now
+you can see here he doesn t have that
+age property now we can of course do the
+exact same thing with a label so let s
+say we want to remove that ref label
+execute that now he doesn t have that
+ref label
+all right that s pretty much it that s a
+good introductory beginner friendly
+course for neo4j hopefully you guys
+learned a lot and i ll see you guys in

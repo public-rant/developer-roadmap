@@ -1,0 +1,116 @@
+   [https://pythonprinciples.com/][logo.svg] Python Principles
+   [https://pythonprinciples.com/lessons/]Lessons
+   [https://pythonprinciples.com/challenges/]Challenges
+   [https://pythonprinciples.com/purchase/]Upgrade
+   [https://pythonprinciples.com/register/]Register
+   [https://pythonprinciples.com/login/]Login
+   [javascript:void(0);]
+
+The best way to
+
+Learn Python Programming Online
+
+   Become competent at Python with clear explanations and practical
+   exercises. Get instant feedback on your code. Test yourself with
+   challenges and build skills with projects. With Python Principles you
+   learn the basics of programming today and apply your skills tomorrow.
+   [https://pythonprinciples.com/lessons/]Start Learning Now
+   Our learners are from
+   [uom.png] [nike.png] [lu.png] [cancom.png] [sbu.png]
+
+Learn By Doing
+
+   Learn programming by actually programming. With Python Principles you
+   learn concepts through practical lessons, and then master them with
+   practice and challenges.
+   "This is the best platform I've seen for getting the basics of Python
+   down."
+   [chris.png]
+   Christopher learned Python to automate his daily tasks as a system
+   administrator.
+   [pc.png]
+
+Learn Effectively With Feedback
+
+   The fastest way to learn any skill is with rapid feedback. Ideally an
+   experienced programmer would provide this feedback, telling you right
+   away whether your code is correct, and if not, how to fix it. Our
+   automated system takes the place of this programmer, analyzing your
+   code, checking it for correctness, and providing instant feedback.
+   1
+
+Learn
+
+   Acquire knowledge through examples, definitions, and hands-on
+   experimentation.
+   2
+
+Practice
+
+   Master your new knowledge with practical exercises.
+   3
+
+Challenge
+
+   Test your newly acquired skills with intriguing coding challenges.
+   [fading-rotated-min.png]
+
+   [phone-min.png]
+
+Anyone can learn how to code
+
+   With clear instructions, practical exercises, and immediate feedback,
+   anyone can go from non-technical to knowing how to program.
+   "You can definitely jump in and just get started writing code, learning
+   as you go."
+   [emma.png]
+   Emma uses Python to analyze data from her user experience tests.
+
+   Testimonials
+
+What our learners think
+
+   “
+   I like the quick feedback!
+   Coding is fun this way. I've tried picking up python a few times and
+   always give up. But I absolutely loved learning this way. Awesome job.
+   All this practice is really helping. I can finally write code without
+   hand-holding.
+   ”
+   Kevin learned Python to help him land a job as a web developer. Laura
+   used Python Principles as a basis for getting into bioinformatics.
+   David uses his Python skills to clean and format data from physics
+   experiments.
+   [kevin.png] [laura.png] [david.png]
+
+Ready To Start?
+
+   Join thousands of Python learners today!
+   [https://pythonprinciples.com/lessons/Introduction/]Start Learning Now
+
+Site
+
+   [https://pythonprinciples.com/lessons/]Lessons
+   [https://pythonprinciples.com/challenges/]Challenges
+   [https://pythonprinciples.com/reference/]Reference
+   [https://pythonprinciples.com/online-python-interpreter/]Interpreter
+   [https://pythonprinciples.com/ask/]Ask QA
+   [https://pythonprinciples.com/blog/]Blog
+
+Info
+
+   [https://pythonprinciples.com/about/]About
+   [https://pythonprinciples.com/terms/]Terms
+   [https://pythonprinciples.com/privacy/]Privacy
+
+Contact
+
+   [https://pythonprinciples.com/contact/]Contact
+   [https://pythonprinciples.com/feedback/]Feedback
+
+Follow us
+
+   [https://discord.gg/y3pxQfG]Get help at the Python Principles Discord
+   [https://twitter.com/PyPrinciples]Follow Python Principles on Twitter
+
+   © 2020 Python Principles

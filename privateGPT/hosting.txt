@@ -1,0 +1,12 @@
+
+
+> Question:
+hosting
+
+> Answer (took 120.79 s.):
+ Hosting refers to a service that allows you store and manage files online so they can be easily shared with others over your network or internet connection using web addresses (URLs). It's important for many types of digital resources, such as documents like articles, images, videos, software programs. Web hosting is also known by different names depending on the provider: 
+* Online storage service providers offer you a place to store and manage files online with more or less features that change from one webhosting company/provider to another
+
+> source_documents/backend-122.md:
+
+A software web server has a number of software components that regulate how hosted files are accessed by online users. This is at the very least an HTTP server. Software that knows and understands HTTP and URLs (web addresses) is known as an HTTP server (the protocol your browser uses to view webpages). The content of these hosted websites is sent to the end user’s device through an HTTP server, which may be accessed via the domain names of the websites it holds.

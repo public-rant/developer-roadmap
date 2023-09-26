@@ -1,0 +1,2266 @@
+WEBVTT
+
+
+
+00:00:00.240 --> 00:00:01.860
+Hey, Tim Berglund with Confluent.
+
+00:00:01.860 --> 00:00:04.400
+This is the fundamentals of Apache Kafka
+
+00:00:04.400 --> 00:00:07.260
+within the course called
+fundamentals of Apache Kafka.
+
+00:00:07.260 --> 00:00:09.065
+So we're really gonna get
+into the fundamentals here.
+
+00:00:09.065 --> 00:00:12.232
+(bright upbeat music)
+
+00:00:15.650 --> 00:00:18.250
+In this module you're gonna
+develop a mental model
+
+00:00:18.250 --> 00:00:19.800
+of what Kafka is.
+
+00:00:19.800 --> 00:00:21.700
+When we're done, you
+should be able to identify
+
+00:00:21.700 --> 00:00:23.820
+the key elements of a Kafka cluster
+
+00:00:23.820 --> 00:00:25.800
+and have some idea of what
+the basic responsibilities
+
+00:00:25.800 --> 00:00:26.910
+of each element are.
+
+00:00:26.910 --> 00:00:28.810
+Explain what a topic is
+
+00:00:28.810 --> 00:00:31.760
+and how it's composed of
+partitions and what segments are,
+
+00:00:31.760 --> 00:00:34.540
+and that basic sort of
+storage model of Kafka.
+
+00:00:34.540 --> 00:00:36.150
+Topics are what you're
+gonna spend a lot of time
+
+00:00:36.150 --> 00:00:37.220
+thinking about when you're actually
+
+00:00:37.220 --> 00:00:39.300
+building applications on Kafka,
+
+00:00:39.300 --> 00:00:41.810
+so we want that to be pretty
+solid by the time we're done.
+
+00:00:41.810 --> 00:00:44.530
+Now, it is a fact of the
+world that lots of things
+
+00:00:44.530 --> 00:00:45.363
+happen in it.
+
+00:00:45.363 --> 00:00:47.090
+There are many events produced
+
+00:00:47.090 --> 00:00:49.100
+and no matter what sort
+of industry you're in
+
+00:00:49.100 --> 00:00:51.010
+like the industries,
+you see pictured here,
+
+00:00:51.010 --> 00:00:54.350
+all of those things are
+producing events all the time
+
+00:00:54.350 --> 00:00:58.750
+and Kafka's job is to manage
+and process those events.
+
+00:00:58.750 --> 00:01:02.810
+So to get data into a Kafka cluster,
+
+00:01:02.810 --> 00:01:05.300
+we have a thing called a producer.
+
+00:01:05.300 --> 00:01:08.020
+A producer is an
+application that you write.
+
+00:01:08.020 --> 00:01:10.260
+So that, that Kafka box there,
+
+00:01:10.260 --> 00:01:12.810
+that's either a Kafka cluster
+that you're operating,
+
+00:01:12.810 --> 00:01:15.880
+or maybe it's a Kafka
+cluster in a cloud service
+
+00:01:15.880 --> 00:01:18.410
+where you don't know too much
+about the operational details,
+
+00:01:18.410 --> 00:01:20.690
+but you know, the services
+there and it's reliable
+
+00:01:20.690 --> 00:01:22.194
+and you know how to connect to it.
+
+00:01:22.194 --> 00:01:25.040
+That Kafka cluster is
+that thing out there,
+
+00:01:25.040 --> 00:01:28.080
+your job is to write programs
+that put data into it
+
+00:01:28.080 --> 00:01:30.700
+and read data out of it and
+do useful things with them.
+
+00:01:30.700 --> 00:01:34.620
+So all of those sources of
+events, we see connected cars,
+
+00:01:34.620 --> 00:01:37.600
+financial transactions,
+things happening in hospitals,
+
+00:01:37.600 --> 00:01:39.600
+boxes being shipped around the world.
+
+00:01:39.600 --> 00:01:41.970
+All of those are potential
+sources of events
+
+00:01:41.970 --> 00:01:44.320
+and some producing application
+is aware of those events
+
+00:01:44.320 --> 00:01:46.640
+and takes an action to write those events
+
+00:01:46.640 --> 00:01:48.480
+into a Kafka cluster.
+
+00:01:48.480 --> 00:01:50.810
+And after they get written,
+the Kafka cluster says,
+
+00:01:50.810 --> 00:01:52.990
+okay, got it, sends an acknowledgement,
+
+00:01:52.990 --> 00:01:54.680
+and the producer moves on.
+
+00:01:54.680 --> 00:01:55.960
+What's in a Kafka cluster?
+
+00:01:55.960 --> 00:01:57.400
+Let's break that down a little bit.
+
+00:01:57.400 --> 00:02:00.210
+It's made up of things called brokers.
+
+00:02:00.210 --> 00:02:03.590
+Now, if you will just kind
+of set the way back machine
+
+00:02:03.590 --> 00:02:06.350
+for maybe 10 or 15 years ago
+
+00:02:06.350 --> 00:02:08.940
+when computers were things that you saw
+
+00:02:08.940 --> 00:02:10.110
+and they were in a data center
+
+00:02:10.110 --> 00:02:11.990
+and you could maybe go
+to that data center,
+
+00:02:11.990 --> 00:02:15.020
+and it was this metal box
+with blinky lights and fans,
+
+00:02:15.020 --> 00:02:16.570
+and that sort of thing.
+
+00:02:16.570 --> 00:02:18.230
+If you could imagine
+that that helps make this
+
+00:02:18.230 --> 00:02:20.960
+a little crisper here,
+those individual servers,
+
+00:02:20.960 --> 00:02:21.867
+those are kind of what brokers are.
+
+00:02:21.867 --> 00:02:24.700
+Those are Kafka process
+running on each one,
+
+00:02:24.700 --> 00:02:27.560
+each one has its own
+disks that's important.
+
+00:02:27.560 --> 00:02:29.950
+Every broker has its own local storage.
+
+00:02:29.950 --> 00:02:31.500
+Those brokers are networked together
+
+00:02:31.500 --> 00:02:35.150
+and they act together as
+a single Kafka cluster.
+
+00:02:35.150 --> 00:02:37.460
+When producers produce,
+they write into those things
+
+00:02:37.460 --> 00:02:38.293
+that are brokers.
+
+00:02:38.293 --> 00:02:39.640
+Now, if you're using Kafka in the cloud,
+
+00:02:39.640 --> 00:02:41.260
+you're hopefully not gonna be thinking
+
+00:02:41.260 --> 00:02:42.180
+about brokers too much.
+
+00:02:42.180 --> 00:02:44.150
+If you're using a fully managed service,
+
+00:02:44.150 --> 00:02:46.860
+there are brokers that are out
+there, you know, that's true,
+
+00:02:46.860 --> 00:02:48.550
+they've got their own local storage,
+
+00:02:48.550 --> 00:02:51.180
+they've got some retention
+time set on the data
+
+00:02:51.180 --> 00:02:52.020
+that they're storing.
+
+00:02:52.020 --> 00:02:54.430
+That's maybe five
+minutes or maybe a month,
+
+00:02:54.430 --> 00:02:56.180
+or maybe 100 years.
+
+00:02:56.180 --> 00:02:57.240
+They've got some amount of time,
+
+00:02:57.240 --> 00:02:59.360
+they're gonna keep those events around.
+
+00:02:59.360 --> 00:03:00.390
+But in the cloud, of course
+
+00:03:00.390 --> 00:03:02.330
+we don't think too closely about brokers.
+
+00:03:02.330 --> 00:03:04.470
+Those are the things that's
+abstracted away from us.
+
+00:03:04.470 --> 00:03:06.360
+But it's true, and you should know this.
+
+00:03:06.360 --> 00:03:08.310
+Every Kafka cluster is composed
+
+00:03:08.310 --> 00:03:09.950
+of these things called brokers.
+
+00:03:09.950 --> 00:03:11.700
+And we never quite know
+how to refer to those.
+
+00:03:11.700 --> 00:03:12.700
+Are they machines?
+
+00:03:12.700 --> 00:03:13.590
+Are they servers?
+
+00:03:13.590 --> 00:03:14.680
+These are all sort of old words,
+
+00:03:14.680 --> 00:03:16.530
+they might be containers,
+
+00:03:16.530 --> 00:03:18.660
+they might be VMs somewhere.
+
+00:03:18.660 --> 00:03:21.020
+And I'll skip that for
+the rest of this course.
+
+00:03:21.020 --> 00:03:22.540
+I'll probably just call them machines
+
+00:03:22.540 --> 00:03:25.400
+or servers or some kind
+of legacy term like that
+
+00:03:25.400 --> 00:03:27.110
+in as much as we're talking about brokers,
+
+00:03:27.110 --> 00:03:28.800
+just so you kind of have
+an idea what I mean.
+
+00:03:28.800 --> 00:03:30.270
+Now that data gets
+written into that cluster,
+
+00:03:30.270 --> 00:03:32.660
+it's stored on those
+discs inside those brokers
+
+00:03:32.660 --> 00:03:34.200
+and of course, we wanna read it out,
+
+00:03:34.200 --> 00:03:35.350
+we do that with the consumer.
+
+00:03:35.350 --> 00:03:38.360
+And this consumer is a program you write.
+
+00:03:38.360 --> 00:03:41.430
+That Kafka cluster, those
+brokers that's infrastructure,
+
+00:03:41.430 --> 00:03:42.920
+somebody manages that infrastructure,
+
+00:03:42.920 --> 00:03:44.190
+operates that cluster.
+
+00:03:44.190 --> 00:03:46.290
+Ideally, it's a managed
+service in the cloud,
+
+00:03:46.290 --> 00:03:48.580
+but what you write is the
+producer and the consumer,
+
+00:03:48.580 --> 00:03:50.890
+you put data in and you read data out.
+
+00:03:50.890 --> 00:03:52.630
+And it's reading data that frankly
+
+00:03:52.630 --> 00:03:53.970
+usually gets pretty interesting.
+
+00:03:53.970 --> 00:03:57.290
+This is where a lot of the work
+happens on the consume side.
+
+00:03:57.290 --> 00:03:58.610
+What the consumer does with that data,
+
+00:03:58.610 --> 00:04:00.610
+well, that's up to the application itself,
+
+00:04:00.610 --> 00:04:03.400
+is generating a report,
+feeding a dashboard,
+
+00:04:03.400 --> 00:04:05.410
+is there some other
+process that it's sending
+
+00:04:05.410 --> 00:04:06.970
+that process data too?
+
+00:04:06.970 --> 00:04:10.010
+Often, a consumer will also be a producer
+
+00:04:10.010 --> 00:04:13.220
+and put its results into
+a different place in Kafka
+
+00:04:13.220 --> 00:04:14.580
+that transform data.
+
+00:04:14.580 --> 00:04:17.500
+But these are the
+fundamental parts of Kafka.
+
+00:04:17.500 --> 00:04:19.810
+You have a producer, you
+have the cluster itself,
+
+00:04:19.810 --> 00:04:20.643
+you have a consumer.
+
+00:04:20.643 --> 00:04:22.740
+And that model, those three pieces,
+
+00:04:22.740 --> 00:04:24.870
+everything that ever gets built with Kafka
+
+00:04:24.870 --> 00:04:26.300
+conforms to that model.
+
+00:04:26.300 --> 00:04:29.240
+Maybe you won't see the consumer
+and the producer directly.
+
+00:04:29.240 --> 00:04:31.380
+If you're using something
+like Kafka Streams,
+
+00:04:31.380 --> 00:04:34.340
+or CASE SQL Db, which we'll
+cover in a later module,
+
+00:04:34.340 --> 00:04:36.230
+you don't think about
+producing and consuming,
+
+00:04:36.230 --> 00:04:38.320
+but they're always there.
+
+00:04:38.320 --> 00:04:40.930
+These are the fundamental
+components of Kafka.
+
+00:04:40.930 --> 00:04:43.000
+So let's look at that
+again and add a component.
+
+00:04:43.000 --> 00:04:44.540
+We've got our producers there on the left,
+
+00:04:44.540 --> 00:04:46.110
+that Kafka cluster in the middle,
+
+00:04:46.110 --> 00:04:48.365
+those producing applications
+are writing into the cluster
+
+00:04:48.365 --> 00:04:49.650
+that you've got the consumers
+
+00:04:49.650 --> 00:04:51.480
+they're reading from the cluster.
+
+00:04:51.480 --> 00:04:52.400
+What's that thing on top?
+
+00:04:52.400 --> 00:04:54.130
+Well, that's a ZooKeeper ensemble.
+
+00:04:54.130 --> 00:04:55.810
+As of the time of this recording,
+
+00:04:55.810 --> 00:04:58.960
+Kafka uses ZooKeeper to manage consensus
+
+00:04:58.960 --> 00:05:01.040
+on a few pieces of distributed state.
+
+00:05:01.040 --> 00:05:03.250
+There are a few things
+that all of those brokers
+
+00:05:03.250 --> 00:05:04.580
+need to agree on.
+
+00:05:04.580 --> 00:05:07.240
+They need to have some
+consensus story on what is true
+
+00:05:07.240 --> 00:05:09.390
+and ZooKeeper is good at doing that.
+
+00:05:09.390 --> 00:05:12.190
+Now, again, as I said, at
+the time of this recording,
+
+00:05:12.190 --> 00:05:14.690
+there's an initiative
+underway called KIP 500,
+
+00:05:14.690 --> 00:05:17.550
+that's Kafka Improvement Proposal, 500.
+
+00:05:17.550 --> 00:05:20.250
+That itself has bonded
+a number of child KIPs
+
+00:05:20.250 --> 00:05:22.620
+and a whole bunch of work to remove
+
+00:05:22.620 --> 00:05:24.420
+ZooKeeper from Kafka completely.
+
+00:05:24.420 --> 00:05:26.700
+So at some point after this recording,
+
+00:05:26.700 --> 00:05:28.290
+that will not be there anymore.
+
+00:05:28.290 --> 00:05:30.387
+So it may be that you look at Kafka
+
+00:05:30.387 --> 00:05:31.800
+and the current release you're using,
+
+00:05:31.800 --> 00:05:33.020
+and maybe you see this video and say,
+
+00:05:33.020 --> 00:05:34.160
+well, there's no ZooKeeper there.
+
+00:05:34.160 --> 00:05:36.680
+And that means a new day has dawned.
+
+00:05:36.680 --> 00:05:39.190
+So there's a lot of work to get that done,
+
+00:05:39.190 --> 00:05:40.870
+and that work is ongoing.
+
+00:05:40.870 --> 00:05:42.900
+But for now ZooKeeper's doing a great job,
+
+00:05:42.900 --> 00:05:45.620
+being a distributed consensus
+manager for the cluster.
+
+00:05:45.620 --> 00:05:48.720
+Producers and consumers are
+decoupled from one another.
+
+00:05:48.720 --> 00:05:52.190
+So a consumer doesn't know
+anything about the producer
+
+00:05:52.190 --> 00:05:54.130
+that produced the data that it's reading.
+
+00:05:54.130 --> 00:05:56.020
+Likewise, when you produce data,
+
+00:05:56.020 --> 00:05:58.770
+you're not sending it to
+a particular destination,
+
+00:05:58.770 --> 00:06:01.840
+you're sending it to a structure
+inside the Kafka cluster,
+
+00:06:01.840 --> 00:06:02.720
+that's called a topic.
+
+00:06:02.720 --> 00:06:04.840
+You're producing that data to a topic,
+
+00:06:04.840 --> 00:06:06.490
+we'll cover those more in a moment.
+
+00:06:06.490 --> 00:06:07.770
+But you don't know anything about
+
+00:06:07.770 --> 00:06:09.340
+who's consuming from that topic.
+
+00:06:09.340 --> 00:06:10.980
+And that decoupling is intentional.
+
+00:06:10.980 --> 00:06:12.480
+That means that there's a whole category
+
+00:06:12.480 --> 00:06:14.640
+of state information between
+producer and consumer
+
+00:06:14.640 --> 00:06:16.120
+that is simply never managed.
+
+00:06:16.120 --> 00:06:19.340
+Producers write data in,
+consumers read data out.
+
+00:06:19.340 --> 00:06:21.730
+That also means that producers can scale.
+
+00:06:21.730 --> 00:06:25.450
+I can add producers that
+write data into a cluster
+
+00:06:25.450 --> 00:06:27.010
+without the consumers knowing.
+
+00:06:27.010 --> 00:06:29.380
+I can add consumers that are reading
+
+00:06:29.380 --> 00:06:31.840
+a kind of data that has long existed.
+
+00:06:31.840 --> 00:06:34.100
+Maybe I've got this
+long history of records
+
+00:06:34.100 --> 00:06:36.480
+of sales transactions in my cluster,
+
+00:06:36.480 --> 00:06:38.740
+I add some new fraud detection algorithm.
+
+00:06:38.740 --> 00:06:39.830
+Well, that's a new consumer,
+
+00:06:39.830 --> 00:06:42.150
+none of my producers need to know.
+
+00:06:42.150 --> 00:06:45.240
+They can fail independently,
+they can evolve independently.
+
+00:06:45.240 --> 00:06:46.110
+They're decoupled,
+
+00:06:46.110 --> 00:06:48.200
+so they don't need to
+know about each other.
+
+00:06:48.200 --> 00:06:49.670
+Revisiting ZooKeeper for a moment,
+
+00:06:49.670 --> 00:06:51.450
+what does it really do?
+
+00:06:51.450 --> 00:06:53.410
+Well, authorization information,
+
+00:06:53.410 --> 00:06:55.060
+that's access control lists,
+
+00:06:55.060 --> 00:06:57.410
+those are stored in ZooKeeper.
+
+00:06:57.410 --> 00:06:58.930
+The management of failure.
+
+00:06:58.930 --> 00:07:01.860
+So when a broker fails,
+there are gonna be various
+
+00:07:01.860 --> 00:07:06.180
+pieces of a topic that that
+broker is the leader for,
+
+00:07:06.180 --> 00:07:08.420
+they're replicated in other
+places in the cluster,
+
+00:07:08.420 --> 00:07:10.660
+but the way that replication is organized
+
+00:07:10.660 --> 00:07:13.970
+and who's in charge of each
+replica and that sort of thing
+
+00:07:13.970 --> 00:07:15.430
+that is managed by ZooKeepers.
+
+00:07:15.430 --> 00:07:18.240
+So when a broker dies and
+the cluster has to decide
+
+00:07:18.240 --> 00:07:21.410
+who gets responsibility for
+the data it was managing,
+
+00:07:21.410 --> 00:07:23.840
+ZooKeeper participates in the election
+
+00:07:23.840 --> 00:07:25.580
+of new leaders for those things.
+
+00:07:25.580 --> 00:07:27.210
+So it's basically what it does.
+
+00:07:27.210 --> 00:07:30.700
+Little bits of metadata,
+fail over leader election,
+
+00:07:30.700 --> 00:07:32.410
+access control lists,
+
+00:07:32.410 --> 00:07:34.800
+that stuff is all currently in ZooKeeper.
+
+00:07:34.800 --> 00:07:36.590
+I've used this word a few times topics.
+
+00:07:36.590 --> 00:07:37.930
+Now I wanna really give you a definition
+
+00:07:37.930 --> 00:07:39.750
+of what a topic is.
+
+00:07:39.750 --> 00:07:42.870
+A topic is a collection
+of related messages
+
+00:07:42.870 --> 00:07:45.090
+or related events.
+
+00:07:45.090 --> 00:07:47.190
+You can think of a topic as a log,
+
+00:07:47.190 --> 00:07:48.680
+as a sequence of events.
+
+00:07:48.680 --> 00:07:50.070
+Now, there are some exceptions to that,
+
+00:07:50.070 --> 00:07:51.860
+I'm gonna unfold some concepts here
+
+00:07:51.860 --> 00:07:53.240
+that help you manage those exceptions.
+
+00:07:53.240 --> 00:07:55.640
+But for right now, just think
+of it as a sequence of events.
+
+00:07:55.640 --> 00:07:57.910
+So topic is this list of things
+
+00:07:57.910 --> 00:08:00.160
+and when a producer writes a new one,
+
+00:08:00.160 --> 00:08:03.650
+it just puts it on the end and
+the previous ones are kept.
+
+00:08:03.650 --> 00:08:06.340
+I can have any number of
+producers writing to a topic,
+
+00:08:06.340 --> 00:08:08.520
+I can have a producer
+writing to multiple topics.
+
+00:08:08.520 --> 00:08:11.480
+Likewise, many consumers
+can consume from a topic.
+
+00:08:11.480 --> 00:08:14.770
+All of those relationships
+are end to end-to-end.
+
+00:08:14.770 --> 00:08:18.450
+There isn't a theoretical
+limit on the number of topics.
+
+00:08:18.450 --> 00:08:19.530
+There's a practical limit
+
+00:08:19.530 --> 00:08:21.550
+on the number of what
+are called partitions,
+
+00:08:21.550 --> 00:08:23.570
+we'll get to partitions in a moment.
+
+00:08:23.570 --> 00:08:26.170
+But topics by themselves, it's
+not like you can only have 50
+
+00:08:26.170 --> 00:08:28.730
+and then you need to add
+nodes or anything like that,
+
+00:08:28.730 --> 00:08:31.280
+you can really have conceptually
+as many as you'd like.
+
+00:08:31.280 --> 00:08:32.730
+And I did say partition, didn't I?
+
+00:08:32.730 --> 00:08:34.980
+So I better tell you what that means.
+
+00:08:34.980 --> 00:08:37.550
+Now here's a cluster over on the left,
+
+00:08:37.550 --> 00:08:39.000
+it's got a number of topics in it,
+
+00:08:39.000 --> 00:08:41.150
+let's zoom in on topic C.
+
+00:08:41.150 --> 00:08:44.020
+Now that topic is a log
+
+00:08:44.020 --> 00:08:46.580
+and it's a durable log, it's persistent,
+
+00:08:46.580 --> 00:08:49.080
+which means what it's gonna
+be stored on disc somewhere.
+
+00:08:49.080 --> 00:08:52.260
+And the broker that
+that partition lives on,
+
+00:08:52.260 --> 00:08:54.850
+well, that's just a computer
+at the end of the day.
+
+00:08:54.850 --> 00:08:57.350
+And if you're writing
+messages into that topic
+
+00:08:57.350 --> 00:09:00.530
+and reading messages from
+that topic that's work,
+
+00:09:00.530 --> 00:09:02.270
+IO and computational work that
+
+00:09:02.270 --> 00:09:03.530
+that computer has to do.
+
+00:09:03.530 --> 00:09:05.370
+None of these things scales forever.
+
+00:09:05.370 --> 00:09:06.930
+You can't have storage scaling forever,
+
+00:09:06.930 --> 00:09:09.210
+and you can't have that pub/sub activity
+
+00:09:09.210 --> 00:09:10.810
+on that broker scaling forever.
+
+00:09:10.810 --> 00:09:14.120
+So you might want to break
+your topic up into pieces.
+
+00:09:14.120 --> 00:09:16.040
+We call those pieces partitions
+
+00:09:16.040 --> 00:09:18.800
+and then be able to
+allocate those partitions
+
+00:09:18.800 --> 00:09:20.850
+to different brokers in the cluster.
+
+00:09:20.850 --> 00:09:23.960
+This is key to how Kafka scales.
+
+00:09:23.960 --> 00:09:26.900
+I can take a topic, partition it
+
+00:09:26.900 --> 00:09:29.800
+and allocate each partition
+to a separate broker.
+
+00:09:29.800 --> 00:09:32.130
+So when I set a topic was a log
+
+00:09:32.130 --> 00:09:33.700
+and I kind of put a
+little asterisk on that,
+
+00:09:33.700 --> 00:09:36.340
+and there's an exception
+to really what that means.
+
+00:09:36.340 --> 00:09:39.400
+Formally speaking a partition is a log.
+
+00:09:39.400 --> 00:09:42.320
+So every partition has strict ordering,
+
+00:09:42.320 --> 00:09:44.130
+when I produced to a partition,
+
+00:09:44.130 --> 00:09:46.470
+I put the message on the
+end of the partition,
+
+00:09:46.470 --> 00:09:48.870
+that's the only place I can
+put it because it's a log.
+
+00:09:48.870 --> 00:09:50.860
+I can't disturb any of
+the previous messages,
+
+00:09:50.860 --> 00:09:54.830
+they're all immutable events,
+I just put things on the end.
+
+00:09:54.830 --> 00:09:57.750
+And so that is a log and
+the events in that log
+
+00:09:57.750 --> 00:10:00.320
+that partition are strictly ordered.
+
+00:10:00.320 --> 00:10:03.070
+A topic having been
+broken into partitions.
+
+00:10:03.070 --> 00:10:04.400
+You may not have strict ordering
+
+00:10:04.400 --> 00:10:06.760
+over all of the events in the topic,
+
+00:10:06.760 --> 00:10:09.170
+so you've always got
+ordering within a partition.
+
+00:10:09.170 --> 00:10:10.940
+And if you wanna look at
+an implementation detail,
+
+00:10:10.940 --> 00:10:13.440
+really drill down into what a partition is
+
+00:10:13.440 --> 00:10:14.600
+on an individual broker,
+
+00:10:14.600 --> 00:10:16.330
+that log file is gonna be represented
+
+00:10:16.330 --> 00:10:17.163
+by multiple logs.
+
+00:10:17.163 --> 00:10:21.470
+Segments, those are individual
+files on disc on that broker,
+
+00:10:21.470 --> 00:10:22.950
+it's really a set of a few files,
+
+00:10:22.950 --> 00:10:24.220
+and some indexes and things like that.
+
+00:10:24.220 --> 00:10:27.610
+So that segment is a
+thing that exists on disc
+
+00:10:27.610 --> 00:10:30.120
+on the Kafka broker, and each
+partition can be broken up
+
+00:10:30.120 --> 00:10:31.320
+into multiple segments.
+
+00:10:31.320 --> 00:10:33.480
+Usually, unless you're deeply involved
+
+00:10:33.480 --> 00:10:35.900
+in hands-on administration
+of a Kafka cluster,
+
+00:10:35.900 --> 00:10:38.370
+you're not gonna think
+about segments so much,
+
+00:10:38.370 --> 00:10:40.690
+but you do have to
+think about partitioning
+
+00:10:40.690 --> 00:10:43.050
+as you think about how
+to model data in topics.
+
+00:10:43.050 --> 00:10:44.320
+It's very important.
+
+00:10:44.320 --> 00:10:46.090
+Let's look at that again in color.
+
+00:10:46.090 --> 00:10:48.890
+If you can see those
+colors, topic a is green,
+
+00:10:48.890 --> 00:10:52.970
+topic b is, it's kind
+of a mustardy orange,
+
+00:10:52.970 --> 00:10:56.790
+and I wanna call c sort
+of a cornflower blue.
+
+00:10:56.790 --> 00:10:58.720
+And you're wanting to
+correct me in the comments,
+
+00:10:58.720 --> 00:11:00.950
+if you think any of those
+color names are wrong.
+
+00:11:00.950 --> 00:11:02.710
+But this cluster now has four brokers,
+
+00:11:02.710 --> 00:11:05.300
+we're calling them 101, 102, 103, 104
+
+00:11:05.300 --> 00:11:07.420
+and you can see how the
+partitions of each topic
+
+00:11:07.420 --> 00:11:08.260
+are broken up.
+
+00:11:08.260 --> 00:11:13.010
+So topic a, has partition
+zero, one and two.
+
+00:11:13.010 --> 00:11:15.550
+You see partition, zero is on broker 101,
+
+00:11:15.550 --> 00:11:18.410
+partition one is on partition 102,
+
+00:11:18.410 --> 00:11:20.360
+partition two is on broker 104
+
+00:11:20.360 --> 00:11:23.820
+and none of topic a is on broker 103.
+
+00:11:23.820 --> 00:11:24.860
+I won't go through all of those,
+
+00:11:24.860 --> 00:11:27.050
+but you can kind of pause
+the video if you'd like,
+
+00:11:27.050 --> 00:11:28.340
+and look through that diagram
+
+00:11:28.340 --> 00:11:31.030
+and see how those
+partitions are distributed.
+
+00:11:31.030 --> 00:11:32.410
+The cluster does that automatically,
+
+00:11:32.410 --> 00:11:33.640
+when a topic is created by the way,
+
+00:11:33.640 --> 00:11:35.280
+it makes decisions about
+where those partitions
+
+00:11:35.280 --> 00:11:36.113
+are gonna live.
+
+00:11:36.113 --> 00:11:37.940
+What a Kafka cluster doesn't do
+
+00:11:37.940 --> 00:11:40.590
+is keep track of the
+size of those partitions
+
+00:11:40.590 --> 00:11:42.400
+and move them around,
+
+00:11:42.400 --> 00:11:44.050
+if one broker gets overloaded,
+
+00:11:44.050 --> 00:11:45.940
+as topics get created and destroyed,
+
+00:11:45.940 --> 00:11:47.380
+loading of course does not stay constant.
+
+00:11:47.380 --> 00:11:50.090
+So this is functionality
+you'd have to add yourself
+
+00:11:50.090 --> 00:11:51.720
+to keep those things balanced.
+
+00:11:51.720 --> 00:11:53.100
+There are parts of Confluent platform
+
+00:11:53.100 --> 00:11:55.310
+that will help you do
+that, make that automatic.
+
+00:11:55.310 --> 00:11:57.300
+And of course, if you're
+using a managed Kafka service,
+
+00:11:57.300 --> 00:11:59.920
+sort of thing, is the thing
+that you know vaguely,
+
+00:11:59.920 --> 00:12:03.910
+there is a team of highly
+skilled software developers
+
+00:12:03.910 --> 00:12:06.150
+and site reliability
+engineers who are making sure
+
+00:12:06.150 --> 00:12:07.570
+this kind of stuff works for you
+
+00:12:07.570 --> 00:12:09.950
+and you don't have to worry about it.
+
+00:12:09.950 --> 00:12:11.630
+You see over there on the right there,
+
+00:12:11.630 --> 00:12:14.620
+the log files, each
+partition again is broken up
+
+00:12:14.620 --> 00:12:17.340
+into individual segments on disc,
+
+00:12:17.340 --> 00:12:20.810
+on the broker as a really drill
+down implementation detail
+
+00:12:20.810 --> 00:12:22.810
+into what's going on on the broker.
+
+00:12:22.810 --> 00:12:25.870
+Let me just refresh exactly
+what I mean by a log.
+
+00:12:25.870 --> 00:12:27.720
+This is important, you
+probably know this, right?
+
+00:12:27.720 --> 00:12:30.050
+You've probably written to
+a log file at some point,
+
+00:12:30.050 --> 00:12:31.320
+or at least read one.
+
+00:12:31.320 --> 00:12:33.810
+And you kinda know instinctively,
+
+00:12:33.810 --> 00:12:35.210
+even if you've never thought about it,
+
+00:12:35.210 --> 00:12:37.100
+the semantics of a log.
+
+00:12:37.100 --> 00:12:40.810
+So when you write something to
+a log file, where does it go?
+
+00:12:40.810 --> 00:12:43.150
+It goes on the end, it
+has to go on the end.
+
+00:12:43.150 --> 00:12:45.330
+It doesn't go at the beginning,
+that's already happened.
+
+00:12:45.330 --> 00:12:46.880
+That sequence of things
+has already happened.
+
+00:12:46.880 --> 00:12:49.750
+You can only add new things to the log
+
+00:12:49.750 --> 00:12:51.170
+because the rest is representation
+
+00:12:51.170 --> 00:12:53.890
+of what has happened in time, up till now.
+
+00:12:53.890 --> 00:12:57.470
+Also all of those ordered
+entries prior to now,
+
+00:12:57.470 --> 00:12:58.800
+those are immutable.
+
+00:12:58.800 --> 00:13:02.360
+If you're editing one of
+those or deleting one of them,
+
+00:13:02.360 --> 00:13:04.050
+there's almost something
+like ethically suspect
+
+00:13:04.050 --> 00:13:05.960
+about editing a log, like,
+what are you trying to hide?
+
+00:13:05.960 --> 00:13:08.180
+You know, you conspiring
+in a crime or something?
+
+00:13:08.180 --> 00:13:11.640
+So logs are immutable records of things.
+
+00:13:11.640 --> 00:13:14.360
+And the semantics are when
+you wanna write to a log,
+
+00:13:14.360 --> 00:13:15.800
+you put it on the end and that's it,
+
+00:13:15.800 --> 00:13:17.330
+and those are immutable after that.
+
+00:13:17.330 --> 00:13:19.640
+You may choose to expire
+things past a certain age,
+
+00:13:19.640 --> 00:13:20.840
+and that's certainly the case in Kafka,
+
+00:13:20.840 --> 00:13:23.410
+you can set a retention period on a topic.
+
+00:13:23.410 --> 00:13:24.820
+But this is what a log is,
+
+00:13:24.820 --> 00:13:26.640
+this is this fundamental data structure
+
+00:13:26.640 --> 00:13:27.960
+that Kafka is based on.
+
+00:13:27.960 --> 00:13:29.130
+Those numbers you see there,
+
+00:13:29.130 --> 00:13:30.850
+the zero one, two, three, four, like that,
+
+00:13:30.850 --> 00:13:32.470
+those are real in Kafka.
+
+00:13:32.470 --> 00:13:33.640
+They actually start at zero
+
+00:13:33.640 --> 00:13:36.450
+and they just monotonically
+increase like that forever.
+
+00:13:36.450 --> 00:13:37.980
+And there are many, many bits of them,
+
+00:13:37.980 --> 00:13:40.020
+so you're not gonna run out,
+
+00:13:40.020 --> 00:13:44.590
+but every partition has its
+own unique offset space,
+
+00:13:44.590 --> 00:13:45.423
+so that's a real thing.
+
+00:13:45.423 --> 00:13:47.060
+And you can actually find that out,
+
+00:13:47.060 --> 00:13:47.990
+when you produce a message,
+
+00:13:47.990 --> 00:13:49.510
+when you consume a message.
+
+00:13:49.510 --> 00:13:51.800
+The API, you can poke into
+things and will tell you,
+
+00:13:51.800 --> 00:13:53.700
+oh, this will ended up
+being offset such and such,
+
+00:13:53.700 --> 00:13:55.660
+or this was offset such and such.
+
+00:13:55.660 --> 00:13:56.990
+Usually don't need to know,
+
+00:13:56.990 --> 00:13:58.340
+but, and it's a real thing,
+
+00:13:58.340 --> 00:14:01.250
+and it's there inside of each partition.
+
+00:14:01.250 --> 00:14:02.580
+An important fact about consumers,
+
+00:14:02.580 --> 00:14:04.130
+those blue boxes on the bottom
+
+00:14:04.130 --> 00:14:06.140
+that are apparently reading messages,
+
+00:14:06.140 --> 00:14:08.440
+consuming, doesn't consume,
+
+00:14:08.440 --> 00:14:10.850
+it doesn't destroy the
+message, it just reads it.
+
+00:14:10.850 --> 00:14:12.840
+So you can have multiple consumers
+
+00:14:12.840 --> 00:14:15.760
+on one log or one topic in Kafka,
+
+00:14:15.760 --> 00:14:17.990
+and they can be at their
+own independent offsets.
+
+00:14:17.990 --> 00:14:20.500
+Now, of course, you'd like them
+all to be caught up, right?
+
+00:14:20.500 --> 00:14:23.320
+Everybody wants to be kind
+of close to the events
+
+00:14:23.320 --> 00:14:24.690
+that are being produced,
+
+00:14:24.690 --> 00:14:27.180
+so this processing could
+be called real time.
+
+00:14:27.180 --> 00:14:28.220
+But they don't need to be,
+
+00:14:28.220 --> 00:14:30.210
+in terms of the way the system works,
+
+00:14:30.210 --> 00:14:31.420
+one can start at the beginning
+
+00:14:31.420 --> 00:14:34.870
+and take days to catch up,
+if you need to do that.
+
+00:14:34.870 --> 00:14:36.600
+They're independent consumers
+
+00:14:36.600 --> 00:14:38.470
+that are working from independent offsets.
+
+00:14:38.470 --> 00:14:40.920
+Later on you'll hear me
+refer to this as a stream,
+
+00:14:40.920 --> 00:14:43.440
+this log or topic I'll say stream.
+
+00:14:43.440 --> 00:14:45.550
+And these things in the stream are events,
+
+00:14:45.550 --> 00:14:48.380
+and the current time is where
+I'm producing right now,
+
+00:14:48.380 --> 00:14:50.590
+that's the present and the stream
+
+00:14:50.590 --> 00:14:52.140
+extends back into the past.
+
+00:14:52.140 --> 00:14:55.540
+So different word means
+exactly the same thing.
+
+00:14:55.540 --> 00:14:57.390
+What's the structure of a Kafka message?
+
+00:14:57.390 --> 00:14:59.730
+Well, the things that you are
+gonna think about the most
+
+00:14:59.730 --> 00:15:03.030
+are the key and the value,
+that's your Kafka data model.
+
+00:15:03.030 --> 00:15:05.450
+Every event is a key value pair.
+
+00:15:05.450 --> 00:15:07.330
+Now, very likely there's
+gonna be some structure
+
+00:15:07.330 --> 00:15:08.163
+in the value, right?
+
+00:15:08.163 --> 00:15:10.090
+That's probably some sort of domain object
+
+00:15:10.090 --> 00:15:12.700
+that you're gonna serialize
+somehow and store there.
+
+00:15:12.700 --> 00:15:14.520
+There may be structure in the key.
+
+00:15:14.520 --> 00:15:18.830
+Often the key is a string or
+integer or something like that.
+
+00:15:18.830 --> 00:15:21.060
+But sometimes people have a compound
+
+00:15:21.060 --> 00:15:23.500
+and complex domain objects
+that they serialize
+
+00:15:23.500 --> 00:15:26.140
+and use as the key,
+that's completely allowed.
+
+00:15:26.140 --> 00:15:28.230
+Every message has a timestamp.
+
+00:15:28.230 --> 00:15:31.910
+If you don't have a timestamp,
+one will be provided for you.
+
+00:15:31.910 --> 00:15:33.210
+So you'll get the wall clock time
+
+00:15:33.210 --> 00:15:35.380
+at the time that you produce the message.
+
+00:15:35.380 --> 00:15:37.620
+That's if you don't really
+care too much about the time.
+
+00:15:37.620 --> 00:15:40.380
+But if in your value,
+in that domain object,
+
+00:15:40.380 --> 00:15:42.490
+if it knows the time it took place,
+
+00:15:42.490 --> 00:15:44.580
+well then in the API, when
+you're producing, you can say,
+
+00:15:44.580 --> 00:15:46.490
+hey, you know, the actual time is this.
+
+00:15:46.490 --> 00:15:47.820
+I don't care what time it is right now,
+
+00:15:47.820 --> 00:15:49.510
+this is the time of the message.
+
+00:15:49.510 --> 00:15:51.190
+You can set that explicitly.
+
+00:15:51.190 --> 00:15:52.800
+You also have an optional set of headers.
+
+00:15:52.800 --> 00:15:54.400
+Think of them like HTTP headers,
+
+00:15:54.400 --> 00:15:57.460
+which are themselves kind
+of string key value pairs.
+
+00:15:57.460 --> 00:15:59.310
+So you don't wanna use
+this as additional payload,
+
+00:15:59.310 --> 00:16:00.790
+but this really is metadata.
+
+00:16:00.790 --> 00:16:02.170
+So these are properties of the data
+
+00:16:02.170 --> 00:16:03.930
+that you're gonna be able to see on read.
+
+00:16:03.930 --> 00:16:05.350
+So consumers have access to these
+
+00:16:05.350 --> 00:16:06.900
+and can make decisions based on them.
+
+00:16:06.900 --> 00:16:09.770
+But that's it, you have key
+value, timestamp and headers.
+
+00:16:09.770 --> 00:16:11.390
+Let's dive into brokers a little bit.
+
+00:16:11.390 --> 00:16:12.223
+I've introduced them,
+
+00:16:12.223 --> 00:16:14.570
+but I wanna go over their
+key responsibilities.
+
+00:16:14.570 --> 00:16:18.220
+Their basic function is
+to manage partitions.
+
+00:16:18.220 --> 00:16:19.770
+Now, as a developer using Kafka,
+
+00:16:19.770 --> 00:16:21.270
+you're thinking about topics all the time.
+
+00:16:21.270 --> 00:16:22.250
+You're creating a topic,
+
+00:16:22.250 --> 00:16:24.010
+you're thinking about
+the schema of a topic.
+
+00:16:24.010 --> 00:16:26.310
+What kind of messages does it have?
+
+00:16:26.310 --> 00:16:27.600
+What's its retention period?
+
+00:16:27.600 --> 00:16:28.900
+What are its compaction properties?
+
+00:16:28.900 --> 00:16:31.390
+All these great things that
+you'll learn about topics
+
+00:16:31.390 --> 00:16:32.350
+as you move forward.
+
+00:16:32.350 --> 00:16:33.623
+If you're a broker,
+
+00:16:34.640 --> 00:16:37.040
+you know what a topic is, but
+really you've got partitions.
+
+00:16:37.040 --> 00:16:39.720
+You're managing some set
+of partitions locally.
+
+00:16:39.720 --> 00:16:40.730
+That's what a broker does.
+
+00:16:40.730 --> 00:16:42.630
+It manages those log files,
+
+00:16:42.630 --> 00:16:45.490
+it takes inputs from producers,
+
+00:16:45.490 --> 00:16:48.760
+updates those partitions,
+takes requests from consumers
+
+00:16:48.760 --> 00:16:50.730
+and writes them out.
+
+00:16:50.730 --> 00:16:52.490
+That's what a broker does.
+
+00:16:52.490 --> 00:16:55.270
+It's does storage and pub/sub.
+
+00:16:55.270 --> 00:16:59.080
+So those partitions are stored
+locally on the broker's disc,
+
+00:16:59.080 --> 00:17:00.360
+and there can be many of them,
+
+00:17:00.360 --> 00:17:03.160
+many partitions on each individual broker.
+
+00:17:03.160 --> 00:17:05.130
+So you see this core architecture diagram
+
+00:17:05.130 --> 00:17:06.900
+again, you've got producers.
+
+00:17:06.900 --> 00:17:09.340
+Those are applications that
+are writing to the cluster,
+
+00:17:09.340 --> 00:17:10.950
+brokers that are taking those rights
+
+00:17:10.950 --> 00:17:12.670
+and managing their partitions
+
+00:17:12.670 --> 00:17:15.320
+and consumers that are
+reading from those partitions.
+
+00:17:15.320 --> 00:17:16.650
+The way consumers read from partitions
+
+00:17:16.650 --> 00:17:17.830
+actually gets pretty interesting,
+
+00:17:17.830 --> 00:17:19.140
+we'll take a look at that later.
+
+00:17:19.140 --> 00:17:19.973
+It would be a bummer
+
+00:17:19.973 --> 00:17:22.340
+if each partition only
+existed on one broker,
+
+00:17:22.340 --> 00:17:24.960
+such that if that broker
+died, the partition would die.
+
+00:17:24.960 --> 00:17:26.680
+You would not want that to be the case.
+
+00:17:26.680 --> 00:17:28.920
+And of course, Kafka does replicate.
+
+00:17:28.920 --> 00:17:31.920
+Each partition has a
+configurable number of replicas,
+
+00:17:31.920 --> 00:17:35.250
+three is typical, that's
+called the replication factor.
+
+00:17:35.250 --> 00:17:38.150
+One of those replicas is called the leader
+
+00:17:38.150 --> 00:17:41.500
+and the others are called the follower.
+
+00:17:41.500 --> 00:17:44.270
+So when I produce to a partition,
+
+00:17:44.270 --> 00:17:46.450
+I'm actually producing to the leader.
+
+00:17:46.450 --> 00:17:48.530
+The producer is connecting to the broker
+
+00:17:48.530 --> 00:17:50.540
+that has the lead partition there.
+
+00:17:50.540 --> 00:17:54.550
+And it's the job of the brokers
+with follower partitions,
+
+00:17:54.550 --> 00:17:56.080
+to reach out to those leaders
+
+00:17:56.080 --> 00:17:58.300
+and kind of scrape the new
+messages that they've got
+
+00:17:58.300 --> 00:18:02.060
+and keep up-to-date with
+them as quickly as possible.
+
+00:18:02.060 --> 00:18:04.450
+So and that all happens
+in a very timely fashion
+
+00:18:04.450 --> 00:18:06.670
+inside of a properly
+operating Kafka cluster.
+
+00:18:06.670 --> 00:18:08.490
+It's not like they take seconds
+
+00:18:08.490 --> 00:18:10.340
+for that replication to take place,
+
+00:18:10.340 --> 00:18:12.660
+but there is a leader,
+follower distinction here,
+
+00:18:12.660 --> 00:18:15.550
+which makes consistency a
+lot easier to think about.
+
+00:18:15.550 --> 00:18:18.440
+Thinking a little more about
+producers, which know now
+
+00:18:18.440 --> 00:18:19.780
+are these client applications,
+
+00:18:19.780 --> 00:18:22.470
+you might be asking, what
+language can I write those in?
+
+00:18:22.470 --> 00:18:26.470
+Well, Java was always the
+native language of Apache Kafka.
+
+00:18:26.470 --> 00:18:28.690
+The language library that ships with Kafka
+
+00:18:28.690 --> 00:18:30.240
+is a Java library.
+
+00:18:30.240 --> 00:18:31.650
+Now the other adjacent languages,
+
+00:18:31.650 --> 00:18:36.190
+of the JVM like Kotlin
+and Closure and Groovy,
+
+00:18:36.190 --> 00:18:37.520
+and even Scala,
+
+00:18:37.520 --> 00:18:40.090
+there are always wrappers for those
+
+00:18:40.090 --> 00:18:42.860
+that make the Java library look idiomatic
+
+00:18:42.860 --> 00:18:43.980
+in those languages.
+
+00:18:43.980 --> 00:18:46.210
+But there are other
+supported languages as well,
+
+00:18:46.210 --> 00:18:50.350
+C, C++, Python, Go, .Net.
+
+00:18:50.350 --> 00:18:53.590
+Those libraries are supported
+by Confluent platform.
+
+00:18:53.590 --> 00:18:56.020
+So if you need like a
+proper supported version
+
+00:18:56.020 --> 00:18:58.040
+of one of those, you can get that.
+
+00:18:58.040 --> 00:19:02.000
+Those are all based on
+a C language library
+
+00:19:02.000 --> 00:19:03.393
+called librdkafka.
+
+00:19:04.660 --> 00:19:07.290
+That's an open source
+library that duplicates
+
+00:19:07.290 --> 00:19:10.030
+a lot of the functionality
+of the Java library
+
+00:19:10.030 --> 00:19:13.810
+and many other non JVM language libraries
+
+00:19:13.810 --> 00:19:16.740
+draw on that for their Kafka support.
+
+00:19:16.740 --> 00:19:18.150
+There are many more than that
+
+00:19:18.150 --> 00:19:20.520
+supported by the Kafka community,
+
+00:19:20.520 --> 00:19:22.350
+if you're wondering where node support is
+
+00:19:22.350 --> 00:19:23.530
+and where's Ruby and all?
+
+00:19:23.530 --> 00:19:25.110
+Well, believe me, they are there.
+
+00:19:25.110 --> 00:19:27.110
+In fact, there are often multiple choices
+
+00:19:27.110 --> 00:19:28.600
+for each one of them.
+
+00:19:28.600 --> 00:19:32.000
+There's also a REST Proxy that
+we'll cover in another module
+
+00:19:32.000 --> 00:19:34.310
+that lets you access Kafka.
+
+00:19:34.310 --> 00:19:35.670
+If somehow you're using a language
+
+00:19:35.670 --> 00:19:37.390
+that doesn't have library support,
+
+00:19:37.390 --> 00:19:38.440
+or if you just don't want to use
+
+00:19:38.440 --> 00:19:41.010
+that native language support,
+you can use the REST Proxy.
+
+00:19:41.010 --> 00:19:43.780
+And of course there is a Command
+Line Producer Tool as well.
+
+00:19:43.780 --> 00:19:46.190
+That's good for tests
+and scripts and sending
+
+00:19:46.190 --> 00:19:48.470
+kind of small amounts of
+string data into topics.
+
+00:19:48.470 --> 00:19:50.410
+Now I said, when a
+producer writes to a topic
+
+00:19:50.410 --> 00:19:51.930
+it's actually writing to a partition
+
+00:19:51.930 --> 00:19:54.380
+and these partitions are
+stored on separate brokers.
+
+00:19:54.380 --> 00:19:56.140
+And so how does a producer know
+
+00:19:56.140 --> 00:19:57.970
+which partition to write a message to?
+
+00:19:57.970 --> 00:19:59.610
+There are a couple answers to that.
+
+00:19:59.610 --> 00:20:00.820
+Now, if the message has no key,
+
+00:20:00.820 --> 00:20:02.890
+the producer will just
+have a round-robin method
+
+00:20:02.890 --> 00:20:03.890
+that it applies.
+
+00:20:03.890 --> 00:20:06.110
+And it'll say partition
+zero, partition one,
+
+00:20:06.110 --> 00:20:07.830
+partition two, partition three.
+
+00:20:07.830 --> 00:20:08.730
+And there are some exceptions
+
+00:20:08.730 --> 00:20:09.960
+and interesting ways to configure that,
+
+00:20:09.960 --> 00:20:11.690
+but that's basically what's gonna happen,
+
+00:20:11.690 --> 00:20:13.620
+you're gonna load
+bouncing round-robin way.
+
+00:20:13.620 --> 00:20:16.270
+Partitions always stay even in that case,
+
+00:20:16.270 --> 00:20:18.510
+but you don't have a
+lot of ordering there.
+
+00:20:18.510 --> 00:20:20.960
+Now, if the order of
+events is important to you,
+
+00:20:20.960 --> 00:20:23.740
+you have the opportunity
+to order them by key.
+
+00:20:23.740 --> 00:20:26.980
+So if there is a key, then
+what the producer's gonna do
+
+00:20:26.980 --> 00:20:30.880
+is hash that key, mode
+the number of partitions
+
+00:20:30.880 --> 00:20:33.040
+that gives you the partition
+number it's gonna write it to.
+
+00:20:33.040 --> 00:20:34.740
+So the same key is
+always gonna get written
+
+00:20:34.740 --> 00:20:37.860
+to the same partition, as long
+as the number of partitions
+
+00:20:37.860 --> 00:20:39.760
+is held constant in the topic,
+
+00:20:39.760 --> 00:20:41.710
+which probably should be in most cases.
+
+00:20:41.710 --> 00:20:45.840
+So messages with the same
+key land in same partition,
+
+00:20:45.840 --> 00:20:49.380
+which means they are strictly
+ordered all the time.
+
+00:20:49.380 --> 00:20:50.410
+And that's an important thing.
+
+00:20:50.410 --> 00:20:51.650
+Cause you might have a key,
+
+00:20:51.650 --> 00:20:54.320
+say you've got an internet
+of things application,
+
+00:20:54.320 --> 00:20:56.590
+you've got smart thermostats
+all over the planet,
+
+00:20:56.590 --> 00:20:57.660
+tens of millions of them
+
+00:20:57.660 --> 00:20:59.978
+and they're all phoning home
+with temperature and humidity
+
+00:20:59.978 --> 00:21:03.680
+and every other kind of
+metadata every minute,
+
+00:21:03.680 --> 00:21:05.160
+and you want those to be ordered.
+
+00:21:05.160 --> 00:21:06.820
+You wanna be able to
+process those in order.
+
+00:21:06.820 --> 00:21:09.100
+Well, if you make the key, the device ID,
+
+00:21:09.100 --> 00:21:11.130
+well then each devices messages
+
+00:21:11.130 --> 00:21:14.100
+are gonna show up in order in a partition.
+
+00:21:14.100 --> 00:21:17.640
+So messages of the same
+key, always land in order,
+
+00:21:17.640 --> 00:21:18.980
+it's possible to override all this
+
+00:21:18.980 --> 00:21:20.800
+and write a custom
+partitioner, if you'd like to,
+
+00:21:20.800 --> 00:21:22.390
+it doesn't end up happening very often,
+
+00:21:22.390 --> 00:21:24.740
+but it absolutely is available
+to you if you need it.
+
+00:21:24.740 --> 00:21:26.890
+Consumers again are the
+programs that you write
+
+00:21:26.890 --> 00:21:28.610
+that are reading from topics.
+
+00:21:28.610 --> 00:21:31.480
+All the same language options as producers
+
+00:21:31.480 --> 00:21:33.360
+and what they do, they pull.
+
+00:21:33.360 --> 00:21:35.450
+They actually will go
+out, that consumer program
+
+00:21:35.450 --> 00:21:37.370
+will go and ask the Kafka cluster.
+
+00:21:37.370 --> 00:21:41.367
+It will say, "Hey, I am
+subscribed to this one topic,
+
+00:21:41.367 --> 00:21:43.560
+"and this is the last offset I read."
+
+00:21:43.560 --> 00:21:45.627
+Remember those numeric offsets.
+
+00:21:45.627 --> 00:21:48.520
+"Do you have any messages
+after that offset?"
+
+00:21:48.520 --> 00:21:50.510
+And if the answer is no, then it returns
+
+00:21:50.510 --> 00:21:52.070
+and the consumer can come back and ask
+
+00:21:52.070 --> 00:21:53.700
+a very short period of time later.
+
+00:21:53.700 --> 00:21:55.490
+Usually of course the answer is yes,
+
+00:21:55.490 --> 00:21:57.208
+and here are more messages
+and it gets the messages
+
+00:21:57.208 --> 00:21:58.960
+and moves on.
+
+00:21:58.960 --> 00:22:02.780
+That consumer offset, the
+consumer is storing that in memory
+
+00:22:02.780 --> 00:22:04.110
+that's state, right?
+
+00:22:04.110 --> 00:22:05.800
+We don't want that only to be in memory.
+
+00:22:05.800 --> 00:22:10.450
+So the offset of each
+consumer into each partition,
+
+00:22:10.450 --> 00:22:12.660
+that that consumer is responsible for
+
+00:22:12.660 --> 00:22:16.570
+is stored in a special topic
+inside the Kafka cluster
+
+00:22:16.570 --> 00:22:19.780
+named mysteriously
+enough, consumer offsets.
+
+00:22:19.780 --> 00:22:21.610
+So if you see that consumer offset topic,
+
+00:22:21.610 --> 00:22:22.730
+that's what it's doing.
+
+00:22:22.730 --> 00:22:24.910
+That's helping your consumers
+remember where they are.
+
+00:22:24.910 --> 00:22:26.530
+So if they go away and come back,
+
+00:22:26.530 --> 00:22:27.850
+the cluster can help them remember
+
+00:22:27.850 --> 00:22:29.200
+where they need to pick up again.
+
+00:22:29.200 --> 00:22:31.940
+And just like the producer,
+there is a Command Line Tool
+
+00:22:31.940 --> 00:22:33.990
+to read from a cluster,
+which could be great
+
+00:22:33.990 --> 00:22:36.800
+for quick visibility into things
+and scripting and so forth.
+
+00:22:36.800 --> 00:22:38.110
+Usually not a lot of production code
+
+00:22:38.110 --> 00:22:39.590
+gets written with the CLI tools,
+
+00:22:39.590 --> 00:22:40.820
+but they do come in quite handy.
+
+00:22:40.820 --> 00:22:44.480
+As I've said, each topic
+can have multiple consumers
+
+00:22:44.480 --> 00:22:45.590
+and by multiple consumers,
+
+00:22:45.590 --> 00:22:48.170
+I mean multiple different applications
+
+00:22:48.170 --> 00:22:49.910
+that are reading that same data.
+
+00:22:49.910 --> 00:22:51.810
+So there's separate code
+bases, separate images,
+
+00:22:51.810 --> 00:22:53.870
+separate builds, separate deployments
+
+00:22:53.870 --> 00:22:55.550
+could be managed by separate teams.
+
+00:22:55.550 --> 00:22:57.440
+Maybe the people don't
+even know each other,
+
+00:22:57.440 --> 00:22:59.600
+as long as they've got the
+right to access the data,
+
+00:22:59.600 --> 00:23:01.900
+they can deploy consumers
+against that topic.
+
+00:23:01.900 --> 00:23:03.810
+Consumers also live in groups.
+
+00:23:03.810 --> 00:23:05.490
+Now that one of the top
+doesn't look like a group
+
+00:23:05.490 --> 00:23:07.770
+that's kind of the
+degenerate group of one,
+
+00:23:07.770 --> 00:23:10.330
+but every consumer is a
+consumer group in Kafka.
+
+00:23:10.330 --> 00:23:14.450
+Meaning I can add additional
+instances of a consumer,
+
+00:23:14.450 --> 00:23:15.283
+like you see at the bottom,
+
+00:23:15.283 --> 00:23:17.970
+there are three instances of
+that consuming application.
+
+00:23:17.970 --> 00:23:19.310
+So imagine that's an uber-JAR
+
+00:23:19.310 --> 00:23:20.940
+and you've built a Docker image around it
+
+00:23:20.940 --> 00:23:22.960
+and Kubernetes is now
+deploying three of it,
+
+00:23:22.960 --> 00:23:24.460
+instead of only one of it,
+
+00:23:24.460 --> 00:23:26.460
+that's the way that you
+scale out consumers.
+
+00:23:26.460 --> 00:23:28.260
+We'll talk about the details
+of that a little bit more
+
+00:23:28.260 --> 00:23:29.500
+in a future module.
+
+00:23:29.500 --> 00:23:31.460
+Let's come back to the
+same architecture diagram
+
+00:23:31.460 --> 00:23:34.680
+that describes every Kafka
+system you're ever gonna build.
+
+00:23:34.680 --> 00:23:37.060
+You've got producers that
+write data into the cluster,
+
+00:23:37.060 --> 00:23:38.770
+you've got that cluster,
+you know a little bit more
+
+00:23:38.770 --> 00:23:42.470
+about partitions and replication
+and things like that now.
+
+00:23:42.470 --> 00:23:43.840
+And then you've got consumers,
+
+00:23:43.840 --> 00:23:45.430
+those programs that read data out,
+
+00:23:45.430 --> 00:23:47.170
+every system you're ever gonna build
+
+00:23:47.170 --> 00:23:49.290
+conforms to this diagram.
+
+00:23:49.290 --> 00:23:52.460
+And with that, you should have
+a pretty solid mental model
+
+00:23:52.460 --> 00:23:54.880
+of how Kafka works, a
+little bit about producers,
+
+00:23:54.880 --> 00:23:59.290
+consumers, brokers, ZooKeeper,
+partitioning, replication,
+
+00:23:59.290 --> 00:24:01.720
+all of these things put
+you on a solid footing
+
+00:24:01.720 --> 00:24:03.027
+to explore what next.
+
+00:24:03.027 --> 00:24:06.194
+(bright upbeat music)
+

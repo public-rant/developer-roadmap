@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://thenewstack.io/category/ci-cd/ > $(basename https://thenewstack.io/category/ci-cd/).txt

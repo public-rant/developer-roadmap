@@ -1,0 +1,2266 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/146592]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fmake-a-restful-json-api-go%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fmake-a-restful-json-api-go%2F&format=xml]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/make-a-restful-json-api-go/]ARCHITECTURE
+   [https://thenewstack.io/make-a-restful-json-api-go/]ENGINEERING
+   [https://thenewstack.io/make-a-restful-json-api-go/]OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2014-11-26 10:38:14
+   Making a RESTful JSON API in Go
+   tutorial,
+   [https://thenewstack.io/category/api-management/]API Management /
+   [https://thenewstack.io/category/software-development/]Software
+   Development
+
+Making a RESTful JSON API in Go
+
+   Nov 26th, 2014 10:38am by
+   [https://thenewstack.io/author/corylanou/]Cory Lanou
+   Featued image for: Making a RESTful JSON API in Go
+
+   Feature image from
+   [https://startupitis.blogspot.com/2012/05/golang-its-amazing.html]Start
+   upitis. The image is available on the site to download as wallpaper.
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   In this post, we will not only cover how to use Go to create a RESTful
+   JSON API, but we will also talk about good RESTful design. If you have
+   ever consumed an API in the past that doesn’t follow good design, then
+   you end up writing bad code to consume a bad API. Hopefully, after this
+   article you will have a better idea of what a well behaved API should
+   look like.
+
+What is a JSON API?
+
+   Before JSON, there was XML. Having used XML and JSON both, there is no
+   question that JSON is the clear winner. I’m not going to cover in depth
+   the concept of a JSON API, as it is detailed quite well on
+   [http://jsonapi.org/]jsonapi.org.
+
+A Basic Web Server
+
+   A RESTful service starts with fundamentally being a web service first.
+   Here is a really basic web server that responds to any requests by
+   simply outputting the request url:
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "fmt"___________________________________________________
+       "html"__________________________________________________
+       "log"___________________________________________________
+       "net/http"______________________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func main() {_______________________________________________
+       http.HandleFunc("/", func(w http.ResponseWriter, r *http
+           fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.
+       })______________________________________________________
+   ____________________________________________________________
+       log.Fatal(http.ListenAndServe(":8080", nil))____________
+   ____________________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   package main
+
+   import (
+       "fmt"
+       "html"
+       "log"
+       "net/http"
+   )
+
+   func main() {
+       http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+           fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
+       })
+
+       log.Fatal(http.ListenAndServe(":8080", nil))
+
+   }
+
+   Running this example will spin up a server on port 8080, and can be
+   accessed at [http://localhost:8080/]http://localhost:8080
+
+Adding a Router
+
+   While the standard library comes with a router, I find that most people
+   are confused about how it works. I’ve used a couple of third party
+   routers in my projects. Most notably I’ve used the
+   [http://www.gorillatoolkit.org/pkg/mux]mux router from the
+   [http://www.gorillatoolkit.org/]Gorilla Web Toolkit.
+
+   Another popular router is from Julien Schmidt called
+   [https://github.com/julienschmidt/httprouter]httprouter.
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "fmt"___________________________________________________
+       "html"__________________________________________________
+       "log"___________________________________________________
+       "net/http"______________________________________________
+   ____________________________________________________________
+       "github.com/gorilla/mux"________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func main() {_______________________________________________
+   ____________________________________________________________
+       router := mux.NewRouter().StrictSlash(true)_____________
+       router.HandleFunc("/", Index)___________________________
+       log.Fatal(http.ListenAndServe(":8080", router))_________
+   }___________________________________________________________
+   ____________________________________________________________
+   func Index(w http.ResponseWriter, r *http.Request) {________
+       fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   package main
+
+   import (
+       "fmt"
+       "html"
+       "log"
+       "net/http"
+
+       "github.com/gorilla/mux"
+   )
+
+   func main() {
+
+       router := mux.NewRouter().StrictSlash(true)
+       router.HandleFunc("/", Index)
+       log.Fatal(http.ListenAndServe(":8080", router))
+   }
+
+   func Index(w http.ResponseWriter, r *http.Request) {
+       fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
+
+   To run this example, you will now need to execute the following
+   command:
+
+   go get______________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   go get
+
+   This will retrieve the Gorilla Mux package from GitHub at
+   “github.com/gorilla/mux”
+
+   The above example creates a basic router, adds the route / and assigns
+   the Index handler to run when that endpoint is called. You will also
+   notice now that before we could ask for
+   [http://localhost:8080/foo]http://localhost:8080/foo and that worked.
+   That will no longer work now as there is no route defined. Only
+   [http://localhost:8080/]http://localhost:8080 will be a valid response.
+
+Creating Some Basic Routes
+
+   Now that we have a router in place, it is time to create some more
+   routes.
+
+   Let’s assume that we are going to create a basic ToDo app.
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "fmt"___________________________________________________
+       "log"___________________________________________________
+       "net/http"______________________________________________
+   ____________________________________________________________
+       "github.com/gorilla/mux"________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func main() {_______________________________________________
+   ____________________________________________________________
+       router := mux.NewRouter().StrictSlash(true)_____________
+       router.HandleFunc("/", Index)___________________________
+       router.HandleFunc("/todos", TodoIndex)__________________
+       router.HandleFunc("/todos/{todoId}", TodoShow)__________
+   ____________________________________________________________
+       log.Fatal(http.ListenAndServe(":8080", router))_________
+   }___________________________________________________________
+   ____________________________________________________________
+   func Index(w http.ResponseWriter, r *http.Request) {________
+       fmt.Fprintln(w, "Welcome!")_____________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {____
+       fmt.Fprintln(w, "Todo Index!")__________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func TodoShow(w http.ResponseWriter, r *http.Request) {_____
+       vars := mux.Vars(r)_____________________________________
+       todoId := vars["todoId"]________________________________
+       fmt.Fprintln(w, "Todo show:", todoId)___________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   26
+   27
+   28
+   29
+   30
+   31
+   32
+   33
+   package main
+
+   import (
+       "fmt"
+       "log"
+       "net/http"
+
+       "github.com/gorilla/mux"
+   )
+
+   func main() {
+
+       router := mux.NewRouter().StrictSlash(true)
+       router.HandleFunc("/", Index)
+       router.HandleFunc("/todos", TodoIndex)
+       router.HandleFunc("/todos/{todoId}", TodoShow)
+
+       log.Fatal(http.ListenAndServe(":8080", router))
+   }
+
+   func Index(w http.ResponseWriter, r *http.Request) {
+       fmt.Fprintln(w, "Welcome!")
+   }
+
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {
+       fmt.Fprintln(w, "Todo Index!")
+   }
+
+   func TodoShow(w http.ResponseWriter, r *http.Request) {
+       vars := mux.Vars(r)
+       todoId := vars["todoId"]
+       fmt.Fprintln(w, "Todo show:", todoId)
+   }
+
+   We have now added two more endpoints (or routes)
+
+   This is the Todo Index route: http://localhost:8080/todos
+
+   THis is the Todo Show route: http://localhost:8080/todos/{todoId}
+
+   This is the beginning of a RESTful design.
+
+   Pay close attention to the last route where we added a variable in the
+   route, called todoId: http://localhost:8080/todos/{todoId}
+
+   This will allow us to pass in id’s to the route and respond with the
+   proper records.
+
+A Basic Model
+
+   Now that we have routes in place, it’s time to create a basic Todo
+   model that we can send and retrieve data with. In Go, a struct will
+   typically serve as your model. Many other languages use classes for
+   this purpose.
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "time"_______________________________________________
+   ____________________________________________________________
+   type Todo struct {__________________________________________
+       Name      string________________________________________
+       Completed bool__________________________________________
+       Due       time.Time_____________________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Todos []Todo___________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   package main
+
+   import "time"
+
+   type Todo struct {
+       Name      string
+       Completed bool
+       Due       time.Time
+   }
+
+   type Todos []Todo
+
+   Note that in the last line we create another type, called Todos, which
+   is a slice (an ordered collection) of Todo. You will see where this
+   becomes useful shortly.
+
+Send Back Some JSON
+
+   Now that we have a basic model, we can simulate a real response and
+   mock out the TodoIndex with static data.
+
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {____
+       todos := Todos{_________________________________________
+           Todo{Name: "Write presentation"},___________________
+           Todo{Name: "Host meetup"},__________________________
+       }_______________________________________________________
+   ____________________________________________________________
+       json.NewEncoder(w).Encode(todos)________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {
+       todos := Todos{
+           Todo{Name: "Write presentation"},
+           Todo{Name: "Host meetup"},
+       }
+
+       json.NewEncoder(w).Encode(todos)
+   }
+
+   For now, we are just creating a static slice of Todos to send back to
+   the client. Now if you requesthttp://localhost:8080/todos, you should
+   get the following response:
+
+   [___________________________________________________________
+       {_______________________________________________________
+           "Name": "Write presentation",_______________________
+           "Completed": false,_________________________________
+           "Due": "0001-01-01T00:00:00Z"_______________________
+       },______________________________________________________
+       {_______________________________________________________
+           "Name": "Host meetup",______________________________
+           "Completed": false,_________________________________
+           "Due": "0001-01-01T00:00:00Z"_______________________
+       }_______________________________________________________
+   ]___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   [
+       {
+           "Name": "Write presentation",
+           "Completed": false,
+           "Due": "0001-01-01T00:00:00Z"
+       },
+       {
+           "Name": "Host meetup",
+           "Completed": false,
+           "Due": "0001-01-01T00:00:00Z"
+       }
+   ]
+
+A Better Model
+
+   For any seasoned veterans out there, you have already spotted a
+   problem. As insignificant as it sounds, it’s not idiomatic JSON to have
+   uppercased keys. Here is how you solve that.
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "time"_______________________________________________
+   ____________________________________________________________
+   type Todo struct {__________________________________________
+       Name      string    `json:"name"`_______________________
+       Completed bool      `json:"completed"`__________________
+       Due       time.Time `json:"due"`________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Todos []Todo___________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   package main
+
+   import "time"
+
+   type Todo struct {
+       Name      string    `json:"name"`
+       Completed bool      `json:"completed"`
+       Due       time.Time `json:"due"`
+   }
+
+   type Todos []Todo
+
+   By adding struct tags you can control exactly what an how your struct
+   will be marshalled to JSON.
+
+OK, We Need to Split This Up!
+
+   At this point, the project needs a little refactoring. We have too much
+   going on in just a few files.
+
+   We are going to now create the following files and move the code around
+   accordingly:
+     * main.go
+     * handlers.go
+     * routes.go
+     * todo.go
+
+Handlers.go
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "encoding/json"_________________________________________
+       "fmt"___________________________________________________
+       "net/http"______________________________________________
+   ____________________________________________________________
+       "github.com/gorilla/mux"________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func Index(w http.ResponseWriter, r *http.Request) {________
+       fmt.Fprintln(w, "Welcome!")_____________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {____
+       todos := Todos{_________________________________________
+           Todo{Name: "Write presentation"},___________________
+           Todo{Name: "Host meetup"},__________________________
+       }_______________________________________________________
+   ____________________________________________________________
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)__________________________________________
+       }_______________________________________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func TodoShow(w http.ResponseWriter, r *http.Request) {_____
+       vars := mux.Vars(r)_____________________________________
+       todoId := vars["todoId"]________________________________
+       fmt.Fprintln(w, "Todo show:", todoId)___________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   26
+   27
+   28
+   29
+   30
+   package main
+
+   import (
+       "encoding/json"
+       "fmt"
+       "net/http"
+
+       "github.com/gorilla/mux"
+   )
+
+   func Index(w http.ResponseWriter, r *http.Request) {
+       fmt.Fprintln(w, "Welcome!")
+   }
+
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {
+       todos := Todos{
+           Todo{Name: "Write presentation"},
+           Todo{Name: "Host meetup"},
+       }
+
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)
+       }
+   }
+
+   func TodoShow(w http.ResponseWriter, r *http.Request) {
+       vars := mux.Vars(r)
+       todoId := vars["todoId"]
+       fmt.Fprintln(w, "Todo show:", todoId)
+   }
+
+Routes.go
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "net/http"______________________________________________
+   ____________________________________________________________
+       "github.com/gorilla/mux"________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   type Route struct {_________________________________________
+       Name        string______________________________________
+       Method      string______________________________________
+       Pattern     string______________________________________
+       HandlerFunc http.HandlerFunc____________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Routes []Route_________________________________________
+   ____________________________________________________________
+   func NewRouter() *mux.Router {______________________________
+   ____________________________________________________________
+       router := mux.NewRouter().StrictSlash(true)_____________
+       for _, route := range routes {__________________________
+           router._____________________________________________
+               Methods(route.Method).__________________________
+               Path(route.Pattern).____________________________
+               Name(route.Name)._______________________________
+               Handler(route.HandlerFunc)______________________
+       }_______________________________________________________
+   ____________________________________________________________
+       return router___________________________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   var routes = Routes{________________________________________
+       Route{__________________________________________________
+           "Index",____________________________________________
+           "GET",______________________________________________
+           "/",________________________________________________
+           Index,______________________________________________
+       },______________________________________________________
+       Route{__________________________________________________
+           "TodoIndex",________________________________________
+           "GET",______________________________________________
+           "/todos",___________________________________________
+           TodoIndex,__________________________________________
+       },______________________________________________________
+       Route{__________________________________________________
+           "TodoShow",_________________________________________
+           "GET",______________________________________________
+           "/todos/{todoId}",__________________________________
+           TodoShow,___________________________________________
+       },______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   26
+   27
+   28
+   29
+   30
+   31
+   32
+   33
+   34
+   35
+   36
+   37
+   38
+   39
+   40
+   41
+   42
+   43
+   44
+   45
+   46
+   47
+   48
+   49
+   50
+   51
+   package main
+
+   import (
+       "net/http"
+
+       "github.com/gorilla/mux"
+   )
+
+   type Route struct {
+       Name        string
+       Method      string
+       Pattern     string
+       HandlerFunc http.HandlerFunc
+   }
+
+   type Routes []Route
+
+   func NewRouter() *mux.Router {
+
+       router := mux.NewRouter().StrictSlash(true)
+       for _, route := range routes {
+           router.
+               Methods(route.Method).
+               Path(route.Pattern).
+               Name(route.Name).
+               Handler(route.HandlerFunc)
+       }
+
+       return router
+   }
+
+   var routes = Routes{
+       Route{
+           "Index",
+           "GET",
+           "/",
+           Index,
+       },
+       Route{
+           "TodoIndex",
+           "GET",
+           "/todos",
+           TodoIndex,
+       },
+       Route{
+           "TodoShow",
+           "GET",
+           "/todos/{todoId}",
+           TodoShow,
+       },
+   }
+
+Todo.go
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "time"_______________________________________________
+   ____________________________________________________________
+   type Todo struct {__________________________________________
+       Name      string    `json:"name"`_______________________
+       Completed bool      `json:"completed"`__________________
+       Due       time.Time `json:"due"`________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Todos []Todo___________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   package main
+
+   import "time"
+
+   type Todo struct {
+       Name      string    `json:"name"`
+       Completed bool      `json:"completed"`
+       Due       time.Time `json:"due"`
+   }
+
+   type Todos []Todo
+
+Main.go
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "log"___________________________________________________
+       "net/http"______________________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func main() {_______________________________________________
+   ____________________________________________________________
+       router := NewRouter()___________________________________
+   ____________________________________________________________
+       log.Fatal(http.ListenAndServe(":8080", router))_________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   package main
+
+   import (
+       "log"
+       "net/http"
+   )
+
+   func main() {
+
+       router := NewRouter()
+
+       log.Fatal(http.ListenAndServe(":8080", router))
+   }
+
+Even Better Routing
+
+   As part of our refactoring, we created a much more versatile routes
+   file. This new file now utilizes a struct to contain more detailed
+   information about the route. Specifically, we can now specify the
+   action, such as GET, POST, DELETE, etc.
+
+Outputting a Web Log
+
+   In splitting up the routes file, I also had an ulterior motive. As you
+   will see shortly, it now becomes very easy to decorate my http handlers
+   with additional functionality.
+
+   Let’s start with the ability to log out web requests like most modern
+   web servers do. In Go, there is no web logging package or functionality
+   in the standard library, so we have to create it.
+
+   We’ll do that by creating a file called logger.go and add the following
+   code:
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "log"___________________________________________________
+       "net/http"______________________________________________
+       "time"__________________________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func Logger(inner http.Handler, name string) http.Handler {_
+       return http.HandlerFunc(func(w http.ResponseWriter, r *h
+           start := time.Now()_________________________________
+   ____________________________________________________________
+           inner.ServeHTTP(w, r)_______________________________
+   ____________________________________________________________
+           log.Printf(_________________________________________
+               "%s\t%s\t%s\t%s",_______________________________
+               r.Method,_______________________________________
+               r.RequestURI,___________________________________
+               name,___________________________________________
+               time.Since(start),______________________________
+           )___________________________________________________
+       })______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   package main
+
+   import (
+       "log"
+       "net/http"
+       "time"
+   )
+
+   func Logger(inner http.Handler, name string) http.Handler {
+       return http.HandlerFunc(func(w http.ResponseWriter, r
+   *http.Request) {
+           start := time.Now()
+
+           inner.ServeHTTP(w, r)
+
+           log.Printf(
+               "%s\t%s\t%s\t%s",
+               r.Method,
+               r.RequestURI,
+               name,
+               time.Since(start),
+           )
+       })
+   }
+
+   This is a very standard idiom in Go. Effectively we are going to pass
+   our handler to this function, which will then wrap the passed handler
+   with logging and timing functionality.
+
+   Next, we will need to utilize the logger decorator in our routes.
+
+Applying the Logger Decorator
+
+   To apply the decorator, when we create the router, we will simply wrap
+   all our current routes in it by updating our NewRouter function:
+
+   func NewRouter() *mux.Router {______________________________
+   ____________________________________________________________
+       router := mux.NewRouter().StrictSlash(true)_____________
+       for _, route := range routes {__________________________
+           var handler http.Handler____________________________
+   ____________________________________________________________
+           handler = route.HandlerFunc_________________________
+           handler = Logger(handler, route.Name)_______________
+   ____________________________________________________________
+           router._____________________________________________
+               Methods(route.Method).__________________________
+               Path(route.Pattern).____________________________
+               Name(route.Name)._______________________________
+               Handler(handler)________________________________
+       }_______________________________________________________
+   ____________________________________________________________
+       return router___________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   func NewRouter() *mux.Router {
+
+       router := mux.NewRouter().StrictSlash(true)
+       for _, route := range routes {
+           var handler http.Handler
+
+           handler = route.HandlerFunc
+           handler = Logger(handler, route.Name)
+
+           router.
+               Methods(route.Method).
+               Path(route.Pattern).
+               Name(route.Name).
+               Handler(handler)
+       }
+
+       return router
+   }
+
+   Now, when you request http://localhost:8080/todos you should see
+   something like this logged at the console:
+
+   2014/11/19 12:41:39 GET /todos  TodoIndex       148.3_______
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2014/11/19 12:41:39 GET /todos  TodoIndex       148.324us
+
+This Routes File is Crazy … Let’s Refactor
+
+   Now that the routes file has gotten a little larger, let’s split it to
+   the following files:
+     * router.go
+     * routes.go
+
+Routes.go – redux
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "net/http"___________________________________________
+   ____________________________________________________________
+   type Route struct {_________________________________________
+       Name        string______________________________________
+       Method      string______________________________________
+       Pattern     string______________________________________
+       HandlerFunc http.HandlerFunc____________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Routes []Route_________________________________________
+   ____________________________________________________________
+   var routes = Routes{________________________________________
+       Route{__________________________________________________
+           "Index",____________________________________________
+           "GET",______________________________________________
+           "/",________________________________________________
+           Index,______________________________________________
+       },______________________________________________________
+       Route{__________________________________________________
+           "TodoIndex",________________________________________
+           "GET",______________________________________________
+           "/todos",___________________________________________
+           TodoIndex,__________________________________________
+       },______________________________________________________
+       Route{__________________________________________________
+           "TodoShow",_________________________________________
+           "GET",______________________________________________
+           "/todos/{todoId}",__________________________________
+           TodoShow,___________________________________________
+       },______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   26
+   27
+   28
+   29
+   30
+   31
+   32
+   33
+   package main
+
+   import "net/http"
+
+   type Route struct {
+       Name        string
+       Method      string
+       Pattern     string
+       HandlerFunc http.HandlerFunc
+   }
+
+   type Routes []Route
+
+   var routes = Routes{
+       Route{
+           "Index",
+           "GET",
+           "/",
+           Index,
+       },
+       Route{
+           "TodoIndex",
+           "GET",
+           "/todos",
+           TodoIndex,
+       },
+       Route{
+           "TodoShow",
+           "GET",
+           "/todos/{todoId}",
+           TodoShow,
+       },
+   }
+
+Router.go
+
+
+   package main________________________________________________
+   ____________________________________________________________
+   import (____________________________________________________
+       "net/http"______________________________________________
+   ____________________________________________________________
+       "github.com/gorilla/mux"________________________________
+   )___________________________________________________________
+   ____________________________________________________________
+   func NewRouter() *mux.Router {______________________________
+       router := mux.NewRouter().StrictSlash(true)_____________
+       for _, route := range routes {__________________________
+           var handler http.Handler____________________________
+           handler = route.HandlerFunc_________________________
+           handler = Logger(handler, route.Name)_______________
+   ____________________________________________________________
+           router._____________________________________________
+               Methods(route.Method).__________________________
+               Path(route.Pattern).____________________________
+               Name(route.Name)._______________________________
+               Handler(handler)________________________________
+   ____________________________________________________________
+       }_______________________________________________________
+       return router___________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   package main
+
+   import (
+       "net/http"
+
+       "github.com/gorilla/mux"
+   )
+
+   func NewRouter() *mux.Router {
+       router := mux.NewRouter().StrictSlash(true)
+       for _, route := range routes {
+           var handler http.Handler
+           handler = route.HandlerFunc
+           handler = Logger(handler, route.Name)
+
+           router.
+               Methods(route.Method).
+               Path(route.Pattern).
+               Name(route.Name).
+               Handler(handler)
+
+       }
+       return router
+   }
+
+Taking Some Responsibility
+
+   Now that we have some pretty good boilerplate, it’s time to revisit our
+   handlers. We need to be a little more responsible. We will first modify
+   the TodoIndex by adding two lines of code:
+
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {____
+       todos := Todos{_________________________________________
+           Todo{Name: "Write presentation"},___________________
+           Todo{Name: "Host meetup"},__________________________
+       }_______________________________________________________
+   ____________________________________________________________
+       w.Header().Set("Content-Type", "application/json; charse
+       w.WriteHeader(http.StatusOK)____________________________
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)__________________________________________
+       }_______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {
+       todos := Todos{
+           Todo{Name: "Write presentation"},
+           Todo{Name: "Host meetup"},
+       }
+
+       w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+       w.WriteHeader(http.StatusOK)
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)
+       }
+   }
+
+   Two things are now happening. First, we are sending back our content
+   type and telling the client to expect json. Second, we are explicitly
+   setting the status code.
+
+   Go’s net/http server would have tried to guess the output content type
+   for us (it isn’t always accurate however), but since we definitively
+   know the type, we should always set it ourselves.
+
+Wait, Where is my Database?
+
+   Clearly if we are going to create a RESTful API, we would need
+   somewhere to store and retrieve data. However, that is beyond the scope
+   of this article, so we will simply create a very crude (and not thread
+   safe) mock database.
+
+   Create a file called repo.go and add the following content:
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "fmt"________________________________________________
+   ____________________________________________________________
+   var currentId int___________________________________________
+   ____________________________________________________________
+   var todos Todos_____________________________________________
+   ____________________________________________________________
+   // Give us some seed data___________________________________
+   func init() {_______________________________________________
+       RepoCreateTodo(Todo{Name: "Write presentation"})________
+       RepoCreateTodo(Todo{Name: "Host meetup"})_______________
+   }___________________________________________________________
+   ____________________________________________________________
+   func RepoFindTodo(id int) Todo {____________________________
+       for _, t := range todos {_______________________________
+           if t.Id == id {_____________________________________
+               return t________________________________________
+           }___________________________________________________
+       }_______________________________________________________
+       // return empty Todo if not found_______________________
+       return Todo{}___________________________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func RepoCreateTodo(t Todo) Todo {__________________________
+       currentId += 1__________________________________________
+       t.Id = currentId________________________________________
+       todos = append(todos, t)________________________________
+       return t________________________________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   func RepoDestroyTodo(id int) error {________________________
+       for i, t := range todos {_______________________________
+           if t.Id == id {_____________________________________
+               todos = append(todos[:i], todos[i+1:]...)_______
+               return nil______________________________________
+           }___________________________________________________
+       }_______________________________________________________
+       return fmt.Errorf("Could not find Todo with id of %d to 
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   25
+   26
+   27
+   28
+   29
+   30
+   31
+   32
+   33
+   34
+   35
+   36
+   37
+   38
+   39
+   40
+   package main
+
+   import "fmt"
+
+   var currentId int
+
+   var todos Todos
+
+   // Give us some seed data
+   func init() {
+       RepoCreateTodo(Todo{Name: "Write presentation"})
+       RepoCreateTodo(Todo{Name: "Host meetup"})
+   }
+
+   func RepoFindTodo(id int) Todo {
+       for _, t := range todos {
+           if t.Id == id {
+               return t
+           }
+       }
+       // return empty Todo if not found
+       return Todo{}
+   }
+
+   func RepoCreateTodo(t Todo) Todo {
+       currentId += 1
+       t.Id = currentId
+       todos = append(todos, t)
+       return t
+   }
+
+   func RepoDestroyTodo(id int) error {
+       for i, t := range todos {
+           if t.Id == id {
+               todos = append(todos[:i], todos[i+1:]...)
+               return nil
+           }
+       }
+       return fmt.Errorf("Could not find Todo with id of %d to delete",
+   id)
+   }
+
+Add ID to Todo
+
+   Now that we have a “mock” database, we are using and assigning id, so
+   we will have to update our Todo struct accordingly.
+
+   package main________________________________________________
+   ____________________________________________________________
+   import "time"_______________________________________________
+   ____________________________________________________________
+   type Todo struct {__________________________________________
+       Id        int       `json:"id"`_________________________
+       Name      string    `json:"name"`_______________________
+       Completed bool      `json:"completed"`__________________
+       Due       time.Time `json:"due"`________________________
+   }___________________________________________________________
+   ____________________________________________________________
+   type Todos []Todo___________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   package main
+
+   import "time"
+
+   type Todo struct {
+       Id        int       `json:"id"`
+       Name      string    `json:"name"`
+       Completed bool      `json:"completed"`
+       Due       time.Time `json:"due"`
+   }
+
+   type Todos []Todo
+
+Update our TodoIndex
+
+   To use the database, we will need to now retrieve the data in our
+   TodoIndex by modifying the following function:
+
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {____
+       w.Header().Set("Content-Type", "application/json; charse
+       w.WriteHeader(http.StatusOK)____________________________
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)__________________________________________
+       }_______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   func TodoIndex(w http.ResponseWriter, r *http.Request) {
+       w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+       w.WriteHeader(http.StatusOK)
+       if err := json.NewEncoder(w).Encode(todos); err != nil {
+           panic(err)
+       }
+   }
+
+Posting JSON
+
+   So far, we have only output JSON, now it’s time to take in and store
+   some JSON.
+
+   Add the following route to the routes.go file:
+
+   Route{______________________________________________________
+       "TodoCreate",___________________________________________
+       "POST",_________________________________________________
+       "/todos",_______________________________________________
+       TodoCreate,_____________________________________________
+   },__________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   Route{
+       "TodoCreate",
+       "POST",
+       "/todos",
+       TodoCreate,
+   },
+
+The Create endpoint
+
+   Now we have to add the create endpoint to the handlers file.
+
+   func TodoCreate(w http.ResponseWriter, r *http.Request) {___
+       var todo Todo___________________________________________
+       body, err := ioutil.ReadAll(io.LimitReader(r.Body, 10485
+       if err != nil {_________________________________________
+           panic(err)__________________________________________
+       }_______________________________________________________
+       if err := r.Body.Close(); err != nil {__________________
+           panic(err)__________________________________________
+       }_______________________________________________________
+       if err := json.Unmarshal(body, &amp;todo); err != nil {_
+           w.Header().Set("Content-Type", "application/json; ch
+           w.WriteHeader(422) // unprocessable entity__________
+           if err := json.NewEncoder(w).Encode(err); err != nil
+               panic(err)______________________________________
+           }___________________________________________________
+       }_______________________________________________________
+   ____________________________________________________________
+       t := RepoCreateTodo(todo)_______________________________
+       w.Header().Set("Content-Type", "application/json; charse
+       w.WriteHeader(http.StatusCreated)_______________________
+       if err := json.NewEncoder(w).Encode(t); err != nil {____
+           panic(err)__________________________________________
+       }_______________________________________________________
+   }___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   24
+   func TodoCreate(w http.ResponseWriter, r *http.Request) {
+       var todo Todo
+       body, err := ioutil.ReadAll(io.LimitReader(r.Body, 1048576))
+       if err != nil {
+           panic(err)
+       }
+       if err := r.Body.Close(); err != nil {
+           panic(err)
+       }
+       if err := json.Unmarshal(body, &amp;todo); err != nil {
+           w.Header().Set("Content-Type", "application/json;
+   charset=UTF-8")
+           w.WriteHeader(422) // unprocessable entity
+           if err := json.NewEncoder(w).Encode(err); err != nil {
+               panic(err)
+           }
+       }
+
+       t := RepoCreateTodo(todo)
+       w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+       w.WriteHeader(http.StatusCreated)
+       if err := json.NewEncoder(w).Encode(t); err != nil {
+           panic(err)
+       }
+   }
+
+   The first thing we do is open up the body of the request. Notice that
+   we use io.LimitReader. This is a good way to protect against malicious
+   attacks on your server. Imagine if someone wanted to send you 500GBs of
+   json!
+
+   After we have read the body, we then Unmarshal it to our Todo struct.
+   If that fails, we will do the right thing and not only respond with the
+   appropriate status code, 422, but we will also send back the error in a
+   json string. This will allow the client to understand not only that
+   something went wrong, but we have the ability to communicate
+   specifically what went wrong.
+
+   Finally, if all has gone well, we send back the status code of 201,
+   which means that the entity was successfully created. We also send back
+   the json representation of entity we created, as it contains an id that
+   the client will likely need for their next step.
+
+Post some JSON
+
+   Now that we have our fake repo and our “create” endpoint, it’s time to
+   post some data. I use curl to do so via the following command:
+
+   curl -H "Content-Type: application/json" -d '{"name":"New To
+   Now, if you go to http://localhost/todos we should see the f
+   [___________________________________________________________
+       {_______________________________________________________
+           "id": 1,____________________________________________
+           "name": "Write presentation",_______________________
+           "completed": false,_________________________________
+           "due": "0001-01-01T00:00:00Z"_______________________
+       },______________________________________________________
+       {_______________________________________________________
+           "id": 2,____________________________________________
+           "name": "Host meetup",______________________________
+           "completed": false,_________________________________
+           "due": "0001-01-01T00:00:00Z"_______________________
+       },______________________________________________________
+       {_______________________________________________________
+           "id": 3,____________________________________________
+           "name": "New Todo",_________________________________
+           "completed": false,_________________________________
+           "due": "0001-01-01T00:00:00Z"_______________________
+       }_______________________________________________________
+   ]___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   curl -H "Content-Type: application/json" -d '{"name":"New Todo"}'
+   http://localhost:8080/todos
+   Now, if you go to http://localhost/todos we should see the following
+   response:
+   [
+       {
+           "id": 1,
+           "name": "Write presentation",
+           "completed": false,
+           "due": "0001-01-01T00:00:00Z"
+       },
+       {
+           "id": 2,
+           "name": "Host meetup",
+           "completed": false,
+           "due": "0001-01-01T00:00:00Z"
+       },
+       {
+           "id": 3,
+           "name": "New Todo",
+           "completed": false,
+           "due": "0001-01-01T00:00:00Z"
+       }
+   ]
+
+Things We Didn’t Do
+
+   While we are off to a great start, there is a lot left to do. Things we
+   haven’t addressed are:
+     * Version Control – What if we need to modify the API and that
+       results in a breaking change? Might we add /v1/prefix to all our
+       routes to start with?
+     * Authentication – Unless this is a free/public API, we probably need
+       some authentication. I suggest learning about [http://jwt.io/]JSON
+       web tokens
+
+   eTags – If you are building something that needs to scale, you will
+   likely need to implement [https://en.wikipedia.org/wiki/HTTP_ETag]eTags
+
+What Else is Left?
+
+   As with all projects, things start off small but can quickly spiral out
+   of control. If I was going to take this to the next level and make it
+   production ready, these are just some of the additional things to do:
+     * Lots of refactoring!
+     * Create packages for several of these files, such as some JSON
+       helpers, decorators, handlers, and more.
+     * Testing… oh yes, you can’t forget that. We didn’t do ANY testing
+       here. For a production system, this is a must.
+
+Can I get the Code?
+
+   Yes! Here is a repo with all of the code samples used in this post:
+
+   [https://github.com/corylanou/tns-restful-json-api]https://github.com/c
+   orylanou/tns-restful-json-api
+
+Summary
+
+   The most important thing to me is to remember to be build a responsible
+   API. Sending back proper status codes, content headers, etc is critical
+   to having your API widely adopted. I hope this post gets you started on
+   your own API soon!
+
+   [https://twitter.com/corylanou]C[https://twitter.com/corylanou]ory
+   LaNou is an experienced software developer with over two decades of
+   experience, and two and a half years of production
+   [https://golang.org/]Go experience. He is currently a lead instructor
+   at [http://galvanize.it/school]gSchool where he teaches Go and leads
+   the local Denver Go meetup, aptly called
+   [http://www.meetup.com/Denver-Go-Language-User-Group/]Denver Gophers.
+   Created with Sketch.
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fmake-a-re
+   stful-json-api-go%2F&text=Making+a+RESTful+JSON+API+in+Go:%20&via=thene
+   wstack][https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fthenews
+   tack.io%2Fmake-a-restful-json-api-go%2F][https://www.linkedin.com/shari
+   ng/share-offsite/?url=https%3A%2F%2Fthenewstack.io%2Fmake-a-restful-jso
+   n-api-go%2F][https://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io
+   %2Fmake-a-restful-json-api-go%2F&title=Making+a+RESTful+JSON+API+in+Go]
+   [https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.io/ma
+   ke-a-restful-json-api-go/]
+   RELATED STORIES
+   [https://thenewstack.io/bring-purpose-to-api-product-development-with-a
+   piops-cycles/]Bring Purpose to API Product Development with APIOps
+   Cycles
+   [https://thenewstack.io/api-security-is-authorization-the-biggest-threa
+   t/]API Security: Is Authorization the Biggest Threat?
+   [https://thenewstack.io/api-management-is-a-commodity-whats-next/]API
+   Management Is a Commodity: What’s Next?
+   [https://thenewstack.io/infrastructure-apis-the-good-the-bad-and-the-ug
+   ly/]Infrastructure APIs: The Good, the Bad and the Ugly
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fmake-a-re
+   stful-json-api-go%2F&text=Making+a+RESTful+JSON+API+in+Go:%20&via=thene
+   wstack][https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fthenews
+   tack.io%2Fmake-a-restful-json-api-go%2F][https://www.linkedin.com/shari
+   ng/share-offsite/?url=https%3A%2F%2Fthenewstack.io%2Fmake-a-restful-jso
+   n-api-go%2F][https://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io
+   %2Fmake-a-restful-json-api-go%2F&title=Making+a+RESTful+JSON+API+in+Go]
+   [https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.io/ma
+   ke-a-restful-json-api-go/]
+   RELATED STORIES
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   [https://thenewstack.io/infrastructure-apis-the-good-the-bad-and-the-ug
+   ly/]Infrastructure APIs: The Good, the Bad and the Ugly
+   [https://thenewstack.io/how-devsecops-teams-should-approach-api-securit
+   y/]How DevSecOps Teams Should Approach API Security
+   [https://thenewstack.io/how-sdks-benefit-api-management/]How SDKs
+   Benefit API Management
+   [https://thenewstack.io/api-management-is-a-commodity-whats-next/]API
+   Management Is a Commodity: What’s Next?
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

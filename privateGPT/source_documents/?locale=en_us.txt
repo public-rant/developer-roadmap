@@ -1,0 +1,15 @@
+   This application simulates a git repository in your browser, so you
+   will need JS to use the app. Try enabling and refreshing the page --
+   Thanks!
+
+   Terminal – Learn Git Branching
+   $
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Git Hg
+
+   [https://github.com/pcottle/learnGitBranching]

@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth > $(basename https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth).txt

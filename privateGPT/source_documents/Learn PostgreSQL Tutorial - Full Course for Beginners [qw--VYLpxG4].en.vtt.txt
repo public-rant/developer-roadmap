@@ -1,0 +1,1067 @@
+Postgres is by far one of the most popular databases out there And the cool thing about
+features And for that reason a lot of startups are using it for their back end applications
+to use it for your own projects as well as for your own career as a developer We re
+Postgres and then I m going to show you exactly how to set it up on both Windows and Mac OS
+not going to learn how to use Postgres or this database called Postgres by using some
+by pretty much just clicking and dragging and you know adding things by using some
+so in this course we re going to be using a interactive shell called p SQL And pretty
+it s not difficult I m going to make sure that it s very straightforward And by the
+with databases And to be honest if you were to SSH into a remote seven you wouldn t have
+like no one does it right And also sometimes it can be very slow so on and so forth But
+options for both Windows and Mac users But the best way of learning any database is by
+So once we set up everything we re going to go ahead and dive into the fundamentals
+going to go ahead and learn how to create databases how to create tables how to insert
+we can actually join two tables together foreign key relationships sequences how to export
+in our tables primary keys and a whole bunch of other stuff Without further ado let s
+go ahead and learn what exactly is a database A database is a place where you can store
+server So basically you put data into it and then you can retrieve you can see data
+by the actual database So let me show you a quick example of where you might see you
+where we can connect with different people from all around the world So with Facebook
+is in a data base Right So for example you know our names our friends our legs
+someone else s page and view you know all the comments so on and so forth So all of
+product right here you can see that you ve got a title you ve got how many sold if what
+of this so even the reviews as well So all of this is coming from a database they have
+to summarize a database is just a place where you can store manipulate and retrieve data
+engine And then SQL is the actual Structured Query Language So this Structured Query Language
+language that allows us to have commands like this So select where select is the actual
+is a reserved keyword for SQL and then the actual table name So SQL allows us to manage
+the syntax is simply select columns and then from and then the actual table or tables
+very very powerful And it s been around for quite some time now since 1974 And it s
+for anyone getting into programming So the question that you might have is how this data
+It s formed by columns and rows right so it s just a regular table And you might have
+of a person as columns right so these are the columns So a person may have an ID first
+of that table So you can see that I ve got
+and so forth So you can see that we have some rows and some columns So I ve mentioned
+it simply a relation between one or more tables right So this is how data might be structured
+have a table called car And basically these two tables they have a relationship between
+doesn t have a car So the car underscore ID column is blank But if you look at Jake
+a relationship is made of And don t worry we re going to cover lots of this throughout
+have some kind of relationship between them Because usually you know in these databases
+have unstructured tables where you pretty much have a table that stores everything
+what you would do is actually split you know your information into tables and then have
+in this course it s called PostgreSQL and basically is the most advanced open source
+in development for about 30 years So you can see right here and basically it s very
+database engine such as Oracle because they don t have to pay for a license Right So
+PostgreSQL Well because I think that you will be in a good place once you learn PostgreSQL
+system So it allows us to work with relational databases It s more than and it s open source
+open source And it s been there for about 30 plus years in active development But you
+which is owned by Oracle and then you have SQL Server owned by Microsoft And pretty
+the most popular one which is Postgres All right from now on we re just going to be
+Mac the easiest way to download Postgres is simply by going to google com and then
+how to download this in a second But if you re on a Mac let s go ahead and download Postgres
+ways on how to connect depending on on on a language that you use But essentially
+that they have additional releases So right here they have the Postgres 9 5 9 6 10
+means that you can spin up all of these databases with these three or actually four versions
+So go ahead and download the additional releases
+like that And he was my password
+There we go That s done So I m going to close this Now go to finder and then applications
+Close that And also let me inject this somebody checked that So open and there
+right here you can expand that And basically if you click on the plus button right here
+what I was saying that you can pick from these versions right here So I m going to cancel
+everything that we re going to cover in this course will work with the previous versions
+not up and running So I m going to stop that And actually you can see right here
+can see that you have the same settings So you can click on this elephant icon right
+you have Postgres 11 up and running in your machine Let s go ahead and download Postgres
+ahead and click on this very first link And right here you can see that you can pick
+a Windows then go ahead and click on download the installer And in this page right here
+and nine three which is not supported So go ahead and download the latest version
+everything will work the same So I m going to download 11 2 the 64 bit version for Windows
+So now what I m going to do is simply double click on this installer Alright so now go
+here you can see that we have some check boxes So the first one is the actual SQL
+graphical user interface client stack builder So this is for additional drivers And then
+and right here add a password for the super user And remember this password because you re
+port as 5432 Next and the same for Volkow Go ahead and press Next Next and now you
+we go So that s it we are done So now uncheck the checkbox right there because we don t
+box And then finish There we go Now go ahead and click on Windows icon and then
+have the P SQL so I m going to grab that and put it on my desktop And the same for
+There we go And let me put them right next to each other And that s it you successfully
+Now that we have our database up and running we need a way to connect to remember our
+anyone can connect to it and view the contents modify content and perform all the operations
+by using a GUI client And this is an application where it eases the way that you connect to
+delete view the data and have like all these fancy UI elements that allows you to see
+and this is my preferred choice And this is because this is how you get your hands
+order to manipulate your database And once you learn how to use a terminal or command
+The third way is by using an application So this is where for example you write a
+and then return that data to your clients so that the client can make the data look
+clients out there But for this course we re going to focus on using terminal because this
+then you will be very comfortable using the terminal or command line because you re not
+there And what are some of the options that you can use if you were to use a GUI client
+any of these databases So right here you see Postgres MySQL Oracle SQL Server Sybase
+UI is very slick And basically it makes it easy for you to see the data you know
+you need to buy a license however you have a 30 day trial But once that s over you
+post Ico So post Ico is a similar to but less powerful And essentially this tool
+And it pretty much allows you to get your job done And for Windows users you can download
+as the other ones So as I said learning how to use the terminal or command line is
+end of this course you will be so comfortable using terminal or command line If you re
+Alright for Mac users the way that you connect your database is by simply open up this elephant
+And right here you see that you have three databases by default So pretty much just
+And if I make this bigger so right here you can see that we are inside of this database
+contents versions 11 and then being an n p SQL so this was the command invoked and
+if I open up the elephant then open up open Postgres So you see that Postgres is the
+I m gonna come out of that and then close this Now if I open up a new shell and then
+to add it to the path So to do so I m going to simply edit my path And this assumes that
+So just let me close everything here And then quit terminal And now I m going to open
+have few files in here But the one that I m interested is this one here So dot Zed sh
+the export right here somewhere press I and then simply say export and then path
+Postgres and then open it again so you see that I m after this path right here So I m
+and then forward slash and then paste that in And we don t need the actual p SQL
+of that simply press escape And then column w There we go So Now if I say source so
+command L and then simply type p SQL you ll see that we have p SQL working without having
+that we added these two icons so PG admin So this is the actual graphical user interface
+the database server up and running So as I mentioned before the best way for learning
+going to do throughout this course So first let me go ahead and show you how to connect
+which is a graphical user interface which I personally don t use And you will see that
+And right here you can see that it s prompting you to enter a server So if you were to connect
+things locally we will connect to our local server So go ahead and press Enter And this
+go ahead and also press enter the port so the default port for Postgres is 5432 enter
+that previously we added a password So this is when we actually use it So go ahead and
+there we go So now you can see that we are connected So if I close this so I m going
+again And then let s actually connect to a database that doesn t exist So let s go
+the password If I press enter you see that database test does not exist right So this
+it one last time And there we go So now I m inside of this database Finally let
+the graphical user interface client I m gonna click on this icon Just give me a second
+to open that up And then we have PostgreSQL 11 So go ahead and click on that And now
+actually password So obviously you would pick something way way shorter than this
+so that I don t have to enter every single time Now I ll go ahead and press OK
+right here So databases this is the actual Postgres database right so this is the database
+because we re going to cover some of these things throughout this course And this is
+interface client for Windows So as I said throughout this course we re not going to
+All right so P SQL And because I m going to be teaching this course on a Mac computer
+I m going to be using p SQL as well Alright so in the previous video we managed to add
+out of this And basically if we don t p SQL you should go into this mode right here
+can type help So help And there we go So you see that we get some help Now basically
+mode I can simply type backslash n and Q And then as you can see I m no longer in
+out of that and then if I simply type backslash and then question mark you ll see that I
+course So let me go ahead and press Q And if I press help again if I press backslash
+that we have in our computer So right here you see that I ve got four databases amigos
+us But we can create our own database to do so we need to use a command that creates
+do so we need to use the command create and then data base And then we have to give it
+what comes before it meaning CREATE DATABASE a must be exactly exactly like that So you
+prefer the database way because that way I know what is SQL syntax and what is not So
+test and then make sure to end that with a semicolon because otherwise it won t Execute
+which says create a database Now to view the list of all databases simply press backslash
+Alright so in this video I m going to show you how to connect to databases And there
+the way that you will learn So P SQL and then dash dash and then help So right here
+you type p SQL and then some options and then the actual DB name followed by the username
+so you can see that these are the connection options So the host is minus or actually
+capital U for username or dash dash username minus w or actually dash W and then dash capital
+then the host will be local host But if you were connected to a remote server then you
+so amigos and that code and by default you can see that the actual username is amigos
+the actual port So by default our database is running on port 5432 And that s default
+test And if I press enter you can see that we are connected into the test database if
+to connect to a database that doesn t exist So test one And you see that we get this
+say the actual user so amigos codes with you know multiple assets And you see that
+see that the connection was refused so let s go ahead and connect to test And there we
+called test The other way is if I press backslash n and Q to exit and then clear
+databases And by the way if you ve missed where I got this backslash L command is from
+databases So I m going to press Q and then P SQL clear the screen and then backslash
+from here simply by saying backslash and then see for Connect and then I can type test
+if I want to connect to a different database So let s say that we want to connect to this
+for you and then enter And there we go So we can switch between databases just like
+this is the database that we re going to be using And there we go And these are the
+Alright in this video I want to share with you a very very important command that you
+video I ve showed you how to create this database called test And let s say that for
+you simply say create an end database and then you give it a name in our case test
+So and also make sure to end up with a semicolon I m not just gonna run it yet because I want
+you have this database called test with five or 10 years worth of history So that could
+addresses emails you know the transactions that they made login credentials so on and
+content is lost in a matter of milliseconds really is just that quick So when you have
+never run This command because you will lose pretty much every single data in it And often
+monitoring to see what people are allowed to do And because I m teaching you Postgres
+any important data in that database right So let me go ahead and press Enter And you
+backslash and then l And you can see that the database is gone So no data in it So
+of your data in case of any eventual accidentally loss of information So let s go ahead and
+an database and then test and make sure to end up with a semicolon otherwise the command
+backslash and then l you can see that we have our database back again So the point
+command
+So to create a table you need to write a command such as this one create table So
+you can have as many columns as you want So the columns have few attributes So the
+must have is the data type So the data type for that column name And then if you have
+second But for now let s say that let s say that you want to represent people in your
+would write CREATE TABLE person And then inside you ll see that I defined the actual
+of a is int So integer meaning that it s numbers And then I have first name which
+length that this column called first name can have is 50 characters long the same for
+up to length six and then I have date of birth and the data type is timestamp maybe
+our minutes and seconds So maybe we can use a date instead of timestamp But I m gonna
+that you might encounter with Postgres This is the documentation for data types within
+page But if I scroll down you can see that you have a bunch of information so table
+So you can see that the data types that you have can be big int So this is a signed eight
+char So this is the alias that I was using And then you have date So this is the one
+month and then the actual date and you have double you have JSON you have money So
+decimal so this is the actual area so you can say no metric or decimal and then you
+byte integer But this is special because he auto increments automatically for you
+when you have text there is no max length And then we have others such as time and
+plus our minutes and seconds and plus the actual milliseconds And we also have view
+navigate to this page to familiarize yourself with all of these data types
+So I m going to go ahead and press backslash and then see for Connect and then test and
+me go ahead and clear the screen So Ctrl L and to create our very first table we
+watch the the slides so that you remember exactly what I have mentioned in the previous
+commands create and then table And then the actual name was person And remember
+be executed until I end up with a semicolon So now let s go ahead and have our very first
+And this was var char and then 50 We also had last name And this was var char 52 We
+ahead with seven And then let s go ahead and finally have the actual date of birth
+know you know the time of when someone you know gives birth we don t usually store
+up with a parenthesis So open parentheses close parentheses and then end that with
+Now the way that we see the list of all the tables that we have in our database is simply
+you can see that we have one table called person and you can see the type is table
+if I press enter and now you can see that we have one table called person And the columns
+data type integer characters and then date right here And there is some extra information
+you create a record in this table And this is how you create a table using Postgres
+So basically what we can do is specify some extra constraint into our table creation
+these constraints Because currently in our table called person we can go ahead and pretty
+and also without date of birth So what is the point of it In a person without any of
+So on the table below you can see that the ID becomes now big zero So this is an improvement
+not be no so not No And I m also specifying that the ID is the primary key for this table
+name So what I m saying is not to know
+last name gender as well as date of birth Let s go ahead and improve our table with
+are on Windows And remember a few videos ago I showed you how to drop a database
+But because I m showing you how to improve this table we can pretty much drop it And
+And then the table name is called person enter If I now do backslash and then D
+creation So let me just clear everything And let s go ahead and say create and then
+be big and then cereal So big cereal means that it s a signed integer which auto increments
+key So all of this is SQL syntax Let s go ahead and do pretty much the same for first
+to add not No So I m going to press column And this should break out So actually not
+not and then now enter Let s go ahead and grab last name there And then this should
+seven I believe and then this will be not No And let s also have the actual date of
+so everything is not know when should a column be nullable So when a new person is added
+So we can go ahead and add another column called email And this will be let s go ahead
+go ahead and say 150 characters And if I say not know so this is not true because
+going to end up with parentheses and also end up with a semicolon If I now press enter
+D you ll see that we have this person right here But we also have this person ID sequence
+So big cereal as I mentioned is an auto increment number so we don t have to keep on remembering
+can find it
+and you can see right here is simply a sequence So we can go ahead and simply say forward
+at this So our table is much better Because we have these constraints right here So not
+So this email right here is because no everybody has an email so it is nullable In this video
+test with one table called person with the following columns Id first name last name
+this table So the person will have the ID of one name and last name Smith gender
+does not have an email So to create this person into our table we have to write the
+the columns that we want to insert in this case first name last name gender and date
+specify the email column And then we have to save values And then values takes an array
+the last column date of birth is actually date and not a string So the way that you
+comes first then the month and then the actual day So there we go So this is how you insert
+this table I have a second person So let s go ahead and simply say insert into person
+insert to our first name last name gender date of birth And in this case this person
+So Jake Jones male and then the date of birth is the year is 1990 the month is January
+with an ID of two into our database So as you see I m not specifying the actual ID
+an auto increment for us which means that we don t have to manage this ID So if we
+So you will get 123 and four so on so forth
+D and you can see the list of relations So this is just to refresh your mind So we
+the tables press backslash D and n t So this shows just tables and you can see we
+is insert and then into and then the actual table name so person and then we have to
+by us by this sequence right here So person ID sequence So I m gonna specify first name
+an email right And that weird parenthesis and then if I press enter this command won t
+then I want to say values And inside parenthesis the values so it takes an array of values
+first name is n And then the last name is Smith So she s a female so female and then
+then the knife So remember that first comes a year month and then the actual day And
+here insert 01 So that means that the insert did work let s go ahead and pretty much just
+So I ve just press the up arrow and I got the same command So in case you re wondering
+awful specify the actual email So email And then if I go all the way down here let s
+And I also have to specify the email So let s say that the email is Jake and then gmail com
+into tables
+let s go ahead and add 1000 more people in our table and also add a column called country
+this website called maka rule So this is simply a data generator basically we can
+And basically you can then select the types and have some options So for our table person
+we have first name last name and then gender And we don t actually have the IP address
+if we select on the type and then simply search for date and right here we can actually
+let s say that 30 of them will be known So we want to have some people in our table
+what we need to do is add another field So let s actually call this country of birth
+think this is good for now So now you can see that we can turn away 1000 rows And basically
+sign up and then you can generate more than 1000 rows So 1000 for us is fine for this
+cars Andra JSON science or fourth So go ahead and pick SQL and then the actual table
+the CREATE TABLE Now go ahead and preview And you can see that the data contains a bunch
+you can see that we have a bunch of inserts And right here we have the actual create table
+and then simply download the data download There we go So now we have this person dot
+ID out there for working with SQL files And pretty much like with web development as
+then I use IntelliJ So you can use VS code or atom So atom is actually good as well
+going to be using VS code So I m going to open that file with VS code So I m going
+dot SQL
+this And also you learn how to insert into tables So insert into person first name
+And then you can see all the values So there is one change that we have to do And that
+And then I m going to say not and then no apart from the actual email remember the
+So let s say 100 or actually 150 And then the gender should be actually seven And country
+grab everything So copy and paste into our terminal and then execute all of these statements
+terminal or command line And basically if you press backslash and then and then question
+output section we have this command right here backslash I and then you specify the
+and then open up a new shell And if I make this bigger so what you need to do is to
+navigate to documents or actually was downloads so downloads there we go And now if I do
+I simply have to type pwd And you can see that the path is uses amigos code and download
+now we can go ahead and execute that file So let s go ahead and press backslash and
+I now press enter you see that we get errors And the error is that the country of birth
+do a backslash and then D and then person you can see that we don t have the country
+as I ve mentioned before using the drop command it s not ideal but because I m just teaching
+fine But if you have a production database do not run this command So to drop a table
+All the data that we have which is to students will disappear as well as the actual table
+So I m going to clear the screen And now press up a couple of times And we re going
+then the file so person dot SQL if I press enter now you can see that we have a bunch
+select and then start from an in person semi column and then enter and there we
+that now we have a bunch of random data But there is one thing that we forgot in that
+person dot SQL And to fix is very easy So let s simply add ID and this will be a big
+and then key So now if I save this remember we don t have to add it here because the
+go back to iterm So let s again drop the table So drop
+I and in the file enter there we go So that worked If I clear the screen and then
+have a bunch of people into this new table There we go So I just want to show you how
+it for selection purposes Alright so let s go ahead and read all the records stored in
+So we have to say select and we re going to select star So I m gonna explain what
+and that with a semicolon So if I clear the screen first and then run this command you
+then we have Jake and the ID is actually managed by the sequence So one and then two So the
+from this table So if I was simply to say select and then nothing so select from person
+go ahead and say select and then for example first name and then from person and that
+or we simply selected the first column Let s go ahead and select first and last name So
+then say second And then name There we go So if I press enter Oh actually second
+we have an end Dan Smith Jake and then Jones Now let s go ahead and select Email
+select I m going to say from person if I press enter you can see that the first row
+an email right here So if I now scroll down Let me simply go ahead and say select So
+this is how you perform the very basic read operation which is selecting everyone from
+In this video let s go ahead and learn how to sort our data using the order by keyword
+ascending order or the sending So ascending means that if you have numbers is 12345 And
+is 54321 And you can see that this is this ending And these are the actual keywords
+a select star and then from person And then if we want to order by the actual country
+that this statement will be sorted is by ascending order So I can even include ascending or
+country There we go press ENTER again And now you can see that the results that we get
+C D so on and so forth So basically ascending and descending they both work for dates
+the default is ascending So if I include ascending you can see that the results are
+meaning from Zed to a I press enter and see that now the results are sorted from the
+ID So if I do ID press enter you can see that he goes from 1999 all the way to one
+also order by the actual first name you can see we go all the A s First let s go ahead
+email So instead of first name last name because it s the same as first name so email
+notes because these are empty And then if I keep on scrolling down so right here so
+and so forth And basically one last thing is that you can combine multiple columns when
+enter you can see that first we have id 123 And then we also have the actual email starting
+because you have for example five here but then you have G and then you have to see
+most one column And finally I also forgot how to sort by the actual date of birth so
+the 1920 all the way to 2017 And if I do the ascending so descending you can see
+order by let s go ahead and select the country of birth From an N person if I press enter
+And then by and then country of and then and that with semicolon and then enter In
+But you can see that we have lots of duplicates right So you can see like Brazil there s
+the world so lots of them So let s say that we just want to know the unique countries
+once or mainly once so on and so forth To do that what we need to do is select and
+of birth and then from person order by and then country of birth If I press enter and
+so forth So I can you know scroll down and you can see all the countries that we
+Sc for descending enter and there we go And this is how you use the distinct keyword
+dates emails pretty much any column Let s go ahead and learn about the where clause
+on conditions So the very basic condition that we can actually do with our table is
+where a column or columns meet certain criterias So we can go ahead and simply say where and
+there we go And now you can see that the results that we go back contains only female
+say it let s go ahead and pick the actual male So where the gender is just male enter
+on column or column So we can actually have multiple conditions So if I go back so if
+and so we can use the Add keyword And we can pretty much just filter for example where
+semicolon enter and you can see that now we have every single guy that was born in
+of birth equals to Poland Or so I can say or so in caps or country of and then birth
+I ve misspelled birth wrong So it s me go back so it should be T and then H and then
+or Poland There we go So we can also filter a bit more So let s see if we have anyone
+if I spelled that correctly or not But I m going to press Q and then I m going to add
+to Peter s mouth Sorry it s a funny surname So if I press my column and then enter you
+have any female change that to female enter and no females with that surname What operators
+operations So most of the times you re going to be using arithmetic operators and comparison
+don t use those unless I m doing something very complex But for most of the time you re
+and learn about the comparisons So basically if I go here and say select and then you
+with a semicolon and then press enter you see that you get this column right here This
+you can see that right here you performed a select one equals one and this has given
+on certain conditions that we want and then it will either return true or false So let s
+right here it is false we can also go ahead and say one is less than two which is true
+less or equal actually let s go ahead and say less than one this is false So you
+it is also true So you can flip the sign So this is the less so the way that I always
+check whether a number is greater than another you can simply type the opposite So greater
+or equal to two So you can see right here this is false So you ve seen equals you ve
+number is not equal So we could simply say select and then did not equal is simply this
+true So let me go ahead and pretty much just type one so one is not equal to one And
+operators or numbers But you can also use them on strings dates and pretty much any
+and then let s simply type lowercase version amigos code press enter you can see that
+code and press enter you can see that now this is false So I could also go ahead and
+it is false And this is how we use comparison operators And basically you can use these
+Alright in this video let s go ahead and learn about the limit keyword as well as the
+So what we can do is simply say select star and then use the limit keyword So I can say
+to limit the results returned by this select query right here so select star and you
+10 people in this table So I can go ahead and simply say select So if I click that
+we only have the first five But we can also offset the actual limit Let s say that you
+you can use the offset keyword so you can say select and then start from person have
+everyone from six up to 10 So I could actually go ahead and remove that limit So this would
+I press enter you see that it starts from six Now there is a another key word that
+standards So it was actually widely used by different order databases and then it
+by using the fetch keyword So we can go ahead and say the same thing So select star from
+of rows So let s say that we want to select the first and then five and then row only
+So I can go ahead and pretty much just select the first row So all I need to do is just
+And basically this is the same thing as using the limit But this is a sequel standard
+let s say Brazil and then France So we could write a sequel like this So select and then
+me put this on a neon line So or country of birth equals to France finally or country
+you can see that we get everyone from China France and Brazil only So this was actually
+country of birth three times So one there another one here and another one there So
+then returns a query matching those values So let s go ahead and improve this query with
+from an in person And then you can say where country of birth in And within parenthesis
+exact same thing that we had up here So right here So if I press the semicolon run the
+makes it easy to add all the countries comma and let s also include Mexico and let s also
+you can see that we have China France Brazil Mexico Portugal And to make this easy let s
+enter Now you can see that we have Brazil and then China So there s quite a lot of
+so only few people from Nigeria and then Portugal In this video let s go ahead and
+out everyone that was born between 2002 1015 for example So we could do that using the
+in your line and then I need to use the where so where and then date of and then birth
+everyone between So let s go ahead and say date So this is a sequel function So remember
+is the actual end So let me explain this in a second So 2015 I said 0101 So basically
+So this is the start And then you have to specify the end if I press Enter And this
+there we go This is how you select from a range where you re specifying the start and
+of birth less than 2000 And someone that has a date of birth bigger than 2015
+operator is used to much text values against a pattern using wildcards So I think is best
+that we have you know this list of emails right here So these emails right here and
+like keyword is simply by saying select person or actually select star from person and then
+and then within quotes you specify the actual pattern Now I can do any character So the
+end you can see that I only get emails ending in com Let s say that we want to find if
+so at and then Bloomberg and then com So basically any character followed by bloomberg com
+a google com email So google com enter three people but there could be a case where we
+France or any other country right So we can pretty much just remove the com portion
+followed by act followed by a googled A lot So you can see the dot here and then followed
+you can see that this time we get a bunch of more emails from Google So this is how
+any characters before you know whatever pattern you specify as you saw right here
+we can use underscore So underscore simply says that this has to match single characters
+enter you can see that we have a bunch of emails right here So you can count the characters
+that let s say that we want to find you know any person that has at least three characters
+enter there s no one there If I press age let s just keep on trying there was not
+one there There s basically there s no one with this pattern right here So you get the
+called a like So let me first run the query And then you ll see why this is useful So
+that starts with P So P and then wildcards So this will match B and then followed by
+you see that we get no one But now let s go ahead and put an uppercase B right here
+and Paraguay Pakistan Palestinian territories so on and so forth right So you saw that
+So it s case sensitive If I put lowercase b and then run this you ll see that we get
+So this is very powerful and basically allows us to group our data based on a column So
+we want to find out how many people that we have for each of the countries that we have
+then press enter you see that these are all the countries that we have So in total 124
+of these countries For that we can use the group by so the group by works as follows
+birth And then if I say from and then person And then let s go ahead and say group So
+of and then birth So if I run this query this will not work and I m gonna explain why
+of code So the the country of birth but we re not getting the actual number of people
+you Second to see if you can pretty much just guess what column we need to select from here
+count so we can use count And this is not really a column is just a function that counts
+Right so we select the country of birth and then it also does a count on the actual
+is only one person Indonesia 96 people Venezuela six people Cameroon three people
+country of birth And so my column enter and I can see the data organized So Afghanistan
+And then you can scroll down and see Indonesia 96 So they have a big population there as
+because sometimes you want to get statistics out of your database And this is how you
+Alright in this video let s go ahead and learn about the having keyword So the Hammond
+after you perform the aggregation In our case we have count and count is simply summing
+So if we want to add extra filtering ie let s say that we want to find out you know
+And if I escape out of that so the way that we use the haven t keyword is after grouping
+So literally right after group by So now we can say having And this now takes a function
+we do the same thing So count and then star so every column and an order by so that s
+let s let s say that the count must be at least five right If I press enter you can
+if I press Q and then we re just gonna put this small as you can see everything in one
+select country of birth comma count star So this is the counting of this column right
+So this is the bigger sign than five and then we can perform the actual ordering Press
+So let s go ahead and say 40 Let s see all the countries with 40 or more people And
+Poland and Russia So we could actually also say bigger or equal to 40 All right let s
+41 So you can see that Russia will be out of the list So Russia was here But if I
+pull anything above 180 just China will be in this list So if I go 180 so 180 And
+say any country that has a population less than was actually less or equal than 180
+you can see China is not on the list So this is it So basically you can use the having
+these functions is if you go to the docs
+So you can easily access this page And basically you can see that the aggregate functions compute
+you can see that the one that we use was count so count right here and then count with an
+single row and you can use Jason aggregate max mean so checking you know the minimum
+So stat so aggregate for functions aggregate for statistics standard deviation also ordered
+this Doc and pretty much just read and see what kind of aggregation that you need for
+useful aggregate functions that you will end up using and what is some max and min So
+to use the max min and then some And once you know how to use these then to use the
+that you want to retrieve out of it then you can come to this link right here and see
+brand new table using mock rule And this will allows us to generate 1000 rows into
+row number then make for the actual make of the car And the type is car make And
+this will be of type money And finally go ahead and give the actual table a name So
+And they can see that we have car dot SQL I m going to open that up and this will be
+the the make and model 200 So this will be 100 And both not and now And for the price
+be not an N No And I m going to leave the link in the description of this video So
+B SQL And basically I just want to execute that file So if you remember so if I do
+executes commands from a file So I m going to press Q and then backslash and then I
+type pwd make sure you navigate to the actual folder downloads in my case And then if I
+to copy This path right here and then go back base dot forward slash and then current
+start from car And you can see that now we have a bunch of cars And one thing that I
+a nice range So in my case I ve chose between 10 100 1000 it could be way bigger than that
+Let s go ahead and find out the most expensive car that we have in this table So to perform
+type select and then the function is Max So this is the most expensive so it s the
+for this function determine the max value and if you have guessed is actually the price
+which is almost 100 000 And we could also get the actual minimum value So instead of
+10 000 So we could also get the average of all car prices So to get the average you
+you see that we get these numbers right here So 55 256 and then dot 657 and then some
+average value or some or even the minimum value you can simply say round So we re
+actual value is 55 257 Now we could also go ahead and pretty much group the information
+and then we want to get the actual make and then model And what we want is actually the
+do a group and then by and we have to group by the actual car And we re actually sorry
+the minimum price for each make and model So if I go ahead and pretty much just select
+the same one So Oldsmobile silhouette is 85 So basically this is actually the same
+could actually drop the model So let s actually drop the model So drop the model here and
+more different Now you can see for Ford so the max value is almost 100 000 And then
+min and then press Enter And now you can see that for sure Ford has the minimum car
+let s go ahead and select the average press Enter And this is the average for each make
+the numbers are nicely rounded So far you ve seen max min and average right So we still
+addition of our data set So let s go ahead and sum the total price for every single card
+So price and then from an end car or press enter and post grades is complaining about
+go ahead and say select again and then some And then price from an end car If I press
+or yen s depending on the currency that you actually use So you can see that it s performing
+sum by the actual car make So go ahead and simply say select And then let s go ahead
+And then some the actual price from an in car group buy and then the actual make
+has a total sum of 4 million And you can see smart right here which is just I think
+it so on and so forth And this is how you use the sum aggregate function In this video
+us to perform maths behind numbers And basically we can use our data set to produce some kind
+find out the discounted price for a product given 10 Right so you can run the query
+produces you a result And I m gonna show you that in a second But first let s go
+simply type select And then let s go ahead and say 10 and then plus and then two So
+have this column right here So question mark column and then question mark So don t worry
+that the result of 10 plus two is 12 we can also go ahead and perform subtraction So
+20 And also you can change these right so if I perform 10 plus two and then plus
+oops
+that the result is five right here we can also perform the power of a number so 10
+to we all know that is 100 So 10 power three are actually three sorry so 10 power three
+And then the way that you perform factorial is actually if I perform select and then
+I run this you can see that the result is 120 And the final operator I m going to show
+So let s go ahead and say select And then let s say 10 And then mod so you simply
+many times does three goes into 10 So three goes into 10 three times And then the remainder
+the same for let s say the modules of four so 10 modular four So four goes into 10
+say six we re actually five first so five goes into 10 two times so the remainder
+video As you can see that the arithmetic operators are very straightforward to use
+they all support arithmetic operators Let s go ahead and select every single car from
+that we have a bunch of cars and then we also have the actual price Now let s say
+say that we are offering 10 of the original price And what we want to do is to have a
+So let s go ahead and press Q And the way that we will do that is simply by saying select
+make model and then price from an end card So just to see what we re doing so is exact
+grab the current price so price and then we want to times that by point 10 So this
+price So for example 87 665 point 88 is 8766 point 53 point at and you can see the
+So we can go ahead and use our round function So round times the 10 and n comma two So
+And effectively we want to know the discounted price with 10 So to do that we need to
+round again So I m going to round that result And within parenthesis let s go ahead and
+a another parenthesis and inside simply type price and n times point and then 10 And
+let s add the two
+off And in fact what we just did was the price So the price minus this discount right
+the rest for all of those So basically this is it right So this is how you use arithmetic
+want to give you a gist of how it looks and how you actually you know grab the column
+if you look carefully on what we did in the previous video ie we got the 10 value and
+the actual table column names so you can see that we have Id make model price and
+specify a column name Postgres will use the actual function name as the column name or
+we ve seen before so let s go ahead and actually use the alias keyword to provide a name for
+let s go ahead and press Q and pretty much on the same SQL query So remember the first
+give it a name So I m gonna say as and then 10 and then percent And actually let s
+price And for the discounted price let s go ahead and rename this too So go ahead
+after 10 and then percent so a very long column name but you get the idea So now
+original price column So now it s called original price And then we have 10 And
+correct that
+and then this count after 10 And this is how you override the original column name
+first keyword I want to teach you is the coalesce keyword So basically the coalesce keyword
+and pretty much type select and then coalesce So cool and then less And inside of this
+we have the result which is one right So in fact let me go ahead and has and then
+is one And when the first parameter for this function is no it will simply give us the
+also have multiple parameters So basically if the first value is not present try the
+press enter you can see that we still get one But if I was to have for example one
+is present in this entire array of values And this is the coalesce Now let s go ahead
+everyone from person And right here you can see that we have a bunch of emails but also
+have an email Nichols doesn t have an email nolley Tynan both don t have an email So
+an email we simply want to have an email with the value of email not provided So to
+from an in person Then enter you can see that we only have emails But obviously we
+you see a lot more So let s go ahead and now use the coalesce syntax that we ve just
+right So if I press enter you see that nothing changes But now if I go ahead and pretty
+can specify the default value when the email is no So right here I want to say email
+email not provided here right here right here right here And if I scroll down we
+So coalesce is very powerful So whenever you have a column which is no and you want
+can tackle division by zero
+you try to perform a division by zero that will blow and throw an exception So similar
+ahead and use a bigger number So 10 and then divided by zero right So 10 divided
+and I want to divide it by zero people right It doesn t make sense at all And this should
+by zero So how do we tackle this Well we have a special keyword And that is know if
+argument is not equal to the first argument And let me go ahead and demonstrate this
+a function it takes two arguments So we can pass the first argument as a number And
+query will be no Otherwise the result will be the first argument So if I say 10 and
+any other numbers so 10 and one the result is 10 So if I go ahead and say 10 and maintain
+would be 100 Because 19 is not equal to 100 As you can see right here and if I say 100
+if I select and then 10 divided by No you can see that Postgres doesn t throw an error
+if and then pass to any other number you see that we get the correct output So 10
+is what we actually care about really is if there is a division by zero we don t want
+Enter And you can see that no error and we can use the coalesce as we you as you
+can have a default value So let s go ahead and press zero and then enter And I get
+enter and my bad So what I need to do is really remove this select right here So if
+result is zero instead of No So this is how you handle division by zero
+is a useful concept that you must know how to use with Postgres Because often when you
+when the record was originally created or when the record was updated or for example
+that gives us the actual date if you type select and then now so this is a function
+is a combination of the date So this is the actual date And then our minute and millisecond
+shift of the actual time And basically from this timestamp you can actually gather the
+column and then date and and that would semicolon And now you can see they only have the actual
+So right here you can see that the time is this So our minute seconds and then plus
+be on a very good shape And if I go to the docks right here you can see that they have
+below So you can go through this documentation But basically if you scroll if I scroll
+And you can have a timestamp without timezone or with timezone So depending on where you
+timezone and without and also you have interval I m going to show you guys exactly how to
+So right here you can see that we already have used the date type right So for example
+time zone or actually this one here or we timezone simply with time zone So if I go
+timestamp right here so for you will be different But now let s say that we want to subtract
+And then you simply have to say interval So this is a special keyword And then within
+for end load semi column you can see that now we re going back to 2017 I can even go
+2008 And this was about you know you know recession so recession time So basically
+months Right So um when 1010 months back so then back to February you can also go
+We can also add so I can go ahead and add if I click this Queen she can see properly
+and then months
+addition and subtraction with dates So I ve selected now but you can also cast this to
+you have to bear in mind is that the whole thing so this whole function right here
+I ve got the hour minute And second you simply have to wrap everything and then cast
+statement press Enter Now you can see that we simply get in the actual date All right
+us to extract specific values from a date So go ahead and say select and then now And
+can go ahead and say select and then extract And then within the parentheses you can say
+timestamp So now I press semicolon you can see that now we are extracting the actual
+the week so this is down you can see that this is Sunday and I think Sundays is zero
+enter you can see that we are in the 21st century And you can also extract like milliseconds
+from a given date Alright let s go ahead and learn about the age function So if I
+email date of birth and country of birth So let s go ahead and perform a select And
+then from person I press Enter y actually country or county so it s not County it s
+with a bunch of people including first name last name gender country of birth and date
+if I press Q we can go ahead and run the same command And I m going to press Ctrl
+age takes two arguments So the very first argument is the actual current timestamp so
+one is the actual date or date of birth in our case So let s go ahead and pass date
+that now we have an extra column with the actual age And you can see that even includes
+and extract whatever field from this age right here but I ll leave that up to you
+values for first name last name gender date of birth and email So you can see in
+which is almost the same apart from the actual domain one with Gmail and the other one
+you do that Well in this table it s impossible because there is no column that can be uniquely
+and this is where primary keys come into play In real world example the way you identify
+to be unique for everyone There are other documents that you could use But let s stick
+our primary key primary key is a value in our column which uniquely identifies a record
+as primary keys are numbers So one two so on and so forth And the way that we are
+and I m going to show you the best one which guarantees to be unique every time it s generated
+Alright in this video let s go ahead and understand how to work with primary keys
+correctly when we created this table so just let me show you the actual command that we
+see that we used primary key And this tells this column is what uniquely identifies a
+this person underscore PK and then this is a primary key So when we created this
+here So this big serial type is managed by us by the actual sequence So remember we
+go ahead and select So let s go ahead and select and then start from person And then
+an ID of one and our name is Alfredo Now let s go ahead and insert a person into this
+I ve got this insert statement And what I m going to do is add ID right here And all
+are on Windows go back and paste that in And now you can see that the insert statement
+can see that the error says duplicate key value violates unique constraint Person keys
+key And we can t have someone with the same ID basically the same thing as if I was to
+otherwise given a passport number you could identify two people which that will never
+actually drop this constraint right because this is a constraint And you can see that
+same person So the way that you drop the primary key constraint is by altering the
+TABLE and then the table name his person And then what you want to do is to drop and
+copy that Paste that and then enter with semicolon If I press enter you can see that
+person you can see that now we don t have a primary key So if I go ahead now and try
+but twice press Enter Now you can see that the same command that didn t work when we
+then where ID equals to one press semicolon you can see that now we have two female with
+is the same right Now if we want to identify these two people basically it s impossible
+of having an ID as the primary key So basically IDs allows us to have a unique value that
+In the previous video we dropped the primary key constraint And then we added two people
+is equal to one then you should get two people back so afraid right here and also right
+So to add a primary key we simply have to alter the table So ALTER TABLE and the actual
+we simply said drop and then constraint and then the actual constraint name Now to
+key receives an array of values And this is because you can compose a primary key based
+absolutely sufficient But there are times where one column is not sufficient In that
+add back our primary key which was the ID So let s go ahead and pass ID And before
+to add a unique constraint on the column ID So we want the ID to be unique for every single
+add a primary key when the rolls are not unique in our table And this is true right So
+can see that we have two people with the same ID right So this doesn t work Now the
+So the way that we delete a record from our table and I know that we haven t learned
+and then the actual table name so person and then we have to use the where clause
+and then ID equals to one If I press on my column you can see that the Delete returned
+ID Now if I go ahead and try to select so select where the ID is equal to one you see
+called person And in fact let s go ahead and add the actual person with ID of one
+where d equals one we should only have one person So now what we can do is add the actual
+key and then the actual column name will be ID If I press enter you can see that
+pretty much describe the table and then person Enter And I can see that we have our primary
+the column that you want to be the primary key is unique in every single row
+allows us to have unique values for a given column So what I want to do first is give
+apply the constraint So let s go ahead and select and then pretty much just say email
+And then if I press enter you can see that we do get the actual email plus the count
+have 292 emails which are no So now I m actually interested to see whether we have
+So if I press enter and as you can see we got 292 emails which are known So now what
+instead of operator let s go ahead and change the name to Fernanda and then grab this Command
+So now let s go ahead and run the same command So we re going to group by the actual email
+email Right And in fact if I go ahead and pretty much performance of that so select
+So my column you can see that right here we have two females So we have a freighter
+this offered right here So we would have a problem right because both Fernanda and
+And this is when the unique constraint comes into play so unique which train allows us
+keys are used to identify a unique row in a table and having an ini constraint it simply
+email should only have unique values ie we should never get into the scenario where
+So if I clear the screen and let s go ahead and try to add a constraint first So to add
+then we can say add and then constraint
+and then simply say unique so this is the actual keyword Now inside of parentheses
+of values which are unique per table But in our case we simply want the email to be
+I press enter you can see that we get an error And it says that could not create a
+And the reason why it can create is because it found that this email right here is duplicated
+you can see that we have two people with the same email And to fix this we could actually
+right here or we could actually change the actual email So this email right here to
+the lead updates probably in the next chapter But for now let s go ahead and simply delete
+person and then simply say where ID equals to And then Fernandez unique identifier is
+Now if I go ahead and try and select everyone with that same email we should only get afraid
+right here So now we can go ahead and add the actual index So ALTER TABLE person add
+and then we re simply saying that we want the email to be unique If I press enter
+then press backslash D and then person You can see that we have this unique constraint
+ahead and try to add the same person that we did so Fernanda with that same email
+I think this was Fernanda Yeah so this is Fernanda if I press enter you can see that
+given cross training that we ve just given And finally let me go ahead and drop this
+creating this So let s go ahead and say alter and then table and then the actual table name
+email address semi column and you can see that that s gone If I press backslash d
+simply by saying alter and then table and then person and then add and you can simply
+this way and the previous way is that now we let the constraint name be defined by Postgres
+you can see that we have this constraint called person email and then key and then it s
+me a message But as I said unique constraints allows us to have a unique value per column
+a table
+us to add a constraint based on a Boolean condition So the easiest way for me to explain
+And you can see that we have a bunch of people and we have this column right here called
+here We could technically have different genders here but let s Say that we want to
+and let s actually grab Fernanda right here So we have Fernanda and for the actual gender
+C and then go back to P SQL and press Q and then paste that and it fails because
+is fine So let me go back to VS code and actually change the email So get low And
+let s go ahead and select and then say unique and then gender From and then person I press
+from person Enter And you can see that in this table right here we have three types
+So what the actual check constraint allows us to do is to make sure that we can only
+very simple So we have to alter and then table person and constraint And then we
+we have to use is this one check So now inside of this check constraint we pass a
+or gender equals any should be just one equal not double equals sorry so equals two and
+that this fails and it fails because we have one row which is violating this constraint
+go ahead and delete this person So we ll simply say delete from an in person where
+and then try to add the same constraint you can see that now this time it works So just
+And now you can see that we have this check constraints And you can see our gender constraint
+go ahead and try and add the same person with the gender alone So if I go back and then
+can see that that fails So you have an error new row for relation person violates check
+low and then grab that Go back paste that in And you see that that doesn t work So
+in the gender column So check constraints are really powerful And basically you can
+right here So for example for a product you could say that a product should have a
+depending on your data set In this video let s go ahead and learn how to delete from
+keys allows us to unique Please identify a record in a table And when you want to delete
+where clause So you could delete by the actual primary key we could also delete by gender
+careful because for example if I was to delete where the gender is male then we would only
+Omar is my D have to So you ve seen how to delete before but I didn t actually explain
+and then you pass the actual table So person So if I was about to actually execute this
+enter you can see that with the lead ID every single one from our table called person
+ahead and open up a new shell and navigate to a folder where I have stored the SQL file
+we have this person to SQL So I need to know the actual directory So pwd grab that and
+executing from a file and then paste the actual directory and then person dot SQL
+select star from an in person you see that we have everyone back so you can see oh my
+So it s no longer one because we did not reset the sequence which is managing this
+So if I type DELETE FROM and then person Now I m not going to run this because you
+is the actual filtering So we can say where and then ID equals two And in that so 1011
+see that Omar is no longer from this table So you could actually go ahead and extend
+the gender so gender equals two and then female And you could say and and then country
+and not County and then press enter So we haven t gotten no one from England as odd
+three females from Nigeria And if I was to go ahead and select star from person
+C base that in semi column you can see that we haven t got no one But if I change the
+go ahead and delete all the female from this table So the lead from person where and then
+can see that we deleted more than half of our data so 516 guys we re gone So if I
+from the stable So as you see like delete is very straightforward So you can use the
+So bear in mind that using the Delete on its own as we did so just saying the lead from
+because otherwise you just wipe out the entire table And then you can get into trouble
+one record from your table or few records from a table depending on your WHERE clause
+But in the meantime what I m gonna do so let s go ahead and just simply cancel that
+because I want to add everyone back into this table So we deleted the remaining females
+right here Enter And now if I do a select star from person you can see that we have
+Alright in this video let s go ahead and learn about the update command The update
+you could update every single row if you don t provide a where clause But usually providing
+So let s say that we want to update this person right here So Omar so we want to update
+we have to use the update command And then we have to specify the actual table And now
+new values So right here we could say email equals two And in this would be the actual
+execute this command this would behave the same way that I ve showed you with the Delete
+which we technically don t want So it s always best to use the where clause someone say where
+identifier equals to 2011 If I press enter it see that we have one row which was updated
+column and you can see that now we did update the actual email So let me update one more
+Enter And you can see that this now was updated from Gmail to Hotmail So we could also update
+could go ahead and say up date and then person set and then this is the actual array of
+one M And then if you want to update a second or third or more columns you simply add
+name equals true And unless simply say Montana so Omar Montana and you could also update
+Montana at and then hotmail com And remember so if we don t provide a where clause we
+we already have a unique constraint But this is so that you know so now I want to say
+to select Omar again And you can see that now we have updated his first name last
+Just bear in mind that whenever you perform an update delete you always want to have
+in this video let s go ahead and learn how to deal with duplicate key errors or exceptions
+let s let s go ahead and pick someone else So let s go ahead and pick this person right
+ID equals two 2017 Right So remember the ID column So this ID column right here is
+Russ so meaning that if you were to insert someone with the exact same ID your query
+use So let s go ahead and try Let s go ahead and simply say insert and then into and then
+email date of birth and finally country of an end birth And then don t press semicolon
+values And then within parenthesis let s go ahead and try to add someone with the exact
+name So Russ and then they should be in quotes And then last name I m not even sure
+the actual date of birth so remember date and then first comes the actual year or 1952
+want you to have a guess whether this will work So remember I said that the actual
+the exact same information as Russ including the actual ID And in fact you can see that
+primary key And you can see in the actual detail it says key ID 2017 already exists
+basically you want to handle the case where you have conflicts And this is when you use
+instead of running the same command again remove the semicolon and then press Enter
+on conflict scenarios So on conflict and then we have to pass the actual column that
+do and then nothing So if I press semicolon now if I run this you can see that we have
+how you handle duplicate key errors Now we created for the actual ID so Id right here
+a unique constraint so if I press backslash D and then the person you can see that right
+and clear the screen and then instead of actually saying on conflict ID I can pretty
+if you don t have a unique column right So if I was to pretty much just pass first
+constraint matching on the on conflict specification So whenever you want to use the on conflict
+a unique or shrink And you can also have a non conflict on multiple columns if you
+In the last video you saw how to use the on conflict do nothing And he saw that if
+you pretty much want to do something else other than to nothing And a good example
+he performs a request to register to your server right So he performs a request to
+but then immediately changes his mind and then updates his email with the exact same
+sent a different email right So in this case basically sometimes you might not
+from your client So This usually happens when you work in a distributed system where
+works So if I press up a couple of times so I pretty much just want to select this
+is no insert so 00 Now if I go ahead and select it again you see that no information
+to register with this information And then about two seconds later he decided to add
+at the end of his previous email So this is where you use the on conflict so on conflict
+works pretty much the way that you saw how to use the update command So we have to say
+to take the email so the current email which is stored in the database and then you want
+email So basically this email right here so this email relates to this one right here
+one which is about to be inserted So if I press semicolon and then press enter you
+because the email was the exact same thing Now let me just clear the screen select
+I m going to add a uk at the end There we go And then press enter You see that works
+So this excluded dot email was the one about to be updated And pretty much I ve simply
+pretty much every single value So if I go back and then right here you could say set
+and then name equals to and then excluded dot and then last name And you can pretty
+dot and then first name And you get the idea So if I press semicolon run that you see
+and then the actual surname to Rudy press enter you see that works And if I select
+But if you look at the email the email kept the same And this is how you use the on conflict
+pretty much allows you to override existing data If present otherwise insert a new
+So far we have two tables person and car And what we want to be able to do is to have
+ie we want to have a select query where we select the person as well as the car Now
+every single information inside of a person table So right here you can see that you
+to store the actual address for that person you would stick more data into this table
+database ie you could have multiple tables and then connect them together based on a
+not nulls which means that if you were to insert a new record into this table you d
+is a very bad approach So essentially what we want to represent is that a person has
+So to achieve that what we can do is actually have a relationship And a relationship looks
+called car underscore ID And this is the actual foreign key So this is what a foreign
+So you can see that this foreign key links to the actual primary key inside of our car
+that this is a big int So the foreign key is a big int as well as the actual primary
+that type And then you say that your references or references and then the actual table car
+that we pass the ID and the ID is this column right here inside of car And then I m also
+only one person And also we are saying that a person may or may not have a car and finally
+All right in this video let s go ahead and add a relationship between our two tables
+one car And one car can only belong to one person So if I describe our tables in our
+we re going to do in this video is drop these two tables because I want to remove the entire
+and then table So you ve seen this before person And let s also drop the cart table
+Now go ahead and download this file right here which you can find in the resources
+we re going to edit and add the relationship between person and car So right now is just
+table And what we want to get out from this is that a person can have one car and a car
+will serve as the referencing column to the car table ie the foreign key So to do that
+data type So I can simply just gonna go ahead and say big cereal because big cereal is
+big and then it so they are pretty much the same in terms of the actual size But
+we could also go ahead and say not and then oh but the reason why we re not doing this
+has a car until they become 18 or 16 in some cases so I m going to remove that And
+And then I need to specify the actual table And now I need to specify to which column
+So this ID right here is this one right here And this ID is our foreign key Now remember
+unique constraint And the way that you add unique constraints within your table creation
+is all so now go ahead and save this And now what we need to do is to execute these
+this table first this would fail And that s because this cart table doesn t exist So
+see that right here relation cart does not exist So I m going to clear the screen and
+And I m just going to put it first right here and make sure you have this exact same setup
+paste all of that But what I m going to do is execute from a file so backslash I and
+slash and then person dash and then car dot SQL number press Enter And you can see that
+and install from car can see that we have two cars and let s go ahead and select star
+we have this new column called caller ID Which we haven t assigned to anybody
+you can see that the car ID column in person is completely empty for every single one
+see that the constraint that we added so this one right here backslash D and that
+in fact we forgot to add the uniqueness constraint on the actual email But you ve saw that in
+and then from car Now let s go ahead and assign a car to Fernanda so let s go ahead
+pick this one right here So Land Rover equals to one where I lead ID equals to one So actually
+to set the car ID So let s actually change this So too and then one So one is Fernanda
+one right here And we re going to assign there this car right here called GMC So
+and press enter you can see that works Now if I select everyone from car Oh actually
+also add a car to Omar So update person set car ID And for now let s actually try and
+someone to press Enter And you can see that so if I clear the screen and run the same
+taken So let s go ahead and select cell from person and from car so you can see properly
+press Enter And now if I select everyone from person so let s start from the person
+all cars and then car From and then car You can see that Omar has the car ID of one
+which is this one right here GMC And this is how you set a value that corresponds to
+let s try now Adriana So adrena has an ID of one But now let s try and add an ID that
+table So if I was about to run this and in fact let me run it you see that insert
+is not present in table car which is true And that s the power of foreign keys it means
+Alright now that we have a foreign key constraint between our two tables person and car let s
+two tables And the way it works is that you have a table a as well as a table B And what
+common in both tables So if you have a record inside of the table a and also a record inside
+those two records and then gives you the result of both which we re going to call it
+then if we have a foreign key that is present in both tables then we have a new record
+that you know what a join is let s go ahead in this video perform a join between our two
+star from an in car So we want to perform a join based on this foreign key right here
+have to say select and then star So we want to select every single column And then from
+column and then on a new line simply say join So this is how you join to another table
+you need to say on so on takes a column which can be used to join these two tables So in
+So let s go ahead and say person dot and then car underscore ID equals two and then
+got two results And in fact because you can t see properly I m going to show you
+see that we have expanded display on now if I perform the same select you can see that
+performed a join between two tables And pretty much this right here is what actually sorry
+see the same for Fernanda so Fernanda right here she has the car ID of two And you can
+if I scroll up so obviously Adriana is not included because she doesn t have a car So
+is found in both tables So just let me go ahead and show you one more thing So you
+let me remove that so so you can see that we get every single column So now what we
+select And now I can go ahead and say person don t and then first name And then comma
+then car dot and then price And then we can go ahead on a new line So if I clear the
+and then person and then we re going to join so let s join and then car on and then person
+selected only the columns that we wanted And let me go ahead and remove this expanded
+you can see that if I remove that you can see that now we simply selected few columns
+joins Left joins allows us to combine two tables like inner joints So Table A and table
+ie Table A as well as the records from table B that have a corresponding relationship
+even if there isn t a match and then you get result See let me go ahead and show
+then join so let s go ahead and first join car on person not car ID equals to car door
+see everything in one line So just like that And then if I run the same thing so just
+right two people And that s because if I select Start from person you see that Adriana
+single row where the ID is equal to the actual foreign key and anything else is discarded
+to have this exact same query including Adriana And this is where left join comes into play
+and then join And basically now everything is the same So we want to left join to car
+semicolon and now press enter and this includes everyone that has a car So you can see Omar
+are filled with values for both Omar and Fernanda so you can see right here so value one and
+people without a car you can see that these values for Adriana are no And this is what
+don t have a foreign key relationship So now with this we can actually find out people
+start from and then person And then you could say where ID is no well actually not ID sorry
+And you can see that we have a DRI honor but also with a but also with a left join
+star from person left join And then you can say where and then car dot and then star
+can see that now we include the actual joint of both tables but only persons that don t
+the initial joints So just like that so you can see what we re doing And there we go
+And also let s go ahead and perform the actual join So you can see the difference So enter
+in both tables The left join gives us those who have a foreign key and also those who
+a foreign key constraint So this is it for left joints It s very powerful In this example
+And this is how you perform
+Alright in this video let s go ahead and learn how to delete when you have a foreign
+13 So I m going to copy that and then go back to my time paste ad you can see that
+and then open that person with SQL And now let me go ahead and pretty much just grab
+of Omar let s simply say john and then Smith And then Mel and then the ID let s
+no email So I m gonna grab that and then go back to iterm Paste that and you can
+ID equals to 9000 you can see that we have john and select Start from car where and then
+a car And you can see that john doesn t have a car So right here it s no So let s go
+and then person and then set car underscore ID equals two and this will be 13 So 13
+to 9000 So this is John s ID enter you can see that worked So if I select john again
+car So now you can see that john has a car Now if I go ahead and delete this car right
+and then from car And then where ID equals 213 If I press enter and should be where
+you can see that this didn t work And the reason why it doesn t work is because we have
+ID of 13 And the error is up there or the late table car violates foreign key constraint
+from table person So this is what I ve just said So basically we tried to delete this
+you try to delete individual Records make sure that if there is a foreign key constraint
+deletion ie if I want to delete this car right here I first need to remove the car
+right here So we have two options One is to actually delete john because there is
+can update the car ID to now and then delete the actual car So let s go ahead and pretty
+Again if you want you can update this value to No And that would still remove the foreign
+see that that worked So if I select and then start from person where ID equals to 9000
+DELETE FROM car where ID equals 213 Enter you can see that the car was deleted select
+topic that you should be aware of And basically you could have a cascade on your table creation
+row where that key is referenced And the reason why I m not teaching you cascade is
+exactly what to delete Because deleting data without knowing what you re doing can be very
+So what we want to do is actually select our data so perform a selection and then export
+let s go ahead and perform a join or actually left join because we want to include everyone
+car id equals to person dot car underscore ID Press Enter you can see that we have
+so backslash and then question mark And right here in this section input output you can
+stream to decline host And to use it let s simply say backslash and then copy And then
+three rows right here So for that we need to perform the same query So select
+y actually person dot and then car underscore Id just like that And now I want to copy
+to save the output in your file system So in my case will be Ford slash and then uses
+And then within quotes this will be comma And now we want this to be as CSV And we
+then enter and uses amigos code desktop a is a directory And that s true So basically
+Enter And you can see that we copied three rows If I open up my desktop you can see
+that we have our CSV file including the headers as well as the results from our query So
+files with Postgres In this video let s go ahead and learn about the big serial data
+here the ad is actually a big zero so big zero And if I remember correctly I mentioned
+number is an integer So if I open up my terminal and if I describe both person and car you
+the special thing about it is that right here so on this default column you can see that
+same for car So you can see right here so the type is big int And the default value
+to go ahead and select so let s go ahead and select and then start from and then we can
+ID and then sec four sequence semi column If I clear the screen now you can see that
+been invoked And then right here you can see whether it s been called or not So if
+here is andriana So I joined right here is three So this three represents this three
+go ahead and describe person And you can see that we have this next vowel so we can
+and then paste that in and then end out semicolon Enter And you can see that the next while
+so on and so forth Now if I go ahead and select and then start from an A person ID
+that he represents this one right here So this means that if I go ahead and add a new
+but because we invoked this function right here so next to Val right and the next
+nine So let s go ahead and try that So I m going to go back to my SQL And then what
+else So let s go ahead and say john and then same surname male And then let s say
+And then you can see that right here I m not adding the actual ID So this is managed
+see that the insert did work But if I now select so if I press up two times select
+pretty much use sequences sequences is simply a big int So depending
+cereal it s a big int So if I describe person right here you can see that the type is big
+do with sequences is actually restart the actual value So if I pretty much clear the
+going to call it again also 10 1112 and 13 If I go ahead and select star and then
+from person let s say that we want to restart with a value of 10 So basically the next
+we can say alter and then sequence and then the name of the sequence or person ID and
+now the actual value So let s go ahead and say 10 If I press semicolon you can see
+value is 10 Right Or actually we could have restarted to nine right so if I go
+If I now select star from the sequence the last value is nine If I go ahead and invoke
+off And this is all you need to know how to work with sequences Alright in this video
+And for this reason extensions loaded into the database can function just like features
+to your database So to view the list of available extensions go ahead and simply say select
+available extensions by pressing my column and right here you can see the list of all
+for example this one ref ENT functions for implementing referential integrity absolute
+So right here examine the visibility map And page level II also have a store So this
+can see that there are a bunch of these guys right here and even half so this one which
+is really really awesome You also have for example SSL info so information about
+one here so let s take a closer look on this one So you will Oh s SP So basically this
+data time for primary keys and pretty much unique key so as you can see it generates
+Alright let s
+you IDs allows us to have a guarantee unique identifier whenever the identifier is generated
+is pretty much impossible And the way that they achieve this is by using some really
+and other key factors But I m gonna leave a link where you can access this page and
+different versions you can see for example version one this consisted of the daytime
+and three and five and also version four which is completely random So let s go ahead
+in the previous video I ve showed you how to select and then start from PG and then
+And to use you IDs we have to add the extension So you right here you can see that we don t
+and to install an extension you simply have to type create and then extension And then
+if already exists So it s an item potent command which means that you can execute
+we want has to be within quotes and simply type the extension name So for us is your
+that now we created extension So if I go ahead and select star from extensions or
+Now let s go ahead and learn how to generate a uod Somewhere press Q And in order for
+and then question mark and simply search for function and then scroll down So right
+functions So let s go ahead and try that So I m going to press Q and then backslash
+available to us So remember so because we just installed the euid Extension we have
+we can pretty much just invoke these functions right here So the function that I want is
+completely random So I m going to go back and to generate you will simply type select
+then pretty much invoke the function
+exactly what we re doing
+And this will be unique every time I invoke this which is amazing So let me just simply
+this a million times And basically the UE will never be the same And this makes it
+using us as keys is that it makes it very hard for attackers to try and mine our database
+attacker could actually exploit all the numbers So one two I don t know 1 million or you
+so forth But with you it s it s very very difficult for them To actually guess which
+unique that means that you can migrate data across databases without any conflicts So
+so a big int or an int then most likely you would have clashes when adding some data from
+it s auto incremented And basically in both servers there s no way to actually tell that
+in this video let s go ahead and change both person and card tables to use you IDs instead
+dot SQL from the Exercise Files folder And what we re going to do is actually change
+in case you have forgotten So I m inside of the Postgres data type docs And you can
+cereal So you ve you ve seen this one here which is a auto incrementing eight byte integer
+So I m going to go back to VS code and it s actually changing So instead of being serial
+for the cart table So you would just like that And one more thing that we re going
+and pretty much just say that this will be person underscore and then you ID and the
+is in the actual foreign key so right here so this no longer references a big n So this
+then car underscore you it So car yo it So this is the foreign key that references
+change the actual inserts right So before we weren t including the actual ID because
+ID here we re actually not ID so we renamed it to person and then underscore u ID
+then v four So remember this is a function that we saw in the previous video So I m
+be person and then underscore yo ID and then paste that in So invoking the function the
+you ID values and then we paste that function there The same for this next car So car
+to do is actually change the order of these table creation So remember because we have
+first here and then the actual person And one last thing that I forgot is that this
+and then dash car and then dash and then three dot SQL in my desktop So I m gonna save that
+Now because we re going to recreate these two tables let s go ahead and drop the table
+go ahead and drop person first And also drop car So we re going to drop car Now I m going
+do backslash I for execute from a file And then the destination of that will be fought
+dash car dash three dot SQL Now if I go ahead and execute you can see that everything
+clear the screen and do a select star from person So this time let me actually go ahead
+select And you can see that the person you wit is now the primary key And the actual
+different So in fact let me go ahead and describe person So person you can see that
+an in car And you can see that we have two cars right here So one last thing that we
+and update or first maybe make this smaller the expanded display and simply type backslash
+what we re doing Now let me go ahead and select star from person And also select star
+update and in person set and then car underscore you ID equals two And let s grab this first
+So we re going to assign this car to let s say let s say this time adrena gets to get
+a car to Fernanda so Fernanda will have a car So just let me delete that And the car
+and then paste that in Enter you can see that works Now let s go ahead and perform
+to join car And then we can say on person dot and then car and then underscore u it
+can see that if I make this smaller so because we have lots of columns So press enter Still
+the same query And now you can see that this first record so this one right here so this
+it s a joint between those two tables And the same for for Nandan and you ve learned
+now I want to show you one thing and that is you see that we perform a join right here
+fields are the same so the keys ie the foreign key and the primary key are this We can pretty
+and then car you would because both the primary key and the foreign key have the same
+ID you can simply ditch that and use this using keyword which is much nicer So let
+So we want to grab everyone with and without a foreign key constraint So for that left
+and Omar he doesn t have a car So right here you can see that car information is
+and say where and in car dot and enstar is no So now we should only get Omar there
+right here using is really useful when both the foreign key and the actual primary key
+Now you should be aware of how to use Postgres you know we ve gone through a lot of important
+start writing queries that really makes sense So everything that you ve learned in this
+And I always say because I really want you to engage And if you feel that there was
+ahead and let me know And I ll make my efforts to explain it further
+node j s and express So Spring Boot allows you to create very fast applications using
+you can take whatever you ve learned from this course and apply it to create back end
+right So this is where you take some data from clients and then you store that in a
+right So how you process information how you create restful API s right How you can
+right behaviors And this is when Spring Boot and no Jess allows us to do so that allows
+the database part Now it s a way of view taking an application and connect to a database
+enhance your skills with Postgres go ahead and check my course on advanced Postgres
+queries common table expressions triggers views and all other important concepts that
+get going So now you can expand your knowledge by taking the advice Postgres qL course So
+you on the next course Join me there See ya

@@ -1,0 +1,293 @@
+in the last lecture we have studied
+about storage structure under the basics
+of operating system and in this lecture
+we will be studying about input output
+structure which also comes under the
+basics of operating system so as we
+studied about storage structure in the
+previous lecture we see here that
+storage is only one of the many types of
+input output devices within a computer
+so what are input output devices
+input output devices are the devices
+that are used for either giving input or
+getting output from your computer and
+storage also is just one of the many
+types of input output devices that we
+have so we see that input output devices
+or something that is very important so a
+large portion of operating system code
+is dedicated to managing IO both because
+of its importance to the reliability and
+performance of a system and because of
+the very nature of the devices so as I
+told you since input output devices and
+managing input output is very important
+so when you code the operating system a
+very large portion of that code is
+dedicated for managing the input output
+and why is that it is because of its
+importance to the reliability and
+performance of the system the
+reliability and performance of a system
+greatly depends upon how its input and
+output are managed and also because of
+the varying nature of the devices we
+know that we have different input output
+devices and then all these input output
+devices are very different in nature so
+since they are very different or varying
+in nature and because it is very
+important for the reliability and
+performance of a system a large portion
+of operating system code is dedicated
+for managing this input output so we see
+that a general purpose computer system
+consists of CPUs and multiple device
+controllers that are connected through a
+common bus now this was something that
+we have studied when I started teaching
+about operating system let s just go
+back and look into it once more so here
+when we study
+about computer system operation we said
+that a general purpose computer contains
+one or more CPUs and a number of device
+controllers connected through a common
+burst that provides access to shared
+memory so here we see that we are having
+different devices and these devices they
+are connected to a particular device
+controllers like this here we see that
+the disks are connected to the disk
+controllers and then the USB devices
+like your mouse keyboard and Printers
+were connected to the usb controllers
+and monitor is connected to the video
+adapter so each device is connected to a
+device controller which are connected
+via a common bus this line here
+represents the common bus and they
+provide access to shared memory so that
+is what we have said over here and now
+each device controller is in charge of a
+specific type of device we know that
+there are different types of device and
+each device controller is in charge of a
+specific type of device and this device
+controller it maintains two things what
+are they
+one is a local buffer storage and the
+other one is a set of special purpose
+registers so we will see why it
+maintains this and what is the use of
+this as we proceed further but remember
+that a device controller maintains a
+local buffer storage and a set of
+special purpose registers and typically
+operating systems have a device driver
+for each device controller now we have
+talked about device controller now we
+are talking about another term called
+device driver now operating systems they
+have a device driver as well for each
+device controller and let s see why do
+we have that this device driver
+understands the device controller and
+presents a uniform interface to the
+device to the rest of the operating
+system so as I told you these devices
+are very different they have a varying
+nature as we said and then each device
+controller also will be different for
+different devices and then how will this
+device controllers interact with the
+operating system
+a proper interface that allows these
+device controllers to interact to the
+operating system so this device drivers
+they understand what kind of nature does
+the device controller have and it
+provides a uniform interface to the
+device to the rest of the operating
+system so that is a function of your
+device driver now let us see how does a
+basic IO operation work so here we will
+be seeing the working of an i o
+operation so here we have a diagram and
+here is explanation of that so let us
+see first of all to start an i o
+operation the device driver loads the
+appropriate registers within the device
+controller so when an i o operation has
+to be performed by any device so what it
+does the respective device driver of
+that device it loads the appropriate
+registers within the device controller
+so when we were talking about device
+controller I told you that device
+controllers maintains a set of registers
+so from these registers the appropriate
+registers that are required for
+performing that particular input output
+operation will be loaded by the device
+driver and then the second point is the
+device controller in turns examines the
+contents of these registers to determine
+what action to take now why does it load
+those appropriate registers those
+registers are loaded because in that
+registers we have the information or the
+data about what is the action or what is
+the exact input output operation that
+has to be performed so after the device
+driver loads those appropriate registers
+within the device controller the device
+controller will examine the contents of
+those registers and determine what
+action to take so as I said these
+registers will contain the information
+about what action to take so the device
+controller will examine that in order to
+know what is action that has to be taken
+and then the controller starts the
+transfer of data from the device to its
+local buffer so whatever has to be
+form that data for that will be
+transferred to the local buffer of the
+device controller so when I talked about
+device controller I told you it has a
+local buffer and a set of registers so
+we saw what the registers are used for
+and now comes the local buffer so the
+data from the device is transferred to
+the local buffer object device
+controller and then once the transfer of
+data is complete the device controller
+informs the device driver via an
+interrupt that it has finished the
+operation so we saw that the data was
+transferred to the local buffer and then
+once the data transfer is complete once
+the execution is complete then the
+device controller will inform the device
+driver that it has finished its
+operation
+so once operation is finished the device
+controller will inform the device driver
+and how will it inform it will inform
+via an interrupt so I have already
+explained in one of the previous lecture
+about interrupts so via an interrupt it
+will be informed to the device driver by
+the device controller that it has
+finished his operation when it is done
+and then what happens the device driver
+then returns control to the operating
+system and after it is done the device
+driver will return the control to the
+operating system so then it can continue
+with the other work or tasks that it has
+to do now this is the diagram that
+represents whatever I was explaining
+over here here you have the CPU and here
+we have a device and this is the memory
+and then when the device has an
+input output request after loading the
+registers and everything the device
+controller loads is data to the local
+buffer and then it goes via the CPU to
+the memory so here we have the
+instruction execution cycle and the data
+movement between the CPU and the memory
+and whatever task has to be done will be
+done and then the data that has to be
+transferred back to the device will be
+transferred back and then once
+everything is done via an interrupt
+tells that I am done with my operation
+so this is the diagrammatic
+representation of whatever is written
+here now we see that there is a
+disadvantage to this kind of operation
+let s see what it is
+this form of interrupt driven IO is fine
+force moving small amount of data but
+can produce high overhead when used for
+bulk data movement so we see that when
+this kind of a system is used it is okay
+when it is used for moving small amount
+of data but if you want to move or if
+you want to do input output operations
+that involve large or bulk amount of
+data movement then this is not a very
+efficient system why because it is going
+to take up so much of your CPU and time
+because the CPU is always being
+interrupted over here and in order to
+solve that what do we do to solve this
+problem direct memory access also known
+as DMA is used so in order to solve this
+problem we have something called direct
+memory access called DMA so that one is
+used so that is what we represent over
+here and let s see what happens in DMA
+after setting up buffers pointers and
+counters for the i o devices the device
+controller transfers an entire block of
+data directly to or from its own buffer
+storage to memory with no intervention
+by the CPU so even in this direct memory
+access the first three points they
+remain the same okay they will have to
+load the registers buffers and
+everything and after doing that instead
+of going via the CPU in this way what it
+does is that the device controller heat
+transfers an entire block of data
+directly to the memory from its phone
+buffer storage without intervention of
+the CPU so in DMA we see that the CPU is
+not affected it just goes directly to
+the memory so whatever has to be sent to
+the memory can be directly sent and
+whatever has to be taken back from
+the memory also can be directly done
+without intervention of the CPU so this
+is direct memory access
+so in this direct memory access only one
+interrupt is generated per block to tell
+the device driver that the operation has
+completed so here only one interrupt per
+block is required but in case of our
+other system that we first explained
+there will be interrupt per byte of data
+that is being transferred so the CPU is
+interrupted so many times making it an
+inefficient system but here only one
+interrupt is generated per block and
+when is it generated it is generated to
+tell the device driver that the
+operation has completed when it is
+completed it is generated just to tell
+the driver then the operation is
+completed so while the device controller
+is performing these operations the CPU
+is available to accomplish other works
+so this is one of the greatest
+advantages of this as we said in DMA CPU
+is not intervened so even when this i o
+operation is occurring the CPU is free
+to perform its other tasks and it will
+not be disturbed so this is the
+advantage of direct memory access so
+that is how input output operation works
+and how DMA works so I hope this was
+clear to you this was about the input
+output structure which is also the
+basics of your operating system so I
+hope this was clear to you thank you for
+watching and see you in the next one
+Music
+
+

@@ -1,0 +1,318 @@
+   [https://www.udacity.com/course/intro-to-relational-databases--ud197#co
+   ntent]Skip to content
+   [https://www.udacity.com/]Udacity
+   (BUTTON)
+   [https://www.udacity.com/]Udacity
+   [https://www.udacity.com/online-learning-for-individuals]Why
+   Udacity?[https://www.udacity.com/success]Student Success
+   (BUTTON) Schools
+   [https://auth.udacity.com/sign-in?next=https://learn.udacity.com]Sign
+   In[https://auth.udacity.com/sign-up?next=https://learn.udacity.com]Get
+   Started
+
+Intro to Relational Databases
+
+Free Course
+
+   SQL, DB-API, and More!
+   (BUTTON) Start Free Course
+
+Related Nanodegree Program
+
+Introduction to Programming
+
+   Earn a Nanodegree program certificate to accelerate your career.
+   [https://www.udacity.com/course/intro-to-programming-nanodegree--nd000]
+   Learn more
+     * Estimated time
+       Approx. 4 Weeks
+     * Skill level
+       Intermediate
+     * Prerequisites[https://www.udacity.com/course/intro-to-relational-da
+       tabases--ud197#course-prerequisites]See prerequisites in detail
+
+About this course
+
+   This course is a quick, fun introduction to using a relational database
+   from your code, using examples in Python. You'll learn the basics of
+   SQL (the Structured Query Language) and database design, as well as the
+   Python API for connecting Python code to a database. You'll also learn
+   a bit about protecting your database-backed web apps from common
+   security problems.
+
+   After taking this course, you'll be able to write code using a database
+   as a backend to store application data reliably and safely.
+
+   Highly-curated content
+
+   Taught by industry experts
+
+   Self-paced progress
+
+Your path to career success starts here.
+
+Intro to Relational Databases
+
+Free Course
+
+   Enhance your skill set and boost your hirability through innovative,
+   independent learning.
+
+Introduction to Programming
+
+Nanodegree
+
+   Udacity's Intro to Programming is your first step towards careers in
+   Web and App Development, Machine Learning, Data Science, AI, and more!
+   This program is perfect for beginners.
+   [https://www.udacity.com/course/intro-to-programming-nanodegree--nd000]
+   Learn more
+
+What you will learn
+
+    1. Data and Tables
+          + Learn about how relational databases let you structure data
+            into tables.
+          + Learn about the importance of unique keys and relationships
+            between tables.
+    2. Elements of SQL
+          + Begin learning SQL, the Structured Query Language used by most
+            relational databases.
+          + Learn about the select and insert statements, the basic
+            operations for reading and writing data.
+          + Learn about the operators and syntax available to get the
+            database to scan and join tables for you.
+    3. Python DB-API
+          + Learn how to access a relational database from Python code.
+          + Use a virtual machine (VM) to run a Python web application
+            with a database.
+          + Common security pitfalls of database applications, including
+            the famous Bobby Tables.
+    4. Deeper Into SQL
+          + Learn how to design and create new databases.
+          + Learn about normalized design, which makes it easier to write
+            effective code using a database.
+          + Learn how to use the SQL join operators to rapidly connect
+            data from different tables.
+
+Prerequisites and requirements
+
+   You can read and write basic code in Python. This course uses
+   programming exercises in Python. If you haven't worked with Python
+   before, check out our course
+   [https://www.udacity.com/course/ud036]Programming Foundations with
+   Python.
+
+   If you can understand this code (maybe with the help of the
+   [https://docs.python.org/2/library/random.html#random.choice]random
+   module documentation), you know enough Python for this course:
+import random
+
+def ChooseTwice(items):
+    a = random.choice(items)
+    b = random.choice(items)
+    return a, b
+
+names = ["Alice", "Bob", "Charlie", "Debra"]
+(one, two) = ChooseTwice(names)
+if one == two:
+    print "%s is happy!" % one
+else:
+    print "%s likes %s!" % (one, two)
+
+   You can use a command-line interface (terminal). Some of the exercises
+   in this course involve using a Unix-style command-line interface to
+   enter commands, run Python programs, and navigate directories.
+
+   If you have taken our course on
+   [https://www.udacity.com/course/ud775]Git and Github, the level of
+   command-line use in this course is similar.
+
+   You don't need to be a Web programmer. This course does include a small
+   Web application and some HTML and JavaScript in examples, but you will
+   not need to make changes in these languages.
+
+   You don't need any previous database experience. This course is an
+   entry-level introduction to relational databases.
+
+   You need a programming text editor (such as
+   [http://www.sublimetext.com/]Sublime Text) installed on your computer.
+   You should be able to use it to open and edit files of Python code.
+
+   See the [https://www.udacity.com/tech/requirements]Technology
+   Requirements for using Udacity.
+
+Why take this course?
+
+   If you look under the hood of a lot of major web sites — from Wikipedia
+   to Reddit — you'll find a relational database somewhere.
+
+   Database systems such as PostgreSQL and MySQL have been part of the web
+   developer's toolkit for many years, and remain some of the most
+   powerful tools available for storing and manipulating structured data.
+
+   If you're planning to continue on in full-stack development, knowing
+   about databases is essential background. Even though many toolkits hide
+   the details of the database from your application code, being able to
+   interact with the database will serve you well in designing, debugging,
+   and maintaining your applications.
+
+What do I get?
+
+   Instructor videos
+
+   Experiential activities
+
+   Interactive quizzes
+
+Learn with the best.
+
+     * Karl Krueger
+
+Karl Krueger
+       Instructor
+
+Popular free courses
+
+     * [https://www.udacity.com/course/intro-to-tensorflow-for-deep-learni
+       ng--ud187]Intro to TensorFlow for Deep Learning
+     * [https://www.udacity.com/course/introduction-to-python--ud1110]Intr
+       oduction to Python Programming
+     * [https://www.udacity.com/course/advanced-android-with-kotlin--ud940
+       ]Advanced Android with Kotlin
+     * [https://www.udacity.com/course/intro-to-tensorflow-lite--ud190]Int
+       roduction to TensorFlow Lite
+     * [https://www.udacity.com/course/intro-to-html-and-css--ud001]Intro
+       to HTML and CSS
+     * [https://www.udacity.com/course/intro-to-javascript--ud803]Intro to
+       JavaScript
+
+   [https://www.udacity.com/]
+   Udacity
+     *
+
+Featured Programs
+          + [https://www.udacity.com/course/business-analytics-nanodegree-
+            -nd098]Business Analytics
+          + [https://www.udacity.com/course/learn-sql--nd072]SQL
+          + [https://www.udacity.com/course/data-engineer-nanodegree--nd02
+            7]Data Engineering with AWS
+          + [https://www.udacity.com/course/data-analyst-nanodegree--nd002
+            ]Data Analyst
+          + [https://www.udacity.com/course/intro-to-programming-nanodegre
+            e--nd000]Intro to Programming
+          + [https://www.udacity.com/course/digital-marketing-nanodegree--
+            nd018]Digital Marketing
+          + [https://www.udacity.com/course/self-driving-car-engineer-nano
+            degree--nd013]Self Driving Car Engineer
+     *
+
+Only At Udacity
+          + [https://www.udacity.com/course/artificial-intelligence-nanode
+            gree--nd889]Artificial Intelligence
+          + [https://www.udacity.com/course/deep-learning-nanodegree--nd10
+            1]Deep Learning
+          + [https://www.udacity.com/course/digital-marketing-nanodegree--
+            nd018]Digital Marketing
+          + [https://www.udacity.com/course/flying-car-nanodegree--nd787]F
+            lying Car and Autonomous Flight Engineer
+          + [https://www.udacity.com/course/intro-to-self-driving-cars--nd
+            113]Intro to Self-Driving Cars
+          + [https://www.udacity.com/course/machine-learning-engineer-nano
+            degree--nd009t]Machine Learning Engineer
+          + [https://www.udacity.com/course/robotics-software-engineer--nd
+            209]Robotics Software Engineer
+          +
+
+Udacity Schools
+          + [https://www.udacity.com/school-of-ai]School of Artificial
+            Intelligence
+          + [https://www.udacity.com/school-of-autonomous-systems]School
+            of Autonomous Systems
+          + [https://www.udacity.com/school-of-business]School of Business
+          + [https://www.udacity.com/school-of-cloud-computing]School of
+            Cloud Computing
+          + [https://www.udacity.com/school-of-cybersecurity]School of
+            Cybersecurity
+          + [https://www.udacity.com/school-of-data-science]School of Data
+            Science
+          + [https://www.udacity.com/school-of-programming]School of
+            Programming
+          + [https://www.udacity.com/school-of-product-management]School
+            of Product Management
+     *
+
+Enterprise
+          + [https://www.udacity.com/enterprise]Udacity for Enterprise
+          + [https://www.udacity.com/enterprise/digital-transformation]Dig
+            ital Transformation with Udacity
+          + [https://www.udacity.com/enterprise/artificial-intelligence]Ar
+            tificial Intelligence for Enterprise
+          + [https://www.udacity.com/enterprise/cybersecurity]Cybersecurit
+            y for Enterprise
+          + [https://www.udacity.com/enterprise/data-science]Data Science
+            for Enterprise
+          + [https://www.udacity.com/enterprise/financial-services]Udacity
+            for Financial Services
+          + [https://www.udacity.com/corporate-social-responsibility]Corpo
+            rate Social Responsibility
+          + [https://www.udacity.com/train-to-hire]Train-to-Hire
+          + [https://www.udacity.com/enterprise/resources]Enterprise
+            Resource Center
+
+Government
+          + [https://www.udacity.com/government/overview]Udacity for
+            Government
+
+Individuals
+          + [https://www.udacity.com/online-learning-for-individuals]Udaci
+            ty for Individuals
+     *
+
+Resources
+          + [https://www.udacity.com/courses/all]Catalog
+          + [https://www.udacity.com/career-services]Career Services
+          + [https://www.udacity.com/success]Student Success
+          + [https://www.udacity.com/talks]Udacity Talks
+          + [https://www.udacity.com/scholarships]Scholarships
+          + [https://www.udacity.com/know/ai]What is AI?
+          +
+
+Company
+          + [https://www.udacity.com/us]About
+          + [https://www.udacity.com/blog/]Blog
+          + [https://www.udacity.com/newsroom]In the News
+          + [https://www.udacity.com/jobs]Jobs at Udacity
+          + [https://www.udacity.com/partnerships]Partners
+          + [https://www.udacity.com/affiliate]Affiliates
+          + [https://www.udacity.com/instructors/build-with-udacity]Become
+            an Instructor
+     *
+
+Support
+          + [https://www.udacity.com/contact]Contact Us
+          + [https://udacity.zendesk.com/hc/en-us]Help and FAQ
+          + [https://status.udacity.com/]Service Status
+          + [https://www.udacity.com/tech-requirements]Tech Requirements
+          +
+               o [https://www.facebook.com/Udacity]Udacity Facebook
+               o [https://twitter.com/udacity]Udacity Twitter
+               o [https://www.linkedin.com/company/udacity]Udacity
+                 LinkedIn
+               o [https://www.instagram.com/udacity/]Udacity Instagram
+
+   Udacity is the trusted market leader in talent transformation. We
+   change lives, businesses, and nations through digital upskilling,
+   developing the edge you need to conquer what’s next.
+
+   Udacity* Nanodegree programs represent collaborations with our industry
+   partners who help us develop our content and who hire many of our
+   program graduates.
+
+   "Nanodegree" is a registered trademark of Udacity. © 2011–2023 Udacity,
+   Inc.
+
+   *not an accredited university and doesn’t confer traditional degrees
+     * © 2011–2023 Udacity, Inc.
+     * [https://www.udacity.com/legal]Legal & Privacy
+     * [https://www.udacity.com/sitemap]Site Map

@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://bitbucket.org/product > $(basename https://bitbucket.org/product).txt

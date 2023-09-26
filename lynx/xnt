@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://neo4j.com/developer/graph-database/ > $(basename https://neo4j.com/developer/graph-database/).txt

@@ -1,0 +1,80 @@
+## horizontalvertical-scaling
+
+
+Horizontal vertical scaling refers to the practice of splitting a workload between multiple servers, giving scalability but also reliability as each server has access to different data. It is often preferred for scenarios where there are stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally). Horizontal-scaling models such as horizontal partitioning and vertical scaling enable the system's capacity limits, database constraints on performance levels, network throughput limitations to be respected when designing a server architecture. It is important for developers of applications involving stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally) due to their impact with regards to horizontal-scaling and the CAP theorem considerations required by databases such as MySQL, which must choose between performance level limitations on write throughput vs availability requirements.
+
+
+source_documents/Scaling Distributed Systems - Software Architecture Introduction (part 2) [gxfERVP18-g].en.vtt.txt
+horizontal scaling basically means
+splitting the load between different
+servers
+it gives you scalability but also
+reliability because you will have more
+redundancy
+and it s usually the preferred way to
+scale when splitting into multiple
+servers you need to take into
+consideration if you have a state or not
+if you don t have a state no problem you
+can just put the different servers and
+have a load balancer that will
+direct the traffic to different servers
+and that s it but if you have a state
+
+Horizontal vertical scaling refers to the practice of splitting a workload between multiple servers, giving scalability but also reliability as each server has access to different data. It is often preferred for scenarios where there are stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally). Horizontal-scaling models such as horizontal partitioning and vertical scaling enable the system's capacity limits, database constraints on performance levels, network throughput limitations to be respected when designing a server architecture. It is important for developers of applications involving stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally) due to their impact with regards to horizontal-scaling and the CAP theorem considerations required by databases such as MySQL, which must choose between performance level limitations on write throughput vs availability requirements.
+
+
+source_documents/Scaling Distributed Systems - Software Architecture Introduction (part 2) [gxfERVP18-g].en.vtt.txt
+Music
+the different ways that you can achieve
+horizontal scaling for example you can
+have a load balancer
+that will direct the traffic to
+different servers to optimize the load
+of performance
+of the system in this case with the load
+balancer we assume that all the servers
+have access to the same data
+then we can also split the data
+so in that sense we can have charging or
+partitioning where we split the data
+between different servers
+by splitting the data in multiple
+servers you are able to
+
+Horizontal vertical scaling refers to the practice of splitting a workload between multiple servers, giving scalability but also reliability as each server has access to different data. It is often preferred for scenarios where there are stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally). Horizontal-scaling models such as horizontal partitioning and vertical scaling enable the system's capacity limits, database constraints on performance levels, network throughput limitations to be respected when designing a server architecture. It is important for developers of applications involving stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally) due to their impact with regards to horizontal-scaling and the CAP theorem considerations required by databases such as MySQL, which must choose between performance level limitations on write throughput vs availability requirements.
+
+
+source_documents/Scaling Distributed Systems - Software Architecture Introduction (part 2) [gxfERVP18-g].en.vtt.txt
+it will take some time
+for all the clients reading the data to
+get that
+right we also need to think about if we
+need to read more or
+write more so depending on that we will
+also take one approach or the other
+horizontal scaling is not something
+cheap to do so that s why it s very
+important to get it as soon as possible
+when you know that your system will grow
+beyond
+
+Horizontal vertical scaling refers to the practice of splitting a workload between multiple servers, giving scalability but also reliability as each server has access to different data. It is often preferred for scenarios where there are stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally). Horizontal-scaling models such as horizontal partitioning and vertical scaling enable the system's capacity limits, database constraints on performance levels, network throughput limitations to be respected when designing a server architecture. It is important for developers of applications involving stateful operations or complex application logic that require strong consistency guarantees across all nodes in an environment (horizontally) due to their impact with regards to horizontal-scaling and the CAP theorem considerations required by databases such as MySQL, which must choose between performance level limitations on write throughput vs availability requirements.
+
+
+source_documents/Scaling Distributed Systems - Software Architecture Introduction (part 2) [gxfERVP18-g].en.vtt.txt
+as i mentioned before when we re
+thinking about horizontal scaling with
+the state involved we need to face the
+cap theorem
+and this has certain implications for
+the database for example
+we need to consider the consistency
+level that we need to have
+but we need to have a strict consistency
+that means that whenever you save
+that data is immediately available for
+everyone or can we have no eventual
+consistency
+basically that means that when you write
+it will take some time

@@ -1,0 +1,117 @@
+   [https://nostarch.com/ejs3]Cover image
+
+Eloquent JavaScript
+
+   3rd edition (2018)
+
+   This is a book about JavaScript, programming, and the wonders of the
+   digital. You can read it online here, or buy your own
+   [https://nostarch.com/ejs3]paperback copy.
+
+   Written by Marijn Haverbeke.
+
+   Licensed under a
+   [https://creativecommons.org/licenses/by-nc/3.0/]Creative Commons
+   attribution-noncommercial license. All code in this book may also be
+   considered licensed under an
+   [https://eloquentjavascript.net/code/LICENSE]MIT license.
+
+   Illustrations by various artists: Cover and chapter illustrations by
+   [http://madalinatantareanu.com/]Madalina Tantareanu. Pixel art in
+   Chapters 7 and 16 by Antonio Perdomo Pastor. Regular expression
+   diagrams in Chapter 9 generated with
+   [https://regexper.com/]regexper.com by Jeff Avallone. Village
+   photograph in Chapter 11 by Fabrice Creuzot. Game concept for Chapter
+   16 by [http://lessmilk.com/]Thomas Palef.
+
+   The third edition was made possible by
+   [https://eloquentjavascript.net/backers3.html]325 financial backers,
+   most notably [https://nextjournal.com/]Nextjournal and
+   [https://www.holbertonschool.com/]Holberton School . The second edition
+   was supported by [https://eloquentjavascript.net/backers.html]454
+   backers, with significant contributions from
+   [https://www.mozilla.org/en-US/]Mozilla ,
+   [https://www.hackreactor.com/]Hack Reactor , and
+   [https://www.ghostery.com/]Ghostery .
+
+Contents
+
+    1. [https://eloquentjavascript.net/00_intro.html]Introduction
+    2. (Part 1: Language)
+       [https://eloquentjavascript.net/01_values.html]Values, Types, and
+       Operators
+    3. [https://eloquentjavascript.net/02_program_structure.html]Program
+       Structure
+    4. [https://eloquentjavascript.net/03_functions.html]Functions
+    5. [https://eloquentjavascript.net/04_data.html]Data Structures:
+       Objects and Arrays
+    6. [https://eloquentjavascript.net/05_higher_order.html]Higher-order
+       Functions
+    7. [https://eloquentjavascript.net/06_object.html]The Secret Life of
+       Objects
+    8. [https://eloquentjavascript.net/07_robot.html]Project: A Robot
+    9. [https://eloquentjavascript.net/08_error.html]Bugs and Errors
+   10. [https://eloquentjavascript.net/09_regexp.html]Regular Expressions
+   11. [https://eloquentjavascript.net/10_modules.html]Modules
+   12. [https://eloquentjavascript.net/11_async.html]Asynchronous
+       Programming
+   13. [https://eloquentjavascript.net/12_language.html]Project: A
+       Programming Language
+   14. (Part 2: Browser)
+       [https://eloquentjavascript.net/13_browser.html]JavaScript and the
+       Browser
+   15. [https://eloquentjavascript.net/14_dom.html]The Document Object
+       Model
+   16. [https://eloquentjavascript.net/15_event.html]Handling Events
+   17. [https://eloquentjavascript.net/16_game.html]Project: A Platform
+       Game
+   18. [https://eloquentjavascript.net/17_canvas.html]Drawing on Canvas
+   19. [https://eloquentjavascript.net/18_http.html]HTTP and Forms
+   20. [https://eloquentjavascript.net/19_paint.html]Project: A Pixel Art
+       Editor
+   21. (Part 3: Node) [https://eloquentjavascript.net/20_node.html]Node.js
+   22. [https://eloquentjavascript.net/21_skillsharing.html]Project:
+       Skill-Sharing Website
+
+   A paper version of Eloquent JavaScript, including an additional
+   chapter, is being brought out by [http://www.nostarch.com/ejs3]No
+   Starch Press.
+
+Other pages
+
+     * [https://eloquentjavascript.net/code]Code sandbox and exercise
+       solutions
+     * [https://eloquentjavascript.net/errata.html]Errata for the paper
+       book
+     * [https://eloquentjavascript.net/Eloquent_JavaScript.pdf]This book
+       as a single PDF file (&
+       [https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf]small
+       version for mobile)
+     * [https://eloquentjavascript.net/Eloquent_JavaScript.epub]This book
+       as an EPUB file
+     * [https://eloquentjavascript.net/Eloquent_JavaScript.mobi]This book
+       as a MOBI (Kindle) file
+     * [https://eloquentjavascript.net/1st_edition]The first edition of
+       the book
+     * [https://eloquentjavascript.net/2nd_edition]The second edition of
+       the book
+
+Translations
+
+Third Edition
+
+     * [https://academy.hsoub.com/files/27-%D8%A7%D9%84%D8%A8%D8%B1%D9%85%
+       D8%AC%D8%A9-%D8%A8%D9%84%D8%BA%D8%A9-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3
+       %D9%83%D8%B1%D8%A8%D8%AA/]عَرَبِيّ (Arabic)
+     * [http://eloquentjs.ir/]فارسی (Persian)
+     * [https://eloquentjs-es.thedojo.mx/]Español (Spanish, partial)
+
+Second Edition
+
+     * [https://rabahboudia.gitbooks.io/arabic-eloquent-js/content/index.h
+       tml]عَرَبِيّ (Arabic)
+     * [https://to6esko.github.io/]Български (Bulgarian)
+     * [https://github.com/braziljs/eloquente-javascript]Português
+       (Portuguese)
+     * [https://karmazzin.gitbooks.io/eloquentjavascript_ru/content/]Русск
+       ий (Russian)

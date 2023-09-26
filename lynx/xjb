@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://swagger.io/specification/ > $(basename https://swagger.io/specification/).txt

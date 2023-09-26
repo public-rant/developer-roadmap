@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.redhat.com/en/topics/api/what-is-a-rest-api > $(basename https://www.redhat.com/en/topics/api/what-is-a-rest-api).txt

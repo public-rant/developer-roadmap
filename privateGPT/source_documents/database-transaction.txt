@@ -1,0 +1,325 @@
+   #[https://fauna.com/blog/feed]Blog by Fauna Inc
+
+   📙 The architect's guide to building scalable global applications |
+   [https://go.fauna.com/guide/global-applications?utm_source=top_level_ba
+   nner&utm_medium=web&utm_campaign=global_apps]Learn more
+   [https://fauna.com/]
+   Fauna logo
+   Product
+   Solutions
+   [https://fauna.com/pricing]
+   Pricing
+   Resources
+   [https://fauna.com/customers]
+   Customers
+   Company
+   [https://dashboard.fauna.com/]Log
+   In[https://go.fauna.com/contact-us]Contact
+   us[https://dashboard.fauna.com/accounts/register]Start for free
+   (BUTTON)
+   [https://fauna.com/]
+   Fauna logo
+   (BUTTON)
+   (BUTTON) Product
+   (BUTTON) Solutions
+   [https://fauna.com/pricing]Pricing
+   (BUTTON) Resources
+   [https://fauna.com/customers]Customers
+   (BUTTON) Company
+   [https://dashboard.fauna.com/]Log
+   In[https://go.fauna.com/contact-us]Contact
+   us[https://dashboard.fauna.com/accounts/register]Start for free
+   © 2023 Fauna, Inc. All Rights Reserved.
+
+Related posts
+
+   [https://fauna.com/blog/low-latencies-and-emissions-at-the-edge-for-cli
+   matiqs-carbon-calculation-api]Achieving low latencies and low emissions
+   at the edge for Climatiq’s carbon calculation API
+   [https://fauna.com/blog/global-applications]Build low-latency global
+   apps that meet data residency
+   requirements[https://fauna.com/blog/multi-region-scaling-with-fauna]Mul
+   ti-region scaling with Fauna
+   [https://dashboard.fauna.com/accounts/register]
+
+Start for free
+
+   Sign up and claim your forever-free Fauna account
+   Sign up and get started
+   [https://go.fauna.com/contact-us]
+
+Request demo
+
+   Connect with a Fauna expert
+   request demo
+
+Table of Contents
+
+     * [https://fauna.com/blog/database-transaction#how-do-database-transa
+       ctions-work]How do database transactions work?
+
+     * [https://fauna.com/blog/database-transaction#what-are-acid-properti
+       es-and-why-are-they-important]What are ACID properties, and why are
+       they importa..
+
+     * [https://fauna.com/blog/database-transaction#atomicity]Atomicity
+
+     * [https://fauna.com/blog/database-transaction#consistency]Consistenc
+       y
+
+     * [https://fauna.com/blog/database-transaction#isolation]Isolation
+
+     * [https://fauna.com/blog/database-transaction#durability]Durability
+
+     * [https://fauna.com/blog/database-transaction#spin-up-for-a-100%-aci
+       d-compliant-transactional-database-for-free]Spin up for a 100% ACID
+       compliant transactional da..
+
+   transactional-databse
+
+What is a database transaction?
+
+   Aug 2nd, 2021|
+
+   Categories:
+   [https://fauna.com/blog?category=data-consistency]Data Consistency
+   Databases are known for processing millions of concurrent requests per
+   second. In many cases, these requests touch the same item in the
+   database. Imagine, for instance, that you are trying to purchase a
+   limited supply of your favorite game on an online e-commerce site.
+   Suppose everyone in the online store puts the game in their carts at
+   the same time and proceed to checkout. In that case, the remaining
+   inventory needs to be calculated accurately — neither over nor under.
+   Typically, a database transaction is used in such scenarios. So, what
+   is a database transaction?
+   In short, a database transaction is a sequence of multiple operations
+   performed on a database, and all served as a single logical unit of
+   work — taking place wholly or not at all. In other words, there’s never
+   a case that only half of the operations are performed and the results
+   saved. When a database transaction is in flight, the database state may
+   be temporarily inconsistent, but when the transaction is committed or
+   ends, the changes are applied.
+   To explain the concept of a database transaction, let us use a typical
+   example of transferring money between Account A and Account B. Let’s
+   say you want to move 5 dollars from Account A to Account B. This action
+   can be broken down into the following simple operations:
+    1. Create a record to transfer 5 dollars from Account A to Account B.
+       This is typically called the begin of a database transaction.
+    2. Read the balance from Account A.
+    3. Subtract 5 dollars from the balance of Account A.
+    4. Read the balance from Account B.
+    5. Add 5 dollars credit to Account B.
+
+   Now, if your database is running this transaction as one whole atomic
+   unit, and the system fails due to a power outage, the transaction can
+   be undone, reverting your database to its original state. Typically, a
+   term like rollback refers to the process that undoes any changes made
+   by the transaction, and the term commit is used to refer to a permanent
+   change made by the transaction.
+
+How do database transactions work?
+
+   Before we learn about how database transactions work, let’s explore why
+   they are needed in the first place.
+    1. System failures are inevitable, and in these cases, a transaction
+       provides a way to ensure that the outcome is reliable and
+       consistent. This means that the state of the database reflects all
+       transactional changes committed before the point of failure and
+       that transactions that were in-flight at the failure point are
+       cleanly rolled back.
+    2. When multiple concurrent requests are hitting the database server,
+       changing the same underlying data simultaneously, the transaction
+       must isolate requests from each other to avoid conflicts.
+
+   Database transaction
+   During its lifecycle, a database transaction goes through multiple
+   states. These states are called transaction states and are typically
+   one of the following:
+    1. Active states: It is the first state during the execution of a
+       transaction. A transaction is active as long as its instructions
+       (read or write operations) are performed.
+    2. Partially committed: A change has been executed in this state, but
+       the database has not yet committed the change on disk. In this
+       state, data is stored in the memory buffer, and the buffer is not
+       yet written to disk.
+    3. Committed: In this state, all the transaction updates are
+       permanently stored in the database. Therefore, it is not possible
+       to rollback the transaction after this point.
+    4. Failed: If a transaction fails or has been aborted in the active
+       state or partially committed state, it enters into a failed state.
+    5. Terminated state: This is the last and final transaction state
+       after a committed or aborted state. This marks the end of the
+       database transaction life cycle.
+
+   database transaction
+
+What are ACID properties, and why are they important?
+
+   In
+   [https://fauna.com/blog/relational-databases-explained-examples-use-cas
+   es-and-more]relational
+   databases[https://fauna.com/blog/relational-databases-explained-example
+   s-use-cases-and-more], transactions must be atomic, consistent,
+   isolated and durable. These properties are commonly abbreviated as
+   ACID.
+   [https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-i
+   solation]ACID
+   properties[https://fauna.com/blog/what-is-acid-compliance-atomicity-con
+   sistency-isolation] ensure that a database transaction is processed
+   reliably. In this section, let’s learn a bit more about what these
+   properties mean for the application.
+
+Atomicity
+
+   Atomicity in terms of a transaction means all or nothing. When a
+   transaction is committed, the database either completes the transaction
+   successfully or rolls it back so that the database returns to its
+   original state. For example, in an online ticketing application, a
+   booking may consist of two separate actions that form a transaction —
+   reserving the seat for the customer and paying for the seat. A
+   transaction guarantees that when a booking is completed, both these
+   actions, although independent, happen within the same transaction. If
+   any of the actions fail, the entire transaction is rolled back, and the
+   booking is freed up for another transaction attempting to take it.
+
+Consistency
+
+   One of the key advantages of using a transaction is maintaining data
+   integrity, regardless of whether it succeeds or fails. Transactions can
+   only alter affected data in a way that is authorized by the database
+   engine, ensuring that a consistent view of the data is maintained at
+   all times. For example, when users deposit money in an online banking
+   app, they want to see the result of this deposit reflected immediately
+   when they view their balance. To ensure their money has not been lost.
+   With strong transactional consistency, there should never appear to be
+   more or less money in aggregate in the bank than there is.
+   Once a transaction commits, it is guaranteed that any subsequent
+   read-write transaction — no matter which replica is processing it —
+   will read all data that was written by the earlier transaction.
+   However, when it comes to large-scale databases with multiple replicas
+   across multiple geo-locations, most SQL and NoSQL systems cannot
+   guarantee global replica consistency. Instead, they allow replicas to
+   diverge temporarily, and the result of a transaction may vary depending
+   on which replica it is sent to.
+
+Isolation
+
+   With multiple concurrent transactions running at the same time, each
+   transaction should be kept independent without affecting other
+   transactions executing simultaneously. For most database systems, the
+   order of the transactions is not known in advance. Transactions are
+   instead run in parallel, and some form of database locking is utilized
+   to ensure that the result of one transaction does not impact that of
+   another. Typically, databases offer several
+   [https://docs.fauna.com/fauna/current/concepts/isolation_levels]isolati
+   on
+   levels[https://docs.fauna.com/fauna/current/concepts/isolation_levels]
+   to control the degree of transactional integrity.
+   In recent years,
+   [https://fauna.com/blog/nosql-databases-non-relational-databases-explai
+   ned]NoSQL
+   databases[https://fauna.com/blog/nosql-databases-non-relational-databas
+   es-explained] have gained in popularity. Some of these databases offer
+   ACID compliance, but many do not and sacrifice some consistency or
+   instead offer processes like snapshot isolation. When architecting for
+   your application and considering NoSQL databases, pay close attention
+   to how it handles transactions and whether it satisfies your
+   requirements for data integrity.
+
+Durability
+
+   Durability means that a successful transaction commit will survive
+   permanently. To accomplish this, an entry is added to the database
+   transaction log for each successful transaction.
+
+Spin up for a 100% ACID compliant transactional database for free
+
+   Fauna is a flexible, developer-friendly,
+   [https://fauna.com/blog/what-is-a-transactional-database]transactional
+   database[https://fauna.com/blog/what-is-a-transactional-database]
+   delivered as a secure and scalable cloud API with native GraphQL. Fauna
+   is 100% ACID compliant and caters to many enterprise workloads by
+   prioritizing data integrity and correctness without compromising
+   scalability, flexibility, or performance. Fauna offers data
+   temporality, streaming, multi-tenancy, and built-in support for
+   GraphQL. [https://dashboard.fauna.com/accounts/register]Sign up
+   now[https://dashboard.fauna.com/accounts/register] and try our
+   [https://docs.fauna.com/fauna/v3/start/cloud]quick start
+   guide[https://docs.fauna.com/fauna/v3/start/cloud] to get up and
+   running with your first Fauna database in only 5 minutes.
+
+   If you enjoyed our blog, and want to work on systems and challenges
+   related to globally distributed systems, and serverless databases,
+   [https://fauna.com/careers]Fauna is hiring[https://fauna.com/careers]!
+
+Share this post
+
+   [https://twitter.com/intent/tweet?url=https://fauna.com/blog/database-t
+   ransaction&text=What%20is%20a%20database%20transaction%3F]TWITTER[https
+   ://www.linkedin.com/shareArticle/?mini=true&url=https://fauna.com/blog/
+   database-transaction&title=What%20is%20a%20database%20transaction%3F&su
+   mmary=A%20database%20transaction%20is%20a%20sequence%20of%20multiple%20
+   operations%20performed%20on%20a%20database%2C%20and%20all%20served%20as
+   %20a%20single%20logical%20unit%20of%20work%20%E2%80%94%20taking%20place
+   %20wholly%20or%20not%20at%20all.%20&source=Fauna.com]LINKEDIN
+   [https://fauna.com/blog/using-next-js-with-fauna-and-graphql]‹︁
+   Previous[https://fauna.com/blog/comparison-of-transaction-models-in-doc
+   ument-databases]Next ›︁
+
+Subscribe to Fauna's newsletter
+
+   Get latest blog posts, development tips & tricks, and latest learning
+   material delivered right to your inbox.
+
+   IFRAME:
+   [https://www2.fauna.com/l/517431/2020-11-11/71k42s]https://www2.fauna.c
+   om/l/517431/2020-11-11/71k42s
+
+   [https://fauna.com/]
+   Fauna logo
+   400 S El Camino Real Ste 1250
+   San Mateo, CA 94402
+   (855) 432-8623
+   [https://dev.to/fauna][https://twitter.com/fauna][https://github.com/fa
+   una][https://www.youtube.com/channel/UCTkGE215CjAkcRO5mDMmLkw/][https:/
+   /www.linkedin.com/company/faunadb]
+   [https://status.fauna.com/]FAUNA STATUS
+   Fauna
+     * [https://fauna.com/features]Features
+     * [https://fauna.com/platform]Platform
+     * [https://fauna.com/solutions]Solutions
+     * [https://fauna.com/pricing]Pricing
+     * [https://fauna.com/customers]Customers
+     * [https://trust.fauna.com/]Trust
+     * [https://fauna.com/blog]Blog
+
+   (BUTTON) Fauna
+   Company
+     * [https://fauna.com/about]About
+     * [https://fauna.com/events]Events
+     * [https://fauna.com/press]Press
+     * [https://fauna.com/careers]Careers
+     * [https://go.fauna.com/contact-us]Contact Us
+
+   (BUTTON) Company
+   Quicklinks
+     * [https://forums.fauna.com/]Forums
+     * [https://support.fauna.com/]Helpdesk
+     * [https://www2.fauna.com/partners-contact]Partner with Fauna
+
+   (BUTTON) Quicklinks
+   Why Fauna
+     * [https://fauna.com/compare/dynamodb]DynamoDB alternative
+     * [https://fauna.com/blog/comparing-fauna-and-mongodb]Fauna vs
+       MongoDB
+     * [https://fauna.com/blog/comparing-fauna-and-dynamodb-pricing-featur
+       es]Fauna vs DynamoDB
+     * [https://fauna.com/blog/compare-aws-aurora-serverless-v2-architectu
+       re-features-pricing-vs-fauna]Fauna vs Aurora Serverless V2
+     * [https://fauna.com/blog/compare-fauna-vs-postgres]Fauna vs Postgres
+
+   (BUTTON) Why Fauna
+   © Fauna Inc. All rights reserved.
+   [https://status.fauna.com/]Status[https://fauna.com/sitemap]Sitemap[htt
+   ps://fauna.com/terms]Terms of Use[https://fauna.com/privacy]Privacy
+   Policy

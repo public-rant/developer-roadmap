@@ -1,0 +1,455 @@
+   #[https://www.edx.org/es/course/databases-5-sql]alternate
+   [https://www.edx.org/course/databases-5-sql]alternate
+
+   [https://www.edx.org/course/databases-5-sql#main-content]Skip to main
+   content
+   [https://www.edx.org/]edX Online
+
+   (BUTTON) Toggle mobile menu
+     *
+     * [https://courses.edx.org/login]Sign
+       In[https://courses.edx.org/register]Register for free
+     * [https://www.edx.org/search/?tab=course]Courses
+       (BUTTON)
+     * [https://www.edx.org/search]All Courses & Programs
+     * [https://www.edx.org/search/?tab=program]Programs & Degrees
+       (BUTTON)
+     * [https://www.edx.org/boot-camps?linked_from=sitenav]Boot Camps
+       (BUTTON)
+     * Degrees & ProgramsNew
+     * Boot Camps
+     * [https://www.edx.org/schools-partners]Schools & Partners
+     * [https://www.edx.org/schools-partners?linked_from=sitenav]Schools &
+       Partners
+     * [https://business.edx.org/?utm_campaign=edX.org%20Referral&utm_sour
+       ce=prospectus.edx.org&utm_medium=Top-Link]edX For Business
+
+   (BUTTON) Search for courses and programs
+   [https://www.edx.org/]edX Online
+   ____________________ (BUTTON) Submit your search query
+   ____________________ (BUTTON) Submit your search query
+
+    1. [https://www.edx.org/search]Catalog
+    2.
+    3. [https://www.edx.org/learn/computer-programming]Computer Science
+       Courses
+
+    1. [https://www.edx.org/learn/computer-programming]Computer Science
+       Courses
+
+   [https://www.edx.org/school/stanfordonline]Stanford University Logo
+
+Databases: Relational Databases and SQL
+
+   This course is one of five self-paced courses on the topic of
+   Databases, originating as one of Stanford's three inaugural massive
+   open online courses released in the fall of 2011. The original
+   "Databases" courses are now all available on edx.org.
+
+   This course provides an introduction to relational databases and
+   comprehensive coverage of SQL, the long-accepted standard query
+   language for relational database systems.
+
+   Databases: Advanced Topics in SQL and Databases: OLAP and Recursion are
+   follow-on courses to this course and can be taken in either order.
+   Advanced Topics is a broad and practical course covering indexes,
+   transactions, constraints, triggers, views, and authorization, while
+   OLAP and Recursion is recommended for learners with specific interest
+   in these topics.
+   Databases: Relational Databases and SQL
+   2 weeks
+   8–10 hours per week
+   Self-paced
+   Progress at your own speed
+   Free
+   Optional upgrade available
+
+There is one session available:
+
+   85,804 already enrolled! After a course session ends, it will be
+   [https://support.edx.org/hc/en-us/articles/207201017-What-does-archived
+   -mean]archivedOpens in a new tab.
+   Starts Jul 7
+   [https://courses.edx.org/register?course_id=course-v1%3AStanfordOnline%
+   2BSOE.YDB-SQL0001%2B2T2020&enrollment_action=enroll&email_opt_in=false]
+   Enroll
+   [ ]
+   I would like to receive email from StanfordOnline and learn about other
+   offerings related to Databases: Relational Databases and SQL.
+
+Databases: Relational Databases and SQL
+
+   (BUTTON) About
+
+     * (BUTTON) About
+     * (BUTTON) What you'll learn
+     * (BUTTON) Instructors
+     * (BUTTON) FAQs
+     * (BUTTON) Ways to enroll
+
+   [https://courses.edx.org/register?course_id=course-v1%3AStanfordOnline%
+   2BSOE.YDB-SQL0001%2B2T2020&enrollment_action=enroll&email_opt_in=false]
+
+Enroll now
+
+   Starts Jul 7
+
+About this course
+
+   [https://www.edx.org/course/databases-5-sql#about-this-course]Skip
+   About this course
+
+   About the Database Series of Courses
+
+   "Databases" was one of Stanford's three inaugural massive open online
+   courses in the fall of 2011. It has been offered in synchronous and
+   then in self-paced versions on a variety of platforms continuously
+   since 2011. The material is now being offered as a set of five
+   self-paced courses, which can be taken in a variety of ways to learn
+   about different aspects of databases.
+
+   Relational Databases and SQL is the most popular course in the
+   Databases series. It is applicable to learners seeking to gain a strong
+   understanding of relational databases, and to master SQL, the
+   long-accepted standard query language for relational database systems.
+   Additional courses focus on advanced concepts in relational databases
+   and SQL, formal foundations and database design methodologies, and
+   semistructured data.
+
+   All of the courses are based around video lectures and demos. Many of
+   them include quizzes between video segments to check understanding,
+   in-depth standalone quizzes, and/or a variety of automatically-checked
+   interactive exercises. Each course also includes an unmoderated
+   discussion forum and pointers to readings and resources. The courses
+   are described briefly below. Taught by Professor Jennifer Widom, the
+   overall curriculum draws from Stanford's popular longstanding Databases
+   course.
+
+   Why Learn About Databases
+
+   Databases are incredibly prevalent -- they underlie technology used by
+   most people every day if not every hour. Databases reside behind a huge
+   number of websites; they're a crucial component of telecommunications
+   systems, banking systems, video games, and just about any other
+   software system or electronic device that maintains some amount of
+   persistent information. In addition to persistence, database systems
+   provide a number of other properties that make them exceptionally
+   useful and convenient: reliability, efficiency, scalability,
+   concurrency control, data abstractions, and high-level query languages.
+   Databases are so ubiquitous and important that computer science
+   graduates frequently cite their database class as the one most useful
+   to them in their industry or graduate-school careers.
+   (BUTTON) Show more
+
+At a glance
+
+     * Institution:
+       [https://www.edx.org/school/stanfordonline]StanfordOnline
+     * Subject: [https://www.edx.org/learn/computer-programming]Computer
+       Science
+     * Level: Introductory
+     * Prerequisites:
+       There are no specific prerequisites for this course; however, some
+       computer science background is expected for all of the courses in
+       the Databases series.
+
+     * Language: English
+     * Video Transcript: English
+     * Associated skills: Scalability, Database Systems, Database Design,
+       Concurrency Controls, Relational Databases, Data Abstraction,
+       Authorization (Computing), Online Analytical Processing,
+       Persistence, SQL (Programming Language), Computer Science,
+       Reliability, Query Languages
+
+What you'll learn
+
+   [https://www.edx.org/course/databases-5-sql#outcome]Skip What you'll
+   learn
+
+   Stanford's online offering in Databases is now available as a set of
+   five self-paced courses:
+
+   Databases: Relational Databases and SQL
+     * Introduction to the relational model and concepts in relational
+       databases and relational database management systems
+     * Comprehensive coverage of SQL, the long-accepted standard query
+       language for relational database management systems
+
+   Databases: Advanced Topics in SQL (prerequisite: Relational Databases
+   and SQL)
+     * Creating indexes for increased query performance
+     * Using transactions for concurrency control and failure recovery
+     * Database constraints: key, referential integrity, and "check"
+       constraints
+     * Database triggers
+     * How views are created, used, and updated in relational databases
+     * Authorization in relational databases
+
+   Databases: OLAP and Recursion
+     * Star schemas, the data cube concept, and On-Line Analytical
+       Processing (OLAP) features in relational databases including the
+       Cube and Rollup operators
+     * The SQL standard for queries over recursively-defined relations
+
+   Databases: Modeling and Theory
+     * Relational algebra – the algebraic query language that provides the
+       formal foundations of SQL
+     * Dependency theory and normal forms in relational databases as the
+       basis of schema design
+     * The data-modeling component of the Unified Modeling Language (UML),
+       how UML diagrams are translated to relations
+
+   Databases: Semistructured Data
+     * The XML model for semistructured and self-describing data,
+       including DTDs and some features of XML Schema
+     * The JSON model for human-readable structured or semistructured data
+     * The XPath language for processing XML data, and many features of
+       the more advanced XQuery language
+     * An introduction to the XSLT rule-based language for querying and
+       transforming XML data
+
+   (BUTTON) Show more
+
+About the instructors
+
+Frequently Asked Questions
+
+   [https://www.edx.org/course/databases-5-sql#faq]Skip Frequently Asked
+   Questions
+
+   How long will it take to go through the course material?
+
+   All of the courses are self-paced and include videos, quizzes, and/or
+   exercises. The courses vary considerably in length and complexity, and
+   some students work faster than others, so we're not able to predict an
+   individual time commitment.
+
+   What background do I need?
+
+   The series of courses does not assume prior knowledge of any specific
+   topics, however a solid computer science foundation -- a reasonable
+   amount of programming, as well as knowledge of basic computer science
+   theory -- will make the material more accessible.
+
+   Do I need to buy a textbook?
+
+   Detailed lecture notes are provided. Having a textbook in addition to
+   the notes is not necessary, but you might want to purchase one for
+   reference, to reinforce the core material, and as a source of
+   additional exercises. Suggested textbooks and readings are listed as
+   part of the materials.
+   (BUTTON) Show more
+
+Ways to take this course
+
+   Choose your path when you enroll.
+   [https://courses.edx.org/register?course_id=course-v1%3AStanfordOnline%
+   2BSOE.YDB-SQL0001%2B2T2020&enrollment_action=enroll&email_opt_in=false]
+
+Enroll now
+
+   Starts Jul 7
+
+Verified Track
+
+Audit Track
+
+Price
+
+   $50 USD
+
+   Free
+
+Access to course materials
+
+   Unlimited
+   (BUTTON)
+
+   Limited
+   (BUTTON)
+
+   Expires on Jul 21
+
+World class institutions and universities
+
+edX support
+
+Shareable certificate upon completion
+
+Graded assignments and exams
+
+   [https://support.edx.org/hc/en-us/sections/360002747833-About-Audit-and
+   -Verified-Courses]Read our FAQsin a new tab about frequently asked
+   questions on these tracks.
+
+Interested in this course for your business or team?
+
+   Train your employees in the most in-demand topics, with edX For
+   Business.
+   [https://ecommerce.edx.org/basket/add/?sku=2435F1B]Purchase
+   now[https://business.edx.org/?lead_source=edX+Course+Page&utm_campaign=
+   B2B+Container&utm_source=Referral]Request information
+
+    1. [https://www.edx.org/search]Catalog
+    2.
+    3. [https://www.edx.org/learn/computer-programming]Computer Science
+       Courses
+
+    1. [https://www.edx.org/learn/computer-programming]Computer Science
+       Courses
+
+   [https://www.edx.org/school/stanfordonline]Stanford University Logo
+
+Databases: Relational Databases and SQL
+
+   This course is one of five self-paced courses on the topic of
+   Databases, originating as one of Stanford's three inaugural massive
+   open online courses released in the fall of 2011. The original
+   "Databases" courses are now all available on edx.org.
+
+   This course provides an introduction to relational databases and
+   comprehensive coverage of SQL, the long-accepted standard query
+   language for relational database systems.
+
+   Databases: Advanced Topics in SQL and Databases: OLAP and Recursion are
+   follow-on courses to this course and can be taken in either order.
+   Advanced Topics is a broad and practical course covering indexes,
+   transactions, constraints, triggers, views, and authorization, while
+   OLAP and Recursion is recommended for learners with specific interest
+   in these topics.
+   ... (BUTTON) show all
+   Databases: Relational Databases and SQL
+
+There is one session available:
+
+   85,804 already enrolled!
+   Starts Jul 7
+   [https://courses.edx.org/register?course_id=course-v1%3AStanfordOnline%
+   2BSOE.YDB-SQL0001%2B2T2020&enrollment_action=enroll&email_opt_in=false]
+   Enroll
+   [ ]
+   I would like to receive email from StanfordOnline and learn about other
+   offerings related to Databases: Relational Databases and SQL.
+   About this course
+   What you'll learn
+   Instructors
+   Frequently Asked Questions
+   Ways to take this course
+   edX For Business
+
+   [https://www.edx.org/]a 2U company
+     * [http://www.facebook.com/EdxOnline]Like edX on Facebook
+     * [https://twitter.com/edXOnline]Follow edX on Twitter
+     * [http://www.linkedin.com/company/edx]Follow edX on LinkedIn
+     * [http://www.reddit.com/r/edx]Subscribe to the edX subreddit
+
+BROWSE COURSES
+
+     * [https://www.edx.org/learn/spanish]Learn Spanish
+     * [https://www.edx.org/learn/python]Learn Python
+     * [https://www.edx.org/learn/excel]Learn Excel
+     * [https://www.edx.org/learn/software-engineering]Learn Software
+       Engineering
+     * [https://www.edx.org/learn/blockchain]Learn Blockchain
+     * [https://www.edx.org/learn/computer-programming]Learn Computer
+       Programming
+     * [https://www.edx.org/learn/economics]Learn Economics
+     * [https://www.edx.org/learn/architecture]Learn Architecture
+     * [https://www.edx.org/learn/project-management]Learn Project
+       Management
+     * [https://www.edx.org/learn/business-administration]Learn Business
+       Administration
+
+   [https://www.edx.org/learn]see more Courses
+
+START A NEW CAREER
+
+     * [https://www.edx.org/boot-camps/coding]Coding Boot Camp
+     * [https://www.edx.org/boot-camps/data-analytics]Data Analytics Boot
+       Camp
+     * [https://www.edx.org/boot-camps/cybersecurity]Cybersecurity Boot
+       Camp
+     * [https://www.edx.org/boot-camps/fintech]FinTech Boot Camp
+     * [https://www.edx.org/boot-camps/product-management]Product
+       Management Boot Camp
+     * [https://www.edx.org/boot-camps/digital-marketing]Digital Marketing
+       Boot Camp
+     * [https://www.edx.org/boot-camps/ux-ui-user-experience]UX/UI Boot
+       Camp
+     * [https://www.edx.org/boot-camps/tech-project-management]Technology
+       Project Management Boot Camp
+
+   [https://www.edx.org/boot-camps]see more Boot Camps
+
+COMPLETE YOUR BACHELOR'S ONLINE
+
+     * [https://www.edx.org/bachelors/business]Bachelor's in Business
+     * [https://www.edx.org/bachelors/computer-data-sciences]Bachelor's in
+       Computer Science / Data Science
+     * [https://www.edx.org/bachelors/health-social-services]Bachelor's in
+       Health and Nursing
+
+   [https://www.edx.org/bachelors]see more Undergraduate Degrees
+
+EARN YOUR ONLINE GRADUATE DEGREE
+
+     * [https://www.edx.org/masters/mba]Master's in Business
+       Administration
+     * [https://www.edx.org/masters/public-health]Master's in Public
+       Health
+     * [https://www.edx.org/masters/social-work]Master's in Social Work
+     * [https://www.edx.org/masters/nursing]Master's in Nursing
+     * [https://www.edx.org/masters/data-science]Master's in Data Science
+     * [https://www.edx.org/masters/engineering]Master's in Engineering
+     * [https://www.edx.org/masters/speech]Master's in Speech Pathology
+     * [https://www.edx.org/masters/counseling-psychology]Master's in
+       Counseling/Psychology
+     * [https://www.edx.org/masters/healthcare]Master's Degree in
+       Healthcare
+     * [https://www.edx.org/masters/education]Master's Degree in Education
+
+   [https://www.edx.org/masters]see more Graduate Degrees
+     __________________________________________________________________
+
+edX
+
+     * [https://www.edx.org/boot-camps]Boot Camps
+     * [https://www.edx.org/about-us]About
+     * [https://business.edx.org/?utm_campaign=edX.org%20Referral&utm_medi
+       um=Footer&utm_source=prospectus.edx.org]edX For Business
+     * [https://www.edx.org/affiliate-program]Affiliates
+     * [http://open.edx.org/]Open edX
+     * [http://www.edx.org/advisory-groups]2U Advisory Councils
+     * [https://www.edx.org/careers]Careers
+     * [https://press.edx.org/]News
+
+Connect
+
+     * [https://blog.edx.org/]Blog
+     * [https://courses.edx.org/support/contact_us]Contact Us
+     * [https://support.edx.org/]Help Center
+     * [https://www.edx.org/policy/security]Security
+     * [https://www.edx.org/media-kit]Media Kit
+
+Legal
+
+     * [https://www.edx.org/edx-terms-service]Terms of Service & Honor
+       Code
+     * [https://www.edx.org/edx-privacy-policy]Privacy Policy
+     * [https://www.edx.org/edx-privacy-policy/cookies]Cookie Policy
+     * [https://www.edx.org/accessibility]Accessibility Policy
+     * [https://www.edx.org/trademarks]Trademark Policy
+     * [https://www.edx.org/modern-slavery-statement]Modern Slavery
+       Statement
+     * [https://www.edx.org/sitemap]Sitemap
+     * [https://www.edx.org/course/databases-5-sql]Your Privacy Choices
+
+   Choose Language
+   [English_] (BUTTON) Apply
+
+   © 2023 edX LLC. All rights reserved.
+   | 深圳市恒宇博科技有限公司 [https://beian.miit.gov.cn/]粤ICP备17044299号-2
+   [https://itunes.apple.com/us/app/edx/id945480667?mt=8]Download on the
+   App Store
+   [https://play.google.com/store/apps/details?id=org.edx.mobile]Get it on
+   Google Play

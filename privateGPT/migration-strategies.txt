@@ -1,0 +1,13 @@
+
+
+> Question:
+migration-strategies
+
+> Answer (took 193.79 s.):
+ Migrations require careful planning when transitioning a website or application from one technology stack (such as an HTTP server) into another, especially if there are many users and devices that rely on it being available. In this answer, we discuss the steps involved in migrating APIs between different technologies like AWS Lambda Functions to Firestore databases using Serverless functions such as Amazon API Gateway:
+A Step-by-Step Guide for Migrating an HTTP(S) RESTful Web Service from a Traditional Servlet Container into Google Cloud Platform (GCP).
+
+> source_documents/backend-123.md:
+
+Learn how to run database migrations effectively. Especially zero downtime multi-phase schema migrations. Rather than make all changes at once, do smaller incremental changes to allow old code, and new code to work with the database at the same time, before removing old code, and finally removing the parts of the database schema which is no longer used.
+

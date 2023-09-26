@@ -1,0 +1,11 @@
+
+
+> Question:
+backpressure
+
+> Answer (took 113.46 s.):
+ Backpressure refers to the behavior where an application or system releases resources that can be used by other processes when it is overwhelmed. This helps prevent resource exhaustion, which would otherwise cause crashes and data loss in a cloud environment with limited capacity for handling requests quickly enough. The process of managing backpressuue involves understanding how different parts
+
+> source_documents/index.php.txt:
+
+Backend

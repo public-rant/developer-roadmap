@@ -1,0 +1,143 @@
+WEBVTT
+
+
+
+00:00:01.050 --> 00:00:07.470
+Hello and welcome I am Raghav from automation
+step by step dotcom and in this session and
+
+00:00:07.470 --> 00:00:12.590
+in this series we are going to go very basic
+step by step and we're going to learn karate
+
+00:00:12.590 --> 00:00:18.039
+API testing Framework so in this session we
+are going to go very basic from scratch and
+
+00:00:18.039 --> 00:00:24.069
+we will learn what is Karate what are the
+features of karate and then we will see the
+
+00:00:24.069 --> 00:00:29.710
+project setup and how to create the very first
+test in Karate so this is going to be very
+
+00:00:29.710 --> 00:00:36.040
+easy and very interesting let us start with
+what is karate karate is open source tool
+
+00:00:36.040 --> 00:00:43.420
+or open source platform for API testing and
+we can test both soap and rest API using Karate
+
+00:00:43.420 --> 00:00:49.920
+it is written in Java and we can do API mocking
+UI testing and performance testing of the
+
+00:00:49.920 --> 00:00:57.530
+API is as well using karate and its uses BD
+Sintex so we are going to use the behaviour
+
+00:00:57.530 --> 00:01:03.100
+driven development Syntax and we are going
+to use the feature files and the scenarios
+
+00:01:03.100 --> 00:01:09.450
+in Karate now just in case you are completely
+new to be didi and want to understand exactly
+
+00:01:09.450 --> 00:01:17.930
+what is bdd from scratch you can go on my
+website that is automation step by step dotcom
+
+00:01:17.930 --> 00:01:26.810
+and here you will find a topic and the section
+on basics of BD and this will take you to
+
+00:01:26.810 --> 00:01:34.830
+my YouTube playlist where you will see all
+the beginners video for BD frequency hear
+
+00:01:34.830 --> 00:01:40.160
+what is BD with examples how did you work
+how did you started what is haircon how did
+
+00:01:40.160 --> 00:01:47.240
+it starts in an organisation and a complete
+workflow of BD so you can watch that and this
+
+00:01:47.240 --> 00:01:52.890
+is what we are going to use the BD Sintex
+in karate karate was created by Peter Thomas
+
+00:01:52.890 --> 00:02:00.220
+in 2017 so with this very basic knowledge
+that is see some awesome features of karate
+
+00:02:00.220 --> 00:02:05.490
+so this is very easy for non programmers All
+The Karate is written in Java but for implementation
+
+00:02:05.490 --> 00:02:10.520
+we are going to use Beat It is Intex using
+Jharkhand language which is which is very
+
+00:02:10.520 --> 00:02:15.800
+Plain English type of language and I will
+show you how exactly do that so it is very
+
+00:02:15.800 --> 00:02:20.940
+easy even if you have no program in background
+it is written in Java but implemented using
+
+00:02:20.940 --> 00:02:26.870
+bdd style and it requires no technical programming
+language should not worry if you are a completely
+
+00:02:26.870 --> 00:02:31.700
+new to coding or you do not have any programming
+background you can still work with Karate
+
+00:02:31.700 --> 00:02:36.840
+between two parallel testing as well as distributed
+testing in Karate is so parallel testing is
+
+00:02:36.840 --> 00:02:42.500
+when we can run multiple test cases at once
+in parallel and distributed testing is when
+
+00:02:42.500 --> 00:02:49.371
+we can run our test cases on multiple platforms
+or from multiple systems we can do multi environment
+
+00:02:49.371 --> 00:02:54.640
+testing we can set up multiple environments
+and then do our testing and then we can also
+
+00:02:54.640 --> 00:03:01.880
+get our data from external files like csv
+Jaise on gem Electra there are very good features
+
+00:03:01.880 --> 00:03:07.260
+of debugging and multiple reporting features
+in Karate and we can do cross browser web
+
+00:03:07.260 --> 00:03:14.321
+UI testing as well as clock cross-platform
+desktop testing using Karate portable start
+
+00:03:14.321 --> 00:03:20.930
+the setup of power project in case you have
+any questions any doubts related to this session
+
+00:03:20.930 --> 00:03:26.810
+you can let me know and I will try to answer
+your as soon as I can and then we will move
+
+00:03:26.810 --> 00:03:32.709
+on to the next topic so I hope this was useful
+and now we will move to the prerequisites
+
+00:03:32.709 --> 00:03:34.269
+and setup for karate
+

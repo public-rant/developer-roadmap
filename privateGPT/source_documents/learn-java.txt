@@ -1,0 +1,392 @@
+   #[https://www.codecademy.com/blog.rss]Codecademy Blog
+
+   [https://www.codecademy.com/learn/learn-java#course-landing-page-headin
+   g]Skip to Content
+
+     * Loading menu bar
+
+     * Loading menu bar
+     * (BUTTON) Menu Icon
+
+   Free
+   Course
+
+Learn Java
+
+   Learn to code in Java — a robust programming language used to create
+   software, web and mobile apps, and more.
+   4.4
+   (BUTTON) 9,435 ratings
+   [https://www.codecademy.com/courses/learn-java/lessons/hello-world-java
+   ]Start
+   1,473,590 learners enrolled
+     * Skill level
+       Beginner
+     * Time to complete
+       Approx. 25 hours
+     * Certificate of completion
+       Included with paid plans
+     * Prerequisites
+       None
+
+About this course
+
+   Popular for its versatility and ability to create a wide variety of
+   applications, learning Java opens up your possibilities when coding.
+   With it, you’ll be able to develop large systems, software, and mobile
+   applications — and even create mobile apps for Android. Learn important
+   Java coding fundamentals and practice your new skills with real-world
+   projects.
+
+Skills you'll gain
+
+     * Build core programming concepts
+     * Learn object-oriented concepts
+     * Create Java projects
+
+Syllabus
+
+   16 lessons • 14 projects • 15 quizzes
+   (BUTTON) Expand all sections
+     * (BUTTON)
+       1
+
+Hello World
+       Welcome to the world of Java programming! Java is a popular
+       object-oriented programming language that is used in many different
+       industries.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       2
+
+Variables
+       Learn about datatypes in Java and how we use them. Then, practice
+       your skills with two projects where you create and manipulate
+       variables.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       3
+
+Object-Oriented Java
+       Learn about object-oriented programming in Java. Explore syntax for
+       defining classes and creating instances.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       4
+
+Conditionals and Control Flow
+       Conditionals and control flow in Java programs.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       5
+
+Arrays and ArrayLists
+       Build lists of data with Java arrays and ArrayLists.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       6
+
+Loops
+       Use loops to iterate through lists and repeat code.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       7
+
+String Methods
+       The Java String class provides a lot of useful methods for
+       performing operations on strings and data manipulation.
+       Arrow Chevron Down Icon
+
+   (BUTTON) Show all 11 modules
+   [https://www.codecademy.com/courses/learn-java/lessons/hello-world-java
+   ]Start
+   The platform
+
+Hands-on learning
+
+   Don’t just watch or read about someone else coding — write your own
+   code live in our online, interactive platform. You’ll even get
+   AI-driven recommendations on what you need to review to help keep you
+   on track.
+   Animated demonstration of running code in Codecademy's learning
+   environment
+
+Projects in this course
+
+     * [https://www.codecademy.com/courses/learn-java/projects/planting-a-
+       tree]Project
+
+Planting a Tree
+       Write your first Java program from scratch by introducing yourself
+       to users and planting a tree for them. You'll practice creating a
+       class, defining the main method, and organizing print statements.
+     * [https://www.codecademy.com/courses/learn-java/projects/java-variab
+       les-mad-libs]Project
+
+Java Variables: Mad Libs
+       In this project, we're going to practice creating variables and
+       printing. We're going to put your skills to the test by generating
+       a story, Mad Libs style.
+     * [https://www.codecademy.com/courses/learn-java/projects/math-magic]
+       Project
+
+Math Magic
+       It's time to build fluency with operators in Java. In this project,
+       we're going to practice arithmetic in Java so you can hone your
+       skills and feel confident taking them to the real world. Why?
+       Practicing computing integer values with Java's arithmetic
+       operators will help you with a wide, wide range of Java tasks in
+       the future. What's next? Some math, more Java, and a sprinkle of
+       magic. You got this!
+
+   Learn Java course ratings and reviews
+   4.4
+   9,435 ratings
+    1. 5 stars
+       57%
+    2. 4 stars
+       29%
+    3. 3 stars
+       10%
+    4. 2 stars
+       2%
+    5. 1 star
+       3%
+
+     * The Intro to Java course was able to break down multiple concepts
+       into easily digestible chunks. I actually felt like I was
+       practicing the information the moment I was learning it, as opposed
+       to just watching a video and trying to remember what was said
+       afterwards.
+       Mike M.
+       Verified Learner
+     * Very organized course overall, well-structured sub-tasks and great
+       quality tips and notes in every lesson. For someone with a
+       Codecademy subscription, and no background in Java, this course
+       does the job of setting up the foundations and developing a
+       critical-thinking repertoire to tackle problems in Java.
+       Elie C.
+       Verified Learner
+     * This is the best java course I have ever done, it's beginner
+       friendly but also have some really cool projects. I personally love
+       Codecademy way to teaching. This course have boosted my confidence
+       and I have already started the intermediate course. I highly
+       recommend this course to every one who is starting in this field.
+       Shubham V.
+       Verified Learner
+
+Our learners work at
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Two people in conversation while learning to code with Codecademy on
+   their laptops
+
+Unlock additional features with a paid plan
+
+     *
+
+Practice Projects
+       Guided projects that help you solidify the skills and concepts
+       you're learning.
+     *
+
+Assessments
+       Auto-graded quizzes and immediate feedback help you reinforce your
+       skills as you learn.
+     *
+
+Certificate of Completion
+       Earn a document to prove you've completed a course or path that you
+       can share with your network.
+
+   [https://www.codecademy.com/pricing]See pricing and plans
+
+Join over 50 million learners and start Learn Java today!
+
+   [https://www.codecademy.com/courses/learn-java/lessons/hello-world-java
+   ]Start
+
+Frequently asked questions about Java
+
+     * (BUTTON)
+
+What is Java?
+       Arrow Chevron Down Icon
+       Java is an open-source, general-purpose programming language known
+       for its versatility and stability. It’s used for everything from
+       building websites to operating systems and wearable devices. You
+       can even find Java in outer space, running the Mars rover.
+     * (BUTTON)
+
+What does Java do?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What kind of jobs can Java get me?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+Are Java and Javascript the same?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What do I need to know before learning Java?
+       Arrow Chevron Down Icon
+
+Company
+
+     * [https://www.codecademy.com/about]About
+     * [https://www.codecademy.com/about/careers]Careers
+     * [https://www.codecademy.com/pages/codecademy-affiliate-program]Affi
+       liates
+     *
+          + [https://twitter.com/Codecademy]
+          + [https://codecademy.com/users/redirect?redirect_url=https://ww
+            w.facebook.com/groups/codecademy.community]
+          + [https://instagram.com/codecademy]
+          + [https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ]
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Plans
+
+     * [https://www.codecademy.com/pages/paid-plans]Paid memberships
+     * [https://www.codecademy.com/student-center]For students
+     * [https://www.codecademy.com/business]For teams
+
+Community
+
+     * [https://discuss.codecademy.com/]Forums
+     * [https://community.codecademy.com/chapters]Chapters
+     * [https://www.codecademy.com/events]Events
+     * [https://try.codecademy.com/code-crew/]Code Crew
+     * [https://www.codecademy.com/resources/blog/category/learner-stories
+       ]Learner Stories
+     *
+     * [https://discord.com/invite/codecademy]Discord
+
+Subjects
+
+     * [https://www.codecademy.com/catalog/subject/artificial-intelligence
+       ]AI
+     * [https://www.codecademy.com/catalog/subject/cloud-computing]Cloud
+       Computing
+     * [https://www.codecademy.com/catalog/subject/code-foundations]Code
+       Foundations
+     * [https://www.codecademy.com/catalog/subject/computer-science]Comput
+       er Science
+     * [https://www.codecademy.com/catalog/subject/cybersecurity]Cybersecu
+       rity
+     * [https://www.codecademy.com/catalog/subject/data-analytics]Data
+       Analytics
+     * [https://www.codecademy.com/catalog/subject/data-science]Data
+       Science
+     * [https://www.codecademy.com/catalog/subject/data-visualization]Data
+       Visualization
+     * [https://www.codecademy.com/catalog/subject/developer-tools]Develop
+       er Tools
+     * [https://www.codecademy.com/catalog/subject/devops]DevOps
+     * [https://www.codecademy.com/catalog/subject/game-development]Game
+       Development
+     * [https://www.codecademy.com/catalog/subject/information-technology]
+       IT
+     * [https://www.codecademy.com/catalog/subject/machine-learning]Machin
+       e Learning
+     * [https://www.codecademy.com/catalog/subject/math]Math
+     * [https://www.codecademy.com/catalog/subject/mobile-development]Mobi
+       le Development
+     * [https://www.codecademy.com/catalog/subject/web-design]Web Design
+     * [https://www.codecademy.com/catalog/subject/web-development]Web
+       Development
+
+Languages
+
+     * [https://www.codecademy.com/catalog/language/bash]Bash
+     * [https://www.codecademy.com/catalog/language/c]C
+     * [https://www.codecademy.com/catalog/language/c-plus-plus]C++
+     * [https://www.codecademy.com/catalog/language/c-sharp]C#
+     * [https://www.codecademy.com/catalog/language/go]Go
+     * [https://www.codecademy.com/catalog/language/html-css]HTML & CSS
+     * [https://www.codecademy.com/catalog/language/java]Java
+     * [https://www.codecademy.com/catalog/language/javascript]JavaScript
+     * [https://www.codecademy.com/catalog/language/kotlin]Kotlin
+     * [https://www.codecademy.com/catalog/language/php]PHP
+     * [https://www.codecademy.com/catalog/language/python]Python
+     * [https://www.codecademy.com/catalog/language/r]R
+     * [https://www.codecademy.com/catalog/language/ruby]Ruby
+     * [https://www.codecademy.com/catalog/language/sql]SQL
+     * [https://www.codecademy.com/catalog/language/swift]Swift
+
+Career building
+
+     * [https://www.codecademy.com/catalog/all]Career paths
+     * [https://www.codecademy.com/pages/career-services]Career services
+     * [https://www.codecademy.com/pages/interview-prep]Interview prep
+     * [https://www.codecademy.com/pages/pro-certifications]Professional
+       certification
+     * —
+     * [https://www.codecademy.com/catalog/all]Full Catalog
+     * [https://www.codecademy.com/catalog/subject/beta]Beta Content
+     * [https://trello.com/b/vAgDXtT6/codecademy-releases-roadmap]Roadmap
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+     * [https://www.codecademy.com/policy]Privacy Policy
+     * [https://www.codecademy.com/cookie-policy]Cookie Policy
+     * [https://privacy.codecademy.com/]Do Not Sell My Personal
+       Information
+     * [https://www.codecademy.com/terms]Terms
+
+   Made with ❤️in NYC © 2023 Codecademy

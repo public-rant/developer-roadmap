@@ -1,0 +1,50 @@
+so question is is what is an apache web
+server an apache web server is an HTTP
+server that presents websites to
+visitors that come to your server so if
+you want to deploy a website set for a
+business or for your organization you
+would most likely use apache in order to
+do that there are other HTTP servers out
+there such as iis or in jinks but apache
+is the standard that most people use
+whether they re on linux whether they re
+on Windows or whether they re on Mac
+Apache is the default that most people
+go to because it s well known it s very
+reliable and it s free so if you re
+going to be trying to deploy a website
+generally you re going to be using
+Apache now one thing to realize with
+Apache is that all it is is an HTTP
+server so if you install this on Linux
+or you install it on to Windows or you
+install it on to a Mac all it will allow
+you to do is be able to present static
+websites to visitors coming to your
+server so if you you code out an HTML
+website with no additional programming
+languages other than something like
+JavaScript you can use that with just an
+Apache server so you know h1 title you
+plug all of that in you can put that
+onto an Apache server and you can
+present that to visitors coming to your
+site do realize if you need any database
+services or if you need a dynamic
+programming languages in order to make
+your website work such as PHP or Ruby
+something along those lines you will
+have to install those additional server
+services onto your server so most of the
+time when people build a web server they
+build a lamp server so a Linux Apache my
+sequel PHP generally most of the time
+people install my sequel and PHP in
+addition to Apache but do realize that
+you don t have to if you just simply
+have a static website maybe with
+specific information a very plain you
+know general website you can simply use
+Apache in order to present that to your
+visitors so that s all Apache is and

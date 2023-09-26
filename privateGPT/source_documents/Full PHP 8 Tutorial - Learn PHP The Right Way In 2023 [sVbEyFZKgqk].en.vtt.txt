@@ -1,0 +1,208 @@
+hello and welcome to my first course
+learn php the right way
+learning the right way means learning
+php from the ground up
+from the beginner s level all the way to
+advanced in a single course
+i have seen many courses that teach
+basic stuff really well
+and they do an amazing job but not all
+of them go into more detail or cover
+some of the advanced topics that it will
+definitely need
+if you want to create and maintain web
+applications or jump into frameworks
+knowing these topics beyond the basics
+will help you better understand how
+certain
+things work in the frameworks later and
+it will help set the proper foundation
+it will also help you write clean
+efficient and secure code as well as
+help you dive into existing code base
+and understand how it works
+this course is for both beginners and
+experienced php developers
+my goal is to have enough content within
+this one course that even if you have
+experience with php you could still
+learn something new
+we re going to start with the basic
+material and quickly advance into the
+more advanced topics as we go on so
+let s get started
+
+so what is php php stands for hypertext
+preprocessor which is an open source
+scripting language that is mainly used
+for web development scripting languages
+are also programming languages the main
+difference between the scripting and
+programming languages lies within their
+execution
+while programming languages need to be
+compiled into machine language the
+script and languages need to be
+interpreted for example
+java c or c plus plus are programming
+languages that need to be compiled in
+order to run
+where php and javascript need an
+interpreter unlike javascript which runs
+on the client within the browser php
+requires a server to run this is a very
+simple representation of how php runs
+client or the browser makes requests to
+the server which then interprets and
+processes php it can also do other
+things there like connect to the
+database or third party apis and so on
+and finally it sends the response back
+let s talk about why you should learn
+php first of all it s easier and
+beginner friendly which attracts a lot
+of developers this is one of php s
+strengths but it can also be considered
+as one of its weaknesses
+because of this simplicity you could
+essentially write a pretty bad code and
+it will still run and work just fine in
+browser
+and because of this sometimes php gets
+the bad reputation but don t let that
+discourage you from learning php because
+we re here to learn php the right way
+also php is very powerful not only you
+could build
+simple websites but it could also build
+very complex web applications even at
+enterprise level it also has amazing and
+huge ecosystem
+and some of the best frameworks you
+could build e commerce web applications
+connect
+countless other third party services
+build company websites build crm systems
+blogs billing invoicing warehouse
+management the possibilities are endless
+though you will still hear php is dead
+from time to time
+if you go on social media you probably
+will encounter a question is php dead
+pretty often but is it actually dead
+well first of all php powers over 75
+percent of websites whose server side
+language is known
+so no php is not that and it is not
+going to die
+anytime soon because if it does somehow
+75 percent of websites need to
+switch from php to something else
+secondly yes php code can be bad
+but again you could write garbage code
+in any programming language whether it s
+java python or c plus plus it doesn t
+have to be just php
+also php has evolved a lot since php4
+and php5
+it was mostly procedural back then but
+it has become more object oriented and
+has introduced great support for strict
+types
+a lot of times they ve skipped some of
+the advanced topics like security for
+example
+and jump straight into building websites
+because as i mentioned before php is
+pretty simple
+and beginner friendly this is why it s
+important to learn php beyond the
+beginner s level and learn those
+necessary and advanced topics which will
+be covered in this course so let s talk
+more about this course
+this course will be split into three
+sections the first section will be basic
+php which will be mostly procedural then
+we re gonna have intermediate php where
+we ll transition into object oriented
+programming and advanced php where we ll
+learn
+some advanced topics and techniques the
+basic php section will cover things like
+getting php up and running
+syntax operators variables and data
+types control structures functions
+typecasting and error handling
+working with php ionize and web server
+working with arrays and dates
+and more in my opinion you should know
+how to work with your server s
+configuration files as well as your php
+configuration files before you even move
+into databases or object oriented
+programming the intermediate php section
+will be object oriented focused and will
+cover things like classes and methods
+object oriented programming code style
+and psr
+namespaces and autoloading dependency
+management
+super global sessions and cookies
+databases and more you might be asking
+why i did not include
+things like super globals or sessions
+and cookies within the basic php the
+simple answer to that
+is because it s not basic yes i could
+teach you the very basics of it but
+there are more things that you should
+know and how it ties in nicely with the
+object oriented programming
+advanced php section will cover topics
+about testing and php unit
+introduction to mvc and routing
+dependency injection container
+caching and security frameworks and php
+8 best practices
+hosting and deployments and more so as
+you can see there is a lot of content
+and i have not mentioned all the things
+that are going to be in the course
+these are just the main topics that will
+be there and basically after going
+through this course i m hoping that he
+will have enough knowledge to build
+something amazing whether it s just with
+vanilla php or with a framework
+it does not matter the goal of this
+course is for you to know
+things in php beyond the beginner s
+level and beyond the procedural php so
+as far as the requirements goes
+you just need to know basic html to get
+started with this course
+no javascript or css is necessary though
+i might use some basic css to style
+things here and there but it s not
+necessary if you have any previous
+programming experience or know
+another language like javascript for
+example then this course will be a bit
+easier if you are new to programming and
+php is the first language you re
+starting with then it might be a bit
+harder but don t worry about it section
+1 of this course is for beginners and it
+should prepare you for the other
+sections this is it for this video and
+the introduction of the course thank you
+so much for watching i m really excited
+to be working on this course
+if you have any feedback comments or
+concerns please don t hesitate and post
+it down below or send me a message on
+twitter
+if you re looking forward to this course
+please give this video a thumbs up share
+and subscribe

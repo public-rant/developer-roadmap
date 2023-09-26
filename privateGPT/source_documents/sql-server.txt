@@ -1,0 +1,406 @@
+   [javascript:void(0)]Skip to main content
+   (BUTTON) (BUTTON) [https://www.microsoft.com/]Microsoft
+   (BUTTON) Data platform (BUTTON)
+   [https://www.microsoft.com/en-ca/sql-server/]Data platform
+   (BUTTON) Data platform
+     * [https://www.microsoft.com/en-ca/sql-server/]Home
+     * (BUTTON) Products
+          + Data platform (BUTTON) Data platform
+               o [https://azure.microsoft.com/overview/data-platform/]Azur
+                 e data services
+               o [https://powerbi.microsoft.com/]Power BI
+          + SQL Server (BUTTON) SQL Server
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 22]SQL Server 2022
+               o [https://www.microsoft.com/en-ca/sql-server/sql-business-
+                 intelligence]SQL Server BI
+          + Previous versions (BUTTON) Previous versions
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 19]SQL Server 2019
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 17]SQL Server 2017
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 16]SQL Server 2016
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 08]SQL Server 2008
+               o [https://www.microsoft.com/en-ca/sql-server/sql-server-20
+                 05]SQL Server 2005
+     * [https://www.microsoft.com/en-ca/sql-server/sql-server-downloads]Do
+       wnloads
+     * [https://www.microsoft.com/sql-server/community]Community
+     * (BUTTON) Resources
+          + [https://www.microsoft.com/en-ca/sql-server/sql-server-2012-eo
+            s]SQL End of Support
+          + [https://cloudblogs.microsoft.com/sqlserver/]SQL Server blog
+          + [https://microsoft.github.io/sqlworkshops/]SQL Server and
+            Azure SQL workshops
+          + [https://techcommunity.microsoft.com/t5/sql-server/bd-p/SQL_Se
+            rver]SQL Server tech community
+          + [https://techcommunity.microsoft.com/t5/azure-databases/ct-p/A
+            zureDatabases]Azure Databases Tech Community
+          + [https://techcommunity.microsoft.com/t5/azure-synapse-analytic
+            s/bg-p/AzureSynapseAnalyticsBlog]Azure Synapse Analytics Tech
+            Community
+          + [https://social.technet.microsoft.com/Forums/en-US/home?catego
+            ry=sqlserver]TechNet Forums
+     * (BUTTON) Developer
+          + [https://www.microsoft.com/en-ca/sql-server/application-develo
+            pment]Application development
+          + [https://www.microsoft.com/en-ca/sql-server/developer-tools]SQ
+            L developer tools
+     * (BUTTON) Partner
+          + [https://www.microsoft.com/solution-providers/search?cacheId=6
+            1a0e90f-a100-4486-b9fc-c7b84739b3ba]Find a partner
+          + [https://partner.microsoft.com/en-ca/dashboard/account/v3/enro
+            llment/introduction/partnership]Become a partner
+          + [https://partner.microsoft.com/Solutions/Microsoft-sql-server]
+            Partner Resources
+     * (BUTTON) More
+     * [https://www.microsoft.com/en-ca/sql-server/sql-server-downloads]Tr
+       y SQL Server 2019
+
+     * (BUTTON) All Microsoft
+          + Global
+               o [https://www.microsoft.com/en-ca/security]Microsoft
+                 Security
+               o [https://azure.microsoft.com/en-ca/]Azure
+               o [https://dynamics.microsoft.com/en-ca/]Dynamics 365
+               o [https://www.microsoft.com/en-ca/microsoft-365/business/]
+                 Microsoft 365
+               o [https://www.microsoft.com/en-ca/microsoft-teams/group-ch
+                 at-software]Microsoft Teams
+               o [https://www.microsoft.com/en-ca/windows-365]Windows 365
+          + Tech & innovation (BUTTON) Tech & innovation
+               o [https://www.microsoft.com/en-ca/microsoft-cloud]Microsof
+                 t Cloud
+               o [https://www.microsoft.com/en-ca/ai]AI
+               o [https://azure.microsoft.com/en-ca/solutions/space/]Azure
+                 Space
+               o [https://www.microsoft.com/en-ca/mixed-reality/windows-mi
+                 xed-reality]Mixed reality
+               o [https://www.microsoft.com/en-ca/hololens]Microsoft
+                 HoloLens
+               o [https://www.microsoft.com/en-ca/microsoft-viva]Microsoft
+                 Viva
+               o [https://azure.microsoft.com/en-ca/solutions/quantum-comp
+                 uting/]Quantum computing
+               o [https://www.microsoft.com/en-ca/sustainability/]Sustaina
+                 bility
+          + Industries (BUTTON) Industries
+               o [https://www.microsoft.com/en-ca/education]Education
+               o [https://www.microsoft.com/en-ca/industry/automotive]Auto
+                 motive
+               o [https://www.microsoft.com/en-ca/industry/financial-servi
+                 ces/banking]Financial services
+               o [https://www.microsoft.com/en-ca/industry/government]Gove
+                 rnment
+               o [https://www.microsoft.com/en-ca/industry/health]Healthca
+                 re
+               o [https://www.microsoft.com/en-ca/industry/manufacturing]M
+                 anufacturing
+               o [https://www.microsoft.com/en-ca/industry/retail-consumer
+                 -goods]Retail
+               o [https://www.microsoft.com/en-ca/industry]All industries
+          + Partners (BUTTON) Partners
+               o [https://partner.microsoft.com/en-ca/]Find a partner
+               o [https://partner.microsoft.com/en-ca/membership/cloud-sol
+                 ution-provider]Become a partner
+               o [https://partner.microsoft.com/en-ca/membership]Partner
+                 Network
+               o [https://about.ads.microsoft.com/resources/microsoft-adve
+                 rtising-partner-program]Find an advertising partner
+               o [https://about.ads.microsoft.com/en-ca/partners/welcome]B
+                 ecome an advertising partner
+               o [https://azuremarketplace.microsoft.com/en-ca/]Azure
+                 Marketplace
+               o [https://appsource.microsoft.com/en-ca/]AppSource
+          + Resources (BUTTON) Resources
+               o [https://blogs.microsoft.com/]Blog
+               o [https://about.ads.microsoft.com/en-ca]Microsoft
+                 Advertising
+               o [https://developer.microsoft.com/en-ca/]Developer Center
+               o [https://learn.microsoft.com/docs/]Documentation
+               o [https://www.microsoft.com/events]Events
+               o [https://www.microsoft.com/en-ca/licensing/]Licensing
+               o [https://learn.microsoft.com/]Microsoft Learn
+               o [https://www.microsoft.com/research/]Microsoft Research
+          + [https://www.microsoft.com/en-ca/sitemap.aspx]View Sitemap
+
+   ____________________ (BUTTON) Search Search Microsoft.com
+
+     * No results
+
+   (BUTTON) Cancel
+   [https://go.microsoft.com/fwlink/?linkid=2206232&clcid=0x1009&culture=e
+   n-ca&country=ca]Read how Microsoft is responding to the COVID-19
+   outbreak, and get resources to help
+   Slide %{start} of %{total}. %{slideTitle}
+   [https://www.microsoft.com/en-ca/sql-server/#f14740c5-08fc-4664-b891-89
+   484579c89f]Skip Highlight carousel
+   (BUTTON) Previous slide
+    1.
+    2.
+    3.
+    4.
+    5.
+
+   (BUTTON) Next slide
+
+Introducing SQL Server 2022
+
+   Azure-enabled with continued performance and security innovation, SQL
+   Server 2022 provides a modern data platform to transform your business.
+   [https://www.microsoft.com/en-ca/sql-server/sql-server-2022]Learn more
+   [https://go.microsoft.com/fwlink/p/?linkid=2185532&clcid=0x1009&culture
+   =en-ca&country=ca]Get help migrating SQL Server workloads to Azure
+
+SQL Server End of Support
+
+   SQL Server 2012 Extended Support is ending July 12, 2022. Learn what
+   this means for you and how to safeguard your data estate.
+   [https://www.microsoft.com/en-ca/sql-server/sql-server-2012-eos]Learn
+   more
+   [https://go.microsoft.com/fwlink/p/?linkid=2185532&clcid=0x1009&culture
+   =en-ca&country=ca]Get help migrating SQL Server workloads to Azure
+
+Unleash the power in your data
+
+   Reimagine the realm of possibility. Microsoft data platform solutions
+   release the potential hidden in your data—whether it's on-premises, in
+   the cloud, or at the edge—and reveal insights and opportunities to
+   transform your business.
+   (BUTTON)
+   Watch now
+   [https://go.microsoft.com/fwlink/p/?linkid=2185532&clcid=0x1009&culture
+   =en-ca&country=ca]Get help migrating SQL Server workloads to Azure
+
+Azure SQL digital event
+
+   Learn how to build an effective cloud database management strategy and
+   see how to accelerate your organization’s app modernization and
+   development using Azure SQL.
+   [https://go.microsoft.com/fwlink/p/?linkid=2158338&clcid=0x1009&culture
+   =en-ca&country=ca]Watch now
+   [https://go.microsoft.com/fwlink/p/?linkid=2185532&clcid=0x1009&culture
+   =en-ca&country=ca]Get help migrating SQL Server workloads to Azure
+
+Microsoft Ignite
+
+   Browse through the most memorable and most impactful content from our
+   recent digital event by topic.
+   [https://go.microsoft.com/fwlink/?linkid=2178707&clcid=0x1009&culture=e
+   n-ca&country=ca]View on-demand sessions
+   [https://go.microsoft.com/fwlink/p/?linkid=2185532&clcid=0x1009&culture
+   =en-ca&country=ca]Get help migrating SQL Server workloads to Azure
+   End of Highlight carousel section
+
+Reinvent your business
+
+Innovate faster on-premises
+
+   Intelligence and security are built into Microsoft SQL Server 2019. You
+   get extras without extra cost, along with best-in-class performance and
+   flexibility for your on-premises needs.
+   [https://www.microsoft.com/en-ca/sql-server/sql-server-downloads]Try
+   SQL Server
+
+Accelerate your move to the cloud
+
+   Take advantage of the efficiency and agility of the cloud by easily
+   migrating to the cloud without changing code. Unlock insights and make
+   predictions faster with Azure.
+   [https://go.microsoft.com/fwlink/p/?linkid=2211230&clcid=0x1009&culture
+   =en-ca&country=ca]Explore Azure managed databases
+
+Build intelligent apps
+
+   Develop using the technology of your choice, including open source,
+   backed by Microsoft's innovations. Easily integrate data into your apps
+   and use a rich set of cognitive services to build human-like
+   intelligence across any scale of data.
+   [https://go.microsoft.com/fwlink/p/?linkid=2211140&clcid=0x1009&culture
+   =en-ca&country=ca]Explore solutions
+
+Gain transformative insights
+
+   AI is native to the data platform—you can unlock insights faster from
+   all your data, on-premises and in the cloud. Combine your unique
+   enterprise data and the world's data to build an intelligence-driven
+   organization.
+   [https://go.microsoft.com/fwlink/p/?linkid=2211611&clcid=0x1009&culture
+   =en-ca&country=ca]Explore Azure AI
+
+Why use the Microsoft data platform
+
+Fast and agile
+
+   Work with a flexible data platform that gives you a consistent
+   experience across platforms and gets your innovations to market
+   faster—you can build your apps and then deploy anywhere.
+
+Built-in intelligence
+
+   The Microsoft data platform brings AI to your data so you gain deep
+   knowledge about your business and customers like never before. Only
+   Microsoft brings machine learning to database engines and to the edge,
+   for faster predictions and better security.
+
+Enterprise-proven
+
+   Bring your business to scale while trusting that your security,
+   performance, and availability needs are covered—with an
+   industry-leading total cost of ownership.
+
+The numbers speak for themselves
+
+98
+
+   of the Fortune 100 use SQL Server
+
+1M
+
+   predictions/second using Machine Learning Services
+
+100T
+
+   transactions/day using Azure Cosmos DB
+
+1ST
+
+   in performance benchmarks across TPC-E and TPC-H tests
+
+See how companies use the Microsoft data platform to realize their potential
+
+     * [https://go.microsoft.com/fwlink/p/?LinkID=2202867&clcid=0x409&cult
+       ure=en-us&country=US]msc
+     * [https://go.microsoft.com/fwlink/p/?linkid=2183188&clcid=0x1009&cul
+       ture=en-ca&country=ca]Itaú Unibanco
+     * [https://go.microsoft.com/fwlink/p/?linkid=2183340&clcid=0x1009&cul
+       ture=en-ca&country=ca]NBA
+     * [https://go.microsoft.com/fwlink/p/?linkid=2183276&clcid=0x1009&cul
+       ture=en-ca&country=ca]SKF
+
+See why businesses trust the Microsoft data platform for their data
+
+   A person with their arms folded smiling.
+
+Gartner Magic Quadrant for Cloud Database Management Systems
+
+   [https://go.microsoft.com/fwlink/p/?linkid=2187405&clcid=0x1009&culture
+   =en-ca&country=ca]Read the report
+   A dashboard displaying data on a tablet.
+
+Gartner Magic Quadrant for Business Intelligence and Analytics
+
+   [https://go.microsoft.com/fwlink/p/?linkid=2187209&clcid=0x1009&culture
+   =en-ca&country=ca]Read the report
+
+Follow us
+
+     * [https://www.facebook.com/sqlserver/]Facebook
+     * [https://twitter.com/sqlserver]Twitter
+     * [https://www.linkedin.com/company/microsoft-cloud-platform?trk=comp
+       any_name]LinkedIn
+     * [https://go.microsoft.com/fwlink/p/?linkid=2158262]Youtube
+     * [https://cloudblogs.microsoft.com/sqlserver/]Blog
+
+Share this page
+
+     * [https://www.facebook.com/sharer/sharer.php?m2w&s=100&u=https://www
+       .microsoft.com/en-us/sql-server]facebook
+     * [https://twitter.com/intent/tweet?url=https://www.microsoft.com/en-
+       us/sql-server&via=microsoft]twitter
+     * [https://www.linkedin.com/sharing/share-offsite/?url=https://www.mi
+       crosoft.com/en-us/sql-server]linkedin
+
+   What's new
+     * [https://www.microsoft.com/en-ca/d/surface-pro-9/93VKD8NP4FVK]Surfa
+       ce Pro 9
+     * [https://www.microsoft.com/en-ca/d/surface-laptop-5/8XN49V61S1BN]Su
+       rface Laptop 5
+     * [https://www.microsoft.com/en-ca/d/surface-studio-2plus/8VLFQC3597K
+       4]Surface Studio 2+
+     * [https://www.microsoft.com/en-ca/d/surface-laptop-go-2/8PGLPV76MJHN
+       ]Surface Laptop Go 2
+     * [https://www.microsoft.com/en-ca/d/surface-laptop-studio/8SRDF62SWK
+       PF]Surface Laptop Studio
+     * [https://www.microsoft.com/en-ca/d/surface-go-3/904H27D0CBWN]Surfac
+       e Go 3
+     * [https://www.microsoft.com/microsoft-365]Microsoft 365
+     * [https://www.microsoft.com/windows/windows-11-apps]Windows 11 apps
+
+   Microsoft Store
+     * [https://account.microsoft.com/]Account profile
+     * [https://www.microsoft.com/en-ca/download]Download Center
+     * [https://go.microsoft.com/fwlink/?linkid=2139749]Microsoft Store
+       Support
+     * [https://go.microsoft.com/fwlink/p/?LinkID=824764&clcid=0x1009]Retu
+       rns
+     * [https://account.microsoft.com/orders]Order tracking
+     * [https://www.microsoft.com/en-ca/store/workshops-training-and-event
+       s?icid=vl_uf_932020]Virtual workshops and training
+     * [https://www.microsoft.com/en-ca/store/b/why-microsoft-store?icid=f
+       ooter_why-msft-store_7102020]Microsoft Store Promise
+     * [https://www.microsoft.com/en-us/store/b/online-computer-shopping-a
+       ppointments?icid=CNavfooter_personalshopping]Personal shopping
+       appointments
+
+   Education
+     * [https://www.microsoft.com/en-ca/education]Microsoft in education
+     * [https://www.microsoft.com/en-ca/education/devices/overview]Devices
+       for education
+     * [https://www.microsoft.com/en-ca/education/products/teams]Microsoft
+       Teams for Education
+     * [https://www.microsoft.com/en-ca/education/buy-license/microsoft365
+       ]Microsoft 365 Education
+     * [https://www.microsoft.com/en-ca/education/products/office]Office
+       Education
+     * [https://education.microsoft.com/]Educator training and development
+     * [https://www.microsoft.com/en-ca/store/b/education]Deals for
+       students and parents
+     * [https://azure.microsoft.com/en-ca/free/students/]Azure for
+       students
+
+   Business
+     * [https://www.microsoft.com/en-ca/microsoft-cloud]Microsoft Cloud
+     * [https://www.microsoft.com/en-ca/security]Microsoft Security
+     * [https://azure.microsoft.com/en-ca/]Azure
+     * [https://dynamics.microsoft.com/en-ca/]Dynamics 365
+     * [https://www.microsoft.com/en-ca/microsoft-365/business/]Microsoft
+       365
+     * [https://about.ads.microsoft.com/en-ca]Microsoft Advertising
+     * [https://www.microsoft.com/en-ca/industry]Microsoft Industry
+     * [https://www.microsoft.com/en-ca/microsoft-teams/group-chat-softwar
+       e]Microsoft Teams
+
+   Developer & IT
+     * [https://developer.microsoft.com/en-ca/]Developer Center
+     * [https://learn.microsoft.com/docs/]Documentation
+     * [https://learn.microsoft.com/]Microsoft Learn
+     * [https://techcommunity.microsoft.com/]Microsoft Tech Community
+     * [https://azuremarketplace.microsoft.com/en-ca/]Azure Marketplace
+     * [https://appsource.microsoft.com/en-ca/]AppSource
+     * [https://powerplatform.microsoft.com/en-ca/]Microsoft Power
+       Platform
+     * [https://visualstudio.microsoft.com/]Visual Studio
+
+   Company
+     * [https://careers.microsoft.com/]Careers
+     * [https://www.microsoft.com/en-ca/about]About Microsoft
+     * [https://news.microsoft.com/en-ca]Company news
+     * [https://privacy.microsoft.com/en-ca]Privacy at Microsoft
+     * [https://www.microsoft.com/investor/default.aspx]Investors
+     * [https://www.microsoft.com/en-us/diversity/]Diversity and inclusion
+     * [https://www.microsoft.com/en-ca/accessibility]Accessibility
+     * [https://www.microsoft.com/en-ca/sustainability/]Sustainability
+
+   [https://www.microsoft.com/en-ca/sql-server/locale]English (Canada)
+   [https://aka.ms/yourcaliforniaprivacychoices]Your Privacy Choices
+   [https://aka.ms/yourcaliforniaprivacychoices]Your Privacy Choices
+     * [https://support.microsoft.com/contactus]Contact Microsoft
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://www.microsoft.com/en-ca/sql-server/]Manage cookies
+     * [https://go.microsoft.com/fwlink/?LinkID=206977]Terms of use
+     * [https://go.microsoft.com/fwlink/?linkid=2196228]Trademarks
+     * [https://choice.microsoft.com/]About our ads
+     * © Microsoft 2023

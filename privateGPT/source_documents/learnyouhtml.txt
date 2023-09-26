@@ -1,0 +1,505 @@
+   #[https://github.com/opensearch.xml]GitHub
+
+   [https://github.com/denysdovhan/learnyouhtml#start-of-content]Skip to
+   content
+
+   (BUTTON) Toggle navigation
+   [https://github.com/]
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo]Sign up
+   (BUTTON)
+
+     * (BUTTON) Product
+          + [https://github.com/features/actions]Actions
+            Automate any workflow
+          + [https://github.com/features/packages]Packages
+            Host and manage packages
+          + [https://github.com/features/security]Security
+            Find and fix vulnerabilities
+          + [https://github.com/features/codespaces]Codespaces
+            Instant dev environments
+          + [https://github.com/features/copilot]Copilot
+            Write better code with AI
+          + [https://github.com/features/code-review]Code review
+            Manage code changes
+          + [https://github.com/features/issues]Issues
+            Plan and track work
+          + [https://github.com/features/discussions]Discussions
+            Collaborate outside of code
+       Explore
+          + [https://github.com/features]All features
+          + [https://docs.github.com/]Documentation
+          + [https://skills.github.com/]GitHub Skills
+          + [https://github.blog/]Blog
+     * (BUTTON) Solutions
+       For
+          + [https://github.com/enterprise]Enterprise
+          + [https://github.com/team]Teams
+          + [https://github.com/enterprise/startups]Startups
+          + [https://education.github.com/]Education
+       By Solution
+          + [https://github.com/solutions/ci-cd/]CI/CD & Automation
+          + [https://resources.github.com/devops/]DevOps
+          + [https://resources.github.com/devops/fundamentals/devsecops/]D
+            evSecOps
+       Case Studies
+          + [https://github.com/customer-stories]Customer Stories
+          + [https://resources.github.com/]Resources
+     * (BUTTON) Open Source
+          + [https://github.com/sponsors]GitHub Sponsors
+            Fund open source developers
+          + [https://github.com/readme]The ReadME Project
+            GitHub community articles
+       Repositories
+          + [https://github.com/topics]Topics
+          + [https://github.com/trending]Trending
+          + [https://github.com/collections]Collections
+     * [https://github.com/pricing]Pricing
+
+   (BUTTON)
+   Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+   Search
+   ____________________
+   Clear (BUTTON)
+
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]Search syntax tips
+
+Provide feedback
+
+   (BUTTON)
+
+   We read every piece of feedback, and take your input very seriously.
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [ ] Include my email address so I can be contacted
+   (BUTTON) Cancel (BUTTON) Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+   (BUTTON)
+   Name ____________________
+   Query ____________________
+
+   To see all available qualifiers, see our
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]documentation.
+   (BUTTON) Cancel (BUTTON) Create saved search
+   [https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdenysdov
+   han%2Flearnyouhtml]Sign in
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_r
+   epo=denysdovhan%2Flearnyouhtml]Sign up
+
+   You signed in with another tab or window.
+   [https://github.com/denysdovhan/learnyouhtml]Reload to refresh your
+   session. You signed out in another tab or window.
+   [https://github.com/denysdovhan/learnyouhtml]Reload to refresh your
+   session. You switched accounts on another tab or window.
+   [https://github.com/denysdovhan/learnyouhtml]Reload to refresh your
+   session. (BUTTON)
+
+   (BUTTON)
+   {{ message }}
+
+   [https://github.com/denysdovhan]denysdovhan /
+   [https://github.com/denysdovhan/learnyouhtml]learnyouhtml Public
+     * [https://github.com/login?return_to=%2Fdenysdovhan%2Flearnyouhtml]N
+       otifications
+     * [https://github.com/login?return_to=%2Fdenysdovhan%2Flearnyouhtml]F
+       ork 169
+     * [https://github.com/login?return_to=%2Fdenysdovhan%2Flearnyouhtml]S
+       tar 208 (BUTTON)
+
+   Learn you how to create your first web page
+
+License
+
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/LICENSE]MIT
+   license
+   [https://github.com/denysdovhan/learnyouhtml/stargazers]208 stars
+   [https://github.com/denysdovhan/learnyouhtml/forks]169 forks
+   [https://github.com/login?return_to=%2Fdenysdovhan%2Flearnyouhtml]Star
+   (BUTTON)
+   [https://github.com/login?return_to=%2Fdenysdovhan%2Flearnyouhtml]Notif
+   ications
+
+     * [https://github.com/denysdovhan/learnyouhtml]Code
+     * [https://github.com/denysdovhan/learnyouhtml/issues]Issues 2
+     * [https://github.com/denysdovhan/learnyouhtml/pulls]Pull requests 1
+     * [https://github.com/denysdovhan/learnyouhtml/actions]Actions
+     * [https://github.com/denysdovhan/learnyouhtml/security]Security
+     * [https://github.com/denysdovhan/learnyouhtml/pulse]Insights
+
+   More
+     * [https://github.com/denysdovhan/learnyouhtml]Code
+     * [https://github.com/denysdovhan/learnyouhtml/issues]Issues
+     * [https://github.com/denysdovhan/learnyouhtml/pulls]Pull requests
+     * [https://github.com/denysdovhan/learnyouhtml/actions]Actions
+     * [https://github.com/denysdovhan/learnyouhtml/security]Security
+     * [https://github.com/denysdovhan/learnyouhtml/pulse]Insights
+
+denysdovhan/learnyouhtml
+
+   This commit does not belong to any branch on this repository, and may
+   belong to a fork outside of the repository.
+   master
+
+   Switch branches/tags (BUTTON)
+   ____________________
+   (BUTTON) Branches (BUTTON) Tags
+   Could not load branches
+   Nothing to show
+   [https://github.com/denysdovhan/learnyouhtml/tree/{{%20urlEncodedRefNam
+   e%20}}]{{ refName }} default
+
+   [https://github.com/denysdovhan/learnyouhtml/branches]View all branches
+   Could not load tags
+   Nothing to show
+   [https://github.com/denysdovhan/learnyouhtml/tree/{{%20urlEncodedRefNam
+   e%20}}]{{ refName }} default
+
+   [https://github.com/denysdovhan/learnyouhtml/tags]View all tags
+
+Name already in use
+
+   (BUTTON)
+   A tag already exists with the provided branch name. Many Git commands
+   accept both tag and branch names, so creating this branch may cause
+   unexpected behavior. Are you sure you want to create this branch?
+
+   (BUTTON) Cancel (BUTTON) Create
+   [https://github.com/denysdovhan/learnyouhtml/branches]1 branch
+   [https://github.com/denysdovhan/learnyouhtml/tags]3 tags
+   Code
+     * (BUTTON) Local
+     * (BUTTON) Codespaces
+
+     * [https://docs.github.com/articles/which-remote-url-should-i-use]Clo
+       ne
+       (button) HTTPS (button) GitHub CLI
+       https://github.com/d
+       Use Git or checkout with SVN using the web URL.
+       gh repo clone denysd
+       Work fast with our official CLI. [https://cli.github.com/]Learn
+       more about the CLI.
+     * [https://desktop.github.com/]Open with GitHub Desktop
+     * [https://github.com/denysdovhan/learnyouhtml/archive/refs/heads/mas
+       ter.zip]Download ZIP
+
+Sign In Required
+
+   Please
+   [https://github.com/codespaces/new?hide_repo_select=true&ref=master&rep
+   o=83575690]sign in to use Codespaces.
+
+Launching GitHub Desktop
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+   (BUTTON)
+
+Launching GitHub Desktop
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+   (BUTTON)
+
+Launching Xcode
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+   (BUTTON)
+
+Launching Visual Studio Code
+
+   Your codespace will open once ready.
+
+   There was a problem preparing your codespace, please try again.
+
+Latest commit
+
+   [https://github.com/denysdovhan]@denysdovhan
+   [https://github.com/denysdovhan/learnyouhtml/commits?author=denysdovhan
+   ]denysdovhan
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]1.0.2
+   (BUTTON) …
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]e5bca3c
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]Aug 30, 2018
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]1.0.2
+   e5bca3c
+
+Git stats
+
+     * [https://github.com/denysdovhan/learnyouhtml/commits/master]70
+       commits
+
+Files
+
+   [https://github.com/denysdovhan/learnyouhtml/tree/e5bca3c77fa74a336dd59
+   4ac316465b67303c994]Permalink
+   Failed to load latest commit information.
+   Type
+   Name
+   Latest commit message
+   Commit time
+   [https://github.com/denysdovhan/learnyouhtml/tree/master/bin]bin
+   [https://github.com/denysdovhan/learnyouhtml/commit/cdcc0e154934f772405
+   93d3ec7f3424f8d4661ea]Use package name
+   March 29, 2017 14:13
+   [https://github.com/denysdovhan/learnyouhtml/tree/master/exercises]exer
+   cises
+   [https://github.com/denysdovhan/learnyouhtml/commit/b66371e054d852e0016
+   ecd593712fa255172927a]﻿fix typo (forms)
+   January 20, 2018 09:33
+   [https://github.com/denysdovhan/learnyouhtml/tree/master/i18n]i18n
+   [https://github.com/denysdovhan/learnyouhtml/commit/da94ab593c8387149fd
+   c95dc677fa214b8d9bcd0]Typo
+   December 31, 2017 22:30
+   [https://github.com/denysdovhan/learnyouhtml/tree/master/test]test
+   [https://github.com/denysdovhan/learnyouhtml/commit/70aa95375ca584140da
+   c95a1c5d4378dff35523a]ADd test cases for STYLES AND SCRIPTS
+   March 31, 2017 02:16
+   [https://github.com/denysdovhan/learnyouhtml/tree/master/utils]utils
+   [https://github.com/denysdovhan/learnyouhtml/commit/a4e8a9468614e861238
+   26f719a4b343c54a77708]Fix troubleshooting diffs
+   March 29, 2017 14:09
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/.editorconfig]
+   .editorconfig
+   [https://github.com/denysdovhan/learnyouhtml/commit/e36fcd491084f39d7d3
+   14282ddaceb0de26f1534]Add .editorconfig
+   March 1, 2017 20:08
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/.eslintrc.json
+   ].eslintrc.json
+   [https://github.com/denysdovhan/learnyouhtml/commit/89b7c445b4046891d22
+   9f3879a17e69ef38a52f9]Bring eslint-plugin-import back
+   March 30, 2017 17:50
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/.gitignore].gi
+   tignore
+   [https://github.com/denysdovhan/learnyouhtml/commit/ae7e3f43e482103c206
+   4a9cd6641958c70e24737]Setup .gitignore
+   March 1, 2017 20:08
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/.npmignore].np
+   mignore
+   [https://github.com/denysdovhan/learnyouhtml/commit/fc62b4e8d4c2dc6914c
+   779af32e5cf66b6d24b2a]Setup .npmignore
+   March 1, 2017 20:09
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/.travis.yml].t
+   ravis.yml
+   [https://github.com/denysdovhan/learnyouhtml/commit/1d644f8480382acd773
+   b3bbc0702e90daf102c89]Drop Node.js < 6
+   March 29, 2017 14:09
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/LICENSE]LICENS
+   E
+   [https://github.com/denysdovhan/learnyouhtml/commit/af16f7c42b216c0bc0b
+   6818da4827d3b38871e92]Add LICENSE
+   March 1, 2017 20:09
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/README.md]READ
+   ME.md
+   [https://github.com/denysdovhan/learnyouhtml/commit/cc2a76ab27885d8e91e
+   91051f7a3c3ef402b39ea]Update README.md
+   March 31, 2017 02:25
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/index.js]index
+   .js
+   [https://github.com/denysdovhan/learnyouhtml/commit/01c5cc4bcfa28f1d8a2
+   518b65ecf82027d06d3fa]Add STYLES AND SCRIPTS
+   March 31, 2017 02:15
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/package-lock.j
+   son]package-lock.json
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]1.0.2
+   August 30, 2018 15:06
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/package.json]p
+   ackage.json
+   [https://github.com/denysdovhan/learnyouhtml/commit/e5bca3c77fa74a336dd
+   594ac316465b67303c994]1.0.2
+   August 30, 2018 15:06
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/preview.png]pr
+   eview.png
+   [https://github.com/denysdovhan/learnyouhtml/commit/45ad4b9b8facb6faeea
+   0c220480fd6674e402289]Update preview image
+   March 31, 2017 02:25
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/yarn.lock]yarn
+   .lock
+   [https://github.com/denysdovhan/learnyouhtml/commit/268aa9dd50ae8c07f4f
+   dd461a933aae953a053dc]Setup HTML parsing and local server
+   March 7, 2017 12:11
+   (BUTTON) View code
+   [https://github.com/denysdovhan/learnyouhtml#learnyouhtml]learnyouhtml
+   [https://github.com/denysdovhan/learnyouhtml#exercises]Exercises
+   [https://github.com/denysdovhan/learnyouhtml#requirements]Requirements
+   [https://github.com/denysdovhan/learnyouhtml#installation]Installation
+   [https://github.com/denysdovhan/learnyouhtml#usage]Usage
+   [https://github.com/denysdovhan/learnyouhtml#license]License
+
+[https://github.com/denysdovhan/learnyouhtml#readme]README.md
+
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/preview.png]le
+   arnyouhtml
+
+[https://github.com/denysdovhan/learnyouhtml#learnyouhtml]learnyouhtml
+
+   [https://npmjs.org/package/learnyouhtml]NPM version
+   [https://nodejs.org/en/download/]node
+   [https://travis-ci.org/denysdovhan/learnyouhtml]Build Status
+   [https://david-dm.org/denysdovhan/learnyouhtml]Dependency Status
+
+     Learn you how to create your first web-page.
+
+   Hypertext Markup Language (HTML) is the standard markup language for
+   creating web pages and web applications. This workshopper will guide
+   you through the simple exercises which explain the core principles of
+   HTML.
+
+[https://github.com/denysdovhan/learnyouhtml#exercises]Exercises
+
+   This workshopper has 11 exercises that cover the most important aspects
+   of HTML.
+     * HELLO WORLD — introduction to HTML.
+     * TAGS — understanding tags.
+     * ATTRIBUTES — what is tag's attributes.
+     * INLINE TAGS — tags for styling text.
+     * HEADINGS — tags for headings.
+     * LISTS — how to create a list with HTML tags.
+     * TABLES — how to compose data in table.
+     * BLOCKS — block tags and semantic.
+     * LINKS AND REFERENCES — how to leave a references to another page.
+     * FORMS — creating of forms with control elements.
+     * STYLES AND SCRIPTS — injecting styles and scripts on a page.
+
+[https://github.com/denysdovhan/learnyouhtml#requirements]Requirements
+
+     * [https://github.com/denysdovhan/learnyouhtml/blob/master/node-url]N
+       ode.js >=6.0.0
+
+[https://github.com/denysdovhan/learnyouhtml#installation]Installation
+
+   Open your terminal and run this command:
+npm install -g learnyouhtml
+
+   Use sudo if you get an EACCESS error.
+
+[https://github.com/denysdovhan/learnyouhtml#usage]Usage
+
+   Open your terminal and run the following command:
+learnyouhtml
+
+[https://github.com/denysdovhan/learnyouhtml#license]License
+
+   MIT © [http://denysdovhan.com/]Denys Dovhan
+
+About
+
+   Learn you how to create your first web page
+
+Topics
+
+   [https://github.com/topics/html]html
+   [https://github.com/topics/learning]learning
+   [https://github.com/topics/markup]markup
+   [https://github.com/topics/nodeschool]nodeschool
+   [https://github.com/topics/learn-to-code]learn-to-code
+   [https://github.com/topics/workshopper]workshopper
+   [https://github.com/topics/how-to]how-to
+   [https://github.com/topics/exercises]exercises
+   [https://github.com/topics/workshopper-adventure]workshopper-adventure
+
+Resources
+
+   [https://github.com/denysdovhan/learnyouhtml#readme]Readme
+
+License
+
+   [https://github.com/denysdovhan/learnyouhtml/blob/master/LICENSE]MIT
+   license
+
+Stars
+
+   [https://github.com/denysdovhan/learnyouhtml/stargazers]208 stars
+
+Watchers
+
+   [https://github.com/denysdovhan/learnyouhtml/watchers]8 watching
+
+Forks
+
+   [https://github.com/denysdovhan/learnyouhtml/forks]169 forks
+   [https://github.com/contact/report-content?content_url=https%3A%2F%2Fgi
+   thub.com%2Fdenysdovhan%2Flearnyouhtml&report=denysdovhan+%28user%29]Rep
+   ort repository
+
+[https://github.com/denysdovhan/learnyouhtml/releases]Releases
+
+   [https://github.com/denysdovhan/learnyouhtml/tags]3 tags
+
+[https://github.com/users/denysdovhan/packages?repo_name=learnyouhtml]Package
+s 0
+
+   No packages published
+
+[https://github.com/denysdovhan/learnyouhtml/network/dependents]Used by 11
+
+   [https://github.com/denysdovhan/learnyouhtml/network/dependents]
+     * @kartik162000
+     * @Promit-revar
+     * @fharper
+     * @palakag123
+     * @krishna-Rai
+     * @laurelton
+     * @hienhopham
+     * @rudyesquerra
+
+   + 3
+
+[https://github.com/denysdovhan/learnyouhtml/graphs/contributors]Contributors
+3
+
+     * [https://github.com/denysdovhan]@denysdovhan
+       [https://github.com/denysdovhan]denysdovhan Denys Dovhan
+     * [https://github.com/leoarnold]@leoarnold
+       [https://github.com/leoarnold]leoarnold Leo Arnold
+     * [https://github.com/currlo]@currlo
+       [https://github.com/currlo]currlo
+
+Languages
+
+     * [https://github.com/denysdovhan/learnyouhtml/search?l=html]HTML
+       63.6%
+     * [https://github.com/denysdovhan/learnyouhtml/search?l=javascript]Ja
+       vaScript 36.4%
+
+Footer
+
+   [https://github.com/]© 2023 GitHub, Inc.
+
+Footer navigation
+
+     * [https://docs.github.com/site-policy/github-terms/github-terms-of-s
+       ervice]Terms
+     * [https://docs.github.com/site-policy/privacy-policies/github-privac
+       y-statement]Privacy
+     * [https://github.com/security]Security
+     * [https://www.githubstatus.com/]Status
+     * [https://docs.github.com/]Docs
+     * [https://support.github.com/?tags=dotcom-footer]Contact GitHub
+     * [https://github.com/pricing]Pricing
+     * [https://docs.github.com/]API
+     * [https://services.github.com/]Training
+     * [https://github.blog/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can’t perform that action at this time.
+
+   (BUTTON)

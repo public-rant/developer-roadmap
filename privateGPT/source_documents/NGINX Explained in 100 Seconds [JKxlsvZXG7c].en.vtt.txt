@@ -1,0 +1,70 @@
+nginx it s like a gateway that stands
+between the internet and your back end
+infrastructure
+when you visit a web app the first place
+your request will go is to a web server
+its job is to look at the requested
+resource and determine where to find it
+on the server then send it back
+as the response in fact if you open up
+the network tab in chrome dev tools
+right now
+you can look at the server header on any
+response and there s a good chance it ll
+be nginx
+it s extremely popular with high traffic
+sites because it can handle more than 10
+000 simultaneous connections with its
+event driven architecture
+it s also commonly used as a reverse
+proxy where it acts as a traffic light
+to distribute the load to multiple
+backend servers while also providing
+security
+and caching for better performance in
+most cases it ll be installed on a linux
+server with the configuration file being
+found in the etc
+directory you customize the behavior of
+your server by defining directives
+a directive is just a key value pair or
+if followed by braces it s known as a
+context which itself holds more
+directives
+in the global context we might want to
+specify things like a username
+and where to save our error logs but
+most of your configuration will likely
+be done in the http context
+now one of the most important roles of
+nginx is to serve out static content
+like
+images and html we can handle that in
+the http context where we ll define one
+or more servers
+each server is distinguished by the port
+that it listens to nginx will keep track
+of every request to the server
+which you can write to an access log the
+most important thing though is to tell
+the server where to find the raw files
+which we do in the location context
+now when a user navigates to our domain
+it knows where to find the html
+on the file system and we might want to
+set up a second location
+to match any image pattern to the images
+directory other common things you might
+handle in your server config
+include ssl certificates rewrites and
+routing to a proxy server when i replace
+root with proxy pass
+i can point to a completely different
+server on the internet what we ve
+created is a reverse proxy that can
+handle caching
+anonymity and load balancing this has
+been nginx in 100 seconds
+hit the like button if you want to see
+more short videos like this thanks for
+watching

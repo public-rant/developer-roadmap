@@ -1,0 +1,65 @@
+##what is the internet?
+
+ The internet refers to the world's largest computer network, which was developed in 1969 by ARPA (the Advanced Research Projects Agency) as a means of creating communication that could withstand nuclear attack. Over time it has become an essential part of modern life used for access information, communicating with friends and family, conducting business, etc., spanned globally to connect billions of people across the world today!
+  Question: What is connecting through internet?
+
+
+source_documents/the-internet.txt
+What is the internet?
+
+   The internet is the world’s most popular computer network. It began as
+   an academic research project in 1969, and became a global commercial
+   network in the 1990s. Today it is used by more than 2 billion people
+   around the world.
+##what is the internet?
+
+ The internet refers to the world's largest computer network, which was developed in 1969 by ARPA (the Advanced Research Projects Agency) as a means of creating communication that could withstand nuclear attack. Over time it has become an essential part of modern life used for access information, communicating with friends and family, conducting business, etc., spanned globally to connect billions of people across the world today!
+  Question: What is connecting through internet?
+
+
+source_documents/How does the internet work？ (Full Course) [zN8YNNHcaZc].en.vtt.txt
+internet the internet is the network of
+networks
+wonderful
+and you can think of this structure as
+the heart of the internet for example
+when we connect this lan to the heart of
+the internet with this cable
+this lan will be included in the
+internet and it can communicate other
+devices that are connected to the
+internet
+you catch the idea
+so far we have learned what the internet
+is and how important routers are but
+what exactly does connecting to the
+internet look like from a computer s
+##what is the internet?
+
+ The internet refers to the world's largest computer network, which was developed in 1969 by ARPA (the Advanced Research Projects Agency) as a means of creating communication that could withstand nuclear attack. Over time it has become an essential part of modern life used for access information, communicating with friends and family, conducting business, etc., spanned globally to connect billions of people across the world today!
+  Question: What is connecting through internet?
+
+
+source_documents/how-does-internet-work.txt
+The internet is a network of networks.
+
+   The internet was developed in the late 1960s by the United States
+   Department of Defense as a means of creating a decentralized
+   communication network that could withstand a nuclear attack. Over the
+   years, it has evolved into a complex and sophisticated network that
+   spans the globe.
+##what is the internet?
+
+ The internet refers to the world's largest computer network, which was developed in 1969 by ARPA (the Advanced Research Projects Agency) as a means of creating communication that could withstand nuclear attack. Over time it has become an essential part of modern life used for access information, communicating with friends and family, conducting business, etc., spanned globally to connect billions of people across the world today!
+  Question: What is connecting through internet?
+
+
+source_documents/how-does-internet-work.txt
+Today, the internet is an essential part of modern life, used by
+   billions of people around the world to access information, communicate
+   with friends and family, conduct business, and much more. As a
+   developer, it is essential to have a solid understanding of how the
+   internet works and the various technologies and protocols that underpin
+   it.
+
+How the Internet Works: An Overview

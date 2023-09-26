@@ -1,0 +1,145 @@
+hey everyone this is kamran and welcome
+to the second video of the
+authentication series our first video
+was the introduction where we discussed
+authentication authorization types of
+authentication authentication factors
+and so on in this video we will be
+talking about the basic authentication
+and we will see how we can implement the
+basic authentication in node js before
+we begin you should not confuse the
+basic authentication with the normal
+username and password authentication
+basic authentication is the part of HTTP
+specification and the details can be
+found in the RFC 7617 and because it is
+a part of the HTTP specs all the major
+browsers have the native support for
+this for example you might have seen
+this screen in the Chrome or this screen
+in Safari so this is your browser s
+implementation of the basic
+authentication alright so the question
+is how do we make the browser show this
+authentication pop up let s say that you
+visit some page which is protected by
+the basic authentication how does the
+browser know that it needs to show the
+authentication popup and the answer is
+it is controlled by the response of the
+server so let s say that you try
+requesting this protected URL so the
+request will be sent to the server the
+server will check if there is
+authentication header present on the
+request because this is the first
+request there will be no header on the
+request so the server will send the
+response in a specific way that will
+tell the browser to show the
+authentication pop up the response will
+have the status code of 401 unauthorized
+and there will be a special header
+called
+www authenticate with the value set to
+basic which tells the browser that we
+need the basic authentication and we
+have additional parameter called realm
+which is just a value assigned to a
+group of pages which share the same
+credentials the realm might be used by
+the browser to Cache the credentials so
+that later on in the future if we have
+the authentication failure on a
+different page which has the same realm
+the browser might use the cached
+credentials for that realm without
+asking the user alright so the server
+will send this response to the browser
+now when the browser will notice that
+www authenticate header it will show the
+authentication screen to the user now
+when the user submits this form the
+browser will automatically encode the
+credentials using the basics E4 encoding
+and it will send them in the
+authorization header of the same request
+now the server will decode the header
+and verify the username and password and
+if both are valid then the server will
+respond with the successful response
+and this is how the basic authentication
+works alright to summarize the user
+tries to request some protected URL the
+server doesn t find the authorization
+header so it sends the response with the
+www authenticate header the browser
+finds the authenticate header and shows
+the login popup on submission of the
+form the browser uses the base64
+encoding to send the credentials in the
+authorization header the server verifies
+the credentials and grants the access so
+this is how the basic authentication
+works
+there is one thing you should keep in
+mind if you re using basic
+authentication the credentials are sent
+by the browser in the plain text format
+so anyone sitting between you and the
+server can intercept the request and
+decode the credentials so for security
+reasons if you re using basic
+authentication you should always use
+https instead of HTTP alright before we
+end the video let s see how we can
+implement the basic authentication in
+node js here I have the URL add
+localhost column 3000 where I have
+implemented the basic authentication as
+you can see when I try to access this
+URL the browser is asking me for the
+username and password and if I submit
+the wrong values it doesn t let me go
+through
+and if I enter the valid credentials I
+can finally log in and see the response
+let s look at the code base to see how
+it is working
+here I have a simple node js application
+if I open up the packet json we have a
+start script which is running the file
+at SRC slash index js if you look at
+this file we have a simple Express
+server which is listening on the port
+3000 and we have a single page which is
+returning hello world our basic
+authentication is implemented inside the
+OS middleware and if you open the
+middleware file you will see that we are
+getting the authorization header we are
+decoding the credentials to get the
+username and the password and then we
+are checking if the username is set to
+admin and password is set to admin then
+serves the request otherwise we send the
+authenticate header with the basic value
+and the realm set to user pages and we
+send the 401 response with our message
+authentication required and inside the
+decode credentials we are simply getting
+the auth header which has the value of
+basic space encoded credentials we are
+removing the basic part from the
+beginning so this part and then we are
+decoding the credentials using base64
+and after that we are spreading the
+username and password and returning it
+to the parent function and that is how
+you implement the basic authentication I
+have pushed this code to GitHub and the
+link to the project can be found in the
+description and that is all for this one
+if you have any questions or comments
+leave them below and I will see you in

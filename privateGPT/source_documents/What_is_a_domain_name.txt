@@ -1,0 +1,512 @@
+   #[https://developer.mozilla.org/opensearch.xml]MDN Web Docs
+   [https://developer.mozilla.org/es/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_domain_name]¿Qué es un nombre de dominio?
+   [https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_domain_name]Comprendre les noms de domaine
+   [https://developer.mozilla.org/ja/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_domain_name]ドメイン名とは？
+   [https://developer.mozilla.org/ko/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_domain_name]What is a domain name?
+   [https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_domain_name]O que é um nome de domínio?
+   [https://developer.mozilla.org/ru/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_domain_name]Что такое доменные имена
+   [https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_domain_name]什么是域名？
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_domain_name]What is a Domain Name?
+   [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#content]Skip to main content
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#top-nav-search-input]Skip to
+       search
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#languages-switcher-button]Skip to
+       select language
+
+   [https://developer.mozilla.org/en-US/](BUTTON) Open main menu
+
+     * (BUTTON)
+       References[https://developer.mozilla.org/en-US/docs/Web]References
+          + [https://developer.mozilla.org/en-US/docs/Web]Overview / Web
+            Technology
+            Web technology reference for developers
+          + [https://developer.mozilla.org/en-US/docs/Web/HTML]HTML
+            Structure of content on the web
+          + [https://developer.mozilla.org/en-US/docs/Web/CSS]CSS
+            Code used to describe document style
+          + [https://developer.mozilla.org/en-US/docs/Web/JavaScript]JavaS
+            cript
+            General-purpose scripting language
+          + [https://developer.mozilla.org/en-US/docs/Web/HTTP]HTTP
+            Protocol for transmitting web resources
+          + [https://developer.mozilla.org/en-US/docs/Web/API]Web APIs
+            Interfaces for building web applications
+          + [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebE
+            xtensions]Web Extensions
+            Developing extensions for web browsers
+          + [https://developer.mozilla.org/en-US/docs/Web]Web Technology
+            Web technology reference for developers
+     * (BUTTON)
+       Guides[https://developer.mozilla.org/en-US/docs/Learn]Guides
+          + [https://developer.mozilla.org/en-US/docs/Learn]Overview / MDN
+            Learning Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn]MDN Learning
+            Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn/HTML]HTML
+            Learn to structure web content with HTML
+          + [https://developer.mozilla.org/en-US/docs/Learn/CSS]CSS
+            Learn to style content using CSS
+          + [https://developer.mozilla.org/en-US/docs/Learn/JavaScript]Jav
+            aScript
+            Learn to run scripts in the browser
+          + [https://developer.mozilla.org/en-US/docs/Web/Accessibility]Ac
+            cessibility
+            Learn to make the web accessible to all
+     * (BUTTON) Plus[https://developer.mozilla.org/en-US/plus]Plus
+          + [https://developer.mozilla.org/en-US/plus]Overview
+            A customized MDN experience
+          + [https://developer.mozilla.org/en-US/plus/ai-help]AI Help
+            (beta)
+            Get real-time assistance and support
+          + [https://developer.mozilla.org/en-US/plus/updates]Updates
+            All browser compatibility updates at a glance
+          + [https://developer.mozilla.org/en-US/plus/docs/features/overvi
+            ew]Documentation
+            Learn how to use MDN Plus
+          + [https://developer.mozilla.org/en-US/plus/docs/faq]FAQ
+            Frequently asked questions about MDN Plus
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://developer.mozilla.org/en-US/play]Play ^New
+     * [https://developer.mozilla.org/en-US/plus/ai-help/]AI Help ^Beta
+
+   Search MDN ____________________ (BUTTON) Clear search input (BUTTON)
+   Search
+   (BUTTON) Theme
+     * [https://developer.mozilla.org/users/fxa/login/authenticate/?next=%
+       2Fen-US%2Fdocs%2FLearn%2FCommon_questions%2FWeb_mechanics%2FWhat_is
+       _a_domain_name]Log in
+     * [https://developer.mozilla.org/en-US/plus]Get MDN Plus
+
+   (BUTTON)
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn]Guides
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions]Comm
+   on questions
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics]Web mechanics
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics/What_is_a_domain_name]What is a Domain Name?
+
+   (BUTTON) Article Actions
+     * (BUTTON) English (US)
+
+   (BUTTON)
+
+   Filter sidebar ____________________ (BUTTON) Clear filter input
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#deeper_dive]Deeper dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#next_steps]Next steps
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/De
+       sign_and_accessibility]Design and accessibility
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility]Design and accessibility
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Common_web_layouts]What do common
+            web layouts contain?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Design_for_all_types_of_users]How
+            can we design for all types of users?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/HTML_features_for_accessibility]Wh
+            at HTML features promote accessibility?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Thinking_before_coding]How do I
+            start to design my website?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/What_is_accessibility]What is
+            accessibility?
+    2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup]Tools and setup
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup]Tools and setup
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Available_text_editors]What text editors
+            are available?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Checking_that_your_web_site_is_working_prop
+            erly]How do you make sure your website works properly?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_do_you_host_your_website_on_Google_App_
+            Engine]How do you host your website on Google App Engine?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_much_does_it_cost]How much does it cost
+            to do something on the Web?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/set_up_a_local_testing_server]How do you
+            set up a local testing server?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Upload_files_to_a_web_server]How do you
+            upload your files to a web server?
+         8. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Using_GitHub_pages]How do I use GitHub
+            Pages?
+         9. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_are_browser_developer_tools]What are
+            browser developer tools?
+        10. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_software_do_I_need]What software do I
+            need to build a website?
+    3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics]Web mechanics
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics]Web mechanics
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/How_does_the_Internet_work]How does the
+            Internet work?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/Pages_sites_servers_and_search_engines]What
+            is the difference between webpage, website, web server, and
+            search engine?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_are_hyperlinks]What are hyperlinks?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_domain_name]What is a Domain Name?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_URL]What is a URL?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_web_server]What is a web server?
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#deeper_dive]Deeper dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name#next_steps]Next steps
+
+What is a Domain Name?
+
+   Prerequisites: First you need to know
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/How_does_the_Internet_work]how the Internet works and
+   understand
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_URL]what URLs are.
+   Objective: Learn what domain names are, how they work, and why they are
+   important.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#summary]Summary
+
+   Domain names are a key part of the Internet infrastructure. They
+   provide a human-readable address for any web server available on the
+   Internet.
+
+   Any Internet-connected computer can be reached through a public
+   [https://developer.mozilla.org/en-US/docs/Glossary/IP_Address]IP
+   Address, either an IPv4 address (e.g. 173.194.121.32) or an IPv6
+   address (e.g., 2027:0da8:8b73:0000:0000:8a2e:0370:1337).
+
+   Computers can handle such addresses easily, but people have a hard time
+   finding out who is running the server or what service the website
+   offers. IP addresses are hard to remember and might change over time.
+
+   To solve all those problems we use human-readable addresses called
+   domain names.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#deeper_dive]Deeper dive
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#structure_of_domain_names]Structure of domain names
+
+   A domain name has a simple structure made of several parts (it might be
+   one part only, two, three…), separated by dots and read from right to
+   left:
+
+   Anatomy of the MDN domain name
+
+   Each of those parts provides specific information about the whole
+   domain name.
+
+   [https://developer.mozilla.org/en-US/docs/Glossary/TLD]TLD (Top-Level
+          Domain).
+          TLDs tell users the general purpose of the service behind the
+          domain name. The most generic TLDs (.com, .org, .net) don't
+          require web services to meet any particular criteria, but some
+          TLDs enforce stricter policies so it is clearer what their
+          purpose is. For example:
+
+          + Local TLDs such as .us, .fr, or .se can require the service to
+            be provided in a given language or hosted in a certain country
+            — they are supposed to indicate a resource in a particular
+            language or country.
+          + TLDs containing .gov are only allowed to be used by government
+            departments.
+          + The .edu TLD is only for use by educational and academic
+            institutions.
+
+          TLDs can contain special as well as latin characters. A TLD's
+          maximum length is 63 characters, although most are around 2–3.
+
+          The full list of TLDs is
+          [https://www.icann.org/resources/pages/tlds-2012-02-25-en]mainta
+          ined by ICANN.
+
+   Label (or component)
+          The labels are what follow the TLD. A label is a
+          case-insensitive character sequence anywhere from one to
+          sixty-three characters in length, containing only the letters A
+          through Z, digits 0 through 9, and the '-' character (which may
+          not be the first or last character in the label). a, 97, and
+          hello-strange-person-16-how-are-you are all examples of valid
+          labels.
+
+          The label located right before the TLD is also called a
+          Secondary Level Domain (SLD).
+
+          A domain name can have many labels (or components). It is not
+          mandatory nor necessary to have 3 labels to form a domain name.
+          For instance, [http://www.inf.ed.ac.uk/]www.inf.ed.ac.uk is a
+          valid domain name. For any domain you control (e.g.
+          [https://www.mozilla.org/en-US/]mozilla.org), you can create
+          "subdomains" with different content located at each, like
+          [https://developer.mozilla.org/]developer.mozilla.org,
+          [https://iot.mozilla.org/]iot.mozilla.org, or
+          [https://bugzilla.mozilla.org/]bugzilla.mozilla.org.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#buying_a_domain_name]Buying a domain name
+
+Who owns a domain name?
+
+   You cannot "buy a domain name". This is so that unused domain names
+   eventually become available to be used again by someone else. If every
+   domain name was bought, the web would quickly fill up with unused
+   domain names that were locked and couldn't be used by anyone.
+
+   Instead, you pay for the right to use a domain name for one or more
+   years. You can renew your right, and your renewal has priority over
+   other people's applications. But you never own the domain name.
+
+   Companies called registrars use domain name registries to keep track of
+   technical and administrative information connecting you to your domain
+   name.
+
+   Note: For some domain name, it might not be a registrar which is in
+   charge of keeping track. For instance, every domain name under .fire is
+   managed by Amazon.
+
+Finding an available domain name
+
+   To find out whether a given domain name is available,
+     * Go to a domain name registrar's website. Most of them provide a
+       "whois" service that tells you whether a domain name is available.
+     * Alternatively, if you use a system with a built-in shell, type a
+       whois command into it, as shown here for mozilla.org:
+       bash
+$ whois mozilla.org
+Domain Name:MOZILLA.ORG
+Domain ID: D1409563-LROR
+Creation Date: 1998-01-24T05:00:00Z
+Updated Date: 2013-12-08T01:16:57Z
+Registry Expiry Date: 2015-01-23T05:00:00Z
+Sponsoring Registrar:MarkMonitor Inc. (R37-LROR)
+Sponsoring Registrar IANA ID: 292
+WHOIS Server:
+Referral URL:
+Domain Status: clientDeleteProhibited
+Domain Status: clientTransferProhibited
+Domain Status: clientUpdateProhibited
+Registrant ID:mmr-33684
+Registrant Name:DNS Admin
+Registrant Organization:Mozilla Foundation
+Registrant Street: 650 Castro St Ste 300
+Registrant City:Mountain View
+Registrant State/Province:CA
+Registrant Postal Code:94041
+Registrant Country:US
+Registrant Phone:+1.6509030800
+
+   As you can see, I can't register mozilla.org because the Mozilla
+   Foundation has already registered it.
+
+   On the other hand, let's see if I could register afunkydomainname.org:
+
+   bash
+$ whois afunkydomainname.org
+NOT FOUND
+
+   As you can see, the domain does not exist in the whois database (at the
+   time of writing), so we could ask to register it. Good to know!
+
+Getting a domain name
+
+   The process is quite straightforward:
+    1. Go to a registrar's website.
+    2. Usually there is a prominent "Get a domain name" call to action.
+       Click on it.
+    3. Fill out the form with all required details. Make sure, especially,
+       that you have not misspelled your desired domain name. Once it's
+       paid for, it's too late!
+    4. The registrar will let you know when the domain name is properly
+       registered. Within a few hours, all DNS servers will have received
+       your DNS information.
+
+   Note: In this process the registrar asks you for your real-world
+   address. Make sure you fill it properly, since in some countries
+   registrars may be forced to close the domain if they cannot provide a
+   valid address.
+
+DNS refreshing
+
+   DNS databases are stored on every DNS server worldwide, and all these
+   servers refer to a few special servers called "authoritative name
+   servers" or "top-level DNS servers" — these are like the boss servers
+   that manage the system.
+
+   Whenever your registrar creates or updates any information for a given
+   domain, the information must be refreshed in every DNS database. Each
+   DNS server that knows about a given domain stores the information for
+   some time before it is automatically invalidated and then refreshed
+   (the DNS server queries an authoritative server and fetches the updated
+   information from it). Thus, it takes some time for DNS servers that
+   know about this domain name to get the up-to-date information.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#how_does_a_dns_request_work]How does a DNS request
+work?
+
+   As we already saw, when you want to display a webpage in your browser
+   it's easier to type a domain name than an IP address. Let's take a look
+   at the process:
+    1. Type mozilla.org in your browser's location bar.
+    2. Your browser asks your computer if it already recognizes the IP
+       address identified by this domain name (using a local DNS cache).
+       If it does, the name is translated to the IP address and the
+       browser negotiates contents with the web server. End of story.
+    3. If your computer does not know which IP is behind the mozilla.org
+       name, it goes on to ask a DNS server, whose job is precisely to
+       tell your computer which IP address matches each registered domain
+       name.
+    4. Now that the computer knows the requested IP address, your browser
+       can negotiate contents with the web server.
+
+   Explanation of the steps needed to obtain the result to a DNS request
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_domain_name#next_steps]Next steps
+
+   Okay, we talked a lot about processes and architecture. Time to move
+   on.
+     * If you want to get hands-on, it's a good time to start digging into
+       design and explore
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/De
+       sign_and_accessibility/Common_web_layouts]the anatomy of a web
+       page.
+     * It's also worth noting that some aspects of building a website cost
+       money. Please refer to
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup/How_much_does_it_cost]how much it costs to build a
+       website.
+     * Or read more about
+       [https://en.wikipedia.org/wiki/Domain_name]Domain Names on
+       Wikipedia.
+     * You can also find [https://howdns.works/]here a fun and colorful
+       explanation of how DNS works.
+
+Found a content problem with this page?
+
+     * [https://github.com/mdn/content/edit/main/files/en-us/learn/common_
+       questions/web_mechanics/what_is_a_domain_name/index.md]Edit the
+       page on GitHub.
+     * [https://github.com/mdn/content/issues/new?template=page-report.yml
+       &mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FLearn
+       %2FCommon_questions%2FWeb_mechanics%2FWhat_is_a_domain_name&metadat
+       a=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3
+       E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%
+       3A+%60en-us%2Flearn%2Fcommon_questions%2Fweb_mechanics%2Fwhat_is_a_
+       domain_name%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2
+       Fen-US%2Fdocs%2FLearn%2FCommon_questions%2FWeb_mechanics%2FWhat_is_
+       a_domain_name%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fco
+       ntent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Flearn%2Fcommon_questions%2Fwe
+       b_mechanics%2Fwhat_is_a_domain_name%2Findex.md%0A*+Last+commit%3A+h
+       ttps%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fbb026bcb88b7f453
+       74d602301b7b0db5a49ff303%0A*+Document+last+modified%3A+2023-07-03T1
+       0%3A12%3A35.000Z%0A%0A%3C%2Fdetails%3E]Report the content issue.
+     * [https://github.com/mdn/content/blob/main/files/en-us/learn/common_
+       questions/web_mechanics/what_is_a_domain_name/index.md?plain=1]View
+       the source on GitHub.
+
+   Want to get more involved?
+   [https://github.com/mdn/content/blob/main/CONTRIBUTING.md]Learn how to
+   contribute.
+
+   This page was last modified on Jul 3, 2023 by
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_domain_name/contributors.txt]MDN contributors.
+
+   [https://developer.mozilla.org/]
+
+   Your blueprint for a better internet.
+     * [https://twitter.com/mozdevnet]MDN on Twitter
+     * [https://github.com/mdn/]MDN on GitHub
+     * [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+MDN
+
+     * [https://developer.mozilla.org/en-US/about]About
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://www.mozilla.org/en-US/careers/listings/?team=Marketing]Car
+       eers
+     * [https://developer.mozilla.org/en-US/advertising]Advertise with us
+
+Support
+
+     * [https://support.mozilla.org/products/mdn-plus]Product help
+     * [https://developer.mozilla.org/en-US/docs/MDN/Community/Issues]Repo
+       rt an issue
+
+Our communities
+
+     * [https://developer.mozilla.org/en-US/community]MDN Community
+     * [https://discourse.mozilla.org/c/mdn/236]MDN Forum
+     * [https://wiki.mozilla.org/Matrix]MDN Chat
+
+Developers
+
+     * [https://developer.mozilla.org/en-US/docs/Web]Web Technologies
+     * [https://developer.mozilla.org/en-US/docs/Learn]Learn Web
+       Development
+     * [https://developer.mozilla.org/en-US/plus]MDN Plus
+     * [https://hacks.mozilla.org/]Hacks Blog
+
+   [https://www.mozilla.org/]
+     * [https://www.mozilla.org/privacy/websites/]Website Privacy Notice
+     * [https://www.mozilla.org/privacy/websites/#cookies]Cookies
+     * [https://www.mozilla.org/about/legal/terms/mozilla]Legal
+     * [https://www.mozilla.org/about/governance/policies/participation/]C
+       ommunity Participation Guidelines
+
+   Visit [https://www.mozilla.org/]Mozilla Corporation’s not-for-profit
+   parent, the [https://foundation.mozilla.org/]Mozilla Foundation.
+   Portions of this content are ©1998–2023 by individual mozilla.org
+   contributors. Content available under
+   [https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib
+   _copyright_license]a Creative Commons license.

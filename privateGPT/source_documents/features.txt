@@ -1,0 +1,987 @@
+   #[https://github.com/opensearch.xml]GitHub
+
+   [https://github.com/features/#start-of-content]Skip to content
+
+   (BUTTON) Toggle navigation
+   [https://github.com/]
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2Ffeatures&source=header]Sign up
+   (BUTTON)
+
+     * (BUTTON) Product
+          + [https://github.com/features/actions]Actions
+            Automate any workflow
+          + [https://github.com/features/packages]Packages
+            Host and manage packages
+          + [https://github.com/features/security]Security
+            Find and fix vulnerabilities
+          + [https://github.com/features/codespaces]Codespaces
+            Instant dev environments
+          + [https://github.com/features/copilot]Copilot
+            Write better code with AI
+          + [https://github.com/features/code-review]Code review
+            Manage code changes
+          + [https://github.com/features/issues]Issues
+            Plan and track work
+          + [https://github.com/features/discussions]Discussions
+            Collaborate outside of code
+       Explore
+          + [https://github.com/features]All features
+          + [https://docs.github.com/]Documentation
+          + [https://skills.github.com/]GitHub Skills
+          + [https://github.blog/]Blog
+     * (BUTTON) Solutions
+       For
+          + [https://github.com/enterprise]Enterprise
+          + [https://github.com/team]Teams
+          + [https://github.com/enterprise/startups]Startups
+          + [https://education.github.com/]Education
+       By Solution
+          + [https://github.com/solutions/ci-cd/]CI/CD & Automation
+          + [https://resources.github.com/devops/]DevOps
+          + [https://resources.github.com/devops/fundamentals/devsecops/]D
+            evSecOps
+       Case Studies
+          + [https://github.com/customer-stories]Customer Stories
+          + [https://resources.github.com/]Resources
+     * (BUTTON) Open Source
+          + [https://github.com/sponsors]GitHub Sponsors
+            Fund open source developers
+          + [https://github.com/readme]The ReadME Project
+            GitHub community articles
+       Repositories
+          + [https://github.com/topics]Topics
+          + [https://github.com/trending]Trending
+          + [https://github.com/collections]Collections
+     * [https://github.com/pricing]Pricing
+
+   (BUTTON)
+   Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+   Search
+   ____________________
+   Clear (BUTTON)
+
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]Search syntax tips
+
+Provide feedback
+
+   (BUTTON)
+
+   We read every piece of feedback, and take your input very seriously.
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [ ] Include my email address so I can be contacted
+   (BUTTON) Cancel (BUTTON) Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+   (BUTTON)
+   Name ____________________
+   Query ____________________
+
+   To see all available qualifiers, see our
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]documentation.
+   (BUTTON) Cancel (BUTTON) Create saved search
+   [https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures
+   %2F]Sign in
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2Ffeatures&source=header]Sign up
+
+   You signed in with another tab or window.
+   [https://github.com/features/]Reload to refresh your session. You
+   signed out in another tab or window.
+   [https://github.com/features/]Reload to refresh your session. You
+   switched accounts on another tab or window.
+   [https://github.com/features/]Reload to refresh your session. (BUTTON)
+
+   (BUTTON)
+   {{ message }}
+
+   (BUTTON) [https://github.com/features/]Features
+   [https://github.com/features/actions]Actions
+   [https://github.com/features/packages]Packages
+   [https://github.com/features/security]Security
+   [https://github.com/features/codespaces]Codespaces
+   [https://github.com/features/copilot]Copilot
+   [https://github.com/features/code-review]Code review
+   [https://github.com/features/code-search]Search
+   [https://github.com/features/issues]Issues
+   [https://github.com/features/discussions]Discussions
+
+The tools you need to build what you want.
+
+   [https://github.com/features/codespaces]
+   new
+   Codespaces
+   for Individuals Learn more
+   [https://github.com/features/preview]
+   new
+   The latest GitHub
+   previews Learn more
+   (BUTTON)
+   [https://github.com/features/#features-collaboration]Collaborative
+   Coding [https://github.com/features/#features-automation]Automation &
+   CI/CD [https://github.com/features/#features-security]Security
+   [https://github.com/features/#features-apps]Client Apps
+   [https://github.com/features/#features-project-management]Project
+   Management
+   [https://github.com/features/#features-team-administration]Team
+   Administration
+   [https://github.com/features/#features-community]Community
+   [https://github.com/join?ref_cta=Sign+up&ref_loc=features+sticky+nav&re
+   f_page=%2Ffeatures&source=features-sticky-nav]Sign up
+
+   GitHub Collaboration Icon
+
+Collaborative
+Coding
+
+   Contribute to projects quickly with automatic environment setup.
+   Make sure you see the changes you care about.
+   Build community around your code.
+   Pull requests display diffs to compare the changes you made in your
+   topic branch against the base branch that you want to merge your
+   changes into.
+   Reviews allow collaborators to comment on the changes proposed in pull
+   requests, approve the changes, or request further changes before the
+   pull request is merged.
+
+Codespaces
+
+   Spin up fully configured dev environments in the cloud with the full
+   power of your favorite editor.
+   [https://github.com/features/codespaces]Learn more
+
+GitHub Copilot
+
+   With GitHub Copilot, get suggestions for whole lines or entire
+   functions right inside your editor.
+   [https://github.com/features/copilot]Learn more
+
+Pull requests
+
+   Allow contributors to easily notify you of changes they've pushed to a
+   repository – with access limited to the contributors you specify.
+   Easily merge changes you accept.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /proposing-changes-to-your-work-with-pull-requests/about-pull-requests]
+   Learn more
+
+Discussions
+
+   Dedicated space for your community to come together, ask and answer
+   questions, and have open-ended conversations.
+   [https://docs.github.com/discussions]Learn more
+
+Code search & code view
+
+   Our powerful new code search and code view enables developers to
+   rapidly search, navigate, and understand code right from GitHub.com.
+   [https://github.com/features/code-search]Learn more
+
+Notifications
+
+   Get updates on the GitHub activity you've subscribed to. Use the
+   notifications inbox to customize, triage, and manage your updates.
+   [https://docs.github.com/account-and-profile/managing-subscriptions-and
+   -notifications-on-github]Learn more
+
+Code review
+
+   Review new code, see visual code changes, and confidently merge code
+   changes with automated status checks.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /reviewing-changes-in-pull-requests]Learn more
+
+Code review assignments
+
+   Assign code reviews to make it clear which team members should submit
+   their review for a pull request.
+   [https://docs.github.com/organizations/organizing-members-into-teams/ma
+   naging-code-review-settings-for-your-team]Learn more
+
+Code owners
+
+   Automatically request reviews–or require approval—by selected
+   contributors when changes are made to sections of code that they own.
+   [https://docs.github.com/repositories/managing-your-repositorys-setting
+   s-and-features/customizing-your-repository/about-code-owners]Learn more
+
+Draft pull requests
+
+   Use a pull request as a way to discuss and collaborate, without
+   submitting to formal review or risking an unwanted merge.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /proposing-changes-to-your-work-with-pull-requests/about-pull-requests#
+   draft-pull-requests]Learn more
+
+Protected branches
+
+   Enforce restrictions on how code branches are merged, including
+   requiring reviews, or allowing only specific contributors to work on a
+   particular branch.
+   [https://docs.github.com/repositories/configuring-branches-and-merges-i
+   n-your-repository/defining-the-mergeability-of-pull-requests/about-prot
+   ected-branches]Learn more
+
+Team discussions
+
+   Post and discuss updates within your entire GitHub organization, or
+   just your team. Notify participants with updates, and link from
+   anywhere.
+   [https://docs.github.com/organizations/collaborating-with-your-team/abo
+   ut-team-discussions]Learn more
+
+Team reviewers
+
+   Request a team on GitHub to review your pull request. Members of the
+   team will get a notification indicating that you've asked for their
+   review.
+   [https://docs.github.com/organizations/organizing-members-into-teams/ma
+   naging-code-review-settings-for-your-team]Learn more
+
+Multiple assignees
+
+   Assign up to 10 people to work on a given issue or pull request,
+   letting you more easily track who's working on what.
+   [https://docs.github.com/issues/tracking-your-work-with-issues/assignin
+   g-issues-and-pull-requests-to-other-github-users]Learn more
+
+Multiple reviewers
+
+   Request review from multiple contributors. Requested reviewers will be
+   notified that you've asked for their review.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-re
+   quest-review]Learn more
+
+Multi-line comments
+
+   Clarify code reviews by referencing or commenting on multiple lines at
+   once in a pull request diff view.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /reviewing-changes-in-pull-requests/commenting-on-a-pull-request]Learn
+   more
+
+Public repositories
+
+   Work with any GitHub member on code in a public repository you control.
+   Make changes, open a pull request, create an issue, and more.
+   [https://docs.github.com/repositories/creating-and-managing-repositorie
+   s/about-repositories]Learn more
+
+Dark mode
+
+   Choose how you experience GitHub with theme settings. Swap to dark
+   theme or default to your system preferences.
+   [https://docs.github.com/account-and-profile/setting-up-and-managing-yo
+   ur-personal-account-on-github/managing-personal-account-settings/managi
+   ng-your-theme-settings]Learn more
+   (BUTTON) Show more features
+
+   GitHub Automation and CI/CD Icon
+
+Automation
+and CI/CD
+
+   Automate everything: CI/CD, testing, planning, project management,
+   issue labeling, approvals, onboarding, and more.
+   Standardize and scale
+   best practices, security, and compliance across your organization.
+   Get started quickly with thousands of actions from partners and the
+   community.
+   Automate everything: CI/CD, testing, planning, project management,
+   issue labeling, approvals, onboarding, and more.
+
+Actions
+
+   Automate all your software development workflows. Write tasks and
+   combine them to build, test, and deploy faster from GitHub.
+   [https://docs.github.com/actions]Learn more
+
+Packages
+
+   Host your own software packages or use them as dependencies in other
+   projects. Both private and public hosting available.
+   [https://docs.github.com/packages]Learn more
+
+APIs
+
+   Create calls to get all the data and events you need within GitHub, and
+   automatically kick off and advance your software workflows.
+   [https://docs.github.com/graphql]Learn more
+
+GitHub Pages
+
+   Create and publish websites about yourself, your organization, or your
+   project directly from a GitHub repository.
+   [https://pages.github.com/]Learn more
+
+GitHub Marketplace
+
+   Start with thousands of actions and applications from our community to
+   help you build, improve, and accelerate your automated workflows.
+   [https://github.com/marketplace?type=actions]Learn more
+
+Webhooks
+
+   Dozens of events, and a Webhooks API, help you integrate with and
+   automate work for your repository, organization, or application.
+   [https://docs.github.com/get-started/customizing-your-github-workflow/e
+   xploring-integrations/about-webhooks]Learn more
+
+Hosted runners
+
+   Move automation to the cloud with on-demand Linux, Windows, and MacOS
+   environments for your workflow runs, hosted by GitHub.
+   [https://docs.github.com/actions/using-github-hosted-runners/about-gith
+   ub-hosted-runners]Learn more
+
+Self-hosted runners
+
+   More environments and fuller control with labels, groups, and policies
+   to manage runs on your own machines. Plus, the runner application is
+   open source.
+   [https://docs.github.com/actions/hosting-your-own-runners]Learn more
+
+Secrets management
+
+   Share, update, and automatically sync secrets across multiple
+   repositories to increase security and reduce workflow failures.
+   [https://docs.github.com/actions/security-guides/encrypted-secrets]Lear
+   n more
+
+Environments
+
+   Meet security and compliance requirements for delivery with secrets and
+   protection rules.
+   [https://docs.github.com/actions/deployment/targeting-different-environ
+   ments/using-environments-for-deployment]Learn more
+
+Deployments
+
+   View which version of your code is running in an environment, including
+   when and why, plus logs for review.
+   [https://docs.github.com/github/administering-a-repository/viewing-depl
+   oyment-activity-for-your-repository]Learn more
+
+Workflow visualization
+
+   Map workflows, track their progression in real time, understand complex
+   workflows, and communicate status with the rest of the team.
+   [https://docs.github.com/actions/managing-workflow-runs/using-the-visua
+   lization-graph]Learn more
+
+Workflow templates
+
+   Standardize and scale best practices and processes with preconfigured
+   workflow templates shared across your organization.
+   [https://docs.github.com/actions/getting-started-with-github-actions/st
+   arting-with-preconfigured-workflow-templates]Learn more
+
+Policies
+
+   Manage Actions usage and permissions by repository and organizations,
+   with additional policies for fork pull requests.
+   [https://docs.github.com/enterprise-cloud@latest/admin/policies/enforci
+   ng-policies-for-your-enterprise/enforcing-policies-for-github-actions-i
+   n-your-enterprise]Learn more
+   (BUTTON) Show more features
+
+   GitHub Security Icon
+
+Security
+
+   Secure code as you write it. Automatically review every change to your
+   codebase and identify vulnerabilities before they reach production.
+   Understand and address any vulnerabilities in your open source
+   dependencies.
+   Automatically detect and deactivate secrets committed to your repos.
+   Automatically review every change to your codebase and identify
+   vulnerabilities before they reach production.
+   Understand and address any vulnerabilities in your open source
+   dependencies.
+
+Private repos
+
+   Host code that you don't want to share with the world in private GitHub
+   repos only accessible to you and people you share them with.
+   [https://docs.github.com/repositories/creating-and-managing-repositorie
+   s/about-repositories]Learn more
+
+2FA
+
+   Add an extra layer of security with two-factor authentication (2FA)
+   when logging into GitHub. Require 2FA and choose from TOTP apps,
+   security keys, and more.
+   [https://docs.github.com/authentication/securing-your-account-with-two-
+   factor-authentication-2fa/configuring-two-factor-authentication-recover
+   y-methods]Learn more
+
+Required reviews
+
+   Ensure that pull requests have a specific number of approving reviews
+   before collaborators can make changes to a protected branch.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /reviewing-changes-in-pull-requests/about-pull-request-reviews#required
+   -reviews]Learn more
+
+Required status checks
+
+   Ensure that all required CI tests are passing before collaborators can
+   make changes to a protected branch.
+   [https://docs.github.com/repositories/configuring-branches-and-merges-i
+   n-your-repository/defining-the-mergeability-of-pull-requests/about-prot
+   ected-branches]Learn more
+
+Code scanning
+
+   Find vulnerabilities in custom code using static analysis. Prevent new
+   vulnerabilities from being introduced by scanning every pull request.
+   [https://docs.github.com/code-security/code-scanning/automatically-scan
+   ning-your-code-for-vulnerabilities-and-errors/about-code-scanning]Learn
+   more
+
+Secret scanning
+
+   Find secrets hard-coded in your public and private repositories. Revoke
+   them to keep access to the services you use secure.
+   [https://docs.github.com/code-security/secret-scanning/about-secret-sca
+   nning]Learn more
+
+Private vulnerability reporting
+
+   Enable your public repository to privately receive vulnerability
+   reports from the community and collaborate on a solution.
+   [https://docs.github.com/en/code-security/security-advisories/guidance-
+   on-reporting-and-writing/privately-reporting-a-security-vulnerability]L
+   earn more
+
+Dependency graph
+
+   See the packages your project depends on, the repositories that depend
+   on them, and any vulnerabilities detected in their dependencies.
+   [https://docs.github.com/code-security/supply-chain-security/understand
+   ing-your-software-supply-chain/about-the-dependency-graph]Learn more
+
+Dependabot alerts
+
+   Get notified when there are new vulnerabilities affecting your
+   repositories. GitHub detects and alerts users to vulnerable
+   dependencies in public and private repos.
+   [https://docs.github.com/code-security/dependabot/dependabot-alerts/abo
+   ut-dependabot-alerts#github-dependabot-alerts-for-vulnerable-dependenci
+   es]Learn more
+
+Dependabot security and version updates
+
+   Keep your supply chain secure and up-to-date by automatically opening
+   pull requests that update vulnerable or out-of-date dependencies.
+   [https://docs.github.com/code-security/dependabot/dependabot-security-u
+   pdates/configuring-dependabot-security-updates]Learn more
+
+Dependency review
+
+   Understand the security impact of newly introduced dependencies during
+   pull requests, before they get merged.
+   [https://docs.github.com/pull-requests/collaborating-with-pull-requests
+   /reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-p
+   ull-request]Learn more
+
+GitHub Security Advisories
+
+   Privately report, discuss, fix, and publish information about security
+   vulnerabilities found in open source repositories.
+   [https://docs.github.com/code-security/security-advisories/repository-s
+   ecurity-advisories/about-repository-security-advisories]Learn more
+
+GitHub Advisory Database
+
+   Browse or search for the vulnerabilities that GitHub knows about. The
+   database contains all curated CVEs and security advisories on the
+   GitHub dependency graph.
+   [https://docs.github.com/code-security/security-advisories/global-secur
+   ity-advisories/browsing-security-advisories-in-the-github-advisory-data
+   base#about-the-github-advisory-database]Learn more
+
+GPG commit signing verification
+
+   Use GPG or S/MIME to sign tags and commits locally. These are marked as
+   verified on GitHub so other people know the changes come from a trusted
+   source.
+   [https://docs.github.com/authentication/managing-commit-signature-verif
+   ication/about-commit-signature-verification]Learn more
+
+Security audit log
+
+   Quickly review the actions performed by members of your organization.
+   Your audit log includes details like who performed an action and when.
+   [https://docs.github.com/enterprise-server@2.22/admin/overview/system-o
+   verview#audit-and-access-logging]Learn more
+   (BUTTON) Show more features
+
+Enterprise Security
+
+   Additional features available to GitHub
+   Enterprise customers.
+   [https://github.com/enterprise/contact?ref_cta=Contact+Sales&ref_loc=en
+   terpirse+security+category&ref_page=%2Ffeatures&scid=&utm_campaign=Feat
+   ures&utm_content=Security&utm_medium=site&utm_source=github]Contact
+   Sales
+
+SAML
+
+   Control and secure access to organization resources like repos, issues,
+   and pull requests with SAML. And allow users to authenticate with their
+   existing GitHub usernames.
+   [https://docs.github.com/github-ae@latest/admin/identity-and-access-man
+   agement/using-saml-for-enterprise-iam/about-saml-for-enterprise-iam]Lea
+   rn more
+
+LDAP
+
+   Centralize repository management. LDAP is one of the most common
+   protocols used to integrate third-party software with large company
+   user directories.
+   [https://docs.github.com/enterprise-server@latest/admin/identity-and-ac
+   cess-management/using-ldap-for-enterprise-iam/using-ldap]Learn more
+
+IP allow list
+
+   Limit access to enterprise assets to an allowed set of source IPs. The
+   allow list will block access for any IP addresses not included via the
+   web, API, and Git.
+   [https://docs.github.com/enterprise-cloud@latest/admin/configuration/co
+   nfiguring-your-enterprise/restricting-network-traffic-to-your-enterpris
+   e-with-an-ip-allow-list]Learn more
+
+GitHub Connect
+
+   Share features and workflows between your GitHub Enterprise Server
+   instance and GitHub Enterprise Cloud.
+   [https://docs.github.com/enterprise-server@latest/admin/configuration/c
+   onfiguring-github-connect/about-github-connect]Learn more
+
+Audit log API
+
+   Keep copies of audit log data to ensure secure IP and maintain
+   compliance for your organization.
+   [https://docs.github.com/enterprise-cloud@latest/admin/monitoring-activ
+   ity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-t
+   he-audit-log-api-for-your-enterprise]Learn more
+   (BUTTON) Show more features
+
+   GitHub Client Apps Icon
+
+Client Apps
+
+   Take GitHub with you on any connected device.
+   Skip the visual UI with a quick, powerful text interface.
+   Access GitHub from your macOS or Windows desktop.
+   Get to inbox zero in no time—swipe to wrap up a task or save the
+   notification to come back to it later.
+   GitHub App Pull Request
+   GitHub Mobile lets you merge code while you’re on the go.
+
+GitHub Mobile
+
+   Take your projects, ideas, and code to go with a fully-native mobile
+   and tablet experience.
+   [https://github.com/mobile]Learn more
+
+GitHub CLI
+
+   Bring GitHub to the command line. Manage issues and pull requests from
+   the terminal, where you're already working with Git and your code.
+   [https://cli.github.com/]Learn more
+
+GitHub Desktop
+
+   Simplify your development workflow with a GUI. Visualize, commit, and
+   push changes without ever touching the command line.
+   [https://desktop.github.com/]Learn more
+
+   GitHub Project Management Icon
+
+Project
+Management
+
+   Keep feature requests, bugs, and more organized with GitHub Issues —
+   engineered for software teams.
+   Coordinate initiatives big and small with project tables, boards, and
+   tasklists.
+   Track what you deliver down to the commit.
+   Visually track issues, pull requests, and notes as cards that you can
+   arrange to suit your workflow.
+   GitHub’s planning and tracking features live with your code.
+   GitHub Project Shipped
+   Track what you deliver down to the commit.
+
+Projects
+
+   Create a customized view of your issues and pull requests to plan and
+   track your work.
+   [https://docs.github.com/en/issues/planning-and-tracking-with-projects/
+   learning-about-projects/about-projects]Learn more
+
+Labels
+
+   Organize and prioritize your work. Apply labels to issues and pull
+   requests to signify priority, category, or any other information you
+   find useful.
+   [https://docs.github.com/issues/using-labels-and-milestones-to-track-wo
+   rk/managing-labels]Learn more
+
+Milestones
+
+   Track progress on groups of issues or pull requests in a repository,
+   and map groups to overall project goals.
+   [https://docs.github.com/issues/using-labels-and-milestones-to-track-wo
+   rk/about-milestones]Learn more
+
+Issues
+
+   Track bugs, enhancements, and other requests, prioritize work, and
+   communicate with stakeholders as changes are proposed and merged.
+   [https://docs.github.com/issues]Learn more
+
+Charts and Insights
+
+   Leverage insights to visualize your projects by creating and sharing
+   charts built from your project's data.
+   [https://docs.github.com/en/issues/planning-and-tracking-with-projects/
+   viewing-insights-from-your-project]Learn more
+
+Tasklists
+
+   Decompose issues into tasks, convert tasks to issues, visualize your
+   relationships in GitHub Projects, and more—all in a polished new UI.
+   [https://docs.github.com/issues/tracking-your-work-with-issues/about-ta
+   sklists]Learn more
+
+Org dependency insights
+
+   With dependency insights you can view vulnerabilities, licenses, and
+   other important information for the open source projects your
+   organization depends on.
+   [https://docs.github.com/enterprise-cloud@latest/organizations/collabor
+   ating-with-groups-in-organizations/viewing-insights-for-your-organizati
+   on#viewing-organization-dependency-insights]Learn more
+
+Repo insights
+
+   Use data about activity and contributions within your repositories,
+   including trends, to make data-driven improvements to your development
+   cycle.
+   [https://docs.github.com/en/repositories/viewing-activity-and-data-for-
+   your-repository/viewing-a-summary-of-repository-activity]Learn more
+
+Wikis
+
+   Host documentation for projects in a wiki within your repository.
+   Contributors can easily edit documentation on the web or locally.
+   [https://docs.github.com/communities/documenting-your-project-with-wiki
+   s/about-wikis]Learn more
+   (BUTTON) Show more features
+
+   GitHub Team Administration Icon
+
+Team
+Administration
+
+   Simplify access and permissions management across your projects and
+   teams.
+   Update permissions, add new users as you grow, and give everyone the
+   exact permissions they need.
+   Sync with Okta and Azure Active Directory.
+   Update permissions, add new users as you grow, and give everyone the
+   exact permissions they need.
+   Quickly and securely manage team permissions.
+
+Organizations
+
+   Set up groups of user accounts that own repositories. Manage access on
+   a team-by-team, or individual user, basis.
+   [https://docs.github.com/organizations]Learn more
+
+Invitations
+
+   Easily add GitHub members to your repositories using their GitHub
+   username or email address, and require them to confirm access.
+   [https://docs.github.com/organizations/managing-membership-in-your-orga
+   nization/inviting-users-to-join-your-organization]Learn more
+
+Teams
+
+   Group your organization members to reflect your company or group's
+   structure with cascading access permissions and mentions.
+   [https://docs.github.com/en/organizations/organizing-members-into-teams
+   /about-teams]Learn more
+
+Team sync
+
+   Enable team synchronization between your identity provider and your
+   organization on GitHub, including Azure AD and Okta.
+   [https://docs.github.com/enterprise-cloud@latest/organizations/managing
+   -saml-single-sign-on-for-your-organization/managing-team-synchronizatio
+   n-for-your-organization]Learn more
+
+Custom roles
+
+   Define users' level of access to your code, data and settings based on
+   their role in your organization.
+   [https://docs.github.com/get-started/learning-about-github/access-permi
+   ssions-on-github]Learn more
+
+Custom repository roles
+
+   Ensure members have only the permissions they need by creating custom
+   roles with fine-grained permission settings.
+   [https://docs.github.com/en/enterprise-cloud@latest/organizations/manag
+   ing-peoples-access-to-your-organization-with-roles/managing-custom-repo
+   sitory-roles-for-an-organization]Learn more
+
+Domain verification
+
+   Verify your organization's identity on GitHub and display that
+   verification through a profile badge.
+   [https://docs.github.com/enterprise-cloud@latest/organizations/managing
+   -organization-settings/verifying-or-approving-a-domain-for-your-organiz
+   ation]Learn more
+
+Verified and approved domains
+
+   Make sure emails only go to your company’s email inbox by approving
+   corporate domains.
+   [https://docs.github.com/enterprise-cloud@latest/organizations/managing
+   -organization-settings/verifying-or-approving-a-domain-for-your-organiz
+   ation]Learn more
+
+Audit Log API
+
+   Quickly review the actions performed by members of your organization.
+   Monitor access, permission changes, user changes, and other events.
+   [https://docs.github.com/organizations/keeping-your-organization-secure
+   /managing-security-settings-for-your-organization/reviewing-the-audit-l
+   og-for-your-organization#using-the-audit-log-api]Learn more
+
+Audit log streaming
+
+   Prevent audit log loss by streaming your enterprise audit log with
+   leading system information and event management tools and cloud storage
+   providers.
+   [https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-ac
+   tivity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/stre
+   aming-the-audit-log-for-your-enterprise]Learn more
+
+Repo creation restriction
+
+   Restrict repository creation permissions to organization owners only—or
+   allow members to create public and private repositories.
+   [https://docs.github.com/organizations/managing-organization-settings/r
+   estricting-repository-creation-in-your-organization]Learn more
+
+Notification restriction
+
+   Protect information about what your team is working on by restricting
+   email notifications to approved email domains.
+   [https://docs.github.com/enterprise-cloud@latest/organizations/keeping-
+   your-organization-secure/managing-security-settings-for-your-organizati
+   on/restricting-email-notifications-for-your-organization]Learn more
+
+Enterprise Accounts
+
+   Enable collaboration between your organization and GitHub environments
+   with a single point of visibility and management via an enterprise
+   account.
+   [https://docs.github.com/en/enterprise-cloud@latest/admin/overview/abou
+   t-enterprise-accounts]Learn more
+
+Compliance Reports
+
+   Take care of your security assessment and certification needs by
+   accessing GitHub’s cloud compliance reports, such as our SOC reports
+   and Cloud Security Alliance CAIQ self-assessments (CSA CAIQ).
+   [https://docs.github.com/en/enterprise-cloud@latest/admin/overview/acce
+   ssing-compliance-reports-for-your-enterprise]Learn more
+   (BUTTON) Show more features
+   GitHub Community Icon
+
+Community
+
+   [https://github.com/marketplace]
+
+GitHub Marketplace
+
+   Install apps that integrate directly with GitHub's API to customize and
+   optimize your workflows – build your own for private use or publication
+   in the GitHub Marketplace.
+   Learn more
+   [https://github.com/sponsors]
+
+GitHub Sponsors
+
+   Financially support the open source projects your code depends on.
+   Sponsor a contributor, maintainer, or project with one time or
+   recurring contributions.
+   Learn more
+   [https://github.com/readme]
+
+The ReadME Project
+
+   The ReadME Project is part of GitHub’s ongoing effort to amplify the
+   voices of the developer community.
+   Learn more
+   [https://skills.github.com/]
+
+GitHub Skills
+
+   Learn new skills by completing tasks and projects directly within
+   GitHub, guided by our friendly bot.
+   Learn more
+   [https://www.electronjs.org/docs/latest]
+
+Electron
+
+   Write cross-platform desktop applications using JavaScript, HTML and
+   CSS with the Electron framework, based on Node.js and Chromium.
+   Learn more
+
+Ready to get started?
+
+   [https://github.com/pricing]View pricing and plans
+
+Free
+
+   The basics for individuals
+   and organizations
+
+^$ 0 per month
+
+   ^$ 0
+   per month forever
+   [https://github.com/join?plan=free&ref_cta=Join%2520for%2520free&ref_lo
+   c=cards&ref_page=%2Ffeatures&source=pricing-card-free]Join for free
+
+   Most popular
+
+Team
+
+   Advanced collaboration for
+   individuals and organizations
+
+^$ 4 per user/month
+
+   ^$ 4 ^$ 3.67
+   per user/month for the first 12 months^*
+   [https://github.com/join?plan=business&pricing_exp=true&ref_cta=Continu
+   e%2520with%2520Team&ref_loc=cards&ref_page=%2Ffeatures&setup_organizati
+   on=true&source=pricing-card-team]Continue with Team
+
+   * Discounted pricing is for new yearly customers paying with credit
+   cards or PayPal. After first year, price is subject to change. GitHub
+   will send you a notification email at least 30 days in advance of any
+   price change.
+
+   Most popular
+
+Enterprise
+
+   Security, compliance,
+   and flexible deployment
+
+^$ 21 per user/month
+
+   ^$ 21 ^$ 19.25
+   per user/month for the first 12 months^*
+   [https://github.com/organizations/enterprise_plan?ref_cta=Start%2520a%2
+   520free%2520trial&ref_loc=card&ref_page=pricing]Start a free trial
+   [https://github.com/enterprise/contact?ref_page=/features&ref_cta=Conta
+   ct%20Sales&ref_loc=cards]Contact Sales
+
+   * Discounted pricing is for new yearly customers paying with credit
+   cards or PayPal. After first year, price is subject to change. GitHub
+   will send you a notification email at least 30 days in advance of any
+   price change.
+
+   [https://github.com/]
+
+Subscribe to our newsletter
+
+   Get product updates, company news, and more.
+   [https://resources.github.com/newsletter/]Subscribe
+
+Product
+
+     * [https://github.com/features]Features
+     * [https://github.com/security]Security
+     * [https://github.com/team]Team
+     * [https://github.com/enterprise]Enterprise
+     * [https://github.com/customer-stories?type=enterprise]Customer
+       stories
+     * [https://github.com/readme]The ReadME Project
+     * [https://github.com/pricing]Pricing
+     * [https://resources.github.com/]Resources
+     * [https://github.com/github/roadmap]Roadmap
+     * [https://resources.github.com/devops/tools/compare/]Compare GitHub
+
+Platform
+
+     * [https://docs.github.com/get-started/exploring-integrations/about-b
+       uilding-integrations]Developer API
+     * [https://partner.github.com/]Partners
+     * [https://www.electronjs.org/]Electron
+     * [https://desktop.github.com/]GitHub Desktop
+
+Support
+
+     * [https://docs.github.com/]Docs
+     * [https://github.community/]Community Forum
+     * [https://services.github.com/]Professional Services
+     * [https://github.com/premium-support]Premium Support
+     * [https://skills.github.com/]Skills
+     * [https://www.githubstatus.com/]Status
+     * [https://support.github.com/?tags=dotcom-footer]Contact GitHub
+
+Company
+
+     * [https://github.com/about]About
+     * [https://github.blog/]Blog
+     * [https://github.com/about/careers]Careers
+     * [https://github.com/about/press]Press
+     * [https://github.com/about/diversity]Inclusion
+     * [https://socialimpact.github.com/]Social Impact
+     * [https://shop.github.com/]Shop
+
+     * [https://twitter.com/github]Twitter icon GitHub on Twitter
+     * [https://www.facebook.com/GitHub]Facebook icon GitHub on Facebook
+     * [https://www.linkedin.com/company/github]Linkedin icon GitHub on
+       LinkedIn
+     * [https://www.youtube.com/github]YouTube icon GitHub on YouTube
+     * [https://www.twitch.tv/github]Twitch icon GitHub on Twitch
+     * [https://www.tiktok.com/@github]TikTok icon GitHub on TikTok
+     * [https://github.com/github]GitHub mark GitHub’s organization on
+       GitHub
+
+     * © 2023 GitHub, Inc.
+     * [https://docs.github.com/site-policy/github-terms/github-terms-of-s
+       ervice]Terms
+     * [https://docs.github.com/site-policy/privacy-policies/github-privac
+       y-statement]Privacy
+       ([https://github.com/github/site-policy/pull/582]Updated 08/2022)
+     * [https://github.com/sitemap]Sitemap
+     * [https://github.com/git-guides]What is Git?
+
+   (BUTTON) You can’t perform that action at this time.
+
+   (BUTTON)

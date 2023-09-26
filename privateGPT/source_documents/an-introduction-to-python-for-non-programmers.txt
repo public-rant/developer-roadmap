@@ -1,0 +1,787 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/19601096]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fan-introduction-to-python-for-non-programmers%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fan-introduction-to-python-for-non-programmers%2F&format=xm
+   l]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/an-introduction-to-python-for-non-programmers/]
+   ARCHITECTURE
+   [https://thenewstack.io/an-introduction-to-python-for-non-programmers/]
+   ENGINEERING
+   [https://thenewstack.io/an-introduction-to-python-for-non-programmers/]
+   OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2021-11-16 03:00:05
+   An Introduction to Python for Non-Programmers
+   tutorial,
+   [https://thenewstack.io/category/python/]Python /
+   [https://thenewstack.io/category/software-development/]Software
+   Development
+
+An Introduction to Python for Non-Programmers
+
+   This introduction to Python will be the first in a series of tutorials
+   on how to us ethe programming language.
+   Nov 16th, 2021 3:00am by
+   [https://thenewstack.io/author/jack-wallen/]Jack Wallen
+   Featued image for: An Introduction to Python for Non-Programmers
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   Welcome to the first entry in this Python for non-programmers series.
+
+   If you’re reading this, you probably have developed a curiosity about
+   programming and are looking for a good place to start. I have good news
+   for you. Python is one of the best languages with which to start that
+   journey. Why? We’ll get into that in a minute. But first, let’s
+   discover exactly what this language is and can do.
+
+   [https://www.python.org/]Python is what’s called a high-level,
+   general-purpose programming language. Let’s break that definition down.
+
+   First, what is a high-level language? Let’s consider this:
+
+   At the bottom, you have the computer hardware, which only understands
+   what’s called “machine language.” Because machine language (or machine
+   code) is so close to the hardware, it’s considered a low-level language
+   (because it exists at such a low level).
+
+   As you rise up away from the low level, languages become high-level,
+   because they are abstracted away from the hardware. High-level
+   languages do not need to view or access the details of the computer. If
+   they did, they’d be considerably harder to use.
+
+   High-level languages:
+     * Are programmer-friendly and easier to understand.
+     * Are less memory efficient.
+     * Are easier to debug.
+     * Are relatively easy to maintain.
+     * Are portable (so they can run on any supporting platform)
+     * Require a compiler or interpreter.
+     * Are widely used.
+
+   So Python being a high-level language already gives it a head start on
+   user-friendliness.
+
+   Our next definition is general purpose. A general-purpose language is a
+   computer language that is used to solve a wide variety of problems. In
+   other words, you can use a general-purpose language for many things.
+
+   Put those two things together and Python is a programming language that
+   can be easily used for several purposes. But Python isn’t just easy to
+   use because it’s a high-level language.
+
+What Makes Python so Easy to Use?
+
+   One of the main reasons why Python is so easy to use is because it
+   reads almost like the English language. Python has a very clear and
+   simple-to-understand syntax that is used for web developers, desktop
+   developers, game developers, data scientists, and more. With Python so
+   widely-used, it has a very large community, so help is never far away.
+
+   So, Python is easy to read, used everywhere, and has a vast community
+   for support. In fact, of all the programming languages, Python is
+   almost always considered the easiest to learn.
+
+   The picture is becoming clearer and clearer.
+
+   With all of that said, let’s introduce ourselves to Python.
+
+Interpreted Language
+
+   Another thing that sets Python apart from a number of other languages
+   is that it’s an interpreted language. This means Python doesn’t need a
+   compiler, so you write the code and run it. Now, that also means you
+   must have Python installed. If you didn’t have python installed, if you
+   created the file hello-newstack.py, it would be of no use. However,
+   with Python installed, you could create the file, add the code, and run
+   it (without having to first compile it).
+
+   Let’s walk through this very simple example.
+
+Hello, New Stack!
+
+   One of the most widely-used examples (for nearly any programming
+   language) is the Hello, World! example. This simple application does
+   one thing — it prints out a line of text in the terminal. To do that,
+   Python uses what’s called a function, which is a set of instructions
+   that has been previously bundled together that achieve a specific
+   outcome. This means the programmer doesn’t have to create everything.
+
+   Let me explain that a bit more simply. Let’s take Legos. When you buy a
+   set of Legos, it’ll come with a bunch of bricks that you can use to
+   form objects. But within that kit, you’ll also find special pieces that
+   can be used to build particular things. For example, you’ll find heads,
+   hands, torsos, arms, and legs which make it easy to build Lego people.
+   Imagine how much more time it would take if you had to build those
+   people out of the included Lego bricks. Not only would it be more
+   challenging, but the people also wouldn’t look as much like people (and
+   more like blocky robots).
+
+   Think of those special “people parts” as functions. You could also
+   consider specialized pieces that make it easier to build cars, planes,
+   rockets, or the International Space Station as functions.
+
+   Back to our example.
+
+   With the Hello, World application, we only need to make use of one
+   function, print(), which tells the interpreter to print out what’s
+   housed between the (). So with our Hello, New Stack example, that
+   function would be used like so:
+
+   print('Hello, New Stack!')
+
+   That’s a line of Python code. More to the point, that’s the only line
+   of Python code you need for the Hello, World example. Of course, good
+   developers also document their code, so instead of just adding that one
+   line, we’d preface it with something like:
+
+   #Print out the text "Hello, New Stack!".____________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   #Print out the text "Hello, New Stack!".
+
+   Let’s put that together. Open a terminal window and create the new file
+   with the command:
+
+   nano hello-newstack.py
+
+   In that file, paste the following:
+
+   #Print out the text "Hello, New Stack!".____________________
+   print('Hello, New Stack!')__________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   #Print out the text "Hello, New Stack!".
+   print('Hello, New Stack!')
+
+   Save and close the file with the [Ctrl]+[x] keyboard shortcut.
+
+   Remember when I said a python file (a file that ends with .py) isn’t
+   any good without Python installed? Let’s install it. I’ll demonstrate
+   on Ubuntu Linux 20.04. Back at the terminal window issue the command:
+
+   sudo apt-get install python3 -y
+
+   Now we can actually run our new Python application with the command:
+
+   python3 hello-newstack.py
+
+   The output of the command will simply print Hello, New Stack! (Figure
+   1).
+
+   Figure 1: Our new Python application successfully ran!
+
+   Congratulations, you’ve taken your first steps with Python, and you did
+   so without having to know anything about computer programming. In the
+   next entry of this series, we’ll learn a bit more about the language
+   and how to create an application that’s a bit more complicated.
+   Created with Sketch.
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fan-introd
+   uction-to-python-for-non-programmers%2F&text=An+Introduction+to+Python+
+   for+Non-Programmers:%20&via=thenewstack][https://news.ycombinator.com/s
+   ubmitlink?u=https%3A%2F%2Fthenewstack.io%2Fan-introduction-to-python-fo
+   r-non-programmers%2F][https://www.linkedin.com/sharing/share-offsite/?u
+   rl=https%3A%2F%2Fthenewstack.io%2Fan-introduction-to-python-for-non-pro
+   grammers%2F][https://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io
+   %2Fan-introduction-to-python-for-non-programmers%2F&title=An+Introducti
+   on+to+Python+for+Non-Programmers][https://www.facebook.com/sharer/share
+   r.php?u=https://thenewstack.io/an-introduction-to-python-for-non-progra
+   mmers/]
+   RELATED STORIES
+   [https://thenewstack.io/codon-is-a-faster-python-compiler-for-some-work
+   loads/]Codon Is a Faster Python Compiler (for Some Workloads)
+   [https://thenewstack.io/how-to-build-an-interactive-lego-robot-using-py
+   thon/]How to Build an Interactive Lego Robot Using Python
+   [https://thenewstack.io/satori-launches-universal-data-permissions-scan
+   ner/]Satori Launches Universal Data Permissions Scanner
+   [https://thenewstack.io/an-introduction-to-python-a-language-for-the-ag
+   es/]An Introduction to Python: A Language for the Ages
+   [https://thenewstack.io/pypi-strives-to-pull-itself-out-of-trouble/]PyP
+   I Strives to Pull Itself Out of Trouble
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fan-introd
+   uction-to-python-for-non-programmers%2F&text=An+Introduction+to+Python+
+   for+Non-Programmers:%20&via=thenewstack][https://news.ycombinator.com/s
+   ubmitlink?u=https%3A%2F%2Fthenewstack.io%2Fan-introduction-to-python-fo
+   r-non-programmers%2F][https://www.linkedin.com/sharing/share-offsite/?u
+   rl=https%3A%2F%2Fthenewstack.io%2Fan-introduction-to-python-for-non-pro
+   grammers%2F][https://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io
+   %2Fan-introduction-to-python-for-non-programmers%2F&title=An+Introducti
+   on+to+Python+for+Non-Programmers][https://www.facebook.com/sharer/share
+   r.php?u=https://thenewstack.io/an-introduction-to-python-for-non-progra
+   mmers/]
+   RELATED STORIES
+   [https://thenewstack.io/top-5-nlp-tools-in-python-for-text-analysis-app
+   lications/]Top 5 NLP Tools in Python for Text Analysis Applications
+   [https://thenewstack.io/pypi-strives-to-pull-itself-out-of-trouble/]PyP
+   I Strives to Pull Itself Out of Trouble
+   [https://thenewstack.io/an-introduction-to-python-a-language-for-the-ag
+   es/]An Introduction to Python: A Language for the Ages
+   [https://thenewstack.io/7-must-have-python-tools-for-ml-devs-and-data-s
+   cientists/]7 Must-Have Python Tools for ML Devs and Data Scientists
+   [https://thenewstack.io/codon-is-a-faster-python-compiler-for-some-work
+   loads/]Codon Is a Faster Python Compiler (for Some Workloads)
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

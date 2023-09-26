@@ -1,0 +1,2352 @@
+WEBVTT
+
+
+
+00:00:00.089 --> 00:00:01.939 align:start position:0%
+ 
+in<00:00:00.299><c> the</c><00:00:00.480><c> last</c><00:00:00.630><c> lecture</c><00:00:00.900><c> we</c><00:00:01.260><c> have</c><00:00:01.410><c> studied</c>
+
+00:00:01.939 --> 00:00:01.949 align:start position:0%
+in the last lecture we have studied
+ 
+
+00:00:01.949 --> 00:00:04.519 align:start position:0%
+in the last lecture we have studied
+about<00:00:02.040><c> storage</c><00:00:02.879><c> structure</c><00:00:03.360><c> under</c><00:00:04.020><c> the</c><00:00:04.140><c> basics</c>
+
+00:00:04.519 --> 00:00:04.529 align:start position:0%
+about storage structure under the basics
+ 
+
+00:00:04.529 --> 00:00:06.740 align:start position:0%
+about storage structure under the basics
+of<00:00:04.650><c> operating</c><00:00:05.100><c> system</c><00:00:05.490><c> and</c><00:00:05.700><c> in</c><00:00:06.359><c> this</c><00:00:06.540><c> lecture</c>
+
+00:00:06.740 --> 00:00:06.750 align:start position:0%
+of operating system and in this lecture
+ 
+
+00:00:06.750 --> 00:00:09.350 align:start position:0%
+of operating system and in this lecture
+we<00:00:07.049><c> will</c><00:00:07.200><c> be</c><00:00:07.350><c> studying</c><00:00:07.589><c> about</c><00:00:08.010><c> input</c><00:00:08.820><c> output</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+we will be studying about input output
+ 
+
+00:00:09.360 --> 00:00:11.330 align:start position:0%
+we will be studying about input output
+structure<00:00:09.660><c> which</c><00:00:10.320><c> also</c><00:00:10.500><c> comes</c><00:00:10.889><c> under</c><00:00:11.219><c> the</c>
+
+00:00:11.330 --> 00:00:11.340 align:start position:0%
+structure which also comes under the
+ 
+
+00:00:11.340 --> 00:00:14.660 align:start position:0%
+structure which also comes under the
+basics<00:00:11.730><c> of</c><00:00:11.910><c> operating</c><00:00:12.120><c> system</c><00:00:12.840><c> so</c><00:00:13.830><c> as</c><00:00:14.160><c> we</c>
+
+00:00:14.660 --> 00:00:14.670 align:start position:0%
+basics of operating system so as we
+ 
+
+00:00:14.670 --> 00:00:16.640 align:start position:0%
+basics of operating system so as we
+studied<00:00:15.000><c> about</c><00:00:15.089><c> storage</c><00:00:15.750><c> structure</c><00:00:16.199><c> in</c><00:00:16.440><c> the</c>
+
+00:00:16.640 --> 00:00:16.650 align:start position:0%
+studied about storage structure in the
+ 
+
+00:00:16.650 --> 00:00:19.130 align:start position:0%
+studied about storage structure in the
+previous<00:00:17.369><c> lecture</c><00:00:17.789><c> we</c><00:00:18.480><c> see</c><00:00:18.720><c> here</c><00:00:18.990><c> that</c>
+
+00:00:19.130 --> 00:00:19.140 align:start position:0%
+previous lecture we see here that
+ 
+
+00:00:19.140 --> 00:00:22.550 align:start position:0%
+previous lecture we see here that
+storage<00:00:20.010><c> is</c><00:00:20.340><c> only</c><00:00:20.609><c> one</c><00:00:21.150><c> of</c><00:00:21.390><c> the</c><00:00:21.720><c> many</c><00:00:21.960><c> types</c><00:00:22.260><c> of</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+storage is only one of the many types of
+ 
+
+00:00:22.560 --> 00:00:25.210 align:start position:0%
+storage is only one of the many types of
+input/output<00:00:23.519><c> devices</c><00:00:23.880><c> within</c><00:00:24.689><c> a</c><00:00:25.019><c> computer</c>
+
+00:00:25.210 --> 00:00:25.220 align:start position:0%
+input/output devices within a computer
+ 
+
+00:00:25.220 --> 00:00:28.269 align:start position:0%
+input/output devices within a computer
+so<00:00:26.220><c> what</c><00:00:26.910><c> are</c><00:00:27.029><c> input/output</c><00:00:27.720><c> devices</c>
+
+00:00:28.269 --> 00:00:28.279 align:start position:0%
+so what are input/output devices
+ 
+
+00:00:28.279 --> 00:00:30.410 align:start position:0%
+so what are input/output devices
+input/output<00:00:29.279><c> devices</c><00:00:29.609><c> are</c><00:00:30.029><c> the</c><00:00:30.150><c> devices</c>
+
+00:00:30.410 --> 00:00:30.420 align:start position:0%
+input/output devices are the devices
+ 
+
+00:00:30.420 --> 00:00:33.530 align:start position:0%
+input/output devices are the devices
+that<00:00:30.779><c> are</c><00:00:30.960><c> used</c><00:00:31.199><c> for</c><00:00:31.859><c> either</c><00:00:32.099><c> giving</c><00:00:33.030><c> input</c><00:00:33.210><c> or</c>
+
+00:00:33.530 --> 00:00:33.540 align:start position:0%
+that are used for either giving input or
+ 
+
+00:00:33.540 --> 00:00:35.990 align:start position:0%
+that are used for either giving input or
+getting<00:00:33.930><c> output</c><00:00:34.469><c> from</c><00:00:34.800><c> your</c><00:00:35.010><c> computer</c><00:00:35.790><c> and</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+getting output from your computer and
+ 
+
+00:00:36.000 --> 00:00:38.990 align:start position:0%
+getting output from your computer and
+storage<00:00:36.840><c> also</c><00:00:37.050><c> is</c><00:00:37.380><c> just</c><00:00:37.770><c> one</c><00:00:38.190><c> of</c><00:00:38.370><c> the</c><00:00:38.820><c> many</c>
+
+00:00:38.990 --> 00:00:39.000 align:start position:0%
+storage also is just one of the many
+ 
+
+00:00:39.000 --> 00:00:40.790 align:start position:0%
+storage also is just one of the many
+types<00:00:39.239><c> of</c><00:00:39.450><c> input/output</c><00:00:40.110><c> devices</c><00:00:40.379><c> that</c><00:00:40.649><c> we</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+types of input/output devices that we
+ 
+
+00:00:40.800 --> 00:00:43.220 align:start position:0%
+types of input/output devices that we
+have<00:00:41.040><c> so</c><00:00:41.730><c> we</c><00:00:41.879><c> see</c><00:00:42.090><c> that</c><00:00:42.239><c> input/output</c><00:00:42.899><c> devices</c>
+
+00:00:43.220 --> 00:00:43.230 align:start position:0%
+have so we see that input/output devices
+ 
+
+00:00:43.230 --> 00:00:46.520 align:start position:0%
+have so we see that input/output devices
+or<00:00:43.649><c> something</c><00:00:44.190><c> that</c><00:00:44.309><c> is</c><00:00:44.430><c> very</c><00:00:44.579><c> important</c><00:00:45.300><c> so</c><00:00:45.570><c> a</c>
+
+00:00:46.520 --> 00:00:46.530 align:start position:0%
+or something that is very important so a
+ 
+
+00:00:46.530 --> 00:00:49.639 align:start position:0%
+or something that is very important so a
+large<00:00:47.219><c> portion</c><00:00:47.610><c> of</c><00:00:47.879><c> operating</c><00:00:48.420><c> system</c><00:00:48.870><c> code</c>
+
+00:00:49.639 --> 00:00:49.649 align:start position:0%
+large portion of operating system code
+ 
+
+00:00:49.649 --> 00:00:53.569 align:start position:0%
+large portion of operating system code
+is<00:00:49.920><c> dedicated</c><00:00:50.879><c> to</c><00:00:51.030><c> managing</c><00:00:51.570><c> IO</c><00:00:52.160><c> both</c><00:00:53.160><c> because</c>
+
+00:00:53.569 --> 00:00:53.579 align:start position:0%
+is dedicated to managing IO both because
+ 
+
+00:00:53.579 --> 00:00:56.090 align:start position:0%
+is dedicated to managing IO both because
+of<00:00:53.760><c> its</c><00:00:54.090><c> importance</c><00:00:54.690><c> to</c><00:00:54.899><c> the</c><00:00:55.050><c> reliability</c><00:00:55.829><c> and</c>
+
+00:00:56.090 --> 00:00:56.100 align:start position:0%
+of its importance to the reliability and
+ 
+
+00:00:56.100 --> 00:00:59.060 align:start position:0%
+of its importance to the reliability and
+performance<00:00:56.640><c> of</c><00:00:57.210><c> a</c><00:00:57.360><c> system</c><00:00:57.570><c> and</c><00:00:57.989><c> because</c><00:00:58.829><c> of</c>
+
+00:00:59.060 --> 00:00:59.070 align:start position:0%
+performance of a system and because of
+ 
+
+00:00:59.070 --> 00:01:02.090 align:start position:0%
+performance of a system and because of
+the<00:00:59.340><c> very</c><00:00:59.579><c> nature</c><00:00:59.940><c> of</c><00:01:00.329><c> the</c><00:01:00.719><c> devices</c><00:01:01.199><c> so</c><00:01:01.890><c> as</c><00:01:01.949><c> I</c>
+
+00:01:02.090 --> 00:01:02.100 align:start position:0%
+the very nature of the devices so as I
+ 
+
+00:01:02.100 --> 00:01:05.240 align:start position:0%
+the very nature of the devices so as I
+told<00:01:02.160><c> you</c><00:01:02.520><c> since</c><00:01:03.530><c> input/output</c><00:01:04.530><c> devices</c><00:01:04.890><c> and</c>
+
+00:01:05.240 --> 00:01:05.250 align:start position:0%
+told you since input/output devices and
+ 
+
+00:01:05.250 --> 00:01:07.550 align:start position:0%
+told you since input/output devices and
+managing<00:01:05.790><c> input/output</c><00:01:06.450><c> is</c><00:01:06.659><c> very</c><00:01:06.900><c> important</c>
+
+00:01:07.550 --> 00:01:07.560 align:start position:0%
+managing input/output is very important
+ 
+
+00:01:07.560 --> 00:01:10.250 align:start position:0%
+managing input/output is very important
+so<00:01:08.220><c> when</c><00:01:08.490><c> you</c><00:01:08.640><c> code</c><00:01:09.030><c> the</c><00:01:09.240><c> operating</c><00:01:09.659><c> system</c><00:01:10.080><c> a</c>
+
+00:01:10.250 --> 00:01:10.260 align:start position:0%
+so when you code the operating system a
+ 
+
+00:01:10.260 --> 00:01:13.280 align:start position:0%
+so when you code the operating system a
+very<00:01:10.350><c> large</c><00:01:11.340><c> portion</c><00:01:11.820><c> of</c><00:01:12.090><c> that</c><00:01:12.330><c> code</c><00:01:12.689><c> is</c>
+
+00:01:13.280 --> 00:01:13.290 align:start position:0%
+very large portion of that code is
+ 
+
+00:01:13.290 --> 00:01:16.429 align:start position:0%
+very large portion of that code is
+dedicated<00:01:14.070><c> for</c><00:01:14.220><c> managing</c><00:01:15.090><c> the</c><00:01:15.439><c> input/output</c>
+
+00:01:16.429 --> 00:01:16.439 align:start position:0%
+dedicated for managing the input/output
+ 
+
+00:01:16.439 --> 00:01:19.310 align:start position:0%
+dedicated for managing the input/output
+and<00:01:16.590><c> why</c><00:01:17.070><c> is</c><00:01:17.130><c> that</c><00:01:17.280><c> it</c><00:01:18.000><c> is</c><00:01:18.210><c> because</c><00:01:18.659><c> of</c><00:01:18.900><c> its</c>
+
+00:01:19.310 --> 00:01:19.320 align:start position:0%
+and why is that it is because of its
+ 
+
+00:01:19.320 --> 00:01:21.800 align:start position:0%
+and why is that it is because of its
+importance<00:01:19.979><c> to</c><00:01:20.220><c> the</c><00:01:20.570><c> reliability</c><00:01:21.570><c> and</c>
+
+00:01:21.800 --> 00:01:21.810 align:start position:0%
+importance to the reliability and
+ 
+
+00:01:21.810 --> 00:01:23.960 align:start position:0%
+importance to the reliability and
+performance<00:01:22.020><c> of</c><00:01:22.560><c> the</c><00:01:22.830><c> system</c><00:01:23.220><c> the</c>
+
+00:01:23.960 --> 00:01:23.970 align:start position:0%
+performance of the system the
+ 
+
+00:01:23.970 --> 00:01:26.140 align:start position:0%
+performance of the system the
+reliability<00:01:24.630><c> and</c><00:01:24.900><c> performance</c><00:01:25.080><c> of</c><00:01:25.650><c> a</c><00:01:25.830><c> system</c>
+
+00:01:26.140 --> 00:01:26.150 align:start position:0%
+reliability and performance of a system
+ 
+
+00:01:26.150 --> 00:01:29.660 align:start position:0%
+reliability and performance of a system
+greatly<00:01:27.150><c> depends</c><00:01:27.840><c> upon</c><00:01:27.960><c> how</c><00:01:28.619><c> its</c><00:01:28.890><c> input</c><00:01:29.400><c> and</c>
+
+00:01:29.660 --> 00:01:29.670 align:start position:0%
+greatly depends upon how its input and
+ 
+
+00:01:29.670 --> 00:01:32.330 align:start position:0%
+greatly depends upon how its input and
+output<00:01:30.060><c> are</c><00:01:30.180><c> managed</c><00:01:30.630><c> and</c><00:01:30.900><c> also</c><00:01:31.829><c> because</c><00:01:32.189><c> of</c>
+
+00:01:32.330 --> 00:01:32.340 align:start position:0%
+output are managed and also because of
+ 
+
+00:01:32.340 --> 00:01:34.969 align:start position:0%
+output are managed and also because of
+the<00:01:32.490><c> varying</c><00:01:32.970><c> nature</c><00:01:33.180><c> of</c><00:01:33.450><c> the</c><00:01:33.840><c> devices</c><00:01:34.320><c> we</c>
+
+00:01:34.969 --> 00:01:34.979 align:start position:0%
+the varying nature of the devices we
+ 
+
+00:01:34.979 --> 00:01:36.890 align:start position:0%
+the varying nature of the devices we
+know<00:01:35.159><c> that</c><00:01:35.369><c> we</c><00:01:35.579><c> have</c><00:01:35.820><c> different</c><00:01:36.060><c> input/output</c>
+
+00:01:36.890 --> 00:01:36.900 align:start position:0%
+know that we have different input/output
+ 
+
+00:01:36.900 --> 00:01:39.560 align:start position:0%
+know that we have different input/output
+devices<00:01:37.200><c> and</c><00:01:37.590><c> then</c><00:01:38.189><c> all</c><00:01:38.400><c> these</c><00:01:38.759><c> input/output</c>
+
+00:01:39.560 --> 00:01:39.570 align:start position:0%
+devices and then all these input/output
+ 
+
+00:01:39.570 --> 00:01:42.109 align:start position:0%
+devices and then all these input/output
+devices<00:01:39.869><c> are</c><00:01:40.200><c> very</c><00:01:40.229><c> different</c><00:01:40.740><c> in</c><00:01:41.070><c> nature</c><00:01:41.430><c> so</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+devices are very different in nature so
+ 
+
+00:01:42.119 --> 00:01:44.359 align:start position:0%
+devices are very different in nature so
+since<00:01:42.390><c> they</c><00:01:42.570><c> are</c><00:01:42.659><c> very</c><00:01:42.689><c> different</c><00:01:43.590><c> or</c><00:01:43.950><c> varying</c>
+
+00:01:44.359 --> 00:01:44.369 align:start position:0%
+since they are very different or varying
+ 
+
+00:01:44.369 --> 00:01:46.280 align:start position:0%
+since they are very different or varying
+in<00:01:44.490><c> nature</c><00:01:44.880><c> and</c><00:01:45.090><c> because</c><00:01:45.810><c> it</c><00:01:45.990><c> is</c><00:01:46.020><c> very</c>
+
+00:01:46.280 --> 00:01:46.290 align:start position:0%
+in nature and because it is very
+ 
+
+00:01:46.290 --> 00:01:47.690 align:start position:0%
+in nature and because it is very
+important<00:01:46.799><c> for</c><00:01:46.979><c> the</c><00:01:47.130><c> reliability</c><00:01:47.670><c> and</c>
+
+00:01:47.690 --> 00:01:47.700 align:start position:0%
+important for the reliability and
+ 
+
+00:01:47.700 --> 00:01:50.149 align:start position:0%
+important for the reliability and
+performance<00:01:47.880><c> of</c><00:01:48.390><c> a</c><00:01:48.509><c> system</c><00:01:48.899><c> a</c><00:01:49.110><c> large</c><00:01:49.619><c> portion</c>
+
+00:01:50.149 --> 00:01:50.159 align:start position:0%
+performance of a system a large portion
+ 
+
+00:01:50.159 --> 00:01:51.980 align:start position:0%
+performance of a system a large portion
+of<00:01:50.220><c> operating</c><00:01:50.579><c> system</c><00:01:50.939><c> code</c><00:01:51.210><c> is</c><00:01:51.390><c> dedicated</c>
+
+00:01:51.980 --> 00:01:51.990 align:start position:0%
+of operating system code is dedicated
+ 
+
+00:01:51.990 --> 00:01:55.219 align:start position:0%
+of operating system code is dedicated
+for<00:01:52.189><c> managing</c><00:01:53.189><c> this</c><00:01:53.509><c> input/output</c><00:01:54.509><c> so</c><00:01:54.899><c> we</c><00:01:55.020><c> see</c>
+
+00:01:55.219 --> 00:01:55.229 align:start position:0%
+for managing this input/output so we see
+ 
+
+00:01:55.229 --> 00:01:57.499 align:start position:0%
+for managing this input/output so we see
+that<00:01:55.409><c> a</c><00:01:55.649><c> general-purpose</c><00:01:56.219><c> computer</c><00:01:57.060><c> system</c>
+
+00:01:57.499 --> 00:01:57.509 align:start position:0%
+that a general-purpose computer system
+ 
+
+00:01:57.509 --> 00:02:00.950 align:start position:0%
+that a general-purpose computer system
+consists<00:01:58.439><c> of</c><00:01:58.469><c> CPUs</c><00:01:59.460><c> and</c><00:01:59.700><c> multiple</c><00:02:00.420><c> device</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+consists of CPUs and multiple device
+ 
+
+00:02:00.960 --> 00:02:03.499 align:start position:0%
+consists of CPUs and multiple device
+controllers<00:02:01.619><c> that</c><00:02:02.310><c> are</c><00:02:02.490><c> connected</c><00:02:03.030><c> through</c><00:02:03.360><c> a</c>
+
+00:02:03.499 --> 00:02:03.509 align:start position:0%
+controllers that are connected through a
+ 
+
+00:02:03.509 --> 00:02:05.840 align:start position:0%
+controllers that are connected through a
+common<00:02:04.049><c> bus</c><00:02:04.320><c> now</c><00:02:05.009><c> this</c><00:02:05.250><c> was</c><00:02:05.430><c> something</c><00:02:05.670><c> that</c>
+
+00:02:05.840 --> 00:02:05.850 align:start position:0%
+common bus now this was something that
+ 
+
+00:02:05.850 --> 00:02:08.240 align:start position:0%
+common bus now this was something that
+we<00:02:06.180><c> have</c><00:02:06.329><c> studied</c><00:02:06.659><c> when</c><00:02:07.079><c> I</c><00:02:07.290><c> started</c><00:02:07.799><c> teaching</c>
+
+00:02:08.240 --> 00:02:08.250 align:start position:0%
+we have studied when I started teaching
+ 
+
+00:02:08.250 --> 00:02:10.430 align:start position:0%
+we have studied when I started teaching
+about<00:02:08.700><c> operating</c><00:02:09.239><c> system</c><00:02:09.629><c> let's</c><00:02:10.020><c> just</c><00:02:10.259><c> go</c>
+
+00:02:10.430 --> 00:02:10.440 align:start position:0%
+about operating system let's just go
+ 
+
+00:02:10.440 --> 00:02:12.589 align:start position:0%
+about operating system let's just go
+back<00:02:10.649><c> and</c><00:02:10.800><c> look</c><00:02:10.860><c> into</c><00:02:11.160><c> it</c><00:02:11.370><c> once</c><00:02:11.550><c> more</c><00:02:11.819><c> so</c><00:02:12.239><c> here</c>
+
+00:02:12.589 --> 00:02:12.599 align:start position:0%
+back and look into it once more so here
+ 
+
+00:02:12.599 --> 00:02:13.309 align:start position:0%
+back and look into it once more so here
+when<00:02:12.840><c> we</c><00:02:12.870><c> study</c>
+
+00:02:13.309 --> 00:02:13.319 align:start position:0%
+when we study
+ 
+
+00:02:13.319 --> 00:02:15.979 align:start position:0%
+when we study
+about<00:02:13.560><c> computer</c><00:02:14.040><c> system</c><00:02:14.459><c> operation</c><00:02:15.180><c> we</c><00:02:15.749><c> said</c>
+
+00:02:15.979 --> 00:02:15.989 align:start position:0%
+about computer system operation we said
+ 
+
+00:02:15.989 --> 00:02:18.259 align:start position:0%
+about computer system operation we said
+that<00:02:16.200><c> a</c><00:02:16.379><c> general-purpose</c><00:02:16.980><c> computer</c><00:02:17.700><c> contains</c>
+
+00:02:18.259 --> 00:02:18.269 align:start position:0%
+that a general-purpose computer contains
+ 
+
+00:02:18.269 --> 00:02:21.080 align:start position:0%
+that a general-purpose computer contains
+one<00:02:18.540><c> or</c><00:02:18.569><c> more</c><00:02:18.689><c> CPUs</c><00:02:19.409><c> and</c><00:02:19.680><c> a</c><00:02:20.040><c> number</c><00:02:20.430><c> of</c><00:02:20.639><c> device</c>
+
+00:02:21.080 --> 00:02:21.090 align:start position:0%
+one or more CPUs and a number of device
+ 
+
+00:02:21.090 --> 00:02:23.059 align:start position:0%
+one or more CPUs and a number of device
+controllers<00:02:21.719><c> connected</c><00:02:21.959><c> through</c><00:02:22.530><c> a</c><00:02:22.590><c> common</c>
+
+00:02:23.059 --> 00:02:23.069 align:start position:0%
+controllers connected through a common
+ 
+
+00:02:23.069 --> 00:02:25.369 align:start position:0%
+controllers connected through a common
+burst<00:02:23.370><c> that</c><00:02:24.090><c> provides</c><00:02:24.510><c> access</c><00:02:24.719><c> to</c><00:02:24.989><c> shared</c>
+
+00:02:25.369 --> 00:02:25.379 align:start position:0%
+burst that provides access to shared
+ 
+
+00:02:25.379 --> 00:02:27.860 align:start position:0%
+burst that provides access to shared
+memory<00:02:25.499><c> so</c><00:02:26.370><c> here</c><00:02:26.969><c> we</c><00:02:27.120><c> see</c><00:02:27.329><c> that</c><00:02:27.359><c> we</c><00:02:27.689><c> are</c><00:02:27.840><c> having</c>
+
+00:02:27.860 --> 00:02:27.870 align:start position:0%
+memory so here we see that we are having
+ 
+
+00:02:27.870 --> 00:02:30.800 align:start position:0%
+memory so here we see that we are having
+different<00:02:28.530><c> devices</c><00:02:28.859><c> and</c><00:02:29.249><c> these</c><00:02:29.939><c> devices</c><00:02:30.239><c> they</c>
+
+00:02:30.800 --> 00:02:30.810 align:start position:0%
+different devices and these devices they
+ 
+
+00:02:30.810 --> 00:02:32.869 align:start position:0%
+different devices and these devices they
+are<00:02:30.900><c> connected</c><00:02:31.439><c> to</c><00:02:31.469><c> a</c><00:02:31.620><c> particular</c><00:02:32.159><c> device</c>
+
+00:02:32.869 --> 00:02:32.879 align:start position:0%
+are connected to a particular device
+ 
+
+00:02:32.879 --> 00:02:35.750 align:start position:0%
+are connected to a particular device
+controllers<00:02:33.599><c> like</c><00:02:33.930><c> this</c><00:02:34.230><c> here</c><00:02:35.159><c> we</c><00:02:35.370><c> see</c><00:02:35.579><c> that</c>
+
+00:02:35.750 --> 00:02:35.760 align:start position:0%
+controllers like this here we see that
+ 
+
+00:02:35.760 --> 00:02:37.490 align:start position:0%
+controllers like this here we see that
+the<00:02:36.060><c> disks</c><00:02:36.389><c> are</c><00:02:36.510><c> connected</c><00:02:37.049><c> to</c><00:02:37.170><c> the</c><00:02:37.290><c> disk</c>
+
+00:02:37.490 --> 00:02:37.500 align:start position:0%
+the disks are connected to the disk
+ 
+
+00:02:37.500 --> 00:02:39.740 align:start position:0%
+the disks are connected to the disk
+controllers<00:02:38.040><c> and</c><00:02:38.250><c> then</c><00:02:38.730><c> the</c><00:02:38.849><c> USB</c><00:02:39.389><c> devices</c>
+
+00:02:39.740 --> 00:02:39.750 align:start position:0%
+controllers and then the USB devices
+ 
+
+00:02:39.750 --> 00:02:41.629 align:start position:0%
+controllers and then the USB devices
+like<00:02:40.079><c> your</c><00:02:40.319><c> mouse</c><00:02:40.590><c> keyboard</c><00:02:40.950><c> and</c><00:02:41.280><c> Printers</c>
+
+00:02:41.629 --> 00:02:41.639 align:start position:0%
+like your mouse keyboard and Printers
+ 
+
+00:02:41.639 --> 00:02:43.849 align:start position:0%
+like your mouse keyboard and Printers
+were<00:02:42.269><c> connected</c><00:02:42.689><c> to</c><00:02:42.810><c> the</c><00:02:42.900><c> usb</c><00:02:43.349><c> controllers</c>
+
+00:02:43.849 --> 00:02:43.859 align:start position:0%
+were connected to the usb controllers
+ 
+
+00:02:43.859 --> 00:02:45.770 align:start position:0%
+were connected to the usb controllers
+and<00:02:44.040><c> monitor</c><00:02:44.760><c> is</c><00:02:44.879><c> connected</c><00:02:44.909><c> to</c><00:02:45.359><c> the</c><00:02:45.510><c> video</c>
+
+00:02:45.770 --> 00:02:45.780 align:start position:0%
+and monitor is connected to the video
+ 
+
+00:02:45.780 --> 00:02:49.039 align:start position:0%
+and monitor is connected to the video
+adapter<00:02:46.260><c> so</c><00:02:46.859><c> each</c><00:02:47.489><c> device</c><00:02:47.939><c> is</c><00:02:48.180><c> connected</c><00:02:48.450><c> to</c><00:02:48.719><c> a</c>
+
+00:02:49.039 --> 00:02:49.049 align:start position:0%
+adapter so each device is connected to a
+ 
+
+00:02:49.049 --> 00:02:52.520 align:start position:0%
+adapter so each device is connected to a
+device<00:02:49.980><c> controller</c><00:02:50.639><c> which</c><00:02:51.480><c> are</c><00:02:51.810><c> connected</c>
+
+00:02:52.520 --> 00:02:52.530 align:start position:0%
+device controller which are connected
+ 
+
+00:02:52.530 --> 00:02:54.830 align:start position:0%
+device controller which are connected
+via<00:02:52.560><c> a</c><00:02:53.010><c> common</c><00:02:53.459><c> bus</c><00:02:53.730><c> this</c><00:02:54.120><c> line</c><00:02:54.389><c> here</c>
+
+00:02:54.830 --> 00:02:54.840 align:start position:0%
+via a common bus this line here
+ 
+
+00:02:54.840 --> 00:02:57.259 align:start position:0%
+via a common bus this line here
+represents<00:02:55.349><c> the</c><00:02:55.409><c> common</c><00:02:56.280><c> bus</c><00:02:56.519><c> and</c><00:02:56.760><c> they</c>
+
+00:02:57.259 --> 00:02:57.269 align:start position:0%
+represents the common bus and they
+ 
+
+00:02:57.269 --> 00:03:00.530 align:start position:0%
+represents the common bus and they
+provide<00:02:57.750><c> access</c><00:02:58.049><c> to</c><00:02:58.919><c> shared</c><00:02:59.519><c> memory</c><00:02:59.669><c> so</c><00:03:00.510><c> that</c>
+
+00:03:00.530 --> 00:03:00.540 align:start position:0%
+provide access to shared memory so that
+ 
+
+00:03:00.540 --> 00:03:03.020 align:start position:0%
+provide access to shared memory so that
+is<00:03:00.959><c> what</c><00:03:01.169><c> we</c><00:03:01.409><c> have</c><00:03:01.530><c> said</c><00:03:01.919><c> over</c><00:03:02.189><c> here</c><00:03:02.459><c> and</c><00:03:02.669><c> now</c>
+
+00:03:03.020 --> 00:03:03.030 align:start position:0%
+is what we have said over here and now
+ 
+
+00:03:03.030 --> 00:03:06.259 align:start position:0%
+is what we have said over here and now
+each<00:03:03.719><c> device</c><00:03:04.199><c> controller</c><00:03:04.709><c> is</c><00:03:05.310><c> in</c><00:03:05.579><c> charge</c><00:03:05.909><c> of</c><00:03:06.120><c> a</c>
+
+00:03:06.259 --> 00:03:06.269 align:start position:0%
+each device controller is in charge of a
+ 
+
+00:03:06.269 --> 00:03:08.569 align:start position:0%
+each device controller is in charge of a
+specific<00:03:06.810><c> type</c><00:03:06.840><c> of</c><00:03:07.049><c> device</c><00:03:07.379><c> we</c><00:03:08.189><c> know</c><00:03:08.340><c> that</c>
+
+00:03:08.569 --> 00:03:08.579 align:start position:0%
+specific type of device we know that
+ 
+
+00:03:08.579 --> 00:03:10.250 align:start position:0%
+specific type of device we know that
+there<00:03:08.969><c> are</c><00:03:09.090><c> different</c><00:03:09.389><c> types</c><00:03:09.569><c> of</c><00:03:09.689><c> device</c><00:03:10.019><c> and</c>
+
+00:03:10.250 --> 00:03:10.260 align:start position:0%
+there are different types of device and
+ 
+
+00:03:10.260 --> 00:03:12.020 align:start position:0%
+there are different types of device and
+each<00:03:10.439><c> device</c><00:03:10.769><c> controller</c><00:03:11.189><c> is</c><00:03:11.280><c> in</c><00:03:11.459><c> charge</c><00:03:11.699><c> of</c><00:03:11.879><c> a</c>
+
+00:03:12.020 --> 00:03:12.030 align:start position:0%
+each device controller is in charge of a
+ 
+
+00:03:12.030 --> 00:03:14.390 align:start position:0%
+each device controller is in charge of a
+specific<00:03:12.480><c> type</c><00:03:12.510><c> of</c><00:03:12.810><c> device</c><00:03:13.139><c> and</c><00:03:13.349><c> this</c><00:03:14.010><c> device</c>
+
+00:03:14.390 --> 00:03:14.400 align:start position:0%
+specific type of device and this device
+ 
+
+00:03:14.400 --> 00:03:17.509 align:start position:0%
+specific type of device and this device
+controller<00:03:14.909><c> it</c><00:03:15.540><c> maintains</c><00:03:16.230><c> two</c><00:03:16.620><c> things</c><00:03:16.919><c> what</c>
+
+00:03:17.509 --> 00:03:17.519 align:start position:0%
+controller it maintains two things what
+ 
+
+00:03:17.519 --> 00:03:18.020 align:start position:0%
+controller it maintains two things what
+are<00:03:17.669><c> they</c>
+
+00:03:18.020 --> 00:03:18.030 align:start position:0%
+are they
+ 
+
+00:03:18.030 --> 00:03:21.110 align:start position:0%
+are they
+one<00:03:18.540><c> is</c><00:03:18.750><c> a</c><00:03:18.810><c> local</c><00:03:19.379><c> buffer</c><00:03:19.829><c> storage</c><00:03:20.099><c> and</c><00:03:20.579><c> the</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+one is a local buffer storage and the
+ 
+
+00:03:21.120 --> 00:03:23.210 align:start position:0%
+one is a local buffer storage and the
+other<00:03:21.239><c> one</c><00:03:21.540><c> is</c><00:03:21.659><c> a</c><00:03:21.689><c> set</c><00:03:22.019><c> of</c><00:03:22.229><c> special</c><00:03:22.739><c> purpose</c>
+
+00:03:23.210 --> 00:03:23.220 align:start position:0%
+other one is a set of special purpose
+ 
+
+00:03:23.220 --> 00:03:25.789 align:start position:0%
+other one is a set of special purpose
+registers<00:03:23.879><c> so</c><00:03:24.629><c> we</c><00:03:24.959><c> will</c><00:03:25.109><c> see</c><00:03:25.290><c> why</c><00:03:25.530><c> it</c>
+
+00:03:25.789 --> 00:03:25.799 align:start position:0%
+registers so we will see why it
+ 
+
+00:03:25.799 --> 00:03:27.439 align:start position:0%
+registers so we will see why it
+maintains<00:03:26.400><c> this</c><00:03:26.609><c> and</c><00:03:26.849><c> what</c><00:03:27.000><c> is</c><00:03:27.150><c> the</c><00:03:27.239><c> use</c><00:03:27.419><c> of</c>
+
+00:03:27.439 --> 00:03:27.449 align:start position:0%
+maintains this and what is the use of
+ 
+
+00:03:27.449 --> 00:03:29.839 align:start position:0%
+maintains this and what is the use of
+this<00:03:27.780><c> as</c><00:03:28.019><c> we</c><00:03:28.169><c> proceed</c><00:03:28.560><c> further</c><00:03:28.739><c> but</c><00:03:29.459><c> remember</c>
+
+00:03:29.839 --> 00:03:29.849 align:start position:0%
+this as we proceed further but remember
+ 
+
+00:03:29.849 --> 00:03:31.969 align:start position:0%
+this as we proceed further but remember
+that<00:03:29.879><c> a</c><00:03:30.239><c> device</c><00:03:30.870><c> controller</c><00:03:31.319><c> maintains</c><00:03:31.799><c> a</c>
+
+00:03:31.969 --> 00:03:31.979 align:start position:0%
+that a device controller maintains a
+ 
+
+00:03:31.979 --> 00:03:34.339 align:start position:0%
+that a device controller maintains a
+local<00:03:32.340><c> buffer</c><00:03:32.669><c> storage</c><00:03:33.120><c> and</c><00:03:33.419><c> a</c><00:03:34.049><c> set</c><00:03:34.319><c> of</c>
+
+00:03:34.339 --> 00:03:34.349 align:start position:0%
+local buffer storage and a set of
+ 
+
+00:03:34.349 --> 00:03:38.199 align:start position:0%
+local buffer storage and a set of
+special<00:03:34.829><c> purpose</c><00:03:35.090><c> registers</c><00:03:36.090><c> and</c><00:03:37.099><c> typically</c>
+
+00:03:38.199 --> 00:03:38.209 align:start position:0%
+special purpose registers and typically
+ 
+
+00:03:38.209 --> 00:03:41.149 align:start position:0%
+special purpose registers and typically
+operating<00:03:39.209><c> systems</c><00:03:39.720><c> have</c><00:03:40.169><c> a</c><00:03:40.199><c> device</c><00:03:40.680><c> driver</c>
+
+00:03:41.149 --> 00:03:41.159 align:start position:0%
+operating systems have a device driver
+ 
+
+00:03:41.159 --> 00:03:44.179 align:start position:0%
+operating systems have a device driver
+for<00:03:41.699><c> each</c><00:03:42.209><c> device</c><00:03:42.689><c> controller</c><00:03:43.229><c> now</c><00:03:43.919><c> we</c><00:03:43.979><c> have</c>
+
+00:03:44.179 --> 00:03:44.189 align:start position:0%
+for each device controller now we have
+ 
+
+00:03:44.189 --> 00:03:46.460 align:start position:0%
+for each device controller now we have
+talked<00:03:44.459><c> about</c><00:03:44.579><c> device</c><00:03:45.239><c> controller</c><00:03:45.750><c> now</c><00:03:46.409><c> we</c>
+
+00:03:46.460 --> 00:03:46.470 align:start position:0%
+talked about device controller now we
+ 
+
+00:03:46.470 --> 00:03:48.530 align:start position:0%
+talked about device controller now we
+are<00:03:46.739><c> talking</c><00:03:47.189><c> about</c><00:03:47.280><c> another</c><00:03:47.699><c> term</c><00:03:48.060><c> called</c>
+
+00:03:48.530 --> 00:03:48.540 align:start position:0%
+are talking about another term called
+ 
+
+00:03:48.540 --> 00:03:51.830 align:start position:0%
+are talking about another term called
+device<00:03:49.049><c> driver</c><00:03:49.590><c> now</c><00:03:50.459><c> operating</c><00:03:51.180><c> systems</c><00:03:51.599><c> they</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+device driver now operating systems they
+ 
+
+00:03:51.840 --> 00:03:54.740 align:start position:0%
+device driver now operating systems they
+have<00:03:52.079><c> a</c><00:03:52.109><c> device</c><00:03:52.650><c> driver</c><00:03:53.129><c> as</c><00:03:53.609><c> well</c><00:03:53.879><c> for</c><00:03:54.509><c> each</c>
+
+00:03:54.740 --> 00:03:54.750 align:start position:0%
+have a device driver as well for each
+ 
+
+00:03:54.750 --> 00:03:56.749 align:start position:0%
+have a device driver as well for each
+device<00:03:55.139><c> controller</c><00:03:55.620><c> and</c><00:03:56.219><c> let's</c><00:03:56.400><c> see</c><00:03:56.549><c> why</c><00:03:56.699><c> do</c>
+
+00:03:56.749 --> 00:03:56.759 align:start position:0%
+device controller and let's see why do
+ 
+
+00:03:56.759 --> 00:03:59.770 align:start position:0%
+device controller and let's see why do
+we<00:03:57.030><c> have</c><00:03:57.239><c> that</c><00:03:57.449><c> this</c><00:03:58.409><c> device</c><00:03:59.040><c> driver</c>
+
+00:03:59.770 --> 00:03:59.780 align:start position:0%
+we have that this device driver
+ 
+
+00:03:59.780 --> 00:04:02.170 align:start position:0%
+we have that this device driver
+understands<00:04:00.780><c> the</c><00:04:00.930><c> device</c><00:04:01.199><c> controller</c><00:04:01.799><c> and</c>
+
+00:04:02.170 --> 00:04:02.180 align:start position:0%
+understands the device controller and
+ 
+
+00:04:02.180 --> 00:04:05.420 align:start position:0%
+understands the device controller and
+presents<00:04:03.180><c> a</c><00:04:03.299><c> uniform</c><00:04:04.019><c> interface</c><00:04:04.379><c> to</c><00:04:05.310><c> the</c>
+
+00:04:05.420 --> 00:04:05.430 align:start position:0%
+presents a uniform interface to the
+ 
+
+00:04:05.430 --> 00:04:07.339 align:start position:0%
+presents a uniform interface to the
+device<00:04:05.819><c> to</c><00:04:06.090><c> the</c><00:04:06.449><c> rest</c><00:04:06.719><c> of</c><00:04:06.900><c> the</c><00:04:07.019><c> operating</c>
+
+00:04:07.339 --> 00:04:07.349 align:start position:0%
+device to the rest of the operating
+ 
+
+00:04:07.349 --> 00:04:10.159 align:start position:0%
+device to the rest of the operating
+system<00:04:07.829><c> so</c><00:04:08.519><c> as</c><00:04:08.639><c> I</c><00:04:08.759><c> told</c><00:04:09.000><c> you</c><00:04:09.180><c> these</c><00:04:09.389><c> devices</c>
+
+00:04:10.159 --> 00:04:10.169 align:start position:0%
+system so as I told you these devices
+ 
+
+00:04:10.169 --> 00:04:13.610 align:start position:0%
+system so as I told you these devices
+are<00:04:10.409><c> very</c><00:04:10.949><c> different</c><00:04:11.250><c> they</c><00:04:12.180><c> have</c><00:04:12.449><c> a</c><00:04:12.620><c> varying</c>
+
+00:04:13.610 --> 00:04:13.620 align:start position:0%
+are very different they have a varying
+ 
+
+00:04:13.620 --> 00:04:16.399 align:start position:0%
+are very different they have a varying
+nature<00:04:13.799><c> as</c><00:04:14.159><c> we</c><00:04:14.340><c> said</c><00:04:14.549><c> and</c><00:04:14.759><c> then</c><00:04:15.629><c> each</c><00:04:15.959><c> device</c>
+
+00:04:16.399 --> 00:04:16.409 align:start position:0%
+nature as we said and then each device
+ 
+
+00:04:16.409 --> 00:04:19.219 align:start position:0%
+nature as we said and then each device
+controller<00:04:16.829><c> also</c><00:04:17.070><c> will</c><00:04:17.789><c> be</c><00:04:18.000><c> different</c><00:04:18.719><c> for</c>
+
+00:04:19.219 --> 00:04:19.229 align:start position:0%
+controller also will be different for
+ 
+
+00:04:19.229 --> 00:04:21.949 align:start position:0%
+controller also will be different for
+different<00:04:19.259><c> devices</c><00:04:19.769><c> and</c><00:04:20.340><c> then</c><00:04:20.940><c> how</c><00:04:21.599><c> will</c><00:04:21.659><c> this</c>
+
+00:04:21.949 --> 00:04:21.959 align:start position:0%
+different devices and then how will this
+ 
+
+00:04:21.959 --> 00:04:24.290 align:start position:0%
+different devices and then how will this
+device<00:04:22.019><c> controllers</c><00:04:22.919><c> interact</c><00:04:23.490><c> with</c><00:04:24.150><c> the</c>
+
+00:04:24.290 --> 00:04:24.300 align:start position:0%
+device controllers interact with the
+ 
+
+00:04:24.300 --> 00:04:25.620 align:start position:0%
+device controllers interact with the
+operating<00:04:24.599><c> system</c>
+
+00:04:25.620 --> 00:04:25.630 align:start position:0%
+operating system
+ 
+
+00:04:25.630 --> 00:04:27.900 align:start position:0%
+operating system
+a<00:04:25.660><c> proper</c><00:04:26.260><c> interface</c><00:04:26.860><c> that</c><00:04:27.190><c> allows</c><00:04:27.430><c> these</c>
+
+00:04:27.900 --> 00:04:27.910 align:start position:0%
+a proper interface that allows these
+ 
+
+00:04:27.910 --> 00:04:30.690 align:start position:0%
+a proper interface that allows these
+device<00:04:28.270><c> controllers</c><00:04:28.900><c> to</c><00:04:29.620><c> interact</c><00:04:30.220><c> to</c><00:04:30.550><c> the</c>
+
+00:04:30.690 --> 00:04:30.700 align:start position:0%
+device controllers to interact to the
+ 
+
+00:04:30.700 --> 00:04:33.120 align:start position:0%
+device controllers to interact to the
+operating<00:04:31.180><c> system</c><00:04:31.570><c> so</c><00:04:31.900><c> this</c><00:04:32.080><c> device</c><00:04:32.500><c> drivers</c>
+
+00:04:33.120 --> 00:04:33.130 align:start position:0%
+operating system so this device drivers
+ 
+
+00:04:33.130 --> 00:04:36.600 align:start position:0%
+operating system so this device drivers
+they<00:04:33.910><c> understand</c><00:04:34.630><c> what</c><00:04:35.140><c> kind</c><00:04:35.470><c> of</c><00:04:35.650><c> nature</c><00:04:35.890><c> does</c>
+
+00:04:36.600 --> 00:04:36.610 align:start position:0%
+they understand what kind of nature does
+ 
+
+00:04:36.610 --> 00:04:39.240 align:start position:0%
+they understand what kind of nature does
+the<00:04:36.790><c> device</c><00:04:37.120><c> controller</c><00:04:37.540><c> have</c><00:04:37.930><c> and</c><00:04:38.290><c> it</c>
+
+00:04:39.240 --> 00:04:39.250 align:start position:0%
+the device controller have and it
+ 
+
+00:04:39.250 --> 00:04:42.420 align:start position:0%
+the device controller have and it
+provides<00:04:39.820><c> a</c><00:04:40.060><c> uniform</c><00:04:40.630><c> interface</c><00:04:41.280><c> to</c><00:04:42.280><c> the</c>
+
+00:04:42.420 --> 00:04:42.430 align:start position:0%
+provides a uniform interface to the
+ 
+
+00:04:42.430 --> 00:04:44.040 align:start position:0%
+provides a uniform interface to the
+device<00:04:42.790><c> to</c><00:04:43.210><c> the</c><00:04:43.330><c> rest</c><00:04:43.480><c> of</c><00:04:43.660><c> the</c><00:04:43.810><c> operating</c>
+
+00:04:44.040 --> 00:04:44.050 align:start position:0%
+device to the rest of the operating
+ 
+
+00:04:44.050 --> 00:04:46.170 align:start position:0%
+device to the rest of the operating
+system<00:04:44.560><c> so</c><00:04:45.010><c> that</c><00:04:45.160><c> is</c><00:04:45.340><c> a</c><00:04:45.370><c> function</c><00:04:45.610><c> of</c><00:04:45.910><c> your</c>
+
+00:04:46.170 --> 00:04:46.180 align:start position:0%
+system so that is a function of your
+ 
+
+00:04:46.180 --> 00:04:49.560 align:start position:0%
+system so that is a function of your
+device<00:04:46.930><c> driver</c><00:04:47.320><c> now</c><00:04:47.860><c> let</c><00:04:48.070><c> us</c><00:04:48.100><c> see</c><00:04:48.400><c> how</c><00:04:49.120><c> does</c><00:04:49.360><c> a</c>
+
+00:04:49.560 --> 00:04:49.570 align:start position:0%
+device driver now let us see how does a
+ 
+
+00:04:49.570 --> 00:04:52.320 align:start position:0%
+device driver now let us see how does a
+basic<00:04:50.230><c> IO</c><00:04:50.440><c> operation</c><00:04:51.310><c> work</c><00:04:51.550><c> so</c><00:04:51.880><c> here</c><00:04:52.150><c> we</c><00:04:52.270><c> will</c>
+
+00:04:52.320 --> 00:04:52.330 align:start position:0%
+basic IO operation work so here we will
+ 
+
+00:04:52.330 --> 00:04:54.030 align:start position:0%
+basic IO operation work so here we will
+be<00:04:52.510><c> seeing</c><00:04:52.810><c> the</c><00:04:53.050><c> working</c><00:04:53.470><c> of</c><00:04:53.620><c> an</c><00:04:53.830><c> i/o</c>
+
+00:04:54.030 --> 00:04:54.040 align:start position:0%
+be seeing the working of an i/o
+ 
+
+00:04:54.040 --> 00:04:56.550 align:start position:0%
+be seeing the working of an i/o
+operation<00:04:54.670><c> so</c><00:04:55.270><c> here</c><00:04:55.510><c> we</c><00:04:55.660><c> have</c><00:04:55.870><c> a</c><00:04:55.900><c> diagram</c><00:04:56.140><c> and</c>
+
+00:04:56.550 --> 00:04:56.560 align:start position:0%
+operation so here we have a diagram and
+ 
+
+00:04:56.560 --> 00:04:59.490 align:start position:0%
+operation so here we have a diagram and
+here<00:04:57.130><c> is</c><00:04:57.310><c> explanation</c><00:04:57.730><c> of</c><00:04:58.180><c> that</c><00:04:58.320><c> so</c><00:04:59.320><c> let</c><00:04:59.470><c> us</c>
+
+00:04:59.490 --> 00:04:59.500 align:start position:0%
+here is explanation of that so let us
+ 
+
+00:04:59.500 --> 00:05:01.860 align:start position:0%
+here is explanation of that so let us
+see<00:04:59.770><c> first</c><00:04:59.920><c> of</c><00:05:00.370><c> all</c><00:05:00.550><c> to</c><00:05:01.120><c> start</c><00:05:01.420><c> an</c><00:05:01.690><c> i/o</c>
+
+00:05:01.860 --> 00:05:01.870 align:start position:0%
+see first of all to start an i/o
+ 
+
+00:05:01.870 --> 00:05:05.310 align:start position:0%
+see first of all to start an i/o
+operation<00:05:02.620><c> the</c><00:05:03.220><c> device</c><00:05:03.580><c> driver</c><00:05:04.030><c> loads</c><00:05:05.020><c> the</c>
+
+00:05:05.310 --> 00:05:05.320 align:start position:0%
+operation the device driver loads the
+ 
+
+00:05:05.320 --> 00:05:07.710 align:start position:0%
+operation the device driver loads the
+appropriate<00:05:05.950><c> registers</c><00:05:06.670><c> within</c><00:05:07.090><c> the</c><00:05:07.390><c> device</c>
+
+00:05:07.710 --> 00:05:07.720 align:start position:0%
+appropriate registers within the device
+ 
+
+00:05:07.720 --> 00:05:11.340 align:start position:0%
+appropriate registers within the device
+controller<00:05:08.200><c> so</c><00:05:09.040><c> when</c><00:05:09.880><c> an</c><00:05:10.060><c> i/o</c><00:05:10.570><c> operation</c><00:05:11.170><c> has</c>
+
+00:05:11.340 --> 00:05:11.350 align:start position:0%
+controller so when an i/o operation has
+ 
+
+00:05:11.350 --> 00:05:14.430 align:start position:0%
+controller so when an i/o operation has
+to<00:05:11.380><c> be</c><00:05:11.530><c> performed</c><00:05:11.650><c> by</c><00:05:12.370><c> any</c><00:05:12.910><c> device</c><00:05:13.150><c> so</c><00:05:13.660><c> what</c><00:05:14.290><c> it</c>
+
+00:05:14.430 --> 00:05:14.440 align:start position:0%
+to be performed by any device so what it
+ 
+
+00:05:14.440 --> 00:05:18.000 align:start position:0%
+to be performed by any device so what it
+does<00:05:14.620><c> the</c><00:05:15.480><c> respective</c><00:05:16.480><c> device</c><00:05:17.110><c> driver</c><00:05:17.650><c> of</c>
+
+00:05:18.000 --> 00:05:18.010 align:start position:0%
+does the respective device driver of
+ 
+
+00:05:18.010 --> 00:05:21.660 align:start position:0%
+does the respective device driver of
+that<00:05:18.070><c> device</c><00:05:18.820><c> it</c><00:05:19.480><c> loads</c><00:05:20.140><c> the</c><00:05:20.670><c> appropriate</c>
+
+00:05:21.660 --> 00:05:21.670 align:start position:0%
+that device it loads the appropriate
+ 
+
+00:05:21.670 --> 00:05:24.030 align:start position:0%
+that device it loads the appropriate
+registers<00:05:22.510><c> within</c><00:05:22.960><c> the</c><00:05:23.230><c> device</c><00:05:23.530><c> controller</c>
+
+00:05:24.030 --> 00:05:24.040 align:start position:0%
+registers within the device controller
+ 
+
+00:05:24.040 --> 00:05:26.160 align:start position:0%
+registers within the device controller
+so<00:05:24.730><c> when</c><00:05:24.850><c> we</c><00:05:25.000><c> were</c><00:05:25.090><c> talking</c><00:05:25.120><c> about</c><00:05:25.540><c> device</c>
+
+00:05:26.160 --> 00:05:26.170 align:start position:0%
+so when we were talking about device
+ 
+
+00:05:26.170 --> 00:05:28.470 align:start position:0%
+so when we were talking about device
+controller<00:05:26.650><c> I</c><00:05:26.950><c> told</c><00:05:27.490><c> you</c><00:05:27.640><c> that</c><00:05:27.850><c> device</c>
+
+00:05:28.470 --> 00:05:28.480 align:start position:0%
+controller I told you that device
+ 
+
+00:05:28.480 --> 00:05:30.600 align:start position:0%
+controller I told you that device
+controllers<00:05:28.990><c> maintains</c><00:05:29.560><c> a</c><00:05:29.740><c> set</c><00:05:29.950><c> of</c><00:05:30.100><c> registers</c>
+
+00:05:30.600 --> 00:05:30.610 align:start position:0%
+controllers maintains a set of registers
+ 
+
+00:05:30.610 --> 00:05:33.600 align:start position:0%
+controllers maintains a set of registers
+so<00:05:31.330><c> from</c><00:05:31.750><c> these</c><00:05:31.990><c> registers</c><00:05:32.500><c> the</c><00:05:32.980><c> appropriate</c>
+
+00:05:33.600 --> 00:05:33.610 align:start position:0%
+so from these registers the appropriate
+ 
+
+00:05:33.610 --> 00:05:35.840 align:start position:0%
+so from these registers the appropriate
+registers<00:05:34.300><c> that</c><00:05:34.330><c> are</c><00:05:34.810><c> required</c><00:05:35.320><c> for</c>
+
+00:05:35.840 --> 00:05:35.850 align:start position:0%
+registers that are required for
+ 
+
+00:05:35.850 --> 00:05:38.730 align:start position:0%
+registers that are required for
+performing<00:05:36.850><c> that</c><00:05:37.180><c> particular</c><00:05:37.900><c> input/output</c>
+
+00:05:38.730 --> 00:05:38.740 align:start position:0%
+performing that particular input/output
+ 
+
+00:05:38.740 --> 00:05:42.690 align:start position:0%
+performing that particular input/output
+operation<00:05:39.310><c> will</c><00:05:40.090><c> be</c><00:05:40.300><c> loaded</c><00:05:41.020><c> by</c><00:05:41.530><c> the</c><00:05:41.700><c> device</c>
+
+00:05:42.690 --> 00:05:42.700 align:start position:0%
+operation will be loaded by the device
+ 
+
+00:05:42.700 --> 00:05:44.910 align:start position:0%
+operation will be loaded by the device
+driver<00:05:43.090><c> and</c><00:05:43.390><c> then</c><00:05:43.720><c> the</c><00:05:43.900><c> second</c><00:05:44.230><c> point</c><00:05:44.470><c> is</c><00:05:44.620><c> the</c>
+
+00:05:44.910 --> 00:05:44.920 align:start position:0%
+driver and then the second point is the
+ 
+
+00:05:44.920 --> 00:05:48.240 align:start position:0%
+driver and then the second point is the
+device<00:05:45.760><c> controller</c><00:05:46.270><c> in</c><00:05:46.570><c> turns</c><00:05:46.980><c> examines</c><00:05:47.980><c> the</c>
+
+00:05:48.240 --> 00:05:48.250 align:start position:0%
+device controller in turns examines the
+ 
+
+00:05:48.250 --> 00:05:50.940 align:start position:0%
+device controller in turns examines the
+contents<00:05:48.760><c> of</c><00:05:48.880><c> these</c><00:05:49.210><c> registers</c><00:05:49.600><c> to</c><00:05:50.440><c> determine</c>
+
+00:05:50.940 --> 00:05:50.950 align:start position:0%
+contents of these registers to determine
+ 
+
+00:05:50.950 --> 00:05:53.790 align:start position:0%
+contents of these registers to determine
+what<00:05:51.400><c> action</c><00:05:51.970><c> to</c><00:05:52.000><c> take</c><00:05:52.150><c> now</c><00:05:52.900><c> why</c><00:05:53.170><c> does</c><00:05:53.350><c> it</c><00:05:53.500><c> load</c>
+
+00:05:53.790 --> 00:05:53.800 align:start position:0%
+what action to take now why does it load
+ 
+
+00:05:53.800 --> 00:05:56.040 align:start position:0%
+what action to take now why does it load
+those<00:05:54.250><c> appropriate</c><00:05:54.790><c> registers</c><00:05:55.270><c> those</c>
+
+00:05:56.040 --> 00:05:56.050 align:start position:0%
+those appropriate registers those
+ 
+
+00:05:56.050 --> 00:05:58.320 align:start position:0%
+those appropriate registers those
+registers<00:05:56.590><c> are</c><00:05:56.800><c> loaded</c><00:05:57.160><c> because</c><00:05:57.550><c> in</c><00:05:57.910><c> that</c>
+
+00:05:58.320 --> 00:05:58.330 align:start position:0%
+registers are loaded because in that
+ 
+
+00:05:58.330 --> 00:06:01.350 align:start position:0%
+registers are loaded because in that
+registers<00:05:58.990><c> we</c><00:05:59.590><c> have</c><00:06:00.010><c> the</c><00:06:00.310><c> information</c><00:06:00.760><c> or</c><00:06:01.300><c> the</c>
+
+00:06:01.350 --> 00:06:01.360 align:start position:0%
+registers we have the information or the
+ 
+
+00:06:01.360 --> 00:06:05.370 align:start position:0%
+registers we have the information or the
+data<00:06:01.710><c> about</c><00:06:02.710><c> what</c><00:06:03.370><c> is</c><00:06:03.640><c> the</c><00:06:04.060><c> action</c><00:06:04.600><c> or</c><00:06:04.810><c> what</c><00:06:05.140><c> is</c>
+
+00:06:05.370 --> 00:06:05.380 align:start position:0%
+data about what is the action or what is
+ 
+
+00:06:05.380 --> 00:06:08.280 align:start position:0%
+data about what is the action or what is
+the<00:06:05.680><c> exact</c><00:06:06.450><c> input-output</c><00:06:07.450><c> operation</c><00:06:08.050><c> that</c>
+
+00:06:08.280 --> 00:06:08.290 align:start position:0%
+the exact input-output operation that
+ 
+
+00:06:08.290 --> 00:06:11.040 align:start position:0%
+the exact input-output operation that
+has<00:06:08.470><c> to</c><00:06:08.620><c> be</c><00:06:08.740><c> performed</c><00:06:08.910><c> so</c><00:06:09.910><c> after</c><00:06:10.660><c> the</c><00:06:10.750><c> device</c>
+
+00:06:11.040 --> 00:06:11.050 align:start position:0%
+has to be performed so after the device
+ 
+
+00:06:11.050 --> 00:06:13.410 align:start position:0%
+has to be performed so after the device
+driver<00:06:11.410><c> loads</c><00:06:11.830><c> those</c><00:06:12.160><c> appropriate</c><00:06:12.910><c> registers</c>
+
+00:06:13.410 --> 00:06:13.420 align:start position:0%
+driver loads those appropriate registers
+ 
+
+00:06:13.420 --> 00:06:15.570 align:start position:0%
+driver loads those appropriate registers
+within<00:06:13.780><c> the</c><00:06:13.960><c> device</c><00:06:14.200><c> controller</c><00:06:14.680><c> the</c><00:06:15.250><c> device</c>
+
+00:06:15.570 --> 00:06:15.580 align:start position:0%
+within the device controller the device
+ 
+
+00:06:15.580 --> 00:06:17.940 align:start position:0%
+within the device controller the device
+controller<00:06:16.120><c> will</c><00:06:16.450><c> examine</c><00:06:17.020><c> the</c><00:06:17.350><c> contents</c><00:06:17.830><c> of</c>
+
+00:06:17.940 --> 00:06:17.950 align:start position:0%
+controller will examine the contents of
+ 
+
+00:06:17.950 --> 00:06:20.310 align:start position:0%
+controller will examine the contents of
+those<00:06:18.220><c> registers</c><00:06:18.850><c> and</c><00:06:19.120><c> determine</c><00:06:20.080><c> what</c>
+
+00:06:20.310 --> 00:06:20.320 align:start position:0%
+those registers and determine what
+ 
+
+00:06:20.320 --> 00:06:22.290 align:start position:0%
+those registers and determine what
+action<00:06:20.830><c> to</c><00:06:20.860><c> take</c><00:06:20.980><c> so</c><00:06:21.430><c> as</c><00:06:21.550><c> I</c><00:06:21.700><c> said</c><00:06:21.940><c> these</c>
+
+00:06:22.290 --> 00:06:22.300 align:start position:0%
+action to take so as I said these
+ 
+
+00:06:22.300 --> 00:06:24.330 align:start position:0%
+action to take so as I said these
+registers<00:06:22.750><c> will</c><00:06:22.960><c> contain</c><00:06:23.320><c> the</c><00:06:23.830><c> information</c>
+
+00:06:24.330 --> 00:06:24.340 align:start position:0%
+registers will contain the information
+ 
+
+00:06:24.340 --> 00:06:27.000 align:start position:0%
+registers will contain the information
+about<00:06:24.580><c> what</c><00:06:24.850><c> action</c><00:06:25.330><c> to</c><00:06:25.480><c> take</c><00:06:25.650><c> so</c><00:06:26.650><c> the</c><00:06:26.770><c> device</c>
+
+00:06:27.000 --> 00:06:27.010 align:start position:0%
+about what action to take so the device
+ 
+
+00:06:27.010 --> 00:06:29.220 align:start position:0%
+about what action to take so the device
+controller<00:06:27.430><c> will</c><00:06:27.670><c> examine</c><00:06:28.030><c> that</c><00:06:28.210><c> in</c><00:06:28.720><c> order</c><00:06:29.080><c> to</c>
+
+00:06:29.220 --> 00:06:29.230 align:start position:0%
+controller will examine that in order to
+ 
+
+00:06:29.230 --> 00:06:31.170 align:start position:0%
+controller will examine that in order to
+know<00:06:29.410><c> what</c><00:06:29.650><c> is</c><00:06:29.860><c> action</c><00:06:30.280><c> that</c><00:06:30.460><c> has</c><00:06:30.580><c> to</c><00:06:30.730><c> be</c><00:06:30.820><c> taken</c>
+
+00:06:31.170 --> 00:06:31.180 align:start position:0%
+know what is action that has to be taken
+ 
+
+00:06:31.180 --> 00:06:33.570 align:start position:0%
+know what is action that has to be taken
+and<00:06:31.300><c> then</c><00:06:31.440><c> the</c><00:06:32.440><c> controller</c><00:06:32.860><c> starts</c><00:06:33.250><c> the</c>
+
+00:06:33.570 --> 00:06:33.580 align:start position:0%
+and then the controller starts the
+ 
+
+00:06:33.580 --> 00:06:36.330 align:start position:0%
+and then the controller starts the
+transfer<00:06:34.000><c> of</c><00:06:34.180><c> data</c><00:06:34.390><c> from</c><00:06:35.200><c> the</c><00:06:35.440><c> device</c><00:06:35.770><c> to</c><00:06:36.040><c> its</c>
+
+00:06:36.330 --> 00:06:36.340 align:start position:0%
+transfer of data from the device to its
+ 
+
+00:06:36.340 --> 00:06:39.920 align:start position:0%
+transfer of data from the device to its
+local<00:06:36.880><c> buffer</c><00:06:37.419><c> so</c><00:06:38.080><c> whatever</c><00:06:38.860><c> has</c><00:06:39.430><c> to</c><00:06:39.460><c> be</c>
+
+00:06:39.920 --> 00:06:39.930 align:start position:0%
+local buffer so whatever has to be
+ 
+
+00:06:39.930 --> 00:06:42.680 align:start position:0%
+local buffer so whatever has to be
+form<00:06:40.229><c> that</c><00:06:40.740><c> data</c><00:06:41.100><c> for</c><00:06:41.430><c> that</c><00:06:41.699><c> will</c><00:06:42.419><c> be</c>
+
+00:06:42.680 --> 00:06:42.690 align:start position:0%
+form that data for that will be
+ 
+
+00:06:42.690 --> 00:06:46.400 align:start position:0%
+form that data for that will be
+transferred<00:06:43.680><c> to</c><00:06:43.710><c> the</c><00:06:44.370><c> local</c><00:06:45.090><c> buffer</c><00:06:45.960><c> of</c><00:06:46.139><c> the</c>
+
+00:06:46.400 --> 00:06:46.410 align:start position:0%
+transferred to the local buffer of the
+ 
+
+00:06:46.410 --> 00:06:48.740 align:start position:0%
+transferred to the local buffer of the
+device<00:06:46.710><c> controller</c><00:06:47.220><c> so</c><00:06:47.910><c> when</c><00:06:48.360><c> I</c><00:06:48.419><c> talked</c><00:06:48.660><c> about</c>
+
+00:06:48.740 --> 00:06:48.750 align:start position:0%
+device controller so when I talked about
+ 
+
+00:06:48.750 --> 00:06:50.600 align:start position:0%
+device controller so when I talked about
+device<00:06:49.139><c> controller</c><00:06:49.560><c> I</c><00:06:49.740><c> told</c><00:06:50.009><c> you</c><00:06:50.160><c> it</c><00:06:50.310><c> has</c><00:06:50.580><c> a</c>
+
+00:06:50.600 --> 00:06:50.610 align:start position:0%
+device controller I told you it has a
+ 
+
+00:06:50.610 --> 00:06:53.270 align:start position:0%
+device controller I told you it has a
+local<00:06:51.060><c> buffer</c><00:06:51.419><c> and</c><00:06:51.630><c> a</c><00:06:51.990><c> set</c><00:06:52.169><c> of</c><00:06:52.199><c> registers</c><00:06:52.740><c> so</c>
+
+00:06:53.270 --> 00:06:53.280 align:start position:0%
+local buffer and a set of registers so
+ 
+
+00:06:53.280 --> 00:06:55.279 align:start position:0%
+local buffer and a set of registers so
+we<00:06:53.430><c> saw</c><00:06:53.669><c> what</c><00:06:54.120><c> the</c><00:06:54.240><c> registers</c><00:06:54.660><c> are</c><00:06:54.900><c> used</c><00:06:54.930><c> for</c>
+
+00:06:55.279 --> 00:06:55.289 align:start position:0%
+we saw what the registers are used for
+ 
+
+00:06:55.289 --> 00:06:58.850 align:start position:0%
+we saw what the registers are used for
+and<00:06:55.500><c> now</c><00:06:56.039><c> comes</c><00:06:56.820><c> the</c><00:06:56.970><c> local</c><00:06:57.330><c> buffer</c><00:06:57.720><c> so</c><00:06:58.289><c> the</c>
+
+00:06:58.850 --> 00:06:58.860 align:start position:0%
+and now comes the local buffer so the
+ 
+
+00:06:58.860 --> 00:07:01.610 align:start position:0%
+and now comes the local buffer so the
+data<00:06:59.250><c> from</c><00:06:59.880><c> the</c><00:07:00.000><c> device</c><00:07:00.090><c> is</c><00:07:00.900><c> transferred</c><00:07:01.590><c> to</c>
+
+00:07:01.610 --> 00:07:01.620 align:start position:0%
+data from the device is transferred to
+ 
+
+00:07:01.620 --> 00:07:03.920 align:start position:0%
+data from the device is transferred to
+the<00:07:01.830><c> local</c><00:07:02.280><c> buffer</c><00:07:03.060><c> object</c><00:07:03.570><c> device</c>
+
+00:07:03.920 --> 00:07:03.930 align:start position:0%
+the local buffer object device
+ 
+
+00:07:03.930 --> 00:07:06.560 align:start position:0%
+the local buffer object device
+controller<00:07:04.380><c> and</c><00:07:04.650><c> then</c><00:07:05.250><c> once</c><00:07:05.850><c> the</c><00:07:06.090><c> transfer</c><00:07:06.539><c> of</c>
+
+00:07:06.560 --> 00:07:06.570 align:start position:0%
+controller and then once the transfer of
+ 
+
+00:07:06.570 --> 00:07:09.439 align:start position:0%
+controller and then once the transfer of
+data<00:07:06.930><c> is</c><00:07:07.169><c> complete</c><00:07:07.710><c> the</c><00:07:08.430><c> device</c><00:07:08.820><c> controller</c>
+
+00:07:09.439 --> 00:07:09.449 align:start position:0%
+data is complete the device controller
+ 
+
+00:07:09.449 --> 00:07:12.350 align:start position:0%
+data is complete the device controller
+informs<00:07:10.259><c> the</c><00:07:10.440><c> device</c><00:07:10.740><c> driver</c><00:07:11.160><c> via</c><00:07:12.120><c> an</c>
+
+00:07:12.350 --> 00:07:12.360 align:start position:0%
+informs the device driver via an
+ 
+
+00:07:12.360 --> 00:07:15.230 align:start position:0%
+informs the device driver via an
+interrupt<00:07:13.110><c> that</c><00:07:13.349><c> it</c><00:07:14.280><c> has</c><00:07:14.580><c> finished</c><00:07:14.849><c> the</c>
+
+00:07:15.230 --> 00:07:15.240 align:start position:0%
+interrupt that it has finished the
+ 
+
+00:07:15.240 --> 00:07:17.900 align:start position:0%
+interrupt that it has finished the
+operation<00:07:15.750><c> so</c><00:07:16.470><c> we</c><00:07:16.919><c> saw</c><00:07:17.099><c> that</c><00:07:17.130><c> the</c><00:07:17.400><c> data</c><00:07:17.610><c> was</c>
+
+00:07:17.900 --> 00:07:17.910 align:start position:0%
+operation so we saw that the data was
+ 
+
+00:07:17.910 --> 00:07:20.719 align:start position:0%
+operation so we saw that the data was
+transferred<00:07:18.690><c> to</c><00:07:19.139><c> the</c><00:07:19.259><c> local</c><00:07:19.590><c> buffer</c><00:07:19.919><c> and</c><00:07:20.099><c> then</c>
+
+00:07:20.719 --> 00:07:20.729 align:start position:0%
+transferred to the local buffer and then
+ 
+
+00:07:20.729 --> 00:07:23.629 align:start position:0%
+transferred to the local buffer and then
+once<00:07:21.270><c> the</c><00:07:21.479><c> data</c><00:07:21.660><c> transfer</c><00:07:22.229><c> is</c><00:07:22.530><c> complete</c><00:07:23.070><c> once</c>
+
+00:07:23.629 --> 00:07:23.639 align:start position:0%
+once the data transfer is complete once
+ 
+
+00:07:23.639 --> 00:07:27.050 align:start position:0%
+once the data transfer is complete once
+the<00:07:23.870><c> execution</c><00:07:24.870><c> is</c><00:07:25.050><c> complete</c><00:07:25.520><c> then</c><00:07:26.520><c> the</c>
+
+00:07:27.050 --> 00:07:27.060 align:start position:0%
+the execution is complete then the
+ 
+
+00:07:27.060 --> 00:07:30.020 align:start position:0%
+the execution is complete then the
+device<00:07:27.419><c> controller</c><00:07:27.960><c> will</c><00:07:28.620><c> inform</c><00:07:29.220><c> the</c><00:07:29.490><c> device</c>
+
+00:07:30.020 --> 00:07:30.030 align:start position:0%
+device controller will inform the device
+ 
+
+00:07:30.030 --> 00:07:32.689 align:start position:0%
+device controller will inform the device
+driver<00:07:30.660><c> that</c><00:07:31.500><c> it</c><00:07:31.740><c> has</c><00:07:31.949><c> finished</c><00:07:32.250><c> its</c>
+
+00:07:32.689 --> 00:07:32.699 align:start position:0%
+driver that it has finished its
+ 
+
+00:07:32.699 --> 00:07:33.469 align:start position:0%
+driver that it has finished its
+operation
+
+00:07:33.469 --> 00:07:33.479 align:start position:0%
+operation
+ 
+
+00:07:33.479 --> 00:07:35.930 align:start position:0%
+operation
+so<00:07:33.870><c> once</c><00:07:34.110><c> operation</c><00:07:34.620><c> is</c><00:07:34.710><c> finished</c><00:07:35.099><c> the</c><00:07:35.669><c> device</c>
+
+00:07:35.930 --> 00:07:35.940 align:start position:0%
+so once operation is finished the device
+ 
+
+00:07:35.940 --> 00:07:37.820 align:start position:0%
+so once operation is finished the device
+controller<00:07:36.419><c> will</c><00:07:36.720><c> inform</c><00:07:37.169><c> the</c><00:07:37.259><c> device</c><00:07:37.530><c> driver</c>
+
+00:07:37.820 --> 00:07:37.830 align:start position:0%
+controller will inform the device driver
+ 
+
+00:07:37.830 --> 00:07:40.460 align:start position:0%
+controller will inform the device driver
+and<00:07:38.130><c> how</c><00:07:38.580><c> will</c><00:07:38.759><c> it</c><00:07:38.789><c> inform</c><00:07:39.300><c> it</c><00:07:39.630><c> will</c><00:07:39.960><c> inform</c>
+
+00:07:40.460 --> 00:07:40.470 align:start position:0%
+and how will it inform it will inform
+ 
+
+00:07:40.470 --> 00:07:42.950 align:start position:0%
+and how will it inform it will inform
+via<00:07:41.160><c> an</c><00:07:41.460><c> interrupt</c><00:07:42.150><c> so</c><00:07:42.630><c> I</c><00:07:42.660><c> have</c><00:07:42.810><c> already</c>
+
+00:07:42.950 --> 00:07:42.960 align:start position:0%
+via an interrupt so I have already
+ 
+
+00:07:42.960 --> 00:07:45.020 align:start position:0%
+via an interrupt so I have already
+explained<00:07:43.500><c> in</c><00:07:43.710><c> one</c><00:07:44.010><c> of</c><00:07:44.130><c> the</c><00:07:44.280><c> previous</c><00:07:44.699><c> lecture</c>
+
+00:07:45.020 --> 00:07:45.030 align:start position:0%
+explained in one of the previous lecture
+ 
+
+00:07:45.030 --> 00:07:47.300 align:start position:0%
+explained in one of the previous lecture
+about<00:07:45.060><c> interrupts</c><00:07:45.810><c> so</c><00:07:46.080><c> via</c><00:07:46.349><c> an</c><00:07:46.530><c> interrupt</c><00:07:47.099><c> it</c>
+
+00:07:47.300 --> 00:07:47.310 align:start position:0%
+about interrupts so via an interrupt it
+ 
+
+00:07:47.310 --> 00:07:50.029 align:start position:0%
+about interrupts so via an interrupt it
+will<00:07:47.460><c> be</c><00:07:47.639><c> informed</c><00:07:48.449><c> to</c><00:07:48.539><c> the</c><00:07:48.750><c> device</c><00:07:49.320><c> driver</c><00:07:49.680><c> by</c>
+
+00:07:50.029 --> 00:07:50.039 align:start position:0%
+will be informed to the device driver by
+ 
+
+00:07:50.039 --> 00:07:51.980 align:start position:0%
+will be informed to the device driver by
+the<00:07:50.099><c> device</c><00:07:50.610><c> controller</c><00:07:51.030><c> that</c><00:07:51.330><c> it</c><00:07:51.720><c> has</c>
+
+00:07:51.980 --> 00:07:51.990 align:start position:0%
+the device controller that it has
+ 
+
+00:07:51.990 --> 00:07:53.899 align:start position:0%
+the device controller that it has
+finished<00:07:52.199><c> his</c><00:07:52.500><c> operation</c><00:07:53.159><c> when</c><00:07:53.460><c> it</c><00:07:53.610><c> is</c><00:07:53.729><c> done</c>
+
+00:07:53.899 --> 00:07:53.909 align:start position:0%
+finished his operation when it is done
+ 
+
+00:07:53.909 --> 00:07:56.510 align:start position:0%
+finished his operation when it is done
+and<00:07:54.150><c> then</c><00:07:54.630><c> what</c><00:07:54.780><c> happens</c><00:07:55.139><c> the</c><00:07:55.860><c> device</c><00:07:56.190><c> driver</c>
+
+00:07:56.510 --> 00:07:56.520 align:start position:0%
+and then what happens the device driver
+ 
+
+00:07:56.520 --> 00:07:59.240 align:start position:0%
+and then what happens the device driver
+then<00:07:56.909><c> returns</c><00:07:57.360><c> control</c><00:07:57.960><c> to</c><00:07:58.260><c> the</c><00:07:58.409><c> operating</c>
+
+00:07:59.240 --> 00:07:59.250 align:start position:0%
+then returns control to the operating
+ 
+
+00:07:59.250 --> 00:08:01.790 align:start position:0%
+then returns control to the operating
+system<00:07:59.400><c> and</c><00:07:59.970><c> after</c><00:08:00.419><c> it</c><00:08:00.690><c> is</c><00:08:00.810><c> done</c><00:08:01.050><c> the</c><00:08:01.560><c> device</c>
+
+00:08:01.790 --> 00:08:01.800 align:start position:0%
+system and after it is done the device
+ 
+
+00:08:01.800 --> 00:08:03.500 align:start position:0%
+system and after it is done the device
+driver<00:08:02.070><c> will</c><00:08:02.340><c> return</c><00:08:02.639><c> the</c><00:08:02.820><c> control</c><00:08:03.000><c> to</c><00:08:03.389><c> the</c>
+
+00:08:03.500 --> 00:08:03.510 align:start position:0%
+driver will return the control to the
+ 
+
+00:08:03.510 --> 00:08:06.439 align:start position:0%
+driver will return the control to the
+operating<00:08:04.169><c> system</c><00:08:04.289><c> so</c><00:08:05.130><c> then</c><00:08:05.340><c> it</c><00:08:05.789><c> can</c><00:08:06.000><c> continue</c>
+
+00:08:06.439 --> 00:08:06.449 align:start position:0%
+operating system so then it can continue
+ 
+
+00:08:06.449 --> 00:08:08.779 align:start position:0%
+operating system so then it can continue
+with<00:08:06.659><c> the</c><00:08:06.840><c> other</c><00:08:07.229><c> work</c><00:08:07.710><c> or</c><00:08:07.949><c> tasks</c><00:08:08.340><c> that</c><00:08:08.430><c> it</c><00:08:08.610><c> has</c>
+
+00:08:08.779 --> 00:08:08.789 align:start position:0%
+with the other work or tasks that it has
+ 
+
+00:08:08.789 --> 00:08:10.550 align:start position:0%
+with the other work or tasks that it has
+to<00:08:08.970><c> do</c><00:08:09.120><c> now</c><00:08:09.539><c> this</c><00:08:09.810><c> is</c><00:08:09.930><c> the</c><00:08:10.080><c> diagram</c><00:08:10.530><c> that</c>
+
+00:08:10.550 --> 00:08:10.560 align:start position:0%
+to do now this is the diagram that
+ 
+
+00:08:10.560 --> 00:08:12.860 align:start position:0%
+to do now this is the diagram that
+represents<00:08:11.250><c> whatever</c><00:08:11.520><c> I</c><00:08:11.789><c> was</c><00:08:12.090><c> explaining</c>
+
+00:08:12.860 --> 00:08:12.870 align:start position:0%
+represents whatever I was explaining
+ 
+
+00:08:12.870 --> 00:08:15.290 align:start position:0%
+represents whatever I was explaining
+over<00:08:13.199><c> here</c><00:08:13.470><c> here</c><00:08:13.919><c> you</c><00:08:14.039><c> have</c><00:08:14.250><c> the</c><00:08:14.400><c> CPU</c><00:08:14.849><c> and</c><00:08:15.060><c> here</c>
+
+00:08:15.290 --> 00:08:15.300 align:start position:0%
+over here here you have the CPU and here
+ 
+
+00:08:15.300 --> 00:08:17.300 align:start position:0%
+over here here you have the CPU and here
+we<00:08:15.419><c> have</c><00:08:15.599><c> a</c><00:08:15.630><c> device</c><00:08:16.050><c> and</c><00:08:16.289><c> this</c><00:08:16.740><c> is</c><00:08:16.919><c> the</c><00:08:17.070><c> memory</c>
+
+00:08:17.300 --> 00:08:17.310 align:start position:0%
+we have a device and this is the memory
+ 
+
+00:08:17.310 --> 00:08:20.300 align:start position:0%
+we have a device and this is the memory
+and<00:08:17.729><c> then</c><00:08:18.360><c> when</c><00:08:18.990><c> the</c><00:08:19.110><c> device</c><00:08:19.440><c> has</c><00:08:20.039><c> an</c>
+
+00:08:20.300 --> 00:08:20.310 align:start position:0%
+and then when the device has an
+ 
+
+00:08:20.310 --> 00:08:22.939 align:start position:0%
+and then when the device has an
+input/output<00:08:21.300><c> request</c><00:08:21.720><c> after</c><00:08:22.139><c> loading</c><00:08:22.800><c> the</c>
+
+00:08:22.939 --> 00:08:22.949 align:start position:0%
+input/output request after loading the
+ 
+
+00:08:22.949 --> 00:08:25.040 align:start position:0%
+input/output request after loading the
+registers<00:08:23.520><c> and</c><00:08:23.789><c> everything</c><00:08:24.240><c> the</c><00:08:24.750><c> device</c>
+
+00:08:25.040 --> 00:08:25.050 align:start position:0%
+registers and everything the device
+ 
+
+00:08:25.050 --> 00:08:27.950 align:start position:0%
+registers and everything the device
+controller<00:08:25.530><c> loads</c><00:08:26.190><c> is</c><00:08:26.400><c> data</c><00:08:26.639><c> to</c><00:08:27.000><c> the</c><00:08:27.180><c> local</c>
+
+00:08:27.950 --> 00:08:27.960 align:start position:0%
+controller loads is data to the local
+ 
+
+00:08:27.960 --> 00:08:31.610 align:start position:0%
+controller loads is data to the local
+buffer<00:08:28.380><c> and</c><00:08:28.590><c> then</c><00:08:29.130><c> it</c><00:08:29.550><c> goes</c><00:08:29.880><c> via</c><00:08:30.270><c> the</c><00:08:30.630><c> CPU</c><00:08:31.229><c> to</c>
+
+00:08:31.610 --> 00:08:31.620 align:start position:0%
+buffer and then it goes via the CPU to
+ 
+
+00:08:31.620 --> 00:08:33.500 align:start position:0%
+buffer and then it goes via the CPU to
+the<00:08:31.800><c> memory</c><00:08:32.459><c> so</c><00:08:32.880><c> here</c><00:08:33.089><c> we</c><00:08:33.240><c> have</c><00:08:33.390><c> the</c>
+
+00:08:33.500 --> 00:08:33.510 align:start position:0%
+the memory so here we have the
+ 
+
+00:08:33.510 --> 00:08:35.300 align:start position:0%
+the memory so here we have the
+instruction<00:08:33.990><c> execution</c><00:08:34.380><c> cycle</c><00:08:34.740><c> and</c><00:08:35.070><c> the</c><00:08:35.130><c> data</c>
+
+00:08:35.300 --> 00:08:35.310 align:start position:0%
+instruction execution cycle and the data
+ 
+
+00:08:35.310 --> 00:08:37.730 align:start position:0%
+instruction execution cycle and the data
+movement<00:08:35.940><c> between</c><00:08:36.089><c> the</c><00:08:36.300><c> CPU</c><00:08:36.839><c> and</c><00:08:37.020><c> the</c><00:08:37.079><c> memory</c>
+
+00:08:37.730 --> 00:08:37.740 align:start position:0%
+movement between the CPU and the memory
+ 
+
+00:08:37.740 --> 00:08:40.550 align:start position:0%
+movement between the CPU and the memory
+and<00:08:38.190><c> whatever</c><00:08:39.060><c> task</c><00:08:39.599><c> has</c><00:08:39.839><c> to</c><00:08:39.990><c> be</c><00:08:40.079><c> done</c><00:08:40.289><c> will</c><00:08:40.529><c> be</c>
+
+00:08:40.550 --> 00:08:40.560 align:start position:0%
+and whatever task has to be done will be
+ 
+
+00:08:40.560 --> 00:08:43.010 align:start position:0%
+and whatever task has to be done will be
+done<00:08:40.740><c> and</c><00:08:41.159><c> then</c><00:08:41.729><c> the</c><00:08:42.209><c> data</c><00:08:42.419><c> that</c><00:08:42.719><c> has</c><00:08:42.870><c> to</c><00:08:42.959><c> be</c>
+
+00:08:43.010 --> 00:08:43.020 align:start position:0%
+done and then the data that has to be
+ 
+
+00:08:43.020 --> 00:08:44.840 align:start position:0%
+done and then the data that has to be
+transferred<00:08:43.469><c> back</c><00:08:43.680><c> to</c><00:08:43.950><c> the</c><00:08:44.070><c> device</c><00:08:44.399><c> will</c><00:08:44.670><c> be</c>
+
+00:08:44.840 --> 00:08:44.850 align:start position:0%
+transferred back to the device will be
+ 
+
+00:08:44.850 --> 00:08:47.060 align:start position:0%
+transferred back to the device will be
+transferred<00:08:45.720><c> back</c><00:08:45.930><c> and</c><00:08:46.230><c> then</c><00:08:46.770><c> once</c>
+
+00:08:47.060 --> 00:08:47.070 align:start position:0%
+transferred back and then once
+ 
+
+00:08:47.070 --> 00:08:50.120 align:start position:0%
+transferred back and then once
+everything<00:08:47.610><c> is</c><00:08:47.700><c> done</c><00:08:47.970><c> via</c><00:08:48.450><c> an</c><00:08:48.720><c> interrupt</c>
+
+00:08:50.120 --> 00:08:50.130 align:start position:0%
+everything is done via an interrupt
+ 
+
+00:08:50.130 --> 00:08:52.970 align:start position:0%
+everything is done via an interrupt
+tells<00:08:50.490><c> that</c><00:08:50.910><c> I</c><00:08:51.149><c> am</c><00:08:51.449><c> done</c><00:08:51.690><c> with</c><00:08:51.870><c> my</c><00:08:52.110><c> operation</c>
+
+00:08:52.970 --> 00:08:52.980 align:start position:0%
+tells that I am done with my operation
+ 
+
+00:08:52.980 --> 00:08:54.590 align:start position:0%
+tells that I am done with my operation
+so<00:08:53.490><c> this</c><00:08:53.850><c> is</c><00:08:53.940><c> the</c><00:08:54.029><c> diagrammatic</c>
+
+00:08:54.590 --> 00:08:54.600 align:start position:0%
+so this is the diagrammatic
+ 
+
+00:08:54.600 --> 00:08:56.600 align:start position:0%
+so this is the diagrammatic
+representation<00:08:54.959><c> of</c><00:08:55.560><c> whatever</c><00:08:56.250><c> is</c><00:08:56.459><c> written</c>
+
+00:08:56.600 --> 00:08:56.610 align:start position:0%
+representation of whatever is written
+ 
+
+00:08:56.610 --> 00:08:58.340 align:start position:0%
+representation of whatever is written
+here<00:08:56.940><c> now</c><00:08:57.449><c> we</c><00:08:57.509><c> see</c><00:08:57.839><c> that</c><00:08:57.990><c> there</c><00:08:58.170><c> is</c><00:08:58.230><c> a</c>
+
+00:08:58.340 --> 00:08:58.350 align:start position:0%
+here now we see that there is a
+ 
+
+00:08:58.350 --> 00:09:00.829 align:start position:0%
+here now we see that there is a
+disadvantage<00:08:58.949><c> to</c><00:08:59.639><c> this</c><00:08:59.790><c> kind</c><00:09:00.120><c> of</c><00:09:00.300><c> operation</c>
+
+00:09:00.829 --> 00:09:00.839 align:start position:0%
+disadvantage to this kind of operation
+ 
+
+00:09:00.839 --> 00:09:02.389 align:start position:0%
+disadvantage to this kind of operation
+let's<00:09:01.620><c> see</c><00:09:01.769><c> what</c><00:09:01.949><c> it</c><00:09:02.040><c> is</c>
+
+00:09:02.389 --> 00:09:02.399 align:start position:0%
+let's see what it is
+ 
+
+00:09:02.399 --> 00:09:05.210 align:start position:0%
+let's see what it is
+this<00:09:02.970><c> form</c><00:09:03.329><c> of</c><00:09:03.420><c> interrupt-driven</c><00:09:03.899><c> IO</c><00:09:04.440><c> is</c><00:09:04.829><c> fine</c>
+
+00:09:05.210 --> 00:09:05.220 align:start position:0%
+this form of interrupt-driven IO is fine
+ 
+
+00:09:05.220 --> 00:09:08.990 align:start position:0%
+this form of interrupt-driven IO is fine
+force<00:09:05.610><c> moving</c><00:09:06.240><c> small</c><00:09:07.019><c> amount</c><00:09:07.470><c> of</c><00:09:07.620><c> data</c><00:09:08.100><c> but</c>
+
+00:09:08.990 --> 00:09:09.000 align:start position:0%
+force moving small amount of data but
+ 
+
+00:09:09.000 --> 00:09:12.019 align:start position:0%
+force moving small amount of data but
+can<00:09:09.300><c> produce</c><00:09:09.540><c> high</c><00:09:10.110><c> overhead</c><00:09:10.680><c> when</c><00:09:11.519><c> used</c><00:09:11.880><c> for</c>
+
+00:09:12.019 --> 00:09:12.029 align:start position:0%
+can produce high overhead when used for
+ 
+
+00:09:12.029 --> 00:09:15.139 align:start position:0%
+can produce high overhead when used for
+bulk<00:09:12.480><c> data</c><00:09:12.870><c> movement</c><00:09:13.230><c> so</c><00:09:14.100><c> we</c><00:09:14.250><c> see</c><00:09:14.459><c> that</c><00:09:14.670><c> when</c>
+
+00:09:15.139 --> 00:09:15.149 align:start position:0%
+bulk data movement so we see that when
+ 
+
+00:09:15.149 --> 00:09:17.780 align:start position:0%
+bulk data movement so we see that when
+this<00:09:15.360><c> kind</c><00:09:15.569><c> of</c><00:09:15.720><c> a</c><00:09:15.839><c> system</c><00:09:16.170><c> is</c><00:09:16.319><c> used</c><00:09:16.620><c> it</c><00:09:17.160><c> is</c><00:09:17.220><c> okay</c>
+
+00:09:17.780 --> 00:09:17.790 align:start position:0%
+this kind of a system is used it is okay
+ 
+
+00:09:17.790 --> 00:09:20.689 align:start position:0%
+this kind of a system is used it is okay
+when<00:09:18.089><c> it</c><00:09:18.209><c> is</c><00:09:18.329><c> used</c><00:09:18.600><c> for</c><00:09:18.779><c> moving</c><00:09:19.769><c> small</c><00:09:20.339><c> amount</c>
+
+00:09:20.689 --> 00:09:20.699 align:start position:0%
+when it is used for moving small amount
+ 
+
+00:09:20.699 --> 00:09:23.840 align:start position:0%
+when it is used for moving small amount
+of<00:09:20.790><c> data</c><00:09:20.970><c> but</c><00:09:21.750><c> if</c><00:09:22.019><c> you</c><00:09:22.230><c> want</c><00:09:22.470><c> to</c><00:09:22.649><c> move</c><00:09:22.829><c> or</c><00:09:23.100><c> if</c>
+
+00:09:23.840 --> 00:09:23.850 align:start position:0%
+of data but if you want to move or if
+ 
+
+00:09:23.850 --> 00:09:25.670 align:start position:0%
+of data but if you want to move or if
+you<00:09:24.000><c> want</c><00:09:24.269><c> to</c><00:09:24.449><c> do</c><00:09:24.600><c> input/output</c><00:09:25.560><c> operations</c>
+
+00:09:25.670 --> 00:09:25.680 align:start position:0%
+you want to do input/output operations
+ 
+
+00:09:25.680 --> 00:09:29.629 align:start position:0%
+you want to do input/output operations
+that<00:09:26.519><c> involve</c><00:09:27.240><c> large</c><00:09:28.139><c> or</c><00:09:28.470><c> bulk</c><00:09:28.980><c> amount</c><00:09:29.519><c> of</c>
+
+00:09:29.629 --> 00:09:29.639 align:start position:0%
+that involve large or bulk amount of
+ 
+
+00:09:29.639 --> 00:09:32.059 align:start position:0%
+that involve large or bulk amount of
+data<00:09:29.850><c> movement</c><00:09:30.449><c> then</c><00:09:31.110><c> this</c><00:09:31.350><c> is</c><00:09:31.500><c> not</c><00:09:31.740><c> a</c><00:09:31.769><c> very</c>
+
+00:09:32.059 --> 00:09:32.069 align:start position:0%
+data movement then this is not a very
+ 
+
+00:09:32.069 --> 00:09:35.150 align:start position:0%
+data movement then this is not a very
+efficient<00:09:32.610><c> system</c><00:09:33.209><c> why</c><00:09:34.019><c> because</c><00:09:34.709><c> it</c><00:09:34.829><c> is</c><00:09:34.860><c> going</c>
+
+00:09:35.150 --> 00:09:35.160 align:start position:0%
+efficient system why because it is going
+ 
+
+00:09:35.160 --> 00:09:38.329 align:start position:0%
+efficient system why because it is going
+to<00:09:35.490><c> take</c><00:09:35.730><c> up</c><00:09:35.940><c> so</c><00:09:36.180><c> much</c><00:09:36.360><c> of</c><00:09:36.420><c> your</c><00:09:36.680><c> CPU</c><00:09:37.680><c> and</c><00:09:37.829><c> time</c>
+
+00:09:38.329 --> 00:09:38.339 align:start position:0%
+to take up so much of your CPU and time
+ 
+
+00:09:38.339 --> 00:09:40.490 align:start position:0%
+to take up so much of your CPU and time
+because<00:09:39.180><c> the</c><00:09:39.300><c> CPU</c><00:09:39.480><c> is</c><00:09:39.870><c> always</c><00:09:40.259><c> being</c>
+
+00:09:40.490 --> 00:09:40.500 align:start position:0%
+because the CPU is always being
+ 
+
+00:09:40.500 --> 00:09:42.650 align:start position:0%
+because the CPU is always being
+interrupted<00:09:40.980><c> over</c><00:09:41.459><c> here</c><00:09:41.699><c> and</c><00:09:41.880><c> in</c><00:09:42.389><c> order</c><00:09:42.509><c> to</c>
+
+00:09:42.650 --> 00:09:42.660 align:start position:0%
+interrupted over here and in order to
+ 
+
+00:09:42.660 --> 00:09:45.259 align:start position:0%
+interrupted over here and in order to
+solve<00:09:43.019><c> that</c><00:09:43.290><c> what</c><00:09:43.800><c> do</c><00:09:43.949><c> we</c><00:09:44.100><c> do</c><00:09:44.250><c> to</c><00:09:44.790><c> solve</c><00:09:45.089><c> this</c>
+
+00:09:45.259 --> 00:09:45.269 align:start position:0%
+solve that what do we do to solve this
+ 
+
+00:09:45.269 --> 00:09:48.439 align:start position:0%
+solve that what do we do to solve this
+problem<00:09:45.829><c> direct</c><00:09:46.829><c> memory</c><00:09:47.100><c> access</c><00:09:47.310><c> also</c><00:09:48.089><c> known</c>
+
+00:09:48.439 --> 00:09:48.449 align:start position:0%
+problem direct memory access also known
+ 
+
+00:09:48.449 --> 00:09:51.769 align:start position:0%
+problem direct memory access also known
+as<00:09:48.600><c> DMA</c><00:09:49.470><c> is</c><00:09:49.709><c> used</c><00:09:50.100><c> so</c><00:09:50.730><c> in</c><00:09:50.880><c> order</c><00:09:51.089><c> to</c><00:09:51.240><c> solve</c><00:09:51.480><c> this</c>
+
+00:09:51.769 --> 00:09:51.779 align:start position:0%
+as DMA is used so in order to solve this
+ 
+
+00:09:51.779 --> 00:09:54.259 align:start position:0%
+as DMA is used so in order to solve this
+problem<00:09:51.889><c> we</c><00:09:52.889><c> have</c><00:09:53.100><c> something</c><00:09:53.550><c> called</c><00:09:53.850><c> direct</c>
+
+00:09:54.259 --> 00:09:54.269 align:start position:0%
+problem we have something called direct
+ 
+
+00:09:54.269 --> 00:09:57.829 align:start position:0%
+problem we have something called direct
+memory<00:09:54.660><c> access</c><00:09:55.069><c> called</c><00:09:56.069><c> DMA</c><00:09:56.759><c> so</c><00:09:57.329><c> that</c><00:09:57.540><c> one</c><00:09:57.720><c> is</c>
+
+00:09:57.829 --> 00:09:57.839 align:start position:0%
+memory access called DMA so that one is
+ 
+
+00:09:57.839 --> 00:09:59.929 align:start position:0%
+memory access called DMA so that one is
+used<00:09:58.050><c> so</c><00:09:58.680><c> that</c><00:09:58.860><c> is</c><00:09:58.980><c> what</c><00:09:59.160><c> we</c><00:09:59.339><c> represent</c><00:09:59.850><c> over</c>
+
+00:09:59.929 --> 00:09:59.939 align:start position:0%
+used so that is what we represent over
+ 
+
+00:09:59.939 --> 00:10:02.360 align:start position:0%
+used so that is what we represent over
+here<00:10:00.300><c> and</c><00:10:00.480><c> let's</c><00:10:01.079><c> see</c><00:10:01.290><c> what</c><00:10:01.439><c> happens</c><00:10:01.800><c> in</c><00:10:01.949><c> DMA</c>
+
+00:10:02.360 --> 00:10:02.370 align:start position:0%
+here and let's see what happens in DMA
+ 
+
+00:10:02.370 --> 00:10:05.120 align:start position:0%
+here and let's see what happens in DMA
+after<00:10:02.970><c> setting</c><00:10:03.360><c> up</c><00:10:03.449><c> buffers</c><00:10:04.050><c> pointers</c><00:10:04.889><c> and</c>
+
+00:10:05.120 --> 00:10:05.130 align:start position:0%
+after setting up buffers pointers and
+ 
+
+00:10:05.130 --> 00:10:08.030 align:start position:0%
+after setting up buffers pointers and
+counters<00:10:05.790><c> for</c><00:10:06.089><c> the</c><00:10:06.209><c> i/o</c><00:10:06.360><c> devices</c><00:10:06.839><c> the</c><00:10:07.709><c> device</c>
+
+00:10:08.030 --> 00:10:08.040 align:start position:0%
+counters for the i/o devices the device
+ 
+
+00:10:08.040 --> 00:10:10.999 align:start position:0%
+counters for the i/o devices the device
+controller<00:10:08.750><c> transfers</c><00:10:09.750><c> an</c><00:10:10.019><c> entire</c><00:10:10.470><c> block</c><00:10:10.800><c> of</c>
+
+00:10:10.999 --> 00:10:11.009 align:start position:0%
+controller transfers an entire block of
+ 
+
+00:10:11.009 --> 00:10:15.470 align:start position:0%
+controller transfers an entire block of
+data<00:10:11.540><c> directly</c><00:10:12.540><c> to</c><00:10:12.870><c> or</c><00:10:13.380><c> from</c><00:10:13.860><c> its</c><00:10:14.459><c> own</c><00:10:14.759><c> buffer</c>
+
+00:10:15.470 --> 00:10:15.480 align:start position:0%
+data directly to or from its own buffer
+ 
+
+00:10:15.480 --> 00:10:19.160 align:start position:0%
+data directly to or from its own buffer
+storage<00:10:15.990><c> to</c><00:10:16.740><c> memory</c><00:10:17.100><c> with</c><00:10:18.089><c> no</c><00:10:18.600><c> intervention</c>
+
+00:10:19.160 --> 00:10:19.170 align:start position:0%
+storage to memory with no intervention
+ 
+
+00:10:19.170 --> 00:10:23.420 align:start position:0%
+storage to memory with no intervention
+by<00:10:19.649><c> the</c><00:10:19.680><c> CPU</c><00:10:20.430><c> so</c><00:10:21.240><c> even</c><00:10:22.199><c> in</c><00:10:22.350><c> this</c><00:10:22.529><c> direct</c><00:10:23.250><c> memory</c>
+
+00:10:23.420 --> 00:10:23.430 align:start position:0%
+by the CPU so even in this direct memory
+ 
+
+00:10:23.430 --> 00:10:26.210 align:start position:0%
+by the CPU so even in this direct memory
+access<00:10:23.610><c> the</c><00:10:24.449><c> first</c><00:10:24.720><c> three</c><00:10:25.709><c> points</c><00:10:26.069><c> they</c>
+
+00:10:26.210 --> 00:10:26.220 align:start position:0%
+access the first three points they
+ 
+
+00:10:26.220 --> 00:10:28.730 align:start position:0%
+access the first three points they
+remain<00:10:26.519><c> the</c><00:10:26.699><c> same</c><00:10:26.939><c> okay</c><00:10:27.480><c> they</c><00:10:27.959><c> will</c><00:10:28.170><c> have</c><00:10:28.529><c> to</c>
+
+00:10:28.730 --> 00:10:28.740 align:start position:0%
+remain the same okay they will have to
+ 
+
+00:10:28.740 --> 00:10:30.470 align:start position:0%
+remain the same okay they will have to
+load<00:10:28.920><c> the</c><00:10:29.160><c> registers</c><00:10:29.670><c> buffers</c><00:10:30.329><c> and</c>
+
+00:10:30.470 --> 00:10:30.480 align:start position:0%
+load the registers buffers and
+ 
+
+00:10:30.480 --> 00:10:33.050 align:start position:0%
+load the registers buffers and
+everything<00:10:30.930><c> and</c><00:10:31.110><c> after</c><00:10:31.829><c> doing</c><00:10:32.009><c> that</c><00:10:32.310><c> instead</c>
+
+00:10:33.050 --> 00:10:33.060 align:start position:0%
+everything and after doing that instead
+ 
+
+00:10:33.060 --> 00:10:36.769 align:start position:0%
+everything and after doing that instead
+of<00:10:33.180><c> going</c><00:10:33.480><c> via</c><00:10:33.930><c> the</c><00:10:34.139><c> CPU</c><00:10:34.709><c> in</c><00:10:34.949><c> this</c><00:10:35.279><c> way</c><00:10:35.519><c> what</c><00:10:36.329><c> it</c>
+
+00:10:36.769 --> 00:10:36.779 align:start position:0%
+of going via the CPU in this way what it
+ 
+
+00:10:36.779 --> 00:10:39.410 align:start position:0%
+of going via the CPU in this way what it
+does<00:10:37.110><c> is</c><00:10:37.290><c> that</c><00:10:37.319><c> the</c><00:10:37.829><c> device</c><00:10:38.189><c> controller</c><00:10:38.730><c> heat</c>
+
+00:10:39.410 --> 00:10:39.420 align:start position:0%
+does is that the device controller heat
+ 
+
+00:10:39.420 --> 00:10:41.650 align:start position:0%
+does is that the device controller heat
+transfers<00:10:40.019><c> an</c><00:10:40.230><c> entire</c><00:10:40.649><c> block</c><00:10:41.040><c> of</c><00:10:41.279><c> data</c>
+
+00:10:41.650 --> 00:10:41.660 align:start position:0%
+transfers an entire block of data
+ 
+
+00:10:41.660 --> 00:10:45.439 align:start position:0%
+transfers an entire block of data
+directly<00:10:42.660><c> to</c><00:10:42.750><c> the</c><00:10:43.110><c> memory</c><00:10:43.800><c> from</c><00:10:44.639><c> its</c><00:10:45.029><c> phone</c>
+
+00:10:45.439 --> 00:10:45.449 align:start position:0%
+directly to the memory from its phone
+ 
+
+00:10:45.449 --> 00:10:48.290 align:start position:0%
+directly to the memory from its phone
+buffer<00:10:46.259><c> storage</c><00:10:46.500><c> without</c><00:10:47.490><c> intervention</c><00:10:48.089><c> of</c>
+
+00:10:48.290 --> 00:10:48.300 align:start position:0%
+buffer storage without intervention of
+ 
+
+00:10:48.300 --> 00:10:51.199 align:start position:0%
+buffer storage without intervention of
+the<00:10:48.389><c> CPU</c><00:10:48.899><c> so</c><00:10:49.410><c> in</c><00:10:49.560><c> DMA</c><00:10:50.009><c> we</c><00:10:50.160><c> see</c><00:10:50.339><c> that</c><00:10:50.399><c> the</c><00:10:50.579><c> CPU</c><00:10:50.790><c> is</c>
+
+00:10:51.199 --> 00:10:51.209 align:start position:0%
+the CPU so in DMA we see that the CPU is
+ 
+
+00:10:51.209 --> 00:10:53.900 align:start position:0%
+the CPU so in DMA we see that the CPU is
+not<00:10:51.290><c> affected</c><00:10:52.319><c> it</c><00:10:52.560><c> just</c><00:10:52.980><c> goes</c><00:10:53.220><c> directly</c><00:10:53.699><c> to</c>
+
+00:10:53.900 --> 00:10:53.910 align:start position:0%
+not affected it just goes directly to
+ 
+
+00:10:53.910 --> 00:10:56.300 align:start position:0%
+not affected it just goes directly to
+the<00:10:54.029><c> memory</c><00:10:54.360><c> so</c><00:10:55.079><c> whatever</c><00:10:55.439><c> has</c><00:10:55.740><c> to</c><00:10:55.769><c> be</c><00:10:55.949><c> sent</c><00:10:56.250><c> to</c>
+
+00:10:56.300 --> 00:10:56.310 align:start position:0%
+the memory so whatever has to be sent to
+ 
+
+00:10:56.310 --> 00:10:57.860 align:start position:0%
+the memory so whatever has to be sent to
+the<00:10:56.430><c> memory</c><00:10:56.759><c> can</c><00:10:56.970><c> be</c><00:10:57.089><c> directly</c><00:10:57.420><c> sent</c><00:10:57.720><c> and</c>
+
+00:10:57.860 --> 00:10:57.870 align:start position:0%
+the memory can be directly sent and
+ 
+
+00:10:57.870 --> 00:11:00.030 align:start position:0%
+the memory can be directly sent and
+whatever<00:10:58.410><c> has</c><00:10:58.800><c> to</c><00:10:58.949><c> be</c><00:10:59.069><c> taken</c><00:10:59.459><c> back</c><00:10:59.699><c> from</c>
+
+00:11:00.030 --> 00:11:00.040 align:start position:0%
+whatever has to be taken back from
+ 
+
+00:11:00.040 --> 00:11:02.490 align:start position:0%
+whatever has to be taken back from
+the<00:11:00.130><c> memory</c><00:11:00.430><c> also</c><00:11:00.910><c> can</c><00:11:01.329><c> be</c><00:11:01.480><c> directly</c><00:11:01.839><c> done</c>
+
+00:11:02.490 --> 00:11:02.500 align:start position:0%
+the memory also can be directly done
+ 
+
+00:11:02.500 --> 00:11:05.550 align:start position:0%
+the memory also can be directly done
+without<00:11:02.980><c> intervention</c><00:11:03.430><c> of</c><00:11:03.759><c> the</c><00:11:03.940><c> CPU</c><00:11:04.839><c> so</c><00:11:05.290><c> this</c>
+
+00:11:05.550 --> 00:11:05.560 align:start position:0%
+without intervention of the CPU so this
+ 
+
+00:11:05.560 --> 00:11:08.360 align:start position:0%
+without intervention of the CPU so this
+is<00:11:05.829><c> direct</c><00:11:06.250><c> memory</c><00:11:06.430><c> access</c>
+
+00:11:08.360 --> 00:11:08.370 align:start position:0%
+is direct memory access
+ 
+
+00:11:08.370 --> 00:11:12.420 align:start position:0%
+is direct memory access
+so<00:11:09.370><c> in</c><00:11:09.639><c> this</c><00:11:09.940><c> direct</c><00:11:10.480><c> memory</c><00:11:10.630><c> access</c><00:11:10.779><c> only</c><00:11:11.680><c> one</c>
+
+00:11:12.420 --> 00:11:12.430 align:start position:0%
+so in this direct memory access only one
+ 
+
+00:11:12.430 --> 00:11:15.389 align:start position:0%
+so in this direct memory access only one
+interrupt<00:11:13.029><c> is</c><00:11:13.240><c> generated</c><00:11:13.839><c> per</c><00:11:14.110><c> block</c><00:11:14.529><c> to</c><00:11:15.160><c> tell</c>
+
+00:11:15.389 --> 00:11:15.399 align:start position:0%
+interrupt is generated per block to tell
+ 
+
+00:11:15.399 --> 00:11:17.730 align:start position:0%
+interrupt is generated per block to tell
+the<00:11:15.550><c> device</c><00:11:15.850><c> driver</c><00:11:16.240><c> that</c><00:11:16.660><c> the</c><00:11:16.870><c> operation</c><00:11:17.380><c> has</c>
+
+00:11:17.730 --> 00:11:17.740 align:start position:0%
+the device driver that the operation has
+ 
+
+00:11:17.740 --> 00:11:21.449 align:start position:0%
+the device driver that the operation has
+completed<00:11:18.060><c> so</c><00:11:19.060><c> here</c><00:11:19.420><c> only</c><00:11:19.690><c> one</c><00:11:20.470><c> interrupt</c><00:11:21.100><c> per</c>
+
+00:11:21.449 --> 00:11:21.459 align:start position:0%
+completed so here only one interrupt per
+ 
+
+00:11:21.459 --> 00:11:23.819 align:start position:0%
+completed so here only one interrupt per
+block<00:11:21.790><c> is</c><00:11:22.000><c> required</c><00:11:22.449><c> but</c><00:11:23.019><c> in</c><00:11:23.139><c> case</c><00:11:23.380><c> of</c><00:11:23.410><c> our</c>
+
+00:11:23.819 --> 00:11:23.829 align:start position:0%
+block is required but in case of our
+ 
+
+00:11:23.829 --> 00:11:26.100 align:start position:0%
+block is required but in case of our
+other<00:11:24.399><c> system</c><00:11:24.970><c> that</c><00:11:25.000><c> we</c><00:11:25.269><c> first</c><00:11:25.600><c> explained</c>
+
+00:11:26.100 --> 00:11:26.110 align:start position:0%
+other system that we first explained
+ 
+
+00:11:26.110 --> 00:11:29.160 align:start position:0%
+other system that we first explained
+there<00:11:26.560><c> will</c><00:11:26.740><c> be</c><00:11:26.769><c> interrupt</c><00:11:27.670><c> per</c><00:11:27.970><c> byte</c><00:11:28.480><c> of</c><00:11:28.899><c> data</c>
+
+00:11:29.160 --> 00:11:29.170 align:start position:0%
+there will be interrupt per byte of data
+ 
+
+00:11:29.170 --> 00:11:32.309 align:start position:0%
+there will be interrupt per byte of data
+that<00:11:29.769><c> is</c><00:11:29.949><c> being</c><00:11:30.250><c> transferred</c><00:11:31.029><c> so</c><00:11:31.449><c> the</c><00:11:31.839><c> CPU</c><00:11:32.230><c> is</c>
+
+00:11:32.309 --> 00:11:32.319 align:start position:0%
+that is being transferred so the CPU is
+ 
+
+00:11:32.319 --> 00:11:34.680 align:start position:0%
+that is being transferred so the CPU is
+interrupted<00:11:32.949><c> so</c><00:11:33.310><c> many</c><00:11:33.519><c> times</c><00:11:33.819><c> making</c><00:11:34.329><c> it</c><00:11:34.540><c> an</c>
+
+00:11:34.680 --> 00:11:34.690 align:start position:0%
+interrupted so many times making it an
+ 
+
+00:11:34.690 --> 00:11:37.530 align:start position:0%
+interrupted so many times making it an
+inefficient<00:11:35.290><c> system</c><00:11:35.649><c> but</c><00:11:36.220><c> here</c><00:11:36.550><c> only</c><00:11:36.730><c> one</c>
+
+00:11:37.530 --> 00:11:37.540 align:start position:0%
+inefficient system but here only one
+ 
+
+00:11:37.540 --> 00:11:39.480 align:start position:0%
+inefficient system but here only one
+interrupt<00:11:37.990><c> is</c><00:11:38.170><c> generated</c><00:11:38.709><c> per</c><00:11:38.920><c> block</c><00:11:39.250><c> and</c>
+
+00:11:39.480 --> 00:11:39.490 align:start position:0%
+interrupt is generated per block and
+ 
+
+00:11:39.490 --> 00:11:41.970 align:start position:0%
+interrupt is generated per block and
+when<00:11:39.880><c> is</c><00:11:40.000><c> it</c><00:11:40.029><c> generated</c><00:11:40.690><c> it</c><00:11:41.170><c> is</c><00:11:41.199><c> generated</c><00:11:41.829><c> to</c>
+
+00:11:41.970 --> 00:11:41.980 align:start position:0%
+when is it generated it is generated to
+ 
+
+00:11:41.980 --> 00:11:43.800 align:start position:0%
+when is it generated it is generated to
+tell<00:11:42.459><c> the</c><00:11:42.699><c> device</c><00:11:43.120><c> driver</c><00:11:43.420><c> that</c><00:11:43.690><c> the</c>
+
+00:11:43.800 --> 00:11:43.810 align:start position:0%
+tell the device driver that the
+ 
+
+00:11:43.810 --> 00:11:45.210 align:start position:0%
+tell the device driver that the
+operation<00:11:44.170><c> has</c><00:11:44.290><c> completed</c><00:11:44.350><c> when</c><00:11:45.009><c> it</c><00:11:45.100><c> is</c>
+
+00:11:45.210 --> 00:11:45.220 align:start position:0%
+operation has completed when it is
+ 
+
+00:11:45.220 --> 00:11:47.550 align:start position:0%
+operation has completed when it is
+completed<00:11:45.639><c> it</c><00:11:46.149><c> is</c><00:11:46.329><c> generated</c><00:11:46.839><c> just</c><00:11:47.230><c> to</c><00:11:47.350><c> tell</c>
+
+00:11:47.550 --> 00:11:47.560 align:start position:0%
+completed it is generated just to tell
+ 
+
+00:11:47.560 --> 00:11:49.230 align:start position:0%
+completed it is generated just to tell
+the<00:11:47.740><c> driver</c><00:11:47.860><c> then</c><00:11:48.310><c> the</c><00:11:48.730><c> operation</c><00:11:49.120><c> is</c>
+
+00:11:49.230 --> 00:11:49.240 align:start position:0%
+the driver then the operation is
+ 
+
+00:11:49.240 --> 00:11:51.569 align:start position:0%
+the driver then the operation is
+completed<00:11:49.660><c> so</c><00:11:50.199><c> while</c><00:11:50.680><c> the</c><00:11:50.889><c> device</c><00:11:51.130><c> controller</c>
+
+00:11:51.569 --> 00:11:51.579 align:start position:0%
+completed so while the device controller
+ 
+
+00:11:51.579 --> 00:11:54.360 align:start position:0%
+completed so while the device controller
+is<00:11:51.730><c> performing</c><00:11:52.360><c> these</c><00:11:52.480><c> operations</c><00:11:52.690><c> the</c><00:11:53.380><c> CPU</c>
+
+00:11:54.360 --> 00:11:54.370 align:start position:0%
+is performing these operations the CPU
+ 
+
+00:11:54.370 --> 00:11:56.790 align:start position:0%
+is performing these operations the CPU
+is<00:11:54.610><c> available</c><00:11:55.329><c> to</c><00:11:55.509><c> accomplish</c><00:11:56.050><c> other</c><00:11:56.350><c> works</c>
+
+00:11:56.790 --> 00:11:56.800 align:start position:0%
+is available to accomplish other works
+ 
+
+00:11:56.800 --> 00:11:58.530 align:start position:0%
+is available to accomplish other works
+so<00:11:57.430><c> this</c><00:11:57.610><c> is</c><00:11:57.759><c> one</c><00:11:57.910><c> of</c><00:11:58.060><c> the</c><00:11:58.240><c> greatest</c>
+
+00:11:58.530 --> 00:11:58.540 align:start position:0%
+so this is one of the greatest
+ 
+
+00:11:58.540 --> 00:12:01.620 align:start position:0%
+so this is one of the greatest
+advantages<00:11:58.990><c> of</c><00:11:59.410><c> this</c><00:11:59.620><c> as</c><00:11:59.889><c> we</c><00:12:00.130><c> said</c><00:12:00.370><c> in</c><00:12:00.550><c> DMA</c><00:12:01.120><c> CPU</c>
+
+00:12:01.620 --> 00:12:01.630 align:start position:0%
+advantages of this as we said in DMA CPU
+ 
+
+00:12:01.630 --> 00:12:04.470 align:start position:0%
+advantages of this as we said in DMA CPU
+is<00:12:01.839><c> not</c><00:12:01.870><c> intervened</c><00:12:02.709><c> so</c><00:12:02.980><c> even</c><00:12:03.670><c> when</c><00:12:03.850><c> this</c><00:12:04.089><c> i/o</c>
+
+00:12:04.470 --> 00:12:04.480 align:start position:0%
+is not intervened so even when this i/o
+ 
+
+00:12:04.480 --> 00:12:07.319 align:start position:0%
+is not intervened so even when this i/o
+operation<00:12:05.139><c> is</c><00:12:05.260><c> occurring</c><00:12:05.800><c> the</c><00:12:06.279><c> CPU</c><00:12:06.790><c> is</c><00:12:07.000><c> free</c>
+
+00:12:07.319 --> 00:12:07.329 align:start position:0%
+operation is occurring the CPU is free
+ 
+
+00:12:07.329 --> 00:12:10.170 align:start position:0%
+operation is occurring the CPU is free
+to<00:12:07.720><c> perform</c><00:12:08.380><c> its</c><00:12:08.560><c> other</c><00:12:08.769><c> tasks</c><00:12:09.220><c> and</c><00:12:09.459><c> it</c><00:12:10.029><c> will</c>
+
+00:12:10.170 --> 00:12:10.180 align:start position:0%
+to perform its other tasks and it will
+ 
+
+00:12:10.180 --> 00:12:12.329 align:start position:0%
+to perform its other tasks and it will
+not<00:12:10.300><c> be</c><00:12:10.360><c> disturbed</c><00:12:11.199><c> so</c><00:12:11.470><c> this</c><00:12:12.040><c> is</c><00:12:12.190><c> the</c>
+
+00:12:12.329 --> 00:12:12.339 align:start position:0%
+not be disturbed so this is the
+ 
+
+00:12:12.339 --> 00:12:15.990 align:start position:0%
+not be disturbed so this is the
+advantage<00:12:13.000><c> of</c><00:12:13.360><c> direct</c><00:12:14.110><c> memory</c><00:12:14.380><c> access</c><00:12:15.000><c> so</c>
+
+00:12:15.990 --> 00:12:16.000 align:start position:0%
+advantage of direct memory access so
+ 
+
+00:12:16.000 --> 00:12:18.509 align:start position:0%
+advantage of direct memory access so
+that<00:12:16.029><c> is</c><00:12:16.360><c> how</c><00:12:16.800><c> input/output</c><00:12:17.800><c> operation</c><00:12:18.220><c> works</c>
+
+00:12:18.509 --> 00:12:18.519 align:start position:0%
+that is how input/output operation works
+ 
+
+00:12:18.519 --> 00:12:22.439 align:start position:0%
+that is how input/output operation works
+and<00:12:18.819><c> how</c><00:12:19.810><c> DMA</c><00:12:20.560><c> works</c><00:12:20.829><c> so</c><00:12:21.550><c> I</c><00:12:21.850><c> hope</c><00:12:22.149><c> this</c><00:12:22.269><c> was</c>
+
+00:12:22.439 --> 00:12:22.449 align:start position:0%
+and how DMA works so I hope this was
+ 
+
+00:12:22.449 --> 00:12:24.689 align:start position:0%
+and how DMA works so I hope this was
+clear<00:12:22.660><c> to</c><00:12:22.810><c> you</c><00:12:22.899><c> this</c><00:12:23.079><c> was</c><00:12:23.290><c> about</c><00:12:23.529><c> the</c><00:12:23.699><c> input</c>
+
+00:12:24.689 --> 00:12:24.699 align:start position:0%
+clear to you this was about the input
+ 
+
+00:12:24.699 --> 00:12:27.090 align:start position:0%
+clear to you this was about the input
+output<00:12:25.269><c> structure</c><00:12:25.569><c> which</c><00:12:26.230><c> is</c><00:12:26.350><c> also</c><00:12:26.529><c> the</c>
+
+00:12:27.090 --> 00:12:27.100 align:start position:0%
+output structure which is also the
+ 
+
+00:12:27.100 --> 00:12:29.579 align:start position:0%
+output structure which is also the
+basics<00:12:27.519><c> of</c><00:12:27.730><c> your</c><00:12:28.089><c> operating</c><00:12:28.660><c> system</c><00:12:29.050><c> so</c><00:12:29.560><c> I</c>
+
+00:12:29.579 --> 00:12:29.589 align:start position:0%
+basics of your operating system so I
+ 
+
+00:12:29.589 --> 00:12:31.500 align:start position:0%
+basics of your operating system so I
+hope<00:12:29.800><c> this</c><00:12:29.920><c> was</c><00:12:30.130><c> clear</c><00:12:30.430><c> to</c><00:12:30.579><c> you</c><00:12:30.670><c> thank</c><00:12:31.240><c> you</c><00:12:31.300><c> for</c>
+
+00:12:31.500 --> 00:12:31.510 align:start position:0%
+hope this was clear to you thank you for
+ 
+
+00:12:31.510 --> 00:12:33.440 align:start position:0%
+hope this was clear to you thank you for
+watching<00:12:31.839><c> and</c><00:12:31.990><c> see</c><00:12:32.290><c> you</c><00:12:32.380><c> in</c><00:12:32.440><c> the</c><00:12:32.560><c> next</c><00:12:32.800><c> one</c>
+
+00:12:33.440 --> 00:12:33.450 align:start position:0%
+watching and see you in the next one
+ 
+
+00:12:33.450 --> 00:12:33.690 align:start position:0%
+watching and see you in the next one
+[Music]
+
+00:12:33.690 --> 00:12:33.700 align:start position:0%
+[Music]
+ 
+
+00:12:33.700 --> 00:12:39.210 align:start position:0%
+[Music]
+[Applause]
+
+00:12:39.210 --> 00:12:39.220 align:start position:0%
+ 
+ 
+
+00:12:39.220 --> 00:12:43.860 align:start position:0%
+ 
+you
+
+00:12:43.860 --> 00:12:43.870 align:start position:0%
+ 
+ 
+
+00:12:43.870 --> 00:12:46.019 align:start position:0%
+ 
+[Music]
+

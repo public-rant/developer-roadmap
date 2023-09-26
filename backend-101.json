@@ -1,0 +1,142 @@
+[
+ {
+  "id": "html",
+  "tag": "h1",
+  "text": "HTML"
+ },
+ {
+  "id": "javascript",
+  "tag": "h1",
+  "text": "JavaScript"
+ },
+ {
+  "id": "css",
+  "tag": "h1",
+  "text": "CSS"
+ },
+ {
+  "id": "basic-frontend-knowledge",
+  "tag": "h1",
+  "text": "Basic Frontend Knowledge"
+ },
+ {
+  "href": "https://www.w3schools.com/html/html_intro.asp",
+  "tag": "a",
+  "text": "W3Schools: Learn HTML"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-html",
+  "tag": "a",
+  "text": "Codecademy - Learn HTML"
+ },
+ {
+  "href": "https://github.com/denysdovhan/learnyouhtml",
+  "tag": "a",
+  "text": "Interactive HTML Course"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+  "tag": "a",
+  "text": "HTML Full Course - Build a Website Tutorial"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+  "tag": "a",
+  "text": "HTML Tutorial for Beginners: HTML Crash Course"
+ },
+ {
+  "href": "/javascript",
+  "tag": "a",
+  "text": "Visit Dedicated JavaScript Roadmap"
+ },
+ {
+  "href": "https://www.w3schools.com/js/",
+  "tag": "a",
+  "text": "W3Schools – JavaScript Tutorial"
+ },
+ {
+  "href": "https://javascript.info/",
+  "tag": "a",
+  "text": "The Modern JavaScript Tutorial"
+ },
+ {
+  "href": "https://exploringjs.com/",
+  "tag": "a",
+  "text": "Exploring JS: JavaScript books for programmers"
+ },
+ {
+  "href": "https://youtu.be/hdI2bqOjy3c?t=2",
+  "tag": "a",
+  "text": "JavaScript Crash Course for Beginners"
+ },
+ {
+  "href": "https://youtu.be/P7t13SGytRk?t=22",
+  "tag": "a",
+  "text": "Build a Netflix Landing Page Clone with HTML, CSS \u0026amp; JS"
+ },
+ {
+  "href": "https://www.w3schools.com/css/",
+  "tag": "a",
+  "text": "W3Schools — Learn CSS"
+ },
+ {
+  "href": "https://www.freecodecamp.org/learn/2022/responsive-web-design",
+  "tag": "a",
+  "text": "freeCodeCamp — Responsive Web Design"
+ },
+ {
+  "href": "https://learn.shayhowe.com/html-css/building-your-first-web-page/",
+  "tag": "a",
+  "text": "Learn to Code HTML \u0026amp; CSS"
+ },
+ {
+  "href": "https://flexbox.io/",
+  "tag": "a",
+  "text": "What The Flexbox!"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-css",
+  "tag": "a",
+  "text": "Learn CSS | Codecademy"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-intermediate-css",
+  "tag": "a",
+  "text": "Learn Intermediate CSS | Codecademy"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=yfoY53QXEnI",
+  "tag": "a",
+  "text": "CSS Crash Course For Absolute Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=D-h8L5hgW-w",
+  "tag": "a",
+  "text": "HTML and CSS Tutorial"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=FqmB-Zj2-PA",
+  "tag": "a",
+  "text": "CSS Masterclass - Tutorial \u0026amp; Course for Beginners"
+ },
+ {
+  "href": "https://www.w3schools.com/html/html_intro.asp",
+  "tag": "a",
+  "text": "W3Schools: Learn HTML"
+ },
+ {
+  "href": "https://www.w3schools.com/css/",
+  "tag": "a",
+  "text": "W3Schools: Learn CSS"
+ },
+ {
+  "href": "https://www.w3schools.com/js/",
+  "tag": "a",
+  "text": "W3Schools: JavaScript Tutorial"
+ },
+ {
+  "href": "https://thenewstack.io/category/frontend-dev/",
+  "tag": "a",
+  "text": "Articles about Frontend Development"
+ }
+]

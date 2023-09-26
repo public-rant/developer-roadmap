@@ -1,0 +1,1313 @@
+   #[https://betterprogramming.pub/osd.xml]Medium
+   [android-app://com.medium.reader/https/medium.com/p/f2b70904cc3a]altern
+   ate
+
+   [https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2
+   Ff2b70904cc3a&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderColl
+   ection&source=---two_column_layout_nav---------------------------------
+   -]Open in app
+
+   [https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2F
+   betterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&sourc
+   e=post_page---two_column_layout_nav-----------------------global_nav---
+   --------]Sign up
+
+   [https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fbet
+   terprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&source=p
+   ost_page---two_column_layout_nav-----------------------global_nav------
+   -----]Sign In
+   [https://medium.com/?source=---two_column_layout_nav-------------------
+   ---------------]____________________
+   [https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2F
+   medium.com%2Fnew-story&source=---two_column_layout_nav-----------------
+   ------new_post_topnav-----------]
+   Write
+   [https://medium.com/search?source=---two_column_layout_nav-------------
+   ---------------------]
+
+   [https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2F
+   betterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&sourc
+   e=post_page---two_column_layout_nav-----------------------global_nav---
+   --------]Sign up
+
+   [https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fbet
+   terprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&source=p
+   ost_page---two_column_layout_nav-----------------------global_nav------
+   -----]Sign In
+   (BUTTON)
+
+   (BUTTON)
+
+   Member-only story
+
+How Do You Authenticate, Mate?
+
+A definitive guide to authentication for software developers
+
+   [https://medium.com/@me_shaon?source=post_page-----f2b70904cc3a--------
+   ------------------------]
+   Ahmed shamim hassan
+   [https://betterprogramming.pub/?source=post_page-----f2b70904cc3a------
+   --------------------------]
+   Better Programming
+
+   [https://medium.com/@me_shaon?source=post_page-----f2b70904cc3a--------
+   ------------------------]Ahmed shamim hassan
+   ·
+
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fs
+   ubscribe%2Fuser%2F42d2a133e29f&operation=register&redirect=https%3A%2F%
+   2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&use
+   r=Ahmed+shamim+hassan&userId=42d2a133e29f&source=post_page-42d2a133e29f
+   ----f2b70904cc3a---------------------post_header-----------]Follow
+   Published in
+   [https://betterprogramming.pub/?source=post_page-----f2b70904cc3a------
+   --------------------------]
+
+   Better Programming
+   ·
+   14 min read
+   ·
+   Oct 31, 2017
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2Ff2b70904cc3a&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b7090
+   4cc3a&user=Ahmed+shamim+hassan&userId=42d2a133e29f&source=-----f2b70904
+   cc3a---------------------clap_footer-----------]
+
+   --
+   (BUTTON)
+
+   23
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Ff2b70904cc3a&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&source=
+   -----f2b70904cc3a---------------------bookmark_footer-----------](BUTTO
+   N)
+   (BUTTON)
+
+   Listen
+   (BUTTON)
+
+   Share
+   Photo by
+   [https://unsplash.com/@josenothose?utm_source=unsplash&utm_medium=refer
+   ral&utm_content=creditCopyText]Jose Fontano on
+   [https://unsplash.com/search/photos/padlock?utm_source=unsplash&utm_med
+   ium=referral&utm_content=creditCopyText]Unsplash
+
+   We all know the common procedure for authenticating a user in our
+   application. It’s the old-school method of registering a user with
+   their basic info, such as email, password, etc..
+
+   Then, at the time of login, match the email and password with the
+   previously stored data. If they match we give them access, otherwise we
+   don’t.
+
+   But times have changed and a lot of other authentication methods have
+   been introduced. To stay valuable as a developer in this fast-paced,
+   ever-changing software development world, you need to know about these
+   new methods.
+
+   It’s an undeniable fact that authentication is of the utmost importance
+   in any type of application or system to keep the user’s data safe and
+   have proper access to information.
+
+   To determine which authentication method is best for you requires
+   knowledge of the authentication methods, their trade-offs, and mostly
+   how they work.
+
+   I’ll try to introduce you to the most common and popular methods of
+   authentication currently used.
+
+   It won’t be a detailed technical guide for these methods; more so an
+   attempt to familiarize you with them.
+
+   Although the following topics are discussed with the ‘web’ in mind, the
+   concepts aren’t limited to only the web. These concepts and methods can
+   be useful in other domains too.
+
+   I’m assuming you already know that most of the Internet is built on the
+   [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol]HTTP
+   protocol. You should also already know how a web application works,
+   what it means to authenticate a user to the application and what
+   client-server architecture is.
+
+   Let’s get started.
+
+Session-Based Authentication
+
+   The
+   [https://stackoverflow.com/questions/13200152/why-say-that-http-is-a-st
+   ateless-protocol]HTTP protocol is stateless. This means that, if we
+   authenticate a user with a username and password, on the next request
+   our application won’t know that this is the same person as the previous
+   request.
+
+   We would have to authenticate again. At each request, HTTP doesn’t know
+   anything about what happened before, it just carries the request.
+
+   So, for any request for private data, you would have to log in again to
+   make sure the application knows this is really you. This would be very
+   annoying.
+
+   To avoid this problem, session or cookie-based authentication was
+   introduced.
+
+   It makes the authentication process stateful, meaning that an
+   authentication record or session must be kept at both server and
+   client-side.
+
+   The server needs to keep track of active sessions in a database or
+   memory, while a cookie is created on the front end that holds a session
+   identifier. This is why it’s called cookie-based authentication.
+
+   It is one of the most common and best-known methods of authentication
+   that has been used for a long time.
+
+Basic Flow of Session-Based Authentication
+
+    1. In the browser, the user enters their username and password, and
+       the request goes from the client application to the server.
+    2. Server checks for the user, authenticates it and sends a unique
+       token to the user’s client application. (It also saves this unique
+       token in memory or database)
+    3. The client application stores the token in cookies and sends it
+       back with each subsequent request.
+    4. The server receives every request that requires authentication and
+       uses the token to authenticate the user and returns the requested
+       data back to the client application.
+    5. When someone logs out, the client application removes that token,
+       so that subsequent requests from the client become unauthorized.
+
+   Image source:
+   [https://auth0.com/blog/cookies-vs-tokens-definitive-guide/]auth0 blog
+
+   A few major problems arise with this method of authentication:
+     * Every time a user is authenticated, the server will need to create
+       a record somewhere on the server. This is usually done in memory
+       and when there are many users authenticating, the overhead on the
+       server increases.
+     * As sessions are stored in memory, this causes problems with
+       scalability. If you replicate your server to multiple instances,
+       you have to replicate all of the user sessions to all your servers,
+       which complicates the scalability process. (Although it can be
+       avoided by having a single dedicated server for session management
+       but that is not always feasible and easy to implement.)
+
+Token-Based Authentication
+
+   Token-based authentication has gained prevalence over the last few
+   years due to the rise of single-page applications, web APIs, and the
+   Internet of Things (IoT).
+
+   Tokens used for token-based authentication are mostly
+   [https://jwt.io/introduction/]JSON Web Tokens (JWT). There are
+   different implementations of tokens but JWT has become the de-facto
+   standard.
+
+   Token-based authentication is stateless. We will not store any
+   information about our user on the server or in a session, not even
+   which JWTs have been issued to the clients.
+
+Basic Flow of Token-Based Authentication
+
+    1. User enters their login credentials.
+    2. Server verifies the credentials and returns a signed token (the
+       JWT) which can contain some additional information as metadata,
+       such as user_id, permissions, etc.
+    3. This token is stored client-side, most commonly in local storage,
+       but it can be stored in session storage or a cookie as well.
+    4. Subsequent requests to the server include this token, generally as
+       an additional authorization header in the form of a Bearer, but it
+       can additionally be sent in the body of a POST request, or even as
+       a query parameter.
+    5. The server decodes the JWT, and, if the token is valid, processes
+       the request.
+    6. Once a user logs out, the token is destroyed client-side, no
+       interaction with the server is necessary.
+
+   image source:
+   [https://auth0.com/blog/cookies-vs-tokens-definitive-guide/]auth0 blog
+
+   If you want a more detailed explanation, try
+   [https://medium.com/vandium-software/5-easy-steps-to-understanding-json
+   -web-tokens-jwt-1164c0adfcec]this article.
+
+Benefits of This Method
+
+1. Stateless
+
+   The biggest advantage of this method is that it is completely
+   stateless, the server doesn’t need to store any record of the user
+   tokens/sessions.
+
+   Each token is self-contained, containing all the data required to check
+   its validity, as well as convey user information through claims. That’s
+   why it doesn’t add any complexity in scalability.
+
+2. Store any type of metadata
+
+   With a cookie-based approach, you simply store the session ID in a
+   cookie. JWT’s, on the other hand, allow you to store any type of
+   metadata, as long as it’s valid JSON.
+
+3. Single calls to database
+
+   When using cookie-based authentication, the back end has to do a
+   lookup, whether that be a traditional SQL database or a NoSQL
+   alternative, and the roundtrip is likely to take longer compared to
+   decoding a token.
+
+   Additionally, as you can store additional data inside the JWT, such as
+   the user’s permission level, you can save yourself additional lookup
+   calls to get and process the requested data.
+
+   For example, say you had an API resource /api/orders that retrieves the
+   latest orders placed via your app, but only users with the role of
+   admin have access to view this data.
+
+   In a cookie-based approach, once the request is made you’d have one
+   call to the database to verify that the session is valid, another to
+   get the user data and verify that the user has the role of admin, and
+   finally a third call to get the data.
+
+   On the other hand, with a JWT approach, you can store the user role in
+   the JWT, so once the request is made and the JWT verified, you can make
+   a single call to the database to retrieve the orders.
+
+4. Simpler to implement
+
+   While possible, there are many limitations and considerations for using
+   cookies with mobile platforms.
+
+   Tokens, on the other hand, are much easier to implement on both iOS and
+   Android. Tokens are also easier to implement for Internet-of-Things
+   applications and services that do not have the concept of a cookie
+   store.
+
+   Because of these benefits and the simplified approach, token-based
+   authentication is on the rise.
+
+Passwordless
+
+   The first reaction to the term passwordless authentication may be: “How
+   could someone be authenticated without a password?”
+
+   This is because we’ve had it drilled into our heads that passwords are
+   the ultimate source of protection for our account.
+
+   However, once you dig up some information about it, you might realize
+   that, not only is passwordless authentication safe to use, it might be
+   safer than a traditional username + password login.
+
+   You might also have heard some people say that
+   [https://medium.com/@ninjudd/passwords-are-obsolete-9ed56d483eb]passwor
+   ds are obsolete.
+
+What is Passwordless?
+
+   As you might have guessed already, passwordless authentication is a way
+   to configure login and authenticate users without a password.
+
+   The general idea to implement a passwordless authentication is the
+   following:
+    1. Instead of a user giving an email/username and password, they enter
+       only their email address.
+    2. Your application sends them a one-time-use link to that email,
+       which the user clicks on to be automatically logged in to your
+       website or application.
+    3. In the case of a passwordless login, the app assumes that you will
+       get the login link from your inbox if the email provided is indeed
+       yours.
+
+   There is a similar approach. Instead of sending a one-time-link to the
+   email, it sends a code or one-time-password (OTP) through SMS. But you
+   need to incorporate your application with an SMS service, such as
+   [https://www.twilio.com/]Twilio, to make it work (it will also cost you
+   money).
+
+   Also, it’s good to know that code, or one-time passwords, can be sent
+   to email as well.
+
+   Another less popular (until now, and only available to Apple devices)
+   passwordless process is to use
+   [https://en.wikipedia.org/wiki/Touch_ID]Touch ID, which uses
+   fingerprint for authentication.
+   [https://auth0.com/blog/how-fingerprint-auth-gives-you-security/]This
+   article is a good read about it.
+
+   If you are using [https://slack.com/]Slack, you might already have had
+   a taste of passwordless login.
+   image source:
+   [https://auth0.com/blog/how-to-implement-slack-like-login-on-ios-with-a
+   uth0/]auth0 blog
+
+   Also,
+   [https://blog.medium.com/signing-in-to-medium-by-email-aacc21134fcd]Med
+   ium is giving users access to their site using only email.
+
+   I recently found that [https://auth0.com/passwordless]Auth0 or
+   Facebook’s [https://developers.facebook.com/docs/accountkit/]AccountKit
+   could be good options if you want to implement a passwordless system in
+   your application.
+
+What Can Go Wrong With Passwordless
+
+   If someone has access to the user’s email account, they would have
+   access to their account on your website or application too.
+
+   As developers, securing the user’s email account is not our
+   responsibility; it is the user’s responsibility. Also, if someone gains
+   access to someone’s email account, they could exploit their
+   password-based authenticated applications using the ‘reset-password’
+   feature.
+
+   As this is the user’s responsibility, we will move on.
+
+Benefits of Passwordless
+
+   Before answering that, I ask you to just think about how frequently you
+   use ‘forgot password’ to reset your passwords. Also, the several failed
+   attempts before that to login to a site or application because you
+   couldn’t remember the password?
+
+   You aren’t the only one. It’s no wonder that remembering passwords is
+   hard, especially if you are concerned with your account safety and set
+   a different password for every site,
+   [https://blog.codinghorror.com/password-rules-are-bullshit/]following
+   the at least ‘a number, a capital letter, a symbol, minimum 8 character
+   length rule’.
+
+   Using passwordless authentication will save you from this headache. (I
+   know, you might be thinking: “I use password manager, you idiot”.
+   Respect to you. However, many users may not be as tech-savvy, you need
+   to consider that.)
+
+   It is not only good for users, it’s good for developers too. Now, you
+   don’t need to implement a ‘forgot password’, ‘reset password’ flow.
+   This is a win-win for all.
+
+   If you really think that some of the users might still want to use the
+   age-old email-password login, then you should give both of the options
+   as Slack did, so the users could opt-in.
+   Image source:
+   [https://www.smashingmagazine.com/wp-content/uploads/2016/05/07-slack-o
+   pt.png]smashingmagazine
+
+   Needless to say, passwordless is becoming an increasingly relevant
+   option for login and gaining popularity.
+
+Single Sign-On (SSO)
+
+   Did you notice that, if you log in to any of the Google services, such
+   as your Gmail account, from your browser, and then you go to YouTube or
+   any other Google-based service, you don’t need to separately login?
+
+   You automagically gain access to all of the Google services.
+   Fascinating, isn’t it? Although Gmail and YouTube are both products of
+   Google, they are separate products, right?
+
+   So, how do they authenticate a user after single login to all of their
+   products?
+
+   This method is known as single sign-on (SSO).
+
+   Single sign-on can be achieved in many ways. One way is to make use of
+   a central service which orchestrates the single sign-on between
+   multiple clients.
+
+   In the example of Google, this central service is
+   [https://accounts.google.com/]Google Accounts. When a user first logs
+   in, Google Accounts creates a cookie, which persists with the user as
+   they navigate to other Google-owned services.
+
+   The process flow is as follows:
+    1. The user accesses the first Google product.
+    2. The user receives a Google Accounts-generated cookie.
+    3. The user navigates to another Google product.
+    4. The user is redirected again to Google Accounts.
+    5. Google Accounts sees that the user already has an
+       authentication-related cookie, so it redirects the user to the
+       requested product.
+
+   Single sign-on (SSO) can be described very simply as “user logs in once
+   and gains access to all systems without being prompted to log in again
+   at each of them”.
+
+   This boils down to three different entities who trust each other
+   directly and indirectly.
+
+   A user enters a password (or some other authentication method) to their
+   identity provider (IDP) in order to gain access to a service provider
+   (SP). User trusts IDP, SP trusts IDP, so SP can in-turn trust the user.
+
+   This seems so simple, but custom implementation of this would be very
+   complicated. A detailed explanation of how SSO works can be found in
+   [https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/]this
+   article.
+
+Social Sign-In
+
+   I bet the following image is pretty familiar as you frequently see it
+   in a lot of websites.
+
+   This is the thing famously known as ‘social sign-in’ or ‘social login’.
+
+   Using this, you can authenticate a user based on their social
+   networking accounts. Users don’t need to register separately in your
+   application.
+
+   Social sign-in, or social login, is not technically a different
+   authentication method. Rather, it’s a form of single sign-on which
+   simplifies the registration/login process of a user to your application
+   and that’s why you should know about it (as a developer).
+
+Social Login — Best of Both Worlds
+
+   First of all, for users, the login to your application is just one
+   click away as they can use their existing social network account and
+   don’t need to remember username or password. This results in a rich
+   user experience.
+
+   Also, as a developer, you don’t need to worry about securing the user’s
+   authentication credentials and you are ensured that the user’s email
+   address is already verified (by the social service providers).
+
+   Another bonus point; the social provider will handle the password
+   recovery process. Yay!
+
+How Do I Add Social Login
+
+   As a developer, you need to know a little bit more about the underlying
+   process. Most of the social providers use
+   [https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth]OAut
+   h2 (some use OAuth1, e.g. Twitter) for authorization, as well as
+   authentication mechanisms behind the scenes.
+
+   The key points to understand in OAuth are:
+     * The social provider is the ‘resource server’.
+     * Your application is the ‘client’.
+     * The user trying to login to your application is the ‘resource
+       owner’ because the key ‘resource’ is the user’s
+       profile/authentication information.
+
+   So, when the user wants to log in to your application, using the social
+   provider, your application will redirect them to the social provider
+   for authentication (generally a popup window opens with the social
+   provider’s URL).
+
+   Along with the successful authentication, the user needs to approve
+   your application’s permission to access the user’s profile information
+   from the social provider.
+
+   Then, the social provider will redirect the user back to your
+   application with some form of access token.
+
+   Next time, using that access token, your application can ask the social
+   provider about the user’s profile information. This is how OAuth works
+   in a nutshell (skipping some technical details for clarification).
+
+   To implement social login in your application, you might need to
+   register your application in the social provider’s site, which will
+   give you an app_id and other related keys for configuration to
+   communicate.
+
+   You will get this information in the respective social providers’
+   sites.
+
+   Also, there are several popular libraries and packages (such as
+   [http://passportjs.org/]Passport,
+   [https://github.com/laravel/socialite]Laravel Socialite, etc.) which
+   may simplify the process for you and release you from having to know
+   all the details.
+
+Two-Factor Authentication (2FA):
+
+   Two-factor authentication (2FA) strengthens access security by
+   requiring two methods (also referred to as factors) to verify a user’s
+   identity.
+
+   It is a type of
+   [https://en.wikipedia.org/wiki/Multi-factor_authentication]multi-factor
+   authentication which provides an extra layer of security.
+
+   You might not have realized it before, but when you go to an ATM booth
+   or cash machine to withdraw money, you are being authenticated by a
+   two-factor authentication system.
+
+   You must have the correct combination of the bank card (something you
+   possess) and the PIN (something you know) to be authenticated. If
+   someone steals your ATM card, it is of not much use until they also
+   know your PIN.
+
+   That means, in a two-factor authentication system, a user is granted
+   access only after successfully presenting several separate pieces of
+   evidence to an authentication mechanism.
+
+   Another example you might be familiar with, is the two-step
+   verification of [https://www.google.com/landing/2step/]Google,
+   [https://www.facebook.com/help/148233965247823]Facebook, etc.
+
+   After enabling two-factor authentication in your account, every time
+   you need to login to your account, first you provide the login
+   credentials, such as email or password (verify that you know the
+   credentials).
+
+   Then, a one-time password (OTP) is sent to you through SMS (verify that
+   you possess the device), and you have to enter it correctly to complete
+   your login process.
+
+   If your password has been compromised, your account is still safe, as
+   the attacker cannot complete the second step without having the
+   verification code.
+   image source:
+   [https://dzone.com/articles/implementing-two-factor-authentication-usin
+   g-authe]https://dzone.com/articles/implementing-two-factor-authenticati
+   on-using-authe
+
+   Instead of OTP, another common method is to use the user’s biometric
+   data, such as fingerprints or retina, as a second factor.
+
+   Two-factor authentication is based on the user providing two of the
+   following three somethings:
+    1. Something you know — the password or pin for an account.
+    2. Something you have — a physical device, such as a mobile phone or a
+       software application, that can generate one-time passwords.
+    3. Something you are — a biologically unique feature to you, such as
+       your fingerprints, voice, or retina.
+
+   Finding out the password or pin for an account is what most hackers are
+   after.
+
+   Accessing a physical token generator or getting biological features is
+   harder and the reason of why 2FA is effective in providing greater
+   security for user accounts.
+
+   So, is 2FA the one-size-fits-all solution?
+   [https://medium.com/@the_economist/where-are-the-flaws-in-two-factor-au
+   thentication-5f7a468f41a9]Maybe
+   [https://www.theverge.com/2017/7/10/15946642/two-factor-authentication-
+   online-security-mess]not.
+
+   But, it will help you to strengthen the authentication security in your
+   application.
+
+   How would you implement a 2FA solution in your system? Well, it might
+   be better to use an existing solution, such as
+   [https://auth0.com/learn/two-factor-authentication/]Auth0 or
+   [https://duo.com/]Duo, rather than rolling your own.
+
+Bonus Topic: Authentication vs Authorization
+
+   Some of us might mistakenly use the terms ‘authentication’ and
+   ‘authorization’ interchangeably.
+
+   However, they are not the same thing:
+     * Authentication is the process of verifying who you are. When you
+       log in to an application with a username and password, you are
+       authenticating.
+     * Authorization is the process of verifying that you have access to
+       something. That means the set of permissions you are allowed to. As
+       an example, if you created a resource in an application you might
+       be the only person allowed to remove it (as an owner), other users
+       are not ‘authorized’ to remove this resource.
+
+   Congratulations, you’ve successfully completed reading this long,
+   possibly tedious article.
+
+   Hopefully, you got a brief overview of the topics. If you find any
+   mistakes or think any improvements are needed in this article, please
+   leave a comment.
+   [https://medium.com/tag/authentication?source=post_page-----f2b70904cc3
+   a---------------authentication-----------------]Authentication
+   [https://medium.com/tag/software-development?source=post_page-----f2b70
+   904cc3a---------------software_development-----------------]
+   Software Development
+   [https://medium.com/tag/programming?source=post_page-----f2b70904cc3a--
+   -------------programming-----------------]
+   Programming
+   [https://medium.com/tag/how-do-you-authenticate?source=post_page-----f2
+   b70904cc3a---------------how_do_you_authenticate-----------------]
+   How Do You Authenticate
+   [https://medium.com/tag/software?source=post_page-----f2b70904cc3a-----
+   ----------software-----------------]
+   Software
+
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2Ff2b70904cc3a&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b7090
+   4cc3a&user=Ahmed+shamim+hassan&userId=42d2a133e29f&source=-----f2b70904
+   cc3a---------------------clap_footer-----------]
+
+   --
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2Ff2b70904cc3a&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b7090
+   4cc3a&user=Ahmed+shamim+hassan&userId=42d2a133e29f&source=-----f2b70904
+   cc3a---------------------clap_footer-----------]
+
+   --
+   (BUTTON)
+
+   23
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Ff2b70904cc3a&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&source=
+   --------------------------bookmark_footer-----------](BUTTON)
+   (BUTTON)
+   [https://medium.com/@me_shaon?source=post_page-----f2b70904cc3a--------
+   ------------------------]
+   Ahmed shamim hassan
+   [https://betterprogramming.pub/?source=post_page-----f2b70904cc3a------
+   --------------------------]
+   Better Programming
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fs
+   ubscribe%2Fuser%2F42d2a133e29f&operation=register&redirect=https%3A%2F%
+   2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&use
+   r=Ahmed+shamim+hassan&userId=42d2a133e29f&source=post_page-42d2a133e29f
+   ----f2b70904cc3a---------------------follow_profile-----------]Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2Fc0aee05e7632&operation=register&redirect=https%3A%2F%2Fbette
+   rprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&newsletter
+   V3=42d2a133e29f&newsletterV3Id=c0aee05e7632&user=Ahmed+shamim+hassan&us
+   erId=42d2a133e29f&source=-----f2b70904cc3a---------------------subscrib
+   e_user-----------](BUTTON)
+   [https://medium.com/@me_shaon?source=post_page-----f2b70904cc3a--------
+   ------------------------]
+
+Written by Ahmed shamim hassan
+
+   [https://medium.com/@me_shaon/followers?source=post_page-----f2b70904cc
+   3a--------------------------------]2.8K Followers
+   ·Writer for
+   [https://betterprogramming.pub/?source=post_page-----f2b70904cc3a------
+   --------------------------]
+
+   Better Programming
+
+   Curious mind. Software Engineer. Polyglot programmer. Avid learner.
+   Average person.
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fs
+   ubscribe%2Fuser%2F42d2a133e29f&operation=register&redirect=https%3A%2F%
+   2Fbetterprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&use
+   r=Ahmed+shamim+hassan&userId=42d2a133e29f&source=post_page-42d2a133e29f
+   ----f2b70904cc3a---------------------follow_profile-----------]Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2Fc0aee05e7632&operation=register&redirect=https%3A%2F%2Fbette
+   rprogramming.pub%2Fhow-do-you-authenticate-mate-f2b70904cc3a&newsletter
+   V3=42d2a133e29f&newsletterV3Id=c0aee05e7632&user=Ahmed+shamim+hassan&us
+   erId=42d2a133e29f&source=-----f2b70904cc3a---------------------subscrib
+   e_user-----------](BUTTON)
+
+More from Ahmed shamim hassan and Better Programming
+
+   [https://betterprogramming.pub/observer-vs-pub-sub-pattern-50d3b27f838c
+   ?source=author_recirc-----f2b70904cc3a----0---------------------eaf3340
+   f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   Observer vs Pub-Sub Pattern
+   [https://medium.com/@me_shaon?source=author_recirc-----f2b70904cc3a----
+   0---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   Ahmed shamim hassan
+   [https://medium.com/@me_shaon?source=author_recirc-----f2b70904cc3a----
+   0---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Ahmed shamim hassan
+
+   in
+   [https://betterprogramming.pub/?source=author_recirc-----f2b70904cc3a--
+   --0---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Better Programming
+   [https://betterprogramming.pub/observer-vs-pub-sub-pattern-50d3b27f838c
+   ?source=author_recirc-----f2b70904cc3a----0---------------------eaf3340
+   f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+Observer vs Pub-Sub Pattern
+
+I was once asked in an interview, “what is the difference between the
+Observer pattern and Pub-Sub pattern?” I immediately figured that…
+
+   [https://betterprogramming.pub/observer-vs-pub-sub-pattern-50d3b27f838c
+   ?source=author_recirc-----f2b70904cc3a----0---------------------eaf3340
+   f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   (BUTTON)
+   ·4 min read·Oct 29, 2017
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2F50d3b27f838c&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fobserver-vs-pub-sub-pattern-50d3b27f
+   838c&user=Ahmed+shamim+hassan&userId=42d2a133e29f&source=-----50d3b27f8
+   38c----0-----------------clap_footer----eaf3340f_606c_47f2_9c6a_5f9df91
+   e6b9c-------]
+
+   --
+   [https://betterprogramming.pub/observer-vs-pub-sub-pattern-50d3b27f838c
+   ?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_recirc-----f2b70
+   904cc3a----0---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c--
+   -----]
+
+   46
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F50d3b27f838c&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Fobserver-vs-pub-sub-pattern-50d3b27f838c&source=-
+   ----f2b70904cc3a----0-----------------bookmark_preview----eaf3340f_606c
+   _47f2_9c6a_5f9df91e6b9c-------]
+
+   [https://betterprogramming.pub/private-llms-on-local-and-in-the-cloud-w
+   ith-langchain-gpt4all-and-cerebrium-6dade79f45f6?source=author_recirc--
+   ---f2b70904cc3a----1---------------------eaf3340f_606c_47f2_9c6a_5f9df9
+   1e6b9c-------]Private LLMs on Your Local Machine and in the Cloud With
+   LangChain, GPT4All, and Cerebrium
+   [https://medium.com/@ssmaameri?source=author_recirc-----f2b70904cc3a---
+   -1---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   Sami Maameri
+   [https://medium.com/@ssmaameri?source=author_recirc-----f2b70904cc3a---
+   -1---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Sami Maameri
+
+   in
+   [https://betterprogramming.pub/?source=author_recirc-----f2b70904cc3a--
+   --1---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Better Programming
+   [https://betterprogramming.pub/private-llms-on-local-and-in-the-cloud-w
+   ith-langchain-gpt4all-and-cerebrium-6dade79f45f6?source=author_recirc--
+   ---f2b70904cc3a----1---------------------eaf3340f_606c_47f2_9c6a_5f9df9
+   1e6b9c-------]
+
+Private LLMs on Your Local Machine and in the Cloud With LangChain, GPT4All,
+and Cerebrium
+
+The idea of private LLMs resonates with us for sure. The appeal is that we
+can query and pass information to LLMs without our data or…
+
+   [https://betterprogramming.pub/private-llms-on-local-and-in-the-cloud-w
+   ith-langchain-gpt4all-and-cerebrium-6dade79f45f6?source=author_recirc--
+   ---f2b70904cc3a----1---------------------eaf3340f_606c_47f2_9c6a_5f9df9
+   1e6b9c-------]
+   17 min read·Jun 15
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2F6dade79f45f6&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fprivate-llms-on-local-and-in-the-clo
+   ud-with-langchain-gpt4all-and-cerebrium-6dade79f45f6&user=Sami+Maameri&
+   userId=635d63fbdaf2&source=-----6dade79f45f6----1-----------------clap_
+   footer----eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   --
+   [https://betterprogramming.pub/private-llms-on-local-and-in-the-cloud-w
+   ith-langchain-gpt4all-and-cerebrium-6dade79f45f6?responsesOpen=true&sor
+   tBy=REVERSE_CHRON&source=author_recirc-----f2b70904cc3a----1-----------
+   ----------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   6
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F6dade79f45f6&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Fprivate-llms-on-local-and-in-the-cloud-with-langc
+   hain-gpt4all-and-cerebrium-6dade79f45f6&source=-----f2b70904cc3a----1--
+   ---------------bookmark_preview----eaf3340f_606c_47f2_9c6a_5f9df91e6b9c
+   -------]
+
+   [https://betterprogramming.pub/architecture-of-modern-startup-abaec235c
+   2eb?source=author_recirc-----f2b70904cc3a----2---------------------eaf3
+   340f_606c_47f2_9c6a_5f9df91e6b9c-------]The Architecture of a Modern
+   Startup
+   [https://medium.com/@kruglov.dmitry?source=author_recirc-----f2b70904cc
+   3a----2---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------
+   ]
+   Dmitry Kruglov
+   [https://medium.com/@kruglov.dmitry?source=author_recirc-----f2b70904cc
+   3a----2---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------
+   ]
+
+   Dmitry Kruglov
+
+   in
+   [https://betterprogramming.pub/?source=author_recirc-----f2b70904cc3a--
+   --2---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Better Programming
+   [https://betterprogramming.pub/architecture-of-modern-startup-abaec235c
+   2eb?source=author_recirc-----f2b70904cc3a----2---------------------eaf3
+   340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+The Architecture of a Modern Startup
+
+Hype wave, pragmatic evidence vs the need to move fast
+
+   [https://betterprogramming.pub/architecture-of-modern-startup-abaec235c
+   2eb?source=author_recirc-----f2b70904cc3a----2---------------------eaf3
+   340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   16 min read·Nov 7, 2022
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2Fabaec235c2eb&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Farchitecture-of-modern-startup-abaec
+   235c2eb&user=Dmitry+Kruglov&userId=e258c2403b06&source=-----abaec235c2e
+   b----2-----------------clap_footer----eaf3340f_606c_47f2_9c6a_5f9df91e6
+   b9c-------]
+
+   --
+   [https://betterprogramming.pub/architecture-of-modern-startup-abaec235c
+   2eb?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_recirc-----f2
+   b70904cc3a----2---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9
+   c-------]
+
+   29
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Fabaec235c2eb&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Farchitecture-of-modern-startup-abaec235c2eb&sourc
+   e=-----f2b70904cc3a----2-----------------bookmark_preview----eaf3340f_6
+   06c_47f2_9c6a_5f9df91e6b9c-------]
+
+   [https://betterprogramming.pub/probabilistic-data-structures-bloom-filt
+   er-5374112a7832?source=author_recirc-----f2b70904cc3a----3-------------
+   --------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]Probabilistic Data
+   Structures: Bloom filter
+   [https://medium.com/@me_shaon?source=author_recirc-----f2b70904cc3a----
+   3---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   Ahmed shamim hassan
+   [https://medium.com/@me_shaon?source=author_recirc-----f2b70904cc3a----
+   3---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Ahmed shamim hassan
+
+   in
+   [https://betterprogramming.pub/?source=author_recirc-----f2b70904cc3a--
+   --3---------------------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+   Better Programming
+   [https://betterprogramming.pub/probabilistic-data-structures-bloom-filt
+   er-5374112a7832?source=author_recirc-----f2b70904cc3a----3-------------
+   --------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+
+Probabilistic Data Structures: Bloom filter
+
+Understanding one of the most popular probabilistic data structures
+
+   [https://betterprogramming.pub/probabilistic-data-structures-bloom-filt
+   er-5374112a7832?source=author_recirc-----f2b70904cc3a----3-------------
+   --------eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------]
+   (BUTTON)
+   ·12 min read·Dec 9, 2017
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fbetter-programming%2F5374112a7832&operation=register&redirect=htt
+   ps%3A%2F%2Fbetterprogramming.pub%2Fprobabilistic-data-structures-bloom-
+   filter-5374112a7832&user=Ahmed+shamim+hassan&userId=42d2a133e29f&source
+   =-----5374112a7832----3-----------------clap_footer----eaf3340f_606c_47
+   f2_9c6a_5f9df91e6b9c-------]
+
+   --
+   [https://betterprogramming.pub/probabilistic-data-structures-bloom-filt
+   er-5374112a7832?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_r
+   ecirc-----f2b70904cc3a----3---------------------eaf3340f_606c_47f2_9c6a
+   _5f9df91e6b9c-------]
+
+   11
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F5374112a7832&operation=register&redirect=https%3A%2F%2Fbe
+   tterprogramming.pub%2Fprobabilistic-data-structures-bloom-filter-537411
+   2a7832&source=-----f2b70904cc3a----3-----------------bookmark_preview--
+   --eaf3340f_606c_47f2_9c6a_5f9df91e6b9c-------][https://medium.com/@me_s
+   haon?source=post_page-----f2b70904cc3a--------------------------------]
+   See all from Ahmed shamim hassan
+   [https://betterprogramming.pub/?source=post_page-----f2b70904cc3a------
+   --------------------------]
+   See all from Better Programming
+
+Recommended from Medium
+
+   [https://blog.devgenius.io/system-design-blueprint-the-ultimate-guide-e
+   27b914bf8f1?source=read_next_recirc-----f2b70904cc3a----0--------------
+   -------160567db_547e_4534_b503_e38592f3dc44-------]
+   System Design Blueprint: The Ultimate Guide
+   [https://zonito.medium.com/?source=read_next_recirc-----f2b70904cc3a---
+   -0---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+   Love Sharma
+   [https://zonito.medium.com/?source=read_next_recirc-----f2b70904cc3a---
+   -0---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   Love Sharma
+
+   in
+   [https://blog.devgenius.io/?source=read_next_recirc-----f2b70904cc3a---
+   -0---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   Dev Genius
+   [https://blog.devgenius.io/system-design-blueprint-the-ultimate-guide-e
+   27b914bf8f1?source=read_next_recirc-----f2b70904cc3a----0--------------
+   -------160567db_547e_4534_b503_e38592f3dc44-------]
+
+System Design Blueprint: The Ultimate Guide
+
+Developing a robust, scalable, and efficient system can be daunting. However,
+understanding the key concepts and components can make the…
+
+   [https://blog.devgenius.io/system-design-blueprint-the-ultimate-guide-e
+   27b914bf8f1?source=read_next_recirc-----f2b70904cc3a----0--------------
+   -------160567db_547e_4534_b503_e38592f3dc44-------]
+   (BUTTON)
+   ·9 min read·Apr 20
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fdev-genius%2Fe27b914bf8f1&operation=register&redirect=https%3A%2F
+   %2Fblog.devgenius.io%2Fsystem-design-blueprint-the-ultimate-guide-e27b9
+   14bf8f1&user=Love+Sharma&userId=297e16e76b8&source=-----e27b914bf8f1---
+   -0-----------------clap_footer----160567db_547e_4534_b503_e38592f3dc44-
+   ------]
+
+   --
+   [https://blog.devgenius.io/system-design-blueprint-the-ultimate-guide-e
+   27b914bf8f1?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_next_re
+   circ-----f2b70904cc3a----0---------------------160567db_547e_4534_b503_
+   e38592f3dc44-------]
+
+   45
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Fe27b914bf8f1&operation=register&redirect=https%3A%2F%2Fbl
+   og.devgenius.io%2Fsystem-design-blueprint-the-ultimate-guide-e27b914bf8
+   f1&source=-----f2b70904cc3a----0-----------------bookmark_preview----16
+   0567db_547e_4534_b503_e38592f3dc44-------]
+
+   [https://bootcamp.uxdesign.cc/revitalizing-your-authentication-a-guide-
+   to-implementing-refresh-tokens-in-javascript-712dc273a136?source=read_n
+   ext_recirc-----f2b70904cc3a----1---------------------160567db_547e_4534
+   _b503_e38592f3dc44-------]A Guide to Implementing Refresh Tokens in
+   JavaScript
+   [https://medium.com/@FrontendJirachi?source=read_next_recirc-----f2b709
+   04cc3a----1---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+   Frontend Jirachi
+   [https://medium.com/@FrontendJirachi?source=read_next_recirc-----f2b709
+   04cc3a----1---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+
+   Frontend Jirachi
+
+   in
+   [https://bootcamp.uxdesign.cc/?source=read_next_recirc-----f2b70904cc3a
+   ----1---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   Bootcamp
+   [https://bootcamp.uxdesign.cc/revitalizing-your-authentication-a-guide-
+   to-implementing-refresh-tokens-in-javascript-712dc273a136?source=read_n
+   ext_recirc-----f2b70904cc3a----1---------------------160567db_547e_4534
+   _b503_e38592f3dc44-------]
+
+A Guide to Implementing Refresh Tokens in JavaScript
+
+Introduction
+
+   [https://bootcamp.uxdesign.cc/revitalizing-your-authentication-a-guide-
+   to-implementing-refresh-tokens-in-javascript-712dc273a136?source=read_n
+   ext_recirc-----f2b70904cc3a----1---------------------160567db_547e_4534
+   _b503_e38592f3dc44-------]
+   (BUTTON)
+   ·10 min read·Jan 17
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fdesign-bootcamp%2F712dc273a136&operation=register&redirect=https%
+   3A%2F%2Fbootcamp.uxdesign.cc%2Frevitalizing-your-authentication-a-guide
+   -to-implementing-refresh-tokens-in-javascript-712dc273a136&user=Fronten
+   d+Jirachi&userId=1d7d54ca4336&source=-----712dc273a136----1------------
+   -----clap_footer----160567db_547e_4534_b503_e38592f3dc44-------]
+
+   --
+   [https://bootcamp.uxdesign.cc/revitalizing-your-authentication-a-guide-
+   to-implementing-refresh-tokens-in-javascript-712dc273a136?responsesOpen
+   =true&sortBy=REVERSE_CHRON&source=read_next_recirc-----f2b70904cc3a----
+   1---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   1
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F712dc273a136&operation=register&redirect=https%3A%2F%2Fbo
+   otcamp.uxdesign.cc%2Frevitalizing-your-authentication-a-guide-to-implem
+   enting-refresh-tokens-in-javascript-712dc273a136&source=-----f2b70904cc
+   3a----1-----------------bookmark_preview----160567db_547e_4534_b503_e38
+   592f3dc44-------]
+
+Lists
+
+   [https://medium.com/@eddiebarth/list/general-coding-knowledge-f2d429d4f
+   0cd?source=read_next_recirc-----f2b70904cc3a---------------------------
+   -----]
+
+General Coding Knowledge
+
+   20 stories·59 saves
+   [https://medium.com/@coffee_bytes/list/its-never-too-late-or-early-to-s
+   tart-something-eb57cf05d028?source=read_next_recirc-----f2b70904cc3a---
+   -----------------------------]
+   woman standing in front of projection of code on a screen
+
+It's never too late or early to start something
+
+   10 stories·19 saves
+   [https://medium.com/@jscribes/list/coding-development-e360d380bb82?sour
+   ce=read_next_recirc-----f2b70904cc3a--------------------------------]
+
+Coding & Development
+
+   11 stories·38 saves
+   [https://medium.com/@MediumStaff/list/stories-to-help-you-grow-as-a-sof
+   tware-developer-b1d913188c20?source=read_next_recirc-----f2b70904cc3a--
+   ------------------------------]
+
+Stories to Help You Grow as a Software Developer
+
+   19 stories·162 saves
+
+   [https://levelup.gitconnected.com/the-ultimate-guide-for-implementing-r
+   efresh-token-with-axios-bad47d0bfa05?source=read_next_recirc-----f2b709
+   04cc3a----0---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+   The Ultimate Guide for Implementing Refresh Token with Axios
+   [https://guivin.medium.com/?source=read_next_recirc-----f2b70904cc3a---
+   -0---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+   Guillaume Vincent
+   [https://guivin.medium.com/?source=read_next_recirc-----f2b70904cc3a---
+   -0---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   Guillaume Vincent
+
+   in
+   [https://levelup.gitconnected.com/?source=read_next_recirc-----f2b70904
+   cc3a----0---------------------160567db_547e_4534_b503_e38592f3dc44-----
+   --]
+
+   Level Up Coding
+   [https://levelup.gitconnected.com/the-ultimate-guide-for-implementing-r
+   efresh-token-with-axios-bad47d0bfa05?source=read_next_recirc-----f2b709
+   04cc3a----0---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+
+The Ultimate Guide for Implementing Refresh Token with Axios
+
+Learn how to use Axios in Node.js to implement a secure and efficient refresh
+token mechanism for your application
+
+   [https://levelup.gitconnected.com/the-ultimate-guide-for-implementing-r
+   efresh-token-with-axios-bad47d0bfa05?source=read_next_recirc-----f2b709
+   04cc3a----0---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+   (BUTTON)
+   ·4 min read·Jan 24
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fgitconnected%2Fbad47d0bfa05&operation=register&redirect=https%3A%
+   2F%2Flevelup.gitconnected.com%2Fthe-ultimate-guide-for-implementing-ref
+   resh-token-with-axios-bad47d0bfa05&user=Guillaume+Vincent&userId=9c3016
+   42b4c4&source=-----bad47d0bfa05----0-----------------clap_footer----160
+   567db_547e_4534_b503_e38592f3dc44-------]
+
+   --
+   [https://levelup.gitconnected.com/the-ultimate-guide-for-implementing-r
+   efresh-token-with-axios-bad47d0bfa05?responsesOpen=true&sortBy=REVERSE_
+   CHRON&source=read_next_recirc-----f2b70904cc3a----0--------------------
+   -160567db_547e_4534_b503_e38592f3dc44-------]
+
+   2
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Fbad47d0bfa05&operation=register&redirect=https%3A%2F%2Fle
+   velup.gitconnected.com%2Fthe-ultimate-guide-for-implementing-refresh-to
+   ken-with-axios-bad47d0bfa05&source=-----f2b70904cc3a----0--------------
+   ---bookmark_preview----160567db_547e_4534_b503_e38592f3dc44-------]
+
+   [https://levelup.gitconnected.com/to-be-a-great-software-developer-you-
+   need-a-system-d4f461658743?source=read_next_recirc-----f2b70904cc3a----
+   1---------------------160567db_547e_4534_b503_e38592f3dc44-------]To Be
+   A Great Software Developer —  You Need a System
+   [https://medium.com/@geekgirl907?source=read_next_recirc-----f2b70904cc
+   3a----1---------------------160567db_547e_4534_b503_e38592f3dc44-------
+   ]
+   Julie Perilla Garcia
+   [https://medium.com/@geekgirl907?source=read_next_recirc-----f2b70904cc
+   3a----1---------------------160567db_547e_4534_b503_e38592f3dc44-------
+   ]
+
+   Julie Perilla Garcia
+
+   in
+   [https://levelup.gitconnected.com/?source=read_next_recirc-----f2b70904
+   cc3a----1---------------------160567db_547e_4534_b503_e38592f3dc44-----
+   --]
+
+   Level Up Coding
+   [https://levelup.gitconnected.com/to-be-a-great-software-developer-you-
+   need-a-system-d4f461658743?source=read_next_recirc-----f2b70904cc3a----
+   1---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+To Be A Great Software Developer —  You Need a System
+
+Here’s how to build one.
+
+   [https://levelup.gitconnected.com/to-be-a-great-software-developer-you-
+   need-a-system-d4f461658743?source=read_next_recirc-----f2b70904cc3a----
+   1---------------------160567db_547e_4534_b503_e38592f3dc44-------]
+   (BUTTON)
+   ·7 min read·Jun 23
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fgitconnected%2Fd4f461658743&operation=register&redirect=https%3A%
+   2F%2Flevelup.gitconnected.com%2Fto-be-a-great-software-developer-you-ne
+   ed-a-system-d4f461658743&user=Julie+Perilla+Garcia&userId=ca65158881a5&
+   source=-----d4f461658743----1-----------------clap_footer----160567db_5
+   47e_4534_b503_e38592f3dc44-------]
+
+   --
+   [https://levelup.gitconnected.com/to-be-a-great-software-developer-you-
+   need-a-system-d4f461658743?responsesOpen=true&sortBy=REVERSE_CHRON&sour
+   ce=read_next_recirc-----f2b70904cc3a----1---------------------160567db_
+   547e_4534_b503_e38592f3dc44-------]
+
+   25
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2Fd4f461658743&operation=register&redirect=https%3A%2F%2Fle
+   velup.gitconnected.com%2Fto-be-a-great-software-developer-you-need-a-sy
+   stem-d4f461658743&source=-----f2b70904cc3a----1-----------------bookmar
+   k_preview----160567db_547e_4534_b503_e38592f3dc44-------]
+
+   [https://uxdesign.cc/how-and-should-we-stop-the-infinite-scroll-66141fc
+   b0768?source=read_next_recirc-----f2b70904cc3a----2--------------------
+   -160567db_547e_4534_b503_e38592f3dc44-------]GIF: an animated thumb
+   scrolls endlessly on a phone with gray, blank content.
+   [https://daley-wilhelm.medium.com/?source=read_next_recirc-----f2b70904
+   cc3a----2---------------------160567db_547e_4534_b503_e38592f3dc44-----
+   --]
+   Daley Wilhelm
+   [https://daley-wilhelm.medium.com/?source=read_next_recirc-----f2b70904
+   cc3a----2---------------------160567db_547e_4534_b503_e38592f3dc44-----
+   --]
+
+   Daley Wilhelm
+
+   in
+   [https://uxdesign.cc/?source=read_next_recirc-----f2b70904cc3a----2----
+   -----------------160567db_547e_4534_b503_e38592f3dc44-------]
+
+   UX Collective
+   [https://uxdesign.cc/how-and-should-we-stop-the-infinite-scroll-66141fc
+   b0768?source=read_next_recirc-----f2b70904cc3a----2--------------------
+   -160567db_547e_4534_b503_e38592f3dc44-------]
+
+How (and should?) we stop the infinite scroll
+
+Is endless scrolling evil? How can we balance ease-of-use with what’s best
+for humanity?
+
+   [https://uxdesign.cc/how-and-should-we-stop-the-infinite-scroll-66141fc
+   b0768?source=read_next_recirc-----f2b70904cc3a----2--------------------
+   -160567db_547e_4534_b503_e38592f3dc44-------]
+   (BUTTON)
+   ·11 min read·Jun 14
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fuser-experience-design-1%2F66141fcb0768&operation=register&redire
+   ct=https%3A%2F%2Fuxdesign.cc%2Fhow-and-should-we-stop-the-infinite-scro
+   ll-66141fcb0768&user=Daley+Wilhelm&userId=8ab653ea27a6&source=-----6614
+   1fcb0768----2-----------------clap_footer----160567db_547e_4534_b503_e3
+   8592f3dc44-------]
+
+   --
+   [https://uxdesign.cc/how-and-should-we-stop-the-infinite-scroll-66141fc
+   b0768?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_next_recirc--
+   ---f2b70904cc3a----2---------------------160567db_547e_4534_b503_e38592
+   f3dc44-------]
+
+   52
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F66141fcb0768&operation=register&redirect=https%3A%2F%2Fux
+   design.cc%2Fhow-and-should-we-stop-the-infinite-scroll-66141fcb0768&sou
+   rce=-----f2b70904cc3a----2-----------------bookmark_preview----160567db
+   _547e_4534_b503_e38592f3dc44-------]
+
+   [https://levelup.gitconnected.com/javascripts-shorthand-syntax-that-eve
+   ry-developer-should-know-50d9d4549065?source=read_next_recirc-----f2b70
+   904cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44--
+   -----]JavaScript’s Shorthand Syntax That Every Developer Should Know
+   [https://shalithasuranga.medium.com/?source=read_next_recirc-----f2b709
+   04cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+   Shalitha Suranga
+   [https://shalithasuranga.medium.com/?source=read_next_recirc-----f2b709
+   04cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44---
+   ----]
+
+   Shalitha Suranga
+
+   in
+   [https://levelup.gitconnected.com/?source=read_next_recirc-----f2b70904
+   cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44-----
+   --]
+
+   Level Up Coding
+   [https://levelup.gitconnected.com/javascripts-shorthand-syntax-that-eve
+   ry-developer-should-know-50d9d4549065?source=read_next_recirc-----f2b70
+   904cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44--
+   -----]
+
+JavaScript’s Shorthand Syntax That Every Developer Should Know
+
+Make your codebases more futuristic and minimal with these techniques
+
+   [https://levelup.gitconnected.com/javascripts-shorthand-syntax-that-eve
+   ry-developer-should-know-50d9d4549065?source=read_next_recirc-----f2b70
+   904cc3a----3---------------------160567db_547e_4534_b503_e38592f3dc44--
+   -----]
+   (BUTTON)
+   ·7 min read·Jun 28
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fv
+   ote%2Fgitconnected%2F50d9d4549065&operation=register&redirect=https%3A%
+   2F%2Flevelup.gitconnected.com%2Fjavascripts-shorthand-syntax-that-every
+   -developer-should-know-50d9d4549065&user=Shalitha+Suranga&userId=ce00b3
+   e87ebf&source=-----50d9d4549065----3-----------------clap_footer----160
+   567db_547e_4534_b503_e38592f3dc44-------]
+
+   --
+   [https://levelup.gitconnected.com/javascripts-shorthand-syntax-that-eve
+   ry-developer-should-know-50d9d4549065?responsesOpen=true&sortBy=REVERSE
+   _CHRON&source=read_next_recirc-----f2b70904cc3a----3-------------------
+   --160567db_547e_4534_b503_e38592f3dc44-------]
+
+   3
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fb
+   ookmark%2Fp%2F50d9d4549065&operation=register&redirect=https%3A%2F%2Fle
+   velup.gitconnected.com%2Fjavascripts-shorthand-syntax-that-every-develo
+   per-should-know-50d9d4549065&source=-----f2b70904cc3a----3-------------
+   ----bookmark_preview----160567db_547e_4534_b503_e38592f3dc44-------][ht
+   tps://medium.com/?source=post_page-----f2b70904cc3a--------------------
+   ------------]See more recommendations
+   [https://help.medium.com/hc/en-us?source=post_page-----f2b70904cc3a----
+   ----------------------------]
+
+   Help
+   [https://medium.statuspage.io/?source=post_page-----f2b70904cc3a-------
+   -------------------------]
+
+   Status
+   [https://about.medium.com/creators/?source=post_page-----f2b70904cc3a--
+   ------------------------------]
+
+   Writers
+   [https://blog.medium.com/?source=post_page-----f2b70904cc3a------------
+   --------------------]
+
+   Blog
+   [https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=p
+   ost_page-----f2b70904cc3a--------------------------------]
+
+   Careers
+   [https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=po
+   st_page-----f2b70904cc3a--------------------------------]
+
+   Privacy
+   [https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=
+   post_page-----f2b70904cc3a--------------------------------]
+
+   Terms
+   [https://medium.com/about?autoplay=1&source=post_page-----f2b70904cc3a-
+   -------------------------------]
+
+   About
+   [https://speechify.com/medium?source=post_page-----f2b70904cc3a--------
+   ------------------------]
+
+   Text to speech
+   [https://medium.com/business?source=post_page-----f2b70904cc3a---------
+   -----------------------]
+
+   Teams

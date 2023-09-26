@@ -1,0 +1,421 @@
+   #[https://en.m.wikipedia.org/wiki/Key%E2%80%93value_database]alternate
+   [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_database&
+   action=edit]Edit this page
+   [https://en.wikipedia.org/w/opensearch_desc.php]Wikipedia (en)
+   [https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=
+   atom]Wikipedia Atom feed
+
+   [https://en.wikipedia.org/wiki/Key-value_database#bodyContent]Jump to
+   content
+
+   [ ] Main menu
+   Main menu
+   (BUTTON) move to sidebar (BUTTON) hide
+   Navigation
+     * [https://en.wikipedia.org/wiki/Main_Page]Main page
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contents]Contents
+     * [https://en.wikipedia.org/wiki/Portal:Current_events]Current events
+     * [https://en.wikipedia.org/wiki/Special:Random]Random article
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact us
+     * [https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm
+       _source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org
+       &uselang=en]Donate
+
+   Contribute
+     * [https://en.wikipedia.org/wiki/Help:Contents]Help
+     * [https://en.wikipedia.org/wiki/Help:Introduction]Learn to edit
+     * [https://en.wikipedia.org/wiki/Wikipedia:Community_portal]Community
+       portal
+     * [https://en.wikipedia.org/wiki/Special:RecentChanges]Recent changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard]Upload
+       file
+
+   Languages
+   Language links are at the top of the page across from the title.
+   [https://en.wikipedia.org/wiki/Main_Page]Wikipedia The Free
+   Encyclopedia
+   [https://en.wikipedia.org/wiki/Special:Search]Search
+   ____________________
+   (BUTTON) Search
+
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Key%E2%80%93value+database]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Key%E2%80%93value+database]Log in
+
+   [ ] Personal tools
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Key%E2%80%93value+database]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Key%E2%80%93value+database]Log in
+
+   Pages for logged out editors
+   [https://en.wikipedia.org/wiki/Help:Introduction]learn more
+     * [https://en.wikipedia.org/wiki/Special:MyContributions]Contribution
+       s
+     * [https://en.wikipedia.org/wiki/Special:MyTalk]Talk
+
+   [ ]
+
+Contents
+
+   (BUTTON) move to sidebar (BUTTON) hide
+     * [https://en.wikipedia.org/wiki/Key-value_database](Top)
+     * [https://en.wikipedia.org/wiki/Key-value_database#Types_and_example
+       s]1Types and examples
+     * [https://en.wikipedia.org/wiki/Key-value_database#See_also]2See
+       also
+     * [https://en.wikipedia.org/wiki/Key-value_database#References]3Refer
+       ences
+
+   Toggle the table of contents
+
+   [ ] Toggle the table of contents
+
+Key–value database
+
+   [ ] 10 languages
+     * [https://de.wikipedia.org/wiki/Schl%C3%BCssel-Werte-Datenbank]Deuts
+       ch
+     * [https://es.wikipedia.org/wiki/Base_de_datos_clave-valor]Español
+     * [https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87
+       _%D8%AF%D8%A7%D8%AF%D9%87_%DA%A9%D9%84%DB%8C%D8%AF%E2%80%93%D9%85%D
+       9%82%D8%AF%D8%A7%D8%B1]فارسی
+     * [https://fr.wikipedia.org/wiki/Bases_de_donn%C3%A9es_cl%C3%A9-valeu
+       r]Français
+     * [https://ko.wikipedia.org/wiki/%ED%82%A4-%EA%B0%92_%EB%8D%B0%EC%9D%
+       B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4]한국어
+     * [https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%BC%E3%83%90%E3%83%AA
+       %E3%83%A5%E3%83%BC%E5%9E%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%
+       83%BC%E3%82%B9]日本語
+     * [https://pt.wikipedia.org/wiki/Banco_de_dados_de_chave-valor]Portug
+       uês
+     * [https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B
+       0%D0%BD%D0%BD%D1%8B%D1%85_%C2%AB%D0%BA%D0%BB%D1%8E%D1%87_%E2%80%94_
+       %D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%C2%BB]Русский
+     * [https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%B7%D0%B0_%D0%B4%D0%B
+       0%D0%BD%D0%B8%D1%85_%C2%AB%D0%BA%D0%BB%D1%8E%D1%87%E2%80%94%D0%B7%D
+       0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F%C2%BB]Українська
+     * [https://zh.wikipedia.org/wiki/%E9%94%AE-%E5%80%BC%E5%AD%98%E5%82%A
+       8]中文
+
+   [https://www.wikidata.org/wiki/Special:EntityPage/Q20706915#sitelinks-w
+   ikipedia]Edit links
+
+     * [https://en.wikipedia.org/wiki/Key%E2%80%93value_database]Article
+     * [https://en.wikipedia.org/wiki/Talk:Key%E2%80%93value_database]Talk
+
+   [ ] English
+
+     * [https://en.wikipedia.org/wiki/Key%E2%80%93value_database]Read
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&action=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&action=history]View history
+
+   [ ] Tools
+   Tools
+   (BUTTON) move to sidebar (BUTTON) hide
+   Actions
+     * [https://en.wikipedia.org/wiki/Key%E2%80%93value_database]Read
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&action=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&action=history]View history
+
+   General
+     * [https://en.wikipedia.org/wiki/Special:WhatLinksHere/Key%E2%80%93va
+       lue_database]What links here
+     * [https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Key%E2%8
+       0%93value_database]Related changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard]Upload
+       file
+     * [https://en.wikipedia.org/wiki/Special:SpecialPages]Special pages
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&oldid=1135560734]Permanent link
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&action=info]Page information
+     * [https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&pa
+       ge=Key%E2%80%93value_database&id=1135560734&wpFormIdentifier=titlef
+       orm]Cite this page
+     * [https://www.wikidata.org/wiki/Special:EntityPage/Q20706915]Wikidat
+       a item
+
+   Print/export
+     * [https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&p
+       age=Key%E2%80%93value_database&action=show-download-screen]Download
+       as PDF
+     * [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_datab
+       ase&printable=yes]Printable version
+
+   From Wikipedia, the free encyclopedia
+   (Redirected from
+   [https://en.wikipedia.org/w/index.php?title=Key-value_database&redirect
+   =no]Key-value database)
+   [https://en.wikipedia.org/wiki/File:Question_book-new.svg]This article
+   needs additional citations for
+   [https://en.wikipedia.org/wiki/Wikipedia:Verifiability]verification.
+   Please help
+   [https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_database&
+   action=edit]improve this article by
+   [https://en.wikipedia.org/wiki/Help:Referencing_for_beginners]adding
+   citations to reliable sources. Unsourced material may be challenged and
+   removed.
+   Find
+   sources: [https://www.google.com/search?as_eq=wikipedia&q=%22Key%E2%80%
+   93value+database%22]"Key–value
+   database" – [https://www.google.com/search?tbm=nws&q=%22Key%E2%80%93val
+   ue+database%22+-wikipedia&tbs=ar:1]news ·
+   [https://www.google.com/search?&q=%22Key%E2%80%93value+database%22&tbs=
+   bkt:s&tbm=bks]newspapers ·
+   [https://www.google.com/search?tbs=bks:1&q=%22Key%E2%80%93value+databas
+   e%22+-wikipedia]books ·
+   [https://scholar.google.com/scholar?q=%22Key%E2%80%93value+database%22]
+   scholar ·
+   [https://www.jstor.org/action/doBasicSearch?Query=%22Key%E2%80%93value+
+   database%22&acc=on&wc=on]JSTOR (September 2021)
+   ([https://en.wikipedia.org/wiki/Help:Maintenance_template_removal]Learn
+   how and when to remove this template message)
+   Data storage paradigm
+   [https://en.wikipedia.org/wiki/File:BabbageKeyValueCard.tiff][lossless-
+   page1-350px-BabbageKeyValueCard.tiff.png]
+   [https://en.wikipedia.org/wiki/File:BabbageKeyValueCard.tiff]
+   A tabular data card proposed for Babbage's
+   [https://en.wikipedia.org/wiki/Analytical_Engine]Analytical Engine
+   showing a key–value pair, in this instance a number and its base-ten
+   logarithm
+
+   A key–value database, or key–value store, is a data storage paradigm
+   designed for storing, retrieving, and managing
+   [https://en.wikipedia.org/wiki/Associative_array]associative arrays,
+   and a [https://en.wikipedia.org/wiki/Data_structure]data structure more
+   commonly known today as a dictionary or
+   [https://en.wikipedia.org/wiki/Hash_table]hash table. Dictionaries
+   contain a
+   [https://en.wikipedia.org/wiki/Collection_(abstract_data_type)]collecti
+   on of [https://en.wikipedia.org/wiki/Object_(computer_science)]objects,
+   or [https://en.wikipedia.org/wiki/Record_(computer_science)]records,
+   which in turn have many different
+   [https://en.wikipedia.org/wiki/Field_(computer_science)]fields within
+   them, each containing data. These records are stored and retrieved
+   using a key that uniquely identifies the record, and is used to find
+   the data within the [https://en.wikipedia.org/wiki/Database]database.
+   [https://en.wikipedia.org/wiki/File:KeyValue.PNG][KeyValue.PNG]
+   [https://en.wikipedia.org/wiki/File:KeyValue.PNG]
+   A table showing different formatted data values associated with
+   different keys
+
+   Key–value databases work in a very different fashion from the better
+   known [https://en.wikipedia.org/wiki/Relational_database]relational
+   databases (RDB). RDBs predefine the data structure in the database as a
+   series of tables containing fields with well defined
+   [https://en.wikipedia.org/wiki/Data_type]data types. Exposing the data
+   types to the database program allows it to apply a number of
+   optimizations. In contrast, key–value systems treat the data as a
+   single opaque collection, which may have different fields for every
+   record. This offers considerable flexibility and more closely follows
+   modern concepts like
+   [https://en.wikipedia.org/wiki/Object-oriented_programming]object-orien
+   ted programming. Because optional values are not represented by
+   placeholders or input parameters, as in most RDBs, key–value databases
+   often use far less
+   [https://en.wikipedia.org/wiki/Computer_memory]memory to store the same
+   data, which can lead to large performance gains in certain
+   workloads.^[[https://en.wikipedia.org/wiki/Wikipedia:Citation_needed]ci
+   tation needed]
+
+   Performance, a lack of standardization and other issues limited
+   key–value systems to niche uses for many years, but the rapid move to
+   [https://en.wikipedia.org/wiki/Cloud_computing]cloud computing after
+   2010 has led to a renaissance as part of the broader
+   [https://en.wikipedia.org/wiki/NoSQL]NoSQL movement. Some
+   [https://en.wikipedia.org/wiki/Graph_database]graph databases, such as
+   [https://en.wikipedia.org/wiki/ArangoDB]ArangoDB,^[https://en.wikipedia
+   .org/wiki/Key-value_database#cite_note-1][1] are also key–value
+   databases internally, adding the concept of the relationships
+   ([https://en.wikipedia.org/wiki/Pointer_(computer_programming)]pointers
+   ) between records as a first class data type.
+
+Types and
+examples[[https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_databa
+se&action=edit&section=1]edit]
+
+   Key–value databases can use
+   [https://en.wikipedia.org/wiki/Consistency_model]consistency models
+   ranging from
+   [https://en.wikipedia.org/wiki/Eventual_consistency]eventual
+   consistency to
+   [https://en.wikipedia.org/wiki/Serializability]serializability. Some
+   support ordering of keys.
+
+   Some maintain data [https://en.wikipedia.org/wiki/In-memory_database]in
+   memory (RAM), while others employ
+   [https://en.wikipedia.org/wiki/Solid-state_drive]solid-state drives or
+   [https://en.wikipedia.org/wiki/Hard_disk_drive]rotating disks.
+
+   Every entity (record) is a set of key–value pairs. A key has multiple
+   components, specified as an ordered list. The major key identifies the
+   record and consists of the leading components of the key. The
+   subsequent components are called minor keys. This organization is
+   similar to a directory path specification in a file system (e.g.,
+   /Major/minor1/minor2/). The “value” part of the key–value pair is
+   simply an uninterpreted string of bytes of arbitrary
+   length.^[https://en.wikipedia.org/wiki/Key-value_database#cite_note-2][
+   2]
+
+   The Unix system provides
+   [https://en.wikipedia.org/wiki/DBM_(computing)]dbm (database manager),
+   which is a 1979 library originally written by
+   [https://en.wikipedia.org/wiki/Ken_Thompson]Ken Thompson. It is also
+   ported to [https://en.wikipedia.org/wiki/Microsoft_Windows]Microsoft
+   Windows, provided through programming languages such as
+   [https://en.wikipedia.org/wiki/Perl#Windows]Perl for Win32. The dbm
+   manages associative arrays of arbitrary data by use of a single key (a
+   primary key). Modern implementations include
+   [https://en.wikipedia.org/wiki/DBM_(computing)#Implementations]sdbm,
+   GNU dbm, and [https://en.wikipedia.org/wiki/Berkeley_DB]Berkeley DB.
+   Although dbm precedes the concept of a NoSQL and is rarely mentioned in
+   modern discourse, it is used by many pieces of software.
+
+   A more recent example of a key-value database is
+   [https://en.wikipedia.org/wiki/RocksDB]RocksDB which is used as storage
+   engine for other database management systems such as
+   [https://en.wikipedia.org/wiki/ArangoDB]ArangoDB.
+
+See
+also[[https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_database&a
+ction=edit&section=2]edit]
+
+     * [https://en.wikipedia.org/wiki/Big_data]Big data
+     * [https://en.wikipedia.org/wiki/Data_analysis]Data analysis
+     * [https://en.wikipedia.org/wiki/Distributed_data_store]Distributed
+       data store
+     * [https://en.wikipedia.org/wiki/Document-oriented_database]Document-
+       oriented database
+     * [https://en.wikipedia.org/wiki/Multi-model_database]Multi-model
+       database
+     * [https://en.wikipedia.org/wiki/Tuple_space]Tuple space
+
+References[[https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_data
+base&action=edit&section=3]edit]
+
+    1. [https://en.wikipedia.org/wiki/Key-value_database#cite_ref-1]^
+       [https://www.arangodb.com/docs/stable/architecture-storage-engines.
+       html]"Storage Engines". ArangoDB. Retrieved 16 November 2020.
+    2. [https://en.wikipedia.org/wiki/Key-value_database#cite_ref-2]^
+       [http://www.thinkmind.org/download.php?articleid=immm_2012_4_10_200
+       50]Oracle NoSQL Database.
+
+     * [https://en.wikipedia.org/wiki/Template:Database_models]v
+     * [https://en.wikipedia.org/wiki/Template_talk:Database_models]t
+     * [https://en.wikipedia.org/w/index.php?title=Template:Database_model
+       s&action=edit]e
+
+   [https://en.wikipedia.org/wiki/Database_model]Database models
+   Common models
+     * [https://en.wikipedia.org/wiki/Flat-file_database]Flat
+     * [https://en.wikipedia.org/wiki/Hierarchical_database_model]Hierarch
+       ical
+     * [https://en.wikipedia.org/wiki/Dimensional_modeling]Dimensional
+     * [https://en.wikipedia.org/wiki/Network_model]Network
+     * [https://en.wikipedia.org/wiki/Relational_model]Relational
+     * [https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model]En
+       tity–relationship
+          + [https://en.wikipedia.org/wiki/Enhanced_entity%E2%80%93relatio
+            nship_model]Enhanced
+     * [https://en.wikipedia.org/wiki/Graph_database]Graph
+     * [https://en.wikipedia.org/wiki/Object_database]Object-oriented
+     * [https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93val
+       ue_model]Entity–attribute–value
+
+   Other models
+     * [https://en.wikipedia.org/w/index.php?title=Correlation_database&ac
+       tion=edit&redlink=1]Correlational
+     * [https://en.wikipedia.org/wiki/Online_analytical_processing#Multidi
+       mensional_databases]Multi-dimensional
+     * [https://en.wikipedia.org/wiki/Array_DBMS]Array
+     * [https://en.wikipedia.org/wiki/Semantic_data_model]Semantic
+     * [https://en.wikipedia.org/wiki/Star_schema]Star schema
+     * [https://en.wikipedia.org/wiki/XML_database]XML database
+
+   Implementations
+     * [https://en.wikipedia.org/wiki/Flat-file_database]Flat file
+     * [https://en.wikipedia.org/wiki/Column-oriented_DBMS]Column-oriented
+     * [https://en.wikipedia.org/wiki/Document-oriented_database]Document-
+       oriented
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_database]O
+       bject–relational
+     * [https://en.wikipedia.org/wiki/Deductive_database]Deductive
+     * [https://en.wikipedia.org/wiki/Temporal_database]Temporal
+     * [https://en.wikipedia.org/wiki/XML_database]XML data store
+     * Key–value store
+     * [https://en.wikipedia.org/wiki/Triplestore]Triplestore
+
+   Retrieved from
+   "[https://en.wikipedia.org/w/index.php?title=Key%E2%80%93value_database
+   &oldid=1135560734]https://en.wikipedia.org/w/index.php?title=Key–value_
+   database&oldid=1135560734"
+
+   [https://en.wikipedia.org/wiki/Help:Category]Categories:
+     * [https://en.wikipedia.org/wiki/Category:Types_of_databases]Types of
+       databases
+     * [https://en.wikipedia.org/wiki/Category:Database_theory]Database
+       theory
+     * [https://en.wikipedia.org/wiki/Category:Associative_arrays]Associat
+       ive arrays
+     * [https://en.wikipedia.org/wiki/Category:Key-value_databases]Key-val
+       ue databases
+     * [https://en.wikipedia.org/wiki/Category:Data_management]Data
+       management
+     * [https://en.wikipedia.org/wiki/Category:Databases]Databases
+     * [https://en.wikipedia.org/wiki/Category:Data_analysis]Data analysis
+
+   Hidden categories:
+     * [https://en.wikipedia.org/wiki/Category:Articles_needing_additional
+       _references_from_September_2021]Articles needing additional
+       references from September 2021
+     * [https://en.wikipedia.org/wiki/Category:All_articles_needing_additi
+       onal_references]All articles needing additional references
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_short_descrip
+       tion]Articles with short description
+     * [https://en.wikipedia.org/wiki/Category:Short_description_is_differ
+       ent_from_Wikidata]Short description is different from Wikidata
+     * [https://en.wikipedia.org/wiki/Category:All_articles_with_unsourced
+       _statements]All articles with unsourced statements
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_sta
+       tements_from_October_2017]Articles with unsourced statements from
+       October 2017
+
+     * This page was last edited on 25 January 2023, at 12:37 (UTC).
+     * Text is available under the
+       [https://creativecommons.org/licenses/by-sa/4.0/]Creative Commons
+       Attribution-ShareAlike License
+       4.0[https://creativecommons.org/licenses/by-sa/4.0/]; additional
+       terms may apply. By using this site, you agree to the
+       [https://foundation.wikimedia.org/wiki/Terms_of_Use]Terms of Use
+       and [https://foundation.wikimedia.org/wiki/Privacy_policy]Privacy
+       Policy. Wikipedia® is a registered trademark of the
+       [https://www.wikimediafoundation.org/]Wikimedia Foundation, Inc., a
+       non-profit organization.
+
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Pr
+       ivacy_policy]Privacy policy
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer]Disclai
+       mers
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact
+       Wikipedia
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal
+       _Code_of_Conduct]Code of Conduct
+     * [https://en.m.wikipedia.org/w/index.php?title=Key%E2%80%93value_dat
+       abase&mobileaction=toggle_view_mobile]Mobile view
+     * [https://developer.wikimedia.org/]Developers
+     * [https://stats.wikimedia.org/#/en.wikipedia.org]Statistics
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Co
+       okie_statement]Cookie statement
+
+     * [https://wikimediafoundation.org/]Wikimedia Foundation
+     * [https://www.mediawiki.org/]Powered by MediaWiki
+
+   (BUTTON) Toggle limited content width

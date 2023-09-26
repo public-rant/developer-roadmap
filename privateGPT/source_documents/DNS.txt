@@ -1,0 +1,1065 @@
+   #[https://developer.mozilla.org/opensearch.xml]MDN Web Docs
+   [https://developer.mozilla.org/fr/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/ja/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/ru/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/zh-CN/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/zh-TW/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/en-US/docs/Glossary/DNS]DNS
+   [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+     * [https://developer.mozilla.org/en-US/docs/Glossary/DNS#content]Skip
+       to main content
+     * [https://developer.mozilla.org/en-US/docs/Glossary/DNS#top-nav-sear
+       ch-input]Skip to search
+     * [https://developer.mozilla.org/en-US/docs/Glossary/DNS#languages-sw
+       itcher-button]Skip to select language
+
+   [https://developer.mozilla.org/en-US/](BUTTON) Open main menu
+
+     * (BUTTON)
+       References[https://developer.mozilla.org/en-US/docs/Web]References
+          + [https://developer.mozilla.org/en-US/docs/Web]Overview / Web
+            Technology
+            Web technology reference for developers
+          + [https://developer.mozilla.org/en-US/docs/Web/HTML]HTML
+            Structure of content on the web
+          + [https://developer.mozilla.org/en-US/docs/Web/CSS]CSS
+            Code used to describe document style
+          + [https://developer.mozilla.org/en-US/docs/Web/JavaScript]JavaS
+            cript
+            General-purpose scripting language
+          + [https://developer.mozilla.org/en-US/docs/Web/HTTP]HTTP
+            Protocol for transmitting web resources
+          + [https://developer.mozilla.org/en-US/docs/Web/API]Web APIs
+            Interfaces for building web applications
+          + [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebE
+            xtensions]Web Extensions
+            Developing extensions for web browsers
+          + [https://developer.mozilla.org/en-US/docs/Web]Web Technology
+            Web technology reference for developers
+     * (BUTTON)
+       Guides[https://developer.mozilla.org/en-US/docs/Learn]Guides
+          + [https://developer.mozilla.org/en-US/docs/Learn]Overview / MDN
+            Learning Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn]MDN Learning
+            Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn/HTML]HTML
+            Learn to structure web content with HTML
+          + [https://developer.mozilla.org/en-US/docs/Learn/CSS]CSS
+            Learn to style content using CSS
+          + [https://developer.mozilla.org/en-US/docs/Learn/JavaScript]Jav
+            aScript
+            Learn to run scripts in the browser
+          + [https://developer.mozilla.org/en-US/docs/Web/Accessibility]Ac
+            cessibility
+            Learn to make the web accessible to all
+     * (BUTTON) Plus[https://developer.mozilla.org/en-US/plus]Plus
+          + [https://developer.mozilla.org/en-US/plus]Overview
+            A customized MDN experience
+          + [https://developer.mozilla.org/en-US/plus/ai-help]AI Help
+            (beta)
+            Get real-time assistance and support
+          + [https://developer.mozilla.org/en-US/plus/updates]Updates
+            All browser compatibility updates at a glance
+          + [https://developer.mozilla.org/en-US/plus/docs/features/overvi
+            ew]Documentation
+            Learn how to use MDN Plus
+          + [https://developer.mozilla.org/en-US/plus/docs/faq]FAQ
+            Frequently asked questions about MDN Plus
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://developer.mozilla.org/en-US/play]Play ^New
+     * [https://developer.mozilla.org/en-US/plus/ai-help/]AI Help ^Beta
+
+   Search MDN ____________________ (BUTTON) Clear search input (BUTTON)
+   Search
+   (BUTTON) Theme
+     * [https://developer.mozilla.org/users/fxa/login/authenticate/?next=%
+       2Fen-US%2Fdocs%2FGlossary%2FDNS]Log in
+     * [https://developer.mozilla.org/en-US/plus]Get MDN Plus
+
+   (BUTTON)
+
+    1. [https://developer.mozilla.org/en-US/docs/Glossary]MDN Web Docs
+       Glossary: Definitions of Web-related terms
+
+     [https://developer.mozilla.org/en-US/docs/Glossary/DNS]DNS
+
+   (BUTTON) Article Actions
+     * (BUTTON) English (US)
+
+   (BUTTON)
+
+   Filter sidebar ____________________ (BUTTON) Clear filter input
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Glossary/DNS#see_also]See
+       also
+
+    1. [https://developer.mozilla.org/en-US/docs/Glossary]MDN Web Docs
+       Glossary
+
+    1. [https://developer.mozilla.org/en-US/docs/Glossary/Abstraction]Abst
+       raction
+    2. [https://developer.mozilla.org/en-US/docs/Glossary/Accent]Accent
+    3. [https://developer.mozilla.org/en-US/docs/Glossary/Accessibility]Ac
+       cessibility
+    4. [https://developer.mozilla.org/en-US/docs/Glossary/Accessibility_tr
+       ee]Accessibility tree
+    5. [https://developer.mozilla.org/en-US/docs/Glossary/Accessible_name]
+       Accessible name
+    6. [https://developer.mozilla.org/en-US/docs/Glossary/Adobe_Flash]Adob
+       e Flash
+    7. [https://developer.mozilla.org/en-US/docs/Glossary/Advance_measure]
+       Advance measure
+    8. [https://developer.mozilla.org/en-US/docs/Glossary/AJAX]Ajax
+    9. [https://developer.mozilla.org/en-US/docs/Glossary/Algorithm]Algori
+       thm
+   10. [https://developer.mozilla.org/en-US/docs/Glossary/Alignment_Contai
+       ner]Alignment container
+   11. [https://developer.mozilla.org/en-US/docs/Glossary/Alignment_Subjec
+       t]Alignment subject
+   12. [https://developer.mozilla.org/en-US/docs/Glossary/Alpha]Alpha
+       (alpha channel)
+   13. [https://developer.mozilla.org/en-US/docs/Glossary/ALPN]ALPN
+   14. [https://developer.mozilla.org/en-US/docs/Glossary/API]API
+   15. [https://developer.mozilla.org/en-US/docs/Glossary/Apple_Safari]App
+       le Safari
+   16. [https://developer.mozilla.org/en-US/docs/Glossary/Application_cont
+       ext]Application Context
+   17. [https://developer.mozilla.org/en-US/docs/Glossary/Argument]Argumen
+       t
+   18. [https://developer.mozilla.org/en-US/docs/Glossary/ARIA]ARIA
+   19. [https://developer.mozilla.org/en-US/docs/Glossary/ARPA]ARPA
+   20. [https://developer.mozilla.org/en-US/docs/Glossary/Arpanet]ARPANET
+   21. [https://developer.mozilla.org/en-US/docs/Glossary/Array]Array
+   22. [https://developer.mozilla.org/en-US/docs/Glossary/ASCII]ASCII
+   23. [https://developer.mozilla.org/en-US/docs/Glossary/Asynchronous]Asy
+       nchronous
+   24. [https://developer.mozilla.org/en-US/docs/Glossary/ATAG]ATAG
+   25. [https://developer.mozilla.org/en-US/docs/Glossary/Attribute]Attrib
+       ute
+   26. [https://developer.mozilla.org/en-US/docs/Glossary/Bandwidth]Bandwi
+       dth
+   27. [https://developer.mozilla.org/en-US/docs/Glossary/Base64]Base64
+   28. [https://developer.mozilla.org/en-US/docs/Glossary/Baseline]Baselin
+       e
+   29. [https://developer.mozilla.org/en-US/docs/Glossary/Beacon]Beacon
+   30. [https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve]Béz
+       ier curve
+   31. [https://developer.mozilla.org/en-US/docs/Glossary/BiDi]BiDi
+   32. [https://developer.mozilla.org/en-US/docs/Glossary/BigInt]BigInt
+   33. [https://developer.mozilla.org/en-US/docs/Glossary/Binding]Binding
+   34. [https://developer.mozilla.org/en-US/docs/Glossary/Bitwise_flags]Bi
+       twise flags
+   35. [https://developer.mozilla.org/en-US/docs/Glossary/Blink]Blink
+   36. [https://developer.mozilla.org/en-US/docs/Glossary/Block]Block
+   37. [https://developer.mozilla.org/en-US/docs/Glossary/Block_cipher_mod
+       e_of_operation]Block cipher mode of operation
+   38. [https://developer.mozilla.org/en-US/docs/Glossary/Block-level_cont
+       ent]Block-level content
+   39. [https://developer.mozilla.org/en-US/docs/Glossary/Boolean]Boolean
+   40. [https://developer.mozilla.org/en-US/docs/Glossary/Bounding_box]Bou
+       nding Box
+   41. [https://developer.mozilla.org/en-US/docs/Glossary/Breadcrumb]Bread
+       crumb
+   42. [https://developer.mozilla.org/en-US/docs/Glossary/Brotli_compressi
+       on]Brotli
+   43. [https://developer.mozilla.org/en-US/docs/Glossary/Browser]Browser
+   44. [https://developer.mozilla.org/en-US/docs/Glossary/Browsing_context
+       ]Browsing context
+   45. [https://developer.mozilla.org/en-US/docs/Glossary/Buffer]Buffer
+   46. [https://developer.mozilla.org/en-US/docs/Glossary/Cache]Cache
+   47. [https://developer.mozilla.org/en-US/docs/Glossary/Cacheable]Cachea
+       ble
+   48. [https://developer.mozilla.org/en-US/docs/Glossary/CalDAV]CalDAV
+   49. [https://developer.mozilla.org/en-US/docs/Glossary/Call_stack]Call
+       stack
+   50. [https://developer.mozilla.org/en-US/docs/Glossary/Callback_functio
+       n]Callback function
+   51. [https://developer.mozilla.org/en-US/docs/Glossary/Canonical_order]
+       Canonical order
+   52. [https://developer.mozilla.org/en-US/docs/Glossary/Canvas]Canvas
+   53. [https://developer.mozilla.org/en-US/docs/Glossary/Card_sorting]Car
+       d sorting
+   54. [https://developer.mozilla.org/en-US/docs/Glossary/CardDAV]CardDAV
+   55. [https://developer.mozilla.org/en-US/docs/Glossary/Caret]Caret
+   56. [https://developer.mozilla.org/en-US/docs/Glossary/CDN]CDN
+   57. [https://developer.mozilla.org/en-US/docs/Glossary/Certificate_auth
+       ority]Certificate authority
+   58. [https://developer.mozilla.org/en-US/docs/Glossary/Certified]Certif
+       ied
+   59. [https://developer.mozilla.org/en-US/docs/Glossary/Challenge]Challe
+       nge-response authentication
+   60. [https://developer.mozilla.org/en-US/docs/Glossary/Character]Charac
+       ter
+   61. [https://developer.mozilla.org/en-US/docs/Glossary/Character_encodi
+       ng]Character encoding
+   62. [https://developer.mozilla.org/en-US/docs/Glossary/Character_set]Ch
+       aracter set
+   63. [https://developer.mozilla.org/en-US/docs/Glossary/Chrome]Chrome
+   64. [https://developer.mozilla.org/en-US/docs/Glossary/CIA]CIA
+   65. [https://developer.mozilla.org/en-US/docs/Glossary/Cipher]Cipher
+   66. [https://developer.mozilla.org/en-US/docs/Glossary/Cipher_suite]Cip
+       her suite
+   67. [https://developer.mozilla.org/en-US/docs/Glossary/Ciphertext]Ciphe
+       rtext
+   68. [https://developer.mozilla.org/en-US/docs/Glossary/Class]Class
+   69. [https://developer.mozilla.org/en-US/docs/Glossary/Clickjacking]Cli
+       ckjacking
+   70. [https://developer.mozilla.org/en-US/docs/Glossary/Closure]Closure
+   71. [https://developer.mozilla.org/en-US/docs/Glossary/CMS]CMS
+   72. [https://developer.mozilla.org/en-US/docs/Glossary/Code_point]Code
+       point
+   73. [https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting]C
+       ode splitting
+   74. [https://developer.mozilla.org/en-US/docs/Glossary/Code_unit]Code
+       unit
+   75. [https://developer.mozilla.org/en-US/docs/Glossary/Codec]Codec
+   76. [https://developer.mozilla.org/en-US/docs/Glossary/Color_wheel]Colo
+       r wheel
+   77. [https://developer.mozilla.org/en-US/docs/Glossary/Compile]Compile
+   78. [https://developer.mozilla.org/en-US/docs/Glossary/Compile_time]Com
+       pile time
+   79. [https://developer.mozilla.org/en-US/docs/Glossary/Composite_operat
+       ion]Composite operation
+   80. [https://developer.mozilla.org/en-US/docs/Glossary/Computer_Program
+       ming]Computer Programming
+   81. [https://developer.mozilla.org/en-US/docs/Glossary/Conditional]Cond
+       itional
+   82. [https://developer.mozilla.org/en-US/docs/Glossary/Constant]Constan
+       t
+   83. [https://developer.mozilla.org/en-US/docs/Glossary/Constructor]Cons
+       tructor
+   84. [https://developer.mozilla.org/en-US/docs/Glossary/Continuous_Media
+       ]Continuous Media
+   85. [https://developer.mozilla.org/en-US/docs/Glossary/Control_flow]Con
+       trol flow
+   86. [https://developer.mozilla.org/en-US/docs/Glossary/Cookie]Cookie
+   87. [https://developer.mozilla.org/en-US/docs/Glossary/Copyleft]Copylef
+       t
+   88. [https://developer.mozilla.org/en-US/docs/Glossary/CORS]CORS
+   89. [https://developer.mozilla.org/en-US/docs/Glossary/CORS-safelisted_
+       request_header]CORS-safelisted request header
+   90. [https://developer.mozilla.org/en-US/docs/Glossary/CORS-safelisted_
+       response_header]CORS-safelisted response header
+   91. [https://developer.mozilla.org/en-US/docs/Glossary/Crawler]Crawler
+   92. [https://developer.mozilla.org/en-US/docs/Glossary/CRLF]CRLF
+   93. [https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis]Cross
+       Axis
+   94. [https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scrip
+       ting]Cross-site scripting (XSS)
+   95. [https://developer.mozilla.org/en-US/docs/Glossary/CRUD]CRUD
+   96. [https://developer.mozilla.org/en-US/docs/Glossary/Cryptanalysis]Cr
+       yptanalysis
+   97. [https://developer.mozilla.org/en-US/docs/Glossary/Cryptographic_ha
+       sh_function]Cryptographic hash function
+   98. [https://developer.mozilla.org/en-US/docs/Glossary/Cryptography]Cry
+       ptography
+   99. [https://developer.mozilla.org/en-US/docs/Glossary/CSP]CSP
+   100. [https://developer.mozilla.org/en-US/docs/Glossary/CSRF]CSRF
+   101. [https://developer.mozilla.org/en-US/docs/Glossary/CSS]CSS
+   102. [https://developer.mozilla.org/en-US/docs/Glossary/CSSOM]CSS
+       Object Model (CSSOM)
+   103. [https://developer.mozilla.org/en-US/docs/Glossary/CSS_pixel]CSS
+       pixel
+   104. [https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocesso
+       r]CSS preprocessor
+   105. [https://developer.mozilla.org/en-US/docs/Glossary/Data_structure]
+       Data structure
+   106. [https://developer.mozilla.org/en-US/docs/Glossary/Database]Databa
+       se
+   107. [https://developer.mozilla.org/en-US/docs/Glossary/Decryption]Decr
+       yption
+   108. [https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy]Deep
+       copy
+   109. [https://developer.mozilla.org/en-US/docs/Glossary/Delta]Delta
+   110. [https://developer.mozilla.org/en-US/docs/Glossary/Denial_of_Servi
+       ce]Denial of Service
+   111. [https://developer.mozilla.org/en-US/docs/Glossary/CSS_Descriptor]
+       Descriptor (CSS)
+   112. [https://developer.mozilla.org/en-US/docs/Glossary/Deserialization
+       ]Deserialization
+   113. [https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools
+       ]Developer Tools
+   114. [https://developer.mozilla.org/en-US/docs/Glossary/Digest]Digest
+   115. [https://developer.mozilla.org/en-US/docs/Glossary/Digital_certifi
+       cate]Digital certificate
+   116. [https://developer.mozilla.org/en-US/docs/Glossary/Distributed_Den
+       ial_of_Service]Distributed Denial of Service
+   117. [https://developer.mozilla.org/en-US/docs/Glossary/DMZ]DMZ
+   118. [https://developer.mozilla.org/en-US/docs/Glossary/DNS]DNS
+   119. [https://developer.mozilla.org/en-US/docs/Glossary/Doctype]Doctype
+   120. [https://developer.mozilla.org/en-US/docs/Glossary/Document_direct
+       ive]Document directive
+   121. [https://developer.mozilla.org/en-US/docs/Glossary/Document_enviro
+       nment]Document environment
+   122. [https://developer.mozilla.org/en-US/docs/Glossary/DOM]DOM
+       (Document Object Model)
+   123. [https://developer.mozilla.org/en-US/docs/Glossary/Domain]Domain
+   124. [https://developer.mozilla.org/en-US/docs/Glossary/Domain_name]Dom
+       ain name
+   125. [https://developer.mozilla.org/en-US/docs/Glossary/Domain_sharding
+       ]Domain sharding
+   126. [https://developer.mozilla.org/en-US/docs/Glossary/Dominator]Domin
+       ator
+   127. [https://developer.mozilla.org/en-US/docs/Glossary/DOS_attack]DoS
+       attack
+   128. [https://developer.mozilla.org/en-US/docs/Glossary/DSL]DSL
+   129. [https://developer.mozilla.org/en-US/docs/Glossary/DTLS]DTLS
+       (Datagram Transport Layer Security)
+   130. [https://developer.mozilla.org/en-US/docs/Glossary/DTMF]DTMF
+       (Dual-Tone Multi-Frequency signaling)
+   131. [https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_typing]
+       Dynamic typing
+   132. [https://developer.mozilla.org/en-US/docs/Glossary/ECMA]ECMA
+   133. [https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript]ECMA
+       Script
+   134. [https://developer.mozilla.org/en-US/docs/Glossary/Effective_conne
+       ction_type]Effective connection type
+   135. [https://developer.mozilla.org/en-US/docs/Glossary/Element]Element
+   136. [https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation]E
+       ncapsulation
+   137. [https://developer.mozilla.org/en-US/docs/Glossary/Encryption]Encr
+       yption
+   138. [https://developer.mozilla.org/en-US/docs/Glossary/Endianness]Endi
+       anness
+   139. [https://developer.mozilla.org/en-US/docs/Glossary/Engine]Engine
+   140. [https://developer.mozilla.org/en-US/docs/Glossary/Entity]Entity
+   141. [https://developer.mozilla.org/en-US/docs/Glossary/Entity_header]E
+       ntity header
+   142. [https://developer.mozilla.org/en-US/docs/Glossary/Enumerated]Enum
+       erated
+   143. [https://developer.mozilla.org/en-US/docs/Glossary/eTLD]eTLD
+   144. [https://developer.mozilla.org/en-US/docs/Glossary/Event]Event
+   145. [https://developer.mozilla.org/en-US/docs/Glossary/Exception]Excep
+       tion
+   146. [https://developer.mozilla.org/en-US/docs/Glossary/EXIF]EXIF
+   147. [https://developer.mozilla.org/en-US/docs/Glossary/Expando]Expando
+   148. [https://developer.mozilla.org/en-US/docs/Glossary/Fallback_Alignm
+       ent]Fallback alignment
+   149. [https://developer.mozilla.org/en-US/docs/Glossary/Falsy]Falsy
+   150. [https://developer.mozilla.org/en-US/docs/Glossary/Favicon]Favicon
+   151. [https://developer.mozilla.org/en-US/docs/Glossary/Fetch_directive
+       ]Fetch directive
+   152. [https://developer.mozilla.org/en-US/docs/Glossary/Fetch_metadata_
+       request_header]Fetch metadata request header
+   153. [https://developer.mozilla.org/en-US/docs/Glossary/Fingerprinting]
+       Fingerprinting
+   154. [https://developer.mozilla.org/en-US/docs/Glossary/Firefox_OS]Fire
+       fox OS
+   155. [https://developer.mozilla.org/en-US/docs/Glossary/Firewall]Firewa
+       ll
+   156. [https://developer.mozilla.org/en-US/docs/Glossary/First_contentfu
+       l_paint]First contentful paint
+   157. [https://developer.mozilla.org/en-US/docs/Glossary/First_CPU_idle]
+       First CPU idle
+   158. [https://developer.mozilla.org/en-US/docs/Glossary/First_input_del
+       ay]First input delay
+   159. [https://developer.mozilla.org/en-US/docs/Glossary/First_interacti
+       ve]First interactive
+   160. [https://developer.mozilla.org/en-US/docs/Glossary/First_meaningfu
+       l_paint]First Meaningful Paint
+   161. [https://developer.mozilla.org/en-US/docs/Glossary/First_paint]Fir
+       st paint
+   162. [https://developer.mozilla.org/en-US/docs/Glossary/First-class_Fun
+       ction]First-class Function
+   163. [https://developer.mozilla.org/en-US/docs/Glossary/Flex]Flex
+   164. [https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container]
+       Flex Container
+   165. [https://developer.mozilla.org/en-US/docs/Glossary/Flex_Item]Flex
+       Item
+   166. [https://developer.mozilla.org/en-US/docs/Glossary/Flexbox]Flexbox
+   167. [https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_heade
+       r_name]Forbidden header name
+   168. [https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_respo
+       nse_header_name]Forbidden response header name
+   169. [https://developer.mozilla.org/en-US/docs/Glossary/Fork]Fork
+   170. [https://developer.mozilla.org/en-US/docs/Glossary/Fragmentainer]F
+       ragmentainer
+   171. [https://developer.mozilla.org/en-US/docs/Glossary/FPS]Frame rate
+       (FPS)
+   172. [https://developer.mozilla.org/en-US/docs/Glossary/FTP]FTP
+   173. [https://developer.mozilla.org/en-US/docs/Glossary/FTU]FTU
+   174. [https://developer.mozilla.org/en-US/docs/Glossary/Function]Functi
+       on
+   175. [https://developer.mozilla.org/en-US/docs/Glossary/Fuzzing]Fuzz
+       testing
+   176. [https://developer.mozilla.org/en-US/docs/Glossary/Gamut]Gamut
+   177. [https://developer.mozilla.org/en-US/docs/Glossary/Garbage_collect
+       ion]Garbage collection
+   178. [https://developer.mozilla.org/en-US/docs/Glossary/Gecko]Gecko
+   179. [https://developer.mozilla.org/en-US/docs/Glossary/General_header]
+       General header
+   180. [https://developer.mozilla.org/en-US/docs/Glossary/GIF]GIF
+   181. [https://developer.mozilla.org/en-US/docs/Glossary/Git]Git
+   182. [https://developer.mozilla.org/en-US/docs/Glossary/Global_object]G
+       lobal object
+   183. [https://developer.mozilla.org/en-US/docs/Glossary/Global_scope]Gl
+       obal scope
+   184. [https://developer.mozilla.org/en-US/docs/Glossary/Global_variable
+       ]Global variable
+   185. [https://developer.mozilla.org/en-US/docs/Glossary/Glyph]Glyph
+   186. [https://developer.mozilla.org/en-US/docs/Glossary/Google_Chrome]G
+       oogle Chrome
+   187. [https://developer.mozilla.org/en-US/docs/Glossary/GPL]GPL
+   188. [https://developer.mozilla.org/en-US/docs/Glossary/GPU]GPU
+   189. [https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degrad
+       ation]Graceful degradation
+   190. [https://developer.mozilla.org/en-US/docs/Glossary/Grid]Grid
+   191. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Areas]Grid
+       Areas
+   192. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Axis]Grid
+       Axis
+   193. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Cell]Grid
+       Cell
+   194. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Column]Gri
+       d Column
+   195. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Container]
+       Grid container
+   196. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Lines]Grid
+       Lines
+   197. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Row]Grid
+       Row
+   198. [https://developer.mozilla.org/en-US/docs/Glossary/Grid_Tracks]Gri
+       d Tracks
+   199. [https://developer.mozilla.org/en-US/docs/Glossary/Guard]Guard
+   200. [https://developer.mozilla.org/en-US/docs/Glossary/Gutters]Gutters
+   201. [https://developer.mozilla.org/en-US/docs/Glossary/GZip_compressio
+       n]GZip compression
+   202. [https://developer.mozilla.org/en-US/docs/Glossary/Hash]Hash
+   203. [https://developer.mozilla.org/en-US/docs/Glossary/Head]Head
+   204. [https://developer.mozilla.org/en-US/docs/Glossary/High-level_prog
+       ramming_language]High-level programming language
+   205. [https://developer.mozilla.org/en-US/docs/Glossary/HMAC]HMAC
+   206. [https://developer.mozilla.org/en-US/docs/Glossary/Hoisting]Hoisti
+       ng
+   207. [https://developer.mozilla.org/en-US/docs/Glossary/Host]Host
+   208. [https://developer.mozilla.org/en-US/docs/Glossary/Hotlink]Hotlink
+   209. [https://developer.mozilla.org/en-US/docs/Glossary/Houdini]Houdini
+   210. [https://developer.mozilla.org/en-US/docs/Glossary/HPKP]HPKP
+   211. [https://developer.mozilla.org/en-US/docs/Glossary/HSTS]HSTS
+   212. [https://developer.mozilla.org/en-US/docs/Glossary/HTML]HTML
+   213. [https://developer.mozilla.org/en-US/docs/Glossary/HTML5]HTML5
+   214. [https://developer.mozilla.org/en-US/docs/Glossary/HTTP]HTTP
+   215. [https://developer.mozilla.org/en-US/docs/Glossary/HTTP_header]HTT
+       P header
+   216. [https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2]HTTP/2
+   217. [https://developer.mozilla.org/en-US/docs/Glossary/HTTP_3]HTTP/3
+   218. [https://developer.mozilla.org/en-US/docs/Glossary/HTTPS]HTTPS
+   219. [https://developer.mozilla.org/en-US/docs/Glossary/HTTPS_RR]HTTPS
+       RR
+   220. [https://developer.mozilla.org/en-US/docs/Glossary/Hyperlink]Hyper
+       link
+   221. [https://developer.mozilla.org/en-US/docs/Glossary/Hypertext]Hyper
+       text
+   222. [https://developer.mozilla.org/en-US/docs/Glossary/I18N]I18N
+   223. [https://developer.mozilla.org/en-US/docs/Glossary/IANA]IANA
+   224. [https://developer.mozilla.org/en-US/docs/Glossary/ICANN]ICANN
+   225. [https://developer.mozilla.org/en-US/docs/Glossary/ICE]ICE
+   226. [https://developer.mozilla.org/en-US/docs/Glossary/IDE]IDE
+   227. [https://developer.mozilla.org/en-US/docs/Glossary/Idempotent]Idem
+       potent
+   228. [https://developer.mozilla.org/en-US/docs/Glossary/Identifier]Iden
+       tifier
+   229. [https://developer.mozilla.org/en-US/docs/Glossary/IDL]IDL
+   230. [https://developer.mozilla.org/en-US/docs/Glossary/IETF]IETF
+   231. [https://developer.mozilla.org/en-US/docs/Glossary/IIFE]IIFE
+   232. [https://developer.mozilla.org/en-US/docs/Glossary/IMAP]IMAP
+   233. [https://developer.mozilla.org/en-US/docs/Glossary/Immutable]Immut
+       able
+   234. [https://developer.mozilla.org/en-US/docs/Glossary/IndexedDB]Index
+       edDB
+   235. [https://developer.mozilla.org/en-US/docs/Glossary/Information_arc
+       hitecture]Information architecture
+   236. [https://developer.mozilla.org/en-US/docs/Glossary/Inheritance]Inh
+       eritance
+   237. [https://developer.mozilla.org/en-US/docs/Glossary/Ink_overflow]In
+       k overflow
+   238. [https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_co
+       ntent]Inline-level content
+   239. [https://developer.mozilla.org/en-US/docs/Glossary/Input_method_ed
+       itor]Input method editor
+   240. [https://developer.mozilla.org/en-US/docs/Glossary/Instance]Instan
+       ce
+   241. [https://developer.mozilla.org/en-US/docs/Glossary/Internationaliz
+       ation_and_localization]Internationalization
+   242. [https://developer.mozilla.org/en-US/docs/Glossary/Internet]Intern
+       et
+   243. [https://developer.mozilla.org/en-US/docs/Glossary/Interpolation]I
+       nterpolation
+   244. [https://developer.mozilla.org/en-US/docs/Glossary/Intrinsic_Size]
+       Intrinsic size
+   245. [https://developer.mozilla.org/en-US/docs/Glossary/IP_Address]IP
+       Address
+   246. [https://developer.mozilla.org/en-US/docs/Glossary/IPv4]IPv4
+   247. [https://developer.mozilla.org/en-US/docs/Glossary/IPv6]IPv6
+   248. [https://developer.mozilla.org/en-US/docs/Glossary/IRC]IRC
+   249. [https://developer.mozilla.org/en-US/docs/Glossary/ISO]ISO
+   250. [https://developer.mozilla.org/en-US/docs/Glossary/ISP]ISP
+   251. [https://developer.mozilla.org/en-US/docs/Glossary/ITU]ITU
+   252. [https://developer.mozilla.org/en-US/docs/Glossary/Jank]Jank
+   253. [https://developer.mozilla.org/en-US/docs/Glossary/Java]Java
+   254. [https://developer.mozilla.org/en-US/docs/Glossary/JavaScript]Java
+       Script
+   255. [https://developer.mozilla.org/en-US/docs/Glossary/JPEG]JPEG
+   256. [https://developer.mozilla.org/en-US/docs/Glossary/JSON]JSON
+   257. [https://developer.mozilla.org/en-US/docs/Glossary/Key]Key
+   258. [https://developer.mozilla.org/en-US/docs/Glossary/Keyword]Keyword
+   259. [https://developer.mozilla.org/en-US/docs/Glossary/Largest_content
+       ful_paint]Largest contentful paint
+   260. [https://developer.mozilla.org/en-US/docs/Glossary/Latency]Latency
+   261. [https://developer.mozilla.org/en-US/docs/Glossary/Layout_viewport
+       ]Layout viewport
+   262. [https://developer.mozilla.org/en-US/docs/Glossary/Lazy_load]Lazy
+       load
+   263. [https://developer.mozilla.org/en-US/docs/Glossary/LGPL]LGPL
+   264. [https://developer.mozilla.org/en-US/docs/Glossary/Ligature]Ligatu
+       re
+   265. [https://developer.mozilla.org/en-US/docs/Glossary/Literal]Literal
+   266. [https://developer.mozilla.org/en-US/docs/Glossary/Local_scope]Loc
+       al scope
+   267. [https://developer.mozilla.org/en-US/docs/Glossary/Local_variable]
+       Local variable
+   268. [https://developer.mozilla.org/en-US/docs/Glossary/Locale]Locale
+   269. [https://developer.mozilla.org/en-US/docs/Glossary/Localization]Lo
+       calization
+   270. [https://developer.mozilla.org/en-US/docs/Glossary/Long_task]Long
+       task
+   271. [https://developer.mozilla.org/en-US/docs/Glossary/Loop]Loop
+   272. [https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compre
+       ssion]Lossless compression
+   273. [https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compressi
+       on]Lossy compression
+   274. [https://developer.mozilla.org/en-US/docs/Glossary/LTR]LTR (Left
+       To Right)
+   275. [https://developer.mozilla.org/en-US/docs/Glossary/Main_Axis]Main
+       Axis
+   276. [https://developer.mozilla.org/en-US/docs/Glossary/Main_thread]Mai
+       n thread
+   277. [https://developer.mozilla.org/en-US/docs/Glossary/Markup]Markup
+   278. [https://developer.mozilla.org/en-US/docs/Glossary/MathML]MathML
+   279. [https://developer.mozilla.org/en-US/docs/Glossary/Media]Media
+   280. [https://developer.mozilla.org/en-US/docs/Glossary/Metadata]Metada
+       ta
+   281. [https://developer.mozilla.org/en-US/docs/Glossary/Method]Method
+   282. [https://developer.mozilla.org/en-US/docs/Glossary/Microsoft_Edge]
+       Microsoft Edge
+   283. [https://developer.mozilla.org/en-US/docs/Glossary/Microsoft_Inter
+       net_Explorer]Microsoft Internet Explorer
+   284. [https://developer.mozilla.org/en-US/docs/Glossary/Middleware]Midd
+       leware
+   285. [https://developer.mozilla.org/en-US/docs/Glossary/MIME]MIME
+   286. [https://developer.mozilla.org/en-US/docs/Glossary/MIME_type]MIME
+       type
+   287. [https://developer.mozilla.org/en-US/docs/Glossary/Minification]Mi
+       nification
+   288. [https://developer.mozilla.org/en-US/docs/Glossary/MitM]MitM
+   289. [https://developer.mozilla.org/en-US/docs/Glossary/Mixin]Mixin
+   290. [https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First]Mo
+       bile First
+   291. [https://developer.mozilla.org/en-US/docs/Glossary/Modem]Modem
+   292. [https://developer.mozilla.org/en-US/docs/Glossary/Modularity]Modu
+       larity
+   293. [https://developer.mozilla.org/en-US/docs/Glossary/Mozilla_Firefox
+       ]Mozilla Firefox
+   294. [https://developer.mozilla.org/en-US/docs/Glossary/Mutable]Mutable
+   295. [https://developer.mozilla.org/en-US/docs/Glossary/MVC]MVC
+   296. [https://developer.mozilla.org/en-US/docs/Glossary/Namespace]Names
+       pace
+   297. [https://developer.mozilla.org/en-US/docs/Glossary/NaN]NaN
+   298. [https://developer.mozilla.org/en-US/docs/Glossary/NAT]NAT
+   299. [https://developer.mozilla.org/en-US/docs/Glossary/Native]Native
+   300. [https://developer.mozilla.org/en-US/docs/Glossary/Navigation_dire
+       ctive]Navigation directive
+   301. [https://developer.mozilla.org/en-US/docs/Glossary/Netscape_Naviga
+       tor]Netscape Navigator
+   302. [https://developer.mozilla.org/en-US/docs/Glossary/Network_throttl
+       ing]Network throttling
+   303. [https://developer.mozilla.org/en-US/docs/Glossary/NNTP]NNTP
+   304. [https://developer.mozilla.org/en-US/docs/Glossary/Node]Node
+   305. [https://developer.mozilla.org/en-US/docs/Glossary/Node.js]Node.js
+   306. [https://developer.mozilla.org/en-US/docs/Glossary/Non-normative]N
+       on-normative
+   307. [https://developer.mozilla.org/en-US/docs/Glossary/Normative]Norma
+       tive
+   308. [https://developer.mozilla.org/en-US/docs/Glossary/Null]Null
+   309. [https://developer.mozilla.org/en-US/docs/Glossary/Nullish]Nullish
+       value
+   310. [https://developer.mozilla.org/en-US/docs/Glossary/Number]Number
+   311. [https://developer.mozilla.org/en-US/docs/Glossary/Object]Object
+   312. [https://developer.mozilla.org/en-US/docs/Glossary/Object_referenc
+       e]Object reference
+   313. [https://developer.mozilla.org/en-US/docs/Glossary/OOP]OOP
+   314. [https://developer.mozilla.org/en-US/docs/Glossary/OpenGL]OpenGL
+   315. [https://developer.mozilla.org/en-US/docs/Glossary/OpenSSL]OpenSSL
+   316. [https://developer.mozilla.org/en-US/docs/Glossary/Opera_Browser]O
+       pera Browser
+   317. [https://developer.mozilla.org/en-US/docs/Glossary/Operand]Operand
+   318. [https://developer.mozilla.org/en-US/docs/Glossary/Operator]Operat
+       or
+   319. [https://developer.mozilla.org/en-US/docs/Glossary/Origin]Origin
+   320. [https://developer.mozilla.org/en-US/docs/Glossary/OTA]OTA
+   321. [https://developer.mozilla.org/en-US/docs/Glossary/OWASP]OWASP
+   322. [https://developer.mozilla.org/en-US/docs/Glossary/P2P]P2P
+   323. [https://developer.mozilla.org/en-US/docs/Glossary/PAC]PAC
+   324. [https://developer.mozilla.org/en-US/docs/Glossary/Packet]Packet
+   325. [https://developer.mozilla.org/en-US/docs/Glossary/Page_load_time]
+       Page load time
+   326. [https://developer.mozilla.org/en-US/docs/Glossary/Page_prediction
+       ]Page prediction
+   327. [https://developer.mozilla.org/en-US/docs/Glossary/Parameter]Param
+       eter
+   328. [https://developer.mozilla.org/en-US/docs/Glossary/Parent_object]P
+       arent object
+   329. [https://developer.mozilla.org/en-US/docs/Glossary/Parse]Parse
+   330. [https://developer.mozilla.org/en-US/docs/Glossary/Parser]Parser
+   331. [https://developer.mozilla.org/en-US/docs/Glossary/Payload_body]Pa
+       yload body
+   332. [https://developer.mozilla.org/en-US/docs/Glossary/Payload_header]
+       Payload header
+   333. [https://developer.mozilla.org/en-US/docs/Glossary/PDF]PDF
+   334. [https://developer.mozilla.org/en-US/docs/Glossary/Perceived_perfo
+       rmance]Perceived performance
+   335. [https://developer.mozilla.org/en-US/docs/Glossary/Percent-encodin
+       g]Percent-encoding
+   336. [https://developer.mozilla.org/en-US/docs/Glossary/PHP]PHP
+   337. [https://developer.mozilla.org/en-US/docs/Glossary/Pixel]Pixel
+   338. [https://developer.mozilla.org/en-US/docs/Glossary/Placeholder_nam
+       es]Placeholder names
+   339. [https://developer.mozilla.org/en-US/docs/Glossary/Plaintext]Plain
+       text
+   340. [https://developer.mozilla.org/en-US/docs/Glossary/Plugin]Plugin
+   341. [https://developer.mozilla.org/en-US/docs/Glossary/PNG]PNG
+   342. [https://developer.mozilla.org/en-US/docs/Glossary/Polyfill]Polyfi
+       ll
+   343. [https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism]Po
+       lymorphism
+   344. [https://developer.mozilla.org/en-US/docs/Glossary/POP]POP3
+   345. [https://developer.mozilla.org/en-US/docs/Glossary/Port]Port
+   346. [https://developer.mozilla.org/en-US/docs/Glossary/Prefetch]Prefet
+       ch
+   347. [https://developer.mozilla.org/en-US/docs/Glossary/Preflight_reque
+       st]Preflight request
+   348. [https://developer.mozilla.org/en-US/docs/Glossary/Prerender]Prere
+       nder
+   349. [https://developer.mozilla.org/en-US/docs/Glossary/Presto]Presto
+   350. [https://developer.mozilla.org/en-US/docs/Glossary/Primitive]Primi
+       tive
+   351. [https://developer.mozilla.org/en-US/docs/Glossary/Privileged]Priv
+       ileged
+   352. [https://developer.mozilla.org/en-US/docs/Glossary/Privileged_code
+       ]Privileged code
+   353. [https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enh
+       ancement]Progressive Enhancement
+   354. [https://developer.mozilla.org/en-US/docs/Glossary/Progressive_web
+       _apps]Progressive web apps
+   355. [https://developer.mozilla.org/en-US/docs/Glossary/Promise]Promise
+   356. [https://developer.mozilla.org/en-US/docs/Glossary/Property]Proper
+       ty
+   357. [https://developer.mozilla.org/en-US/docs/Glossary/Protocol]Protoc
+       ol
+   358. [https://developer.mozilla.org/en-US/docs/Glossary/Prototype]Proto
+       type
+   359. [https://developer.mozilla.org/en-US/docs/Glossary/Prototype-based
+       _programming]Prototype-based programming
+   360. [https://developer.mozilla.org/en-US/docs/Glossary/Proxy_server]Pr
+       oxy server
+   361. [https://developer.mozilla.org/en-US/docs/Glossary/Pseudo-class]Ps
+       eudo-class
+   362. [https://developer.mozilla.org/en-US/docs/Glossary/Pseudo-element]
+       Pseudo-element
+   363. [https://developer.mozilla.org/en-US/docs/Glossary/Pseudocode]Pseu
+       docode
+   364. [https://developer.mozilla.org/en-US/docs/Glossary/Public-key_cryp
+       tography]Public-key cryptography
+   365. [https://developer.mozilla.org/en-US/docs/Glossary/Python]Python
+   366. [https://developer.mozilla.org/en-US/docs/Glossary/Quality_values]
+       Quality values
+   367. [https://developer.mozilla.org/en-US/docs/Glossary/Quaternion]Quat
+       ernion
+   368. [https://developer.mozilla.org/en-US/docs/Glossary/QUIC]QUIC
+   369. [https://developer.mozilla.org/en-US/docs/Glossary/RAIL]RAIL
+   370. [https://developer.mozilla.org/en-US/docs/Glossary/RNG]Random
+       Number Generator
+   371. [https://developer.mozilla.org/en-US/docs/Glossary/Raster_image]Ra
+       ster image
+   372. [https://developer.mozilla.org/en-US/docs/Glossary/RDF]RDF
+   373. [https://developer.mozilla.org/en-US/docs/Glossary/Real_User_Monit
+       oring]Real User Monitoring (RUM)
+   374. [https://developer.mozilla.org/en-US/docs/Glossary/Recursion]Recur
+       sion
+   375. [https://developer.mozilla.org/en-US/docs/Glossary/Reflow]Reflow
+   376. [https://developer.mozilla.org/en-US/docs/Glossary/Regular_express
+       ion]Regular expression
+   377. [https://developer.mozilla.org/en-US/docs/Glossary/Rendering_engin
+       e]Rendering engine
+   378. [https://developer.mozilla.org/en-US/docs/Glossary/Replay_attack]R
+       eplay attack
+   379. [https://developer.mozilla.org/en-US/docs/Glossary/Repo]Repo
+   380. [https://developer.mozilla.org/en-US/docs/Glossary/Reporting_direc
+       tive]Reporting directive
+   381. [https://developer.mozilla.org/en-US/docs/Glossary/Representation_
+       header]Representation header
+   382. [https://developer.mozilla.org/en-US/docs/Glossary/Request_header]
+       Request header
+   383. [https://developer.mozilla.org/en-US/docs/Glossary/Resource_Timing
+       ]Resource Timing
+   384. [https://developer.mozilla.org/en-US/docs/Glossary/Response_header
+       ]Response header
+   385. [https://developer.mozilla.org/en-US/docs/Glossary/Responsive_web_
+       design]Responsive web design
+   386. [https://developer.mozilla.org/en-US/docs/Glossary/REST]REST
+   387. [https://developer.mozilla.org/en-US/docs/Glossary/RGB]RGB
+   388. [https://developer.mozilla.org/en-US/docs/Glossary/RIL]RIL
+   389. [https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt]Robo
+       ts.txt
+   390. [https://developer.mozilla.org/en-US/docs/Glossary/Round_Trip_Time
+       ]Round Trip Time (RTT)
+   391. [https://developer.mozilla.org/en-US/docs/Glossary/Routers]Routers
+   392. [https://developer.mozilla.org/en-US/docs/Glossary/RSS]RSS
+   393. [https://developer.mozilla.org/en-US/docs/Glossary/Rsync]Rsync
+   394. [https://developer.mozilla.org/en-US/docs/Glossary/RTCP]RTCP (RTP
+       Control Protocol)
+   395. [https://developer.mozilla.org/en-US/docs/Glossary/RTF]RTF
+   396. [https://developer.mozilla.org/en-US/docs/Glossary/RTL]RTL (Right
+       to Left)
+   397. [https://developer.mozilla.org/en-US/docs/Glossary/RTP]RTP
+       (Real-time Transport Protocol) and SRTP (Secure RTP)
+   398. [https://developer.mozilla.org/en-US/docs/Glossary/RTSP]RTSP:
+       Real-time streaming protocol
+   399. [https://developer.mozilla.org/en-US/docs/Glossary/Ruby]Ruby
+   400. [https://developer.mozilla.org/en-US/docs/Glossary/Safe]Safe
+   401. [https://developer.mozilla.org/en-US/docs/Glossary/Same-origin_pol
+       icy]Same-origin policy
+   402. [https://developer.mozilla.org/en-US/docs/Glossary/SCM]SCM
+   403. [https://developer.mozilla.org/en-US/docs/Glossary/Scope]Scope
+   404. [https://developer.mozilla.org/en-US/docs/Glossary/Screen_reader]S
+       creen reader
+   405. [https://developer.mozilla.org/en-US/docs/Glossary/Script-supporti
+       ng_element]Script-supporting element
+   406. [https://developer.mozilla.org/en-US/docs/Glossary/Scroll_containe
+       r]Scroll container
+   407. [https://developer.mozilla.org/en-US/docs/Glossary/SCTP]SCTP
+   408. [https://developer.mozilla.org/en-US/docs/Glossary/SDK]SDK
+       (Software Development Kit)
+   409. [https://developer.mozilla.org/en-US/docs/Glossary/SDP]SDP
+   410. [https://developer.mozilla.org/en-US/docs/Glossary/Search_engine]S
+       earch engine
+   411. [https://developer.mozilla.org/en-US/docs/Glossary/Second-level_Do
+       main]Second-level Domain
+   412. [https://developer.mozilla.org/en-US/docs/Glossary/Secure_Context]
+       Secure Context
+   413. [https://developer.mozilla.org/en-US/docs/Glossary/SSL]Secure
+       Sockets Layer (SSL)
+   414. [https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector]Se
+       lector (CSS)
+   415. [https://developer.mozilla.org/en-US/docs/Glossary/Self-Executing_
+       Anonymous_Function]Self-Executing Anonymous Function
+   416. [https://developer.mozilla.org/en-US/docs/Glossary/Semantics]Seman
+       tics
+   417. [https://developer.mozilla.org/en-US/docs/Glossary/SEO]SEO
+   418. [https://developer.mozilla.org/en-US/docs/Glossary/Serializable_ob
+       ject]Serializable object
+   419. [https://developer.mozilla.org/en-US/docs/Glossary/Serialization]S
+       erialization
+   420. [https://developer.mozilla.org/en-US/docs/Glossary/Server]Server
+   421. [https://developer.mozilla.org/en-US/docs/Glossary/Server_Timing]S
+       erver Timing
+   422. [https://developer.mozilla.org/en-US/docs/Glossary/Session_Hijacki
+       ng]Session Hijacking
+   423. [https://developer.mozilla.org/en-US/docs/Glossary/SGML]SGML
+   424. [https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree]Sha
+       dow tree
+   425. [https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy]Sh
+       allow copy
+   426. [https://developer.mozilla.org/en-US/docs/Glossary/Shim]Shim
+   427. [https://developer.mozilla.org/en-US/docs/Glossary/Signature]Signa
+       ture
+   428. [https://developer.mozilla.org/en-US/docs/Glossary/SIMD]SIMD
+   429. [https://developer.mozilla.org/en-US/docs/Glossary/Simple_header]S
+       imple header
+   430. [https://developer.mozilla.org/en-US/docs/Glossary/Simple_response
+       _header]Simple response header
+   431. [https://developer.mozilla.org/en-US/docs/Glossary/SISD]SISD
+   432. [https://developer.mozilla.org/en-US/docs/Glossary/Site]Site
+   433. [https://developer.mozilla.org/en-US/docs/Glossary/Site_map]Site
+       map
+   434. [https://developer.mozilla.org/en-US/docs/Glossary/SLD]SLD
+   435. [https://developer.mozilla.org/en-US/docs/Glossary/Sloppy_mode]Slo
+       ppy mode
+   436. [https://developer.mozilla.org/en-US/docs/Glossary/Slug]Slug
+   437. [https://developer.mozilla.org/en-US/docs/Glossary/Smoke_Test]Smok
+       e Test
+   438. [https://developer.mozilla.org/en-US/docs/Glossary/SMPTE]SMPTE
+       (Society of Motion Picture and Television Engineers)
+   439. [https://developer.mozilla.org/en-US/docs/Glossary/SMTP]SMTP
+   440. [https://developer.mozilla.org/en-US/docs/Glossary/Snap_positions]
+       Snap positions
+   441. [https://developer.mozilla.org/en-US/docs/Glossary/SOAP]SOAP
+   442. [https://developer.mozilla.org/en-US/docs/Glossary/SPA]SPA
+       (Single-page application)
+   443. [https://developer.mozilla.org/en-US/docs/Glossary/Specification]S
+       pecification
+   444. [https://developer.mozilla.org/en-US/docs/Glossary/Speculative_par
+       sing]Speculative parsing
+   445. [https://developer.mozilla.org/en-US/docs/Glossary/Speed_index]Spe
+       ed index
+   446. [https://developer.mozilla.org/en-US/docs/Glossary/SQL]SQL
+   447. [https://developer.mozilla.org/en-US/docs/Glossary/SQL_Injection]S
+       QL Injection
+   448. [https://developer.mozilla.org/en-US/docs/Glossary/SRI]SRI
+   449. [https://developer.mozilla.org/en-US/docs/Glossary/Stacking_contex
+       t]Stacking context
+   450. [https://developer.mozilla.org/en-US/docs/Glossary/State_machine]S
+       tate machine
+   451. [https://developer.mozilla.org/en-US/docs/Glossary/Statement]State
+       ment
+   452. [https://developer.mozilla.org/en-US/docs/Glossary/Static_method]S
+       tatic method
+   453. [https://developer.mozilla.org/en-US/docs/Glossary/Static_typing]S
+       tatic typing
+   454. [https://developer.mozilla.org/en-US/docs/Glossary/Sticky_activati
+       on]Sticky activation
+   455. [https://developer.mozilla.org/en-US/docs/Glossary/Strict_mode]Str
+       ict mode
+   456. [https://developer.mozilla.org/en-US/docs/Glossary/String]String
+   457. [https://developer.mozilla.org/en-US/docs/Glossary/Stringifier]Str
+       ingifier
+   458. [https://developer.mozilla.org/en-US/docs/Glossary/STUN]STUN
+   459. [https://developer.mozilla.org/en-US/docs/Glossary/Style_origin]St
+       yle origin
+   460. [https://developer.mozilla.org/en-US/docs/Glossary/Stylesheet]Styl
+       esheet
+   461. [https://developer.mozilla.org/en-US/docs/Glossary/Submit_button]S
+       ubmit button
+   462. [https://developer.mozilla.org/en-US/docs/Glossary/SVG]SVG
+   463. [https://developer.mozilla.org/en-US/docs/Glossary/SVN]SVN
+   464. [https://developer.mozilla.org/en-US/docs/Glossary/Symmetric-key_c
+       ryptography]Symmetric-key cryptography
+   465. [https://developer.mozilla.org/en-US/docs/Glossary/Synchronous]Syn
+       chronous
+   466. [https://developer.mozilla.org/en-US/docs/Glossary/Syntax]Syntax
+   467. [https://developer.mozilla.org/en-US/docs/Glossary/Syntax_error]Sy
+       ntax error
+   468. [https://developer.mozilla.org/en-US/docs/Glossary/Synthetic_monit
+       oring]Synthetic monitoring
+   469. [https://developer.mozilla.org/en-US/docs/Glossary/Table_Grid_Box]
+       Table Grid Box
+   470. [https://developer.mozilla.org/en-US/docs/Glossary/Table_Wrapper_B
+       ox]Table Wrapper Box
+   471. [https://developer.mozilla.org/en-US/docs/Glossary/Tag]Tag
+   472. [https://developer.mozilla.org/en-US/docs/Glossary/TCP]TCP
+   473. [https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake]T
+       CP handshake
+   474. [https://developer.mozilla.org/en-US/docs/Glossary/TCP_slow_start]
+       TCP slow start
+   475. [https://developer.mozilla.org/en-US/docs/Glossary/Telnet]Telnet
+   476. [https://developer.mozilla.org/en-US/docs/Glossary/Texel]Texel
+   477. [https://developer.mozilla.org/en-US/docs/Glossary/Khronos]The
+       Khronos Group
+   478. [https://developer.mozilla.org/en-US/docs/Glossary/Thread]Thread
+   479. [https://developer.mozilla.org/en-US/docs/Glossary/Three_js]Three
+       js
+   480. [https://developer.mozilla.org/en-US/docs/Glossary/Time_to_first_b
+       yte]Time to first byte
+   481. [https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interac
+       tive]Time to interactive
+   482. [https://developer.mozilla.org/en-US/docs/Glossary/TLD]TLD
+   483. [https://developer.mozilla.org/en-US/docs/Glossary/TOFU]TOFU
+   484. [https://developer.mozilla.org/en-US/docs/Glossary/Top_layer]Top
+       layer
+   485. [https://developer.mozilla.org/en-US/docs/Glossary/Transient_activ
+       ation]Transient activation
+   486. [https://developer.mozilla.org/en-US/docs/Glossary/TLS]Transport
+       Layer Security (TLS)
+   487. [https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking]Tr
+       ee shaking
+   488. [https://developer.mozilla.org/en-US/docs/Glossary/Trident]Trident
+   489. [https://developer.mozilla.org/en-US/docs/Glossary/Truthy]Truthy
+   490. [https://developer.mozilla.org/en-US/docs/Glossary/TTL]TTL
+   491. [https://developer.mozilla.org/en-US/docs/Glossary/TURN]TURN
+   492. [https://developer.mozilla.org/en-US/docs/Glossary/Type]Type
+   493. [https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion]T
+       ype coercion
+   494. [https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion
+       ]Type conversion
+   495. [https://developer.mozilla.org/en-US/docs/Glossary/UDP]UDP (User
+       Datagram Protocol)
+   496. [https://developer.mozilla.org/en-US/docs/Glossary/UI]UI
+   497. [https://developer.mozilla.org/en-US/docs/Glossary/Undefined]Undef
+       ined
+   498. [https://developer.mozilla.org/en-US/docs/Glossary/Unicode]Unicode
+   499. [https://developer.mozilla.org/en-US/docs/Glossary/Unix_time]Unix
+       time
+   500. [https://developer.mozilla.org/en-US/docs/Glossary/URI]URI
+   501. [https://developer.mozilla.org/en-US/docs/Glossary/URL]URL
+   502. [https://developer.mozilla.org/en-US/docs/Glossary/URN]URN
+   503. [https://developer.mozilla.org/en-US/docs/Glossary/Usenet]Usenet
+   504. [https://developer.mozilla.org/en-US/docs/Glossary/User_agent]User
+       agent
+   505. [https://developer.mozilla.org/en-US/docs/Glossary/UTF-8]UTF-8
+   506. [https://developer.mozilla.org/en-US/docs/Glossary/UUID]UUID
+   507. [https://developer.mozilla.org/en-US/docs/Glossary/UX]UX
+   508. [https://developer.mozilla.org/en-US/docs/Glossary/Validator]Valid
+       ator
+   509. [https://developer.mozilla.org/en-US/docs/Glossary/Value]Value
+   510. [https://developer.mozilla.org/en-US/docs/Glossary/Variable]Variab
+       le
+   511. [https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix]V
+       endor Prefix
+   512. [https://developer.mozilla.org/en-US/docs/Glossary/Viewport]Viewpo
+       rt
+   513. [https://developer.mozilla.org/en-US/docs/Glossary/Visual_Viewport
+       ]Visual Viewport
+   514. [https://developer.mozilla.org/en-US/docs/Glossary/Void_element]Vo
+       id element
+   515. [https://developer.mozilla.org/en-US/docs/Glossary/VoIP]VoIP
+   516. [https://developer.mozilla.org/en-US/docs/Glossary/W3C]W3C
+   517. [https://developer.mozilla.org/en-US/docs/Glossary/WAI]WAI
+   518. [https://developer.mozilla.org/en-US/docs/Glossary/WCAG]WCAG
+   519. [https://developer.mozilla.org/en-US/docs/Glossary/Web_performance
+       ]Web performance
+   520. [https://developer.mozilla.org/en-US/docs/Glossary/Web_server]Web
+       server
+   521. [https://developer.mozilla.org/en-US/docs/Glossary/Web_standards]W
+       eb standards
+   522. [https://developer.mozilla.org/en-US/docs/Glossary/WebAssembly]Web
+       Assembly
+   523. [https://developer.mozilla.org/en-US/docs/Glossary/WebDAV]WebDAV
+   524. [https://developer.mozilla.org/en-US/docs/Glossary/WebExtensions]W
+       ebExtensions
+   525. [https://developer.mozilla.org/en-US/docs/Glossary/WebGL]WebGL
+   526. [https://developer.mozilla.org/en-US/docs/Glossary/WebIDL]WebIDL
+   527. [https://developer.mozilla.org/en-US/docs/Glossary/WebKit]WebKit
+   528. [https://developer.mozilla.org/en-US/docs/Glossary/WebM]WebM
+   529. [https://developer.mozilla.org/en-US/docs/Glossary/WebP]WebP
+   530. [https://developer.mozilla.org/en-US/docs/Glossary/WebRTC]WebRTC
+   531. [https://developer.mozilla.org/en-US/docs/Glossary/WebSockets]WebS
+       ockets
+   532. [https://developer.mozilla.org/en-US/docs/Glossary/WebVTT]WebVTT
+   533. [https://developer.mozilla.org/en-US/docs/Glossary/WHATWG]WHATWG
+   534. [https://developer.mozilla.org/en-US/docs/Glossary/Whitespace]Whit
+       espace
+   535. [https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy]Win
+       dowProxy
+   536. [https://developer.mozilla.org/en-US/docs/Glossary/World_Wide_Web]
+       World Wide Web
+   537. [https://developer.mozilla.org/en-US/docs/Glossary/Wrapper]Wrapper
+   538. [https://developer.mozilla.org/en-US/docs/Glossary/XForms]XForms
+       Deprecated
+   539. [https://developer.mozilla.org/en-US/docs/Glossary/XHTML]XHTML
+   540. [https://developer.mozilla.org/en-US/docs/Glossary/XInclude]XInclu
+       de
+   541. [https://developer.mozilla.org/en-US/docs/Glossary/XLink]XLink
+   542. [https://developer.mozilla.org/en-US/docs/Glossary/XML]XML
+   543. [https://developer.mozilla.org/en-US/docs/Glossary/XMLHttpRequest]
+       XMLHttpRequest (XHR)
+   544. [https://developer.mozilla.org/en-US/docs/Glossary/XPath]XPath
+   545. [https://developer.mozilla.org/en-US/docs/Glossary/XQuery]XQuery
+   546. [https://developer.mozilla.org/en-US/docs/Glossary/XSLT]XSLT
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Glossary/DNS#see_also]See
+       also
+
+                                      DNS
+
+   DNS (Domain Name System) is a hierarchical and decentralized naming
+   system for Internet connected resources. DNS maintains a list of
+   [https://developer.mozilla.org/en-US/docs/Glossary/Domain_name]domain
+   names along with the resources, such as IP addresses, that are
+   associated with them.
+
+   The most prominent function of DNS is the translation of human-friendly
+   domain names (such as mozilla.org) to a numeric
+   [https://developer.mozilla.org/en-US/docs/Glossary/IP_Address]IP
+   address (such as 151.106.5.172); this process of mapping a domain name
+   to the appropriate IP address is known as a DNS lookup. By contrast, a
+   reverse DNS lookup (rDNS) is used to determine the domain name
+   associated with an IP address.
+
+[https://developer.mozilla.org/en-US/docs/Glossary/DNS#see_also]See also
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_domain_name]Understanding domain names
+     * [https://en.wikipedia.org/wiki/Domain_Name_System]Domain Name
+       System on Wikipedia
+
+Found a content problem with this page?
+
+     * [https://github.com/mdn/content/edit/main/files/en-us/glossary/dns/
+       index.md]Edit the page on GitHub.
+     * [https://github.com/mdn/content/issues/new?template=page-report.yml
+       &mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGloss
+       ary%2FDNS&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%
+       3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%
+       3E%0A%0A*+Folder%3A+%60en-us%2Fglossary%2Fdns%60%0A*+MDN+URL%3A+htt
+       ps%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGlossary%2FDNS%0A
+       *+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fm
+       ain%2Ffiles%2Fen-us%2Fglossary%2Fdns%2Findex.md%0A*+Last+commit%3A+
+       https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fada5fa5ef15eadd
+       44b549ecf906423b4a2092f34%0A*+Document+last+modified%3A+2023-06-08T
+       13%3A19%3A16.000Z%0A%0A%3C%2Fdetails%3E]Report the content issue.
+     * [https://github.com/mdn/content/blob/main/files/en-us/glossary/dns/
+       index.md?plain=1]View the source on GitHub.
+
+   Want to get more involved?
+   [https://github.com/mdn/content/blob/main/CONTRIBUTING.md]Learn how to
+   contribute.
+
+   This page was last modified on Jun 8, 2023 by
+   [https://developer.mozilla.org/en-US/docs/Glossary/DNS/contributors.txt
+   ]MDN contributors.
+
+   [https://developer.mozilla.org/]
+
+   Your blueprint for a better internet.
+     * [https://twitter.com/mozdevnet]MDN on Twitter
+     * [https://github.com/mdn/]MDN on GitHub
+     * [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+MDN
+
+     * [https://developer.mozilla.org/en-US/about]About
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://www.mozilla.org/en-US/careers/listings/?team=Marketing]Car
+       eers
+     * [https://developer.mozilla.org/en-US/advertising]Advertise with us
+
+Support
+
+     * [https://support.mozilla.org/products/mdn-plus]Product help
+     * [https://developer.mozilla.org/en-US/docs/MDN/Community/Issues]Repo
+       rt an issue
+
+Our communities
+
+     * [https://developer.mozilla.org/en-US/community]MDN Community
+     * [https://discourse.mozilla.org/c/mdn/236]MDN Forum
+     * [https://wiki.mozilla.org/Matrix]MDN Chat
+
+Developers
+
+     * [https://developer.mozilla.org/en-US/docs/Web]Web Technologies
+     * [https://developer.mozilla.org/en-US/docs/Learn]Learn Web
+       Development
+     * [https://developer.mozilla.org/en-US/plus]MDN Plus
+     * [https://hacks.mozilla.org/]Hacks Blog
+
+   [https://www.mozilla.org/]
+     * [https://www.mozilla.org/privacy/websites/]Website Privacy Notice
+     * [https://www.mozilla.org/privacy/websites/#cookies]Cookies
+     * [https://www.mozilla.org/about/legal/terms/mozilla]Legal
+     * [https://www.mozilla.org/about/governance/policies/participation/]C
+       ommunity Participation Guidelines
+
+   Visit [https://www.mozilla.org/]Mozilla Corporation’s not-for-profit
+   parent, the [https://foundation.mozilla.org/]Mozilla Foundation.
+   Portions of this content are ©1998–2023 by individual mozilla.org
+   contributors. Content available under
+   [https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib
+   _copyright_license]a Creative Commons license.

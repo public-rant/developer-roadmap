@@ -1,0 +1,654 @@
+when a computer starts up it loads an
+operating system also known as an OS a
+program for managing the hardware and
+running other programs in OS terminology
+a running program is called a process
+and it is the OSS responsibility to keep
+the processes from interfering with one
+another even as they run on the same
+system at the same time it s also the
+OSS job to provide an interface to the
+hardware for the processes such that the
+OS retains old direct control of the
+hardware devices with the processes only
+interacting with the devices via so
+called system calls provided by the OS
+the OS also provides a file system which
+abstract over the storage devices such
+that processes can read and write files
+without concern for how precisely they
+get stored
+lastly the OS provides a user interface
+for users to run programs and manage the
+file system the most widely used
+operating system for PCs today is of
+course Microsoft s Windows the most
+recent version for client pcs is Windows
+8 and the variant for servers is Windows
+Server 2012 the main alternatives to
+Windows are all descendants of the UNIX
+operating system which was created in
+the early 1970s these descendants don t
+use any actual code from the original
+UNIX but they share some common
+structure and conventions both linux and
+bsd short for berkeley software
+distribution are unix like operating
+systems that are free and open source
+and developed by a scattered community
+around the world Apple s OS 10 was
+originally based on a variant of BSD but
+is itself proprietary and only legally
+available for Apple s own computers even
+though the underlying apple hardware is
+the same as standard PC hardware except
+when we discuss file systems all the
+information in this unit will be
+platform agnostic applicable to both
+Windows and UNIX systems
+a device driver is a plug in module of
+the OS that handles the management of a
+particular i o device some standardized
+devices may function with a generic
+driver eg a USB mouse may perform old
+common USB mouse functionality with a
+driver written for a generic USB mouse
+however many devices require more
+specific driver for example in my system
+using the generic graphic strawberry
+provided by Windows only provides bare
+minimum functionality to run high
+resolutions and play games
+I must install the driver provided by
+AMD for my Radeon graphics card
+a primary purpose of modern operating
+systems is to allow for multiple
+processes to run concurrently meaning at
+the same time the problem of course is
+that each CPU core can only execute the
+code of one process at a time and the
+OSS own code can t run on a core at the
+same time as any process the solution
+then is to have each CPU core alternate
+between running each open process and
+alternate running processes with running
+OS code so here if we have two CPU cores
+and three open processes a B and C
+notice that each process only runs on
+one core at a time at no point does say
+process B run simultaneously on both of
+the two cores also notice that OS code
+always runs on each core in between each
+process what s happening here is that a
+portion of the OS called the scheduler
+runs after each process to decide what
+OS work if any should be done and which
+process should run next the question
+then is how does the currently running
+process get interrupted left on its own
+a running process would continue
+indefinitely when any hardware interrupt
+is triggered however the interrupt
+handler passes off control to the
+scheduler rather than handing the
+processor core back to the interrupted
+process the scheduler then decides what
+OS code to run if any and what process
+should run next laid out in full the
+scheme called pre emptive multitasking
+works like this first the CPU receives
+some hardware interrupts then the
+interrupt stores the program counter so
+that the interrupted code can resume
+later the interrupt invokes the
+appropriate handler the handler itself
+saves the state of the other CPU
+registers so that the interrupted
+process can be resumed later the handler
+does whatever business the interrupting
+device needs the handler then invokes a
+scheduler and the scheduler selects a
+process to run the scheduler then
+restores the CPU registers to the state
+they were in when that process was last
+running so that that process may
+continue and finally the scheduler jumps
+execution to that process you may now be
+wondering two things first what if no
+interrupt is triggered by any device for
+a long time that would allow the
+currently running process to hog the CPU
+when generally we want each process to
+at least get a little time on a regular
+basis say every several seconds or so a
+videogame for example typically can t go
+without CPU time for more than a
+fraction of a second so it would be no
+good if some other process ran without
+interruption for a second or more
+to ensure that the scheduler gets to run
+on a regular basis whether any i o
+devices need attention or not a clock
+device on the mainboard is configured to
+send an interrupt on a regular basis say
+once every 10 or 20 milliseconds thus
+the system guarantees that the scheduler
+gets the opportunity to change the
+running process on each core at least
+several times a second the next thing
+you might wonder is how the scheduler
+chooses which process to run next using
+the simplest algorithm the round robin
+algorithm the scheduler simply runs each
+process in turn one after the other
+while this ensures that every process
+gets run on a regular basis the more
+sophisticated algorithms used by Windows
+Linux and other modern operating systems
+attempt to take into account which
+crosses season each processor time more
+
+processes not only share the CPU cores
+the of course must also share the system
+memory
+it s the OSS job to regulate the
+processes use of memory to ensure that
+each process doesn t interfere with the
+portions of memory used by other
+processes and by the OS itself here for
+example the processes a B and C have
+been allocated their own portions of
+system memory while the OS may access
+any portion of memory as it chooses
+because the OS is supposed to be in
+charge of the system each process can
+only access its own portion of memory as
+we ll explain shortly this restriction
+is enforced by the hardware making it
+impossible for a process to muck with
+addresses outside of its own portion of
+memory however we need a loophole for
+this restriction because processes must
+be able to invoke certain routines at
+fixed addresses in the OSS portion of
+memory these routines called system
+calls are the means by which processes
+initiate requests to the operating
+system these system calls provide
+functionality for things like say
+reading and writing files or for sending
+and receiving data over the network to
+invoke a system call a process must use
+a specific CPU instruction usually
+called Cisco in which the process
+specifies a system call number when this
+instruction is invoked the processor
+looks in the system called table for the
+address of the routine corresponding to
+the number and jumps execution to that
+address because the operating system
+controls the system call table a process
+can only jump execution to addresses of
+the operating systems choosing so aside
+from this loophole how do the operating
+system and hardware restrict the process
+to only access its own portion of memory
+well first off the CPU actually runs in
+two different privilege levels when OS
+code runs the CPU is put into a
+privilege level that allows access of
+the i o devices and any address of
+memory when a process runs however the
+CPU is put into a privileged level that
+triggers a Hardware exception when the
+code attempts to directly access the i o
+devices or addresses not allowed for
+that process processes are supposed to
+directly touch only their own memory not
+anything else in the system now to
+understand how the CPU knows which
+addresses are allowed for each process
+we have to first look at how a process
+uses memory
+each process uses a portion of its
+memory for a stack for a heap and for
+storing the processes code itself in a
+section confusingly called the text
+section even though the code is in
+binary form the code section is
+straightforward the binary instructions
+are stored in a contiguous chunk of
+memory and never modified for the
+duration of the process except for the
+purpose of dynamic linking with shared
+libraries as we described in the unit on
+programming languages the stack and heap
+though are both for storing data the
+difference is that the stack stores the
+local variables used by the process and
+the heap stores everything else looking
+at the stack first the stack is a
+contiguous chunk of memory that starts
+out unused when the first function is
+called let s call it main it s local
+variables are stored on the stack in a
+grouping called a frame when the main
+function itself invokes another function
+let s call it cat the local variables of
+cat are stored in another frame on top
+along with the size of the frame and the
+return address the address to jump back
+to when execution returns from cat
+likewise if cat calls another function
+dog then dogs local variables the size
+of its frame and the return address to
+cat are stored in another frame on top
+notice that as we add frames we have to
+keep track at the top of the stack
+because that s where we add a frame when
+the next function is cold
+many CPUs including x86 CPUs have a
+specific register for storing this
+address usually called the stack pointer
+when a function returns the frame size
+is used to adjust the stack pointer back
+down to the last frame and execution
+jumps back to the return address so when
+dog returns execution returns the cat
+and the stack pointer will point to the
+top of cats frame notice that we don t
+have to actually delete any frames
+because the space of frame occupies will
+simply get overwritten by subsequent
+frames as needed also notice that the
+first frame is special because the
+program ends when the first function
+returns so the first frame needn t store
+its size or any return address because
+there s nothing to return to now the
+diagram here suggests that the stack
+grows from the bottom but in many cases
+the stack frames start at high memory
+addresses and grow downwards this in
+fact is the case with x86 CPUs this
+choice though is mostly arbitrary the
+size of
+stack space in some systems is kept
+track of with another pointer usually
+called the stack boundary kept in
+another CPU register in CPUs with this
+register when the stack pointer runs
+past the stack boundary this triggers a
+hardware exception and the exception
+handler may increase the stack space by
+moving the stack boundary
+however the exception handler may decide
+at some point that the stack has grown
+too large and may simply refuse and then
+instead simply terminate the process
+generally the processes stack should
+only get so big a megabyte or two at the
+high end when stacks grow past this size
+it s generally a sign of an underlying
+programming error that should be
+corrected not accommodated the most
+common cause of an overly large stack is
+an overly long chain of recursive
+function calls when the program exceeds
+its available stack space the error is
+called a stack overflow when a stack
+overflow occurs on the PC the OS usually
+terminates the errant process and very
+simple computers however such as in
+embedded systems the stack size is not
+necessarily monitored with a stack
+boundary and so when a program consumes
+more stack space than it should the
+stack may poke into parts of memory used
+for other data or code likely causing
+
+the common arrangement in pcs is to
+store the stack at the top of a
+processes address space and the text the
+code of the process at the bottom all
+the remaining space in between is
+available for the heap
+unlike the stack in text however no heap
+space exists when the process starts
+executing instead the process must
+explicitly request chunks of heap
+storage from the OS with a system coal
+in the coal the process specifies what
+size contiguous chunk at once but the OS
+decides where to locate these chunks in
+the address space and the chunk
+locations are not necessarily adjacent
+when a process is done with a chunk of
+heap it should give the chunk back to
+the OS with a system call to deallocate
+it is the responsibility of the OS to
+keep track of which portions of the
+address space are free for future
+allocations but notice that as a process
+allocates and D allocates chunks in
+memory the memory space can become more
+and more fragmented effectively
+shrinking the size of heat chunks which
+the OS can allocate because each chunk
+must be contiguous here for example the
+largest heap chunk which the OS could
+allocate is considerably smaller than
+the amount of free space remaining good
+allocation algorithms can minimize this
+fragmentation but the problem can t be
+avoided entirely this partly explains
+why you should deallocate chunks of heap
+when you no longer need them by D
+allocating you free up areas in the
+address space so that they can be
+allocated again later the broader reason
+to deallocate of course is that your
+process might simply run out of address
+space at some point even if your process
+only needs a modest amount of heat
+memory at any one time if your process
+runs long enough without properly the
+allocating heap memory the process may
+eventually run out of address space at
+which point new allocations will fail
+likely requiring your process to
+terminate prematurely so failing to
+properly allocate unneeded heap memory
+is generally regarded as a bug called a
+memory leak because the memory available
+to your program effectively dwindles
+away over time we ll discuss this issue
+in more detail on the unit on
+programming languages the memory
+of a process do not actually refer
+directly to actual bytes of system
+memory instead chunks of the process
+address space are mapped by the
+operating system to chunks of system
+memory but not necessarily contiguous
+Lior in the same order here for example
+the stack is mapped to one area of RAM
+in the middle the code section is mapped
+to another non adjacent area of RAM
+above it and the portions of heap are
+mapped in non adjacent parts of RAM in a
+seemingly random order when the OS runs
+a process it lists these address
+mappings in a table and as the process
+runs the CPU consults this table to
+translate from process addresses to
+addresses of actual RAM for example if
+the chunk of process address space
+starting at address 0 is mapped to byte
+ffff 0 0 0 0 of RAM then address 5 of
+the process address space translates to
+byte ffff 0 0 0 5 of RAM be clear that
+each process has its own complete
+address space and that the OS keeps a
+separate memory table for each process
+effectively then the process can be
+located by the OS in any part of RAM and
+each process can only access its own
+memory not the memory of other processes
+or memory used by the OS when a process
+attempts to is a part of his address
+space which is not mapped to actual RAM
+in the process memory table the CPU
+triggers a Hardware exception and the OS
+then typically aborts the process with
+an error message complaining about a
+page fault because the maps chunks of
+memory are called pages each page is
+usually a set size which depends upon
+the CPU 32 bit x86 processors for
+example usually use 4 kilobyte pages so
+in fact a more realistic diagram would
+show that the stack heap and code
+portions of a process address space are
+most likely not mapped as whole units eg
+each page of the stack may be mapped to
+different non adjacent pages of RAM and
+in no particular order to free up
+valuable RAM the OS may decide to swap
+out pages of a process to storage
+usually a hard drive here for example
+these pages of heap memory are not
+currently mapped to any part of RAM
+instead their data has been temporarily
+copied out to a hard drive and in the
+process memory table these heap pages
+have been marked swapped and attempt by
+the process to access an address in a
+swapped page will trigger an exception
+at which point the OS will copy the
+swaps page back to rim and adjust the
+memory table accordingly before allowing
+the process to proceed thanks to
+swapping the total memory used by all
+processes may actually exceed the
+capacity of RAM in the system swapping
+pages in and out of storage is of course
+relatively slow but better that the
+system occasionally goes a bit slow to
+swap pages rather than simply cease the
+function by running out of memory with
+swap in the processes can use as much
+memory space as the system has free
+storage in practice the small pages in a
+typical PC at any moment will rarely
+exceed more than a gigabyte or two of
+storage but most pages used by most
+processes don t get used very frequently
+so they might as well sit in swap space
+most of the time in its life cycle a
+process transitions through a few major
+States after the OS does all the
+business it needs at time of process
+creation the process transitions into
+the waiting state the sense of waiting
+here is waiting to be selected by the
+scheduler when the scheduler selects the
+process to run and then of course enters
+the running state when the scheduler
+selects a different process to run on
+the same core this process is placed
+back into the waiting State a process
+typically goes back and forth many times
+between waiting and running until the
+process ends at which point it enters
+its final state terminated there is at
+least one more important state blocked
+in the blocked State the process is
+waiting for some external event in the
+system before can proceed rather than
+waiting to be scheduled so it is in
+neither the state of running nor so cold
+waiting most commonly the block state is
+triggered when a process invokes certain
+system calls such as for reading files
+reading a file often blocks the process
+because most storage devices such as
+hard drives are relatively much slower
+than the operations of the CPU and often
+a program cannot do anything useful
+until it gets the data it needs from a
+file in such cases the process might as
+well relinquish the CPU core it was
+using and take itself out of the wading
+pool allowing other processes to run
+while it waits once the operating system
+finishes retrieving the requested data
+from storage it unblocks the process
+putting it back into the waiting state
+so that the scheduler will consider it
+again for execution once the operating
+system finishes retrieving the requested
+data from storage it
+blocks the process putting it back into
+the waiting state so that the scheduler
+will consider it again for execution so
+don t get confused
+both the blocked and waiting states
+involve waiting but only in the waiting
+state will the scheduler select the
+process to run in the block state the
+process waits until the OS puts it back
+in the waiting state there are several
+reasons to block and unblock a process
+but the most common reason is because
+that process has to wait for some slow
+
+as we ve mentioned device drivers handle
+the business of how exactly to talk to
+an i o device and that includes storage
+devices like hard drives
+however operating systems provide an
+extra layer of abstraction for storage
+devices called the file system which
+presents storage space as a hierarchy of
+directories and files stored in those
+directories when your program uses a
+hard drive for example you don t want to
+have to concern yourself with the
+details of moving heads and spinning
+platters you just want to read and write
+data and contiguous you and it s called
+files and you want to have those files
+organized into directories the file
+system provides a subtraction allowing
+program is to read and write data from
+any kind of storage in the same way
+whether a hard drive an optical disk a
+flash drive or whatever the storage area
+of each drive is divided into one or
+more contiguous chunks called partitions
+notice that some areas of the drive may
+be left blank unformatted such as the
+gap between the second and third
+partitions of this first hard drive
+most commonly though a drive is
+formatted to have just one partition
+occupying its entire storage area still
+creating multiple partitions serve some
+niche use cases such as installing
+multiple operating systems on a single
+drive in most partition formats use
+today each file in directory within a
+partition is known by an identifier
+number unique within that partition so
+here we have a partition with a file 35
+and so we can have no other files within
+that partition with the ID 35 nor any
+directories with the ID 35 a file is
+simply a logically contiguous chunk of
+data a sequential series of bytes what
+these bytes of a file represent is
+entirely up to the program which writes
+the file notice though I said that a
+file is logically contiguous when bytes
+are read and written by a program the
+program sees them is a contiguous
+sequential series but a file stored on
+disk may actually be stored non
+contiguous li and out of order it s a
+responsibility of the filesystem to
+ensure that the logical order gets
+reconstructed when the file data is sent
+to a program a directory quite simply is
+a list of files and other directories on
+the partition the directory associates
+ID numbers for files or directories with
+names names which must be unique amongst
+all other files of directories listed in
+that same directory so within a
+directory you can have a file and
+directory both names say Albert but you
+can t have more than one file named Al
+or more than one directory named Albert
+when a partition is newly created it
+starts out with no files and no
+directories except for one special
+directory called the root directory
+
+in Windows each partition is assigned a
+drive letter usually denoted with a
+suffix for example C H
+D etc a file path is a string of text
+denoting the location on the system of a
+file or directory in Windows the root
+directory on these drives are known by
+the paths C H and D
+respectively the path C Adam Nixon
+refers to a file or directory named
+Nixon listed in a directory Adams itself
+listed in the root directory on the C
+partition the path H Taylor polk
+Hayes refers to a file or directory
+named Hayes listed in a directory Polk
+listed in a directory Taylor listed in
+the root directory on the H partition
+the path D Garfield refers to a file
+or directory named Garfield listed in
+the root directory on the d partition
+while the preferred convention in
+Windows file paths is to use backslashes
+for slashes work just as well and UNIX
+however file paths must use forward
+slashes the other major difference in
+UNIX is that partitions are not assigned
+the drive letters instead one partition
+is mounted at root meaning that the path
+slash refers to the root directory on
+that partition each additional partition
+is then made accessible by mounting it
+to some directory on some other already
+mounted partition here partition 2 is
+mounted to root and then partition 1 is
+mounted to the directory banana on
+partition 2 and in turn partition 3 is
+mounted to the slash banana apple on
+partition 1 so be clear that banana
+becomes synonymous with the root
+directive partition 1 such that banana
+Apple must refer to a directory Apple
+in the root of partition 1
+with these partitions mounted like this
+the path banana Adam Nixon now
+refers to a file or directory named
+Nixon listed in the directory Adams
+listed in the route of partition 1 the
+path Taylor Polk Hayes now refers
+to a file or directory named Hayes
+listed in the directory Polk listed in
+the directory Taylor listed in the route
+of partition 2 the path banana apple
+Garfield refers to a file our
+directory named Garfield listed in the
+root directory of partition 3 UNIX
+systems generally require that a
+directory already exists before can be
+used as a mount point if the mountain
+directory lists any files or directories
+those entries are effectively obscured
+by the mounting so when we mount
+partition 1 the slash banana on
+partition 2 we can no longer access the
+content of that directory because
+banana now resolves to the root
+
+IPC inter process communication is an
+umbrella term for any mechanism of the
+CPU that facilitates communication
+between processes the simplest kind of
+IPC files can be read and written by
+multiple processes and those can service
+channels of communication between them
+other mechanisms include pipes network
+and sockets signals and shared memory
+and we ll discuss some of these in the
+unit on UNIX system calls

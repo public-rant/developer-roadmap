@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://phauer.com/2015/databases-challenge-continuous-delivery/ > $(basename https://phauer.com/2015/databases-challenge-continuous-delivery/).txt

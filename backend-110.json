@@ -1,0 +1,172 @@
+[
+ {
+  "id": "cdn-content-delivery-network",
+  "tag": "h1",
+  "text": "CDN (Content Delivery Network)"
+ },
+ {
+  "id": "caching",
+  "tag": "h1",
+  "text": "Caching"
+ },
+ {
+  "id": "client-side-caching",
+  "tag": "h1",
+  "text": "Client Side Caching"
+ },
+ {
+  "id": "memcached",
+  "tag": "h1",
+  "text": "Memcached"
+ },
+ {
+  "id": "server-side",
+  "tag": "h1",
+  "text": "Server side"
+ },
+ {
+  "id": "redis",
+  "tag": "h1",
+  "text": "Redis"
+ },
+ {
+  "href": "https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/",
+  "tag": "a",
+  "text": "CloudFlare - What is a CDN? | How do CDNs work?"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Content_delivery_network",
+  "tag": "a",
+  "text": "Wikipedia - Content Delivery Network"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=841kyd_mfH0",
+  "tag": "a",
+  "text": "What is Cloud CDN?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Bsq5cKkS33I",
+  "tag": "a",
+  "text": "What is a Content Delivery Network (CDN)?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=HiBDZgTNpXY",
+  "tag": "a",
+  "text": "Everything you need to know about HTTP Caching"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Memcached",
+  "tag": "a",
+  "text": "Memcached, From Wikipedia"
+ },
+ {
+  "href": "https://github.com/memcached/memcached#readme",
+  "tag": "a",
+  "text": "Memcached, From Official Github"
+ },
+ {
+  "href": "https://www.tutorialspoint.com/memcached/index.htm",
+  "tag": "a",
+  "text": "Memcached Tutorial"
+ },
+ {
+  "href": "https://www.starwindsoftware.com/resource-library/server-side-caching/",
+  "tag": "a",
+  "text": "Server-side caching"
+ },
+ {
+  "href": "https://www.codingninjas.com/codestudio/library/server-side-caching-and-client-side-caching",
+  "tag": "a",
+  "text": "Server-side caching and Client-side caching"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#strings",
+  "tag": "a",
+  "text": "strings"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#hashes",
+  "tag": "a",
+  "text": "hashes"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#lists",
+  "tag": "a",
+  "text": "lists"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#sets",
+  "tag": "a",
+  "text": "sets"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#sorted-sets",
+  "tag": "a",
+  "text": "sorted sets"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#bitmaps",
+  "tag": "a",
+  "text": "bitmaps"
+ },
+ {
+  "href": "https://redis.io/topics/data-types-intro#hyperloglogs",
+  "tag": "a",
+  "text": "hyperloglogs"
+ },
+ {
+  "href": "https://redis.io/commands/geoadd",
+  "tag": "a",
+  "text": "geospatial indexes"
+ },
+ {
+  "href": "https://redis.io/topics/streams-intro",
+  "tag": "a",
+  "text": "streams"
+ },
+ {
+  "href": "https://redis.io/topics/replication",
+  "tag": "a",
+  "text": "replication"
+ },
+ {
+  "href": "https://redis.io/commands/eval",
+  "tag": "a",
+  "text": "Lua scripting"
+ },
+ {
+  "href": "https://redis.io/topics/lru-cache",
+  "tag": "a",
+  "text": "LRU eviction"
+ },
+ {
+  "href": "https://redis.io/topics/transactions",
+  "tag": "a",
+  "text": "transactions"
+ },
+ {
+  "href": "https://redis.io/topics/persistence",
+  "tag": "a",
+  "text": "on-disk persistence"
+ },
+ {
+  "href": "https://redis.io/topics/sentinel",
+  "tag": "a",
+  "text": "Redis Sentinel"
+ },
+ {
+  "href": "https://redis.io/topics/cluster-tutorial",
+  "tag": "a",
+  "text": "Redis Cluster"
+ },
+ {
+  "href": "https://redis.io/",
+  "tag": "a",
+  "text": "Redis Website"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=G1rOthIU-uo",
+  "tag": "a",
+  "text": "Redis in 100 Seconds"
+ }
+]

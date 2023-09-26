@@ -1,0 +1,882 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/16266010]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Frust-by-the-numbers-the-rust-programming-language-in-2021%
+   2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Frust-by-the-numbers-the-rust-programming-language-in-2021%
+   2F&format=xml]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/rust-by-the-numbers-the-rust-programming-langua
+   ge-in-2021/]ARCHITECTURE
+   [https://thenewstack.io/rust-by-the-numbers-the-rust-programming-langua
+   ge-in-2021/]ENGINEERING
+   [https://thenewstack.io/rust-by-the-numbers-the-rust-programming-langua
+   ge-in-2021/]OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2021-05-12 13:54:21
+   Rust by the Numbers: The Rust Programming Language in 2021
+   contributed,
+   [https://thenewstack.io/category/open-source/]Open Source /
+   [https://thenewstack.io/category/rust/]Rust /
+   [https://thenewstack.io/category/software-development/]Software
+   Development
+
+Rust by the Numbers: The Rust Programming Language in 2021
+
+   A look at Rust, an up-and-coming, memory-safe, systems programming
+   language.
+   May 12th, 2021 1:54pm by
+   [https://thenewstack.io/author/pavan-belagatti/]Pavan Belagatti
+   Featued image for: Rust by the Numbers: The Rust Programming Language
+   in 2021
+
+   Feature Image by
+   [https://pixabay.com/fr/users/blende12-201217/?utm_source=link-attribut
+   ion&utm_medium=referral&utm_campaign=image&utm_content=3397227]Gerhard
+   G. via
+   [https://pixabay.com/fr/?utm_source=link-attribution&utm_medium=referra
+   l&utm_campaign=image&utm_content=3397227]Pixabay.
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   [https://www.linkedin.com/in/pavan-belagatti-growthmarketer/][c35aad82-
+   pavan-headshot.jpg]
+   Pavan Belagatti
+   Pavan Belagatti is one of the pioneers in the field of growth hacking
+   in India, he is also a DevOps influencer and a Google certified digital
+   marketer. He has written over 100 articles alone on the topic of
+   DevOps. He usually writes about DevOps, Marketing, and Growth Hacking.
+   He is a guest contributor to some of the top-notch websites around the
+   world.
+
+   Programming languages come and go; while some create hype, some just
+   vanish away. We all know it is tough to penetrate the developers’ core
+   area and influence them, and when it comes to programming languages,
+   they are very picky. Well,
+   [https://thenewstack.io/the-case-for-rust-as-the-future-of-javascript-i
+   nfrastructure/]Rust as a programming language is doing everything it
+   can to win the hearts of developers.
+
+   [https://www.rust-lang.org/]Rust has been
+   [https://insights.stackoverflow.com/survey/2020#technology-most-loved-d
+   readed-and-wanted-languages-loved]Stack Overflow’s most loved language
+   for four consecutive years in a row, and this indicates that whoever
+   has had the opportunity to work with this language fell in love and
+   liked it immediately.
+
+   Plus, with popular DevOps tools like
+   [https://jfrog.com/artifactory/]JFrog Artifactory now adding support
+   for Rust out of the box, it’s exciting to see Rust enter the mainstream
+   for many development shops. With this, let’s take a look at why it’s
+   gotten so popular.
+
+Introduction to Rust
+
+   Introduced in 2010, Rust was created at Mozilla Research as a more
+   reliable, safer alternative to C++. Rust is a static multiparadigm,
+   memory-efficient programming language, focused on speed, security, and
+   performance. It is used to develop game engines, file systems, websites
+   and tools, operating systems, browser components, and much more.
+   [https://foundation.rust-lang.org/]Rust Foundation, an independent
+   organization, now manages the open source code base.
+
+   Rust supports imperative as well as functional programming, and it is
+   also full-featured enough for application development — it is used by
+   some of the big giants like DropBox, Coursera, and Firefox, etc. Rust
+   also received a lot of attention on HackerNews. Over the last year,
+   many big companies like [https://youtu.be/o01QmYVluSw]Microsoft,
+   [https://youtu.be/kylqq8pEgRs]Facebook, and
+   [https://youtu.be/l9hM0h6IQDo]Intel, joined hands to support Rust.
+
+Why Rust?
+
+   To prove why Rust is phenomenal, let’s talk about some features that
+   make Rust shine,
+     * Rust has excellent documentation.
+     * Rust has a highly user-friendly compiler, including top-notch tools
+       such as integrated package managers and multi-editor.
+     * Rust tooling has high-level traits such as type inspection and
+       auto-completion.
+     * Rust is super fast, it prevents crashes, and it is safe by default.
+     * Rust resolves obstacles that C and C++ have been struggling with
+       for a very long time, and these include memory errors and building
+       concurrent programs.
+
+   Companies like Microsoft are
+   [https://www.infoq.com/news/2019/11/microsoft-exploring-rust-safety/]us
+   ing Rust for the safety of their products. Microsoft is
+   [https://thenewstack.io/microsoft-rust-is-the-industrys-best-chance-at-
+   safe-systems-programming/]encouraging their developers to rewrite some
+   of their components in Rust because they discovered that most of the
+   security patches are fixes to memory-related bugs, and Rust would’ve
+   been able to catch these bugs during the development phase.
+
+   Microsoft
+   [https://medium.com/the-innovation/how-microsoft-is-adopting-rust-e0f88
+   16566ba]believes that Rust can help make software bugs, particularly
+   those leading to security vulnerabilities, impossible.
+
+What Makes Rust Different?
+
+   Unlike other programming languages,
+   [https://research.mozilla.org/rust/]Rust was built from scratch, and it
+   incorporates elements and findings from high-level systems programming
+   languages and modern programming language design.
+
+   Also, as an open source project, Rust has developers who have optimized
+   and smoothed out the user experience. For example, the compiler
+   generates very accurate and particularly instructive error messages to
+   help the users; it even highlights offending code and also recommends
+   how to fix it.
+
+   The Rust community also provides thorough documentation and immediate
+   online help. Not just the tooling but infrastructure around Rust is
+   commendable. Unlike many other programming languages, where you need to
+   use many compilers, Rust can be used with ease by having a single tool,
+   named Cargo, to compile the code, run tests, generate documentation,
+   and upload a package to a repository and much more.
+
+   Rust has a powerful command-line interface tool; it’s an excellent tool
+   for developing web applications and also cross-platform applications.
+   Rust is profoundly suitable for low-resource environments. For popular
+   development environments, there are Rust plugins, such as Visual Studio
+   Code by Microsoft, IntelliJ by JetBrains, and Rust Playground, and it
+   provides a rich live online environment of Rust for code
+   experimentation.
+
+Some Shining Rust Stats
+
+   When it comes to popularity, Rust is on top. Since 2015, Rust has been
+   voted the
+   [https://insights.stackoverflow.com/survey/2020#technology-most-loved-d
+   readed-and-wanted-languages-loved]most loved programming language by
+   developers on Stack Overflow’s developer survey for four consecutive
+   years (2016, 2017, 2018, 2019):
+
+   Source: Stack Overflow
+
+   Rust is at the top of the
+   [https://dev.to/theme_selection/top-10-striking-programming-languages-2
+   021-4d2h]top 10 programming languages to earn the highest salaries for
+   2020:
+
+   Source: Stack Overflow.
+     * On Google trends, you can see the way Rust’s search results are
+       growing year by year:
+
+   According to the
+   [https://insights.stackoverflow.com/survey/2020#technology-most-loved-d
+   readed-and-wanted-languages-wanted]survey by Stack Overflow, Rust is on
+   the top five list of most wanted top programming languages:
+
+   Source: Stack Overflow
+
+   Rust broke into
+   [https://www.infoq.com/news/2020/06/rust-top-20-language/]TIOBE’s index
+   of the top 20 most popular programming languages for the first time in
+   2020. And in the
+   [https://www.reddit.com/r/adventofcode/comments/kj53l1/unofficial_aoc_2
+   020_survey_results/]2020’s Sub-Reddit survey (r/adventofcode), Rust was
+   positioned as the second most used programming language after Python.
+
+   Source: Reddit
+
+Let’s Talk about Cargo, the Captain
+
+   Besides being a great and most loved programming language, Rust
+   additionally features a build system and a package manager named
+   [https://doc.rust-lang.org/book/ch01-03-hello-cargo.html]Cargo. Cargo
+   manages many tasks, such as building the code, downloading the
+   libraries the code depends on, and building these libraries. The two,
+   Rust and Cargo, are bundled together; you get Cargo when you install
+   Rust.
+
+   The simple and small programs in Rust will not have any dependencies.
+   But as you start writing more complex programs with Rust, there comes a
+   need to add and manage dependencies; this is where Cargo comes in
+   handy. When you start a project by using Cargo, adding and managing
+   dependencies will be much easier things to do. Packages in Rust are
+   often referred to as “crates” in the Rust community.
+
+   In simple terms, Rust’s package manager and build system is named
+   “Cargo.” Using Cargo, it is effortless and straightforward to access
+   libraries provided by the community in crates.io.
+
+   When using Cargo, it will look up and find the accurate version and
+   download the source, ensuring that any other required crates are
+   downloaded. By following the instructions given on the
+   [https://www.rust-lang.org/tools/install]official website or the
+   [https://doc.rust-lang.org/stable/cargo/getting-started/installation.ht
+   ml]Cargo Book, we can easily install both the Rust and the Cargo
+   package manager in one go. For Linux/macOS, this should work:
+
+   $ curl https://sh.rustup.rs -sSf | sh
+
+   Now we can manage our Rust code by Cargo.
+
+   Cargo is recognized as one of the exceptional strengths of the Rust
+   ecosystem. Without Cargo, we would have had to search for libraries,
+   download these libraries from unknown sources from GitHub, build as
+   static library crates, link them against the program. How painful this
+   is all to do. But we have Cargo that does all this for us while working
+   with Rust.
+
+   To improve your Rust skills and experiment more, download and read this
+   open-source [https://doc.rust-lang.org/cargo]Cargo Book written by the
+   Rust team.
+
+Real-World Rust Usage and Experiments
+
+   [https://firecracker-microvm.github.io/]Firecracker by
+   [https://aws.amazon.com/?utm_content=inline-mention]Amazon Web Services
+   is written
+   [https://opensource.com/article/19/3/rust-virtual-machine]entirely in
+   Rust. It powers Fargate and
+   [https://aws.amazon.com/?utm_content=inline-mention]Amazon Web
+   Services‘ Lambda.
+
+   Amazon, Google, Intel, and
+   [https://www.openshift.com/try?utm_content=inline-mention]Red Hat
+   jointly started a project, “[https://github.com/rust-vmm]rust-vmm,” to
+   share common Rust “crates” or what we call packages with one another
+   and the rest of the Rust community.
+
+   Microsoft used Rust over Go for WebAssembly — a project from Azure to
+   test WebAssembly modules in Kubernetes. Apart from this, Microsoft is
+   experimenting with Rust to
+   [https://www.zdnet.com/article/microsofts-rust-experiments-are-going-we
+   ll-but-some-features-are-missing/]rewrite low-level components of
+   Windows initially drafted in C and C++.
+
+   Companies like Dropbox, npm, Microsoft, Amazon, Discord, Cloudflare,
+   Figma, Coursera, etc [https://serokell.io/blog/rust-companies]use Rust
+   in production.
+
+Conclusion
+
+   Rust will probably continue to bloom. As more and more companies choose
+   this unique language, it is also time to think about the security
+   aspects while creating projects with Rust as the programming language.
+   As you look at adopting Rust, you might want to consider managing Cargo
+   repositories alongside your current applications. Be sure your artifact
+   management tool understands Cargo Crates and provides a secure
+   repository.
+   [https://www.jfrog.com/confluence/display/JFROG/Cargo+Registry]Artifact
+   ory natively supports the Cargo registry for the Rust programming
+   language, giving you complete control of your deployment and resolving
+   Cargo packages.
+   Created with Sketch.
+   [https://thenewstack.io/author/pavan-belagatti/]
+   [ef054ef9-cropped-25c5f704-pavan-belagatti-e1666283602735.png]
+   Pavan Belagatti is a global DevOps influencer, technology writer and
+   storyteller. Currently, he is a developer advocate at Harness.io
+   Read more from Pavan Belagatti
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Frust-by-t
+   he-numbers-the-rust-programming-language-in-2021%2F&text=Rust+by+the+Nu
+   mbers%3A+The+Rust+Programming+Language+in+2021:%20&via=thenewstack][htt
+   ps://news.ycombinator.com/submitlink?u=https%3A%2F%2Fthenewstack.io%2Fr
+   ust-by-the-numbers-the-rust-programming-language-in-2021%2F][https://ww
+   w.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthenewstack.io%
+   2Frust-by-the-numbers-the-rust-programming-language-in-2021%2F][https:/
+   /reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Frust-by-the-numbe
+   rs-the-rust-programming-language-in-2021%2F&title=Rust+by+the+Numbers%3
+   A+The+Rust+Programming+Language+in+2021][https://www.facebook.com/share
+   r/sharer.php?u=https://thenewstack.io/rust-by-the-numbers-the-rust-prog
+   ramming-language-in-2021/]
+   RELATED STORIES
+   [https://thenewstack.io/3-ways-to-drive-open-source-software-maturity/]
+   3 Ways to Drive Open Source Software Maturity
+   [https://thenewstack.io/speeding-up-codecov-analysis-for-xcode-projects
+   /]Speeding up Codecov Analysis for Xcode Projects
+   [https://thenewstack.io/tutorial-how-to-create-a-multi-region-node-js-l
+   ambda-api/]Tutorial: How to Create a Multi-Region Node.js Lambda API
+   [https://thenewstack.io/github-sees-open-source-organizational-donation
+   s-spike/]GitHub Sees Open Source Organizational Donations Spike
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+
+   Amazon Web Services and Red Hat are sponsors of The New Stack.
+   TNS owner Insight Partners is an investor in: JFrog, Real.
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Frust-by-t
+   he-numbers-the-rust-programming-language-in-2021%2F&text=Rust+by+the+Nu
+   mbers%3A+The+Rust+Programming+Language+in+2021:%20&via=thenewstack][htt
+   ps://news.ycombinator.com/submitlink?u=https%3A%2F%2Fthenewstack.io%2Fr
+   ust-by-the-numbers-the-rust-programming-language-in-2021%2F][https://ww
+   w.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthenewstack.io%
+   2Frust-by-the-numbers-the-rust-programming-language-in-2021%2F][https:/
+   /reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Frust-by-the-numbe
+   rs-the-rust-programming-language-in-2021%2F&title=Rust+by+the+Numbers%3
+   A+The+Rust+Programming+Language+in+2021][https://www.facebook.com/share
+   r/sharer.php?u=https://thenewstack.io/rust-by-the-numbers-the-rust-prog
+   ramming-language-in-2021/]
+   RELATED STORIES
+   [https://thenewstack.io/taking-plane-for-a-test-flight-can-it-fly-highe
+   r-than-jira/]Taking Plane for a Test Flight — Can It Fly Higher Than
+   Jira?
+   [https://thenewstack.io/tutorial-how-to-create-a-multi-region-node-js-l
+   ambda-api/]Tutorial: How to Create a Multi-Region Node.js Lambda API
+   [https://thenewstack.io/follow-the-ai-ml-leaders-de-risk-your-projects/
+   ]Follow the AI/ML Leaders: De-Risk Your Projects
+   [https://thenewstack.io/whats-next-for-javascript-new-features-to-look-
+   forward-to/]What's Next for JavaScript: New Features to Look Forward to
+   [https://thenewstack.io/github-sees-open-source-organizational-donation
+   s-spike/]GitHub Sees Open Source Organizational Donations Spike
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

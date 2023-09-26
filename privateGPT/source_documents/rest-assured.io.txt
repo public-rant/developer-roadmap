@@ -1,0 +1,173 @@
+   [logo-transparent.png]
+     * [https://rest-assured.io/#intro]Intro
+     * [https://rest-assured.io/#news]News
+     * [https://rest-assured.io/#release-notes]Release Notes
+     * [https://rest-assured.io/#docs]Docs
+     * [https://rest-assured.io/#who]Who
+
+   [https://github.com/rest-assured/rest-assured]REST Assured
+
+   [https://github.com/rest-assured/rest-assured/actions/workflows/ci.yml]
+   Build Status
+   [https://maven-badges.herokuapp.com/maven-central/io.rest-assured/rest-
+   assured]Maven Central
+
+   Testing and validating REST services in Java is harder than in dynamic
+   languages such as Ruby and Groovy. REST Assured brings the simplicity
+   of using these languages into the Java domain. For example, if your
+   HTTP server returns the following [http://www.json.org/]JSON at
+   “http://localhost:8080/lotto/{id}”:
+{
+   "lotto":{
+      "lottoId":5,
+      "winning-numbers":[2,45,34,23,7,5,3],
+      "winners":[
+         {
+            "winnerId":23,
+            "numbers":[2,45,34,23,3,5]
+         },
+         {
+            "winnerId":54,
+            "numbers":[52,3,12,11,18,22]
+         }
+      ]
+   }
+}
+
+   You can easily use REST Assured to validate interesting things from the
+   response:
+@Test public void
+lotto_resource_returns_200_with_expected_id_and_winners() {
+
+    when().
+            get("/lotto/{id}", 5).
+    then().
+            statusCode(200).
+            body("lotto.lottoId", equalTo(5),
+                 "lotto.winners.winnerId", hasItems(23, 54));
+
+}
+
+   Looks easy enough? Why not give it a spin? See
+   [https://github.com/rest-assured/rest-assured/wiki/GettingStarted]getti
+   ng started and
+   [https://github.com/rest-assured/rest-assured/wiki/Usage]usage guide.
+
+   [https://github.com/rest-assured/rest-assured]Fork me on GitHub
+
+News
+
+News
+
+     * 2022-11-18: REST Assured 5.3.0 is released. It adds
+       [https://github.com/rest-assured/rest-assured/wiki/Usage#csrf-heade
+       r-token]CSRF header support and a much improved
+       [https://github.com/rest-assured/rest-assured/wiki/Usage#csrf]CSRF
+       support in general. It also brings the
+       [https://github.com/rest-assured/rest-assured/wiki/Spring#spring-mo
+       ck-mvc-module]Spring MockMvc Module up-to-date with changes in
+       Spring Framework 6 and Spring Boot 3, as well as various other bug
+       fixes and improvements. See
+       [https://raw.githubusercontent.com/rest-assured/rest-assured/master
+       /changelog.txt]changelog for more details.
+     * 2022-11-18: REST Assured 5.2.1 is released. It just brings the
+       [https://github.com/rest-assured/rest-assured/wiki/Spring#spring-mo
+       ck-mvc-module]Spring MockMvc Module up-to-date with changes in
+       Spring Framework 6 and Spring Boot 3.
+     * 2022-09-09: REST Assured 5.2.0 is released with, among other
+       things, much improved
+       [https://github.com/rest-assured/rest-assured/wiki/Usage#csrf]CRSF
+       support. See
+       [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes52]r
+       elease notes and
+       [https://raw.githubusercontent.com/rest-assured/rest-assured/master
+       /changelog.txt]change log for more details.
+
+   Click [https://github.com/rest-assured/rest-assured/wiki/OldNews]here
+   for older news.
+
+Release Notes
+
+Release Notes
+
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes52]5.2.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes50]5.0.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes45]4.5.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes42]4.2.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes40]4.0.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes33]3.3.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes32]3.2.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes31]3.1.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes30]3.0.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes29]2.9.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes28]2.8.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes27]2.7.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes26]2.6.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes25]2.5.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes24]2.4.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes23]2.3.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes22]2.2.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes21]2.1.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes20]2.0.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes19]1.9.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes18]1.8.0
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes17]1.7
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes16]1.6
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes15]1.5
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes145]1.4.
+   5
+   [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes11]1.1
+
+   For minor changes see
+   [https://raw.githubusercontent.com/rest-assured/rest-assured/master/cha
+   ngelog.txt]change log.
+
+Docs
+
+Documentation
+
+     * [https://github.com/rest-assured/rest-assured/wiki/GettingStarted]G
+       etting started
+     * [https://github.com/rest-assured/rest-assured/wiki/Downloads]Downlo
+       ads
+     * [https://github.com/rest-assured/rest-assured/wiki/Usage]Usage
+       Guide (click
+       [https://github.com/rest-assured/rest-assured/wiki/Usage_Legacy]her
+       e for legacy documentation)
+     * [http://www.javadoc.io/doc/io.rest-assured/rest-assured/latest]Java
+       doc
+     * [http://static.javadoc.io/io.rest-assured/rest-assured/latest/io/re
+       stassured/RestAssured.html]Rest Assured Javadoc
+     * [http://static.javadoc.io/io.rest-assured/spring-mock-mvc/latest/io
+       /restassured/module/mockmvc/RestAssuredMockMvc.html]Rest
+       AssuredMockMvc Javadoc
+     * [http://static.javadoc.io/io.rest-assured/xml-path/latest/io/restas
+       sured/path/xml/XmlPath.html]XmlPath Javadoc
+     * [http://static.javadoc.io/io.rest-assured/json-path/latest/io/resta
+       ssured/path/json/JsonPath.html]JsonPath Javadoc
+     * [https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes]Rel
+       ease Notes
+     * [https://github.com/rest-assured/rest-assured/wiki/FAQ]FAQ
+
+Who
+
+Who
+
+   REST Assured is developed and maintained by
+   [https://twitter.com/johanhaleby]Johan Haleby with the help of numerous
+   other
+   [https://github.com/rest-assured/rest-assured/contributors]contributors
+   over the years. Would you like to contribute to the project in any way?
+   Submit a [https://github.com/rest-assured/rest-assured]pull request or
+   contact Johan at [https://twitter.com/johanhaleby]Twitter.
+
+   Johan started the project when he was working at
+   [https://www.jayway.com/]Jayway back in December of 2010. The project
+   is now sponsored by [https://www.parkster.se/]Parkster.
+
+   [https://www.parkster.se/][Parkster_logotyp.svg]
+
+   REST Assured is [https://github.com/rest-assured/rest-assured]open
+   source — Issue
+   [https://github.com/rest-assured/rest-assured/issues]tracker — Mailing
+   [https://groups.google.com/forum/#!forum/rest-assured]list

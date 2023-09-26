@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013 > $(basename https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013).txt

@@ -1,0 +1,733 @@
+what s going on guys assalamualaikum
+welcome to amigos code in this video i
+want to teach you about rabbitmq
+this video is part of the microservices
+series so far you ve been learning about
+microservices how to connect to each
+other and you kind of have a good
+understanding
+on
+the microservice architecture and
+currently our application
+doesn t really cope with failures
+and when you know other parties such as
+twilio or firebase are experiencing
+problems so currently
+you know if there is a problem somewhere
+else our application will fail all
+together so let me teach you about
+rabbitmq and next week i m also going to
+teach you how to
+uh use kafka so this is something that
+you guys have been uh asking for some
+time now so today you re going to learn
+about rabbitmq next week i m going to
+teach you about kafka
+before i continue
+go ahead and literally take two seconds
+i don t know why i keep on saying two
+seconds
+but anyways two seconds
+smash that like button and comment down
+below literally just say anything just
+say hi
+or any video that you want to see next
+or any questions that you might have if
+you re not part of the amigo squad
+community go ahead and join both discord
+as well as private facebook group
+and without further ado let s go ahead
+
+so far we have this implementation in
+here where we have the load balancer
+customer fraud
+and also notification
+now
+in here we have got no
+asynchronous communication
+within these microservices so fraud and
+our customer to notification
+now
+let s say that notification takes let s
+say
+10 seconds
+to send a notification to our customers
+now this means that from the time that
+clients are using our application
+there will be a delay of 10 seconds in
+total plus some milliseconds and what
+not but in general 10 seconds
+now this is a very bad user experience
+so maybe twilio is having an incident or
+firebase they re having an incident
+and they can t really deliver messages
+for now and it s taken them 10 seconds
+now you can see that
+we are depending on twilio and or
+firebase
+because this call right here from
+customer
+to notification it doesn t have to be
+immediate so it can have a delay
+right so whether the customer receives
+the notification or sms
+after one second
+two seconds three seconds one minute it
+doesn t really matter what matters is
+from the point that
+when the customer registers into our
+system
+in here customer talks to fraud
+so this score right here cannot be
+asynchronous because
+we need to check whether it s a
+fraudster or not if it s not
+then this call right here indeed can be
+a synchronous
+because we don t depend
+uh for any other checks to be performed
+currently this is a problem that we need
+to solve
+even more let s say that
+customer right here
+is sending lots of traffic and we only
+have one notification instance
+now what happens if
+notification gets too busy
+well the notification won t be able to
+handle the requests coming from customer
+nor from fraud it s just going to be too
+much well you might be wondering okay
+maybe we can add a second instance so
+just like that well it is fine but again
+still a problem because you don t know
+whether this will be enough
+and the same let s say that you kind of
+want to have 10 servers for notification
+now this is
+not using resources correctly because
+one it doesn t scale correctly and also
+things are not a synchronous and even
+worse
+let s say that we kind of need to
+perform
+an upgrade on notification so we found a
+bug
+and in the meantime a bunch of requests
+are coming through
+now if notification so in here so if we
+get rid of notification
+then it means that the entire call from
+here
+to
+customer fraud
+and
+in here notification zero instances this
+will fail
+and at this point we already
+registered the customer and the only
+thing that we need to do is just to send
+the notification but if notification is
+not up and running then the customer
+will be created and the response that
+the client will get
+is a 500
+and you can see that this is not
+feasible right
+so this is pretty much
+what a message queue
+allows us to deal with next let me show
+you the example where we slow down
+
+within intellij i do have all of the
+micro services up and running so if i
+click on run you can see that i do have
+customer fraud as well as notification
+now let s send a request to the api
+gateway
+and before the request reaches
+notification
+let s stick a breakpoint in here
+so
+notification is running in debug mode
+and i ve got this breakpoint in here so
+let s
+open up postman and in here
+we re going to send this payload to the
+api gateway which is listening on poor
+8083
+and
+from here you can see that this is very
+quick so it takes about
+941 milliseconds
+um
+give or take right
+so this is when the request
+goes from one end to the other
+
+so this actually took me to this
+breakpoint
+and now let me go back yet to
+postman
+and have a look
+this request
+right here is hanging
+now what i m trying to simulate is
+the case where
+the request reached notification and by
+the way this is without the message
+queue right here
+so the request reached notification
+and now let s say that twilio is taking
+forever or firebase
+they are taking forever to process our
+notification
+now you can see that postman is actually
+hanging in here so it s saying send a
+request and it s waiting waiting and
+waiting forever
+now if i
+oops i was just going to basically
+uh remove the break point but i can see
+that this probably was a timeout and
+before i send the request so let me just
+go to
+uh notification and in here let me just
+resume this and eventually it sends the
+notification
+but let me go back yet again
+and let me send
+so let me just wait for a second
+and
+you ll see that
+so let s just say that twilio was having
+a bad day and they took some time to
+process the notification
+now it worked
+let s just resume
+back to postman and have a look
+18 seconds to process our request which
+is insane so you can see that
+we have a bottleneck in here now within
+zipkin you can see that in here i do
+have the calls so this one was the first
+one that took some time
+and then this one was the one that took
+18 seconds so if i click on show in here
+now i want to check this out
+so the request from the api gateway took
+18 seconds
+customer
+made a request to fraud
+and have a look fraud you can see this
+line right here which is barely visible
+so this was super quick so if i try and
+click on that
+and have a look
+fraud controller and if you show all
+annotations you can see more information
+but this was really quick so this call
+right here was very quick
+and the problem really
+lies within notification which is taking
+18 seconds i will look this line is
+actually all the way
+through the end so this is the
+bottleneck so you can see also why
+having zipkin
+is really important because we can
+visualize all of this stuff now this is
+when the message queue comes to rescue
+so at this point
+if we stick the request inside of the
+queue it returns an acknowledgement back
+to the sender in this case customer
+and then if notification is taking a
+while
+then basically we don t
+have to wait for 18 seconds as you ve
+seen right because we know that
+eventually the notification will be
+processed
+so this is why we need to use a message
+queue if you have any questions please
+
+so when it comes to decouple
+microservices and provide a
+synchronicity between them as well as
+brazilians there are a couple of big
+players in this field one of them is
+apache kafka now apache kafka is open
+source and i believe it was initially
+developed by the guys at linkedin
+and it s basically used by a lot of
+companies so it provides high throughput
+it s scalable
+one cool feature here is that it has
+permanent storage
+so you can store streams of data safely
+in a distributed
+durable fault tolerant cluster in here
+so something that rabbit mq for example
+does not provide then is also high
+available so you can stretch clusters
+efficiently over availability zones or
+connect separate clusters across
+geographic regions
+now kafka on its own it s a big big
+beast i have to admit
+but still i m going to basically show
+you how you re going to use kafka with
+spring ball at a later stage then what
+we have is
+rabbitmq so rabbitmq is the most widely
+developed open source message broker for
+this course we re going to begin with
+rabymq due to its simplicity of getting
+started
+understanding its concept
+and the integration with springboard
+will be really straightforward as you ll
+see
+we also have amazon sqs so amazon sqs
+stands for
+simple queue
+service
+it s a fully managed message queuing
+service that enables you to decouple and
+scale microservice distributed systems
+and serverless applications so if you
+are deploying your applications to
+aws then this is a great solution
+because it s fully managed
+now one disadvantage of using sqs is
+that let s say that you want to port
+your microservice architecture
+to
+google cloud so recently
+there were a couple regions of aws that
+were down for example
+now in this case if you are deploying to
+multi clouds i e you re deploying to aws
+as well as azure and maybe google cloud
+you know let s say that you ve managed
+to deploy to all those three at once
+right
+so
+it s it s a very difficult job i m not
+gonna lie but let s just say that you ve
+managed to do it
+now
+if you are tied to
+sqs
+then you can t really move across
+any other cloud provider because sqs is
+aws specific whereas maybe if you are
+running your own kafka cluster or
+rabbitmq
+then you have more flexibility in here
+so usually you ll see that you have
+teams that are dedicated for making sure
+that
+your cluster i e you know either using
+kafka or rabbit mq that these are always
+up and running because again if they go
+down
+so in here so if you lose
+your message queue
+then you can see that again so if this
+goes
+then you have a big big problem
+but usually
+it shouldn t be a problem because when
+running kafka or rabbit mq you want to
+run in multi ac for example right multi
+availability zone so if one availability
+zone is down then no matter what you
+know things are still up and running so
+you d never have one single
+message queue for all of your micro
+services when running in production
+and before i forget i m going to leave a
+link where you can learn more about the
+differences between
+apache kafka rabbitmq and sqs so that
+you have a better understanding of these
+
+so you ve seen why we need a message
+queue
+and amqp stands for
+advanced message queueing protocol
+and it s a protocol that enables
+conforming clients applications to
+communicate with conforming messaging
+middleware brokers
+now what is brokers
+well a broker a broker receives messages
+from publishers i e these are
+applications that publish messages
+and they re also known as producers and
+it routes them to consumers
+i e other applications
+so the broker receives messages from
+publishers
+and it routes them to consumers
+now since this is a network protocol
+the publishers consumers and the broker
+can all reside on different machines
+so you can see how
+you can decouple your applications so in
+here you ve seen that we have these
+micro services they talk to each other
+and currently if customer sends a
+notification
+to the notification microservice a
+notification is down
+or notification is having trouble
+handling requests
+then you can see that this can be a
+bottleneck for our application and
+instead what we do is we use rabbitmq in
+this case
+now i m going to touch on rabbitmq but
+later you ll also see kafka and i don t
+want to go too much in detail about the
+difference between these two
+but for now let s just focus on rabbitmq
+now the broker is everything that
+resides within this rectangle in here so
+the way it works is
+a fraud or customer they want to send
+notifications
+to the notification microservice
+they send a message and the message is
+pretty much the payload right so the
+json payload in our case
+now this message here gets sent to the
+exchange
+and the exchange job
+is to route the messages to the
+according consumer
+so in this case right here you can see
+that this exchange
+forwards these messages coming from
+fraud as well as notification and then
+notification consumes the messages from
+this queue right here so fraud customer
+are produces
+the messages go through the exchange
+the exchange routes to the queue
+inside here this is the broker
+and then outside we have the consumer
+which can be any micro service that is
+configured to pull messages from this
+queue and with this architecture
+we gain a ton
+so one is lose coupling so fraud
+customer notification as well as the
+broker
+they can leave on separate machines
+and since we are following the
+microservice architecture
+this is actually loose coupling all of
+these services together
+the other thing is performance so we
+gain performance now if notification is
+down let s say that notification is down
+right so let s say that we don t have a
+consumer right here
+now
+the cool thing is that fraud and
+customer
+they can still
+send notifications and at this point
+right here the exchange right here
+receives and then puts it inside of the
+queue
+then once notification is back up
+it pretty much just reads the messages
+that were hanging in the queue and the
+benefit is that our clients don t even
+experience that notification was down
+also we can start sending messages
+asynchronously so if let s say twilio is
+taking 20
+seconds or more
+it doesn t really matter because
+from our point of view
+if any producer is able to publish
+messages to the exchange
+then we are good
+we can also scale
+in a way where if you need to run this
+as a cluster two or more machines you
+can absolutely do it and you should run
+multi az whenever possible also the
+benefit of using rabbitmq is that it s
+language agnostic so let s say that
+fraud right here it s written in java
+and notification is written in golang
+for example so it doesn t really matter
+right because all notification needs to
+do is to be able to pull messages
+and then transform the payload into
+whatever struck for example if you are
+using golang
+or if you want to use python then it
+basically takes the messages and
+transforms it in a way that it wants now
+messages also
+they don t get removed from the queue
+unless
+the consumer
+acknowledges that it has received the
+message which is a good feature right so
+if notification has issues reading from
+the queue
+and the broker doesn t receive an
+acknowledgement
+then the message is still intact
+rabbitmq also offers as a management ui
+which you ll see in a second
+and the community has built lots of
+plugins
+and you can run rabbitmq on the cloud
+which is a good thing right and you ll
+see how we re going to run rabbit mq
+through docker and as you know if you
+dockerize your applications
+then it s really easy for you to deploy
+on whatever cloud provider you you want
+whether it s aws azure google cloud lynn
+node and others
+so this is pretty much how everything
+works next i want to dive deeper into
+how producers are able to produce
+messages as well as the different types
+
+when producers want to send messages
+these messages will first land inside of
+the exchange
+the exchange then
+forwards the messages based on a routing
+pattern
+now this is possible
+through the binding the binding
+is what binds the exchange to a
+particular queue so you can have as many
+queues as you want
+and you can have also as many exchanges
+as you want but the thing is you can
+attach multiple queues to
+one exchange
+now
+this exchange right here has different
+types
+you can have a direct exchange
+a fanout topic headers as well as one
+which is special to rabbitmq and it s
+the default and it s known as the
+nameless exchange where the routing key
+is equal to the queue name if i open up
+intellij and in here this is some
+configuration that you re going to learn
+in a second but here i m defining the
+exchange that i want
+i m defining the queue that i want
+and also the routing key
+so here i m saying internal notification
+routing key
+so this is the internal exchange that i
+have
+and i m saying that if anything goes
+through with this key
+then i want to route it to this
+notification queue
+then the producer on the other hand all
+he has to do is send the payload
+to the exchange
+providing the routing key
+so providing the routing key so
+providing the routing key
+and this is configured
+through the binding to send to this
+particular queue
+so since you saw some code now this
+should make sense
+when the producer
+sends a message to the direct exchange
+which is this one right here
+it means that the routing key as well as
+the binding they have to be the same
+so when they re the same if you send a
+message so let s say that we have a
+message so let s just take this guy
+outside for example
+if you send a message
+it will land into the exchange and from
+the exchange it will land into let s say
+this
+queue in here
+right so this is when
+the routing key is equal to the binding
+then you can see that we have the fan
+out exchange which means that if the
+producer sends a message
+this message will be found out so here
+it will be sent to all queues
+just like that it fans out the messages
+so every
+queue will receive the exact same
+message
+then we have the topic exchange and this
+is mainly for
+partial
+matches
+so when you send a message
+if the routing key is
+full dot bar
+and then the binding so let s say that
+you have a binding here
+and let me just add some text
+
+and when you send the message
+in here you specify that you want to say
+full dot bar
+right here so this is a partial match
+right so
+full dot bar matches this binding
+therefore this message will be sent
+across in here
+then you have the header exchange
+which uses the message header instead of
+the
+routing key so obviously this is a
+bigger decision that you need to make
+according to your needs but this is
+pretty much how it works and actually
+almost forgot is that you have a special
+exchange which is only specific to
+rabbitmq and it s the nameless exchange
+and this is when the routing key is
+equals to the
+queue name
+so if you have
+a message which has been sent and this
+message right here has the routing key
+as app b and then q
+so because we have a queue with this
+routing key it gets sent to this queue
+right here and to be honest this is
+pretty much how everything works
+obviously you can grab the diagrams so
+you can basically check for yourself but
+if you have any questions please do let
+me know
+
+in order for us to have a rabbit mq
+locally let s use docker
+open up your docker compose yaml
+and within you can see that we have
+postgres we have pg admin
+zipkin
+so right after it
+let s just take this in here
+and let s just paste that in
+and this will be
+rabbit mq just like that
+then for the image
+rabbit
+mq
+column and then let s just use the same
+version so that if we have any breaking
+changes things will still work so three
+point nine dot
+eleven
+dash
+and then management
+and then dash alpine so we get the
+smallest version
+for container name this will be rabbit
+mq
+for ports
+we want to expose
+56 and then 72
+so 56
+72
+the same on the other
+side so the first port is the host and
+the second is the container now this
+port is what applications will be
+connecting to ie microservices so if we
+want to publish a message to eq
+we re going to use this port then we
+also want to expose
+the 15 672
+and this is the management
+port just like that so that we can use
+the management console and to be honest
+this is everything and i ve just noticed
+that
+this should be al
+and then pine
+so al and then pine
+now let s open up our terminal
+make sure that you are within the
+working directory so ls you can see
+dockercompose yaml
+now type docker
+compose
+up
+dash and then d for detach
+press enter
+and this now you can see that
+it pulled the image
+and it has started
+so for you if it doesn t pull as quick
+as mine it s because i think my one was
+cached but you can see that
+the rabbitmq container is up and running
+now let s take
+this port so 15
+6 7 2
+and open up our web browser say
+localhost
+column and then 15
+672
+press enter
+and check this out so now the username
+for this is guest
+and the password is also guest
+press enter
+and i m going to save this password
+and tada you can see that we have
+rabbitmq running locally now in here
+there s a bunch of information so you
+can see connections you can see channels
+exchanges so
+i ve explained about exchanges as well
+as cues so if i click on exchanges by
+default we should see few exchanges
+right here with different types
+so these are defaults and we don t have
+to worry about and if i click on cues
+so you can see that we have no cues so
+far if you have any questions getting
+this far drop a message otherwise let s
+move on
+okie dokie i hope that you had fun
+learning about rabbitmq and if you want
+to learn
+how to pretty much just pull everything
+together
+through the micro services that we ve
+been building so far
+go ahead and roll on my course where it
+is still at discount price
+and literally this is the last week
+before the price goes up
+and
+yeah i hope they had fun next week i m
+going to teach you about kafka this so
+for now and i ll catch you in the next
+

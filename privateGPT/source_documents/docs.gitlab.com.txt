@@ -1,0 +1,214 @@
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-NJXWQL]https://www.goo
+   gletagmanager.com/ns.html?id=GTM-NJXWQL
+
+   [https://docs.gitlab.com/]GitLab documentation home Docs (BUTTON)
+
+     *
+
+     * [https://about.gitlab.com/releases/categories/releases/]What's new?
+
+     * [https://gitlab.com/-/trial_registrations/new?glm_source=docs.gitla
+       b.com&glm_content=navigation-cta-docs]Get free trial
+
+Search the docs
+
+Get started with...
+
+   agile
+
+Agile with GitLab
+
+   Manage your work with built-in agile features.
+     * [https://docs.gitlab.com/ee/user/project/issues/]Issues
+     * [https://docs.gitlab.com/ee/user/project/issue_board.html]Issue
+       boards
+     * [https://docs.gitlab.com/ee/user/project/labels.html]Labels
+
+   continuous-delivery
+
+CI/CD
+
+   Build, test, and deploy applications using Continuous Integration and
+   Delivery.
+     * [https://docs.gitlab.com/ee/ci/yaml/].gitlab-ci.yml reference
+     * [https://docs.gitlab.com/runner/]GitLab Runner
+     * [https://docs.gitlab.com/ee/topics/autodevops/]Auto DevOps
+
+   collaboration
+
+Collaboration
+
+   Configure and develop your software applications.
+     * [https://docs.gitlab.com/ee/user/project/]Projects
+     * [https://docs.gitlab.com/ee/user/project/repository/]Repositories
+     * [https://docs.gitlab.com/ee/user/project/merge_requests/]Merge
+       requests
+
+   locked
+
+Security
+
+   Scan your CI pipeline and streamline vulnerability management.
+     * [https://docs.gitlab.com/ee/user/application_security/]Secure your
+       application
+     * [https://docs.gitlab.com/ee/user/application_security/vulnerability
+       _report/]Vulnerability management
+     * [https://docs.gitlab.com/ee/user/application_security/offline_deplo
+       yments/]Offline environments
+
+   increase
+
+Analytics
+
+   View reports and analysis of your team's work.
+     * [https://docs.gitlab.com/ee/user/group/value_stream_analytics/]Valu
+       e stream analytics
+     * [https://docs.gitlab.com/ee/user/group/issues_analytics/]Issue
+       analytics
+     * [https://docs.gitlab.com/ee/user/admin_area/analytics/usage_trends.
+       html]Usage trends
+
+   visibility
+
+Administration
+
+   Customize and configure your self-managed installation.
+     * [https://docs.gitlab.com/ee/user/admin_area/settings/]Admin area
+       settings
+     * [https://docs.gitlab.com/ee/administration/auth/ldap/]Set up LDAP
+     * [https://docs.gitlab.com/ee/administration/pages/]GitLab Pages
+
+   [https://docs.gitlab.com/ee/tutorials/]Explore tutorials
+
+Popular topics
+
+Developer
+
+     * [https://docs.gitlab.com/ee/api/]API: Use the API to develop
+       against GitLab
+     * [https://docs.gitlab.com/ee/development/]Contributing: Learn the
+       processes and technical information you need to contribute to
+       GitLab
+
+Omnibus
+
+     * [https://docs.gitlab.com/omnibus/settings/database.html]Database
+       settings: Configure database settings for your Omnibus GitLab
+       self-managed instance
+     * [https://docs.gitlab.com/omnibus/settings/nginx.html]NGINX
+       settings: NGINX settings for your Omnibus GitLab self-managed
+       instance
+     * [https://docs.gitlab.com/omnibus/settings/ssl/index.html]SSL
+       configuration: SSL settings for your Omnibus GitLab self-managed
+       instance
+
+General
+topics
+
+     * [https://gitlab.com/gitlab-org/gitlab/-/releases]Release notes:
+       Review recent changes by version
+     * [https://docs.gitlab.com/ee/user/profile/account/two_factor_authent
+       ication.html]Two-factor authentication: Improve the security of
+       your GitLab account
+     * [https://docs.gitlab.com/ee/raketasks/backup_restore.html]Back up
+       and restore GitLab: Back up and restore your self-managed GitLab
+       instance
+     * [https://docs.gitlab.com/ee/user/group/]GitLab groups: Manage
+       multiple projects at the same time
+     * [https://docs.gitlab.com/ee/ci/yaml/]GitLab CI/CD reference:
+       Configure GitLab CI/CD in the .gitlab-ci.yml file
+     * [https://docs.gitlab.com/ee/user/project/repository/vscode.html]Vis
+       ual Studio Code extension: Perform more of your day-to-day tasks
+       from within VS Code
+     * [https://docs.gitlab.com/ee/integration/advanced_search/elasticsear
+       ch.html]Elasticsearch integration: Enable advanced search by
+       integrating Elasticsearch with GitLab
+     * [https://docs.gitlab.com/ee/policy/maintenance.html]GitLab
+       policies: Review release and maintenance policies, and upgrade
+       recommendations
+     * [https://docs.gitlab.com/ee/user/admin_area/license.html]Activate
+       GitLab EE: Activate GitLab Enterprise Edition functionality with a
+       license
+     * [https://docs.gitlab.com/ee/user/gitlab_com/]GitLab.com settings:
+       Learn about the settings on GitLab.com, like IP ranges, shared
+       runners, and SSH keys fingerprints
+     * [https://docs.gitlab.com/ee/administration/reference_architectures/
+       ]Reference architectures: Scale your GitLab installation for your
+       number of users
+     * [https://docs.gitlab.com/ee/user/feature_flags.html]Feature
+       availability: See what features are available with feature flags
+
+Install self-managed GitLab
+
+   You’ve got options.
+   [https://docs.gitlab.com/ee/install/install_methods.html]See them all
+
+Install on Linux
+
+   The Omnibus package includes services and tools to install GitLab
+   without laborious configuration.
+   [https://docs.gitlab.com/omnibus/installation/]Use the Omnibus package
+
+Install on Kubernetes
+
+   If you're using cluster management, we recommend the Helm chart or the
+   Operator for installing cloud-native GitLab.
+   [https://docs.gitlab.com/charts/]Use the Helm chart
+   [https://docs.gitlab.com/operator/]Use the Operator
+
+[https://docs.gitlab.com/ee/install/docker.html]Install with Docker
+
+   GitLab maintains a set of official Docker images based on the Omnibus
+   GitLab package.
+
+[https://docs.gitlab.com/ee/install/installation.html]Compile from source
+
+   If the Omnibus GitLab package isn't available for your distribution,
+   you can install GitLab from source.
+
+[https://docs.gitlab.com/ee/install/cloud_providers.html]Install from cloud
+provider
+
+   Install directly from platforms like AWS, Azure, GCP, OpenShift, and
+   DigitalOcean.
+
+   Related topic: [https://docs.gitlab.com/runner/install/]Install GitLab
+   Runner, an application that works with GitLab CI/CD to run jobs in a
+   pipeline.
+
+Reference architectures
+
+   Scale your GitLab installation by using the recommended configurations.
+   [https://docs.gitlab.com/ee/administration/reference_architectures/1k_u
+   sers.html]1,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/2k_u
+   sers.html]2,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/3k_u
+   sers.html]3,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/5k_u
+   sers.html]5,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/10k_
+   users.html]10,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/25k_
+   users.html]25,000 users
+   [https://docs.gitlab.com/ee/administration/reference_architectures/50k_
+   users.html]50,000 users
+
+Get support
+
+   If you need additional help and you're on a paid tier, you can request
+   support.
+   [https://about.gitlab.com/support/]Request support
+
+   [https://about.gitlab.com/company/]About GitLab
+   [https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/content/index.er
+   b]View page source
+   [https://gitlab.com/-/ide/project/gitlab-org/gitlab-docs/edit/main/-/co
+   ntent/index.erb]Edit in Web IDE
+   [https://about.gitlab.com/privacy/]Privacy Statement (BUTTON) Cookie
+   Settings [https://about.gitlab.com/community/contribute/]Please
+   contribute [https://creativecommons.org/licenses/by-sa/4.0/]Creative
+   Commons License
+
+   [tr?id=1689559637958103&ev=PageView&noscript=1]

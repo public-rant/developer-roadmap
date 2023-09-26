@@ -1,0 +1,1997 @@
+   #[https://www.geeksforgeeks.org/feed/]GeeksforGeeks » Feed
+   [https://www.geeksforgeeks.org/comments/feed/]GeeksforGeeks » Comments
+   Feed
+   [https://www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=https%3A%2F
+   %2Fwww.geeksforgeeks.org%2Fdatabase-sharding-a-system-design-concept%2F
+   ]alternate
+   [https://www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=https%3A%2F
+   %2Fwww.geeksforgeeks.org%2Fdatabase-sharding-a-system-design-concept%2F
+   &format=xml]alternate
+
+   [https://www.geeksforgeeks.org/database-sharding-a-system-design-concep
+   t/#main]Skip to content [https://www.geeksforgeeks.org/]
+   geeksforgeeks
+     * Courses
+          + Summer Skill Up
+               o [https://practice.geeksforgeeks.org/courses/android-dev-l
+                 ive?utm_source=geeksforgeeks&utm_medium=main_header&utm_c
+                 ampaign=courses]Android App Development (Live)
+               o [https://practice.geeksforgeeks.org/courses/data-science-
+                 live?utm_source=geeksforgeeks&utm_medium=main_header&utm_
+                 campaign=courses]Data Science (Live)
+          + Data Structures and Algorithms
+               o [https://practice.geeksforgeeks.org/courses/dsa-interview
+                 -preparation-classroom?utm_source=geeksforgeeks&utm_mediu
+                 m=main_header&utm_campaign=courses]DSA for Interview
+                 Preparation
+               o [https://practice.geeksforgeeks.org/courses/geeks-classes
+                 -live?utm_source=geeksforgeeks&utm_medium=main_header&utm
+                 _campaign=courses]DSA Live for Working Professionals
+               o [https://practice.geeksforgeeks.org/courses/dsa-self-pace
+                 d?utm_source=geeksforgeeks&utm_medium=main_header&utm_cam
+                 paign=courses]DSA Self-paced in C++/Java
+               o [https://practice.geeksforgeeks.org/courses/Data-Structur
+                 es-With-Python?utm_source=geeksforgeeks&utm_medium=main_h
+                 eader&utm_campaign=courses]DSA Self-paced in Python
+               o [https://practice.geeksforgeeks.org/courses/data-structur
+                 es-and-algorithms-in-javascript?utm_source=geeksforgeeks&
+                 utm_medium=main_header&utm_campaign=courses]DSA
+                 Self-paced in Javascript
+               o [https://practice.geeksforgeeks.org/courses/c-Programming
+                 -basic-to-advanced?utm_source=geeksforgeeks&utm_medium=ma
+                 in_header&utm_campaign=courses]DSA Self-paced in C
+          + For Working Professionals
+               o [https://practice.geeksforgeeks.org/courses/geeks-classes
+                 -live?utm_source=geeksforgeeks&utm_medium=main_header&utm
+                 _campaign=courses]Data Structure & Algorithm Classes
+                 (Live)
+               o [https://practice.geeksforgeeks.org/courses/system-design
+                 -live?utm_source=geeksforgeeks&utm_medium=main_header&utm
+                 _campaign=courses]System Design (Live)
+               o [https://practice.geeksforgeeks.org/courses/devops-live?u
+                 tm_source=geeksforgeeks&utm_medium=main_header&utm_campai
+                 gn=courses]DevOps(Live)
+               o [https://practice.geeksforgeeks.org/courses/data-structur
+                 es-and-algorithms-in-javascript?utm_source=geeksforgeeks&
+                 utm_medium=main_header&utm_campaign=courses]Data
+                 Structures & Algorithms in JavaScript
+               o [https://practice.geeksforgeeks.org/courses/category/all?
+                 courseType=live&utm_source=geeksforgeeks&utm_medium=main_
+                 header&utm_campaign=courses]Explore More Live Courses
+          + For Students
+               o [https://practice.geeksforgeeks.org/courses/complete-inte
+                 rview-preparation?utm_source=geeksforgeeks&utm_medium=mai
+                 n_header&utm_campaign=courses]Interview Preparation
+                 Course
+               o [https://practice.geeksforgeeks.org/courses/data-science-
+                 live?utm_source=geeksforgeeks&utm_medium=main_header&utm_
+                 campaign=courses]Data Science (Live)
+               o [https://practice.geeksforgeeks.org/courses/gate-live-cou
+                 rse/?utm_source=geeksforgeeks&utm_medium=main_header&utm_
+                 campaign=courses]GATE CS & IT 2024
+               o [https://practice.geeksforgeeks.org/courses/data-structur
+                 es-and-algorithms-in-javascript?utm_source=geeksforgeeks&
+                 utm_medium=main_header&utm_campaign=courses]Data
+                 Structures & Algorithms in JavaScript
+               o [https://practice.geeksforgeeks.org/courses/dsa-self-pace
+                 d?utm_source=geeksforgeeks&utm_medium=main_header&utm_cam
+                 paign=courses]Data Structure & Algorithm-Self
+                 Paced(C++/JAVA)
+               o [https://practice.geeksforgeeks.org/courses/Data-Structur
+                 es-With-Python?utm_source=geeksforgeeks&utm_medium=main_h
+                 eader&utm_campaign=courses]Data Structures & Algorithms
+                 in Python
+               o [https://practice.geeksforgeeks.org/courses/category/all?
+                 courseType=online&utm_source=geeksforgeeks&utm_medium=mai
+                 n_header&utm_campaign=courses]Explore More Self-Paced
+                 Courses
+          + Programming Languages
+               o [https://practice.geeksforgeeks.org/courses/cpp-stl?utm_s
+                 ource=geeksforgeeks&utm_medium=main_header&utm_campaign=c
+                 ourses]C++ Programming - Beginner to Advanced
+               o [https://practice.geeksforgeeks.org/courses/Java-Foundati
+                 on?utm_source=geeksforgeeks&utm_medium=main_header&utm_ca
+                 mpaign=courses]Java Programming - Beginner to Advanced
+               o [https://practice.geeksforgeeks.org/courses/c-foundation?
+                 utm_source=geeksforgeeks&utm_medium=main_header&utm_campa
+                 ign=courses]C Programming - Beginner to Advanced
+          + Web Development
+               o [https://practice.geeksforgeeks.org/courses/full-stack-no
+                 de?utm_source=geeksforgeeks&utm_medium=main_header&utm_ca
+                 mpaign=courses]Full Stack Development with React & Node
+                 JS(Live)
+               o [https://practice.geeksforgeeks.org/courses/Java-backend-
+                 live?utm_source=geeksforgeeks&utm_medium=main_header&utm_
+                 campaign=courses]Java Backend Development(Live)
+               o [https://practice.geeksforgeeks.org/courses/android-dev-l
+                 ive?utm_source=geeksforgeeks&utm_medium=main_header&utm_c
+                 ampaign=courses]Android App Development with Kotlin(Live)
+               o [https://practice.geeksforgeeks.org/courses/py-dev-django
+                 ?utm_source=geeksforgeeks&utm_medium=main_header&utm_camp
+                 aign=courses]Python Backend Development with Django(Live)
+          + Machine Learning and Data Science
+               o [https://practice.geeksforgeeks.org/courses/data-science-
+                 live?utm_source=geeksforgeeks&utm_medium=main_header&utm_
+                 campaign=courses]Complete Data Science Program(Live)
+               o [https://practice.geeksforgeeks.org/courses/dpa-self-pace
+                 d?utm_source=geeksforgeeks&utm_medium=main_header&utm_cam
+                 paign=courses]Mastering Data Analytics
+          + New Courses
+               o [https://practice.geeksforgeeks.org/courses/py-dev-django
+                 ?utm_source=geeksforgeeks&utm_medium=main_header&utm_camp
+                 aign=courses]Python Backend Development with Django(Live)
+               o [https://practice.geeksforgeeks.org/courses/android-dev-l
+                 ive?utm_source=geeksforgeeks&utm_medium=main_header&utm_c
+                 ampaign=courses]Android App Development with Kotlin(Live)
+               o [https://practice.geeksforgeeks.org/courses/devops-live?u
+                 tm_source=geeksforgeeks&utm_medium=main_header&utm_campai
+                 gn=courses]DevOps Engineering - Planning to Production
+          + School Courses
+               o [https://practice.geeksforgeeks.org/courses/CS-12?utm_sou
+                 rce=geeksforgeeks&utm_medium=main_header&utm_campaign=cou
+                 rses]CBSE Class 12 Computer Science
+               o [https://practice.geeksforgeeks.org/courses/school-guide-
+                 course?utm_source=geeksforgeeks&utm_medium=main_header&ut
+                 m_campaign=courses]School Guide
+          + [https://practice.geeksforgeeks.org/courses?utm_source=geeksfo
+            rgeeks&utm_medium=main_header&utm_campaign=courses]All Courses
+     * Tutorials
+          + Data Structures & Algorithms
+               o Data Structures
+                    # [https://www.geeksforgeeks.org/introduction-to-array
+                      s-data-structure-and-algorithm-tutorials/?ref=ghm]Ar
+                      rays
+                    # [https://www.geeksforgeeks.org/introduction-to-matri
+                      x-or-grid-data-structure-and-algorithms-tutorial/?re
+                      f=ghm]Matrix
+                    # [https://www.geeksforgeeks.org/introduction-to-strin
+                      gs-data-structure-and-algorithm-tutorials/?ref=ghm]S
+                      trings
+                    # Linked List
+                         @ [https://www.geeksforgeeks.org/data-structures/
+                           linked-list/singly-linked-list/?ref=ghm]Singly
+                           Linked List
+                         @ [https://www.geeksforgeeks.org/doubly-linked-li
+                           st/?ref=ghm]Doubly Linked List
+                         @ [https://www.geeksforgeeks.org/circular-linked-
+                           list/?ref=ghm]Circular Linked List
+                         @ [https://www.geeksforgeeks.org/doubly-circular-
+                           linked-list-set-1-introduction-and-insertion/?r
+                           ef=ghm]Doubly Circular Linked List
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           linked-list-data-structure-and-algorithm-tutori
+                           al/?ref=ghm]Linked List Tutorial
+                    # [https://www.geeksforgeeks.org/introduction-to-stack
+                      -data-structure-and-algorithm-tutorials/?ref=ghm]Sta
+                      ck
+                    # [https://www.geeksforgeeks.org/introduction-to-queue
+                      -data-structure-and-algorithm-tutorials/?ref=ghm]Que
+                      ue
+                    # Tree
+                         @ [https://www.geeksforgeeks.org/generic-treesn-a
+                           rray-trees/?ref=ghm]Generic Tree
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           binary-tree-data-structure-and-algorithm-tutori
+                           als/?ref=ghm]Binary Tree
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           binary-search-tree-data-structure-and-algorithm
+                           -tutorials/?ref=ghm]Binary Search Tree
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           avl-tree/?ref=ghm]AVL Tree
+                         @ [https://www.geeksforgeeks.org/introduction-of-
+                           b-tree-2/?ref=ghm]B Tree
+                         @ [https://www.geeksforgeeks.org/introduction-of-
+                           b-tree/?ref=ghm]B+ Tree
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           red-black-tree/?ref=ghm]Red Black Tree
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           tree-data-structure-and-algorithm-tutorials/?re
+                           f=ghm]Tree Data Structure Tutorial
+                    # [https://www.geeksforgeeks.org/introduction-to-heap-
+                      data-structure-and-algorithm-tutorials/?ref=ghm]Heap
+                    # [https://www.geeksforgeeks.org/introduction-to-hashi
+                      ng-data-structure-and-algorithm-tutorials/?ref=ghm]H
+                      ashing
+                    # [https://www.geeksforgeeks.org/introduction-to-graph
+                      s-data-structure-and-algorithm-tutorials/?ref=ghm]Gr
+                      aph
+                    # [https://www.geeksforgeeks.org/introduction-to-set-d
+                      ata-structure-and-algorithm-tutorials/?ref=ghm]Set
+                      Data Structure
+                    # [https://www.geeksforgeeks.org/introduction-to-map-d
+                      ata-structure-and-algorithm-tutorials/?ref=ghm]Map
+                      Data Structure
+                    # [https://www.geeksforgeeks.org/advanced-data-structu
+                      res/?ref=ghm]Advanced Data Structure
+                    # [https://www.geeksforgeeks.org/introduction-to-data-
+                      structures/?ref=ghm]Data Structures Tutorial
+               o Algorithms
+                    # Analysis of Algorithms
+                         @ [https://www.geeksforgeeks.org/design-and-analy
+                           sis-of-algorithms/?ref=ghm]Design and Analysis
+                           of Algorithms
+                         @ [https://www.geeksforgeeks.org/analysis-of-algo
+                           rithms-set-1-asymptotic-analysis/?ref=ghm]Asymp
+                           totic Analysis
+                         @ [https://www.geeksforgeeks.org/analysis-of-algo
+                           rithms-set-3asymptotic-notations/?ref=ghm]Asymp
+                           totic Notations
+                         @ [https://www.geeksforgeeks.org/analysis-of-algo
+                           rithms-set-2-asymptotic-analysis/?ref=ghm]Worst
+                           , Average and Best Cases
+                    # Searching Algorithms
+                         @ [https://www.geeksforgeeks.org/linear-search/?r
+                           ef=ghm]Linear Search
+                         @ [https://www.geeksforgeeks.org/binary-search/?r
+                           ef=ghm]Binary Search
+                         @ [https://www.geeksforgeeks.org/searching-algori
+                           thms/?ref=ghm]Searching Algorithms Tutorial
+                    # Sorting Algorithms
+                         @ [https://www.geeksforgeeks.org/selection-sort/?
+                           ref=ghm]Selection Sort
+                         @ [https://www.geeksforgeeks.org/bubble-sort/?ref
+                           =ghm]Bubble Sort
+                         @ [https://www.geeksforgeeks.org/insertion-sort/?
+                           ref=ghm]Insertion Sort
+                         @ [https://www.geeksforgeeks.org/merge-sort/?ref=
+                           ghm]Merge Sort
+                         @ [https://www.geeksforgeeks.org/quick-sort/?ref=
+                           ghm]Quick Sort
+                         @ [https://www.geeksforgeeks.org/heap-sort/?ref=g
+                           hm]Heap Sort
+                         @ [https://www.geeksforgeeks.org/counting-sort/?r
+                           ef=ghm]Counting Sort
+                         @ [https://www.geeksforgeeks.org/radix-sort/?ref=
+                           ghm]Radix Sort
+                         @ [https://www.geeksforgeeks.org/bucket-sort-2/?r
+                           ef=ghm]Bucket Sort
+                         @ [https://www.geeksforgeeks.org/introduction-to-
+                           sorting-algorithm/?ref=ghm]Sorting Algorithms
+                           Tutorial
+                    # [https://www.geeksforgeeks.org/introduction-to-greed
+                      y-algorithm-data-structures-and-algorithm-tutorials/
+                      ?ref=ghm]Greedy Algorithms
+                    # [https://www.geeksforgeeks.org/introduction-to-dynam
+                      ic-programming-data-structures-and-algorithm-tutoria
+                      ls/?ref=ghm]Dynamic Programming
+                    # [https://www.geeksforgeeks.org/introduction-to-graph
+                      s-data-structure-and-algorithm-tutorials/?ref=ghm]Gr
+                      aph Algorithms
+                    # [https://www.geeksforgeeks.org/introduction-to-patte
+                      rn-searching-data-structure-and-algorithm-tutorial/?
+                      ref=ghm]Pattern Searching
+                    # [https://www.geeksforgeeks.org/introduction-to-recur
+                      sion-data-structure-and-algorithm-tutorials/?ref=ghm
+                      ]Recursion
+                    # [https://www.geeksforgeeks.org/introduction-to-backt
+                      racking-data-structure-and-algorithm-tutorials/?ref=
+                      ghm]Backtracking
+                    # [https://www.geeksforgeeks.org/introduction-to-divid
+                      e-and-conquer-algorithm-data-structure-and-algorithm
+                      -tutorials/?ref=ghm]Divide and Conquer
+                    # [https://www.geeksforgeeks.org/mathematical-algorith
+                      ms/?ref=ghm]Mathematical Algorithms
+                    # [https://www.geeksforgeeks.org/geometric-algorithms/
+                      ?ref=ghm]Geometric Algorithms
+                    # [https://www.geeksforgeeks.org/introduction-to-bitwi
+                      se-algorithms-data-structures-and-algorithms-tutoria
+                      l/?ref=ghm]Bitwise Algorithms
+                    # [https://www.geeksforgeeks.org/randomized-algorithms
+                      /?ref=ghm]Randomized Algorithms
+                    # [https://www.geeksforgeeks.org/introduction-to-branc
+                      h-and-bound-data-structures-and-algorithms-tutorial/
+                      ?ref=ghm]Branch and Bound
+                    # [https://www.geeksforgeeks.org/introduction-to-algor
+                      ithms/?ref=ghm]Algorithms Tutorial
+               o [https://www.geeksforgeeks.org/learn-data-structures-and-
+                 algorithms-dsa-tutorial/?ref=ghm]Complete DSA Tutorial
+               o [https://www.geeksforgeeks.org/competitive-programming-a-
+                 complete-guide/?ref=ghm]Competitive Programming
+               o Company Wise SDE Sheets
+                    # [https://www.geeksforgeeks.org/facebookmeta-sde-shee
+                      t-interview-questions-and-answers/?ref=ghm]Facebook
+                      SDE Sheet
+                    # [https://www.geeksforgeeks.org/amazon-sde-sheet-inte
+                      rview-questions-and-answers/?ref=ghm]Amazon SDE
+                      Sheet
+                    # [https://www.geeksforgeeks.org/apple-sde-sheet-inter
+                      view-questions-and-answers/?ref=ghm]Apple SDE Sheet
+                    # [https://www.geeksforgeeks.org/netflix-sde-sheet-int
+                      erview-questions-and-answers/?ref=ghm]Netflix SDE
+                      Sheet
+                    # [https://www.geeksforgeeks.org/google-sde-sheet-inte
+                      rview-questions-and-answers/?ref=ghm]Google SDE
+                      Sheet
+                    # [https://www.geeksforgeeks.org/wipro-sde-sheet-inter
+                      view-questions-and-answers/?ref=ghm]Wipro Coding
+                      Sheet
+                    # [https://www.geeksforgeeks.org/infosys-sde-sheet-int
+                      erview-questions-and-answers/?ref=ghm]Infosys Coding
+                      Sheet
+                    # [https://www.geeksforgeeks.org/tcs-sde-sheet-intervi
+                      ew-questions-and-answers/?ref=ghm]TCS Coding Sheet
+                    # [https://www.geeksforgeeks.org/cognizant-sde-sheet-i
+                      nterview-questions-and-answers/?ref=ghm]Cognizant
+                      Coding Sheet
+                    # [https://www.geeksforgeeks.org/hcl-sde-sheet-intervi
+                      ew-questions-and-answers/?ref=ghm]HCL Coding Sheet
+               o DSA Cheat Sheets
+                    # [https://www.geeksforgeeks.org/sde-sheet-a-complete-
+                      guide-for-sde-preparation/?ref=ghm]SDE Sheets
+                    # [https://www.geeksforgeeks.org/must-do-coding-questi
+                      ons-for-companies-like-amazon-microsoft-adobe/?ref=g
+                      hm]FAANG Coding Sheet
+                    # [https://www.geeksforgeeks.org/dsa-sheet-by-love-bab
+                      bar/?ref=ghm]Love Babbaar Sheet
+                    # [https://www.geeksforgeeks.org/must-do-questions-for
+                      -companies-like-tcs-cts-hcl-ibm/?ref=ghm]Mass
+                      Recruiter Sheet
+                    # [https://www.geeksforgeeks.org/must-do-coding-questi
+                      ons-for-product-based-companies/?ref=ghm]Product-Bas
+                      ed Coding Sheet
+                    # [https://www.geeksforgeeks.org/must-coding-questions
+                      -company-wise/?ref=ghm]Company-Wise Preparation
+                      Sheet
+               o Top Interview Questions
+                    # [https://www.geeksforgeeks.org/top-100-data-structur
+                      e-and-algorithms-dsa-interview-questions-topic-wise/
+                      ?ref=ghm]Top 100 DSA Interview Questions Topic-wise
+                    # [https://www.geeksforgeeks.org/top-50-array-coding-p
+                      roblems-for-interviews/?ref=ghm]Top 50 Array
+                      Problems
+                    # [https://www.geeksforgeeks.org/top-50-string-coding-
+                      problems-for-interviews/?ref=ghm]Top 50 String
+                      Problems
+                    # [https://www.geeksforgeeks.org/top-50-problems-on-st
+                      ack-data-structure-asked-in-interviews/?ref=ghm]Top
+                      50 Problems on Stack
+                    # [https://www.geeksforgeeks.org/top-50-problems-on-he
+                      ap-data-structure-asked-in-interviews/?ref=ghm]Top
+                      50 Problems on Heap
+                    # [https://www.geeksforgeeks.org/top-20-linked-list-in
+                      terview-question/?ref=ghm]Top 20 Linked List
+                      Interview Question
+                    # [https://www.geeksforgeeks.org/top-50-tree-coding-pr
+                      oblems-for-interviews/?ref=ghm]Top 50 Tree Problems
+                    # [https://www.geeksforgeeks.org/top-50-graph-coding-p
+                      roblems-for-interviews/?ref=ghm]Top 50 Graph
+                      Problems
+                    # [https://www.geeksforgeeks.org/top-50-interview-prob
+                      lems-on-recursion-algorithm/?ref=ghm]Top 50 Problems
+                      on Recursion
+                    # [https://www.geeksforgeeks.org/top-20-greedy-algorit
+                      hms-interview-questions/?ref=ghm]Top 20 Greedy
+                      Algorithms Interview Questions
+                    # [https://www.geeksforgeeks.org/top-50-dynamic-progra
+                      mming-coding-problems-for-interviews/?ref=ghm]Top 50
+                      Dynamic Programming (DP) Problems
+                    # [https://www.geeksforgeeks.org/top-20-hashing-techni
+                      que-based-interview-questions/?ref=ghm]Top 20
+                      Hashing Technique based Interview Questions
+                    # [https://www.geeksforgeeks.org/top-20-dynamic-progra
+                      mming-interview-questions/?ref=ghm]Top 20 Dynamic
+                      Programming Interview Questions
+                    # [https://www.geeksforgeeks.org/top-10-algorithms-in-
+                      interview-questions/?ref=ghm]Top 10 algorithms in
+                      Interview Questions
+                    # [https://www.geeksforgeeks.org/commonly-asked-data-s
+                      tructure-interview-questions-set-1/?ref=ghm]Commonly
+                      Asked Data Structure Interview Questions
+               o Puzzles
+                    # [https://www.geeksforgeeks.org/puzzles/?ref=ghm]All
+                      Puzzles
+                    # [https://www.geeksforgeeks.org/top-100-puzzles-asked
+                      -in-interviews/?ref=ghm]Top 100 Puzzles Asked In
+                      Interviews
+                    # [https://www.geeksforgeeks.org/top-20-puzzles-common
+                      ly-asked-during-sde-interviews/?ref=ghm]Top 20
+                      Puzzles Commonly Asked During SDE Interviews
+                    # [https://www.geeksforgeeks.org/top-mcqs-on-puzzles-w
+                      ith-answers/?ref=ghm]Top MCQs on Puzzles with
+                      Answers
+                    # [https://www.geeksforgeeks.org/tag/crossword-of-the-
+                      week/?ref=ghm]Crossword Puzzle Of The Week
+          + System Design
+               o System Design Tutorial
+                    # [https://www.geeksforgeeks.org/what-is-system-design
+                      -learn-system-design/?ref=ghm]What is System Design
+                    # [https://www.geeksforgeeks.org/important-key-concept
+                      s-and-terminologies-learn-system-design/?ref=ghm]Key
+                      Terminologies in System Design
+                    # [https://www.geeksforgeeks.org/analysis-of-monolithi
+                      c-and-distributed-systems-learn-system-design/?ref=g
+                      hm]Analysis and Architecture of Systems
+                    # [https://www.geeksforgeeks.org/what-is-scalability-a
+                      nd-how-to-achieve-it-learn-system-design/?ref=ghm]Sc
+                      alability in System Design
+                    # [https://www.geeksforgeeks.org/complete-reference-to
+                      -databases-in-designing-systems/?ref=ghm]Databases
+                      in System Design
+                    # [https://www.geeksforgeeks.org/what-is-high-level-de
+                      sign-learn-system-design/?ref=ghm]High Level Design
+                      or HLD
+                    # [https://www.geeksforgeeks.org/what-is-low-level-des
+                      ign-or-lld-learn-system-design/?ref=ghm]Low Level
+                      Design or LLD
+                    # [https://www.geeksforgeeks.org/communication-protoco
+                      ls-in-system-design/?ref=ghm]Communication Protocols
+                    # [https://www.geeksforgeeks.org/web-server-proxies-an
+                      d-their-role-in-designing-systems/?ref=ghm]Web
+                      Servers and Proxies
+                    # [https://www.geeksforgeeks.org/top-10-system-design-
+                      interview-questions-and-answers/?ref=ghm]Case
+                      Studies in Designing Systems
+                    # [https://www.geeksforgeeks.org/system-design-tutoria
+                      l/?ref=ghm]Complete System Design Tutorial
+               o Software Design Patterns
+                    # [https://www.geeksforgeeks.org/design-patterns-set-1
+                      -introduction/?ref=ghm]Factory Pattern
+                    # [https://www.geeksforgeeks.org/observer-pattern-set-
+                      1-introduction/?ref=ghm]Observer Pattern
+                    # [https://www.geeksforgeeks.org/singleton-design-patt
+                      ern/?ref=ghm]Singleton Design Pattern
+                    # [https://www.geeksforgeeks.org/decorator-pattern/?re
+                      f=ghm]Decorator Pattern
+                    # [https://www.geeksforgeeks.org/strategy-pattern-set-
+                      1/?ref=ghm]Strategy Pattern
+                    # [https://www.geeksforgeeks.org/adapter-pattern/?ref=
+                      ghm]Adapter Pattern
+                    # [https://www.geeksforgeeks.org/command-pattern/?ref=
+                      ghm]Command Pattern
+                    # [https://www.geeksforgeeks.org/iterator-pattern/?ref
+                      =ghm]Iterator Pattern
+                    # [https://www.geeksforgeeks.org/prototype-design-patt
+                      ern/?ref=ghm]Prototype Design Pattern
+                    # [https://www.geeksforgeeks.org/software-design-patte
+                      rns/?ref=ghm]All Design Patterns
+               o [https://www.geeksforgeeks.org/complete-roadmap-to-learn-
+                 system-design/?ref=ghm]System Design Roadmap
+               o [https://www.geeksforgeeks.org/top-10-system-design-inter
+                 view-questions-and-answers/?ref=ghm]Top 10 System Design
+                 Interview Questions and Answers
+          + Interview Corner
+               o [https://www.geeksforgeeks.org/company-preparation/?ref=g
+                 hm]Company Preparation
+               o [https://www.geeksforgeeks.org/interview-preparation-for-
+                 software-developer/?ref=ghm]Top Topics
+               o [https://practice.geeksforgeeks.org/company-tags/]Practic
+                 e Company Questions
+               o [https://www.geeksforgeeks.org/company-interview-corner/?
+                 ref=ghm]Interview Experiences
+               o [https://www.geeksforgeeks.org/experienced-interview-expe
+                 riences-company-wise/?ref=ghm]Experienced Interviews
+               o [https://www.geeksforgeeks.org/internship-interview-exper
+                 iences-company-wise/?ref=ghm]Internship Interviews
+               o [https://www.geeksforgeeks.org/competitive-programming-a-
+                 complete-guide/?ref=ghm]Competitive Programming
+               o [https://www.geeksforgeeks.org/quiz-corner-gq/?ref=ghm]Mu
+                 ltiple Choice Quizzes
+               o [https://www.geeksforgeeks.org/aptitude-questions-and-ans
+                 wers/?ref=ghm]Aptitude for Placements
+          + Languages
+               o [https://www.geeksforgeeks.org/c-programming-language/?re
+                 f=ghm]C
+               o [https://www.geeksforgeeks.org/c-plus-plus/?ref=ghm]C++
+               o [https://www.geeksforgeeks.org/java/?ref=ghm]Java
+               o [https://www.geeksforgeeks.org/python-programming-languag
+                 e/?ref=ghm]Python
+               o [https://www.geeksforgeeks.org/learn-javascript-js-roadma
+                 p-for-beginners/?ref=ghm]JavaScript
+               o [https://www.geeksforgeeks.org/php-tutorials/?ref=ghm]PHP
+               o [https://www.geeksforgeeks.org/r-tutorial/]R Tutorial
+               o [https://www.geeksforgeeks.org/csharp-programming-languag
+                 e/?ref=ghm]C#
+               o [https://www.geeksforgeeks.org/sql-tutorial/?ref=ghm]SQL
+               o [https://www.geeksforgeeks.org/scala-programming-language
+                 /?ref=ghm]Scala
+               o [https://www.geeksforgeeks.org/perl-programming-language/
+                 ?ref=ghm]Perl
+               o [https://www.geeksforgeeks.org/golang/?ref=ghm]Go
+                 Language
+               o [https://www.geeksforgeeks.org/kotlin-programming-languag
+                 e/?ref=ghm]Kotlin
+          + Web Development
+               o [https://www.geeksforgeeks.org/html-tutorials/?ref=ghm]HT
+                 ML
+               o [https://www.geeksforgeeks.org/css-tutorials/?ref=ghm]CSS
+               o [https://www.geeksforgeeks.org/learn-javascript-js-roadma
+                 p-for-beginners/?ref=ghm]JavaScript
+               o [https://www.geeksforgeeks.org/php-tutorials/?ref=ghm]PHP
+               o CSS Frameworks
+                    # [https://www.geeksforgeeks.org/bootstrap/?ref=ghm]Bo
+                      otstrap
+                    # [https://www.geeksforgeeks.org/tailwind-css/?ref=ghm
+                      ]Tailwind CSS
+                    # [https://www.geeksforgeeks.org/foundation/?ref=ghm]F
+                      oundation CSS
+                    # [https://www.geeksforgeeks.org/materialize-css/?ref=
+                      ghm]Materialize CSS
+                    # [https://www.geeksforgeeks.org/bulma/?ref=ghm]Bulma
+                    # [https://www.geeksforgeeks.org/pure-css/?ref=ghm]Pur
+                      e CSS
+                    # [https://www.geeksforgeeks.org/primer-css/?ref=ghm]P
+                      rimer CSS
+                    # [https://www.geeksforgeeks.org/blaze-ui/?ref=ghm]Bla
+                      ze UI
+                    # [https://www.geeksforgeeks.org/semantic-ui/?ref=ghm]
+                      Semantic UI
+               o JavaScript Frameworks
+                    # [https://www.geeksforgeeks.org/angularjs/?ref=ghm]An
+                      gularJS
+                    # [https://www.geeksforgeeks.org/angular-primeng/?ref=
+                      ghm]Angular PrimeNG
+                    # [https://www.geeksforgeeks.org/angular-ngx-bootstrap
+                      /?ref=ghm]Angular ngx Bootstrap
+                    # [https://www.geeksforgeeks.org/nodejs/?ref=ghm]NodeJ
+                      S
+                    # [https://www.geeksforgeeks.org/express-js/?ref=ghm]E
+                      xpress.js
+               o JavaScript Libraries
+                    # [https://www.geeksforgeeks.org/jquery-tutorials/?ref
+                      =ghm]jQuery
+                    # [https://www.geeksforgeeks.org/jquery-mobile/?ref=gh
+                      m]jQuery Mobile
+                    # [https://www.geeksforgeeks.org/jquery-ui/?ref=ghm]jQ
+                      uery UI
+                    # [https://www.geeksforgeeks.org/jquery-easyui/?ref=gh
+                      m]jQuery EasyUI
+                    # [https://www.geeksforgeeks.org/jqwidgets/?ref=ghm]jQ
+                      Widgets
+                    # [https://www.geeksforgeeks.org/learn-reactjs/?ref=gh
+                      m]ReactJS
+                    # [https://www.geeksforgeeks.org/react-bootstrap/?ref=
+                      ghm]React Bootstrap
+                    # [https://www.geeksforgeeks.org/react-rebass/?ref=ghm
+                      ]React Rebass
+                    # [https://www.geeksforgeeks.org/react-desktop/?ref=gh
+                      m]React Desktop
+                    # [https://www.geeksforgeeks.org/react-suite/?ref=ghm]
+                      React Suite
+                    # [https://www.geeksforgeeks.org/reactjs-evergreen/?re
+                      f=ghm]ReactJS Evergreen
+                    # [https://www.geeksforgeeks.org/reactjs-reactstrap/?r
+                      ef=ghm]ReactJS Reactstrap
+                    # [https://www.geeksforgeeks.org/ant-design/?ref=ghm]A
+                      nt Design
+                    # [https://www.geeksforgeeks.org/blueprintjs/?ref=ghm]
+                      BlueprintJS
+                    # [https://www.geeksforgeeks.org/p5-js/?ref=ghm]p5.js
+                    # [https://www.geeksforgeeks.org/lodash/?ref=ghm]Lodas
+                      h
+                    # [https://www.geeksforgeeks.org/tensorflow-js/?ref=gh
+                      m]TensorFlow.js
+                    # [https://www.geeksforgeeks.org/moment-js/?ref=ghm]Mo
+                      ment.js
+                    # [https://www.geeksforgeeks.org/collect-js/?ref=ghm]C
+                      ollect.js
+               o [https://www.geeksforgeeks.org/wordpress/?ref=ghm]WordPre
+                 ss
+               o [https://www.geeksforgeeks.org/json/?ref=ghm]JSON
+               o Web Dev Cheat Sheets
+                    # [https://www.geeksforgeeks.org/html-cheat-sheet-a-ba
+                      sic-guide-to-html/?ref=ghm]HTML Cheat Sheet
+                    # [https://www.geeksforgeeks.org/css-cheat-sheet-a-bas
+                      ic-guide-to-css/?ref=ghm]CSS Cheat Sheet
+                    # [https://www.geeksforgeeks.org/bootstrap-cheatsheet-
+                      a-basic-guide-to-bootstrap/?ref=ghm]Bootstrap Cheat
+                      Sheet
+                    # [https://www.geeksforgeeks.org/javascript-cheat-shee
+                      t-a-basic-guide-to-javascript/?ref=ghm]JS Cheat
+                      Sheet
+                    # [https://www.geeksforgeeks.org/jquery-cheat-sheet-a-
+                      basic-guide-to-jquery/?ref=ghm]jQuery Cheat Sheet
+                    # [https://www.geeksforgeeks.org/angular-cheat-sheet-a
+                      -basic-guide-to-angular/?ref=ghm]Angular Cheat Sheet
+          + ML & Data Science
+               o Machine Learning
+                    # [https://www.geeksforgeeks.org/machine-learning/]ML
+                      Tutorial
+                    # [https://www.geeksforgeeks.org/machine-learning-math
+                      ematics/]ML Maths
+                    # [https://www.geeksforgeeks.org/machine-learning-proj
+                      ects/]ML Projects
+               o [https://www.geeksforgeeks.org/data-science-tutorial/]Dat
+                 a Science using Python
+               o [https://www.geeksforgeeks.org/r-programming-for-data-sci
+                 ence/]Data Science using R
+               o Data Science Packages
+                    # [https://www.geeksforgeeks.org/pandas-tutorial/]Pand
+                      as Tutorial
+                    # [https://www.geeksforgeeks.org/numpy-tutorial/]NumPy
+                      Tutorial
+               o Data Visualization
+                    # Data Visualization with Python
+                         @ [https://www.geeksforgeeks.org/python-data-visu
+                           alization-tutorial/]Python Data Visualization
+                           Tutorial
+                         @ [https://www.geeksforgeeks.org/matplotlib-tutor
+                           ial/]Matplotlib Tutorial
+                         @ [https://www.geeksforgeeks.org/python-bokeh-tut
+                           orial-interactive-data-visualization-with-bokeh
+                           /]Bokeh Tutorial
+                         @ [https://www.geeksforgeeks.org/python-plotly-tu
+                           torial/]Plotly Tutorial
+                         @ [https://www.geeksforgeeks.org/python-seaborn-t
+                           utorial/]Seaborn Tutorial
+                    # Data Visualization with R
+                         @ [https://www.geeksforgeeks.org/data-visualizati
+                           on-in-r/]Data Visualization with R
+                         @ [https://www.geeksforgeeks.org/getting-started-
+                           with-plotly-in-r/]Plotly Tutorial
+                         @ [https://www.geeksforgeeks.org/data-visualizati
+                           on-with-r-and-ggplot2/]ggplot Tutorial
+                    # Data Visualization Tools
+                         @ [https://www.geeksforgeeks.org/tableau-tutorial
+                           /]Tableau
+                         @ [https://www.geeksforgeeks.org/power-bi-tutoria
+                           l/]Power BI
+               o Data Analysis
+                    # [https://www.geeksforgeeks.org/data-analysis-with-py
+                      thon/]Data Analysis with Python
+                    # [https://www.geeksforgeeks.org/data-analysis-using-r
+                      /]Data Analysis with R
+               o Deep Learning
+                    # [https://www.geeksforgeeks.org/deep-learning-tutoria
+                      l/]Deep Learning Tutorial
+                    # [https://www.geeksforgeeks.org/5-deep-learning-proje
+                      ct-ideas-for-beginners/]Deep Learning Projects
+               o [https://www.geeksforgeeks.org/natural-language-processin
+                 g-nlp-tutorial/]NLP Tutorial
+               o [https://www.geeksforgeeks.org/opencv-python-tutorial/]Op
+                 enCV Tutorial
+               o Interview Questions
+                    # [https://www.geeksforgeeks.org/machine-learning-inte
+                      rview-questions/]Machine Learning Interview Question
+                    # [https://www.geeksforgeeks.org/deep-learning-intervi
+                      ew-questions/]Deep Learning Interview Question
+                    # [https://www.geeksforgeeks.org/python-interview-ques
+                      tions/]Python Interview Questions
+                    # [https://www.geeksforgeeks.org/r-interview-questions
+                      /]Top 50 R Interview Questions
+               o ML Frameworks
+                    # [https://www.geeksforgeeks.org/introduction-to-tenso
+                      rflow/]Tensorflow
+                    # [https://www.geeksforgeeks.org/getting-started-with-
+                      pytorch/]PyTorch
+                    # [https://www.geeksforgeeks.org/understanding-pytorch
+                      -lightning-datamodules/]PyTorch Lightning
+          + CS Subjects
+               o [https://www.geeksforgeeks.org/engineering-mathematics-tu
+                 torials/?ref=ghm]Mathematics
+               o [https://www.geeksforgeeks.org/operating-systems/?ref=ghm
+                 ]Operating System
+               o [https://www.geeksforgeeks.org/dbms/?ref=ghm]DBMS
+               o [https://www.geeksforgeeks.org/computer-network-tutorials
+                 /?ref=ghm]Computer Networks
+               o [https://www.geeksforgeeks.org/computer-organization-and-
+                 architecture-tutorials/?ref=ghm]Computer Organization and
+                 Architecture
+               o [https://www.geeksforgeeks.org/theory-of-computation-auto
+                 mata-tutorials/?ref=ghm]Theory of Computation
+               o [https://www.geeksforgeeks.org/compiler-design-tutorials/
+                 ?ref=ghm]Compiler Design
+               o [https://www.geeksforgeeks.org/digital-electronics-logic-
+                 design-tutorials/#blg/?ref=ghm]Digital Logic
+               o [https://www.geeksforgeeks.org/software-engineering/?ref=
+                 ghm]Software Engineering
+          + DevOps
+               o [https://www.geeksforgeeks.org/git-tutorial/?ref=ghm]GIT
+               o [https://www.geeksforgeeks.org/aws-tutorial/?ref=ghm]AWS
+               o [https://www.geeksforgeeks.org/docker-tutorial/?ref=ghm]D
+                 ocker
+               o [https://www.geeksforgeeks.org/kubernetes-tutorial/?ref=g
+                 hm]Kubernetes
+               o [https://www.geeksforgeeks.org/microsoft-azure/?ref=ghm]M
+                 icrosoft Azure Tutorial
+               o [https://www.geeksforgeeks.org/google-cloud-platform-tuto
+                 rial/?ref=ghm]Google Cloud Platform
+          + School Learning
+               o [https://www.geeksforgeeks.org/english-grammar/?ref=ghm]E
+                 nglish Grammar
+               o [https://www.geeksforgeeks.org/school-learning/?ref=ghm]S
+                 chool Programming
+               o Mathematics
+                    # [https://www.geeksforgeeks.org/number-system-and-ari
+                      thmetic/?ref=ghm]Number System
+                    # [https://www.geeksforgeeks.org/algebra/?ref=ghm]Alge
+                      bra
+                    # [https://www.geeksforgeeks.org/trigonometry/?ref=ghm
+                      ]Trigonometry
+                    # [https://www.geeksforgeeks.org/statistics/?ref=ghm]S
+                      tatistics
+                    # [https://www.geeksforgeeks.org/probability-in-maths/
+                      ?ref=ghm]Probability
+                    # [https://www.geeksforgeeks.org/geometry/?ref=ghm]Geo
+                      metry
+                    # [https://www.geeksforgeeks.org/mensuration/?ref=ghm]
+                      Mensuration
+                    # [https://www.geeksforgeeks.org/calculus/?ref=ghm]Cal
+                      culus
+               o CBSE Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-8-syllabus
+                      /?ref=ghm]Class 8 Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-9-syllabus
+                      /?ref=ghm]Class 9 Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-10-syllabu
+                      s/?ref=ghm]Class 10 Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-11-syllabu
+                      s/?ref=ghm]Class 11 Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-12-syllabu
+                      s/?ref=ghm]Class 12 Syllabus
+               o Maths Notes (Class 8-12)
+                    # [https://www.geeksforgeeks.org/cbse-class-8-maths-no
+                      tes/?ref=ghm]Class 8 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-9-maths-no
+                      tes/?ref=ghm]Class 9 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-10-maths-n
+                      otes/?ref=ghm]Class 10 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-11-maths-n
+                      otes/?ref=ghm]Class 11 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-12-maths-n
+                      otes/?ref=ghm]Class 12 Notes
+               o Maths Formulas (Class 8 -11)
+                    # [https://www.geeksforgeeks.org/cbse-class-8-maths-fo
+                      rmulas/?ref=ghm]Class 8 Formulas
+                    # [https://www.geeksforgeeks.org/cbse-class-9-maths-fo
+                      rmulas/?ref=ghm]Class 9 Formulas
+                    # [https://www.geeksforgeeks.org/cbse-class-10-maths-f
+                      ormulas/?ref=ghm]Class 10 Formulas
+                    # [https://www.geeksforgeeks.org/cbse-class-11-maths-f
+                      ormulas/?ref=ghm]Class 11 Formulas
+               o NCERT Solutions
+                    # [https://www.geeksforgeeks.org/ncert-solutions-for-c
+                      lass-8-maths/?ref=ghm]Class 8 Maths Solution
+                    # [https://www.geeksforgeeks.org/ncert-solutions-for-c
+                      lass-9-maths/?ref=ghm]Class 9 Maths Solution
+                    # [https://www.geeksforgeeks.org/ncert-solutions-for-c
+                      lass-10-maths/?ref=ghm]Class 10 Maths Solution
+                    # [https://www.geeksforgeeks.org/ncert-solutions-for-c
+                      lass-11-maths/?ref=ghm]Class 11 Maths Solution
+                    # [https://www.geeksforgeeks.org/ncert-solutions-for-c
+                      lass-12-maths/?ref=ghm]Class 12 Maths Solution
+               o RD Sharma Solutions
+                    # [https://www.geeksforgeeks.org/rd-sharma-class-8-sol
+                      utions-for-maths/?ref=ghm]Class 8 Maths Solution
+                    # [https://www.geeksforgeeks.org/rd-sharma-class-9-sol
+                      utions/?ref=ghm]Class 9 Maths Solution
+                    # [https://www.geeksforgeeks.org/rd-sharma-class-10-so
+                      lutions/?ref=ghm]Class 10 Maths Solution
+                    # [https://www.geeksforgeeks.org/rd-sharma-class-11-so
+                      lutions-for-maths/?ref=ghm]Class 11 Maths Solution
+                    # [https://www.geeksforgeeks.org/rd-sharma-class-12-so
+                      lutions-for-maths/?ref=ghm]Class 12 Maths Solution
+               o Science Notes
+                    # [https://www.geeksforgeeks.org/class-8-science-notes
+                      /?ref=ghm]Class 8 Notes
+                    # [https://www.geeksforgeeks.org/class-9-science-revis
+                      ion-notes/?ref=ghm]Class 9 Notes
+                    # [https://www.geeksforgeeks.org/class-10-science-note
+                      s/?ref=ghm]Class 10 Notes
+               o Physics Notes (Class 8-12)
+                    # [https://www.geeksforgeeks.org/cbse-physics-class-8-
+                      notes/?ref=ghm]Class 8 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-9-physics-
+                      notes/?ref=ghm]Class 9 Notes
+                    # [https://www.geeksforgeeks.org/cbse-notes-for-class-
+                      10-physics/?ref=ghm]Class 10 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-11-physics
+                      -notes/?ref=ghm]Class 11 Notes
+                    # [https://www.geeksforgeeks.org/cbse-notes-class-12-p
+                      hysics/?ref=ghm]Class 12 Notes
+               o Chemistry Notes (Class 8-12)
+                    # [https://www.geeksforgeeks.org/cbse-class-8-chemistr
+                      y-notes/?ref=ghm]Class 8 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-9-chemistr
+                      y-notes/?ref=ghm]Class 9 Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-10-chemist
+                      ry-notes/?ref=ghm]Class 10 Notes
+                    # [https://www.geeksforgeeks.org/cbse-notes-class-11-c
+                      hemistry/?ref=ghm]Class 11 Notes
+                    # [https://www.geeksforgeeks.org/cbse-notes-class-12-c
+                      hemistry/?ref=ghm]Class 12 Notes
+               o Biology Notes
+                    # [https://www.geeksforgeeks.org/cbse-class-8-biology-
+                      syllabus/?ref=ghm]Class 8
+                    # [https://www.geeksforgeeks.org/class-9-biology-sylla
+                      bus/?ref=ghm]Class 9
+                    # [https://www.geeksforgeeks.org/class-10-biology-syll
+                      abus/?ref=ghm]Class 10
+                    # [https://www.geeksforgeeks.org/cbse-class-11-biology
+                      -notes/?ref=ghm]Class 11
+               o Social Science Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-syllabus-for-cla
+                      ss-7-social-science/?ref=ghm]Class 7 SS Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-syllabus-for-cla
+                      ss-8-social-science/?ref=ghm]Class 8 SS Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-syllabus-for-cla
+                      ss-9-social-science/?ref=ghm]Class 9 SS Syllabus
+                    # [https://www.geeksforgeeks.org/cbse-class-10-social-
+                      science-syllabus/?ref=ghm]Class 10 SS Syllabus
+               o Social Science Notes
+                    # SS Notes (Class 7-12)
+                         @ [https://www.geeksforgeeks.org/class-7-social-s
+                           cience-notes/?ref=ghm]Class 7 Notes
+                         @ [https://www.geeksforgeeks.org/cbse-class-8-soc
+                           ial-science-civics-notes/?ref=ghm]Class 8 Notes
+                         @ [https://www.geeksforgeeks.org/cbse-class-9-soc
+                           ial-science-revision-notes/?ref=ghm]Class 9
+                           Notes
+                         @ [https://www.geeksforgeeks.org/cbse-class-10-so
+                           cial-science-notes/?ref=ghm]Class 10 Notes
+                    # CBSE History Notes (Class 7-10)
+                         @ [https://www.geeksforgeeks.org/class-7-social-s
+                           cience-history/?ref=ghm]History Class 7
+                         @ [https://www.geeksforgeeks.org/cbse-class-8-soc
+                           ial-science-history-notes/?ref=ghm]History
+                           Class 8
+                         @ [https://www.geeksforgeeks.org/class-9-social-s
+                           cience-history-notes/?ref=ghm]History Class 9
+                    # CBSE Geography Notes (Class 7-10)
+                         @ [https://www.geeksforgeeks.org/cbse-class-7-geo
+                           graphy-notes/?ref=ghm]Geo. Class 7
+                         @ [https://www.geeksforgeeks.org/class-8-social-s
+                           cience-geography/?ref=ghm]Geo. Class 8
+                         @ [https://www.geeksforgeeks.org/class-9-social-s
+                           cience-geography-notes/?ref=ghm]Geo. Class 9
+                    # CBSE Civics Notes (Class 7-10)
+                         @ [https://www.geeksforgeeks.org/cbse-class-7-civ
+                           ics-notes/?ref=ghm]Civics Class 7
+                         @ [https://www.geeksforgeeks.org/cbse-class-8-soc
+                           ial-science-civics-notes/?ref=ghm]Civics Class
+                           8
+               o CBSE Previous Year Papers
+                    # [https://www.geeksforgeeks.org/cbse-class-12-maths-p
+                      revious-year-paper-2022/?ref=ghm]Maths
+                    # [https://www.geeksforgeeks.org/cbse-previous-year-qu
+                      estion-papers-class-12-physics/?ref=ghm]Physics
+                    # [https://www.geeksforgeeks.org/cbse-previous-year-qu
+                      estion-papers-class-12-history/?ref=ghm]History
+                    # [https://www.geeksforgeeks.org/cbse-previous-year-qu
+                      estion-paper-class-12-geography/?ref=ghm]Georgraphy
+                    # [https://www.geeksforgeeks.org/cbse-previous-year-qu
+                      estion-papers-class-12-political-science/?ref=ghm]Po
+                      litical Science
+                    # [https://www.geeksforgeeks.org/cbse-previous-year-qu
+                      estion-papers-class-12-economics/?ref=ghm]Economics
+          + Commerce
+               o [https://www.geeksforgeeks.org/cbse-class-11-business-stu
+                 dies-notes/?ref=ghm]Business Studies (Class 11th)
+               o [https://www.geeksforgeeks.org/cbse-class-11-accountancy-
+                 notes/?ref=ghm]Accountancy (Class 11th)
+               o [https://www.geeksforgeeks.org/cbse-class-11-microeconomi
+                 cs-notes/?ref=ghm]Microeconomics (Class 11th)
+               o [https://www.geeksforgeeks.org/cbse-class-11-statistics-f
+                 or-economics-notes/?ref=ghm]Statistics for Economics
+                 (Class 11th)
+               o [https://www.geeksforgeeks.org/cbse-class-12-business-stu
+                 dies-notes/?ref=ghm]Business Studies (Class 12th)
+               o [https://www.geeksforgeeks.org/cbse-class-12-accountancy-
+                 notes/?ref=ghm]Accountancy (Class 12th)
+               o [https://www.geeksforgeeks.org/cbse-class-12-macroeconomi
+                 cs-notes/?ref=ghm]Macroeconomics (Class 12th)
+               o [https://www.geeksforgeeks.org/indian-economic-developmen
+                 t/?ref=ghm]Indian Economic Development (Class 12th)
+               o [https://www.geeksforgeeks.org/management/?ref=ghm]Manage
+                 ment
+               o [https://www.geeksforgeeks.org/income-tax/?ref=ghm]Income
+                 Tax
+               o [https://www.geeksforgeeks.org/finance/?ref=ghm]Finance
+          + GATE
+               o [https://practice.geeksforgeeks.org/courses/gate-live-cou
+                 rse?utm_source=geeksforgeeks&utm_medium=main_header&utm_c
+                 ampaign=courses]GATE 2024 Live Course
+               o [https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=ghm]
+                 GATE Computer Science Notes
+               o [https://www.geeksforgeeks.org/lmns-gq/?ref=ghm]Last
+                 Minute Notes
+               o [https://www.geeksforgeeks.org/gate-corner-2-gq/?ref=ghm]
+                 GATE CS Solved Papers
+               o [https://www.geeksforgeeks.org/original-gate-previous-yea
+                 r-question-papers-cse-and-it-gq/?ref=ghm]GATE CS Original
+                 Papers and Official Keys
+               o [https://www.geeksforgeeks.org/gate-cse-syllabus-2023/?re
+                 f=ghm]GATE CS 2023 Syllabus
+               o [https://www.geeksforgeeks.org/important-topics-prepare-g
+                 ate-2020-computer-science-paper/?ref=ghm]Important Topics
+                 for GATE CS
+               o [https://www.geeksforgeeks.org/gate-2023-exam-dates/?ref=
+                 ghm]GATE 2023 Important Dates
+               o Other CS Exams
+                    # ISRO
+                         @ [https://www.geeksforgeeks.org/isro-original-pa
+                           pers-official-keys/?ref=ghm]ISRO CS Original
+                           Papers and Official Keys
+                         @ [https://www.geeksforgeeks.org/isro-cs-preparat
+                           ion/?ref=ghm]ISRO CS Solved Papers
+                         @ [https://www.geeksforgeeks.org/isro-cse-syllabu
+                           s-scientistengineer-exam-2018/?ref=ghm]ISRO CS
+                           Syllabus for Scientist/Engineer Exam
+                    # UGC NET
+                         @ [https://www.geeksforgeeks.org/ugc-net-cs-notes
+                           -according-to-syllabus-of-paper-ii/?ref=ghm]UGC
+                           NET CS Notes Paper II
+                         @ [https://www.geeksforgeeks.org/ugc-net-cs-notes
+                           -according-to-syllabus-of-paper-iii-core-group/
+                           ?ref=ghm]UGC NET CS Notes Paper III
+                         @ [https://www.geeksforgeeks.org/ugc-net-cs-prepa
+                           ration/?ref=ghm]UGC NET CS Solved Papers
+          + UPSC Study Material
+               o [https://www.geeksforgeeks.org/important-topics-of-geogra
+                 phy-for-upsc/?ref=ghm]Geography Notes
+               o History Notes
+                    # [https://www.geeksforgeeks.org/modern-indian-history
+                      -notes-upsc/?ref=ghm]Modern Indian History Notes
+                    # [https://www.geeksforgeeks.org/medieval-history-note
+                      s-upsc/?ref=ghm]Medieval Indian History Notes
+                    # [https://www.geeksforgeeks.org/ancient-history-notes
+                      -upsc/?ref=ghm]Ancient Indian History Notes
+                    # [https://www.geeksforgeeks.org/important-topics-of-h
+                      istory-for-upsc/?ref=ghm]Complete History Notes
+               o [https://www.geeksforgeeks.org/important-topics-of-scienc
+                 e-and-technology-for-upsc/?ref=ghm]Science & Tech. Notes
+               o [https://www.geeksforgeeks.org/important-topics-in-ethics
+                 -for-upsc/?ref=ghm]Ethics Notes
+               o [https://www.geeksforgeeks.org/important-topics-in-polity
+                 -for-upsc/?ref=ghm]Polity Notes
+               o [https://www.geeksforgeeks.org/important-topics-in-econom
+                 ics-for-upsc/?ref=ghm]Economics Notes
+               o [https://www.geeksforgeeks.org/list-of-important-governme
+                 nt-schemes-in-india/?ref=ghm]Government Schemes (Updated)
+               o [https://www.geeksforgeeks.org/upsc-previous-year-papers/
+                 ?ref=ghm]UPSC Previous Year Papers
+          + Student
+               o [https://www.geeksforgeeks.org/campus-ambassador-program-
+                 by-geeksforgeeks/?ref=ghm]Campus Ambassador Program
+               o [https://www.geeksforgeeks.org/school-ambassador/?ref=ghm
+                 ]School Ambassador Program
+               o [https://www.geeksforgeeks.org/computer-science-projects/
+                 ?ref=ghm]Project
+               o [https://www.geeksforgeeks.org/geek-of-the-month/?ref=ghm
+                 ]Geek of the Month
+               o [https://www.geeksforgeeks.org/campus-geek-of-the-month/?
+                 ref=ghm]Campus Geek of the Month
+               o [https://www.geeksforgeeks.org/placements-gq/?ref=ghm]Pla
+                 cement Course
+               o [https://www.geeksforgeeks.org/competitive-programming-a-
+                 complete-guide/?ref=ghm]Competitive Programming
+               o [https://www.geeksforgeeks.org/testimonials/?ref=ghm]Test
+                 imonials
+               o [https://www.geeksforgeeks.org/geeksforgeeks-student-chap
+                 ter/?ref=ghm]Student Chapter
+               o [https://www.geeksforgeeks.org/category/geek-on-the-top/?
+                 ref=ghm]Geek on the Top
+               o [https://www.geeksforgeeks.org/internship/?ref=ghm]Intern
+                 ship
+               o [https://www.geeksforgeeks.org/careers/?ref=ghm]Careers
+          + SSC CGL Study Material
+               o [https://www.geeksforgeeks.org/ssc-cgl-syllabus-2022/?ref
+                 =ghm]SSC CGL Syllabus
+               o [https://www.geeksforgeeks.org/ssc-cgl-general-studies-sy
+                 llabus/?ref=ghm]General Studies
+               o [https://www.geeksforgeeks.org/ssc-cgl-english-syllabus/?
+                 ref=ghm]English
+               o [https://www.geeksforgeeks.org/ssc-reasoning-syllabus/?re
+                 f=ghm]Reasoning
+               o [https://www.geeksforgeeks.org/ssc-cgl-practice-papers/?r
+                 ef=ghm]Subjectwise Practice Papers
+               o [https://www.geeksforgeeks.org/ssc-cgl-previous-year-pape
+                 rs/?ref=ghm]Previous Year Papers
+          + Banking Exams Study Material
+               o SBI Clerk
+                    # [https://www.geeksforgeeks.org/sbi-clerk-syllabus-20
+                      22/?ref=ghm]SBI Clerk Syllabus
+                    # [https://www.geeksforgeeks.org/sbi-clerk-general-awa
+                      reness-syllabus/?ref=ghm]General Awareness
+                    # [https://www.geeksforgeeks.org/sbi-clerk-english-syl
+                      labus-2022/?ref=ghm]English
+                    # [https://www.geeksforgeeks.org/sbi-clerk-quantitativ
+                      e-aptitude-syllabus-2022/?ref=ghm]Quantitative
+                      Aptitude
+                    # [https://www.geeksforgeeks.org/sbi-clerk-reasoning-a
+                      bility-syllabus/?ref=ghm]Reasoning Ability
+                    # [https://www.geeksforgeeks.org/sbi-clerk-practice-pa
+                      pers/?ref=ghm]SBI Clerk Practice Papers
+               o SBI PO
+                    # [https://www.geeksforgeeks.org/sbi-po-syllabus-2022/
+                      ?ref=ghm]SBI PO Syllabus
+                    # [https://www.geeksforgeeks.org/sbi-po-general-awaren
+                      ess-2022/?ref=ghm]General Awareness
+                    # [https://www.geeksforgeeks.org/sbi-po-english-syllab
+                      us/?ref=ghm]English
+                    # [https://www.geeksforgeeks.org/sbi-po-quantitative-a
+                      ptitude-2022/?ref=ghm]Quantitative Aptitude
+                    # [https://www.geeksforgeeks.org/sbi-po-reasoning-syll
+                      abus/?ref=ghm]Reasoning Ability
+                    # [https://www.geeksforgeeks.org/sbi-po-previous-year-
+                      papers/?ref=ghm]Previous Year Papers
+                    # [https://www.geeksforgeeks.org/sbi-po-practice-paper
+                      s/?ref=ghm]SBI PO Practice Papers
+               o IBPS PO
+                    # [https://www.geeksforgeeks.org/syllabus-of-ibps-po-2
+                      022/?ref=ghm]IBPS PO 2022 Syllabus
+                    # [https://www.geeksforgeeks.org/ibps-po-english-sylla
+                      bus/?ref=ghm]English Notes
+                    # [https://www.geeksforgeeks.org/reasoning-syllabus-fo
+                      r-ibps-po/?ref=ghm]Reasoning Notes
+                    # [https://www.geeksforgeeks.org/ibps-po-previous-year
+                      -papers/?ref=ghm]Previous Year Papers
+                    # [https://www.geeksforgeeks.org/ibps-po-mock-question
+                      -paper-2022/?ref=ghm]Mock Question Papers
+                    # [https://www.geeksforgeeks.org/general-awareness-for
+                      -ibps-po-bank-exam/?ref=ghm]General Awareness
+               o IBPS Clerk
+                    # [https://www.geeksforgeeks.org/detailed-syllabus-of-
+                      ibps-clerk/?ref=ghm]IBPS Clerk Syllabus
+                    # [https://www.geeksforgeeks.org/english-syllabus-of-i
+                      bps-clerk-exam/?ref=ghm]English Notes
+                    # [https://www.geeksforgeeks.org/ibps-clerk-previous-y
+                      ear-question-papers/?ref=ghm]Previous Year Papers
+     * Jobs
+          + For Job Seekers
+               o [https://www.geeksforgeeks.org/jobs]Get Hired: Apply for
+                 Jobs
+               o [https://practice.geeksforgeeks.org/events/rec/job-a-thon
+                 ?utm_source=geeksforgeeks&utm_medium=main_header&utm_camp
+                 aign=jobs]Job-a-thon: Hiring Challenge
+          + For Recruiters
+               o [https://www.geeksforgeeks.org/hire-with-us/dashboard]Rec
+                 ruiter Dashboard
+               o [https://www.geeksforgeeks.org/job-a-thon/]Corporate
+                 Hiring Solutions
+     * Practice
+          + [https://practice.geeksforgeeks.org/explore?page=1&sortBy=subm
+            issions&utm_source=geeksforgeeks&utm_medium=main_header&utm_ca
+            mpaign=practice_header]All DSA Problems
+          + [https://practice.geeksforgeeks.org/problem-of-the-day?utm_sou
+            rce=geeksforgeeks&utm_medium=main_header&utm_campaign=practice
+            _header]Problem of the Day
+          + [https://practice.geeksforgeeks.org/explore?page=1&curated[]=1
+            &sortBy=submissions&curated_names[]=SDE%20Sheet?utm_source=gee
+            ksforgeeks&utm_medium=main_header&utm_campaign=practice_header
+            ]GFG SDE Sheet
+          + Curated DSA Lists
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=8&sortBy=submissions&curated_names[]=Beginner%27s%20D
+                 SA%20Sheet&utm_medium=main_header&utm_campaign=practice_h
+                 eader]Beginner's DSA Sheet
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=7&sortBy=submissions&curated_names[]=Love%20Babbar%20
+                 Sheet&utm_medium=main_header&utm_campaign=practice_header
+                 ]Love Babbar Sheet
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=2&sortBy=submissions&curated_names[]=Top%2050%20Array
+                 %20Problems&utm_medium=main_header&utm_campaign=practice_
+                 header]Top 50 Array Problems
+               o [https://practice.geeksforgeeks.org/explore?page=3&curate
+                 d[]=3&sortBy=submissions&curated_names[]=Top%2050%20Strin
+                 g%20Problems&utm_medium=main_header&utm_campaign=practice
+                 _header]Top 50 String Problems
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=6&sortBy=submissions&curated_names[]=Top%2050%20Tree%
+                 20Problems&utm_medium=main_header&utm_campaign=practice_h
+                 eader]Top 50 Tree Problems
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=5&sortBy=submissions&curated_names[]=Top%2050%20Graph
+                 %20Problems&utm_medium=main_header&utm_campaign=practice_
+                 header]Top 50 Graph Problems
+               o [https://practice.geeksforgeeks.org/explore?page=1&curate
+                 d[]=4&sortBy=submissions&curated_names[]=Top%2050%20DP%20
+                 Problems&utm_medium=main_header&utm_campaign=practice_hea
+                 der]Top 50 DP Problems
+     * Contests
+          + [https://practice.geeksforgeeks.org/events/rec/interview-serie
+            s?utm_source=geeksforgeeks&utm_medium=main_header&utm_campaign
+            =contests]GFG Weekly Coding Contest
+          + [https://practice.geeksforgeeks.org/events/rec/job-a-thon?utm_
+            source=geeksforgeeks&utm_medium=main_header&utm_campaign=conte
+            sts]Job-A-Thon: Hiring Challenge
+          + [https://practice.geeksforgeeks.org/events/rec/step-up-coding-
+            school?utm_source=geeksforgeeks&utm_medium=main_header&utm_cam
+            paign=contests]BiWizard School Contest
+          + [https://practice.geeksforgeeks.org/events?utm_source=geeksfor
+            geeks&utm_medium=main_header&utm_campaign=contests]All
+            Contests and Events
+
+     * ____________________ (BUTTON)
+     * (BUTTON)
+     *
+     *
+
+     * [https://www.geeksforgeeks.org/?ref=ghm]Home
+     * [https://www.geeksforgeeks.org/videos/watchlist/?ref=ghm]Saved
+       Videos
+     * [https://practice.geeksforgeeks.org/courses?utm_source=geeksforgeek
+       s&utm_medium=main_header&utm_campaign=courses]Courses
+     *
+     * [https://www.geeksforgeeks.org/category/guestblogs/?ref=ghm]GBlog
+     * [https://www.geeksforgeeks.org/puzzles/?ref=ghm]Puzzles
+     * [https://www.geeksforgeeks.org/geeks-classes-geeksforgeeks/?ref=ghm
+       ]What's New ?
+
+   (BUTTON) (BUTTON) Change Language
+
+   (BUTTON)
+     * [https://www.geeksforgeeks.org/trending/?ref=shm]Trending Now
+     * [https://www.geeksforgeeks.org/learn-data-structures-and-algorithms
+       -dsa-tutorial/?ref=shm]DSA
+     * [https://www.geeksforgeeks.org/data-structures/?ref=shm]Data
+       Structures
+     * [https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm]
+       Algorithms
+     * [https://practice.geeksforgeeks.org/courses/complete-interview-prep
+       aration?utm_source=gfg_submenu&utm_medium=Home&utm_campaign=CIP_Sub
+       menu/]Interview Preparation
+     * [https://practice.geeksforgeeks.org/courses/data-science-live?utm_s
+       ource=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu/]Data
+       Science
+     * [https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissio
+       ns]Topic-wise Practice
+     * [https://www.geeksforgeeks.org/python-programming-language/?ref=shm
+       ]Python
+     * [https://www.geeksforgeeks.org/machine-learning/?ref=shm]Machine
+       Learning
+     * [https://www.geeksforgeeks.org/learn-javascript-js-roadmap-for-begi
+       nners/?ref=shm]JavaScript
+     * [https://www.geeksforgeeks.org/java/?ref=shm]Java
+     * [https://www.geeksforgeeks.org/c-programming-language/?ref=shm]C
+     * [https://www.geeksforgeeks.org/c-plus-plus/?ref=shm]C++
+     * [https://www.geeksforgeeks.org/learn-reactjs/?ref=shm]ReactJS
+     * [https://www.geeksforgeeks.org/css/?ref=shm]CSS
+     * [https://practice.geeksforgeeks.org/courses/competitive-programming
+       -live?utm_source=GfG&utm_medium=gfg_submenu&utm_campaign=DS_Submenu
+       /]Competitive Programming
+     * [https://www.geeksforgeeks.org/aptitude-questions-and-answers/?ref=
+       shm]Aptitude
+     * [https://www.geeksforgeeks.org/web-development/?ref=shm]Web
+       Development
+     * [https://www.geeksforgeeks.org/puzzles/?ref=shm]Puzzles
+     * [https://www.geeksforgeeks.org/computer-science-projects?ref=shm]Pr
+       ojects
+
+   (BUTTON)
+
+   Related Articles
+
+   (BUTTON) ▲
+
+   [https://geeksforgeeksapp.page.link/?link=https://www.geeksforgeeks.org
+   /database-sharding-a-system-design-concept/?type%3Darticle%26id%3D45613
+   0&apn=free.programming.programming&isi=1641848816&ibi=org.geeksforgeeks
+   .GeeksforGeeksDev&efr=1]Open In App
+
+Related Articles
+
+     * [https://write.geeksforgeeks.org/posts-new?interview-experience&ref
+       =GLBIE]Write an Interview Experience
+     * [https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a
+       5fa-6180c87ab8ae]Share Your Campus Experience
+     * [https://www.geeksforgeeks.org/load-balancer-system-design-intervie
+       w-question/?ref=ml_lbp]Load Balancer – System Design Interview
+       Question
+     * [https://www.geeksforgeeks.org/system-design-netflix-a-complete-arc
+       hitecture/?ref=ml_lbp]System Design Netflix – A Complete
+       Architecture
+     * [https://www.geeksforgeeks.org/5-common-system-design-concepts-for-
+       interview-preparation/?ref=ml_lbp]5 Common System Design Concepts
+       for Interview Preparation
+     * [https://www.geeksforgeeks.org/caching-system-design-concept-for-be
+       ginners/?ref=ml_lbp]Caching – System Design Concept For Beginners
+     * [https://www.geeksforgeeks.org/system-design-of-uber-app-uber-syste
+       m-architecture/?ref=ml_lbp]System Design of Uber App – Uber System
+       Architecture
+     * [https://www.geeksforgeeks.org/complete-roadmap-to-learn-system-des
+       ign/?ref=ml_lbp]Complete Roadmap to Learn System Design
+     * [https://www.geeksforgeeks.org/how-to-crack-system-design-round-in-
+       interviews/?ref=ml_lbp]How to Crack System Design Round in
+       Interviews?
+     * [https://www.geeksforgeeks.org/design-twitter-a-system-design-inter
+       view-question/?ref=ml_lbp]Design Twitter – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/5-tips-to-crack-low-level-system-des
+       ign-interviews/?ref=ml_lbp]5 Tips to Crack Low-Level System Design
+       Interviews
+     * [https://www.geeksforgeeks.org/8-most-important-steps-to-follow-in-
+       system-design-round-of-interviews/?ref=ml_lbp]8 Most Important
+       Steps To Follow in System Design Round of Interviews
+     * [https://www.geeksforgeeks.org/design-bookmyshow-a-system-design-in
+       terview-question/?ref=ml_lbp]Design BookMyShow – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/top-10-system-design-interview-quest
+       ions-and-answers/?ref=ml_lbp]Top 10 System Design Interview
+       Questions and Answers
+     * [https://www.geeksforgeeks.org/system-design-url-shortening-service
+       /?ref=ml_lbp]System Design – URL Shortening Service
+     * [https://www.geeksforgeeks.org/system-design-horizontal-and-vertica
+       l-scaling/?ref=ml_lbp]System Design – Horizontal and Vertical
+       Scaling
+     * [https://www.geeksforgeeks.org/design-dropbox-a-system-design-inter
+       view-question/?ref=ml_lbp]Design Dropbox – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/difference-between-forward-proxy-and
+       -reverse-proxy/?ref=ml_lbp]Difference between Forward Proxy and
+       Reverse Proxy
+     * [https://www.geeksforgeeks.org/difference-between-an-api-gateway-an
+       d-a-load-balancer/?ref=ml_lbp]Difference between an API Gateway and
+       a Load Balancer
+     * [https://www.geeksforgeeks.org/best-system-design-courses/?ref=ml_l
+       bp]10 Best System Design Courses (2023)
+     * [https://www.geeksforgeeks.org/6-steps-to-approach-object-oriented-
+       design-questions-in-interview/?ref=ml_lbp]6 Steps To Approach
+       Object-Oriented Design Questions in Interview
+
+     * [https://write.geeksforgeeks.org/posts-new?interview-experience&ref
+       =GLBIE]Write an Interview Experience
+     * [https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a
+       5fa-6180c87ab8ae]Share Your Campus Experience
+     * [https://www.geeksforgeeks.org/load-balancer-system-design-intervie
+       w-question/?ref=ml_lbp]Load Balancer – System Design Interview
+       Question
+     * [https://www.geeksforgeeks.org/system-design-netflix-a-complete-arc
+       hitecture/?ref=ml_lbp]System Design Netflix – A Complete
+       Architecture
+     * [https://www.geeksforgeeks.org/5-common-system-design-concepts-for-
+       interview-preparation/?ref=ml_lbp]5 Common System Design Concepts
+       for Interview Preparation
+     * [https://www.geeksforgeeks.org/caching-system-design-concept-for-be
+       ginners/?ref=ml_lbp]Caching – System Design Concept For Beginners
+     * [https://www.geeksforgeeks.org/system-design-of-uber-app-uber-syste
+       m-architecture/?ref=ml_lbp]System Design of Uber App – Uber System
+       Architecture
+     * [https://www.geeksforgeeks.org/complete-roadmap-to-learn-system-des
+       ign/?ref=ml_lbp]Complete Roadmap to Learn System Design
+     * [https://www.geeksforgeeks.org/how-to-crack-system-design-round-in-
+       interviews/?ref=ml_lbp]How to Crack System Design Round in
+       Interviews?
+     * [https://www.geeksforgeeks.org/design-twitter-a-system-design-inter
+       view-question/?ref=ml_lbp]Design Twitter – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/5-tips-to-crack-low-level-system-des
+       ign-interviews/?ref=ml_lbp]5 Tips to Crack Low-Level System Design
+       Interviews
+     * [https://www.geeksforgeeks.org/8-most-important-steps-to-follow-in-
+       system-design-round-of-interviews/?ref=ml_lbp]8 Most Important
+       Steps To Follow in System Design Round of Interviews
+     * [https://www.geeksforgeeks.org/design-bookmyshow-a-system-design-in
+       terview-question/?ref=ml_lbp]Design BookMyShow – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/top-10-system-design-interview-quest
+       ions-and-answers/?ref=ml_lbp]Top 10 System Design Interview
+       Questions and Answers
+     * [https://www.geeksforgeeks.org/system-design-url-shortening-service
+       /?ref=ml_lbp]System Design – URL Shortening Service
+     * [https://www.geeksforgeeks.org/system-design-horizontal-and-vertica
+       l-scaling/?ref=ml_lbp]System Design – Horizontal and Vertical
+       Scaling
+     * [https://www.geeksforgeeks.org/design-dropbox-a-system-design-inter
+       view-question/?ref=ml_lbp]Design Dropbox – A System Design
+       Interview Question
+     * [https://www.geeksforgeeks.org/difference-between-forward-proxy-and
+       -reverse-proxy/?ref=ml_lbp]Difference between Forward Proxy and
+       Reverse Proxy
+     * [https://www.geeksforgeeks.org/difference-between-an-api-gateway-an
+       d-a-load-balancer/?ref=ml_lbp]Difference between an API Gateway and
+       a Load Balancer
+     * [https://www.geeksforgeeks.org/best-system-design-courses/?ref=ml_l
+       bp]10 Best System Design Courses (2023)
+     * [https://www.geeksforgeeks.org/6-steps-to-approach-object-oriented-
+       design-questions-in-interview/?ref=ml_lbp]6 Steps To Approach
+       Object-Oriented Design Questions in Interview
+
+Database Sharding – System Design Interview Concept
+
+   Improve Article (BUTTON)
+   Save Article (BUTTON)
+   Like Article (BUTTON)
+   [https://www.geeksforgeeks.org/database-sharding-a-system-design-concep
+   t/#article-meta-div]
+   author
+   anuupadhyay
+   scholar
+   199 published articles
+
+     [javascript:void(0)]Read
+
+     [javascript:void(0)]Discuss
+
+     [javascript:void(0)]Courses
+
+     [javascript:void(0)]Practice
+   Improve Article (BUTTON)
+   Save Article (BUTTON)
+   Like Article (BUTTON)
+
+   System design is one of the most important rounds of interviews for
+   software engineers in big tech companies. There are a lot of concepts
+   an engineer should be aware of and database sharding is one of them.
+   Whenever any application starts receiving a huge amount of concurrent
+   requests and it sees significant growth of the users on the website it
+   eventually needs to scale to handle the increasing amount of data or
+   traffic on the website. It’s difficult to predict the growth of the
+   website in the future, and we can’t predict how long a website will
+   maintain its popularity and growth. So we need to scale our database
+   dynamically and database sharding is the technique that can fulfill
+   this job. Let’s understand this concept in detail.
+
+   Database sharding is a technique for horizontal scaling of databases,
+   where the data is split across multiple database instances, or shards,
+   to improve performance and reduce the impact of large amounts of data
+   on a single database.
+    1. Sharding can be used in system design interviews to help
+       demonstrate a candidate’s understanding of scalability and database
+       design. When designing a sharded database, the following key
+       considerations should be taken into account:
+    2. Data distribution: How the data will be split across the shards,
+       either based on a specific key such as the user ID or by using a
+       hash function.
+    3. Shard rebalancing: How the data will be balanced across the shards
+       as the amount of data changes over time.
+    4. Query routing: How queries will be directed to the correct shard,
+       either by using a dedicated routing layer or by including the shard
+       information in the query.
+    5. Data consistency: How data consistency will be maintained across
+       the shards, for example by using transaction logs or by employing a
+       distributed database system.
+    6. Failure handling: How the system will handle the failure of one or
+       more shards, including data recovery and data redistribution.
+    7. Performance: How the sharded database will perform in terms of read
+       and write speed, as well as overall system performance and
+       scalability.
+
+   In summary, database sharding is a complex but important concept in
+   system design that can help to improve the scalability and performance
+   of a database-driven system. A strong understanding of database
+   sharding is often viewed as a key requirement for successful system
+   design.
+
+   Database-Sharding-In-System-Design
+
+What is Sharding or Data Partitioning?
+
+   Take the example of Pizza (yes!!! your favorite food). You get the
+   pizza in different slices and you share these slices with your friends.
+   Sharding which is also known as data partitioning works on the same
+   concept of sharing the Pizza slices. It is basically a database
+   architecture pattern in which we split a large dataset into smaller
+   chunks (logical shards) and we store/distribute these chunks in
+   different machines/database nodes (physical shards). Each
+   chunk/partition is known as a “shard” and each shard has the same
+   database schema as the original database. We distribute the data in
+   such a way that each row appears in exactly one shard. It’s a good
+   mechanism to improve the scalability of an application.
+
+   Sharding
+
+     Database shards are autonomous; they don’t share any of the same
+     data or computing resources. In some cases, though, it may make
+     sense to replicate certain tables into each shard to serve as
+     reference tables.
+
+Advantages of Sharding
+
+     * Solve Scalability Issue: With a single database server architecture
+       any application experience performance degradation when users start
+       growing on that application.  Reads and write queries become slower
+       and the network bandwidth starts to saturate.  At some point, you
+       will be running out of disk space. Database sharding fixes all
+       these issues by partitioning the data across multiple machines.
+     * High Availability: A problem with single server architecture is
+       that if an outage happens then the entire application will be
+       unavailable which is not good for a website with more number of
+       users. This is not the case with a sharded database. If an outage
+       happens in sharded architecture, then only some specific shards
+       will be down. All the other shards will continue the operation and
+       the entire application won’t be unavailable for the users.
+     * Speed Up Query Response Time: When you submit a query in an
+       application with a large monolithic database and have no sharded
+       architecture, it takes more time to find the result. It has to
+       search every row in the table and that slows down the response time
+       for the query you have given. This doesn’t happen in sharded
+       architecture. In a sharded database a query has to go through fewer
+       rows and you receive the response in less time.
+     * More Write Bandwidth: For many applications writing is a major
+       bottleneck. With no master database serializing writes sharded
+       architecture allows you to write in parallel and increase your
+       write throughput.
+     * Scaling Out: Sharding a database facilitates horizontal scaling,
+       known as scaling out. In horizontal scaling, you add more machines
+       in the network and distribute the load on these machines for faster
+       processing and response. This has many advantages. You can do more
+       work simultaneously and you can handle high requests from the
+       users, especially when writing data because there are parallel
+       paths through your system. You can also load balance web servers
+       that access shards over different network paths, which are
+       processed by different CPUs, and use separate caches of RAM or disk
+       IO paths to process work.
+
+Disadvantages of Sharding
+
+     * Adds Complexity in the System: You need to be careful while
+       implementing a proper sharded database architecture in an
+       application. It’s a complicated task and if it’s not implemented
+       properly then you may lose the data or get corrupted tables in your
+       database. You also need to manage the data from multiple shard
+       locations instead of managing and accessing it from a single entry
+       point. This may affect the workflow of your team which can be
+       potentially disruptive to some teams.
+     * Rebalancing Data: In a sharded database architecture, sometimes
+       shards become unbalanced (when a shard outgrows other shards).
+       Consider an example that you have two shards of a database. One
+       shard store the name of the customers begins with letter A through
+       M. Another shard store the name of the customer begins with the
+       letters N through Z. If there are so many users with the letter L
+       then shard one will have more data than shard two. This will affect
+       the performance (slow down) of the application and it will stall
+       out for a significant portion of your users. The A-M shard will
+       become unbalance and it will be known as database hotspot. To
+       overcome this problem and to rebalance the data you need to do
+       re-sharding for even data distribution. Moving data from one shard
+       to another shard is not a good idea because it requires a lot of
+       downtimes.
+     * Joining Data From Multiple Shards is Expensive: In a single
+       database, joins can be performed easily to implement any
+       functionalities. But in sharded architecture, you need to pull the
+       data from different shards and you need to perform joins across
+       multiple networked servers You can’t submit a single query to get
+       the data from various shards. You need to submit multiple queries
+       for each one of the shards, pull out the data, and join the data
+       across the network. This is going to be a very expensive and
+       time-consuming process. It adds latency to your system.
+     * No Native Support: Sharding is not natively supported by every
+       database engine. For example, PostgreSQL doesn’t include automatic
+       sharding features, so there you have to do manual sharding. You
+       need to follow the “roll-your-own” approach. It will be difficult
+       for you to find the tips or documentation for sharding and
+       troubleshoot the problem during the implementation of sharding.
+
+Sharding Architectures
+
+1. Key Based Sharding
+
+   This technique is also known as hash-based sharding. Here, we take the
+   value of an entity such as customer ID, customer email, IP address of a
+   client, zip code, etc and we use this value as an input of the hash
+   function. This process generates a hash value which is used to
+   determine which shard we need to use to store the data. We need to keep
+   in mind that the values entered into the hash function should all come
+   from the same column (shard key) just to ensure that data is placed in
+   the correct order and in a consistent manner. Basically, shard keys act
+   like a primary key or a unique identifier for individual rows.
+
+   Consider an example that you have 3 database servers and each request
+   has an application id which is incremented by 1 every time a new
+   application is registered. To determine which server data should be
+   placed on, we perform a modulo operation on these applications id with
+   the number 3. Then the remainder is used to identify the server to
+   store our data.
+
+   Keybased-Sharding
+
+   The downside of this method is elastic load balancing which means if
+   you will try to add or remove the database servers dynamically it will
+   be a difficult and expensive process. For example, in the above one if
+   you will add 5 more servers then you need to add more corresponding
+   hash values for the additional entries. Also, the majority of the
+   existing keys need to be remapped to their new, correct hash value and
+   then migrated to a new server. The hash function needs to be changed
+   from modulo 3 to modulo 8. While the migration of data is in effect
+   both the new and old hash functions won’t be valid. During the
+   migration, your application won’t be able to service a large number of
+   requests and you’ll experience downtime for your application till the
+   migration completes.
+
+   Note: A shard shouldn’t contain values that might change over time. It
+   should be always static otherwise it will slow down the performance.
+
+2. Horizontal or Range Based Sharding
+
+   In this method, we split the data based on the ranges of a given value
+   inherent in each entity. Let’s say you have a database of your online
+   customers’ names and email information. You can split this information
+   into two shards. In one shard you can keep the info of customers whose
+   first name starts with A-P and in another shard, keep the information
+   of the rest of the customers.
+
+   Range-Based-Sharding
+
+   Range-based sharding is the simplest sharding method to implement.
+   Every shard holds a different set of data but they all have the same
+   schema as the original database. In this method, you just need to
+   identify in which range your data falls, and then you can store the
+   entry to the corresponding shard. This method is best suitable for
+   storing non-static data (example: storing the contact info for students
+   in a college.)
+
+   The drawback of this method is that the data may not be evenly
+   distributed on shards. In the above example, you might have a lot of
+   customers whose names fall into the category of A-P. In such cases, the
+   first shard will have to take more load than the second one and it can
+   become a system bottleneck.
+
+3. Vertical Sharding
+
+   In this method, we split the entire column from the table and we put
+   those columns into new distinct tables. Data is totally independent of
+   one partition to the other ones. Also, each partition holds both
+   distinct rows and columns. Take the example of Twitter features. We can
+   split different features of an entity in different shards on different
+   machines. On Twitter users might have a profile, number of followers,
+   and some tweets posted by his/her own. We can place the user profiles
+   on one shard, followers in the second shard, and tweets on a third
+   shard.
+
+   Vertical-Sharding
+
+   In this method, you can separate and handle the critical part (for
+   example user profiles) non-critical part of your data (for example,
+   blog posts) individually and build different replication and
+   consistency models around it. This is one of the main advantages of
+   this method.
+
+   The main drawback of this scheme is that to answer some queries you may
+   have to combine the data from different shards which unnecessarily
+   increases the development and operational complexity of the system.
+   Also, if your application will grow later and you add some more
+   features in it then you will have to further shard a feature-specific
+   database across multiple servers.
+
+4. Directory-Based Sharding
+
+   In this method, we create and maintain a lookup service or lookup table
+   for the original database. Basically we use a shard key for lookup
+   table and we do mapping for each entity that exists in the database.
+   This way we keep track of which database shards hold which data.
+
+   Directory-Based-Sharding
+
+   The lookup table holds a static set of information about where specific
+   data can be found. In the above image, you can see that we have used
+   the delivery zone as a shard key. Firstly the client application
+   queries the lookup service to find out the shard (database partition)
+   on which the data is placed. When the lookup service returns the shard
+   it queries/updates that shard.
+
+   Directory-based sharding is much more flexible than range based and
+   key-based sharding. In range-based sharding, you’re bound to specify
+   the ranges of values. In key-based, you are bound to use a fixed hash
+   function which is difficult to change later. In this approach, you’re
+   free to use any algorithm you want to assign to data entries to shards.
+   Also, it’s easy to add shards dynamically in this approach.
+
+   The major drawback of this approach is the single point of failure of
+   the lookup table. If it will be corrupted or failed then it will impact
+   writing new data or accessing existing data from the table.
+
+Conclusion
+
+   Sharding is a great solution when the single database of your
+   application is not capable to handle/store a huge amount of growing
+   data. Sharding helps to scale the database and improve the performance
+   of the application. However, it also adds some complexity to your
+   system. The above methods and architectures have clearly shown the
+   benefits and drawbacks of each sharding technique. So before you decide
+   to choose any sharding method make sure you compare each one of them
+   and depending on the type of information stored in the database, choose
+   sharding or any one of the sharding techniques.
+
+   Read more about system design from the link
+   [https://www.geeksforgeeks.org/how-to-crack-system-design-round-in-inte
+   rviews/]How to Crack System Design Round in Interviews?
+   Last Updated : 16 Feb, 2023
+   Like Article (BUTTON)
+   Save Article (BUTTON)
+
+Please Login to comment...
+
+   Similar Reads
+   1.
+   [https://www.geeksforgeeks.org/caching-system-design-concept-for-beginn
+   ers/]Caching - System Design Concept For Beginners
+   2.
+   [https://www.geeksforgeeks.org/what-is-system-design-learn-system-desig
+   n/]What is System Design - Learn System Design
+   3.
+   [https://www.geeksforgeeks.org/synchronous-vs-asynchronous-vs-semi-sync
+   hronous-database-replication-system-design/]Synchronous vs Asynchronous
+   vs Semi-Synchronous Database Replication | System Design
+   4.
+   [https://www.geeksforgeeks.org/database-replication-and-their-types-in-
+   system-design/]Database Replication and their Types in System Design
+   5.
+   [https://www.geeksforgeeks.org/design-bookmyshow-a-system-design-interv
+   iew-question/]Design BookMyShow - A System Design Interview Question
+   6.
+   [https://www.geeksforgeeks.org/design-twitter-a-system-design-interview
+   -question/]Design Twitter - A System Design Interview Question
+   7.
+   [https://www.geeksforgeeks.org/design-dropbox-a-system-design-interview
+   -question/]Design Dropbox - A System Design Interview Question
+   8.
+   [https://www.geeksforgeeks.org/system-design-design-google-calendar/]Sy
+   stem Design - Design Google Calendar
+   9.
+   [https://www.geeksforgeeks.org/what-is-high-level-design-learn-system-d
+   esign/]What is High Level Design – Learn System Design
+   10.
+   [https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-sy
+   stem-design/]What is Low Level Design or LLD - Learn System Design
+   (BUTTON) Like
+   [https://www.geeksforgeeks.org/15-tips-to-improve-logic-building-skills
+   -in-programming/]Previous
+   [https://www.geeksforgeeks.org/15-tips-to-improve-logic-building-skills
+   -in-programming/]15 Tips to Improve Logic Building Skills in
+   Programming
+   [https://www.geeksforgeeks.org/5-steps-to-learn-to-code-in-any-programm
+   ing-language/]Next
+   [https://www.geeksforgeeks.org/5-steps-to-learn-to-code-in-any-programm
+   ing-language/]5 Steps to Learn to Code in Any Programming Language
+   Article Contributed By :
+   [https://auth.geeksforgeeks.org/user/anuupadhyay/articles?utm_source=ge
+   eksforgeeks&utm_medium=article_author&utm_campaign=auth_user]
+   https://media.geeksforgeeks.org/auth/avatar.png
+   [https://auth.geeksforgeeks.org/user/anuupadhyay/articles?utm_source=ge
+   eksforgeeks&utm_medium=article_author&utm_campaign=auth_user]anuupadhya
+   y
+   [https://auth.geeksforgeeks.org/user/anuupadhyay/articles?utm_source=ge
+   eksforgeeks&utm_medium=article_author&utm_campaign=auth_user]anuupadhya
+   y
+   (anuupadhyay) Follow
+   Vote for difficulty
+   Current difficulty : [https://www.geeksforgeeks.org/medium/]Medium
+   (BUTTON) Easy (BUTTON) Normal (BUTTON) Medium (BUTTON) Hard (BUTTON)
+   Expert
+   Improved By :
+     * [https://auth.geeksforgeeks.org/user/ipshitad321]ipshitad321
+     * [https://auth.geeksforgeeks.org/user/avir0zmf1]avir0zmf1
+
+   Article Tags :
+     * [https://www.geeksforgeeks.org/tag/system-design/]System-Design
+     * [https://www.geeksforgeeks.org/category/guestblogs/]GBlog
+     * [https://www.geeksforgeeks.org/category/system-design/]System
+       Design
+
+   Practice Tags :
+     * [https://practice.geeksforgeeks.org/explore?category[]=System]Syste
+       m Design
+
+   Report Issue
+
+   Courses
+   [https://practice.geeksforgeeks.org/courses/mastering-system-design-low
+   -level-to-high-level-solutions?utm_source=geeksforgeeks&utm_medium=righ
+   t_sidebar&utm_campaign=course_card]
+   course-img
+   79k+ interested Geeks
+
+Mastering System Design: From Low-Level to High-Level Solutions
+
+   (BUTTON) Explore
+   [https://practice.geeksforgeeks.org/courses/gate-live-course?utm_source
+   =geeksforgeeks&utm_medium=right_sidebar&utm_campaign=course_card]
+   course-img
+   58k+ interested Geeks
+
+GATE CS & IT 2024
+
+   (BUTTON) Explore
+   [https://practice.geeksforgeeks.org/courses/complete-interview-preparat
+   ion?utm_source=geeksforgeeks&utm_medium=right_sidebar&utm_campaign=cour
+   se_card]
+   course-img
+   826k+ interested Geeks
+
+Complete Interview Preparation - Self Paced
+
+   (BUTTON) Explore
+
+   Explore More
+
+Improve your Coding Skills with Practice
+
+   (BUTTON)
+   [https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions&u
+   tm_source=gfg&utm_medium=search-bar&utm_campaign=practice-search]Try
+   It!
+
+   [https://www.geeksforgeeks.org/]geeksforgeeks-footer-logo
+   A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar
+   Pradesh - 201305
+   [mailto:feedback@geeksforgeeks.org]feedback@geeksforgeeks.org
+   [https://www.facebook.com/geeksforgeeks.org/]
+   [https://www.instagram.com/geeks_for_geeks/]
+   [https://in.linkedin.com/company/geeksforgeeks]
+   [https://twitter.com/geeksforgeeks]
+   [https://www.youtube.com/geeksforgeeksvideos]
+   [https://geeksforgeeksapp.page.link/gfg-app]GFG App on Play Store
+   [https://geeksforgeeksapp.page.link/gfg-app]GFG App on App Store
+     * Company
+     * [https://www.geeksforgeeks.org/about/]About Us
+     * [https://www.geeksforgeeks.org/legal/]Legal
+     * [https://geeksforgeeks.zohorecruit.in/careers]Careers
+     * [https://www.geeksforgeeks.org/press-release/]In Media
+     * [https://www.geeksforgeeks.org/about/contact-us/]Contact Us
+     * [https://www.geeksforgeeks.org/advertise-with-us/]Advertise with us
+
+     * Explore
+     * [https://practice.geeksforgeeks.org/contest/megajob-a-thon-hiring-c
+       hallenge-freshers?utm_source=geeksforgeeks&utm_medium=footer&utm_ca
+       mpaign=megajobathon]Job-A-Thon For Freshers
+     * [https://practice.geeksforgeeks.org/contest/mega-job-a-thon-hiring-
+       challenge-for-experience?utm_source=geeksforgeeks&utm_medium=footer
+       &utm_campaign=megajobathon]Job-A-Thon For Experienced
+     * [https://practice.geeksforgeeks.org/events/rec/gfg-weekly-coding-co
+       ntest?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=gfgwe
+       ekly]GfG Weekly Contest
+     * [https://practice.geeksforgeeks.org/courses/category/all?courseType
+       =offline]Offline Classes (Delhi/NCR)
+     * [https://practice.geeksforgeeks.org/courses/dsa-self-paced?utm_sour
+       ce=geeksforgeeks&utm_medium=footer&utm_campaign=course]DSA in
+       JAVA/C++
+     * [https://practice.geeksforgeeks.org/courses/mastering-system-design
+       -low-level-to-high-level-solutions?utm_source=geeksforgeeks&utm_med
+       ium=footer&utm_campaign=course]Master System Design
+     * [https://practice.geeksforgeeks.org/courses/competitive-programming
+       -cp?utm_source=geeksforgeeks&utm_medium=footer&utm_campaign=course]
+       Master CP
+
+     * [https://www.geeksforgeeks.org/introduction-to-programming-language
+       s/?ref=footer]Languages
+     * [https://www.geeksforgeeks.org/python-programming-language/?ref=foo
+       ter]Python
+     * [https://www.geeksforgeeks.org/java/?ref=footer]Java
+     * [https://www.geeksforgeeks.org/c-plus-plus/?ref=footer]C++
+     * [https://www.geeksforgeeks.org/php-tutorials/?ref=footer]PHP
+     * [https://www.geeksforgeeks.org/golang/?ref=footer]GoLang
+     * [https://www.geeksforgeeks.org/sql-tutorial/?ref=footer]SQL
+     * [https://www.geeksforgeeks.org/r-tutorial/?ref=footer]R Language
+     * [https://www.geeksforgeeks.org/android-tutorial/?ref=footer]Android
+       Tutorial
+
+     * [https://www.geeksforgeeks.org/data-structures/?ref=footer]Data
+       Structures
+     * [https://www.geeksforgeeks.org/array-data-structure/?ref=footer]Arr
+       ay
+     * [https://www.geeksforgeeks.org/string-data-structure/?ref=footer]St
+       ring
+     * [https://www.geeksforgeeks.org/data-structures/linked-list/?ref=foo
+       ter]Linked List
+     * [https://www.geeksforgeeks.org/stack-data-structure/?ref=footer]Sta
+       ck
+     * [https://www.geeksforgeeks.org/queue-data-structure/?ref=footer]Que
+       ue
+     * [https://www.geeksforgeeks.org/introduction-to-tree-data-structure-
+       and-algorithm-tutorials/?ref=footer]Tree
+     * [https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+       ?ref=footer]Graph
+
+     * [https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=foot
+       er]Algorithms
+     * [https://www.geeksforgeeks.org/sorting-algorithms/?ref=footer]Sorti
+       ng
+     * [https://www.geeksforgeeks.org/searching-algorithms/?ref=footer]Sea
+       rching
+     * [https://www.geeksforgeeks.org/greedy-algorithms/?ref=footer]Greedy
+     * [https://www.geeksforgeeks.org/dynamic-programming/?ref=footer]Dyna
+       mic Programming
+     * [https://www.geeksforgeeks.org/algorithms-gq/pattern-searching/?ref
+       =footer]Pattern Searching
+     * [https://www.geeksforgeeks.org/introduction-to-recursion-data-struc
+       ture-and-algorithm-tutorials/?ref=footer]Recursion
+     * [https://www.geeksforgeeks.org/backtracking-algorithms/?ref=footer]
+       Backtracking
+
+     * [https://www.geeksforgeeks.org/web-development/?ref=footer]Web
+       Development
+     * [https://www.geeksforgeeks.org/html/?ref=footer]HTML
+     * [https://www.geeksforgeeks.org/css/?ref=footer]CSS
+     * [https://www.geeksforgeeks.org/learn-javascript-js-roadmap-for-begi
+       nners/?ref=footer]JavaScript
+     * [https://www.geeksforgeeks.org/bootstrap/?ref=footer]Bootstrap
+     * [https://www.geeksforgeeks.org/learn-reactjs/?ref=footer]ReactJS
+     * [https://www.geeksforgeeks.org/angularjs/?ref=footer]AngularJS
+     * [https://www.geeksforgeeks.org/nodejs/?ref=footer]NodeJS
+
+     * [https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=footer]Compute
+       r Science
+     * [https://www.geeksforgeeks.org/gate-cs-notes-gq/?ref=footer]GATE CS
+       Notes
+     * [https://www.geeksforgeeks.org/operating-systems/?ref=footer]Operat
+       ing Systems
+     * [https://www.geeksforgeeks.org/computer-network-tutorials/?ref=foot
+       er]Computer Network
+     * [https://www.geeksforgeeks.org/dbms/?ref=footer]Database Management
+       System
+     * [https://www.geeksforgeeks.org/software-engineering/?ref=footer]Sof
+       tware Engineering
+     * [https://www.geeksforgeeks.org/digital-electronics-logic-design-tut
+       orials/?ref=footer]Digital Logic Design
+     * [https://www.geeksforgeeks.org/engineering-mathematics-tutorials/?r
+       ef=footer]Engineering Maths
+
+     * [https://www.geeksforgeeks.org/python-programming-language/?ref=foo
+       ter]Python
+     * [https://www.geeksforgeeks.org/python-programming-examples/?ref=foo
+       ter]Python Programming Examples
+     * [https://www.geeksforgeeks.org/django-tutorial/?ref=footer]Django
+       Tutorial
+     * [https://www.geeksforgeeks.org/python-projects-beginner-to-advanced
+       /?ref=footer]Python Projects
+     * [https://www.geeksforgeeks.org/python-tkinter-tutorial/?ref=footer]
+       Python Tkinter
+     * [https://www.geeksforgeeks.org/opencv-python-tutorial/?ref=footer]O
+       penCV Python Tutorial
+     * [https://www.geeksforgeeks.org/python-interview-questions/?ref=foot
+       er]Python Interview Question
+
+     * Data Science & ML
+     * [https://www.geeksforgeeks.org/data-science-tutorial/?ref=footer]Da
+       ta Science With Python
+     * [https://www.geeksforgeeks.org/data-science-for-beginners/?ref=foot
+       er]Data Science For Beginner
+     * [https://www.geeksforgeeks.org/machine-learning/?ref=footer]Machine
+       Learning Tutorial
+     * [https://www.geeksforgeeks.org/machine-learning-mathematics/?ref=fo
+       oter]Maths For Machine Learning
+     * [https://www.geeksforgeeks.org/pandas-tutorial/?ref=footer]Pandas
+       Tutorial
+     * [https://www.geeksforgeeks.org/numpy-tutorial/?ref=footer]NumPy
+       Tutorial
+     * [https://www.geeksforgeeks.org/natural-language-processing-nlp-tuto
+       rial/?ref=footer]NLP Tutorial
+     * [https://www.geeksforgeeks.org/deep-learning-tutorial/?ref=footer]D
+       eep Learning Tutorial
+
+     * [https://www.geeksforgeeks.org/devops-tutorial/?ref=footer]DevOps
+     * [https://www.geeksforgeeks.org/git-tutorial/?ref=footer]Git
+     * [https://www.geeksforgeeks.org/aws-tutorial/?ref=footer]AWS
+     * [https://www.geeksforgeeks.org/docker-tutorial/?ref=footer]Docker
+     * [https://www.geeksforgeeks.org/kubernetes-tutorial/?ref=footer]Kube
+       rnetes
+     * [https://www.geeksforgeeks.org/microsoft-azure/?ref=footer]Azure
+     * [https://www.geeksforgeeks.org/google-cloud-platform-tutorial/?ref=
+       footer]GCP
+
+     * [https://www.geeksforgeeks.org/competitive-programming-a-complete-g
+       uide/?ref=footer]Competitive Programming
+     * [https://www.geeksforgeeks.org/top-algorithms-and-data-structures-f
+       or-competitive-programming/?ref=footer]Top DSA for CP
+     * [https://www.geeksforgeeks.org/top-50-tree-coding-problems-for-inte
+       rviews?ref=footer]Top 50 Tree Problems
+     * [https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-int
+       erviews/?ref=footer]Top 50 Graph Problems
+     * [https://www.geeksforgeeks.org/top-50-array-coding-problems-for-int
+       erviews/?ref=footer]Top 50 Array Problems
+     * [https://www.geeksforgeeks.org/top-50-string-coding-problems-for-in
+       terviews/?ref=footer]Top 50 String Problems
+     * [https://www.geeksforgeeks.org/top-50-dynamic-programming-coding-pr
+       oblems-for-interviews/?ref=footer]Top 50 DP Problems
+     * [https://www.geeksforgeeks.org/top-15-websites-for-coding-challenge
+       s-and-competitions/?ref=footer]Top 15 Websites for CP
+
+     * [https://www.geeksforgeeks.org/system-design-tutorial/?ref=footer]S
+       ystem Design
+     * [https://www.geeksforgeeks.org/what-is-system-design-learn-system-d
+       esign/?ref=footer]What is System Design
+     * [https://www.geeksforgeeks.org/analysis-of-monolithic-and-distribut
+       ed-systems-learn-system-design/?ref=footer]Monolithic and
+       Distributed SD
+     * [https://www.geeksforgeeks.org/what-is-scalability-and-how-to-achie
+       ve-it-learn-system-design/?ref=footer]Scalability in SD
+     * [https://www.geeksforgeeks.org/complete-reference-to-databases-in-d
+       esigning-systems/?ref=footer]Databases in SD
+     * [https://www.geeksforgeeks.org/what-is-high-level-design-learn-syst
+       em-design/?ref=footer]High Level Design or HLD
+     * [https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-lear
+       n-system-design/?ref=footer]Low Level Design or LLD
+     * [https://www.geeksforgeeks.org/top-10-system-design-interview-quest
+       ions-and-answers/?ref=footer]Top SD Interview Questions
+
+     * [https://www.geeksforgeeks.org/company-interview-corner/?ref=footer
+       ]Interview Corner
+     * [https://www.geeksforgeeks.org/company-preparation/?ref=footer]Comp
+       any Wise Preparation
+     * [https://www.geeksforgeeks.org/interview-preparation-for-software-d
+       eveloper/?ref=footer]Preparation for SDE
+     * [https://www.geeksforgeeks.org/experienced-interview-experiences-co
+       mpany-wise/?ref=footer]Experienced Interviews
+     * [https://www.geeksforgeeks.org/internship-interview-experiences-com
+       pany-wise/?ref=footer]Internship Interviews
+     * [https://www.geeksforgeeks.org/competitive-programming-a-complete-g
+       uide/?ref=footer]Competitive Programming
+     * [https://www.geeksforgeeks.org/aptitude-questions-and-answers/?ref=
+       footer]Aptitude Preparation
+
+     * [https://www.geeksforgeeks.org/geeksforgeeks-school/?ref=footer]GfG
+       School
+     * [https://www.geeksforgeeks.org/cbse-notes-for-class-8/?ref=footer]C
+       BSE Notes for Class 8
+     * [https://www.geeksforgeeks.org/cbse-notes-for-class-9/?ref=footer]C
+       BSE Notes for Class 9
+     * [https://www.geeksforgeeks.org/cbse-class-10-revision-notes/?ref=fo
+       oter]CBSE Notes for Class 10
+     * [https://www.geeksforgeeks.org/cbse-class-11-revision-notes/?ref=fo
+       oter]CBSE Notes for Class 11
+     * [https://www.geeksforgeeks.org/cbse-class-12-revision-notes/?ref=fo
+       oter]CBSE Notes for Class 12
+     * [https://www.geeksforgeeks.org/english-grammar/?ref=footer]English
+       Grammar
+
+     * [https://www.geeksforgeeks.org/commerce/?ref=footer]Commerce
+     * [https://www.geeksforgeeks.org/accountancy/?ref=footer]Accountancy
+     * [https://www.geeksforgeeks.org/business-studies/?ref=footer]Busines
+       s Studies
+     * [https://www.geeksforgeeks.org/economics/?ref=footer]Economics
+     * [https://www.geeksforgeeks.org/management/?ref=footer]Management
+     * [https://www.geeksforgeeks.org/income-tax/?ref=footer]Income Tax
+     * [https://www.geeksforgeeks.org/finance/?ref=footer]Finance
+
+     * UPSC
+     * [https://www.geeksforgeeks.org/important-topics-in-polity-for-upsc/
+       ?ref=footer]Polity Notes
+     * [https://www.geeksforgeeks.org/important-topics-of-geography-for-up
+       sc/?ref=footer]Geography Notes
+     * [https://www.geeksforgeeks.org/history-notes-for-upsc-exam/?ref=foo
+       ter]History Notes
+     * [https://www.geeksforgeeks.org/important-topics-of-science-and-tech
+       nology-for-upsc/?ref=footer]Science and Technology Notes
+     * [https://www.geeksforgeeks.org/indian-economy-notes-upsc/?ref=foote
+       r]Economics Notes
+     * [https://www.geeksforgeeks.org/important-topics-in-ethics-for-upsc/
+       ?ref=footer]Important Topics in Ethics
+     * [https://www.geeksforgeeks.org/upsc-previous-year-question-paper-so
+       lutions/?ref=footer]UPSC Previous Year Papers
+
+     * SSC/ BANKING
+     * [https://www.geeksforgeeks.org/ssc-cgl-syllabus-2022/?ref=footer]SS
+       C CGL Syllabus
+     * [https://www.geeksforgeeks.org/sbi-po-syllabus-2023/?ref=footer]SBI
+       PO Syllabus
+     * [https://www.geeksforgeeks.org/sbi-clerk-syllabus-2022/?ref=footer]
+       SBI Clerk Syllabus
+     * [https://www.geeksforgeeks.org/syllabus-of-ibps-po-2022/?ref=footer
+       ]IBPS PO Syllabus
+     * [https://www.geeksforgeeks.org/detailed-syllabus-of-ibps-clerk/?ref
+       =footer]IBPS Clerk Syllabus
+     * [https://www.geeksforgeeks.org/aptitude-questions-and-answers/?ref=
+       footer]Aptitude Questions
+     * [https://www.geeksforgeeks.org/ssc-cgl-practice-papers/?ref=footer]
+       SSC CGL Practice Papers
+
+     * Write & Earn
+     * [https://write.geeksforgeeks.org/?ref=footer]Write an Article
+     * [https://www.geeksforgeeks.org/how-to-improve-an-article/]Improve
+       an Article
+     * [https://write.geeksforgeeks.org/pick-article/?ref=footer]Pick
+       Topics to Write
+     * [https://www.geeksforgeeks.org/write-interview-experience/?ref=foot
+       er]Write Interview Experience
+     * [https://write.geeksforgeeks.org/internship/?ref=footer]Internships
+     * [https://script.geeksforgeeks.org/on-boarding/youtube?ref=footer]Vi
+       deo Internship
+
+   [https://www.geeksforgeeks.org/]@geeksforgeeks ,
+   [https://www.geeksforgeeks.org/copyright-information/]Some rights
+   reserved
+
+   We use cookies to ensure you have the best browsing experience on our
+   website. By using our site, you acknowledge that you have read and
+   understood our [https://www.geeksforgeeks.org/cookie-policy/]Cookie
+   Policy & [https://www.geeksforgeeks.org/privacy-policy/]Privacy Policy
+   (BUTTON) Got It !
+
+   Lightbox
+
+   Improvement
+   This article is being improved by another user right now. You can
+   suggest the changes for now and it will be under the article’s
+   discussion tab.
+   You will be notified via email once the article is available for
+   improvement. Thank you for your valuable feedback!
+   (BUTTON) Suggest changes
+   Suggest Changes
+   Suggestion [CharLimit:2000]
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   (BUTTON)

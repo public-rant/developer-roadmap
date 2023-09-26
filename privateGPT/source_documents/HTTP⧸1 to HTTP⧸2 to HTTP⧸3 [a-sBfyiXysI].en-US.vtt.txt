@@ -1,0 +1,35 @@
+How has it evolved over the years
+Let s take a look
+from HTTP 1 to 1 1 to 2 and now to HTTP 3
+HTTP 1 came out in 1996
+Every request to the same server requires a separate TCP connection
+It introduced nbsp a keep alive mechanism
+The nbsp persistent connections reduce request latency
+expensive TCP three way handshake for every request
+added HTTP pipelining
+before waiting for each response
+It was tricky nbsp to implement correctly
+Its support was eventually removed from many web browsers
+Without align blocking
+must wait for the previous requests to complete
+all subsequent requests on the same connection are also impacted
+browsers normally keep multiple TCP connections
+HTTP 2 was published in 2015
+could be sent to the same server on a single TCP connection
+each stream is independent of each other
+HTTP 2 solves the headline blocking issue at the nbsp application layer
+Also note that HTTP 2 introduced a push capability
+without requiring a client to poll
+and has nbsp recently been published in June 2022
+instead nbsp of TCP as the underlying transport protocol
+It introduces streams as nbsp the first class citizen at the transport layer
+so no additional handshakes are required
+QUIC streams are delivered independently
+doesn t affect others
+QUIC is designed for mobile heavy internet usage
+as they move about their day
+from one network to another is sluggish nbsp
+which allows connections to move between
+Even though HTTP 3 has just been standardized
+if you would like to learn more about system nbsp design
+Please subscribe if you learned something new

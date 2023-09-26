@@ -1,0 +1,230 @@
+Music
+g day my name is Kelvin and I m a
+product marketing manager for bitbucket
+here at elastic now perhaps you re brand
+new to get or may be familiar with
+another gear platform either way you re
+in luck I m here to give you a tour of
+bit buckets user interface now maybe
+you re working on your projects or want
+to understand how to work with your
+repositories maybe you just want to set
+up bitbucket properly by the way I m
+gonna explore bit buckets user interface
+with you to help you and your team get
+up and running and working as quickly as
+possible let s get started so as you can
+see here this is the your work screen
+and it s the screen you ll see whenever
+you log into bit bucket for the first
+time and the work here is categorized
+into three buckets pour a quest for you
+to review pull requests that you ve
+created and repositories that you ve
+recently visited now there s lots of
+contextual information here what s going
+on who is involved and what stage of the
+process is it the great thing about this
+particular screen is its customizable so
+you can filter for instance to hide the
+pour request that need your review so
+that you re hiding pour requests with
+broken builds or have open tasks all
+that already have your approval same
+with the bottom here with repositories
+you can filter them by recently viewed
+or last updated now let s take a look at
+each of the items on the left hand side
+of the screen so in the repositories
+section you have a list of all the
+repositories that are available to you
+you can filter your repositories by
+projects by owner or even repositories
+that you re watching you can also search
+for repositories if you know the name of
+them two really useful if you have and a
+lot of repositories in your team that
+you re working on at a particular point
+in time so this screen much like the
+your work screen has lots of contextual
+information when it was last updated
+whether the build degree in the
+description if they have them and if I
+quickly have a look in one of these
+repositories you can see lots of
+information here about the files that
+are within this particular repository
+and on the left hand side here the
+commits that have been made
+who made it when they made it with the
+commit message was any branches that are
+associated with this particular
+repository are available here as well
+any pour requests that are here and if
+you re using continuous integration or
+continuous delivery with bitbucket
+pipelines you can have all that
+information there about all of the
+builds that are run and again lots of
+contextual information here about what s
+happened who s done it and when it
+happened more importantly at the bottom
+you have the settings for this
+particular repository so here s a place
+where you can manage everything for your
+repository whether it be the name of it
+who has access to it the branch
+permissions that are there as well
+really useful for those who have more
+complex workflows you can lock down who
+can commit to a particular repository
+here for your pull request themselves
+you can set default reviewers and if you
+want you can also set up your pipelines
+and deployments too so let s go back to
+the main screen and let s take a look at
+our projects projects are essentially a
+grouping of repositories really useful
+for teams who have a lot of repositories
+that they re working with at a
+particular point in time very easy to
+group them under one project name as you
+can see here we have the projects that
+are available to me and my team at a
+short description of each and if I were
+to click into one of these now you ll
+see a list of the repositories
+associated with this project some
+contextual information about each
+repository and on the right hand side
+here really easy for me to add
+additional repositories to this
+particular project as well so there is a
+our projects let s go back to our main
+menu and have a look at pull requests
+pour requests so we re code review
+happens in bit bucket as you can see on
+this screen I have a list of all the
+poor requests and I m currently
+reviewing and I have a lot of filterable
+options here as well I can look at the
+poor request that I m watching the poor
+request that I ve actually created
+myself and also the poor requests that
+are associated with the teams I m a part
+of now when I have a look at one of
+these pour requests
+in particular he gives me lots of
+information about the changes that have
+been made that are ready to be merged
+back into the repository who made the
+changes what changes they ve actually
+made as well as a diff of the actual
+files themselves that have been changed
+and what they ve changed within peach so
+as a review it s really easy for me to
+have a look and see everything that s
+happened and you can see in the top
+right hand corner here I can approve or
+unapprove as necessary so those are poor
+requests in bitbucket
+let s have a look at the main screen and
+the options on the left hand side again
+and let s take a look at issues issues
+are a great way for you to break up
+larger chunks of work into more
+manageable pieces and assign them to
+your team or as an individual now most
+people integrate bitbucket with the
+likes of JIRA software or Trello to do
+this but if you want to work on more
+lightweight issues bitbucket provides
+this functionality here and you can see
+all of the issues that are assigned to
+you that you ve reported you re
+participating in watching or even the
+issues that are associated with your
+team so those are issues let s have a
+look at snippets snippets are a great
+way for you to share and reuse your code
+amongst your team or even amongst
+yourself they re great because you can
+share and reuse really important bits of
+information across your repositories
+makes it really easy for you to share
+that knowledge and a reuse code and
+saves you a little bit of time as well
+you can filter by snippets you ve
+created snippets you re watching and
+also snippets that are associated with
+your team so those are the menu items
+that we ve covered on the left hand side
+but you ll see a number of icons on the
+left as well let s take a look at the
+first one search now search is what it
+says in the box you can search for
+repositories corrode and more and if I
+were to quickly type in a search term
+you can see it immediately comes up with
+a number of results in terms of pull
+requests that match my search query and
+if I have a look here I can look at all
+of the code matches that match my search
+query and it lists everything that I
+have access to and I can
+by the team I m a part of as well as
+refine with a number of modifiers as
+well so I can get really complex and
+granular with my search terms if I need
+to so that s search if I go back here
+let s take a look at our next icon the
+plus icon so the plus icon here is
+really where you create things in
+bitbucket
+by open this menu you can see here I can
+create a repository a team a project a
+snippet or can even import a repository
+as well the great thing about this is
+this menu is context sensitive
+if I were to go back here and take a
+look at one of the repositories when I
+click on the plus icon again you can see
+a number of different options for me to
+get to work I can clone the repository
+create a branch or pull request and even
+compare branches or tags as well now
+let s go back here and at the bottom
+left hand side here you ll have your
+avatar so your avatar is where your
+profile and settings are located you can
+see here by clicking on the Avatar I can
+have a look at the teams that I m a part
+of can view my profile as well as my
+bitbucket settings so let s take a look
+at my profile right now
+my profile contains all of the
+repositories that I am allowed to or
+have access to you can see things
+earlier that we ve already covered I can
+see my snippets and the teams that I m a
+part of more importantly I can have a
+look at my settings too now the settings
+section here gives me a whole number of
+things that I can look at I can have a
+look at my plan and my billing options
+access management in terms of who has
+access to or as part of my team SSH keys
+and two step verification as well as
+allowing me to try new features from
+Atlassian labs take a look at the apps
+available in the marketplace as well as
+start looking at some of my CI CD or at
+least bitbucket pipelines variables that
+are available to me as well so lots of
+options there for me to have a look at
+really useful for me when I m starting
+my team or at least managing access to
+my work as well so that s bitbucket
+we ve explored how to get work done set
+up and manage your repositories and
+

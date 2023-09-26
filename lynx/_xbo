@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://codex.cs.yale.edu/avi/os-book/OS10/index.html > $(basename https://codex.cs.yale.edu/avi/os-book/OS10/index.html).txt

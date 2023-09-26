@@ -1,0 +1,77 @@
+[
+ {
+  "id": "event-sourcing",
+  "tag": "h1",
+  "text": "Event Sourcing"
+ },
+ {
+  "id": "design-patterns",
+  "tag": "h1",
+  "text": "Design Patterns"
+ },
+ {
+  "id": "domain-driven-design",
+  "tag": "h1",
+  "text": "Domain-Driven Design"
+ },
+ {
+  "id": "design-and-development-principles",
+  "tag": "h1",
+  "text": "Design and Development Principles"
+ },
+ {
+  "id": "test-driven-development",
+  "tag": "h1",
+  "text": "Test Driven Development"
+ },
+ {
+  "id": "cqrs",
+  "tag": "h1",
+  "text": "CQRS"
+ },
+ {
+  "href": "https://martinfowler.com/eaaDev/EventSourcing.html",
+  "tag": "a",
+  "text": "Event Sourcing - Martin Fowler"
+ },
+ {
+  "href": "https://github.com/kamranahmedse/design-patterns-for-humans",
+  "tag": "a",
+  "text": "Design Patterns for Humans"
+ },
+ {
+  "href": "https://springframework.guru/gang-of-four-design-patterns/",
+  "tag": "a",
+  "text": "GOF design patterns"
+ },
+ {
+  "href": "https://refactoring.guru/design-patterns",
+  "tag": "a",
+  "text": "Design Patterns"
+ },
+ {
+  "href": "https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf",
+  "tag": "a",
+  "text": "Domain Driven Design Quickly"
+ },
+ {
+  "href": "https://www.guru99.com/test-driven-development.html",
+  "tag": "a",
+  "text": "What is Test Driven Development (TDD)?"
+ },
+ {
+  "href": "https://www.ibm.com/garage/method/practices/code/practice_test_driven_development/",
+  "tag": "a",
+  "text": "Test-driven development"
+ },
+ {
+  "href": "https://youtu.be/uGaNkTahrIw",
+  "tag": "a",
+  "text": "Agile in Practice: Test Driven Development"
+ },
+ {
+  "href": "https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+  "tag": "a",
+  "text": "CQRS Pattern"
+ }
+]

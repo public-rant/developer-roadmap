@@ -1,0 +1,702 @@
+   #[https://stackoverflow.com/opensearch.xml]Stack Overflow
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+   [https://stackoverflow.com/]Stack Overflow
+    1. [https://stackoverflow.co/]About
+    2. [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-doe
+       s-it-work-and-how-should-i-use-one]Products
+    3. [https://stackoverflow.co/teams/]For Teams
+
+    1. [https://stackoverflow.com/questions]Stack Overflow Public
+       questions & answers
+    2. [https://stackoverflow.co/teams/]Stack Overflow for Teams Where
+       developers & technologists share private knowledge with coworkers
+    3. [https://stackoverflow.co/talent/]Talent Build your employer brand
+    4. [https://stackoverflow.co/advertising/]Advertising Reach developers
+       & technologists worldwide
+    5. [https://stackoverflow.co/labs/]Labs The future of collective
+       knowledge sharing
+    6. [https://stackoverflow.co/]About the company
+
+   ____________________
+   Loading…
+
+    1.
+
+[https://stackoverflow.com/]current community
+       (BUTTON)
+          + [https://stackoverflow.com/]Stack Overflow
+            [https://stackoverflow.com/help]help
+            [https://chat.stackoverflow.com/?tab=site&host=stackoverflow.c
+            om]chat
+          + [https://meta.stackoverflow.com/]Meta Stack Overflow
+
+your communities
+       [https://stackoverflow.com/users/signup?ssrc=site_switcher&returnur
+       l=https%3a%2f%2fstackoverflow.com%2fquestions%2f1279613%2fwhat-is-a
+       n-orm-how-does-it-work-and-how-should-i-use-one]Sign up or
+       [https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl
+       =https%3a%2f%2fstackoverflow.com%2fquestions%2f1279613%2fwhat-is-an
+       -orm-how-does-it-work-and-how-should-i-use-one]log in to customize
+       your list.
+
+[https://stackexchange.com/sites]more stack exchange communities
+       [https://stackoverflow.blog/]company blog
+    2. (BUTTON)
+    3. [https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a
+       %2f%2fstackoverflow.com%2fquestions%2f1279613%2fwhat-is-an-orm-how-
+       does-it-work-and-how-should-i-use-one]Log in
+    4. [https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3
+       a%2f%2fstackoverflow.com%2fquestions%2f1279613%2fwhat-is-an-orm-how
+       -does-it-work-and-how-should-i-use-one]Sign up
+
+    1. [https://stackoverflow.com/]Home
+    2.
+         1. Public
+         2. [https://stackoverflow.com/questions]Questions
+         3. [https://stackoverflow.com/tags]Tags
+         4. [https://stackoverflow.com/users]Users
+         5. [https://stackoverflow.com/jobs/companies?so_medium=stackoverf
+            low&so_source=SiteNav]Companies
+         6. Collectives
+            [javascript:void(0)]
+         7. [https://stackoverflow.com/collectives]Explore Collectives
+    3. Teams
+       Stack Overflow for Teams – Start collaborating and sharing
+       organizational knowledge.
+       [https://try.stackoverflow.co/why-teams/?utm_source=so-owned&utm_me
+       dium=side-bar&utm_campaign=campaign-38&utm_content=cta]Create a
+       free Team [https://stackoverflow.co/teams/]Why Teams?
+    4. Teams
+       [javascript:void(0)]
+    5. [https://stackoverflowteams.com/teams/create/free/?utm_source=so-ow
+       ned&utm_medium=side-bar&utm_campaign=campaign-38&utm_content=cta]Cr
+       eate free Team
+
+Collectives™ on Stack Overflow
+
+   Find centralized, trusted content and collaborate around the
+   technologies you use most.
+   [https://stackoverflow.com/collectives]Learn more about Collectives
+
+   Teams
+
+   Q&A for work
+
+   Connect and share knowledge within a single location that is structured
+   and easy to search.
+   [https://stackoverflow.co/teams/]Learn more about Teams
+
+[https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-
+and-how-should-i-use-one]What is an ORM, how does it work, and how should I
+use one? [closed]
+
+   [https://stackoverflow.com/questions/ask]Ask Question
+   Asked 13 years, 11 months ago
+   Modified
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one?lastactivity]4 months ago
+   Viewed 470k times
+   228
+   votes
+   (BUTTON) [https://stackoverflow.com/posts/1279613/timeline]
+
+   Closed. This question needs to be more
+   [https://stackoverflow.com/help/closed-questions]focused. It is not
+   currently accepting answers.
+   Closed 4 years ago.
+
+   Locked. This question and its answers are
+   [https://stackoverflow.com/help/locked-posts]locked because the
+   question is off-topic but has historical significance. It is not
+   currently accepting new answers or interactions.
+
+   Someone suggested I use an ORM for a project that I'm designing, but
+   I'm having trouble finding information on what it is or how it works.
+
+   Can anyone give me a brief explanation of what an ORM is and how it
+   works and how I should get started using one?
+     * [https://stackoverflow.com/questions/tagged/database]database
+     * [https://stackoverflow.com/questions/tagged/orm]orm
+     * [https://stackoverflow.com/questions/tagged/language-agnostic]langu
+       age-agnostic
+
+   [https://stackoverflow.com/q/1279613]Share
+   [https://stackoverflow.com/posts/1279613/revisions]edited Jun 11, 2019
+   at 16:31
+   [https://stackoverflow.com/users/134044/neilg]
+   NeilG's user avatar
+   [https://stackoverflow.com/users/134044/neilg]NeilG
+   3,84222 gold badges2222 silver badges2929 bronze badges
+   asked Aug 14, 2009 at 19:03
+   [https://stackoverflow.com/users/143596/ryan]
+   Ryan's user avatar
+   [https://stackoverflow.com/users/143596/ryan]RyanRyan
+   11.7k1616 gold badges3636 silver badges3737 bronze badges
+   7
+     * 8
+       I found this question but it's from 2009 and I don't know if you
+       already master ORM but look for Entity Framework in CodePlex
+       C#([http://entityframework.codeplex.com/]entityframework.codeplex.c
+       om) Here is the source code which you can learn from. Also you can
+       read this.
+       ([http://www.dbtechnet.org/labs/dae_lab/Orm.pdf]dbtechnet.org/labs/
+       dae_lab/Orm.pdf)
+       – [https://stackoverflow.com/users/2532403/maximus-decimus]Maximus
+       Decimus
+       Jun 6, 2014 at 16:38
+     * 1
+       Just want to point out that ORM cam also relate to Object-Role
+       Modeling
+       [https://en.wikipedia.org/wiki/Object-role_modeling]en.wikipedia.or
+       g/wiki/Object-role_modeling
+       – [https://stackoverflow.com/users/8094012/o-9]O-9
+       Dec 14, 2018 at 10:28
+     * 1
+       This is a useful question and the votes for the top answer seem to
+       confirm that. A brief description of what ORM is does not require
+       opinion. Just because the user asks for a link to get started the
+       question is flagged off-topic. I feel that this is a frequent
+       over-reaction from moderators.
+       – [https://stackoverflow.com/users/134044/neilg]NeilG
+       Mar 4, 2019 at 0:29
+     * 3
+       @NeilG A closed question means the question is off-topic. There
+       could be useful info in the answers, but that does not make the
+       question on-topic. Also, it won't be deleted, it will stay here,
+       but we still need to keep the SO clean and on-topic so it functions
+       at its best. So, to answer your first comment: This is not a useful
+       question, there are useful answers.
+       – [https://stackoverflow.com/users/6461462/m-%c3%9f%c5%a3%c5%99%e1%
+       bb%8b%c6%99%c3%af%c3%b1%c4%9d]M--ßţřịƙïñĝ
+       Jun 8, 2019 at 5:31
+     * 1
+       @NeilG The issue is that the question includes a request for
+       resources (both in the title and in the question). Such requests
+       are off-topic, largely because it results in people just posting a
+       link to their favorite resource, as has happened in several of the
+       answers here. Removing the request for resources from the question
+       would invalidate some existing answers. As regular users, we are
+       not permitted to edit the question to invalidate answers. Thus, it
+       should be closed. If the question was unanswered, then it could be
+       edited to remove those requests and left open.
+       – [https://stackoverflow.com/users/3773011/makyen]Makyen ♦
+       Jun 10, 2019 at 15:26
+
+   Comments disabled on deleted / locked posts / reviews  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Show 2 more comments
+
+5 Answers 5
+
+   Sorted by:
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one?answertab=scoredesc#tab-top]Reset to
+   default
+   [Highest score (default)___________]
+   481
+   votes
+   (BUTTON)
+   [https://stackoverflow.com/posts/1279678/timeline]
+
+Introduction
+
+   [https://en.wikipedia.org/wiki/Object-relational_mapping]Object-Relatio
+   nal Mapping (ORM) is a technique that lets you query and manipulate
+   data from a database using an object-oriented paradigm. When talking
+   about ORM, most people are referring to a library that implements the
+   Object-Relational Mapping technique, hence the phrase "an ORM".
+
+   An ORM library is a completely ordinary library written in your
+   language of choice that encapsulates the code needed to manipulate the
+   data, so you don't use SQL anymore; you interact directly with an
+   object in the same language you're using.
+
+   For example, here is a completely imaginary case with a pseudo
+   language:
+
+   You have a book class, you want to retrieve all the books of which the
+   author is "Linus". Manually, you would do something like that:
+book_list = new List();
+sql = "SELECT book FROM library WHERE author = 'Linus'";
+data = query(sql); // I over simplify ...
+while (row = data.next())
+{
+     book = new Book();
+     book.setAuthor(row.get('author');
+     book_list.add(book);
+}
+
+   With an ORM library, it would look like this:
+book_list = BookTable.query(author="Linus");
+
+   The mechanical part is taken care of automatically via the ORM library.
+
+Pros and Cons
+
+   Using ORM saves a lot of time because:
+     * [https://en.wikipedia.org/wiki/Don%27t_repeat_yourself]DRY: You
+       write your data model in only one place, and it's easier to update,
+       maintain, and reuse the code.
+     * A lot of stuff is done automatically, from database handling to
+       [https://en.wikipedia.org/wiki/Internationalization_and_localizatio
+       n]I18N.
+     * It forces you to write
+       [https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controlle
+       r]MVC code, which, in the end, makes your code a little cleaner.
+     * You don't have to write poorly-formed SQL (most Web programmers
+       really suck at it, because SQL is treated like a "sub" language,
+       when in reality it's a very powerful and complex one).
+     * Sanitizing; using prepared statements or transactions are as easy
+       as calling a method.
+
+   Using an ORM library is more flexible because:
+     * It fits in your natural way of coding (it's your language!).
+     * It abstracts the DB system, so you can change it whenever you want.
+     * The model is weakly bound to the rest of the application, so you
+       can change it or use it anywhere else.
+     * It lets you use OOP goodness like data inheritance without a
+       headache.
+
+   But ORM can be a pain:
+     * You have to learn it, and ORM libraries are not lightweight tools;
+     * You have to set it up. Same problem.
+     * Performance is OK for usual queries, but a SQL master will always
+       do better with his own SQL for big projects.
+     * It abstracts the DB. While it's OK if you know what's happening
+       behind the scene, it's a trap for new programmers that can write
+       very greedy statements, like a heavy hit in a for loop.
+
+How to learn about ORM?
+
+   Well, use one. Whichever ORM library you choose, they all use the same
+   principles. There are a lot of ORM libraries around here:
+     * Java: [https://en.wikipedia.org/wiki/Hibernate_(Java)]Hibernate.
+     * PHP: [https://en.wikipedia.org/wiki/Propel_(PHP)]Propel or
+       [https://en.wikipedia.org/wiki/Doctrine_(PHP)]Doctrine (I prefer
+       the last one).
+     * Python: the Django ORM or
+       [https://en.wikipedia.org/wiki/SQLAlchemy]SQLAlchemy (My favorite
+       ORM library ever).
+     * C#: [https://en.wikipedia.org/wiki/NHibernate]NHibernate or
+       [https://en.wikipedia.org/wiki/Entity_Framework]Entity Framework
+
+   If you want to try an ORM library in Web programming, you'd be better
+   off using an entire framework stack like:
+     * [https://en.wikipedia.org/wiki/Symfony]Symfony (PHP, using Propel
+       or Doctrine).
+     * [https://en.wikipedia.org/wiki/Django_(web_framework)]Django
+       (Python, using a internal ORM).
+
+   Do not try to write your own ORM, unless you are trying to learn
+   something. This is a gigantic piece of work, and the old ones took a
+   lot of time and work before they became reliable.
+   [https://stackoverflow.com/a/1279678]Share
+   [https://stackoverflow.com/posts/1279678/revisions]edited Feb 19, 2018
+   at 4:14
+   [https://stackoverflow.com/users/356307/jens]
+   Jens's user avatar
+   [https://stackoverflow.com/users/356307/jens]Jens
+   8,31388 gold badges5858 silver badges7777 bronze badges
+   answered Aug 14, 2009 at 19:17
+   [https://stackoverflow.com/users/9951/bite-code]
+   Bite code's user avatar
+   [https://stackoverflow.com/users/9951/bite-code]Bite codeBite code
+   577k112112 gold badges299299 silver badges329329 bronze badges
+   0
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Add a comment  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+   50
+   votes
+   (BUTTON)
+   [https://stackoverflow.com/posts/1280345/timeline]
+
+   ORM stands for "Object to Relational Mapping" where
+     * The Object part is the one you use with your programming language (
+       python in this case )
+     * The Relational part is a Relational Database Manager System ( A
+       database that is ) there are other types of databases but the most
+       popular is relational ( you know tables, columns, pk fk etc eg
+       Oracle MySQL, MS-SQL )
+     * And finally the Mapping part is where you do a bridge between your
+       objects and your tables.
+
+   In applications where you don't use a ORM framework you do this by
+   hand. Using an ORM framework would allow you do reduce the boilerplate
+   needed to create the solution.
+
+   So let's say you have this object.
+ class Employee:
+      def __init__( self, name ):
+          self.__name = name
+
+       def getName( self ):
+           return self.__name
+
+       #etc.
+
+   and the table
+   create table employee(
+          name varcar(10),
+          -- etc
+    )
+
+   Using an ORM framework would allow you to map that object with a db
+   record automagically and write something like:
+   emp = Employee("Ryan")
+
+   orm.save( emp )
+
+   And have the employee inserted into the DB.
+   [https://stackoverflow.com/a/1280345]Share
+   [https://stackoverflow.com/posts/1280345/revisions]edited Feb 17 at
+   12:19
+   [https://stackoverflow.com/users/1839439/dharman]
+   Dharman's user avatar
+   [https://stackoverflow.com/users/1839439/dharman]Dharman♦
+   30.6k2323 gold badges8585 silver badges134134 bronze badges
+   answered Aug 14, 2009 at 21:34
+   [https://stackoverflow.com/users/20654/oscarryz]
+   OscarRyz's user avatar
+   [https://stackoverflow.com/users/20654/oscarryz]OscarRyzOscarRyz
+   196k112112 gold badges385385 silver badges569569 bronze badges
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Add a comment  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+   17
+   votes
+   (BUTTON)
+   [https://stackoverflow.com/posts/1279638/timeline]
+
+   An ORM (Object Relational Mapper) is a piece/layer of software that
+   helps map your code Objects to your database.
+
+   Some handle more aspects than others...but the purpose is to take some
+   of the weight of the Data Layer off of the developer's shoulders.
+
+   Here's a brief clip from Martin Fowler (Data Mapper):
+
+   [http://martinfowler.com/eaaCatalog/dataMapper.html]Patterns of
+   Enterprise Application Architecture Data Mappers
+   [https://stackoverflow.com/a/1279638]Share
+   answered Aug 14, 2009 at 19:08
+   [https://stackoverflow.com/users/84651/justin-niessner]
+   Justin Niessner's user avatar
+   [https://stackoverflow.com/users/84651/justin-niessner]Justin
+   NiessnerJustin Niessner
+   242k4040 gold badges408408 silver badges536536 bronze badges
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Add a comment  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+   4
+   votes
+   (BUTTON)
+   [https://stackoverflow.com/posts/1279641/timeline]
+
+   Like all acronyms it's ambiguous, but I assume they mean
+   [http://en.wikipedia.org/wiki/Object-relational_mapping]object-relation
+   al mapper -- a way to cover your eyes and make believe there's no SQL
+   underneath, but rather it's all objects;-). Not really true, of course,
+   and not without problems -- the always colorful Jeff Atwood has
+   described ORM as
+   [http://www.codinghorror.com/blog/archives/000621.html]the Vietnam of
+   CS;-). But, if you know little or no SQL, and have a pretty simple /
+   small-scale problem, they can save you time!-)
+   [https://stackoverflow.com/a/1279641]Share
+   answered Aug 14, 2009 at 19:09
+   [https://stackoverflow.com/users/95810/alex-martelli]
+   Alex Martelli's user avatar
+   [https://stackoverflow.com/users/95810/alex-martelli]Alex MartelliAlex
+   Martelli
+   851k170170 gold badges12181218 silver badges13941394 bronze badges
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Add a comment  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+   2
+   votes
+   (BUTTON)
+   [https://stackoverflow.com/posts/43487764/timeline]
+
+   Object Model is concerned with the following three concepts Data
+   Abstraction Encapsulation Inheritance The relational model used the
+   basic concept of a relation or table. Object-relational mapping (OR
+   mapping) products integrate object programming language capabilities
+   with relational databases.
+   [https://stackoverflow.com/a/43487764]Share
+   answered Apr 19, 2017 at 6:13
+   [https://stackoverflow.com/users/7887766/hamza-riaz]
+   Hamza Riaz's user avatar
+   [https://stackoverflow.com/users/7887766/hamza-riaz]Hamza RiazHamza
+   Riaz
+   2111 bronze badge
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]Add a comment  |
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]
+
+   Not the answer you're looking for? Browse other questions tagged
+     * [https://stackoverflow.com/questions/tagged/database]database
+     * [https://stackoverflow.com/questions/tagged/orm]orm
+     * [https://stackoverflow.com/questions/tagged/language-agnostic]langu
+       age-agnostic
+
+   or [https://stackoverflow.com/questions/ask]ask your own question.
+     * The Overflow Blog
+     * [https://stackoverflow.blog/2023/07/07/from-sims-to-supercycle-ep-5
+       87/]Why on earth are people paying for digital real estate? (Ep.
+       587)
+     * [https://stackoverflow.blog/2023/07/07/the-overflow-185-the-hardest
+       -part-of-software-is-requirements/]The Overflow #185: The hardest
+       part of software is requirements
+     * Featured on Meta
+     * [https://meta.stackexchange.com/questions/390463/starting-the-promp
+       t-design-site-a-new-home-in-our-stack-exchange-neighborhood]Startin
+       g the Prompt Design Site: A New Home in our Stack Exchange
+       Neighborhood
+     * [https://meta.stackexchange.com/questions/390761/colors-update-a-mo
+       re-detailed-look]Colors update: A more detailed look
+     * [https://meta.stackoverflow.com/questions/421831/temporary-policy-g
+       enerative-ai-e-g-chatgpt-is-banned]Temporary policy: Generative AI
+       (e.g., ChatGPT) is banned
+     * [https://meta.stackoverflow.com/questions/425384/testing-native-spo
+       nsored-banner-ads-on-stack-overflow-starting-july-6]Testing native,
+       sponsored banner ads on Stack Overflow (starting July 6)
+
+Linked
+
+   [https://stackoverflow.com/q/1152299]
+   86
+   [https://stackoverflow.com/questions/1152299/what-is-an-object-relation
+   al-mapping-framework?noredirect=1]What is an Object-Relational Mapping
+   Framework?
+   [https://stackoverflow.com/q/71799094]
+   0
+   [https://stackoverflow.com/questions/71799094/is-there-a-better-way-to-
+   retrieve-data-from-database-to-an-object?noredirect=1]Is there a better
+   way to retrieve data from database to an object?
+   [https://stackoverflow.com/q/74325427]
+   0
+   [https://stackoverflow.com/questions/74325427/object-relational-mapping
+   -orm?noredirect=1]Object-relational mapping (ORM)
+   [https://stackoverflow.com/q/459457]
+   328
+   [https://stackoverflow.com/questions/459457/what-is-a-stored-procedure?
+   noredirect=1]What is a stored procedure?
+   [https://stackoverflow.com/q/53428]
+   250
+   [https://stackoverflow.com/questions/53428/what-are-some-good-python-or
+   m-solutions?noredirect=1]What are some good Python ORM solutions?
+   [https://stackoverflow.com/q/12261866]
+   190
+   [https://stackoverflow.com/questions/12261866/what-is-the-difference-be
+   tween-an-orm-and-an-odm?noredirect=1]What is the difference between an
+   ORM and an ODM?
+   [https://stackoverflow.com/q/716532]
+   67
+   [https://stackoverflow.com/questions/716532/hibernate-ibatis-java-ee-or
+   -other-java-orm-tool?noredirect=1]Hibernate, iBatis, Java EE or other
+   Java ORM tool
+   [https://stackoverflow.com/q/13748111]
+   7
+   [https://stackoverflow.com/questions/13748111/what-is-the-difference-be
+   tween-sqlalchemy-postgresql-and-sqlite?noredirect=1]What is the
+   difference between SQLAlchemy, PostgreSQL, and SQLite?
+   [https://stackoverflow.com/q/2178934]
+   4
+   [https://stackoverflow.com/questions/2178934/leading-the-jump-from-clas
+   sic-asp-to-asp-net-any-advice?noredirect=1]Leading the jump from
+   Classic ASP to ASP.NET, any advice?
+   [https://stackoverflow.com/q/28254802]
+   5
+   [https://stackoverflow.com/questions/28254802/what-is-an-orm-eloquent-o
+   rm?noredirect=1]What is an ORM? Eloquent ORM?
+   [https://stackoverflow.com/questions/linked/1279613]See more linked
+   questions
+
+Related
+
+   [https://stackoverflow.com/q/79923]
+   9283
+   [https://stackoverflow.com/questions/79923/what-and-where-are-the-stack
+   -and-heap]What and where are the stack and heap?
+   [https://stackoverflow.com/q/97197]
+   2174
+   [https://stackoverflow.com/questions/97197/what-is-the-n1-selects-probl
+   em-in-orm-object-relational-mapping]What is the "N+1 selects problem"
+   in ORM (Object-Relational Mapping)?
+   [https://stackoverflow.com/q/9452701]
+   1219
+   [https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algor
+   ithm-in-plain-english]Ukkonen's suffix tree algorithm in plain English
+   [https://stackoverflow.com/q/141525]
+   1530
+   [https://stackoverflow.com/questions/141525/what-are-bitwise-shift-bit-
+   shift-operators-and-how-do-they-work]What are bitwise shift (bit-shift)
+   operators and how do they work?
+   [https://stackoverflow.com/q/1050222]
+   1520
+   [https://stackoverflow.com/questions/1050222/what-is-the-difference-bet
+   ween-concurrency-and-parallelism]What is the difference between
+   concurrency and parallelism?
+   [https://stackoverflow.com/q/391483]
+   1712
+   [https://stackoverflow.com/questions/391483/what-is-the-difference-betw
+   een-an-abstract-method-and-a-virtual-method]What is the difference
+   between an abstract method and a virtual method?
+   [https://stackoverflow.com/q/129329]
+   923
+   [https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-l
+   ocking]Optimistic vs. Pessimistic locking
+   [https://stackoverflow.com/q/341273]
+   341
+   [https://stackoverflow.com/questions/341273/what-does-character-set-and
+   -collation-mean-exactly]What does character set and collation mean
+   exactly?
+
+[https://stackexchange.com/questions?tab=hot]Hot Network Questions
+
+     * [https://money.stackexchange.com/questions/157442/can-visa-masterca
+       rd-credit-debit-cards-be-used-to-receive-online-payments]Can Visa,
+       Mastercard... credit/debit cards be used to receive online
+       payments?
+     * [https://diy.stackexchange.com/questions/275918/do-i-remove-the-scr
+       ew-keeper-on-a-self-grounding-outlet]Do I remove the screw keeper
+       on a self-grounding outlet?
+     * [https://math.stackexchange.com/questions/4732679/ab-and-ab-are-nil
+       potent-matrices-are-a-and-b-nilpotent]A+B and AB are nilpotent
+       matrices, are A and B nilpotent?
+     * [https://mathoverflow.net/questions/450375/non-definability-of-grap
+       h-3-colorability-in-first-order-logic]Non-definability of graph
+       3-colorability in first-order logic
+     * [https://ell.stackexchange.com/questions/338560/what-is-the-verb-ex
+       pressing-the-action-of-moving-some-farm-animals-in-a-field-to]What
+       is the verb expressing the action of moving some farm animals in a
+       field to let them eat grass or plants?
+     * [https://politics.stackexchange.com/questions/80245/what-is-the-rea
+       soning-behind-the-usa-criticizing-countries-and-then-paying-them]Wh
+       at is the reasoning behind the USA criticizing countries and then
+       paying them diplomatic visits?
+     * [https://langdev.stackexchange.com/questions/2163/why-add-an-increm
+       ent-decrement-operator-when-compound-assignnments-exist]Why add an
+       increment/decrement operator when compound assignnments exist?
+     * [https://travel.stackexchange.com/questions/182229/is-speaking-the-
+       countrys-language-fluently-regarded-favorably-when-applying-for]Is
+       speaking the country's language fluently regarded favorably when
+       applying for a Schengen visa?
+     * [https://chinese.stackexchange.com/questions/54804/characters-with-
+       only-one-possible-next-character]Characters with only one possible
+       next character
+     * [https://physics.stackexchange.com/questions/771210/will-just-the-i
+       ncrease-in-height-of-water-column-increase-pressure-or-does-mass]Wi
+       ll just the increase in height of water column increase pressure or
+       does mass play any role in it?
+     * [https://codegolf.stackexchange.com/questions/262518/landmine-numbe
+       r-i]Landmine Number I
+     * [https://softwareengineering.stackexchange.com/questions/446403/is-
+       password-hashing-bad]Is Password Hashing Bad?
+     * [https://electronics.stackexchange.com/questions/673055/would-a-roo
+       m-sized-coil-used-for-inductive-coupling-and-wireless-energy-transf
+       er]Would a room-sized coil used for inductive coupling and wireless
+       energy transfer be feasible?
+     * [https://workplace.stackexchange.com/questions/192237/can-i-still-h
+       ave-hopes-for-an-offer-as-a-software-developer]Can I still have
+       hopes for an offer as a software developer
+     * [https://mathoverflow.net/questions/450268/brute-force-open-problem
+       s-in-graph-theory]Brute force open problems in graph theory
+     * [https://law.stackexchange.com/questions/93726/can-the-secret-servi
+       ce-arrest-someone-who-uses-an-illegal-drug-inside-of-the-whi]Can
+       the Secret Service arrest someone who uses an illegal drug inside
+       of the White House?
+     * [https://worldbuilding.stackexchange.com/questions/247824/if-magic-
+       is-programming-then-what-is-mana-supposed-to-be]If magic is
+       programming, then what is mana supposed to be?
+     * [https://stats.stackexchange.com/questions/620871/using-lin-reg-par
+       ameters-without-original-dataset]Using Lin Reg parameters without
+       Original Dataset
+     * [https://puzzling.stackexchange.com/questions/121461/operator-some-
+       product]Operator! Some Product!
+     * [https://unix.stackexchange.com/questions/750766/why-does-yes-crash
+       -my-bash-session]Why does "yes&" crash my Bash session?
+     * [https://diy.stackexchange.com/questions/275879/how-to-get-romex-be
+       tween-two-garage-doors]How to get Romex between two garage doors
+     * [https://ham.stackexchange.com/questions/22010/how-to-passive-ampli
+       fy-signal-from-outside-to-inside]How to passive amplify signal from
+       outside to inside?
+     * [https://movies.stackexchange.com/questions/120417/in-the-movie-loo
+       per-why-do-assassins-in-the-future-use-inaccurate-weapons-such]In
+       the movie Looper, why do assassins in the future use inaccurate
+       weapons such as blunderbuss?
+     * [https://diy.stackexchange.com/questions/275919/how-can-i-remove-a-
+       mystery-pipe-in-basement-wall-and-floor]How can I remove a mystery
+       pipe in basement wall and floor?
+
+   [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it
+   -work-and-how-should-i-use-one]more hot questions
+
+   [https://stackoverflow.com/]
+
+[https://stackoverflow.com/]Stack Overflow
+
+     * [https://stackoverflow.com/questions]Questions
+     * [https://stackoverflow.com/help]Help
+
+[https://stackoverflow.co/]Products
+
+     * [https://stackoverflow.co/teams/]Teams
+     * [https://stackoverflow.co/advertising/]Advertising
+     * [https://stackoverflow.co/collectives/]Collectives
+     * [https://stackoverflow.co/talent/]Talent
+
+[https://stackoverflow.co/]Company
+
+     * [https://stackoverflow.co/]About
+     * [https://stackoverflow.co/company/press/]Press
+     * [https://stackoverflow.co/company/work-here/]Work Here
+     * [https://stackoverflow.com/legal]Legal
+     * [https://stackoverflow.com/legal/privacy-policy]Privacy Policy
+     * [https://stackoverflow.com/legal/terms-of-service]Terms of Service
+     * [https://stackoverflow.co/company/contact/]Contact Us
+     * [https://stackoverflow.com/questions/1279613/what-is-an-orm-how-doe
+       s-it-work-and-how-should-i-use-one]Cookie Settings
+     * [https://stackoverflow.com/legal/cookie-policy]Cookie Policy
+
+[https://stackexchange.com/]Stack Exchange Network
+
+     * [https://stackexchange.com/sites#technology]Technology
+     * [https://stackexchange.com/sites#culturerecreation]Culture &
+       recreation
+     * [https://stackexchange.com/sites#lifearts]Life & arts
+     * [https://stackexchange.com/sites#science]Science
+     * [https://stackexchange.com/sites#professional]Professional
+     * [https://stackexchange.com/sites#business]Business
+     * [https://api.stackexchange.com/]API
+     * [https://data.stackexchange.com/]Data
+
+     * [https://stackoverflow.blog/?blb=1]Blog
+     * [https://www.facebook.com/officialstackoverflow/]Facebook
+     * [https://twitter.com/stackoverflow]Twitter
+     * [https://linkedin.com/company/stack-overflow]LinkedIn
+     * [https://www.instagram.com/thestackoverflow]Instagram
+
+   Site design / logo © 2023 Stack Exchange Inc; user contributions
+   licensed under [https://stackoverflow.com/help/licensing]CC BY-SA.
+   rev 2023.7.7.43526
+
+   Your privacy
+
+   By clicking “Accept all cookies”, you agree Stack Exchange can store
+   cookies on your device and disclose information in accordance with our
+   [https://stackoverflow.com/legal/cookie-policy]Cookie Policy.
+   (BUTTON) Accept all cookies (BUTTON) Necessary cookies only
+   (BUTTON) Customize settings

@@ -1,0 +1,4 @@
+lynx -accept_all_cookies -dump -list_inline https://www.atlassian.com/git/tutori
+als/what-is-version-control > $(basename https://www.atlassian.com/git/tutorials
+/what-is-version-control).txt
+

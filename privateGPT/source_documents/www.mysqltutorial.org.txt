@@ -1,0 +1,392 @@
+    #[https://www.mysqltutorial.org/mysql-tutorial/feed/]MySQL Tutorial »
+   MySQL Tutorial Comments Feed
+   [https://www.mysqltutorial.org/wp-json/wp/v2/pages/599]alternate
+   [https://www.mysqltutorial.org/wp-json/oembed/1.0/embed?url=https%3A%2F
+   %2Fwww.mysqltutorial.org%2F]alternate
+   [https://www.mysqltutorial.org/wp-json/oembed/1.0/embed?url=https%3A%2F
+   %2Fwww.mysqltutorial.org%2F&format=xml]alternate
+
+   [https://www.mysqltutorial.org/#primary]Skip to content
+
+   [https://www.mysqltutorial.org/]
+
+     * [https://www.mysqltutorial.org/]Home
+     * [https://www.mysqltutorial.org/getting-started-with-mysql/]Start
+       Here
+     * [https://www.mysqltutorial.org/mysql-basics/]Basics
+     * Advanced
+          + [https://www.mysqltutorial.org/mysql-stored-procedure-tutorial
+            .aspx]Stored Procedures
+          + [https://www.mysqltutorial.org/mysql-triggers/]Triggers
+          + [https://www.mysqltutorial.org/mysql-views-tutorial.aspx]Views
+          + [https://www.mysqltutorial.org/mysql-index/]Indexes
+          + [https://www.mysqltutorial.org/mysql-administration/]Administr
+            ation
+          + [https://www.mysqltutorial.org/mysqltips.aspx]Tips
+     * Functions
+          + [https://www.mysqltutorial.org/mysql-aggregate-functions.aspx]
+            Aggregate Functions
+          + [https://www.mysqltutorial.org/mysql-comparison-functions/]Com
+            parison Functions
+          + [https://www.mysqltutorial.org/mysql-date-functions/]Date
+            Functions
+          + [https://www.mysqltutorial.org/mysql-string-functions/]String
+            Functions
+          + [https://www.mysqltutorial.org/mysql-window-functions/]Window
+            Functions
+          + [https://www.mysqltutorial.org/mysql-math-functions/]Math
+            Functions
+     * API
+          + [https://www.mysqltutorial.org/php-mysql/]PHP
+          + [https://www.mysqltutorial.org/python-mysql/]Python
+          + [https://www.mysqltutorial.org/perl-mysql/]Perl
+          + [https://www.mysqltutorial.org/mysql-nodejs/]Node.js
+          + [https://www.mysqltutorial.org/mysql-jdbc-tutorial/]JDBC
+     * [https://www.mysqltutorial.org/tryit/]TryIt
+
+   (BUTTON)
+
+MySQL Tutorial
+
+   Welcome to the MySQL Tutorial website! You will learn MySQL fast, easy,
+   and fun. This website provides you with a complete MySQL tutorial
+   presented in an easy-to-follow manner. Each tutorial has practical
+   examples with SQL scripts and screenshots available.
+
+Getting Started
+
+   In this section, you’ll get started with MySQL by following five easy
+   steps. After completing the getting started section, you’ll have a
+   local MySQL database on your computer with a sample database to
+   practice.
+
+[https://www.mysqltutorial.org/getting-started-with-mysql/]Getting Started
+with MySQL
+
+   This section helps you get started with the MySQL quickly if you have
+   never worked with MySQL before.
+
+MySQL Tutorial for Developers
+
+   Are you a developer looking to learn MySQL fast? After completing this
+   section, you’ll know how to work with MySQL more effectively as a
+   developer. You’ll learn various techniques to manipulate database
+   objects and interact with the data.
+
+[https://www.mysqltutorial.org/mysql-basics/]MySQL Basics
+
+   This MySQL basics section provides you with everything you need to know
+   to manage data in MySQL effectively
+
+[https://www.mysqltutorial.org/mysql-stored-procedure-tutorial.aspx]MySQL
+Stored Procedures
+
+   In this section, you will learn how to create stored procedures and
+   stored functions in MySQL with clear explanation and practical
+   examples.
+
+[https://www.mysqltutorial.org/mysql-triggers/]MySQL Triggers
+
+   MySQL triggers are stored programs executed automatically to respond to
+   specific events associated with a table such as an insert, update or
+   delete. This section shows you how to work with MySQL triggers
+   effectively.
+
+[https://www.mysqltutorial.org/mysql-views-tutorial.aspx]MySQL Views
+
+   This tutorial introduces you to MySQL Views, which are named query
+   stored in the database, and shows you step by step on how to manage
+   views effectively.
+
+[https://www.mysqltutorial.org/mysql-index/]MySQL Index
+
+   This section introduces you to the MySQL index concept and shows you
+   how to manage indexes in MySQL to optimize your queries.
+
+[https://www.mysqltutorial.org/mysql-full-text-search.aspx]MySQL Full-Text
+Search
+
+   In this section, we show you how to use MySQL full-text search with
+   various full-text searching techniques such as natural language search,
+   Boolean language search and query expansion.
+
+[https://www.mysqltutorial.org/mysqltips.aspx]MySQL Tips
+
+   We provide you with the advanced MySQL techniques and tips to help you
+   solve the most difficult challenges in MySQL effectively.
+
+MySQL Programming Interfaces
+
+   In this section, you’ll learn how to access the MySQL Database using
+   various programming languages such as PHP,  Java, Python, Node.js, and
+   Perl.
+
+[https://www.mysqltutorial.org/php-mysql/]PHP MySQL Tutorial
+
+   You will learn how to interact with MySQL using PHP Data Objects or
+   PDO, which provides a lightweight and consistent interface for
+   accessing MySQL Database.
+
+[https://www.mysqltutorial.org/mysql-nodejs/]MySQL Node.js
+
+   In this section, you will learn how to interact with MySQL from node.js
+   applications using the mysql module.
+
+[https://www.mysqltutorial.org/mysql-jdbc-tutorial/]MySQL JDBC Tutorial
+
+   Java JDBC API provides a standard interface to interact with any
+   relational databases. In this MySQL JDBC tutorial section, we will show
+   you how to use JDBC to interact with MySQL databases.
+
+[https://www.mysqltutorial.org/python-mysql/]Python MySQL Tutorial
+
+   This Python MySQL tutorial section shows you how to use MySQL
+   connector/Python to access MySQL databases.
+
+[https://www.mysqltutorial.org/perl-mysql/]Perl MySQL Tutorial
+
+   This Perl MySQL section shows you how to interact with MySQL by using
+   Perl DBI API for connecting to and disconnecting from MySQL databases,
+   creating tables, handling data, and managing transactions.
+
+MySQL Tutorial for Database Administrators
+
+   This step-by-step tutorial provides you with in-depth background
+   information on MySQL administration. This section covers everything
+   from basic to advanced MySQL administration and configuration.
+
+   All MySQL administration tutorials presented in this section are
+   practical and widely utilized in enterprise environments.
+
+[https://www.mysqltutorial.org/mysql-administration/]MySQL Administration
+
+   In this section, you will find a lot of useful MySQL administration
+   tutorials including MySQL server start-up and shutdown, MySQL server
+   security, MySQL database maintenance, backup and restore.
+
+MySQL Functions
+
+[https://www.mysqltutorial.org/mysql-aggregate-functions.aspx]MySQL Aggregate
+Functions
+
+   Aggregate functions allow you to perform a calculation on a set of
+   records and return a single value. In this tutorial, you will learn
+   various MySQL aggregate functions including SUM, AVG, MAX, MIN and
+   COUNT functions.
+
+[https://www.mysqltutorial.org/mysql-comparison-functions/]MySQL Comparison
+Functions
+
+   In this section, you will learn about the comparison functions in MySQL
+   including COALESCE, GREATEST, LEAST, and ISNULL.
+
+[https://www.mysqltutorial.org/mysql-control-flow-functions/]MySQL Control
+Flow Functions and Expressions
+
+   The control flow functions allow you to add if-then-else logic to SQL
+   queries without using the procedural code.
+
+[https://www.mysqltutorial.org/mysql-date-functions/]MySQL Date Functions
+
+   This page shows you the most commonly used MySQL Date Functions that
+   allow you to manipulate date and time data effectively.
+
+[https://www.mysqltutorial.org/mysql-string-functions/]MySQL String Functions
+
+   This page shows you the most commonly used MySQL string functions that
+   allow you to manipulate character string data effectively.
+
+[https://www.mysqltutorial.org/mysql-window-functions/]MySQL Window Functions
+
+   This tutorial introduces you to MySQL windows functions and provides
+   you with some practical and motivational examples of the windows
+   functions in MySQL.
+
+[https://www.mysqltutorial.org/mysql-math-functions/]MySQL Math Functions
+
+   This section covers the most commonly used math functions in MySQL.
+
+MySQL Tutorial References
+
+   If you need more information on MySQL, check out
+   the [https://www.mysqltutorial.org/mysql-resources.aspx]MySQL
+   resources.
+
+   Search for: ____________________ Search
+
+MySQL Quick Start
+
+     * [https://www.mysqltutorial.org/what-is-mysql/]What Is MySQL?
+     * [https://www.mysqltutorial.org/install-mysql/]Install MySQL
+       Database Server
+     * [https://www.mysqltutorial.org/getting-started-with-mysql/connect-t
+       o-mysql-server/]Connect to MySQL Server
+     * [https://www.mysqltutorial.org/mysql-sample-database.aspx]Download
+       MySQL Sample Database
+     * [https://www.mysqltutorial.org/how-to-load-sample-database-into-mys
+       ql-database-server.aspx]Load Sample Database
+
+MySQL Data Manipulation
+
+     * [https://www.mysqltutorial.org/mysql-select-statement-query-data.as
+       px]SELECT
+     * [https://www.mysqltutorial.org/mysql-order-by/]ORDER BY
+     * [https://www.mysqltutorial.org/mysql-where/]WHERE
+     * [https://www.mysqltutorial.org/mysql-distinct.aspx]SELECT DISTINCT
+     * [https://www.mysqltutorial.org/mysql-and/]AND
+     * [https://www.mysqltutorial.org/mysql-or/]OR
+     * [https://www.mysqltutorial.org/mysql-basics/mysql-in/]IN
+     * [https://www.mysqltutorial.org/mysql-between]BETWEEN
+     * [https://www.mysqltutorial.org/mysql-like/]LIKE
+     * [https://www.mysqltutorial.org/mysql-limit.aspx]LIMIT
+     * [https://www.mysqltutorial.org/mysql-is-null/]IS NULL
+     * [https://www.mysqltutorial.org/mysql-alias/]Table & Column Aliases
+     * [https://www.mysqltutorial.org/mysql-join/]Joins
+     * [https://www.mysqltutorial.org/mysql-inner-join.aspx]INNER JOIN
+     * [https://www.mysqltutorial.org/mysql-left-join.aspx]LEFT JOIN
+     * [https://www.mysqltutorial.org/mysql-right-join/]RIGHT JOIN
+     * [https://www.mysqltutorial.org/mysql-self-join/]Self Join
+     * [https://www.mysqltutorial.org/mysql-cross-join/]CROSS JOIN
+     * [https://www.mysqltutorial.org/mysql-group-by.aspx]GROUP BY
+     * [https://www.mysqltutorial.org/mysql-having.aspx]HAVING
+     * [https://www.mysqltutorial.org/mysql-rollup/]ROLLUP
+     * [https://www.mysqltutorial.org/mysql-subquery/]Subquery
+     * [https://www.mysqltutorial.org/mysql-derived-table/]Derived Tables
+     * [https://www.mysqltutorial.org/mysql-exists/]EXISTS
+     * [https://www.mysqltutorial.org/sql-union-mysql.aspx]UNION
+     * [https://www.mysqltutorial.org/mysql-minus/]MINUS
+     * [https://www.mysqltutorial.org/mysql-intersect/]INTERSECT
+     * [https://www.mysqltutorial.org/mysql-insert-statement.aspx]INSERT
+     * [https://www.mysqltutorial.org/mysql-insert-multiple-rows/]Insert
+       Multiple Rows
+     * [https://www.mysqltutorial.org/mysql-insert-into-select/]INSERT
+       INTO SELECT
+     * [https://www.mysqltutorial.org/mysql-insert-or-update-on-duplicate-
+       key-update/]Insert On Duplicate Key Update
+     * [https://www.mysqltutorial.org/mysql-insert-ignore/]INSERT IGNORE
+     * [https://www.mysqltutorial.org/mysql-update-data.aspx]UPDATE
+     * [https://www.mysqltutorial.org/mysql-update-join/]UPDATE JOIN
+     * [https://www.mysqltutorial.org/mysql-delete-statement.aspx]DELETE
+     * [https://www.mysqltutorial.org/mysql-delete-join/]DELETE JOIN
+     * [https://www.mysqltutorial.org/mysql-on-delete-cascade/]ON DELETE
+       CASCADE
+     * [https://www.mysqltutorial.org/mysql-replace.aspx]REPLACE
+
+Managing Databases
+
+     * [https://www.mysqltutorial.org/mysql-select-database/]Select a
+       Database
+     * [https://www.mysqltutorial.org/mysql-create-database/]Create
+       Databases
+     * [https://www.mysqltutorial.org/mysql-drop-database/]Drop Databases
+
+Managing Tables
+
+     * [https://www.mysqltutorial.org/understand-mysql-table-types-innodb-
+       myisam.aspx]MySQL Storage Engines
+     * [https://www.mysqltutorial.org/mysql-create-table/]Create Tables
+     * [https://www.mysqltutorial.org/mysql-sequence/]AUTO_INCREMENT
+     * [https://www.mysqltutorial.org/mysql-rename-table/]Rename Tables
+     * [https://www.mysqltutorial.org/mysql-alter-table.aspx]Alter Tables
+     * [https://www.mysqltutorial.org/mysql-drop-column/]Drop Columns
+     * [https://www.mysqltutorial.org/mysql-add-column/]Add Columns
+     * [https://www.mysqltutorial.org/mysql-drop-table]Drop Tables
+     * [https://www.mysqltutorial.org/mysql-temporary-table/]Temporary
+       Tables
+     * [https://www.mysqltutorial.org/mysql-truncate-table/]Truncate
+       Tables
+     * [https://www.mysqltutorial.org/mysql-generated-columns/]Generated
+       Columns
+
+MySQL Constraints
+
+     * [https://www.mysqltutorial.org/mysql-primary-key/]Primary Key
+     * [https://www.mysqltutorial.org/mysql-foreign-key/]Foreign Key
+     * [https://www.mysqltutorial.org/mysql-disable-foreign-key-checks/]Di
+       sable Foreign Key Checks
+     * [https://www.mysqltutorial.org/mysql-unique-constraint/]UNIQUE
+       Constraint
+     * [https://www.mysqltutorial.org/mysql-not-null-constraint/]NOT NULL
+       Constraint
+     * [https://www.mysqltutorial.org/mysql-basics/mysql-default/]DEFAULT
+       Constraint
+     * [https://www.mysqltutorial.org/mysql-check-constraint/]CHECK
+       Constraint
+
+MySQL Data Types
+
+     * [https://www.mysqltutorial.org/mysql-bit/]BIT
+     * [https://www.mysqltutorial.org/mysql-boolean/]BOOLEAN
+     * [https://www.mysqltutorial.org/mysql-char-data-type/]CHAR
+     * [https://www.mysqltutorial.org/mysql-date/]DATE
+     * [https://www.mysqltutorial.org/mysql-datetime/]DATETIME
+     * [https://www.mysqltutorial.org/mysql-decimal/]DECIMAL
+     * [https://www.mysqltutorial.org/mysql-enum/]ENUM
+     * [https://www.mysqltutorial.org/mysql-int/]INT
+     * [https://www.mysqltutorial.org/mysql-json/]JSON
+     * [https://www.mysqltutorial.org/mysql-time/]TIME
+     * [https://www.mysqltutorial.org/mysql-timestamp.aspx]TIMESTAMP
+     * [https://www.mysqltutorial.org/mysql-varchar/]VARCHAR
+
+MySQL Globalization
+
+     * [https://www.mysqltutorial.org/mysql-character-set/]MySQL Character
+       Set
+     * [https://www.mysqltutorial.org/mysql-collation/]MySQL Collation
+
+MySQL Import & Export
+
+     * [https://www.mysqltutorial.org/import-csv-file-mysql-table/]Import
+       a CSV File Into a Table
+     * [https://www.mysqltutorial.org/mysql-export-table-to-csv/]Export a
+       Table to a CSV File
+
+About MySQL Tutorial Website
+
+   MySQLTutorial.org is a website dedicated to MySQL database. We
+   regularly publish useful MySQL tutorials to help web developers and
+   database administrators learn MySQL faster and more effectively.
+
+   All MySQL tutorials are practical and easy-to-follow, with SQL script
+   and screenshots available.
+   [https://www.mysqltutorial.org/about-us/]More About Us
+
+Latest Tutorials
+
+     * [https://www.mysqltutorial.org/mysql-basics/mysql-default/]MySQL
+       DEFAULT
+     * [https://www.mysqltutorial.org/mysql-basics/mysql-not-in/]MySQL NOT
+       IN
+     * [https://www.mysqltutorial.org/mysql-basics/mysql-select/]MySQL
+       Select
+     * [https://www.mysqltutorial.org/mysql-index/mysql-is-null-optimizati
+       on/]MySQL IS NULL Optimization
+     * [https://www.mysqltutorial.org/advanced-mysql/]Advanced MySQL
+     * [https://www.mysqltutorial.org/mysql-application-programming-interf
+       aces/]MySQL Application Programming Interfaces
+     * [https://www.mysqltutorial.org/mysql-stored-procedure/mysql-stored-
+       object-access-control/]MySQL Stored Object Access Control
+     * [https://www.mysqltutorial.org/install-mysql-ubuntu/]Install MySQL
+       on Ubuntu
+     * [https://www.mysqltutorial.org/install-mysql-centos/]Install MySQL
+       CentOS
+     * [https://www.mysqltutorial.org/getting-started-with-mysql/]Getting
+       Started with MySQL
+
+Site Links
+
+     * [https://www.mysqltutorial.org/donation/]Donation ❤️
+     * [https://www.mysqltutorial.org/contact-us/]Contact Us
+     * [https://www.mysqltutorial.org/about-us/]About Us
+     * [https://www.mysqltutorial.org/privacy-policy/]Privacy Policy
+
+Others
+
+     * [https://www.mysqltutorial.org/mysql-cheat-sheet.aspx]MySQL Cheat
+       Sheet
+     * [https://www.mysqltutorial.org/mysql-resources.aspx]MySQL Resources
+     * [https://www.mysqltutorial.org/mysqlbooks.aspx]MySQL Books
+
+   Copyright © 2022 by
+   [https://www.mysqltutorial.org/]www.mysqltutorial.org. All Rights
+   Reserved.

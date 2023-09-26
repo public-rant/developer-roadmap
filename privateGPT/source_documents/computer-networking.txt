@@ -1,0 +1,491 @@
+   #[https://aws.amazon.com/ar/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/de/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/es/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/fr/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/id/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/it/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/jp/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/ko/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/pt/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/ru/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/th/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/tr/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/vi/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/cn/what-is/computer-networking/]alternate
+   [https://aws.amazon.com/tw/what-is/computer-networking/]alternate
+
+   [https://aws.amazon.com/what-is/computer-networking/#aws-page-content-m
+   ain]Skip to main content
+
+   [https://aws.amazon.com/?nc2=h_lg]Click here to return to Amazon Web
+   Services homepage
+
+   [https://aws.amazon.com/contact-us/?nc2=h_header]Contact Us
+   [https://aws.amazon.com/what-is/computer-networking/]Support
+   [https://aws.amazon.com/what-is/computer-networking/]English
+   [https://aws.amazon.com/what-is/computer-networking/]My Account
+   [https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin
+   ]Sign In
+   [https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+   ?nc2=h_ct&src=header_signup]Create an AWS Account
+
+     * [https://aws.amazon.com/products/?nc2=h_ql_prod]Products
+     * [https://aws.amazon.com/solutions/?nc2=h_ql_sol]Solutions
+     * [https://aws.amazon.com/pricing/?nc2=h_ql_pr]Pricing
+     * [https://aws.amazon.com/documentation-overview/?nc2=h_ql_doc_do]Doc
+       umentation
+     * [https://aws.amazon.com/getting-started/?nc2=h_ql_le]Learn
+     * [https://aws.amazon.com/partners/?nc2=h_ql_pn]Partner Network
+     * [https://aws.amazon.com/marketplace/?nc2=h_ql_mp]AWS Marketplace
+     * [https://aws.amazon.com/customer-enablement/?nc2=h_ql_ce]Customer
+       Enablement
+     * [https://aws.amazon.com/events/?nc2=h_ql_ev]Events
+     * [https://aws.amazon.com/contact-us/?nc2=h_ql_exm]Explore More
+
+   ____________________
+   Close
+     * [https://aws.amazon.com/ar/?nc1=h_ls]عربي
+     * [https://aws.amazon.com/id/?nc1=h_ls]Bahasa Indonesia
+     * [https://aws.amazon.com/de/?nc1=h_ls]Deutsch
+     * [https://aws.amazon.com/?nc1=h_ls]English
+     * [https://aws.amazon.com/es/?nc1=h_ls]Español
+     * [https://aws.amazon.com/fr/?nc1=h_ls]Français
+     * [https://aws.amazon.com/it/?nc1=h_ls]Italiano
+     * [https://aws.amazon.com/pt/?nc1=h_ls]Português
+
+     * [https://aws.amazon.com/vi/?nc1=f_ls]Tiếng Việt
+     * [https://aws.amazon.com/tr/?nc1=h_ls]Türkçe
+     * [https://aws.amazon.com/ru/?nc1=h_ls]Ρусский
+     * [https://aws.amazon.com/th/?nc1=f_ls]ไทย
+     * [https://aws.amazon.com/jp/?nc1=h_ls]日本語
+     * [https://aws.amazon.com/ko/?nc1=h_ls]한국어
+     * [https://aws.amazon.com/cn/?nc1=h_ls]中文 (简体)
+     * [https://aws.amazon.com/tw/?nc1=h_ls]中文 (繁體)
+
+   Close
+     * [https://aws.amazon.com/profile/?nc2=h_m_mc]My Profile
+     * [https://auth.aws.amazon.com/sign-out/?nc2=h_m_mc]Sign out of AWS
+       Builder ID
+     * [https://console.aws.amazon.com/?nc2=h_m_mc]AWS Management Console
+     * [https://console.aws.amazon.com/billing/home#/account?nc2=h_m_ma]Ac
+       count Settings
+     * [https://console.aws.amazon.com/billing/home?nc2=h_m_bc]Billing &
+       Cost Management
+     * [https://console.aws.amazon.com/iam/home?nc2=h_m_sc#security_creden
+       tial]Security Credentials
+     * [https://phd.aws.amazon.com/?nc2=h_m_sc]AWS Personal Health
+       Dashboard
+
+   Close
+     * [https://console.aws.amazon.com/support/home/?nc2=h_ql_cu]Support
+       Center
+     * [https://iq.aws.amazon.com/?utm=mkt.nav]Expert Help
+     * [https://repost.aws/knowledge-center/?nc2=h_m_ma]Knowledge Center
+     * [https://aws.amazon.com/premiumsupport/?nc2=h_m_bc]AWS Support
+       Overview
+     * [https://repost.aws/]AWS re:Post
+
+   [https://aws.amazon.com/?nc2=h_lg]Click here to return to Amazon Web
+   Services homepage
+   [https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+   ?nc2=h_mobile]Get Started for Free
+   [https://aws.amazon.com/contact-us/?nc2=h_mobile]Contact Us
+   ____________________
+
+     * [https://aws.amazon.com/products/?nc2=h_mo]Products
+     * [https://aws.amazon.com/solutions/?nc2=h_mo]Solutions
+     * [https://aws.amazon.com/pricing/?nc2=h_mo]Pricing
+     * [https://aws.amazon.com/what-is-aws/?nc2=h_mo]Introduction to AWS
+     * [https://aws.amazon.com/getting-started/?nc2=h_mo]Getting Started
+     * [https://aws.amazon.com/documentation-overview/?nc2=h_mo]Documentat
+       ion
+     * [https://aws.amazon.com/training/?nc2=h_mo]Training and
+       Certification
+     * [https://aws.amazon.com/developer/?nc2=h_mo]Developer Center
+     * [https://aws.amazon.com/solutions/case-studies/?nc2=h_mo]Customer
+       Success
+     * [https://aws.amazon.com/partners/?nc2=h_mo]Partner Network
+     * [https://aws.amazon.com/marketplace/?nc2=h_mo]AWS Marketplace
+     * [https://console.aws.amazon.com/support/home?nc2=h_ql_cu]Support
+     * [https://repost.aws/]AWS re:Post
+     * [https://console.aws.amazon.com/console/home]Log into Console
+     * [https://aws.amazon.com/console/mobile/]Download the Mobile App
+
+     * [https://aws.amazon.com/what-is-cloud-computing/]What is Cloud
+       Computing?
+     * [https://aws.amazon.com/what-is/]Cloud Computing Concepts Hub
+     * [https://aws.amazon.com/products/networking/]Networking & Content
+       Delivery
+
+What Is Computer Networking?
+
+   [https://aws.amazon.com/free/networking/?pg=wicompute&cta=herobtn]View
+   Free Computer Networking Services
+   [https://aws.amazon.com/free/networking/?sc_icampaign=aware_what-is-seo
+   -pages&sc_ichannel=ha&sc_icontent=awssm-11373_aware&sc_iplace=ed&trk=55
+   deefb7-8d80-45bb-adb7-9f0b812d5aa9~ha_awssm-11373_aware]
+   Explore Free Computer Networking Offers
+   View free offers for Computer Networking services in the cloud
+   [https://aws.amazon.com/products/networking/?sc_icampaign=aware_what-is
+   -seo-pages&sc_ichannel=ha&sc_icontent=awssm-11373_aware&sc_iplace=ed&tr
+   k=a7712250-faa2-4345-9d68-5253192fcebb~ha_awssm-11373_aware]
+   Check out Computer Networking Services
+   Innovate faster with the most comprehensive set of Computer Networking
+   services
+   [https://aws.amazon.com/training/learn-about/advanced-networking/?sc_ic
+   ampaign=aware_what-is-seo-pages&sc_ichannel=ha&sc_icontent=awssm-11373_
+   aware&sc_iplace=ed&trk=66975ef4-5ed8-4332-b0e2-c105d8bbcd39~ha_awssm-11
+   373_aware]
+   Browse Computer Networking Trainings
+   Get started on Computer Networking training with content built by AWS
+   experts
+   [https://aws.amazon.com/blogs/networking-and-content-delivery/?sc_icamp
+   aign=aware_what-is-seo-pages&sc_ichannel=ha&sc_icontent=awssm-11373_awa
+   re&sc_iplace=ed&trk=d77ae1e1-ca7d-42fd-94e6-86d1ae2a2d2b~ha_awssm-11373
+   _aware]
+   Read Computer Networking Blogs
+   Read about the latest AWS Computer Networking product news and best
+   practices
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -is-computer-networking]What is computer networking?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#how-
+   does-a-computer-network-work]How does a computer network work?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -do-computer-networks-do]What do computer networks do?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -are-the-types-of-computer-network-architecture]What are the types of
+   computer network architecture?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -is-network-topology]What is network topology?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -are-the-types-of-enterprise-computer-networks]What are the types of
+   enterprise computer networks?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#what
+   -are-awscomputer-networking-services]What are AWS computer networking
+   services?
+   [https://aws.amazon.com/what-is/computer-networking/#seo-faq-pairs#how-
+   to-use-aws-networking-services]How to use AWS networking services?
+
+What is computer networking?
+
+   Computer networking refers to interconnected computing devices that can
+   exchange data and share resources with each other. These networked
+   devices use a system of rules, called communications protocols, to
+   transmit information over physical or wireless technologies.
+
+   Let’s answer some common computer networking FAQs.
+
+How does a computer network work?
+
+   Nodes and links are the basic building blocks in computer networking. A
+   network node may be data communication equipment (DCE) such as a modem,
+   hub or, switch, or data terminal equipment (DTE) such as two or more
+   computers and printers. A link refers to the transmission media
+   connecting two nodes. Links may be physical, like cable wires or
+   optical fibers, or free space used by wireless networks.
+   In a working computer network, nodes follow a set of rules or protocols
+   that define how to send and receive electronic data via the links. The
+   computer network architecture defines the design of these physical and
+   logical components. It provides the specifications for the network’s
+   physical components, functional organization, protocols, and
+   procedures.
+
+What do computer networks do?
+
+   Computer networks were first created in the late 1950s for use in the
+   military and defense. They were initially used to transmit data over
+   telephone lines and had limited commercial and scientific applications.
+   With the advent of internet technologies, a computer network has become
+   indispensable for enterprises.
+
+   Modern-day network solutions deliver more than connectivity. They are
+   critical for the digital transformation and success of businesses
+   today. Underlying network capabilities have become more programmable,
+   automated, and secure.
+
+   Modern computer networks can:
+
+Operate virtually
+
+   The underlying physical network infrastructure can be logically
+   partitioned to create multiple "overlay" networks. In an overlay
+   computer network, the nodes are virtually linked, and data can be
+   transmitted between them through multiple physical paths. For example,
+   many enterprise networks are overlaid on the internet.
+
+Integrate on a large scale
+
+   Modern networking services connect physically distributed computer
+   networks. These services can optimize network functions through
+   automation and monitoring to create one large-scale, high-performance
+   network. Network services can be scaled up or down based on demand.
+
+Respond quickly to changing conditions
+
+   Many computer networks are software-defined. Traffic can be routed and
+   controlled centrally using a digital interface. These computer networks
+   support virtual traffic management.
+
+Provide data security
+
+   All networking solutions come with in-built security features like
+   encryption and access control. Third-party solutions like antivirus
+   software, firewalls, and antimalware can be integrated to make the
+   network more secure.
+
+What are the types of computer network architecture?
+
+   Computer network design falls under two broad categories:
+
+1. Client-server architecture
+
+   In this type of computer network, nodes may be servers or clients.
+   Server nodes provide resources like memory, processing power, or data
+   to client nodes. Server nodes may also manage client node behavior.
+   Clients may communicate with each other, but they do not share
+   resources. For example, some computer devices in enterprise networks
+   store data and configuration settings. These devices are the servers in
+   the network. Clients may access this data by making a request to the
+   server machine.
+
+2. Peer-to-peer architecture
+
+   In Peer-to-Peer (P2P) architecture, connected computers have equal
+   powers and privileges. There is no central server for coordination.
+   Each device in the computer network can act as either client or server.
+   Each peer may share some of its resources, like memory and processing
+   power, with the entire computer network. For example, some companies
+   use P2P architecture to host memory-consuming applications, such as 3-D
+   graphic rendering, across multiple digital devices.
+
+What is network topology?
+
+   The arrangement of nodes and links is called network topology. They can
+   be configured in different ways to get different outcomes. Some types
+   of network topologies are:
+
+Bus topology
+
+   Each node is linked to one other node only. Data transmission over the
+   network connections occurs in one direction.
+
+Ring topology
+
+   Each node is linked to two other nodes, forming a ring. Data can flow
+   bi-directionally. However,single node failure can bring down the entire
+   network.
+
+Star topology
+
+   A central server node is linked to multiple client network devices.
+   This topology performs better as data doesn’t have to go through each
+   node. It is also more reliable.
+
+Mesh topology
+
+   Every node is connected to many other nodes. In a full mesh topology,
+   every node is connected to every other node in the network.
+
+What are the types of enterprise computer networks?
+
+   Depending on the organization's size and requirements, there are three
+   common types of enterprise private networks:
+
+Local area network (LAN)
+
+   A LAN is an interconnected system limited in size and geography. It
+   typically connects computers and devices within a single office or
+   building. It is used by small companies or as a test network for
+   small-scale prototyping.
+
+Wide area networks (WAN)
+
+   An enterprise network spanning buildings, cities, and even countries,
+   is called a wide area network (WAN). While local area networks are used
+   to transmit data at higher speeds within close proximity, WANs are set
+   up for long-distance communication that is secure and dependable.
+
+   SD-WAN or software-defined WAN is virtual WAN architecture controlled
+   by software technologies. An SD-WAN offers more flexible and dependable
+   connectivity services that can be controlled at the application level
+   without sacrificing security and quality of service.
+
+Service provider networks
+
+   Service provider networks allow customers to lease network capacity and
+   functionality from the provider. Network service providers may consist
+   of telecommunications companies, data carriers, wireless communications
+   providers, Internet service providers, and cable television operators
+   offering high-speed Internet access.
+
+Cloud networks
+
+   Conceptually, a cloud network can be seen as a WAN with its
+   infrastructure delivered by a cloud-based service. Some or all of an
+   organization’s network capabilities and resources are hosted in a
+   public or private cloud platform and made available on demand. These
+   network resources can include virtual routers, firewalls, bandwidth,
+   and network management software,with other tools and functions
+   available as required.
+
+   Businesses today use cloud networks to accelerate time-to-market,
+   increase scale, and manage costs effectively. The cloud network model
+   has become the standard approach for building and delivering
+   applications for modern enterprises.
+
+What are AWS computer networking services?
+
+   AWS networking services are designed to provide enterprises with:
+
+Network security
+
+   AWS infrastructure is monitored 24/7 to help ensure confidentiality and
+   integrity and to meet the highest global network security standards.
+
+Network availability
+
+   AWS has the global infrastructure required to deliver high availability
+   anywhere in the world.
+
+Network performance
+
+   AWS network services deliver high-speed performance with minimal lag
+   time.
+
+How to use AWS networking services?
+
+   [https://aws.amazon.com/products/networking/?pg=wicn&cta=awsns]AWS
+   networking services are available for the following use cases:
+
+Networking foundations
+
+   These services offer solutions for Virtual Private Clouds (VPCs) and
+   for linking on-premise networks with VPCs.
+   [https://aws.amazon.com/vpc/?pg=wicn&cta=vpc]Amazon VPC,
+   [https://aws.amazon.com/transit-gateway/?pg=wicn&cta=awstg]AWS transit
+   gateway, and
+   [https://aws.amazon.com/privatelink/?pg=wicn&cta=awsplink]AWS private
+   link provide optimized solutions to meet your networking requirements.
+
+Network security
+
+   Services like [https://aws.amazon.com/shield/?pg=wicn&cta=awsshield]AWS
+   shield, [https://aws.amazon.com/waf/?pg=wicn&cta=awswaf]AWS WAF, and
+   [https://aws.amazon.com/firewall-manager/?pg=wicn&cta=awsfm]AWS
+   firewall manager protect your AWS cloud network and applications
+   against cyber-attacks.
+   To learn more about AWS networking services and how they can benefit
+   your organization, take a look at the
+   [https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking
+   -services?pg=wicn&cta=so]service overview.
+
+Next steps on AWS
+
+   [https://console.aws.amazon.com/console/home?nc1=f_ct&src=footer-signin
+   -mobile]Sign In to the Console
+
+Learn About AWS
+
+     * [https://aws.amazon.com/what-is-aws/?nc1=f_cc]What Is AWS?
+     * [https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc]What Is
+       Cloud Computing?
+     * [https://aws.amazon.com/diversity-inclusion/?nc1=f_cc]AWS
+       Inclusion, Diversity & Equity
+     * [https://aws.amazon.com/devops/what-is-devops/?nc1=f_cc]What Is
+       DevOps?
+     * [https://aws.amazon.com/containers/?nc1=f_cc]What Is a Container?
+     * [https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-
+       data-lake/?nc1=f_cc]What Is a Data Lake?
+     * [https://aws.amazon.com/security/?nc1=f_cc]AWS Cloud Security
+     * [https://aws.amazon.com/new/?nc1=f_cc]What's New
+     * [https://aws.amazon.com/blogs/?nc1=f_cc]Blogs
+     * [https://press.aboutamazon.com/press-releases/aws]Press Releases
+
+Resources for AWS
+
+     * [https://aws.amazon.com/getting-started/?nc1=f_cc]Getting Started
+     * [https://aws.amazon.com/training/?nc1=f_cc]Training and
+       Certification
+     * [https://aws.amazon.com/solutions/?nc1=f_cc]AWS Solutions Library
+     * [https://aws.amazon.com/architecture/?nc1=f_cc]Architecture Center
+     * [https://aws.amazon.com/faqs/?nc1=f_dr]Product and Technical FAQs
+     * [https://aws.amazon.com/resources/analyst-reports/?nc1=f_cc]Analyst
+       Reports
+     * [https://aws.amazon.com/partners/work-with-partners/?nc1=f_dr]AWS
+       Partners
+
+Developers on AWS
+
+     * [https://aws.amazon.com/developer/?nc1=f_dr]Developer Center
+     * [https://aws.amazon.com/developer/tools/?nc1=f_dr]SDKs & Tools
+     * [https://aws.amazon.com/developer/language/net/?nc1=f_dr].NET on
+       AWS
+     * [https://aws.amazon.com/developer/language/python/?nc1=f_dr]Python
+       on AWS
+     * [https://aws.amazon.com/developer/language/java/?nc1=f_dr]Java on
+       AWS
+     * [https://aws.amazon.com/developer/language/php/?nc1=f_cc]PHP on AWS
+     * [https://aws.amazon.com/developer/language/javascript/?nc1=f_dr]Jav
+       aScript on AWS
+
+Help
+
+     * [https://aws.amazon.com/contact-us/?nc1=f_m]Contact Us
+     * [https://iq.aws.amazon.com/?utm=mkt.foot/?nc1=f_m]Get Expert Help
+     * [https://console.aws.amazon.com/support/home/?nc1=f_dr]File a
+       Support Ticket
+     * [https://repost.aws/?nc1=f_dr]AWS re:Post
+     * [https://repost.aws/knowledge-center/?nc1=f_dr]Knowledge Center
+     * [https://aws.amazon.com/premiumsupport/?nc1=f_dr]AWS Support
+       Overview
+     * [https://aws.amazon.com/legal/?nc1=f_cc]Legal
+     * [https://www.amazon.jobs/aws]AWS Careers
+
+   [https://portal.aws.amazon.com/gp/aws/developer/registration/index.html
+   ?nc1=f_ct&src=default]Create an AWS Account
+   [https://twitter.com/awscloud]
+   [https://www.facebook.com/amazonwebservices]
+   [https://www.twitch.tv/aws]
+   [https://www.youtube.com/user/AmazonWebServices/Cloud/]
+   [https://aws.amazon.com/podcasts/]
+   [https://pages.awscloud.com/communication-preferences?trk=homepage]
+   Amazon is an Equal Opportunity Employer: Minority / Women / Disability
+   / Veteran / Gender Identity / Sexual Orientation / Age.
+
+     * Language
+     * [https://aws.amazon.com/ar/?nc1=h_ls]عربي
+     * [https://aws.amazon.com/id/?nc1=h_ls]Bahasa Indonesia
+     * [https://aws.amazon.com/de/?nc1=h_ls]Deutsch
+     * [https://aws.amazon.com/?nc1=h_ls]English
+     * [https://aws.amazon.com/es/?nc1=h_ls]Español
+     * [https://aws.amazon.com/fr/?nc1=h_ls]Français
+     * [https://aws.amazon.com/it/?nc1=h_ls]Italiano
+     * [https://aws.amazon.com/pt/?nc1=h_ls]Português
+     * [https://aws.amazon.com/vi/?nc1=f_ls]Tiếng Việt
+     * [https://aws.amazon.com/tr/?nc1=h_ls]Türkçe
+     * [https://aws.amazon.com/ru/?nc1=h_ls]Ρусский
+     * [https://aws.amazon.com/th/?nc1=f_ls]ไทย
+     * [https://aws.amazon.com/jp/?nc1=h_ls]日本語
+     * [https://aws.amazon.com/ko/?nc1=h_ls]한국어
+     * [https://aws.amazon.com/cn/?nc1=h_ls]中文 (简体)
+     * [https://aws.amazon.com/tw/?nc1=h_ls]中文 (繁體)
+
+     * [https://aws.amazon.com/privacy/?nc1=f_pr]Privacy
+     * |
+     * [https://aws.amazon.com/terms/?nc1=f_pr]Site Terms
+     * |
+     * [https://aws.amazon.com/what-is/computer-networking/]Cookie
+       Preferences
+     * |
+     * © 2023, Amazon Web Services, Inc. or its affiliates. All rights
+       reserved.
+
+Ending Support for Internet Explorer
+
+   [https://aws.amazon.com/what-is/computer-networking/]Got it
+   AWS support for Internet Explorer ends on 07/31/2022. Supported
+   browsers are Chrome, Firefox, Edge, and Safari.
+   [https://aws.amazon.com/blogs/aws/heads-up-aws-support-for-internet-exp
+   lorer-11-is-ending/]Learn more »
+   Got it

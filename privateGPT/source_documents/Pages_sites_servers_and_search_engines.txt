@@ -1,0 +1,486 @@
+   #[https://developer.mozilla.org/opensearch.xml]MDN Web Docs
+   [https://developer.mozilla.org/es/docs/Learn/Common_questions/Web_mecha
+   nics/Pages_sites_servers_and_search_engines]¿Cuál es la diferencia
+   entre la página web, el sitio web, el servidor web y el motor de
+   búsqueda?
+   [https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mecha
+   nics/Pages_sites_servers_and_search_engines]Quelle différence entre une
+   page web, un site web, un serveur web et un moteur de recherche ?
+   [https://developer.mozilla.org/ja/docs/Learn/Common_questions/Web_mecha
+   nics/Pages_sites_servers_and_search_engines]ウェブページ、ウェブサイト、ウェブサーバー、検索エンジ
+   ンの違いは？
+   [https://developer.mozilla.org/ko/docs/Learn/Common_questions/Web_mecha
+   nics/Pages_sites_servers_and_search_engines]웹페이지, 웹사이트, 웹서버 그리고 검색엔진의
+   차이는 무엇일까요?
+   [https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_me
+   chanics/Pages_sites_servers_and_search_engines]Qual a diferença entre
+   página web, site, servidor web e mecanismo de busca?
+   [https://developer.mozilla.org/ru/docs/Learn/Common_questions/Web_mecha
+   nics/Pages_sites_servers_and_search_engines]Веб-страницы, веб-сайты,
+   веб серверы и поисковики
+   [https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_me
+   chanics/Pages_sites_servers_and_search_engines]网页，网站，网络服务器和搜索引擎的区别是什么？
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/Pages_sites_servers_and_search_engines]What is the difference
+   between webpage, website, web server, and search engine?
+   [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#content]Skip to
+       main content
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#top-nav-search-i
+       nput]Skip to search
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#languages-switch
+       er-button]Skip to select language
+
+   [https://developer.mozilla.org/en-US/](BUTTON) Open main menu
+
+     * (BUTTON)
+       References[https://developer.mozilla.org/en-US/docs/Web]References
+          + [https://developer.mozilla.org/en-US/docs/Web]Overview / Web
+            Technology
+            Web technology reference for developers
+          + [https://developer.mozilla.org/en-US/docs/Web/HTML]HTML
+            Structure of content on the web
+          + [https://developer.mozilla.org/en-US/docs/Web/CSS]CSS
+            Code used to describe document style
+          + [https://developer.mozilla.org/en-US/docs/Web/JavaScript]JavaS
+            cript
+            General-purpose scripting language
+          + [https://developer.mozilla.org/en-US/docs/Web/HTTP]HTTP
+            Protocol for transmitting web resources
+          + [https://developer.mozilla.org/en-US/docs/Web/API]Web APIs
+            Interfaces for building web applications
+          + [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebE
+            xtensions]Web Extensions
+            Developing extensions for web browsers
+          + [https://developer.mozilla.org/en-US/docs/Web]Web Technology
+            Web technology reference for developers
+     * (BUTTON)
+       Guides[https://developer.mozilla.org/en-US/docs/Learn]Guides
+          + [https://developer.mozilla.org/en-US/docs/Learn]Overview / MDN
+            Learning Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn]MDN Learning
+            Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn/HTML]HTML
+            Learn to structure web content with HTML
+          + [https://developer.mozilla.org/en-US/docs/Learn/CSS]CSS
+            Learn to style content using CSS
+          + [https://developer.mozilla.org/en-US/docs/Learn/JavaScript]Jav
+            aScript
+            Learn to run scripts in the browser
+          + [https://developer.mozilla.org/en-US/docs/Web/Accessibility]Ac
+            cessibility
+            Learn to make the web accessible to all
+     * (BUTTON) Plus[https://developer.mozilla.org/en-US/plus]Plus
+          + [https://developer.mozilla.org/en-US/plus]Overview
+            A customized MDN experience
+          + [https://developer.mozilla.org/en-US/plus/ai-help]AI Help
+            (beta)
+            Get real-time assistance and support
+          + [https://developer.mozilla.org/en-US/plus/updates]Updates
+            All browser compatibility updates at a glance
+          + [https://developer.mozilla.org/en-US/plus/docs/features/overvi
+            ew]Documentation
+            Learn how to use MDN Plus
+          + [https://developer.mozilla.org/en-US/plus/docs/faq]FAQ
+            Frequently asked questions about MDN Plus
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://developer.mozilla.org/en-US/play]Play ^New
+     * [https://developer.mozilla.org/en-US/plus/ai-help/]AI Help ^Beta
+
+   Search MDN ____________________ (BUTTON) Clear search input (BUTTON)
+   Search
+   (BUTTON) Theme
+     * [https://developer.mozilla.org/users/fxa/login/authenticate/?next=%
+       2Fen-US%2Fdocs%2FLearn%2FCommon_questions%2FWeb_mechanics%2FPages_s
+       ites_servers_and_search_engines]Log in
+     * [https://developer.mozilla.org/en-US/plus]Get MDN Plus
+
+   (BUTTON)
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn]Guides
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions]Comm
+   on questions
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics]Web mechanics
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics/Pages_sites_servers_and_search_engines]What is the difference
+   between webpage, website, web server, and search engine?
+
+   (BUTTON) Article Actions
+     * (BUTTON) English (US)
+
+   (BUTTON)
+
+   Filter sidebar ____________________ (BUTTON) Clear filter input
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#active_learning]
+       Active learning
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#deeper_dive]Deep
+       er dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#next_steps]Next
+       steps
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/De
+       sign_and_accessibility]Design and accessibility
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility]Design and accessibility
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Common_web_layouts]What do common
+            web layouts contain?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Design_for_all_types_of_users]How
+            can we design for all types of users?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/HTML_features_for_accessibility]Wh
+            at HTML features promote accessibility?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Thinking_before_coding]How do I
+            start to design my website?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/What_is_accessibility]What is
+            accessibility?
+    2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup]Tools and setup
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup]Tools and setup
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Available_text_editors]What text editors
+            are available?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Checking_that_your_web_site_is_working_prop
+            erly]How do you make sure your website works properly?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_do_you_host_your_website_on_Google_App_
+            Engine]How do you host your website on Google App Engine?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_much_does_it_cost]How much does it cost
+            to do something on the Web?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/set_up_a_local_testing_server]How do you
+            set up a local testing server?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Upload_files_to_a_web_server]How do you
+            upload your files to a web server?
+         8. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Using_GitHub_pages]How do I use GitHub
+            Pages?
+         9. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_are_browser_developer_tools]What are
+            browser developer tools?
+        10. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_software_do_I_need]What software do I
+            need to build a website?
+    3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics]Web mechanics
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics]Web mechanics
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/How_does_the_Internet_work]How does the
+            Internet work?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/Pages_sites_servers_and_search_engines]What
+            is the difference between webpage, website, web server, and
+            search engine?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_are_hyperlinks]What are hyperlinks?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_domain_name]What is a Domain Name?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_URL]What is a URL?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_web_server]What is a web server?
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#active_learning]
+       Active learning
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#deeper_dive]Deep
+       er dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/Pages_sites_servers_and_search_engines#next_steps]Next
+       steps
+
+What is the difference between webpage, website, web server, and search
+engine?
+
+   In this article, we describe various web-related concepts: web pages,
+   websites, web servers, and search engines. These terms are often
+   confused by newcomers to the web or are incorrectly used. Let's learn
+   what they each mean!
+   Prerequisites: You should know
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/How_does_the_Internet_work]how the Internet works.
+   Objective: Be able to describe the differences between a web page, a
+   website, a web server, and a search engine.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#summary]Summary
+
+   As with any area of knowledge, the web comes with a lot of jargon.
+   Don't worry. We won't overwhelm you with all of it (we have a
+   [https://developer.mozilla.org/en-US/docs/Glossary]glossary if you're
+   curious). However, there are a few basic terms you need to understand
+   at the outset since you'll hear these expressions all the time as you
+   read on. It's easy to mix these terms since they refer to related but
+   different functionalities. You'll sometimes see these terms misused in
+   news reports and elsewhere, so getting them mixed up is understandable.
+
+   We'll cover these terms and technologies in more detail as we explore
+   further, but these quick definitions will be a great start for you:
+
+   web page
+          A document which can be displayed in a web browser such as
+          Firefox, Google Chrome, Opera, Microsoft Edge, or Apple Safari.
+          These are also often called just "pages."
+
+   website
+          A collection of web pages which are grouped together and usually
+          connected together in various ways. Often called a "website" or
+          a "site."
+
+   web server
+          A computer that hosts a website on the Internet.
+
+   search engine
+          A web service that helps you find other web pages, such as
+          Google, Bing, Yahoo, or DuckDuckGo. Search engines are normally
+          accessed through a web browser (e.g. you can perform search
+          engine searches directly in the address bar of Firefox, Chrome,
+          etc.) or through a web page (e.g.
+          [https://www.bing.com/]bing.com or
+          [https://duckduckgo.com/]duckduckgo.com).
+
+   Let's look at a simple analogy — a public library. This is what you
+   would generally do when visiting a library:
+    1. Find a search index and look for the title of the book you want.
+    2. Make a note of the catalog number of the book.
+    3. Go to the particular section containing the book, find the right
+       catalog number, and get the book.
+
+   Let's compare the library with a web server:
+     * The library is like a web server. It has several sections, which is
+       similar to a web server hosting multiple websites.
+     * The different sections (science, math, history, etc.) in the
+       library are like websites. Each section is like a unique website
+       (two sections do not contain the same books).
+     * The books in each section are like webpages. One website may have
+       several webpages, e.g., the Science section (the website) will have
+       books on heat, sound, thermodynamics, statics, etc. (the webpages).
+       Webpages can each be found at a unique location (URL).
+     * The search index is like the search engine. Each book has its own
+       unique location in the library (two books cannot be kept at the
+       same place) which is specified by the catalog number.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#active_learning]Active learning
+
+   There is no active learning available yet.
+   [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing/Ge
+   tting_started]Please, consider contributing.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#deeper_dive]Deeper dive
+
+   So, let's dig deeper into how those four terms are related and why they
+   are sometimes confused with each other.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#web_page_2]Web page
+
+   A web page is a simple document displayable by a
+   [https://developer.mozilla.org/en-US/docs/Glossary/Browser]browser.
+   Such documents are written in the
+   [https://developer.mozilla.org/en-US/docs/Glossary/HTML]HTML language
+   (which we look into in more detail in
+   [https://developer.mozilla.org/en-US/docs/Web/HTML]other articles). A
+   web page can embed a variety of different types of resources such as:
+     * style information — controlling a page's look-and-feel
+     * scripts — which add interactivity to the page
+     * media — images, sounds, and videos.
+
+   Note: Browsers can also display other documents such as
+   [https://developer.mozilla.org/en-US/docs/Glossary/PDF]PDF files or
+   images, but the term web page specifically refers to HTML documents.
+   Otherwise, we only use the term document.
+
+   All web pages available on the web are reachable through a unique
+   address. To access a page, just type its address in your browser
+   address bar:
+
+   Example of a web page address in the browser address bar
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#website_2]Website
+
+   A website is a collection of linked web pages (plus their associated
+   resources) that share a unique domain name. Each web page of a given
+   website provides explicit links—most of the time in the form of
+   clickable portions of text—that allow the user to move from one page of
+   the website to another.
+
+   To access a website, type its domain name in your browser address bar,
+   and the browser will display the website's main web page, or homepage
+   (casually referred as "the home"):
+
+   Example of a website domain name in the browser address bar
+
+   Note that it is also possible to have a single-page website: a site
+   that consists of a single web page which is dynamically updated with
+   new content when needed.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#web_server_2]Web server
+
+   A web server is a computer hosting one or more websites. "Hosting"
+   means that all the web pages and their supporting files are available
+   on that computer. The web server will send any web page from the
+   website it is hosting to any user's browser, per user request.
+
+   Don't confuse websites and web servers. For example, if you hear
+   someone say, "My website is not responding", it actually means that the
+   web server is not responding and therefore the website is not
+   available. More importantly, since a web server can host multiple
+   websites, the term web server is never used to designate a website, as
+   it could cause great confusion. In our previous example, if we said,
+   "My web server is not responding", it means that multiple websites on
+   that web server are not available.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#search_engine_2]Search engine
+
+   Search engines are a common source of confusion on the web. A search
+   engine is a special kind of website that helps users find web pages
+   from other websites.
+
+   There are plenty out there: [https://www.google.com/]Google,
+   [https://www.bing.com/]Bing, [https://yandex.com/]Yandex,
+   [https://duckduckgo.com/]DuckDuckGo, and many more. Some are generic,
+   some are specialized about certain topics. Use whichever you prefer.
+
+   Many beginners on the web confuse search engines and browsers. Let's
+   make it clear: A browser is a piece of software that retrieves and
+   displays web pages; a search engine is a website that helps people find
+   web pages from other websites. The confusion arises because, the first
+   time someone launches a browser, the browser displays a search engine's
+   homepage. This makes sense, because, obviously, the first thing you
+   want to do with a browser is to find a web page to display. Don't
+   confuse the infrastructure (e.g., the browser) with the service (e.g.,
+   the search engine). The distinction will help you quite a bit, but even
+   some professionals speak loosely, so don't feel anxious about it.
+
+   Here is an instance of Firefox showing a Google search box as its
+   default startup page:
+
+   Example of Firefox nightly displaying a custom Google page as default
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/Pages_sites_servers_and_search_engines#next_steps]Next steps
+
+     * Dig deeper:
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server]What is a web server
+     * See how web pages are linked into a website:
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_are_hyperlinks]Understanding links on the web
+
+Found a content problem with this page?
+
+     * [https://github.com/mdn/content/edit/main/files/en-us/learn/common_
+       questions/web_mechanics/pages_sites_servers_and_search_engines/inde
+       x.md]Edit the page on GitHub.
+     * [https://github.com/mdn/content/issues/new?template=page-report.yml
+       &mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FLearn
+       %2FCommon_questions%2FWeb_mechanics%2FPages_sites_servers_and_searc
+       h_engines&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%
+       3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%
+       3E%0A%0A*+Folder%3A+%60en-us%2Flearn%2Fcommon_questions%2Fweb_mecha
+       nics%2Fpages_sites_servers_and_search_engines%60%0A*+MDN+URL%3A+htt
+       ps%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FLearn%2FCommon_qu
+       estions%2FWeb_mechanics%2FPages_sites_servers_and_search_engines%0A
+       *+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fm
+       ain%2Ffiles%2Fen-us%2Flearn%2Fcommon_questions%2Fweb_mechanics%2Fpa
+       ges_sites_servers_and_search_engines%2Findex.md%0A*+Last+commit%3A+
+       https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fbb026bcb88b7f45
+       374d602301b7b0db5a49ff303%0A*+Document+last+modified%3A+2023-07-03T
+       10%3A12%3A35.000Z%0A%0A%3C%2Fdetails%3E]Report the content issue.
+     * [https://github.com/mdn/content/blob/main/files/en-us/learn/common_
+       questions/web_mechanics/pages_sites_servers_and_search_engines/inde
+       x.md?plain=1]View the source on GitHub.
+
+   Want to get more involved?
+   [https://github.com/mdn/content/blob/main/CONTRIBUTING.md]Learn how to
+   contribute.
+
+   This page was last modified on Jul 3, 2023 by
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/Pages_sites_servers_and_search_engines/contributors.txt]MDN
+   contributors.
+
+   [https://developer.mozilla.org/]
+
+   Your blueprint for a better internet.
+     * [https://twitter.com/mozdevnet]MDN on Twitter
+     * [https://github.com/mdn/]MDN on GitHub
+     * [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+MDN
+
+     * [https://developer.mozilla.org/en-US/about]About
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://www.mozilla.org/en-US/careers/listings/?team=Marketing]Car
+       eers
+     * [https://developer.mozilla.org/en-US/advertising]Advertise with us
+
+Support
+
+     * [https://support.mozilla.org/products/mdn-plus]Product help
+     * [https://developer.mozilla.org/en-US/docs/MDN/Community/Issues]Repo
+       rt an issue
+
+Our communities
+
+     * [https://developer.mozilla.org/en-US/community]MDN Community
+     * [https://discourse.mozilla.org/c/mdn/236]MDN Forum
+     * [https://wiki.mozilla.org/Matrix]MDN Chat
+
+Developers
+
+     * [https://developer.mozilla.org/en-US/docs/Web]Web Technologies
+     * [https://developer.mozilla.org/en-US/docs/Learn]Learn Web
+       Development
+     * [https://developer.mozilla.org/en-US/plus]MDN Plus
+     * [https://hacks.mozilla.org/]Hacks Blog
+
+   [https://www.mozilla.org/]
+     * [https://www.mozilla.org/privacy/websites/]Website Privacy Notice
+     * [https://www.mozilla.org/privacy/websites/#cookies]Cookies
+     * [https://www.mozilla.org/about/legal/terms/mozilla]Legal
+     * [https://www.mozilla.org/about/governance/policies/participation/]C
+       ommunity Participation Guidelines
+
+   Visit [https://www.mozilla.org/]Mozilla Corporation’s not-for-profit
+   parent, the [https://foundation.mozilla.org/]Mozilla Foundation.
+   Portions of this content are ©1998–2023 by individual mozilla.org
+   contributors. Content available under
+   [https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib
+   _copyright_license]a Creative Commons license.

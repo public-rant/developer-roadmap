@@ -1,0 +1,379 @@
+Kaddi is an HTTP to enable to observer a
+tenon go by Matt hold it supports its
+GPS by default and we re gonna talk
+about that and it s one of the easiest
+web servers that provide a lot of
+functional things such as proxying and
+load balancing and much much more
+recently it s also supported quick which
+is the new HTTP 3 hopefully once it s a
+it is approved by the internet
+Engineering Task Force in this video I m
+gonna show you guys how to set up Kaddi
+webserver how to run it locally as just
+vanilla unsecured HTTP webserver which
+we have done that a lot this channel and
+then finally we can know how to secure
+to the HTTPS which is the best part of
+cutty which takes all the hassle from me
+okay there s something we need to do
+first
+well that s no very hard and we talked
+about it in the channel right we re
+gonna probably make another video
+showcasing the advanced features and the
+Cadi file and all that stuff right that
+you can do that I m gonna make this a
+very short video if you new here welcome
+my name is Visayan and in this channel
+we discuss all sorts of software
+engineering by exam so if you re going
+to become a better software engineer
+consider subscribing hit that Bell icon
+so you get notified every time I upload
+a new video what I say let s just jump
+into this video guys alright so the
+first step here I m gonna break this
+video into four parts maybe the first
+part is the installation I am going to
+use Mac but I m gonna reference
+hopefully and the banner here you re
+gonna see a link to the awesome job that
+Matt did the author of this web server
+with the dock so there is great duck
+showing you the installation on Windows
+Linux and Mac you essentially want to be
+able to get to a state where you can go
+to your command prompt and rice Cuddy
+and not get an error essentially right
+that s what we want to get into right
+that s the state you wanna download it
+said the path do we do that jazz and
+then once you do that you re ready to
+essentially set run your webserver so
+the first step that s that kind of step
+is I wanna run the web server you get
+you have an HTML page handy dandy in
+hand alright so we can we re gonna use
+that and then once you have this page
+we ll have running or the next section
+where we want to expose your mission
+to the public internet which is not
+exposed by the by default right you can
+argue that you can do the whole tutorial
+on the cloud and you can skip the whole
+thing but if you don t want to spend the
+money or you just want to test and just
+drive it on your own machine you can
+definitely do that we re going to do a
+port forwarding from my router to expose
+my private local IP address to the
+public internet so so obviously this
+certificate authority can generate a
+certificate for me and then secure my
+server okay and then finally we re gonna
+run it with the secure HTTPS so let s
+just jump into this card so to install
+that we will basically use homebrew if
+you have Mac you can install homebrew
+and homebrew is just basically this is a
+repository registration where you can
+download and install stuff or it s it s
+like a distribution right so you can do
+brew install Cuddy right and essentially
+that does it for us okay it s gonna
+download and that s just it s just honey
+makes guys it s really cool alright it s
+a very small file once you do that yeah
+it s clear and then let s go to a folder
+that has my index dot HTML or the
+content that I want to serve and my
+content is a gonna pay a folder called
+static page and I created an index html
+file here and if we just them in here I
+can show you how the ward served by
+catalyst that s the HTML it s a very
+simple stuff game but let s just show
+you the idea once you are in the same
+folder literally just type caddy okay
+and if you hit enter you will be served
+sir
+with default portage HTTP and the
+default was 2015 and I think that s the
+year where caddy was being written
+essentially I think that s when he
+released caddy so he used that as the
+default port kind of nostalgic in a way
+I like it so 2015 right so let s test
+this thing just drive it alright guys
+here I have a chrome here open so if I
+type
+of those are gonna work right if I type
+localhost 2015 which is the default port
+there you go it works alright if you got
+404 that means you don t have a default
+indexed to the HTML page or if you have
+like a specific page name you can just
+do the folder name and then say in HTML
+whatever your name is right whatever the
+pages yeah you can also use the IP
+
+yeah that works too so you can use the
+your local IP address okay and you can
+use also on your hostname to basically
+consume this page this is this is boring
+though right because if I went to the to
+my mobile phone on 4G and try to consume
+this page I m gonna get an error because
+I am not on that internal network if I
+am on Wi Fi yes I can consume it but if
+I give this link to my friend through
+whatsapp or whatever they cannot consume
+this thing because it s not on the
+public Internet so what do you do who
+was in the public Internet only one
+device if you re assuming this is your
+internal Wi Fi and your machine is on
+the Wi Fi or it s directly to the router
+you have one public IP address and that
+guy is the router and the router does
+not we talked about nag guys I m gonna
+reference the video here and it
+basically NAT things up network address
+translation it translates your private
+IP address to the public IP address so
+this is the router page and I can show
+you that this is my public IP address
+okay and obviously if I give this public
+IP address to my friends it s gonna get
+an error because it doesn t know where
+to forward this request to right so
+that s where we need to talk about port
+forwarding and I m gonna make I made a
+detailed video about public IPS versus
+private IP is if you want to know more
+about I m get a reference it right here
+guys go watch that video if you want to
+learn them essentially we have an HTTP
+server now but I want a fancier of TV
+server I want a HTTP server that runs
+port 443 and an HTTP server that runs on
+port 80 which is that s the default port
+right I want Cuddy to do this for me but
+to do that we need kinda to expose my
+machine to the public Internet and this
+this is done by port forwarding so
+here s my firewall configuration on my
+router I don t know why it s called fire
+wars is essentially a net version of the
+fire of the router and what it does I
+created two rules here it says hey
+router if you received a request coming
+from the public internet on your port 80
+please forward it to moi and why is this
+machine that is I m running Husain Mac
+right on the same port okay I literally
+created that that rule okay once you do
+that I named it letter HTTP and HTTPS
+okay once you do that you will be ready
+to do the next thing okay which is you
+go and register for a dynamic DNS now we
+have a public a public IP address I can
+give this public IP address to my
+friends and that will work right but
+it s boring who remembers public IP
+addresses how do you even remember this
+thing okay it is impossible so what we
+do instead is we create a domain name
+like that Billy Billy Billy do it
+Jose no SOCOM or google com or whatever
+and so you can register a domain name
+and then point it using what we call an
+a record your IP address this is
+literally a new record and domain like
+GoDaddy or Google charges you for last
+record they charge you money like yearly
+sometimes it s like as cheap as one
+dollar a year sometimes it s like as
+expensive as three hundred dollars
+depending on how popular your domain
+becomes right but there is this side
+that s called no IP and there s another
+one called Dyne Tom that allows you to
+register for free right but here s the
+thing you don t get to pick fancy names
+you get to pick boring ugly names all
+right and it s free who cares right so
+that s the cool thing go ahead and
+register in
+no IP calm do your thing once you
+register and all that thing you go to
+this page and you create a host team and
+here s what you do you create a host
+name and you say I want an error code
+which is that s what we said hey I want
+to point to end point the host name to
+an IP for address which I have right and
+then let s call it I don t know I m
+gonna come on Dante that s the first
+novel I read and then this is what you
+get you get you get these that s what
+you get right just take anything so two
+utilities calm right it s ugly
+right you don t get it s free because
+it s free right and here s what I want
+to do right
+actually no IP actually detects your
+public IP and shows it to you but if you
+don t know it go to your router and then
+just do that copy and paste it okay it
+will just detect it for you and then
+pick a record and then create hostname
+and that s your last name right there
+this is now this is my website that that
+this is anyone down theta3 utilities or
+come it s very ugly I know but who cares
+it s worth testing it s free right so if
+you if you wanna you can pay no IP to
+give you a proper host name like your
+name comm we don t care about that now
+okay now we have a record we have this
+record points to this IP so any requests
+to that host name will take me to my
+router which guess what if someone is
+visiting port 80 or 443 to my machine
+which is hopefully running Cuddy okay so
+let s do that I know I m pronouncing
+Kadir incorrectly right I have a thick
+accent you guys made this very clear all
+right so here is here s the thing okay
+guys it s very simple let s kill this
+Cuddy instance but this is what I want
+to do what do you want to do is do Cuddy
+host and then I think I copied that
+thing right in 1 or three or three days
+calm here s the cool thing about how do
+you will generate a public key for your
+public key private key certificate right
+the whole thing and then it will secure
+it for you so it will host that stuff it
+will communicate with let s encrypt
+which is the certificate authority
+throw any
+which is pretty pretty cool if you think
+about it right those guys it s you can
+donate for them obviously I really
+recommend that but those do it for free
+for you that s amazing right you have to
+pay for a certificate to say that hey my
+server is secure and trusted but guess
+what let s encrypt do it for free that s
+pretty cool once you do that here s the
+thing the first thing is gonna ask you
+Cuddy will ask you hey by the way you
+have to provide your your email that s
+the least thing you can do right because
+they need to know this is a real person
+behind this server right just in case
+things went wrong
+it s ok you can email me guys I just
+don t know spam please and then here s
+the thing guys if you don t get this and
+this is what happened to me the first
+time I was experimenting with caddy I
+think that s how you say it and then I
+got a lot of problems I didn t do ever
+work for me so I m gonna show you what I
+did to fix it all right after this video
+after this part but once you do is going
+to contact this is gonna do a lesson
+creb do all that thing requesting
+certificate and guess what guys it will
+by default I didn t specify the port
+right it actually run on port 443 and 80
+and guess what guys now if I go to this
+guy let s go to the chrome again and we
+are secure see this lock this is a
+secure side guys you just spin up a shut
+your web server guys all right so this
+is pretty cool this is pretty cool right
+this is very cool anything using I think
+TLS 1 3 virgins free which is amazing
+guys right we talked about TLS I m gonna
+reference it here guys TLS 1 2 version
+1 3
+huge performance difference okay
+alright guys so here s what you do when
+you get into trouble with us if you get
+errors with this here s what you do
+there is a dot kadhi file caddy there
+was a dude caddy file that gets created
+if you first do this and you do a
+mistake like I don t know anyway I did
+this
+four and I I never got it to work right
+because I had this old stale caddy
+folder there so to to find that folio at
+least and Mac you can go to home
+I think it s called users and then your
+username and then you can find caddy
+folder just remove that thing kill it
+kill that caddy folder and then try
+again and that will work for you okay
+cuz that that s what did it for me okay
+that s that s Rick alright guys hope you
+enjoyed this video you just spin up and
+secure HTTP public for free guys right
+so you can now give this link to anyone
+all right
+and they will essentially work normally
+because this is what happening rights
+let s go quickly through it because we
+ended this video we created someone
+visit this what say h right it s on
+let s say even an HTTP is gonna be
+redirected image it automatically to
+HTTP that s what caddy does as well if
+your view visit this I killed the server
+that s why if you visit this web page
+what happens is it goes to that domain
+and says okay who is this guy who is it
+Mon Dante it is this a public IP so it s
+gonna send a request right so that s a
+lot up very quick lookup using UDP I
+believe find the IP address makes a get
+request to this IP at resolves at just
+establish two attempts to establish a
+TCP connection with this on port 80
+which is the default because you didn t
+specify any port here what goes there
+and its next request on port 80 which
+tends go and says okay port 80 yeah I
+have a rule that says port 80 please
+forwarded to a Mac which is this machine
+that I m recording from alright and then
+it says yeah alright that s okay we we
+have it and then Kerry says hey port 80
+is no cool because I don t want you to
+work on port 80 I want you redirected to
+port 80 over three so it it will
+responds with a redirect command I think
+three on one most permanently and then
+says hey please connect to this site
+instant so it will close
+that TCP connection create another TCP
+connection 443 as a TLS handshake and
+all that jazz and then immediately
+connect you to that right hopefully she
+goes back to the router and does all
+that stuff all right guys I hope you
+enjoyed this video if you enjoyed it
+give it a like and go to get go get some
+laughs Matt right and he s he built a
+really cool application if you go to
+Wikipedia he built this thing in five
+months right kudos right kudos to this
+guy man if you matter if you were
+listening to this man kudos you did a
+great job man all right that s the
+refirming guys stay awesome that s the

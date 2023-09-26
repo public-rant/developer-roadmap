@@ -1,0 +1,272 @@
+okay let me teach you about this odd
+thing what is used in a lot of different
+ways and in different projects but
+before we get into all the videos of a
+as it s used let s start with what
+authors actually created for the
+original intended use first of all you
+can guess from the name
+what has something to do with that the
+question is does the art here a mean
+authentication or authorization well the
+short answer is what is meant for
+authorization and not authentication
+okay also more importantly what was
+originally created not for a service to
+authorize a person it was meant for a
+service to authorize another service now
+you might go come on Kasich are you
+crazy
+why would a service were not authorized
+with another service hmm well first of
+all good question
+secondly don t call me crazy okay okay
+well let me explain what I mean let s
+take this classic example off of photo
+printing service you must have seen
+websites like this where you give them
+an image file and you pay them to ship
+printed photos to your home address
+imagine you re starting a new photo
+printing business that lets people
+upload photos to your website and they
+can order prints of these photos have
+you code your website and apply then
+people sign up everything is good
+but here is the thing nobody keeps
+photos on their machines anymore they
+use the cloud and so you keep getting
+this feature request to provide users
+the ability to import their photos from
+somewhere like Google Drive and then
+print it directly from there without the
+users having to download and upload
+again okay that s a fair ask now what do
+you have to do to implement this import
+from Google Drive feature in your
+application you need to connect to the
+users Google Drive account and access
+their files but wait
+how can your application do that the
+users files on Google Drive need Google
+authentication how can you write code
+for your website that can authenticate
+with Google on behalf of your users well
+here s something you can do you can ask
+the user for their Google ID and
+password you can say hey user do you
+want me to print your photos on Google
+look Google doesn t give me access so
+here s my screen where you enter your
+Google ID and password you just give
+them to me I will log into your Google
+account and access your photos and print
+them will this work well it ll work in
+theory do you think users will find you
+their Google ID and password are you
+kidding me no they probably won t why
+because they don t trust you
+what they want to give you is access to
+just certain photos they don t wanna
+give you access to their whole Google
+Drive and email and everything else
+right now you can say no to your user I
+promise to access just your files that
+you mentioned and I promise to throw out
+the password after I m done I m totally
+not saving that but there s no guarantee
+that this service is gonna do that so
+well this works in theory this is not
+practical now we can say Google Drive
+has a share feature you can ask the user
+to share the files out and then give the
+link to them in your service but there
+are problems here what if the users
+don t want to share files out to anyone
+also what if it s a different scenario
+where sharing isn t an option for
+example think of the scenario where your
+service wants to access the list of your
+users friends to send invites to the
+application there s no way you can ask
+the user to share their address book
+such a feature just doesn t exist so how
+do you have a third party service
+authorize with the Google address book
+service as your user without the user
+providing their credentials well this is
+where Roth comes in to solve this
+problem of services trying to access
+each other on behalf of the user
+there was the standard created called
+OAuth there was a version 1 0 of the
+standard what 1 0 but the current
+version is the most widely used this is
+OAuth 2 0 this and the subsequent videos
+in the series when I say OAuth just
+assume that I m referring to auth 2 0
+okay that s the most widely you
+version today okay so how does it work
+a very commonly used analogy that s used
+to help people understand what is this
+valet key model for cars let me explain
+you must have heard of parking
+attendants are valleys I ll be honest I
+haven t met them myself I m definitely
+not rich enough to have my car parked by
+a valley but I ve heard of them the idea
+is this rich guy drives up to a parking
+garage and he gets down and hands his
+key to the valet and say hey mr wellick
+guy can you please park this car for me
+he may not say it so nicely but this is
+the message that will be conveyed and
+the valet takes the key drives the car
+finds a parking spot and parks the car
+there okay but here s the thing
+rich people drive expensive cars okay
+they carry expensive things so what if a
+malicious Valley takes the car keys and
+takes the car for a long long drive or
+opens a trunk or glove compartment and
+looks at what s inside it s reasonable
+for the car owner to be hesitant to hand
+over the car keys to the valley so this
+is why some cars come with an additional
+key called the valet key the valet key
+is just like the main car key but with
+reduced access this valet key can start
+and stop the car but it cannot open the
+trunk or the glove compartment it cannot
+open the fuel tank you know restrictions
+like that if a car owner has such a key
+there would be more open to giving that
+to the valet because they know that the
+valley cannot do a whole lot with that
+key apart from the intended purpose so
+here the car owner this person is using
+to services the car service and the
+valet service and the valet service
+needs access to the car service directly
+to do the job so rather than give the
+complete credentials of the car service
+to the valet service rather than giving
+the master key to the valet service the
+car owner gives reduced or limited
+access to the car service by providing
+the valet key this is similar to how
+what works
+or in general is an authorization
+mechanism where services can
+but rise against each other on your
+behalf once you have given them
+permission this is often referred to as
+delegated access for this very reason
+it s also an open standard by the way
+and obviously needs to be because
+multiple services all over the internet
+need to talk to each other so there is a
+spec that all these services need to
+follow so that they understand each
+other when they talk there is a certain
+flow that needs to happen as well for
+this whole process to work and this is
+called the OAuth flow yourself that flow
+works let s take our photo printing
+example you have a service here that
+needs to access Google Drive we have a
+user who s logged into both your photo
+printing service and to Google each
+service trust the user but they don t
+trust each other the problem is you want
+these two things to work with each other
+ok can yours photo printing service go
+to Google and say hey can I access this
+users files
+well the Google service is obviously
+gonna say I don t know you go away
+however if both these services have
+aurat implemented the situation is a
+little different your service when it
+goes to Google and says hey I need this
+users files Google does something
+interesting it goes to the user and says
+look here man there is this service
+that s been bugging me saying it wants
+to access some of your files is that
+legit do you trust it see here is the
+list of things that the service wants to
+do shall I go ahead and allow it the
+user sees the screen that says who is
+asking for access to that users Google
+account and what are the lists of
+permissions that that service once now
+if the user is a person who s trying to
+print the photo they will look at this
+and go okay this is all correct please
+allow access now google says okay my
+user is verified and allowed these
+permissions ok service you can have
+access and Google gives the service a
+key token called an authorization token
+that contains just the allowed
+permissions think of this as a valet key
+it s a key with limited access limited
+permissions the photo printing services
+okay cool I m gonna save this and now
+every time the photo printing service
+needs to access Google Drive it just
+hands this token to the request and says
+I need access to this file
+here is the stokin you gave me which has
+user verified access
+to these permissions let me in Google
+looks at that token and saying okay this
+is legit this is the token that I handed
+last time so you can access this and
+with this token the service has limited
+access to your Google account and a high
+level this is the flow you might have
+seen these screens from Facebook or
+Google asking for permissions this is
+basically what this is the screen says
+okay this ABC service is trying to
+access my service on your behalf
+should I let it in once you accept an
+access token has handed to that service
+which allows future access so there you
+don t have to keep clicking allow every
+time now what does this access token
+look like it has to be a token that
+contains information about all the
+allowed permissions and it also needs to
+be something that the service can verify
+if you create a token yourself and give
+it to Google it ll obviously not take up
+it has to be a secure token that Google
+itself has created and given you can you
+guess what s a token that can contain
+data within it but it s also secure so
+that it can be verified and it cannot be
+modified yes it s a token format called
+JWT check out this tutorial to learn
+everything you need to know about JWT
+and now that you know how this flow
+works it s also obvious to see why what
+is used for authorization and not
+authentication in this case the user is
+actually authenticated to both these
+services already right the problem being
+solved is not authentication the problem
+being solved is how to authorize one
+service with another not that you know
+the high level purpose and flow of or
+it s time to dive deep into the keep
+terminologies of what that you really
+need to understand as well as look at
+the flowing in a detail check out this
+tutorial where I explain all the
+terminology is involved and I teach you
+how each step in this water flow works
+in much more detail and I ll see you
+there

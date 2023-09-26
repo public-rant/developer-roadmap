@@ -1,0 +1,104 @@
+[https://gobyexample.com/]Go by Example
+
+   [https://go.dev/]Go is an open source programming language designed for
+   building simple, fast, and reliable software. Please read the official
+   [https://go.dev/doc/tutorial/getting-started]documentation to learn a
+   bit about Go code, tools packages, and modules.
+
+   Go by Example is a hands-on introduction to Go using annotated example
+   programs. Check out the [https://gobyexample.com/hello-world]first
+   example or browse the full list below.
+     * [https://gobyexample.com/hello-world]Hello World
+     * [https://gobyexample.com/values]Values
+     * [https://gobyexample.com/variables]Variables
+     * [https://gobyexample.com/constants]Constants
+     * [https://gobyexample.com/for]For
+     * [https://gobyexample.com/if-else]If/Else
+     * [https://gobyexample.com/switch]Switch
+     * [https://gobyexample.com/arrays]Arrays
+     * [https://gobyexample.com/slices]Slices
+     * [https://gobyexample.com/maps]Maps
+     * [https://gobyexample.com/range]Range
+     * [https://gobyexample.com/functions]Functions
+     * [https://gobyexample.com/multiple-return-values]Multiple Return
+       Values
+     * [https://gobyexample.com/variadic-functions]Variadic Functions
+     * [https://gobyexample.com/closures]Closures
+     * [https://gobyexample.com/recursion]Recursion
+     * [https://gobyexample.com/pointers]Pointers
+     * [https://gobyexample.com/strings-and-runes]Strings and Runes
+     * [https://gobyexample.com/structs]Structs
+     * [https://gobyexample.com/methods]Methods
+     * [https://gobyexample.com/interfaces]Interfaces
+     * [https://gobyexample.com/struct-embedding]Struct Embedding
+     * [https://gobyexample.com/generics]Generics
+     * [https://gobyexample.com/errors]Errors
+     * [https://gobyexample.com/goroutines]Goroutines
+     * [https://gobyexample.com/channels]Channels
+     * [https://gobyexample.com/channel-buffering]Channel Buffering
+     * [https://gobyexample.com/channel-synchronization]Channel
+       Synchronization
+     * [https://gobyexample.com/channel-directions]Channel Directions
+     * [https://gobyexample.com/select]Select
+     * [https://gobyexample.com/timeouts]Timeouts
+     * [https://gobyexample.com/non-blocking-channel-operations]Non-Blocki
+       ng Channel Operations
+     * [https://gobyexample.com/closing-channels]Closing Channels
+     * [https://gobyexample.com/range-over-channels]Range over Channels
+     * [https://gobyexample.com/timers]Timers
+     * [https://gobyexample.com/tickers]Tickers
+     * [https://gobyexample.com/worker-pools]Worker Pools
+     * [https://gobyexample.com/waitgroups]WaitGroups
+     * [https://gobyexample.com/rate-limiting]Rate Limiting
+     * [https://gobyexample.com/atomic-counters]Atomic Counters
+     * [https://gobyexample.com/mutexes]Mutexes
+     * [https://gobyexample.com/stateful-goroutines]Stateful Goroutines
+     * [https://gobyexample.com/sorting]Sorting
+     * [https://gobyexample.com/sorting-by-functions]Sorting by Functions
+     * [https://gobyexample.com/panic]Panic
+     * [https://gobyexample.com/defer]Defer
+     * [https://gobyexample.com/recover]Recover
+     * [https://gobyexample.com/string-functions]String Functions
+     * [https://gobyexample.com/string-formatting]String Formatting
+     * [https://gobyexample.com/text-templates]Text Templates
+     * [https://gobyexample.com/regular-expressions]Regular Expressions
+     * [https://gobyexample.com/json]JSON
+     * [https://gobyexample.com/xml]XML
+     * [https://gobyexample.com/time]Time
+     * [https://gobyexample.com/epoch]Epoch
+     * [https://gobyexample.com/time-formatting-parsing]Time Formatting /
+       Parsing
+     * [https://gobyexample.com/random-numbers]Random Numbers
+     * [https://gobyexample.com/number-parsing]Number Parsing
+     * [https://gobyexample.com/url-parsing]URL Parsing
+     * [https://gobyexample.com/sha256-hashes]SHA256 Hashes
+     * [https://gobyexample.com/base64-encoding]Base64 Encoding
+     * [https://gobyexample.com/reading-files]Reading Files
+     * [https://gobyexample.com/writing-files]Writing Files
+     * [https://gobyexample.com/line-filters]Line Filters
+     * [https://gobyexample.com/file-paths]File Paths
+     * [https://gobyexample.com/directories]Directories
+     * [https://gobyexample.com/temporary-files-and-directories]Temporary
+       Files and Directories
+     * [https://gobyexample.com/embed-directive]Embed Directive
+     * [https://gobyexample.com/testing-and-benchmarking]Testing and
+       Benchmarking
+     * [https://gobyexample.com/command-line-arguments]Command-Line
+       Arguments
+     * [https://gobyexample.com/command-line-flags]Command-Line Flags
+     * [https://gobyexample.com/command-line-subcommands]Command-Line
+       Subcommands
+     * [https://gobyexample.com/environment-variables]Environment
+       Variables
+     * [https://gobyexample.com/http-client]HTTP Client
+     * [https://gobyexample.com/http-server]HTTP Server
+     * [https://gobyexample.com/context]Context
+     * [https://gobyexample.com/spawning-processes]Spawning Processes
+     * [https://gobyexample.com/execing-processes]Exec'ing Processes
+     * [https://gobyexample.com/signals]Signals
+     * [https://gobyexample.com/exit]Exit
+
+   by [https://markmcgranaghan.com/]Mark McGranaghan and
+   [https://eli.thegreenplace.net/]Eli Bendersky |
+   [https://github.com/mmcgrana/gobyexample]source |
+   [https://github.com/mmcgrana/gobyexample#license]license

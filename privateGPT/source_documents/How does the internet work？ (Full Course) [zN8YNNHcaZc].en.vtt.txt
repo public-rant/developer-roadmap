@@ -1,0 +1,2274 @@
+this course will help someone with no
+technical knowledge understand how the
+internet works ian frost teaches this
+course with tons of visuals just like he
+has taught thousands of people on udemy
+the internet is a part of our daily life
+and we use it constantly but what is the
+internet have you ever really thought
+about it have you ever wondered what
+happens in the background when you enter
+a web page if your answer to all these
+questions is yes you are definitely
+looking at the right course in this
+course i assume you don t know anything
+and i am slowly explaining what the
+internet is you don t need any prior
+knowledge to follow this course since
+this course tells you everything from
+scratch with many abstractions these
+abstractions will allow you to
+understand the subject without knowing
+details i think everyone who uses the
+internet should know its basic features
+everyone who uses the internet needs to
+know the isp everyone who uses the
+internet needs to know that the internet
+is just cables spread all over the world
+and in this course we will go on a
+journey together and we will look at all
+these concepts in a very visual way i
+mean you will see exactly how the
+internet works with your eyes
+in addition at the end of the course
+there are some questions related to this
+course and by answering them you can
+benefit from this course at the maximum
+level okay
+regardless of your age or profession
+this course is for everyone you will
+absolutely understand what the internet
+is when you finish this course so let s
+
+now we are going to talk about a
+scenario let s say you are the system
+administrator of a small company and
+your boss wants you to enable all these
+computers to communicate with each other
+i mean pc1 should be able to communicate
+with pc7 or pc5 should be able to
+communicate with pc4 and so on you got
+the point but the question is how do we
+do such a task and this is where the
+switch device comes into play the switch
+is the device we use for computers in
+the same environment to communicate with
+each other when i say in the same
+environment what i mean is that i m
+talking about computers in the same
+office house or at very close distance
+to each other and this scenario is a
+good example for such a situation
+there s an office and in this office we
+have seven computers that communication
+of time is required wonderful we have a
+switch to accomplish the communication
+of computers this is good however
+the question is
+can these 7 computers communicate with
+each other right now and the answer is
+big no
+because first of all these 7 computers
+need to interact with the switch somehow
+but how can we do that
+i know that you have some ideas and you
+are probably guessing right we must use
+cables to connect computers to the
+switch as you can see we are connecting
+all the computers to the switch with the
+help of cables we generally use copper
+cables for this task and the type of
+these copper cables can generally be
+cat5 cable or k6 cable in small
+environments by the way cat6 cables are
+faster than cat5 cables and cat
+represents category okay
+on the other hand in addition to copper
+cables some switches support fiber optic
+cables as well and it is important to
+note that fiber optic cables
+are generally much faster compared to
+copper cables in data transmission this
+is very important
+and
+for switch devices
+there is a crucial point to be aware of
+please note that if there s a switch in
+the environment and if you want to
+connect computers to that switch we must
+definitely use a cable that is generally
+a copper cable or fiber optic cable
+what i am trying to say is with wireless
+technology you cannot connect computers
+to a switch switches only work with
+cables this is very vital guys if you
+want to use a switch device you have to
+use cable to connect your devices to the
+switch it s that simple however if you
+want to connect computers in the same
+environment to each other by using all
+wireless technology you can use an
+access point device instead of a switch
+device i mean you can use both a switch
+device or an access point twice in order
+to connect all the seven computers both
+of them separately is acceptable for
+this purpose the only difference between
+these devices is access points use
+wireless technology while switches use
+cables okay
+there are seven computers in this
+environment and we can connect these
+seven computers by using switches and
+cables just like you see in the picture
+or in the same way we can use an access
+point device instead of a switch device
+and if you use an access point device
+access point uses wireless technology
+instead of cables while communicating
+with devices
+in summary both the switch device or an
+access point device enable these seven
+computers to communicate this is obvious
+but one uses cable and the other one
+uses wireless technology
+anyway what i just want you to know
+right now is we generally use copper
+cables in order to connect computers to
+the switch in the environment such as a
+hump or office
+by the way i want to focus on the switch
+device instead of the access point twice
+in this course
+very good
+and at this moment all these computers
+can communicate with each other with
+ears because they connected to the
+switch by using cables and this means
+that they created a network in other
+words the reason that these computers
+can communicate with each other is
+all of them are in the same network and
+we call this special network as local
+area network or briefly
+lan a local area network is a collection
+of devices connected together in
+non physical location such as a building
+office or home as i just said if you
+want to create a lan this location must
+be a restricted location in terms of
+area i mean you cannot create a lan
+between computers located in united
+states and computers located in russia
+on the other hand this area is very
+suitable area in order to create a lan
+therefore these computers can
+communicate with each other because all
+of them are on the same lan with the
+help of this switch so we can deduce
+that if we want to create a lan we need
+a switch device by using a switch device
+we can create a local area network and
+if we consider the millions of local
+area network all over the world we can
+easily understand how important a switch
+device is you might think that all the
+houses in the world are actually a local
+area network you have a land in your
+house or your neighbor s home also has a
+land or there is also a lan in the
+office where you work okay you catch the
+idea
+and now let s take a closer look at the
+communication of computers and what this
+event actually represent let s say pc1
+wants to send a message to the pc6 by
+the way the messages generated by
+computers has a few special names some
+people call them as packet and some
+people call them as frame both of them
+is okay but in this course i prefer to
+use packet instead of frame okay pc1
+will send a packet to the pc6 as you see
+individual the packet firstly goes to
+the switch and then the sewage looks at
+the inside of the packet and learns the
+destination of the packet and finally
+the switch sends the packet to its
+destination
+and if pc1 can send a packet to the pc6
+this means that pc1 and pc6 can
+communicate with each other the logic is
+basically this if a computer can send a
+packet to another computer this refers
+to these two computers are on the same
+network and they can communicate with
+each other this information is so
+crucial guys okay
+however maybe by looking at only this
+switch image what the switch device
+actually is may not be fully visualized
+in your mind for this reason we will now
+examine this slide for you to understand
+the event better
+this is the real version of a service
+device and as you can see there are many
+parts
+on a switch device this is important
+also the number of ports varies from one
+switch device to another switch device i
+mean different switches have different
+numbers of parts some switches have temp
+ports while some switches have more than
+20 parts
+and of course this generally leads to an
+increase in price okay by the way
+these parts
+have a special name and they are called
+lampards this probably makes sense to
+you because as you know we create lands
+by using switch devices for this reason
+i think it is so reasonable to call
+these parts lan ports because by
+connecting these computers to these
+parts we can create a lan
+and in addition to this
+there are lan ports on the back of our
+computers or on the side of our laptops
+just like these lamppods
+you can see the related visuals on the
+
+and to establish a connection between
+computers and switch we connect the lan
+port on the computer and the lan port on
+the switch with the help of a cable so
+let s do this
+let s start with this port and pc1 then
+let s connect this part and piece it
+after that let s connect this port and
+pc3 and finally i want to make a
+connection between this part and pc4
+wonderful
+and currently these computers can
+communicate with each other but how
+exactly does this communication happen
+from a switch perspective let s take a
+look at this
+let s say pc1 wants to communicate with
+pc4 so it will send a packet to the pcfr
+this packet will go to this part of the
+switch first and there we go
+afterward
+that part will give the packet to the
+hardware inside the switch okay
+then this switch will look inside this
+packet and learns its destination
+after that the switch gives this packet
+to this port that is connected to pc4
+and finally the switch sends the packet
+to the pc4 okay
+wonderful
+and to summarize currently we have
+connected these four computers to each
+other thanks to the switch this means we
+have created a local area network and
+these computers can easily communicate
+with each other since they re on the
+same lan
+i hope everything is quite good so far
+and the switch device is visualized
+better in your mind thanks to this slide
+but there is a little issue here let me
+explain if you are aware our computers
+were in the same network and we have
+only talked about the communication
+between those devices we have never
+talked about how these computers can
+connect to the internet right
+so the question is can these computers
+communicate with the internet just by
+having a switch device and this my
+friends will be the question that we are
+looking for an answer in the next lesson
+see you guys soon
+
+in our previous lesson we briefly talked
+about how to connect computers in an
+office and how do we create a network
+and i said that we can create a lan with
+the help of a search device but the
+problem is currently these computers can
+only communicate among themselves they
+cannot communicate with the internet
+because the only task of the switch is
+to create a lan and enable the
+communication of the devices in the same
+lan great
+and by the way i would like to remove
+this line statement from the visual
+because you can understand that there s
+a lan here thus we can work more
+comfortably wonderful and the main
+question is how do we connect these
+computers to the internet and this is
+where the router device comes into play
+let me explain
+the main task of the router is to enable
+computers to connect to the internet
+without a router it is impossible for us
+to connect to the internet and in order
+to provide this connection i mean in
+order to provide a connection to the
+internet first of all we must connect
+this switch to this router and this
+cable is a copper cable just like other
+cables this is good but currently what
+we have to do isn t over we still can t
+connect to the internet in this
+situation because we need a connection
+between the rotor and the internet as
+well and as you know a special cable
+comes to our homes or offices and this
+cable is given us by internet service
+provider and thanks to the disk cable we
+connect to the internet if you have
+never heard of internet service provider
+don t worry we will talk about it in
+detail but for now all you need to know
+is the internet service provider is
+giving us this cable for a certain
+amount of money so that we can connect
+to the internet easily okay
+so currently we have everything
+necessary to connect to the internet by
+using these computers hence let s see
+the basic tasks of the switch and router
+one by one on the animation
+these seven computers in the office can
+communicate with each other thanks to
+the switch for example let s say pc1
+wants to communicate with pc5 for this
+purpose pc1 will send a packet to the
+pc5 so
+easy now the packet firstly goes to the
+switch and afterwards the switch learns
+the destination of the packet and
+finally the switch sends the packet to
+its destination and there we go this is
+how two computers in the same lan
+communicate with each other and please
+always remember a switch device is
+enough for us in order for communication
+of devices in the same lan
+on the other hand a router has no role
+in the communication of different
+devices in the same lan like pc1 and pc5
+this is very vital ok
+i hope i could explain the event
+and
+however guys
+what if pc1 was to communicate with the
+internet in other words what will happen
+if pc1 was to send a packet to the
+internet
+let s see
+first of all you should remember this
+information if a computer can send
+packets to the internet this means that
+this computer communicates with the
+internet frankly speaking i believe that
+you exactly understand the logic of this
+event anymore if we can send packets
+from one point to another point these
+two points can communicate it s that
+simple but the question is how will pc1
+send packets to the internet
+to be able to do this first pc1 must set
+its packet to the switch just like
+before because there is no other way for
+pc1 to be able to reach the router right
+i mean if pc1 wants to send a packet to
+the internet this packet must reach the
+router no matter what because the router
+is a door to access the internet this is
+obvious
+hence if pc1 wants to communicate with
+the router it must send its packet to
+the switch first after that the switch
+looks at inside of the packet and
+understand that the packet wants to go
+to the internet so
+it sends the packet to the router and
+there we go
+and then the router firstly looks at the
+inside of the packet and understand that
+the packet wants to go to the internet
+and afterward it sends the package to
+the internet
+over this part
+and there we go
+by the way if you are aware we have
+plugged this cable that we purchased
+from the isp into this part this is
+obvious i believe that currently you can
+easily imagine in an intuitive manner
+how the cables coming to the router like
+this or like this are plugged into the
+parts i mean there are some ports on the
+router and you need to put the cables
+into that box it s that simple
+i will not show this regionally because
+detailed information about the parts
+isn t important for you at this moment
+you just must understand the logic
+behind the router okay
+and as a result pc1 sent its packet to
+the internet in other words pc1 and the
+internet communicated and the device
+that helped us to connect to the
+internet is the router wonderful
+i believe that you understand the most
+basic tasks of the sewage and router and
+i hope the animations have been useful
+for better understanding however i want
+to ask you two questions
+my first question is can you visualize
+the internet
+in your mind
+and the second question is what exactly
+does the internet mean and these will be
+the questions that we are going to
+discuss in the next lessons
+
+before discussing the meaning of
+connecting to the internet from a
+computer perspective i think it is
+helpful to know what the internet
+exactly stands for because if you are
+really starting from scratch i mean i
+assume that you are real newbies you may
+not know exactly what the internet is
+for this reason i want to visualize the
+internet for better understanding
+to do this in this lesson we are going
+to see how a packet moves on the
+internet
+by the way keep in mind that this model
+you see is a simplified model designed
+to make the concept easier to understand
+so this structure in real life is much
+more complex than you see individual but
+with this simplified model you will
+understand the logic of the event very
+well i promise you and i believe that s
+all you need right now
+as you can see there are many writers on
+the internet right and there s a special
+reason for this
+so at this moment i would like to give
+you another piece of information about a
+router a router is a device required for
+a computer or electronic device to
+connect to the internet
+you know this definition on the other
+hand you can think of the router as the
+device we use to communicate with your
+computer in another part of the world or
+you can think of the router as the
+device we use to communicate with the
+computer in a different plan
+i mean if you are aware there is a land
+here right and there is another land
+here this is obvious therefore we can
+draw the following conclusion connecting
+to the internet actually can stand for
+connecting to the another computer
+located anywhere in the world i mean you
+can think of the internet is the
+structure that connects
+all the lands all over the world i want
+to repeat this again
+you can think of the internet as a
+structure that connects old lands
+all over the world
+and as you know there are millions of
+lands connected to the internet except
+these lands
+wonderful
+i hope that everything is good so far
+but there s a thing that we need to
+consider so i want to ask you a question
+why are there so many routers here
+let me explain it in a simple manner
+first you should know that these routers
+are distributed around the world in an
+organized manner however
+routers aren t the only devices in this
+structure this is important there are
+thousands of routers
+and
+other different devices in this
+structure distributed pretty widely but
+focusing on only writers is enough for
+us in order to understand the concept
+behind the internet
+and the first question that comes to
+your mind is probably why routers are so
+important to the internet
+as a matter of fact the answer to this
+question is hidden in the core task of a
+router the device we use to enable
+different plans to communicate with each
+other is drought right and thanks to the
+internet we can connect all the lands in
+the world to each other you know for
+this reason it makes perfect sense to
+use many routers to connect millions of
+local area networks together
+these lands you see are just two of the
+millions of local area networks all over
+the world in summary if the internet
+must connect millions of local area
+networks it is obvious that it needs
+routers i hope you got this
+and once you understand the importance
+of the router for the internet you
+probably think of another question and
+the second question that probably comes
+to your mind is why there are so many
+writers instead of just one writer and i
+think this is a more critical question
+than the first question and let me
+answer it on the visual
+but before answering this question there
+is something in this picture that should
+catch your attention please look
+carefully at the picture and try to find
+
+as you can see these lines on the visual
+have one device instead of a sewage and
+a router so if there is no switch in the
+environment how can there be a lan or if
+there is no router in the environment
+how can it be connected to the internet
+and this is where the home router comes
+into play a home router is a combat
+device consisting of a router and switch
+combination
+hence these devices in the lens are a
+mix of the switch and router this means
+that if we have a home router we don t
+need an additional switch and router
+this device is enough for small
+environments like a home or small office
+this is important i want to repeat this
+again a home router is enough for us in
+small environments or if there are very
+few devices in the environment okay
+i showed you home router because most of
+you have these devices in your home and
+you connect to the internet by using
+home routers for this reason i wanted to
+tell you what these devices are in order
+to avoid confusion however please note
+that if there are too many devices in
+the environment the home router will be
+insufficient and you may need additional
+switch and router you catch the idea
+and now let s go back to our question
+why there are so many routers instead of
+just a single router
+imagine that there is a single router in
+the middle of the world instead of
+thousands of routers distributed all
+over the world
+in this case millions of electronic
+devices around the world would have to
+be connected to the same router this is
+obvious this means that this single
+router needs
+millions of parts isn t it and it is
+impossible to design such a device
+but this is not the only problem in
+addition to it if there was only one
+router the entire lot of the all devices
+in the world would be on that router and
+this is another problem because in
+computer science we don t want to give
+all the lot on a single point we even
+call this problem the single point of
+failure and this is a problem that needs
+to be considered
+to be able to teach it better let me
+give you an example imagine this router
+is broken somehow this means that the
+internet of the whole world is crashing
+down at the same time right because we
+only use a single router to connect all
+lands around the world
+the rotor broke down and the whole
+internet crashed down it s that simple
+just think about the consequences of
+this problem in a second this would be
+terrible right
+and so far we have talked about two
+vital problems but it isn t over another
+major problems is the cable length
+problem
+imagine how long the cable must be if
+there was only one giant router in the
+middle of the world
+especially lands that are the furthest
+from the giant router will need very
+long cables this is obvious right
+therefore this design is a very
+problematic design and the solution for
+all these problems is
+this distributed structure
+all over the world
+you catch the idea but to make sure you
+fully understand the main logic of this
+structure i want you to do an exercise i
+want you to determine why such a
+structure eliminates the problems we
+talked about shortly before i m sure
+that you can handle this
+
+i asked you a question at the end of the
+previous lesson and i know that you were
+all analyzing the situation but let s do
+it together just in case as you know if
+we used a single router at the middle of
+the world we would have problems with
+the overloading of the router
+on the other hand we would need many
+long cables for lens that are the
+furthest from the giant router but as
+you can see in this structure the cables
+don t have to be that long and this is
+an important advantage actually
+of course we can need long cables in
+this structure too but not as much as in
+the other structure after all in this
+structure there can be many kilometers
+between two routers this is reasonable
+however this is by no means laying
+cables from one end of the world to the
+other end right and while we only
+connect two routers with one cable in
+this structure we will connect millions
+of lamps to the giant router in the
+other structure so we will need a lot of
+very long cables to a single point and
+it creates a huge mass imagine cables
+coming to the giant router from millions
+of lamps that locate in the furthest
+area you got the point
+by using this structure we minimize the
+cable mass and we avoid overloading of a
+router
+everything is good but what about the
+load overloading since there are many
+routers load balance process is very
+efficient in the distributed structure i
+mean this system works very well and in
+addition to load balancing it solves the
+single point of failure problem as well
+for example this router this router this
+router and this router are broken
+somehow in this case the internet
+continues to work properly right
+only its efficiency decreases a bit on
+the other hand
+when there is only one router and if
+this router is broken the whole internet
+crashes down and this was very bad so i
+believe that consistency is very
+important for such a huge structure
+like the internet
+and now i want to show you a visual that
+shows the cables between different
+countries and different continents with
+this visual you will understand much
+better what the internet is
+these cables are very important
+especially for the communication of
+countries that there is an ocean between
+them and this visual represents real
+life itself unlike the simplified model
+we use
+99 of all international communication on
+the internet is provided by these 468
+cable lines laid under the water this is
+very crucial guys some of these cables
+are only
+131 kilometers long while others are
+around 20 000 kilometers long and so on
+and the funny thing is
+breaking one of these cables can cause
+the internet of the whole continent to
+go away in a flash time in fact it was
+happened such an event in 2018
+and i want to show this on a different
+image okay
+i want you to focus on this red cable
+this is an almost 17 000 long cable that
+starts in france and reaches south
+africa and this cable connects 22
+countries on the west coast of europe
+and africa to each other and to the
+internet and the internet of 10 of these
+countries crashed down when a fishing
+boat accidentally cut the cable and i
+think this was a definitely tragicomic
+event in addition to this as you can
+imagine this is not the only problem
+that happens to cables because we are
+talking about 1 million kilometer long
+cables spread all over the world so
+there must be something more as a matter
+of fact nearly 200 problems are
+encountered each year and these are
+substantially related to the ships or
+natural disasters and there s a final
+reason that i prefer to use
+substantially word let me explain
+in 2007 sea pirates stole 11 kilometers
+of a cable connecting thailand vietnam
+and hong kong to each other and they
+sold this long cable as scrap by
+dividing it and i think this event is
+more surprising than the incredible
+infrastructure of the internet
+now i have back to the first slide
+because there is something i want to
+show here these colorful cables
+generally represent
+intercontinental connections under
+waters but for example if you look at
+russia land
+cables are not visible on this image
+please don t be confused about it of
+course there are cables and routers
+distributed all over russia too they are
+just ignored in this image i mean the
+main purpose of this image was to show
+you how devices from different
+continents are interconnected under the
+water okay
+also note that all of these cables under
+waters are fiber optic cables because
+the fastest data transmission cable type
+is fiber of the cables and
+intercontinental data transmission must
+occur at the highest bit right
+and another reason of why we don t use
+copper cables is when the length of the
+copper cables increases the probability
+of errors in data transmission increases
+as well
+on the other hand even if the fiber
+optic cables are very long
+they transmit the data to its
+destination almost without ever and this
+is another reason that wi fi blocked
+cables are used over long distances
+great
+i think it is important for you to
+understand what the internet really is
+it is very vital to be able to visualize
+it in your mind because no matter what
+area of it you are dealing with you need
+to grasp this basic subject
+actually there was something else i
+wanted to show in this lesson but i
+don t want to extend this lesson any
+further we will continue where we left
+off in the next lesson that will be a
+very important lesson see you guys in a
+
+in this lesson we are going to discuss
+how a packet moves over the internet in
+this way you will understand how two
+devices in different countries
+communicate with each other we will see
+this on an example let s say this
+computer in lan 1 was to communicate
+with this computer in lantern okay in
+other words let s assume that this
+computer was to send a special packet to
+this computer so this packet must go to
+the disrupter to exit from the land run
+you know because our destination is the
+out of landman i mean it is a different
+network our destination is on lantern
+and we can send our package over the
+internet to lanter and now we are going
+to do this exactly
+first this computer sends the packet to
+the switch
+after the switch receives the package
+the switch looks at the destination
+address of the packet and understand
+that it has to send the packet to the
+router and after the router receives the
+packet the router looks at the content
+of it and learns its destination address
+hence it understand that it must set the
+packet to the internet because the
+destination of the packet is in a
+different network than lan one so the
+router must set the packet to this
+router that is connected because this
+router is the key router for line 1 to
+connect to the internet i mean if this
+router needs to send a packet to the
+internet it must send the packet to this
+router no matter what there is no other
+option right and you can think of this
+link as the connection of lan1 to the
+internet and if this link is cut somehow
+the devices in lan 1 cannot access the
+internet it s that simple
+after this point things will get a
+little complicated so please listen to
+me very carefully after packet reaches
+this router the packet has three options
+to go this part this pad or dispatch
+right this is obvious but the question
+is which path is better option to go for
+the packet and in order to answer this
+question first we need to discuss what
+the routing table is each router must
+have a special table inside called
+routing table and after receiving a
+packet a router looks at its routing
+table to learn which path it must send
+the packet for this router it should be
+this pad this pad or this pad right this
+is obvious and if you are aware firstly
+the router receives the packet from one
+of its parts i hope that you can imagine
+all these cables that come counted
+router are plugged into a port on the
+router very good and after the router
+receives the packet the router learns
+the destination of the packet and sends
+the packet to an appropriate port
+according to the information on the
+routing table and we call this operation
+forwarding
+as a result every router needs to look
+at its routing table to learn which path
+it must forward the packet in other
+words we can easily understand that
+routing tables need to have information
+that which path a packet will got okay
+it is very important to know this
+fundamental task of the routing table
+each router has a special processor and
+information in the routing table is
+created by this special processor using
+many different algorithms these
+algorithms determine the part that a
+packet must go and the results of these
+algorithms are added to the routing
+table okay
+as a result this router will look at its
+routing table and learn which part the
+packet must be forwarded one
+two or three
+meanwhile when a router makes this
+decision it always ignores the path that
+the packet came from because it makes no
+sense to forward the packet back the way
+it came from right and let s say
+according to the routing table of this
+router the packet must be forwarded over
+path 3 and there we go
+after that
+this router needs to look at its routing
+table to decide which path the packet
+must go to assume that the routing table
+saves the packet must be forwarded over
+patter so the packet will go to this
+router right and there we go
+if you are aware the event is always the
+same and it will continue to be the same
+in every router until the packet reaches
+lanter
+anyway let s keep going where we left
+off this router must look at its routing
+table to determine which path the packet
+will be forwarded
+let s say the router choose that one so
+the packet will go to this router right
+wonderful
+and at this moment please listen to me
+very carefully because there s a tricky
+part here
+when you look at the password current
+position of the packet
+you probably think of the most
+reasonable option expecter because the
+shortest path to be able to access this
+router that is connected to this router
+seems to be factor right and if we
+choose patch one for example we have to
+go to this router first and from here we
+can go to this router
+or if we choose pad 3 we will go to this
+router first and from here we can go to
+this router similarly
+but if we choose part 2
+we can go directly to this router and
+this is what we want but is this really
+the case let s see together first of all
+never forget that routers always want to
+deliver the packet to its destination as
+fast as possible so if this router
+chooses pad 3 instead of pad 2 it may
+seem unreasonable to you at the
+beginning i understand that because you
+decide with a very simple logic you are
+just using your eyes however routers use
+many algorithms when creating their
+routing tables and these algorithms have
+many variables i mean routers have to
+take into account many situations when
+they are creating routing tables for
+example
+let s call every router as a point in
+this structure okay so when routers
+create their routing tables they are not
+only concerned with the number of points
+when choosing the shortest route to the
+destination this is really very
+important and i want to give an example
+to you to understand this subject better
+in some cases routers control the
+traffic of their links they are
+connected to and if a path is too busy
+in terms of packet density the router
+will not send the packet over that part
+i mean for instance there may be an
+excessive density on the part 2 line
+even if it seems the best option okay
+and since the router knows this line is
+too busy when creating its routing table
+it may decide that it is more convenient
+to set the packet over pad 3 instead of
+patter and we call this situation
+congestion control ok
+i think that i could get to the point as
+a result the router sells the packet
+over pad 3 and here we go
+as you can see the number of points that
+the packet went through has increased
+however with the selection of pad 3 the
+package can probably reach its
+destination faster don t forget this and
+after this moment let the packet go to
+this router and there we go
+and this router knows that the packet
+will go to the lantern and it sends the
+packet to the router in the home okay
+by the way you can think of this line as
+a straight line like that
+and this router knows that the packet
+came to this computer so it sends the
+packet to the related computer
+wonderful
+as you can see two devices located in
+distant areas basically communicate with
+each other thanks to the internet we can
+communicate in milliseconds with the
+device on the other side of the world
+thanks to the internet i am talking
+about milliseconds guys this is a huge
+thing and that s the main reason of why
+the internet is one of the most
+important thing that mankind created
+i hope i was able to explain intuitively
+what the internet represents however
+there is also something else very
+important that i have to say i want to
+tell you the bookish definition of the
+internet
+the internet is the network of the
+networks
+let me repeat the internet is the
+network of the networks
+i believe that you got this but i would
+like to make this definition more
+meaningful to you firstly think about
+your own harm maybe you have a lot of
+devices that can connect to the internet
+for example computers mobile phones
+televisions game consoles tablets and
+many many more
+similarly most people have many devices
+with an internet connection in their
+home just like you right
+in the same way you can think about a
+company or an enterprise that has a huge
+number of devices and you know that
+there are many companies and enterprises
+in all over the world so as you notice
+there are many small or medium sized
+lands spread all over the world
+and all these lands on the visual
+represent these networks
+as a result the combination of all these
+networks
+stand for the internet itself this is
+very important the combination of all
+these networks stands for the internet
+itself in other words we are talking
+about a huge system in which almost all
+electronic devices in the world used to
+communicate with each other
+by the way there is a very important
+part here to understand on the visual we
+called this structure that is in the
+middle of the visual as the internet and
+you will see such a representation in
+many resources you can usually see a
+cloud logo in order to represent the
+internet
+but in fact the internet is this fixed
+structure you see
+formed by a combination of all these
+networks and this structure in the
+middle okay this is very crucial guys
+what i am trying to say is
+when you only see such a representation
+you should think that there are millions
+of lands that are connected to it even
+if these lands don t appear individual
+okay
+and the internet
+is a huge system that includes all lands
+in the world
+so i hope that you understand better
+reason of the bookish definition of the
+internet the internet is the network of
+networks
+wonderful
+and you can think of this structure as
+the heart of the internet for example
+when we connect this lan to the heart of
+the internet with this cable
+this lan will be included in the
+internet and it can communicate other
+devices that are connected to the
+internet
+you catch the idea
+so far we have learned what the internet
+is and how important routers are but
+what exactly does connecting to the
+internet look like from a computer s
+perspective and we are going to discuss
+this question in the next lesson
+
+now we are going to discuss the meaning
+of connecting to the internet from the
+computer s perspective and i believe
+that it is very important to understand
+this event assume that we are in a home
+instead of an office and we have only
+one computer therefore to be able to
+connect to the internet what we only
+need is a home router isn t it there is
+no need for a switch since we don t have
+other devices to connect to each other
+in this home very good
+by the way if you want we could use a
+router device instead of a home router
+device because if you are aware we want
+to use only the router feature of the
+home router we don t need to use the
+switch feature of the home router right
+because there is only one computer in
+the environment
+i believe currently you know which
+device actually does what this should be
+logical to you therefore i will assume
+that
+you know what basic networking devices
+are doing from now on
+and so far you have learned that the
+connection situation of the internet is
+determined by whether the related
+computer can send a packet to the
+internet or not
+and now i will try to make this
+situation more meaningful to you
+you are watching this video on the
+udemy com website right
+i mean let s say you are turning on your
+computer and entering udemy com on your
+favorite web browser then you click on
+the video you are watching right now or
+any video you want to watch and as soon
+as you click on one of these videos your
+computer creates a packet and sends this
+packet to udemy com over the internet
+the package firstly is sent to home
+router and then the home router sends
+the package to udemy com over the
+internet and we can think of this green
+packet as your request message to
+udemy com
+a request message gives information to
+udemy com about you want to watch the
+related video okay this is very crucial
+and after udemy com receives your
+request message about watching a
+specific video it naturally realizes
+that you want to watch a video hence
+udemy sends the related video to you
+over the internet and there we go
+these red packers represent the pieces
+of the video that udemy sent to you in
+other words the video you are watching
+right now
+by the way there s a very important
+thing about this process let me explain
+while you are watching any video on
+udemy udemy sends it to you piece by
+piece and we call this process streaming
+i think you have heard of this concept
+before and with the help of streaming
+technology you can watch the videos
+uninterruptedly or without any problem
+and to be able to show this piece by
+piece sending process better now i have
+opened a random video on udemy com
+you can see that the video is being sent
+to my computer from udemy com piece by
+piece
+thanks to the ability to send videos
+piece by piece we can watch the video
+without requirement for all the video to
+reach our computer for example imagine
+you want to watch a one hour video and
+assume that your internet speed is so
+slow
+if you couldn t watch this video before
+the whole video reached your computer it
+will be very bad for you right
+fortunately the process doesn t work
+like that okay
+and in addition this transmission time
+varies depending on the speed of our
+internet the faster our internet speed
+is the sooner the video will reach our
+computer it s that simple
+i hope in this way you have a better
+understanding of what these red packets
+are
+great
+as a result connecting to the internet
+reverser you can send some packets to
+the internet and you can receive some
+packets from the internet and here the
+router or home router in this situation
+plays a very important role the home
+router gives the packets it receives
+from the computer to the internet and
+gives the packets it receives from the
+internet to the computer
+in summary packet transmission is the
+basis of connecting to the internet or
+communicating with a computer on the
+other side of the world
+meanwhile when we enter udemy com we
+communicate with very powerful computers
+that actually belongs to udemy com
+and we call this special computers
+server
+servers do not differ fundamentally from
+normal computers however since the
+servers will exchange packets with
+thousands of normal computers at the
+same time servers must be much more
+powerful computers in terms of hardware
+compared to normal computers because as
+you know too many people access
+udemy com at the same time i mean too
+many people access servers of udemy com
+at the same time and at this moment let
+me tell you what i mean when i say
+servers of the udemy if you remember we
+talked about the importance of the
+single point of failure and
+load balancing before and this is true
+for servers of udimeter there is not a
+single udemy server in the world udemy
+has a lot of servers distributed around
+different parts of the world the
+location of one of these servers is the
+best for you and
+you communicate with this best suited
+server it s that simple
+as a result when you want to enter
+udemy com you are actually communicating
+with one of the suitable udemy servers
+for you so
+while some of you communicate with the
+same server
+some of you will communicate with a
+different server but at the end of today
+you will all get the same content
+therefore thanks to distributed servers
+udemy prevents single point of failure
+and provides load balancing
+please think about it a little okay
+by the way of course there are many
+details behind the transmission of
+packets but you can think of it in this
+way as the simplest logic and that s all
+i need to say in this lesson
+see you guys soon
+
+in this lesson we will shortly talk
+about the white area network or briefly
+van which is a very important type of
+network for the internet in a simple
+manner you can think of van as a network
+consisting of a combination of different
+plants for example with the combination
+of these two lamps we can create a van
+or combination of this land this then
+and this land we can create another one
+okay and in order to understand better
+the logic of van we can talk about the
+company example let s say we have a
+growing company and we opened some
+offices in different parts of the world
+and we want these offices to be in the
+same network even if they are far apart
+and this is where the wide area network
+comes into play by using van we can
+create a special network for our
+requirements let s say this is one of
+our lan and this is our another lan and
+they are located in different parts of
+the world and we want to create a van
+for our company by using these two lands
+but the question is how do we do that
+let s see
+let s say our boss wants us to establish
+a special network for these lands i mean
+he wants the computers in these two
+different offices to work as if they re
+in the same environment so our guy is
+van if we create a van these lands can
+communicate as if they are in the same
+environment but there is an important
+point to consider here
+thanks to the internet we can already
+enable these lands to communicate right
+as you know the internet stands for the
+network of networks this means that the
+internet itself represents connecting
+millions of lands together
+hence if these lands are already
+connected to the internet computers in
+lan 1 and computers in lan 2 can already
+communicate over the internet this is
+obvious
+so the question is if these offices can
+already communicate with each other
+over the internet
+why we need another special network as a
+van
+please be careful communication over the
+internet directly and communication over
+a special van belongs to a company is a
+whole different tank
+so
+i want you to think about that question
+
+if you have noticed the internet is a
+public network i mean the internet has
+no owner and it belongs to everyone any
+person can connect to the internet
+whenever and wherever he wants for this
+reason it is obvious that this public
+and huge network can have security
+related problems in information transfer
+between different locations you know
+hackers are everywhere and they are in
+this public and huge network too and to
+be able to answer the question i just
+asked better i want to give you a very
+good example
+let s say this computer wants to send an
+important file related to the company to
+this computer and after the file is sent
+to this computer there will be no any
+problem because this transmission
+process took place within this lan
+this lan is a private network for this
+office an outsider cannot directly
+access this land without your permission
+this is very important hence file
+transmission operation in this land is a
+secure operation in general
+everything is good so far but what would
+happen if this file was sent to the
+other office over the internet
+let s see
+now the scenario is the same again we
+need to send a file related to the
+company but this time we must send this
+file to the other office of the company
+as you can see the file passes through
+the public network isn t it and this is
+where the problems appear just think
+about it this part of the internet is an
+absolute public network this means that
+if you send the file over the internet
+like that there is no guarantee that no
+one from the outside can t see this file
+or worst no one from the outside can t
+change this file as i said before
+hackers are everywhere and the
+possibility of these issues are
+generally not low hence it is important
+to remember that there is a possibility
+for a problem when you send this file
+about the company over the internet
+directly especially if it is a very
+important file about the company it is
+very vital to be careful
+and a special one for the company is a
+solution to such problems in general
+setting up a van is a costly and not
+easy task but fortunately there are
+various methods of setting up a van and
+now we will only talk about the most
+popular and cost effective van method
+and this method is then by using vpn
+i am sure that you have heard of vpn
+before it stands for virtual private
+network and people usually use vpn to
+access restricted websites because vpn
+ensures are anonymity and it encrypts
+our data before signing the packet hence
+this gives us high security in general
+and while creating vans by using vpn
+technology we take advantage of these
+features of vpn but the most important
+feature you should know about vpn is the
+tunneling this feature of vpn provides
+privacy anonymity and security to us by
+creating a special network connection
+over a public network this is really
+very important i want to repeat this
+again vpn tunneling provides privacy
+anonymity and security to us by creating
+a special network connection over a
+public network however frankly speaking
+a physical tunnel isn t created here
+this is very crucial tunneling
+technology makes the packet acts as if
+it is going through a physical tunnel
+but i won t repeat it again this is not
+a physical tunnel this tunnel visual
+just represents the high security
+connection between line 1 and lan 2 you
+can think of it in this way this tunnel
+visual just stands for the high security
+for the connection between these routers
+it s that simple
+by the way of course the packet will
+pass through main routers on the
+internet in order to reach its
+destination just as you have learned
+before however since vpn uses tunneling
+it will be almost impossible to
+interfere with this packet from the
+outside
+great
+i hope that you got the channeling
+conceptually but i want to take a closer
+look at it so first we sent our file to
+the router and there we go
+and at this moment
+there will be some changes on the packet
+but before doing these changes first of
+all you should know that vpn tunnelling
+is set up between these routers this is
+very crucial and we call this
+site to site vpn
+this method is very popular while
+creating a van between offices and
+thanks to the tunneling our file saved
+reaches lanter you know but the question
+is if tunneling is not a physical tunnel
+as shown in the picture what exactly is
+it let s see
+i will use an analogy to explain this
+let s say you need to send a letter from
+land1 to lanter so you should give the
+letter you wrote to a postman right the
+postman can take this letter to its
+destination and suppose you are not
+putting this letter in an envelope this
+means that the postman can read the
+letter if he wants this is obvious
+you can think of the postman in this
+example as the public internet on the
+other hand if you had put this letter in
+an envelope first and gave it to the
+postman in this way the postman wouldn t
+be able to read it this is obvious
+hence the process of putting glitter in
+an envelope represents the tunneling
+itself so in the real scenario we had to
+put this yellow packet into another
+packet and there we go assume that the
+yellow packet is in the red packet it s
+just like putting the letter in an
+envelope that s the whole idea about
+tunneling wonderful and at this moment i
+want to ask you a question and my
+question is that is this packet really
+in safe right now i mean can t the
+postman open the envelope and find out
+the information in it if he really wants
+to just think about it
+you got the point right even though we
+have increased the security of the
+packet by applying tunneling there are
+still some problems and this is where
+encryption comes into play suppose that
+you encrypt your letter in a way that
+only people working in your company can
+understand in this case even if the
+postman opens the envelope he cannot
+obtain the information because he will
+see non understandable data he will not
+understand the encrypted information so
+what we have to do is very simple right
+we must encrypt the original packet
+before putting it into another packet
+so let me back one step on the animation
+and for this scenario we encrypt the
+yellow packet before putting it in the
+red packet and then we put this
+encrypted packet into the red packet
+and finally this packet is sent to land2
+over the internet safely and there we go
+it s that simple guys we encrypted the
+original packet and put it in another
+packet thus we maximized the security of
+the packet okay
+the term of tunneling comes from here
+because packet is safe is if it was
+moving in your own private tunnel i hope
+that i made this concept understandable
+to you and at this moment the router
+needs to get the original packet and to
+be able to do this the router first
+eliminates the outside packet right and
+then it needs to decrypt the encrypted
+packet so that it can obtain the
+original packet and after the router
+gets the original packet it looks inside
+the packet and learns its destination
+and sends the packet to its destination
+and there we go
+as a result with the help of the van by
+using vpn we can securely send company
+related information from one lan to
+another but never forget that there is
+no such thing as 100 percent security
+this means there may be always a
+security vulnerability for every system
+however currently one network s built by
+using vpn technology are quite
+satisfactory in terms of both budget and
+security okay
+i believe everything is good so far but
+some of you curious can think about
+equation you probably think like
+i constantly use the internet in daily
+life i send mail to my friends i use
+e commerce website and i do all of these
+over the internet so since the internet
+is a public network are all these
+operations insecure the answer is both
+yes and now let me explain
+assume that you want to make an
+operation on amazon com and let s say
+you had to enter some information about
+your credit card while purchasing a
+product since this information will be
+sent as a packet over the internet to
+one of the servers of amazon com we
+absolutely don t want anyone from the
+outside to see the information about our
+credit card as a solution to this an
+end to end encryption method is used
+between our computer and the destination
+server and since the packet is encrypted
+nobody from the outside can see the
+information about our credit card except
+the server of amazon com this is the
+main logic behind the end to end
+encryption only the end points can
+decrypt the packet and obtain to
+original data okay
+however this kind of encryption was not
+used in the past and this situation made
+it easy for hackers imagine that the
+information about your credit card was
+directly obtained by a hacker in pure
+text this is terrible right but thanks
+to end to end encryption we eliminate
+this problem
+and finally i am going to ask you a
+question and then i am going to finish
+the lesson
+now you know what one is right in
+summary ban represents the networks we
+create by combining different plans in
+this case my question is what is the
+largest white area network in the world
+the answer comes to your mind rapidly
+isn t it the internet itself is the
+largest wide orient network in the world
+however i want to remind you again
+please note that a company s van created
+with vpn is different from the internet
+while one of these vans is completely
+special to the company the internet
+is owned by everyone in the world and
+yeah that s all i would like to say
+
+we have learned a lot of information
+about network devices until now and in
+this lesson we will look at a few more
+cases by using these devices let s say
+we have two offices belongs to the same
+company and suppose that there are 100
+meters between these offices if you are
+aware this distance is very short in
+this case what i am wondering is whether
+or not we can connect which one and
+switch to direct to each other to create
+a lan and the answer is we can
+definitely do this because as you know
+that we use switches to create lands
+therefore we can create a lan by
+connecting these switches to each other
+even if they are not in the same
+environment but please note that the
+distance is very short between these
+offices if this distance were not too
+short
+it is impossible to connect these
+switches and create a lan
+meanwhile these types of lands can be
+called campus area network or briefly
+can since these types of networks are
+generally used on university campuses
+okay on the other hand you know that we
+can also connect these two offices by
+using van with vpn but please note that
+vat and lan are different kinds of
+network types this is important and you
+can see the package sent with tunneling
+in the animation
+and there we go
+yep
+i believe so far everything is good but
+i want to ask you a question which one
+do you think is more secure when with
+vpn or lan created by connecting
+switches directly please think about it
+
+the answer is so simple isn t it a lan
+is always more secure than a van because
+in the communication within the lan the
+packet never passes over the internet
+the packet always moves on our own cable
+on the other hand even if the packet is
+protected in the van the packet still
+passes over the internet and as you know
+there is never such a thing as 100
+percent security even if the packet is
+protected with tunneling and encryption
+so to summarize both of these methods
+are secure but lan is more secure this
+is obvious
+however there is a condition that a van
+is almost as secure as alarm and we call
+private van for this type of van by the
+way we haven t talked about this one
+type before i mean this is different
+from man with vpn because the line
+between offices is dedicated for the
+company you request this line from the
+isp and give a special money for this
+line thus the isp gives you a private
+line that only your company can use we
+call the van created in this way is
+private van okay and please remember
+that we were using public internet
+network inven with vpn and that s why we
+also call wemitvpn is public van this is
+very crucial in addition even if private
+van sounds great at the first glance it
+can be quite costly for this reason it
+makes sense for an average company to
+prefer public van instead of private one
+you know public van provides us security
+that we definitely cannot underestimate
+right
+wonderful
+now i want you to pay attention to one
+point some of you may have already
+noticed this but it will be good to
+mention in any case
+we use switch devices to create a lan
+while we use routers to create a van
+this is very vital i want to repeat this
+again we use switches to create a lan
+while we use routers to create a van
+this means we can not create a van by
+using switch devices because a van
+fundamentally represents connection of
+different plants with the help of one
+different plants can act as if they are
+in the same environment and you know
+that if you want to connect different
+plants we definitely need a router for
+this task you got the point
+and now i want to talk a little bit
+about the router until now i have always
+explained the router as an internet
+related device however it isn t the main
+task of the router is to connect
+different networks that s it you should
+realize that these networks may be in
+different parts of the world or maybe in
+the same office it really doesn t matter
+and in this slide you can see that two
+different plants in the same office are
+connected to each other thanks to the
+router device suppose that one of these
+networks is related to the marketing
+unit of the company and the other
+related to the software unit and as you
+know if we want different networks to
+communicate with each other we should
+use a router
+in the animation you can see that lan 1
+and land2 communicate through the router
+
+great
+and here i want to give you additional
+information about the router i want you
+to focus on the cables of the router if
+you are aware each cable is connected to
+a different network i mean one of the
+cables is connected to lan 1 one of the
+cables is connected to line 2 and one of
+the cables is connected to the internet
+this is the case for the router the
+router connects different networks you
+know for this reason each cable
+connected to a port on the router
+represents a different network okay
+by the way you may have wondered why
+different networks are needed within the
+same office as a matter of fact this is
+a common situation in real life i mean
+you may want different units in the
+office to be in different networks this
+might be offsearch for an office with 4
+computers however imagine an office with
+50 computers in it dividing these
+computers into units increases hierarchy
+and order never forget that
+as you can see the basic principles are
+the same everywhere by using these basic
+principles we can enable devices in
+different parts of the world to
+communicate and we can enable devices in
+the same office to communicate both of
+them represents the same task i think
+you understand this concept very well
+and that s all i want to say in this
+
+in one of our previous lessons i told
+you we purchased this cable that came to
+our home from isp but i haven t
+mentioned what exactly isp is and in
+this lesson we are going to discuss what
+is the isp and why it is so important
+the internet service provider or briefly
+isp is responsible for the transmission
+of packets from one location to another
+if you remember we have learned that
+there are a lot of routers in the heart
+of the internet i m talking about this
+structure and you can think of the isp
+as the mechanism that controls all these
+routers in this structure for example
+there are actually many routers in this
+globalizer similarly there are main
+routers in this regional sp but to
+simplify the concept i didn t visually
+show the routers within the isps however
+i want you to imagine that the routers
+distributed around the world are
+controlled by these isps this is very
+crucial think of it as each isp controls
+specific routers and packets are sent
+from one location to another location
+over these routers we previously talked
+about how the packet travels from one
+point to another via routers
+understanding this situation is the
+first condition to understand the isp
+what i am trying to say is certain isps
+are responsible for certain routers
+i want you to imagine that every isp you
+see in this picture is responsible for
+certain routers okay but i am removing
+them from the visual for the simplicity
+of the concept
+in addition
+the isp model you see here is a
+simplified model but even if the model
+is simple it is enough to understand the
+most important parts of the concept
+let s start with basic definition of the
+isp isps represent companies that serve
+us so that we can connect to the
+internet and of course they charge a
+certain fee for this service you cannot
+connect to the internet without an isp
+think of isp as the structure that
+allows you to connect to the internet
+and isp is not a single structure there
+are hundreds of thousands of isps in the
+world and all these isps come together
+to form the structure you see individual
+there is few isp individual i know that
+but i can say that there are hundreds of
+thousands of isps in real life
+the most common isp type in the world is
+local asp and now i want to start with
+it the first step of connecting to the
+internet is to communicate with the
+local asp and local isps are generally
+responsible for small area
+communications for example the
+communications of two different plants
+in the same neighborhood or
+communication of lands located in
+neighborhoods close to each other
+let s say we live in the usa and these
+two homes are located in the same
+neighborhood
+if this computer wants to communicate
+with this computer the connection is
+provided directly over this local asp
+this is obvious you can see this on the
+animation
+the packet passes through different
+routers at local sp and reaches its
+
+but in general since the local isp is
+responsible for the communication of
+small areas the packet can also pass
+through only one router before reaching
+its destination
+you can think of this local asp as the
+isp that only connects lands within a
+neighborhood
+of course a local asp can connect
+different neighborhoods but in this
+scenario let s say it doesn t therefore
+one router can be enough to connect them
+you got the point
+and in this visual you can see an
+example of a small local asp office and
+we call these offices point of presence
+or briefly
+pub
+in fact routers distributed over the
+internet are included in these paths and
+in this five in other words in this
+office
+routers are on the left side
+in addition you have probably noticed
+that there are other devices than
+routers
+because sometimes we must do different
+configurations with different devices
+hence app must save routers switches
+servers and so on but the device we use
+to connect different networks to each
+other is the router you know for this
+reason we will only focus on writers
+and in our previous lessons the routers
+on the internet visual were actually
+representing pubs spread over the world
+and in order to explain this better i
+want to talk on a different image but in
+this image i want to think of different
+tassels and offices connected to local
+sb2 and locally sp3 i mean we won t talk
+about these songs you got the point
+and
+there we go
+as you can see a home and small office
+connect to a pub over localized speeder
+so this pub is the first point to be
+able to connect to the internet for this
+home and this office this should be
+clear to you
+by the way if you are aware
+local sb2 has four paths
+you might think that thanks to these
+four paths local b2 connects different
+neighborhoods and in this way lands in
+different neighborhoods can communicate
+over localized b2 effectively and from
+here we can draw the following
+conclusion
+some local asps can have more than one
+pub however some local asps can only
+have one pop this depends on the size of
+the local asp for example if a local asp
+connects four different neighborhoods it
+may have four different paths but if a
+local asp connects only one neighborhood
+it has only one pup you catch the idea
+and if you want to do more detailed
+studies on this topic you will see many
+resources on the internet with raw
+dragons you should be aware that these
+icons actually represent the water
+within the pub there are many pubs
+distributed all over the world and
+routers are in these paths it s that
+simple
+at this moment i want you to imagine
+that there are hundreds of thousands of
+local asps in the world and these local
+aspects connect to regional aspects that
+are larger than them this means that
+different local asps communicate over
+regional airspace for example local sp2
+communicates with local asp3 over the
+original sp1
+as a matter of fact you can think of
+local aspects connect neighborhoods and
+regional aspects connect cities in a
+country it s that simple i won t repeat
+this again you can think of local asps
+connect neighborhoods or small areas and
+regional recipes connect cities in a
+country okay
+meanwhile there is one regional sp in
+this simplified model we use but in real
+life a country can have main regional
+airspace and all local aspies and
+regional aspies combine in order to
+create network of a country
+in summary the first step to connecting
+to the internet is local asp
+and this line represents the line we
+purchased from the local isp right
+every home or office must purchase such
+a line from the relevant isp to connect
+to the internet
+and if you examine your home router
+carefully you can see the cable coming
+from your isp wonderful
+now let s suppose that this computer and
+this computer want to communicate with
+each other by the way these two homes
+are located in the usa but they are in
+different cities as a result they are
+connected to different local aspects
+this is obvious so in this situation how
+will this local sp communicate with this
+local asp let s see in fact this is
+where the original sp1 comes into play
+in general the original asp is engaged
+in the communication of devices in the
+same countries but in different cities
+if you look carefully at the animation
+local isps communicate over the regional
+asp this is obvious right and
+
+and at this moment some of you may be
+wondering why there is no direct link
+from localized p2 to localize b3 this is
+an expected question
+just think about it if we connect
+localize this directly the hierarchy is
+broken i mean you see very few localized
+piece in this scenario but in real life
+there can be many local sps even in the
+same city and if we connect them all
+together complexity will definitely
+occur and we don t want to increase the
+complexity of this system it is already
+quite complex isn t it and that s why we
+use a central hierarchical isp structure
+as you see individual with the minimum
+number of connections between isps we
+ensure that all isps communicate with
+each other it s that simple
+so far we have talked about local asp
+and regional isp also the computers that
+communicate with each other were always
+in the usa but what if computers in
+different countries want to communicate
+with each other and this is where the
+global asp comes into play you may think
+that the global isp connects devices in
+different countries in general as you
+know there s an ocean between the usa
+and china so if a device in the usa and
+a device in china wants to communicate
+it must be a global isp that provides
+disconnection
+we cannot connect these two devices with
+only local asp and regional asp and as
+you can see in the image there are
+multiple global isps and these global
+asps are the part of the hierarchy and
+by using them these two computers can
+communicate with each other
+let s assume that this computer wants to
+communicate with this computer in this
+case the packet will first go to the
+localized speaker you know and then go
+to the regional sp1
+and the packet has two options at this
+moment this pad or this pad in other
+words global sp1 or global sp3
+i hope you understand that this
+selection is determined by the routers
+in the original sp1 each router makes a
+choice and as a result of these choices
+the router s patch is determined
+let s say the packet will be forwarded
+to global sp1 and there we go
+by the way another packet that will pass
+through original sv1 may go to the
+global sb tree next time who knows
+you catch the idea
+anyway
+afterwards let s say that the packet
+will be sent from global sb1 to
+globalize between and there we go
+and at this stage the packet can be sent
+to local sb6 or directly to the original
+sb2 or globalize b3 either way it will
+reach its destination what i am trying
+to say is
+the packet can follow different paths
+and i want to show you some of these
+paths for example from global asp2 to
+local sb6 regional sb2 local sb7 and
+destination or from global asb 2
+to direct regional asp 2
+local ace b7 and destination or from
+global asp 2 to global sb 3
+regional sb2 localized b7 and
+destination again all of them are
+suitable paths
+you should also have noticed a situation
+here if the destination of the packet
+was this harm the packet could reach its
+destination directly over localized v6
+without going over regionalized feature
+this means that some local aspects can
+directly connect with global airspace
+without a regional asp this is very
+important
+as you know
+local asps represent small companies and
+in some cases these small companies may
+want a direct connection with a global
+asp to provide a faster internet
+experience to its customers
+actually there are two ways for this
+kind of connection in general
+if a local asp connects directly with a
+global isp its location can be very
+suitable for this purpose
+i mean related global asp can already
+have an infrastructure on this location
+however if the related global asp
+doesn t have an infrastructure in this
+location a lot of extra money must be
+paid for this connection but local asp
+company to the global asp company you
+catch the idea
+and for this package on the global asp2
+let s say it will go to the original
+isp2 instead of local sb6 or global sb3
+okay and from here packet will go to the
+localized b7 and there we go
+as you can see localase b7 is connected
+directly to the destination line
+therefore locally sb7 knows that where
+it will send the packet
+and finally the home run receiving the
+packet sends it to the destination
+computer
+voila as a result you have learned how
+computers in two different regions of
+the world communicate over the internet
+you also learned the relationship
+between the internet routers and isp
+with each other and in the next lesson
+we are going to cover two more scenarios
+related to the isp concept see you guys
+
+let s say we are in belgium this is our
+home and we want to connect to a newly
+established website called
+abcx com the owners of the website have
+limited financial power for this reason
+they have only one server on the usa
+so to be able to reach abcx com
+our request message must pass over at
+least one globalism this is obvious
+you can see the whole process on the
+
+and after the server of the abcx com
+receives the request message in exchange
+for it
+abcx com creates a response message this
+response message contains information
+about the web page we want to enter it
+includes images videos html file and
+everything related to the web page
+meanwhile if you don t know what an html
+file is you can think of it as the
+skeleton of a web page in a simplest
+manner and after generating the response
+message the server must send it to us
+however the path preferred by the
+response message will be different from
+the path preferred by the request
+message please pay attention to this on
+the animation
+there is no way to know the exact part
+of a message beforehand since routers
+can make different choices each time i
+mean the path for a message is always
+determined on the way never forget that
+and as soon as we receive the response
+message the website appears in our web
+browser in summary when you want to
+enter a website you first send a request
+message to the server of website and the
+web server receiving your request
+message sends you a response message
+which contains all information about the
+web page you want to enter and when this
+message comes to you your web browser
+learns all information from this
+response message and displays the
+related web page in your web browser
+and the surprising thing is
+every time you want to enter a website
+this process happens again
+however since this process takes place
+in milliseconds you don t realize that
+there are complex operations in the
+background
+and now let s try to enter google com
+instead of abcx com
+and see what happens you know google is
+quite different from
+abcx com since it is a giant company for
+instance unlike abcx com
+google has many servers distributed all
+around the world and with this
+distributor server structure google
+provides a much more efficient and fast
+service to its customers and let s say
+one of these servers is not far from our
+home therefore when we want to enter
+google com or when we want to get any
+service from google we will probably
+connect to this server which is close to
+us okay
+for this reason the process will be much
+faster
+in fact this is the main reason why big
+companies put many servers in different
+locations around the world they want
+customers to communicate with them in
+the fastest and most efficient way and
+the distributed server structure is a
+great solution for such a desire i
+believe you catch the idea
+so when we want to request a service
+from google our request message will go
+to this server close to us
+you know that how the packet reaches the
+related server with the help of isps
+and you know that what will happen
+after this stage
+google
+sends us a response message related to
+the servers we request however the time
+for google to communicate with the
+customers is sometimes not satisfactory
+for google and google wants to increase
+distribute in general fortunately google
+has a very good solution for this kind
+of issue called peering but what exactly
+is peering
+let s see
+peering is the technique which google
+establishes a direct connection with an
+isp to provide faster access to its
+servers
+as you can see on the animation google
+connects directly with the local asps
+thus when we want to get a service from
+google we will be able to communicate
+directly with google servers without
+using isp infrastructures in this way
+google can communicate with the
+customers much more effectively and
+quickly at this moment everything is
+good but what about security
+since the number of public pub that
+packets pass through decreases thanks to
+peering security increases so much i
+mean the packet goes directly to google
+via local asp in other words the packet
+does not use public isp infrastructures
+to communicate with google
+remember that security is very important
+to large companies and it is obvious
+that this direct connection decreases
+the possibility to be obtained for the
+package from the outside
+wonderful
+and last but not least i want to give
+you an example as you know youtube is
+owned by google so when you want to
+watch a video on youtube you are
+actually using google s distributed
+servers around the world and you are all
+aware that youtube works very
+efficiently when you want to watch a
+video on youtube you can watch it very
+well you will not be interrupted
+whatsoever the main reason for this is
+the distributed server structure and the
+peering infrastructure of google on the
+other hand you may sometimes see phrases
+and interruptions while watching videos
+on udemy because udemy s infrastructure
+is not as strong as google in general of
+course udemy also uses a distributed
+server structure but this number is
+probably not as many as google this is
+obvious in addition udemy doesn t use
+peering and you know that peering is a
+very efficient technology especially it
+increases the streaming quality and
+speed a lot
+but i can say that udemy did a
+significantly good job overall because
+serving
+millions of people at the same time is a
+really challenging engineering problem
+okay
+in summary peering is a very effective
+structure is used by giant companies
+like google amazon and so on you got the
+point
+and finally i want to give you some
+general information about isp as you
+know global asps are responsible for the
+international communication i can say
+that although definitely not as many as
+the original asp there are a few global
+asps in the world and you can guess that
+the technical reasons for not having
+only a single global asp in the world we
+have talked about similar things before
+but in addition to these reasons like
+load balancing and efficiency there are
+also some financial reasons for this i
+mean setting up a global isb company is
+a very costly business at the beginning
+but it makes its owner a lot of money
+you know what i am saying right if you
+have a lot of money establishing a
+global asp company is a good choice it
+will probably make you smile
+with time
+by the way we also call the internet
+backbone to the network that global asp
+set up with each other familiarity to
+internet backbone term can be useful for
+you in the future
+in addition there are structures called
+internet exchange point in order for the
+internet backbone to work synchronously
+and for global asps to communicate with
+each other more efficiently and we
+briefly call these structures ixp
+or ix never forget that
+and the last thing i want to mention is
+that you don t have to connect to a
+local asp in order to connect to the
+internet you can directly connect to a
+regional sp or global asp if these isps
+have a service for your location this
+means that you can learn which isps are
+serving value leave and make your choice
+according to this information it is
+absolutely your decision to choose the
+isp service you want okay
+for example let s say this is our home
+and we connect to the internet via
+locally speaker however if we request we
+can also connect directly to the
+internet the original sb1 this is
+possible what i am trying to say is if
+you want to get your isp service from a
+certain company and if this company
+doesn t serve your location you can
+contact the company and talk about what
+you can do if you give the required
+money to the isp company most regional
+asp and global asp can provide you the
+service you want that s it but for
+normal users this is very unnecessary
+normal users only need to choose one of
+the isp services in their location and
+benefit from it
+on the other hand if you want to set up
+a local asb company such a move may make
+sense
+wonderful and we talked about the isp in
+general i think you got a lot of good
+information but if you want you can do
+more research about the isp on the
+internet however that s all i have to
+

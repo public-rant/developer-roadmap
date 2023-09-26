@@ -1,0 +1,193 @@
+our topic for today is the dns records
+in our last lesson we looked at the dns
+if you haven t watched that video i
+would recommend you to go and watch that
+first
+in this one we are going to focus on the
+authoritative name servers
+or mainly the information that is stored
+there the information stored at the
+authoritative name servers is called the
+dns records
+or the zone files if you have ever
+purchased or set up a domain
+there s a high chance that you might
+have set up the dns records
+some of the common dns records are the a
+record
+c name mx txt and the ns
+in this lesson we re going to look at
+each of these and we ll understand what
+is the purpose and the usage of each of
+these records
+so first of all we have the a record it
+stands for the address record and it
+refers to the ip address of the
+server to which this domain points so
+let me take an example let s say that we
+have a domain called the roadmap sh
+and here is the dns records for this
+domain name in our first column we have
+the type
+which is the a record then we have the
+name
+which is at so add reference to the root
+domain so
+roadmap sh then we have the ip address
+of the server as a value
+and then we have the ttl or time to live
+which is the caching time for this
+record and the seconds
+so this means that the ip address can be
+cached at the client
+or any other places for this number of
+seconds
+we can have an a record for a subdomain
+also so in this case now app roadmap sh
+points to a different ip address
+and also we can have multiple a records
+for a domain or a sub domain
+which are pointing to different servers
+the next one we have is the c
+name record which stands for the
+canonical name record
+it is an alias record which allows us to
+point a domain or a sub domain from our
+domain to some external domain
+or to one of the current domains let s
+take our existing example of
+roadmap such
+now if you look at the records we are
+handling the roadmap sh and the
+app roadmap sh
+but we are not handling the request to
+the www roadmap sh
+now to handle that we can either add
+another a record with that www
+and pointing to the ip address or we can
+add a cname record
+so now we have that whenever the user
+opens www roadmap ch
+it will find the canonical name which is
+roadmap sh and return the ip address for
+that
+now since the roadmap protested is the
+naked domain
+we can point it to at also we can also
+use external domains
+so let s say that we have
+blog roadmap sh
+and we want to point it to
+cameronml info
+so now in this case we are taking the
+blog as a c
+name and it is pointing to the external
+domain comradeon info
+the next one we have is the mx record
+which stands for the mail
+exchanger record and it helps in routing
+the emails to the relevant servers
+let s take the same example of roadmap s
+so i might have a
+mx record which looks like this so in
+this case now if you look at the name we
+have the
+at or the naked domain which means that
+any emails which are sent to the naked
+domain
+let s say kamlan at roadmap dot sh they
+will be handled by the server at
+mail example com now a website might
+have multiple
+mx records so in this case now we have
+two
+servers handling the email sent to the
+naked domain but how does it decide that
+which server is going to handle the
+request
+so for that we have a priority number
+assigned to each of the hosts
+so when an email is received it will try
+to resolve it by the lowest priority
+number
+if the server is working and it could be
+used for sending the email
+then it will be used otherwise it will
+fall back to the next lowest priority
+number
+and use that and it will continue till
+it finds the server which could resolve
+the request
+the next one we have is the txt record
+or the text record
+which allows us to assign some arbitrary
+text to a domain name
+so for example here i have some
+arbitrary text record with the value set
+to some dummy text
+assigned to the domain name text record
+is mostly used by the third party
+services which want to verify the
+ownership of the domain name
+so for example if you have used aws ses
+for sending the emails
+they give you a special code to put in
+the text record
+and then they fetch it from the domain
+name to verify that if you
+actually own the website or not and the
+last one we have is the ns record
+or the name server record which just
+give you the location of the
+authoritative name servers which is the
+place where the
+domain information is located so for
+example here is the
+sample and the stackers for domain as
+you can see we have two ns records
+ns1 example com
+and ns2 example com there are several
+other types of dns records also
+but these are the ones that are most
+commonly used for now let s look at how
+to inspect the dns records so if you
+want to check the dns records for some
+domain name
+or a website you can either check that
+from the portal given to you by the
+place where you purchase the website or
+you can also use one of the commands
+such as host dig and the ns lookup
+i will be covering host for now but in
+future i want to do a detailed video on
+dig
+which is much more powerful than host
+and has a lot of options which help us
+in debugging the issues with the dns
+the way you use host is you run the host
+and then you give it the option
+t with the type of dns tracker that you
+want for example if i want to get the
+txt record i will give the txt
+and then we give it the domain name for
+which we want the records
+and now if we run this command in the
+console it will give us all the text
+records
+associated to the domain roadmap sh so
+here i have two text records
+the first one is for google site
+verification and the second one is for
+gendex which i m using for the emails
+similarly we can use it for
+other dns records also so for example if
+i want to get the ip address associated
+to the domain roadmap reset
+i can run the host command with that
+type
+a and run this command and i will get
+the ip address that is given to this
+domain name
+and with that our lesson comes to an end
+if you have any questions or comments
+leave them below and i will see you in

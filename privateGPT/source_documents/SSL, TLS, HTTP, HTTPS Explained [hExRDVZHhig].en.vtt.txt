@@ -1,0 +1,170 @@
+hello everyone in this video we re going
+to talk about
+http secure http and
+ssl now http stands for hypertext
+transfer protocol now this is probably
+the most widely used protocol
+in the world today http is the protocol
+that is used
+for viewing web pages on the internet so
+when you type in a web address
+like google com you ll notice that http
+is automatically added
+at the beginning of the web address and
+this indicates that you are now
+using http to retrieve this web page
+now in standard http all the information
+is sent in clear text so all the
+information that is exchanged between
+your computer
+and that web server which includes any
+text that you type
+on that website that information is
+transferred
+over the public internet and because
+it s transferred in clear text
+it s vulnerable to anybody who wants it
+such as hackers
+now normally this would not be a big
+deal if you were just browsing regular
+websites
+and no sensitive data such as passwords
+or credit card information
+are being used but if you were to type
+in personal sensitive data
+like your name address phone number
+passwords or
+credit card information that sensitive
+data goes from your
+computer and then it has to travel
+across the public internet
+to get to that web server and this makes
+your data
+vulnerable because a hacker that s
+somewhere on the internet
+can listen in as that data is being
+transferred
+and steal your information so as you can
+see this hacker is stealing
+personal information as it s traveling
+over the internet
+so he has a name phone number
+address credit card numbers and so on
+so this is a problem as far as security
+and this is why https was developed
+https stands for secure hypertext
+transfer protocol
+and this is http with a security feature
+secure http encrypts the data that is
+being retrieved
+by http it ensures that all the data
+that s being transferred
+over the internet between computers and
+servers
+is secure by making the data impossible
+to read
+and it does this by using encryption
+algorithms
+to scramble the data that s being
+transferred
+so for example if you were to go to a
+website that requires you to enter
+personal information such as passwords
+or
+credit card numbers you will notice that
+an s will be added to the http
+in the web address and this s indicates
+that you are now
+using secure http and have entered a
+secure website
+where sensitive data is going to be
+passed and that data
+is going to be protected and in addition
+to the s
+being added a lot of web browsers will
+also
+show a padlock symbol in the address bar
+to indicate that secure
+http is being used
+so by using secure http all the data
+which includes anything that you type is
+no longer
+sent in clear text it s scrambled in an
+unreadable form
+as it travels across the internet so if
+a hacker were to try and steal your
+information
+he would get a bunch of meaningless data
+because the data is encrypted
+and the hacker would not be able to
+crack the encryption to unscramble the
+
+now secure http protects the data by
+using one
+of two protocols and one of these
+protocols
+is ssl ssl or secure sockets layer
+is a protocol that s used to ensure
+security
+on the internet it uses public key
+encryption to
+secure data so basically this is how ssl
+works
+so when a computer connects to a website
+that s using
+ssl the computer s web browser will ask
+the website to identify itself then the
+web server will send the computer
+a copy of its ssl certificate
+an ssl certificate is a small digital
+certificate
+that is used to authenticate the
+identity of a website
+basically it s used to let your computer
+know that the website you re visiting
+is trustworthy so then the computer s
+browser will check to make sure
+that it trusts the certificate and if it
+does it will
+send a message to the web server then
+after the web server will respond back
+with an acknowledgement so an ssl
+session
+can proceed then after all these steps
+are complete
+encrypted data can now be exchanged
+between your computer
+and the web server and the other
+protocol that secure
+http can use is called tls
+tls or transport layer security
+is the latest industry standard
+cryptographic protocol
+it is the successor to ssl and it s
+based on the same specifications
+and like ssl it also authenticates the
+server
+client and encrypts the data
+it s also important to point out that a
+lot of websites are now using secure
+http by default on their websites
+regardless if sensitive data is going to
+be exchanged or not
+and a lot of this has to do with google
+because google is now
+flagging websites as not secure if they
+are not protected with ssl
+and if a website is not ssl protected
+google will penalize
+that website in their search rankings so
+that s why now
+if you go to any major website you ll
+notice that secure
+http is being used rather than standard
+http
+and if you re interested in getting an
+ssl certificate for your website
+i do have a link in the description
+below for an up to 30 percent discount
+on ssl certificates
+

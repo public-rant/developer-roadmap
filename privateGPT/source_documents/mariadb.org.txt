@@ -1,0 +1,473 @@
+   #[https://mariadb.org/feed/]MariaDB.org » Feed
+   [https://mariadb.org/wp-json/wp/v2/pages/6]alternate
+   [https://mariadb.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmariadb
+   .org%2F]alternate
+   [https://mariadb.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmariadb
+   .org%2F&format=xml]alternate
+
+   [https://mariadb.org/#content]Skip to content
+
+   [https://mariadb.org/][mariadb_org_rgb_h.svg]
+   [https://mariadb.org/][logo_seal.svg]
+
+     * [https://mariadb.org/download/]Download
+     * [https://mariadb.org/documentation/]Documentation
+     * [https://mariadb.org/contribute/]Contribute
+     * [https://mariadb.org/server-fest/]Server Fest
+     * [https://mariadb.org/events/]Events
+     * [https://mariadb.org/donate/]Sponsor
+     * [https://mariadb.org/blog/]Blog
+     * [https://mariadb.org/planet/]Planet MariaDB Server
+     * [https://mariadb.org/about/]About
+
+     * (BUTTON)
+          + (BUTTON) Back
+
+   Latest releases
+   [https://mariadb.org/download/?tab=mariadb&rel=11.2.0&product=mariadb]1
+   1.2.0 (preview)
+   [https://mariadb.org/download/?tab=mariadb&rel=11.1.1&product=mariadb]1
+   1.1.1 (RC),
+   [https://mariadb.org/download/?tab=mariadb&rel=11.0.2&product=mariadb]1
+   1.0.2,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.11.4&product=mariadb]
+   10.11.4,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.10.5&product=mariadb]
+   10.10.5,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.9.7&product=mariadb]1
+   0.9.7,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.6.14&product=mariadb]
+   10.6.14,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.5.21&product=mariadb]
+   10.5.21,
+   [https://mariadb.org/download/?tab=mariadb&rel=10.4.30&product=mariadb]
+   10.4.30. [https://mariadb.org/poll/pglang-mariadb/]Vote in our poll!
+
+     * [https://www.facebook.com/mariadb.org/]Facebook
+     * [https://twitter.com/mariadb_org]Twitter
+     * [https://www.linkedin.com/company/mariadb-foundation]LinkedIn
+     * [https://www.reddit.com/r/mariadb/]Reddit
+     * [https://www.instagram.com/mariadb_org/]Instagram
+
+   Search for: ____________________ (BUTTON) [search_pict_white.svg]
+   [ ]
+   [https://mariadb.org/][mariadb_org_rgb_h.svg]
+   [Hamburger.svg]
+
+     * [https://mariadb.org/download/]Download
+     * [https://mariadb.org/documentation/]Documentation
+     * [https://mariadb.org/contribute/]Contribute
+     * [https://mariadb.org/server-fest/]Server Fest
+     * [https://mariadb.org/events/]Events
+     * [https://mariadb.org/donate/]Sponsor
+     * [https://mariadb.org/blog/]Blog
+     * [https://mariadb.org/planet/]Planet MariaDB Server
+     * [https://mariadb.org/about/]About
+
+     * (BUTTON)
+          + (BUTTON) Back
+
+   Search for: ____________________ (BUTTON) [search_pict_blue.svg]
+
+     * [https://www.facebook.com/mariadb.org/]Facebook
+     * [https://twitter.com/mariadb_org]Twitter
+     * [https://www.linkedin.com/company/mariadb-foundation]LinkedIn
+     * [https://www.reddit.com/r/mariadb/]Reddit
+     * [https://www.instagram.com/mariadb_org/]Instagram
+
+   [Banner_BG_waves_3600.jpg]
+
+MariaDB Server: The open source relational database
+
+   [https://mariadb.org/download/]Download
+   [https://mariadb.org/donate/]Sponsor
+   [https://mariadb.org/contribute/]Get Involved
+   [https://mariadb.org/donate/]Sponsor
+
+[https://www.youtube.com/c/MariaDBFoundation]MariaDB Foundation YouTube
+
+   [left_arrow.svg]
+
+   IFRAME:
+   [https://www.youtube.com/embed/aHPRPNVC2os?autoplay=0]https://www.youtu
+   be.com/embed/aHPRPNVC2os?autoplay=0
+
+   [https://www.youtube.com/watch?v=aHPRPNVC2os&t=334s]The value of
+   sponsoring the MariaDB Foundation
+
+   IFRAME:
+   [https://www.youtube.com/embed/QUXHeWc_2Pk?autoplay=0]https://www.youtu
+   be.com/embed/QUXHeWc_2Pk?autoplay=0
+
+   [https://youtu.be/QUXHeWc_2Pk]MariaDB's Kaj and Monty after CloudFest
+   2023
+
+   IFRAME:
+   [https://www.youtube.com/embed/3PZYgLwC-yo?autoplay=0]https://www.youtu
+   be.com/embed/3PZYgLwC-yo?autoplay=0
+
+   [https://youtu.be/3PZYgLwC-yo]Chasing bugs in production - Manuel
+   Arostegui, Wikimedia Foundation - MariaDB Server Fest 2022
+
+   IFRAME:
+   [https://www.youtube.com/embed/Ind3EMgcE7E?autoplay=0]https://www.youtu
+   be.com/embed/Ind3EMgcE7E?autoplay=0
+
+   [https://youtu.be/Ind3EMgcE7E]Optimizer changes in MariaDB 11 - Monty
+   Widenius - MariaDB Server Fest 2022
+
+   IFRAME:
+   [https://www.youtube.com/embed/R_3ExLg7OGc?autoplay=0]https://www.youtu
+   be.com/embed/R_3ExLg7OGc?autoplay=0
+
+   [https://www.youtube.com/watch?v=R_3ExLg7OGc]Famous Startup Disruptors
+   and How They Do It - MySQL and MariaDB founder Monty Widenius
+
+   IFRAME:
+   [https://www.youtube.com/embed/MgcGYjQ16Ak?autoplay=0]https://www.youtu
+   be.com/embed/MgcGYjQ16Ak?autoplay=0
+
+   [https://youtu.be/MgcGYjQ16Ak]CEO Fireside Chat with Xiang Peng (Sean),
+   Director, RDS Open Source Databases at Alibaba Cloud
+
+   IFRAME:
+   [https://www.youtube.com/embed/wmqvbkwbk_U?autoplay=0]https://www.youtu
+   be.com/embed/wmqvbkwbk_U?autoplay=0
+
+   [https://youtu.be/wmqvbkwbk_U]Seppo Jaakola - MariaDB Galera Cluster
+
+   IFRAME:
+   [https://www.youtube.com/embed/OzZ9FD-2qYo?autoplay=0]https://www.youtu
+   be.com/embed/OzZ9FD-2qYo?autoplay=0
+
+   [https://youtu.be/OzZ9FD-2qYo]Sergei Golubchik - MariaDB: Security
+   Features
+
+   IFRAME:
+   [https://www.youtube.com/embed/0nysJV3pozg?autoplay=0]https://www.youtu
+   be.com/embed/0nysJV3pozg?autoplay=0
+
+   [https://youtu.be/0nysJV3pozg]Curious case of the disappearing
+   commercial databases - Monty Widenius - MariaDB Server Fest 2021
+
+   IFRAME:
+   [https://www.youtube.com/embed/zISiQifPNT8?autoplay=0]https://www.youtu
+   be.com/embed/zISiQifPNT8?autoplay=0
+
+   [https://youtu.be/zISiQifPNT8]Ten Tips for Better MariaDB Performance -
+   Peter Zaitsev - FOSDEM 2022
+
+   IFRAME:
+   [https://www.youtube.com/embed/Nd0nvltLPdQ?autoplay=0]https://www.youtu
+   be.com/embed/Nd0nvltLPdQ?autoplay=0
+
+   [https://youtu.be/Nd0nvltLPdQ]MariaDB Galera Cluster and M/S
+   replication - Oli Sennhauser - FOSDEM 2022
+   [right_arrow.svg]
+
+   [baby_pict_blue.svg]
+
+[https://mariadb.org/about/]New to MariaDB Server?
+
+   MariaDB Server is one of the most popular open source relational
+   databases. It’s made by the original developers of MySQL and guaranteed
+   to stay open source. It is part of most cloud offerings and the default
+   in most Linux distributions.
+
+   It is built upon the values of performance, stability, and openness,
+   and MariaDB Foundation ensures contributions will be accepted on
+   technical merit. Recent new functionality includes advanced clustering
+   with Galera Cluster 4, compatibility features with Oracle Database and
+   Temporal Data Tables, allowing one to query the data as it stood at any
+   point in the past.
+
+   [https://mariadb.org/blog/]Blog[https://mariadb.org/documentation/]Docu
+   mentation
+
+   [Poll.svg]
+
+[https://mariadb.org/poll]Vote in our poll!
+
+   Please enable JavaScript in your browser to complete this form.
+   What programming languages do your applications that communicate with
+   MariaDB use?
+     * [ ] Bash/Shell/Powershell
+     * [ ] C/C++
+     * [ ] C#
+     * [ ] Go
+     * [ ] Java
+     * [ ] NodeJS
+     * [ ] PHP
+     * [ ] Python
+     * [ ] Rust
+     * [ ] Ruby
+     * [ ] R
+     * [ ] TypeScript
+     * [ ] Other
+
+   Prove you are human: *
+   = ____________________
+   (wpforms-submit) Submit Loading
+
+   [latest_pict_blue.svg]
+
+[https://mariadb.org/download/]Latest releases
+
+Preview release
+
+   [https://mariadb.org/download/?tab=mariadb&release=11.2.0&product=maria
+   db]11.2.0 20 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-11-2-0-release-notes/]Release notes
+
+RC versions
+
+   [https://mariadb.org/download/?tab=mariadb&release=11.1.1&product=maria
+   db]11.1.1 07 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-11-1-1-release-notes/]Release notes
+
+Stable long term support versions
+
+   [https://mariadb.org/download/?tab=mariadb&release=10.11.4&product=mari
+   adb]10.11.4 7 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-11-4-release-notes/]Release notes
+   [https://mariadb.org/download/?tab=mariadb&release=10.6.14&product=mari
+   adb]10.6.14 7 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-6-14-release-notes/]Release notes
+   [https://mariadb.org/download/?tab=mariadb&release=10.5.21&product=mari
+   adb]10.5.21 7 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-5-21-release-notes/]Release notes
+   [https://mariadb.org/download/?tab=mariadb&release=10.4.30&product=mari
+   adb]10.4.30 7 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-4-30-release-notes/]Release notes
+
+Stable short term support versions
+
+   [https://mariadb.org/download/?tab=mariadb&release=11.0.2&product=maria
+   db]11.0.2 07 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-11-0-2-release-notes/]Release notes
+   [https://mariadb.org/download/?tab=mariadb&release=10.10.5&product=mari
+   adb]10.10.5 07 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-10-5-release-notes/]Release notes
+   [https://mariadb.org/download/?tab=mariadb&release=10.9.7&product=maria
+   db]10.9.7 07 Jun 2023
+   [https://mariadb.com/kb/en/mariadb-10-9-7-release-notes/]Release notes
+   [https://downloads.mariadb.org/]All releases
+
+   [events_pict_blue.svg]
+
+[https://mariadb.org/events/]Events
+
+     * 3 - 5 Oct 2023, Helsinki, Finland
+       [https://mariadb.org/fest2023/]2023 MariaDB (Un)Conference and
+       MariaDB Server Fest
+
+     * 13-15 Apr 2023, Singapore
+       [https://eventyay.com/e/7cfe0771]FOSSAsia Summit 2023
+     * 20 - 23 Mar 2023, Europa Park, Germany
+       [https://www.cloudfest.com/]CloudFest 2023
+     * 14-16 Mar 2023, Melbourne, Australia
+       [https://2023.everythingopen.au/]Everything Open
+     * 4 - 5 Feb 2023, Brussels
+       [https://mariadb.org/fosdem2023-cfp]FOSDEM'23
+     * 17 Nov 2022
+       [https://mariadb.org/fest2022/]MariaDB Server Fest 2022
+     * 16 - 17 May 2022
+       [https://www.percona.com/live/conferences]Percona Live 2022
+     * 20 Apr 2022
+       [https://promo.acronis.com/202204-Deploying-Database-Protection.htm
+       l]Deploying Database Protection with cPanel and MariaDB
+     * 6 Apr 2022
+       [https://mariadb.org/security-minifest2022/]MariaDB Security
+       Minifest 2022
+     * 22 - 24 Mar 2022
+       [https://promo.acronis.com/2022_CloudfestTraining2_Deploying-Protec
+       tion.html]CloudFest 2022
+     * 21 Mar 2022
+       [https://web.sit.org/mariadb-webinar]The Truth About Open Source in
+       45 Minutes
+
+   [sponsors_pict_blue.svg]
+
+[https://mariadb.org/donate/]Sponsor us
+
+   MariaDB Foundation relies on sponsorship for funding its activities,
+   furthering MariaDB Server adoption and working with contributors to
+   merge pull requests.
+
+   MariaDB Foundation does not do custom feature development or work for
+   hire. However, MariaDB Foundation is looking for sponsors of general
+   development areas, such as:
+     * Compatibility with Oracle and other propriety databases
+     * CONNECT storage engine
+     * Documentation of migration practices
+     * Documentation localisation
+
+   MariaDB Foundation sponsorship levels are Diamond (200k €), Platinum
+   (100k €), Gold (50k €), and Silver (25k €) per year.
+
+   [https://mariadb.org/donate/]Sponsor
+   [platinum_sponsor_pict_blue.svg]
+
+[https://mariadb.org/donate/]Platinum sponsors
+
+   Acronis
+   Alibaba Cloud
+   Constructor
+   Intel
+   MariaDB
+   Microsoft
+   ServiceNow
+   WebPros
+
+[https://mariadb.org/contribute/]Contribute to MariaDB Server
+
+   MariaDB Server thrives thanks to its
+   community[https://fosstodon.org/@mariadb_org].
+
+   We welcome contributions in many forms; code, documentation, bug
+   reports. You can reach out to us
+   on [https://mariadb.zulipchat.com/]Zulip,
+   our [https://mariadb.com/kb/en/library/mailing-lists/]mailing lists, as
+   well as on our [https://jira.mariadb.org/]public issue tracker.
+
+   MariaDB Foundation ensures all contributions are handled.
+
+   [https://mariadb.org/contribute/]Get Involved
+
+[https://mariadb.org/donate/]Gold sponsors
+
+   [blog_pict_blue.svg]
+
+[https://mariadb.org/blog/]Our blog
+
+[https://mariadb.org/mariadb-11-2-0-preview-release-available/]MariaDB 11.2.0
+preview release available
+
+   The MariaDB Foundation is pleased to announce the availability of
+   [https://mariadb.com/kb/en/mariadb-11-2-0-release-notes/]MariaDB
+   11.2.0, a preview release in the MariaDB 11.2 series. MariaDB 11.2 is a
+   short-term release and will be maintained for one year after its G.A
+   (stable) release. …
+
+   [https://mariadb.org/mariadb-11-2-0-preview-release-available/]Continue
+   reading “MariaDB 11.2.0 preview release available”
+
+[https://mariadb.org/mariadb-contribution-statistics-june-2023/]MariaDB
+Contribution Statistics, June 2023
+
+   We are well into 2023 now, the time has really flown. There have
+   already been two major versions of MariaDB Server that have reach GA,
+   and with those, many new contributions. …
+
+   [https://mariadb.org/mariadb-contribution-statistics-june-2023/]Continu
+   e reading “MariaDB Contribution Statistics, June 2023”
+
+[https://mariadb.org/mariadb-server-docker-official-images-healthcheck-withou
+t-mysqladmin/]MariaDB Server Docker Official Images Healthcheck without
+mysqladmin
+
+   MariaDB Server 11.0 was recently released and its Docker Official Image
+   didn’t include mysqladmin which broke the healthcheck in a few usage
+   scenarios. This
+   [https://github.com/MariaDB/mariadb-docker/issues/512]surprised some
+   people in the change of behaviour. …
+
+   [https://mariadb.org/mariadb-server-docker-official-images-healthcheck-
+   without-mysqladmin/]Continue reading “MariaDB Server Docker Official
+   Images Healthcheck without mysqladmin”
+
+[https://mariadb.org/mailing-lists/]Centralise all our mailing lists
+
+   We use a couple of mailing lists for discussing various topics with our
+   community. For historical reason, some lists were hosted at
+   [http://lists.askmonty.org/]http://lists.askmonty.org and other at
+   [https://lists.launchpad.net/]https://lists.launchpad.net. …
+
+   [https://mariadb.org/mailing-lists/]Continue reading “Centralise all
+   our mailing lists”
+
+[https://mariadb.org/mariadb-10-11-4-10-10-5-10-9-7-10-6-14-10-5-21-10-4-30-n
+ow-available/]MariaDB 10.11.4, 10.10.5, 10.9.7, 10.6.14, 10.5.21, 10.4.30 now
+available
+
+   The MariaDB Foundation is pleased to announce the availability of
+   [https://mariadb.com/kb/en/mariadb-10-11-4-release-notes/]MariaDB
+   10.11.4,
+   [https://mariadb.com/kb/en/mariadb-10-6-14-release-notes/]MariaDB
+   10.6.14,
+   [https://mariadb.com/kb/en/mariadb-10-5-21-release-notes/]MariaDB
+   10.5.21 and
+   [https://mariadb.com/kb/en/mariadb-10-4-30-release-notes/]MariaDB
+   10.4.30, the latest stable releases in their respective long-term
+   series ([https://mariadb.org/new-innovation-release-model/]maintained
+   for five years from their first GA release dates), as well as
+   [https://mariadb.com/kb/en/mariadb-10-10-5-release-notes/]MariaDB
+   10.10.5 and
+   [https://mariadb.com/kb/en/mariadb-10-9-7-release-notes/]MariaDB
+   10.9.7, the latest Generally Available releases in their respective
+   short-term series (maintained for one year). …
+
+   [https://mariadb.org/mariadb-10-11-4-10-10-5-10-9-7-10-6-14-10-5-21-10-
+   4-30-now-available/]Continue reading “MariaDB 10.11.4, 10.10.5, 10.9.7,
+   10.6.14, 10.5.21, 10.4.30 now available”
+   [https://mariadb.org/blog/][down_arrow.svg]
+   [globe_pict_white.svg]
+
+[https://mariadb.org/planet-mariadb/]Planet MariaDB Server
+
+   [https://minervadb.xyz/unveiling-innodb-optimization-techniques-reducin
+   g-block-access-for-enhanced-performance/]Unveiling InnoDB Optimization
+   Techniques: Reducing Block Access for Enhanced Performance
+
+   By MinervaDB Blog, 2023-07-08
+   [https://minervadb.xyz/how-do-context-switches-influence-innodb-perform
+   ance/]How do context switches influence InnoDB performance?
+
+   By MinervaDB Blog, 2023-07-08
+   [https://smalldatum.blogspot.com/2023/07/innodbpagecleaners-part-2-big-
+   server.html]innodb_page_cleaners, part 2: big server, database not
+   cached
+
+   By Small Datum, 2023-07-08
+   [https://www.percona.com/blog/setting-up-and-deploying-postgresql-for-h
+   igh-availability/]Setting Up and Deploying PostgreSQL for High
+   Availability
+
+   By Percona, 2023-07-07
+   [https://www.continuent.com/resources/blog/introducing-tungsten-v6.1.22
+   ]Introducing Tungsten Clustering & Tungsten Replicator v6.1.22:
+   Enhanced Performance and Bug Fixes
+
+   By Continuent Tungsten, 2023-07-07
+   [https://minervadb.xyz/mastering-mysql-performance-unveiling-i-o-bottle
+   necks-with-the-power-of-performance-schema/]Mastering MySQL
+   Performance: Unveiling I/O Bottlenecks with the Power of Performance
+   Schema
+
+   By MinervaDB Blog, 2023-07-07
+   [https://mariadb.org/planet-mariadb/][down_arrow_white.svg]
+
+   Contact
+
+     * [https://www.facebook.com/mariadb.org/]Facebook
+     * [https://twitter.com/mariadb_org]Twitter
+     * [https://www.linkedin.com/company/mariadb-foundation]LinkedIn
+     * [https://www.reddit.com/r/mariadb/]Reddit
+     * [https://www.instagram.com/mariadb_org/]Instagram
+
+     * [https://mariadb.org/about/governance/]Governance
+     * [https://mariadb.org/about/maintenance-policy/]Maintenance policy
+     * [https://mariadb.org/about/security-policy/]Security policy
+     * [https://mariadb.org/privacy-policy/]Privacy policy
+     * [https://mariadb.org/about/logos/]Logos and badges
+     * [https://mariadb.org/about/statistics/]Usage statistics
+     * [https://mariadb.org/about/service-providers/]Service providers
+
+   [https://mariadb.org/wp-content/uploads/2023/03/LOGO_IONOS_Blue_RGB-1.p
+   ng]
+   [https://mariadb.org/wp-content/uploads/2023/05/Cyber_Leo_full_ua_color
+   .png]
+   [https://mariadb.org/wp-content/uploads/2023/05/tasjeel.ae_.png]
+   [https://mariadb.org/wp-content/uploads/2023/05/logo_rumahweb.svg]
+
+   Copyright @ 2009 - 2023 MariaDB Foundation.

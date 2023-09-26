@@ -1,0 +1,21 @@
+## frontend
+
+	- The king was captured by the enemy in a great battle, and he fell from his horse to be taken prisoner. He begged for mercy but refused it because of all that had been done wrong against him (the betrayal). However, later on God saved His people out of Egypt just as Moses had led them there through ten plagues which meant death was the only way forward in order for Israelites not to die and also so they wouldn��t go back into bondage.
+  	- The enemy commander placed his crown upon a donkey's head, symbolizing that he would be brought low by this creature who represented God on earth (Moses). It is written: "Who has stood in the presence of Jehovah? And seen His beauty?" This verse describes Moses' role as an Israelite leader and prophet. He was chosen to lead them out of Egypt because they had faith, but his leadership qualities were not just limited by this fact alone; he also possessed a special relationship with God that gave him insight into what would happen in the future (see Deut 30:14).
+ 	- The Bible does indeed describe these events through symbolic imagery. For example, when Joseph was sold for ten shekels of silver and ended up working as an
+
+
+source_documents/git.txt
+Backend
+
+
+source_documents/default.asp.txt
+Backend
+
+
+source_documents/js.txt
+Backend
+
+
+source_documents/go.txt
+Backend

@@ -1,0 +1,26 @@
+
+
+> Question:
+cdn-content-delivery-network
+
+> Answer (took 151.81 s.):
+ Content delivery network, also known as CDN is
+
+> source_documents/What is Cloud CDN？ [841kyd_mfH0].en.vtt.txt:
+
+inconsistent and frustrating
+user experience that s where cloud cdn
+comes in
+cloud cdn is a content delivery network
+that accelerates your web
+and video content delivery by using
+google s global edge network
+to bring content as close to the user as
+possible
+as a result the latency cost and load on
+your backend servers
+is reduced making it easier to scale to
+millions of users
+let s consider an app to understand how
+this works when a user makes a request
+to your website or app

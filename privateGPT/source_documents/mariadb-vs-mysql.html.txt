@@ -1,0 +1,723 @@
+   #[https://www.guru99.com/wp-json/wp/v2/posts/1793]alternate
+
+   [https://www.guru99.com/mariadb-vs-mysql.html#main]Skip to content
+
+   [https://www.guru99.com/]Guru99
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   [https://www.guru99.com/]Guru99
+   (BUTTON)
+
+MariaDB vs MySQL – Difference Between Them
+
+   By[https://www.guru99.com/author/richard]Richard Peterson UpdatedJune
+   3, 2023
+
+Key Difference between MariaDB and MySQL
+
+     * MariaDB has 12 new storage engines, whereas MySQL has lesser
+       storage engines.
+     * MariaDB has a larger connection pool supporting up to 200,000+
+       connections, whereas MySQL has a smaller connection pool.
+     * Comparing MariaDB vs MySQL performance, In MariaDB, replication is
+       faster, whereas in MySQL, replication is slower.
+     * MariaDB is Open Source, whereas MySQL uses some proprietary code in
+       its Enterprise Edition.
+     * MariaDB doesn’t support Data Masking and Dynamic column while MySQL
+       supports it.
+     * Comparing MariaDB or MySQL, Comparatively MariaDB is faster than
+       MySQL.
+
+      Difference between MySQL and MariaDB Difference between MySQL and
+                                   MariaDB
+
+                    Difference between MySQL and MariaDB
+
+   In this MariaDB vs MySQL tutorial, you will learn: (BUTTON)
+     * [https://www.guru99.com/mariadb-vs-mysql.html#what-is-mariadb]What
+       is MariaDB?
+     * [https://www.guru99.com/mariadb-vs-mysql.html#what-is-mysql]What is
+       MySQL?
+     * [https://www.guru99.com/mariadb-vs-mysql.html#difference-between-ma
+       riadb-and-mysql]Difference between MariaDB and MySQL
+     * [https://www.guru99.com/mariadb-vs-mysql.html#why-use-maria-db]Why
+       use Maria DB?
+     * [https://www.guru99.com/mariadb-vs-mysql.html#why-mysql]Why MYSQL?
+     * [https://www.guru99.com/mariadb-vs-mysql.html#history-of-mariadb]Hi
+       story of MariaDB
+     * [https://www.guru99.com/mariadb-vs-mysql.html#history-of-mysql]Hist
+       ory of MySQL
+     * [https://www.guru99.com/mariadb-vs-mysql.html#features-of-maria-db]
+       Features of Maria DB
+     * [https://www.guru99.com/mariadb-vs-mysql.html#features-of-mysql]Fea
+       tures of MySQL
+     * [https://www.guru99.com/mariadb-vs-mysql.html#disadvantages-of-mysq
+       l]Disadvantages of MySQL
+     * [https://www.guru99.com/mariadb-vs-mysql.html#disadvantages-of-mari
+       adb]Disadvantages of MariaDB
+
+What is MariaDB?
+
+   [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB is a fork
+   of the MySQL database management system. The RDBMS offers data
+   processing capabilities for both small and enterprise tasks.
+
+   This DBMS is an improved version of MySQL. It comes with numerous
+   inbuilt powerful features and many usabilities, security and
+   performance improvements that you cannot find in MySQL.
+
+What is MySQL?
+
+   Developed in the mid-90s.,
+   [https://www.guru99.com/mysql-tutorial.html]MySQL was one of the first
+   open-source database available in the market. Today there are many
+   alternatives variants of MySQL. However, the differences between the
+   variants are not significant as they use the same syntax, and basic
+   functionality also remains the same.
+
+   MySQL is an RDBMS that helps you to keep the data that exists in a
+   database organized. It is used with the combination of PHP and Apache
+   Web Server, on top of a Linux distribution. MySQL uses the SQL language
+   to query the database.
+
+Difference between MariaDB and MySQL
+
+   Here is the major difference between MariaDB and MySQL:
+   Parameter MariaDB MySQL
+   Storage Engines MariaDB has 12 new storage engines that you won’t find
+   in MySQL. It has fewer options for storage compared to MariaDB.
+   Speed Improvements MariaDB shows an improved speed when compared to
+   MySQL. MySQL exhibits a slower speed when compared to MariaDB.
+   Initial release 2009 1995
+   Server operating systems FreeBSD
+   Linux
+   macOS
+   Solaris
+   Windows FreeBSD
+   Linux
+   OS X
+   Solaris
+   Windows
+   Faster cache/indexes With the Memory storage engine of MariaDB, an
+   INSERT statement can be completed 24% faster than in the standard
+   MySQL. The memory storage engine of MySQL is slower compared to that
+   MariaDB.
+   Larger and Faster Connection Pool MariaDB comes with an advanced thread
+   pool capable of running faster and supporting up to 200,000+
+   connections. The thread pool provided by MySQL cannot support up to
+   200,000 connections per time.
+   Improved Replication In MariaDB, replication can be done safer and
+   faster. Updates can also be done 2x faster compared to the traditional
+   MySQL. MySQL’s community edition allows a static number of threads to
+   be connected. MySQL’s enterprise plan comes with thread capabilities.
+   New Features/Extensions MariaDB comes with new features and extensions
+   including the JSON, WITH and KILL statements. The new MariaDB features
+   are not provided in MySQL.
+   Missing Features MariaDB lacks some of the features provided by the
+   MySQL enterprise edition. To address this, it offers alternative
+   open-source plugins. The Enterprise Edition of MySQL uses a proprietary
+   code. Only users of MySQL Enterprise Edition have access to this.
+   Priority code MariaDB doesn’t allow access to this propriety content
+   and is a closed source. MySQL uses some proprietary code in its
+   Enterprise Edition.
+   Data Masking No Yes
+   Dynamic columns No Yes
+   Monitoring SQLyog MySQL workbench
+   Routing MariaDB MaxScale Mysql Router
+   Analytics MariaDB ColumnStore No
+   Secondary database model Document store and Graph DBMS Document store
+   Git hub stars 2.8 k 4k
+   Forks 868 1.6 K
+   Famous companies using Nrise, Accenture, Docplanner, Grooveshark.
+   Airbnb, Uber Technogloeis, Netflix, Dropbox.
+
+Why use Maria DB?
+
+                       Google Trends MariaDB vs MySQL
+
+   Here, are pros/benefits of using Maria DB.
+     * It operates under GPL, BSD, or LGPL licenses.
+     * MariaDB supports a popular and standard querying language.
+     * It comes with many storage engines, including the high-performance
+       ones that can be integrated with other relational database
+       management systems.
+     * It offers the advance Galera cluster technology.
+     * MariaDB supports PHP, a popular language for web development.
+
+Why MYSQL?
+
+                   Stack Overflow Questions Maria vs MySQL
+
+   There are several relational database management systems in the market.
+   One may ask why we would choose MySQL over the other database
+   management systems. The answer to this question depends on several
+   factors.
+     * MySQL supports multiple storage engines each with its
+       specifications while other systems like SQL server only support a
+       single storage engine.
+     * MySQL has a high performance compared to other relational database
+       systems. This is due to its simplicity in design and support for
+       multiple-storage engines.
+
+History of MariaDB
+
+     * 5.1, GA released by MariaDB foundation on February 2010
+     * November 2010 MariaDB 5.3
+     * February 2012 MariaDB 5.5
+     * April 2012 MariaDB Galera Cluster
+     * MariaDB 10.0.10 (March 2014)
+     * MariaDB 10.1.8 (October 2015)
+     * Maria DB 10.2: 8 April 2016
+     * Maria DB 10.3: 16 April 2017
+     * Maria DB 10.4: 9 November 2018
+     * Maria DB 10.5: 3 December 2019
+     * Maria DB 10.6: 26 April 2021
+
+History of MySQL
+
+     * First internal release version of MYSQL on 23 May 1995
+     * Version 3.20: January 1997
+     * Windows supported version was released on the year 1998 for Windows
+       95 and NT
+     * Version 3.23: beta from June 2000
+     * Version 4.0: beta from August 2002
+     * Version 4.01: beta from August 2003
+     * Version 4.1: beta from June 2004
+     * Version 5.0: beta from March 2005
+     * Acquired by Sun in 2008
+     * Version 5.1: 14 November 2008
+     * Oracle Corp. acquired Sun Microsystems, Inc. in 2010
+     * Version 5.5: 3 December 2010
+     * Version 5.6: 5 February 2013
+     * Version 5.7: 21 October 2015
+     * Version 8.0: 19 April 2018
+
+Features of Maria DB
+
+   Here are important features of Maria DB.
+     * Offers Backward Compatibility
+     * Open-source Software
+     * It is based on the MySQL Community Version
+     * New Storage Engine (PBXT, XtraDB, Maria, FederatedX)
+     * Percona Server (Based on MySQL Server, Other MySQL Fork Version)
+
+Features of MySQL
+
+   Here are an important features of MySQL.
+     * Scalability and Flexibility
+     * High Performance
+     * High Availability
+     * Robust Transactional Support
+     * Web and Data Warehouse Strengths
+
+Disadvantages of MySQL
+
+   Here, are cons/ drawback of using MySQL:
+     * It is hard to scale
+     * Oracle owns it, so it has lots of restrictions.
+     * MYSQL is not ideally suitable for large-sized data.
+     * It is Invisible from client applications.
+     * Triggers can impose a high load on the database server.
+
+Disadvantages of MariaDB
+
+     * The engine is still fairly new, so there’s no guarantee further
+       updates and versions will be forthcoming.
+     * As with many other free database engines, you have to pay for
+       support.
+
+   You Might Like:
+     * [https://www.guru99.com/er-modeling.html]What is ER Modeling? Learn
+       with Example
+     * [https://www.guru99.com/database-normalization.html]What is
+       Normalization in DBMS (SQL)? 1NF, 2NF, 3NF Example
+     * [https://www.guru99.com/database-design.html]Database Design in
+       DBMS Tutorial: Learn Data Modeling
+     * [https://www.guru99.com/introduction-to-mysql-workbench.html]MySQL
+       Workbench Tutorial: What is, How to Install & Use
+     * [https://www.guru99.com/sql-interview-questions-answers.html]50 SQL
+       Interview Questions and Answers for 2023
+
+   Post navigation
+   [https://form.jotform.me/72391811797466]Report a Bug
+   [https://www.guru99.com/mariadb-tutorial-install.html]Prev
+   [https://www.guru99.com/mysql-certification-quiz.html]Next
+
+   Top Tutorials
+   [https://www.facebook.com/Guru99Official][https://twitter.com/guru99com
+   ][https://www.linkedin.com/company/guru99/][https://www.youtube.com/cha
+   nnel/UC19i1XD6k88KqHlET8atqFQ][https://forms.aweber.com/form/46/7248076
+   46.htm]About
+   [https://www.guru99.com/about-us]About Us
+   [https://www.guru99.com/advertise-us]Advertise with Us
+   [https://www.guru99.com/become-an-instructor]Write For Us
+   [https://www.guru99.com/contact-us]Contact Us
+   [https://www.guru99.com/python-tutorials.html]
+   Python
+   [https://www.guru99.com/software-testing.html]
+   Testing
+   [https://www.guru99.com/ethical-hacking-tutorials.html]
+   Hacking
+   Career Suggestion
+   [https://www.guru99.com/best-sap-module.html]SAP Career Suggestion Tool
+   [https://www.guru99.com/software-testing-career-complete-guide.html]Sof
+   tware Testing as a Career
+   Interesting
+   [https://www.guru99.com/ebook-pdf.html]eBook
+   [https://www.guru99.com/blog]Blog
+   [https://www.guru99.com/tests.html]Quiz
+   [https://www.guru99.com/sap-ebook-pdf.html]SAP eBook
+   [https://www.guru99.com/sap-training-hub.html]SAP
+   [https://www.guru99.com/java-tutorial.html]
+   Java
+   [https://www.guru99.com/sql.html]
+   SQL
+   Execute online
+   [https://www.guru99.com/try-java-editor.html]Execute Java Online
+   [https://www.guru99.com/execute-javascript-online.html]Execute
+   Javascript
+   [https://www.guru99.com/execute-html-online.html]Execute HTML
+   [https://www.guru99.com/execute-python-online.html]Execute Python
+   [https://www.guru99.com/selenium-tutorial.html]Selenium
+   [https://www.guru99.com/web-design-and-development-tutorial.html]
+   Build Website
+   [https://www.guru99.com/best-vpn.html]
+   VPNs
+
+   [svg%3E] [eLearning-badge-1.png]
+
+   © Copyright - Guru99 2023
+   [https://www.guru99.com/privacy-policy]Privacy
+   Policy  |  [https://www.guru99.com/affiliate-earning-disclaimer]Affilia
+   te Disclaimer  |  [https://www.guru99.com/terms-of-service]ToS
+
+   [https://www.guru99.com/mariadb-vs-mysql.html#wrapper](BUTTON)
+
+   (BUTTON)
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP (BUTTON) Expand child
+       menu
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web (BUTTON) Expand
+       child menu
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn (BUTTON) Expand child menu
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   Search for: ____________________ Search

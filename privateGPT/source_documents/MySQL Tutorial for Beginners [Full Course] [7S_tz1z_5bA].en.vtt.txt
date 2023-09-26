@@ -1,0 +1,4234 @@
+hi my name is Mohamad ani and i m super
+excited to be your instructor in this
+three hour course you re going to learn
+everything you need to get started with
+SQL or sequel first so I m gonna give
+you a three minute introduction to SQL
+then we re going to install the
+necessary tools and write our first SQL
+query this course is ideal for anyone
+who wants to learn SQL from scratch but
+also anyone with some basic knowledge
+who wants to fill in the missing gaps by
+the end of this course you ll be able to
+retrieve insert update and delete data
+in databases will talk about tables
+relationships different types of joins
+sub queries regular expressions are much
+much more these are the essential
+concepts that every software developer
+or data scientist must know this SQL
+force is packed with tons of exercises
+that help you both learn and remember
+the SQL syntax also there s a table of
+content below this video so you can
+quickly jump to specific tutorials now
+let s jump in and get started let s
+start the course with a quick overview
+of databases what they are and how we
+use them a database is a collection of
+data stored in a format that can easily
+be accessed in order to manage our
+databases we use a software application
+called
+database management system or DBMS we
+connect to a DBMS and give it
+instructions for querying or modifying
+data the DBMS will execute our
+instructions and send results back now
+we have several database management
+systems out there and these are
+classified into two categories
+relational and non relational also
+called no sequel in relational databases
+we store data in tables that are linked
+to each other using relationships that s
+why we call this databases relational
+databases each table stores data about a
+specific type of object like customer
+product order and so on SQL or sequel is
+the language that we use to work with
+these relational database management
+systems it looks like this we use SQL to
+query or modify our data in this course
+we are going to learn everything about
+this powerful language
+now there are many different relational
+database management systems out there
+some of the most popular ones are MySQL
+sequel server by Microsoft and Oracle
+but of course there are plenty more each
+database management system has a
+different flavor of SQL but all these
+implementations are very similar and are
+based on the standard SQL specification
+so most of the SQL code that you will
+learn in this course will work with any
+database management system in this
+course we ll be using MySQL which is the
+most popular open source database in the
+world right now back to this diagram
+what about non relational databases in
+non relational databases we don t have
+tables or relationships these databases
+are very different from relational
+databases but that s a topic for an
+entirely different course what you need
+to know is that non relational database
+management systems don t understand
+SQL they have their own query language
+so we use SQL to work with relational
+database management systems now Before
+we jump in and install MySQL let me
+clarify something quickly as you talk to
+different people
+you ll hear two different pronunciations
+of SQL sequel or SQL what is the correct
+way well it depends on who you ask
+and of course everybody thinks their way
+of pronouncing this word is the right
+way but here s a little history about
+this language SQL was originally
+developed at IBM in the 70s and back
+then it was initially called sequel
+short for structured English query
+language but they changed the acronym to
+SQL because sequel was the trademark of
+an airplane company so to this date
+there has been an argument about what is
+the right way to pronounce this language
+generally speaking people in non english
+speaking countries
+call it SQL are used to calling it
+sequel because it s shorter and sweeter
+than SQL but if you prefer to call it
+SQL as total fine with me I m not gonna
+get mad at you so that s the history
+behind this language but what about
+MySQL as a software product developers
+of this product prefer to call it MySQL
+rather than my sequel but they don t
+mind if we call it my sequel in this
+course I ll be teaching you sequel with
+MySQL
+hey guys Marsh here I just wanted to let
+you know that you really don t have to
+memorize anything in this course because
+I have created a complete cheat sheet
+with summary notes for you you can find
+it below this video in the description
+box so I have done my best to create the
+best possible most comprehensive sequel
+course for you and I would really
+appreciate it if you support my hard
+work by liking and sharing this video
+thank you so much now let s continue in
+this tutorial I m going to show you how
+to install MySQL on your computer now
+here I m using a Mac so first I will
+show you how to install MySQL on a Mac
+computer and then I will show you how to
+install it on windows so if you re a
+Windows user feel free to skip this
+tutorial now open up your browser and
+head over to MySQL calm then go to the
+downloads page and scroll down to the
+bottom here you should see my SQL
+community edition this is absolutely
+free and we gonna use that throughout
+this course so let s go ahead with that
+now on this page click on MySQL
+community server and then on this page
+you should see available releases for
+Mac OS so in this list download the
+first item which is a dmg archive
+alright now on the next page click on no
+thanks just start my download alright as
+you can see you are getting a dmg file
+which is basically a set of wizard all
+right now the dmg is downloaded so let s
+open it and then double click on this
+package this will launch an installation
+wizard which is pretty easy to use so
+simply click on continue and again and
+again I agree with the license agreement
+and install MySQL it s gonna ask for
+your password this is the password that
+you used to log in to your computer so
+let s put that here alright now here we
+need to set a password for the root or
+the admin user so click Next and in this
+
+right now let s finish the installation
+and into your computer s password one
+more time and we re done that was super
+easy and sweet all right we installed
+MySQL community server now we need a
+graphical tool to connect to the server
+and manage our databases so back to the
+downloads page one more time scroll to
+the bottom and go to MySQL Community
+Edition and on this page somewhere you
+should see my SQL work bench this is a
+graphical tool that we used to connect
+to our database server so let s go ahead
+and download this as well now once again
+on this page we need to download a dmg
+archive so download and again we have to
+say no we don t want to log in or sign
+up so let s just go ahead and download
+the dmg and then open it all right
+you re gonna see something like this so
+simply drag this MySQL workbench and
+drop it onto the Applications folder so
+let s go ahead with that now it s going
+to copy this into the Applications
+folder beautiful so we re done with the
+installation that was super easy now
+press command on space and search for
+MySQL workbench there you go let s open
+it now the first time we get this
+message because this is our application
+that we have downloaded from the
+internet so we need to tell Mac that we
+trust this let s go ahead with that
+so this is MySQL workbench now by
+default you should see a connection here
+if you don t see that you need to create
+it let me show you how to do that so for
+this demo I m gonna right click this and
+delete this connection all right now
+let s create a connection from scratch
+so click on this plus icon on this page
+give this connection a name let s say
+local instance now the connection method
+that we re gonna use is tcp ip which is
+set by default the host name is
+127 0 0 1
+point one which is the address of the
+local machine and the port is three
+three zero six this is the default port
+for my SQL Server that is the username
+of the admin now we need to enter the
+password this is the password that we
+set during the installation
+so click on store in keychain and in
+this box type the password for a MySQL
+server alright and finally let s test
+the connection okay we successfully
+connected to MySQL server on the local
+machine beautiful let s click OK and
+here we have a connection on the home
+page of MySQL workbench every time we
+open MySQL workbench we use this
+connection to connect to our local
+server alright we re done with the
+installation of MySQL on a Mac next I
+will talk about installing MySQL on a
+Windows computer so feel free to skip
+
+in this tutorial I m gonna show you how
+to install MySQL on Windows so open up
+your browser and head over to MySQL comm
+then go to the downloads page now here
+scroll down to the bottom we re gonna
+use MySQL community edition which is
+absolutely free so let s go with this
+now select MySQL community server
+and then scroll down so here you should
+see something like this
+my SQL installer for Windows this is the
+recommended method for installing MySQL
+on Windows so click on this alright on
+
+download the first installer here on the
+next page scroll down and click on no
+thanks just start my download otherwise
+you have to create an account and login
+which is unnecessary for following this
+course so let s go with this and save
+
+all right we re gonna use this setup
+wizard to install MySQL on our computer
+this is very easy all you have to do is
+to click Next but there are a couple of
+places where you need to enter a
+password let me show you so on the first
+page for the setup type we re gonna use
+the developer default setup go to the
+next page now here we re getting a
+little warning because this installation
+wizard wants to install the connector
+for python 3 7 but I don t have python
+on this machine so that s why I m
+getting this warning now on your machine
+you might or you might not get this
+error it doesn t really matter just
+click Next and one more time so here are
+the products are gonna get installed the
+first one is MySQL server the second one
+is MySQL workbench this is the graphical
+tool that we use to connect to our
+database server and manage our databases
+you re gonna see that soon so click on
+execute now this is gonna take about
+five to ten minutes so I m going to
+
+all right all the products are installed
+beautiful let s go to the next page and
+again here on the group replication page
+also click on next and the next page
+which is about networking leave all the
+default settings so let s go to the next
+page now we should set a password for
+the root or the admin user so click on
+next and in this box type a password for
+the admin user alright and then let s go
+to the next page once again leave all
+the default settings and click on next
+
+all right and now let s finish the
+installation once again we have to click
+on next and then finish one more time
+there are so many steps now here s the
+page where you need to enter the admin
+password so the page is called connect
+to server you can see the user name is
+root which represents the admin user so
+in this box enter the password that you
+said earlier then click on check ok
+connection was successful beautiful
+let s go to the next page and click on
+execute and finally finish there you go
+we have one more step next now finally
+after all these steps the installation
+is complete now this is gonna start
+MySQL workbench which is the graphical
+tool we used to manage our databases and
+run sequel queries so click on finish so
+now we have a command prompt window
+where we can type instructions to talk
+to our MySQL server we don t really need
+this so close it and here s MySQL
+workbench now the first time you open
+this page by default you should see a
+connection here if you don t see it
+click on this plus icon on this page
+give this connection and name let s say
+local instance now leave all the
+settings to their default value but here
+for the password click on store involved
+and in this box type the password that
+you set for the admin user so I m gonna
+put that here
+ok now click on test connection alright
+it s successfully connected to the MySQL
+server on this computer
+alright then click on OK now we click on
+this connection to connect to our
+database server alright so here is the
+interface that you ll be using
+throughout this course on the left side
+we have the Navigator panel in the
+middle we have the query editor which we
+can resize this is where we re gonna
+write our sequel queries and on the
+right side we have sequel editions so
+we re done with the installation of
+MySQL on our
+next I m gonna show you how to create
+the databases for this course in this
+tutorial I m gonna show you how to
+create the databases for this course so
+here I ve got my SQL work bench open let
+me quickly give you an overview of this
+interface because the first time you
+open it it might appear a little bit
+intimidating but actually it s not that
+difficult so here on the top we ve got
+this toolbar with these buttons for
+creating a new tab for writing stick
+well code as well as opening a sequel
+file and next to that we ve got a bunch
+of buttons for creating a database
+creating new tables and so on on the
+left side we ve got the Navigator panel
+with two tabs administration and schemas
+we use the administration tab to do
+administrative work such as starting or
+stopping our server importing or
+exporting data and so on this schemas
+tab shows that databases that we have in
+the current database server so currently
+we only have one database that is sis
+and this is the database that MySQL uses
+internally to do its work now in the
+middle we ve got this query editor
+window this is where we write our sequel
+code so we ll be spending most of our
+time in this course in this window and
+on the right side we ve got another
+panel with two tabs context help and
+snippets the chances are at this
+interface might look slightly different
+on Windows but what I m showing you here
+is almost identical with what we have on
+Windows so don t get hung up if it looks
+slightly different on your machine it
+doesn t really matter now up here we ve
+got these buttons for showing or hiding
+these panels so to clean this interface
+I m gonna hide this panel on the right
+side as well as the panel on the bottom
+that is better now to create the
+databases for this course download the
+zip file I ve attached below this video
+when you extract the zip file you re
+gonna see a bunch of sequel files like
+this so the main one that you will be
+using in this tutorial is called create
+databases dot sequel so this file
+contains all the sequel code to create
+all the databases that we need in this
+course now we also have individual files
+for creating individual databases I just
+added
+files in case you need to recreate one
+of these databases in the future but for
+now don t worry about them now back to
+MySQL workbench let s open the main
+sequel file that is create databases so
+this is an example of sequel code that
+this may look complex at the beginning
+but trust me as you go through the
+course you re gonna understand exactly
+how everything works here you re gonna
+be able to write sequel code like this
+so we want to execute this to create all
+the databases for this course to do that
+we click on this icon this yellow
+Thunder icon that we have on this
+toolbar here this will execute either
+the selection or the entire code if
+there is nothing selected for example if
+I select this line here and click on
+this icon this will execute only this
+line in this case we want to execute the
+entire code so we shouldn t select
+anything and now let s execute this
+beautiful so here down the bottom we
+have this panel called the output window
+that shows all the operations performed
+in our database server so we can check
+to see if all the operations completed
+successfully or something went wrong as
+you can see we ve got is green ticks
+next to each operation beautiful so I m
+going to close this panel that s better
+now on the left side in the schemas tab
+currently we don t see the new databases
+so we ll have to refresh this view
+beautiful so we ve got all these
+databases that are prefixed with SQL or
+sequel I decided to prefix them with
+sequel so we know that these are the
+databases for this course they don t
+accidentally clash with another database
+with the same name on your database
+server now at the time of recording this
+video there are only four databases here
+but as we go through the course I m
+gonna update the script for creating the
+databases so when you watch this course
+chances are you re gonna see more
+databases here don t worry about a
+difference now as an example let s
+explore one of this databases and by the
+way we don t need this tab anymore so
+let s close it that s better
+let s expand the sequel store database
+now in every database we have these
+objects we have tables this is where we
+store our data we
+views which are kind of like virtual
+tables so we can combine data from
+multiple tables and put them in a view
+and this is especially powerful for
+creating reports you re going to learn
+about them in the future we also have
+stored procedures and functions and
+these are little programs that we store
+inside of our database for querying data
+for example we can have a stored
+procedure for getting all the customers
+in a given City so we call that
+procedure and say hey give me all the
+customers in San Francisco and this will
+return all the customers in San
+Francisco okay now let s expand the
+tables so here are the tables in this
+database we have customers we have
+orders products shippers and so on now
+select this customers table whenever you
+hover your mouse over this item you
+should see these three icons on the
+right side click on the rightmost icon
+that looks like a table with a Thunder
+with this we can see all the data in
+this table
+so this is our customers table in this
+table we have these columns like
+customer ID which we used to uniquely
+identify customers we also have first
+name last name birthdate phone address
+and so on so these are the columns in
+this table and every row is called a
+record so every row represents one
+customer and these are the pieces of
+information we know about each customer
+now let s look at another table let s
+open the orders table in this table we
+have these columns like order ID
+customer ID order date status and so on
+what is this customer ID here we use
+this column to identify who has placed
+each order now what is interesting here
+is that you re referring to this
+customers using their customer ID which
+uniquely identifies them in other words
+if John Smith has placed on order we
+don t store John Smith here the only
+store John s customer ID why is that
+here s the reason it is possible that
+John Smith might have placed multiple
+orders in our system but every time John
+places an order we need to look up his
+address and phone to ship his
+order now it is possible that some of
+this information might change in the
+future John might move to a new place or
+change his phone number
+he might even change his name if you
+repeat all that information next to each
+order then we ll have to come back and
+make changes in multiple places in
+contrast with this design we only store
+the idea of John here so anytime we want
+to change any information about John
+instead of changing that here we go back
+to our customers table so let s look at
+the customer with ideas six that is
+actually called ELCA so here are all the
+information about Elka this is her phone
+number this is her address and by the
+way this is all dummy data that I
+created using a tool so if any
+information about Elka changes in the
+future this is the only place that we
+need to modify so this is how these
+databases work we refer to this
+databases as relational databases that
+basically means in this kind of
+databases we have multiple tables that
+are related to each other using a
+relationship so internally there is a
+relationship between the customers table
+and the orders table so the customer ID
+column and the customers table is
+related or linked or associated with the
+customer ID column in the orders table
+here s the orders table and here we have
+the customer ID column so this was a
+brief introduction to relational
+databases you learn about databases
+tables columns rows and relationships in
+the next section I m gonna show you how
+to retrieve data from a single table in
+this database but before going any
+further as an exercise I want you to
+explore the invoicing database look at
+all the tables look at all the data to
+get an idea of the kind of data we have
+in this database you re gonna use this
+database a lot in the future so spend a
+couple of minutes to explore this
+
+in this tutorial I m going to show you
+how to retrieve data from a single table
+now look at the Navigator panel
+currently none of our databases is
+displayed in bold that means none of
+this databases is selected for querying
+so the first step to write a query to
+get data from a database is to select a
+database the query that will write will
+be executed against that database in
+this demo we re gonna use this sequel
+store database so we type out use sequel
+on the line store now use is a keyword
+in the sequel language and that s the
+reason is displayed in blue now sequel
+is not a case sensitive language and
+that means we can use uppercase or
+lowercase characters it doesn t really
+matter but as a best practice we should
+capitalize the sequel keywords and use
+lowercase characters for anything else
+so now let s go ahead and execute this
+claim all right look the sequel store
+database is now displayed in bold now in
+MySQL workbench we can also select a
+database by double clicking that so now
+I double click sequel invoicing and it s
+the current database now if we run this
+query again the sequel store database
+becomes selected all right now let s
+write our first query to retrieve all
+the customers in this database so after
+the use statement we re gonna use the
+Select statement here s the basic syntax
+or basic structure of the Select
+statement we type out select in front of
+that we specified the columns that we
+want to retrieve for example we can
+retrieve the customer ID column as well
+as the first name column or we can
+retrieve all columns using an asterisk
+now after that we use the fron clause
+and this is where we specify the table
+that we want to query in this case the
+customers table so this is the simplest
+query to select all the customers in a
+given table now whenever you have
+multiple sequel statements you need to
+terminate each statement using a
+semicolon so look we have a red
+underline here that indicates an error
+if you hover your mouse here you can see
+this tooltip saying select is not valid
+at the
+position because we didn t terminate the
+first statement with a semicolon
+okay now let s execute this query one
+more time once again we can click on
+this button here or we can use a
+shortcut so look at the query menu on
+the top the first item is execute now
+here s the shortcut for this command on
+Mac it s shift command and enter on
+Windows it s gonna be different honestly
+I m not sure so whatever it is use that
+so I m gonna press shift command and
+enter and here are all the customers and
+it s table so this select statement has
+two clauses the Select Clause and the
+from clause but there are other clauses
+that we can use to filter and sort data
+for example we can use the where Clause
+to filter the result and get the
+customer with ID 1 so we can write an
+expression like this where customer
+underlined ID equals 1 now when we
+execute this query will only get the
+customer with ID 1 so this is the where
+clause we can also sort the data
+so after where we use the order by
+clause and here we specify the columns
+that we want to sort the result on let s
+say we want to sort this customers by
+their first name so we type out first
+underline name that is the name of one
+of the columns in this table right now
+if we execute this query this order by
+it doesn t really have any impact
+because we only get one record in the
+result
+so let me temporarily take out the where
+clause to do that we can put two hyphens
+in front of this line now this line is
+treated as a comment which means the
+sequel engine is not gonna execute this
+okay
+so let s execute this query one more
+time now all the customers that we get
+are sorted based on their first name so
+that s the basic idea now over the next
+few tutorials you re gonna learn more
+about each of these classes in detail
+but what you need to take away in this
+tutorial is that these three clauses
+from where an order by are optional as
+you can see in this example I m not
+using the where clause we can
+so comment out the order by Clause we
+can also comment out the front clause so
+instead of selecting all the columns in
+a given table we can select some values
+like 1 amp 2 now if you execute this query
+one more time in the result we get
+something like this two columns called 1
+amp 2 amp in these columns we have these
+values so all these clauses are optional
+but in the real world we quite often use
+all of them but what you need to
+understand here is that the order of
+this clause is matters so we always have
+select first then we have from then
+where and finally order by we cannot
+change the order of these classes
+otherwise we get a syntax error which
+basically means the syntax or the
+grammar or the structure of our sequel
+statement is incorrect so it can t be
+executed and one last thing before we
+finish this tutorial in this example you
+can see I ve listed all these clauses on
+a new line but technically you don t
+have to do this because line breaks
+white spaces and tabs are ignored when
+executing sequel statements so we could
+come back here and put from in front of
+select so select star from customers all
+in one line and that s perfectly fine
+for simple queries but as your queries
+get more complex it s better to put each
+Clause on a new line so that s all for
+this tutorial
+in the next tutorial we ll explore the
+seller clause in detail in this tutorial
+we re gonna look at the Select Clause in
+detail so since our current database is
+seacoast or to clean things up I m gonna
+remove the first statement you don t
+really need it now also I m gonna delete
+these two comments we just want to focus
+on the Select clause alright so what can
+we do with the Select clause well in the
+last tutorial you ll learn that if we
+use an asterisk this will return all the
+columns alternatively we can specify the
+columns that we want and this is helpful
+in situations where you have a big table
+with so many columns and perhaps
+millions of Records if you want to bring
+back all that data that s gonna put a
+lot of pressure on the database server
+in this case MySQL as well as the
+network so that s when we explicit
+specify the columns that we want to get
+let s say we want to get the first name
+and last name columns execute the query
+as you can see we only get these two
+columns and they re in the same order
+you specified here so if we change the
+order and put the last name first and
+execute the query again now you can see
+the last name column comes first now
+let s add a new column to the end let s
+get the point for each customer as well
+we run the query so these are the points
+for each customer which are calculated
+based on their shopping now let s say we
+want to get these points and put them in
+a mathematical formula to calculate the
+discount that we can give to each
+customer so here we can use an
+arithmetic expression let s say points
+plus 10 this is an arithmetic expression
+so now if you execute this query for the
+first record you can see that their
+point will end up being 2 2 8 3 let s
+run the query one more time there you go
+now we can put the original points
+column here for clarity some points
+comma points plus 10 let s run the query
+one more time now we can see the
+original points and next to that you can
+see the value that we re gonna use to
+calculate the discount now here we re
+using the plus operator which is for
+addition we also have multiplication
+division subtraction and modular which
+is the remainder of the division so
+let s change this to something more
+complex let s say we want to get the
+points multiplied by 10 and then add
+hundred to it now you can immediately
+see that this line 1 is getting too long
+and it doesn t fit on the screen in
+situations like this you can break up
+the Select Clause by placing each column
+on a new line so select last name then
+first name points and finally points
+times 10 plus 100 so let s execute this
+query one more time so this is our new
+column with the new calculated value now
+one thing you need to understand in this
+arithmetic expression is the order of
+operators and this is based on the order
+of operators in
+so in math the multiplication and
+division operators have higher order or
+higher precedence than addition and
+subtraction so in this expression first
+points is multiplied by 10 and then the
+result is added to a hundred like if
+this is not what you want you can always
+change the order by using parentheses as
+an example let s change this
+multiplication to addition and then put
+that multiplication here in this
+expression first ten is multiplied by
+100 and then the result is added to the
+point now let s say this is not what we
+want so we can change the order by using
+parentheses here with this parentheses
+first
+we get the points attend to them and
+then multiply the result by 100 so these
+parentheses are useful for changing the
+order of operations as well as adding
+clarity to our code so someone else
+reading this code can easily understand
+the order of these operations now let s
+execute this query one more time all
+right now look at the name of this
+column here it s said to the expression
+that we have on line 5 that doesn t
+quite make sense we want to have a clear
+descriptive name so we can give this
+column and alias using the as keyword so
+as and then we give it a name like
+discount discount underline factor let s
+run the query again now the name of this
+column is changed so this is the benefit
+of using an alias we can give
+descriptive names to the columns and the
+result set now if you don t have a space
+in the column name you need to surround
+it with quotes either single or double
+quotes so you put quotes here and then
+we can add a space in between these two
+words let s execute the query one more
+time now we ve got discount factor so
+let s quickly recap everything you learn
+about the Select Clause we can use an
+asterisk to return all the columns or we
+can explicitly specify the columns that
+you want to return we can also use
+arrays math expressions here and
+optionally we can give an alias to each
+column
+the results set now there is one more
+thing you need to know about the select
+clause so let s delete this query and
+select the state column from the
+customers table
+take a look these are the states in
+which our customers are located now
+currently in the sample data we don t
+have any duplicates in other words we
+don t have multiple customers in any of
+these states but for this demo I want to
+change the state of the first customer
+to Virginia so we end up with duplicates
+in the result set so let s open up the
+navigator panel here s our customers
+
+here s our first customer as you can see
+it s located in the state of
+Massachusetts now I want to change this
+to Virginia so double click VA for
+Virginia enter done now on the bottom
+right corner of the screen you should
+see two buttons apply and revert
+unfortunately I cannot show you these
+buttons because the recording window is
+a bit smaller and MySQL workbench but
+look down the bottom in the bottom right
+corner click on apply you re going to
+see a dialog box like this asking you to
+review the changes so go ahead and click
+the apply button one more time all right
+beautiful now let s go back to our first
+query window and execute this query one
+more time as you can see the first two
+customers are located in Virginia what
+if you want to get the unique list of
+states and the result set that s when we
+use the distinct keyword so select
+distinct state with this query we ll
+retrieve the unique list of states from
+the customers table so with a distinct
+keyword we can remove the duplicates
+let s execute the query one more time
+now we can see Virginia is not
+duplicated
+
+all right here s an exercise for you I
+want you to write a sequel query to
+return all the products in our database
+in the results set
+I want to see three columns named unit
+price and a new column called new price
+which is based on this expression unit
+price times 1 1 so let s say we want to
+increase the price of each product by
+10 with this query we want to get all
+the products the original price and
+their new price so pause the video and
+spend one or two minutes on this
+exercise when you re done come back see
+
+all right this is pretty easy so we
+start with select now what columns do we
+want to select name unit underline price
+and then here we re gonna use an
+arithmetic expression to calculate a new
+price so we type out unit price times
+one point one I didn t give it an alias
+so as new underlined price or we could
+put this in quotes and put a space with
+a new and price now where do we want to
+select this columns from from the
+products table so from products note
+that I ve used uppercase characters for
+all the sequel keywords and lowercase
+characters for everything else so let s
+go ahead and execute this query this is
+what we get so these are all the
+products you can see their original
+price as well as the new price which is
+10 more expensive in this tutorial
+we re gonna look at the where clause in
+sequel so earlier I told you that we use
+the where clause to filter data for
+example let s say we only want to get
+the customers with points greater than
+3000 so here in the where clause we can
+type out a condition like this points
+greater than 3000 when we execute this
+query the query execution engine in
+MySQL is going to iterate over all the
+customers in the customers table for
+each customer is going to evaluate this
+condition if this condition is true it
+will return that customer in the result
+set so let s go ahead and execute this
+and here s the result as you can see we
+have only two customers with points
+greater than 3000 so this is what we
+call the greater than operator which is
+one of the comparison operators in
+sequel let me show you the complete list
+of comparison operators so we have
+greater than greater than or equal to we
+have less than less than or equal to
+here s the Equality operator and for not
+equality we can use an exclamation
+followed by an equal sign or something
+like this so both these are
+not equal operators let me show you a
+few examples of these operators so I m
+gonna delete all this and bring back the
+previous query let s say we want to get
+only the customers in the state of
+Virginia so we can change our condition
+to something like this where state
+equals Virginia note that up with
+Virginia in quotes because this is what
+we call a string a string is a sequence
+of characters so whenever you re dealing
+with a sequence of characters or
+basically textual data you need to
+enclose your values with either single
+or double quotes but quite often by
+convention we use single quotes so let s
+execute this query and here s the result
+you can see we only have these two
+customers with ID one and two who are
+located in Virginia and it doesn t
+matter if we use uppercase or lowercase
+characters so if we type out
+VA in lowercase and execute the query we
+get the exact same result now what if
+you want to get all the customers
+outside of the state of Virginia we can
+use the not equal operator so we can
+either prefix this with an exclamation
+or use this other notation either way we
+get the same result so these are the
+customers that are not located in
+Virginia now we can use this comparison
+operators we date values as well for
+example let s say we want to get only
+the customers born after January 1st
+1990 so we change our condition to birth
+date greater than once again we use
+quotes for representing date values even
+though dates are actually not strings
+but in the sequel language we should
+enclose dates with quote so here we type
+out 1990 0 1 for January 0 1 for day
+so this is the standard or the default
+format for representing dates in MySQL
+for digits for the year two digits for
+the month and two digits for the day so
+let s go ahead and execute this query I
+actually made a mistake here so we don t
+see the result instead we see the action
+output or
+the output window if you scroll to the
+bottom you can see the details of the
+error so here I used the wrong name for
+the column we should separate these two
+words with an underscore that is the
+name of our column so let s execute the
+query one more time so we only have
+three customers born after January 1st
+1990 so these were examples of
+comparison operators in sequel in the
+next tutorial I m gonna show you how to
+combine multiple conditions when
+
+all right here s your exercise I want
+you to write a query to get the orders
+that are placed this year so look at the
+orders table see what columns do we have
+there and based on that write to query
+
+so here s the orders table in this table
+we have this column order date we can
+use this column to see the orders that
+are placed this year so here s our query
+select star from orders where order
+underline date is greater than or equal
+to January 1st 2019 assuming this is the
+current here so 2019 0 1 0 1
+now since currently we are in the Year
+2019 this query will return all the
+orders placed this year but next year
+this query is not going to give us the
+right result but don t worry about it
+later in the course I will show you how
+to write a query to get the orders
+placed in the current year so for the
+purpose of this exercise this is a valid
+solution now let s execute this query
+and see what we get so we have only one
+order or their ID one that is placed and
+the current here in this tutorial I m
+going to show you how to combine
+multiple search conditions when
+filtering data so let s say we want to
+get all the customers that are born
+after January 1st 1990 who also happened
+to have more than a thousand points so
+this is where we use the operator so
+we type out ant and after we type out
+another condition like points greater
+than a thousand now when we execute this
+query will only get customers who have
+both these conditions let s take a look
+so execute we only have two customers
+and if you look both these people are
+born after in 1990 and they have more
+than a thousand points so this is the
+and operator when we use this operator
+both these conditions should be true in
+contrast to the end operator we have the
+or operator so with or if at least one
+of these conditions is true that row
+will be returned in the result set
+let s take a look now we execute this
+query again instead of 2 records we have
+quite a few records so for example we
+have this person who is not born after
+1990 but if you look at their points
+they have more than a thousand points so
+any custom
+records that satisfies at least one of
+these conditions will be returned now
+let s take this to the next level let s
+say we want to get customers who are
+either born after 1919 or they should
+have at least a thousand points and live
+in Virginia so this is how we do this we
+type out and and then we add another
+condition state equals Virginia let s
+execute this query and see what we get
+we only get four records so these are
+the customers that are born either after
+1990 or they have more than 1 000 points
+and live in Virginia if you look at the
+first customer here this person is not
+born after 1990 but you can see that she
+lives in Virginia and she has more than
+a thousand points so the last two
+conditions are true for this customer
+now when combining multiple logical
+operators you need to be aware of the
+order of these operators so earlier I
+talked about the order of arithmetic
+operators I told you that multiplication
+have a higher order than addition and
+subtraction and we can use parentheses
+to override the default order we have
+the same concept in logical operators so
+the and operator is always evaluated
+first so when this quiz executed the
+query execution engine first evaluates
+its condition because here we re using
+an ant it doesn t matter that we typed
+out this condition after the first
+condition because the and operator has a
+higher precedence but you can always
+change the order using parentheses and
+this also makes your code cleaner and
+easier to understand so here we can put
+parentheses around these last two
+conditions and also we can put these on
+a new line for clarity something like
+this so anyone who reads this code can
+easy to understand what is the intent of
+this query now we also have another
+logical operator and called not and we
+use that to negate a condition let me
+show you so I m going to simplify our
+word Clause let s say we re searching
+for customers who were born after 1990
+or they have more than a thousand points
+if you execute this query we get these
+people customers with ID 1 3 5 and so on
+now we can use the not operator to
+negate this condition so we apply not
+here and preferably we also put
+parentheses around this condition now
+when we execute this query we ll see
+other customers that are not and the
+current result set let s take a look so
+instead of customers with IDs 1 3 5 6
+and so on we get the customers with IDs
+2 4 and 10 now technically these
+customers were born before 1990 and they
+have less than a thousand points so if
+you look here this first customer was
+born before 1990 and he has less than a
+thousand point how did I know that let
+me show you a trick that I learned in
+math whenever you have a not operator
+you can simplify your expression like
+this we apply the not operator to the
+first condition people who were born
+after 1990 how can we negate this
+condition well the greater than operator
+becomes less than or equal to that is
+the inverse of that condition right now
+we apply the not to or to negate the or
+what do we get we get and finally apply
+the not operator on the last condition
+people who have more than a thousand
+points when we negate this condition we
+get customers with less than or equal to
+a thousand points now we can remove the
+not operator to simplify this we don t
+need parentheses anymore because we only
+have two conditions that are combined
+with an add here is a result as you can
+see this is much easier to read and
+understand people who were born before
+this date and they have less than a
+
+our taser exercise from the order items
+table get the items for order number six
+where the total price for that item is
+
+all right here s the order items table
+in this table we have these columns
+order ID
+product ID quantity and unit price if we
+multiply the quantity by unit price we
+can get the total cost of that item and
+then we can compare it with 30 so let s
+go ahead and write this query select
+star from order items we re here we need
+two conditions one is for the order so
+order I m gonna ID should be 6 and the
+second condition we want to calculate
+the total price so we get the unit price
+multiplied it by quantity and this value
+should be greater than 30 so as we can
+see we can use an arithmetic expression
+in a where clause it s not limited to
+the select clause okay now let s execute
+this query and see what we get
+we should get only one item that is for
+product one here the quantity is four
+and unit price is just over eight
+dollars so the total price for this item
+is greater than 30
+hey guys maash here in case you haven t
+seen my website yet head over to code
+with mass comm this is my coding school
+where you can find plenty of courses on
+web and mobile application development
+in fact recently I published a complete
+sequel course that is about ten hours
+long and it teaches you everything you
+need to know from the basic to the
+advanced topics such as database design
+security writing complex queries
+transactions events and much much more
+these are the topics that every software
+engineer must master this YouTube course
+you ve been watching is the first three
+hours of my complete sequel course that
+is about ten hours long so if you want
+to master sequel and get job ready I
+highly encourage you to enroll in my
+complete sequel course you can watch it
+anytime anywhere as many times as you
+want you can watch it online or download
+the videos the course comes with a
+30 day money back guarantee and a
+certificate of completion that you can
+add to your resume the price for this
+course is one hundred and forty nine
+dollars but the first two hundred
+students can get it for just over ten
+dollars so if you re interested the link
+is below this video in this tutorial I m
+gonna show you how to use the in
+operator in sequel so as an example
+let s say we want to get the customers
+that are located in Virginia or Florida
+or Georgia one way to write this query
+is like this so we re state equals
+Virginia or state equals Georgia or
+state equals Florida now people who are
+new to the sequel language or
+programming in general find this
+expression a little bit strange they ask
+Marsh what can t we write this
+expression like this where state equals
+Virginia or Georgia or Florida here is
+the reason we use the or operator to
+combine multiple conditions so here we
+have a condition or an expression more
+accurately but on the right side of this
+or operator we have a string in sequel
+we cannot combine a string with a
+boolean expression that produces a bully
+value which can be true or false so that
+is why we have to write or query like
+this so we have multiple expressions or
+multiple conditions and we re combining
+them using the or operator okay so now
+if we execute this query we get these
+customers here but there is a shorter
+and cleaner way to get the same result
+instead of combining multiple conditions
+using the or operator we can use the in
+operator so where state is in and then
+in parenthesis we add all the values
+like Virginia comma Florida comma
+Georgia and the order doesn t matter
+this query is exactly equivalent to what
+we had earlier but as you can see it s
+shorter and easier to understand so
+let s execute it look we get the exact
+same result now here we can also use the
+not operator let s say we want to get
+the customers outside of these states so
+we can use where state not in this list
+now if you execute this query we get
+customers who are located in Colorado
+takes us and so on so use the in
+operator when you want to compare an
+
+now here is your exercise I want you to
+write a query to get the products where
+their quantity in stock equals to one of
+these values 49 38 and 72 so pause the
+video do this exercise and then come
+
+all right this is pretty easy so we do a
+select star to get all the columns from
+the products table where quantity in
+stock in we use the in operator to
+compare this attribute with these values
+49 38 and 72 let s execute the query we
+get only two records because we don t
+have a product with quantity in stock
+
+in this tutorial we re gonna look at the
+between operator in sequa so let s say
+we want to get the customers who have
+more than a thousand and less than 3 000
+points what made you write this query is
+like this where points greater than
+thousand well more accurately greater
+than or equal to a thousand and points
+less than or equal to three thousand
+when we execute this query we get how
+many we get four people that satisfy
+this criteria now whenever you re
+comparing an attribute with a range of
+values you can use the between operator
+and this makes your code shorter and
+cleaner so we can rewrite this
+expression like this where points
+between thousand and three thousand this
+is exactly equivalent to what we had
+before so these range values are also
+inclusive that means point is going to
+be greater than or equal to a thousand
+or less than or equal to three thousand
+let s execute the query we get the exact
+
+alright now as an exercise I wanted to
+write a query to get the customers that
+are born between January 1st 1990 and
+
+
+all right so we start with select star
+from customers where verse on the line
+date between so what matters here is
+that we can use the between operator for
+date values as well it s not limited to
+using numbers so we re birthdate between
+now we need to supply to date values so
+as I told you before the format for
+dates is four digits for the year so
+1990 two digits for the months and two
+digits for the day so the birthday
+should be between this value and here s
+the second value 2000 0 1 and 0 1 let s
+execute this query we got only three
+people who match this criteria in this
+tutorial I m gonna show you how to
+retrieve rows that match a specific
+string pattern for example let s say we
+only want to get the customers whose
+last name start with B so here in the
+where clause we type out where last name
+this is where we use the like operator
+and right after that we add a string
+pattern so you want to get the customers
+whose last name start with B and we have
+any number of characters after B so use
+the percent sign to indicate any number
+of characters you might have one
+character after B or no characters or 10
+characters with this pattern we get all
+the customers whose last name start with
+B and also it doesn t matter if it s an
+uppercase or lowercase B so let s
+execute this query there you go so we
+only have three customers whose last
+name start with B as another example
+let s say we only want to get the
+customers whose last names start with
+brush so we change our pattern to brush
+percent now let s execute the query we
+only get this one customer here now this
+doesn t have to be at the end of the
+pattern it can t be anywhere for example
+let s say we want to search for
+customers who have it B in their last
+name whether it s at the beginning in
+the middle or at the end so we change
+our
+b this pattern means we can have
+any number of characters before or after
+b let s execute the query these are the
+customers who have a be somewhere and
+their last name it doesn t matter if
+being is at the beginning or in the
+middle or at the end let s look at
+another example i want to get all the
+customers whose last name and with y so
+here s the pattern we use let s execute
+this query and we have five customers
+whose last name and with a y so this is
+how we use the now we also have an
+underscore and that matches a single
+character so with this pattern we get
+customers whose last name is exactly two
+characters long we don t care what the
+first character is but the second
+character should be y let s execute this
+query obviously we don t have any
+customers whose last name matches this
+pattern but if it changed this pattern
+to five underscores so one two three
+four five followed by a why we should
+get these customers so their last name
+is exactly six characters we don t care
+about the first five characters but all
+of them and wit of y now as another
+example we can replace the first
+underscore with b and that means we want
+to get the customers whose last name
+start with me and after we have exactly
+four characters followed by FY let s
+execute this query so we only have one
+customer that matches this pattern so
+this is how we use the like operator we
+use the percent sign to represent any
+number of characters and an underscore
+to present a single character now this
+like operator in mysql is an older
+operator but we also have a newer one
+that is more powerful and it allows us
+to search for any string patterns and
+
+all right here I m gonna give you two
+exercises for the like operator first I
+want you to get the customers whose
+addresses contain trade or Avenue annex
+I want you to get the customers whose
+phone numbers and with nine
+
+alright let s get started with the first
+exercise so select star from customers
+wear a dress like like hey we want to
+use a search pattern like this you want
+to have trail but trade can be anywhere
+in the address so we put a percent
+before and after trail next we should
+use the or operator to search for
+another pattern or a dress like let me
+put this on a new line that is better a
+dress like once again percent Avenue
+percent that s it so let s execute this
+
+here s the result you should get the
+customers with IDs 2 9 and 10 if you
+look at their addresses all of them have
+either train or Avenue and their address
+now let s work on the second exercise we
+want to get the customers whose phone
+numbers and with night that is pretty
+easy so let me change our where clause
+where phone once again we use the like
+operator at a percent followed by and
+nine that s all you had to do let s
+execute the query so here s the result
+customers with IDs three and seven their
+phone numbers and midnight so this is
+how we use the like operator and by the
+way you can always use the not operator
+here let s say if you want to get the
+customers whose phone numbers don t end
+with nine so we simply prefix like with
+not now if we execute this query one
+more time we get all the other customers
+
+in the last tutorial you learn about the
+like operator in sequel so as another
+example let s say we want to search for
+the customers who have the word field in
+their last name so we type out a where
+clause like this where last name like
+field so the word field can be
+anywhere in the last name let s execute
+this query we get only one customer
+beautiful now we also have another
+operator in MySQL that is reg X which is
+short for regular expression and regular
+expressions are extremely powerful when
+it comes to searching for Strings so
+they allow us to search for more complex
+patterns here s an example if I want to
+rewrite this last where clause using a
+regular expression it looks like this
+where last name are AG exp now hitting
+our string pattern we don t have to type
+out the percent signs we only type out
+field so what we have on line 4 is
+exactly identical to what we have on
+line 3 let s execute this query we get
+the same result beautiful now here in
+regular expressions we have additional
+characters that we don t have when we
+use the like operator for example we can
+use the caret sign to indicate the
+beginning of a string so if I put a
+caret just before the word filled that
+means our last name must start with
+field obviously if we execute this query
+we don t get any one that matches this
+criteria so we use the caret sign to
+present the beginning of a string we
+also have a dollar sign to represent the
+end of a string so this pattern means
+the last name must end with field let s
+execute this query we get the same
+result as before now we can also search
+for multiple words here for example
+let s say we want to find the customers
+who have the words filled or Mac in
+their last name so we use a pipe a
+vertical bar and type out another
+pattern
+let s execute this quay so here we have
+two customers one of them has the word
+Mack the other has the word filled in
+their last name now we can take this to
+the next level let s say we want to find
+the customers who have the words filled
+or match or rose in their last name
+let s execute the query we get three
+customers beautiful so we use a pipe or
+a vertical bar to represent multiple
+search patterns now as another example
+we can change our first search pattern
+to something like this now this pattern
+means the last name should either start
+with the word field or it should have
+the word Mack in it or it should have
+the word rose let s execute the query
+now we get only two customers because
+our customer with the last name brush
+field doesn t match this pattern however
+if we change our first pattern to field
+dollar sign and execute the query we get
+three people here three customers so
+this is how we can combine multiple
+special characters when building a
+complex pattern now let s look at
+another example let s say we want to
+search for customers who have an e in
+their last name so these are all the
+people all right now let s say we want
+to make sure that before the letter e we
+should either have AG or an I so this is
+where we use square brackets and inside
+the brackets we add multiple characters
+like G I M and that matches any
+customers who have GE or ie or M II in
+their last name so any of these
+characters can come before e now let s
+execute this query there you go we only
+get two customers in the first example
+before e we have AI which is one of the
+characters inside the brackets in the
+second example before E we have a G
+which is also another valid character
+before e now once again the square
+brackets don t have to be before E we
+could add them after E so any customers
+who have ephod buy an F or an M or a Q
+in their last name
+can be returned with this pattern
+obviously we don t have anyone in the
+database so this is how we use square
+brackets now we can also supply a range
+of characters for example we can have e
+and just before if you want to have any
+characters from a to H we don t have to
+type them out explicitly like ABCD efg
+that s very verbose so we can type out a
+to H and now if you execute this query
+we get these three people so let s
+quickly recap everything you learn about
+regular expressions in this tutorial we
+use a carrot to present the beginning of
+a string so beginning we use a dollar
+sign to represent the end of a string we
+use a vertical bar or a pipe to
+represent a logical or so we can supply
+multiple search patterns we use square
+brackets to match any single characters
+listed in the brackets and finally we
+use square brackets with a hyphen to
+present a range so any characters from a
+to let s say F but technically my school
+supports more special characters but
+quite honestly the ones that I ve listed
+in this tutorial are the ones that
+you ll be using 90 of the time so just
+
+quite honestly a lot of beginners find
+the syntax for regular expressions
+confusing so in this video I m gonna
+give you four exercises that I have
+carefully designed to help you quickly
+learn about this syntax
+here s the first exercise get the
+customers whose first names are Elka or
+amber I note that this is amber with a u
+now for the second exercise return the
+customers whose last names and with E Y
+or o n here s the third exercise get the
+customers whose last names start with my
+or it contains s E and finally as the
+last exercise return the customers whose
+last names contain be followed by R or
+you so go ahead and spend 2 to 3 minutes
+on this exercise when you re done come
+
+
+all right let s knock out the first
+exercise so we want to get all whoops
+there s a see here select star from
+customers we re first name regular
+expression and here s our pattern we
+want to search for two words either Elka
+or amber
+simple as that let s execute this query
+we should get two customers there you go
+amber and Elka all right now let s knock
+out the second exercise so I m gonna
+delete this we don t need it anymore so
+we want to get the customers select star
+from customers where last name should
+end with either a Y or Oh n so in the
+search pattern we type out ey followed
+by a dollar sign to indicate the end of
+your string then we had a vertical bar
+to supply the second search pattern so o
+N and once again a dollar sign let s
+execute this query oops actually I
+forgot to type out regular expression
+there you go so let s execute this query
+and we should get these for customers
+with IDs one three five and seven the
+first three their last names and with E
+Y and the last customer his or her last
+name ends with Oh n all right now let s
+work on the third exercise so I m just
+gonna change the regular expression here
+we want to get the customers whose last
+name starts with my or contains se so we
+use a carrot to indicate the beginning
+of our string so it should start with my
+or it should contain as e again very
+easy let s execute this query and we get
+the customers with IDs four eight and
+ten and finally we want to get the
+customers whose last names contain B so
+let s change the search pattern we
+should have a be followed by our or you
+now there are two ways to write this
+regular expression we can use square
+brackets so we have be followed by our
+or you that s one way the other way is
+to use a vertical bar so BR or bu these
+are both valid solutions so I hope you
+knocked out these exercises in the next
+tutorial I m gonna show you how to get
+
+in this tutorial I m gonna show you how
+to look for records that Miss an
+attribute for example if we select all
+the customers in our database we can see
+that the customer with ID 5 doesn t have
+a phone number so if you look closely
+here you can see the value null null
+means the absence of the value now let s
+say we want to search for all the
+customers who don t have a phone perhaps
+you want to send them an email and say
+hey your phone is missing in our system
+so how can we get this customers that is
+very easy we use the ease null operator
+so in the where clause we type out where
+phone is not now let s execute this
+query we only get one customer who
+doesn t have a phone now here we can
+also use the not operator to get the
+customers who do have a phone so we
+change the condition to is not null
+let s execute the query now in the query
+results every customer does have a phone
+
+for this exercise I wanted to write a
+query to get the orders that are not
+shipped yet this is a very useful query
+that is used in a lot of real
+applications for example let s say
+you re an admin for an online shop you
+want to see the orders that are not
+shipped yet so you can follow them up so
+write a query to get these orders
+
+so here we have the orders table let s
+have a quick look at the data in this
+table alright so if you pay close
+attention you see some of these orders
+don t have a shipped date and these
+orders also don t have a shipper ID
+which is a unique number for identifying
+the shippers so any order that misses a
+value for the ship date or shipper ID is
+considered an order that is not shipped
+so let s go ahead and write a query to
+get these orders so back to our query
+editor select star from orders where
+shipped underline date is no you could
+also write shipper ID is no they re both
+equally correct so let s execute this
+query and we should get five orders or
+
+in this tutorial I m gonna show you how
+to sort data in your sequel queries so
+here we have a query to select all the
+customers from the customers table if
+you look at the query result you can see
+that our customers are sorted by their
+ID so we have customers 1 2 3 4 and so
+on this is the default sort corner but
+we can always change this using the
+order by clause but first let me explain
+why the customer ID column is the
+default sort color so first I m going to
+open up the navigator panel on the left
+side here is the customers table now
+let s click on this middle icon here
+that looks like a tool this opens up our
+customers table in the design mode so
+here we can change our columns we can
+add new columns or remove existing ones
+or change their name or order and so on
+now if you pay close attention you can
+see a yellow key just before customer ID
+this means that this column is the
+primary key column for this table so in
+relational databases every table should
+have a primary key column and the values
+in that column should uniquely identify
+the records in that table so back to our
+query window we can see that the values
+in this column uniquely identify each
+customer so the customer ID column is
+the primary key column in this table and
+that is why when we write to query
+against this table our customers are
+sorted by their ID by default now let me
+show you how to sort customers by a
+different column so here in the order by
+clause we type out the name of another
+column like first thing let s execute
+the query now you can see our customers
+are no longer sorted by their ID instead
+they re sorted by their first name in
+ascending order now if you want to
+reverse the sort order simply type out
+de SC which is short for descending now
+we are sorting this customers in
+descending order ok we can also sort
+data by multiple columns for example
+let s say first we want to sort our
+customers based on their state and then
+we didn t each state you want to sort
+them by their first name
+so we type out multiple columns here
+state and first name let s execute the
+query now you can see that the first
+state we have here is California
+followed by Colorado and now here in
+Florida we have two customers and these
+customers are sorted by their first name
+let s have a close look here so first we
+have amber and then we have this other
+customer here now we can also use the
+descending argument anywhere here for
+example we can sort these customers by
+their state in descending order and then
+sort them by their first name in
+ascending order or once again in
+descending order
+so there are various ways we can sort
+data now one of the differences between
+MySQL and other database management
+systems is that in MySQL we can sort
+data by any columns whether that column
+is in the Select clause or not for
+example let s say we only want to select
+the first and last name for each
+customer now we can sort the result by
+any columns in this table they don t
+have to be first name and last name for
+example we can sort them by their birth
+date
+take a look so this is a valid query in
+my school but other database management
+system sometimes you yell at you when
+you write a query like this now we can
+also sort data by an alias for example
+here in our select clause let s add the
+number 10 and give it an alias as let s
+say points so points is not a valid
+column in this table it s simply an
+alias for an expression in this case a
+simple number now here we could have a
+complex mathematical expression it
+doesn t really matter we can still sort
+data by an alias so we can order by
+points and then first name once again
+this is a valid query from my skills
+point of view now one last thing before
+we finish this tutorial I ve seen some
+tutorials that teach you how to sort
+data by column positions for example
+here we can order by one and two and
+that basically means sorted data by the
+first name and then the last name so
+these are the order of these columns if
+you execute this query you can see that
+our customers are sorted by their first
+name and then
+named wireless approach works it s
+something that you should avoid because
+if in the future you come back here and
+add a new column in front of the first
+name column let s say burst date now our
+customers are no longer sorted in the
+previous order so sorting data by column
+positions produces unexpected results
+and is something that you should avoid
+instead always sort by column names like
+first name
+
+all right here s your exercise for this
+tutorial in this database we have this
+table called order items where we can
+find the items for each order now I ve
+written a query that you cannot see here
+because that s the solution to the
+exercise I m gonna give you that query
+produces this result so we only have the
+items for the order with ID 2 and we
+have sorted these items based on the
+total price for each item so the total
+price for each item equals quantity
+times unit price in this case the total
+price for product 1 is just over 18 so
+go ahead and write the query to select
+all the items for order with ID 2 and
+sort them by their total price in
+descending order
+
+alright let s select everything from
+order items where order ID equals to
+that returns all the items for this
+order now I m gonna make sure to sort
+them by their total price so here in
+order by clause we write an expression
+quantity times unit price this returns
+the total price for each item and then
+we add the descending argument here so
+once again the expression that we use in
+the order by Clause doesn t have to be a
+column name it can be an alias or an
+arithmetic expression like this let s go
+ahead and execute this query this is
+what we get now for clarity I would like
+to add another column and the result so
+let s say quantity times unit underline
+price but give it an alias like total
+price let s execute the query we can
+clearly see that this data is sorted by
+the total price in descending order
+however there is a bit of duplication in
+our query we have repeated this
+expression in two places so now we can
+simplify our order by clause by using an
+alias that is total price and we get the
+exact same result next I m gonna show
+you how to limit the number of Records
+
+in this tutorial I m gonna show you how
+to limit the number of records returned
+from your query for example when we
+execute this query we get all the
+customers and the customer table so we
+have 10 customers here now what if you
+only want to get the first three
+customers that s where we use the limit
+clause let me show you
+so after from we type out limit 3 and
+this will return only the first 3
+customers now if the argument that we
+pass here is greater than the number of
+records other query produces we ll get
+all the records in the query result for
+example if I pass 300 here obviously we
+don t have 300 customers in this table
+so when we execute this query we ll get
+all the 10 customers in this table so
+this is how the limit Clause works now
+here we can optionally supply an offset
+and this is very useful in situations
+where we want to paginate the data for
+example let s say we have a website and
+on this website we have a web page for
+the user to see all the customers in a
+database now for simplicity let s
+imagine you want to show only three
+customers per page so what are the
+customers that we re gonna have on page
+1 we re gonna have customers 1 2 3 on
+page 2 we re gonna have customers 4 5 6
+and on page 3 we re gonna have customers
+7 8 9 now let s say we want to write a
+query to retrieve the customers on page
+3 how can we do that well we want to
+skip the first 6 records and then pick 3
+records right so we change our limit
+clause to something like this limit 6 amp
+3
+so six is what we call an offset and
+that basically tells MySQL to skip the
+first six records and then pick three
+records let s execute this query all
+right now we get customers seven eight
+and nine
+
+now for your exercise I want you to get
+the top three loyal customers these are
+the customers that have more points than
+everyone else
+
+all right first we select everything
+from the customers table now we need to
+order these customers by their points in
+descending order so if you look at the
+query result you can see that customers
+are sorted by their loyalty so the most
+loyal customers come first now we want
+to pick only the first three customers
+and that s where we use the limit clause
+so limit 3 let s execute this query and
+these are the most loyal customers
+customers with IDs 5 6 amp 3 now here s
+one thing I want you to remember and
+that is the order of the limit clause
+the limit clause should always come at
+the end so first we have a select clause
+then we have from optionally we can have
+where followed by order by and finally
+limit the order of these clauses matters
+if you change the order my sequel is
+gonna yell at you so pay attention to
+
+so far we have only selected columns
+from a single table but in the real
+world we quit often select columns from
+multiple tables and that s what I m
+gonna show you over the next few
+tutorials so on the left side if you
+look at our orders table let s select
+all the data here in this table we re
+using the customer ID column to identify
+the customer that has placed each order
+now as I told you before we don t store
+customers information here like their
+phone number their email their address
+because this information can change in
+the future and if a given customer has
+placed multiple orders then we ll have
+to come back and change multiple records
+we don t want to do that that s why we
+have separate tables for customers and
+orders now in this tutorial I m gonna
+show you how to select the orders in the
+orders table but instead of showing the
+customer ID show the full name for each
+customer so let s go back to our query
+window alright so we want to select
+everything from the orders table now we
+should combine the columns in this table
+with the columns in the customers table
+that is where we use the join keyword
+now here we can optionally type inner
+join because in sequel we have two types
+of join inner join and outer join we
+look at outer joins later in this
+section so for now we re only using an
+inner join and this inner keyword is
+actually optional so we don t have to
+type it so you want to join the orders
+table with the customers table now on
+what basis do we want to join these
+tables well here in the customers table
+we have this customer ID column so if
+you put these two tables next to each
+other we want to line up the records
+such that the customer IDs are equal
+that is where we use the on phrase so
+after on we type out a condition here is
+a condition we need to type out orders
+dot customer underlined ID should be
+equal to customers dot customer ID now
+this is getting outside of the screen so
+let me break up this line that s better
+so with this query we re telling MySQL
+but hey whenever you re joining the
+orders table with the customers table
+make sure that the customer ID column in
+the orders table equals the customer ID
+column in the customers table now let s
+
+since we are selecting everything here
+the first few columns are from the
+orders table because we have listed that
+first now after all the columns in the
+orders table we have the columns in a
+customer table so customer ID first name
+last name and so on now let s simplify
+the result set and select only order ID
+first name and last name so back to our
+query we select order ID first name and
+last name now let s execute the query
+that is better so next to each order ID
+we can see the name of the customer that
+placed that order now what if you want
+to display the customer ID here as well
+well let s put that here and see what
+happens
+customer ID execute the query we get an
+error so if you look at the output
+window down the bottom you should see an
+error saying column customer ID in the
+field list is ambiguous now
+unfortunately I cannot show you this
+error because the size of my recording
+window is smaller than MySQL workbench
+but that aside let me explain why we re
+getting this error because we have this
+customer ID column in both the orders
+and customers tables so MySQL is not
+sure which table do we want to select
+this column from that is why it s saying
+this column is ambiguous so we need to
+qualify this column by prefixing it with
+a table name we can either pick it from
+the orders table or the customers table
+it doesn t really matter because the
+values are equal right so in situations
+where you have the same column in
+multiple tables you need to qualify them
+by prefixing them with the name of their
+table okay now almost execute the query
+one more time so there you go we have
+order ID customer ID and a full name
+beautiful now one more thing before we
+finish this tutorial if you pay close
+attention we have repeated the word
+orders in multiple places we have it
+here as well as in the joint condition
+the same is true about the customers
+table we have repeated that here we can
+get rid of this repetition and make our
+code simpler by using an alias so right
+after each table we can give it an
+alias Oh as in short for orders so by
+convention we abbreviate the tables name
+now wherever we have orders we should
+replace that with O so here in the joint
+condition we replace orders with O and
+also one more time and the Select Clause
+there you go
+we can also apply an alias for the
+customers table we ve got it see and
+then we simplify our joint condition
+like this so this is how we can join
+
+now for your exercise I want you to look
+at the order items table so in this
+table we have these columns or their ID
+product ID quantity and unit price now I
+want you to write a query and join this
+table with the products table so for
+each order return both the product ID as
+well as its name followed by the
+quantity and the unit price from the
+order items table and by the way make
+sure to use an alias to simplify your
+code
+
+alright first let s select everything
+from the older items table and then join
+it with the products table how are we
+gonna join these tables on order under
+line items dot well actually let s just
+keep this an alias right away so we use
+oh I as an abbreviation for order items
+and P has a short for products so oh I
+dot product ID should be equal to P or
+products dot product ID and by the way
+remember that when you give an alias to
+a table you have to use that alias
+everywhere else so here I cannot type
+out products my school is gonna yell at
+me so let s use the abbreviation alright
+this is how we join these tables let s
+execute this query up to this point
+alright so we see all the items from the
+order items table followed by the
+columns from the products table now we
+want to explicitly select a few columns
+here so from the order items table we
+want to select order under line ID well
+technically we don t have to prefix this
+with the table name because this column
+is not repeated in multiple places so
+it s not ambiguous so let s make the
+code shorter that s better now we want
+to select the product ID column but
+because this column exists in both
+tables you have to prefix it with a
+table link either
+oh I or P it doesn t really matter next
+we want to select quantity and finally
+unit price now actually here we have
+this unit price column in both tables so
+this is the unit price in order items
+table and this is the unit price in the
+products table now you might be curious
+why we have this economy in two places
+the reason for this is that the price of
+products can change so for each order
+item we want to have the price at the
+time the user or the customer place the
+order so this is a snapshot of the price
+at a given point in time the unit price
+that we have in the products table is
+the current price right now this is very
+important for reporting
+otherwise we cannot calculate the sales
+properly so because we have the unit
+price column in two places in this case
+we should pick it from the order items
+table because this is the price at the
+time of placing the order now let s
+execute the query so here s the final
+
+in the real world when you work as a
+developer or a database administrator
+quit often you will have to work with
+multiple databases in this tutorial I m
+gonna show you how to combine columns
+from tables across multiple databases
+that s pretty easy so in the sequel
+store database we have these tables that
+you re fairly familiar with now imagine
+this products table was not here now if
+you look at the sequel inventory
+database you can see here we have
+another products table this products
+table is exactly the same as the
+products table that we have in a sequel
+store database so it has the same
+columns on the same data but technically
+this is not a good design you don t have
+the same table repeated in multiple
+places but for this demo let s just
+imagine that we don t have the products
+table here so we want to join the order
+items table with the products table in
+the sequel inventory database let s get
+started
+so select everything from the order
+items table let s give it an alias
+straight away we want to join this with
+the products table this products table
+is part of the sequel inventory database
+so we ll have to prefix this with the
+name of its database so we type out
+sequel inventory dot now once again we
+can give this an alias like P then type
+out our joint condition so oh I dot
+product ID should be the same as P dot
+product ID let s run the query there you
+go so we successfully join tables across
+multiple databases now note that we re
+prefixing the products table with the
+name of its database because the current
+database that we re writing this query
+against is the sequel store database
+take a look in the Navigator panel the
+sequel store database is displayed in
+port because earlier we wrote the use
+statement to select a database that was
+sequel store now what if we select the
+sequel inventory database let s see what
+happens so sequel inventory now because
+we have multiple
+statements we have to terminate this
+with a semicolon now we want to select
+everything from the order items table
+but we don t have this table inside of
+this database so now we ll have to
+prefix this table with a name of its
+database that is sequel underline store
+let s execute the query okay everything
+works beautifully so here s the lesson
+you only have to prefix the tables that
+are not part of the current database in
+other words your query will be different
+
+in sequel we can also join a table with
+itself let me show you an example take a
+look at this database sequel HR in this
+database we have these two tables
+employees and offices let s take a look
+at the data in the employees table there
+you go so here we have these columns
+employee ID first name last name their
+job title salary and reports this is
+the idea of the manager for this person
+or this employee now once again we don t
+want to repeat the manager s information
+here like their phone number their
+address because this information can
+change in the future so we are only
+using their identifier or their ID to
+refer to them in this table now where
+can we find the information about this
+manager well this manager is actually an
+employee of the same organization so
+look at this example the manager IDs
+three seven two seven zero now if you
+look on the left side here s the idea of
+that manager which is another employee
+now who s the manager for this employee
+let s take a look we don t have any
+values here so the value for this cell
+is no so this employee doesn t have a
+manager and that means they are the CEO
+so now let s go ahead and write a query
+to join this table with itself so we can
+select the name of each employee and
+their manager back to a query window
+first we need to select the sequel HR
+database next we select everything from
+the employees table we give them alias
+like e now when it s join this table
+with itself so once again we type out
+employees but we need a different alias
+what should we call this alias well we
+want to join this table with itself so
+we can find the managers right so we can
+use M as in short for managers now this
+type at our joint condition so from the
+employees table we need to join the
+reports under line to column to the
+managers table which is basically the
+employees table itself
+and what column that is employee
+underlined ID now let s execute this
+query and see what we get so we see all
+the columns from the employees table
+repeated the first set of columns
+represent information about the
+employees and then after that we have
+information about the manager in this
+case we have only one manager in this
+table but with this technique we can
+easily create an organization chart we
+can have a hierarchy of managers now
+let s simplify our query and select only
+the name of the employee and their
+manager so back here since every column
+in the employees table is repeated twice
+we need to prefix each column with a
+table name for example from the
+employees table you want to get employee
+ID as well as the first name and then
+from the managers table you want to
+select the first name as well so every
+column should be prefixed with the table
+name or more accurately the alias
+because all these columns exist in two
+tables right let s go ahead and execute
+this query so this is what we get
+employee ID first name and here s the
+managers first name we can improve this
+query by giving an alias to this column
+because it doesn t make sense to have to
+first name columns so let s give an
+alias to the third column manager now
+
+and here s the end result so we have the
+employee ID first name and manager so
+joining a table with itself is pretty
+much the same as joining a table with
+another table the only difference is
+that we have to use different aliases
+and we have to prefix each column with
+an alias this is what we call a self
+join next I m gonna show you how to join
+more than two tables in this tutorial
+I m gonna show you how to join more than
+two tables when writing a query for
+example back to our sequel store
+database look at the orders table now
+you know how to write a query to join
+this table with the customers table to
+return information about the customer
+who placed each order but here we also
+have another column status which is
+similar to the customer ID column so the
+name of these statuses are not stored in
+this table there are somewhere else in
+the order statuses table let s have a
+quick look here so our orders can be
+their process shipped or delivered and
+these are the identifiers for each of
+these statuses now back to our orders
+table in a status column we store the
+order status ID so now we should write
+the query to join the orders table with
+two tables the customers table add order
+statuses table the result of this query
+is going to look like this so for each
+order we see the order ID the date the
+first and last name of the customer and
+finally the status of the order this is
+a beautiful report we can create for our
+users so let me show you how to write
+this query
+back to our query editor first we need
+to select the sequel store database now
+we need to select everything from the
+orders table let s give it an alias next
+we need to join this with a customers
+table on oh that customer ID should be a
+cool to see that customer ID nothing new
+so far exactly like before now here we
+can write another join keyword to join
+the orders table with order statuses
+table so we type out order
+statuses and also give it an alias like
+OS what is our joint condition well I
+can order stable here we have is status
+column so the value in this column
+should be equal to the order status ID
+column in order statuses table right so
+back to the query so orders table dot
+status should be equal to order status
+dot order status ID make sure to get the
+name right don t have a typo otherwise
+you re gonna get an error so this is how
+we can join three tables now in the real
+world as you work on more complex
+problems you might end up joining even
+ten tables so this is not uncommon in
+the sequel world now let s go ahead and
+execute this claim first we get the
+columns from the orders table followed
+by the columns from the customers table
+and so on this result is so complex and
+hard to extract information from so
+let s explicitly select a few columns
+here from the orders table we want to
+select the order ID column as well as
+the order date then from the customers
+table we want to select the first name
+and the last name and finally from the
+order statuses table we want to select
+the name column now we can give this an
+alias like status that s better let s
+execute the query one more time so
+here s the end result we have order ID
+or the date the name of the customer
+
+all right for your exercise take a look
+at this equal invoicing database here we
+have this table payments and these are
+the payments that each client has made
+towards a given invoice let s take a
+look at the data so we have these
+columns like client ID that identifies
+the client so we can join this table
+with the clients table to see the name
+of the clients next we have invoice ID
+you also have date amount and payment
+method so similarly we can join this
+table with the payment methods table
+here let s have a look at a data in this
+table these are the payment methods
+credit card cash paypal and wire
+transfer so back to the payments table I
+want you to write the query and join
+this table with the payment methods
+table as well as the clients table
+produce a report that shows the payment
+with more details such as the name of
+
+all right first we need to use the
+sequel invoicing database now we can
+select everything from the payments
+table which we call P next we need to
+join this with the clients table which
+we call it C on P client ID should be
+equal to C that client ID let me double
+check the column name to make sure I got
+it right so back to the payments table
+the column is called
+client ID you also have a column called
+payment method that we should join to
+the payment method ID column of the
+payment methods table so back to the
+query once again we use a joint
+statement here join with payment methods
+we give it an alias pm on P dot payment
+underlying method should be equal to
+p m dot payment method ID make sure to
+type it out correctly otherwise you re
+gonna get an error so let s go ahead and
+execute the query after this point there
+you go finally let s hand pick the
+columns that make the most sense so from
+the payments table let s select a date
+followed by invoice ID
+what else do we have here so we have
+client ID invoice ID date amount and
+payment method I m gonna pick the amount
+column from here as well so back to the
+query P dot amount now we need to add
+information about the client let s take
+a look at this table clients so here we
+have columns like name address city and
+so on all we need here is the name
+column so back to the query from the
+clients table let s select the name
+column and finally from the payment
+method table let s select what is that
+column called
+it s called name so back to the query PM
+dot name so here s the end result now we
+can put these columns in any order that
+we want it doesn t really matter let s
+execute the query and make sure
+everything works so honest
+eight for this invoice we have in
+payment for this amount by this client
+
+in all the examples you have seen so far
+we use a single column to uniquely
+identify the rows in a given table for
+example in the customers table we have
+this customer ID column which uniquely
+identifies the rows in this table but
+there are times that we cannot use a
+single column to uniquely identify
+records in a given table for example
+look at the order items table in this
+table we have columns like order ID
+Product ID and so on now if you look at
+the data you can see that the values in
+the order ID column are repeated or
+duplicated we have two two two six six
+and so on so we cannot use this column
+on its own to uniquely identify each
+record the same is true for the product
+ID the values in this column are also
+duplicated so in this table we use the
+combination of the values in both these
+columns to uniquely identify each order
+item as an example in this order we have
+three items for products 1 4 and 6 and
+for each product we have the quantity
+and unit price so if we use the
+combination of the values in both these
+columns we can uniquely identify each
+order item in other words we don t have
+two records for order ID 2 and product
+ID 1 we only have a single record for
+that item right now let us open this
+table in the design mode so over here
+click on this middle icon that looks
+like a tool note that this yellow key
+that represents the primary key exists
+on both these columns this is what we
+call a composite primary key a composite
+primary key contains more than one color
+now why does this matter well what do
+you have a table with a composite
+primary key you need to learn how to
+join that table with other tables for
+example here we have this table order
+item notes that we use to keep notes for
+each order item let s take a look at the
+data here so we have this column note ID
+which uniquely identifies the records in
+this table next to that we have order ID
+and Product ID you learn that the
+combination of these two columns you
+nuclear represent and order item so here
+for order number two for product number
+one we have two notes now let me show
+you how to join this table with the
+order items table so back to our query
+you can see that I ve already selected
+the sequel store database so i m not
+gonna type out a use statement
+alright let s select everything from the
+order items table give it an alias now
+we need to join this with order item
+notes also we re giving an alias how are
+we going to join these tables based on
+two columns back to the order items
+table these are the columns that we need
+to use in our joint condition so in the
+order items table we have this order ID
+column this would be equal to the same
+column in order item note table so oh I
+am dot order ID but this is not enough
+we should also join these tables based
+on the product ID column so we type out
+and and then we type out our second
+condition so order items dot product ID
+should be equal to order item notes dot
+product ID this is what we call a
+compound join condition so we have
+multiple conditions to join these two
+
+in this tutorial I m going to talk about
+the implicit join syntax in MySQL so
+here we have a basic inner join we re
+selecting everything from the orders
+table joining it with customers table on
+orders the customer ID equal to
+customers customer ID pretty basic there
+is another way to write this query using
+implicit join syntax let me show you how
+that works so we select everything from
+here we can type out multiple table
+names so orders comma customers and we
+can also give them an alias
+so C and O and then we move this joint
+condition to the where clause so I m
+going to copy this from here type out a
+where clause and paste the condition
+these two queries are equivalent what we
+have here is called implicit join syntax
+now even though MySQL supports the
+syntax it s something that I suggest you
+not to use because if you accidentally
+forget to type out the where clause you
+will get a cross join let me show you
+what I mean so first I m gonna delete
+the first query and execute this so we
+get 10 records because we have 10 orders
+in this database so far so good but what
+happens if you accidentally forget to
+type out the where clause instead of 10
+records we re gonna get probably 100
+records because every record in the
+order table is now joined with every
+record in the customers table this is
+what we call a cross string now later in
+this section I m gonna talk about cross
+joins in more detail but what I want to
+point out in this tutorial is that it s
+better to use the explicit join syntax
+so we use join because this syntax
+forces you to type out the joint
+condition if you simply join orders with
+customers without typing the join
+condition you re gonna get a syntax
+error so to recap
+be aware of the implicit join syntax but
+write all your joints using the explicit
+
+earlier in this section I told you that
+in sequel we have two types of joints
+inner joins and outer joins that s so
+far you have only seen examples of inner
+joins and I also told you that this
+inner keyword is optional so whenever
+you type out a join you re using an
+inner join in this tutorial we re going
+to look at outer joins and the problems
+they solve so let s start by writing a
+query that uses an inner join and then
+we ll convert that inner join to an
+outer join
+so select everything from the customers
+table join it with the orders table on
+see that customer ID should be equal to
+oh that customer ID pretty basic right
+now for clarity let s pick a few columns
+from these two tables so from the
+customers table I want to pick customer
+ID and first name and from the orders
+table I want to pick order ID now
+finally let s sort the result so we can
+clearly see what we get so order by see
+that customer ID let s execute this
+query and see what we get so here s the
+result for customer number two called
+anus or Ines whatever we have two orders
+order for and order seven similarly for
+customer number five we have two orders
+and so on now there is something missing
+in this result we only see customers who
+have an order in our system these are
+customers two five six seven eight and
+ten but if you look at the customers
+table you can see that we have other
+customers like customer number one
+customer number three and so on now
+currently we don t have any orders for
+these customers and that s the reason we
+don t see them in this result set but
+what if you want to see all the
+customers whether they have an order or
+not that s when we use an outer join
+let me show you how that works so back
+to our query the reason we only saw
+customers who have an order was because
+of this join condition when joining
+these two tables we are only returning
+words that match this condition so for a
+given customer if we do have an order
+that record is returned but as you saw a
+second ago some of our customers don t
+have an order so for those customers
+this condition is not valid and that is
+the reason they are not returned in the
+result set
+to solve this problem we use an outer
+join now in sequel we have two types of
+outer joins we have left joints and
+right joints when we use a left join all
+the records from the left table in this
+case customers are returned whether this
+condition is true or not so we get all
+the customers and if they do have an
+order we ll see the order ID as well
+let s execute this query and see what we
+get
+so there you go customer number one
+doesn t have an order and that s why we
+get null in this cell customer number
+two has two orders four and seven
+customer number three also doesn t have
+an order so we have null for order ID
+this is the result of a left joint so
+back to our query when we use a left
+join all the records from the left table
+are returned whether this condition is
+true or not now what if we use a right
+joint in this case all the records from
+the orders table are returned whether
+this condition is true or not let s
+execute this query and see what we get
+so we get the same result as before when
+we use an inner join because we re
+selecting all the records from the right
+table which is the orders table so we
+don t see all the customers we see all
+the orders right now if you want to use
+a right join and still see all the
+customers you need to swap the order of
+these tables so we put the orders table
+first that s gonna be our left table and
+then we put the customers on the right
+side so now with this query will return
+all the records from the right table
+which is the customers table let me
+execute this we get all the customers
+whether they have an order or not
+beautiful now one last thing we finish
+this tutorial I ve seen developers use
+the outer keyword
+so either right outer join or left outer
+join but technically the outer keyword
+is optional just like the inner keyword
+so you don t have to type it out so I m
+gonna remove this to make my code
+shorter and easier to understand
+so to recap if you use the join keyword
+you re doing an inner join and if you do
+a left or right join you re doing an
+
+here s our exercise for this tutorial I
+want you to write a query that produces
+this result so we have three columns
+here product ID name and quantity that I
+picked from the order items table so
+here we need to join the products table
+with order items table so we can see how
+many times each product is ordered
+however if we do an inner join
+we ll only see the products that have
+been ordered but here I m doing an outer
+join so product number seven has never
+been ordered but still exists in the
+result we see no for the quantity so go
+ahead and write an outer join to produce
+
+all right first we select everything
+from the products table and then do a
+left join with the order items table our
+joint condition is P the Product ID
+equals o ID product ID so because we re
+using a left join we ll get all the
+products in the products table whether
+this condition is true or not if they
+have never been ordered we still see
+them in the result now let s pick a few
+columns for clarity so P dot product ID
+P name and oh I dot quantity that s it
+let s execute the query we get the same
+result as before so all the products are
+here and product number seven has never
+been ordered so we see null for the
+
+similar to inner joins we can use outer
+joins between multiple tables let me
+show you so here s the query that we
+wrote in the last tutorial you re doing
+a left join between customers and orders
+tables so when we execute this query we
+get all the customers whether they have
+an order or not if they have an order we
+see the order ID beautiful now if you
+look at the orders table you can see
+that some of our orders have a shipper
+ID these are the orders that have been
+shipped so now let s join the orders
+table with the shippers table to display
+the name of the shipper in the result so
+back to a query after this left join
+let s write another join here I m doing
+an inner join so let s inner join
+the orders table with the shippers table
+join shippers we call it SH on what is
+the join condition well oh that shipper
+ID should be equal to SH that shipper ID
+alright so in this query we have a left
+outer join and an inner join let s see
+what we get
+alright we only see five records but we
+have more orders so here we have the
+same problem we had before several
+orders don t have a shipper and that is
+why they are not returned here in other
+words this join condition is not true
+for some other orders so back to the
+orders table as an example this first
+order doesn t have a shipper ship our ID
+is null and that is why it s not
+returned in the query result so to solve
+this problem we should use a left join
+you want to make sure that all orders
+are returned whether they have a shipper
+or not so back to the query we need to
+replace this inner join with the left
+join
+so let s execute the query and see what
+happens now we should have quite a few
+more orders there you go now to make
+this example more interesting I m gonna
+add the shipper name here so back to our
+select clause let s add a new column so
+shipper dot name and we can give it an
+alias like shipper let s execute the
+query and here s the result so we get
+all the customers whether they have an
+order or not and for those who do have
+an order we get all the orders whether
+they have a shipper or not this is the
+power of outer joins now in the last
+tutorial you learned that you can get
+the same result with both a left join or
+a right joint you just have to swap the
+order of the tables however as a best
+practice
+avoid using right joints because when
+you re joining multiple tables and you
+have left and right and inner join
+things get really complex someone else
+reading your code will have difficulty
+visualizing how you re joining these
+tables as an example if you had a right
+joint here and then a left joint after
+it would be harder to visualize how
+these tables are getting joined so as a
+best practice avoid right joints and use
+
+and here s your exercise for this
+tutorial I want you to write a query
+that produces this result so here we
+have these columns order date order ID
+the first name of the customer the
+shaper and you can see that some of our
+orders are not shipped yet so here we
+have no and finally this status so go
+ahead and spend 2 to 3 minutes on this
+exercise when you re done come back
+
+alright let s select everything from the
+orders table now we should join this
+with customers on oh that customer ID
+should be equal to see that customer ID
+here I m using an inner join because
+every order does have a customer so this
+condition is always valid it doesn t
+matter if we use a left join or an inner
+join here okay now if we re going any
+further let s pick our columns so from
+the orders table I want to pick order ID
+followed by order date and then customer
+dot first name which we can optionally
+rename to customer alright next we need
+to select the shipper so we join the
+result with the shippers table on order
+that shipper ID equal to shipper that
+shipper ID however if you use an inner
+join here because some of our orders
+don t have a shipper we re only going to
+see the orders that have been shipped
+let me show you so for clarity I m gonna
+add the shippers name here so shipper
+and that name as shipper let s execute
+the query there you go we only see the
+orders that have been shipped but you
+want to see all the orders right so we
+need to change the second join to a left
+join so all orders are returned whether
+they have a shipper or not let s execute
+the query one more time there you go now
+we see all the orders from number one to
+number ten beautiful finally way to add
+the status column here so we need to do
+another join here join with order
+statuses which we abbreviate as OS on
+all that status equal to AU s dot order
+status ID you can see that I have
+designed this database such that
+sometimes our column names are exactly
+identical but in other cases they don t
+match so in the order table we call this
+column status as opposed to order status
+I D and this is deliberate because a lot
+of real databases are like that all
+right now let s add the status name here
+so order status the name as status
+execute the query and we can see all the
+orders here for each order we have to
+date the customer the shipper and the
+
+earlier we re talking about self joins
+in sequa so hearing the sequel HR
+database we have this employees table
+we wrote a query to get all the
+employees and their manager so here we
+have this column reports that
+specifies the manager for each employee
+so let s go back and rewrite this query
+to get all the employees and their
+manager back to our query editor window
+first let s use a sequel HR database
+then select everything from the
+employee s table
+we give it an alias and then join it
+with itself so this is what we call a
+self join now we re gonna use a
+different alias like M for managers now
+what is the joint condition a dot
+reports to should be equal to m dot
+employee ID right now for clarity let s
+pick only three columns so either the
+employee ID e dot first name and m dot
+first name which were renamed to manager
+alright let s execute this query and see
+what we get so here s the result as we
+can see all these employees have the
+same manager however there is something
+missing here we don t have a record for
+this person this manager himself so what
+is missing is a record where we can see
+the employee ID for this person their
+name and their manager which should be
+no because this person is the CEO or the
+head of the company but why is this
+happening the reason is our inner joy
+because this condition we have here will
+only return people who have a manager we
+can solve this problem by using a left
+join so we do a left join because we
+want to get every employee in this table
+whether they have a manager or not
+ok now let s execute the query one more
+time there you go now we have a record
+for this person the manager as you can
+see this person does not have a manager
+that s why we have null here back to a
+sequel store database here we have a
+simple query that joins the orders table
+with the customers table and here s our
+joint condition you have seen several
+examples of this before now as our
+queries get more complex these joint
+conditions get in the way they make our
+queries hard to read but the good news
+is that in MySQL we have a powerful
+feature for simplifying his queries if
+the column name is exactly the same
+across these two tables we can replace
+the on clause with a using clause which
+is simpler and shorter let me show you
+so I m going to comment out this line
+and instead type out using in
+parentheses we type out the column name
+that is customer ID what we have on line
+seven is exactly identical to what we
+have on line six but is shorter and
+easier to read so let me delete this
+line we can add another joint statement
+here to join the orders for the shippers
+so join with shippers
+using shipper ID in both these tables we
+have a column with the exact same name
+alright now let s execute this query
+this is what we get we have the order ID
+followed by the first name of the
+customer let s add a new column here so
+I m gonna add SH that name that is the
+name of the shipper so our shipper now
+obviously because some of our orders are
+not shipped we need to replace this
+inner join with a left join so we can
+use the using keyboard with both inner
+and outer joins let s execute the query
+one more time there you go now we have
+the name of the shipper next to each
+order beautiful however we cannot use
+this technique to join the result with
+the order statuses table because in the
+orders table we have this column called
+status but in order statuses table this
+column has a different name its order
+status ID let me show you so order
+statuses columns there you go order
+status ID so the using keyword only
+works if the column name is exactly the
+same across different tables now what if
+we have multiple columns in our joint
+condition for example earlier we talked
+about this order items table I told you
+that in this table we have a composite
+primary key which basically means a
+primary key that consists of multiple
+columns so the combination of these two
+columns if uniquely identify each record
+in this table now if you want to join
+this table with order item note table in
+our joint condition we should compare
+both these columns with their
+corresponding columns in the order item
+note table so let s quickly write that
+query and it s simplified with the using
+keyword so select everything from order
+items now join it with order item notes
+on so here we need to compare oh I dot
+order ID with who I end that order ID
+and oh I dot product ID equal to or I n
+dot product ID this joint condition is
+kind of messy it s hard to read this
+query now we can simplify this query
+with the using keyword so we try it out
+using in parentheses we add both columns
+and separate them using a comma so order
+
+now for exercise back to our sequel
+invoicing database write a query to
+select the payment from the payments
+table and produce something like this so
+in this table we have a date the client
+the amount and the payment method we can
+see on what date who has paid how much
+using what payment method
+
+alright I m gonna use that s equal
+invoicing database and then select
+everything from the payments table join
+it with the clients table using client
+ID because in both these tables we have
+the client ID column next we need to
+join this with payment methods however
+the column name between these two tables
+is different so in the payments table we
+have a column called payment method but
+in payment methods table our column is
+called payment method ID so here we
+cannot use the using keyword and we ll
+have to use the on clause so on P dot
+payment under line method equals P m dot
+payment method ID now let s pick our
+columns so payment that date client that
+name and we rename this as client next
+we pick the amount and finally the
+payment method so let s rename that to
+payment on the line method and execute
+the query there you go this is what we
+get the date the client the amount and
+
+in my skill we also have another simpler
+way to join two tables it s called a
+natural join and it s easier to code but
+it s not something that I recommend
+because sometimes it produces unexpected
+results but let me quickly show you how
+it works
+in case you see it somewhere so at least
+you re familiar with it so back to the
+previous example let s select everything
+from the orders table now we should do a
+natural join with the customers table
+now with this natural joins we don t
+explicitly specify the column names so
+the database engine will look at these
+two tables I like to join them based on
+the common columns the columns that have
+the same name and that is the reason
+this queries shortage right so for
+clarity let s pick a couple of columns
+here oh that order ID and CDOT let s say
+first name let s execute the query there
+you go so we see all the orders and the
+customers will place them so natural
+joins are really easy to code but they
+can be a little bit dangerous because
+we re letting the database engine figure
+out or guess the join we don t have
+control over it for this very reason
+natural joints can produce unexpected
+results and that s why I discourage you
+
+in this tutorial we re going to look at
+cross joins in sequa we use cross joins
+to combine or join every record from the
+first table with every record in the
+second table here s an example let s
+select everything from the customers
+table now here we do a cross join with
+the product table so every record in the
+customers table will be combined with
+every record and the products table and
+that is why we don t have a condition
+here okay so this is what we call a
+cross join now for clarity let s pick a
+couple of columns like see that first
+name we rename it as customer and then
+product the name which were renamed to
+product also let s sort the result by
+customer dot first name now let s
+execute the query here s the result of a
+cross join so first we have amber as the
+customer and here are all the
+combinations of amber with different
+products next we have Barbara or
+whatever it is and again we have the
+combination of this customer with all
+the products now in this particular
+example it doesn t really make sense to
+use a cross join a real example for
+using cross joins is where you have a
+table of sizes like small medium large
+and a table of colors like red blue
+green whatever and then you want to
+combine all the sizes with all the
+colors that is when you use a cross join
+now what we have here is called the
+explicit syntax for cross join we also
+have the implicit syntax which looks
+like this instead of typing out the
+cross join which I pad multiple tables
+in the front claws so customers and
+orders both these queries produce the
+same result but I personally prefer to
+use the explicit syntax because it s
+
+and here is a simple exercise for you do
+a cross join between shippers and
+products first do it using the implicit
+syntax and then using the explicit
+syntax it s pretty straightforward I
+just want you to get your hands dirty in
+the code and get used to this syntax
+
+alright first I m gonna use the implicit
+syntax and then I will show you the
+explicit syntax so let s start by
+selecting everything from two tables
+shippers and products now for clarity
+let s pick two columns shipper that name
+which we renamed to shipper and product
+name which we renamed to product and
+finally let s order everything by
+shipper the name let s execute the query
+this is what we get so the combination
+of all shippers and all products
+beautiful now let s use the explicit
+syntax so we select everything from the
+base table in this case shippers and
+then do a cross join with products that
+
+we covered everything about joints you
+learn that with joints we can combine
+columns from multiple tables but in
+sequel we can also combine rows from
+multiple tables and this is extremely
+powerful let me show you how that works
+first let s have a quick look at our
+orders table so select everything from
+the orders table now if you look at the
+data we can see that the first order was
+placed in the current year 2019 all the
+other orders were placed in previous
+years now let s say we want to create a
+report get all the orders are next to
+each order add a label if the order is
+placed in the current year the label is
+going to be active and if the order was
+placed in previous years we want to
+label it as archived so let s change our
+query and add a condition here first we
+want to get all the orders in the
+current here so we re order date is
+greater than or equal to 2019 0 1 0 1 I
+just want to highlight that this is not
+the ideal way to get the orders in the
+current year because here we have
+hard coded 2019 so if we execute this
+query next year we re not gonna get the
+right result but don t worry about this
+for now later in the course I will show
+you how to get the orders in the current
+year without hard coding a date here so
+let s execute this query now we get only
+one order let s hand pick a couple of
+columns here so order ID and order date
+and also I want to add a string literal
+here like active right let s execute
+this query this is what we get we have
+three columns order ID
+order date and active and in this column
+currently we have this string value
+active now let s rename this column to
+status and execute the query that is
+better now we want to write another
+query similar to this that will return
+the orders in the previous years but
+with a different label archive so to
+save time
+I m gonna copy this V Alliance and paste
+them right after our first select
+statement now note that here we have a
+syntax error because we didn t terminate
+the first select statement with a
+semicolon but don t worry about it we re
+gonna get back to this in a second so
+for the second query we want to return a
+different label archive and you wanna
+change our condition to less than 2019
+now select only these few lines and
+execute this query either by clicking on
+this icon here or using the keyboard
+shortcut that you learned earlier in the
+course so there you go here are all the
+orders from the previous years with the
+label archive this query returns nine
+records the previous query returned one
+record now using the Union operator we
+can combine data from these two queries
+so in between our select statements we
+type out Union now let s execute the
+query one more time so here s our first
+order in the current year that is active
+and below that we have all the orders in
+the previous years so using the Union
+operator we can combine records from
+multiple queries now in this example
+both our queries are against the same
+table but we can also have queries
+against different tables and then
+combine the result into one result set
+let me show you another example so I m
+gonna delete everything here let s
+select the first name from the customers
+table and then we can union that with
+select the name from the shippers table
+let s execute the query so in one result
+set we can see all the customers and all
+the shippers as far as I know there is
+no real word use case for this
+particular query but what I want to
+point out is that with Union you can
+combine results from multiple queries
+this queries can be against the same
+table or different tables in your
+database you could have a table like
+archived orders and
+another table like orders and then you
+could combine all the archived and
+active orders into one result set just
+remember that the number of columns that
+each query returns should be equal
+otherwise you re going to get an error
+for example let s select the first name
+and lastname from customers and then
+Union that with the name of shippers let
+me execute this query we ll get an error
+because the first part of this query
+returns two columns but the second part
+returns one column so MySQL doesn t know
+how to combine these records and one
+last thing before we finish this
+tutorial if you look at the result here
+the name of this column is based on the
+first Quay so the first query returns
+first name and that s why this column is
+called first name if we change the order
+of this queries and move this Union up
+here now let s run this query as you can
+see our column is called
+name so whatever we have in the first
+query is used to determine the name of
+these columns here we can also rename
+the column to let s say full name there
+
+all right here s your exercise for this
+tutorial write a query to produce this
+report so here we have four columns
+customer ID first name points and type
+as you know we don t have this column in
+the customers table so we have
+calculated the values in this column
+based on the points each customer has if
+they have less than 2000 points their
+type is bronze if they have between 2000
+to 3000 points there are silver
+customers and if they have more than
+3000 points there are gold customers
+also note that here we have sorted the
+result by the first name so go ahead and
+spend two minutes to write this Kuei
+
+alright first let s get the bronze
+customers so select everything from
+customers where points is less than
+2 000 now here we re gonna pick three
+columns customer ID first name and
+points and finally we add and you call
+them with a string literal bronze let s
+run this query and see what we get so
+these are all the bronze customers but
+the name of this column is bronze we
+don t want that so let s rename this to
+type now this is off the screen so I m
+gonna break this up into multiple lines
+that makes our query cleaner and easier
+to read so there you go let s run the
+query one more time now the column is
+called type beautiful now we should do a
+union and repeat this query but extract
+the silver customers so I m gonna paste
+this query here and then make a couple
+of changes here I m gonna replace bronze
+with silver and change the condition to
+between 2000 and 3000 let s run our
+query and see what we get so we have all
+the bronze customers first followed by
+all the silver customers so the order of
+these records are based on our queries
+in our first query we got the bronze
+customers that s why they are list at
+first but this is not what we want we
+want to order the result by the first
+name of our customers so let s apply an
+order by at the end so order by first
+name now there is one more piece
+remaining we should do a union one more
+time and wait the query to get the gold
+customers so I m gonna select these few
+lines and paste them here
+now let s change silver to gold and the
+condition two points greater than 3000
+and finally we do an order by let s run
+the query one more time and here s the
+end result our customers are sorted by
+their first name we see all the bronze
+
+in the section I m gonna teach you how
+to insert update and delete data before
+we get started let s have a closer look
+at our customers table so click on this
+middle icon to open this table in the
+design mode what you see here might look
+a little bit intimidating at first but
+trust me this is actually so easy and in
+this tutorial I m gonna explain exactly
+what we have in these columns so on the
+left side you can see the column name
+next to that you can see the data type
+for each column so our customer ID
+column can only accept integer values
+integers are whole numbers like 1 2 3 4
+and so on
+they don t have decimal points first
+name is a VAR char which is short for
+variable character I hate in parentheses
+you can see 50 that basically means in
+this column we can have a maximum of 50
+characters now if the name of a customer
+is only 5 characters long we only store
+those 5 characters so even though the
+maximum length for this column is 15 we
+are not gonna waste space if the
+customers name is less than 50
+characters that is why here we have 4
+char which is short for variable in
+contrast we have another data type that
+is character if you had character 50
+here and the name of the customer was
+only 5 characters long my skill will
+insert additional 45 spaces to fill this
+column so this is a waste of space so as
+a best practice most of the time we use
+var char to store string or textual
+values now here on the right side we
+have this column PK which is short for
+primary key so customer ID is marked as
+the primary key and that is why we have
+this yellow key here so the value is in
+this column uniquely identify each
+customer next to that we have an N which
+is short for not null and that
+determines if this column can accept
+null values or not in this case
+every customer record must have the
+customer ID first name last name as well
+as these other attributes but birthdate
+and phone are optional so in these
+columns we can have null values now we
+have in
+the column here AI which is short for
+autoincrement
+and this is often used with primary key
+columns so every time we insert and you
+record in this table we let MySQL or our
+database engine insert a value in this
+column so essentially it gets the
+customer ID for the last row and it will
+increment it by one at a time we insert
+a new record so if you look at the data
+you can see that currently we have only
+ten customers here so if you had a new
+customer here
+MySQL will assign eleven to the new
+customer okay and finally here we have
+another column that specifies the
+default value for each column for
+example for our birthdate and phone
+columns that default values are not so
+if we don t supply a value my skill will
+use the null values for these columns
+similarly we have another default value
+for the points column so if you don t
+supply the points for a customer my
+skill will use zero now we have a few
+other columns here which are not
+important at this stage you will learn
+about them later in the course so now
+that you understand the attributes of
+each column in this table let s go ahead
+
+in this tutorial you re gonna learn how
+to insert a row into a table for that
+we re gonna use the insert into
+statement where are we going to insert
+this row into the customers table so we
+type out the name of the table here
+followed by the values clause and here
+in parentheses we supply the values for
+every column in this table so back to
+our table definition these are all the
+columns first we need to supply a value
+for the customer ID column however in
+this column the auto increment attribute
+is enabled and as I told you before if
+we don t supply a value my skill will
+generate a unique value for us so we can
+go back to our statement and either
+assign an explicit value or use default
+to let MySQL take care of generating
+this value this is the preferred
+approach because if you use an explicit
+value like 200 it is possible that you
+might have another customer with the
+same ID so when you execute this
+statement you re gonna get an error
+because you cannot have duplicate values
+in this column every value should be
+unique so here we re gonna use the
+default keyword to let my SKU I ll
+generate a unique value for the customer
+ID now after that we need to supply a
+value for the first name and lastname
+columns so let s say John Smith
+note that I have enclosed these values
+with quotes because as I told you before
+in sequel we should always enclose
+string and date values with quotes
+either single or double quotes okay now
+what else back to our customers table
+after the last name we have the birth
+date however as you can see this column
+is optional because this check box is
+not checked so here we can use null or
+an explicit value null means the absence
+of a value so back to our statement we
+can type out a birth date like 1990
+January 1st or we could use the null
+keyword to leave out this value in this
+demo I m gonna use a valid date now to
+make this code cleaner and more readable
+I m gonna break it up into multiple
+lines that s better now back to our
+table next we have phone and phone is
+also optional because this check box is
+not checked and known is the default
+value for this caller so here we can
+explicitly pass null or use the default
+keyword and let MySQL put null into this
+column it s exactly the same so back to
+our statement we can pass null or
+default both these key words will have
+the same result in this case I m gonna
+use the null keyword all right let s
+have one more look at our table next we
+have 4 more columns that are required to
+address city state and points I note
+that point has the default value of 0 so
+we can either use an explicit value like
+200 or use the default keyboard and let
+MySQL generate 0 so back to our
+statement let s type out an address it
+doesn t really matter
+followed by a city and a state let s say
+California and finally points again we
+can use an explicit value or default so
+this is how we can insert a row into a
+table however in this example we re only
+supplying values for first name last
+name birth date and is address fields so
+we re living out the phone number the
+customer ID and
+the points so there s another way to
+write this statement and we ll show you
+so after the table name we can
+optionally supply the list of columns
+that you want to insert values into in
+this case first name last name birthdate
+now once again I m gonna break up the
+statement into multiple lines so three
+more columns address city and state so
+these are the six columns that we re
+going to supply values for with this
+change we don t have to use is default
+or null values we only supply values for
+these columns so I m going to remove
+default from here then no and finally
+
+so this six values that we supplied here
+are used for this six column now with
+this change we can also reorder the
+columns we don t have to list them in
+the same order that they are defined in
+the customers table for example we can
+put the last name first and then
+obviously we should also swap the order
+of these values so we can list them in
+any orders now let s execute the
+statement now if you look at the output
+window down the bottom you should see
+the statement followed by one rows
+effective unfortunately I cannot resize
+this window to show you this message but
+if you look down below you can see that
+one record was affected which basically
+means one record was inserted into this
+table now let s look at the data in the
+customers table so the last row is the
+one that we inserted you can see that my
+skill automatically generated the value
+11 this is the effect of auto increment
+attribute so it takes the value of the
+last row and increments it by one so
+here we have the first name last name
+the birthday we didn t supply a value
+for a phone attribute so that s why we
+have null here we also have address city
+state and the default value of zero for
+
+in this tutorial you re gonna learn how
+to insert multiple rows in one go for
+this demo we re gonna use this shippers
+table let s have a quick look at the
+table definition so here we have two
+columns shipper ID a name shipper ID is
+a primary key it s not nullable and it s
+an auto incremented column so we re
+gonna let MySQL generate values for this
+column easy we only need to supply a
+value for the name color soap actor Cory
+editor window we type out insert into
+shippers in parentheses we specify the
+name of the columns we want to insert
+values into in this case name followed
+by the values clause here we add a pair
+of parentheses with a value like shipper
+1 now to insert multiple rows all you
+have to do is to add a comma followed by
+another pair of parentheses so cheaper
+too and one more time comma parentheses
+shipper 3 this is how you can insert
+multiple rows in one go now let s
+execute this statement alright and then
+inspect the data in the shippers table
+there you go so initially we had only
+five shippers and here are the three new
+shippers that we inserted note that my
+SKU automatically generated the values
+for the shipper ID column so we have 6 7
+
+all right here s your exercise for this
+tutorial write a statement to insert
+three rows in the products table that s
+pretty easy you can knock it out in a
+minute
+
+so here s our products table we only
+have four columns we re gonna leave out
+the first column because it s an auto
+incremented column so we only have to
+supply values for name quantity and unit
+price back to our query editor window
+let s insert into product the columns
+are named quantity in stock and unit
+price and the values are gonna be let s
+say product one stock is gonna be ten
+and the unit price is gonna be one point
+ninety five now I m gonna select these
+values copy come up paste it like this
+change the values accordingly and
+finally the last row product three there
+you go let s execute the statement all
+right and then verify the result so in
+the products table now we should have
+three new records now the ideas you see
+here are 15 16 and 17
+because before recording this video I
+actually inserted a few records in this
+table
+and then deleted them so I had product
+IDs 11 12 13 and 14
+now even though they re actually deleted
+from this table my skilled remembers
+their IDs so instead of incrementing 10
+by 11 it incremented 14 which was the
+last record from before and that s why I
+generated 15 on your computer the IDS
+
+so far you have only learned how to
+insert data into a single table in this
+tutorial I m going to show you how to
+insert data into multiple tables here s
+a really good example look at the orders
+table what columns do we have here we
+have the order ID we have the customer
+ID so we know who has placed this order
+we know the date of the order we know
+the status comments as well as shipping
+information but the actual items for
+this order are not in this table they
+are in the order items table so in this
+table we have four columns we have the
+order ID so we know what order this item
+is for we have the product ID so we know
+what product has been ordered at what
+quantity and what price so an actual
+order can have one or more order items
+this is what we call a parent child
+relationship so in this relationship the
+orders table is the parent and the order
+items table is a child so one row in the
+orders table can have one or more
+children inside the order items table
+now in this tutorial I m going to show
+you how to insert an order and all its
+items so you will learn how to insert
+data into multiple tables alright back
+to our query editor window
+first we need to insert the order so
+insert in term let me close the
+navigator panel alright you want to
+insert a record into the orders table
+now what columns do we have here so we
+have these columns but only the first
+four are required and actually the first
+one we don t want to worry about that
+because that s an auto increment column
+so we only want to supply values for
+customer ID order date and status so
+back to our query we re specifying those
+columns here customer ID order date and
+status now let s apply the values in the
+customer ID column we need to add a
+valid customer ID so let s have a quick
+look at our customers table there you go
+in this table we have eleven records so
+these are the valid customer IDs now
+back to our query let s use one for
+customer ID and then 2019 January the
+second for the order date and one for
+the order status once again in this
+column we need to insert a valid order
+status ID if we don t supply a valid ID
+my skill is gonna yell at us so we
+insert an order here now we need to
+insert the items now back to our order
+items table in this table we have this
+order ID column so here s the tricky
+part
+as soon as we insert an order my skill
+is going to generate an ID for our new
+order now we need to be able to access
+that ID in order to insert the items in
+this table how can we do that well back
+to a query editor window in my skill we
+have a bunch of built in functions and a
+function is basically a piece of code
+that we can reuse just like the
+functions or features in your TV every
+TV comes with a bunch of built in
+functions like power on power off change
+the volume change the channel and so on
+so MySQL and other database engines come
+with a bunch of built in functions that
+we can use in our programs one of these
+functions is last insert ID we can call
+or execute this function by adding
+parentheses here and this would return
+the ID that mice cube generates when we
+insert a new row so before going any
+further let s just select this and make
+sure we get the right result now we have
+a syntax error here because we didn t
+terminate the first statement with a
+semicolon all right now let s execute
+this query all right so the idea of the
+new order is 12 let s verify that so
+back to the orders table let s look at
+the data on my machine I have 12 records
+here I actually created one just before
+recording this video so on your machine
+you re gonna have 11 orders
+now back to our query window now that we
+know how to get the idea of the newly
+inserted record we can use that ID to
+insert the child records so we re going
+to write another insert statement insert
+into order items let s have another look
+at the columns in this table so we have
+four columns on all of them are required
+so there is really no need to specify
+the column names in our insert statement
+we simply supply values for order ID
+product ID quantity and unit price so
+here in the values Clause we had
+parentheses what is our order ID that is
+the value returned from calling this
+function so I m going to cut this from
+here and put it here next we need to
+supply a valid product ID let s say
+product 1 quantity let s say 1 and the
+unit price to point 95
+now let s delete this select we don t
+really need it anymore and let s add
+another set of values so once again
+we re gonna call last insert ID to get
+the idea of the new order we re gonna
+change the product to product number 2
+and at a different price that s it now
+let s execute these statements and see
+what we get alright so back to our
+orders table let s refresh the records
+here alright so we have a new order
+order number 13 beautiful now let s look
+at the order items table here s the
+order items let s open the table so we
+should have two items for order number
+13 beautiful so this is how you insert
+
+in this tutorial I m going to show you
+how to copy data from one table to
+another for example in our orders table
+currently we have about a dozen records
+now let s say we want to create a copy
+of this table called orders archive and
+we want to insert every row that we have
+in this table into that new table if you
+have 10 orders we don t want to code an
+insert statement with 10 set of values
+that is very time consuming so I m going
+to show you a powerful technique to
+quickly copy data from one table to
+another first we need to create this new
+table orders archive for that we re
+gonna use the create table as statement
+so create table orders archived as now
+right after that we write a select
+statement to get everything from the
+orders table now let s see what happens
+when we execute this query there you go
+so back in the Navigator panel we have
+to refresh this view by clicking on this
+icon over here now we have a new table
+orders archive let s look at the data so
+you can see all the orders are here and
+we have the exact same columns as the
+orders table however if you open this
+table in the design mode you can see
+that in this table we don t have a
+primary key so the order ID column is
+not marked as a primary key and also
+it s not marked as an auto increment
+column so when we create a table using
+this technique my skill will ignore
+these attributes and that means if you
+want to explicitly insert a record into
+this new table we have to supply a value
+for order ID because this column is no
+longer an auto increment column okay so
+using Create table as statement you can
+quickly create a copy of a table now we
+refer to this select statement as a
+sub query so a sub query is a select
+statement that is part of another sequel
+statement now we can also use a
+sub query in an insert statement and
+that s a very powerful technique it
+allows us to do really cool things let
+me show you
+so first let s right click
+the orders archive table and click on
+truncate table because we want to delete
+all the data in this table all right is
+asking for confirmation
+let s truncate the table so now back to
+this table let s refresh the table we
+don t have any records here ok now back
+to a query editor let s say we want to
+copy only a subset of records from the
+orders table into this table like all
+the orders placed before 2019 so first
+let s select everything from the orders
+table where order date is less than 20
+19 January 1st so these are all the
+orders orders number 2 to 10 beautiful
+now we want to copy these orders into
+the orders archive table so
+we can use this select statement as a
+sub query in an insert statement we
+write insert into orders archive now we
+don t need to supply the column names
+because we re gonna supply values for
+every column that we have in this query
+so we did it dad
+and this is an example of using a select
+statement as a sub query in an insert
+statement let s execute this alright now
+back to the table let s refresh the
+records we only have the orders placed
+
+alright here s a really really really
+cool exercise for you back to our sequel
+invoicing database look at the invoices
+table so in this table we have these
+columns English ID number client ID
+which is associated or related to the
+client ID column in the clients table
+followed by a few other columns now
+let s say we want to create a copy of
+the records in this table and put them
+in a new table called invoices archive
+however in that table instead of the
+client ID column we want to have the
+client name column so you need to join
+the same ol with the clients table and
+then use that query as a sub query in a
+create table statement also to make the
+exercise more interesting I want you to
+copy only the invoices that do have a
+payment so if you look over here this
+payment date column determines if a
+payment has been made towards this
+invoice or not
+so select only the invoices that do have
+a payment date it s a really really good
+exercise spend 2 to 3 minutes on this
+and then come back continue watching
+
+all right fair
+I m gonna use the sequel invoicing
+database now let s select everything
+from the invoices table and join it with
+the clients table here I m gonna use the
+using statement to simplify my joint
+what column are we gonna use for joining
+the client ID column let s execute this
+query up to this point alright so first
+we see the client ID column that is used
+for joining these tables after that we
+have the columns from the invoices table
+like invoice ID number and so on
+followed by the columns from the clients
+table like name address and so on
+obviously we don t want all of these
+columns we only need the columns from
+the invoices table but we should replace
+the client ID column with the client
+name column so let s have a quick look
+at the design of the invoices table here
+we have invoices ID number client ID we
+want to replace this column with the
+client name so back to our query
+I m gonna pick a moist ID number and
+then client that name let s rename it to
+client what other columns do we have
+here we have invoice total and payment
+total so let s add those as well
+invoice total as well as payment total
+we also have three columns for dates
+invoice date due date and payment date
+so let me close the navigator panel
+invoice date payment date and due date
+now technically because these columns
+only exist in the invoices table we
+don t have to prefix them with a table
+alias so we could simplify the code like
+this however I personally prefer to
+prefix them because that gives me a more
+clear picture of how I m joining these
+tables it s just a personal preference
+another developer might disagree and
+that s perfectly fine so whatever you
+prefer that s perfectly fine let s
+execute the query and make sure we get
+the right result so we have the invoice
+ID number client beautiful followed by
+these other columns now I m going to
+filter the result and return only the
+invoices that do have a payment so we
+can either return records that have a
+payment date or the records that have a
+payment total of greater than zero those
+are perfectly fine so back to our query
+down the bottom let s add a where clause
+where payment date is not no that s
+better let s execute the query one more
+time now we get only this handful of
+invoices beautiful finally let s use our
+query as a sub query in a create table
+as statement
+so right before select we type create
+table invoices archived as there you go
+let s execute the Quai beautiful now
+back to the Navigator panel let s
+refresh the view so here s our new table
+invoices archive let s look at the data
+there you go we only have the invoices
+paid and here s the name of the client
+for each invoice beautiful now just note
+that if you execute this query one more
+time you re gonna get an error because
+we already have a table called invoices
+archive later in the course I ll show
+you how to drop tables that s pretty
+easy but for now you can just right
+click and go to drop table and then
+confirm all right and then you can run
+
+in this tutorial I m going to show you
+how to update data in sequa so back to
+our invoices table look at the first
+record here the payment total for this
+record is zero and obviously there is no
+payment date now let s imagine that
+there was a problem in the system that
+recorded this information let s say the
+client paid 10 for this invoice so we
+should update this record in this table
+that is very easy back to our query
+editor window we use the update
+statement to update one or more records
+in a table
+what table in this case invoices next we
+had the set clause and this is where we
+specify the new value for one or more
+columns in this case we want to update
+payment total let s set it to 10 we
+should also update payment date so we
+use a comma to add more columns we set
+this to a date value let s say 2019
+March first and then we type out a
+condition with this condition we
+identified the record or the records
+that need to be updated in this case we
+want to update the invoice number one so
+back to our query we type out invoice ID
+equal to one let s execute this
+beautiful now back to our table let s
+refresh the data by clicking on this
+icon all right you can see payment total
+is updated to ten and we also have a
+payment date beautiful now let s say we
+actually updated the wrong record maybe
+we should have updated in ways number
+three so we should update this table one
+more time and restore the original
+values in this columns back to a query
+we can set the payment total to zero and
+the payment date to know so we can use
+the null keyword to insert the null
+value in a column that accepts null
+values now back to the Navigator panel
+let s open this table in the design mode
+you can see that the payment total
+column has a default value of zero and
+the payment date column has the default
+value of No
+so back in our query we can also set
+payment total to default and MySQL will
+use the default value for this column
+which is in this case zero so let s
+execute this statement one more time
+beautiful now back to the table let s
+refresh the data so payment total is set
+to zero and payment date is not
+beautiful now let s go ahead and update
+the third payment look at the invoice
+total that is one hundred and
+forty seven dollars for this example
+let s imagine that the client made fifty
+percent of the total amount on the due
+date so back to our query editor window
+instead of using a literal value here
+like seventy dollars we can write an
+expression we want to calculate 50 of
+invoice total so invoice total times 0 5
+now let me break this code into multiple
+lines so we can see clearly now we
+should set the payment date as I told
+you this client made the payment on the
+due date so we can set this to Jew date
+whatever value we have in this column
+will be used to set the payment date and
+obviously we need to update the invoice
+ID number three now back in the table
+let s refresh the data all right look
+payment total is updated and it said to
+almost 50 percent of the invoice total
+however this number is truncated so we
+don t have two digits after the decimal
+point don t worry about it for now we ll
+come back to this when we talk about
+data types later in the course also you
+can see that payment date is set to the
+same value we have in the due date
+
+in the last tutorial you learned how to
+update a single record using the update
+statement now if you want to update
+multiple records the syntax is exactly
+the same but the condition that you type
+out here has to be more general for
+example back to the invoices table you
+can see that we have multiple invoices
+for client number three we can write a
+statement to update all the invoices for
+this client so back to our query editor
+window we change our condition to where
+client ID equals to three however if you
+execute this statement with MySQL
+workbench which is the software we ve
+been using in this course you re gonna
+get an error because by default MySQL
+workbench runs in the safe update mode
+so it allows you to update only a single
+record you re not gonna have this
+problem if you use another client for
+MySQL or if you write this statement in
+your application code this is only
+specific to MySQL workbench now let me
+show you how to get around this so on
+the top we go to MySQL workbench menu
+and then preferences on this dialog box
+on the left side click on sequel editor
+and then down the bottom untick this
+check box save updates so this prevents
+you from accidentally updating or
+deleting a bunch of records in a table
+so let s go ahead with this now we need
+to reconnect to this instance of MySQL
+so let s copy all the code here and
+close this local instance window alright
+now on the home page double click this
+connection to reconnect there you go and
+then paste all that sequel code now
+let s execute this beautiful all the
+invoices for client number three were
+updated here we can also use the in
+operator let s say we want to update all
+the invoices for clients number three
+and number four so all the operators you
+learn to use in the where clause also
+apply here now technically this where
+Clause is optional so if you want to
+update all the records in a table you
+simply leave it out
+
+our user exercise for this tutorial back
+to our sequence to our database write
+the sequel statement to give any
+customers born before 1990 50 extra
+points
+
+alright first I m gonna use sequel store
+then write an update statement to update
+the customers table set the points two
+points plus 50 so here we are using an
+expression to update the points column
+for anyone born before 1990 so where
+birth date is less than 1990 January
+first
+alright let s execute this query alright
+now let s open up the customers table
+one more time
+so anyone who was born before 1990 now
+
+in this tutorial you re gonna learn how
+to use sub queries in an update
+statement that s extremely powerful so
+we re gonna continue with the example
+from the last tutorial but we re gonna
+make it more interesting here we re
+updating all the invoices for client
+number three but what if we don t have
+the idea of a client you only have the
+name for example imagine you have an
+application and in that application the
+user types in the name of the client so
+first we should find the ID for that
+client and then use that ID to update
+all their invoices how do we do that
+well let s have a quick look at our
+clients table so here we have this
+client my works let s say we have the
+name we want to find the ID so back to
+our query editor window after this
+update statement I m gonna write a
+select statement to select the client ID
+column from the clients table where name
+equals my works now here we have a
+syntax error because we didn t terminate
+the last increment with a semicolon but
+don t worry about that we re gonna get
+back to that in a second let s just
+select these few lines and execute this
+query the idea of this client is too
+beautiful now we can use this select
+statement as a sub query in an update
+statement so as I told you before a sub
+query is a select statement that is
+within another sequel statement so
+instead of hard coding
+3 here we re gonna use this select
+statement as a sub query but we need to
+put it in parenthesis so MySQL will
+execute this query first it will return
+the client ID and then use it in this
+condition
+so for clarity let s remove the line
+break and indent these few lines
+so this is the end result now we execute
+this query and this updated all the
+invoices for this client now what if
+this query returns multiple clients for
+example back to the clients table let s
+imagine we want to update the invoices
+for all clients located in New York or
+California so we need to update our sub
+query like this where state in
+California and New York
+now before executing the entire
+statement let s just select our sub
+query and execute it to see what we get
+so we get to client IDs 1 amp 3 beautiful
+now because this query this sub query
+returns multiple records we cannot use
+an equal sign here anymore so we need to
+replace this with the in operator and
+now this statement updates the invoices
+for all clients located in these two
+states let s execute it beautiful
+everything worked so as a best practice
+before executing your update statement
+run your query to see what records
+you re going to update so you don t
+accidentally update the records that
+shouldn t be updated now here we have a
+sub query but even if it didn t have a
+sub query you could still query the
+records that we re going to update let
+me show you so let s imagine we re going
+to update all the invoices where payment
+date is no before executing this entire
+update statement I would run a query
+like this select star from invoices
+where payment date is not now let s
+execute this query
+these are the two records that don t
+have a payment date so once we re
+confident that we re updating the right
+records then we come back here and get
+rid of this select statement and just
+attach the where clause to our update
+statement
+
+all right here s your exercise for this
+tutorial
+back to our sequel store database look
+at the orders table as you can see in
+some other orders don t have a comment I
+want you to write a sequel statement to
+update the comments for orders for
+customers will have more than 3000
+points so customers who have more than
+3000 points regard them as gold
+customers find their orders if they have
+placed on order update the comments
+column and set it to gold customer
+that s a really good exercise
+
+all right first we need to find the gold
+customers so select everything from the
+customers table where points is greater
+than 3000 and by the way because the
+current database is sequel invoicing we
+either have to type out a use statement
+on the top or double click this database
+before executing this query so there you
+go
+we have three gold customers now we need
+to get the idea of these customers to
+use them in an update statement so we
+only select customer ID here and then
+use this select statement as a sub query
+and an update statement so update orders
+set comments to gold customer where
+customer ID because we re dealing with
+multiple customer IDs we need to use the
+in operator and then to use this as a
+sub query we need to enclose it in
+parentheses that s it let s indent the
+code that s better so here s the final
+
+so you have learn how to insert an
+update data in this lecture we re gonna
+finish this section by learning how to
+delete data that is very easy we use the
+delete from statement to delete records
+from a table let s say the invoices
+table now optionally we can add a search
+condition to identify the records we
+want to delete if you don t write this
+where clause with this statement will
+delete all the records in this table and
+obviously that s very dangerous so be
+very careful when executing the
+statement now here let s say we want to
+delete the invoice with the ID one so
+where invoice ID it goes to one now here
+we can also use sub queries let s say we
+want to delete all the invoices for the
+client called my works first let s find
+this client so select everything from
+the clients table where name equals to
+my works let s execute the second query
+so here s our client now we can get this
+client ID and use it in our search
+condition so where client ID equals two
+this is where we add our sub query there
+you go
+just like before beautiful so this is
+
+all right we re done with this section
+but before going to the next section I
+want you to restore all these databases
+to their original state because in this
+section we added some data we updated
+some data with deleted some records so
+if you don t restore these databases you
+might see different results going
+forward so restoring these databases is
+pretty easy here in MySQL workbench on
+the top go to the file menu and open
+sequel script then navigate to the
+directory where you stored the sequel
+scripts for this course in case you lost
+that directory go back to the first
+section we have a lecture for
+downloading the supplementary materials
+so in this directory open create
+databases sequel now execute this script
+to recreate all of our databases all
+right beautiful
+now let s open up the navigator panel
+you can see the databases disappeared
+from here simply click on this refresh
+icon beautiful all right we re done with
+this section I will see you in the next
+section
+hey guys maash here in case you haven t
+seen my website yet head over to code
+with mass comm this is my coding school
+where you can find plenty of courses on
+web and mobile application development
+in fact recently I published a complete
+sequel course that is about ten hours
+long and it teaches you everything you
+need to know from the basic to the
+advanced topics such as database design
+security writing complex queries
+transactions events and much much more
+these are the topics that every software
+engineer must master this YouTube course
+you ve been watching is the first three
+hours of my complete sequel course that
+is about ten hours long so if you want
+to master sequel and get job ready I
+highly encourage you to enroll in my
+complete sequel course you can watch it
+anytime anywhere as many times as you
+want you can watch it online or download
+the videos the course comes with a
+30 day money back guarantee and a
+certificate of completion that you can
+add to your resume the price for this
+course is one hundred and forty nine
+dollars but the first 200 students can
+get it for just over ten dollars so if
+you re interested the link is below this

@@ -1,0 +1,162 @@
+[
+ {
+  "id": "mariadb",
+  "tag": "h1",
+  "text": "MariaDB"
+ },
+ {
+  "id": "oracle",
+  "tag": "h1",
+  "text": "Oracle"
+ },
+ {
+  "id": "relational-databases",
+  "tag": "h1",
+  "text": "Relational Databases"
+ },
+ {
+  "id": "ms-sql",
+  "tag": "h1",
+  "text": "MS SQL"
+ },
+ {
+  "id": "mysql",
+  "tag": "h1",
+  "text": "MySQL"
+ },
+ {
+  "id": "postgresql",
+  "tag": "h1",
+  "text": "PostgreSQL"
+ },
+ {
+  "href": "https://mariadb.org/",
+  "tag": "a",
+  "text": "MariaDB website"
+ },
+ {
+  "href": "https://www.guru99.com/mariadb-vs-mysql.html",
+  "tag": "a",
+  "text": "MariaDB vs MySQL"
+ },
+ {
+  "href": "https://www.w3schools.blog/mariadb-tutorial",
+  "tag": "a",
+  "text": "W3Schools - MariaDB tutorial"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=_AMj02sANpI",
+  "tag": "a",
+  "text": "MariaDB Tutorial For Beginners in One Hour"
+ },
+ {
+  "href": "https://www.oracle.com/database/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://docs.oracle.com/en/database/index.html",
+  "tag": "a",
+  "text": "Official Docs"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=ObbNGhcxXJA",
+  "tag": "a",
+  "text": "Oracle SQL Tutorial for Beginners"
+ },
+ {
+  "href": "https://www.ibm.com/cloud/learn/relational-databases",
+  "tag": "a",
+  "text": "Relational Databases"
+ },
+ {
+  "href": "https://learnsql.com/blog/codd-article-databases/",
+  "tag": "a",
+  "text": "51 Years of Relational Databases"
+ },
+ {
+  "href": "https://www.edx.org/course/databases-5-sql",
+  "tag": "a",
+  "text": "Databases and SQL"
+ },
+ {
+  "href": "https://www.udacity.com/course/intro-to-relational-databases--ud197",
+  "tag": "a",
+  "text": "Intro To Relational Databases"
+ },
+ {
+  "href": "https://youtu.be/OqjJjpjDRLc",
+  "tag": "a",
+  "text": "What is Relational Database"
+ },
+ {
+  "href": "https://www.microsoft.com/en-ca/sql-server/",
+  "tag": "a",
+  "text": "MS SQL website"
+ },
+ {
+  "href": "https://docs.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15",
+  "tag": "a",
+  "text": "Tutorials for SQL Server"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=-EPMOaV7h_Q",
+  "tag": "a",
+  "text": "SQL Server tutorial for beginners"
+ },
+ {
+  "href": "https://www.mysql.com/",
+  "tag": "a",
+  "text": "MySQL website"
+ },
+ {
+  "href": "https://www.w3schools.com/mySQl/default.asp",
+  "tag": "a",
+  "text": "W3Schools - MySQL tutorial"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+  "tag": "a",
+  "text": "MySQL tutorial for beginners"
+ },
+ {
+  "href": "https://planetscale.com/courses/mysql-for-developers/introduction/course-introduction",
+  "tag": "a",
+  "text": "MySQL for Developers"
+ },
+ {
+  "href": "https://www.mysqltutorial.org/",
+  "tag": "a",
+  "text": "MySQL Tutorial"
+ },
+ {
+  "href": "/postgresql-dba",
+  "tag": "a",
+  "text": "Visit Dedicated PostgreSQL DBA Roadmap"
+ },
+ {
+  "href": "https://www.postgresql.org/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://www.geeksforgeeks.org/what-is-postgresql-introduction/",
+  "tag": "a",
+  "text": "What is PostgreSQL"
+ },
+ {
+  "href": "https://www.postgresqltutorial.com/",
+  "tag": "a",
+  "text": "Learn PostgreSQL - Full Tutorial for Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+  "tag": "a",
+  "text": "Learn PostgreSQL Tutorial - Full Course for Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=eMIxuk0nOkU",
+  "tag": "a",
+  "text": "Postgres tutorial for Beginners"
+ }
+]

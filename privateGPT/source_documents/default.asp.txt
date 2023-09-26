@@ -1,0 +1,1223 @@
+   [https://www.w3schools.com/][javascript:void(0)]Tutorials
+   [javascript:void(0)]Exercises [javascript:void(0)]Get Certified
+   [javascript:void(0)]Services [javascript:void(0)]Menu
+   [https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-lea
+   rning.w3schools.com]Log in
+   [https://billing.w3schools.com/products/spaces?frequency=monthly&change
+   Plan=true]Upgrade [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+
+   [javascript:void(0)]Close
+   [javascript:void(0);]Tutorials
+   [javascript:void(0);]Exercises
+   [javascript:void(0);]Get Certified
+   [javascript:void(0);]Services
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+   [https://www.w3schools.com/videos/index.php]Videos
+   [https://shop.w3schools.com/]Shop
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+
+   ×
+
+Tutorials and References
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/default.asp]Learn HTML
+   [https://www.w3schools.com/html/default.asp]Tutorial
+   [https://www.w3schools.com/tags/default.asp]Reference
+   [https://www.w3schools.com/css/default.asp]Learn CSS
+   [https://www.w3schools.com/css/default.asp]Tutorial
+   [https://www.w3schools.com/cssref/default.asp]Reference
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Learn RWD
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Learn Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Overview
+   [https://www.w3schools.com/w3css/default.asp]Learn W3.CSS
+   [https://www.w3schools.com/w3css/default.asp]Tutorial
+   [https://www.w3schools.com/w3css/w3css_references.asp]Reference
+   [https://www.w3schools.com/sass/default.php]Learn Sass
+   [https://www.w3schools.com/sass/default.php]Tutorial
+   [https://www.w3schools.com/sass/sass_functions_string.php]Reference
+   [https://www.w3schools.com/colors/default.asp]Learn Colors
+   [https://www.w3schools.com/colors/default.asp]Tutorial
+   [https://www.w3schools.com/colors/colors_fs595.asp]Reference
+   [https://www.w3schools.com/icons/default.asp]Learn Icons
+   [https://www.w3schools.com/icons/default.asp]Tutorial
+   [https://www.w3schools.com/icons/icons_reference.asp]Reference
+   [https://www.w3schools.com/graphics/svg_intro.asp]Learn SVG
+   [https://www.w3schools.com/graphics/svg_intro.asp]Tutorial
+   [https://www.w3schools.com/graphics/svg_reference.asp]Reference
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Learn Canvas
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/api_canvas.asp]Reference
+   [https://www.w3schools.com/graphics/default.asp]Learn Graphics
+   [https://www.w3schools.com/graphics/default.asp]Tutorial
+   [https://www.w3schools.com/howto/default.asp]Learn How To
+   [https://www.w3schools.com/howto/default.asp]Tutorial
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+JavaScript
+
+   [https://www.w3schools.com/js/default.asp]Learn JavaScript
+   [https://www.w3schools.com/js/default.asp]Tutorial
+   [https://www.w3schools.com/jsref/default.asp]Reference
+   [https://www.w3schools.com/react/default.asp]Learn React
+   [https://www.w3schools.com/react/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/default.asp]Learn jQuery
+   [https://www.w3schools.com/jquery/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]Reference
+   [https://www.w3schools.com/vue/index.php]Learn Vue
+   [https://www.w3schools.com/vue/index.php]Tutorial
+   [https://www.w3schools.com/vue/vue_ref_builtin-attributes.php]Reference
+   [https://www.w3schools.com/angular/default.asp]Learn AngularJS
+   [https://www.w3schools.com/angular/default.asp]Tutorial
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Reference
+   [https://www.w3schools.com/js/js_json_intro.asp]Learn JSON
+   [https://www.w3schools.com/js/js_json_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/jsref_obj_json.asp]Reference
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Learn AJAX
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Tutorial
+   [https://www.w3schools.com/appml/default.asp]Learn AppML
+   [https://www.w3schools.com/appml/default.asp]Tutorial
+   [https://www.w3schools.com/appml/appml_reference.asp]Reference
+   [https://www.w3schools.com/w3js/default.asp]Learn W3.JS
+   [https://www.w3schools.com/w3js/default.asp]Tutorial
+   [https://www.w3schools.com/w3js/w3js_references.asp]Reference
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+Backend
+
+   [https://www.w3schools.com/python/default.asp]Learn Python
+   [https://www.w3schools.com/python/default.asp]Tutorial
+   [https://www.w3schools.com/python/python_reference.asp]Reference
+   [https://www.w3schools.com/sql/default.asp]Learn SQL
+   [https://www.w3schools.com/sql/default.asp]Tutorial
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]Reference
+   [https://www.w3schools.com/mysql/default.asp]Learn MySQL
+   [https://www.w3schools.com/mysql/default.asp]Tutorial
+   [https://www.w3schools.com/mysql/mysql_datatypes.asp]Reference
+   [https://www.w3schools.com/php/default.asp]Learn PHP
+   [https://www.w3schools.com/php/default.asp]Tutorial
+   [https://www.w3schools.com/php/php_ref_overview.asp]Reference
+   [https://www.w3schools.com/java/default.asp]Learn Java
+   [https://www.w3schools.com/java/default.asp]Tutorial
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Reference
+   [https://www.w3schools.com/c/index.php]Learn C
+   [https://www.w3schools.com/c/index.php]Tutorial
+   [https://www.w3schools.com/cpp/default.asp]Learn C++
+   [https://www.w3schools.com/cpp/default.asp]Tutorial
+   [https://www.w3schools.com/cs/index.php]Learn C#
+   [https://www.w3schools.com/cs/index.php]Tutorial
+   [https://www.w3schools.com/r/default.asp]Learn R
+   [https://www.w3schools.com/r/default.asp]Tutorial
+   [https://www.w3schools.com/kotlin/index.php]Learn Kotlin
+   [https://www.w3schools.com/kotlin/index.php]Tutorial
+   [https://www.w3schools.com/go/index.php]Learn Go
+   [https://www.w3schools.com/go/index.php]Tutorial
+   [https://www.w3schools.com/django/index.php]Learn Django
+   [https://www.w3schools.com/django/index.php]Tutorial
+   [https://www.w3schools.com/django/django_ref_template_tags.php]Referenc
+   e
+   [https://www.w3schools.com/postgresql/index.php]Learn PostgreSQL
+   [https://www.w3schools.com/postgresql/index.php]Tutorial
+   [https://www.w3schools.com/typescript/index.php]Learn TypeScript
+   [https://www.w3schools.com/typescript/index.php]Tutorial
+   [https://www.w3schools.com/asp/default.asp]Learn ASP
+   [https://www.w3schools.com/asp/default.asp]Tutorial
+   [https://www.w3schools.com/asp/asp_ref_vbscript_functions.asp]Reference
+   [https://www.w3schools.com/nodejs/default.asp]Learn Node.js
+   [https://www.w3schools.com/nodejs/default.asp]Tutorial
+   [https://www.w3schools.com/nodejs/ref_modules.asp]Reference
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Learn
+   Raspberry Pi
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Tutorial
+   [https://www.w3schools.com/git/default.asp]Learn Git
+   [https://www.w3schools.com/git/default.asp]Tutorial
+   [https://www.w3schools.com/mongodb/index.php]Learn MongoDB
+   [https://www.w3schools.com/mongodb/index.php]Tutorial
+   [https://www.w3schools.com/aws/index.php]Learn AWS Cloud
+   [https://www.w3schools.com/aws/index.php]Tutorial
+   [https://www.w3schools.com/xml/default.asp]Learn XML
+   [https://www.w3schools.com/xml/default.asp]Tutorial
+   [https://www.w3schools.com/xml/dom_nodetype.asp]Reference
+
+Next Bootcamp:
+
+August 1st
+
+   [https://www.w3schools.com/bootcamp/index.php]Learn More
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+   ×
+
+Exercises and Quizzes
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/html_exercises.asp]HTML
+   [https://www.w3schools.com/html/html_exercises.asp]Exercise
+   [https://www.w3schools.com/html/html_quiz.asp]Quiz
+   [https://www.w3schools.com/css/css_exercises.asp]CSS
+   [https://www.w3schools.com/css/css_exercises.asp]Exercise
+   [https://www.w3schools.com/css/css_quiz.asp]Quiz
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Exercise
+   [https://www.w3schools.com/bootstrap/bootstrap_quiz.asp]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+JavaScript
+
+   [https://www.w3schools.com/js/js_exercises.asp]JavaScript
+   [https://www.w3schools.com/js/js_exercises.asp]Exercise
+   [https://www.w3schools.com/js/js_quiz.asp]Quiz
+   [https://www.w3schools.com/react/react_exercises.asp]React
+   [https://www.w3schools.com/react/react_exercises.asp]Exercise
+   [https://www.w3schools.com/react/react_quiz.asp]Quiz
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]jQuery
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]Exercise
+   [https://www.w3schools.com/jquery/jquery_quiz.asp]Quiz
+   [https://www.w3schools.com/vue/vue_exercises.php]Vue
+   [https://www.w3schools.com/vue/vue_exercises.php]Exercise
+   [https://www.w3schools.com/vue/vue_quiz.php]Quiz
+
+Backend
+
+   [https://www.w3schools.com/python/python_exercises.asp]Python
+   [https://www.w3schools.com/python/python_exercises.asp]Exercise
+   [https://www.w3schools.com/python/python_quiz.asp]Quiz
+   [https://www.w3schools.com/sql/sql_exercises.asp]SQL
+   [https://www.w3schools.com/sql/sql_exercises.asp]Exercise
+   [https://www.w3schools.com/sql/sql_quiz.asp]Quiz
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]MySQL
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]Exercise
+   [https://www.w3schools.com/mysql/mysql_quiz.asp]Quiz
+   [https://www.w3schools.com/php/php_exercises.asp]PHP
+   [https://www.w3schools.com/php/php_exercises.asp]Exercise
+   [https://www.w3schools.com/php/php_quiz.asp]Quiz
+   [https://www.w3schools.com/java/java_exercises.asp]Java
+   [https://www.w3schools.com/java/java_exercises.asp]Exercise
+   [https://www.w3schools.com/java/java_quiz.asp]Quiz
+   [https://www.w3schools.com/c/c_exercises.php]C
+   [https://www.w3schools.com/c/c_exercises.php]Exercise
+   [https://www.w3schools.com/c/c_quiz.php]Quiz
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]C++
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]Exercise
+   [https://www.w3schools.com/cpp/cpp_quiz.asp]Quiz
+   [https://www.w3schools.com/cs/cs_exercises.php]C#
+   [https://www.w3schools.com/cs/cs_exercises.php]Exercise
+   [https://www.w3schools.com/cs/cs_quiz.php]Quiz
+   [https://www.w3schools.com/r/r_exercises.asp]R
+   [https://www.w3schools.com/r/r_exercises.asp]Exercise
+   [https://www.w3schools.com/r/r_quiz.asp]Quiz
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Kotlin
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Exercise
+   [https://www.w3schools.com/kotlin/kotlin_quiz.php]Quiz
+   [https://www.w3schools.com/django/django_exercises.php]Django
+   [https://www.w3schools.com/django/django_exercises.php]Exercise
+   [https://www.w3schools.com/django/django_quiz.php]Quiz
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]PostgreS
+   QL
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]Exercise
+   [https://www.w3schools.com/postgresql/postgresql_quiz.php]Quiz
+   [https://www.w3schools.com/typescript/typescript_exercises.php]TypeScri
+   pt
+   [https://www.w3schools.com/typescript/typescript_exercises.php]Exercise
+   [https://www.w3schools.com/typescript/typescript_quiz.php]Quiz
+   [https://www.w3schools.com/git/git_exercises.asp]Git
+   [https://www.w3schools.com/git/git_exercises.asp]Exercise
+   [https://www.w3schools.com/git/git_quiz.asp]Quiz
+   [https://www.w3schools.com/go/go_exercises.php]Go
+   [https://www.w3schools.com/go/go_exercises.php]Exercise
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]MongoDB
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_exercises.php]AWS Cloud
+   [https://www.w3schools.com/aws/aws_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_quiz.php]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+   ×
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications]w3schools
+   CERTIFIED . 2023
+
+HTML and CSS
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/html-
+   course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/css-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Bootstrap
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Certificate
+   [https://campus.w3schools.com/collections/single-courses/products/boots
+   trap-course]Course
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+JavaScript
+
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/javas
+   cript-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_js.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]React
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/react
+   -js-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/jquer
+   y-course]Course
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Vue
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Certif
+   icate
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+Backend
+
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/pytho
+   n-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_python.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/sql-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_sql.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]MySQL
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/php-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/java-
+   course]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse-1]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C#
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse]Course
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]R
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]Course
+   [https://campus.w3schools.com/products/django-certification-exam]Django
+   [https://campus.w3schools.com/products/django-certification-exam]Certif
+   icate
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]TypeScript
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/products/learn-typescript]Course
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/xml-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Cyber Security
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Certificate
+   [https://campus.w3schools.com/products/cyber-security-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Accessibility
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Certificate
+   [https://campus.w3schools.com/products/accessibility-course]Course
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Python Apps on AWS
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Course
+   [https://www.w3schools.com/training/aws/home/]AWS Training
+   [https://www.w3schools.com/training/aws/home/]Courses
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+   [https://campus.w3schools.com/]What is a Certificate?
+   [https://www.w3schools.com/bootcamp/index.php]What is a Bootcamp?
+
+   ×
+
+All Our Services
+
+   W3Schools offers a wide range of services and products for beginners
+   and professionals,
+   helping millions of people everyday to learn and master new skills.
+   [https://www.w3schools.com/tutorials/index.php]
+
+Free Tutorials
+
+   Enjoy our free tutorials like millions of other internet users since
+   1999
+   [https://www.w3schools.com/references/index.php]
+
+References
+
+   Explore our selection of references covering all popular coding
+   languages
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Website
+
+   Create your own website with W3Schools Spaces - no setup required
+   [https://www.w3schools.com/exercises/index.php]
+
+Exercises
+
+   Test your skills with different exercises
+   [https://www.w3schools.com/quiztest/default.asp]
+
+Quizzes
+
+   Test yourself with multiple choice questions
+   [https://campus.w3schools.com/collections/certifications]
+
+Get Certified
+
+   Document your knowledge.
+   [https://www.w3schools.com/signup/index.php]
+
+Log in / Sign Up
+
+   Create a free W3Schools Account to Improve Your Learning Experience
+   [https://www.w3schools.com/signup/index.php]
+
+My Learning
+
+   Track your learning progress at W3Schools and collect rewards
+   [https://www.w3schools.com/pro/index.php]
+
+Upgrade
+
+   Become a PRO user and unlock powerful features (ad-free, hosting,
+   videos,..)
+   [https://www.w3schools.com/where_to_start.asp]
+
+Where To Start
+
+   Not sure where you want to start? Follow our guided path
+   [https://www.w3schools.com/tryit/default.asp]
+
+Code Editor (Try it)
+
+   With our online code editor, you can edit code and view the result in
+   your browser
+   [https://www.w3schools.com/bootcamp/index.php]
+
+Bootcamps
+
+   Join one of our online bootcamps and learn from experienced instructors
+   [https://www.w3schools.com/w3css/w3css_templates.asp]
+
+Templates
+
+   We have created a bunch of responsive website templates you can use -
+   for free
+   [https://www.w3schools.com/howto/default.asp]
+
+How To's
+
+   Large collection of code snippets for HTML, CSS and JavaScript
+   [https://www.w3schools.com/videos/index.php]
+
+Videos
+
+   Learn the basics of HTML in a fun and engaging video tutorial
+   [https://www.w3schools.com/w3css/default.asp]
+
+CSS Framework
+
+   Build fast and responsive sites using our free W3.CSS framework
+   [https://www.w3schools.com/spaces/index.php]
+
+Web Hosting
+
+   Host your own website, and share it to the world with W3Schools Spaces
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Server
+
+   Create your own server using Python, PHP, React.js, Node.js, Java, C#,
+   etc.
+   [https://www.w3schools.com/browsers/default.asp]
+
+Browser Statistics
+
+   Read long term trends of browser usage
+   [https://www.w3schools.com/typingspeed/default.asp]
+
+Typing Speed
+
+   Test your typing speed
+   [https://www.w3schools.com/training/aws/home/]
+
+AWS Training
+
+   Learn Amazon Web Services
+   [https://www.w3schools.com/colors/colors_picker.asp]
+
+Color Picker
+
+   Use our color picker to find different RGB, HEX and HSL colors
+   colorpicker
+   [https://www.w3schools.com/codegame/index.html]
+
+Code Game
+
+   W3Schools Coding Game! Help the lynx collect pine cones Lynx logo
+   [https://campus.w3schools.com/pages/newsletter]
+
+Newsletter
+
+   Join our newsletter and get access to exclusive content every month
+   [https://discord.gg/6Z7UaRbUQM][https://www.linkedin.com/company/w3scho
+   ols.com/][https://www.instagram.com/w3schools.com_official/][https://ww
+   w.facebook.com/w3schoolscom/]
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-KTCFC3S
+
+   [javascript:void(0);][https://www.w3schools.com/default.asp][https://ww
+   w.w3schools.com/html/default.asp]HTML
+   [https://www.w3schools.com/css/default.asp]CSS
+   [https://www.w3schools.com/js/default.asp]JAVASCRIPT
+   [https://www.w3schools.com/sql/default.asp]SQL
+   [https://www.w3schools.com/python/default.asp]PYTHON
+   [https://www.w3schools.com/java/default.asp]JAVA
+   [https://www.w3schools.com/php/default.asp]PHP
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]BOOTSTRAP
+   [https://www.w3schools.com/howto/default.asp]HOW TO
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS
+   [https://www.w3schools.com/c/index.php]C
+   [https://www.w3schools.com/cpp/default.asp]C++
+   [https://www.w3schools.com/cs/index.php]C#
+   [https://www.w3schools.com/react/default.asp]REACT
+   [https://www.w3schools.com/r/default.asp]R
+   [https://www.w3schools.com/jquery/default.asp]JQUERY
+   [https://www.w3schools.com/django/index.php]DJANGO
+   [https://www.w3schools.com/typescript/index.php]TYPESCRIPT
+   [https://www.w3schools.com/nodejs/default.asp]NODEJS
+   [https://www.w3schools.com/mysql/default.asp]MYSQL
+   [javascript:void(0);] [javascript:void(0);] [javascript:void(0);]
+   [ ] Dark mode
+   [ ] Dark code
+
+MySQL Tutorial
+
+   [https://www.w3schools.com/mySQl/default.asp]MySQL HOME
+   [https://www.w3schools.com/mySQl/mysql_intro.asp]MySQL Intro
+   [https://www.w3schools.com/mySQl/mysql_rdbms.asp]MySQL RDBMS
+
+MySQL SQL
+
+   [https://www.w3schools.com/mySQl/mysql_sql.asp]MySQL SQL
+   [https://www.w3schools.com/mySQl/mysql_select.asp]MySQL SELECT
+   [https://www.w3schools.com/mySQl/mysql_where.asp]MySQL WHERE
+   [https://www.w3schools.com/mySQl/mysql_and_or.asp]MySQL AND, OR, NOT
+   [https://www.w3schools.com/mySQl/mysql_orderby.asp]MySQL ORDER BY
+   [https://www.w3schools.com/mySQl/mysql_insert.asp]MySQL INSERT INTO
+   [https://www.w3schools.com/mySQl/mysql_null_values.asp]MySQL NULL
+   Values [https://www.w3schools.com/mySQl/mysql_update.asp]MySQL UPDATE
+   [https://www.w3schools.com/mySQl/mysql_delete.asp]MySQL DELETE
+   [https://www.w3schools.com/mySQl/mysql_limit.asp]MySQL LIMIT
+   [https://www.w3schools.com/mySQl/mysql_min_max.asp]MySQL MIN and MAX
+   [https://www.w3schools.com/mySQl/mysql_count_avg_sum.asp]MySQL COUNT,
+   AVG, SUM [https://www.w3schools.com/mySQl/mysql_like.asp]MySQL LIKE
+   [https://www.w3schools.com/mySQl/mysql_wildcards.asp]MySQL Wildcards
+   [https://www.w3schools.com/mySQl/mysql_in.asp]MySQL IN
+   [https://www.w3schools.com/mySQl/mysql_between.asp]MySQL BETWEEN
+   [https://www.w3schools.com/mySQl/mysql_alias.asp]MySQL Aliases
+   [https://www.w3schools.com/mySQl/mysql_join.asp]MySQL Joins
+   [https://www.w3schools.com/mySQl/mysql_join_inner.asp]MySQL INNER JOIN
+   [https://www.w3schools.com/mySQl/mysql_join_left.asp]MySQL LEFT JOIN
+   [https://www.w3schools.com/mySQl/mysql_join_right.asp]MySQL RIGHT JOIN
+   [https://www.w3schools.com/mySQl/mysql_join_cross.asp]MySQL CROSS JOIN
+   [https://www.w3schools.com/mySQl/mysql_join_self.asp]MySQL Self Join
+   [https://www.w3schools.com/mySQl/mysql_union.asp]MySQL UNION
+   [https://www.w3schools.com/mySQl/mysql_groupby.asp]MySQL GROUP BY
+   [https://www.w3schools.com/mySQl/mysql_having.asp]MySQL HAVING
+   [https://www.w3schools.com/mySQl/mysql_exists.asp]MySQL EXISTS
+   [https://www.w3schools.com/mySQl/mysql_any_all.asp]MySQL ANY, ALL
+   [https://www.w3schools.com/mySQl/mysql_insert_into_select.asp]MySQL
+   INSERT SELECT [https://www.w3schools.com/mySQl/mysql_case.asp]MySQL
+   CASE [https://www.w3schools.com/mySQl/mysql_ifnull.asp]MySQL Null
+   Functions [https://www.w3schools.com/mySQl/mysql_comments.asp]MySQL
+   Comments [https://www.w3schools.com/mySQl/mysql_operators.asp]MySQL
+   Operators
+
+MySQL Database
+
+   [https://www.w3schools.com/mySQl/mysql_create_db.asp]MySQL Create DB
+   [https://www.w3schools.com/mySQl/mysql_drop_db.asp]MySQL Drop DB
+   [https://www.w3schools.com/mySQl/mysql_create_table.asp]MySQL Create
+   Table [https://www.w3schools.com/mySQl/mysql_drop_table.asp]MySQL Drop
+   Table [https://www.w3schools.com/mySQl/mysql_alter.asp]MySQL Alter
+   Table [https://www.w3schools.com/mySQl/mysql_constraints.asp]MySQL
+   Constraints [https://www.w3schools.com/mySQl/mysql_notnull.asp]MySQL
+   Not Null [https://www.w3schools.com/mySQl/mysql_unique.asp]MySQL Unique
+   [https://www.w3schools.com/mySQl/mysql_primarykey.asp]MySQL Primary Key
+   [https://www.w3schools.com/mySQl/mysql_foreignkey.asp]MySQL Foreign Key
+   [https://www.w3schools.com/mySQl/mysql_check.asp]MySQL Check
+   [https://www.w3schools.com/mySQl/mysql_default.asp]MySQL Default
+   [https://www.w3schools.com/mySQl/mysql_create_index.asp]MySQL Create
+   Index [https://www.w3schools.com/mySQl/mysql_autoincrement.asp]MySQL
+   Auto Increment [https://www.w3schools.com/mySQl/mysql_dates.asp]MySQL
+   Dates [https://www.w3schools.com/mySQl/mysql_view.asp]MySQL Views
+
+MySQL References
+
+   [https://www.w3schools.com/mySQl/mysql_datatypes.asp]MySQL Data Types
+   [https://www.w3schools.com/mySQl/mysql_ref_functions.asp]MySQL
+   Functions
+   String Functions
+   [https://www.w3schools.com/mySQl/func_mysql_ascii.asp]ASCII
+   [https://www.w3schools.com/mySQl/func_mysql_char_length.asp]CHAR_LENGTH
+   [https://www.w3schools.com/mySQl/func_mysql_character_length.asp]CHARAC
+   TER_LENGTH
+   [https://www.w3schools.com/mySQl/func_mysql_concat.asp]CONCAT
+   [https://www.w3schools.com/mySQl/func_mysql_concat_ws.asp]CONCAT_WS
+   [https://www.w3schools.com/mySQl/func_mysql_field.asp]FIELD
+   [https://www.w3schools.com/mySQl/func_mysql_find_in_set.asp]FIND_IN_SET
+   [https://www.w3schools.com/mySQl/func_mysql_format.asp]FORMAT
+   [https://www.w3schools.com/mySQl/func_mysql_insert.asp]INSERT
+   [https://www.w3schools.com/mySQl/func_mysql_instr.asp]INSTR
+   [https://www.w3schools.com/mySQl/func_mysql_lcase.asp]LCASE
+   [https://www.w3schools.com/mySQl/func_mysql_left.asp]LEFT
+   [https://www.w3schools.com/mySQl/func_mysql_length.asp]LENGTH
+   [https://www.w3schools.com/mySQl/func_mysql_locate.asp]LOCATE
+   [https://www.w3schools.com/mySQl/func_mysql_lower.asp]LOWER
+   [https://www.w3schools.com/mySQl/func_mysql_lpad.asp]LPAD
+   [https://www.w3schools.com/mySQl/func_mysql_ltrim.asp]LTRIM
+   [https://www.w3schools.com/mySQl/func_mysql_mid.asp]MID
+   [https://www.w3schools.com/mySQl/func_mysql_position.asp]POSITION
+   [https://www.w3schools.com/mySQl/func_mysql_repeat.asp]REPEAT
+   [https://www.w3schools.com/mySQl/func_mysql_replace.asp]REPLACE
+   [https://www.w3schools.com/mySQl/func_mysql_reverse.asp]REVERSE
+   [https://www.w3schools.com/mySQl/func_mysql_right.asp]RIGHT
+   [https://www.w3schools.com/mySQl/func_mysql_rpad.asp]RPAD
+   [https://www.w3schools.com/mySQl/func_mysql_rtrim.asp]RTRIM
+   [https://www.w3schools.com/mySQl/func_mysql_space.asp]SPACE
+   [https://www.w3schools.com/mySQl/func_mysql_strcmp.asp]STRCMP
+   [https://www.w3schools.com/mySQl/func_mysql_substr.asp]SUBSTR
+   [https://www.w3schools.com/mySQl/func_mysql_substring.asp]SUBSTRING
+   [https://www.w3schools.com/mySQl/func_mysql_substring_index.asp]SUBSTRI
+   NG_INDEX [https://www.w3schools.com/mySQl/func_mysql_trim.asp]TRIM
+   [https://www.w3schools.com/mySQl/func_mysql_ucase.asp]UCASE
+   [https://www.w3schools.com/mySQl/func_mysql_upper.asp]UPPER Numeric
+   Functions [https://www.w3schools.com/mySQl/func_mysql_abs.asp]ABS
+   [https://www.w3schools.com/mySQl/func_mysql_acos.asp]ACOS
+   [https://www.w3schools.com/mySQl/func_mysql_asin.asp]ASIN
+   [https://www.w3schools.com/mySQl/func_mysql_atan.asp]ATAN
+   [https://www.w3schools.com/mySQl/func_mysql_atan2.asp]ATAN2
+   [https://www.w3schools.com/mySQl/func_mysql_avg.asp]AVG
+   [https://www.w3schools.com/mySQl/func_mysql_ceil.asp]CEIL
+   [https://www.w3schools.com/mySQl/func_mysql_ceiling.asp]CEILING
+   [https://www.w3schools.com/mySQl/func_mysql_cos.asp]COS
+   [https://www.w3schools.com/mySQl/func_mysql_cot.asp]COT
+   [https://www.w3schools.com/mySQl/func_mysql_count.asp]COUNT
+   [https://www.w3schools.com/mySQl/func_mysql_degrees.asp]DEGREES
+   [https://www.w3schools.com/mySQl/func_mysql_div.asp]DIV
+   [https://www.w3schools.com/mySQl/func_mysql_exp.asp]EXP
+   [https://www.w3schools.com/mySQl/func_mysql_floor.asp]FLOOR
+   [https://www.w3schools.com/mySQl/func_mysql_greatest.asp]GREATEST
+   [https://www.w3schools.com/mySQl/func_mysql_least.asp]LEAST
+   [https://www.w3schools.com/mySQl/func_mysql_ln.asp]LN
+   [https://www.w3schools.com/mySQl/func_mysql_log.asp]LOG
+   [https://www.w3schools.com/mySQl/func_mysql_log10.asp]LOG10
+   [https://www.w3schools.com/mySQl/func_mysql_log2.asp]LOG2
+   [https://www.w3schools.com/mySQl/func_mysql_max.asp]MAX
+   [https://www.w3schools.com/mySQl/func_mysql_min.asp]MIN
+   [https://www.w3schools.com/mySQl/func_mysql_mod.asp]MOD
+   [https://www.w3schools.com/mySQl/func_mysql_pi.asp]PI
+   [https://www.w3schools.com/mySQl/func_mysql_pow.asp]POW
+   [https://www.w3schools.com/mySQl/func_mysql_power.asp]POWER
+   [https://www.w3schools.com/mySQl/func_mysql_radians.asp]RADIANS
+   [https://www.w3schools.com/mySQl/func_mysql_rand.asp]RAND
+   [https://www.w3schools.com/mySQl/func_mysql_round.asp]ROUND
+   [https://www.w3schools.com/mySQl/func_mysql_sign.asp]SIGN
+   [https://www.w3schools.com/mySQl/func_mysql_sin.asp]SIN
+   [https://www.w3schools.com/mySQl/func_mysql_sqrt.asp]SQRT
+   [https://www.w3schools.com/mySQl/func_mysql_sum.asp]SUM
+   [https://www.w3schools.com/mySQl/func_mysql_tan.asp]TAN
+   [https://www.w3schools.com/mySQl/func_mysql_truncate.asp]TRUNCATE Date
+   Functions
+   [https://www.w3schools.com/mySQl/func_mysql_adddate.asp]ADDDATE
+   [https://www.w3schools.com/mySQl/func_mysql_addtime.asp]ADDTIME
+   [https://www.w3schools.com/mySQl/func_mysql_curdate.asp]CURDATE
+   [https://www.w3schools.com/mySQl/func_mysql_current_date.asp]CURRENT_DA
+   TE
+   [https://www.w3schools.com/mySQl/func_mysql_current_time.asp]CURRENT_TI
+   ME
+   [https://www.w3schools.com/mySQl/func_mysql_current_timestamp.asp]CURRE
+   NT_TIMESTAMP
+   [https://www.w3schools.com/mySQl/func_mysql_curtime.asp]CURTIME
+   [https://www.w3schools.com/mySQl/func_mysql_date.asp]DATE
+   [https://www.w3schools.com/mySQl/func_mysql_datediff.asp]DATEDIFF
+   [https://www.w3schools.com/mySQl/func_mysql_date_add.asp]DATE_ADD
+   [https://www.w3schools.com/mySQl/func_mysql_date_format.asp]DATE_FORMAT
+   [https://www.w3schools.com/mySQl/func_mysql_date_sub.asp]DATE_SUB
+   [https://www.w3schools.com/mySQl/func_mysql_day.asp]DAY
+   [https://www.w3schools.com/mySQl/func_mysql_dayname.asp]DAYNAME
+   [https://www.w3schools.com/mySQl/func_mysql_dayofmonth.asp]DAYOFMONTH
+   [https://www.w3schools.com/mySQl/func_mysql_dayofweek.asp]DAYOFWEEK
+   [https://www.w3schools.com/mySQl/func_mysql_dayofyear.asp]DAYOFYEAR
+   [https://www.w3schools.com/mySQl/func_mysql_extract.asp]EXTRACT
+   [https://www.w3schools.com/mySQl/func_mysql_from_days.asp]FROM_DAYS
+   [https://www.w3schools.com/mySQl/func_mysql_hour.asp]HOUR
+   [https://www.w3schools.com/mySQl/func_mysql_last_day.asp]LAST_DAY
+   [https://www.w3schools.com/mySQl/func_mysql_localtime.asp]LOCALTIME
+   [https://www.w3schools.com/mySQl/func_mysql_localtimestamp.asp]LOCALTIM
+   ESTAMP
+   [https://www.w3schools.com/mySQl/func_mysql_makedate.asp]MAKEDATE
+   [https://www.w3schools.com/mySQl/func_mysql_maketime.asp]MAKETIME
+   [https://www.w3schools.com/mySQl/func_mysql_microsecond.asp]MICROSECOND
+   [https://www.w3schools.com/mySQl/func_mysql_minute.asp]MINUTE
+   [https://www.w3schools.com/mySQl/func_mysql_month.asp]MONTH
+   [https://www.w3schools.com/mySQl/func_mysql_monthname.asp]MONTHNAME
+   [https://www.w3schools.com/mySQl/func_mysql_now.asp]NOW
+   [https://www.w3schools.com/mySQl/func_mysql_period_add.asp]PERIOD_ADD
+   [https://www.w3schools.com/mySQl/func_mysql_period_diff.asp]PERIOD_DIFF
+   [https://www.w3schools.com/mySQl/func_mysql_quarter.asp]QUARTER
+   [https://www.w3schools.com/mySQl/func_mysql_second.asp]SECOND
+   [https://www.w3schools.com/mySQl/func_mysql_sec_to_time.asp]SEC_TO_TIME
+   [https://www.w3schools.com/mySQl/func_mysql_str_to_date.asp]STR_TO_DATE
+   [https://www.w3schools.com/mySQl/func_mysql_subdate.asp]SUBDATE
+   [https://www.w3schools.com/mySQl/func_mysql_subtime.asp]SUBTIME
+   [https://www.w3schools.com/mySQl/func_mysql_sysdate.asp]SYSDATE
+   [https://www.w3schools.com/mySQl/func_mysql_time.asp]TIME
+   [https://www.w3schools.com/mySQl/func_mysql_time_format.asp]TIME_FORMAT
+   [https://www.w3schools.com/mySQl/func_mysql_time_to_sec.asp]TIME_TO_SEC
+   [https://www.w3schools.com/mySQl/func_mysql_timediff.asp]TIMEDIFF
+   [https://www.w3schools.com/mySQl/func_mysql_timestamp.asp]TIMESTAMP
+   [https://www.w3schools.com/mySQl/func_mysql_to_days.asp]TO_DAYS
+   [https://www.w3schools.com/mySQl/func_mysql_week.asp]WEEK
+   [https://www.w3schools.com/mySQl/func_mysql_weekday.asp]WEEKDAY
+   [https://www.w3schools.com/mySQl/func_mysql_weekofyear.asp]WEEKOFYEAR
+   [https://www.w3schools.com/mySQl/func_mysql_year.asp]YEAR
+   [https://www.w3schools.com/mySQl/func_mysql_yearweek.asp]YEARWEEK
+   Advanced Functions
+   [https://www.w3schools.com/mySQl/func_mysql_bin.asp]BIN
+   [https://www.w3schools.com/mySQl/func_mysql_binary.asp]BINARY
+   [https://www.w3schools.com/mySQl/func_mysql_case.asp]CASE
+   [https://www.w3schools.com/mySQl/func_mysql_cast.asp]CAST
+   [https://www.w3schools.com/mySQl/func_mysql_coalesce.asp]COALESCE
+   [https://www.w3schools.com/mySQl/func_mysql_connection_id.asp]CONNECTIO
+   N_ID [https://www.w3schools.com/mySQl/func_mysql_conv.asp]CONV
+   [https://www.w3schools.com/mySQl/func_mysql_convert.asp]CONVERT
+   [https://www.w3schools.com/mySQl/func_mysql_current_user.asp]CURRENT_US
+   ER [https://www.w3schools.com/mySQl/func_mysql_database.asp]DATABASE
+   [https://www.w3schools.com/mySQl/func_mysql_if.asp]IF
+   [https://www.w3schools.com/mySQl/func_mysql_ifnull.asp]IFNULL
+   [https://www.w3schools.com/mySQl/func_mysql_isnull.asp]ISNULL
+   [https://www.w3schools.com/mySQl/func_mysql_last_insert_id.asp]LAST_INS
+   ERT_ID [https://www.w3schools.com/mySQl/func_mysql_nullif.asp]NULLIF
+   [https://www.w3schools.com/mySQl/func_mysql_session_user.asp]SESSION_US
+   ER
+   [https://www.w3schools.com/mySQl/func_mysql_system_user.asp]SYSTEM_USER
+   [https://www.w3schools.com/mySQl/func_mysql_user.asp]USER
+   [https://www.w3schools.com/mySQl/func_mysql_version.asp]VERSION
+
+MySQL Examples
+
+   [https://www.w3schools.com/mySQl/mysql_examples.asp]MySQL Examples
+   [https://www.w3schools.com/mySQl/mysql_editor.asp]MySQL Editor
+   [https://www.w3schools.com/mySQl/mysql_quiz.asp]MySQL Quiz
+   [https://www.w3schools.com/mySQl/mysql_exercises.asp]MySQL Exercises
+   [https://www.w3schools.com/mySQl/mysql_exam.asp]MySQL Certificate
+
+MySQL Tutorial
+
+   [https://www.w3schools.com/default.asp]❮ Home
+   [https://www.w3schools.com/mySQl/mysql_intro.asp]Next ❯
+
+   MySQL is a widely used relational database management system (RDBMS).
+
+   MySQL is free and open-source.
+
+   MySQL is ideal for both small and large applications.
+   [https://www.w3schools.com/mySQl/mysql_intro.asp]Start learning MySQL
+   now »
+     __________________________________________________________________
+
+Examples in Each Chapter
+
+   With our online MySQL editor, you can edit the SQL statements, and
+   click on a button to view the result.
+
+Example
+
+   SELECT * FROM Customers;
+   [https://www.w3schools.com/mySQl/trymysql.asp?filename=trysql_select_al
+   l]Try it Yourself »
+
+   Click on the "Try it Yourself" button to see how it works.
+     __________________________________________________________________
+
+MySQL Exercises
+
+Test Yourself With Exercises
+
+Exercise:
+
+   Insert the missing statement to get all the columns from the Customers
+   table.
+____________________ * FROM Customers;
+
+   (BUTTON) Submit Answer »
+
+   [https://www.w3schools.com/mySQl/exercise.asp?filename=exercise_select1
+   ]Start the Exercise
+     __________________________________________________________________
+     __________________________________________________________________
+
+MySQL Examples
+
+   Learn by examples! This tutorial supplements all explanations with
+   clarifying examples.
+
+   [https://www.w3schools.com/mySQl/mysql_examples.asp]See All SQL
+   Examples
+     __________________________________________________________________
+
+MySQL Quiz Test
+
+   Test your MySQL skills at W3Schools!
+
+   [https://www.w3schools.com/mySQl/mysql_quiz.asp]Start MySQL Quiz!
+     __________________________________________________________________
+
+My Learning
+
+   Track your progress with the free "My Learning" program here at
+   W3Schools.
+
+   Log in to your account, and start earning points!
+
+   This is an optional feature. You can study W3Schools without using My
+   Learning.
+   [https://my-learning.w3schools.com/][mylearning.png]
+     __________________________________________________________________
+
+MySQL References
+
+   At W3Schools you will find a complete reference of MySQL data types and
+   functions:
+
+   [https://www.w3schools.com/mySQl/mysql_datatypes.asp]MySQL Data Types
+
+   [https://www.w3schools.com/mySQl/mysql_ref_functions.asp]MySQL
+   Functions
+   [https://www.w3schools.com/default.asp]❮ Home
+   [https://www.w3schools.com/mySQl/mysql_intro.asp]Next ❯
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Unlock Full Access 50% off
+
+[https://www.w3schools.com/colors/colors_picker.asp]COLOR PICKER
+
+   [https://www.w3schools.com/colors/colors_picker.asp]colorpicker
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Join our
+   Bootcamp!
+     __________________________________________________________________
+     __________________________________________________________________
+
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [javascript:void(0);]Report Error
+   [javascript:void(0);]Report Error
+     __________________________________________________________________
+
+   ×
+
+Report Error
+
+   If you want to report an error, or if you want to make a suggestion, do
+   not hesitate to send us an e-mail:
+
+   help@w3schools.com
+   ×
+
+Thank You For Helping Us!
+
+   Your message has been sent to W3Schools.
+
+Top Tutorials
+
+   [https://www.w3schools.com/html/default.asp]HTML Tutorial
+   [https://www.w3schools.com/css/default.asp]CSS Tutorial
+   [https://www.w3schools.com/js/default.asp]JavaScript Tutorial
+   [https://www.w3schools.com/howto/default.asp]How To Tutorial
+   [https://www.w3schools.com/sql/default.asp]SQL Tutorial
+   [https://www.w3schools.com/python/default.asp]Python Tutorial
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Bootstrap
+   Tutorial
+   [https://www.w3schools.com/php/default.asp]PHP Tutorial
+   [https://www.w3schools.com/java/default.asp]Java Tutorial
+   [https://www.w3schools.com/cpp/default.asp]C++ Tutorial
+   [https://www.w3schools.com/jquery/default.asp]jQuery Tutorial
+
+Top References
+
+   [https://www.w3schools.com/tags/default.asp]HTML Reference
+   [https://www.w3schools.com/cssref/index.php]CSS Reference
+   [https://www.w3schools.com/jsref/default.asp]JavaScript Reference
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]SQL Reference
+   [https://www.w3schools.com/python/python_reference.asp]Python Reference
+   [https://www.w3schools.com/w3css/w3css_references.asp]W3.CSS Reference
+   [https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp]Boot
+   strap Reference
+   [https://www.w3schools.com/php/php_ref_overview.asp]PHP Reference
+   [https://www.w3schools.com/colors/colors_names.asp]HTML Colors
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Java Reference
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Angular
+   Reference
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]jQuery
+   Reference
+
+Top Examples
+
+   [https://www.w3schools.com/html/html_examples.asp]HTML Examples
+   [https://www.w3schools.com/css/css_examples.asp]CSS Examples
+   [https://www.w3schools.com/js/js_examples.asp]JavaScript Examples
+   [https://www.w3schools.com/howto/default.asp]How To Examples
+   [https://www.w3schools.com/sql/sql_examples.asp]SQL Examples
+   [https://www.w3schools.com/python/python_examples.asp]Python Examples
+   [https://www.w3schools.com/w3css/w3css_examples.asp]W3.CSS Examples
+   [https://www.w3schools.com/bootstrap/bootstrap_examples.asp]Bootstrap
+   Examples
+   [https://www.w3schools.com/php/php_examples.asp]PHP Examples
+   [https://www.w3schools.com/java/java_examples.asp]Java Examples
+   [https://www.w3schools.com/xml/xml_examples.asp]XML Examples
+   [https://www.w3schools.com/jquery/jquery_examples.asp]jQuery Examples
+   [https://campus.w3schools.com/collections/course-catalog]
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML Certificate
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS Certificate
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript Certificate
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End Certificate
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL Certificate
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP Certificate
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery Certificate
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++ Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C# Certificate
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML Certificate
+     __________________________________________________________________
+
+   [https://www.w3schools.com/forum/default.asp]FORUM |
+   [https://www.w3schools.com/about/default.asp]ABOUT
+   W3Schools is optimized for learning and training. Examples might be
+   simplified to improve reading and learning. Tutorials, references, and
+   examples are constantly reviewed to avoid errors, but we cannot warrant
+   full correctness of all content. While using W3Schools, you agree to
+   have read and accepted our
+   [https://www.w3schools.com/about/about_copyright.asp]terms of use,
+   [https://www.w3schools.com/about/about_privacy.asp]cookie and privacy
+   policy.
+   [https://www.w3schools.com/about/about_copyright.asp]Copyright
+   1999-2023 by Refsnes Data. All Rights Reserved.
+   [https://www.w3schools.com/w3css/default.asp]W3Schools is Powered by
+   W3.CSS.
+   [https://www.w3schools.com/mySQl/default.asp]

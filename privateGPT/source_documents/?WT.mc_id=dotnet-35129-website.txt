@@ -1,0 +1,221 @@
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-1/?WT.mc_id=dotnet-35129-website#main]Skip to main content
+
+   This browser is no longer supported.
+
+   Upgrade to Microsoft Edge to take advantage of the latest features,
+   security updates, and technical support.
+   [https://go.microsoft.com/fwlink/p/?LinkID=2092881]Download Microsoft
+   Edge
+   [https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-micr
+   osoft-edge]More info about Internet Explorer and Microsoft Edge
+   [https://www.microsoft.com/]
+   (BUTTON) Table of contents (BUTTON) Exit focus mode
+
+   Read in English
+   Read in English
+   (BUTTON) Table of contents
+
+Write your first code using C# (Get started with C#, Part 1)
+
+     *
+     * Learning Path
+     * 6 Modules
+
+   Beginner
+   Developer
+   Higher Education Educator
+   K-12 Educator
+   Student
+   .NET
+
+   Learn the basic syntax and thought processes required to build simple
+   applications using C#.
+
+   Screenshot of the trophy for the Write your first code using C# (Get
+   started with C#, Part 1) learning path.
+
+   Write your first code using C# (Get started with C#, Part 1)
+
+   Screenshot of the trophy for the Create and run simple C# console
+   applications (Get started with C#, Part 2) learning path.
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-2/]Create and run simple C# console applications (Get started with
+   C#, Part 2)
+
+   Screenshot of the trophy for the Describe the Add logic to C# console
+   applications (Get started with C#, Part 3) learning path.
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-3/]Add logic to C# console applications (Get started with C#, Part
+   3)
+
+   Screenshot of the trophy for the Work with variable data in C# console
+   applications (Get started with C#, Part 4) learning path.
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-4/]Work with variable data in C# console applications (Get started
+   with C#, Part 4)
+
+   Screenshot of the trophy for the Describe the Create methods in C#
+   console applications (Get started with C#, Part 5) learning path.
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-5/]Create methods in C# console applications (Get started with C#,
+   Part 5)
+
+   Screenshot of the trophy for the Debug C# console applications (Get
+   started with C#, Part 6) learning path.
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-6/]Debug C# console applications (Get started with C#, Part 6)
+
+Prerequisites
+
+   none
+   (BUTTON) Save
+
+Modules in this learning path
+
+   [https://learn.microsoft.com/en-us/training/modules/csharp-write-first/
+   ]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-write-first/
+   ]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-write-first/
+   ]
+
+Write your first C# code
+
+     *
+     *
+     *
+
+   Get started by writing code examples to learn the basics of the C#
+   syntax!
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/modules/csharp-literals-var
+   iables/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-literals-var
+   iables/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-literals-var
+   iables/]
+
+Store and retrieve data using literal and variable values in C#
+
+     *
+     *
+     *
+
+   Use data in your applications by creating literal values and variable
+   values of different data types.
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-format
+   ting/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-format
+   ting/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-format
+   ting/]
+
+Perform basic string formatting in C#
+
+     *
+     *
+     *
+
+   Combine literal and variable text data that contain special characters,
+   formatting, and Unicode into meaningful messages for the end user.
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-operat
+   ions/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-operat
+   ions/]
+   [https://learn.microsoft.com/en-us/training/modules/csharp-basic-operat
+   ions/]
+
+Perform basic operations on numbers in C#
+
+     *
+     *
+     *
+
+   Learn the operators and techniques used to perform basic math
+   operations on numeric data.
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-print-student-grades/]
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-print-student-grades/]
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-print-student-grades/]
+
+Guided project - Calculate and print student grades
+
+     *
+     *
+     *
+
+   Learn to develop an application that will calculate and display results
+   based on given data.
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-final-gpa/]
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-final-gpa/]
+   [https://learn.microsoft.com/en-us/training/modules/guided-project-calc
+   ulate-final-gpa/]
+
+Guided project - Calculate final GPA
+
+     *
+     *
+     *
+
+   Gain experience developing an application that will calculate and
+   display results based on given data.
+   (BUTTON)
+   (BUTTON)
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-1/?WT.mc_id=dotnet-35129-website]
+   (BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023
+
+   Start
+
+   [https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-p
+   art-1/?WT.mc_id=dotnet-35129-website]
+   (BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023

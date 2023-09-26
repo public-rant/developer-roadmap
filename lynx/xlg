@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS > $(basename https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).txt

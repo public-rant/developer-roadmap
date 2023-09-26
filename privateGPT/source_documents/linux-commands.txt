@@ -1,0 +1,1553 @@
+   #[https://www.digitalocean.com/community/tutorials/linux-commands]alter
+   nate
+   [https://www.digitalocean.com/community/tutorials/linux-commands]altern
+   ate
+
+   [https://www.digitalocean.com/blog/paperspace-joins-digitalocean]New!
+   Paperspace joins DigitalOcean to expand AI capabilities. Learn more ->
+     * [https://www.digitalocean.com/careers]We're hiring
+     * [https://www.digitalocean.com/blog]Blog
+     * [https://docs.digitalocean.com/products/]Docs
+     * [https://www.digitalocean.com/support/]Get Support
+     * [https://www.digitalocean.com/company/contact/sales?referrer=tophat
+       ]Contact Sales
+
+   [https://www.digitalocean.com/]
+     * (BUTTON) Products
+       Featured Products
+          + [https://www.digitalocean.com/products/droplets]DropletsScalab
+            le virtual machines
+          + [https://www.digitalocean.com/products/kubernetes]KubernetesMa
+            naged Kubernetes clusters
+          + [https://www.digitalocean.com/products/cloudways]CloudwaysMana
+            ged cloud hosting
+          + [https://www.digitalocean.com/products/app-platform]App
+            PlatformGet apps to market faster
+          + [https://www.digitalocean.com/products/managed-databases]Datab
+            asesWorry-free setup & maintenance
+          + [https://www.digitalocean.com/products/spaces]SpacesSimple
+            object storage
+       Compute
+          + [https://www.digitalocean.com/products/droplets]Droplets
+          + [https://www.digitalocean.com/products/kubernetes]Kubernetes
+          + [https://www.digitalocean.com/products/functions]Functions
+       Cloud Website Hosting
+          + [https://www.digitalocean.com/products/cloudways]Cloudways
+          + [https://www.digitalocean.com/products/app-platform]App
+            Platform
+       Storage
+          + [https://www.digitalocean.com/products/spaces]Spaces Object
+            Storage
+          + [https://www.digitalocean.com/products/block-storage]Volumes
+            Block Storage
+       Networking
+          + [https://www.digitalocean.com/products/vpc]Virtual Private
+            Cloud (VPC)
+          + [https://www.digitalocean.com/products/cloud-firewalls]Cloud
+            Firewalls
+          + [https://www.digitalocean.com/products/load-balancer]Load
+            Balancers
+          + [https://docs.digitalocean.com/products/networking/dns]DNS
+       Managed Databases
+          + [https://www.digitalocean.com/products/managed-databases-mongo
+            db]MongoDB
+          + [https://www.digitalocean.com/products/managed-databases-mysql
+            ]MySQL
+          + [https://www.digitalocean.com/products/managed-databases-postg
+            resql]PostgreSQL
+          + [https://www.digitalocean.com/products/managed-databases-redis
+            ]Redis™
+       Developer Tools
+          + [https://docs.digitalocean.com/reference/api/]API
+          + [https://www.digitalocean.com/products/tools-and-integrations]
+            CLI
+          + [https://www.digitalocean.com/products/support]Support Plans
+          + [https://www.digitalocean.com/products/monitoring]Monitoring
+          + [https://www.digitalocean.com/products/uptime-monitoring]Uptim
+            e
+          + [https://marketplace.digitalocean.com/add-ons/snapshooter]Snap
+            Shooter
+       [https://www.digitalocean.com/products]See all products
+     * (BUTTON) Solutions
+       Cloudways
+          + [https://www.cloudways.com/en/wordpress-hosting.php?id=1227510
+            &utm_source=digitalocean.com&utm_medium=referral&utm_campaign=
+            gen-do-ws-mwb-gnavwp&data1=main_website&data2=gen-do-ws-mwb-gn
+            avwp]Managed WordPressMake your website faster and more
+            secure.
+          + [https://www.cloudways.com/en/woocommerce-hosting.php?id=12275
+            10&utm_source=digitalocean.com&utm_medium=referral&utm_campaig
+            n=gen-do-ws-mwb-gnavwoo&data1=main_website&data2=gen-do-ws-mwb
+            -gnavwoo]Managed WoocommerceHassle-free ecommerce website
+            hosting.
+          + [https://www.cloudways.com/en/magento-hosting.php?id=1227510&u
+            tm_source=digitalocean.com&utm_medium=referral&utm_campaign=ge
+            n-do-ws-mwb-gnavmag&data1=main_website&data2=gen-do-ws-mwb-gna
+            vmag]Managed MagentoSimple, efficient ecommerce hosting.
+       By industry
+          + [https://www.digitalocean.com/solutions/data-analytics]Data
+            Analytics
+          + [https://www.digitalocean.com/solutions/digital-marketing-agen
+            cies]Digital Marketing Agencies
+          + [https://www.digitalocean.com/solutions/e-commerce]Ecommerce
+          + [https://www.digitalocean.com/solutions/adtech-martech]Adverti
+            sing and Marketing Tech
+          + [https://www.digitalocean.com/solutions/it-consulting]IT
+            Consulting
+          + [https://www.digitalocean.com/solutions/developer-tools]Develo
+            per Tools
+          + [https://www.digitalocean.com/solutions/cicd-pipelines]CI/CD
+            Pipelines
+          + [https://www.digitalocean.com/solutions/industries]View All
+            Industries
+       By use case
+          + [https://www.digitalocean.com/solutions/vpn]Cloud VPN
+          + [https://www.digitalocean.com/solutions/web-mobile-apps]Web &
+            Mobile Apps
+          + [https://www.digitalocean.com/solutions/gaming-development]Gam
+            e Development
+          + [https://www.digitalocean.com/solutions/streaming]Video
+            Streaming
+          + [https://www.digitalocean.com/solutions/virtual-machines]Virtu
+            al Machines
+          + [https://www.digitalocean.com/solutions/blockchain]Blockchain
+          + [https://www.digitalocean.com/solutions/website-hosting]Websit
+            e Hosting
+          + [https://www.digitalocean.com/solutions/vps-hosting]VPS
+            Hosting
+          + [https://www.digitalocean.com/solutions/use-cases]View All Use
+            Cases
+       Questions?
+          + [https://www.digitalocean.com/company/contact/sales?referrer=m
+            ainmenu/solutions]Speak With an Expert
+       [https://www.digitalocean.com/business]See all solutions
+     * (BUTTON) Developers
+       Our community
+          + [https://docs.digitalocean.com/developer-center]Developer
+            CenterLearn, build, and scale.
+          + [https://www.digitalocean.com/community]Community HomeDevOps
+            and development guides.
+          + [https://css-tricks.com/]CSS-TricksAll things web design.
+       Resources
+          + [https://www.digitalocean.com/community/tutorials]Tutorials
+          + [https://www.digitalocean.com/community/questions]Questions
+            And Answers
+          + [https://marketplace.digitalocean.com/]Marketplace
+          + [https://www.digitalocean.com/community/tools]Tools
+          + [https://www.digitalocean.com/community/pages/write-for-digita
+            locean]Write for DOnations
+          + [https://www.digitalocean.com/customers]Customer Stories
+          + [https://www.digitalocean.com/blog]DigitalOcean Blog
+       Get Involved
+          + [https://www.digitalocean.com/hatch]Hatch Startup Program
+          + [https://www.digitalocean.com/open-source]Open Source
+            Sponsorships
+          + [https://hacktoberfest.com/]Hacktoberfest
+          + [https://www.digitalocean.com/impact]DO Impact
+       Documentation
+          + [https://docs.digitalocean.com/products/getting-started/]Quick
+            Start
+          + [https://docs.digitalocean.com/products/droplets/]Droplets
+          + [https://docs.digitalocean.com/products/storage/]Storage
+          + [https://docs.digitalocean.com/products/app-platform/]App
+            Platform
+          + [https://docs.digitalocean.com/reference/api/]API Reference
+          + [https://docs.digitalocean.com/products/networking/dns/]Domain
+            s and DNS
+     * (BUTTON) Businesses
+       Grow your business
+          + [https://www.digitalocean.com/resources]The WaveContent to
+            level up your business.
+          + PartnersWork with a partner to get up and running in the
+            cloud, or become a
+            partner.[https://partners.digitalocean.com/]Find a
+            partner[https://www.digitalocean.com/channel-partners]Become a
+            partner
+          + [https://www.ugurus.com/]UGURUSElite training for agencies &
+            freelancers.
+       Resources
+          + [https://www.digitalocean.com/customers]Customer Stories
+          + [https://www.digitalocean.com/hatch]Hatch Startup Program
+          + [https://www.digitalocean.com/pricing/calculator]Price
+            Estimate Calculator
+          + [https://marketplace.digitalocean.com/]One-Click Apps
+          + [https://www.digitalocean.com/security]Security
+       Questions?
+          + [https://www.digitalocean.com/company/contact/sales?referrer=m
+            ainmenu/business]Contact sales
+     * [https://www.digitalocean.com/pricing]Pricing
+
+     * (BUTTON) Log in
+          + Log in
+            to:[https://www.digitalocean.com/api/dynamic-content/v1/login?
+            success_redirect=https%3A%2F%2Fwww.digitalocean.com%2F&error_r
+            edirect=https%3A%2F%2Fwww.digitalocean.com%2Fauth-error&type=l
+            ogin&site=community]Community[https://cloud.digitalocean.com/l
+            ogin]DigitalOcean
+     * (BUTTON) Sign up
+          + Sign up
+            for:[https://www.digitalocean.com/api/dynamic-content/v1/login
+            ?success_redirect=https%3A%2F%2Fwww.digitalocean.com%2F&error_
+            redirect=https%3A%2F%2Fwww.digitalocean.com%2Fauth-error&type=
+            register&site=community]Community[https://cloud.digitalocean.c
+            om/registrations/new]DigitalOcean
+
+     * [https://www.digitalocean.com/careers]We're hiring
+     * [https://www.digitalocean.com/blog]Blog
+     * [https://docs.digitalocean.com/products/]Docs
+     * [https://www.digitalocean.com/support/]Get Support
+     * [https://www.digitalocean.com/company/contact/sales?referrer=second
+       arymenu]Sales
+
+   (BUTTON)
+
+     * [https://www.digitalocean.com/community/tutorials]Tutorials
+     * [https://www.digitalocean.com/community/questions]Questions
+     * [https://www.digitalocean.com/community/learning-paths]Learning
+       Paths
+     * [https://www.digitalocean.com/resources]For Businesses
+     * [https://docs.digitalocean.com/developer-center/]Product Docs
+     * [https://www.digitalocean.com/impact]Social Impact
+     * (BUTTON) Search Community
+
+CONTENTS
+
+    1. [https://www.digitalocean.com/community/tutorials/linux-commands#to
+       p-50-linux-commands-you-must-know-as-a-regular-user]
+
+Top 50 Linux Commands You Must Know as a Regular User
+    2. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ls-command-in-linux]
+
+The ls command in Linux
+    3. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-pwd-command-in-linux]
+
+The pwd command in Linux
+    4. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-cd-command-in-linux]
+
+The cd command in Linux
+    5. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-mkdir-command-in-linux]
+
+The mkdir command in Linux
+    6. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-cp-and-mv-commands]
+
+The cp and mv commands
+    7. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-rm-command-in-linux]
+
+The rm command in Linux
+    8. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-touch-command-in-linux]
+
+The touch command in Linux
+    9. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ln-command-in-linux]
+
+The ln command in Linux
+   10. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-cat-echo-and-less-commands]
+
+The cat, echo, and less commands
+   11. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-man-command-in-linux]
+
+The man command in Linux
+   12. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-uname-and-whoami-commands]
+
+The uname and whoami commands
+   13. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-tar-zip-and-unzip-commands]
+
+The tar, zip, and unzip commands
+   14. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-grep-command-in-linux]
+
+The grep command in Linux
+   15. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-head-and-tail-commands]
+
+The head and tail commands
+   16. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-diff-comm-and-cmp-commands]
+
+The diff, comm, and cmp commands
+   17. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-sort-command-in-linux]
+
+The sort command in Linux
+   18. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-export-command-in-linux]
+
+The export command in Linux
+   19. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ssh-command-in-linux]
+
+The ssh command in Linux
+   20. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-service-command-in-linux]
+
+The service command in Linux
+   21. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ps-kill-and-killall-commands]
+
+The ps, kill, and killall commands
+   22. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-df-and-mount-commands]
+
+The df and mount commands
+   23. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-chmod-and-chown-commands]
+
+The chmod and chown commands
+   24. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ifconfig-and-traceroute-commands]
+
+The ifconfig and traceroute commands
+   25. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-wget-command-in-linux]
+
+The wget command in Linux
+   26. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-ufw-and-iptables-commands]
+
+The ufw and iptables commands
+   27. [https://www.digitalocean.com/community/tutorials/linux-commands#pa
+       ckage-managers-in-linux]
+
+Package Managers in Linux
+   28. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-sudo-command-in-linux]
+
+The sudo command in Linux
+   29. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-cal-command-in-linux]
+
+The cal command in Linux
+   30. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-alias-command]
+
+The alias command
+   31. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-dd-command-in-linux]
+
+The dd command in Linux
+   32. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-whereis-and-whatis-commands]
+
+The whereis and whatis commands
+   33. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-top-command-in-linux]
+
+The top command in Linux
+   34. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-useradd-and-usermod-commands]
+
+The useradd and usermod commands
+   35. [https://www.digitalocean.com/community/tutorials/linux-commands#th
+       e-passwd-command-in-linux]
+
+The passwd command in Linux
+   36. [https://www.digitalocean.com/community/tutorials/linux-commands#fi
+       nal-note]
+
+Final Note
+
+// Tutorial //
+
+Top 50+ Linux Commands You MUST Know
+
+   Published on August 3, 2022
+     * [https://www.digitalocean.com/community/tags/unix-linux]UNIX/Linux
+
+   Default avatar
+
+   By [https://www.digitalocean.com/community/users/ninad]ninad
+   Top 50+ Linux Commands You MUST Know
+
+   While we believe that this content benefits our community, we have not
+   yet thoroughly reviewed it. If you have any suggestions for
+   improvements, please let us know by clicking the “report an issue“
+   button at the bottom of the tutorial.
+
+   Using Linux command on a regular basis? Today we’ll look at 50+ Linux
+   commands you must know! The commands listed below are some of the most
+   useful and most frequently used Linux commands. Let’s get right into
+   it!
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#top-50-linux
+-commands-you-must-know-as-a-regular-user]Top 50 Linux Commands You Must Know
+as a Regular
+User[https://www.digitalocean.com/community/tutorials/linux-commands#top-50-l
+inux-commands-you-must-know-as-a-regular-user]
+
+    1. ls - The most frequently used command in Linux to list directories
+    2. pwd - Print working directory command in Linux
+    3. cd - Linux command to navigate through directories
+    4. mkdir - Command used to create directories in Linux
+    5. mv - Move or rename files in Linux
+    6. cp - Similar usage as mv but for copying files in Linux
+    7. rm - Delete files or directories
+    8. touch - Create blank/empty files
+    9. ln - Create symbolic links (shortcuts) to other files
+   10. cat - Display file contents on the terminal
+   11. clear - Clear the terminal display
+   12. echo - Print any text that follows the command
+   13. less - Linux command to display paged outputs in the terminal
+   14. man - Access manual pages for all Linux commands
+   15. uname - Linux command to get basic information about the OS
+   16. whoami - Get the active username
+   17. tar - Command to extract and compress files in Linux
+   18. grep - Search for a string within an output
+   19. head - Return the specified number of lines from the top
+   20. tail - Return the specified number of lines from the bottom
+   21. diff - Find the difference between two files
+   22. cmp - Allows you to check if two files are identical
+   23. comm - Combines the functionality of diff and cmp
+   24. sort - Linux command to sort the content of a file while outputting
+   25. export - Export environment variables in Linux
+   26. zip - Zip files in Linux
+   27. unzip - Unzip files in Linux
+   28. ssh - Secure Shell command in Linux
+   29. service - Linux command to start and stop services
+   30. ps - Display active processes
+   31. kill and killall - Kill active processes by process ID or name
+   32. df - Display disk filesystem information
+   33. mount - Mount file systems in Linux
+   34. chmod - Command to change file permissions
+   35. chown - Command for granting ownership of files or folders
+   36. ifconfig - Display network interfaces and IP addresses
+   37. traceroute - Trace all the network hops to reach the destination
+   38. wget - Direct download files from the internet
+   39. ufw - Firewall command
+   40. iptables - Base firewall for all other firewall utilities to
+       interface with
+   41. apt, pacman, yum, rpm - Package managers depending on the distro
+   42. sudo - Command to escalate privileges in Linux
+   43. cal - View a command-line calendar
+   44. alias - Create custom shortcuts for your regularly used commands
+   45. dd - Majorly used for creating bootable USB sticks
+   46. whereis - Locate the binary, source, and manual pages for a command
+   47. whatis - Find what a command is used for
+   48. top - View active processes live with their system usage
+   49. useradd and usermod - Add new user or change existing users data
+   50. passwd - Create or update passwords for existing users
+
+   Now let’s dive a little deeper into each of these commands and
+   understand them in more detail. We already have a lot of existing
+   articles for each of those individual commands. For your convenience,
+   we’ll add links to all the existing articles, and continue to update
+   the article as new topics are covered.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ls-comma
+nd-in-linux]The ls command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-ls-
+command-in-linux]
+
+   The ls command is used to list files and directories in the current
+   working directory. This is going to be one of the most frequently used
+   Linux commands you must know of.
+
+   Ls Command Default
+
+   As you can see in the above image, using the command by itself without
+   any arguments will give us an output with all the files and directories
+   in the directory. The command offers a lot of flexibility in terms of
+   displaying the data in the output.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/ls-command-in-linux-u
+   nix]ls command (link to full article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-pwd-comm
+and-in-linux]The pwd command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-pwd
+-command-in-linux]
+
+   The pwd command allows you to print the current working directory on
+   your terminal. It’s a very basic command and solves its purpose very
+   well.
+
+   Pwd Default Output
+
+   Now, your terminal prompt should usually have the complete directory
+   anyway. But in case it doesn’t, this can be a quick command to see the
+   directory that you’re in. Another application of this command is when
+   creating scripts where this command can allow us to find the directory
+   where the script has been saved.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-cd-comma
+nd-in-linux]The cd command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-cd-
+command-in-linux]
+
+   While working within the terminal, moving around within directories is
+   pretty much a necessity. The cd command is one of the important Linux
+   commands you must know and it will help you to navigate through
+   directories. Just type cd followed by directory as shown below.
+root@ubuntu:~# cd <directory path>
+
+   Cd Command Default
+
+   As you can see in the above command, I simply typed cd /etc/ to get
+   into the /etc directory. We used the pwd command to print the current
+   working directory.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-mkdir-co
+mmand-in-linux]The mkdir command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-mkd
+ir-command-in-linux]
+
+   The mkdir command allows you to create directories from within the
+   terminal. The default syntax is mkdir followed by the directory name.
+root@ubuntu:~# mkdir <folder name>
+
+   Mkdir Default
+
+   As you can see in the above screenshot, we created the JournalDev
+   directory with just this simple command.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/mkdir-command-linux-u
+   nix]mkdir command (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-cp-and-m
+v-commands]The cp and mv
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+cp-and-mv-commands]
+
+   The cp and mv commands are equivalent to the copy-paste and cut-paste
+   in Windows. But since Linux doesn’t really have a command for renaming
+   files, we also make use of the mv command to rename files and folders.
+root@ubuntu:~# cp <source> <destination>
+
+   Cp Command Default
+
+   In the above command, we created a copy of the file named Sample. Let’s
+   see how what happens if we use the mv command in the same manner. For
+   this demonstration, I’ll delete the Sample-Copy file.
+root@ubuntu:~# mv <source> <destination
+
+   Mv Command Linux commands you should know
+
+   In the above case, since we were moving the file within the same
+   directory, it acted as rename. The file name is now changed.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/cp-command-in-linux-u
+   nix]cp command (Link to article) and
+   [https://www.digitalocean.com/community/tutorials/linux-mv-command-usag
+   e-with-examples]mv command (Link to article).
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-rm-comma
+nd-in-linux]The rm command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-rm-
+command-in-linux]
+
+   In the previous section, we deleted the Sample-Copy file. The rm
+   command is used to delete files and folders and is one of the important
+   Linux commands you must know.
+root@ubuntu:~# rm <file name>
+root@ubuntu:~# rm -r <folder/directory name>
+
+   Rm Default
+
+   To delete a directory, you have to add the -r argument to it. Without
+   the -r argument, rm command won’t delete directories.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-touch-co
+mmand-in-linux]The touch command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-tou
+ch-command-in-linux]
+
+   To create a new file, the touch command will be used. The touch keyword
+   followed by the file name will create a file in the current directory.
+root@ubuntu:~# touch <file name>
+
+   Touch Command - Linux commands you should know
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ln-comma
+nd-in-linux]The ln command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-ln-
+command-in-linux]
+
+   To create a link to another file, we use the ln command. This is one of
+   the important Linux commands that you should know if you’re planning to
+   work as a Linux administrator.
+root@ubuntu:~# ln -s <source path> <link name>
+
+   Symbolic Link Default
+
+   The basic syntax involves using the -s parameter so we can create a
+   symbolic link or soft link.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-cat-echo
+-and-less-commands]The cat, echo, and less
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+cat-echo-and-less-commands]
+
+   When you want to output the contents of a file, or print anything to
+   the terminal output, we make use of the cat or echo commands. Let’s see
+   their basic usage. I’ve added some text to our New-File that we created
+   earlier.
+root@ubuntu:~# cat <file name>
+root@ubuntu:~# echo <Text to print on terminal>
+
+   Cat And Echo Commands
+
+   As you can see in the above example, the cat command when used on our
+   “New-File”, prints the contents of the file. At the same time, when we
+   use echo command, it simply prints whatever follows after the command.
+
+   The less command is used when the output printed by any command is
+   larger than the screen space and needs scrolling. The less command
+   allows use to break down the output and scroll through it with the use
+   of the enter or space keys.
+
+   The simple way to do this is with the use of the pipe operator (|).
+root@ubuntu:~# cat /boot/grub/grub.cfg  | less
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-echo-command-ex
+   amples]echo command(Link to article) and
+   [https://www.digitalocean.com/community/tutorials/linux-cat-command-exa
+   mples]cat command(Link to article).
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-man-comm
+and-in-linux]The man command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-man
+-command-in-linux]
+
+   The man command is a very useful Linux command you must know. When
+   working with Linux, the packages that we download can have a lot of
+   functionality. Knowing it all is impossible.
+
+   The man pages offer a really efficient way to know the functionality of
+   pretty much all the packages that you can download using the package
+   managers in your Linux distro.
+root@ubuntu:~# man <command>
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-uname-an
+d-whoami-commands]The uname and whoami
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+uname-and-whoami-commands]
+
+   The uname and whoami commands allow you to know some basic information
+   which comes really handy when you work on multiple systems. In general,
+   if you’re working with a single computer, you won’t really need it as
+   often as someone who is a network administrator.
+
+   Let’s see the output of both the commands and the way we can use these.
+root@ubuntu:~# uname -a
+
+   Uname And Whoami Commands Linux commands you should know
+
+   The parameter -a which I’ve supplied to uname, stands for “all”. This
+   prints out the complete information. If the parameter is not added, all
+   you will get as the output is “Linux”.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-tar-zip-
+and-unzip-commands]The tar, zip, and unzip
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+tar-zip-and-unzip-commands]
+
+   The tar command in Linux is used to create and extract archived files
+   in Linux. We can extract multiple different archive files using the tar
+   command.
+
+   To create an archive, we use the -c parameter and to extract an
+   archive, we use the -x parameter. Let’s see it working.
+#Compress
+root@ubuntu:~# tar -cvf <archive name> <files seperated by space>
+#Extract
+root@ubuntu:~# tar -xvf <archive name>
+
+   Tar Basic Usage Linux commands you should know
+
+   In the first line, we created an archive named Compress.tar with the
+   New-File and New-File-Link. In the next command, we have extracted
+   those files from the archive.
+
+   Now coming to the zip and unzip commands. Both these commands are very
+   straight forward. You can use them without any parameters and they’ll
+   work as intended. Let’s see an example below.
+root@ubuntu:~# zip <archive name> <file names separated by space>
+root@ubuntu:~# unzip <archive name>
+
+   Zip Unzip Commands
+
+   Since we already have those files in the same directory, the unzip
+   command prompts us before overwriting those files.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-tar-command]tar
+   command (Link to article) and
+   [https://www.digitalocean.com/community/tutorials/zip-unzip-linux]zip
+   and unzip commands (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-grep-com
+mand-in-linux]The grep command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-gre
+p-command-in-linux]
+
+   If you wish to search for a specific string within an output, the grep
+   command comes into the picture. We can pipe (|) the output to the grep
+   command and extract the required string.
+root@ubuntu:~# <Any command with output> | grep "<string to find>"
+
+   Grep Command Example
+
+   This was a simple demonstration of the command. Learn more about the
+   [https://www.digitalocean.com/community/tutorials/grep-command-in-linux
+   -unix]grep command (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-head-and
+-tail-commands]The head and tail
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+head-and-tail-commands]
+
+   When outputting large files, the head and the tail commands come in
+   handy. I’ve created a file named “Words” with a lot of words arranged
+   alphabetically in it. The head command will output the first 10 lines
+   from the file, while the tail command will output the last 10. This
+   also includes any blank lines and not just lines with text.
+root@ubuntu:~# head <file name>
+root@ubuntu:~# tail <file name>
+
+   Head Command
+
+   As you can see, the head command showed 10 lines from the top of the
+   file.
+
+   Tail Command Linux commands you should know
+
+   The tail command outputted the bottom 10 lines from the file.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-tail-command-ex
+   amples]tail command(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-diff-com
+m-and-cmp-commands]The diff, comm, and cmp
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+diff-comm-and-cmp-commands]
+
+   Linux offers multiple commands to compare files. The diff, comm, and
+   cmp commands compare differences and are some of the most useful Linux
+   commands you must know. Let’s see the default outputs for all the three
+   commands.
+root@ubuntu:~# diff <file 1> <file 2>
+
+   Diff Command Linux commands you should know
+
+   As you can see above, I’ve added a small piece of text saying “This
+   line is edited” to the New-File-Edited file.
+root@ubuntu:~# cmp <file 1> <file 2>
+
+   Cmp Command
+
+   The cmp command only tells use the line number which is different. Not
+   the actual text. Let’s see what the comm command does.
+root@ubuntu:~# comm <file 1> <file2>
+
+   Comm Command
+
+   The text that’s aligned to the left is the text that’s only present in
+   file 1. The center-aligned text is present only in file 2. And the
+   right-aligned text is present in both the files.
+
+   By the looks of it, comm command makes the most sense when we’re trying
+   to compare larger files and would like to see everything arranged
+   together.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-sort-com
+mand-in-linux]The sort command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-sor
+t-command-in-linux]
+
+   The sort command will provide a sorted output of the contents of a
+   file. Let’s use the sort command without any parameters and see the
+   output.
+
+   The basic syntax of the sort command is:
+root@ubuntu:~# sort <filename>
+
+   Sort Command Linux commands you should know
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-export-c
+ommand-in-linux]The export command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-exp
+ort-command-in-linux]
+
+   The export command is specially used when exporting environment
+   variables in runtime. For example, if I wanted to update the bash
+   prompt, I’ll update the PS1 environment variable. The bash prompt will
+   be updated with immediate effect.
+root@ubuntu:~# export <variable name>=<value>
+
+   Export Environment Variables
+
+   If for some reason, your bash prompt doesn’t update, just type in bash
+   and you should see the updated terminal prompt.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/export-command-linux]
+   export command(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ssh-comm
+and-in-linux]The ssh command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-ssh
+-command-in-linux]
+
+   The ssh command allows us to connect to an external machine on the
+   network with the use of the ssh protocol. The basic syntax of the ssh
+   command is:
+root@ubuntu:~ -->> ssh username@hostname
+
+   Learn more about
+   [https://www.digitalocean.com/community/tutorials/ssh-command-linux-uni
+   x]ssh command(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-service-
+command-in-linux]The service command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-ser
+vice-command-in-linux]
+
+   The service command in Linux is used for starting and stopping
+   different services within the operating system. The basic syntax of the
+   command is as below.
+root@ubuntu:~ -->> service ssh status
+root@ubuntu:~ -->> service ssh stop
+root@ubuntu:~ -->> service ssh start
+
+   Service Command
+
+   As you can see in the image, the ssh server is running on our system.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ps-kill-
+and-killall-commands]The ps, kill, and killall
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+ps-kill-and-killall-commands]
+
+   While we’re on the topic of processes, let’s see how we can find active
+   processes and kill them. To find the running processes, we can simply
+   type ps in the terminal prompt and get the list of running processes.
+root@ubuntu:~ -->> ps
+root@ubuntu:~ -->> kill <process ID>
+root@ubuntu:~ -->> killall <process name>
+
+   For demonstration purposes, I’m creating a shell script with an
+   infinite loop and will run it in the background.
+
+   With the use of the & symbol, I can pass a process into the background.
+   As you can see, a new bash process with PID 14490 is created.
+
+   Ps Command Linux commands you should know
+
+   Now, to kill a process with the kill command, you can type kill
+   followed b the PID of the process.
+
+   Kill Command linux commands you should know
+
+   But if you do not know the process ID and just want to kill the process
+   with the name, you can make use of the killall command.
+
+   Killall Command linux commands you should know
+
+   You will notice that PID 14490 stayed active. That is because both the
+   times, I killed the sleep process.
+
+   Learn more about
+   [https://www.digitalocean.com/community/tutorials/linux-ps-command]ps
+   command (Link to article).
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-df-and-m
+ount-commands]The df and mount
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+df-and-mount-commands]
+
+   When working with Linux, the df and mount commands are very efficient
+   utilities to mount filesystems and get details of the file system.
+
+   When I say mount, it means that we’ll connect the device to a folder so
+   we can access the files from our filesystem. The default syntax to
+   mount a filesystem is below:
+root@ubuntu:~ -->> mount /dev/cdrom /mnt
+root@ubuntu:~ -->> df -h
+
+   In the above case, /dev/cdrom is the device that needs to be mounted.
+   Usually, a mountable device is found inside the /dev folder. /mnt is
+   the destination folder to mount the device to. You can change it to any
+   folder you want but I’ve used /mnt as it’s pretty much a system default
+   folder for mounting devices.
+
+   To see the mounted devices and get more information about them, we make
+   use of the df command. Just typing df will give us the data in bytes
+   which is not readable. So we’ll use the -h parameter to make the data
+   human-readable.
+
+   Df Command linux commands you should know
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-df-command-chec
+   k-disk-space]df command(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-chmod-an
+d-chown-commands]The chmod and chown
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+chmod-and-chown-commands]
+
+   The chmod and chown commands give us the functionality to change the
+   file permissions and file ownership are the most important Linux
+   commands you should know.
+
+   The main difference between the functions of the two commands is that
+   the chmod command allows changing file permissions, while chown allows
+   us to change the file owners.
+
+   The default syntax for both the commands is chmod <parameter> filename
+   and chown [user:group]user:group filename
+root@ubuntu:~ -->> chmod +x loop.sh
+root@ubuntu:~ -->> chmod root:root loop.sh
+
+   Chmod Command linux commands you should know
+
+   In the above example, we’re adding executable permissions to the
+   [http://loop.sh/]loop.sh file with the chmod command. Apart from that,
+   with the chown command, we’ve made it accessible only by root user and
+   users within the root group.
+
+   Chown Command linux commands you should know
+
+   As you will notice, the root root part is now changed to www-data which
+   is the new user who has full file ownership.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-chmod-command-e
+   xamples]chmod command(Link to article) and
+   [https://www.digitalocean.com/community/tutorials/linux-chown-command-e
+   xamples]chown command (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ifconfig
+-and-traceroute-commands]The ifconfig and traceroute
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+ifconfig-and-traceroute-commands]
+
+   Moving on to the networking section in Linux, we come across the
+   ifconfig and traceroute commands which will be frequently used if you
+   manage a network.
+
+   The ifconfig command will give you the list of all the network
+   interfaces along with the IP addresses, MAC addresses and other
+   information about the interface.
+root@ubuntu:~ -->> ifconfig
+
+   There are multiple parameters that can be used but we’ll work with the
+   basic command here.
+
+   Ifconfig Command linux commands you should know
+
+   When working with traceroute, you can simply specify the IP address,
+   the hostname or the domain name of the endpoint.
+root@ubuntu:~ -->> traceroute <destination address>
+
+   Traceroute Command linux commands to know
+
+   Now obviously, localhost is just one hop (which is the network
+   interface itself). You can try this same command with any other domain
+   name or IP address to see all the routers that your data packets pass
+   through to reach the destination.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/linux-ifconfig-comman
+   d-examples]ifconfig command(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-wget-com
+mand-in-linux]The wget command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-wge
+t-command-in-linux]
+
+   If you want to download a file from within the terminal, the wget
+   command is one of the handiest command-line utilities available. This
+   will be one of the important Linux commands you should know when
+   working with source files.
+
+   When you specify the link for download, it has to directly be a link to
+   the file. If the file cannot be accessed by the wget command, it will
+   simply download the webpage in HTML format instead of the actual file
+   that you wanted.
+
+   Let’s try an example. The basic syntax of the wget command is :
+root@ubuntu:~ -->> wget <link to file>
+OR
+root@ubuntu:~ -->> wget -c <link to file>
+
+   The -c argument allows us to resume an interrupted download.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-ufw-and-
+iptables-commands]The ufw and iptables
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+ufw-and-iptables-commands]
+
+   UFW and IPTables are firewall interfaces for the Linux Kernel’s
+   netfilter firewall. IPTables directly passes firewall rules to
+   netfilter while UFW configures the rules in IPTables which then sends
+   those rules to netfilter.
+
+   Why do we need UFW when we have IPTables? Because IPTables is pretty
+   difficult for a newbie. UFW makes things extremely easy. See the below
+   example where we are trying to allow the port 80 for our webserver.
+root@ubuntu:~# iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+root@ubuntu:~# ufw allow 80
+
+   I’m sure you now know why UFW was created! Look at how easy the syntax
+   becomes. Both these firewalls are very comprehensive and can allow you
+   to create any kind of configuration required for your network. Learn at
+   least the basics of UFW or IPTables firewall as these are the Linux
+   commands you must know.
+
+   Learn more
+   [https://www.digitalocean.com/community/tutorials/opening-a-port-on-lin
+   ux]opening ports on Linux(Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#package-mana
+gers-in-linux]Package Managers in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#package
+-managers-in-linux]
+
+   Different distros of Linux make use of different package managers.
+   Since we’re working on a Ubuntu server, we have the apt package
+   manager. But for someone working on a Fedora, Red Hat, Arch, or Centos
+   machine, the package manager will be different.
+     * Debian and Debian-based distros - apt install <package name>
+     * Arch and Arch-based distros - pacman -S <package name>
+     * Red Hat and Red Hat-based distros - yum install <package name>
+     * Fedora and CentOS - yum install <package>
+
+   Getting yourself well versed with the package manager of your
+   distribution will make things much easier for you in the long run. So
+   even if you have a GUI based package management tool installed, try an
+   make use of the CLI based tool before you move on to the GUI utility.
+   Add these to your list of Linux commands you must know.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-sudo-com
+mand-in-linux]The sudo command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-sud
+o-command-in-linux]
+
+   “With great power, comes great responsibility”
+
+   This is the quote that’s displayed when a sudo enabled user(sudoer)
+   first makes use of the sudo command to escalate privileges. This
+   command is equivalent to having logged in as root (based on what
+   permissions you have as a sudoer).
+non-root-user@ubuntu:~# sudo <command you want to run>
+Password:
+
+   Just add the word sudo before any command that you need to run with
+   escalated privileges and that’s it. It’s very simple to use, but can
+   also be an added security risk if a malicious user gains access to a
+   sudoer.
+
+   Learn more about the
+   [https://www.digitalocean.com/community/tutorials/sudo-command-in-linux
+   ]sudo command (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-cal-comm
+and-in-linux]The cal command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-cal
+-command-in-linux]
+
+   Ever wanted to view the calendar in the terminal? Me neither! But there
+   apparently are people who wanted it to happen and well here it is.
+
+   The cal command displays a well-presented calendar on the terminal.
+   Just enter the word cal on your terminal prompt.
+root@ubuntu:~# cal
+root@ubuntu:~# cal May 2019
+
+   Cal Command Output
+
+   Even though I don’t need it, it’s a really cool addition! I’m sure
+   there are people who are terminal fans and this is a really amazing
+   option for them.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-alias-co
+mmand]The alias
+command[https://www.digitalocean.com/community/tutorials/linux-commands#the-a
+lias-command]
+
+   Do you have some commands that you run very frequently while using the
+   terminal? It could be rm -r or ls -l, or it could be something longer
+   like tar -xvzf. This is one of the productivity-boosting Linux commands
+   you must know.
+
+   If you know a command that you run very often, it’s time to create an
+   alias. What’s an alias? In simple terms, it’s another name for a
+   command that you’ve defined.
+root@ubuntu:~# alias lsl="ls -l"
+OR
+root@ubuntu:~# alias rmd="rm -r"
+
+   Now every time you enter lsl or rmd in the terminal, you’ll receive the
+   output that you’d have received if you had used the full commands.
+
+   The examples here are for really small commands that you can still type
+   by hand every time. But in some situations where a command has too many
+   arguments that you need to type, it’s best to create a shorthand
+   version of the same.
+
+   Learn more about
+   [https://www.digitalocean.com/community/tutorials/linux-alias-command]a
+   lias command (LInk to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-dd-comma
+nd-in-linux]The dd command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-dd-
+command-in-linux]
+
+   This command was created to convert and copy files from multiple file
+   system formats. In the current day, the command is simply used to
+   create bootable USB for Linux but there still are some things important
+   you can do with the command.
+
+   For example, if I wanted to back up the entire hard drive as is to
+   another drive, I’ll make use of the dd command.
+root@ubuntu:~# dd if = /dev/sdb of = /dev/sda
+
+   The if and of arguments stand for input file and output file.
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-whereis-
+and-whatis-commands]The whereis and whatis
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+whereis-and-whatis-commands]
+
+   The names of the commands make it very clear as to their functionality.
+   But let’s demonstrate their functionality to make things more clear.
+
+   The whereis command will output the exact location of any command that
+   you type in after the whereis command.
+root@ubuntu:~# whereis sudo
+sudo: /usr/bin/sudo /usr/lib/sudo /usr/share/man/man8/sudo.8.gz
+
+   The whatis command gives us an explanation of what a command actually
+   is. Similar to the whereis command, you’ll receive the information for
+   any command that you type after the whatis command.
+root@ubuntu:~# whatis sudo
+sudo (8) - execute a command as another user
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-top-comm
+and-in-linux]The top command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-top
+-command-in-linux]
+
+   A few sections earlier, we talked about the ps command. You observed
+   that the ps command will output the active processes and end itself.
+
+   The top command is like a CLI version of the task manager in Windows.
+   You get a live view of the processes and all the information
+   accompanying those processes like memory usage, CPU usage, etc.
+
+   To get the top command, all you need to do is type the word top in your
+   terminal.
+
+   Top Command Output Linux commands you shoud know
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-useradd-
+and-usermod-commands]The useradd and usermod
+commands[https://www.digitalocean.com/community/tutorials/linux-commands#the-
+useradd-and-usermod-commands]
+
+   The useradd or adduser commands are the exact same commands where
+   adduser is just a symbolic link to the useradd command. This command
+   allows us to create a new user in Linux.
+root@ubuntu:~# useradd JournalDev -d /home/JD
+
+   The above command will create a new user named JournalDev with the home
+   directory as /home/JD.
+
+   The usermod command, on the other hand, is used to modify existing
+   users. You can modify any value of the user including the groups, the
+   permissions, etc.
+
+   For example, if you want to add more groups to the user, you can type
+   in:
+root@ubuntu:~# usermod JournalDev -a -G sudo, audio, mysql
+
+   Learn more on
+   [https://www.digitalocean.com/community/tutorials/create-manage-new-use
+   rs-linux]how to create and manage users on Linux (Link to article)
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#the-passwd-c
+ommand-in-linux]The passwd command in
+Linux[https://www.digitalocean.com/community/tutorials/linux-commands#the-pas
+swd-command-in-linux]
+
+   Now that you know how to create new users, let’s also set the password
+   for them. The passwd command lets you set the password for your own
+   account, or if you have the permissions, set the password for other
+   accounts.
+
+   The command usage is pretty simple:
+root@ubuntu:~# passwd
+New password:
+
+   Passwd Command
+
+   If you add the username after passwd, you can set passwords for other
+   users. Enter the new password twice and you’re done. That’s it! You
+   will have a new password set for the user!
+
+[https://www.digitalocean.com/community/tutorials/linux-commands#final-note]F
+inal
+Note[https://www.digitalocean.com/community/tutorials/linux-commands#final-no
+te]
+
+   This happened to be a very long article but I’m sure will be something
+   you can refer to whenever required. As we add more articles to
+   JournalDev, we will continue to add links to those articles here.
+
+   We hope this article was useful to you. If you have any questions, feel
+   free to comment down below.
+
+   Thanks for learning with the DigitalOcean Community. Check out our
+   offerings for compute, storage, networking, and managed databases.
+
+   [https://www.digitalocean.com/]Learn more about us
+     __________________________________________________________________
+
+   About the authors
+   Default avatar
+   [https://www.digitalocean.com/community/users/ninad]ninad
+
+   author
+
+Still looking for an answer?
+
+   [https://www.digitalocean.com/community/questions]Ask a
+   question[https://www.digitalocean.com/community]Search for more help
+     __________________________________________________________________
+
+   Was this helpful?
+   (BUTTON) Yes (BUTTON) No
+
+   [https://twitter.com/share?text=Top%2050+%20Linux%20Commands%20You%20MU
+   ST%20Know&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorial
+   s%2Flinux-commands%3Futm_medium%3Dcommunity%26utm_source%3Dtwshare%26ut
+   m_content%3Dlinux-commands][https://www.facebook.com/sharer/sharer.php?
+   u=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Flinux-co
+   mmands%3Futm_medium%3Dcommunity%26utm_source%3Dtwshare%26utm_content%3D
+   linux-commands]
+   (BUTTON) Comments
+   [https://www.digitalocean.com/community/users/journaldev]JournalDev
+   DigitalOcean Employee
+   DigitalOcean Employee badge
+   •
+   [https://www.digitalocean.com/community/tutorials/linux-commands?commen
+   t=179637]May 14, 2021
+   (BUTTON)
+
+   Amazing! Perfect for newbies to Linux! PERFECT! THANK YOU!
+
+   - Julian
+
+   [https://www.digitalocean.com/community/users/journaldev]JournalDev
+   DigitalOcean Employee
+   DigitalOcean Employee badge
+   •
+   [https://www.digitalocean.com/community/tutorials/linux-commands?commen
+   t=179636]February 6, 2020
+   (BUTTON)
+
+   Thank you for your work.
+
+   - jcag
+
+   [https://creativecommons.org/licenses/by-nc-sa/4.0/]Creative Commons
+   [https://creativecommons.org/licenses/by-nc-sa/4.0/]This work is
+   licensed under a Creative Commons Attribution-NonCommercial- ShareAlike
+   4.0 International License.
+
+Try DigitalOcean for free
+
+   Click below to sign up and get $200 of credit to try our products over
+   60 days!
+
+   [https://cloud.digitalocean.com/registrations/new?refcode=f6fcd01aaffb]
+   Sign up
+
+Popular Topics
+
+     * [https://www.digitalocean.com/community/tutorials?q=%5BUbuntu%5D]Ub
+       untu
+     * [https://www.digitalocean.com/community/tutorials?q=%5BLinux%20Basi
+       cs%5D]Linux Basics
+     * [https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5
+       D]JavaScript
+     * [https://www.digitalocean.com/community/tutorials?q=%5BPython%5D]Py
+       thon
+     * [https://www.digitalocean.com/community/tutorials?q=%5BMySQL%5D]MyS
+       QL
+     * [https://www.digitalocean.com/community/tutorials?q=%5BDocker%5D]Do
+       cker
+     * [https://www.digitalocean.com/community/tutorials?q=%5BKubernetes%5
+       D]Kubernetes
+     * [https://www.digitalocean.com/community/tutorials]All tutorials
+     * [https://www.cloudways.com/en/managed-hosting-for-digital-ocean.php
+       /?id=1227510&utm_source=digitalocean.com&utm_medium=referral&utm_ca
+       mpaign=gen-do-ws-csite-snavf&data1=community_site&data2=gen-do-ws-c
+       site-snavf]Free Managed Hosting
+
+Join the Tech Talk
+
+   Success! Thank you! Please check your email for further details.
+
+   Please complete your information!
+   ____________________ ____________________ ____________________ Sign up
+
+   card icon
+
+Get our biweekly newsletter
+
+   Sign up for Infrastructure as a Newsletter.
+   [https://www.digitalocean.com/community/newsletter]Sign up
+   card icon
+
+Hollie's Hub for Good
+
+   Working on improving health and education, reducing inequality, and
+   spurring economic growth? We’d like to help.
+   [https://www.digitalocean.com/community/pages/hollies-hub-for-good]Lear
+   n more
+   card icon
+
+Become a contributor
+
+   You get paid; we donate to tech nonprofits.
+   [https://www.digitalocean.com/community/pages/write-for-digitalocean]Le
+   arn more
+
+Featured on Community
+
+   [https://www.digitalocean.com/community/tutorials/building-optimized-co
+   ntainers-for-kubernetes]Kubernetes
+   Course[https://www.digitalocean.com/community/tutorial-series/how-to-co
+   de-in-python-3]Learn Python
+   3[https://www.digitalocean.com/community/tutorials/machine-learning-pro
+   jects-python-a-digitalocean-ebook]Machine Learning in
+   Python[https://www.digitalocean.com/community/tutorials/how-to-write-yo
+   ur-first-program-in-go]Getting started with
+   Go[https://www.digitalocean.com/community/tutorials/an-introduction-to-
+   kubernetes]Intro to Kubernetes
+
+DigitalOcean Products
+
+   [https://www.cloudways.com/en]Cloudways[https://www.digitalocean.com/pr
+   oducts/droplets]Virtual
+   Machines[https://www.digitalocean.com/products/managed-databases]Manage
+   d Databases[https://www.digitalocean.com/products/kubernetes]Managed
+   Kubernetes[https://www.digitalocean.com/products/block-storage]Block
+   Storage[https://www.digitalocean.com/products/spaces]Object
+   Storage[https://marketplace.digitalocean.com/]Marketplace[https://www.d
+   igitalocean.com/products/vpc]VPC[https://www.digitalocean.com/products/
+   load-balancer]Load Balancers
+
+Welcome to the developer cloud
+
+   DigitalOcean makes it simple to launch in the cloud and scale up as you
+   grow – whether you’re running one virtual machine or ten thousand.
+   [https://www.digitalocean.com/products]Learn more ->
+   [https://www.digitalocean.com/products]DigitalOcean Cloud Control Panel
+
+Get started for free
+
+   Enter your email to get $200 in credit for your first 60 days with
+   DigitalOcean.
+   ____________________Send My Promo
+
+   New accounts only. By submitting your email you agree to our
+   [https://www.digitalocean.com/legal/privacy-policy]Privacy Policy.
+
+Company
+
+     * [https://www.digitalocean.com/about]About
+     * [https://investors.digitalocean.com/governance/executive-management
+       /default.aspx]Leadership
+     * [https://www.digitalocean.com/blog]Blog
+     * [https://www.digitalocean.com/careers]Careers
+     * [https://www.digitalocean.com/customers]Customers
+     * [https://www.digitalocean.com/partners]Partners
+     * [https://www.digitalocean.com/channel-partners]Channel Partners
+     * [https://www.digitalocean.com/referral-program]Referral Program
+     * [https://www.digitalocean.com/go/affiliates]Affiliate Program
+     * [https://www.digitalocean.com/press]Press
+     * [https://www.digitalocean.com/legal]Legal
+     * [https://www.digitalocean.com/security]Security
+     * [https://investors.digitalocean.com/]Investor Relations
+     * [https://www.digitalocean.com/impact]DO Impact
+
+Products
+
+     * [https://www.digitalocean.com/products]Products Overview
+     * [https://www.digitalocean.com/products/droplets]Droplets
+     * [https://www.digitalocean.com/products/kubernetes]Kubernetes
+     * [https://www.digitalocean.com/products/app-platform]App Platform
+     * [https://www.digitalocean.com/products/functions]Functions
+     * [https://www.cloudways.com/en]Cloudways
+     * [https://www.digitalocean.com/products/managed-databases]Managed
+       Databases
+     * [https://www.digitalocean.com/products/spaces]Spaces
+     * [https://www.digitalocean.com/products/marketplace]Marketplace
+     * [https://www.digitalocean.com/products/load-balancer]Load Balancers
+     * [https://www.digitalocean.com/products/block-storage]Block Storage
+     * [https://www.digitalocean.com/products/tools-and-integrations]Tools
+       & Integrations
+     * [https://docs.digitalocean.com/reference/api/]API
+     * [https://www.digitalocean.com/pricing]Pricing
+     * [https://docs.digitalocean.com/]Documentation
+     * [https://docs.digitalocean.com/release-notes/]Release Notes
+     * [https://www.digitalocean.com/products/uptime-monitoring]Uptime
+
+Community
+
+     * [https://www.digitalocean.com/community/tutorials]Tutorials
+     * [https://www.digitalocean.com/community/questions]Q&A
+     * [https://css-tricks.com/]CSS-Tricks
+     * [https://www.digitalocean.com/community/pages/write-for-digitalocea
+       n]Write for DOnations
+     * [https://www.digitalocean.com/currents]Currents Research
+     * [https://www.digitalocean.com/hatch]Hatch Startup Program
+     * [https://www.digitalocean.com/deploy]deploy by DigitalOcean
+     * [http://store.digitalocean.com/]Shop Swag
+     * [https://www.digitalocean.com/research]Research Program
+     * [https://www.digitalocean.com/open-source]Open Source
+     * [https://www.digitalocean.com/community/pages/code-of-conduct]Code
+       of Conduct
+     * [https://www.digitalocean.com/community/newsletter]Newsletter
+       Signup
+     * [https://www.meetup.com/pro/digitalocean/?utm_source=do_www]Meetups
+
+Solutions
+
+     * [https://www.digitalocean.com/solutions/website-hosting]Website
+       Hosting
+     * [https://www.digitalocean.com/solutions/vps-hosting]VPS Hosting
+     * [https://www.digitalocean.com/solutions/web-mobile-apps]Web &
+       Mobile Apps
+     * [https://www.digitalocean.com/solutions/gaming-development]Game
+       Development
+     * [https://www.digitalocean.com/solutions/streaming]Streaming
+     * [https://www.digitalocean.com/solutions/vpn]VPN
+     * [https://www.digitalocean.com/solutions/saas]SaaS Platforms
+     * [https://www.digitalocean.com/solutions/blockchain]Cloud Hosting
+       for Blockchain
+     * [https://www.digitalocean.com/resources]Startup Resources
+
+Contact
+
+     * [https://www.digitalocean.com/support]Support
+     * [https://www.digitalocean.com/company/contact/sales?referrer=footer
+       ]Sales
+     * [https://www.digitalocean.com/company/contact/abuse]Report Abuse
+     * [https://status.digitalocean.com/]System Status
+     * [https://ideas.digitalocean.com/]Share your ideas
+
+Company
+
+     * [https://www.digitalocean.com/about]About
+     * [https://investors.digitalocean.com/governance/executive-management
+       /default.aspx]Leadership
+     * [https://www.digitalocean.com/blog]Blog
+     * [https://www.digitalocean.com/careers]Careers
+     * [https://www.digitalocean.com/customers]Customers
+     * [https://www.digitalocean.com/partners]Partners
+     * [https://www.digitalocean.com/channel-partners]Channel Partners
+     * [https://www.digitalocean.com/referral-program]Referral Program
+     * [https://www.digitalocean.com/go/affiliates]Affiliate Program
+     * [https://www.digitalocean.com/press]Press
+     * [https://www.digitalocean.com/legal]Legal
+     * [https://www.digitalocean.com/security]Security
+     * [https://investors.digitalocean.com/]Investor Relations
+     * [https://www.digitalocean.com/impact]DO Impact
+
+Products
+
+     * [https://www.digitalocean.com/products]Products Overview
+     * [https://www.digitalocean.com/products/droplets]Droplets
+     * [https://www.digitalocean.com/products/kubernetes]Kubernetes
+     * [https://www.digitalocean.com/products/app-platform]App Platform
+     * [https://www.digitalocean.com/products/functions]Functions
+     * [https://www.cloudways.com/en]Cloudways
+     * [https://www.digitalocean.com/products/managed-databases]Managed
+       Databases
+     * [https://www.digitalocean.com/products/spaces]Spaces
+     * [https://www.digitalocean.com/products/marketplace]Marketplace
+     * [https://www.digitalocean.com/products/load-balancer]Load Balancers
+     * [https://www.digitalocean.com/products/block-storage]Block Storage
+     * [https://www.digitalocean.com/products/tools-and-integrations]Tools
+       & Integrations
+     * [https://docs.digitalocean.com/reference/api/]API
+     * [https://www.digitalocean.com/pricing]Pricing
+     * [https://docs.digitalocean.com/]Documentation
+     * [https://docs.digitalocean.com/release-notes/]Release Notes
+     * [https://www.digitalocean.com/products/uptime-monitoring]Uptime
+
+Community
+
+     * [https://www.digitalocean.com/community/tutorials]Tutorials
+     * [https://www.digitalocean.com/community/questions]Q&A
+     * [https://css-tricks.com/]CSS-Tricks
+     * [https://www.digitalocean.com/community/pages/write-for-digitalocea
+       n]Write for DOnations
+     * [https://www.digitalocean.com/currents]Currents Research
+     * [https://www.digitalocean.com/hatch]Hatch Startup Program
+     * [https://www.digitalocean.com/deploy]deploy by DigitalOcean
+     * [http://store.digitalocean.com/]Shop Swag
+     * [https://www.digitalocean.com/research]Research Program
+     * [https://www.digitalocean.com/open-source]Open Source
+     * [https://www.digitalocean.com/community/pages/code-of-conduct]Code
+       of Conduct
+     * [https://www.digitalocean.com/community/newsletter]Newsletter
+       Signup
+     * [https://www.meetup.com/pro/digitalocean/?utm_source=do_www]Meetups
+
+Solutions
+
+     * [https://www.digitalocean.com/solutions/website-hosting]Website
+       Hosting
+     * [https://www.digitalocean.com/solutions/vps-hosting]VPS Hosting
+     * [https://www.digitalocean.com/solutions/web-mobile-apps]Web &
+       Mobile Apps
+     * [https://www.digitalocean.com/solutions/gaming-development]Game
+       Development
+     * [https://www.digitalocean.com/solutions/streaming]Streaming
+     * [https://www.digitalocean.com/solutions/vpn]VPN
+     * [https://www.digitalocean.com/solutions/saas]SaaS Platforms
+     * [https://www.digitalocean.com/solutions/blockchain]Cloud Hosting
+       for Blockchain
+     * [https://www.digitalocean.com/resources]Startup Resources
+
+Contact
+
+     * [https://www.digitalocean.com/support]Support
+     * [https://www.digitalocean.com/company/contact/sales?referrer=footer
+       ]Sales
+     * [https://www.digitalocean.com/company/contact/abuse]Report Abuse
+     * [https://status.digitalocean.com/]System Status
+     * [https://ideas.digitalocean.com/]Share your ideas
+
+   © 2023 DigitalOcean, LLC.
+     * [https://www.twitch.tv/digitaloceantv]
+     * [https://twitter.com/digitalocean]
+     * [https://www.facebook.com/DigitalOceanCloudHosting]
+     * [https://www.instagram.com/thedigitalocean/]
+     * [https://www.youtube.com/DigitalOcean]
+     * [https://www.linkedin.com/company/digitalocean/]
+     * [https://dev.to/digitalocean]
+     * [https://www.glassdoor.com/Overview/Working-at-DigitalOcean-EI_IE82
+       3482.11,23.htm]
+     * [https://www.builtinnyc.com/company/digitalocean]

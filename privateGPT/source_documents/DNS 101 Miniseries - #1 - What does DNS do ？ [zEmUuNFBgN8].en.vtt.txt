@@ -1,0 +1,62 @@
+welcome to the first video in this
+series where I want to help you
+understand DNS DNS is one of the core
+services on the internet when it doesn t
+work applications and other services
+will fail now in this video series I ll
+be covering what DNS does why it s
+structured the way that it is how DNS
+Works to get us answers to queries and
+I ll finish up by covering some of its
+key limitations now with that being said
+let s jump in and get started now before
+I cover how DNS works and why it works
+in the specific way that it does I want
+you to be a hundred percent sure of what
+functionality DNS provides now when you
+access any website you type the name
+into your browser for example
+www netflix com now you might imagine
+that the name is used to connect to the
+netflix com servers and stream your
+movie or TV show but that s not actually
+how it or any internet app generally
+Works simply put humans like names
+because they re easy to remember but
+networks or servers not so much to
+communicate with Netflix your computer
+and any networking in between needs the
+IP addresses of the Netflix servers DNS
+actually does many different things but
+at its core it s like a big contact
+database in this context it links names
+to IP addresses so using DNS when
+accessing Netflix we would ask DNS for
+the IP address of Netflix
+it would return the answer and then our
+device would use that IP address to
+connect over the Internet to the Netflix
+servers so conceptually the main piece
+of functionality which DNS provides is
+that it s a huge database which converts
+DNS names so netflix com into IP
+addresses now so far I hope that this
+makes sense at this point it sounds just
+like a database so nothing complex and
+you might be asking yourself why not
+just have one DNS server globally or a
+small collection of servers now we re
+going to review that in the next video
+for this video I just wanted to set the
+scene and make sure you understand
+exactly what functionality DNS provides
+DNS is critical many large scale
+failures on the internet are caused by
+either failed DNS or badly implemented
+DNS infrastructure if you want to be
+effective at designing or implementing
+Cloud Solutions or network based
+applications you have to understand DNS
+so if you are interested in knowing more
+then go ahead and move to the next video
+where I ll cover why DNS is structured

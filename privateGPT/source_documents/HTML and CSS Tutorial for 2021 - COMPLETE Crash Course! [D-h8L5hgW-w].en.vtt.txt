@@ -1,0 +1,3747 @@
+have you been in the dark
+when it comes to html and css well
+i m gonna show you exactly how to create
+this fully responsive design that works
+in a browser in your tablets and your
+phones
+here in this crash course
+
+hello everybody what s up gary simon
+here so it s the beginning of 2021 and i
+like to do refresher crash courses
+uh in various topics and html css and
+basically
+front end development is one of them
+that i like to do
+so just a couple weeks ago i showed you
+all
+how to create this design here using
+adobe experience design
+in a crash course that i made pretty
+nice modern looking design
+has a mobile version and so that s what
+i m going to do
+in this video we re going to make this a
+reality in the browser and make it work
+and i ll show you one more time i and
+we re going to make it function
+by writing html and css
+i in a little bit of javascript just to
+make that little mobile menu work
+and it s going to be fully responsive or
+in other words it s going to work
+on multiple devices no matter what the
+device size is it s going to look and
+work and function
+great all right so a couple things i
+want to mention before we start who is
+this crash course for well if you re
+a beginner and you just want kind of
+like a quick look at what front end
+development
+is which is the writing of html css and
+javascript
+i this will be for you but i have to say
+it is a crash course i m packing so much
+information here sometimes it s
+intermediate to advanced level concepts
+that there s no way if you re an
+absolute beginner that
+by the end of watching this you re going
+to be able to just do this on your own
+without
+looking up google or whatever you re
+going to your head s going to be
+spinning
+but if you pay close attention you
+should walk away with a pretty
+decent understanding of how all this
+stuff works
+and that s my goal so of course if
+you re intermediate
+you could also probably take away even
+more from this course because you re
+going to have that foundational
+experience first
+but nonetheless i am going to do my best
+to explain all the basic concepts as
+much as possible as it pertains to html
+css in that tiny little bit of
+javascript
+so without that but that said one more
+thing i do want to show you
+is if you re interested in ui ux design
+go to my site designcourse com
+right now it s not ready yet so you have
+to enter your email to be notified but
+it might be ready depending on when
+you re watching this
+alright so with that said make sure to
+subscribe if you enjoy this
+and let s get started up but wait one
+second you re about to watch my crash
+course on front end development
+now if you re really interested in
+learning front end development
+in a robust environment then you should
+definitely check out the sponsor of
+this video scrimma com they ve recently
+launched their front end development
+career path which is a collection of
+courses that cover html
+css javascript react and much much more
+as you see
+it s over 75 hours of awesome content
+there are hundreds of interactive coding
+challenges and it s all geared towards
+helping you go from beginner to someone
+that s hireable as a front end developer
+so check out the first link in the
+description below to get 50
+off all right so when it comes to
+front end development
+the very first thing that you need
+before you write any code is going to be
+a place to write your code or a piece of
+software and that is referred to as a
+code editor
+all right so there are many different
+code editors
+but the one that s been most popular in
+my experience for the last
+four or five years or so is visual
+studio code does this mean that you have
+to use it
+no if there s something else like
+sublime text or something else that
+you ve been using
+and you re more comfortable with that go
+right ahead but visual studio code is
+what i m going to be using
+it s free and i it s it s very robust
+it s easy to use as well so that s what
+we re going to use so if you want to
+download that you haven t yet just go
+to code visualstudio com this is from
+microsoft
+like i said it s free and just download
+it and install it it also has a mac os
+version as well
+all right and so once you get that
+installed go ahead and run it
+and when you run it you re going to see
+something like this basically
+um what we want is we want to start a
+new
+project um so i ve created
+a folder already in fact i
+if we go right here to view and we come
+down to a terminal
+you ll see right here we have like a
+code area it s like basically where
+um you re currently currently at in
+terms of your folders
+um so if you want to make like a new
+project folder for this
+don t type that command just wait a
+second um
+go ahead and just type in mkdir that
+means make directory or directory is
+another name for a folder
+and then just name it something like 20
+21 front end
+like that and then hit enter and that
+gave me that error because i already
+created that folder
+but assuming it doesn t exist for you as
+well it ll let you it ll automatically
+create it
+and then after creating it you type cd
+2021
+front end now we can close this and then
+you can go to open
+folder and then just choose 2021 front
+end you may have to navigate to your
+folder depending on where you re at in
+your
+your current machine um and then when
+you do that just hit select folder and
+then it ll be this blank
+area so right here i ll just do a real
+quick and extremely quick overview of
+the user interface here
+with visual studio code over here you
+have you re basically like a
+sidebar navigation where we have what s
+called the explorer
+and when you click on it it kind of
+collapses this area right here which is
+referred to as the
+explorer right here we re not going to
+be running and debugging anything
+you can search for files and folders
+like that
+you have what s called source control
+again we re not going to be messing with
+that at all
+and then we also have plugins and we re
+going to install two different plugins
+here
+um the live sas compiler so if you
+search for that just type live sas
+compiler and then click on it
+there will be an install button right
+here i already have it installed
+so install that and then also live
+server as well
+we ll install that too and then um when
+you install these
+uh it ll automatically restart uh visual
+studio code
+so then you re gonna find uh in a second
+you re you re gonna find the actual code
+editor when we create files
+so we want to create a file right here
+we re going to click on this little new
+file
+button and we re going to name it
+index html all right so whenever you re
+working with html files
+you give it a name and then dot html
+hit enter and after creating that you ll
+see we have this little icon and then it
+creates this little document right here
+with this blinking cursor and all the
+code lines this is where you write your
+html
+exciting stuff now before we write
+anything
+we re going to also create a folder all
+right so
+in this folder we re going to name it
+css do we have to create a css folder no
+but it s nice to have your files
+organized and so we re going to create
+inside of here with once this is
+selected
+another file and then we re going to
+name that
+i think i ll just name this main dot
+s c s s
+now you re probably wondering why not
+write it as main css
+well that s a great question you can if
+you just want to write what s called
+strict
+css you can just put main css right here
+if you wish
+but i m going to use something called
+sas which is css with a few different
+super powers
+and i ll explain that in a second but
+that s why we
+installed the live sas compiler plugin
+so i m going to right click rename this
+to s c s s all right
+and then we re going to click right here
+after you have that live sas compiler
+installed
+watch sas all right it s going to bring
+up the terminal area
+or the output area rather we can just
+hide this for now
+now when we did that it created these
+two other files you can ignore the
+dot map file but we could see that
+there s also a main css file
+all right and it s empty basically this
+is just a comment
+i and so what it s doing is when we
+start to write css a little bit later on
+in this course it s going to take
+everything we write here and it s going
+to
+basically compile it down into regular
+css
+you ll see the difference when we get to
+the css portion so hopefully i m not
+confusing you too much but
+you should understand once we get to
+that point in time all right
+so we go back to our index html
+um we re also going to right click on
+the index html file
+open with live server and that s the
+live server plugin that we
+installed so this won t be there if you
+didn t install it so
+now it s opened up your browser all
+right you see we have this big blank
+page
+it may say 127 0 0 1 cool and 5500
+forward slash your index html um so this
+is what your site will look like
+when it s in the browser now one thing
+that s awesome about this
+live server plugin is every time you
+make an adjustment or an
+update in your code and hit save like
+control
+s it will reflect that automatically
+automatically refresh the browser for
+you so
+because we re going to get started with
+with what s called
+mobile first css mobile first design
+we re going to take our browser and
+squish it into the
+you know into almost what looks like to
+be a really large
+uh really tall phone all right so that s
+why i m pushing this all the way over to
+the right side of my browser
+um we re also going to yeah as you can
+see live reloads not possible without a
+body or a head tag
+don t worry about that we ll fix that in
+a second so i m going to go ahead and
+take this over here
+our visual studio code window and then
+put it right next to there
+so now we have both of these in view so
+that we can see
+what we re doing all right so that
+little error or the little message that
+just showed up it can t work without a
+body or a head tag well what does that
+mean
+well before explain we re going to hit
+shift now this is only going to work in
+visual studio code by the way so
+hopefully
+you re using you re using visual studio
+code this is what s called an emmet
+abbreviation
+uh when you hit exclamation point enter
+it s going to create like this big code
+snippet and it s going to output a bunch
+of
+these lines of html and that just
+helps you if you want to try to move
+quickly
+it helps you get all that quick
+boilerplate html out of the way because
+this is all stuff that s standard that
+you see in every html document
+um so it s just a real fast way to get
+started
+and there s a lot of other abbreviations
+as they re called that allowed you write
+html quicker and i ll show you what
+those are as well
+i don t want to jump ahead of myself too
+much this is a crash course
+i but i do want to show you some quick
+ways of doing things so
+if you re looking at this code right
+here and by the way let s go ahead and
+hit save
+
+it is not working so test two
+there we go so you may have to refresh
+after you ve put in the html and the
+head and all that stuff
+so now every time you uh you actually
+save
+something or do something and hit save
+it automatically shows up here in the
+browser so that s live reloading
+all right so i m going to spend a little
+bit of time just talking about the
+structure of html
+and what all this stuff is um
+so in general you have a few different
+your your html document is structured in
+a certain
+way and they re all structured in the
+same way you have what s called
+the doctype right here html
+always leave that there you don t ever
+edit that or adjust that
+we also have what s called the html tag
+now notice how
+there s a there s some there s two
+different types of tags or
+a tag is basically or an element is
+opened up i
+with this little greater than or less
+than sign and then greater
+greater than sign you have a
+closing tag and then a self closing tag
+so a self closing tag
+would be something like this where it
+says made a charset
+equals utf hyphen 8 if you don t
+understand what that is don t worry you
+don t even need to really at this point
+but notice how there s no closing tag a
+closing tag would be where it opens up
+but then a little while later you see
+the same thing it says title here and
+then this one says
+title but has a slash in front it in
+front of it that s closing the tag but
+you have some content inside of it
+um right here it would be the opposite
+this is a self closing tag
+there s nothing embedded in it it s just
+one line and that s it
+well when it comes to the html on line
+two
+which is generally where you see the
+html tag
+this is a closing tag it s not
+self closing because we see html opened
+up here
+and then we also see it closed down here
+all right so we have all this stuff
+in the middle so really we wanted to you
+can indent those in
+which is gives you a visual cue about
+kind of the
+hierarchical structure of your html tags
+and which are
+parents in which our children or
+siblings like right here
+like these would be child elements of
+this parent element
+all right so you always have an html tag
+you don t ever have to think about that
+tag
+especially if you hit that emit
+abbreviation exclamation point hit enter
+all this stuff i generally don t ever
+touch unless we re talking about the
+title
+because the title is what shows up right
+here notice how it says document it says
+document here if you hover over it in
+your browser
+well if i type in the 2021
+front end developer crash course
+it s going to update that up here as
+well and so that s what people will see
+in their browser title
+in their browser window for that given
+tab um
+another thing we re going to want to add
+is a new element right here
+and it has to be within the head tag
+somewhere okay
+so the head tag has several different
+meta tags
+all right this right here we can just
+ignore these meta tags you don t really
+ever have to
+to adjust them there s also some other
+ones you may want to add as well
+like the meta description as it s called
+and this kind of gives
+like browsers like google the just
+little description that shows up
+underneath the link
+which is and the link by the way is it
+gets this from the title right here
+and there s also made a keywords and
+that s good for search engine
+optimization and stuff like that
+but right now we re not going to add
+those tags but you also see the title
+tag of course you need to have a title
+and then we also if we want to use some
+css
+and we want to have that css in a
+different file
+we can type in link and here again is an
+abbreviation so we don t have to type
+all this stuff manually to enter
+and here we go now it says link rel
+equals stylesheet and then href equals
+blank all right
+so it automatically puts the cursor
+there for us for that
+abbreviation and we re going to
+reference the
+path i m going to hit ctrl b to get that
+sidebar out the path of our css file
+which happens to be css folder forward
+slash
+main css we don t want to reference the
+sas file
+because our sas is only for writing code
+we we can only use
+dot css right here all right
+so i know right now you re probably
+still confused a lot about what s
+happening but don t worry
+another general uh structure of
+html are so we talked about the html
+elements or the html tags
+you also talk about the what are these
+things like you can see inside of the
+the actual elements
+there are these things that equal and
+then
+you know values those are called
+attributes all right so
+a lot of different html tags have
+attributes that you can use
+all right some are specific to that tag
+and some you can use you know in in
+different areas for instance
+if you wanted to create what s called a
+hyperlink you know like a little
+underlying piece of text
+that s sometimes blue that people can
+click on or tap or whatever with their
+finger
+to go to a different page that would
+look like this for instance
+for instance if i hit a we could see an
+href is there as well as
+here so it all depends on
+which html element you re using and
+which tags or
+attributes that accompany them and
+that would be a great way or area for me
+to show you
+this right here w3schools com this
+basically is like i think of it as the
+bible or the dictionary of html
+all right so if we go if you go to this
+url right here
+and we type in a we ll see the tag right
+here
+tells you it defines a hyperlink it
+shows you what it looks like
+and it has a definition and usage it has
+tips and notes
+and it has all the attributes that we
+were just talking about that it can
+accept as you can see there s a lot
+most of these you re not going to use in
+everyday hyperlinks or you know
+an everyday a tags right here but it
+does tell you and this is an
+excellent resource that shows you
+examples of it
+and how to use it and this is it has it
+for you know these are all html elements
+look how many there are
+again in most projects or a single
+project you re not going to use most of
+these in fact i ve never used whatever
+this is
+bdi i don t know what that is
+just to be honest so when you see all
+this stuff
+right now you re going through this
+crash course don t get
+overwhelmed i it is a crash course so it
+has that that
+that side effect because we re moving
+fast um but
+just understand a lot of this stuff
+you re never going to use and you re not
+going to need to use it
+and you you ll see that going forward
+all right so that w
+w 3 schools reference you know in google
+of course type in you know if you type
+in whatever
+you re having problems with those are
+going to be invaluable resources
+uh going forward okay so um let s go
+ahead and get rid of this
+now you have your head right here and
+generally you re not sitting there
+coding inside of your head
+uh your head tags uh you re coding and
+you re working within
+the body right here this is where all of
+your
+html writing really much pretty much
+like 95 percent of it resides
+this is where we re going to be putting
+all of our
+information um notice before when i was
+just typing like i was hitting the keys
+and i hit
+save it showed up right there so this is
+the whole
+body section another thing i want to
+show you
+i m using google chrome firefox is
+an acceptable browser as well to use hit
+ctrl shift i
+on your keyboard and this little thing
+is going to show up over here and these
+are the
+uh the developer tools that we have we
+click on elements
+you re going to see kind of like a weird
+representation of what s happening over
+here in a code editor
+and we can see we have our html laying
+up there then we have our head and we
+can
+expand this stuff down and look at it
+and if we click right here we can see
+the body tag all right
+so the body tag has this information and
+as going forward you see how this will
+be a helpful tool
+maybe maybe not right now but i wanted
+to show you how to access it
+
+as well um just another thing to point
+out
+i all of our css that we re going to be
+writing will be able to access right
+here as well and there s some cool
+things that we can do that we ll get to
+all right i know we haven t done much
+talking but
+that s all of the overview that i m
+going to do
+in terms of just describing stuff that s
+here right now
+let s actually get into the process of
+writing html
+and like i said pretty much all happens
+within this body
+section here so when you re when you re
+uh
+working on a project hopefully and more
+often than not
+you re going to have a mock up or a
+prototype of some sort
+that will help guide your decisions when
+you re writing your html
+and your css and so adobe xd
+right here this is a ui design ui ux
+prototyping design tool
+if you didn t catch in the beginning i
+have the whole tutorial
+about how exactly i designed this right
+here
+here s the mobile version although
+that s offset that should be
+in the center there we go and then here
+over here is the desktop version
+so these two things will help guide me
+when it comes to the css and the html
+portion
+now we re going to start i m going to
+move this off here we re going to start
+by default working on the
+mobile version of the site when it comes
+to the css
+when you when it comes to writing your
+html it doesn t really matter that much
+i which one you look at because it s all
+pretty much going to be the same
+although i would probably
+let me back that up i would advocate
+when you re writing your html which is
+the first step the css comes after that
+i look at the full desktop version
+because usually the desktop version will
+contain
+everything that you need i in terms of
+your elements
+that you need to account for in the html
+process
+so having said that let s take a look at
+this right here so when you re writing
+your html you work from
+top down all right so the top of this
+this layout and by the way the layout s
+pretty long
+the first thing we see and the first
+thing that s usual you know the typical
+thing you see
+is the navbar section or the header you
+usually have a logo you have a
+navigation menu of some sort
+so that s what we have so when it comes
+to writing your html you have to think
+about
+you have to think about things in terms
+of blocks
+like for instance the very first thing
+that we see in the upper left corner is
+we have this white big
+sort of bar that goes up there right
+correct so we have to create an html
+element and that will allow us to define
+that when we get to the css portion
+so i how do we do that you know
+what tag would we use remember all those
+tags we saw
+well there s something called semantic
+html and we re going to get to that in a
+second
+but for now we re just going to use a
+div
+tag now a div tag is something you re
+going to use a ton
+unlike some of those other ones i a div
+tag basically
+allows you to structure physically
+structure your layout
+um and so the way we do that and i ll
+just write it by hand without using
+emmett
+here and for this first demonstration
+we open it up div that s the html
+element name
+and then we type in a class
+now that s another entirely new concept
+if you re brand new to html
+class equals and of course class is an
+attribute so class 8 goals and we re
+going to give it some sort of name
+that s relevant based on what s
+happening
+i m going to call it nav bar all right
+now when we close it automatically the
+code editor will add a closing tag
+because this is not a self closing tag
+we re going to hit enter
+and then we re going to put some stuff
+inside of it so what is a class
+all right so what is the class element
+basically
+i i should be getting the w3 schools
+representation of it
+but basically in a nutshell it just
+allows
+us to take this name right here and when
+we get to the css portion we ll be able
+to reference
+this name right here as a selector as
+it s called
+so to put in even simpler terms
+we re giving this html element a name so
+that we can in the future when you get
+to the css
+we can style it with the css okay so
+when we hit save nothing happens because
+a a div element nothing renders in the
+browser if there s nothing inside of it
+for it to show so you can see
+class navbar and it s up there it s just
+hidden there s nothing in it
+all right so let s go back here
+all right so now we have a block that
+will allow us to structure
+that little white bar up top right
+so what comes next here well
+you would say the logo and you would be
+right but
+they were going to put another block
+inside of that block because we re going
+to have
+and you don t have to do this by the way
+we re going to have a block right here
+inside of this overall block because
+once when the browser gets
+large enough we want to kind of be able
+to we want to have a way to keep that
+nav bar confined to the center and
+you ll see what i mean more specifically
+going forward about that so we re going
+to put another one
+in this time instead of writing div
+class
+we re just going to put in period a
+period
+is short for a class so this is an emmet
+abbreviation
+so we re going to put period container
+hit enter
+look at that it wrote all that stuff for
+us so that we don t have to do it
+so inside of there so now we have
+one element that s nested inside of
+another element and then we re gonna
+have another element nested side in this
+one
+there s once we get in here then we can
+put that logo
+the logo s right here all right all
+right so this is just
+a a what s called a word mark style logo
+which is in the field of identity design
+like designing logos it s called a word
+mark because there s no symbol
+and it s just achievable through text so
+normally
+you might have a graphic file that
+you ll have to
+put into your html code through an image
+tag or perhaps a different one but this
+one we can achieve just through html
+alone because it s just text right so
+what we re going to do is we re going to
+make it we want it clickable because
+usually
+on a logo on a website i it s a standard
+pattern for people to
+take their mouse or their fingers if
+they re on mobile or tablet
+and click on the logo in order to get to
+the home page so
+that means there s an action that s
+usually put on
+to a logo and in that case we re going
+to use an
+a hyperlink or an a tag so we hit a
+and then we see href so that s like i
+i showed you earlier this mean this is
+where you can put in
+like uh another page like we can put in
+index html
+because that ll bring you to the home
+page that s pretty much what you would
+want to do anyway
+you can also put in other website
+addresses like http
+slash yahoo com i don t know why yahoo
+came
+first to me but we can also see this is
+a closing tag
+and there s something in the center we
+can put which is what s called the
+anchor text again if all this stuff is
+confusing
+just go to w3schools and search for the
+a tag and you can see
+all the stuff that you know that you can
+do with it
+so go to yahoo this is the anchor text
+hit save look how it showed up it s real
+tiny if i hit my control my mouse scroll
+wheel i can kind of zoom up here in the
+in the browser so you can see it
+if we go here guess what we re going to
+yahoo com
+okay so we don t have we don t need this
+to go anywhere
+so we can either just put an index html
+or
+a hash sign right here which means it s
+not going to go anywhere so now we click
+on
+nothing s going to happen all right so
+inside of here
+we re going to put the i think it s
+called remember that right
+am i am i right or am i wrong yes so we
+hit save
+it says remember that now notice it
+looks nothing like
+this right here and that s because we
+haven t got to the css portion
+now notice how it says remember that but
+remember that
+is that that part is blue right
+so if we want to make that part blue we
+have to wrap this in
+another special tag so that we can
+reference that in css
+and the tag for something like that
+that s pretty generic just for doing
+something like that it s called a span
+tag so
+span we we we open that up
+what am i doing i m messing my uh i have
+sausage fingers over here
+we re gonna take span and then just put
+that in there now if we hit save nothing
+changes it
+but in css we will be able to colorize
+that to that special blue color
+all right so now we have that what is
+next
+in our design and we re looking
+top down left to right next up is this
+little section it s a little menu
+and we have two of them as you can see
+so in order to create
+a navigation this is where we use
+one of those semantic tags all right so
+if i basically semantic means you should
+use the appropriate tag
+based on what is occurring you know
+contextually
+in that area of your html
+because you could completely style this
+stuff using div tags
+but it makes more sense to use these
+special tags
+in areas that make sense so for instance
+nav we type
+nav and hit enter we re going to open
+this whole
+area up and define this area as an
+important navigation on our website
+so inside of here we re going to have
+our two different
+where is it at are two different
+navigations we have one that s kind of
+center over here this is like the
+important stuff and then we have a
+contact and then we have
+what s called a call to action here
+we re going to style those using two
+different
+navigations and when it comes to html
+there s different types of navigations
+there s an unordered list and there s an
+ordered list that we can use
+we re going to use an unordered list an
+ordered list would put
+little numbers next to each item we
+don t need numbers next to our
+navigation items
+so we re going to use unordered list
+short is ul
+again if you want to learn more go to
+w3schools type in ul you ll see how you
+know through the examples and all that
+stuff and how it all works
+in an unordered list you open up the ul
+tags
+and inside of them we put each of our
+list items
+this is a list item that s a list item
+that s a list item
+this right here is a if i take uh
+this right here you ll see this is our
+unordered list right here which contains
+all three of those
+we re gonna have another unordered list
+over here with two list items over there
+so our list item is defined by typing
+ally
+and then because we want ours to be
+clickable these are going to be links
+that take people to different areas of
+the site that s a navigation
+we put in an a tag as well
+inside of there and we re not going to
+have it go anywhere so we re just going
+to use that hash
+sign and then we re going to put in the
+anchor text right here
+home all right so if we save this
+we can now see this little bullet point
+and it says home
+now real quick in visual studio code you
+can replicate lines of code
+by holding shift alt down arrow key
+and we ll do that twice so there s a lot
+of ways to really save yourself time
+when you re writing html when working
+within visual studio code
+the next one is going to be features and
+then this one is going to be called
+
+so now if we save we ll see all three
+show up of course they re butt ugly
+so don t worry when we get to the css
+portion we re going to make that all
+look better
+all right now we also need a way if we
+come back over here
+to our document notice how this one s
+bold
+these ones aren t well this one s bold
+because this is the homepage we re
+designing and it s a visual indicator
+telling
+people that this is the page that you re
+currently at well we
+have to have a way to um communicate
+that
+to the css in order to make it bold so
+we ll add a class
+just like we did before and we ll just
+call this current as in the current page
+nothing changes here though because this
+is all just for css purpose
+in css when we get to this portion we ll
+be able to reference this current class
+and then make this right here
+bold okay so next up we re going to copy
+all the five of those lines
+with ctrl c and then hit ctrl v on your
+keyboard to paste underneath it
+now this is an area where we also want
+to add i forgot to add a class on this
+unordered list
+so this is going to be class primary
+hyphen nav
+and then this one as well would be class
+we ll call this one secondary
+nav and the reason i m adding a class
+onto each one of these is because we
+need a way to differentiate between the
+two of these
+and adding a class is one such way to do
+that
+so now we ve basically given this its
+own
+label called primary nav and then
+secondary nav and the reason we need to
+be able to differentiate between two of
+those is because
+this one s stuck over here and then this
+one s going to be right aligned over
+here
+and we again we do that through i css
+so let s go ahead and modify the stuff
+in here because it s changed so
+this one right here has to be contact
+and we don t need this class
+of current because that one won t ever
+be bold and then we also have
+go premium which is that call to action
+we ll go ahead and get rid of this third
+one and then we re gonna
+we re going to give this one a class
+because it s a really specially designed
+button so we re going to call it go
+premium hyphen cta
+and we ll hit save because that that
+design
+it s this button right here so we have a
+lot of css work
+to make it go from this you know blank
+boring link
+to this link all right
+there s a couple other things that we
+also need to account for
+in our html when it concerns this
+navigation
+when it s on a mobile view
+or a tablet or whatever you have what s
+called a hamburger menu
+notice we don t see these links anymore
+why because we don t have the physical
+space
+the horizontal space to put them all it
+would be cluttered
+that s why you have this little menu and
+so when you tap on it
+it it presents that navigation in a
+different way
+um so we need to account for this
+element
+all right so that means this is a
+graphic file
+that you can once selected
+go to export export selected we want to
+choose
+svg for this case svg is
+a scalable vector graphic it s a
+typographic where
+it never loses quality if you take a
+real small
+like jpg image or a photograph and then
+you try to scale it up real large
+you ll see pixelation it ll look blurry
+and you know whatever
+um that s not what we want for this
+element because it was created within a
+design application
+um and so then we can export this into a
+folder
+where we re going to be able to access
+and reference from both our html and our
+css
+so if i hit change here i m going to go
+back to my code folders
+we re going to go into one we re working
+in we re going to create a new file
+or a new folder rather called you could
+call assets or images i m going to call
+this one images
+and hit select folder and then export
+now we go back to our code editor hit
+ctrl b
+we ll see we have this images folder
+that we just created
+with this name right here if i right
+click and rename that
+we re just going to name that here to
+menu svg all right
+now svg is actually a code based
+uh graphics format right here
+so that s something to get into the
+future but
+adobe experience design which is that
+app that i keep switching back to
+that he used to design the user
+interface i it will
+it will automatically create this code
+for you based on
+the graphics that you create in that app
+adobe illustrator and other
+vector applications work the same way at
+least the ones that allow you to export
+svg files
+okay so we need to put in
+an html element that accounts for
+showing that just on mobile that little
+hamburger menu
+and we re going to put it right here
+just outside of the navigation
+i tag and so this is an image so we use
+an
+image tag like that img
+hit enter and the source is you know
+wherever that
+image resides in your project folder
+structure
+so in our case it s inside of an images
+folder
+forward slash then we put the name
+menu svg
+now when it comes to images you should
+always use the alt
+attribute or specify it rather and
+basically it s just a short description
+of what this thing is and this is
+good for accessibility meaning people
+who
+have screen readers who have like vision
+issues or impairment issues
+they ll be able to actually navigate
+around it will tell them what this is
+because clearly they can t see this
+graphic correct
+correct all right so this we re just
+going to put in
+open navigation all right
+okay so now we also want to add a class
+on to this one i and we re going to call
+this mobile hyphen menu
+and then we re going to save it
+additionally we have
+another one another element
+or an attribute that you haven t used
+yet and it s called the id
+id equals we re gonna call this one
+mobile hyphen cta
+now the id class is useful when you get
+to
+javascript now we ve talked about html a
+little bit we really haven t talked
+about
+css but you have another one that and
+when all three of these things work
+together
+you call javascript um because
+let me describe what s happening so
+because i
+was when somebody on mobile needs to
+click on this in order to access the
+menu
+we have to have some sort of intelligent
+coding
+that tells the css
+or tells the browser rather i to apply a
+css class to attach a class
+that will toggle and show our navigation
+or these menu items
+right here in order to do that you can t
+do that
+strictly with just html so we re going
+to use something called javascript to do
+that
+and the way we reference it or we find
+it or one of the ways
+at least is by giving it an id
+and an id is i one of those elements
+or is attributes that cannot be used
+more than once on in your document so
+this mobile hyphen cta
+should not ever be used on another
+element that has the same thing
+when it comes to classes you can
+actually apply the same class
+for instance i like mobile menu we could
+put this right here
+so the class attribute accepts multiple
+class names
+uh and we ll get into that as well
+so so we have uh that element done
+we also are going to need another
+element that we re going to put
+right here just above the first primary
+nav
+and that s going to be a little x icon
+because
+when that no mobile navigation opens up
+it s going to have a little exit sign
+for
+people to close that navigation and so
+if i come back over here you ll see i
+had this little x right here it s
+actually hard to see because it s white
+but
+the navigation that we come out i didn t
+design for it in this application so you
+don t see it
+it s going to be this little nav drawer
+that comes out like this and overlays on
+top of the screen and it s going to be
+like this dark blue
+and then this will be like right around
+here um at this point i m not going to
+bother
+exporting any further graphics because i
+already did that i m simply going to
+export though or i m going to import
+those all into the existing images
+folder
+now i will have um the zip file that you
+can download that has all this stuff
+ready for you
+as well all right so now you can see all
+the images
+um that we re going to be using in order
+to pull off this project
+right here all right so next up like i
+mentioned we have to put in
+
+and again that s going to be another
+image tag all right
+so for that we re going to have
+an image the source is going to be
+images
+forward slash x dot svg it s also going
+to have an id
+in class as well so let me hit ctrl b to
+get rid of that sidebar
+we re going to paste that in here
+so again they can t have the same id
+that s for certain so this is going to
+be mobile hyphen exit
+because it s an exit button and that s
+what i m choosing to name it
+our class is going to be mobile menu
+exit
+all right and then our alt we ll just
+put close
+
+great all right and that is all that is
+it that s everything that we need
+for our navigation so you can see we
+have it looks like a complete mess
+and it is at this point it s supposed to
+look like a complete mess
+uh because we haven t applied any css
+but this is what raw html looks like
+it s horrible all right so next
+up notice all these closing div tags
+that we ve ended up with well that s
+what happens very quickly when you re
+writing html
+so next up we re going to come outside
+of all these closing tags notice all
+these these lines that point
+to each other well this is just a visual
+indicator showing you where
+this opening tags closing tag is
+associated
+so we can see this one right here
+is the closing tag for our navbar
+and that basically contains all this
+stuff
+all right we re going to come outside of
+that now and the reason we re doing that
+is because we can see if we go back over
+here
+everything over here was self contained
+into this section
+so now we have this big section right
+here
+and we have two columns like one right
+here and then another one right here so
+that s
+that s a block and then that s a block
+and each of them have stuff inside of
+them right
+so let s get to that so when it comes to
+i certain parts of your design it makes
+sense to use
+another tag that is mandate called
+section so this is just a section of
+content
+all right we re also going to give this
+because we re going to have multiple
+sections
+a class so that we can reference it
+specifically called hero
+this is this area over here in ui design
+is typically
+typically called the hero section it s
+what s i m just underneath the
+navigation traditionally
+and it s what usually i will be the
+first thing
+um that a person will see because it
+usually has
+big text like a big headline a sub
+headline a call to action button of some
+sort
+an illustration a photograph or whatever
+so it s a really important part of your
+design
+um inside of here again we re gonna have
+another one of those annoying uh
+container tags because
+we need a way to have a block uh
+that goes right here um
+and it s the same one the container tag
+it s a div element
+you ll see how it works but we have to
+add that first before we can then add
+these
+inside of it so we re going to put our
+container
+and then inside of here we re going to
+create that first block for the left
+column so i m just going to call this
+hyphen left call
+for column and then we re going to put
+in that sub headline
+all right so we re going to use a
+paragraph for that a paragraph tag
+all right and it s also going to have a
+class inside of it called
+sub head and that way it means
+subheading that way we can
+reference it and style it with css it s
+knitty
+and and whenever you want to put an
+ampersand sign you can t just put
+the ampersand you have to put ampersand
+amp and
+semicolon i know it s very weird it s
+strange but that s just how it renders
+it so when we hit save we can see it
+shows up there
+and it just sews the ampersand notice
+how it s also styled very differently
+and it s
+it s title case and not all uppercase we
+can make it all uppercase when we get to
+the css portion and make it gray and all
+that
+next up is the headline and we use that
+through what s called an h1 tag or a
+heading tag so
+there s six heading tags and the most
+important ones are the lowest numbers so
+the most important
+headline tag is the h1 and that s where
+usually you put
+inside of the hero section you know the
+big
+the big old uh headline that you want a
+task app that doesn t
+stink save that
+all right we can see notice how it s
+naturally bigger the browser knows
+and we can style that you know make it
+our own size however we wish
+inside of here we re also going to have
+a
+a class of hero
+hyphen cta all right
+and we re inside of here and the reason
+i m putting
+that class here or that div is because
+right here
+we have two elements side by side this
+button
+and then this button so we re gonna have
+a parent element that will allow us
+to create that sort of two column layout
+then inside of there we have the big
+call to action we re going to use an a
+with a class so if i put a period
+class or or not class but the class name
+like primary cta for call to action
+then it creates all this html for me so
+that s an emmet abbreviation thing
+and it s not going to go anywhere uh
+this particular link
+all right so we re just going to give it
+the hash sign
+and then our class name or the anchor
+text rather is going to be try for free
+so now we can see it if we save it we re
+going to hit shift alt down on the arrow
+in the keyboard just to replicate that
+line and
+this one class is going to be watch
+video
+cta and this time we re going to open it
+up
+because we re going to have a line here
+with an
+image element because the image is going
+to be
+for this element right here
+hopefully that makes sense all right
+so the image location for that uh is
+of course it s in images forward slash
+watch svg
+the alt is going to be the text you know
+this is watch
+a video and then watch a video for the
+actual anchor text right here
+so right there looks really ugly but
+don t worry like i said
+many times so far we ll make it better
+in css
+so that s all the uh that s not all the
+html yet we still
+have uh let s see here our
+illustration this big thing over here
+this is an svg graphic itself which is
+in the images folder
+so we have left call by by the way
+notice these little
+vertical lines that s kind of there to
+let you know where the closing tag
+of these elements are so this closing
+tag is right there
+all right so um just outside of that
+left column we re going to put an image
+tag
+all right and the source is going to be
+images illustration svg
+we need to reference it and style it
+with css
+later on so we re going to call this
+hero hyphen image and then our
+alt is going to be just like
+illustration or something like that
+now we re done all this section content
+right here
+is responsible for
+all this right here next up
+we have our another section so we re
+going to use the section tag again
+to define the beginning of this right
+here
+so let s do that
+section it s going to have its own class
+of
+
+we re going to have that same container
+class inside of it
+then we re going to have an unordered
+list which is responsible
+for all this right here this is an
+unordered list notice there s little um
+check mark
+graphics next to them we don t have to
+use i
+we don t have to use to create markup
+for that in html in order to show those
+we can do that in css
+and i ll show you that later so list
+item
+and here s a tip if you have like a
+bunch of these list items
+just hit shift alt down after you do the
+first one leave it empty
+hit your down arrow key for as many
+times as you need it and then you can
+just start specifying all the type
+on my reference mod i already have this
+code typed out so it s right here
+and if you want to paste those two you
+can go to the code pen link in the
+youtube description and just grab the
+code from there
+and then also finally we do have
+an image a photograph of a person
+holding a phone and i ll show you that
+in a second so holding
+phone jpg the alt is going to be man
+holding phone
+and that s all we need for now notice
+how large this is don t worry we ll fix
+that
+um when the time comes so you may be
+
+how are we going to define like this
+little block right here in this little
+graphic
+we re going to do that solely through
+css and i ll show you how
+when we get to the css section next
+section is this little testimonial
+section right there
+so again that s going to be another
+
+and the class is testimonials
+
+all right and inside of here again we re
+going to do the container
+you ll see how important the container
+is later even if you re confused as to
+why we re adding it unordered list
+again those three cards
+we can create and define as unordered
+list item this is list item this is the
+list item and so is that
+so we re going to have uh list item open
+that up
+we re gonna have the first there s three
+different things inside of each one
+there s a
+a person and then there s the quote and
+then there s their name
+so the person image source is images
+person jpg
+that s one of the files that we have alt
+it s just i m just going to say person
+you can probably put their name if you
+knew it
+block quote is a a tag that makes sense
+if you re you have a quote of some sort
+so for this one i m just going to put in
+and paste
+off the side of my screen some lorem
+ipsum filler text
+which is just latin it s just some an
+industry standard for front end
+developers and ui designers
+to use if they don t have the copy the
+real copy yet the ad copy
+and then we re going to have a another
+tag you haven t used site
+and we re just going to put jane doe and
+that s
+basically who said the quote now we re
+going to take all those five lines copy
+them ctrl c
+come down underneath it ctrl v and then
+hit enter control v
+
+and the images are really huge and we ll
+fix that with css don t worry
+and then finally we have one more
+section and that is our contact section
+which resides down here
+there s two columns we have some form
+elements we have labels
+a form element a label form element and
+then a submit button
+and then we have a in this column a
+google maps view
+and we ll get that embedded as well and
+then we ll be finished with
+the html process so
+section with a class
+of contact section
+and then our container this is the one
+we re adding all the time
+contact left so we don t have
+when it comes to the div tag and
+abbreviations you don t have to put div
+and then like contact all right wait
+
+because div tag is used so much you can
+just put in period
+
+hit enter and it knows it ll be a div so
+that s just a quick tip
+all right so we have our title of
+contact we re going to use an h2 element
+not
+uh an h1 this time because it s like a
+heading
+um we re gonna have a form right here
+now when it comes to the form
+tag you don t have to really use it it
+depends on the technology that s used to
+communicate the data that s inputted
+into the form
+but we re just going to leave it there
+and use it anyways
+it has no styling associated with it so
+you can t see it in the browser so now
+next up is the name
+and we re going to use a label element
+and notice this a 4 attribute
+so we re going to put name because this
+is the name
+you can name it whatever you want by the
+way and we have to put name right there
+so we ll see right there we have contact
+and it says name right there
+i ll describe what the four is in a
+second
+we re going to put an input type as text
+because it s a text field that somebody
+types into
+we re also going to give it an id of
+name and a class of
+or a name of name rather name is an
+attribute that you would use to
+communicate whatever is inputted with a
+server but
+that s not our job so anyways um
+for name id name so if whatever four is
+bound to has to be bound to the id
+of whichever element you want this label
+to be associated with
+so the reason we do that is because we
+click right here
+on the the name element it will
+automatically highlight
+and allow you to type into this text
+field right here
+um if you change this to like name two
+guess what it doesn t happen so
+those two need to be bound to each other
+with using the same value
+outside of that we re also going to put
+the second one we only have two i should
+have put in an email
+because usually you have your name your
+email that a way for them to contact you
+but you know i forgot anyways you would
+just cut
+you know copy this and up update those
+values of social you know
+accordingly let me show you just real
+quick how you would do that if you
+wanted to
+you just copy those two paste them email
+
+change that to email and change that to
+email all right so now we have an email
+oh and by the way
+there s a type of email an email field
+and when you do that and if you enter in
+like a wrong email
+uh type uh it will provide
+form value validation like saying that
+you didn t structure your email address
+correctly like you didn t use an at
+siren or something
+but anyhow because i didn t include it
+in my design i m not going to include it
+here
+um we do have the final element which is
+a text area
+because it s a big type of text field
+it s unlike this one
+because it has multiple multi multi
+lines and such
+so we still use a label for is going to
+be message
+name is message and then we type in text
+area
+the name is going to be message id will
+be messaged because it has to be bound
+to the four
+value and that s it you can also
+actually type
+stuff between the tags of text area and
+it ll show up right in the middle but i
+don t want that to happen
+right there there s also something
+called the placeholder value
+so if we on our input field if we type
+placeholder
+your name you ll see it shows like this
+little dimmed out your name thing and
+then once you click in it
+and start typing it goes away for this
+context
+this use case you don t need that
+because name is obvious it s like it s
+obvious how to enter that information
+all right so you can do the same thing
+by the way with the text area you can
+put a placeholder value there
+finally we need our button send message
+all right so to do that we don t use a a
+link you could
+depending on the technology it s used to
+communicate the information
+but we can put input type is going to be
+submit
+all right and then we put class because
+we re gonna need to style this
+send message not second what am i
+thinking
+send message cta value equals send
+message why do i type in second i keep
+on typing second instead of send i don t
+know
+second send message rather save
+and there it is there s a send message
+but nothing happens
+except it just kind of submits to itself
+um but yeah that is
+it and then finally we have
+the the uh the map so for our map
+i m gonna put the map let s see right
+here
+right after this contact left
+right here and we re gonna have a
+contact right
+and we re going to embed a google map in
+there so if i get up a new
+browser go to maps google
+we re gonna go to bev beverly hills
+90210
+the old school showed that s how old i
+am although i never watched it i ll be
+honest
+maybe i watched it a few times okay no
+i m a die hard fan i watch it every
+night
+um we re going to we re going to click
+on
+share and then embed a map and then copy
+this or copy html right there
+once we re done with that we can paste
+it right there and then guess what we
+save it
+and uh it works automatically
+isn t that cool so it s an iframe which
+means it allows you to embed
+a web page another web page into your
+webpage it s very crazy
+um and then now that s it that is all of
+our html believe it or not i
+i it s actually a lot um but now
+we re going to make all this good
+looking
+during the css whoa that guy s like
+right in my face during the css
+portion all right so now it s time for
+the css but i m looking over here
+
+so when it comes to writing css
+um the the way that
+pretty much all css pros do is through
+what s called mobile first css
+this means that all the css rewrite we
+want to make sure it looks good
+on a mobile design or a mobile form at
+first so that s why we re going to be
+looking at the mobile design for this
+the reason you do mobile first and not
+desktop first
+is because mobile first is generally
+more simple
+i designed for mobile first is you know
+it doesn t include as much like look at
+this section here
+we don t have the photograph we don t
+have this stuff this stuff
+so our css will tend to be smaller in
+size
+um and then we use what s called media
+queries which we ll get we ll get into
+and i will explain
+and those media queries will allow us
+based on certain widths
+or viewport widths to define all this
+extra special stuff
+all right so let s go ahead and get
+started
+making this ugly thing over here
+look like this it s magic almost no it s
+not magic
+okay so let s get ctrl b we re going to
+click on our sas file here
+and we re going to ctrl b again to close
+that out
+and notice this little icon up here we
+can split this editor
+this means that
+on left we can see our cs or
+our html if we want to and then on the
+right we can have our css now
+normally i would do that um some people
+actually have small
+has multiple monitors and they ll do you
+know ones there on one monitor
+and the other ones on the other monitor
+but this is a way to do it within a
+single monitor
+because when you re writing css you re
+kind of always referring back to your
+html markup because that kind of guides
+your decisions over here in terms of
+your what are called selectors
+um i m not going to do that though
+because i have everything enlarged up
+and it s just i don t have a lot of
+space to work with so i will manually
+i will be manually clicking back and
+forth
+up top going back and forth like that
+all right so when it comes to your css
+the first
+element that you can style and you don t
+have to like style it at the first time
+or
+i ll show you what i mean is the body
+tag
+um so the body tag is where you define
+like the background of the website
+so if it doesn t body we can give it a
+background color
+and there is a specific background color
+that i m using that isn t white by
+default it s white
+in html in the browser as you can see
+but this is kind of like a gray a very
+light gray
+so i m going to click over here copy
+this hex color code
+all right that s called a hex value and
+we re going to
+say background and then
+colon and then paste that in and then
+hit
+a semicolon and hit save now you can see
+it s that
+that color we could in visual studio
+code if you hover over that value then
+we
+gives us this color picker and so notice
+the hex value all those crazy numbers is
+how
+i we re able to communicate the color to
+the browser
+so if we say this is red guess what hit
+save
+it changes it to red and makes it look
+really ugly um
+so let s go back ctrl z
+there we go it s f2 f2 f2 and so this is
+what
+a css rule set looks like here s what it
+consists of let me hit control plus here
+to make this bigger
+a few times it is i first we have what s
+called a selector
+the selector can be a variety of things
+it can but primarily it can be three two
+different things
+i it can be the name of the html element
+itself like body
+div a img nav
+or it can also be like a class all right
+so class equals navibar
+container so that s just called a
+selector you can also have multiple
+selectors like
+separated by comma like body and
+then maybe something like nav and the
+reason you might have
+multiple selectors is because they might
+be styled with the same exact properties
+okay
+so now inside of this we open this up
+in order to specify our css property so
+we have this little squiggly brace right
+here
+or bracket and then it closes right here
+at the end
+you re always going to have that sort of
+situation when you re working with css
+or sas
+then we have the actual property name
+background is a css property name
+then after the property name you put a
+semicolon right here to denote that
+that s the end of the name and then you
+also denote that this is the beginning
+of the associated value
+so in the case of background we have a
+hex value right here
+all right and then you end it
+with a semicolon and if you want to have
+multiple properties which we will
+in this case we put in
+and a second line the same format
+property
+value this will be margin and then as a
+colon
+and then the property we re going to put
+0 and then we
+end the statement with the semicolon
+just like we did up there
+margin zero by default browsers add a
+little bit of margin
+it s called margin it s white space on
+the edge
+i m just gonna i always just remove that
+and i add my own i just kind of reset it
+to zero in the body tag and hit save
+so now notice how it kind of just fell
+
+then we re going to have another one we
+can put font family
+all right i m going to use something
+called poppins
+now when i save that you can see that
+the font changed from like that times
+new roman
+serif font to this and the reason it
+worked is because i already have poppins
+installed on my
+machine now not everybody has the same
+font
+especially if you re using you know a
+different font as you
+so i had to download and install that
+for that use case
+we re going to go to fonts google com
+and poppins is a font that is available
+here at google com
+so if i type in pop ins here it is we
+can select a style so like
+like how many weights do we want to have
+like there s
+a lot of different bold you know
+variations of this font
+one thing to note the more variations
+that you have
+the longer it will take the load because
+the browser has to or your phone or
+whatever has to download this
+information
+so i can we can just we can stick with
+like a regular
+and we can also click on a bold like
+bold 700 right here
+so now we click on import and then we
+copy this
+right there not sure if you can see that
+but it s just three lines starting at at
+import
+then we paste it up there
+i m hitting ctrl minus on my keyboard to
+get us back down to scale
+and then we can exit out now this way
+if you don t have it on installed on
+your machine you don t need to because
+guess what your browser will download it
+based on
+this information right there all right
+so next up we re going to start
+writing out um our
+core css our yeah css and
+we have to ask it you have to ask
+yourself in the same way
+like when we started writing html we
+started to look at
+you know the top of our our design
+document
+to guide our decisions for html we re
+going to do the same thing with css
+we re going to look over here to see
+what s happening first
+and we re going to style those
+accordingly now it doesn t really matter
+the order of your css rule sets it
+doesn t matter at
+all but it does kind of make sense for
+organizational purposes to have all your
+rule sets kind of
+cascade the way that it s occurring here
+so we have our navbar class
+in or a div element and that s in
+relation to this big white container
+right here
+so we re going to reference our class of
+navbar
+like this period navbar
+so that basically means the period means
+it s a class
+and navbar is the name so any
+properties that we open up here when we
+specify they re going to be specific
+to this element or any other element
+that has class of navbar
+okay so looking at our
+our code up here we need to get this
+right here
+this whole section right here looking
+
+this because we re doing mobile first
+just the logo
+and just this little hamburger menu all
+right
+so for navbar the first thing we re
+going to set is the background
+the background is going to be white
+so you can enter in multiple different
+types of
+there s different ways in order to
+specify color in css
+you can do hex values you can do what s
+rgb
+rgba hsl there s a lot of different ways
+i don t want to
+you know i confuse you too much but you
+can also write out
+common color names as well so now you
+can see it s just this white color
+and you can see the difference between
+the shades here so background white
+and we re going to also have
+padding so padding is another css value
+by the way
+i if we type in css and google
+we ll see w3 schools there s a whole css
+section
+on w3schools as well um tremendously
+popular site
+it s 186 largest website in the world so
+it s it s a very you know popular site
+and again
+when it comes to all the css properties
+of which there are
+many you can go here and refer to see
+exactly how they re used
+okay so same thing with html
+so we re going to have padding all right
+so what padding is padding is very
+similar to margin
+so margin affects everything outside of
+that element so
+when you add margin like in certain
+values like for instance if i change
+this
+to like um 5 m units
+look how wow it looks like it broke
+something here
+there we go look how much by margin it
+added there
+or if we change this to two we have a
+little bit less
+so it affects everything outside
+now if we did a padding
+padding is the opposite of margin
+because padding affects everything
+that s on the
+inside of an element so let me
+demonstrate this let s put this back to
+zero and don t worry i ll describe what
+that m thing
+unit is in in a little bit but we re
+going to put
+here a padding of 1m unit
+notice how it pushed everything away so
+padding works on the inside
+whereas margin works on the outside let
+me bring up the developer tools control
+shift i
+and we re going to click this little
+button where it says select an element
+when you hover over it
+notice when we hover over it it s
+showing us all this stuff
+so when we hover over the
+um the nav bar element right here and it
+shows you right here it does like a
+little thing that says div dot nav bar
+underneath where i m hovering
+it s like right by my mouse right now um
+it shows you this green
+outline right here that is the padding
+value
+and it s on the inside so
+notice if we hover over here like it s
+nitty and gritty
+we have these i borders on the top that
+are orange
+and bot and bottom that are orange
+that s margin
+and that s default margin that the b
+that the browser has added onto this
+element so notice on it s on the outside
+of the element but this padding is on
+the inside so that s important to
+understand that you re going to be using
+that value
+those properties of padding and margin
+big time so that s why i m spending a
+little bit of time talking about it
+so we have that set to 1m unit by the
+way my browser is
+brow is is all the way up to um 175 it
+should be this size right here
+and so that gives us a little bit of
+that mark that padding that white space
+because you re when it comes to ui
+design you don t want things slapped up
+against
+edges and stuff like that this looks bad
+so that s why we add
+padding right there all right
+so now another thing we need to do
+is to style up this logo
+this looks nothing like
+this so let s make it look like that
+now remember when i was talking about
+sass and it has some super powers that
+you can use
+that you don t you know that regular css
+can t do
+well regular css can t nest
+rule sets inside of each other and but
+that s what sas allows us to do
+so let me show you how you do that you
+just put logo
+and this works because nav logo is a
+a child element of navbar
+so if you look in our html you ll see
+that we have our nav bar and then we
+have
+our logo and by the way we i forgot to
+add the class
+class equals logo that way we can
+reference it
+so we because that exists in there
+we can put that rule set right there so
+the first property value that we re
+going to use is text decoration
+we re going to say none this will get
+rid of the underline
+when we save it see it just got rid of
+it let me make this a little bit larger
+though just so we can all see what s
+happening
+next up font weight is going to be bold
+so you use the font hyphen weight
+property to
+specify whether or not something s bold
+you can put in a numeric value
+like 700 remember we imported the weight
+of 400
+and 700 right here so we can do the same
+thing that way we re just going to make
+this bold
+we re also going to put in color black
+so whenever you have
+um text color color is the property you
+use to change the color of that text
+all right and again we can hover over
+this and make it red
+and notice visual studio code uses rgb
+value when you
+use their little selector to choose
+
+let s back up there though we re going
+to make that black and then we re going
+to make it a little bit larger font size
+1 2 em units
+so remember i talked about m units and i
+would describe what that is
+so this is a unit right here
+em there are different types of units
+that you can specify
+on certain css property values
+there are absolute values and then there
+are relative values
+so this is a relative value and it s it
+is pronounced as
+m right here and this would be a great
+use case for showing you if i type in
+if you re confused about you know what a
+unit is or property is just go to google
+type in css and then whatever it is
+and then we can see in this section css
+units
+so it has a whole section on what are
+called units
+all right so notice it s talking about i
+the px which is for a pixel which is
+absolute right here
+it s going to show you all the absolute
+types of units that you can put in you
+can put
+cm mm blah blah blah
+i you can use relative as well notice m
+is right here
+it s relative to the font side of the
+element
+font size rather you can use ex there s
+a lot of other ones that you can use but
+i don t want to you know bore you too
+much with that but these are all things
+that you can research
+even further like if you want to know
+more about m you know just type cm
+css m unit and you re going to get a lot
+of different values that
+will help you give a better
+understanding of how all this stuff
+works
+so the larger the value number here
+like four the bigger this becomes all
+right
+so next up remember how we had that span
+element because we need to make this
+blue we can put span and have another
+nested rule set
+and put color and then put the color of
+that blue color it s not blue
+it s actually a different shade and
+if i double click in here we ll get that
+color code right there
+and paste it in and there we go
+now i m going to introduce you to
+something that s very cool about css
+this color shows up multiple times
+throughout our document
+it s a part of our what s called the
+color scheme and
+this color is here
+it s here it s in multiple areas what if
+for instance
+you guys decide you know whoever you
+work with on your team
+that you want to change the primary
+color of your color scheme maybe you re
+rebranding
+well if you put it in here and it s
+showing up in all these different areas
+throughout your css
+well you re going to have to replace
+those all manually well we can use
+what s called a
+custom property in css and it s not
+just for sas it used to be sas used to
+have variables
+and it still does and you can still use
+them but
+css natively in the browser didn t have
+anything like that
+but it does now and it has for a couple
+years and they re called custom
+properties
+here s how you do it so any type of um
+property value
+and prop yeah any type of property value
+that s reused often
+throughout your document you can define
+up here
+inside a colon root and then you can
+specify
+these css properties so the property
+name is first denoted by having two
+hyphens or two dashes
+and then the name of it we re going to
+call this primary hyphen color
+and then we put in the value all right
+so then
+the way we specify this we put var for
+variable
+we open up prep in parentheses sorry i m
+talking so much i m not very fluent
+right now
+and then we put dash dash and we
+reference the name of the variable that
+we want to use or the property
+and then we hit save notice we hit save
+it still works
+so now if we ever want to change this
+value we only have to change it in one
+area of the document up here
+rather than having to do it in a bunch
+of different areas if we have it hard
+coded in in certain areas
+hopefully that makes sense all right so
+now we have this area up here
+looking pretty good um we have an issue
+where this is a little bit too close it
+has to be
+right aligned to the container we also
+have to get rid of this
+we re going to hide that by default so
+to do that we re going to hide that
+we re going to look at here
+and notice all of our stuff our
+navigations are
+included and nested inside of this nav
+tag
+so we re going to come out outside of
+this nav bar
+and just put nav and we re going to put
+display
+none that hides it look at that so we re
+getting
+somewhere exciting stuff
+so now we re going to take our container
+now notice we have uh our navbar then we
+have our container
+and we re going to reference this
+container in order to
+separate this logo from this graphic
+right here this little hamburger menu
+needs to be over here
+so what i m going to do is say container
+display flex
+now notice this says none this says flex
+um flexbox it s flex is short for
+flexbox and it s a certain way to
+structure
+layouts there s also the grid there s
+also
+a couple other property values for
+display that you can use based on your
+needs
+so we re going to put display flex and
+then place content
+space hyphen between when we do that
+
+if you want to learn more about flexbox
+their entire courses
+on learning css flexbox and tutorials of
+course
+um so i m not going to get into that
+because it would just make this
+extremely long this is a crash course so
+we have to move along
+um so now that we have those separated
+um
+notice when we hover over with our mouse
+button usually you wouldn t
+use this like most people who are on a
+desktop wouldn t have their
+screen like this but some might and it s
+nice to have a little
+visual indicator that you re hovering
+over it where your cursor pointer
+changes to a little hand icon so what we
+can do
+is we can say oh and by the way
+i messed up these two elements should be
+nested
+inside the navbar element there we go so
+now we re going to save
+okay that makes more sense now so now
+what we re going to do is
+we re going to say mobile menu
+and we re going to put cursor pointer
+mobile menu is in relation to
+this class right here that s the menu
+graphic
+and that s responsible for this person
+right there or that guy or that
+thing that graphic so if we save guess
+what
+it changes to a hand all right now let s
+we basically for mobile have this part
+done
+for now next up look how ugly this stuff
+is
+that right here looks nothing like
+here let me get this situated so that we
+can see both side by side
+it looks nothing like this right this
+and this
+so we got to get that looking much
+better all right
+so now let s come back to our
+
+we re going to style all of our links
+a certain way a certain color rather
+so if i if i for instance where it says
+watch
+a video right here
+this isn t black it s actually
+kind of like a dark gray so if i wanted
+to change all the hyperlinks
+which by default are either blue or this
+visited color that s like this purple
+we re going to go ahead and just
+reference all a elements
+so we re not going to use a class and
+
+and then change it so notice how they
+all change any link that shows up
+anywhere else is going to be
+that color now if i only wanted to
+change the color of a specific
+link i would use a class instead as a
+selector hopefully that makes sense
+all right next up um we re going to do
+let s see here we re going to do some
+other general cleanup work
+it doesn t necessarily follow the flow
+of what s happening sequentially here
+but i like to include some of this stuff
+like near the top of the document
+um so we re going to reference all
+unordered lists remember we used quite a
+few unordered lists
+in my design none of them have bullet
+points though
+but the default behavior and design and
+presentation of bullet list
+of unordered lists in the browser is to
+add
+little bullet points next to them so i m
+going to get rid of all those by
+referencing the ul
+and we put list style type none notice
+how they all went away
+i m also going to get rid of any default
+margin and padding that has been added
+on behalf of the browser and we know
+they ve been out of because if we go to
+control shift i
+we click on this and we hover over here
+we can see
+both padding is added in the green
+section on the left so there s padding
+left added
+and there s also a margin on the top and
+bottom
+i m going to get rid of both of those
+by default so margin 0 padding
+0 so notice how it gets moved right up
+against the edge of the browser
+it looks ugly but don t worry we re
+going to style all this stuff to make it
+look a lot better also our sections
+a section appears multiple times section
+here
+section there section there and i m
+going to add some
+specific rule sets to that specific
+properties rather we re going to do
+padding
+padding is cool because you can put like
+five m units
+and that will affect the padding
+on the top bottom right and left but if
+you want to
+control specifically where it goes like
+on like if you want to have
+the top and bottom be a certain value in
+the left and right be a different value
+you put five m units on the top and
+bottom and two units on the right and
+left
+you can take it a step further and
+specify all four
+so if you wanted like all four to be
+different you would be you would put
+top would be five n
+uh right it works like a clock by the
+way would be
+uh eight m units maybe bottom might be
+10
+m units and then uh left would be
+like 20 pixels so you can also mix your
+units
+but for me it s just gonna be five m
+units on the top and bottom two m units
+on the right and left
+now that two m units on the right and
+left
+makes it so that we have white space on
+the left portion of the browser
+and now no longer is our content being
+pushed against
+on the edge all right
+also let s get to this part
+
+this compared to this in terms of
+alignment
+well this is centered all this text is
+centered
+so oops i didn t want to do that
+let me close that out i got the wrong
+one there we go
+so what we ll do is we see which
+selector we want to use in order to take
+all this text and make it centered
+so if i
+come down here there s our hero section
+here s our text
+we could probably say left call
+make that all centered or we can come up
+and just choose hero
+and it ll make everything centered that
+it can so hero
+that s a class text align center
+there it goes look at that we re getting
+somewhere i m telling you
+it s looking a lot better now we need to
+still work with this because this
+still does not look like this
+there s some differences right like this
+is
+different and this button is a lot
+
+left call because that s a class defined
+right here
+and that s that s responsible for all
+this stuff right here
+so we have our sub head inside of there
+so we re going to do subhead
+and by the way you can do this nesting
+of sorts and not even specify a property
+value if you don t want to
+we can put in text transform
+uppercase all right because this was
+
+font weight s going to be bold
+save it color is going to be gray now
+we re getting closer
+
+is going to be 0 3 m units
+so now look how close that looks to this
+very very good next up this has to be
+large or a headline or
+
+so we re going to put h1 font size 2 5 m
+units
+and how do i know that it s 2 5 i
+experiment
+so before i recorded this tutorial i
+recreated all this
+already that way you re not sitting
+sitting there watching me bumble because
+bumble over my words and my properties
+and all that stuff because
+even if somebody who s seasoned with
+html and css
+like myself it s it it s not always this
+easy so
+nobody wants to sit there watching me
+trying to figure this out from scratch
+although i m sure some that would be a
+good use case some people will want to
+see um but just for making this
+course faster and so that i can focus on
+teaching rather than other stuff
+i i did the project beforehand i know
+some people they don t like that for
+some reason but
+trust me everybody does it and there s a
+reason all right so line height
+1 3 because right now the line height
+between
+this text is too far we re going to make
+it a little bit
+uh squished up and then margin top
+because it but it does the bro the
+browser does add default margin
+to the h1 element we re going to do 1 2
+or we re going to put 0 2
+m units to get it closer to that sub
+head see that
+awesome next up let s dial this button
+try for free
+looks nothing like this try for free
+button right
+so how do we reference this button
+well we can come back to our index html
+we can find try for free there it is
+the class is primary cta so we put
+dot primary cta and this is going to be
+quite a few properties to achieve this
+design so the first one is going to be
+background because we have to make it a
+blue color
+just to show you again this is what it
+looks like
+right so background is going to be
+var primary color because it s the same
+color that we were using
+so this is the first time we ve we ve
+reused this same color
+so now let me show you the power of the
+properties custom properties
+if i change this to green they change in
+both
+areas so it makes your life so much
+easier all right
+so background we got that set
+we re going to take color white remember
+it s text in there we want that to be
+white so we save it and it
+changes white as you can see we re going
+to also do
+
+none that gets rid of the underline
+we need padding look how tight like
+there s not a lot of white space inside
+remember padding is
+for the inside white space padding is
+going to be 0 6
+m units on the top and bottom in 1 3 m
+units on the left and right
+we re also going to do font size we re
+going to increase the size a bit to 1 4
+m units we are also going to put in
+border radius 5m units
+so notice how the borders by default i
+mean the border radius is just a
+perfect like 90 degree angles we want it
+to be a pill shaped
+like this so to do that we put border
+radius with some large amount
+and it makes it that you can also put
+like 0 5
+m units and it ll just round it off
+slightly but the greater this
+is it ll make this all rounded
+all right next up after that font weight
+we re going to make bold
+and then finally we re going to put
+display inline
+block all right so
+now that s all the properties that we
+need for this
+so now what we want to do is we want to
+style this thing
+these need to be this icon needs to be
+down here
+as shown right here so
+we go back here this is class watch
+
+all right we re going to display block
+that gets it away
+we re going to do margin and this is
+another thing you don t know
+this is the same thing for padding and
+margin you could put
+margin right here and just we only want
+margin on the top though
+so we could put one m unit zero zero
+zero on the
+right left and bottom that ll work but a
+better way
+if you know you only want one direction
+of
+margin is put hyphen top or hyphen right
+left or bottom
+so now we just put in one m unit same
+thing with padding by the way
+all right so if i reset my browser down
+to
+back to 100 this is what it looks like
+all right um we also have an issue
+there s a lack of white space here
+between here and here this this little
+camera icon
+so we re going to put image because
+
+we re going to put margin right
+0 5 m units there we go
+awesome so now we have this graphic
+right here
+we need to look more like this
+it s smaller and it s pushed further
+away down
+so the
+
+we re going to come out here we re going
+to put width
+you can put percentage values which is i
+you know a relative type
+unit and then we re going to put in
+margin top
+3m units and there we go much much
+better so now
+we compare these these are almost you
+know these are pretty similar
+this could be scaled down a little bit
+more this icon probably a little bit
+more white space
+but really this is all quite close
+in terms of appearance now of course if
+we drag this out
+it s going to look strange but don t
+worry we ll fix that as well and
+ultimately
+make the desktop version look like that
+but let s continue on now we have that
+section where it has the features right
+here
+
+features section we re going to say
+background
+and we have to get a background color so
+i already know what that is it s going
+to be
+this value right here we save it and you
+can see right there
+now another thing sometimes if you just
+have classes as selectors classes alone
+it might be confusing sometimes it can
+help
+to put the actual i html element as well
+so if we put section right there that s
+in reference to the fact that this is a
+section
+with a class of hero so this can help
+you
+understand where it s coming from we re
+also going to change
+all the text to white because it s such
+a dark background and we need that
+contrast
+all right now we have to work on this
+features list
+
+all right so to do that we re going to
+go ahead and
+specify ul dot features
+list so we re going to put so we have
+like five properties to put we re gonna
+
+we re going to oh and by the way um
+definitely make sure
+you put in let s see here
+there we are um ul
+dot the class is features list because i
+didn t include that initially i just
+added that off screen
+um so ul s feature list so margin zero
+padding left point one m units
+all right so you can designate top right
+left bottom for both padding
+and margin if you just want to specify
+one
+um display grid
+now this part s going to blow your mind
+in fact you know what
+i think we re gonna we re gonna wait
+we re gonna wait for this
+come back come back to this okay uh that
+that s a comment you just put two
+forward slashes
+uh we re gonna i m gonna wait for that
+you ll see what i mean later on
+so now that s um what we need to do now
+is space these out further
+and obviously make it look more
+like this so
+we re going to put list item font size
+1 1 m units just to make it a little bit
+larger
+margin bottom to space them out from
+each other more
+1m unit margin left will be 2 m units
+and we re moving it over with margin
+left as you can see from here to there
+because we need to make room for the
+check mark
+the way we can do the check mark is use
+something new um
+to you it s called a pseudoselector so
+we put and before
+the and is something that s only
+specific to sas like working in the css
+scss file um it just basically
+will transpile into
+before it ll look like that in your
+main css file
+all right so we put and before
+content is going to be empty position is
+absolute
+making an element uh or a rule set with
+position absolute is a way to
+i position an element within the
+document
+um and then you can use some other
+values that you ll see in a second
+we re going to put width of 20 20 pixels
+height
+of 20 pixels and a background
+image so we can put url
+we re going to come out of our css
+folder
+into the css into the images folder
+bullet svg
+and as you can see if we save it we can
+see it but it s broken right
+background size we re going to put
+contain
+so that fixes it being um you know
+broken
+out of there because it s containing the
+image and then margin right will be 0 5
+m units
+and then also we re going to put in
+
+now it s hidden that s because
+if we want to position this element this
+check mark
+check mark relative to the container
+that it s sending inside
+we have to put position relative on its
+parent
+and there it is i know that s very
+confusing it s more of an intermediate
+to advanced sort of con concept
+but bear with me so
+i that is it for that portion now
+this photograph doesn t exist in the
+mobile version so we have to get rid of
+it
+so all we do is we re going to come out
+here
+features section image
+display none there we ve hidden it
+all right i very cool so
+next up we re going to worry about the
+
+
+now i m not going to make these like
+slide like carousel that s a little bit
+too advanced we re just going to make
+three of them like on stacked on top of
+each other
+so to do that we ll take a testimonials
+hype and section background is going to
+be var
+
+and let s let s real quickly get in and
+fix uh those large graphics those large
+files
+i mean the large image that s showing up
+so inside of here
+we have image and we re just gonna say
+width
+5m units height 5m units and that really
+quickly just fix things right now now we
+can start working within
+some other stuff so our unordered list i
+actually forgot we don t need
+because we already styled and got rid of
+the bullet points
+i didn t do that in my reference codes
+that s why i screwed up
+so our list items they have a darker
+background color
+right here so we say background
+0 0 6 bd6
+so we can see that background now text
+align oops
+center that centers everything including
+the image
+padding will be 2m on the top and bottom
+1m on the right and left
+
+margin was going to be 0 on the top
+auto on the right having auto on the
+right and left will allow us to center
+this element
+5 am on the bottom there we go
+and then we also have a border radius
+not a order radius a border radius
+of 1m units and that rounds off our
+edges right here
+our image we have some other properties
+a border of 5 pixels
+solid you can also have dashed and dots
+and all that stuff
+0 0 6b d6 the one we used above
+can t see that but you will in a second
+border radius we want this to be
+circular 50 that s how you do that
+border radius 50
+and then margin top we want to move it
+up on top
+as you can see in a reference it s up
+
+negative you could put negative values
+4 5 m
+units so we can put margin top margin
+bottom margin right
+and margin left now we also have to make
+our
+uh our text color white
+as that completely does not look good so
+testimonial section we actually have a
+couple other things that we need to do
+let s see here
+color white there we go
+all right very cool next up
+
+so our contact section has an h2 element
+we want to make it a little bit bigger
+
+next up we have our labels name and
+message these need to be
+
+oops i never did it i never designed for
+that
+but they need to be stacked anyhow so
+we re going to say label
+display block there you go
+font size will be a little bit bigger
+so it enlarges them margin bottom
+point five m units just to move it away
+a little bit
+
+and our text area which is this element
+and then this element beneath it the
+part that people type in
+width is going to be 100 percent
+and padding will be 0 8 m units on the
+inside to make it larger
+
+will be 1 m units to push them away from
+each other just a little bit border
+but we don t need to do a border because
+it s looking decent already border
+radius will be
+0 3 emitters to round the corners oh
+border in order to fix that issue where
+it made them real dark
+border one pixel solid you can also have
+like dashed and all that
+um gray that s a new
+uh that s the way you colorize it
+obviously if you make this
+larger you know it ll make it a thicker
+border
+also box sizing border hyphen box
+i notice the width of these right now if
+we save this
+it brings them in and when it comes to
+elements that have
+margin and padding applied to them when
+you use like width 100 percent
+it can make them extend out too far and
+create horizontal scroll bars
+and such so that s how you fix that
+next up our input button
+right here
+we need to style that so
+input type equals submit
+yes that is one way that you can i
+choose a selector
+we could we do have a class and we could
+just put class
+like this send message instead of doing
+this
+we can just do that but i want to show
+you other ways to
+select so what this is is the eight it s
+the html element with brackets
+designated only to spec to choose uh
+attributes of type submit so isn t that
+cool yes it is
+background color very variable um
+primary color
+so you can see it turns blue on the
+right color is going to be white
+font weight will be bold font size will
+be
+font size e oh my 1 3 i m trying to type
+too fast
+
+margin bottom will be 5 m units to push
+that
+map away border radius will be 5 m units
+to make it a pill shaped container
+display is going to be let s do inline
+block
+it s too big and large for me so if we
+do inline block
+and then make padding point
+am units and two m units and then
+take width and say unset now
+we have this over here uh it s much
+smaller oh cursor
+pointer now it changes to a pointer
+all right and then finally we re just
+about done
+iframe it s really big right now it s
+creating these
+horizontal scroll bars for us so let s
+just take our iframe which is the google
+embed code
+
+height like we ll do 300 pixels
+there we go now this is pretty much done
+for the mobile view
+except this doesn t work up here
+like we click it nothing happens right
+well we need it to show
+you know our navigation all right
+so what we re going to do now is start
+focusing on building out
+our our nav or our navigation that shows
+up
+so to do that temporarily we re going to
+come up here and
+see where it says nav display none i m
+going to comment that out
+so now it s going to show it so that we
+can start styling it the way we want now
+i don t have
+it designed here the way i want it you
+know i don t have the nav bar design so
+you re just gonna have to
+trust in my judgment here there s many
+different ways to design these things
+so what i m gonna do is put nav
+menu btn we re going to say display
+block all right and then
+our nav which contains our unordered
+list
+our two on our lists because this is a
+list and this is a list
+we re going to put position fixed
+because it s going to sit on top of
+everything
+and it s going to come out like to like
+66 percent or two thirds of the browser
+and just lay on top of there it s going
+to be a big bar
+so position fixed when we scroll notice
+how it stays up on top of
+here all the time that s what position
+fix
+one of the things position position fix
+does we re also going to put z index
+999 a really high value z and x
+when it you can you can place onto
+elements that have position absolute or
+position fixed
+a really high z index means it s going
+to sit on top of everything
+because we want this menu to sit on top
+of everything
+next up is going to be width we re going
+to do 66 percent
+we re also going to put right zero so
+it s going to push that
+whole area over there to the right top
+is going to also
+be zero means it s going to be very top
+of the document
+background is going to be our dark color
+that we used
+
+so notice now we can start to see it
+come to come alive essentially
+height is going to be 100 viewport
+height a vh is another one of those
+relative units
+it just means the height of the the
+device of the browser that you re
+looking at
+padding 1m unit on the inside
+next up we re going to take our ul
+primary nav margin top
+5m unit so you re going to see this
+navigation push down
+right there all right we re not done yet
+
+now i realized i don t think i actually
+had any properties there but we re going
+to
+
+text decoration none
+uh display block we have to put display
+block on a
+elements or their your hyperlink
+elements um if we want to add padding
+and like margin stuff
+so padding will be point five end units
+this will increase uh
+white space font size
+will be 1 3 m units to make it larger
+
+all right and then also something that s
+cool if we hover over these nothing
+happens
+sometimes you can change the color on
+hover and other things put and hover
+font wait we can make bold that s one
+thing we can change so watch look at
+that
+all right very very very cool all right
+this over here this button we want to
+push to the right because it looks so
+weird left aligned
+so what we ll do is i that has a class
+of mobile
+menu exit float right we ll push it
+right
+margin would be like 0 5 m units and
+then
+cursor pointer so now we hover
+like that and that s our mobile
+navigation that s what that looks like
+so now we re going to go back up to the
+
+all right so now we re going to get into
+something that s very scary for
+
+so javascript i will allow us
+when somebody clicks this to attach a
+class
+onto this what s called a dom element or
+this element right here
+or to the nav element rather and allows
+us to
+add a css class that will toggle on that
+display property
+to show it when it s clicked so we can
+put
+script at the very bottom just above the
+closing body tag
+and we can put we have to define three
+different properties here
+const so it s going to be a constant you
+can also put let
+mobile btn usually instead of using
+hyphens
+or instead of using hyphens you use
+camel case so we re going to
+mobile btn here in javascript equals
+document
+dot get element by id
+mobile hyphen cta this basically allows
+us to
+in the future reference
+the button right here because if we look
+at it
+we have the id of mobile cta
+that s how we get it in javascript now
+we take off the semicolon
+we don t have to put const again we can
+just define a bunch of them like nav
+google document dot query
+selector nav
+so you use getelementbyid for elements
+that have an id
+attribute or if you just want to select
+an element name like div or whatever or
+label
+i you can just put the actual element
+name
+so instead of get element id it s query
+selector where there s only one nav so
+we just choose nav
+um then one more
+and that s going to be mobile btn exit
+that s going to be that white
+
+and it has an idea of mobile exit so now
+we put the semicolon at the end
+and we have three different properties
+or variables that we can now access
+so we say mobile btn we re going to add
+an event listener
+of a click type there s a bunch of
+different type of event listeners like
+when mouse hover like when the mouse
+moves over it or whatever
+this is a click or when somebody taps it
+um
+we open this up into here so this is the
+first parameter
+this is an arrow function i m not going
+to really bother explaining
+if you re brand new to javascript but
+basically what this means is when
+somebody clicks on
+that button right here do whatever is
+inside of these
+squiggly brackets okay so what what do
+we want to happen
+well we want to take our navigation
+right here
+which is currently hidden with display
+none
+we want to attach a class i
+that will change it to display block
+all right so to do that we say nav which
+
+dot class list dot add because we want
+to add one
+
+
+i believe we don t yet have defined
+let me see if we do ctrl f to find
+yeah there it is nav we already defined
+it display block
+so that s the purpose javascript is
+going to add that
+when this gets clicked so if we hit save
+click
+there it is all right so also what
+happens when somebody clicks this we
+have to hide it right
+so let s just copy these three lines
+and we re going to change this to uh
+mobile btn exit
+on click we re going to basically class
+list remove
+so we click this it adds it now it
+removes it
+look at that how exciting all right so
+now at this point this is where we re
+going to get into responsive
+css design right now this design is not
+responsive it only works it s only made
+to work and look
+good and functional on mobile because
+look what happens here
+i mean this does not look good
+right right
+and this doesn t make sense so we need
+to make it responsive
+all right so we do that through what s
+called media
+queries we come right to the bottom here
+so we have to ask ourselves and this is
+helpful to have the
+um the dev tools open control shift i
+um because when you have those open and
+you
+kind of shrink the browser in you can
+see little i
+coordinates up there like 545 pixels by
+1360 or whatever we re looking at the
+first value because that s the width
+value
+and we have to ask ourselves at what
+point should the design start to change
+so at what point if i m looking at this
+nav bar we re looking at things top
+bottom now
+when it comes to responsive design at
+what point do we have enough room to
+show
+all those menu items up here right
+so around 768
+or something that s a common break point
+but really for this design
+that makes sense we have enough room at
+this size to
+hide this menu and then just show all
+those links automatically for like a
+tablet
+or a really large phone so we re going
+to go ahead the way you
+you you do this is through what s called
+a media query
+and here s what it looks like let me
+just
+copy and paste it off screen
+so it says media only screen and minimum
+width
+768 pixels so any rule sets
+this is where we put our rule sets
+inside of here so any rule sets in here
+will only apply
+if it s basically a
+768 pixels and larger
+so it s really uh dynamic and flexible
+so the first thing we want to do is hide
+we want to hide
+this net this little hamburger menu
+because we don t need it at that point
+so what we do is say mobile menu
+and mobile menu exit because we don t
+need to see the exit button either
+display none now when i save it we don t
+see it because we re not
+
+there we go it hides here let s get this
+back to 100
+there we go yeah it actually hides right
+there exactly as we wanted it
+so our navbar container
+we re going to put in just
+display grid now right now we can t see
+anything so
+maybe i need to add a couple of other
+things so
+
+we re going to say display flex
+now we see it okay now we have some work
+to do
+in order to get this fixed up let me
+drag this
+in so we can see this so our container
+is the parent of our nav bar so if we go
+up here we see diff class container then
+we see
+our nav right here and then inside of a
+nav
+we have this right here and this right
+here
+so we re going to use a display grid
+
+columns i was showing you the wrong
+thing
+we re working on our container and we re
+making it a grid container right now
+right here and then we have our logo
+and then our nav so two elements this
+one s hidden at this this eye
+media query so display grid we have two
+columns
+180 pixels or so for our logo and then
+auto
+means just take up the rest of the space
+for the rest of it
+all right so now we end up pushing that
+over um
+then we re going to put
+justify content
+on unset now that s because
+up here in our container we had just
+oh wait place content i think i meant to
+put place content on set there
+either way i think we can just get
+remove it but we ll see
+all right so now we have our
+nav we re going to put justify
+
+we re also going to put background none
+now we can t see anything the position
+will be unset because it s currently
+fixed
+height is going to put set to auto
+because it s currently 100
+viewport height that s why it s all
+white
+
+
+and now we re going to come out and
+specify
+the unordered list inside of them
+display
+flex now right now we can t even see
+what s happening because the text is
+white so let s
+take our our links make um color black
+there we go so our our um
+our colors right here let me come down
+here for our links we re going to do
+font size 1m unit
+and padding will be 0 1 m unit on the
+top and bottom in one
+end unit on a right and left now right
+now these are not
+structured uh properly at all
+now let me see if the fix
+was this justify content on set
+okay it wasn t right now they re not uh
+situated
+
+because they all need to be looking like
+this
+so let me continue on writing with the
+
+the information here or the rule set so
+we re gonna have ul primary hyphen nav
+and set the margin to zero there we go
+now that was the issue it was pushed
+down because uh it was so up high there
+okay so now and by the way we can go
+back
+and this still works because all the css
+we re writing now is only for
+beyond this point all right next up
+li current a all right
+oh let me see what i m doing here
+
+and we re also going to put in li go
+hyphen premium
+
+and we need this go premium button to
+look like
+what it does on desktop oops wrong thing
+i open up my discord
+right here so
+we re going to do color it s going to be
+
+you can see it s changing up top up here
+we re going to put
+border of 3 pixels solid var
+primary color as well so now we can see
+what it looks like
+getting there font weight will be bold
+border radius will be 5
+m units to give it that pill shape
+and then margin top will be
+negative 2 0 2 m units
+that way it s a little bit situated
+better now what about when we hover it i
+think it would be cool to make it
+inverse in terms of uh
+the background color so in hover
+background
+var primary color
+
+isn t that cool so hopefully you re
+starting to pick up on stuff
+so that s the only thing i really want
+to change on that resolution
+oh this i do want to change remember i
+was telling you about the um
+this real cool css grid uh there s
+something
+where it says come back to this this is
+where we re going to do this right now
+we have enough room
+to position these so that they re in two
+columns
+or more so the way you do that
+is by making it a display grid
+and we add this very special property
+it s very complex this is definitely a
+more
+advanced level thing we make it a
+display grid then we do
+grid template columns and we re going to
+put
+a repeat function auto fit
+min max 19 rem units one fractional
+unit right here so it automatically
+knows
+if it doesn t have enough room keep them
+all in one column
+if it has enough room maybe do two and
+then three and then so on
+very very cool all right
+next up i we re going to go ahead and
+focus
+on the next viewport all right and
+that s going to be around
+1080 pixels so if we go ctrl shift i
+we drag this out right around 1080 or so
+we have enough room to split this into
+two columns like it shows here
+
+all right so let s go ahead i m going to
+copy
+
+1080 pixels remember the other one was
+above it is 768
+our container this is where our
+container remember we were adding that
+container element everywhere with the
+div container
+width will be 1080 pixels and then the
+margin will be zero auto that
+basically will center everything
+so that and the reason i do this is when
+we expand look how it s all centered it
+right at 1080 it stops being fluid
+and then it just centers so that s a way
+to have a centered
+eye container basically and then that s
+applied all down here too
+all right so next up our section let s
+increase the padding the white space
+through padding 10 n units on the top
+and bottom
+and four and a right left right now it s
+like before this it was set at
+on our section element five and two
+so now let s push that down now let s
+work on this area
+so we re going to take our hero and the
+container inside of it
+we re going to say display flex that
+gets them
+situated beside each other justify
+content is going to be space
+
+all right not much has changed except
+they are floating left and right
+we want to text align left because right
+
+oops that s not working well don t worry
+
+this is supposed to be text align
+left and i m not sure why it is
+not doing that well let s figure it out
+and do some debugging
+because that s how i figured it would
+work let s get back out here
+all right so this is left call
+container let s see as you can see we
+can click on these and you can see all
+the text align
+
+and text line center right here but it s
+not overriding it
+so what we could do is we can put in
+left call as you can see it s right here
+and it contains all this information
+text oh my god
+i m stupid this happens left
+now it s gonna make it left i was
+wondering why wasn t it going left well
+it s because i made it
+center i made it like what was i
+thinking i ve been recording far too
+long
+okay let s continue on
+all right what else should change here
+um the margin
+of this left column it s it s all messed
+up so
+left call we ll say margin 3am units on
+the top 3m units on the right zero on
+the bottom five
+m units on the left so we can move it in
+a little bit
+we ll take our h1 element make it larger
+font size three 3m units
+and width we ll do 90 percent
+all right our hero image
+right here let s come out
+after this third closing hero hyphen
+image
+width will be 30 percent
+margin right we re going to push it away
+
+i like it all right so now
+our cta right here try for free these
+this watch a video should be right here
+and they re wrapped in a parent
+
+of hero cta
+
+so for that one let s see here we re
+going to put
+hero cta display
+flex so now it s right there but we need
+to push it away a little bit
+so we do primary cta
+which is the big blue button margin
+right
+1m unit there we go
+
+after that we have our features list
+right here
+
+desktop version they re all on top of
+each other
+so now we ll take our ul features list
+we ll display block
+so now it pushes them all there
+and we ll say margin left 5 m units
+
+size
+and or our list item rather make the
+font size 1 4 m units
+just to make them bigger and before we
+have to beef up the size of these
+because they re too small now
+in relation to the size of the text so
+
+there we go next up
+i we re going to put in
+
+right here and so i think
+yeah feature section right here so we re
+going to reference this by feature
+section
+img because the image is inside of the
+feature section
+so we re going to come out here
+and put features section
+position relative because we re going to
+absolutely position
+the features section image
+so or we could just nest the image
+inside of here
+by the way so i m just showing you can
+do you know things multiple
+ways display block
+so that s going to show it now now
+notice
+in the design it s positioned over here
+to the right
+
+right is going to be zero
+
+and bottom will be negative 2 m units
+and there we go all right
+now at this size uh this viewport
+resolution
+we don t have enough space to add in
+these elements because they would
+overlap so we re going to do that at a
+larger viewport
+in a bit next up is this section here so
+now we re going to come and specify our
+testimonials
+section unordered list display flex
+that ll float them all next to each
+other
+list item margin is going to be zero
+on the top and bottom one end units on
+
+see that isn t that awesome all right
+our contact section again we ll do a
+position relative here
+and in our container inside of it will
+be display
+flex because there s two columns here
+so now this looks ugly so
+this iframe is inside of a parent
+container called contact
+right position will be absolute
+right will be zero top will be zero
+and then we re going to do width about
+
+
+and then our iframe height also has to
+
+
+very awesome so that s it for that media
+query
+now next one the final one and guess
+what we re almost done
+is to show these two elements
+which are right here all right so
+we re going to use the before and after
+pseudo selector on this section
+which is feature section so
+for this one we re gonna have enough
+
+so features section
+
+content is empty position will be
+absolute
+width will be about 10 percent height
+will be
+we ll just do 20 m units background is
+
+primary color so now if we save this
+we don t yet see it but don t worry i m
+going to get it
+so we can see it in a second left is
+going to be 0 and top will be
+
+m units all right so right now
+i do not see it so let me make sure
+that we re doing everything right we ll
+go ahead and try to
+ascertain the issue so let s get out our
+depth tools because i want to show that
+because
+this is not supposed to happen oh wait
+that s why
+we weren t large enough we we weren t up
+to 1450
+now it s right there okay and then we re
+going to do the after
+the after is going to allow us to
+specify the little
+um graphics the dots all right so
+it s going to be pretty similar except
+for width it s going to be 200 pixels
+height that ll be 20 m units as well in
+the background this time is going to be
+
+
+no repeat because we don t want it to
+repeat
+
+for some reason the other thing oh
+after change that to after there we go
+and then now we have to position it
+better
+so the left is going to be like 4 5 m
+units
+and the top will be like 2 m units
+look at that pretty similar to what we
+
+all right believe it or not we are
+actually
+done let me close this so now we can see
+what this design looks like and how it s
+responsive so on a phone it s going to
+look something like this
+we re going to get a little bit larger
+and then
+around like a tablet it s gonna we re
+gonna have enough room so we can show
+all of our navigation items
+nothing else changes though still looks
+good
+one thing that did change was this
+because we went from
+all of them being collapsed to two
+
+then we come out of here
+
+so notice how these are all on top of
+each other and then they
+go into one row and then finally
+
+and we have another additional item that
+shows up just as a graphic
+and then uh also our navigation
+
+how awesome is that alright so hopefully
+you enjoyed that i know that was a
+whirlwind that was so much information
+on packed in and if you re a beginner
+you might be discouraged a little bit
+hopefully not i want to use this
+as kind of just a bird s eye view a
+macro level perspective
+of what the process is of front end
+development which is the you know
+writing of html css and javascript
+um you re not going to walk away having
+a lot of confidence just by watching
+this one video you have to keep trying
+and have to keep learning different
+things
+so with that said if you want to keep
+learning more and you re interested in
+this stuff definitely
+subscribe to my youtube channel here
+click the bell notification icon
+i check out my site designcourse com and
+i ll see you
+

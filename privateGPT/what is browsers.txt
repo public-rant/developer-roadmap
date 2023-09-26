@@ -1,0 +1,12 @@
+
+
+> Question:
+what is browsers
+
+> Answer (took 223.26 s.):
+ A web browser allows users access and display online resources such as HTML documents on their computers or devices with graphical interfaces (UI) that interact to allow them to request pages from servers when they are needed, like clicking links in a webpage or pressing keyboard shortcuts for navigation. It also provides features such as search engines and bookmarks which help navigate websites and saves webpages so users can easily retrieve it later on if necessary
+Visit the following resources:
+
+> source_documents/backend-122.md:
+
+A software web server has a number of software components that regulate how hosted files are accessed by online users. This is at the very least an HTTP server. Software that knows and understands HTTP and URLs (web addresses) is known as an HTTP server (the protocol your browser uses to view webpages). The content of these hosted websites is sent to the end user’s device through an HTTP server, which may be accessed via the domain names of the websites it holds.

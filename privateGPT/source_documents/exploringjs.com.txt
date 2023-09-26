@@ -1,0 +1,87 @@
+                 Exploring JS: JavaScript books for programmers
+
+   [axel_head.jpg]
+   [http://dr-axel.de/]Dr. Axel Rauschmayer
+   Blogger ([http://2ality.com/]2ality), book author, trainer
+
+   Most of the books are free to read online! You can also buy offline
+   versions.
+
+Versions of JavaScript
+
+   “ES” stands for “ECMAScript” (ES6 is ECMAScript 6, etc.).
+     * Past versions: ES1, ES2, ES3, ES5/ES5.1, ES6 (a.k.a. ES2015),
+       ES2016–ES2020
+     * Current version: ES2022 (June 2022)
+
+Essential JavaScript and TypeScript books
+
+   [https://exploringjs.com/impatient-js/index.html]Book cover
+   [https://exploringjs.com/impatient-js/index.html]JavaScript for
+   impatient programmers (ES1–ES2022)
+     * A modern guide to the language
+     * No required knowledge (apart from programming)
+     * Start reading here
+
+   [https://exploringjs.com/deep-js/index.html]Book cover
+   [https://exploringjs.com/deep-js/index.html]Deep JavaScript: Theory and
+   techniques
+     * Covers advanced JavaScript topics
+     * The book to read after “JavaScript for impatient programmers”
+
+   [https://exploringjs.com/tackling-ts/index.html]Book cover
+   [https://exploringjs.com/tackling-ts/index.html]Tackling TypeScript:
+   Upgrading from JavaScript
+
+   If you know JavaScript:
+     * Learn TypeScript.
+     * Deepen your existing knowledge of TypeScript.
+
+   [https://exploringjs.com/nodejs-shell-scripting/index.html]Book cover
+   [https://exploringjs.com/nodejs-shell-scripting/index.html]Shell
+   scripting with Node.js   New
+
+   If you know JavaScript:
+     * Learn how Node.js works:
+          + Its foundations: its architecture, its event loop, etc.
+          + Its API: How to use its global variables and modules.
+     * Learn how to use and create npm packages.
+     * Learn how to use and create shell scripts and package scripts (in
+       package.json).
+
+More JavaScript books
+
+   [https://exploringjs.com/es6.html]Book cover
+   [https://exploringjs.com/es6.html]Exploring ES6
+     * Covers what’s new in ES6 (relative to ES5)
+
+   [https://exploringjs.com/es5/index.html]Book cover
+   [https://exploringjs.com/es5/index.html]Speaking JavaScript (ES1–ES5)
+     * JavaScript for programmers
+     * No required knowledge (apart from programming)
+
+Books related to JavaScript
+
+     * [http://reasonmlhub.com/exploring-reasonml/]Exploring ReasonML and
+       functional programming. [https://reasonml.github.io/]ReasonML is
+       probably the FP language that is easiest to learn for JavaScript
+       programmers (and therefore a good way to get started with FP):
+          + It’s a pragmatic language (based on OCaml), with various
+            “impure” escape hatches (output, mutable state, etc.).
+          + Its syntax is based on JavaScript’s.
+          + One of its main goals is good JavaScript interoperability.
+
+About the author
+
+   [axel_head.jpg] [http://dr-axel.de/]Dr. Axel Rauschmayer specializes in
+   JavaScript and web development. He [http://www.2ality.com/]blogs,
+   writes books and teaches classes.
+
+   Axel has been writing about the future of JavaScript
+   [http://www.2ality.com/2011/02/david-herman-on-ecmascriptnext.html]sinc
+   e early 2011.
+
+Praise for Axel’s books
+
+   [https://twitter.com/exploringjs/timelines/798422922461347840]Tweets
+   about Axel’s books – Curated tweets by exploringjs

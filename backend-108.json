@@ -1,0 +1,107 @@
+[
+ {
+  "id": "n-plus-one-problem",
+  "tag": "h1",
+  "text": "N plus one problem"
+ },
+ {
+  "id": "orms",
+  "tag": "h1",
+  "text": "ORMs"
+ },
+ {
+  "id": "acid",
+  "tag": "h1",
+  "text": "ACID"
+ },
+ {
+  "id": "databases",
+  "tag": "h1",
+  "text": "Databases"
+ },
+ {
+  "id": "failure-modes",
+  "tag": "h1",
+  "text": "Failure Modes"
+ },
+ {
+  "id": "transactions",
+  "tag": "h1",
+  "text": "Transactions"
+ },
+ {
+  "id": "profiling-performance",
+  "tag": "h1",
+  "text": "Profiling Performance"
+ },
+ {
+  "id": "database-normalization",
+  "tag": "h1",
+  "text": "Database Normalization"
+ },
+ {
+  "href": "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89",
+  "tag": "a",
+  "text": "In Detail Explanation of N+1 Problem"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Object–relational_mapping",
+  "tag": "a",
+  "text": "Object Relational Mapping - Wikipedia"
+ },
+ {
+  "href": "https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one",
+  "tag": "a",
+  "text": "What is an ORM and how should I use it?"
+ },
+ {
+  "href": "https://stackoverflow.com/a/1279678",
+  "tag": "a",
+  "text": "What is an ORM, how does it work, and how should I use one?"
+ },
+ {
+  "href": "https://retool.com/blog/whats-an-acid-compliant-database/",
+  "tag": "a",
+  "text": "What is ACID Compliant Database?"
+ },
+ {
+  "href": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation",
+  "tag": "a",
+  "text": "What is ACID Compliance?: Atomicity, Consistency, Isolation"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=yaQ5YMWkxq4",
+  "tag": "a",
+  "text": "ACID Explained: Atomic, Consistent, Isolated \u0026amp; Durable"
+ },
+ {
+  "href": "https://www.oracle.com/database/what-is-database/",
+  "tag": "a",
+  "text": "Oracle: What is a Database?"
+ },
+ {
+  "href": "https://www.prisma.io/dataguide/intro/what-are-databases",
+  "tag": "a",
+  "text": "Prisma.io: What are Databases?"
+ },
+ {
+  "href": "https://fauna.com/blog/database-transaction",
+  "tag": "a",
+  "text": "What are Transactions?"
+ },
+ {
+  "href": "https://www.guru99.com/database-normalization.html",
+  "tag": "a",
+  "text": "What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF, BCNF Database with Example"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Database_normalization",
+  "tag": "a",
+  "text": "Database normalization"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=xoTyrdT9SZI",
+  "tag": "a",
+  "text": "Basic Concept of Database Normalization"
+ }
+]

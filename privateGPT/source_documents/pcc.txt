@@ -1,0 +1,129 @@
+                              Python Crash Course
+
+Resources for [http://nostarchpress.com/pythoncrashcourse]Python Crash Course
+(1st edition), from [http://nostarchpress.com/]No Starch Press.
+
+   [https://github.com/ehmatthes/pcc]View on GitHub
+   [https://github.com/ehmatthes/pcc/zipball/master]Download .zip
+   [https://github.com/ehmatthes/pcc/tarball/master]Download .tar.gz
+   [https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_
+   KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link]Take a survey
+
+   Resources for the second edition are
+   [https://ehmatthes.github.io/pcc_2e/]here. I'd love to know what you
+   think about Python Crash Course; please consider taking a
+   [https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_
+   KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link]brief survey. If you'd like
+   to know when additional resources are available, you can sign up for
+   [https://emailoctopus.com/lists/95c27296-f1d4-11e9-be00-06b4694bee2a/fo
+   rms/subscribe]email notifications here.
+
+   [https://ehmatthes.github.io/pcc/#python-crash-course]Python Crash Course
+
+[https://ehmatthes.github.io/pcc/#a-hands-on-project-based-introduction-to-progr
+amming]A Hands-On, Project-Based Introduction to Programming
+
+   This is a collection of resources for
+   [http://www.nostarch.com/pythoncrashcourse/]Python Crash Course, an
+   introductory programming book from [http://www.nostarch.com/]No Starch
+   Press by Eric Matthes.
+
+   If you have any questions about Python Crash Course, feel free to get
+   in touch:
+
+   Email: [mailto:ehmatthes@gmail.com]ehmatthes@gmail.com
+
+   Twitter: [http://twitter.com/ehmatthes/]@ehmatthes
+
+   I'd love to know what you think of Python Crash Course. If you've
+   worked through most or all of the book, please consider taking a
+   [https://docs.google.com/forms/d/e/1FAIpQLSez7B3mKB9hmOKoiE7LS5ZmpaWME_
+   KNOiLsznH4zb0UtSoxsA/viewform?usp=sf_link]brief survey.
+
+[https://ehmatthes.github.io/pcc/#setup-instructions][https://ehmatthes.github.i
+o/pcc/setup_instructions]Setup Instructions
+
+   Here you can find instructions for:
+     * [https://ehmatthes.github.io/pcc/chapter_01/README.html]Installing
+       and configuring Python (Chapter 1)
+     * [https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html]Ins
+       talling and using pip (Chapter 12)
+     * [https://ehmatthes.github.io/pcc/chapter_12/README.html]Installing
+       Pygame (Chapter 12)
+     * [https://ehmatthes.github.io/pcc/chapter_15/README.html]Installing
+       matplotlib and Pygal (Chapter 15)
+     * [https://ehmatthes.github.io/pcc/chapter_18/README.html]Creating a
+       Virtual Environment (Chapter 18)
+     * [https://ehmatthes.github.io/pcc/chapter_20/README.html]Deploying a
+       Project to Heroku (Chapter 20)
+     * [https://ehmatthes.github.io/pcc/appendix_a/README.html]Installing
+       Python (Appendix A)
+
+[https://ehmatthes.github.io/pcc/#downloading-source-code][https://ehmatthes.git
+hub.io/pcc/source_code]Downloading source code
+
+   The simplest way to get the online resources for the book is to click
+   on the [https://github.com/ehmatthes/pcc/archive/master.zip]Download
+   .zip button at the top of this page, which will download the source
+   code files and other resources for the entire book.
+
+[https://ehmatthes.github.io/pcc/#cheatsheets][https://ehmatthes.github.io/pcc/c
+heatsheets/README.html]Cheat Sheets
+
+   Cheat sheets can be really helpful when you're working on a set of
+   programming exercises or a project. This set of
+   [https://ehmatthes.github.io/pcc/cheatsheets/README.html]cheat sheets
+   will help remind you of the concepts you're learning, as well as the
+   Python syntax for these concepts.
+
+[https://ehmatthes.github.io/pcc/#updates][https://ehmatthes.github.io/pcc/updat
+es.html]Updates
+
+   Some of the libraries featured in the book have been updated recently,
+   which is a good thing - it means you're learning to use Python packages
+   that are steadily being improved.
+
+   When packages are updated you have the option of using the version that
+   was featured in the book, which lets you run code exactly as it's
+   written in the book. You can also choose to install the latest version
+   of each package, and modify the code in the book slightly. Each
+   approach is outlined clearly in these updates.
+
+   A list of updates is kept
+   [https://ehmatthes.github.io/pcc/updates.html]here.
+
+[https://ehmatthes.github.io/pcc/#solutions][https://ehmatthes.github.io/pcc/sol
+utions/README.html]Solutions to Exercises
+
+   Solutions are available to selected exercises. Be careful about looking
+   at the solutions too quickly; make sure you've given yourself time to
+   wrestle with the concepts you just learned before looking at a
+   solution. Also, there are several ways to solve most of the exercises,
+   and the solutions only show one possible way to complete each exercise.
+
+   You can get to each chapter's solutions from
+   [https://ehmatthes.github.io/pcc/solutions/README.html]here.
+
+[https://ehmatthes.github.io/pcc/#finding_employment][https://ehmatthes.github.i
+o/pcc_2e/finding_employment/]Finding Employment
+
+   People have a wide variety of reasons for learning to code, and finding
+   work as a programmer is one of the most common reasons. I posted a
+   section called
+   [https://ehmatthes.github.io/pcc_2e/finding_employment/]Finding
+   Employment as a (New) Programmer in the resources for the second
+   edition of the book. There's nothing specific about the second edition
+   in these resources; if you are reading Python Crash Course with the
+   goal of finding work as a programmer, you might find this section
+   helpful.
+     __________________________________________________________________
+
+   [http://nostarchpress.com/pythoncrashcourse][cover.jpg] Available from
+   [http://nostarchpress.com/pythoncrashcourse]No Starch Press and
+   [http://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/d
+   p/1593276036]Amazon.
+   [https://github.com/ehmatthes/pcc]Python Crash Course is maintained by
+   [https://github.com/ehmatthes]ehmatthes. This page was generated by
+   [https://pages.github.com/]GitHub Pages using the
+   [https://github.com/jasonlong/cayman-theme]Cayman theme by
+   [https://twitter.com/jasonlong]Jason Long.

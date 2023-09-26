@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.youtube.com/c/ApolloGraphQL/ > $(basename https://www.youtube.com/c/ApolloGraphQL/).txt

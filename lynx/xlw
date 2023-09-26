@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://springframework.guru/gang-of-four-design-patterns/ > $(basename https://springframework.guru/gang-of-four-design-patterns/).txt

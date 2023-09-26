@@ -1,0 +1,798 @@
+   #[https://medium.com/osd.xml]Medium
+   [android-app://com.medium.reader/https/medium.com/p/108d83e8ce60]altern
+   ate
+
+   [https://medium.com/?source=---two_column_layout_nav-------------------
+   ---------------]
+   ____________________
+
+Operating System: Process and Process Management
+
+   [https://medium.com/@akhandmishra?source=post_page-----108d83e8ce60----
+   ----------------------------]
+   Akhand Mishra
+
+   [https://medium.com/@akhandmishra?source=post_page-----108d83e8ce60----
+   ----------------------------]Akhand Mishra
+   ·
+
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fs
+   ubscribe%2Fuser%2F2514cc8a06a&operation=register&redirect=https%3A%2F%2
+   Fmedium.com%2F%40akhandmishra%2Foperating-system-process-and-process-ma
+   nagement-108d83e8ce60&user=Akhand+Mishra&userId=2514cc8a06a&source=post
+   _page-2514cc8a06a----108d83e8ce60---------------------post_header------
+   -----]Follow
+   10 min read
+   ·
+   Jul 28, 2018
+
+   --
+   (BUTTON)
+   (BUTTON)
+
+   Listen
+   (BUTTON)
+
+   Share
+
+   Process: In simple words, a process is an instance of an executing
+   application. An application is a file containing a list of instructions
+   stored in the disk (often called an executable file), in flash memory,
+   maybe in the cloud but it’s not executing, it’s a static entity. When
+   an application is launched it is loaded into the memory and it becomes
+   a process, so it is an active entity with a program counter specifying
+   the next instruction to execute and a set of associated resources. If
+   the same program is launched more than once than multiple processes
+   will be created executing the same program but will be having a very
+   different state.
+
+   A process encapsulates all the data for running application, this
+   includes the text, the code of the program, a data section, which
+   contains global variables and data which are available when the process
+   is first initialized. As text and the data are available when the
+   process is first initialized they are called static states and are
+   available when the process first loads.
+
+   The process also encapsulates the process stack which contains
+   temporary data (such as function parameters, return addresses, and
+   local variables), it is a dynamic part of the process state which grows
+   and shrinks during execution in Last-in-First-out order. Suppose we are
+   executing a function “A” and want to call another function “B” from
+   this function, for this, we have to save our current state (state of
+   function “A”) to the stack and jump to execute function “B”, after the
+   execution of function “B”, the state of the previous function (“A”)
+   from which the function “B” was called is restored from the top of the
+   stack and function “A” can continue its execution from that vary
+   instruction it had left (program counter was also saved).
+
+   A process may also include a heap, which is the memory that is
+   dynamically allocated during process run time. Text and data, stack and
+   heap are the types of state of the process.
+
+   Every single element of the process has to be uniquely identified by
+   its address, so an OS abstraction is used to encapsulate all of the
+   process data in an address space. The address space is defined by a
+   range of address from V0 to some Vmax, and different types of process
+   state will appear in different part of this address space. The address
+   space from V0 to Vmax does not correspond to actual address space in a
+   physical location, instead, they are virtual addresses. The memory
+   management hardware and operating system components responsible for
+   memory management like page tables maps these virtual addresses to
+   actual physical addresses.
+   Process’s address space
+
+   All process may not need all the address space, as there are can be
+   many processes running at a time and we may not have enough space in
+   the physical memory (i.e. in the RAM). In order to deal this situation,
+   operating system dynamically decides which portion of address space
+   will be present where in physical memory. Multiple processes may share
+   physical memory by temporarily swapping some portion of their address
+   space into the disk, this portion of address space will be brought back
+   into the memory whenever needed. The page table maintains the mapping
+   from virtual address to the physical address (RAM or Disk), it also
+   validates whether a particular memory access request by a process is
+   allowed to perform or not.
+
+   Before the execution of a process, its source code must be compiled,
+   the compilation of the code results in the conversion of the high-level
+   code to binary instructions, a register in CPU is maintained which
+   indicates the address of the next instruction to be executed for this
+   process, we call it Program Counter (PC). There are some other
+   registers in the CPU which stores other information of the process like
+   addresses for data or some status information. There is also a stack
+   pointer which points to the top of the stack used by the process. To
+   maintain all of this process for every single process an operating
+   system maintains a Process Control Block (PCB).
+
+Process Control Block (PCB)
+
+   A Process Control Block is the data structure that operating system
+   maintains for every single process. The PCB must contain process states
+   like program counter, stack pointer, all the value of the CPU register,
+   various memory mapping from virtual to physical memory, it may also
+   include a list of open files, information which is necessary for
+   scheduling of the process like how much time this particular process
+   has executed on CPU in the past and how much time it should be
+   allocated to execute in the future.
+
+   A PCB is created at the very moment a process is created with some
+   initializations like PC points to the first instruction that needs to
+   be executed. Certain field of the process changes as the state of the
+   process changes for example whenever a process asks for more memory,
+   the OS will allocate more memory to the process and update certain
+   values of the PCB like Page table, virtual memory limits, etc. Some
+   values of the process change too often like the value of program
+   counter which changes on the execution of every single instruction. As
+   updating such changes in PCB can be an expensive task, their values are
+   stored and updated in CPU registers which are very fast. However, OS
+   updates all the values maintained by CPU registers to the PCB whenever
+   that particular process is no longer running on the CPU.
+
+   Suppose OS is managing two processes p1 and p2, currently, p1 is
+   running and p2 is idle, their PCBs are stored somewhere in the memory.
+   The process p1 is currently running means that CPU registers hold the
+   values that correspond to the state of p1. After some time suppose OS
+   decides to interrupt p1, so OS will update all the state information
+   fields of the process p1 including the CPU registers to the PCB of p1.
+   After this the OS will restore the PCB of p2 from the memory, i.e. OS
+   will update all the CPU register from the PCB of p2 and will start
+   executing process p2. After some time if process p2 is interrupted the
+   PCB of p1 will be restored and CPU registers will be updated from the
+   value of PCB of p1 and p1 will start executing from the exact same
+   point where it was interrupted earlier by the operating system. Each
+   time this swapping is performed we call it context switch.
+
+Context Switch
+
+   It is a mechanism used by operating system to switch execution from the
+   context of one process to the context of another process.
+
+   Context switching is an expensive operation because of the number of
+   instructions involved in loading and restoring values of fields of PCB
+   from the memory. Also when a process p1 is executing a lot of its data
+   is stored in the CPU cache as accessing the cache is much much faster
+   as compared to accessing from the memory. When the data we want is
+   present in the cache we say that cache is hot. When CPU will switch the
+   context from process p1 to process p2, the process p2 will replace
+   process p1’s cache with its own cache, so next time when the context
+   will switch from the process p2 back to the process p1, p1 will not
+   find its data in the cache and has to access it from the memory, so it
+   will incur cache misses, so we call it cold cache.
+
+Process Lifecycle
+
+   Process lifecycle
+     * New: This is the initial state when a process is first
+       started/created. In this state, OS will perform admission control,
+       and OS will allocate and initiate process control block and some
+       additional resources. After this, the state of the process changes
+       to ready.
+     * Ready State: The process is waiting in a queue to be assigned to a
+       processor. Ready processes are waiting to have the processor
+       allocated to them by the operating system so that they can run. A
+       process may come into this state from Start state, from the running
+       state or from the waiting state.
+     * Running State: Once the process has been assigned to a processor by
+       the OS scheduler, the process state is set to running and the
+       processor executes its instructions. From this state, a number of
+       things can happen, a running process can be interrupted and the
+       context switch is performed and the running process will move back
+       to the ready state. Another possibility is that the running process
+       needs to perform some long operations like reading data from the
+       disk, or waiting for some events, maybe some timer or taking input
+       from the keyboard, at that time the process enters the waiting
+       state, when the event occurs or the I/O operation completes, the
+       process will become ready again. Finally, when the process
+       completes all the operations in the program or when it encounters
+       some error, it will return corresponding exit code and the process
+       will be terminated.
+     * Terminated State: Once the process finishes its execution, or it
+       encounters some error, it is moved to the terminated state where it
+       waits to be removed from main memory.
+
+Process Creation
+
+   In the operating system, a process can create a child process. Hence
+   all processes come from a single root in which a creating process is
+   the parent process and the created process is the child of that
+   process. Once the initial boot process is done the and operating system
+   is loaded, it will create some initial process. When user logs into the
+   system a user shell process are created, and when the user types in the
+   command (emacs, nano, etc) then new process get spawned from that shell
+   parent process. So the final relationship looks like a tree.
+   Process Creation tree
+
+The mechanism for process creation
+
+   Most operating systems support two basic mechanisms for process
+   creation
+     * Fork: With this mechanism, the operating system will create a new
+       child process with PCB and then it copies all the values of
+       parent’s PCB to child’s PCB. After that, both the child and the
+       parent continues their execution at instruction just after the fork
+       call because both processes contain exact same values in their PCB
+       which also includes program counter.
+     * Exec: This replaces the child’s image and loads the new program.
+       Child’s PCB contains the new initialized value and program executes
+       from the beginning.
+
+   The mechanism of creating a new program is like calling the fork which
+   creates a child process with exact same PCB as that of the parent and
+   then calling exec which replaces the child’s image with the new
+   program’s image.
+
+CPU Scheduling
+
+   At a time there can be multiple processes waiting in the ready queue.
+   The CPU scheduler determines which of the currently running process
+   should be dispatched to the CPU for execution, and how long it should
+   take.
+
+   In order to manage the CPU, the operating system must be able to
+   preempt i.e. to interrupt the current running process and save is
+   current context. This operation is called preemption. Then operating
+   system must run the scheduling algorithm in order to choose the next
+   process to run. And at last, once the process is chosen the operating
+   system must dispatch this process to the CPU and switch to its context.
+   OS must make sure that CPU is spending more time on running processes
+   and not executing scheduling algorithm, dispatching, preempting or
+   doing some other OS operations. Hence it is important to have an
+   efficient design and as well as efficient implementation of the various
+   algorithms involved for example scheduling. Also, efficient data
+   structures that are required to represent waiting processes in the
+   ready queue or any other information (like the priority of the
+   processes, how long the algorithm ran in the past) that are relevant to
+   make scheduling decisions.
+   Number of ways a process can go to ready state from CPU
+
+Inter-process communication
+
+   Many applications are structured as multiple processes, so these multi
+   processes have to able to interact with each other in order to achieve
+   a common goal. As we have already studied that operating system
+   isolates the process from each other in order to protect each other’s
+   memory space, OS controls the amount of CPU each application gets. So
+   some communication mechanism is required to build without sacrificing
+   the protection. These mechanisms are called inter-process communication
+   (IPC). Their task is to transfer data/info between address spaces
+   without sacrificing the protection and isolation that OS provides. As
+   communication can vary from the continuous stream of data sharing,
+   periodic data sharing, a single piece of data sharing, etc so the IPC
+   mechanism has to be flexible with good performance.
+     * Message-Passing IPC: In this mechanism, the operating system
+       establishes a communication channel (like shared buffer), and
+       processes interact with each other by writing or sending data to
+       the channel and reading or receiving data from the channel.
+     * Advantage: Advantage of this mechanism is that OS manages both
+       writing and reading data from the channel and provides APIs. So
+       both process uses the exact same APIs.
+     * Disadvantage: One disadvantage of this mechanism is that data has
+       to first copy from sending process memory space to shared channel
+       and then back to receiving process memory space.
+     * Shared Memory IPC: In this mechanism, the OS creates a shared
+       memory channel and then maps it to each process memory space, and
+       then processes are allowed to read and write to the channel as if
+       they would do to any memory space that is part of their memory
+       space.
+     * Advantage: The advantage of this process is that OS is not involved
+       in the communication.
+     * Disadvantage: As OS is not involved in the communication this
+       mechanism does not support fixed and well-defined APIs for reading
+       and writing data, so this mechanism is error-prone and sometimes
+       the developers have to re-implement the code.
+
+Summary
+
+   In this post, we learned how the processes are represented in the OS,
+   we learned about the process abstractions like address space and PCB,
+   we learned some key mechanism that operating system supports to manage
+   processes like process creation and scheduling. We also learned about
+   process lifecycle, context switching, and inter-process communication.
+
+Next:
+[https://medium.com/@akhandmishra/operating-system-threads-and-concurrency-ae
+c2036b90f8]Threads and Concurrency
+
+   [https://medium.com/tag/programming?source=post_page-----108d83e8ce60--
+   -------------programming-----------------]
+   Programming
+   [https://medium.com/tag/operating-systems?source=post_page-----108d83e8
+   ce60---------------operating_systems-----------------]
+   Operating Systems
+   [https://medium.com/tag/process?source=post_page-----108d83e8ce60------
+   ---------process-----------------]
+   Process
+   [https://medium.com/tag/computer-science?source=post_page-----108d83e8c
+   e60---------------computer_science-----------------]
+   Computer Science
+
+   --
+
+   --
+   (BUTTON)
+   (BUTTON)
+   [https://medium.com/@akhandmishra?source=post_page-----108d83e8ce60----
+   ----------------------------]
+   Akhand Mishra
+   (BUTTON) Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2F6308fb43d66c&operation=register&redirect=https%3A%2F%2Fmediu
+   m.com%2F%40akhandmishra%2Foperating-system-process-and-process-manageme
+   nt-108d83e8ce60&newsletterV3=2514cc8a06a&newsletterV3Id=6308fb43d66c&us
+   er=Akhand+Mishra&userId=2514cc8a06a&source=-----108d83e8ce60-----------
+   ----------subscribe_user-----------](BUTTON)
+   [https://medium.com/@akhandmishra?source=post_page-----108d83e8ce60----
+   ----------------------------]
+
+Written by Akhand Mishra
+
+   [https://medium.com/@akhandmishra/followers?source=post_page-----108d83
+   e8ce60--------------------------------]67 Followers
+
+   I'm a student of ceramic engineering at IIT-BHU, apparently I've chosen
+   to build computer softwares not computer chips :)
+   (BUTTON) Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2F6308fb43d66c&operation=register&redirect=https%3A%2F%2Fmediu
+   m.com%2F%40akhandmishra%2Foperating-system-process-and-process-manageme
+   nt-108d83e8ce60&newsletterV3=2514cc8a06a&newsletterV3Id=6308fb43d66c&us
+   er=Akhand+Mishra&userId=2514cc8a06a&source=-----108d83e8ce60-----------
+   ----------subscribe_user-----------](BUTTON)
+
+More from Akhand Mishra
+
+   [https://medium.com/@akhandmishra/operating-system-threads-and-concurre
+   ncy-aec2036b90f8?source=author_recirc-----108d83e8ce60----0------------
+   ---------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   Operating System: Threads and Concurrency
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----0---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   Akhand Mishra
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----0---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+   Akhand Mishra
+   [https://medium.com/@akhandmishra/operating-system-threads-and-concurre
+   ncy-aec2036b90f8?source=author_recirc-----108d83e8ce60----0------------
+   ---------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+Operating System: Threads and Concurrency
+
+Definition: A Thread also called lightweight process, is basic CPU
+utilization; it compromises a thread ID, a program counter, a register…
+
+   [https://medium.com/@akhandmishra/operating-system-threads-and-concurre
+   ncy-aec2036b90f8?source=author_recirc-----108d83e8ce60----0------------
+   ---------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   10 min read·Jul 28, 2018
+
+   --
+   [https://medium.com/@akhandmishra/operating-system-threads-and-concurre
+   ncy-aec2036b90f8?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_
+   recirc-----108d83e8ce60----0---------------------941a4f9f_0e73_4b67_aeb
+   7_807e8d287b3b-------]
+
+   [https://medium.com/@akhandmishra/operating-system-introduction-ba5bb9c
+   438bc?source=author_recirc-----108d83e8ce60----1---------------------94
+   1a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]Operating System:
+   Introduction
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----1---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   Akhand Mishra
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----1---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+   Akhand Mishra
+   [https://medium.com/@akhandmishra/operating-system-introduction-ba5bb9c
+   438bc?source=author_recirc-----108d83e8ce60----1---------------------94
+   1a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+Operating System: Introduction
+
+What is an Operating System?
+
+   [https://medium.com/@akhandmishra/operating-system-introduction-ba5bb9c
+   438bc?source=author_recirc-----108d83e8ce60----1---------------------94
+   1a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   9 min read·Jul 28, 2018
+
+   --
+   [https://medium.com/@akhandmishra/operating-system-introduction-ba5bb9c
+   438bc?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_recirc-----
+   108d83e8ce60----1---------------------941a4f9f_0e73_4b67_aeb7_807e8d287
+   b3b-------]
+
+   [https://medium.com/@akhandmishra/important-system-calls-every-programm
+   er-should-know-8884381ceadb?source=author_recirc-----108d83e8ce60----2-
+   --------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]Importa
+   nt System calls every programmer should know
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----2---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   Akhand Mishra
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----2---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+   Akhand Mishra
+   [https://medium.com/@akhandmishra/important-system-calls-every-programm
+   er-should-know-8884381ceadb?source=author_recirc-----108d83e8ce60----2-
+   --------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+Important System calls every programmer should know
+
+Recently I took an Introduction to Operating System course and a few
+questions came to my mind, like how many system calls are there? Which…
+
+   [https://medium.com/@akhandmishra/important-system-calls-every-programm
+   er-should-know-8884381ceadb?source=author_recirc-----108d83e8ce60----2-
+   --------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   7 min read·Aug 2, 2018
+
+   --
+   [https://medium.com/@akhandmishra/important-system-calls-every-programm
+   er-should-know-8884381ceadb?responsesOpen=true&sortBy=REVERSE_CHRON&sou
+   rce=author_recirc-----108d83e8ce60----2---------------------941a4f9f_0e
+   73_4b67_aeb7_807e8d287b3b-------]
+
+   1
+
+   [https://medium.com/@akhandmishra/making-a-simple-optical-character-rec
+   ognition-in-12-lines-of-code-40bc17624215?source=author_recirc-----108d
+   83e8ce60----3---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-
+   ------]Making a simple Optical Character Recognition in 12 lines of
+   code.
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----3---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+   Akhand Mishra
+   [https://medium.com/@akhandmishra?source=author_recirc-----108d83e8ce60
+   ----3---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+   Akhand Mishra
+   [https://medium.com/@akhandmishra/making-a-simple-optical-character-rec
+   ognition-in-12-lines-of-code-40bc17624215?source=author_recirc-----108d
+   83e8ce60----3---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-
+   ------]
+
+Making a simple Optical Character Recognition in 12 lines of code.
+
+Optical character recognition is the recognition of typed, handwritten or
+printed text and converting them into text. OCR can be used to…
+
+   [https://medium.com/@akhandmishra/making-a-simple-optical-character-rec
+   ognition-in-12-lines-of-code-40bc17624215?source=author_recirc-----108d
+   83e8ce60----3---------------------941a4f9f_0e73_4b67_aeb7_807e8d287b3b-
+   ------]
+   2 min read·Jul 23, 2018
+
+   --
+   [https://medium.com/@akhandmishra/making-a-simple-optical-character-rec
+   ognition-in-12-lines-of-code-40bc17624215?responsesOpen=true&sortBy=REV
+   ERSE_CHRON&source=author_recirc-----108d83e8ce60----3------------------
+   ---941a4f9f_0e73_4b67_aeb7_807e8d287b3b-------]
+
+   1
+   [https://medium.com/@akhandmishra?source=post_page-----108d83e8ce60----
+   ----------------------------]See all from Akhand Mishra
+
+Recommended from Medium
+
+   [https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741
+   c898e?source=read_next_recirc-----108d83e8ce60----0--------------------
+   -ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   Use Git like a senior engineer
+   [https://medium.com/@jacobistyping?source=read_next_recirc-----108d83e8
+   ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+   Jacob Bennett
+   [https://medium.com/@jacobistyping?source=read_next_recirc-----108d83e8
+   ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+
+   Jacob Bennett
+
+   in
+   [https://medium.com/gitconnected?source=read_next_recirc-----108d83e8ce
+   60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------
+   ]
+
+   Level Up Coding
+   [https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741
+   c898e?source=read_next_recirc-----108d83e8ce60----0--------------------
+   -ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+Use Git like a senior engineer
+
+Git is a powerful tool that feels great to use when you know how to use it.
+
+   [https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741
+   c898e?source=read_next_recirc-----108d83e8ce60----0--------------------
+   -ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   (BUTTON)
+   ·4 min read·Nov 15, 2022
+
+   --
+   [https://medium.com/gitconnected/use-git-like-a-senior-engineer-ef6d741
+   c898e?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_next_recirc--
+   ---108d83e8ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac1
+   5a4f1f-------]
+
+   73
+
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----108d83e8ce60----1----------
+   -----------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]System Design
+   Blueprint: The Ultimate Guide
+   [https://medium.com/@zonito?source=read_next_recirc-----108d83e8ce60---
+   -1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   Love Sharma
+   [https://medium.com/@zonito?source=read_next_recirc-----108d83e8ce60---
+   -1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   Love Sharma
+
+   in
+   [https://medium.com/dev-genius?source=read_next_recirc-----108d83e8ce60
+   ----1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   Dev Genius
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----108d83e8ce60----1----------
+   -----------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+System Design Blueprint: The Ultimate Guide
+
+Developing a robust, scalable, and efficient system can be daunting. However,
+understanding the key concepts and components can make the…
+
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----108d83e8ce60----1----------
+   -----------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   (BUTTON)
+   ·9 min read·Apr 20
+
+   --
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_nex
+   t_recirc-----108d83e8ce60----1---------------------ee90d94e_b25b_4cdc_9
+   3e9_980ac15a4f1f-------]
+
+   45
+
+Lists
+
+   [https://medium.com/@coffee_bytes/list/its-never-too-late-or-early-to-s
+   tart-something-eb57cf05d028?source=read_next_recirc-----108d83e8ce60---
+   -----------------------------]
+   woman standing in front of projection of code on a screen
+
+It's never too late or early to start something
+
+   10 stories·19 saves
+   [https://medium.com/@eddiebarth/list/general-coding-knowledge-f2d429d4f
+   0cd?source=read_next_recirc-----108d83e8ce60---------------------------
+   -----]
+
+General Coding Knowledge
+
+   20 stories·59 saves
+   [https://medium.com/@jscribes/list/coding-development-e360d380bb82?sour
+   ce=read_next_recirc-----108d83e8ce60--------------------------------]
+
+Coding & Development
+
+   11 stories·38 saves
+   [https://medium.com/@MediumStaff/list/stories-to-help-you-grow-as-a-sof
+   tware-developer-b1d913188c20?source=read_next_recirc-----108d83e8ce60--
+   ------------------------------]
+
+Stories to Help You Grow as a Software Developer
+
+   19 stories·162 saves
+
+   [https://medium.com/artificial-corner/youre-using-chatgpt-wrong-here-s-
+   how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54?source=read_next_re
+   circ-----108d83e8ce60----0---------------------ee90d94e_b25b_4cdc_93e9_
+   980ac15a4f1f-------]
+   You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT
+   Users
+   [https://medium.com/@frank-andrade?source=read_next_recirc-----108d83e8
+   ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+   The PyCoach
+   [https://medium.com/@frank-andrade?source=read_next_recirc-----108d83e8
+   ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+
+   The PyCoach
+
+   in
+   [https://medium.com/artificial-corner?source=read_next_recirc-----108d8
+   3e8ce60----0---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f--
+   -----]
+
+   Artificial Corner
+   [https://medium.com/artificial-corner/youre-using-chatgpt-wrong-here-s-
+   how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54?source=read_next_re
+   circ-----108d83e8ce60----0---------------------ee90d94e_b25b_4cdc_93e9_
+   980ac15a4f1f-------]
+
+You’re Using ChatGPT Wrong! Here’s How to Be Ahead of 99% of ChatGPT Users
+
+Master ChatGPT by learning prompt engineering.
+
+   [https://medium.com/artificial-corner/youre-using-chatgpt-wrong-here-s-
+   how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54?source=read_next_re
+   circ-----108d83e8ce60----0---------------------ee90d94e_b25b_4cdc_93e9_
+   980ac15a4f1f-------]
+   (BUTTON)
+   ·7 min read·Mar 17
+
+   --
+   [https://medium.com/artificial-corner/youre-using-chatgpt-wrong-here-s-
+   how-to-be-ahead-of-99-of-chatgpt-users-886a50dabc54?responsesOpen=true&
+   sortBy=REVERSE_CHRON&source=read_next_recirc-----108d83e8ce60----0-----
+   ----------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   475
+
+   [https://medium.com/better-advice/10-things-to-do-in-the-evening-instea
+   d-of-watching-netflix-4e270e9dd6b9?source=read_next_recirc-----108d83e8
+   ce60----1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]10 Things To Do In The Evening Instead Of Watching Netflix
+   [https://medium.com/@aleid-tw?source=read_next_recirc-----108d83e8ce60-
+   ---1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   Aleid ter Weel
+   [https://medium.com/@aleid-tw?source=read_next_recirc-----108d83e8ce60-
+   ---1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   Aleid ter Weel
+
+   in
+   [https://medium.com/better-advice?source=read_next_recirc-----108d83e8c
+   e60----1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f------
+   -]
+
+   Better Advice
+   [https://medium.com/better-advice/10-things-to-do-in-the-evening-instea
+   d-of-watching-netflix-4e270e9dd6b9?source=read_next_recirc-----108d83e8
+   ce60----1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+
+10 Things To Do In The Evening Instead Of Watching Netflix
+
+Device-free habits to increase your productivity and happiness.
+
+   [https://medium.com/better-advice/10-things-to-do-in-the-evening-instea
+   d-of-watching-netflix-4e270e9dd6b9?source=read_next_recirc-----108d83e8
+   ce60----1---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-----
+   --]
+   (BUTTON)
+   ·5 min read·Feb 15, 2022
+
+   --
+   [https://medium.com/better-advice/10-things-to-do-in-the-evening-instea
+   d-of-watching-netflix-4e270e9dd6b9?responsesOpen=true&sortBy=REVERSE_CH
+   RON&source=read_next_recirc-----108d83e8ce60----1---------------------e
+   e90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   380
+
+   [https://medium.com/the-coding-diaries/why-experienced-programmers-fail
+   -coding-interviews-b22210ba343?source=read_next_recirc-----108d83e8ce60
+   ----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]W
+   hy Experienced Programmers Fail Coding Interviews
+   [https://medium.com/@thecodingdiaries?source=read_next_recirc-----108d8
+   3e8ce60----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f--
+   -----]
+   The Coding Diaries
+   [https://medium.com/@thecodingdiaries?source=read_next_recirc-----108d8
+   3e8ce60----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f--
+   -----]
+
+   The Coding Diaries
+
+   in
+   [https://medium.com/the-coding-diaries?source=read_next_recirc-----108d
+   83e8ce60----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-
+   ------]
+
+   The Coding Diaries
+   [https://medium.com/the-coding-diaries/why-experienced-programmers-fail
+   -coding-interviews-b22210ba343?source=read_next_recirc-----108d83e8ce60
+   ----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+Why Experienced Programmers Fail Coding Interviews
+
+A friend of mine recently joined a FAANG company as an engineering manager,
+and found themselves in the position of recruiting for…
+
+   [https://medium.com/the-coding-diaries/why-experienced-programmers-fail
+   -coding-interviews-b22210ba343?source=read_next_recirc-----108d83e8ce60
+   ----2---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   (BUTTON)
+   ·5 min read·Nov 2, 2022
+
+   --
+   [https://medium.com/the-coding-diaries/why-experienced-programmers-fail
+   -coding-interviews-b22210ba343?responsesOpen=true&sortBy=REVERSE_CHRON&
+   source=read_next_recirc-----108d83e8ce60----2---------------------ee90d
+   94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+   107
+
+   [https://medium.com/@UnbecomingStories/10-seconds-that-ended-my-20-year
+   -marriage-a6f367f02e53?source=read_next_recirc-----108d83e8ce60----3---
+   ------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]10
+   Seconds That Ended My 20 Year Marriage
+   [https://medium.com/@UnbecomingStories?source=read_next_recirc-----108d
+   83e8ce60----3---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-
+   ------]
+   Unbecoming
+   [https://medium.com/@UnbecomingStories?source=read_next_recirc-----108d
+   83e8ce60----3---------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-
+   ------]
+
+   Unbecoming
+   [https://medium.com/@UnbecomingStories/10-seconds-that-ended-my-20-year
+   -marriage-a6f367f02e53?source=read_next_recirc-----108d83e8ce60----3---
+   ------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+
+10 Seconds That Ended My 20 Year Marriage
+
+It’s August in Northern Virginia, hot and humid. I still haven’t showered
+from my morning trail run. I’m wearing my stay-at-home mom…
+
+   [https://medium.com/@UnbecomingStories/10-seconds-that-ended-my-20-year
+   -marriage-a6f367f02e53?source=read_next_recirc-----108d83e8ce60----3---
+   ------------------ee90d94e_b25b_4cdc_93e9_980ac15a4f1f-------]
+   (BUTTON)
+   ·4 min read·Feb 16, 2022
+
+   --
+   [https://medium.com/@UnbecomingStories/10-seconds-that-ended-my-20-year
+   -marriage-a6f367f02e53?responsesOpen=true&sortBy=REVERSE_CHRON&source=r
+   ead_next_recirc-----108d83e8ce60----3---------------------ee90d94e_b25b
+   _4cdc_93e9_980ac15a4f1f-------]
+
+   822
+   [https://medium.com/?source=post_page-----108d83e8ce60-----------------
+   ---------------]See more recommendations
+   [https://help.medium.com/hc/en-us?source=post_page-----108d83e8ce60----
+   ----------------------------]
+
+   Help
+   [https://medium.statuspage.io/?source=post_page-----108d83e8ce60-------
+   -------------------------]
+
+   Status
+   [https://about.medium.com/creators/?source=post_page-----108d83e8ce60--
+   ------------------------------]
+
+   Writers
+   [https://blog.medium.com/?source=post_page-----108d83e8ce60------------
+   --------------------]
+
+   Blog
+   [https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=p
+   ost_page-----108d83e8ce60--------------------------------]
+
+   Careers
+   [https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=po
+   st_page-----108d83e8ce60--------------------------------]
+
+   Privacy
+   [https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=
+   post_page-----108d83e8ce60--------------------------------]
+
+   Terms
+   [https://medium.com/about?autoplay=1&source=post_page-----108d83e8ce60-
+   -------------------------------]
+
+   About
+   [https://speechify.com/medium?source=post_page-----108d83e8ce60--------
+   ------------------------]
+
+   Text to speech
+   [https://medium.com/business?source=post_page-----108d83e8ce60---------
+   -----------------------]
+
+   Teams

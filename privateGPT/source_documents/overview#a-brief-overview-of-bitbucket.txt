@@ -1,0 +1,533 @@
+    #[https://bitbucket.org/product/guides/getting-started/overview]altern
+   ate
+   [https://bitbucket.org/product/guides/getting-started/overview]alternat
+   e
+   [https://bitbucket.org/product/ja/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/fr/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/de/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/es/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/br/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/zh/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/ko/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/ru/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/pl/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/it/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/nl/guides/getting-started/overview]alter
+   nate
+   [https://bitbucket.org/product/hu/guides/getting-started/overview]alter
+   nate
+
+   [https://bitbucket.org/product/]logo (BUTTON) Open and close the
+   navigation menu
+     * [https://bitbucket.org/product/guides/getting-started/overview]Why
+       Bitbucket
+          + Features
+          + [https://bitbucket.org/product/features/pipelines]CI/CD
+          + [https://bitbucket.org/product/cloud-security]Cloud Security
+          + [http://www.atlassian.com/software/bitbucket/features/devsecop
+            s]DevSecOps
+          + [https://bitbucket.org/product/features/code-review]Code
+            review
+          + Integrations
+          + [https://www.atlassian.com/software/jira/bitbucket-integration
+            ]Jira Integration
+          + [http://www.atlassian.com/solutions/devops]Atlassian Open
+            DevOps
+     * [https://bitbucket.org/product/guides/getting-started/overview]Prod
+       uct Guide
+          + [https://bitbucket.org/product/guides]
+
+Get Started
+          + [https://bitbucket.org/product/guides/getting-started/overview
+            ]Brief overview of Bitbucket
+          + [https://bitbucket.org/product/guides/basics/bitbucket-interfa
+            ce]Meet the Bitbucket interface
+          + [https://bitbucket.org/product/guides/basics/four-starting-ste
+            ps]Four starting steps
+     * [https://bitbucket.org/product/enterprise]Self-Hosted
+     * [https://bitbucket.org/product/pricing]Pricing
+     * [https://bitbucket.org/account/signin/]Log in
+
+   [http://www.atlassian.com/software/bitbucket/bundle]Get it free
+
+     * [https://bitbucket.org/product/guides/getting-started/overview]Why
+       Bitbucket
+          + Features
+          + [https://bitbucket.org/product/features/pipelines]CI/CD
+          + [https://bitbucket.org/product/cloud-security]Cloud Security
+          + [http://www.atlassian.com/software/bitbucket/features/devsecop
+            s]DevSecOps
+          + [https://bitbucket.org/product/features/code-review]Code
+            review
+          + Integrations
+          + [https://www.atlassian.com/software/jira/bitbucket-integration
+            ]Jira Integration
+          + [http://www.atlassian.com/solutions/devops]Atlassian Open
+            DevOps
+     * [https://bitbucket.org/product/guides/getting-started/overview]Prod
+       uct Guide
+          + [https://bitbucket.org/product/guides]
+
+Get Started
+          + [https://bitbucket.org/product/guides/getting-started/overview
+            ]Brief overview of Bitbucket
+          + [https://bitbucket.org/product/guides/basics/bitbucket-interfa
+            ce]Meet the Bitbucket interface
+          + [https://bitbucket.org/product/guides/basics/four-starting-ste
+            ps]Four starting steps
+     * [https://bitbucket.org/product/enterprise]Self-Hosted
+     * [https://bitbucket.org/product/pricing]Pricing
+     * [https://bitbucket.org/account/signin/]Log in
+
+   Team ‘23 is now on demand! Watch epic keynotes, in-depth product demos,
+   and the latest Atlassian product updates.
+   [https://events.atlassian.com/team23/on-demand-library?ref=Team_23&utm_
+   source=butterbar&utm_campaign=od_drop1&utm_medium=internal&utm_type=Tea
+   m_23_351]Watch now →
+
+   [https://bitbucket.org/product/guides]Guides home
+   [https://bitbucket.org/product/guides/getting-started]Guide 1: A brief
+   overview of Bitbucket
+   [https://bitbucket.org/product/guides/getting-started/overview]Get
+   started with Bitbucket
+   [https://bitbucket.org/product/guides/basics]Guide 2: Getting started
+   with Bitbucket
+   [https://bitbucket.org/product/guides/basics/bitbucket-interface]Meet
+   the Bitbucket interface
+   [https://bitbucket.org/product/guides/basics/four-starting-steps]Better
+   code with Bitbucket: 4 starting steps
+
+A brief overview of Bitbucket
+
+   Bitbucket Cloud is a Git based code hosting and collaboration tool,
+   built for teams. Bitbucket's best-in-class Jira and Trello integrations
+   are designed to bring the entire software team together to execute on a
+   project. We provide one place for your team to collaborate on code from
+   concept to Cloud, build quality code through automated testing, and
+   deploy code with confidence.
+     __________________________________________________________________
+
+A brief overview of Bitbucket
+
+   Integrations
+
+Best-in-class Jira & Trello integration
+
+   Bring structure to chaos and keep the entire software company, from
+   engineering to design, in the loop. Access branches, build status,
+   commits, and status on Jira issues or Trello cards
+   Collaboration
+
+Code collaboration from concept to cloud
+
+   Transition Jira issues based on pull request status, create a merge
+   checklist with designated approvers, and check for passing builds.
+   Continuous delivery
+
+Build and test automatically with built-in continuous delivery
+
+   Build, test and, deploy with our integrated CI/CD solution, Bitbucket
+   Pipelines. Benefit from configuration as code and fast feedback loops.
+   Deploy with confidence
+
+Deploy with confidence
+
+   Track, preview, and confidently promote your deployments.
+   Secure your code
+
+Secure your code
+
+   Rest easy knowing your code is secure in the Cloud and implement checks
+   to prevent problems before they happen.
+     __________________________________________________________________
+
+Bitbucket hosting options
+
+   Clouds
+
+Cloud
+
+   Bitbucket Cloud is hosted on Atlassian’s servers and accessed via a
+   URL. Bitbucket Cloud has an exclusive built-in CI/CD tool,
+   [https://bitbucket.org/product/features/pipelines]Pipelines, that
+   enables you to build, test, and deploy directly from within Bitbucket.
+   Server
+
+Server
+
+   Bitbucket Server is hosted on-premise, in your environment. Bitbucket
+   Server has strong integrations with
+   [https://www.atlassian.com/software/bamboo]Bamboo, our powerful CI/CD
+   tool that allows you to completely automate your process. The license
+   is
+   [https://www.atlassian.com/licensing/bitbucket-server#serverlicenses-1]
+   perpetual.
+   Data Center
+
+Data Center
+
+   Bitbucket Data Center, our Enterprise Offering, looks like a single
+   instance of Bitbucket Server to users, but is hosted on a number of
+   servers in a cluster on your environment. This provides important
+   benefits over Bitbucket Server:
+     * [https://confluence.atlassian.com/enterprise/bitbucket-data-center-
+       performance-668468334.html]Performance at scale
+     * [https://confluence.atlassian.com/enterprise/failover-for-bitbucket
+       -data-center-687022231.html]High Availability
+
+
+
+Cloud
+
+Server
+
+Data center
+
+   Git repository hosting
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Branch permissions
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Jira Software integration
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Projects
+
+   Cloud
+
+   Server
+
+   Data center
+
+   APIs
+
+   Cloud
+
+   Server
+
+   Data center
+
+   3rd party integrations
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Git Large File Storage (LFS)
+
+   Cloud
+
+   Server
+
+   With file locking support
+
+   Data center
+
+   With file locking support
+
+   Merge checks
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Enforced merge checks
+
+   Cloud
+
+   Premium
+
+   Server
+
+
+   Data center
+
+
+   Built-in CI/CD
+
+   Cloud
+
+   Server
+
+   Bamboo*
+
+   Data center
+
+   Bamboo*
+
+   Deployment permissions
+
+   Cloud
+
+   Premium
+
+   Server
+
+
+   Data center
+
+
+   Code search
+
+   Cloud
+
+   Server
+
+   Data center
+
+   Code insights
+
+   Cloud
+
+
+   Server
+
+   Data center
+
+   Clustering
+
+   Cloud
+
+
+   Server
+
+
+   Data center
+
+   Required two-step verification
+
+   Cloud
+
+   Premium
+
+   Server
+
+   Marketplace integration
+
+   Data center
+
+   Marketplace integration
+
+   IP Whitelisting
+
+   Cloud
+
+   Premium
+
+   Server
+
+
+   Data center
+
+
+   Snippets
+
+   Cloud
+
+   Server
+
+   Marketplace integration
+
+   Data center
+
+   Marketplace integration
+
+   Issue tracking
+
+   Cloud
+
+   Server
+
+   Jira Software*
+
+   Data center
+
+   Jira Software*
+
+   Wiki
+
+   Cloud
+
+   Server
+
+   Confluence*
+
+   Data center
+
+   Confluence*
+
+   SAML-based SSO
+
+   Cloud
+
+   Atlassian Access
+
+   Server
+
+
+   Data center
+
+
+   Priority support
+
+   Cloud
+
+   Atlassian Access
+
+   Server
+
+
+   Data center
+
+
+   * Integrates easily with
+   [https://www.atlassian.com/software/jira/bitbucket-integration]Jira
+   Software, [https://www.atlassian.com/software/confluence]Confluence and
+   [https://www.atlassian.com/software/bamboo]Bamboo
+     __________________________________________________________________
+
+Key terms to know
+
+   Here are some important words and terms to know so you can find your
+   way around Bitbucket. Some of these are terms borrowed from Git, others
+   are specific to Bitbucket.
+
+Branch
+
+   A branch represents an independent line of development. Branches serve
+   as an abstraction for the edit/stage/commit process. You can think of
+   them as a way to request a brand new working directory, staging area,
+   and project history. New commits are recorded in the history for the
+   current branch, which results in a fork in the history of the project.
+
+Fork
+
+   Instead of using a single server-side repository to act as the
+   “central” codebase, forking gives every developer a server-side
+   repository. This means that each contributor has not one, but two Git
+   repositories: a private local one and a public server-side one.
+
+HEAD
+
+   Git’s way of referring to the current snapshot. Internally, the git
+   checkout command simply updates the HEAD to point to either the
+   specified branch or commit. When it points to a branch, Git doesn't
+   complain, but when you check out a commit, it switches into a “detached
+   HEAD” state.
+
+Main
+
+   The default development branch. Whenever you create a git repository, a
+   branch named "main" is created, and becomes the active branch.
+
+Pipelines
+
+   [https://bitbucket.org/product/features/pipelines]Bitbucket Pipelines
+   is an integrated CI/CD service, built into Bitbucket. It allows you to
+   automatically build, test and even deploy your code, based on a
+   configuration file in your repository.
+
+Pipes
+
+   [https://confluence.atlassian.com/bitbucket/pipes-958765631.html]Bitbuc
+   ket Pipes are short code chunks that you can drop into your pipeline to
+   perform powerful actions. Pipes make it easier to build powerful,
+   automated CI/CD workflows and get up and running quickly.
+
+Project
+
+   A project is a container for repositories. Projects make it easier for
+   teams to focus on a goal, product, or process by organizing your
+   repositories into projects. Projects can be either visible or hidden
+   from public view.
+
+Pull Request
+
+   Pull requests are a feature that makes it easier for developers to
+   collaborate using Bitbucket. They provide a user-friendly web interface
+   for discussing proposed changes before integrating them into the
+   official project.
+
+Working Tree
+
+   The tree of actual checked out files, normally containing the contents
+   of the HEAD commit's tree and any local changes you've made but haven't
+   yet committed.
+   Get more git
+
+Looking for more Git terminology?
+
+   Head on over to our [https://www.atlassian.com/git/glossary]Git
+   tutorial to learn the A-Z of Git commands.
+     __________________________________________________________________
+
+Guide 2: Meet the Bitbucket interface
+
+   [https://bitbucket.org/product/guides/basics/bitbucket-interface]Next
+   guide
+
+Bitbucket
+
+   [https://bitbucket.org/blog/]Blog
+   [https://bitbucket.org/product/write]Bitbucket writing program
+   [https://developer.atlassian.com/bitbucket]API
+   [http://status.bitbucket.org/]Site status
+
+Resources
+
+   [https://support.atlassian.com/help/#/bitbucket]Technical support
+   [https://confluence.atlassian.com/display/BITBUCKET]Documentation
+   [https://bitbucket.org/product/pricing]Plans & pricing
+   [https://bitbucket.org/product/version-control-software]What is Version
+   Control?
+
+Connect with us
+
+   Sign up for Git articles and resources:
+   ____________________
+   ____________________
+   Subscribe
+
+   Thanks for signing up!
+   Connect with Bitbucket
+     * [https://www.facebook.com/Atlassian]
+     * [https://twitter.com/bitbucket]
+
+   [https://www.atlassian.com/][http://www.atlassian.com/legal/privacy-pol
+   icy]Privacy policy
+   [http://www.atlassian.com/legal/customer-agreement]Terms of use
+   [http://www.atlassian.com/trust]Trust & security
+
+   Copyright © 2023
+   [http://www.atlassian.com/software]View all Atlassian products
+   [English_____________]

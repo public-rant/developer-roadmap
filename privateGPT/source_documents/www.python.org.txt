@@ -1,0 +1,408 @@
+    #[https://www.python.org/dev/peps/peps.rss/]Python Enhancement
+   Proposals [https://www.python.org/jobs/feed/rss/]Python Job
+   Opportunities
+   [https://feeds.feedburner.com/PythonSoftwareFoundationNews]Python
+   Software Foundation News
+   [https://feeds.feedburner.com/PythonInsider]Python Insider
+
+   Notice: While JavaScript is not essential for this website, your
+   interaction with the content will be limited. Please turn JavaScript on
+   for the full experience.
+
+   [https://www.python.org/#content]Skip to content
+   [https://www.python.org/#python-network]▼ Close
+     * [https://www.python.org/]Python
+     * [https://www.python.org/psf/]PSF
+     * [https://docs.python.org/]Docs
+     * [https://pypi.org/]PyPI
+     * [https://www.python.org/jobs/]Jobs
+     * [https://www.python.org/community-landing/]Community
+
+   [https://www.python.org/#top]▲ The Python Network
+
+[https://www.python.org/]python™
+
+   [https://psfmember.org/civicrm/contribute/transact?reset=1&id=2]Donate
+   [https://www.python.org/#site-map]≡ Menu
+
+   Search This Site ____________________ (BUTTON) GO
+
+     * [https://www.python.org/]A A
+          + [javascript:;]Smaller
+          + [javascript:;]Larger
+          + [javascript:;]Reset
+
+     * [https://www.python.org/]Socialize
+          + [https://www.facebook.com/pythonlang?fref=ts]Facebook
+          + [https://twitter.com/ThePSF]Twitter
+          + [https://www.python.org/community/irc/]Chat on IRC
+
+     * [https://www.python.org/about/]About
+          + [https://www.python.org/about/apps/]Applications
+          + [https://www.python.org/about/quotes/]Quotes
+          + [https://www.python.org/about/gettingstarted/]Getting Started
+          + [https://www.python.org/about/help/]Help
+          + [http://brochure.getpython.info/]Python Brochure
+     * [https://www.python.org/downloads/]Downloads
+          + [https://www.python.org/downloads/]All releases
+          + [https://www.python.org/downloads/source/]Source code
+          + [https://www.python.org/downloads/windows/]Windows
+          + [https://www.python.org/downloads/macos/]macOS
+          + [https://www.python.org/download/other/]Other Platforms
+          + [https://docs.python.org/3/license.html]License
+          + [https://www.python.org/download/alternatives]Alternative
+            Implementations
+     * [https://www.python.org/doc/]Documentation
+          + [https://www.python.org/doc/]Docs
+          + [https://www.python.org/doc/av]Audio/Visual Talks
+          + [https://wiki.python.org/moin/BeginnersGuide]Beginner's Guide
+          + [https://devguide.python.org/]Developer's Guide
+          + [https://docs.python.org/faq/]FAQ
+          + [http://wiki.python.org/moin/Languages]Non-English Docs
+          + [http://python.org/dev/peps/]PEP Index
+          + [https://wiki.python.org/moin/PythonBooks]Python Books
+          + [https://www.python.org/doc/essays/]Python Essays
+     * [https://www.python.org/community/]Community
+          + [https://www.python.org/community/diversity/]Diversity
+          + [https://www.python.org/community/lists/]Mailing Lists
+          + [https://www.python.org/community/irc/]IRC
+          + [https://www.python.org/community/forums/]Forums
+          + [https://www.python.org/psf/annual-report/2021/]PSF Annual
+            Impact Report
+          + [https://www.python.org/community/workshops/]Python
+            Conferences
+          + [https://www.python.org/community/sigs/]Special Interest
+            Groups
+          + [https://www.python.org/community/logos/]Python Logo
+          + [https://wiki.python.org/moin/]Python Wiki
+          + [https://www.python.org/psf/conduct/]Code of Conduct
+          + [https://www.python.org/community/awards]Community Awards
+          + [https://www.python.org/psf/get-involved/]Get Involved
+          + [https://www.python.org/psf/community-stories/]Shared Stories
+     * [https://www.python.org/success-stories/]Success Stories
+          + [https://www.python.org/success-stories/category/arts/]Arts
+          + [https://www.python.org/success-stories/category/business/]Bus
+            iness
+          + [https://www.python.org/success-stories/category/education/]Ed
+            ucation
+          + [https://www.python.org/success-stories/category/engineering/]
+            Engineering
+          + [https://www.python.org/success-stories/category/government/]G
+            overnment
+          + [https://www.python.org/success-stories/category/scientific/]S
+            cientific
+          + [https://www.python.org/success-stories/category/software-deve
+            lopment/]Software Development
+     * [https://www.python.org/blogs/]News
+          + [https://www.python.org/blogs/]Python News
+          + [https://www.python.org/psf/newsletter/]PSF Newsletter
+          + [http://pyfound.blogspot.com/]PSF News
+          + [http://pycon.blogspot.com/]PyCon US News
+          + [http://planetpython.org/]News from the Community
+     * [https://www.python.org/events/]Events
+          + [https://www.python.org/events/python-events/]Python Events
+          + [https://www.python.org/events/python-user-group/]User Group
+            Events
+          + [https://www.python.org/events/python-events/past/]Python
+            Events Archive
+          + [https://www.python.org/events/python-user-group/past/]User
+            Group Events Archive
+          + [https://wiki.python.org/moin/PythonEventsCalendar#Submitting_
+            an_Event]Submit an Event
+
+     * [https://www.python.org/shell/]>_ Launch Interactive Shell
+
+     *
+# Python 3: Fibonacci series up to n
+>>> def fib(n):
+>>>     a, b = 0, 1
+>>>     while a < n:
+>>>         print(a, end=' ')
+>>>         a, b = b, a+b
+>>>     print()
+>>> fib(1000)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+
+Functions Defined
+       The core of extensible programming is defining functions. Python
+       allows mandatory and optional arguments, keyword arguments, and
+       even arbitrary argument lists.
+       [https://docs.python.org/3/tutorial/controlflow.html#defining-funct
+       ions]More about defining functions in Python 3
+     *
+# Python 3: List comprehensions
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+['BANANA', 'APPLE', 'LIME']
+
+# List and the enumerate function
+>>> list(enumerate(fruits))
+[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]
+
+Compound Data Types
+       Lists (known as arrays in other languages) are one of the compound
+       data types that Python understands. Lists can be indexed, sliced
+       and manipulated with other built-in functions.
+       [https://docs.python.org/3/tutorial/introduction.html#lists]More
+       about lists in Python 3
+     *
+# Python 3: Simple arithmetic
+>>> 1 / 2
+0.5
+>>> 2 ** 3
+8
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>> 17 // 3  # floor division
+5
+
+Intuitive Interpretation
+       Calculations are simple with Python, and expression syntax is
+       straightforward: the operators +, -, * and / work as expected;
+       parentheses () can be used for grouping.
+       [http://docs.python.org/3/tutorial/introduction.html#using-python-a
+       s-a-calculator]More about simple math functions in Python 3.
+     *
+# For loop on a list
+>>> numbers = [2, 4, 6, 8]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+...
+>>> print('The product is:', product)
+The product is: 384
+
+All the Flow You’d Expect
+       Python knows the usual control flow statements that other languages
+       speak — if, for, while and range — with some of its own twists, of
+       course. [https://docs.python.org/3/tutorial/controlflow.html]More
+       control flow tools in Python 3
+     *
+# Simple output (with Unicode)
+>>> print("Hello, I'm Python!")
+Hello, I'm Python!
+# Input, assignment
+>>> name = input('What is your name?\n')
+What is your name?
+Python
+>>> print(f'Hi, {name}.')
+Hi, Python.
+
+Quick & Easy to Learn
+       Experienced programmers in any other language can pick up Python
+       very quickly, and beginners find the clean syntax and indentation
+       structure easy to learn. [https://docs.python.org/3/tutorial/]Whet
+       your appetite with our Python 3 overview.
+
+   Python is a programming language that lets you work quickly and
+   integrate systems more effectively. [https://www.python.org/doc/]Learn
+   More
+
+Get Started
+
+   Whether you're new to programming or an experienced developer, it's
+   easy to learn and use Python.
+
+   [https://www.python.org/about/gettingstarted/]Start with our Beginner’s
+   Guide
+
+Download
+
+   Python source code and installers are available for download for all
+   versions!
+
+   Latest: [https://www.python.org/downloads/release/python-3114/]Python
+   3.11.4
+
+Docs
+
+   Documentation for Python's standard library, along with tutorials and
+   guides, are available online.
+
+   [https://docs.python.org/]docs.python.org
+
+Jobs
+
+   Looking for work or have a Python related position that you're trying
+   to hire for? Our relaunched community-run job board is the place to go.
+
+   [https://jobs.python.org/]jobs.python.org
+
+Latest News
+
+   [https://blog.python.org/]More
+     * 2023-07-01
+       [https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-ele
+       ction.html]Announcing the 2023 PSF Board Election Results!
+     * 2023-06-22
+       [https://pyfound.blogspot.com/2023/06/announcing-our-new-security-d
+       eveloper.html]Announcing Our New Security Developer in Residence!
+     * 2023-06-20
+       [https://pythoninsider.blogspot.com/2023/06/python-3120-beta-3-rele
+       ased.html]Python 3.12.0 beta 3 released
+     * 2023-06-20
+       [https://pyfound.blogspot.com/2023/06/the-2023-psf-board-election-i
+       s-open.html]The 2023 PSF Board Election is Open!
+     * 2023-06-16
+       [https://pyfound.blogspot.com/2023/06/board-candidates-for-2023-are
+       -announced.html]Board Candidates for 2023 are Announced!
+
+Upcoming Events
+
+   [https://www.python.org/events/calendars/]More
+     * 2023-07-10 [https://www.python.org/events/python-events/1455/]SciPy
+       2023
+     * 2023-07-17
+       [https://www.python.org/events/python-events/1398/]EuroPython 2023
+     * 2023-07-25
+       [https://www.python.org/events/python-user-group/1505/]PyHEP.dev
+       2023
+     * 2023-07-29 [https://www.python.org/events/python-events/1504/]North
+       Bay Python
+     * 2023-07-29
+       [https://www.python.org/events/python-user-group/1444/]PyCamp
+       Leipzig 2023
+
+Success Stories
+
+   [https://www.python.org/success-stories/]More
+
+     [https://www.python.org/success-stories/deliver-clean-and-safe-code-
+     for-your-python-applications/]"Some of the things [SonarCloud] spots
+     are impressive (probably driven by some introspection and/or type
+     inference), not just the simple pattern matching that I am used to
+     in most of the flake8 ecosystem." - Peter J. A. Cock - maintainer of
+     BioPython
+
+   [https://www.python.org/success-stories/deliver-clean-and-safe-code-for
+   -your-python-applications/]Deliver Clean and Safe Code for Your Python
+   Applications by Kirti Joshi, Nicolas Bontoux
+
+Use Python for…
+
+   [https://www.python.org/about/apps]More
+     * Web Development: [http://www.djangoproject.com/]Django,
+       [http://www.pylonsproject.org/]Pyramid,
+       [http://bottlepy.org/]Bottle, [http://tornadoweb.org/]Tornado,
+       [http://flask.pocoo.org/]Flask, [http://www.web2py.com/]web2py
+     * GUI Development: [http://wiki.python.org/moin/TkInter]tkInter,
+       [https://wiki.gnome.org/Projects/PyGObject]PyGObject,
+       [http://www.riverbankcomputing.co.uk/software/pyqt/intro]PyQt,
+       [https://wiki.qt.io/PySide]PySide, [https://kivy.org/]Kivy,
+       [http://www.wxpython.org/]wxPython
+     * Scientific and Numeric: [http://www.scipy.org/]SciPy,
+       [http://pandas.pydata.org/]Pandas, [http://ipython.org/]IPython
+     * Software Development: [http://buildbot.net/]Buildbot,
+       [http://trac.edgewall.org/]Trac,
+       [http://roundup.sourceforge.net/]Roundup
+     * System Administration: [http://www.ansible.com/]Ansible,
+       [https://saltproject.io/]Salt,
+       [https://www.openstack.org/]OpenStack, [https://xon.sh/]xonsh
+
+>>> [https://www.python.org/dev/peps/]Python Enhancement Proposals (PEPs):
+The future of Python is discussed here.
+[https://www.python.org/dev/peps/peps.rss]RSS
+
+>>> [https://www.python.org/psf/]Python Software Foundation
+
+   The mission of the Python Software Foundation is to promote, protect,
+   and advance the Python programming language, and to support and
+   facilitate the growth of a diverse and international community of
+   Python programmers. [https://www.python.org/psf/]Learn more
+
+   [https://www.python.org/users/membership/]Become a Member
+   [https://www.python.org/psf/donations/]Donate to the PSF
+
+   [https://www.python.org/#python-network]▲ Back to Top
+     * [https://www.python.org/about/]About
+          + [https://www.python.org/about/apps/]Applications
+          + [https://www.python.org/about/quotes/]Quotes
+          + [https://www.python.org/about/gettingstarted/]Getting Started
+          + [https://www.python.org/about/help/]Help
+          + [http://brochure.getpython.info/]Python Brochure
+     * [https://www.python.org/downloads/]Downloads
+          + [https://www.python.org/downloads/]All releases
+          + [https://www.python.org/downloads/source/]Source code
+          + [https://www.python.org/downloads/windows/]Windows
+          + [https://www.python.org/downloads/macos/]macOS
+          + [https://www.python.org/download/other/]Other Platforms
+          + [https://docs.python.org/3/license.html]License
+          + [https://www.python.org/download/alternatives]Alternative
+            Implementations
+     * [https://www.python.org/doc/]Documentation
+          + [https://www.python.org/doc/]Docs
+          + [https://www.python.org/doc/av]Audio/Visual Talks
+          + [https://wiki.python.org/moin/BeginnersGuide]Beginner's Guide
+          + [https://devguide.python.org/]Developer's Guide
+          + [https://docs.python.org/faq/]FAQ
+          + [http://wiki.python.org/moin/Languages]Non-English Docs
+          + [http://python.org/dev/peps/]PEP Index
+          + [https://wiki.python.org/moin/PythonBooks]Python Books
+          + [https://www.python.org/doc/essays/]Python Essays
+     * [https://www.python.org/community/]Community
+          + [https://www.python.org/community/diversity/]Diversity
+          + [https://www.python.org/community/lists/]Mailing Lists
+          + [https://www.python.org/community/irc/]IRC
+          + [https://www.python.org/community/forums/]Forums
+          + [https://www.python.org/psf/annual-report/2021/]PSF Annual
+            Impact Report
+          + [https://www.python.org/community/workshops/]Python
+            Conferences
+          + [https://www.python.org/community/sigs/]Special Interest
+            Groups
+          + [https://www.python.org/community/logos/]Python Logo
+          + [https://wiki.python.org/moin/]Python Wiki
+          + [https://www.python.org/psf/conduct/]Code of Conduct
+          + [https://www.python.org/community/awards]Community Awards
+          + [https://www.python.org/psf/get-involved/]Get Involved
+          + [https://www.python.org/psf/community-stories/]Shared Stories
+     * [https://www.python.org/success-stories/]Success Stories
+          + [https://www.python.org/success-stories/category/arts/]Arts
+          + [https://www.python.org/success-stories/category/business/]Bus
+            iness
+          + [https://www.python.org/success-stories/category/education/]Ed
+            ucation
+          + [https://www.python.org/success-stories/category/engineering/]
+            Engineering
+          + [https://www.python.org/success-stories/category/government/]G
+            overnment
+          + [https://www.python.org/success-stories/category/scientific/]S
+            cientific
+          + [https://www.python.org/success-stories/category/software-deve
+            lopment/]Software Development
+     * [https://www.python.org/blogs/]News
+          + [https://www.python.org/blogs/]Python News
+          + [https://www.python.org/psf/newsletter/]PSF Newsletter
+          + [http://pyfound.blogspot.com/]PSF News
+          + [http://pycon.blogspot.com/]PyCon US News
+          + [http://planetpython.org/]News from the Community
+     * [https://www.python.org/events/]Events
+          + [https://www.python.org/events/python-events/]Python Events
+          + [https://www.python.org/events/python-user-group/]User Group
+            Events
+          + [https://www.python.org/events/python-events/past/]Python
+            Events Archive
+          + [https://www.python.org/events/python-user-group/past/]User
+            Group Events Archive
+          + [https://wiki.python.org/moin/PythonEventsCalendar#Submitting_
+            an_Event]Submit an Event
+     * [https://www.python.org/dev/]Contributing
+          + [https://devguide.python.org/]Developer's Guide
+          + [https://bugs.python.org/]Issue Tracker
+          + [https://mail.python.org/mailman/listinfo/python-dev]python-de
+            v list
+          + [https://www.python.org/dev/core-mentorship/]Core Mentorship
+          + [https://www.python.org/dev/security/]Report a Security Issue
+
+   [https://www.python.org/#python-network]▲ Back to Top
+     * [https://www.python.org/about/help/]Help & General Contact
+     * [https://www.python.org/community/diversity/]Diversity Initiatives
+     * [https://github.com/python/pythondotorg/issues]Submit Website Bug
+     * [https://status.python.org/]Status
+
+   Copyright ©2001-2023.  [https://www.python.org/psf-landing/]Python
+   Software Foundation  [https://www.python.org/about/legal/]Legal
+   Statements  [https://www.python.org/privacy/]Privacy Policy
+   [https://www.python.org/psf/sponsorship/sponsors/#heroku]Powered by
+   Heroku

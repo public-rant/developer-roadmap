@@ -1,0 +1,801 @@
+   #[https://www.guru99.com/wp-json/wp/v2/posts/156]alternate
+   [https://www.guru99.com/database-normalization.html]alternate
+   [https://guru99.es/database-normalization/]alternate
+
+   [https://www.guru99.com/database-normalization.html#main]Skip to
+   content
+
+   [https://www.guru99.com/]Guru99
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   [https://www.guru99.com/]Guru99
+   (BUTTON)
+
+What is Normalization in DBMS (SQL)? 1NF, 2NF, 3NF Example
+
+   By[https://www.guru99.com/author/richard]Richard Peterson UpdatedJune
+   17, 2023
+
+What is Database Normalization?
+
+   Normalization is a database design technique that reduces data
+   redundancy and eliminates undesirable characteristics like Insertion,
+   Update and Deletion Anomalies. Normalization rules divides larger
+   tables into smaller tables and links them using relationships. The
+   purpose of Normalisation in SQL is to eliminate redundant (repetitive)
+   data and ensure data is stored logically.
+
+   The inventor of the
+   [https://www.guru99.com/relational-data-model-dbms.html]relational
+   model Edgar Codd proposed the theory of normalization of data with the
+   introduction of the First Normal Form, and he continued to extend
+   theory with Second and Third Normal Form. Later he joined Raymond F.
+   Boyce to develop the theory of Boyce-Codd Normal Form.
+
+   In this Database Normalization tutorial, you will learn: (BUTTON)
+     * [https://www.guru99.com/database-normalization.html#what-is-databas
+       e-normalization]What is Database Normalization?
+     * [https://www.guru99.com/database-normalization.html#database-normal
+       -forms]Database Normal Forms
+     * [https://www.guru99.com/database-normalization.html#database-normal
+       ization-with-examples]Database Normalization With Examples
+     * [https://www.guru99.com/database-normalization.html#1nf-first-norma
+       l-form-rules]1NF (First Normal Form) Rules
+     * [https://www.guru99.com/database-normalization.html#what-is-a-key-i
+       n-sql]What is a KEY in SQL?
+     * [https://www.guru99.com/database-normalization.html#2nf-second-norm
+       al-form-rules]2NF (Second Normal Form) Rules
+     * [https://www.guru99.com/database-normalization.html#database--forei
+       gn-key]Database – Foreign Key
+     * [https://www.guru99.com/database-normalization.html#why-do-you-need
+       -a-foreign-key]Why do you need a foreign key?
+     * [https://www.guru99.com/database-normalization.html#what-are-transi
+       tive-functional-dependencies]What are transitive functional
+       dependencies?
+     * [https://www.guru99.com/database-normalization.html#3nf-third-norma
+       l-form-rules]3NF (Third Normal Form) Rules
+     * [https://www.guru99.com/database-normalization.html#bcnf-boycecodd-
+       normal-form]BCNF (Boyce-Codd Normal Form)
+     * [https://www.guru99.com/database-normalization.html#4nf-fourth-norm
+       al-form-rules]4NF (Fourth Normal Form) Rules
+     * [https://www.guru99.com/database-normalization.html#5nf-fifth-norma
+       l-form-rules]5NF (Fifth Normal Form) Rules
+     * [https://www.guru99.com/database-normalization.html#6nf-sixth-norma
+       l-form-proposed]6NF (Sixth Normal Form) Proposed
+     * [https://www.guru99.com/database-normalization.html#summary]Summary
+
+Database Normal Forms
+
+   Here is a list of Normal Forms in SQL:
+     * 1NF (First Normal Form)
+     * 2NF (Second Normal Form)
+     * 3NF (Third Normal Form)
+     * BCNF (Boyce-Codd Normal Form)
+     * 4NF (Fourth Normal Form)
+     * 5NF (Fifth Normal Form)
+     * 6NF (Sixth Normal Form)
+
+   The Theory of Data Normalization in MySQL server is still being
+   developed further. For example, there are discussions even on 6^th
+   Normal Form. However, in most practical applications, normalization
+   achieves its best in 3^rd Normal Form. The evolution of Normalization
+   in SQL theories is illustrated below-
+
+      Database Normal Forms Database Normal Forms Database Normal Forms
+
+Database Normalization With Examples
+
+   Database Normalization Example can be easily understood with the help
+   of a case study. Assume, a video library maintains a database of movies
+   rented out. Without any normalization in database, all information is
+   stored in one table as shown below. Let’s understand Normalization
+   database with normalization example with solution:
+
+   Database Normalization With Example Database Normalization With Example
+
+   Here you see Movies Rented column has multiple values. Now let’s move
+   into 1st Normal Forms:
+
+1NF (First Normal Form) Rules
+
+     * Each table cell should contain a single value.
+     * Each record needs to be unique.
+
+   The above table in 1NF-
+
+1NF Example
+
+                Example of 1NF in DBMS Example of 1NF in DBMS
+
+                           Example of 1NF in DBMS
+
+   Before we proceed let’s understand a few things —
+
+What is a KEY in SQL?
+
+   A KEY in SQL is a value used to identify records in a table uniquely.
+   An SQL KEY is a single column or combination of multiple columns used
+   to uniquely identify rows or tuples in the table. SQL Key is used to
+   identify duplicate information, and it also helps establish a
+   relationship between multiple tables in the database.
+
+   Note: Columns in a table that are NOT used to identify a record
+   uniquely are called non-key columns.
+
+What is a Primary Key?
+
+                   Primary Key in DBMS Primary Key in DBMS
+
+                             Primary Key in DBMS
+
+   A primary is a single column value used to identify a database record
+   uniquely.
+
+   It has following attributes
+     * A [https://www.guru99.com/dbms-keys.html]primary key cannot be NULL
+     * A primary key value must be unique
+     * The primary key values should rarely be changed
+     * The primary key must be given a value when a new record is
+       inserted.
+
+What is Composite Key?
+
+   A composite key is a primary key composed of multiple columns used to
+   identify a record uniquely
+
+   In our database, we have two people with the same name Robert Phil, but
+   they live in different places.
+
+             Composite key in Database Composite key in Database
+
+                          Composite key in Database
+
+   Hence, we require both Full Name and Address to identify a record
+   uniquely. That is a composite key.
+
+   Let’s move into second normal form 2NF
+
+2NF (Second Normal Form) Rules
+
+     * Rule 1- Be in 1NF
+     * Rule 2- Single Column Primary Key that does not functionally
+       dependant on any subset of candidate key relation
+
+   It is clear that we can’t move forward to make our simple database in
+   2^nd Normalization form unless we partition the table above.
+
+                           2NF Example 2NF Example
+
+                   2NF Example in DBMS 2NF Example in DBMS
+
+   We have divided our 1NF table into two tables viz. Table 1 and Table2.
+   Table 1 contains member information. Table 2 contains information on
+   movies rented.
+
+   We have introduced a new column called Membership_id which is the
+   primary key for table 1. Records can be uniquely identified in Table 1
+   using membership id
+
+Database – Foreign Key
+
+   In Table 2, Membership_ID is the Foreign Key
+
+                   Foreign Key Example Foreign Key Example
+
+                   Foreign Key in DBMS Foreign Key in DBMS
+
+                             Foreign Key in DBMS
+
+   Foreign Key references the primary key of another Table! It helps
+   connect your Tables
+     * A foreign key can have a different name from its primary key
+     * It ensures rows in one table have corresponding rows in another
+     * Unlike the Primary key, they do not have to be unique. Most often
+       they aren’t
+     * Foreign keys can be null even though primary keys can not
+
+               Foreign Key in Database Foreign Key in Database
+
+Why do you need a foreign key?
+
+   Suppose, a novice inserts a record in Table B such as
+
+    Why Foreign Key is important in Database Why Foreign Key is important
+                                 in Database
+
+   You will only be able to insert values into your foreign key that exist
+   in the unique key in the parent table. This helps in referential
+   integrity.
+
+   The above problem can be overcome by declaring membership id from
+   Table2 as foreign key of membership id from Table1
+
+   Now, if somebody tries to insert a value in the membership id field
+   that does not exist in the parent table, an error will be shown!
+
+What are transitive functional dependencies?
+
+   A transitive
+   [https://www.guru99.com/dbms-functional-dependency.html]functional
+   dependency is when changing a non-key column, might cause any of the
+   other non-key columns to change
+
+   Consider the table 1. Changing the non-key column Full Name may change
+   Salutation.
+
+    Transitive functional dependencies in Database Transitive functional
+                          dependencies in Database
+
+   Let’s move into 3NF
+
+3NF (Third Normal Form) Rules
+
+     * Rule 1- Be in 2NF
+     * Rule 2- Has no transitive functional dependencies
+
+   To move our 2NF table into 3NF, we again need to again divide our
+   table.
+
+3NF Example
+
+   Below is a 3NF example in SQL database:
+
+                           3NF Example 3NF Example
+
+                           3NF Example 3NF Example
+
+            Example of 3NF in Database Example of 3NF in Database
+
+   We have again divided our tables and created a new table which stores
+   Salutations.
+
+   There are no transitive functional dependencies, and hence our table is
+   in 3NF
+
+   In Table 3 Salutation ID is primary key, and in Table 1 Salutation ID
+   is foreign to primary key in Table 3
+
+   Now our little example is at a level that cannot further be decomposed
+   to attain higher normal form types of normalization in DBMS. In fact,
+   it is already in higher normalization forms. Separate efforts for
+   moving into next levels of normalizing data are normally needed in
+   complex databases. However, we will be discussing next levels of
+   normalisation in DBMS in brief in the following.
+
+BCNF (Boyce-Codd Normal Form)
+
+   Even when a database is in 3^rd Normal Form, still there would be
+   anomalies resulted if it has more than one Candidate Key.
+
+   Sometimes is BCNF is also referred as 3.5 Normal Form.
+
+4NF (Fourth Normal Form) Rules
+
+   If no database table instance contains two or more, independent and
+   multivalued data describing the relevant entity, then it is in 4^th
+   Normal Form.
+
+5NF (Fifth Normal Form) Rules
+
+   A table is in 5^th Normal Form only if it is in 4NF and it cannot be
+   decomposed into any number of smaller tables without loss of data.
+
+6NF (Sixth Normal Form) Proposed
+
+   6^th Normal Form is not standardized, yet however, it is being
+   discussed by database experts for some time. Hopefully, we would have a
+   clear & standardized definition for 6^th Normal Form in the near
+   future…
+
+   That’s all to SQL Normalization!!!
+
+Summary
+
+     * Database designing is critical to the successful implementation of
+       a database management system that meets the data requirements of an
+       enterprise system.
+     * Normalization in DBMS is a process which helps produce database
+       systems that are cost-effective and have better security models.
+     * Functional dependencies are a very important component of the
+       normalize data process
+     * Most database systems are normalized database up to the third
+       normal forms in DBMS.
+     * A primary key uniquely identifies are record in a Table and cannot
+       be null
+     * A foreign key helps connect table and references a primary key
+
+   You Might Like:
+     * [https://www.guru99.com/er-modeling.html]What is ER Modeling? Learn
+       with Example
+     * [https://www.guru99.com/database-design.html]Database Design in
+       DBMS Tutorial: Learn Data Modeling
+     * [https://www.guru99.com/introduction-to-mysql-workbench.html]MySQL
+       Workbench Tutorial: What is, How to Install & Use
+     * [https://www.guru99.com/introduction-to-database-sql.html]What is a
+       Database? Definition, Meaning, Types with Example
+     * [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+       Tutorial: Learn Syntax, Commands with Examples
+
+   Post navigation
+   [https://form.jotform.me/72391811797466]Report a Bug
+   [https://www.guru99.com/database-design.html]Prev
+   [https://www.guru99.com/er-modeling.html]Next
+
+   Top Tutorials
+   [https://www.facebook.com/Guru99Official][https://twitter.com/guru99com
+   ][https://www.linkedin.com/company/guru99/][https://www.youtube.com/cha
+   nnel/UC19i1XD6k88KqHlET8atqFQ][https://forms.aweber.com/form/46/7248076
+   46.htm]About
+   [https://www.guru99.com/about-us]About Us
+   [https://www.guru99.com/advertise-us]Advertise with Us
+   [https://www.guru99.com/become-an-instructor]Write For Us
+   [https://www.guru99.com/contact-us]Contact Us
+   [https://www.guru99.com/python-tutorials.html]
+   Python
+   [https://www.guru99.com/software-testing.html]
+   Testing
+   [https://www.guru99.com/ethical-hacking-tutorials.html]
+   Hacking
+   Career Suggestion
+   [https://www.guru99.com/best-sap-module.html]SAP Career Suggestion Tool
+   [https://www.guru99.com/software-testing-career-complete-guide.html]Sof
+   tware Testing as a Career
+   Interesting
+   [https://www.guru99.com/ebook-pdf.html]eBook
+   [https://www.guru99.com/blog]Blog
+   [https://www.guru99.com/tests.html]Quiz
+   [https://www.guru99.com/sap-ebook-pdf.html]SAP eBook
+   [https://www.guru99.com/sap-training-hub.html]SAP
+   [https://www.guru99.com/java-tutorial.html]
+   Java
+   [https://www.guru99.com/sql.html]
+   SQL
+   Execute online
+   [https://www.guru99.com/try-java-editor.html]Execute Java Online
+   [https://www.guru99.com/execute-javascript-online.html]Execute
+   Javascript
+   [https://www.guru99.com/execute-html-online.html]Execute HTML
+   [https://www.guru99.com/execute-python-online.html]Execute Python
+   [https://www.guru99.com/selenium-tutorial.html]Selenium
+   [https://www.guru99.com/web-design-and-development-tutorial.html]
+   Build Website
+   [https://www.guru99.com/best-vpn.html]
+   VPNs
+
+   [svg%3E] [eLearning-badge-1.png]
+
+   © Copyright - Guru99 2023
+   [https://www.guru99.com/privacy-policy]Privacy
+   Policy  |  [https://www.guru99.com/affiliate-earning-disclaimer]Affilia
+   te Disclaimer  |  [https://www.guru99.com/terms-of-service]ToS
+
+   [https://www.guru99.com/database-normalization.html#wrapper](BUTTON)
+
+   (BUTTON)
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP (BUTTON) Expand child
+       menu
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web (BUTTON) Expand
+       child menu
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn (BUTTON) Expand child menu
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   Search for: ____________________ Search

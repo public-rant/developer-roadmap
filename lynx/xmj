@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.ibm.com/cloud/learn/serverless > $(basename https://www.ibm.com/cloud/learn/serverless).txt

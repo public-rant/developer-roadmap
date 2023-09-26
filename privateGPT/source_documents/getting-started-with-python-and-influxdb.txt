@@ -1,0 +1,1260 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/20903293]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fgetting-started-with-python-and-influxdb%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fgetting-started-with-python-and-influxdb%2F&format=xml]alt
+   ernate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/getting-started-with-python-and-influxdb/]ARCHI
+   TECTURE
+   [https://thenewstack.io/getting-started-with-python-and-influxdb/]ENGIN
+   EERING
+   [https://thenewstack.io/getting-started-with-python-and-influxdb/]OPERA
+   TIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2022-01-21 11:00:12
+   Getting Started with Python and InfluxDB
+   contributed,sponsor-influxdata,sponsored,sponsored-post-contributed,
+   [https://thenewstack.io/category/data/]Data /
+   [https://thenewstack.io/category/storage/]Storage
+
+Getting Started with Python and InfluxDB
+
+   A time series databaset is optimized to store time series data points.
+   This is useful for a wide variety of applications.
+   Jan 21st, 2022 11:00am by
+   [https://thenewstack.io/author/rahul-banerjee/]Rahul Banerjee
+   Featued image for: Getting Started with Python and InfluxDB
+
+   Featured image via
+   [https://pixabay.com/illustrations/alphabet-python-p-letter-6758320/]Pi
+   xabay.
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+   [https://www.influxdata.com/?utm_content=sponsor-disclosure]InfluxData
+   sponsored this post.
+
+   [https://portal.draft.dev/writers/recwGa0upzWgR7IDq][e63a3ee2-image1-e1
+   642711309253.png]
+   Rahul Banerjee
+   Rahul Banerjee is a computer engineering student who likes playing
+   around with different libraries/APIs.
+
+   Although time-series data can be stored in a MySQL or PostgreSQL
+   database, that’s not particularly efficient. If you want to store data
+   that changes every minute (that’s more than half a million data points
+   a year!) from potentially thousands of different sensors, servers,
+   containers, or devices, you’re inevitably going to run into scalability
+   issues. Querying or performing aggregation on this data also leads to
+   performance issues when using relational databases.
+
+   A time-series database (TSDB), on the other hand, is optimized to store
+   time-series data points. This is particularly useful in situations
+   like:
+     * Analyzing financial trends in stock prices.
+     * Sales forecasting.
+     * Monitoring the logs and metrics of an API or web service.
+     * Monitoring the sensor data from a car or a plane for safety
+       purposes.
+     * Tracking power usage in IoT devices such as a smart power grid.
+     * Tracking an athlete’s vitals and performance during a game.
+
+   [https://www.influxdata.com/]InfluxDB has created an open source
+   [https://www.influxdata.com/time-series-database/]time-series database
+   that makes it easier for developers to work with
+   [https://www.influxdata.com/what-is-time-series-data/]time-series data.
+   This article will show you how to set up InfluxDB using Python, working
+   with stock data fetched using the Yahoo Finance API.
+
+   You can access all the code written in this tutorial in
+   [https://github.com/rahulbanerjee26/InfluxDB-Tutorial]this repo.
+   [https://www.influxdata.com/?utm_content=sponsormodule]InfluxData is
+   the creator of InfluxDB, the leading time series platform used to
+   collect, store, and analyze all time series data at any scale.
+   Developers can query and analyze their time-stamped data in real-time
+   to discover, interpret, and share new insights to gain a competitive
+   edge.
+   Learn More
+   The latest from InfluxData
+
+Why Use InfluxDB?
+
+   InfluxDB comes with a pre-built dashboard where you can analyze your
+   time series data without much groundwork. And let’s not forget that it
+   [https://www.influxdata.com/products/compare/]outperforms Elasticsearch
+   and Cassandra.
+
+   It has a free open source version you can run locally, and there’s a
+   cloud version that
+   [https://www.influxdata.com/products/influxdb-cloud/]supports major
+   cloud services such as AWS, GCP and Azure.
+
+Setting up InfluxDB with Python
+
+   Before getting started, make sure you have
+   [https://www.python.org/downloads/]Python 3.6 or later installed on
+   your computer. You’ll also need a virtual environment. This article
+   uses [https://docs.python.org/3/library/venv.html#module-venv]venv, but
+   you can use conda, pipenv or pyenv as well.
+
+   Finally, some experience with
+   [https://docs.influxdata.com/flux/v0.x/get-started/]Flux querying.
+
+   This guide uses the module
+   [https://github.com/influxdata/influxdb-client-python]influxdb-client-p
+   ython to interact with InfluxDB. The library only supports InfluxDB 2.x
+   and InfluxDB 1.8+, and it requires Python 3.6 or later.
+
+   All set? Let’s get started installing and connecting the client
+   library.
+
+   If you have Docker installed on your computer, you can simply run
+   InfluxDB’s Docker Image using the following command:
+
+   bash________________________________________________________
+   docker run --name influxdb -p 8086:8086 influxdb:2.1.0______
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   docker run --name influxdb -p 8086:8086 influxdb:2.1.0
+
+   If you don’t have Docker,
+   [https://docs.influxdata.com/influxdb/v2.1/install/]download the
+   software for your OS here and install it. If you’re running InfluxDB on
+   a Mac, you can use Homebrew to install it:
+
+   bash________________________________________________________
+   brew install influxdb_______________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   brew install influxdb
+
+   If you’re running the Docker image, you can directly go to
+   [http://localhost:8086/]localhost 8086. However, if you downloaded the
+   software and installed it, you will need to enter the following in the
+   command line:
+
+   bash________________________________________________________
+   influxd_____________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   influxd
+
+   You should see the following screen on localhost 8086:
+
+   Screen shot of welcome page
+
+   Click **Get Started**, which redirects you to the following page:
+
+   Screenshot of the next page after the welcome message
+
+   For this tutorial, choose **Quick Start** and enter your information on
+   this page:
+
+   Screenshot of setup initial user page
+
+   You can create organizations and buckets later on as well, but for now,
+   just pick an easy name for each of these fields.
+
+   After signing up, you should find yourself on the dashboard page. Click
+   **Load your data** and then choose the **Python** client library.
+
+   Screenshot of load data screen
+
+   You should now see the below screen:
+
+   Screenshot of code sample options
+
+   Under **Token**, there should already be a token listed. However, if
+   you’d like, you can generate a new token for this tutorial. Click
+   **Generate Token** and select **All Access Token** since you will be
+   updating and deleting data later in the tutorial.
+
+   Note that InfluxDB will raise a warning at this point, but you can
+   ignore it for now.
+
+   Screenshot of generate all access token
+
+   Now, you’ll have to set up a Python virtual environment. Create a new
+   folder for the tutorial:
+
+   bash________________________________________________________
+   mkdir influxDB-Tutorial_____________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   mkdir influxDB-Tutorial
+
+   Then change your directory into the new folder:
+
+   bash________________________________________________________
+   cd influxDB-Tutorial________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   cd influxDB-Tutorial
+
+   Create a virtual environment:
+
+   bash________________________________________________________
+   python3 -m venv venv________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   python3 -m venv venv
+
+   Activate it.
+
+   bash________________________________________________________
+   source venv/bin/activate____________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   source venv/bin/activate
+
+   Finally, install InfluxDB’s client library:
+
+   bash________________________________________________________
+   pip install influxdb-client_________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   pip install influxdb-client
+
+   Create a new file named __init.py__, then go back to the InfluxDB UI:
+
+   Select the appropriate token and bucket, then copy the code snippet
+   under **Initialize the Client** and paste it in your Python file. The
+   code snippet will be automatically updated if you change your
+   token/bucket selection.
+
+   Next, run your Python file:
+
+   bash________________________________________________________
+   python3 __init__.py_________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   python3 __init__.py
+
+   If no error messages are shown in the terminal, you have successfully
+   connected to InfluxDB.
+
+   To follow best practices, you can store your credentials in an .env
+   file. Create a file named .env and store the following information:
+
+   bash________________________________________________________
+   TOKEN = 'YOUR TOKEN'________________________________________
+   ORG = 'YOUR ORG NAME'_______________________________________
+   BUCKET = 'YOUR BUCKET NAME'_________________________________
+   1
+   2
+   3
+   4
+   bash
+   TOKEN = 'YOUR TOKEN'
+   ORG = 'YOUR ORG NAME'
+   BUCKET = 'YOUR BUCKET NAME'
+
+   Then install the python-dotenv module to read the .env variables:
+
+   bash________________________________________________________
+   pip3 install python-dotenv__________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   pip3 install python-dotenv
+
+   Finally, update your Python file to load the data from the .env file:
+
+   Note that you will need to change the url parameter if you are using an
+   InfluxDB Cloud account. The URL will depend on which cloud region you
+   chose. The cloud URLs can be found in the docs here.
+
+   The lines that are importing the DateTime module and the InfluxDB
+   library will be required later on in the tutorial. It’s a good practice
+   to have all your import statements together at the beginning. However,
+   if you choose to, you can import them when necessary as well.
+
+   Alternatively, you can store your credentials in a file with the
+   extension .ini or .toml and use the from_config_file function to
+   [https://influxdb-client.readthedocs.io/en/stable/api.html#influxdb_cli
+   ent.InfluxDBClient.from_config_file]connect to InfluxDB.
+
+CRUD Operations with influxdb-client-python
+
+   This article used the
+   [https://pypi.org/project/yfinance/]yfinance module in Python to gather
+   some historical stock data. Install it using the following command:
+
+   bash________________________________________________________
+   pip install yfinance________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   bash
+   pip install yfinance
+
+   You can use the following code snippet to get the data:
+
+   python______________________________________________________
+   import yfinance as yf_______________________________________
+   data = yf.download("MSFT", start="2021-01-01", end="2021-10-
+   print(data.to_csv())________________________________________
+   1
+   2
+   3
+   4
+   python
+   import yfinance as yf
+   data = yf.download("MSFT", start="2021-01-01", end="2021-10-30")
+   print(data.to_csv())
+
+   Make sure to pass a filename parameter to the to_csv method; this will
+   store the CSV locally so you can read the data later.
+
+   Alternatively, you can get the CSV file from the
+   [https://github.com/rahulbanerjee26/InfluxDB-Tutorial/blob/main/Data/MS
+   FT.csv]GitHub repo.
+
+   Next, create a class and add the CRUD operations as its methods:
+
+   If you are using a cloud instance of InfluxDB, you will want to replace
+   the URL parameter with the proper
+   [https://docs.influxdata.com/influxdb/cloud/reference/regions/]cloud
+   region.
+
+   To create an instance of the class, use this command:
+
+   python______________________________________________________
+   IC = InfluxClient(token,org,bucket)_________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   python
+   IC = InfluxClient(token,org,bucket)
+
+Write Data
+
+   InfluxDBClient has a method called write_api which is used to write
+   data into your database. Below is the code snippet for this method:
+
+   InfluxDBClient supports asynchronous and synchronous writes, and you
+   can specify the write type as required. For more information about
+   asynchronous writes, see
+   “[https://github.com/influxdata/influxdb-client-python#how-to-use-async
+   io]How to use Asyncio in influxdb-client.”
+
+   The data parameter can be written in three different ways, as shown
+   below:
+
+Line Protocol String
+
+
+   python______________________________________________________
+   # Data Write Method 1_______________________________________
+   IC.write_data(["MSFT,stock=MSFT Open=62.79,High=63.84,Low=62
+   ____________________________________________________________
+   1
+   2
+   3
+   python
+   # Data Write Method 1
+   IC.write_data(["MSFT,stock=MSFT Open=62.79,High=63.84,Low=62.13"])
+
+   Note that the string has to follow a particular format:
+
+   measurementName,tagKey=tagValue fieldKey1="fieldValue1",fiel
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   measurementName,tagKey=tagValue
+   fieldKey1="fieldValue1",fieldKey2=fieldValue2 timestamp
+
+   There’s a space between the tagValue and the first fieldKey, and
+   another space between the last fieldValue and timeStamp. While parsing,
+   these spaces are used as separators; therefore, you have to format it
+   in the manner shown above. Note also that in this case I assumed that
+   the first field value, fieldValue1, is a string, while fieldValue2 is a
+   number. Therefore, fieldValue1 should appear in quotes.
+
+   Note also that the timestamp is optional. If no timestamp is provided,
+   InfluxDB uses the system time (UTC) of its host machine. You can read
+   more about
+   [https://docs.influxdata.com/influxdb/v2.1/reference/syntax/line-protoc
+   ol/]Line Protocol here.
+
+Data Point Structure
+
+
+   python______________________________________________________
+   # Data Write Method 2_______________________________________
+   IC.write_data(______________________________________________
+   [___________________________________________________________
+   Point('MSFT')_______________________________________________
+   .tag("stock","MSFT")________________________________________
+   .field("Open",62.79)________________________________________
+   .field("High",63.38)________________________________________
+   .field("Low",62.13)_________________________________________
+   .time(int(datetime.strptime('2021-11-07','%Y-%m-%d').timesta
+   ],__________________________________________________________
+   )___________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   python
+   # Data Write Method 2
+   IC.write_data(
+   [
+   Point('MSFT')
+   .tag("stock","MSFT")
+   .field("Open",62.79)
+   .field("High",63.38)
+   .field("Low",62.13)
+   .time(int(datetime.strptime('2021-11-07','%Y-%m-%d').timestamp()))
+   ],
+   )
+
+   If you do not want to deal with the format in the Line Protocol String,
+   you can use the Point() Class. This ensures that your data is properly
+   serialized into line protocol.
+
+Dictionary Style
+
+
+   python______________________________________________________
+   # Data Write Method 3_______________________________________
+   IC.write_data([_____________________________________________
+   {___________________________________________________________
+   "measurement": "MSFT",______________________________________
+   "tags": {"stock": "MSFT"},__________________________________
+   "fields": {_________________________________________________
+   "Open": 62.79,______________________________________________
+   "High": 63.38,______________________________________________
+   "Low": 62.13,_______________________________________________
+   },__________________________________________________________
+   "time": int(datetime.strptime('2021-11-07','%Y-%m-%d').times
+   },__________________________________________________________
+   {___________________________________________________________
+   "measurement": "MSFT_DATE",_________________________________
+   "tags": {"stock": "MSFT"},__________________________________
+   "fields": {_________________________________________________
+   "Open": 62.79,______________________________________________
+   "High": 63.38,______________________________________________
+   "Low": 62.13,_______________________________________________
+   },__________________________________________________________
+   }___________________________________________________________
+   ],write_option=ASYNCHRONOUS)________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   21
+   22
+   23
+   python
+   # Data Write Method 3
+   IC.write_data([
+   {
+   "measurement": "MSFT",
+   "tags": {"stock": "MSFT"},
+   "fields": {
+   "Open": 62.79,
+   "High": 63.38,
+   "Low": 62.13,
+   },
+   "time": int(datetime.strptime('2021-11-07','%Y-%m-%d').timestamp())
+   },
+   {
+   "measurement": "MSFT_DATE",
+   "tags": {"stock": "MSFT"},
+   "fields": {
+   "Open": 62.79,
+   "High": 63.38,
+   "Low": 62.13,
+   },
+   }
+   ],write_option=ASYNCHRONOUS)
+
+   In this method, you’re passing two data points and setting the write
+   option to ASYNCHRONOUS. This is Python-friendly, since the data is
+   passed as a dictionary.
+
+   All the different ways to write the data are consolidated in the below
+   gist:
+
+   Next, insert all the data for the MSFT stock and the AAPL stock. Since
+   the data is stored in a CSV file, you can use the first method — Line
+   Protocol String — to write the data:
+
+   You can insert the data for the AAPL stock by changing the file path
+   and strings from MSFT to AAPL:
+
+   python3_____________________________________________________
+   AAPL_file = open('Data/AAPL.csv')___________________________
+   csvreader = csv.reader(AAPL_file)___________________________
+   ____________________________________________________________
+   1
+   2
+   3
+   python3
+   AAPL_file = open('Data/AAPL.csv')
+   csvreader = csv.reader(AAPL_file)
+
+Reading the Data
+
+   InfluxDBClient also has a method called query_api that can be used to
+   read data. You can use queries for various purposes, such as filtering
+   your data based on a specific date, aggregating your data within a time
+   range, finding the highest/lowest values in a time range, and more.
+   They are similar to queries you would use in SQL. You’ll need to use
+   queries when reading data from InfluxDB.
+
+   The following code is for our class’s read method:
+
+   Here, it accepts a query and then executes it. The return value of the
+   query is a collection of Flux Objects that match your query. The Flux
+   Object has the following methods:
+
+   .get_measurement()__________________________________________
+   .get_field()________________________________________________
+   .values.get(“<your tags>”)__________________________________
+   .get_time()_________________________________________________
+   1
+   2
+   3
+   4
+   .get_measurement()
+   .get_field()
+   .values.get(“<your tags>”)
+   .get_time()
+
+   Two query examples are shown below that demonstrate the query_data
+   function in action. The first query returns the high value for MSFT
+   stock since Oct. 1, 2021, and the second query returns the high value
+   for the MSFT stock on 2021-10-29.
+
+   Make sure you change the bucket name in the beginning of the query as
+   needed. In my case, my bucket name is *TestBucket*.
+
+Updating the Data
+
+   Unlike the Write and Query APIs, InfluxDB does not have an Update API.
+   The statement below is taken from their
+   [https://docs.influxdata.com/influxdb/v2.1/write-data/best-practices/du
+   plicate-points/]documentation about how they handle duplicate data
+   points.
+
+   For points that have the same measurement name, tag set, and timestamp,
+   InfluxDB creates a union of the old and new fieldsets. For any matching
+   field keys, InfluxDB uses the field value of the new point
+
+   To update a data point, you need to have the name, tag set, and
+   timestamp and simply perform a write operation.
+
+Deleting Data
+
+   You can delete data using delete_api. Below is some code demonstrating
+   how to delete data:
+
+   Delete functions require the measurement value of the data point. The
+   following code shows a simple use case of the delete function:
+
+   InfluxDB’s documentation includes a
+   [https://docs.influxdata.com/influxdb/v2.1/write-data/best-practices/]l
+   ist of best practices for writing data. There are also some
+   [https://www.influxdata.com/blog/data-layout-and-schema-design-best-pra
+   ctices-for-influxdb/]best practices for data layout and schema design,
+   which you should follow for the best results.
+
+Some Practical Use Cases of Time Series Databases
+
+   This article examined a simple use case of a TSDB to store stock
+   values, so you could analyze historical stock prices and forecast
+   future values. However, you could also work with IoT Devices, sales
+   data, and any other data series which is time-varying.
+
+   Some other practical use cases include:
+    1. [https://www.influxdata.com/blog/introduction-time-series-forecasti
+       ng-tensorflow-influxdb/]Time series forecasting using Tensorflow
+       and InfluxDB
+    2. [https://www.influxdata.com/blog/monitoring-smart-home-influxdb-ift
+       tt/]Integrating InfluxDB with IFTTT to monitor your smart home
+    3. [https://www.influxdata.com/blog/how-monitor-internet-speed-telegra
+       f-influxdb-cloud/]Monitoring your internet speed
+
+Conclusion
+
+   Hopefully, this guide empowered you to set up your own instance of
+   InfluxDB. You learned how to build a simple app to perform CRUD
+   Operations using InfluxDB’s Python client library, but if you want to
+   take a closer look at anything, you can find the
+   [https://github.com/rahulbanerjee26/InfluxDB-Tutorial/blob/main/__init_
+   _.py]repo with the entire source code here.
+
+   Check out [https://www.influxdata.com/time-series-database/]InfluxDB’s
+   open source TSDB. It’s got client libraries for ten programming
+   languages including Python, C++, and JavaScript, and it’s also got a
+   lot of built-in visualization tools so you can see exactly what your
+   data is doing.
+   Created with Sketch.
+   [https://thenewstack.io/author/rahul-banerjee/]
+   [e63a3ee2-image1-e1642711309253.png]
+   Rahul Banerjee is a computer engineering student who likes playing
+   around with different libraries/APIs.
+   Read more from Rahul Banerjee
+   [https://www.influxdata.com/?utm_content=sponsor-disclosure]InfluxData
+   sponsored this post.
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fgetting-s
+   tarted-with-python-and-influxdb%2F&text=Getting+Started+with+Python+and
+   +InfluxDB:%20&via=thenewstack][https://news.ycombinator.com/submitlink?
+   u=https%3A%2F%2Fthenewstack.io%2Fgetting-started-with-python-and-influx
+   db%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%
+   2Fthenewstack.io%2Fgetting-started-with-python-and-influxdb%2F][https:/
+   /reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Fgetting-started-w
+   ith-python-and-influxdb%2F&title=Getting+Started+with+Python+and+Influx
+   DB][https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.io
+   /getting-started-with-python-and-influxdb/]
+   RELATED STORIES
+   [https://thenewstack.io/7-data-modeling-best-practices/]7 Data Modeling
+   Best Practices
+   [https://thenewstack.io/can-companies-really-self-host-at-scale/]Can
+   Companies Really Self-Host at Scale?
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   [https://thenewstack.io/observability-working-with-metrics-logs-and-tra
+   ces/]Observability: Working with Metrics, Logs and Traces
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+
+   TNS owner Insight Partners is an investor in: Pragma, Docker.
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fgetting-s
+   tarted-with-python-and-influxdb%2F&text=Getting+Started+with+Python+and
+   +InfluxDB:%20&via=thenewstack][https://news.ycombinator.com/submitlink?
+   u=https%3A%2F%2Fthenewstack.io%2Fgetting-started-with-python-and-influx
+   db%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%
+   2Fthenewstack.io%2Fgetting-started-with-python-and-influxdb%2F][https:/
+   /reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Fgetting-started-w
+   ith-python-and-influxdb%2F&title=Getting+Started+with+Python+and+Influx
+   DB][https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.io
+   /getting-started-with-python-and-influxdb/]
+   RELATED STORIES
+   [https://thenewstack.io/7-data-modeling-best-practices/]7 Data Modeling
+   Best Practices
+   [https://thenewstack.io/can-companies-really-self-host-at-scale/]Can
+   Companies Really Self-Host at Scale?
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   [https://thenewstack.io/observability-working-with-metrics-logs-and-tra
+   ces/]Observability: Working with Metrics, Logs and Traces
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

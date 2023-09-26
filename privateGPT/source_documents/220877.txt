@@ -1,0 +1,929 @@
+   #[https://unix.stackexchange.com/opensearch.xml]Unix & Linux Stack
+   Exchange [https://unix.stackexchange.com/feeds/question/11983]Feed for
+   question 'What exactly is POSIX?'
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+
+Stack Exchange Network
+
+   Stack Exchange network consists of 182 Q&A communities including
+   [https://stackoverflow.com/]Stack Overflow, the largest, most trusted
+   online community for developers to learn, share their knowledge, and
+   build their careers.
+   [https://stackexchange.com/]Visit Stack Exchange (BUTTON)
+   ____________________
+   Loading…
+
+    1. [https://unix.stackexchange.com/help]
+          + [https://unix.stackexchange.com/tour]Tour Start here for a
+            quick overview of the site
+          + [https://unix.stackexchange.com/help]Help Center Detailed
+            answers to any questions you might have
+          + [https://unix.meta.stackexchange.com/]Meta Discuss the
+            workings and policies of this site
+          + [https://stackoverflow.co/]About Us Learn more about Stack
+            Overflow the company, and our products.
+    2. [https://stackexchange.com/]
+    3.
+
+[https://unix.stackexchange.com/]current community
+       (BUTTON)
+          + [https://unix.stackexchange.com/]Unix & Linux
+            [https://unix.stackexchange.com/help]help
+            [https://chat.stackexchange.com/?tab=site&host=unix.stackexcha
+            nge.com]chat
+          + [https://unix.meta.stackexchange.com/]Unix & Linux Meta
+
+your communities
+       [https://unix.stackexchange.com/users/signup?ssrc=site_switcher&ret
+       urnurl=https%3a%2f%2funix.stackexchange.com%2fquestions%2f11983%2fw
+       hat-exactly-is-posix%2f220877]Sign up or
+       [https://unix.stackexchange.com/users/login?ssrc=site_switcher&retu
+       rnurl=https%3a%2f%2funix.stackexchange.com%2fquestions%2f11983%2fwh
+       at-exactly-is-posix%2f220877]log in to customize your list.
+
+[https://stackexchange.com/sites]more stack exchange communities
+       [https://stackoverflow.blog/]company blog
+    4. (BUTTON)
+    5. [https://unix.stackexchange.com/users/login?ssrc=head&returnurl=htt
+       ps%3a%2f%2funix.stackexchange.com%2fquestions%2f11983%2fwhat-exactl
+       y-is-posix%2f220877]Log in
+    6. [https://unix.stackexchange.com/users/signup?ssrc=head&returnurl=ht
+       tps%3a%2f%2funix.stackexchange.com%2fquestions%2f11983%2fwhat-exact
+       ly-is-posix%2f220877]Sign up
+
+   Unix & Linux Stack Exchange is a question and answer site for users of
+   Linux, FreeBSD and other Un*x-like operating systems. It only takes a
+   minute to sign up.
+   [https://unix.stackexchange.com/users/signup?ssrc=hero&returnurl=https%
+   3a%2f%2funix.stackexchange.com%2fquestions%2f11983%2fwhat-exactly-is-po
+   six%2f220877]Sign up to join this community
+   Anybody can ask a question
+   Anybody can answer
+   The best answers are voted up and rise to the top
+   (BUTTON)
+
+   [https://unix.stackexchange.com/]Unix & Linux
+
+    1. [https://unix.stackexchange.com/]Home
+    2.
+         1. Public
+         2. [https://unix.stackexchange.com/questions]Questions
+         3. [https://unix.stackexchange.com/tags]Tags
+         4. [https://unix.stackexchange.com/users]Users
+         5. [https://stackoverflow.com/jobs/companies?so_medium=unix&so_so
+            urce=SiteNav]Companies
+         6. [https://unix.stackexchange.com/unanswered]Unanswered
+    3. Teams
+       Stack Overflow for Teams – Start collaborating and sharing
+       organizational knowledge.
+       [https://try.stackoverflow.co/why-teams/?utm_source=so-owned&utm_me
+       dium=side-bar&utm_campaign=campaign-38&utm_content=cta]Create a
+       free Team [https://stackoverflow.co/teams/]Why Teams?
+    4. Teams
+       [javascript:void(0)]
+    5. [https://stackoverflowteams.com/teams/create/free/?utm_source=so-ow
+       ned&utm_medium=side-bar&utm_campaign=campaign-38&utm_content=cta]Cr
+       eate free Team
+
+   Teams
+
+   Q&A for work
+
+   Connect and share knowledge within a single location that is structured
+   and easy to search.
+   [https://stackoverflow.co/teams/]Learn more about Teams
+
+[https://unix.stackexchange.com/questions/11983/what-exactly-is-posix]What
+exactly is POSIX?
+
+   [https://unix.stackexchange.com/questions/ask]Ask Question
+   Asked 12 years, 2 months ago
+   Modified
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877?lastactivity]1 year, 6 months ago
+   Viewed 62k times
+   (BUTTON)
+   168
+   (BUTTON) (BUTTON) [https://unix.stackexchange.com/posts/11983/timeline]
+
+   I see POSIX mentioned often and everywhere, and I had assumed it to be
+   the baseline UNIX standard.. until I noticed the following excerpt on a
+   Wikipedia page: [http://en.wikipedia.org/wiki/The_Open_Group]The Open
+   Group
+
+     The Open Group is most famous as the certifying body for the UNIX
+     trademark, and its publication of the Single UNIX Specification
+     technical standard, which extends the POSIX standards and is the
+     official definition of a UNIX system.
+
+   If the official definition of a UNIX system is an extension of POSIX,
+   then what exactly is POSIX? ,,, It surely seems to be a touchstone of
+   the UNIX world, but I don't know how it fits into the overall picture.
+     * [https://unix.stackexchange.com/questions/tagged/posix]posix
+     * [https://unix.stackexchange.com/questions/tagged/standard]standard
+
+   [https://unix.stackexchange.com/q/11983]Share
+   [https://unix.stackexchange.com/posts/11983/edit]Improve this question
+   (BUTTON) Follow
+   asked Apr 25, 2011 at 17:41
+   [https://unix.stackexchange.com/users/2343/peter-o]
+   Peter.O's user avatar
+   [https://unix.stackexchange.com/users/2343/peter-o]Peter.OPeter.O
+   32.3k2727 gold badges115115 silver badges163163 bronze badges
+   3
+     * 3
+       SUS is the official definition of UNIX since The Open Group, not
+       the IEEE, owns the UNIX trademark. Se my answer below.
+       – [https://unix.stackexchange.com/users/6167/penguin359]penguin359
+       Apr 25, 2011 at 21:32
+     * [http://unix.stackexchange.com/tags/posix/info]unix.stackexchange.c
+       om/tags/posix/info
+       – [https://unix.stackexchange.com/users/102396/premraj]Premraj
+       May 27, 2015 at 4:22
+     * 1
+       [http://stackoverflow.com/questions/1780599/i-never-really-understo
+       od-what-is-posix]stackoverflow.com/questions/1780599/…
+       – [https://unix.stackexchange.com/users/32558/ciro-santilli-ourbigb
+       ook-com]Ciro Santilli OurBigBook.com
+       Aug 7, 2015 at 22:19
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]Add a comment  |
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+
+4 Answers 4
+
+   Sorted by:
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix?a
+   nswertab=scoredesc#tab-top]Reset to default
+   [Highest score (default)_____]
+   (BUTTON)
+   148
+   (BUTTON) (BUTTON)
+   [https://unix.stackexchange.com/posts/11996/timeline]
+
+   POSIX first was a standard in 1988 long before the Single UNIX
+   Specification. It was one of the attempts at unifying all the various
+   UNIX forks and UNIX-like systems. POSIX is an IEEE Standard, but as the
+   IEEE does not own the UNIX® trademark, the standard is not UNIX® though
+   it is based on the existing UNIX API at that time. The first standard
+   POSIX.1 is formally known as IEEE std
+   1003.1-1988.[[http://en.wikipedia.org/wiki/POSIX]1] IEEE charged a
+   substantial fee to obtain a copy of the standard.
+
+   The Open Group released the Single UNIX Specification (SUSv2) in 1997
+   based on IEEE's work of the POSIX standard. SUSv3 was released in 2001
+   from a joint working group between IEEE and The Open Group known as the
+   Austin Group. SUSv3 is also known as
+   POSIX:2001[[http://en.wikipedia.org/wiki/Single_UNIX_Specification]2].
+   There is now also POSIX:2004 and POSIX:2008 which is the core of SUSv4.
+   As for what UNIX® is, UNIX® is whatever the current registered
+   trademark holder says it is. Since 1994, that is The Open Group.
+
+   Novell acquired the UNIX® systems business from AT&T/USL which is where
+   UNIX® was born. In 1994, they sold the right to the UNIX® trademark to
+   X/Open[[http://www.unix.org/what_is_unix.html]3] now know as The Open
+   Group. They then sold the UNIX® source code to SCO as
+   UNIXWARE®.[[http://www.unix.org/what_is_unix.html]3] UNIX® itself has
+   forked many
+   times[[http://www.levenez.com/unix/]4][[http://www.bell-labs.com/histor
+   y/unix/]5] partly due to AT&T's licensing model. Purchasing UNIX® gave
+   you the complete source of the operating system and the full tool-chain
+   to build it. Modifications to the source can be distributed and used by
+   anyone who owned a license to UNIX® from AT&T. The license fee was in
+   the thousands.
+
+   BSD was a project at Berkeley which added a number of enhancements to
+   the UNIX® operating system. BSD code was released under a much more
+   liberal license than AT&T's source and did not require a license fee or
+   even a requirement to be distributed with source, unlike the GPL that
+   the GNU Project and Linux use. This has caused a good part of the BSD
+   code to be included with various commercial UNIX forks. By around
+   4.3BSD, they had nearly replaced any need for the original AT&T UNIX®
+   source code. FreeBSD/NetBSD/OpenBSD are all forks of 4.3BSD that are a
+   complete operating system and have none of the original AT&T source
+   code. Nor do they have right to the UNIX® trademark, but much of their
+   code is used by commercial UNIX operating systems. The Socket API used
+   on UNIX was developed on BSD and the Unix Fast Filesystem code was
+   borrowed and used on various UNIX Operating Systems like Solaris with
+   their own enhancements.
+
+   Linux was developed in 1991, but was developed from scratch unlike BSD
+   and uses the existing GNU Project which is a clean-room implementation
+   of much of the UNIX user-space. It implements much of POSIX for
+   compatibility and is UNIX-like in design, but it does not have the
+   close connection to AT&T or UNIX® that the BSDs have.
+   [https://unix.stackexchange.com/a/11996]Share
+   [https://unix.stackexchange.com/posts/11996/edit]Improve this answer
+   (BUTTON) Follow
+   [https://unix.stackexchange.com/posts/11996/revisions]edited Jan 20,
+   2015 at 21:08
+   [https://unix.stackexchange.com/users/4671/faheem-mitha]
+   Faheem Mitha's user avatar
+   [https://unix.stackexchange.com/users/4671/faheem-mitha]Faheem Mitha
+   34.5k3232 gold badges118118 silver badges183183 bronze badges
+   answered Apr 25, 2011 at 21:27
+   [https://unix.stackexchange.com/users/6167/penguin359]
+   penguin359's user avatar
+   [https://unix.stackexchange.com/users/6167/penguin359]penguin359penguin
+   359
+   11.8k44 gold badges4242 silver badges4545 bronze badges
+   5
+     * 2
+       A great answer.. all (3) answers have been good, but this one was
+       hugely informative (especially after having been prepped by the
+       other 2); just what I needed... and thanks for the comment (below
+       the question body) about SUS, I understand it well enough now,
+       thanks... (and I didn't notice it was only one paragraph...It was
+       too interesting :)
+       – [https://unix.stackexchange.com/users/2343/peter-o]Peter.O
+       Apr 26, 2011 at 1:26
+     * 2
+       @Mikel hopefully my edit helps a little
+       – [https://unix.stackexchange.com/users/6167/penguin359]penguin359
+       Apr 26, 2011 at 4:36
+     * 1
+       That's a fantastic answer there @penguin359!
+       – [https://unix.stackexchange.com/users/5770/boehj]boehj
+       Apr 28, 2011 at 4:02
+     * Excellent. Thank you. I've been in computing for much of that
+       history, but the "gossipy" details of how things happened were not
+       something on which I focused. Good to see the trail.
+       – [https://unix.stackexchange.com/users/66117/ken-ingram]Ken Ingram
+       Nov 19, 2018 at 22:30
+     * @Alex Officially, I think POSIX is not an acronym, but just a name,
+       however, it was likely picked from the name "Portable Operating
+       System Interface" and given an X at the end to hint at UNIX.
+       Neither
+       [https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/]The
+       Open Group nor the
+       [https://standards.ieee.org/ieee/1003.1/7700/]IEEE seem to directly
+       explain the choice of name, but both are clear in writing it in all
+       uppercase. Lastly, the UNIX programmer's manual, first published in
+       1971 writes UNIX in all uppercase like some others sources do as
+       well.
+       – [https://unix.stackexchange.com/users/6167/penguin359]penguin359
+       Mar 10, 2022 at 7:24
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]Add a comment  |
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+   (BUTTON)
+   75
+   (BUTTON) (BUTTON)
+   [https://unix.stackexchange.com/posts/220877/timeline]
+
+   Most important things
+   [http://pubs.opengroup.org/onlinepubs/9699919799/nfindex.html]POSIX 7
+   defines
+    1. [http://pubs.opengroup.org/onlinepubs/9699919799/functions/contents
+       .html]C API
+       Greatly
+       [https://stackoverflow.com/questions/9376837/difference-bewteen-c-s
+       tandard-library-and-c-posix-library/37969420#37969420]extends ANSI
+       C with things like:
+          + more file operations: mkdir, dirname, symlink, readlink, link
+            (hardlinks),
+            [https://stackoverflow.com/questions/12444679/how-does-the-pol
+            l-c-linux-function-work/44127590#44127590]poll(), stat, sync,
+            [https://stackoverflow.com/questions/8436841/how-to-recursivel
+            y-list-directories-in-c-on-linux/29402705]nftw()
+          + process and threads: fork, execl,
+            [https://stackoverflow.com/questions/7248031/meaning-of-dollar
+            -question-mark-in-shell-scripts/57303942#57303942]wait, pipe,
+            semaphors
+            [https://stackoverflow.com/questions/16400820/how-to-use-posix
+            -semaphores-on-forked-processes-in-c/52042490#52042490]sem_*,
+            shared memory (shm_*), kill, scheduling parameters (nice,
+            sched_*), sleep, mkfifo,
+            [https://stackoverflow.com/questions/6108953/how-does-ctrl-c-t
+            erminate-a-child-process/52042970#52042970]setpgid()
+          + networking:
+            [https://stackoverflow.com/questions/11208299/how-to-make-an-h
+            ttp-get-request-in-c-without-libcurl/35680609#35680609]socket(
+            )
+          + memory management: mmap, mlock, mprotect, madvise,
+            [https://stackoverflow.com/questions/6988487/what-does-the-brk
+            -system-call-do/31082353#31082353]brk()
+          + utilities: regular expressions (reg*)
+       Those APIs also determine underlying system concepts on which they
+       depend, e.g. fork requires a concept of a process.
+       Many
+       [https://unix.stackexchange.com/questions/421750/where-do-you-find-
+       the-syscall-table-for-linux]Linux system calls exist to implement a
+       specific POSIX C API function and make Linux compliant, e.g.
+       sys_write, sys_read, ... Many of those syscalls also have
+       Linux-specific extensions however.
+       Major Linux desktop implementation: glibc, which in many cases just
+       provides a shallow wrapper to system calls.
+    2. [http://pubs.opengroup.org/onlinepubs/9699919799/utilities/contents
+       .html]CLI utilities
+       E.g.: cd, ls, echo, ...
+       Many utilities are direct shell front ends for a corresponding C
+       API function, e.g. mkdir.
+       Major Linux desktop implementation: GNU Coreutils for the small
+       ones, separate GNU projects for the big ones: sed, grep, awk, ...
+       Some CLI utilities are implemented by Bash
+       [https://unix.stackexchange.com/questions/11454/what-is-the-differe
+       nce-between-a-builtin-command-and-one-that-is-not]as built-ins.
+    3. [http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap0
+       2.html#tag_18]Shell language
+       E.g., a=b; echo "$a"
+       Major Linux desktop implementation:
+       [https://en.wikipedia.org/wiki/Bash_(Unix_shell)]GNU Bash.
+    4. [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08
+       .html#tag_08]Environment variables
+       E.g.: HOME, PATH.
+       PATH
+       [http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap0
+       2.html#tag_18_09_01_01]search semantics are specified, including
+       [https://stackoverflow.com/questions/6331075/why-do-you-need-dot-sl
+       ash-before-executable-or-script-name-to-run-it-in-bas/6331085#63310
+       85]how slashes prevent PATH search.
+    5. [http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap0
+       2.html#tag_18_08]Program exit status
+       ANSI C says 0 or EXIT_SUCCESS for success, EXIT_FAILURE for
+       failure, and leaves the rest implementation defined.
+       POSIX adds:
+          + 126: command found but not executable.
+          + 127: command not found.
+          + > 128: terminated by a signal.
+            But POSIX does not seem to specify the 128 + SIGNAL_ID rule
+            used by Bash:
+            [https://unix.stackexchange.com/questions/99112/default-exit-c
+            ode-when-process-is-terminated]Default exit code when process
+            is terminated?
+       See also:
+       [https://stackoverflow.com/questions/7248031/meaning-of-dollar-ques
+       tion-mark-in-shell-scripts/57303942#57303942]What is the meaning of
+       $? (dollar question mark) in shell scripts?
+    6. [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09
+       .html#tag_09]Regular expression
+       There are two types: BRE (Basic) and ERE (Extended). Basic is
+       deprecated and only kept to not break APIs.
+       Those are implemented by C API functions, and used throughout CLI
+       utilities, e.g. grep accepts BREs by default, and EREs with -E.
+       E.g.: echo 'a.1' | grep -E 'a.[[:digit:]]'
+       Major Linux implementation: glibc implements the functions under
+       [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/regex.h.h
+       tml]regex.h which programs like grep can use as backend.
+    7. [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap10
+       .html#tag_10]Directory struture
+       E.g.: /dev/null, /tmp
+       The Linux
+       [https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard]FHS
+       greatly extends POSIX.
+    8. [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03
+       .html#tag_03_267]Filenames
+          + / is the path separator
+          + NUL cannot be used
+          + . is cwd, .. parent
+          + portable filenames
+               o use at most max 14 chars and 256 for the full path
+               o can only contain: a-zA-Z0-9._-
+       See also:
+       [https://stackoverflow.com/questions/18550253/what-is-posix-complia
+       nce-for-filesystem]https://stackoverflow.com/questions/18550253/wha
+       t-is-posix-compliance-for-filesystem
+    9. [http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12
+       .html]Command line utility API conventions
+       Not mandatory, used by POSIX, but almost nowhere else, notably not
+       in GNU. But true, it is too restrictive, e.g. single letter flags
+       only (e.g. -a), no double hyphen long versions (e.g. --all).
+       A few widely used conventions:
+          + - means stdin where a file is expected
+          + -- terminates flags, e.g. ls -- -l to list a directory named
+            -l
+       See also:
+       [https://stackoverflow.com/questions/8957222/are-there-standards-fo
+       r-linux-command-line-switches-and-arguments]https://stackoverflow.c
+       om/questions/8957222/are-there-standards-for-linux-command-line-swi
+       tches-and-arguments
+   10. "POSIX ACLs" (Access Control Lists), e.g. as used as backend for
+       [https://askubuntu.com/questions/487527/give-specific-user-permissi
+       on-to-write-to-a-folder-using-w-notation/809562#809562]setfacl.
+       This
+       [https://unix.stackexchange.com/questions/489820/why-was-posix-1e-w
+       ithdrawn]was withdrawn but it was implemented in several OSes,
+       including
+       [https://www.linuxquestions.org/questions/linux-kernel-70/system-ca
+       ll-to-set-file-acls-in-linux-537615/#post5988355]in Linux with
+       setxattr.
+
+   Who conforms to POSIX?
+
+   Many systems follow POSIX closely, but few are actually certified by
+   the Open Group which maintains the standard. Notable certified ones
+   include:
+     * OS X (Apple) X stands for both 10 and UNIX. Was the first Apple
+       POSIX system, released circa 2001. See also:
+       [https://stackoverflow.com/questions/5785516/is-osx-a-posix-os]http
+       s://stackoverflow.com/questions/5785516/is-osx-a-posix-os
+     * AIX (IBM)
+     * HP-UX (HP)
+     * Solaris (Oracle)
+
+   Most Linux distros are very compliant, but not certified because they
+   don't want to pay the compliance check.
+   [https://en.wikipedia.org/wiki/Inspur_K-UX]Inspur's K-UX and
+   [https://www.huawei.com/en/press-events/news/2016/9/huawei-kunlun-euler
+   os-unix-certification]Huawei's EulerOS are two certified examples.
+
+   The official list of certified systems be found at:
+   [https://www.opengroup.org/openbrand/register/]https://www.opengroup.or
+   g/openbrand/register/ and also at the
+   [https://en.wikipedia.org/wiki/POSIX#POSIX-oriented_operating_systems]w
+   iki page.
+
+   Windows
+
+   Windows implemented POSIX on some of its professional distributions.
+
+   Since it was an optional feature, programmers could not rely on it for
+   most end user applications.
+
+   Support was deprecated in Windows 8:
+     * [https://stackoverflow.com/questions/4746043/where-does-microsoft-w
+       indows-7-posix-implementation-currently-stand]https://stackoverflow
+       .com/questions/4746043/where-does-microsoft-windows-7-posix-impleme
+       ntation-currently-stand
+     * [https://superuser.com/questions/495360/does-windows-8-still-implem
+       ent-posix]https://superuser.com/questions/495360/does-windows-8-sti
+       ll-implement-posix
+     * Feature request:
+       [https://windows.uservoice.com/forums/265757-windows-feature-sugges
+       tions/suggestions/6573649-full-posix-support]https://windows.uservo
+       ice.com/forums/265757-windows-feature-suggestions/suggestions/65736
+       49-full-posix-support
+
+   In 2016 a new official Linux-like API called "Windows Subsystem for
+   Linux" was announced. It includes Linux system calls, ELF running,
+   parts of the /proc filesystem, Bash, GCC, (TODO likely glibc?), apt-get
+   and more:
+   [https://channel9.msdn.com/Events/Build/2016/P488]https://channel9.msdn
+   .com/Events/Build/2016/P488 so I believe that it will allow Windows to
+   run much, if not all, of POSIX. However, it is focused on developers /
+   deployment instead of end users. In particular, there were no plans to
+   allow access to the Windows GUI.
+
+   Historical overview of the official Microsoft POSIX compatibility:
+   [http://brianreiter.org/2010/08/24/the-sad-history-of-the-microsoft-pos
+   ix-subsystem/]http://brianreiter.org/2010/08/24/the-sad-history-of-the-
+   microsoft-posix-subsystem/
+
+   [http://www.cygwin.com/]Cygwin is a well known GPL third-party project
+   for that "provides substantial POSIX API functionality" for Windows,
+   but requires that you "rebuild your application from source if you want
+   it to run on Windows". [https://sourceforge.net/projects/msys2/]MSYS2
+   is a related project that seems to add more functionality on top of
+   Cygwin.
+
+   Android
+
+   Android has its own C library (Bionic) which does not fully support
+   POSIX as of Android O:
+   [https://stackoverflow.com/questions/27604455/is-android-posix-compatib
+   le]https://stackoverflow.com/questions/27604455/is-android-posix-compat
+   ible
+
+   Bonus level
+
+   The [https://en.wikipedia.org/wiki/Linux_Standard_Base]Linux Standard
+   Base further extends POSIX.
+
+   Use the non-frames indexes, they are much more readable and searchable:
+   [http://pubs.opengroup.org/onlinepubs/9699919799/nfindex.html]http://pu
+   bs.opengroup.org/onlinepubs/9699919799/nfindex.html
+
+   Get a full zipped version of the HTML pages for grepping:
+   [https://stackoverflow.com/questions/453993/is-there-a-listing-of-the-p
+   osix-api-functions/45832939#45832939]https://stackoverflow.com/question
+   s/453993/is-there-a-listing-of-the-posix-api-functions/45832939#4583293
+   9
+   [https://unix.stackexchange.com/a/220877]Share
+   [https://unix.stackexchange.com/posts/220877/edit]Improve this answer
+   (BUTTON) Follow
+   [https://unix.stackexchange.com/posts/220877/revisions]edited Dec 13,
+   2021 at 14:46
+   answered Aug 7, 2015 at 22:12
+   [https://unix.stackexchange.com/users/32558/ciro-santilli-ourbigbook-co
+   m]
+   Ciro Santilli OurBigBook.com's user avatar
+   [https://unix.stackexchange.com/users/32558/ciro-santilli-ourbigbook-co
+   m]Ciro Santilli OurBigBook.comCiro Santilli OurBigBook.com
+   17k44 gold badges113113 silver badges9999 bronze badges
+   6
+     * The question was about POSIX and SUS, but this answer doesn't
+       mention SUS at all...
+       – [https://unix.stackexchange.com/users/254388/kidburla]Kidburla
+       Oct 6, 2017 at 12:16
+     * 2
+       @Kidburla a great opportunity to add your own answer and get some
+       rep :-) (or edit it into mine and give me rep hehe)
+       – [https://unix.stackexchange.com/users/32558/ciro-santilli-ourbigb
+       ook-com]Ciro Santilli OurBigBook.com
+       Oct 6, 2017 at 12:27
+     * 1
+       [https://github.com/sirredbeard/Awesome-UNIX#unix-certified-linux-b
+       ased-operating-systems]There are actually Linux distros that are
+       Unix-certified like [https://en.wikipedia.org/wiki/Inspur_K-UX]K-UX
+       and
+       [https://www.huawei.com/en/press-events/news/2016/9/huawei-kunlun-e
+       uleros-unix-certification]Huawei EulerOS. They appear in the
+       [https://en.wikipedia.org/wiki/POSIX#POSIX-certified]POSIX
+       certified list and also on
+       [https://www.opengroup.org/openbrand/register/]Opengroup's website
+       – [https://unix.stackexchange.com/users/44425/phuclv]phuclv
+       Oct 21, 2018 at 3:31
+     * @phuclv thanks, I've added that to the answer.
+       – [https://unix.stackexchange.com/users/32558/ciro-santilli-ourbigb
+       ook-com]Ciro Santilli OurBigBook.com
+       Oct 21, 2018 at 6:30
+     * 1
+       This is the first and only answer I've been able to find that
+       actually mentions what is guaranteed instead of just "yeah it
+       guarantees a bunch of stuff". Thank you so much; I can actually use
+       this answer to create portable programs now.
+       – [https://unix.stackexchange.com/users/287410/jeff-hykin]Jeff
+       Hykin
+       Feb 6, 2021 at 17:04
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877] |
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]Show 1 more comment
+   (BUTTON)
+   17
+   (BUTTON) (BUTTON)
+   [https://unix.stackexchange.com/posts/11986/timeline]
+
+   POSIX is the Portable Operating System standard. It describes certain
+   utilities, APIs, and services a compliant operating system must provide
+   to software (for example sockets, file I/O and threading) along with
+   conventions on how these should be called from a program.
+
+   The idea is that a program written for one POSIX-Compliant OS would be
+   easier to port to another POSIX-compliant OS than porting between
+   non-POSIX-compliant OSes. This is why it is much easier to port an
+   application from, say, FreeBSD to Linux than it is to port it from
+   FreeBSD to Windows (though Windows ostensibly supports a subset of
+   POSIX.)
+   [https://unix.stackexchange.com/a/11986]Share
+   [https://unix.stackexchange.com/posts/11986/edit]Improve this answer
+   (BUTTON) Follow
+   answered Apr 25, 2011 at 18:03
+   [https://unix.stackexchange.com/users/5535/andrew-lambert]
+   Andrew Lambert's user avatar
+   [https://unix.stackexchange.com/users/5535/andrew-lambert]Andrew
+   LambertAndrew Lambert
+   2,32811 gold badge1515 silver badges1717 bronze badges
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]Add a comment  |
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+   (BUTTON)
+   15
+   (BUTTON) (BUTTON)
+   [https://unix.stackexchange.com/posts/11984/timeline]
+
+   POSIX is a subset of UNIX which is intended to cover various Unix-like
+   environments for other operating systems; this originally included
+   environments such as Eunice for VMS, Windows NT's POSIX personality,
+   and Apollo Domain/OS. You can think of it as a standard portability API
+   for the subset of operating system services whose behavior is in common
+   between Unix and non-Unix. See
+   [http://standards.ieee.org/develop/wg/POSIX.html]http://standards.ieee.
+   org/develop/wg/POSIX.html for more information.
+   [https://unix.stackexchange.com/a/11984]Share
+   [https://unix.stackexchange.com/posts/11984/edit]Improve this answer
+   (BUTTON) Follow
+   answered Apr 25, 2011 at 17:59
+   [https://unix.stackexchange.com/users/5325/geekosaur]
+   geekosaur's user avatar
+   [https://unix.stackexchange.com/users/5325/geekosaur]geekosaurgeekosaur
+   31.4k55 gold badges7979 silver badges5858 bronze badges
+   6
+     * I've read more about it now, and it certainly seems that Uinx was
+       the chicken and POSIX was the egg.. but I do wonder if UNIX still
+       rules the roost.. ie..Does POSIX have a life of its own now, and
+       UNIX must comply to POSIX? ... btw. it seems the name POSIX was
+       coinded by [http://en.wikipedia.org/wiki/Posix#Name]Richard
+       Stallman ....
+       – [https://unix.stackexchange.com/users/2343/peter-o]Peter.O
+       Apr 25, 2011 at 19:11
+     * @fred.bear: Short answer: UNIX (the trade mark) must conform to
+       POSIX; Unix (the product) was the main basis for POSIX; unices (the
+       family of OSes) mostly conform but have more in common. See
+       [http://unix.stackexchange.com/questions/4091/is-linux-a-unix]Is
+       Linux a Unix? and
+       [http://unix.stackexchange.com/questions/1489/is-mac-os-x-unix]Is
+       Mac OS X, UNIX? for related discussions.
+       – [https://unix.stackexchange.com/users/885/gilles-so-stop-being-ev
+       il]Gilles 'SO- stop being evil'
+       Apr 25, 2011 at 20:34
+     * @fred-bear Many people argue that the POSIX standard is nowadays
+       guided by the Linux kernel development community, which (if true)
+       IMHO is not a good thing...
+       – [https://unix.stackexchange.com/users/5661/sakisk]sakisk
+       Apr 26, 2011 at 14:05
+     * 1
+       @faif I've never heard this and find it unlikely, can you post a
+       reference?
+       – [https://unix.stackexchange.com/users/6167/penguin359]penguin359
+       Apr 28, 2011 at 4:06
+     * 2
+       @Gilles The Open Group, owner of the UNIX® trademark is also in
+       charge of the UNIX® certification and specification which they call
+       Single UNIX Specification or SUS. POSIX is developed by the IEEE
+       who are not in charge of UNIX®. Since 2001, they have been
+       developed largely in sync, but it technically SUS which is now at
+       version 4 that defined UNIX®.
+       – [https://unix.stackexchange.com/users/6167/penguin359]penguin359
+       Apr 28, 2011 at 4:11
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877] |
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]Show 1 more comment
+
+You must
+[https://unix.stackexchange.com/users/login?ssrc=question_page&returnurl=http
+s%3a%2f%2funix.stackexchange.com%2fquestions%2f11983]log in to answer this
+question.
+
+   Not the answer you're looking for? Browse other questions tagged
+     * [https://unix.stackexchange.com/questions/tagged/posix]posix
+     * [https://unix.stackexchange.com/questions/tagged/standard]standard
+
+   .
+     * The Overflow Blog
+     * [https://stackoverflow.blog/2023/07/07/from-sims-to-supercycle-ep-5
+       87/]Why on earth are people paying for digital real estate? (Ep.
+       587)
+     * [https://stackoverflow.blog/2023/07/07/the-overflow-185-the-hardest
+       -part-of-software-is-requirements/]The Overflow #185: The hardest
+       part of software is requirements
+     * Featured on Meta
+     * [https://meta.stackexchange.com/questions/390463/starting-the-promp
+       t-design-site-a-new-home-in-our-stack-exchange-neighborhood]Startin
+       g the Prompt Design Site: A New Home in our Stack Exchange
+       Neighborhood
+     * [https://meta.stackexchange.com/questions/390761/colors-update-a-mo
+       re-detailed-look]Colors update: A more detailed look
+
+Linked
+
+   [https://unix.stackexchange.com/q/56011]
+   2
+   [https://unix.stackexchange.com/questions/56011/which-unix-is-considere
+   d-the-vanilla-unix-and-which-unixs-are-just-unix-rather?noredirect=1]Wh
+   ich Unix is considered the vanilla Unix and which Unix's are just Unix
+   rather than Unix-like?
+   [https://unix.stackexchange.com/q/111331]
+   2
+   [https://unix.stackexchange.com/questions/111331/evolution-of-the-shell
+   ?noredirect=1]Evolution of the shell
+   [https://unix.stackexchange.com/q/4091]
+   209
+   [https://unix.stackexchange.com/questions/4091/is-linux-a-unix?noredire
+   ct=1]Is Linux a Unix?
+   [https://unix.stackexchange.com/q/1489]
+   107
+   [https://unix.stackexchange.com/questions/1489/is-mac-os-x-unix?noredir
+   ect=1]Is Mac OS X UNIX?
+   [https://unix.stackexchange.com/q/13711]
+   102
+   [https://unix.stackexchange.com/questions/13711/differences-between-sed
+   -on-mac-osx-and-other-standard-sed?noredirect=1]Differences between sed
+   on Mac OSX and other "standard" sed?
+   [https://unix.stackexchange.com/q/11454]
+   89
+   [https://unix.stackexchange.com/questions/11454/what-is-the-difference-
+   between-a-builtin-command-and-one-that-is-not?noredirect=1]What is the
+   difference between a builtin command and one that is not?
+   [https://unix.stackexchange.com/q/99112]
+   81
+   [https://unix.stackexchange.com/questions/99112/default-exit-code-when-
+   process-is-terminated?noredirect=1]Default exit code when process is
+   terminated?
+   [https://unix.stackexchange.com/q/421750]
+   34
+   [https://unix.stackexchange.com/questions/421750/where-do-you-find-the-
+   syscall-table-for-linux?noredirect=1]Where do you find the syscall
+   table for Linux?
+   [https://unix.stackexchange.com/q/14368]
+   59
+   [https://unix.stackexchange.com/questions/14368/difference-between-posi
+   x-single-unix-specification-and-open-group-base-specifi?noredirect=1]Di
+   fference between POSIX, Single UNIX Specification, and Open Group Base
+   Specifications?
+   [https://unix.stackexchange.com/q/309547]
+   58
+   [https://unix.stackexchange.com/questions/309547/what-is-the-portable-p
+   osix-way-to-achieve-process-substitution?noredirect=1]What is the
+   portable (POSIX) way to achieve process substitution?
+   [https://unix.stackexchange.com/questions/linked/11983]See more linked
+   questions
+
+Related
+
+   [https://unix.stackexchange.com/q/19816]
+   19
+   [https://unix.stackexchange.com/questions/19816/where-can-i-find-offici
+   al-posix-and-unix-documentation]Where can I find official POSIX and
+   UNIX documentation?
+   [https://unix.stackexchange.com/q/110352]
+   5
+   [https://unix.stackexchange.com/questions/110352/is-the-linux-implement
+   ation-of-the-system-configuration-variable-arg-max-diffe]Is the Linux
+   implementation of the system configuration "variable" ARG_MAX different
+   from other system variables and is it POSIX compliant?
+   [https://unix.stackexchange.com/q/419307]
+   3
+   [https://unix.stackexchange.com/questions/419307/is-posix-a-subset-of-s
+   ingle-unix-specification]Is Posix a subset of Single UNIX
+   Specification?
+   [https://unix.stackexchange.com/q/564109]
+   13
+   [https://unix.stackexchange.com/questions/564109/what-is-posix-awks-sta
+   nce-on-null-byte-in-variables-printf]What is POSIX awk's stance on null
+   byte in variables/printf?
+   [https://unix.stackexchange.com/q/593612]
+   1
+   [https://unix.stackexchange.com/questions/593612/what-does-if-shopt-oq-
+   posix-exactly-mean]What does If ! shopt –oq posix; exactly mean?
+   [https://unix.stackexchange.com/q/607333]
+   16
+   [https://unix.stackexchange.com/questions/607333/view-posix-draft-stand
+   ards]View POSIX draft standards
+   [https://unix.stackexchange.com/q/669761]
+   0
+   [https://unix.stackexchange.com/questions/669761/how-to-understand-the-
+   naming-convention-of-ieee-standards]How to understand the naming
+   convention of IEEE standards?
+   [https://unix.stackexchange.com/q/688974]
+   4
+   [https://unix.stackexchange.com/questions/688974/should-tmpdir-have-a-t
+   railing-slash]Should TMPDIR have a trailing slash?
+   [https://unix.stackexchange.com/q/714726]
+   8
+   [https://unix.stackexchange.com/questions/714726/is-root-a-hard-require
+   ment-for-a-modern-linux-system-what-about-posix-unix]Is /root a hard
+   requirement for a modern Linux system? What about POSIX? UNIX?
+
+[https://stackexchange.com/questions?tab=hot]Hot Network Questions
+
+     * [https://physics.stackexchange.com/questions/771285/relativistic-ti
+       me-dilation-and-the-biological-process-of-aging]Relativistic time
+       dilation and the biological process of aging
+     * [https://philosophy.stackexchange.com/questions/100494/how-does-the
+       -theory-of-evolution-make-it-less-likely-that-the-world-is-designed
+       ]How does the theory of evolution make it less likely that the
+       world is designed?
+     * [https://movies.stackexchange.com/questions/120417/in-the-movie-loo
+       per-why-do-assassins-in-the-future-use-inaccurate-weapons-such]In
+       the movie Looper, why do assassins in the future use inaccurate
+       weapons such as blunderbuss?
+     * [https://diy.stackexchange.com/questions/275919/how-can-i-remove-a-
+       mystery-pipe-in-basement-wall-and-floor]How can I remove a mystery
+       pipe in basement wall and floor?
+     * [https://codegolf.stackexchange.com/questions/262486/two-parallel-l
+       inked-chains]Two Parallel Linked Chains
+     * [https://codegolf.stackexchange.com/questions/262512/generate-all-l
+       inked-chains]Generate all linked chains
+     * [https://puzzling.stackexchange.com/questions/121449/an-infinitude-
+       of-deceptive-devourers]An Infinitude of Deceptive Devourers
+     * [https://diy.stackexchange.com/questions/275813/15amp-120v-adaptor-
+       plug-for-old-6-20-250v-receptacle]15amp 120v adaptor plug for old
+       6-20 250v receptacle?
+     * [https://law.stackexchange.com/questions/93765/is-religious-confess
+       ion-legally-privileged]Is religious confession legally privileged?
+     * [https://astronomy.stackexchange.com/questions/54187/modern-constel
+       lation-lines]Modern Constellation lines
+     * [https://ell.stackexchange.com/questions/338560/what-is-the-verb-ex
+       pressing-the-action-of-moving-some-farm-animals-in-a-field-to]What
+       is the verb expressing the action of moving some farm animals in a
+       field to let them eat grass or plants?
+     * [https://langdev.stackexchange.com/questions/2128/why-do-keywords-h
+       ave-to-be-reserved-words]Why do keywords have to be reserved words?
+     * [https://dba.stackexchange.com/questions/329075/can-a-user-with-db-
+       ddladmin-elevate-their-privileges-to-db-owner]Can a user with
+       db_ddladmin elevate their privileges to db_owner
+     * [https://puzzling.stackexchange.com/questions/121464/what-is-the-nu
+       mber-of-ways-to-spell-french-word-chrysanth%c3%a8me]What is the
+       number of ways to spell French word « chrysanthème »?
+     * [https://unix.stackexchange.com/questions/750864/how-to-format-a-js
+       on-string-as-a-table-using-jq]How to format a JSON string as a
+       table using jq?
+     * [https://askubuntu.com/questions/1477065/pstree-does-not-show-every
+       -process]pstree does not show every process
+     * [https://law.stackexchange.com/questions/93726/can-the-secret-servi
+       ce-arrest-someone-who-uses-an-illegal-drug-inside-of-the-whi]Can
+       the Secret Service arrest someone who uses an illegal drug inside
+       of the White House?
+     * [https://history.stackexchange.com/questions/71896/were-pattons-and
+       -or-other-generals-vehicles-prominently-flagged-with-stars-an]Were
+       Patton's and/or other generals' vehicles prominently flagged with
+       stars (and if so, why)?
+     * [https://rpg.stackexchange.com/questions/207153/what-is-the-signifi
+       cance-of-headband-of-intellect-et-al-setting-the-stat-to-19]What is
+       the significance of Headband of Intellect et al setting the stat to
+       19?
+     * [https://ell.stackexchange.com/questions/338553/what-is-meaning-of-
+       thoroughly-in-here-is-the-thoroughly-revised-and-updated-an]what is
+       meaning of thoroughly in "here is the thoroughly revised and
+       updated, and long-anticipated"
+     * [https://academia.stackexchange.com/questions/198612/typo-in-cover-
+       letter-of-the-journal-name-where-my-manuscript-is-currently-under]T
+       ypo in cover letter of the journal name where my manuscript is
+       currently under review
+     * [https://stats.stackexchange.com/questions/620871/using-lin-reg-par
+       ameters-without-original-dataset]Using Lin Reg parameters without
+       Original Dataset
+     * [https://music.stackexchange.com/questions/130742/how-to-play-the-p
+       ed-symbol-when-theres-no-corresponding-release-symbol]How to play
+       the "Ped" symbol when there's no corresponding release symbol
+     * [https://politics.stackexchange.com/questions/80270/are-there-ethni
+       cally-non-chinese-members-of-the-ccp-right-now]Are there ethnically
+       non-Chinese members of the CCP right now?
+
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]more hot questions
+   [https://unix.stackexchange.com/feeds/question/11983]Question feed
+
+Subscribe to RSS
+
+   Question feed
+
+   To subscribe to this RSS feed, copy and paste this URL into your RSS
+   reader.
+   https://unix.stackex
+   [https://unix.stackexchange.com/questions/11983/what-exactly-is-posix/2
+   20877]
+
+[https://unix.stackexchange.com/]Unix & Linux
+
+     * [https://unix.stackexchange.com/tour]Tour
+     * [https://unix.stackexchange.com/help]Help
+     * [https://chat.stackexchange.com/?tab=site&host=unix.stackexchange.c
+       om]Chat
+     * [https://unix.stackexchange.com/contact]Contact
+     * [https://unix.meta.stackexchange.com/]Feedback
+
+[https://stackoverflow.co/]Company
+
+     * [https://stackoverflow.com/]Stack Overflow
+     * [https://stackoverflow.co/teams/]Teams
+     * [https://stackoverflow.co/advertising/]Advertising
+     * [https://stackoverflow.co/collectives/]Collectives
+     * [https://stackoverflow.co/talent/]Talent
+     * [https://stackoverflow.co/]About
+     * [https://stackoverflow.co/company/press/]Press
+     * [https://stackoverflow.com/legal]Legal
+     * [https://stackoverflow.com/legal/privacy-policy]Privacy Policy
+     * [https://stackoverflow.com/legal/terms-of-service]Terms of Service
+     * [https://unix.stackexchange.com/questions/11983/what-exactly-is-pos
+       ix/220877]Cookie Settings
+     * [https://stackoverflow.com/legal/cookie-policy]Cookie Policy
+
+[https://stackexchange.com/]Stack Exchange Network
+
+     * [https://stackexchange.com/sites#technology]Technology
+     * [https://stackexchange.com/sites#culturerecreation]Culture &
+       recreation
+     * [https://stackexchange.com/sites#lifearts]Life & arts
+     * [https://stackexchange.com/sites#science]Science
+     * [https://stackexchange.com/sites#professional]Professional
+     * [https://stackexchange.com/sites#business]Business
+     * [https://api.stackexchange.com/]API
+     * [https://data.stackexchange.com/]Data
+
+     * [https://stackoverflow.blog/?blb=1]Blog
+     * [https://www.facebook.com/officialstackoverflow/]Facebook
+     * [https://twitter.com/stackoverflow]Twitter
+     * [https://linkedin.com/company/stack-overflow]LinkedIn
+     * [https://www.instagram.com/thestackoverflow]Instagram
+
+   Site design / logo © 2023 Stack Exchange Inc; user contributions
+   licensed under [https://stackoverflow.com/help/licensing]CC BY-SA.
+   rev 2023.7.7.43526
+
+   Linux is a registered trademark of Linus Torvalds. UNIX is a registered
+   trademark of The Open Group.
+   This site is not affiliated with Linus Torvalds or The Open Group in
+   any way.
+
+   Your privacy
+
+   By clicking “Accept all cookies”, you agree Stack Exchange can store
+   cookies on your device and disclose information in accordance with our
+   [https://stackoverflow.com/legal/cookie-policy]Cookie Policy.
+   (BUTTON) Accept all cookies (BUTTON) Necessary cookies only
+   (BUTTON) Customize settings

@@ -1,0 +1,494 @@
+   #[https://www.oracle.com/ae/database/what-is-database/]alternate
+   [https://www.oracle.com/ae-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/ar/database/what-is-database/]alternate
+   [https://www.oracle.com/au/database/what-is-database/]alternate
+   [https://www.oracle.com/be/database/what-is-database/]alternate
+   [https://www.oracle.com/bh/database/what-is-database/]alternate
+   [https://www.oracle.com/bh-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/br/database/what-is-database/]alternate
+   [https://www.oracle.com/ca-en/database/what-is-database/]alternate
+   [https://www.oracle.com/ca-fr/database/what-is-database/]alternate
+   [https://www.oracle.com/ch-de/database/what-is-database/]alternate
+   [https://www.oracle.com/ch-fr/database/what-is-database/]alternate
+   [https://www.oracle.com/cis/database/what-is-database/]alternate
+   [https://www.oracle.com/cl/database/what-is-database/]alternate
+   [https://www.oracle.com/cn/database/what-is-database/]alternate
+   [https://www.oracle.com/co/database/what-is-database/]alternate
+   [https://www.oracle.com/cz/database/what-is-database/]alternate
+   [https://www.oracle.com/de/database/what-is-database/]alternate
+   [https://www.oracle.com/database/what-is-database/]alternate
+   [https://www.oracle.com/eg/database/what-is-database/]alternate
+   [https://www.oracle.com/eg-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/es/database/what-is-database/]alternate
+   [https://www.oracle.com/fr/database/what-is-database/]alternate
+   [https://www.oracle.com/hk/database/what-is-database/]alternate
+   [https://www.oracle.com/id/database/what-is-database/]alternate
+   [https://www.oracle.com/ie/database/what-is-database/]alternate
+   [https://www.oracle.com/il/database/what-is-database/]alternate
+   [https://www.oracle.com/il-en/database/what-is-database/]alternate
+   [https://www.oracle.com/in/database/what-is-database/]alternate
+   [https://www.oracle.com/it/database/what-is-database/]alternate
+   [https://www.oracle.com/jo/database/what-is-database/]alternate
+   [https://www.oracle.com/jo-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/jp/database/what-is-database/]alternate
+   [https://www.oracle.com/ke/database/what-is-database/]alternate
+   [https://www.oracle.com/kr/database/what-is-database/]alternate
+   [https://www.oracle.com/kw/database/what-is-database/]alternate
+   [https://www.oracle.com/kw-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/mx/database/what-is-database/]alternate
+   [https://www.oracle.com/my/database/what-is-database/]alternate
+   [https://www.oracle.com/ng/database/what-is-database/]alternate
+   [https://www.oracle.com/nl/database/what-is-database/]alternate
+   [https://www.oracle.com/nz/database/what-is-database/]alternate
+   [https://www.oracle.com/pe/database/what-is-database/]alternate
+   [https://www.oracle.com/ph/database/what-is-database/]alternate
+   [https://www.oracle.com/pk/database/what-is-database/]alternate
+   [https://www.oracle.com/pl/database/what-is-database/]alternate
+   [https://www.oracle.com/pt/database/what-is-database/]alternate
+   [https://www.oracle.com/qa/database/what-is-database/]alternate
+   [https://www.oracle.com/qa-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/ro/database/what-is-database/]alternate
+   [https://www.oracle.com/sa/database/what-is-database/]alternate
+   [https://www.oracle.com/sa-ar/database/what-is-database/]alternate
+   [https://www.oracle.com/se/database/what-is-database/]alternate
+   [https://www.oracle.com/sg/database/what-is-database/]alternate
+   [https://www.oracle.com/sk/database/what-is-database/]alternate
+   [https://www.oracle.com/tr/database/what-is-database/]alternate
+   [https://www.oracle.com/tw/database/what-is-database/]alternate
+   [https://www.oracle.com/uk/database/what-is-database/]alternate
+   [https://www.oracle.com/za/database/what-is-database/]alternate
+
+     * [https://www.oracle.com/corporate/accessibility/]Accessibility
+       Policy
+     * [https://www.oracle.com/database/what-is-database/#maincontent]Skip
+       to content
+
+   [https://www.oracle.com/]
+   [https://www.oracle.com/cloud/]
+
+   (BUTTON) About (BUTTON) Services (BUTTON) Solutions (BUTTON) Pricing
+   (BUTTON) Partners (BUTTON) Resources
+   (BUTTON) Close Search
+   ____________________
+
+   (BUTTON) Close
+   We’re sorry. We could not find a match for your search.
+
+   We suggest you try the following to help find what you're looking for:
+     * Check the spelling of your keyword search.
+     * Use synonyms for the keyword you typed, for example, try
+       “application” instead of “software.”
+     * Start a new search.
+
+   Submit Search (BUTTON) Clear Search
+   (BUTTON) Search
+   [https://www.oracle.com/oci-menu-v3/]Menu
+   [https://www.oracle.com/corporate/contact/]Contact Sales
+   [https://www.oracle.com/cloud/sign-in.html]Sign in to Oracle Cloud
+
+     * [https://www.oracle.com/database/]Database
+
+   Oracle Cloud Free Tier
+
+   Build, test, and deploy applications on Oracle Cloud—for free.
+   [https://www.oracle.com/cloud/free/]Sign up now
+
+   Database topics
+     * [https://www.oracle.com/database/what-is-database/#link1]Database
+       defined
+     * [https://www.oracle.com/database/what-is-database/#link2]What is
+       Structured Query Language (SQL)?
+     * [https://www.oracle.com/database/what-is-database/#link3]Evolution
+       of the database
+     * [https://www.oracle.com/database/what-is-database/#link4]What’s the
+       difference between a database and a spreadsheet?
+     * [https://www.oracle.com/database/what-is-database/#link5]Types of
+       databases
+     * [https://www.oracle.com/database/what-is-database/#database-softwar
+       e]What is database software?
+     * [https://www.oracle.com/database/what-is-database/#link6]What is a
+       database management system (DBMS)?
+     * [https://www.oracle.com/database/what-is-database/#link7]What is a
+       MySQL database?
+     * [https://www.oracle.com/database/what-is-database/#link8]Using
+       databases to improve business performance and decision-making
+     * [https://www.oracle.com/database/what-is-database/#link9]Database
+       challenges
+     * [https://www.oracle.com/database/what-is-database/#link10]How
+       autonomous technology is improving database management
+     * [https://www.oracle.com/database/what-is-database/#link11]Future of
+       databases and autonomous databases
+
+What Is a Database?
+
+Database defined
+
+   A database is an organized collection of structured information, or
+   data, typically stored electronically in a computer system. A database
+   is usually controlled by a
+   [https://www.oracle.com/database/what-is-database/#WhatIsDBMS]database
+   management system (DBMS). Together, the data and the DBMS, along with
+   the applications that are associated with them, are referred to as a
+   database system, often shortened to just database.
+
+   Data within the most common types of databases in operation today is
+   typically modeled in rows and columns in a series of tables to make
+   processing and data querying efficient. The data can then be easily
+   accessed, managed, modified, updated, controlled, and organized. Most
+   databases use structured query language (SQL) for writing and querying
+   data.
+   [https://www.oracle.com/database]Learn more about Oracle Database
+
+What is Structured Query Language (SQL)?
+
+   SQL is a programming language used by nearly all
+   [https://www.oracle.com/database/what-is-database/#relational]relationa
+   l databases to query, manipulate, and define data, and to provide
+   access control. SQL was first developed at IBM in the 1970s with Oracle
+   as a major contributor, which led to implementation of the SQL ANSI
+   standard, SQL has spurred many extensions from companies such as IBM,
+   Oracle, and Microsoft. Although SQL is still widely used today, new
+   programming languages are beginning to appear.
+
+Evolution of the database
+
+   Databases have evolved dramatically since their inception in the early
+   1960s. Navigational databases such as the hierarchical database (which
+   relied on a tree-like model and allowed only a one-to-many
+   relationship), and the network database (a more flexible model that
+   allowed multiple relationships), were the original systems used to
+   store and manipulate data. Although simple, these early systems were
+   inflexible. In the 1980s,
+   [https://www.oracle.com/database/what-is-database/#relational]relationa
+   l databases became popular, followed by
+   [https://www.oracle.com/database/what-is-database/#object-oriented]obje
+   ct-oriented databases in the 1990s. More recently,
+   [https://www.oracle.com/database/what-is-database/#nosql]NoSQL
+   databases came about as a response to the growth of the internet and
+   the need for faster speed and processing of unstructured data. Today,
+   [https://www.oracle.com/database/what-is-a-cloud-database/]cloud
+   databases and
+   [https://www.oracle.com/database/what-is-database/#autonomous]self-driv
+   ing databases are breaking new ground when it comes to how data is
+   collected, stored, managed, and utilized.
+
+What’s the difference between a database and a spreadsheet?
+
+   Databases and spreadsheets (such as Microsoft Excel) are both
+   convenient ways to store information. The primary differences between
+   the two are:
+     * How the data is stored and manipulated
+     * Who can access the data
+     * How much data can be stored
+
+   Spreadsheets were originally designed for one user, and their
+   characteristics reflect that. They’re great for a single user or small
+   number of users who don’t need to do a lot of incredibly complicated
+   data manipulation. Databases, on the other hand, are designed to hold
+   much larger collections of organized information—massive amounts,
+   sometimes. Databases allow multiple users at the same time to quickly
+   and securely access and query the data using highly complex logic and
+   language.
+
+Types of databases
+
+   There are many different types of databases. The best database for a
+   specific organization depends on how the organization intends to use
+   the data.
+   Relational databases
+     * [https://www.oracle.com/database/what-is-a-relational-database/]Rel
+       ational databases became dominant in the 1980s. Items in a
+       relational database are organized as a set of tables with columns
+       and rows. Relational database technology provides the most
+       efficient and flexible way to access structured information.
+    Object-oriented databases
+     * Information in an object-oriented database is represented in the
+       form of objects, as in object-oriented programming.
+    Distributed databases
+     * A distributed database consists of two or more files located in
+       different sites. The database may be stored on multiple computers,
+       located in the same physical location, or scattered over different
+       networks.
+    Data warehouses
+     * A central repository for data, a data warehouse is a type of
+       database specifically designed for fast query and analysis.
+    NoSQL databases
+     * A [https://www.oracle.com/database/nosql/]NoSQL, or nonrelational
+       database, allows unstructured and semistructured data to be stored
+       and manipulated (in contrast to a relational database, which
+       defines how all data inserted into the database must be composed).
+       NoSQL databases grew popular as web applications became more common
+       and more complex.
+    Graph databases
+     * A graph database stores data in terms of entities and the
+       relationships between entities.
+     * OLTP databases. An OLTP database is a speedy, analytic database
+       designed for large numbers of transactions performed by multiple
+       users.
+
+   These are only a few of the several dozen types of databases in use
+   today. Other, less common databases are tailored to very specific
+   scientific, financial, or other functions. In addition to the different
+   database types, changes in technology development approaches and
+   dramatic advances such as the cloud and automation are propelling
+   databases in entirely new directions. Some of the latest databases
+   include
+   Open source databases
+     * An open source database system is one whose source code is open
+       source; such databases could be SQL or NoSQL databases.
+    Cloud databases
+     * A [https://www.oracle.com/database/what-is-a-cloud-database/]cloud
+       database is a collection of data, either structured or
+       unstructured, that resides on a private, public, or hybrid cloud
+       computing platform. There are two types of cloud database models:
+       traditional and database as a service (DBaaS). With DBaaS,
+       administrative tasks and maintenance are performed by a service
+       provider.
+    Multimodel database
+     * Multimodel databases combine different types of database models
+       into a single, integrated back end. This means they can accommodate
+       various data types.
+    Document/JSON database
+     * Designed for storing, retrieving, and managing document-oriented
+       information,
+       [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/]document databases are a modern way to store data in JSON format
+       rather than rows and columns.
+    Self-driving databases
+     * The newest and most groundbreaking type of database, self-driving
+       databases (also known as autonomous databases) are cloud-based and
+       use machine learning to automate database tuning, security,
+       backups, updates, and other routine management tasks traditionally
+       performed by database administrators.
+
+   [https://www.oracle.com/autonomous-database/what-is-autonomous-database
+   /]Learn more about self-driving databases
+
+What is database software?
+
+   Database software is used to create, edit, and maintain database files
+   and records, enabling easier file and record creation, data entry, data
+   editing, updating, and reporting. The software also handles data
+   storage, backup and reporting, multi-access control, and security.
+   Strong database security is especially important today, as data theft
+   becomes more frequent. Database software is sometimes also referred to
+   as a “database management system” (DBMS).
+
+   Database software makes data management simpler by enabling users to
+   store data in a structured form and then access it. It typically has a
+   graphical interface to help create and manage the data and, in some
+   cases, users can [https://www.oracle.com/autonomous-database/]construct
+   their own databases by using database software.
+
+What is a database management system (DBMS)?
+
+   A database typically requires a comprehensive database software program
+   known as a database management system (DBMS). A DBMS serves as an
+   interface between the database and its end users or programs, allowing
+   users to retrieve, update, and manage how the information is organized
+   and optimized. A DBMS also facilitates oversight and control of
+   databases, enabling a variety of administrative operations such as
+   performance monitoring, tuning, and backup and recovery.
+
+   Some examples of popular database software or DBMSs include MySQL,
+   Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database,
+   and dBASE.
+
+What is a MySQL database?
+
+   [https://www.oracle.com/mysql/]MySQL is an open source relational
+   database management system based on SQL. It was designed and optimized
+   for web applications and can run on any platform. As new and different
+   requirements emerged with the internet, MySQL became the platform of
+   choice for web developers and web-based applications. Because it’s
+   designed to process millions of queries and thousands of transactions,
+   MySQL is a popular choice for ecommerce businesses that need to manage
+   multiple money transfers. On-demand flexibility is the primary feature
+   of MySQL.
+
+   MySQL is the DBMS behind some of the top websites and web-based
+   applications in the world, including Airbnb, Uber, LinkedIn, Facebook,
+   Twitter, and YouTube.
+   [https://www.oracle.com/mysql/]Learn more about MySQL
+
+Using databases to improve business performance and decision-making
+
+   With massive data collection from the Internet of Things transforming
+   life and industry across the globe, businesses today have access to
+   more data than ever before. Forward-thinking organizations can now use
+   databases to go beyond basic data storage and transactions to analyze
+   vast quantities of data from multiple systems. Using database and other
+   computing and business intelligence tools, organizations can now
+   leverage the data they collect to run more efficiently, enable better
+   decision-making, and become more agile and scalable. Optimizing access
+   and throughput to data is critical to businesses today because there is
+   more data volume to track. It’s critical to have a
+   [https://www.oracle.com/engineered-systems/exadata/]platform that can
+   deliver the performance, scale, and agility that businesses need as
+   they grow over time.
+
+   The self-driving database is poised to provide a significant boost to
+   these capabilities. Because self-driving databases automate expensive,
+   time-consuming manual processes, they free up business users to become
+   more proactive with their data. By having direct control over the
+   ability to create and use databases, users gain control and autonomy
+   while still maintaining important security standards.
+
+Database challenges
+
+   Today’s large enterprise databases often support very complex queries
+   and are expected to deliver nearly instant responses to those queries.
+   As a result, database administrators are constantly called upon to
+   employ a wide variety of methods to help improve performance. Some
+   common challenges that they face include:
+     * Absorbing significant increases in data volume. The explosion of
+       data coming in from sensors, connected machines, and dozens of
+       other sources keeps database administrators scrambling to manage
+       and organize their companies’ data efficiently.
+     * Ensuring data security. Data breaches are happening everywhere
+       these days, and hackers are getting more inventive. It’s more
+       important than ever to ensure that data is secure but also easily
+       accessible to users.
+     * Keeping up with demand. In today’s fast-moving business
+       environment, companies need real-time access to their data to
+       support timely decision-making and to take advantage of new
+       opportunities.
+     * Managing and maintaining the database and infrastructure. Database
+       administrators must continually watch the database for problems and
+       perform preventative maintenance, as well as apply software
+       upgrades and patches. As databases become more complex and data
+       volumes grow, companies are faced with the expense of hiring
+       additional talent to monitor and tune their databases.
+     * Removing limits on scalability. A business needs to grow if it’s
+       going to survive, and its data management must grow along with it.
+       But it’s very difficult for database administrators to predict how
+       much capacity the company will need, particularly with on-premises
+       databases.
+     * Ensuring data residency, data sovereignty, or latency requirements.
+       Some organizations have use cases that are better suited to run
+       on-premises. In those cases, engineered systems that are
+       pre-configured and pre-optimized for running the database are
+       ideal. Customers achieve higher availability, greater performance
+       and up to 40% lower cost with Oracle Exadata, according to
+       [https://www.oracle.com/a/ocom/docs/wikibon-cloud-database-battle.p
+       df]Wikibon’s recent analysis (PDF).
+
+   Addressing all of these challenges can be time-consuming and can
+   prevent database administrators from performing more strategic
+   functions.
+
+How autonomous technology is improving database management
+
+   Self-driving databases are the wave of the future—and offer an
+   intriguing possibility for organizations that want to use the best
+   available database technology without the headaches of running and
+   operating that technology.
+
+   Self-driving databases use cloud-based technology and machine learning
+   to automate many of the routine tasks required to manage databases,
+   such as tuning, security, backups, updates, and other routine
+   management tasks. With these tedious tasks automated, database
+   administrators are freed up to do more strategic work. The
+   self-driving, self-securing, and self-repairing capabilities of
+   self-driving databases are poised to revolutionize how companies manage
+   and secure their data, enabling performance advantages, lower costs,
+   and improved security.
+
+Future of databases and autonomous databases
+
+   The first autonomous database was announced in late 2017, and multiple
+   independent industry analysts quickly recognized the technology and its
+   potential impact on computing.
+
+   A
+   [https://www.oracle.com/a/ocom/docs/wikibon-2021-cloud-database-platfor
+   m-ratings.pdf]Wikibon 2021 report (PDF) praised autonomous database
+   technology, saying, “Oracle has by far the best Tier-1 Cloud Database
+   Platform…Wikibon believes Oracle has the strongest Cloud Database
+   Platform with Autonomous Database.”
+
+   And
+   [https://www.oracle.com/a/ocom/docs/database-and-big-data-security.pdf]
+   KuppingerCole’s 2021 Leadership Compass (PDF) said, "The Oracle
+   Autonomous Database, which completely automates provisioning,
+   management, tuning, and upgrade processes of database instances without
+   any downtime, not just substantially increases security and compliance
+   of sensitive data stored in Oracle Databases but makes a compelling
+   argument for moving this data to the Oracle Cloud." Because Oracle
+   Autonomous Database is built on the highly available and scalable
+   architecture of
+   [https://www.oracle.com/engineered-systems/exadata/]Oracle Exadata,
+   it’s possible to easily scale the database deployment as needs grow.
+
+Related products
+
+     * [https://www.oracle.com/autonomous-database/]Oracle Autonomous
+       Database
+     * [https://www.oracle.com/database/]Oracle Database
+     * [https://www.oracle.com/engineered-systems/exadata/]Oracle Exadata
+     * [https://www.oracle.com/autonomous-database/autonomous-data-warehou
+       se/]Oracle Autonomous Data Warehouse
+
+   Resources for
+     * [https://www.oracle.com/corporate/careers/]Careers
+     * [https://developer.oracle.com/]Developers
+     * [https://investor.oracle.com/home/default.aspx]Investors
+     * [https://www.oracle.com/partner/]Partners
+     * [https://www.oracle.com/cloud/oracle-for-startups/]Startups
+     * [https://academy.oracle.com/en/oa-web-overview.html]Students and
+       Educators
+
+   Why Oracle
+     * [https://www.oracle.com/corporate/analyst-reports/]Analyst Reports
+     * [https://www.oracle.com/cloud/economics/]Cloud Economics
+     * [https://www.oracle.com/cloud/azure/]with Microsoft Azure
+     * [https://www.oracle.com/cloud/oci-vs-aws/]vs. AWS
+     * [https://www.oracle.com/cloud/oci-vs-google-cloud/]vs. Google Cloud
+     * [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/oracle-json-vs-mongodb-atlas/]vs. MongoDB
+
+   Learn
+     * [https://www.oracle.com/artificial-intelligence/what-is-ai/]What is
+       AI?
+     * [https://www.oracle.com/cloud/what-is-cloud-computing/]What is
+       Cloud Computing?
+     * [https://www.oracle.com/cloud/storage/what-is-cloud-storage/]What
+       is Cloud Storage?
+     * [https://www.oracle.com/cloud/hpc/what-is-hpc/]What is HPC?
+     * [https://www.oracle.com/cloud/what-is-iaas/]What is IaaS?
+     * [https://www.oracle.com/cloud/what-is-paas/]What is PaaS?
+
+   What’s new
+     * [https://www.oracle.com/corporate/conflict-in-ukraine/]Oracle
+       Supports Ukraine
+     * [https://www.oracle.com/cloud/free/]Oracle Cloud Free Tier
+     * [https://www.oracle.com/cloud/architecture-center/]Cloud
+       Architecture Center
+     * [https://www.oracle.com/cloud/cloud-lift/]Cloud Lift
+     * [https://www.oracle.com/cloud/rewards/]Oracle Support Rewards
+     * [https://www.oracle.com/redbullracing/]Oracle Red Bull Racing
+
+   Contact us
+     * [tel:18006330738]US Sales: +1.800.633.0738
+     * [https://www.oracle.com/corporate/contact/]How can we help?
+     * [https://go.oracle.com/subscriptions]Subscribe to emails
+     * [https://www.oracle.com/cloud/events/]Events
+     * [https://www.oracle.com/news/]News
+     * [https://blogs.oracle.com/cloud-infrastructure/]OCI Blog
+     __________________________________________________________________
+
+     * [https://www.oracle.com/universal-menu/#u10countrymenu]Country/Regi
+       on
+
+     * [https://www.oracle.com/legal/copyright.html]© 2023 Oracle
+     * [https://www.oracle.com/legal/privacy/]Privacy/[https://www.oracle.
+       com/legal/privacy/privacy-choices.html]Do Not Sell My Info
+     *
+     * [https://www.oracle.com/legal/privacy/advertising-privacy-policy.ht
+       ml#adchoices]Ad Choices
+     * [https://www.oracle.com/corporate/careers/]Careers
+
+     * [https://www.facebook.com/Oracle/]Facebook
+     * [https://twitter.com/oracle]Twitter
+     * [https://www.linkedin.com/company/oracle/]LinkedIn
+     * [https://www.youtube.com/oracle/]YouTube

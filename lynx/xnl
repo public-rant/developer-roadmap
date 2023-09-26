@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://graphql.org/learn/ > $(basename https://graphql.org/learn/).txt

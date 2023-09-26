@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.akana.com/blog/what-is-jwt > $(basename https://www.akana.com/blog/what-is-jwt).txt

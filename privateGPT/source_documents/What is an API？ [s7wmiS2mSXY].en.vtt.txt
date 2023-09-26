@@ -1,0 +1,89 @@
+Music
+connectivity is an amazing thing by now
+we re all used to the instant
+connectivity that puts the world at our
+fingertips from desktops or devices we
+can purchase post pin and pick anything
+anywhere we are connected to the world
+and each other like never before but how
+does it happen how does data get from
+here to there how do different devices
+and applications connect with each other
+to allow us to place an order make a
+reservation or book a flight with just a
+few types of things the unsung hero of
+our connected world is the application
+programming interface or API it s the
+engine under the hood and is behind the
+scenes that we take for granted but it s
+what makes possible all the
+interactivity we ve come to expect and
+rely upon but exactly what is an API
+it s a question everyone asks ok not
+really but we re glad you did
+the textbook definition go something
+like this in computer programming an
+application programming interface API is
+a set of routines protocols okay to
+speak plainly an API is the messenger
+that takes requests and tells a system
+what you want to do and then returns the
+response back to you to give you a
+familiar example think of an API as a
+we re in a restaurant imagine you re
+sitting at the table with a menu of
+choices to order from in the kitchen is
+the part of the system which will
+prepare your order what s missing is the
+critical link to communicate your order
+to the kitchen and deliver your food
+back to your table that s where the
+waiter or API comes in M the waiter is
+the messenger that takes your request or
+order and tells the system in this case
+the kitchen what to do and then delivers
+the response back to you in this case
+food now that we ve whetted your
+appetite let s apply this to a real API
+example you are probably familiar with
+the process of searching for airline
+flights online just like at a restaurant
+you have a menu of options to choose
+from a drop down menu in this case you
+choose a departure City and date a
+return city and date tabbing clasp and
+other variables in order to book your
+flight you interact with the airlines
+website to access the airline s database
+to see if any seats are available on
+those dates and what the
+cost might be based on certain variables
+but what if you re not using the
+Airlines website which has direct access
+to the information what if you are using
+an online travel service that aggregates
+information from many different airlines
+the travel service interacts with the
+airline s API the API is the interface
+that like you re helpful where can be
+asked by that online travel service to
+get information from the airline system
+over the Internet to book seats choose
+meal preferences or baggage options it
+also then takes the Airlines response to
+your request and delivers it right back
+to the online travel service which then
+shows it to you so now you can see that
+it s AP is that make it possible for us
+all to use travel sites the same goes
+for all interactions between
+applications data and devices they all
+have api s that allow computers to
+operate them and that s what ultimately
+creates connectivity so whenever you
+think of an API just think of it as your
+waiter running back and forth between
+applications databases and devices to
+deliver data and create the connectivity
+that puts the world at our fingertips
+and whenever you think of creating an

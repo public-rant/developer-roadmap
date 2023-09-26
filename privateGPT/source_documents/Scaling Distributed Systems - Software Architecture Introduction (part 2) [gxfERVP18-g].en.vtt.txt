@@ -1,0 +1,199 @@
+hi there i m christian and you re
+watching the devastory
+this is the second video of the software
+architecture series where i m covering
+core concepts in a practical way
+if you haven t check out my other video
+first just recapping from the previous
+video
+we are building an e commerce site and
+we have a basic layer architecture in
+place
+so at the time we started with the layer
+architecture because we are covering the
+maintainability aspect of the software
+with that architecture we are also
+able to deliver the functional
+requirements that we need now it comes
+to mind the question
+
+and we need to define what is exactly
+what we need to scale do we need to
+scale the number of concurrent
+requests that we can handle or do we
+need to scale the
+amount of data that we are handling so
+let s assume both
+in the previous architecture let s
+assume that we have all of this in one
+
+so if we want to handle 100 users
+concurrently that s fine
+we can support it 1000 users probably
+fine
+50k users let s check but probably we
+need to add more hardware
+in this case this is called scale up or
+vertical scaling
+vertical scaling basically means to make
+the nodes stronger right like if you
+have one server make the server stronger
+faster
+adding more hardware basically make
+optimizations on the software that would
+allow it to
+process more requests with the same
+number of resources in one server
+now let s say we want to handle 10
+million users at the same time
+in this case probably only having one
+server won t be enough
+so in this case we need to do horizontal
+
+horizontal scaling basically means
+splitting the load between different
+servers
+it gives you scalability but also
+reliability because you will have more
+redundancy
+and it s usually the preferred way to
+scale when splitting into multiple
+servers you need to take into
+consideration if you have a state or not
+if you don t have a state no problem you
+can just put the different servers and
+have a load balancer that will
+direct the traffic to different servers
+and that s it but if you have a state
+then you will face the cap theorem
+i won t talk about the cap theorem in
+this video because it s a big topic on
+itself
+so we can simplify the services for
+example making them a stateless
+but the database or any storage service
+will need to
+
+as i mentioned before when we re
+thinking about horizontal scaling with
+the state involved we need to face the
+cap theorem
+and this has certain implications for
+the database for example
+we need to consider the consistency
+level that we need to have
+but we need to have a strict consistency
+that means that whenever you save
+that data is immediately available for
+everyone or can we have no eventual
+consistency
+basically that means that when you write
+it will take some time
+for all the clients reading the data to
+get that
+right we also need to think about if we
+need to read more or
+write more so depending on that we will
+also take one approach or the other
+horizontal scaling is not something
+cheap to do so that s why it s very
+important to get it as soon as possible
+when you know that your system will grow
+beyond
+
+Music
+the different ways that you can achieve
+horizontal scaling for example you can
+have a load balancer
+that will direct the traffic to
+different servers to optimize the load
+of performance
+of the system in this case with the load
+balancer we assume that all the servers
+have access to the same data
+then we can also split the data
+so in that sense we can have charging or
+partitioning where we split the data
+between different servers
+by splitting the data in multiple
+servers you are able to
+scale each of them independently many
+systems work like this
+for example a flink or kafka work like
+this you can split the data
+following different approaches for
+example you can do a vertical split by
+feature
+or you can have by value let s say we
+want to split the data between
+america s user base europe and
+asia or we can also do it by hash
+so for example by hash you can imagine a
+hash table
+where we get the value that we want to
+select in which
+database is going to be stored in this
+case let s say we have a user id so we
+hash it
+and we can say that depending on the
+hash we will store it in one
+bucket or the other in this case the
+buckets are the databases
+
+then you can also scale this by using
+consistent hashing but that s a topic
+
+another thing that we can do with data
+is to have replication
+where we can have multiple copies of the
+data in different servers
+Music
+replication is very useful when you have
+read intensive
+applications right so if you can
+replicate the data between different
+nodes and if you know that you re going
+to read more then you can just use those
+to read
+and you can have eventual consistency to
+update those nodes
+following with this approach we end up
+with this architecture
+we still have a layer architecture where
+we have horizontally scaled
+our system so we have multiple nodes
+handling the
+load and also multiple nodes handling
+
+now millions of users can use our site
+because we have been able to
+split the load and the data between
+different servers but this came up with
+some trade offs
+it was expensive and the capturing had
+to be considered
+now that we have multiple servers
+instead of having only one and
+there is more latency between the calls
+between different servers so that would
+be making the system a little bit slower
+it s what i mentioned in the first video
+about sometimes there will be conflicts
+between
+some non functional requirements and
+others users are expecting to have fast
+responses
+we can also save a lot of resources and
+make tons of money
+if we re able to serve them faster can
+we be faster
+how can we do it check out my next video
+to know more about that
+that s it for today thank you very much
+for watching if you like the video don t
+forget to click like and subscribe
+and of course share it with your friends
+if you have any doubts or any comments
+don t
+forget to put them in the comment
+section below thank you very much for

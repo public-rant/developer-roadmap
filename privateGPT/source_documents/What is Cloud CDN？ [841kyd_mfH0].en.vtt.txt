@@ -1,0 +1,162 @@
+welcome to google cloud drawing board
+where we doodle our way through the
+cloud
+today s topic what is cloud cdn
+this video is divided into chapters
+watch the full video or skip ahead to
+any section of your choice
+whatever your app or website is chances
+are that your users are distributed
+across different locations and are not
+necessarily close to where your servers
+are
+this means the requests travel across
+the public internet
+through long distances leading to
+inconsistent and frustrating
+user experience that s where cloud cdn
+comes in
+cloud cdn is a content delivery network
+that accelerates your web
+and video content delivery by using
+google s global edge network
+to bring content as close to the user as
+possible
+as a result the latency cost and load on
+your backend servers
+is reduced making it easier to scale to
+millions of users
+let s consider an app to understand how
+this works when a user makes a request
+to your website or app
+the request is routed to the closest
+google edge node
+we have over 120 of these for fast and
+reliable traffic flow
+then to the global https load balancer
+to the backend or the origin from there
+with cloud cdn
+enabled we ll serve the content directly
+from cache
+cache is nothing but a group of servers
+that store
+and manage cacheable content so that
+future requests for that content
+can be served faster the cached content
+is a copy of cachable content that is
+stored on your origin servers
+typically including web assets like
+javascript css
+images and videos cloud cdn can
+automatically cache this content
+with just a single checkbox using the
+recommended cache modes to cache
+all static content if you need more
+control you can direct cloud cdn
+by setting http headers on your
+responses and you can also force all
+content to be cached
+just know that this ignores the private
+no store or no cache directives in cache
+control response headers
+when the request is received by cloud
+cdn it looks for the cached content
+using the cache key
+which is typically the uri but you can
+customize this cache key
+to remove protocol hosts or query
+strings
+for the user s request if a cached
+response is found in cloud cdn cache
+the response is retrieved from cache and
+sent to the user
+this is called a cache hit when a cache
+hit occurs
+cloud cdn looks up the content by its
+cache key
+and responds directly to the user
+shortening the round trip time
+and saving the origin server from having
+to process the request
+the first time that a piece of content
+is requested the call cdn
+can t fulfill the request from the cash
+because it doesn t have it there
+this is called a cash miss when a cache
+miss
+occurs the cloud cdn might attempt to
+get the content from the nearby cache
+if the nearby cache has the content it
+sends it to the first cache by using
+cache to cache fill otherwise it just
+sends the request to the origin server
+the maximum lifetime of the object in
+cache is defined by the ttls or
+time to live values set by the cache
+directives from
+each http response or cache mode when
+the ttl has expired
+the content is evicted from cash now how
+do you use cloud cdn
+you can set up cloud cdn through gcloud
+command line interface
+cloud console or the apis since cloud
+cdn leverages google cloud global
+external https load balancers to provide
+routing
+health checking and any cost support it
+can be enabled by
+easily checking a box while setting up
+the backends or the origins
+cloud cdn makes it even easier to serve
+web
+and media content using google cloud
+storage you just upload your content to
+a bucket
+set up load balancer and enable caching
+and if you are
+like many of our customers you probably
+have services that are on prem
+or in other clouds to enable these
+hybrid architectures
+cloud cdn and https load balancing also
+support external backends
+let s get into the underlying details
+now global
+anycast ips provides single ip for
+global reach it allows google cloud to
+route users to the nearest edge cache
+automatically and avoid relying on the
+dns propagation delays
+that can impact availability it also
+supports http 2
+end to end and quick protocol from
+client to cache
+quick is a multiplexed stream transport
+over udp
+which reduces latency making it ideal
+for lossy mobile networks
+that brings me to security data is
+encrypted
+at rest and in transit from google cloud
+load balancing to back end supporting an
+end to end
+encrypted experience you can
+programmatically sign urls and cookies
+to limit video segment access to
+authorized users only
+the signature is validated at the cdn
+edge
+and the request that should not get
+through is blocked right there
+on a broader level you can enable ssl
+for
+free using google managed search now to
+summarize
+use cloud cdn to improve performance and
+reduce serving costs for regularly
+accessed content by
+automatically caching static content
+with a click of a button
+want to learn more about cloud cdn check
+out cloud google com

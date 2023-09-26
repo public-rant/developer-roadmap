@@ -1,0 +1,1224 @@
+WEBVTT
+
+
+
+00:00:00.080 --> 00:00:01.589 align:start position:0%
+ 
+hey<00:00:00.240><c> everyone</c><00:00:00.560><c> this</c><00:00:00.719><c> is</c><00:00:00.799><c> kamran</c><00:00:01.280><c> and</c><00:00:01.360><c> today</c>
+
+00:00:01.589 --> 00:00:01.599 align:start position:0%
+hey everyone this is kamran and today
+ 
+
+00:00:01.599 --> 00:00:03.669 align:start position:0%
+hey everyone this is kamran and today
+we're<00:00:01.760><c> going</c><00:00:01.920><c> to</c><00:00:02.080><c> talk</c><00:00:02.320><c> about</c><00:00:02.639><c> the</c><00:00:02.800><c> dns</c>
+
+00:00:03.669 --> 00:00:03.679 align:start position:0%
+we're going to talk about the dns
+ 
+
+00:00:03.679 --> 00:00:06.789 align:start position:0%
+we're going to talk about the dns
+or<00:00:04.240><c> the</c><00:00:04.400><c> domain</c><00:00:04.880><c> name</c><00:00:05.279><c> system</c><00:00:05.920><c> dns</c><00:00:06.399><c> is</c><00:00:06.480><c> one</c><00:00:06.720><c> of</c>
+
+00:00:06.789 --> 00:00:06.799 align:start position:0%
+or the domain name system dns is one of
+ 
+
+00:00:06.799 --> 00:00:08.549 align:start position:0%
+or the domain name system dns is one of
+those<00:00:07.040><c> topics</c><00:00:07.440><c> that</c><00:00:07.600><c> anyone</c><00:00:07.919><c> who</c><00:00:08.080><c> develops</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+those topics that anyone who develops
+ 
+
+00:00:08.559 --> 00:00:09.350 align:start position:0%
+those topics that anyone who develops
+for<00:00:08.720><c> the</c><00:00:08.880><c> web</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+for the web
+ 
+
+00:00:09.360 --> 00:00:11.350 align:start position:0%
+for the web
+should<00:00:09.599><c> know</c><00:00:09.760><c> about</c><00:00:10.240><c> it</c><00:00:10.400><c> is</c><00:00:10.480><c> a</c><00:00:10.559><c> broad</c><00:00:10.880><c> topic</c><00:00:11.200><c> so</c>
+
+00:00:11.350 --> 00:00:11.360 align:start position:0%
+should know about it is a broad topic so
+ 
+
+00:00:11.360 --> 00:00:13.030 align:start position:0%
+should know about it is a broad topic so
+i'm<00:00:11.440><c> going</c><00:00:11.599><c> to</c><00:00:11.679><c> divide</c><00:00:12.080><c> this</c><00:00:12.240><c> lesson</c><00:00:12.639><c> into</c><00:00:12.880><c> two</c>
+
+00:00:13.030 --> 00:00:13.040 align:start position:0%
+i'm going to divide this lesson into two
+ 
+
+00:00:13.040 --> 00:00:13.749 align:start position:0%
+i'm going to divide this lesson into two
+videos
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+videos
+ 
+
+00:00:13.759 --> 00:00:15.350 align:start position:0%
+videos
+in<00:00:13.840><c> this</c><00:00:14.080><c> lesson</c><00:00:14.400><c> we're</c><00:00:14.559><c> going</c><00:00:14.719><c> to</c><00:00:14.880><c> talk</c><00:00:15.120><c> about</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+in this lesson we're going to talk about
+ 
+
+00:00:15.360 --> 00:00:17.349 align:start position:0%
+in this lesson we're going to talk about
+what<00:00:15.599><c> is</c><00:00:15.679><c> dns</c><00:00:16.160><c> and</c><00:00:16.320><c> how</c><00:00:16.480><c> does</c><00:00:16.720><c> it</c><00:00:16.880><c> work</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+what is dns and how does it work
+ 
+
+00:00:17.359 --> 00:00:18.870 align:start position:0%
+what is dns and how does it work
+and<00:00:17.520><c> the</c><00:00:17.600><c> next</c><00:00:17.760><c> one</c><00:00:18.000><c> is</c><00:00:18.080><c> going</c><00:00:18.240><c> to</c><00:00:18.400><c> be</c><00:00:18.560><c> about</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+and the next one is going to be about
+ 
+
+00:00:18.880 --> 00:00:21.109 align:start position:0%
+and the next one is going to be about
+the<00:00:19.039><c> dns</c><00:00:19.600><c> records</c><00:00:20.160><c> and</c><00:00:20.240><c> how</c><00:00:20.400><c> to</c><00:00:20.560><c> debug</c><00:00:20.960><c> the</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+the dns records and how to debug the
+ 
+
+00:00:21.119 --> 00:00:22.550 align:start position:0%
+the dns records and how to debug the
+issues<00:00:21.439><c> with</c><00:00:21.600><c> the</c><00:00:21.680><c> help</c><00:00:21.920><c> of</c><00:00:22.160><c> dig</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+issues with the help of dig
+ 
+
+00:00:22.560 --> 00:00:26.150 align:start position:0%
+issues with the help of dig
+traced<00:00:23.039><c> out</c><00:00:23.279><c> and</c><00:00:23.439><c> nslookup</c><00:00:24.480><c> so</c><00:00:24.720><c> what</c><00:00:24.960><c> is</c><00:00:25.119><c> dns</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+traced out and nslookup so what is dns
+ 
+
+00:00:26.160 --> 00:00:28.070 align:start position:0%
+traced out and nslookup so what is dns
+before<00:00:26.400><c> we</c><00:00:26.560><c> learn</c><00:00:26.800><c> about</c><00:00:26.960><c> the</c><00:00:27.119><c> dns</c><00:00:27.599><c> we</c><00:00:27.760><c> need</c><00:00:27.920><c> to</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+before we learn about the dns we need to
+ 
+
+00:00:28.080 --> 00:00:29.349 align:start position:0%
+before we learn about the dns we need to
+know<00:00:28.240><c> what</c><00:00:28.400><c> is</c><00:00:28.640><c> internet</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+know what is internet
+ 
+
+00:00:29.359 --> 00:00:31.109 align:start position:0%
+know what is internet
+and<00:00:29.599><c> before</c><00:00:29.920><c> we</c><00:00:30.080><c> learn</c><00:00:30.240><c> about</c><00:00:30.480><c> the</c><00:00:30.640><c> internet</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+and before we learn about the internet
+ 
+
+00:00:31.119 --> 00:00:33.110 align:start position:0%
+and before we learn about the internet
+we<00:00:31.279><c> need</c><00:00:31.439><c> to</c><00:00:31.519><c> know</c><00:00:31.679><c> what</c><00:00:31.920><c> is</c><00:00:32.079><c> a</c><00:00:32.160><c> network</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+we need to know what is a network
+ 
+
+00:00:33.120 --> 00:00:35.190 align:start position:0%
+we need to know what is a network
+network<00:00:33.520><c> is</c><00:00:33.680><c> just</c><00:00:33.840><c> a</c><00:00:34.000><c> group</c><00:00:34.239><c> of</c><00:00:34.399><c> computers</c><00:00:35.040><c> and</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+network is just a group of computers and
+ 
+
+00:00:35.200 --> 00:00:36.870 align:start position:0%
+network is just a group of computers and
+other<00:00:35.440><c> devices</c><00:00:35.840><c> that</c><00:00:36.079><c> are</c><00:00:36.160><c> connected</c><00:00:36.559><c> to</c><00:00:36.719><c> each</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+other devices that are connected to each
+ 
+
+00:00:36.880 --> 00:00:38.709 align:start position:0%
+other devices that are connected to each
+other<00:00:37.200><c> so</c><00:00:37.360><c> for</c><00:00:37.520><c> example</c><00:00:37.840><c> if</c><00:00:38.000><c> at</c><00:00:38.160><c> your</c><00:00:38.320><c> home</c><00:00:38.640><c> you</c>
+
+00:00:38.709 --> 00:00:38.719 align:start position:0%
+other so for example if at your home you
+ 
+
+00:00:38.719 --> 00:00:41.110 align:start position:0%
+other so for example if at your home you
+have<00:00:38.960><c> a</c><00:00:39.120><c> printer</c><00:00:39.680><c> you</c><00:00:39.840><c> have</c><00:00:40.079><c> a</c><00:00:40.239><c> laptop</c><00:00:40.800><c> and</c><00:00:41.040><c> a</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+have a printer you have a laptop and a
+ 
+
+00:00:41.120 --> 00:00:41.750 align:start position:0%
+have a printer you have a laptop and a
+desktop
+
+00:00:41.750 --> 00:00:41.760 align:start position:0%
+desktop
+ 
+
+00:00:41.760 --> 00:00:43.270 align:start position:0%
+desktop
+and<00:00:41.920><c> all</c><00:00:42.079><c> of</c><00:00:42.160><c> these</c><00:00:42.399><c> are</c><00:00:42.480><c> connected</c><00:00:42.960><c> to</c><00:00:43.120><c> each</c>
+
+00:00:43.270 --> 00:00:43.280 align:start position:0%
+and all of these are connected to each
+ 
+
+00:00:43.280 --> 00:00:45.350 align:start position:0%
+and all of these are connected to each
+other<00:00:43.600><c> these</c><00:00:43.760><c> are</c><00:00:43.920><c> all</c><00:00:44.160><c> forming</c><00:00:44.559><c> a</c><00:00:44.640><c> network</c>
+
+00:00:45.350 --> 00:00:45.360 align:start position:0%
+other these are all forming a network
+ 
+
+00:00:45.360 --> 00:00:47.750 align:start position:0%
+other these are all forming a network
+moving<00:00:45.680><c> on</c><00:00:46.160><c> we</c><00:00:46.320><c> have</c><00:00:46.559><c> internet</c><00:00:47.280><c> which</c><00:00:47.520><c> is</c><00:00:47.680><c> a</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+moving on we have internet which is a
+ 
+
+00:00:47.760 --> 00:00:49.750 align:start position:0%
+moving on we have internet which is a
+global<00:00:48.239><c> network</c><00:00:48.640><c> of</c><00:00:48.800><c> networks</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+global network of networks
+ 
+
+00:00:49.760 --> 00:00:51.670 align:start position:0%
+global network of networks
+so<00:00:49.920><c> for</c><00:00:50.160><c> example</c><00:00:50.480><c> if</c><00:00:50.640><c> you</c><00:00:50.879><c> at</c><00:00:51.039><c> your</c><00:00:51.199><c> home</c><00:00:51.440><c> have</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+so for example if you at your home have
+ 
+
+00:00:51.680 --> 00:00:53.670 align:start position:0%
+so for example if you at your home have
+a<00:00:51.840><c> home</c><00:00:52.160><c> network</c><00:00:52.640><c> and</c><00:00:52.719><c> then</c><00:00:52.960><c> your</c><00:00:53.199><c> friend</c><00:00:53.440><c> has</c>
+
+00:00:53.670 --> 00:00:53.680 align:start position:0%
+a home network and then your friend has
+ 
+
+00:00:53.680 --> 00:00:55.189 align:start position:0%
+a home network and then your friend has
+a<00:00:53.760><c> home</c><00:00:54.000><c> network</c><00:00:54.399><c> of</c><00:00:54.559><c> his</c><00:00:54.800><c> own</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+a home network of his own
+ 
+
+00:00:55.199 --> 00:00:56.950 align:start position:0%
+a home network of his own
+and<00:00:55.360><c> then</c><00:00:55.520><c> he</c><00:00:55.760><c> has</c><00:00:55.920><c> another</c><00:00:56.239><c> friend</c><00:00:56.559><c> which</c><00:00:56.719><c> has</c>
+
+00:00:56.950 --> 00:00:56.960 align:start position:0%
+and then he has another friend which has
+ 
+
+00:00:56.960 --> 00:00:58.630 align:start position:0%
+and then he has another friend which has
+a<00:00:57.039><c> home</c><00:00:57.199><c> network</c><00:00:57.680><c> and</c><00:00:57.760><c> all</c><00:00:58.000><c> these</c><00:00:58.160><c> networks</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+a home network and all these networks
+ 
+
+00:00:58.640 --> 00:01:00.549 align:start position:0%
+a home network and all these networks
+are<00:00:58.879><c> grouped</c><00:00:59.199><c> together</c><00:00:59.600><c> to</c><00:00:59.840><c> form</c><00:01:00.079><c> a</c><00:01:00.239><c> bigger</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+are grouped together to form a bigger
+ 
+
+00:01:00.559 --> 00:01:01.189 align:start position:0%
+are grouped together to form a bigger
+network
+
+00:01:01.189 --> 00:01:01.199 align:start position:0%
+network
+ 
+
+00:01:01.199 --> 00:01:03.349 align:start position:0%
+network
+so<00:01:01.440><c> internet</c><00:01:01.920><c> is</c><00:01:02.000><c> similar</c><00:01:02.399><c> to</c><00:01:02.559><c> that</c><00:01:02.960><c> just</c><00:01:03.280><c> a</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+so internet is similar to that just a
+ 
+
+00:01:03.359 --> 00:01:05.590 align:start position:0%
+so internet is similar to that just a
+global<00:01:03.760><c> network</c><00:01:04.159><c> of</c><00:01:04.320><c> all</c><00:01:04.479><c> the</c><00:01:04.640><c> networks</c>
+
+00:01:05.590 --> 00:01:05.600 align:start position:0%
+global network of all the networks
+ 
+
+00:01:05.600 --> 00:01:07.109 align:start position:0%
+global network of all the networks
+now<00:01:05.920><c> on</c><00:01:06.080><c> the</c><00:01:06.159><c> internet</c><00:01:06.560><c> if</c><00:01:06.720><c> you</c><00:01:06.799><c> have</c><00:01:06.960><c> to</c>
+
+00:01:07.109 --> 00:01:07.119 align:start position:0%
+now on the internet if you have to
+ 
+
+00:01:07.119 --> 00:01:08.870 align:start position:0%
+now on the internet if you have to
+communicate<00:01:07.680><c> with</c><00:01:07.840><c> some</c><00:01:08.080><c> other</c><00:01:08.320><c> device</c><00:01:08.720><c> you</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+communicate with some other device you
+ 
+
+00:01:08.880 --> 00:01:10.230 align:start position:0%
+communicate with some other device you
+need<00:01:09.040><c> to</c><00:01:09.200><c> know</c><00:01:09.360><c> how</c><00:01:09.520><c> to</c><00:01:09.680><c> find</c><00:01:10.000><c> it</c>
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+need to know how to find it
+ 
+
+00:01:10.240 --> 00:01:11.990 align:start position:0%
+need to know how to find it
+to<00:01:10.400><c> find</c><00:01:10.640><c> the</c><00:01:10.799><c> device</c><00:01:11.119><c> on</c><00:01:11.360><c> the</c><00:01:11.439><c> internet</c><00:01:11.840><c> we</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+to find the device on the internet we
+ 
+
+00:01:12.000 --> 00:01:14.230 align:start position:0%
+to find the device on the internet we
+use<00:01:12.320><c> something</c><00:01:12.799><c> called</c><00:01:13.119><c> the</c><00:01:13.200><c> ip</c><00:01:13.600><c> address</c>
+
+00:01:14.230 --> 00:01:14.240 align:start position:0%
+use something called the ip address
+ 
+
+00:01:14.240 --> 00:01:16.230 align:start position:0%
+use something called the ip address
+so<00:01:14.400><c> each</c><00:01:14.640><c> device</c><00:01:14.960><c> on</c><00:01:15.040><c> the</c><00:01:15.200><c> internet</c><00:01:15.600><c> has</c><00:01:15.759><c> an</c><00:01:15.920><c> ip</c>
+
+00:01:16.230 --> 00:01:16.240 align:start position:0%
+so each device on the internet has an ip
+ 
+
+00:01:16.240 --> 00:01:17.749 align:start position:0%
+so each device on the internet has an ip
+address<00:01:16.560><c> which</c><00:01:16.799><c> has</c><00:01:17.040><c> a</c><00:01:17.119><c> numeric</c>
+
+00:01:17.749 --> 00:01:17.759 align:start position:0%
+address which has a numeric
+ 
+
+00:01:17.759 --> 00:01:20.390 align:start position:0%
+address which has a numeric
+format<00:01:18.400><c> and</c><00:01:18.560><c> it</c><00:01:18.720><c> looks</c><00:01:19.040><c> like</c><00:01:19.360><c> this</c><00:01:19.920><c> and</c><00:01:20.159><c> it</c><00:01:20.240><c> is</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+format and it looks like this and it is
+ 
+
+00:01:20.400 --> 00:01:21.990 align:start position:0%
+format and it looks like this and it is
+used<00:01:20.640><c> to</c><00:01:20.720><c> locate</c><00:01:21.119><c> that</c><00:01:21.360><c> device</c><00:01:21.759><c> on</c><00:01:21.840><c> the</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+used to locate that device on the
+ 
+
+00:01:22.000 --> 00:01:22.870 align:start position:0%
+used to locate that device on the
+internet
+
+00:01:22.870 --> 00:01:22.880 align:start position:0%
+internet
+ 
+
+00:01:22.880 --> 00:01:24.710 align:start position:0%
+internet
+and<00:01:23.040><c> same</c><00:01:23.280><c> goes</c><00:01:23.520><c> for</c><00:01:23.680><c> the</c><00:01:23.920><c> websites</c><00:01:24.479><c> that</c><00:01:24.640><c> you</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+and same goes for the websites that you
+ 
+
+00:01:24.720 --> 00:01:25.990 align:start position:0%
+and same goes for the websites that you
+visit<00:01:25.040><c> on</c><00:01:25.119><c> the</c><00:01:25.360><c> internet</c>
+
+00:01:25.990 --> 00:01:26.000 align:start position:0%
+visit on the internet
+ 
+
+00:01:26.000 --> 00:01:28.310 align:start position:0%
+visit on the internet
+the<00:01:26.159><c> ip</c><00:01:26.479><c> address</c><00:01:26.880><c> of</c><00:01:26.960><c> the</c><00:01:27.200><c> server</c><00:01:27.840><c> where</c><00:01:28.080><c> that</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+the ip address of the server where that
+ 
+
+00:01:28.320 --> 00:01:29.670 align:start position:0%
+the ip address of the server where that
+website<00:01:28.720><c> is</c><00:01:28.880><c> hosted</c>
+
+00:01:29.670 --> 00:01:29.680 align:start position:0%
+website is hosted
+ 
+
+00:01:29.680 --> 00:01:31.270 align:start position:0%
+website is hosted
+is<00:01:29.840><c> used</c><00:01:30.079><c> to</c><00:01:30.240><c> load</c><00:01:30.479><c> the</c><00:01:30.640><c> website</c><00:01:31.040><c> in</c><00:01:31.119><c> the</c>
+
+00:01:31.270 --> 00:01:31.280 align:start position:0%
+is used to load the website in the
+ 
+
+00:01:31.280 --> 00:01:33.429 align:start position:0%
+is used to load the website in the
+browser<00:01:31.840><c> but</c><00:01:32.079><c> how</c><00:01:32.240><c> does</c><00:01:32.479><c> it</c><00:01:32.640><c> work</c><00:01:32.960><c> because</c><00:01:33.280><c> we</c>
+
+00:01:33.429 --> 00:01:33.439 align:start position:0%
+browser but how does it work because we
+ 
+
+00:01:33.439 --> 00:01:35.190 align:start position:0%
+browser but how does it work because we
+normally<00:01:33.840><c> put</c><00:01:34.079><c> the</c><00:01:34.240><c> domain</c><00:01:34.640><c> name</c><00:01:34.880><c> in</c><00:01:35.040><c> the</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+normally put the domain name in the
+ 
+
+00:01:35.200 --> 00:01:35.830 align:start position:0%
+normally put the domain name in the
+browser
+
+00:01:35.830 --> 00:01:35.840 align:start position:0%
+browser
+ 
+
+00:01:35.840 --> 00:01:37.749 align:start position:0%
+browser
+how<00:01:36.079><c> is</c><00:01:36.240><c> the</c><00:01:36.320><c> browser</c><00:01:36.720><c> able</c><00:01:36.960><c> to</c><00:01:37.040><c> find</c><00:01:37.360><c> the</c><00:01:37.439><c> ip</c>
+
+00:01:37.749 --> 00:01:37.759 align:start position:0%
+how is the browser able to find the ip
+ 
+
+00:01:37.759 --> 00:01:39.109 align:start position:0%
+how is the browser able to find the ip
+address<00:01:38.079><c> of</c><00:01:38.159><c> the</c><00:01:38.320><c> server</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+address of the server
+ 
+
+00:01:39.119 --> 00:01:41.190 align:start position:0%
+address of the server
+the<00:01:39.280><c> answer</c><00:01:39.520><c> to</c><00:01:39.680><c> that</c><00:01:39.920><c> is</c><00:01:40.079><c> the</c><00:01:40.240><c> browser</c><00:01:40.720><c> uses</c>
+
+00:01:41.190 --> 00:01:41.200 align:start position:0%
+the answer to that is the browser uses
+ 
+
+00:01:41.200 --> 00:01:42.870 align:start position:0%
+the answer to that is the browser uses
+something<00:01:41.600><c> called</c><00:01:41.920><c> a</c><00:01:42.079><c> dns</c>
+
+00:01:42.870 --> 00:01:42.880 align:start position:0%
+something called a dns
+ 
+
+00:01:42.880 --> 00:01:44.630 align:start position:0%
+something called a dns
+which<00:01:43.040><c> helps</c><00:01:43.360><c> us</c><00:01:43.520><c> get</c><00:01:43.680><c> the</c><00:01:43.840><c> ip</c><00:01:44.159><c> address</c><00:01:44.479><c> from</c>
+
+00:01:44.630 --> 00:01:44.640 align:start position:0%
+which helps us get the ip address from
+ 
+
+00:01:44.640 --> 00:01:45.910 align:start position:0%
+which helps us get the ip address from
+the<00:01:44.799><c> domain</c><00:01:45.280><c> name</c><00:01:45.600><c> so</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+the domain name so
+ 
+
+00:01:45.920 --> 00:01:48.870 align:start position:0%
+the domain name so
+the<00:01:46.079><c> browser</c><00:01:46.560><c> sends</c><00:01:46.880><c> the</c><00:01:47.040><c> dns</c><00:01:47.759><c> the</c><00:01:48.399><c> domain</c>
+
+00:01:48.870 --> 00:01:48.880 align:start position:0%
+the browser sends the dns the domain
+ 
+
+00:01:48.880 --> 00:01:49.350 align:start position:0%
+the browser sends the dns the domain
+name
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+name
+ 
+
+00:01:49.360 --> 00:01:51.830 align:start position:0%
+name
+and<00:01:49.520><c> it</c><00:01:49.680><c> gets</c><00:01:49.920><c> back</c><00:01:50.159><c> the</c><00:01:50.320><c> ip</c><00:01:50.720><c> address</c><00:01:51.360><c> and</c><00:01:51.520><c> once</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+and it gets back the ip address and once
+ 
+
+00:01:51.840 --> 00:01:53.910 align:start position:0%
+and it gets back the ip address and once
+it<00:01:51.920><c> has</c><00:01:52.159><c> the</c><00:01:52.240><c> ip</c><00:01:52.560><c> address</c><00:01:52.960><c> it</c><00:01:53.119><c> can</c><00:01:53.360><c> go</c><00:01:53.600><c> on</c><00:01:53.759><c> the</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+it has the ip address it can go on the
+ 
+
+00:01:53.920 --> 00:01:54.550 align:start position:0%
+it has the ip address it can go on the
+network
+
+00:01:54.550 --> 00:01:54.560 align:start position:0%
+network
+ 
+
+00:01:54.560 --> 00:01:56.950 align:start position:0%
+network
+and<00:01:54.799><c> hop</c><00:01:55.119><c> from</c><00:01:55.360><c> different</c><00:01:55.759><c> routers</c><00:01:56.560><c> till</c><00:01:56.799><c> it</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+and hop from different routers till it
+ 
+
+00:01:56.960 --> 00:01:57.830 align:start position:0%
+and hop from different routers till it
+reaches<00:01:57.360><c> the</c>
+
+00:01:57.830 --> 00:01:57.840 align:start position:0%
+reaches the
+ 
+
+00:01:57.840 --> 00:01:59.830 align:start position:0%
+reaches the
+server<00:01:58.560><c> and</c><00:01:58.640><c> then</c><00:01:58.880><c> it</c><00:01:59.040><c> loads</c><00:01:59.280><c> the</c><00:01:59.439><c> website</c>
+
+00:01:59.830 --> 00:01:59.840 align:start position:0%
+server and then it loads the website
+ 
+
+00:01:59.840 --> 00:02:02.389 align:start position:0%
+server and then it loads the website
+from<00:02:00.000><c> there</c>
+
+00:02:02.389 --> 00:02:02.399 align:start position:0%
+ 
+ 
+
+00:02:02.399 --> 00:02:04.149 align:start position:0%
+ 
+okay<00:02:02.640><c> now</c><00:02:02.799><c> that</c><00:02:02.960><c> we've</c><00:02:03.200><c> got</c><00:02:03.439><c> the</c><00:02:03.600><c> high</c><00:02:03.840><c> level</c>
+
+00:02:04.149 --> 00:02:04.159 align:start position:0%
+okay now that we've got the high level
+ 
+
+00:02:04.159 --> 00:02:05.670 align:start position:0%
+okay now that we've got the high level
+understanding<00:02:04.719><c> of</c><00:02:04.880><c> the</c><00:02:05.040><c> internet</c>
+
+00:02:05.670 --> 00:02:05.680 align:start position:0%
+understanding of the internet
+ 
+
+00:02:05.680 --> 00:02:08.309 align:start position:0%
+understanding of the internet
+and<00:02:05.840><c> how</c><00:02:06.079><c> it</c><00:02:06.320><c> works</c><00:02:06.960><c> let's</c><00:02:07.200><c> look</c><00:02:07.439><c> at</c><00:02:07.520><c> the</c><00:02:07.680><c> dns</c>
+
+00:02:08.309 --> 00:02:08.319 align:start position:0%
+and how it works let's look at the dns
+ 
+
+00:02:08.319 --> 00:02:10.630 align:start position:0%
+and how it works let's look at the dns
+and<00:02:08.479><c> see</c><00:02:08.720><c> how</c><00:02:08.959><c> it</c><00:02:09.119><c> works</c><00:02:09.440><c> internally</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+and see how it works internally
+ 
+
+00:02:10.640 --> 00:02:12.869 align:start position:0%
+and see how it works internally
+so<00:02:10.879><c> first</c><00:02:11.120><c> of</c><00:02:11.280><c> all</c><00:02:11.360><c> we</c><00:02:11.520><c> have</c><00:02:11.680><c> the</c><00:02:11.840><c> browser</c><00:02:12.720><c> so</c>
+
+00:02:12.869 --> 00:02:12.879 align:start position:0%
+so first of all we have the browser so
+ 
+
+00:02:12.879 --> 00:02:14.470 align:start position:0%
+so first of all we have the browser so
+the<00:02:13.040><c> user</c><00:02:13.440><c> enters</c><00:02:13.760><c> the</c><00:02:13.840><c> website</c><00:02:14.239><c> in</c><00:02:14.319><c> the</c>
+
+00:02:14.470 --> 00:02:14.480 align:start position:0%
+the user enters the website in the
+ 
+
+00:02:14.480 --> 00:02:15.110 align:start position:0%
+the user enters the website in the
+browser
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+browser
+ 
+
+00:02:15.120 --> 00:02:16.949 align:start position:0%
+browser
+and<00:02:15.280><c> tries</c><00:02:15.599><c> to</c><00:02:15.760><c> open</c><00:02:16.000><c> it</c><00:02:16.160><c> as</c><00:02:16.319><c> we</c><00:02:16.480><c> know</c><00:02:16.640><c> that</c><00:02:16.800><c> the</c>
+
+00:02:16.949 --> 00:02:16.959 align:start position:0%
+and tries to open it as we know that the
+ 
+
+00:02:16.959 --> 00:02:19.430 align:start position:0%
+and tries to open it as we know that the
+first<00:02:17.200><c> step</c><00:02:17.599><c> is</c><00:02:17.840><c> dns</c><00:02:18.319><c> resolution</c><00:02:19.040><c> so</c><00:02:19.280><c> the</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+first step is dns resolution so the
+ 
+
+00:02:19.440 --> 00:02:21.510 align:start position:0%
+first step is dns resolution so the
+browser<00:02:19.840><c> needs</c><00:02:20.080><c> to</c><00:02:20.239><c> find</c><00:02:20.480><c> the</c><00:02:20.640><c> ip</c><00:02:21.040><c> address</c>
+
+00:02:21.510 --> 00:02:21.520 align:start position:0%
+browser needs to find the ip address
+ 
+
+00:02:21.520 --> 00:02:23.510 align:start position:0%
+browser needs to find the ip address
+of<00:02:21.599><c> the</c><00:02:21.760><c> website</c><00:02:22.480><c> first</c><00:02:22.800><c> of</c><00:02:22.879><c> all</c><00:02:23.040><c> the</c><00:02:23.200><c> browser</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+of the website first of all the browser
+ 
+
+00:02:23.520 --> 00:02:24.869 align:start position:0%
+of the website first of all the browser
+will<00:02:23.760><c> look</c><00:02:24.000><c> at</c><00:02:24.080><c> the</c><00:02:24.319><c> cache</c>
+
+00:02:24.869 --> 00:02:24.879 align:start position:0%
+will look at the cache
+ 
+
+00:02:24.879 --> 00:02:26.790 align:start position:0%
+will look at the cache
+and<00:02:25.040><c> see</c><00:02:25.280><c> if</c><00:02:25.440><c> it</c><00:02:25.599><c> has</c><00:02:25.840><c> the</c><00:02:25.920><c> ip</c><00:02:26.239><c> address</c><00:02:26.560><c> of</c><00:02:26.720><c> the</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+and see if it has the ip address of the
+ 
+
+00:02:26.800 --> 00:02:28.790 align:start position:0%
+and see if it has the ip address of the
+website<00:02:27.280><c> from</c><00:02:27.440><c> any</c><00:02:27.680><c> previous</c><00:02:28.000><c> visits</c><00:02:28.480><c> if</c><00:02:28.720><c> it</c>
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+website from any previous visits if it
+ 
+
+00:02:28.800 --> 00:02:30.390 align:start position:0%
+website from any previous visits if it
+doesn't<00:02:29.120><c> find</c><00:02:29.360><c> it</c><00:02:29.440><c> there</c><00:02:29.680><c> then</c><00:02:29.840><c> it</c><00:02:29.920><c> will</c><00:02:30.160><c> look</c>
+
+00:02:30.390 --> 00:02:30.400 align:start position:0%
+doesn't find it there then it will look
+ 
+
+00:02:30.400 --> 00:02:32.550 align:start position:0%
+doesn't find it there then it will look
+at<00:02:30.560><c> the</c><00:02:30.720><c> dns</c><00:02:31.280><c> cache</c><00:02:31.599><c> and</c><00:02:31.760><c> see</c><00:02:32.000><c> if</c><00:02:32.080><c> we</c><00:02:32.239><c> have</c><00:02:32.400><c> the</c>
+
+00:02:32.550 --> 00:02:32.560 align:start position:0%
+at the dns cache and see if we have the
+ 
+
+00:02:32.560 --> 00:02:34.710 align:start position:0%
+at the dns cache and see if we have the
+ip<00:02:32.879><c> address</c><00:02:33.280><c> there</c><00:02:33.599><c> and</c><00:02:33.760><c> if</c><00:02:33.920><c> it</c><00:02:34.080><c> is</c><00:02:34.239><c> also</c><00:02:34.560><c> not</c>
+
+00:02:34.710 --> 00:02:34.720 align:start position:0%
+ip address there and if it is also not
+ 
+
+00:02:34.720 --> 00:02:36.869 align:start position:0%
+ip address there and if it is also not
+there<00:02:34.959><c> then</c><00:02:35.120><c> it</c><00:02:35.200><c> will</c><00:02:35.440><c> look</c><00:02:35.680><c> at</c><00:02:35.840><c> the</c><00:02:36.080><c> host</c><00:02:36.480><c> file</c>
+
+00:02:36.869 --> 00:02:36.879 align:start position:0%
+there then it will look at the host file
+ 
+
+00:02:36.879 --> 00:02:38.790 align:start position:0%
+there then it will look at the host file
+to<00:02:37.040><c> see</c><00:02:37.280><c> if</c><00:02:37.440><c> we</c><00:02:37.599><c> have</c><00:02:37.760><c> a</c><00:02:38.000><c> mapping</c><00:02:38.400><c> from</c><00:02:38.640><c> the</c>
+
+00:02:38.790 --> 00:02:38.800 align:start position:0%
+to see if we have a mapping from the
+ 
+
+00:02:38.800 --> 00:02:40.790 align:start position:0%
+to see if we have a mapping from the
+domain<00:02:39.280><c> name</c><00:02:39.519><c> to</c><00:02:39.760><c> the</c><00:02:39.920><c> ip</c><00:02:40.239><c> address</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+domain name to the ip address
+ 
+
+00:02:40.800 --> 00:02:42.869 align:start position:0%
+domain name to the ip address
+defined<00:02:41.360><c> there</c><00:02:41.760><c> if</c><00:02:41.920><c> it</c><00:02:42.000><c> is</c><00:02:42.160><c> able</c><00:02:42.319><c> to</c><00:02:42.480><c> find</c><00:02:42.720><c> the</c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+defined there if it is able to find the
+ 
+
+00:02:42.879 --> 00:02:44.869 align:start position:0%
+defined there if it is able to find the
+ip<00:02:43.200><c> address</c><00:02:43.519><c> in</c><00:02:43.680><c> any</c><00:02:43.920><c> of</c><00:02:44.000><c> these</c><00:02:44.319><c> places</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+ip address in any of these places
+ 
+
+00:02:44.879 --> 00:02:46.949 align:start position:0%
+ip address in any of these places
+it<00:02:45.040><c> will</c><00:02:45.200><c> load</c><00:02:45.440><c> the</c><00:02:45.599><c> website</c><00:02:46.000><c> from</c><00:02:46.239><c> there</c><00:02:46.560><c> and</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+it will load the website from there and
+ 
+
+00:02:46.959 --> 00:02:48.710 align:start position:0%
+it will load the website from there and
+it<00:02:47.040><c> will</c><00:02:47.200><c> not</c><00:02:47.360><c> do</c><00:02:47.599><c> any</c><00:02:47.840><c> of</c><00:02:47.920><c> the</c><00:02:48.080><c> next</c><00:02:48.319><c> steps</c>
+
+00:02:48.710 --> 00:02:48.720 align:start position:0%
+it will not do any of the next steps
+ 
+
+00:02:48.720 --> 00:02:50.470 align:start position:0%
+it will not do any of the next steps
+that<00:02:48.879><c> we</c><00:02:48.959><c> will</c><00:02:49.120><c> mention</c><00:02:49.519><c> now</c><00:02:49.840><c> if</c><00:02:50.000><c> it</c><00:02:50.160><c> is</c><00:02:50.239><c> not</c>
+
+00:02:50.470 --> 00:02:50.480 align:start position:0%
+that we will mention now if it is not
+ 
+
+00:02:50.480 --> 00:02:52.229 align:start position:0%
+that we will mention now if it is not
+able<00:02:50.720><c> to</c><00:02:50.879><c> find</c><00:02:51.040><c> the</c><00:02:51.200><c> ip</c><00:02:51.440><c> address</c><00:02:51.760><c> in</c><00:02:51.920><c> any</c><00:02:52.160><c> of</c>
+
+00:02:52.229 --> 00:02:52.239 align:start position:0%
+able to find the ip address in any of
+ 
+
+00:02:52.239 --> 00:02:53.270 align:start position:0%
+able to find the ip address in any of
+these<00:02:52.560><c> caches</c>
+
+00:02:53.270 --> 00:02:53.280 align:start position:0%
+these caches
+ 
+
+00:02:53.280 --> 00:02:55.190 align:start position:0%
+these caches
+or<00:02:53.440><c> the</c><00:02:53.599><c> host</c><00:02:53.920><c> file</c><00:02:54.319><c> the</c><00:02:54.480><c> next</c><00:02:54.640><c> step</c><00:02:54.959><c> is</c><00:02:55.040><c> the</c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+or the host file the next step is the
+ 
+
+00:02:55.200 --> 00:02:57.509 align:start position:0%
+or the host file the next step is the
+recursive<00:02:55.840><c> dns</c><00:02:56.239><c> servers</c><00:02:56.800><c> this</c><00:02:56.959><c> is</c><00:02:57.120><c> normally</c>
+
+00:02:57.509 --> 00:02:57.519 align:start position:0%
+recursive dns servers this is normally
+ 
+
+00:02:57.519 --> 00:02:58.550 align:start position:0%
+recursive dns servers this is normally
+your<00:02:57.840><c> isp</c>
+
+00:02:58.550 --> 00:02:58.560 align:start position:0%
+your isp
+ 
+
+00:02:58.560 --> 00:03:00.630 align:start position:0%
+your isp
+or<00:02:58.879><c> internet</c><00:02:59.280><c> services</c><00:02:59.840><c> provider</c><00:03:00.400><c> which</c>
+
+00:03:00.630 --> 00:03:00.640 align:start position:0%
+or internet services provider which
+ 
+
+00:03:00.640 --> 00:03:02.309 align:start position:0%
+or internet services provider which
+provides<00:03:01.040><c> you</c><00:03:01.120><c> the</c><00:03:01.280><c> internet</c><00:03:01.760><c> now</c><00:03:02.000><c> it</c><00:03:02.080><c> doesn't</c>
+
+00:03:02.309 --> 00:03:02.319 align:start position:0%
+provides you the internet now it doesn't
+ 
+
+00:03:02.319 --> 00:03:03.509 align:start position:0%
+provides you the internet now it doesn't
+know<00:03:02.480><c> anything</c><00:03:02.800><c> about</c><00:03:03.120><c> the</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+know anything about the
+ 
+
+00:03:03.519 --> 00:03:05.990 align:start position:0%
+know anything about the
+domain<00:03:04.000><c> name</c><00:03:04.400><c> but</c><00:03:04.640><c> it</c><00:03:04.720><c> has</c><00:03:04.959><c> the</c><00:03:05.120><c> caches</c><00:03:05.760><c> from</c>
+
+00:03:05.990 --> 00:03:06.000 align:start position:0%
+domain name but it has the caches from
+ 
+
+00:03:06.000 --> 00:03:07.190 align:start position:0%
+domain name but it has the caches from
+any<00:03:06.239><c> previous</c><00:03:06.640><c> visits</c>
+
+00:03:07.190 --> 00:03:07.200 align:start position:0%
+any previous visits
+ 
+
+00:03:07.200 --> 00:03:09.030 align:start position:0%
+any previous visits
+so<00:03:07.360><c> it</c><00:03:07.519><c> is</c><00:03:07.599><c> possible</c><00:03:08.080><c> that</c><00:03:08.239><c> some</c><00:03:08.480><c> other</c><00:03:08.640><c> user</c>
+
+00:03:09.030 --> 00:03:09.040 align:start position:0%
+so it is possible that some other user
+ 
+
+00:03:09.040 --> 00:03:11.110 align:start position:0%
+so it is possible that some other user
+might<00:03:09.280><c> have</c><00:03:09.440><c> visited</c><00:03:09.840><c> the</c><00:03:10.000><c> same</c><00:03:10.319><c> website</c>
+
+00:03:11.110 --> 00:03:11.120 align:start position:0%
+might have visited the same website
+ 
+
+00:03:11.120 --> 00:03:13.350 align:start position:0%
+might have visited the same website
+and<00:03:11.440><c> might</c><00:03:11.680><c> have</c><00:03:11.840><c> the</c><00:03:12.000><c> cached</c><00:03:12.400><c> ip</c><00:03:12.720><c> address</c><00:03:13.200><c> if</c>
+
+00:03:13.350 --> 00:03:13.360 align:start position:0%
+and might have the cached ip address if
+ 
+
+00:03:13.360 --> 00:03:15.030 align:start position:0%
+and might have the cached ip address if
+it<00:03:13.519><c> is</c><00:03:13.599><c> able</c><00:03:13.840><c> to</c><00:03:14.000><c> find</c><00:03:14.239><c> the</c><00:03:14.400><c> cache</c><00:03:14.640><c> type</c>
+
+00:03:15.030 --> 00:03:15.040 align:start position:0%
+it is able to find the cache type
+ 
+
+00:03:15.040 --> 00:03:16.710 align:start position:0%
+it is able to find the cache type
+address<00:03:15.440><c> it</c><00:03:15.599><c> will</c><00:03:15.760><c> just</c><00:03:16.000><c> return</c><00:03:16.319><c> the</c><00:03:16.480><c> ip</c>
+
+00:03:16.710 --> 00:03:16.720 align:start position:0%
+address it will just return the ip
+ 
+
+00:03:16.720 --> 00:03:18.550 align:start position:0%
+address it will just return the ip
+address<00:03:17.040><c> from</c><00:03:17.280><c> here</c><00:03:17.599><c> and</c><00:03:17.760><c> it</c><00:03:17.920><c> does</c><00:03:18.080><c> not</c><00:03:18.319><c> have</c>
+
+00:03:18.550 --> 00:03:18.560 align:start position:0%
+address from here and it does not have
+ 
+
+00:03:18.560 --> 00:03:19.750 align:start position:0%
+address from here and it does not have
+to<00:03:18.720><c> go</c><00:03:18.879><c> to</c><00:03:19.040><c> the</c><00:03:19.120><c> next</c><00:03:19.440><c> step</c>
+
+00:03:19.750 --> 00:03:19.760 align:start position:0%
+to go to the next step
+ 
+
+00:03:19.760 --> 00:03:21.750 align:start position:0%
+to go to the next step
+and<00:03:19.920><c> if</c><00:03:20.000><c> the</c><00:03:20.159><c> ip</c><00:03:20.400><c> address</c><00:03:20.720><c> is</c><00:03:20.800><c> not</c><00:03:21.040><c> found</c><00:03:21.360><c> here</c>
+
+00:03:21.750 --> 00:03:21.760 align:start position:0%
+and if the ip address is not found here
+ 
+
+00:03:21.760 --> 00:03:23.589 align:start position:0%
+and if the ip address is not found here
+then<00:03:22.000><c> the</c><00:03:22.080><c> next</c><00:03:22.319><c> step</c><00:03:22.560><c> is</c><00:03:22.720><c> the</c><00:03:22.959><c> root</c><00:03:23.200><c> dns</c>
+
+00:03:23.589 --> 00:03:23.599 align:start position:0%
+then the next step is the root dns
+ 
+
+00:03:23.599 --> 00:03:24.229 align:start position:0%
+then the next step is the root dns
+servers
+
+00:03:24.229 --> 00:03:24.239 align:start position:0%
+servers
+ 
+
+00:03:24.239 --> 00:03:26.309 align:start position:0%
+servers
+now<00:03:24.560><c> root</c><00:03:24.799><c> dns</c><00:03:25.200><c> servers</c><00:03:25.599><c> also</c><00:03:25.840><c> do</c><00:03:26.000><c> not</c><00:03:26.159><c> have</c>
+
+00:03:26.309 --> 00:03:26.319 align:start position:0%
+now root dns servers also do not have
+ 
+
+00:03:26.319 --> 00:03:27.910 align:start position:0%
+now root dns servers also do not have
+the<00:03:26.480><c> ip</c><00:03:26.720><c> address</c><00:03:27.040><c> information</c><00:03:27.599><c> for</c><00:03:27.840><c> the</c>
+
+00:03:27.910 --> 00:03:27.920 align:start position:0%
+the ip address information for the
+ 
+
+00:03:27.920 --> 00:03:28.789 align:start position:0%
+the ip address information for the
+domain<00:03:28.400><c> name</c>
+
+00:03:28.789 --> 00:03:28.799 align:start position:0%
+domain name
+ 
+
+00:03:28.799 --> 00:03:30.470 align:start position:0%
+domain name
+but<00:03:28.959><c> they</c><00:03:29.120><c> have</c><00:03:29.280><c> the</c><00:03:29.360><c> information</c><00:03:30.000><c> about</c><00:03:30.239><c> the</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+but they have the information about the
+ 
+
+00:03:30.480 --> 00:03:32.869 align:start position:0%
+but they have the information about the
+tld<00:03:31.280><c> or</c><00:03:31.519><c> the</c><00:03:31.680><c> top</c><00:03:31.920><c> level</c><00:03:32.239><c> domain</c>
+
+00:03:32.869 --> 00:03:32.879 align:start position:0%
+tld or the top level domain
+ 
+
+00:03:32.879 --> 00:03:34.550 align:start position:0%
+tld or the top level domain
+so<00:03:33.040><c> for</c><00:03:33.200><c> example</c><00:03:33.599><c> if</c><00:03:33.680><c> you're</c><00:03:33.920><c> looking</c><00:03:34.239><c> for</c>
+
+00:03:34.550 --> 00:03:34.560 align:start position:0%
+so for example if you're looking for
+ 
+
+00:03:34.560 --> 00:03:37.030 align:start position:0%
+so for example if you're looking for
+google.com<00:03:35.680><c> so</c><00:03:35.840><c> the</c><00:03:36.080><c> tld</c>
+
+00:03:37.030 --> 00:03:37.040 align:start position:0%
+google.com so the tld
+ 
+
+00:03:37.040 --> 00:03:39.910 align:start position:0%
+google.com so the tld
+or<00:03:37.200><c> the</c><00:03:37.360><c> top</c><00:03:37.599><c> level</c><00:03:37.840><c> domain</c><00:03:38.319><c> is</c><00:03:38.560><c> dot</c><00:03:38.879><c> com</c><00:03:39.440><c> so</c><00:03:39.599><c> it</c>
+
+00:03:39.910 --> 00:03:39.920 align:start position:0%
+or the top level domain is dot com so it
+ 
+
+00:03:39.920 --> 00:03:40.550 align:start position:0%
+or the top level domain is dot com so it
+knows
+
+00:03:40.550 --> 00:03:40.560 align:start position:0%
+knows
+ 
+
+00:03:40.560 --> 00:03:42.390 align:start position:0%
+knows
+who<00:03:40.720><c> might</c><00:03:40.959><c> have</c><00:03:41.120><c> the</c><00:03:41.360><c> information</c><00:03:41.840><c> about</c><00:03:42.239><c> all</c>
+
+00:03:42.390 --> 00:03:42.400 align:start position:0%
+who might have the information about all
+ 
+
+00:03:42.400 --> 00:03:44.229 align:start position:0%
+who might have the information about all
+the<00:03:42.560><c> dot</c><00:03:42.799><c> com</c><00:03:43.120><c> domains</c><00:03:43.599><c> so</c><00:03:43.760><c> it</c><00:03:43.920><c> will</c><00:03:44.080><c> just</c>
+
+00:03:44.229 --> 00:03:44.239 align:start position:0%
+the dot com domains so it will just
+ 
+
+00:03:44.239 --> 00:03:46.149 align:start position:0%
+the dot com domains so it will just
+return<00:03:44.640><c> the</c><00:03:44.799><c> information</c><00:03:45.360><c> about</c><00:03:45.680><c> the</c>
+
+00:03:46.149 --> 00:03:46.159 align:start position:0%
+return the information about the
+ 
+
+00:03:46.159 --> 00:03:48.789 align:start position:0%
+return the information about the
+tld<00:03:46.799><c> server</c><00:03:47.440><c> now</c><00:03:47.680><c> the</c><00:03:47.840><c> tld</c><00:03:48.239><c> server</c><00:03:48.560><c> also</c>
+
+00:03:48.789 --> 00:03:48.799 align:start position:0%
+tld server now the tld server also
+ 
+
+00:03:48.799 --> 00:03:49.990 align:start position:0%
+tld server now the tld server also
+doesn't<00:03:49.040><c> know</c><00:03:49.200><c> where</c><00:03:49.360><c> the</c><00:03:49.519><c> domain</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+doesn't know where the domain
+ 
+
+00:03:50.000 --> 00:03:52.949 align:start position:0%
+doesn't know where the domain
+is<00:03:50.319><c> but</c><00:03:50.560><c> it</c><00:03:50.720><c> knows</c><00:03:51.200><c> the</c><00:03:51.840><c> final</c><00:03:52.239><c> place</c><00:03:52.640><c> where</c>
+
+00:03:52.949 --> 00:03:52.959 align:start position:0%
+is but it knows the final place where
+ 
+
+00:03:52.959 --> 00:03:53.350 align:start position:0%
+is but it knows the final place where
+might
+
+00:03:53.350 --> 00:03:53.360 align:start position:0%
+might
+ 
+
+00:03:53.360 --> 00:03:56.149 align:start position:0%
+might
+the<00:03:53.760><c> domain</c><00:03:54.239><c> information</c><00:03:54.959><c> be</c><00:03:55.599><c> which</c><00:03:55.840><c> is</c><00:03:55.920><c> the</c>
+
+00:03:56.149 --> 00:03:56.159 align:start position:0%
+the domain information be which is the
+ 
+
+00:03:56.159 --> 00:03:57.830 align:start position:0%
+the domain information be which is the
+authoritative<00:03:56.879><c> name</c><00:03:57.200><c> server</c>
+
+00:03:57.830 --> 00:03:57.840 align:start position:0%
+authoritative name server
+ 
+
+00:03:57.840 --> 00:03:59.910 align:start position:0%
+authoritative name server
+so<00:03:58.000><c> it</c><00:03:58.080><c> will</c><00:03:58.239><c> just</c><00:03:58.400><c> return</c><00:03:58.799><c> the</c><00:03:58.959><c> information</c>
+
+00:03:59.910 --> 00:03:59.920 align:start position:0%
+so it will just return the information
+ 
+
+00:03:59.920 --> 00:04:01.670 align:start position:0%
+so it will just return the information
+about<00:04:00.159><c> the</c><00:04:00.239><c> authoritative</c><00:04:00.959><c> name</c><00:04:01.200><c> server</c><00:04:01.599><c> and</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+about the authoritative name server and
+ 
+
+00:04:01.680 --> 00:04:03.350 align:start position:0%
+about the authoritative name server and
+the<00:04:01.760><c> request</c><00:04:02.159><c> will</c><00:04:02.319><c> go</c><00:04:02.480><c> to</c><00:04:02.560><c> the</c><00:04:02.720><c> authoritative</c>
+
+00:04:03.350 --> 00:04:03.360 align:start position:0%
+the request will go to the authoritative
+ 
+
+00:04:03.360 --> 00:04:04.070 align:start position:0%
+the request will go to the authoritative
+name<00:04:03.519><c> server</c>
+
+00:04:04.070 --> 00:04:04.080 align:start position:0%
+name server
+ 
+
+00:04:04.080 --> 00:04:06.149 align:start position:0%
+name server
+get<00:04:04.319><c> the</c><00:04:04.480><c> ip</c><00:04:04.879><c> address</c><00:04:05.280><c> of</c><00:04:05.360><c> the</c><00:04:05.519><c> domain</c><00:04:05.920><c> name</c>
+
+00:04:06.149 --> 00:04:06.159 align:start position:0%
+get the ip address of the domain name
+ 
+
+00:04:06.159 --> 00:04:07.110 align:start position:0%
+get the ip address of the domain name
+from<00:04:06.480><c> there</c>
+
+00:04:07.110 --> 00:04:07.120 align:start position:0%
+from there
+ 
+
+00:04:07.120 --> 00:04:08.630 align:start position:0%
+from there
+the<00:04:07.280><c> ip</c><00:04:07.519><c> address</c><00:04:07.840><c> will</c><00:04:08.000><c> then</c><00:04:08.239><c> come</c><00:04:08.400><c> to</c><00:04:08.560><c> the</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+the ip address will then come to the
+ 
+
+00:04:08.640 --> 00:04:10.229 align:start position:0%
+the ip address will then come to the
+recursive<00:04:09.120><c> dns</c><00:04:09.599><c> servers</c>
+
+00:04:10.229 --> 00:04:10.239 align:start position:0%
+recursive dns servers
+ 
+
+00:04:10.239 --> 00:04:11.910 align:start position:0%
+recursive dns servers
+where<00:04:10.400><c> it</c><00:04:10.560><c> might</c><00:04:10.799><c> be</c><00:04:11.040><c> cached</c><00:04:11.519><c> and</c><00:04:11.599><c> then</c><00:04:11.840><c> it</c>
+
+00:04:11.910 --> 00:04:11.920 align:start position:0%
+where it might be cached and then it
+ 
+
+00:04:11.920 --> 00:04:14.229 align:start position:0%
+where it might be cached and then it
+will<00:04:12.080><c> be</c><00:04:12.319><c> sent</c><00:04:12.560><c> to</c><00:04:12.720><c> the</c><00:04:12.879><c> user's</c><00:04:13.360><c> computer</c>
+
+00:04:14.229 --> 00:04:14.239 align:start position:0%
+will be sent to the user's computer
+ 
+
+00:04:14.239 --> 00:04:15.830 align:start position:0%
+will be sent to the user's computer
+and<00:04:14.319><c> then</c><00:04:14.560><c> to</c><00:04:14.720><c> the</c><00:04:14.879><c> browser</c><00:04:15.360><c> and</c><00:04:15.519><c> then</c><00:04:15.680><c> the</c>
+
+00:04:15.830 --> 00:04:15.840 align:start position:0%
+and then to the browser and then the
+ 
+
+00:04:15.840 --> 00:04:17.590 align:start position:0%
+and then to the browser and then the
+browser<00:04:16.239><c> will</c><00:04:16.400><c> request</c><00:04:16.799><c> the</c><00:04:16.959><c> website</c>
+
+00:04:17.590 --> 00:04:17.600 align:start position:0%
+browser will request the website
+ 
+
+00:04:17.600 --> 00:04:20.390 align:start position:0%
+browser will request the website
+servers<00:04:18.239><c> and</c><00:04:18.560><c> get</c><00:04:18.720><c> the</c><00:04:18.880><c> website</c><00:04:19.359><c> from</c><00:04:19.600><c> there</c>
+
+00:04:20.390 --> 00:04:20.400 align:start position:0%
+servers and get the website from there
+ 
+
+00:04:20.400 --> 00:04:21.509 align:start position:0%
+servers and get the website from there
+and<00:04:20.560><c> this</c><00:04:20.720><c> is</c><00:04:20.880><c> how</c><00:04:21.120><c> the</c>
+
+00:04:21.509 --> 00:04:21.519 align:start position:0%
+and this is how the
+ 
+
+00:04:21.519 --> 00:04:23.270 align:start position:0%
+and this is how the
+ip<00:04:21.840><c> address</c><00:04:22.160><c> of</c><00:04:22.240><c> the</c><00:04:22.400><c> website</c><00:04:22.800><c> is</c><00:04:22.880><c> found</c><00:04:23.199><c> on</c>
+
+00:04:23.270 --> 00:04:23.280 align:start position:0%
+ip address of the website is found on
+ 
+
+00:04:23.280 --> 00:04:25.909 align:start position:0%
+ip address of the website is found on
+the<00:04:23.440><c> internet</c><00:04:23.919><c> with</c><00:04:24.160><c> the</c><00:04:24.240><c> help</c><00:04:24.479><c> of</c><00:04:24.720><c> dns</c>
+
+00:04:25.909 --> 00:04:25.919 align:start position:0%
+the internet with the help of dns
+ 
+
+00:04:25.919 --> 00:04:27.909 align:start position:0%
+the internet with the help of dns
+and<00:04:26.080><c> that's</c><00:04:26.400><c> it</c><00:04:26.479><c> for</c><00:04:26.639><c> our</c><00:04:26.800><c> lesson</c><00:04:27.440><c> i</c><00:04:27.600><c> hope</c><00:04:27.759><c> you</c>
+
+00:04:27.909 --> 00:04:27.919 align:start position:0%
+and that's it for our lesson i hope you
+ 
+
+00:04:27.919 --> 00:04:29.749 align:start position:0%
+and that's it for our lesson i hope you
+enjoyed<00:04:28.320><c> it</c><00:04:28.560><c> if</c><00:04:28.639><c> you</c><00:04:28.800><c> have</c><00:04:28.960><c> any</c><00:04:29.199><c> questions</c><00:04:29.600><c> or</c>
+
+00:04:29.749 --> 00:04:29.759 align:start position:0%
+enjoyed it if you have any questions or
+ 
+
+00:04:29.759 --> 00:04:30.469 align:start position:0%
+enjoyed it if you have any questions or
+comments
+
+00:04:30.469 --> 00:04:30.479 align:start position:0%
+comments
+ 
+
+00:04:30.479 --> 00:04:31.990 align:start position:0%
+comments
+leave<00:04:30.720><c> them</c><00:04:30.880><c> below</c><00:04:31.280><c> and</c><00:04:31.440><c> i</c><00:04:31.520><c> will</c><00:04:31.600><c> see</c><00:04:31.759><c> you</c><00:04:31.919><c> in</c>
+
+00:04:31.990 --> 00:04:32.000 align:start position:0%
+leave them below and i will see you in
+ 
+
+00:04:32.000 --> 00:04:40.880 align:start position:0%
+leave them below and i will see you in
+the<00:04:32.080><c> next</c><00:04:37.880><c> lesson</c>
+

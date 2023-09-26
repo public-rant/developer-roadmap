@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://touchstonesecurity.com/horizontal-vs-vertical-scaling-what-you-need-to-know/ > $(basename https://touchstonesecurity.com/horizontal-vs-vertical-scaling-what-you-need-to-know/).txt

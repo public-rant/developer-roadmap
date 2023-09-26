@@ -1,0 +1,87 @@
+[
+ {
+  "id": "server-sent-events",
+  "tag": "h1",
+  "text": "Server Sent Events"
+ },
+ {
+  "id": "ms-iis",
+  "tag": "h1",
+  "text": "MS IIS"
+ },
+ {
+  "id": "apache",
+  "tag": "h1",
+  "text": "Apache"
+ },
+ {
+  "id": "caddy",
+  "tag": "h1",
+  "text": "Caddy"
+ },
+ {
+  "id": "nginx",
+  "tag": "h1",
+  "text": "Nginx"
+ },
+ {
+  "id": "web-servers",
+  "tag": "h1",
+  "text": "Web Servers"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events",
+  "tag": "a",
+  "text": "Server-Sent Events - MDN"
+ },
+ {
+  "href": "https://www.iis.net/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=1VdxPWwtISA",
+  "tag": "a",
+  "text": "Learn Windows Web Server IIS"
+ },
+ {
+  "href": "https://httpd.apache.org/",
+  "tag": "a",
+  "text": "Apache Server Website"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=kaaenHXO4t4",
+  "tag": "a",
+  "text": "What is Apache Web Server?"
+ },
+ {
+  "href": "https://caddyserver.com/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=t4naLFSlBpQ",
+  "tag": "a",
+  "text": "Getting started with Caddy the HTTPS Web Server from scratch"
+ },
+ {
+  "href": "https://nginx.org/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=JKxlsvZXG7c",
+  "tag": "a",
+  "text": "NGINX Explained in 100 Seconds"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server",
+  "tag": "a",
+  "text": "What is a Web Server"
+ },
+ {
+  "href": "https://youtu.be/9J1nJOivdyw",
+  "tag": "a",
+  "text": "Web Server Concepts and Examples"
+ }
+]

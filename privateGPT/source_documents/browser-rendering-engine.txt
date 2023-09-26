@@ -1,0 +1,646 @@
+
+
+   IFRAME:
+   [data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAw
+   MC9zdmcnIHZpZXdCb3g9JzAgMCAzIDInPjwvc3ZnPg==]data:image/svg+xml;base64,
+   PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA
+   zIDInPjwvc3ZnPg==
+
+   [https://www.browserstack.com/guide/browser-rendering-engine#main-conte
+   nt]Skip to main content
+
+   Experience the future of testing with our 3 new products:
+   [https://www.browserstack.com/test-management?ref=hellobar_guide]Test
+   Management,
+   [https://www.browserstack.com/test-observability?ref=hellobar_guide]Tes
+   t Observability &
+   [https://www.browserstack.com/accessibility-testing?ref=hellobar_guide]
+   Accessibility Testing
+   [https://www.browserstack.com/]An illustration of BrowserStack Logo
+   (BUTTON) Products
+   (BUTTON) Web Testing
+   Test websites or web apps on real browsers
+   (BUTTON) App Testing
+   Test iOS & Android mobile apps on real devices
+   MANUAL TESTING
+   [https://www.browserstack.com/live]Live
+   Cross-browser testing
+   [https://www.browserstack.com/accessibility-testing]Accessibility
+   Testing
+   Test WCAG & ADA compliance
+   Test Automation
+   [https://www.browserstack.com/automate]Automate
+   Browser automation grid
+   [https://www.browserstack.com/percy]Percy
+   Visual testing & review
+   Management & Optimization
+   [https://www.browserstack.com/test-management]Test Management
+   Unify & track all test cases
+   [https://www.browserstack.com/test-observability]Test Observability
+   Test debugging & insights
+   Empower teams with
+   [https://www.browserstack.com/enterprise?ref=header-web-testing]Browser
+   Stack for Enterprise →
+   Explore BrowserStack
+   [https://www.browserstack.com/codequality?ref=header-web-testing]Code
+   Quality →
+   Manual testing
+   [https://www.browserstack.com/app-live]App Live
+   Real device testing
+   Test Automation
+   [https://www.browserstack.com/app-automate]App Automate
+   Real device automation grid
+   [https://www.browserstack.com/app-percy]App Percy
+   Visual testing for mobile apps
+   Management & Optimization
+   [https://www.browserstack.com/test-management]Test Management
+   Unify & track all test cases
+   [https://www.browserstack.com/test-observability]Test Observability
+   Test debugging & insights
+   Empower teams with
+   [https://www.browserstack.com/enterprise?ref=header-app-testing]Browser
+   Stack for Enterprise →
+   Explore BrowserStack
+   [https://www.browserstack.com/codequality?ref=header-app-testing]Code
+   Quality →
+   (BUTTON) Developers
+   [https://www.browserstack.com/docs]Documentation
+   [https://www.browserstack.com/support]Support
+   [https://status.browserstack.com/]Status
+   [https://www.browserstack.com/release-notes]Release Notes
+   [https://www.browserstack.com/open-source]Open Source
+   [https://www.browserstack.com/events]Events
+   [https://www.browserstack.com/test-university]Test University Beta
+   [https://www.browserstack.com/browserstack-champions]Champions
+   [https://www.browserstack.com/live-for-teams]Live for Teams
+   [https://www.browserstack.com/pricing]Pricing
+   [https://www.browserstack.com/users/sign_in]Sign in
+   [https://www.browserstack.com/users/sign_up]Free Trial
+   (BUTTON)
+   [https://www.browserstack.com/]An illustration of BrowserStack Logo
+   (BUTTON) (BUTTON)
+     * (BUTTON) Products
+          + An illustration of test your websites logo Test your websites
+          + [https://www.browserstack.com/live]An illustration of Live
+            Product logo
+            Live
+            Manual cross-browser testing
+          + [https://www.browserstack.com/automate]An illustration of
+            Automate Product logo
+            Automate
+            Browser automation grid
+          + [https://www.browserstack.com/percy]An illustration of Percy
+            Product logo
+            Percy
+            Visual testing & review
+          + [https://www.browserstack.com/accessibility-testing]An
+            illustration of Accessibility Toolkit Product logo
+            Accessibility Testing
+            Super app to find & report issues
+          + An illustration of test your mobile apps logo Test your mobile
+            apps
+          + [https://www.browserstack.com/app-live]An illustration of App
+            Live Product logo
+            App Live
+            Manual real device testing
+          + [https://www.browserstack.com/app-automate]An illustration of
+            App Automate Product logo
+            App Automate
+            Real device automation grid
+          + [https://www.browserstack.com/app-percy]An illustration of App
+            Percy Product logo
+            App Percy
+            Visual testing for mobile apps
+          + Test management & optimization
+          + [https://www.browserstack.com/test-management]An illustration
+            of Test Management Product logo
+            Test Management
+            Unify & track all test cases
+          + [https://www.browserstack.com/test-observability]An
+            illustration of Test Observability Product logo
+            Test Observability
+            Smart test reporting & debugging
+          + Test development
+          + [https://nightwatchjs.org/]An illustration of Nightwatch.js
+            Product logo
+            Nightwatch.js
+            End-to-End testing framework
+       Empower testing across organisation with BrowserStack for
+       [https://www.browserstack.com/enterprise?ref=header]Enterprise ⟶
+     * (BUTTON) Developers
+          + An illustration of Developer Resources logo Resources
+               o [https://www.browserstack.com/docs]Documentation Get Step
+                 by Step developer guides to test your web & mobile apps
+               o [https://www.browserstack.com/support]Support
+                 Get answers to all your questions related to Browserstack
+               o [https://www.browserstack.com/test-university]Test
+                 University Beta Master the fundamentals of software
+                 testing
+               o [https://www.browserstack.com/release-notes]Release Notes
+                 Latest feature releases & platform updates
+               o [https://www.browserstack.com/open-source]Open Source Get
+                 Free Unlimited Testing for open source projects
+               o [https://status.browserstack.com/]Status - Uptime Check
+                 the status of Browserstack products
+               o [https://www.browserstack.com/events]Events Stay updated
+                 on all the latest Browserstack events & webinars
+               o [https://www.browserstack.com/browserstack-champions]Cham
+                 pions Learn more with the thought leaders & experts from
+                 across the globe
+          + An illustration of Developers Get Started logo Get Your Test
+            Started
+            [https://www.browserstack.com/integrations/automate]Automate
+               o [https://www.browserstack.com/docs/automate/selenium]An
+                 illustration of Selenium logo Selenium
+               o [https://www.browserstack.com/docs/automate/cypress]An
+                 illustration of Cypress logo Cypress
+               o [https://www.browserstack.com/docs/automate/puppeteer]An
+                 illustration of Puppeteer logo Puppeteer
+               o [https://www.browserstack.com/docs/automate/playwright]An
+                 illustration of Playwright logo Playwright
+               o [https://www.browserstack.com/docs/automate/javascript-te
+                 sting/getting-started]An illustration of JS Testing logo
+                 JS Testing
+               o [https://www.browserstack.com/integrations/automate?categ
+                 ory=record-and-playback]An illustration of Record &
+                 Playback logo Record & Playback
+            [https://www.browserstack.com/integrations/app-automate]App
+            Automate
+               o [https://www.browserstack.com/docs/app-automate/appium]An
+                 illustration of Appium logo Appium
+               o [https://www.browserstack.com/docs/app-automate/espresso/
+                 getting-started]An illustration of Espresso logo Espresso
+               o [https://www.browserstack.com/docs/app-automate/xcuitest/
+                 getting-started]An illustration of XCUI logo XCUI
+            [https://docs.percy.io/docs]Visual Testing
+               o [https://docs.percy.io/docs]An illustration of Percy logo
+                 Percy
+            [https://www.browserstack.com/docs/local-testing]Get Started
+            with Local Testing
+          + Developers and Test Engineers love BrowserStack! Read their
+            [https://www.browserstack.com/customers]Stories➔
+          + [https://www.browserstack.com/docs]Documentation
+          + [https://www.browserstack.com/support]Support
+          + [https://status.browserstack.com/]Status
+          + [https://www.browserstack.com/release-notes]Release Notes
+          + [https://www.browserstack.com/open-source]Open Source
+          + [https://www.browserstack.com/events]Events
+          + [https://www.browserstack.com/test-university]Test
+            UniversityBeta
+          + [https://www.browserstack.com/browserstack-champions]Champions
+     * [https://www.browserstack.com/live-for-teams]Live for Teams
+     * [https://www.browserstack.com/pricing]Pricing
+
+     * (BUTTON) Products
+     * (BUTTON) Developers
+     * [https://www.browserstack.com/live-for-teams]Live for Teams
+     * [https://www.browserstack.com/pricing]Pricing
+     * [https://www.browserstack.com/users/sign_in]Sign in
+     * [https://www.browserstack.com/users/sign_up]Free Trial
+     * [https://www.browserstack.com/users/sign_in]Go to Dashboard
+     * [https://www.browserstack.com/users/sign_in]Sign in
+     * [https://www.browserstack.com/users/sign_up]Free Trial
+     * (BUTTON)
+
+     * (BUTTON) Products
+     * Test your websites
+     * [https://www.browserstack.com/live]Live
+       Manual cross-browser testing
+     * [https://www.browserstack.com/automate]Automate
+       Browser automation grid
+     * [https://www.browserstack.com/percy]Percy
+       Visual testing & review
+     * [https://www.browserstack.com/accessibility-testing]Accessibility
+       Testing
+       Super app to find & report issues
+     * Test your mobile apps
+     * [https://www.browserstack.com/app-live]App Live
+       Manual real device testing
+     * [https://www.browserstack.com/app-automate]App Automate
+       Real device automation grid
+     * [https://www.browserstack.com/app-percy]App Percy
+       Visual testing for mobile apps
+     * Test management & optimization
+     * [https://www.browserstack.com/test-management]Test Management
+       Unify & track all test cases
+     * [https://www.browserstack.com/test-observability]Test Observability
+       Smart test reporting & debugging
+     * Test development
+     * [https://nightwatchjs.org/]Nightwatch.js
+       End-to-End testing framework
+     * For Teams
+     * [https://www.browserstack.com/enterprise]Enterprise
+     * Tools
+     * [https://www.browserstack.com/screenshots]Screenshots
+     * [https://www.browserstack.com/responsive]Responsive
+     * [https://www.browserstack.com/speedlab]SpeedLab
+
+     * (BUTTON) Developers
+     * [https://www.browserstack.com/docs]Documentation
+     * [https://www.browserstack.com/support]Support
+     * [https://status.browserstack.com/]Status
+     * [https://www.browserstack.com/release-notes]Release Notes
+     * [https://www.browserstack.com/open-source]Open Source
+     * [https://www.browserstack.com/events]Events
+     * [https://www.browserstack.com/test-university]Test University
+     * [https://www.browserstack.com/browserstack-champions]Champions
+
+   ____________________
+
+   (BUTTON) Clear Clear (BUTTON) Press
+   (BUTTON)
+   [https://www.browserstack.com/guide]BrowserStack logo BrowserStack logo
+   Guide
+   [https://www.browserstack.com/guide/browser-rendering-engine]Categories
+   ____________________
+   Press /
+   (BUTTON) Clear search Clear search (BUTTON) Press
+     * [https://www.browserstack.com/guide]Home
+     * [https://www.browserstack.com/guide/category/testing-on-cloud]Testi
+       ng on Cloud
+     * [https://www.browserstack.com/guide/category/debugging]Debugging
+     * [https://www.browserstack.com/guide/category/best-practices]Best
+       Practices
+     * [https://www.browserstack.com/guide/category/tools-frameworks]Tools
+       & Frameworks
+     * [https://www.browserstack.com/guide/category/tutorials]Tutorials
+
+     * [https://www.browserstack.com/contact?ref=guide-post-browser-render
+       ing-engine-get-a-demo#sales]GET A DEMO
+     * [https://www.browserstack.com/users/sign_up?ref=guide-post-browser-
+       rendering-engine-free-trial]Free Trial
+
+   App & Browser Testing Made Easy
+
+   Give your users a seamless experience by testing on 3000+ real devices
+   and browsers. Don't compromise with emulators and simulators
+   [https://www.browserstack.com/users/sign_up?ref=guide-hero-unit-exp1]Ge
+   t Started free
+   [https://www.browserstack.com/]Home
+   [https://www.browserstack.com/guide]Guide Understanding the Role of
+   Rendering Engine in Browsers
+
+Understanding the Role of Rendering Engine in Browsers
+
+   By Jash Unadkat, Community Contributor - April 27, 2023
+     * [https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.browse
+       rstack.com%2Fguide%2Fbrowser-rendering-engine]LinkedIn LinkedIn
+       LinkedIn
+     * [http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.browserstac
+       k.com%2Fguide%2Fbrowser-rendering-engine]Facebook Facebook Facebook
+     * [https://twitter.com/share?url=https%3A%2F%2Fwww.browserstack.com%2
+       Fguide%2Fbrowser-rendering-engine&text=Understanding%20the%20Role%2
+       0of%20Rendering%20Engine%20in%20Browsers&via=browserstack]Twitter
+       Twitter Twitter
+     * [https://web.whatsapp.com/send?text=Understanding%20the%20Role%20of
+       %20Rendering%20Engine%20in%20Browsers%20https%3A%2F%2Fwww.browserst
+       ack.com%2Fguide%2Fbrowser-rendering-engine]WhatsApp WhatsApp
+       WhatsApp
+
+   Table of Contents
+
+   Browser is pivotal in the functioning of any website. Right from how
+   the application renders to how it functions, everything depends on the
+   Browser and its functioning. To deliver a seamless user experience with
+   [https://www.browserstack.com/guide/cross-browser-compatibility-testing
+   -beyond-chrome]cross browser compatibility testing, it is essential to
+   understand the role of rendering engines in browsers.
+
+   Before diving into the role of a rendering engine in browsers, let’s
+   quickly understand the underlying architecture of a web browser.
+
+Understanding the Architecture of Web Browsers
+
+   Browsers are built of FrontEnd and BackEnd. While the FrontEnd ensures
+   how the webpage appears on the browser, the backend handles the
+   requests and is the carrier of information. Its different components
+   work in coordination to deliver a seamless web experience.
+
+   Each browser is made up of 7 different components:
+    1. User Interface
+    2. Browser Engine
+    3. Rendering Engine
+    4. Networking
+    5. JavaScript Interpreter
+    6. UI Backend
+    7. Data Persistence
+
+Architecture of Web Browsers Architecture of Web Browsers Components of Web
+Browser
+
+   Web Browsers consist of 7 different components listed below:
+
+1. User Interface
+
+   This component allows end-users to interact with all visual elements
+   available on the web page. The visual elements include the address bar,
+   home button, next button, and all other elements that fetch and display
+   the web page requested by the end-user.
+
+2. Browser Engine
+
+   It is a core component of every web browser. The browser engine
+   functions as an intermediary or a bridge between the user interface and
+   the rendering engine. It queries and handles the rendering engine as
+   per the inputs received from the user interface.
+
+   The performance and features of a browser engine can greatly impact the
+   user experience of a web browser. A fast and efficient browser engine
+   can help web pages load quickly and smoothly, while a slower or less
+   capable engine may struggle to render complex pages or provide a smooth
+   browsing experience.
+
+3. Rendering Engine
+
+   As the name suggests, this component is responsible for rendering a
+   specific web page requested by the user on their screen. It interprets
+   HTML and XML documents along with images that are styled or formatted
+   using CSS, and a final layout is generated, which is displayed on the
+   user interface.
+
+   Note: Every browser has its own unique rendering engine. Rendering
+   engines might also differ for different browser versions. The list
+   below mentions browser engines used by a few common browsers:
+    1. Google Chrome and Opera v.15+: Blink
+    2. Internet Explorer: Trident
+    3. Mozilla Firefox: Gecko
+    4. Chrome for iOS and Safari: WebKit
+
+4. Networking
+
+   This component is responsible for managing network calls using standard
+   protocols like HTTP or FTP. It also looks after security issues
+   associated with internet communication.
+
+5. JavaScript Interpreter
+
+   As the name suggests, it is responsible for parsing and executing the
+   JavaScript code embedded in a website. Once the interpreted results are
+   generated, they are forwarded to the rendering engine for display on
+   the user interface.
+
+6. UI Backend
+
+   This component uses the user interface methods of the underlying
+   operating system. It is mainly used for drawing basic widgets (windows
+   and combo boxes).
+
+7. Data Storage/Persistence
+
+   It is a persistent layer. A web browser needs to store various types of
+   data locally, for example, cookies. As a result, browsers must be
+   compatible with data storage mechanisms such as WebSQL, IndexedDB,
+   FileSystem, etc.
+
+   Now that we are aware of the key components involved in building a web
+   browser let’s dig deep into the role of the rendering engine.
+
+Role of Rendering Engine
+
+   Once a user requests a particular document, the rendering engine starts
+   fetching the content of the requested document. This is done via the
+   networking layer. The rendering engine starts receiving the content of
+   that specific document in chunks of 8 KBs from the networking layer.
+   After this, the basic flow of the rendering engine begins.
+
+   Browser rendering engine Browser rendering engine
+
+   The four basic steps include:
+    1. The requested HTML page is parsed in chunks, including the external
+       CSS files and in style elements, by the rendering engine. The HTML
+       elements are then converted into DOM nodes to form a “content tree”
+       or “DOM tree.”
+    2. Simultaneously, the browser also creates a render tree. This tree
+       includes both the styling information as well as the visual
+       instructions that define the order in which the elements will be
+       displayed. The render tree ensures that the content is displayed in
+       the desired order.
+    3. Further, the render tree goes through the layout process. When a
+       render tree is created, the position or size values are not
+       assigned. The entire process of calculating values for evaluating
+       the desired position is called a layout process. In this process,
+       every node is assigned the exact coordinates. This ensures that
+       every node appears at an accurate position on the screen.
+    4. The final step is to paint the screen, wherein the render tree is
+       traversed, and the renderer’s paint() method is invoked, which
+       paints each node on the screen using the UI backend layer.
+
+   As discussed earlier, every browser has its own unique rendering
+   engine. So naturally, every browser has its own way of interpreting web
+   pages on a user’s screen. Here’s where a challenge arises for web
+   developers regarding the cross-browser compatibility of their website.
+
+   This is where cross-browser testing comes into the picture.
+
+   [https://www.browserstack.com/live]Cross browser testing is a quality
+   assurance method used to verify the consistency of web applications in
+   terms of functionality and design across multiple browsers. These tests
+   enable QA teams to explore any issues by conducting a
+   [https://www.browserstack.com/responsive]responsive test, that may
+   occur when their website is accessed via different browsers or browser
+   versions.
+
+   [https://www.browserstack.com/users/sign_up?ref=guide-browser-rendering
+   -engine-top]Try Cross Browser Testing for Free
+
+   Organizations and teams can leverage online platforms like BrowserStack
+   for performing
+   [https://www.browserstack.com/guide/cross-browser-compatibility-testing
+   -beyond-chrome]cross browser compatibility testing across a wide range
+   of real browsers and devices. For example, one can perform
+   [https://www.browserstack.com/test-on-microsoft-edge-browser]Edge
+   Testing on Windows 10 to ensure that their web-app performs flawlessly
+   on Microsoft Edge.
+
+   By understanding how a rendering engine works, web developers can gain
+   greater insight into how websites operate. Consequently, they can
+   develop, design, and deploy content more efficiently. If one
+   comprehends the nuance of how web content is displayed on a user’s
+   screen by various browsers, one is simply more equipped to create
+   content that is compatible with multiple browsers.
+   [https://www.browserstack.com/guide/tag/cross-browser-testing]Cross
+   browser testing
+   [https://www.browserstack.com/guide/tag/responsive]Responsive
+   Was this post useful?
+   [javascript:void(0);]Yes, Thanks [javascript:void(0);]Not Really
+
+We're sorry to hear that. Please share your feedback so we can do better
+
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [BUTTON Input] (not implemented)______
+   Thanks a lot for your feedback!
+     * [https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.browse
+       rstack.com%2Fguide%2Fbrowser-rendering-engine]LinkedIn LinkedIn
+       LinkedIn
+     * [http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.browserstac
+       k.com%2Fguide%2Fbrowser-rendering-engine]Facebook Facebook Facebook
+     * [https://twitter.com/share?url=https%3A%2F%2Fwww.browserstack.com%2
+       Fguide%2Fbrowser-rendering-engine&text=Understanding%20the%20Role%2
+       0of%20Rendering%20Engine%20in%20Browsers&via=browserstack]Twitter
+       Twitter Twitter
+     * [https://web.whatsapp.com/send?text=Understanding%20the%20Role%20of
+       %20Rendering%20Engine%20in%20Browsers%20https%3A%2F%2Fwww.browserst
+       ack.com%2Fguide%2Fbrowser-rendering-engine]WhatsApp WhatsApp
+       WhatsApp
+
+   Tags
+   [https://www.browserstack.com/guide/tag/cross-browser-testing]Cross
+   browser testing
+   [https://www.browserstack.com/guide/tag/responsive]Responsive
+
+Related Articles
+
+   [https://www.browserstack.com/guide/common-browser-issues]
+   4 Common Browser Issues and its Solutions 4 Common Browser Issues and
+   its Solutions
+
+4 Common Browser Issues and its Solutions
+
+   Browser Issues can hinder the user experience while accessing website.
+   Here’s a rundown of 4 commo...
+   Learn More
+   [https://www.browserstack.com/guide/understanding-browser-market-share]
+   Understanding Browser Market Share: Which browsers to test on in 2023
+   Understanding Browser Market Share: Which browsers to test on in 2023
+
+Understanding Browser Market Share: Which browsers to test on in 2023
+
+   Browsers are fundamental for website market. Let’s understand Browser
+   Market Share, and choose whi...
+   Learn More
+   [https://www.browserstack.com/guide/common-cross-browser-compatibility-
+   issues]
+   Common reasons for failure in Cross Browser Testing Common reasons for
+   failure in Cross Browser Testing
+
+Cross Browser Compatibility Issues to Avoid
+
+   A consolidated list of 9 most common cross browser testing issues and
+   how to solve them. Read the ar...
+   Learn More
+
+Featured Articles
+
+[https://www.browserstack.com/guide/common-browser-issues]4 Common Browser
+Issues and its Solutions
+
+[https://www.browserstack.com/guide/understanding-browser-market-share]Unders
+tanding Browser Market Share: Which browsers to test on in 2023
+
+Curated for all your Testing Needs
+
+   Actionable Insights, Tips, & Tutorials delivered in your Inbox
+   ____________________
+   Subscribe
+   By subscribing , you agree to our
+   [https://www.browserstack.com/privacy]Privacy Policy.
+   (BUTTON)
+   thank you illustration thank you illustration
+
+Thank you for Subscribing!
+
+   Expect a curated list of guides shortly.
+
+   Products
+     * [https://www.browserstack.com/live]Live
+     * [https://www.browserstack.com/automate]Automate
+     * [https://www.browserstack.com/percy]Percy
+     * [https://www.browserstack.com/app-live]App Live
+     * [https://www.browserstack.com/app-automate]App Automate
+     * [https://www.browserstack.com/app-percy]App Percy New
+     * [https://www.browserstack.com/test-management]Test Management Beta
+     * [https://www.browserstack.com/test-observability]Test Observability
+       Beta
+     * [https://www.browserstack.com/accessibility-testing]Accessibility
+       Testing Beta
+     * [https://nightwatchjs.org/]Nightwatch.js
+     * [https://www.browserstack.com/enterprise?ref=footer]Enterprise
+
+   Tools
+     * [https://www.browserstack.com/speedlab]SpeedLab
+     * [https://www.browserstack.com/screenshots]Screenshots
+     * [https://www.browserstack.com/responsive]Responsive
+
+   Platform
+     * [https://www.browserstack.com/list-of-browsers-and-platforms]Browse
+       rs & Devices
+     * [https://www.browserstack.com/data-centers]Data Centers
+     * [https://www.browserstack.com/device-features]Device Features
+     * [https://www.browserstack.com/security]Security
+
+   Solutions
+     * [https://www.browserstack.com/test-on-iphone]Test on iPhone
+     * [https://www.browserstack.com/test-on-ipad]Test on iPad
+     * [https://www.browserstack.com/test-on-galaxy]Test on Galaxy
+     * [https://www.browserstack.com/test-in-internet-explorer]Test In IE
+     * [https://www.browserstack.com/android-testing]Android Testing
+     * [https://www.browserstack.com/ios-testing]iOS Testing
+     * [https://www.browserstack.com/cross-browser-testing]Cross Browser
+       Testing
+     * [https://www.browserstack.com/emulators-simulators]Emulators &
+       Simulators
+     * [https://www.browserstack.com/selenium]Selenium
+     * [https://www.browserstack.com/automate/cypress]Cypress
+     * [https://www.browserstack.com/android-emulators]Android Emulators
+     * [https://www.browserstack.com/percy/visual-testing]Visual Testing
+
+   Resources
+     * [https://www.browserstack.com/test-on-the-right-mobile-devices]Test
+       on Right Devices
+     * [https://www.browserstack.com/support]Support
+     * [https://status.browserstack.com/]Status
+     * [https://www.browserstack.com/release-notes]Release Notes
+     * [https://www.browserstack.com/case-study]Case Studies
+     * [https://www.browserstack.com/blog]Blog
+     * [https://www.browserstack.com/events]Events
+     * [https://www.browserstack.com/test-university]Test University Beta
+     * [https://www.browserstack.com/browserstack-champions]Champions
+     * [https://www.browserstack.com/mobile-browser-emulator]Mobile
+       Emulators
+     * [https://www.browserstack.com/guide]Guide
+     * [https://www.browserstack.com/responsive-design]Responsive Design
+
+   Company
+     * [https://www.browserstack.com/company]About Us
+     * [https://www.browserstack.com/customers]Customers
+     * [https://www.browserstack.com/careers]Careers We’re hiring!
+     * [https://www.browserstack.com/open-source]Open Source
+     * [https://www.browserstack.com/partners]Partners
+     * [https://www.browserstack.com/press]Press
+     * [https://www.browserstack.com/contact?ref=footer]Contact
+
+   [https://www.browserstack.com/]An illustration of BrowserStack Logo
+
+   Social
+     * [https://twitter.com/browserstack]An illustration of white twitter
+       Logo
+     * [https://www.facebook.com/pages/BrowserStack/305988982776051]An
+       illustration of white FaceBook Logo
+     * [https://www.linkedin.com/company/browserstack/]An illustration of
+       white LinkedIn Logo
+     * [https://www.youtube.com/c/browserstack]An illustration of white
+       youtube Logo
+     * [https://www.instagram.com/browserstack]An illustration of white
+       instagram Logo
+
+   [https://www.browserstack.com/contact?ref=footer]An illustration of
+   white contact us iconContact Us
+   [https://www.browserstack.com/]An illustration of BrowserStack Logo
+
+   © 2023 BrowserStack. All rights reserved.
+     * [https://www.browserstack.com/terms]Terms of Service
+     * [https://www.browserstack.com/privacy]Privacy Policy
+     * [https://www.browserstack.com/cookie-policy]Cookie Policy
+     * [https://www.browserstack.com/sitemap]Sitemap
+
+   We use cookies to enhance user experience. By continuing to browse or
+   closing this banner, you agree to our
+   [https://www.browserstack.com/privacy]Privacy Policy &
+   [https://www.browserstack.com/terms]Terms of Service.
+   (BUTTON) Accept All (BUTTON)
+
+   (BUTTON) Talk to an Expert

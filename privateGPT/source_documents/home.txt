@@ -1,0 +1,2385 @@
+   #[https://kubernetes.io/zh-cn/docs/home/]alternate
+   [https://kubernetes.io/ko/docs/home/]alternate
+   [https://kubernetes.io/ja/docs/home/]alternate
+   [https://kubernetes.io/fr/docs/home/]alternate
+   [https://kubernetes.io/it/docs/home/]alternate
+   [https://kubernetes.io/de/docs/home/]alternate
+   [https://kubernetes.io/es/docs/home/]alternate
+   [https://kubernetes.io/pt-br/docs/home/]alternate
+   [https://kubernetes.io/id/docs/home/]alternate
+   [https://kubernetes.io/hi/docs/home/]alternate
+   [https://kubernetes.io/vi/docs/home/]alternate
+   [https://kubernetes.io/ru/docs/home/]alternate
+   [https://kubernetes.io/pl/docs/home/]alternate
+   [https://kubernetes.io/uk/docs/home/]alternate
+   [https://kubernetes.io/docs/home/_print/]alternate
+
+   [https://kubernetes.io/]
+
+     * [https://kubernetes.io/docs/]Documentation
+     * [https://kubernetes.io/blog/]Kubernetes Blog
+     * [https://kubernetes.io/training/]Training
+     * [https://kubernetes.io/partners/]Partners
+     * [https://kubernetes.io/community/]Community
+     * [https://kubernetes.io/case-studies/]Case Studies
+     * [https://kubernetes.io/docs/home/]Versions
+       [https://kubernetes.io/releases]Release Information
+       [https://kubernetes.io/docs/home/]v1.27
+       [https://v1-26.docs.kubernetes.io/docs/home/]v1.26
+       [https://v1-25.docs.kubernetes.io/docs/home/]v1.25
+       [https://v1-24.docs.kubernetes.io/docs/home/]v1.24
+       [https://v1-23.docs.kubernetes.io/docs/home/]v1.23
+     * [https://kubernetes.io/docs/home/]English
+       [https://kubernetes.io/zh-cn/docs/home/]中文 (Chinese)
+       [https://kubernetes.io/ko/docs/home/]한국어 (Korean)
+       [https://kubernetes.io/ja/docs/home/]日本語 (Japanese)
+       [https://kubernetes.io/fr/docs/home/]Français (French)
+       [https://kubernetes.io/it/docs/home/]Italiano (Italian)
+       [https://kubernetes.io/de/docs/home/]Deutsch (German)
+       [https://kubernetes.io/es/docs/home/]Español (Spanish)
+       [https://kubernetes.io/pt-br/docs/home/]Português (Portuguese)
+       [https://kubernetes.io/id/docs/home/]Bahasa Indonesia
+       [https://kubernetes.io/hi/docs/home/]हिन्दी (Hindi)
+       [https://kubernetes.io/vi/docs/home/]Tiếng Việt (Vietnamese)
+       [https://kubernetes.io/ru/docs/home/]Русский (Russian)
+       [https://kubernetes.io/pl/docs/home/]Polski (Polish)
+       [https://kubernetes.io/uk/docs/home/]Українська (Ukrainian)
+
+   (BUTTON)
+
+                            Kubernetes Documentation
+
+   ____________________ (BUTTON)
+
+     *
+          + [ ] [https://kubernetes.io/docs/home/]Home
+               o [ ]
+                 [https://kubernetes.io/docs/home/supported-doc-versions/]
+                 Available Documentation Versions
+          + [ ] [https://kubernetes.io/docs/setup/]Getting started
+               o [ ]
+                 [https://kubernetes.io/docs/setup/learning-environment/]L
+                 earning environment
+               o [ ]
+                 [https://kubernetes.io/docs/setup/production-environment/
+                 ]Production environment
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/production-environ
+                      ment/container-runtimes/]Container Runtimes
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/production-environ
+                      ment/tools/]Installing Kubernetes with deployment
+                      tools
+                         @ [ ]
+                           [https://kubernetes.io/docs/setup/production-en
+                           vironment/tools/kubeadm/]Bootstrapping clusters
+                           with kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/install-kubea
+                                dm/]Installing kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/troubleshooti
+                                ng-kubeadm/]Troubleshooting kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/create-cluste
+                                r-kubeadm/]Creating a cluster with kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/control-plane
+                                -flags/]Customizing components with the
+                                kubeadm API
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/ha-topology/]
+                                Options for Highly Available Topology
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/high-availabi
+                                lity/]Creating Highly Available Clusters
+                                with kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/setup-ha-etcd
+                                -with-kubeadm/]Set up a High Availability
+                                etcd Cluster with kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/kubelet-integ
+                                ration/]Configuring each kubelet in your
+                                cluster using kubeadm
+                              - [ ]
+                                [https://kubernetes.io/docs/setup/producti
+                                on-environment/tools/kubeadm/dual-stack-su
+                                pport/]Dual-stack support with kubeadm
+                         @ [ ]
+                           [https://kubernetes.io/docs/setup/production-en
+                           vironment/tools/kops/]Installing Kubernetes
+                           with kOps
+                         @ [ ]
+                           [https://kubernetes.io/docs/setup/production-en
+                           vironment/tools/kubespray/]Installing
+                           Kubernetes with Kubespray
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/production-environ
+                      ment/turnkey-solutions/]Turnkey Cloud Solutions
+               o [ ]
+                 [https://kubernetes.io/docs/setup/best-practices/]Best
+                 practices
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/best-practices/clu
+                      ster-large/]Considerations for large clusters
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/best-practices/mul
+                      tiple-zones/]Running in multiple zones
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/best-practices/nod
+                      e-conformance/]Validate node setup
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/best-practices/enf
+                      orcing-pod-security-standards/]Enforcing Pod
+                      Security Standards
+                    # [ ]
+                      [https://kubernetes.io/docs/setup/best-practices/cer
+                      tificates/]PKI certificates and requirements
+          + [ ] [https://kubernetes.io/docs/concepts/]Concepts
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/overview/]Overview
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/overview/workin
+                      g-with-objects/]Objects In Kubernetes
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/object-management/]Kubernet
+                           es Object Management
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/names/]Object Names and IDs
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/labels/]Labels and
+                           Selectors
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/namespaces/]Namespaces
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/annotations/]Annotations
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/field-selectors/]Field
+                           Selectors
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/finalizers/]Finalizers
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/owners-dependents/]Owners
+                           and Dependents
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/overview/w
+                           orking-with-objects/common-labels/]Recommended
+                           Labels
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/overview/compon
+                      ents/]Kubernetes Components
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/overview/kubern
+                      etes-api/]The Kubernetes API
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/architecture/]Cluste
+                 r Architecture
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/no
+                      des/]Nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/co
+                      ntrol-plane-node-communication/]Communication
+                      between Nodes and the Control Plane
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/co
+                      ntroller/]Controllers
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/le
+                      ases/]Leases
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/cl
+                      oud-controller/]Cloud Controller Manager
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/cg
+                      roups/]About cgroup v2
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/cr
+                      i/]Container Runtime Interface (CRI)
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/architecture/ga
+                      rbage-collection/]Garbage Collection
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/containers/]Containe
+                 rs
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/containers/imag
+                      es/]Images
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/containers/cont
+                      ainer-environment/]Container Environment
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/containers/runt
+                      ime-class/]Runtime Class
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/containers/cont
+                      ainer-lifecycle-hooks/]Container Lifecycle Hooks
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/workloads/]Workloads
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/workloads/pods/
+                      ]Pods
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/pod-lifecycle/]Pod Lifecycle
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/init-containers/]Init Containers
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/disruptions/]Disruptions
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/ephemeral-containers/]Ephemeral Containers
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/pod-qos/]Pod Quality of Service Classes
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/user-namespaces/]User Namespaces
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           pods/downward-api/]Downward API
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/workloads/contr
+                      ollers/]Workload Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/deployment/]Deployments
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/replicaset/]ReplicaSet
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/statefulset/]StatefulSets
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/daemonset/]DaemonSet
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/job/]Jobs
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/ttlafterfinished/]Automatic Cleanup
+                           for Finished Jobs
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/cron-jobs/]CronJob
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/workloads/
+                           controllers/replicationcontroller/]ReplicationC
+                           ontroller
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/services-networking/
+                 ]Services, Load Balancing, and Networking
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/service/]Service
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/ingress/]Ingress
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/ingress-controllers/]Ingress Controllers
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/endpoint-slices/]EndpointSlices
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/network-policies/]Network Policies
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/dns-pod-service/]DNS for Services and Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/dual-stack/]IPv4/IPv6 dual-stack
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/topology-aware-routing/]Topology Aware Routing
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/windows-networking/]Networking on Windows
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/cluster-ip-allocation/]Service ClusterIP
+                      allocation
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/service-traffic-policy/]Service Internal
+                      Traffic Policy
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/services-networ
+                      king/service-topology/]Topology-aware traffic
+                      routing with topology keys
+               o [ ] [https://kubernetes.io/docs/concepts/storage/]Storage
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/volumes
+                      /]Volumes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/persist
+                      ent-volumes/]Persistent Volumes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/project
+                      ed-volumes/]Projected Volumes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/ephemer
+                      al-volumes/]Ephemeral Volumes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/storage
+                      -classes/]Storage Classes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/dynamic
+                      -provisioning/]Dynamic Volume Provisioning
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/volume-
+                      snapshots/]Volume Snapshots
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/volume-
+                      snapshot-classes/]Volume Snapshot Classes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/volume-
+                      pvc-datasource/]CSI Volume Cloning
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/storage
+                      -capacity/]Storage Capacity
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/storage
+                      -limits/]Node-specific Volume Limits
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/volume-
+                      health-monitoring/]Volume Health Monitoring
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/storage/windows
+                      -storage/]Windows Storage
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/configuration/]Confi
+                 guration
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/o
+                      verview/]Configuration Best Practices
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/c
+                      onfigmap/]ConfigMaps
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/s
+                      ecret/]Secrets
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/m
+                      anage-resources-containers/]Resource Management for
+                      Pods and Containers
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/o
+                      rganize-cluster-access-kubeconfig/]Organizing
+                      Cluster Access Using kubeconfig Files
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/configuration/w
+                      indows-resource-management/]Resource Management for
+                      Windows nodes
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/security/]Security
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/overvi
+                      ew/]Overview of Cloud Native Security
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/pod-se
+                      curity-standards/]Pod Security Standards
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/servic
+                      e-accounts/]Service Accounts
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/pod-se
+                      curity-admission/]Pod Security Admission
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/pod-se
+                      curity-policy/]Pod Security Policies
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/window
+                      s-security/]Security For Windows Nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/contro
+                      lling-access/]Controlling Access to the Kubernetes
+                      API
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/rbac-g
+                      ood-practices/]Role Based Access Control Good
+                      Practices
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/secret
+                      s-good-practices/]Good practices for Kubernetes
+                      Secrets
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/multi-
+                      tenancy/]Multi-tenancy
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/api-se
+                      rver-bypass-risks/]Kubernetes API Server Bypass
+                      Risks
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/security/securi
+                      ty-checklist/]Security Checklist
+               o [ ] [https://kubernetes.io/docs/concepts/policy/]Policies
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/policy/limit-ra
+                      nge/]Limit Ranges
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/policy/resource
+                      -quotas/]Resource Quotas
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/policy/pid-limi
+                      ting/]Process ID Limits And Reservations
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/policy/node-res
+                      ource-managers/]Node Resource Managers
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/scheduling-eviction/
+                 ]Scheduling, Preemption and Eviction
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/kube-scheduler/]Kubernetes Scheduler
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/assign-pod-node/]Assigning Pods to Nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/pod-overhead/]Pod Overhead
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/pod-scheduling-readiness/]Pod Scheduling
+                      Readiness
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/topology-spread-constraints/]Pod Topology
+                      Spread Constraints
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/taint-and-toleration/]Taints and Tolerations
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/scheduling-framework/]Scheduling Framework
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/dynamic-resource-allocation/]Dynamic Resource
+                      Allocation
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/scheduler-perf-tuning/]Scheduler Performance
+                      Tuning
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/resource-bin-packing/]Resource Bin Packing
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/pod-priority-preemption/]Pod Priority and
+                      Preemption
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/node-pressure-eviction/]Node-pressure Eviction
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/scheduling-evic
+                      tion/api-eviction/]API-initiated Eviction
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/cluster-administrati
+                 on/]Cluster Administration
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/certificates/]Certificates
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/manage-deployment/]Managing Resources
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/networking/]Cluster Networking
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/logging/]Logging Architecture
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/system-metrics/]Metrics For Kubernetes
+                      System Components
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/system-logs/]System Logs
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/system-traces/]Traces For Kubernetes System
+                      Components
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/proxies/]Proxies in Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/flow-control/]API Priority and Fairness
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/cluster-adminis
+                      tration/addons/]Installing Addons
+               o [ ] [https://kubernetes.io/docs/concepts/windows/]Windows
+                 in Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/windows/intro/]
+                      Windows containers in Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/windows/user-gu
+                      ide/]Guide for Running Windows Containers in
+                      Kubernetes
+               o [ ]
+                 [https://kubernetes.io/docs/concepts/extend-kubernetes/]E
+                 xtending Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/extend-kubernet
+                      es/compute-storage-net/]Compute, Storage, and
+                      Networking Extensions
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/extend-kub
+                           ernetes/compute-storage-net/network-plugins/]Ne
+                           twork Plugins
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/extend-kub
+                           ernetes/compute-storage-net/device-plugins/]Dev
+                           ice Plugins
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/extend-kubernet
+                      es/api-extension/]Extending the Kubernetes API
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/extend-kub
+                           ernetes/api-extension/custom-resources/]Custom
+                           Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/concepts/extend-kub
+                           ernetes/api-extension/apiserver-aggregation/]Ku
+                           bernetes API Aggregation Layer
+                    # [ ]
+                      [https://kubernetes.io/docs/concepts/extend-kubernet
+                      es/operator/]Operator pattern
+          + [ ] [https://kubernetes.io/docs/tasks/]Tasks
+               o [ ] [https://kubernetes.io/docs/tasks/tools/]Install
+                 Tools
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tools/install-kube
+                      ctl-linux/]Install and Set Up kubectl on Linux
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tools/install-kube
+                      ctl-macos/]Install and Set Up kubectl on macOS
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tools/install-kube
+                      ctl-windows/]Install and Set Up kubectl on Windows
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/administer-cluster/]Adm
+                 inister a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /kubeadm/]Administration with kubeadm
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/kubeadm-certs/]Certificate
+                           Management with kubeadm
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/configure-cgroup-driver/]Configur
+                           ing a cgroup driver
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/kubeadm-reconfigure/]Reconfigurin
+                           g a kubeadm cluster
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/kubeadm-upgrade/]Upgrading
+                           kubeadm clusters
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/upgrading-linux-nodes/]Upgrading
+                           Linux nodes
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/kubeadm/upgrading-windows-nodes/]Upgradin
+                           g Windows nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /migrating-from-dockershim/]Migrating from
+                      dockershim
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/change-runtime-
+                           containerd/]Changing the Container Runtime on a
+                           Node from Docker Engine to containerd
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/migrate-dockers
+                           him-dockerd/]Migrate Docker Engine nodes from
+                           dockershim to cri-dockerd
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/find-out-runtim
+                           e-you-use/]Find Out What Container Runtime is
+                           Used on a Node
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/troubleshooting
+                           -cni-plugin-related-errors/]Troubleshooting CNI
+                           plugin-related errors
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/check-if-docker
+                           shim-removal-affects-you/]Check whether
+                           dockershim removal affects you
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/migrating-from-dockershim/migrating-telem
+                           etry-and-security-agents/]Migrating telemetry
+                           and security agents from dockershim
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /certificates/]Generate Certificates Manually
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /manage-resources/]Manage Memory, CPU, and API
+                      Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/memory-default-namespace
+                           /]Configure Default Memory Requests and Limits
+                           for a Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/cpu-default-namespace/]C
+                           onfigure Default CPU Requests and Limits for a
+                           Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/memory-constraint-namesp
+                           ace/]Configure Minimum and Maximum Memory
+                           Constraints for a Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/cpu-constraint-namespace
+                           /]Configure Minimum and Maximum CPU Constraints
+                           for a Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/quota-memory-cpu-namespa
+                           ce/]Configure Memory and CPU Quotas for a
+                           Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/manage-resources/quota-pod-namespace/]Con
+                           figure a Pod Quota for a Namespace
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /network-policy-provider/]Install a Network Policy
+                      Provider
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/antrea-network-po
+                           licy/]Use Antrea for NetworkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/calico-network-po
+                           licy/]Use Calico for NetworkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/cilium-network-po
+                           licy/]Use Cilium for NetworkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/kube-router-netwo
+                           rk-policy/]Use Kube-router for NetworkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/romana-network-po
+                           licy/]Romana for NetworkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/administer-cl
+                           uster/network-policy-provider/weave-network-pol
+                           icy/]Weave Net for NetworkPolicy
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /access-cluster-api/]Access Clusters Using the
+                      Kubernetes API
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /extended-resource-node/]Advertise Extended
+                      Resources for a Node
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /dns-horizontal-autoscaling/]Autoscale the DNS
+                      Service in a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /change-default-storage-class/]Change the default
+                      StorageClass
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /switch-to-evented-pleg/]Switching from Polling to
+                      CRI Event-based Updates to Container Status
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /change-pv-reclaim-policy/]Change the Reclaim Policy
+                      of a PersistentVolume
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /running-cloud-controller/]Cloud Controller Manager
+                      Administration
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /kubelet-credential-provider/]Configure a kubelet
+                      image credential provider
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /quota-api-object/]Configure Quotas for API Objects
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /cpu-management-policies/]Control CPU Management
+                      Policies on the Node
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /topology-manager/]Control Topology Management
+                      Policies on a node
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /dns-custom-nameservers/]Customizing DNS Service
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /dns-debugging-resolution/]Debugging DNS Resolution
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /declare-network-policy/]Declare Network Policy
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /developing-cloud-controller-manager/]Developing
+                      Cloud Controller Manager
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /enable-disable-api/]Enable Or Disable A Kubernetes
+                      API
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /encrypt-data/]Encrypting Confidential Data at Rest
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /guaranteed-scheduling-critical-addon-pods/]Guarante
+                      ed Scheduling For Critical Add-On Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /ip-masq-agent/]IP Masquerade Agent User Guide
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /limit-storage-consumption/]Limit Storage
+                      Consumption
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /controller-manager-leader-migration/]Migrate
+                      Replicated Control Plane To Use Cloud Controller
+                      Manager
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /namespaces-walkthrough/]Namespaces Walkthrough
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /configure-upgrade-etcd/]Operating etcd clusters for
+                      Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /reconfigure-kubelet/]Reconfigure a Node's Kubelet
+                      in a Live Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /reserve-compute-resources/]Reserve Compute
+                      Resources for System Daemons
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /kubelet-in-userns/]Running Kubernetes Node
+                      Components as a Non-root User
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /safely-drain-node/]Safely Drain a Node
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /securing-a-cluster/]Securing a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /kubelet-config-file/]Set Kubelet parameters via a
+                      config file
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /namespaces/]Share a Cluster with Namespaces
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /cluster-upgrade/]Upgrade A Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /use-cascading-deletion/]Use Cascading Deletion in a
+                      Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /kms-provider/]Using a KMS provider for data
+                      encryption
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /coredns/]Using CoreDNS for Service Discovery
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /nodelocaldns/]Using NodeLocal DNSCache in
+                      Kubernetes Clusters
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /sysctl-cluster/]Using sysctls in a Kubernetes
+                      Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /memory-manager/]Utilizing the NUMA-aware Memory
+                      Manager
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/administer-cluster
+                      /verify-signed-artifacts/]Verify Signed Kubernetes
+                      Artifacts
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/configure-pod-container
+                 /]Configure Pods and Containers
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/assign-memory-resource/]Assign Memory
+                      Resources to Containers and Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/assign-cpu-resource/]Assign CPU Resources to
+                      Containers and Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-gmsa/]Configure GMSA for Windows
+                      Pods and containers
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/resize-container-resources/]Resize CPU and
+                      Memory Resources assigned to Containers
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-runasusername/]Configure
+                      RunAsUserName for Windows pods and containers
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/create-hostprocess-pod/]Create a Windows
+                      HostProcess Pod
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/quality-service-pod/]Configure Quality of
+                      Service for Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/extended-resource/]Assign Extended Resources
+                      to a Container
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-volume-storage/]Configure a Pod to
+                      Use a Volume for Storage
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-persistent-volume-storage/]Configure
+                      a Pod to Use a PersistentVolume for Storage
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-projected-volume-storage/]Configure
+                      a Pod to Use a Projected Volume for Storage
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/security-context/]Configure a Security Context
+                      for a Pod or Container
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-service-account/]Configure Service
+                      Accounts for Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/pull-image-private-registry/]Pull an Image
+                      from a Private Registry
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-liveness-readiness-startup-probes/]C
+                      onfigure Liveness, Readiness and Startup Probes
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/assign-pods-nodes/]Assign Pods to Nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/assign-pods-nodes-using-node-affinity/]Assign
+                      Pods to Nodes using Node Affinity
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-pod-initialization/]Configure Pod
+                      Initialization
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/attach-handler-lifecycle-event/]Attach
+                      Handlers to Container Lifecycle Events
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/configure-pod-configmap/]Configure a Pod to
+                      Use a ConfigMap
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/share-process-namespace/]Share Process
+                      Namespace between Containers in a Pod
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/user-namespaces/]Use a User Namespace With a
+                      Pod
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/static-pod/]Create static Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/translate-compose-kubernetes/]Translate a
+                      Docker Compose File to Kubernetes Resources
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/enforce-standards-admission-controller/]Enforc
+                      e Pod Security Standards by Configuring the Built-in
+                      Admission Controller
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/enforce-standards-namespace-labels/]Enforce
+                      Pod Security Standards with Namespace Labels
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configure-pod-cont
+                      ainer/migrate-from-psp/]Migrate from
+                      PodSecurityPolicy to the Built-In PodSecurity
+                      Admission Controller
+               o [ ] [https://kubernetes.io/docs/tasks/debug/]Monitoring,
+                 Logging, and Debugging
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/debug/debug-applic
+                      ation/]Troubleshooting Applications
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/debug-pods/]Debug Pods
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/debug-service/]Debug Services
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/debug-statefulset/]Debug a
+                           StatefulSet
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/determine-reason-pod-failure/]Determ
+                           ine the Reason for Pod Failure
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/debug-init-containers/]Debug Init
+                           Containers
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/debug-running-pod/]Debug Running
+                           Pods
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-a
+                           pplication/get-shell-running-container/]Get a
+                           Shell to a Running Container
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/debug/debug-cluste
+                      r/]Troubleshooting Clusters
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/resource-metrics-pipeline/]Resource
+                           metrics pipeline
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/resource-usage-monitoring/]Tools for
+                           Monitoring Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/monitor-node-health/]Monitor Node Health
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/crictl/]Debugging Kubernetes nodes with
+                           crictl
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/audit/]Auditing
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/kubectl-node-debug/]Debugging Kubernetes
+                           Nodes With Kubectl
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/local-debugging/]Developing and
+                           debugging services locally using telepresence
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/debug/debug-c
+                           luster/windows/]Windows debugging tips
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/manage-kubernetes-objec
+                 ts/]Manage Kubernetes Objects
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-kubernetes-
+                      objects/declarative-config/]Declarative Management
+                      of Kubernetes Objects Using Configuration Files
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-kubernetes-
+                      objects/kustomization/]Declarative Management of
+                      Kubernetes Objects Using Kustomize
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-kubernetes-
+                      objects/imperative-command/]Managing Kubernetes
+                      Objects Using Imperative Commands
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-kubernetes-
+                      objects/imperative-config/]Imperative Management of
+                      Kubernetes Objects Using Configuration Files
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-kubernetes-
+                      objects/update-api-object-kubectl-patch/]Update API
+                      Objects in Place Using kubectl patch
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/configmap-secret/]Manag
+                 ing Secrets
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configmap-secret/m
+                      anaging-secret-using-kubectl/]Managing Secrets using
+                      kubectl
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configmap-secret/m
+                      anaging-secret-using-config-file/]Managing Secrets
+                      using Configuration File
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/configmap-secret/m
+                      anaging-secret-using-kustomize/]Managing Secrets
+                      using Kustomize
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/inject-data-application
+                 /]Inject Data Into Applications
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/define-command-argument-container/]Define a
+                      Command and Arguments for a Container
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/define-interdependent-environment-variables/]D
+                      efine Dependent Environment Variables
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/define-environment-variable-container/]Define
+                      Environment Variables for a Container
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/environment-variable-expose-pod-information/]E
+                      xpose Pod Information to Containers Through
+                      Environment Variables
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/downward-api-volume-expose-pod-information/]Ex
+                      pose Pod Information to Containers Through Files
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/inject-data-applic
+                      ation/distribute-credentials-secure/]Distribute
+                      Credentials Securely Using Secrets
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/run-application/]Run
+                 Applications
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ru
+                      n-stateless-application-deployment/]Run a Stateless
+                      Application Using a Deployment
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ru
+                      n-single-instance-stateful-application/]Run a
+                      Single-Instance Stateful Application
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ru
+                      n-replicated-stateful-application/]Run a Replicated
+                      Stateful Application
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/sc
+                      ale-stateful-set/]Scale a StatefulSet
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/de
+                      lete-stateful-set/]Delete a StatefulSet
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/fo
+                      rce-delete-stateful-set-pod/]Force Delete
+                      StatefulSet Pods
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ho
+                      rizontal-pod-autoscale/]Horizontal Pod Autoscaling
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ho
+                      rizontal-pod-autoscale-walkthrough/]HorizontalPodAut
+                      oscaler Walkthrough
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/co
+                      nfigure-pdb/]Specifying a Disruption Budget for your
+                      Application
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/run-application/ac
+                      cess-api-from-pod/]Accessing the Kubernetes API from
+                      a Pod
+               o [ ] [https://kubernetes.io/docs/tasks/job/]Run Jobs
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/automated-task
+                      s-with-cron-jobs/]Running Automated Tasks with a
+                      CronJob
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/coarse-paralle
+                      l-processing-work-queue/]Coarse Parallel Processing
+                      Using a Work Queue
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/fine-parallel-
+                      processing-work-queue/]Fine Parallel Processing
+                      Using a Work Queue
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/indexed-parall
+                      el-processing-static/]Indexed Job for Parallel
+                      Processing with Static Work Assignment
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/job-with-pod-t
+                      o-pod-communication/]Job with Pod-to-Pod
+                      Communication
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/parallel-proce
+                      ssing-expansion/]Parallel Processing using
+                      Expansions
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/job/pod-failure-po
+                      licy/]Handling retriable and non-retriable pod
+                      failures with Pod failure policy
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/access-application-clus
+                 ter/]Access Applications in a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/web-ui-dashboard/]Deploy and Access the
+                      Kubernetes Dashboard
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/access-cluster/]Accessing Clusters
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/configure-access-multiple-clusters/]Configu
+                      re Access to Multiple Clusters
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/port-forward-access-application-cluster/]Us
+                      e Port Forwarding to Access Applications in a
+                      Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/service-access-application-cluster/]Use a
+                      Service to Access an Application in a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/connecting-frontend-backend/]Connect a
+                      Frontend to a Backend Using Services
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/create-external-load-balancer/]Create an
+                      External Load Balancer
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/list-all-running-container-images/]List All
+                      Container Images Running in a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/ingress-minikube/]Set up Ingress on
+                      Minikube with the NGINX Ingress Controller
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/communicate-containers-same-pod-shared-volu
+                      me/]Communicate Between Containers in the Same Pod
+                      Using a Shared Volume
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/configure-dns-cluster/]Configure DNS for a
+                      Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/access-application
+                      -cluster/access-cluster-services/]Access Services
+                      Running on Clusters
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/extend-kubernetes/]Exte
+                 nd Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      configure-aggregation-layer/]Configure the
+                      Aggregation Layer
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      custom-resources/]Use Custom Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/extend-kubern
+                           etes/custom-resources/custom-resource-definitio
+                           ns/]Extend the Kubernetes API with
+                           CustomResourceDefinitions
+                         @ [ ]
+                           [https://kubernetes.io/docs/tasks/extend-kubern
+                           etes/custom-resources/custom-resource-definitio
+                           n-versioning/]Versions in
+                           CustomResourceDefinitions
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      setup-extension-api-server/]Set up an Extension API
+                      Server
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      configure-multiple-schedulers/]Configure Multiple
+                      Schedulers
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      http-proxy-access-api/]Use an HTTP Proxy to Access
+                      the Kubernetes API
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      socks5-proxy-access-api/]Use a SOCKS5 Proxy to
+                      Access the Kubernetes API
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/extend-kubernetes/
+                      setup-konnectivity/]Set up Konnectivity service
+               o [ ] [https://kubernetes.io/docs/tasks/tls/]TLS
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tls/certificate-ro
+                      tation/]Configure Certificate Rotation for the
+                      Kubelet
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tls/managing-tls-i
+                      n-a-cluster/]Manage TLS Certificates in a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/tls/manual-rotatio
+                      n-of-ca-certificates/]Manual Rotation of CA
+                      Certificates
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/manage-daemon/]Manage
+                 Cluster Daemons
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-daemon/upda
+                      te-daemon-set/]Perform a Rolling Update on a
+                      DaemonSet
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-daemon/roll
+                      back-daemon-set/]Perform a Rollback on a DaemonSet
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/manage-daemon/pods
+                      -some-nodes/]Running Pods on Only Some Nodes
+               o [ ] [https://kubernetes.io/docs/tasks/network/]Networking
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/network/customize-
+                      hosts-file-for-pods/]Adding entries to Pod
+                      /etc/hosts with HostAliases
+                    # [ ]
+                      [https://kubernetes.io/docs/tasks/network/validate-d
+                      ual-stack/]Validate IPv4/IPv6 dual-stack
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-
+                 plugins/]Extend kubectl with plugins
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/manage-hugepages/schedu
+                 ling-hugepages/]Manage HugePages
+               o [ ]
+                 [https://kubernetes.io/docs/tasks/manage-gpus/scheduling-
+                 gpus/]Schedule GPUs
+          + [ ] [https://kubernetes.io/docs/tutorials/]Tutorials
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/hello-minikube/]Hel
+                 lo Minikube
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/kubernetes-basics/]
+                 Learn Kubernetes Basics
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/create-cluster/]Create a Cluster
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/create-cluster/cluster-intro/]Using
+                           Minikube to Create a Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/deploy-app/]Deploy an App
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/deploy-app/deploy-intro/]Using kubectl
+                           to Create a Deployment
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/explore/]Explore Your App
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/explore/explore-intro/]Viewing Pods
+                           and Nodes
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/expose/]Expose Your App Publicly
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/expose/expose-intro/]Using a Service
+                           to Expose Your App
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/scale/]Scale Your App
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/scale/scale-intro/]Running Multiple
+                           Instances of Your App
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/kubernetes-bas
+                      ics/update/]Update Your App
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/kubernete
+                           s-basics/update/update-intro/]Performing a
+                           Rolling Update
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/configuration/]Conf
+                 iguration
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/configuration/
+                      configure-java-microservice/]Example: Configuring a
+                      Java Microservice
+                         @ [ ]
+                           [https://kubernetes.io/docs/tutorials/configura
+                           tion/configure-java-microservice/configure-java
+                           -microservice/]Externalizing config using
+                           MicroProfile, ConfigMaps and Secrets
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/configuration/
+                      configure-redis-using-configmap/]Configuring Redis
+                      using a ConfigMap
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/security/]Security
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/security/clust
+                      er-level-pss/]Apply Pod Security Standards at the
+                      Cluster Level
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/security/ns-le
+                      vel-pss/]Apply Pod Security Standards at the
+                      Namespace Level
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/security/appar
+                      mor/]Restrict a Container's Access to Resources with
+                      AppArmor
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/security/secco
+                      mp/]Restrict a Container's Syscalls with seccomp
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/stateless-applicati
+                 on/]Stateless Applications
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateless-appl
+                      ication/expose-external-ip-address/]Exposing an
+                      External IP Address to Access an Application in a
+                      Cluster
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateless-appl
+                      ication/guestbook/]Example: Deploying PHP Guestbook
+                      application with Redis
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/stateful-applicatio
+                 n/]Stateful Applications
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateful-appli
+                      cation/basic-stateful-set/]StatefulSet Basics
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateful-appli
+                      cation/mysql-wordpress-persistent-volume/]Example:
+                      Deploying WordPress and MySQL with Persistent
+                      Volumes
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateful-appli
+                      cation/cassandra/]Example: Deploying Cassandra with
+                      a StatefulSet
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/stateful-appli
+                      cation/zookeeper/]Running ZooKeeper, A Distributed
+                      System Coordinator
+               o [ ]
+                 [https://kubernetes.io/docs/tutorials/services/]Services
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/services/conne
+                      ct-applications-service/]Connecting Applications
+                      with Services
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/services/sourc
+                      e-ip/]Using Source IP
+                    # [ ]
+                      [https://kubernetes.io/docs/tutorials/services/pods-
+                      and-endpoint-termination-flow/]Explore Termination
+                      Behavior for Pods And Their Endpoints
+          + [ ] [https://kubernetes.io/docs/reference/]Reference
+               o [ ]
+                 [https://kubernetes.io/docs/reference/glossary/]Glossary
+               o [ ] [https://kubernetes.io/docs/reference/using-api/]API
+                 Overview
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/api-
+                      concepts/]Kubernetes API Concepts
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/serv
+                      er-side-apply/]Server-Side Apply
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/clie
+                      nt-libraries/]Client Libraries
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/cel/
+                      ]Common Expression Language in Kubernetes
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/depr
+                      ecation-policy/]Kubernetes Deprecation Policy
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/depr
+                      ecation-guide/]Deprecated API Migration Guide
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/using-api/heal
+                      th-checks/]Kubernetes API health endpoints
+               o [ ]
+                 [https://kubernetes.io/docs/reference/access-authn-authz/
+                 ]API Access Control
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/authentication/]Authenticating
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/bootstrap-tokens/]Authenticating with Bootstrap
+                      Tokens
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/certificate-signing-requests/]Certificates and
+                      Certificate Signing Requests
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/admission-controllers/]Admission Controllers
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/extensible-admission-controllers/]Dynamic
+                      Admission Control
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/service-accounts-admin/]Managing Service
+                      Accounts
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/authorization/]Authorization Overview
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/rbac/]Using RBAC Authorization
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/abac/]Using ABAC Authorization
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/node/]Using Node Authorization
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/psp-to-pod-security-standards/]Mapping
+                      PodSecurityPolicies to Pod Security Standards
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/webhook/]Webhook Mode
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/kubelet-authn-authz/]Kubelet
+                      authentication/authorization
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/kubelet-tls-bootstrapping/]TLS bootstrapping
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/access-authn-a
+                      uthz/validating-admission-policy/]Validating
+                      Admission Policy
+               o [ ]
+                 [https://kubernetes.io/docs/reference/labels-annotations-
+                 taints/]Well-Known Labels, Annotations and Taints
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/labels-annotat
+                      ions-taints/audit-annotations/]Audit Annotations
+               o [ ]
+                 [https://kubernetes.io/docs/reference/kubernetes-api/]Kub
+                 ernetes API
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /workload-resources/]Workload Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/pod-v1/]Pod
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/pod-template-v1/]PodTe
+                           mplate
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/replication-controller
+                           -v1/]ReplicationController
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/replica-set-v1/]Replic
+                           aSet
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/deployment-v1/]Deploym
+                           ent
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/stateful-set-v1/]State
+                           fulSet
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/controller-revision-v1
+                           /]ControllerRevision
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/daemon-set-v1/]DaemonS
+                           et
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/job-v1/]Job
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/cron-job-v1/]CronJob
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/horizontal-pod-autosca
+                           ler-v1/]HorizontalPodAutoscaler
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/horizontal-pod-autosca
+                           ler-v2/]HorizontalPodAutoscaler
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/priority-class-v1/]Pri
+                           orityClass
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/pod-scheduling-context
+                           -v1alpha2/]PodSchedulingContext v1alpha2
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/resource-claim-v1alpha
+                           2/]ResourceClaim v1alpha2
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/resource-claim-templat
+                           e-v1alpha2/]ResourceClaimTemplate v1alpha2
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/workload-resources/resource-class-v1alpha
+                           2/]ResourceClass v1alpha2
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /service-resources/]Service Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/service-resources/service-v1/]Service
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/service-resources/endpoints-v1/]Endpoints
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/service-resources/endpoint-slice-v1/]Endp
+                           ointSlice
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/service-resources/ingress-v1/]Ingress
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/service-resources/ingress-class-v1/]Ingre
+                           ssClass
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /config-and-storage-resources/]Config and Storage
+                      Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/config-map-v
+                           1/]ConfigMap
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/secret-v1/]S
+                           ecret
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/volume/]Volu
+                           me
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/persistent-v
+                           olume-claim-v1/]PersistentVolumeClaim
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/persistent-v
+                           olume-v1/]PersistentVolume
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/storage-clas
+                           s-v1/]StorageClass
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/volume-attac
+                           hment-v1/]VolumeAttachment
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/csi-driver-v
+                           1/]CSIDriver
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/csi-node-v1/
+                           ]CSINode
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/config-and-storage-resources/csi-storage-
+                           capacity-v1/]CSIStorageCapacity
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /authentication-resources/]Authentication Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/service-account-
+                           v1/]ServiceAccount
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/token-request-v1
+                           /]TokenRequest
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/token-review-v1/
+                           ]TokenReview
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/certificate-sign
+                           ing-request-v1/]CertificateSigningRequest
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/cluster-trust-bu
+                           ndle-v1alpha1/]ClusterTrustBundle v1alpha1
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authentication-resources/self-subject-rev
+                           iew-v1beta1/]SelfSubjectReview v1beta1
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /authorization-resources/]Authorization Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/local-subject-acc
+                           ess-review-v1/]LocalSubjectAccessReview
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/self-subject-acce
+                           ss-review-v1/]SelfSubjectAccessReview
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/self-subject-rule
+                           s-review-v1/]SelfSubjectRulesReview
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/subject-access-re
+                           view-v1/]SubjectAccessReview
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/self-subject-revi
+                           ew-v1alpha1/]SelfSubjectReview v1alpha1
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/cluster-role-v1/]
+                           ClusterRole
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/cluster-role-bind
+                           ing-v1/]ClusterRoleBinding
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/role-v1/]Role
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/authorization-resources/role-binding-v1/]
+                           RoleBinding
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /policy-resources/]Policy Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/policy-resources/limit-range-v1/]LimitRan
+                           ge
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/policy-resources/resource-quota-v1/]Resou
+                           rceQuota
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/policy-resources/network-policy-v1/]Netwo
+                           rkPolicy
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/policy-resources/pod-disruption-budget-v1
+                           /]PodDisruptionBudget
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/policy-resources/ip-address-v1alpha1/]IPA
+                           ddress v1alpha1
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /extend-resources/]Extend Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/extend-resources/custom-resource-definiti
+                           on-v1/]CustomResourceDefinition
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/extend-resources/mutating-webhook-configu
+                           ration-v1/]MutatingWebhookConfiguration
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/extend-resources/validating-webhook-confi
+                           guration-v1/]ValidatingWebhookConfiguration
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/extend-resources/validating-admission-pol
+                           icy-v1alpha1/]ValidatingAdmissionPolicy
+                           v1alpha1
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /cluster-resources/]Cluster Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/node-v1/]Node
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/namespace-v1/]Namespace
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/event-v1/]Event
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/api-service-v1/]APIServ
+                           ice
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/lease-v1/]Lease
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/runtime-class-v1/]Runti
+                           meClass
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/flow-schema-v1beta3/]Fl
+                           owSchema v1beta3
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/priority-level-configur
+                           ation-v1beta3/]PriorityLevelConfiguration
+                           v1beta3
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/binding-v1/]Binding
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/component-status-v1/]Co
+                           mponentStatus
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/cluster-resources/cluster-cidr-v1alpha1/]
+                           ClusterCIDR v1alpha1
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /common-definitions/]Common Definitions
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/delete-options/]Delete
+                           Options
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/label-selector/]LabelS
+                           elector
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/list-meta/]ListMeta
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/local-object-reference
+                           /]LocalObjectReference
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/node-selector-requirem
+                           ent/]NodeSelectorRequirement
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/object-field-selector/
+                           ]ObjectFieldSelector
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/object-meta/]ObjectMet
+                           a
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/object-reference/]Obje
+                           ctReference
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/patch/]Patch
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/quantity/]Quantity
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/resource-field-selecto
+                           r/]ResourceFieldSelector
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/status/]Status
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/common-definitions/typed-local-object-ref
+                           erence/]TypedLocalObjectReference
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /other-resources/]Other Resources
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/kubernete
+                           s-api/other-resources/validating-admission-poli
+                           cy-binding-list-v1alpha1/]ValidatingAdmissionPo
+                           licyBindingList v1alpha1
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubernetes-api
+                      /common-parameters/common-parameters/]Common
+                      Parameters
+               o [ ]
+                 [https://kubernetes.io/docs/reference/instrumentation/]In
+                 strumentation
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/instrumentatio
+                      n/slis/]Service Level Indicator Metrics
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/instrumentatio
+                      n/cri-pod-container-metrics/]CRI Pod & Container
+                      Metrics
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/instrumentatio
+                      n/node-metrics/]Node metrics data
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/instrumentatio
+                      n/metrics/]Kubernetes Metrics Reference
+               o [ ]
+                 [https://kubernetes.io/docs/reference/issues-security/]Ku
+                 bernetes Issues and Security
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/issues-securit
+                      y/issues/]Kubernetes Issue Tracker
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/issues-securit
+                      y/security/]Kubernetes Security and Disclosure
+                      Information
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/issues-securit
+                      y/official-cve-feed/]CVE feed
+               o [ ] [https://kubernetes.io/docs/reference/node/]Node
+                 Reference Information
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/node/kubelet-c
+                      heckpoint-api/]Kubelet Checkpoint API
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/node/device-pl
+                      ugin-api-versions/]Kubelet Device Manager API
+                      Versions
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/node/topics-on
+                      -dockershim-and-cri-compatible-runtimes/]Articles on
+                      dockershim Removal and on Using CRI-compatible
+                      Runtimes
+               o [ ]
+                 [https://kubernetes.io/docs/reference/networking/]Network
+                 ing Reference
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/networking/ser
+                      vice-protocols/]Protocols for Services
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/networking/por
+                      ts-and-protocols/]Ports and Protocols
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/networking/vir
+                      tual-ips/]Virtual IPs and Service Proxies
+               o [ ]
+                 [https://kubernetes.io/docs/reference/setup-tools/]Setup
+                 tools
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/setup-tools/ku
+                      beadm/]Kubeadm
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-init/]kubeadm init
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-join/]kubeadm join
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-upgrade/]kubeadm upgrade
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-config/]kubeadm config
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-reset/]kubeadm reset
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-token/]kubeadm token
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-version/]kubeadm version
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-alpha/]kubeadm alpha
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-certs/]kubeadm certs
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-init-phase/]kubeadm init
+                           phase
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-join-phase/]kubeadm join
+                           phase
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-kubeconfig/]kubeadm
+                           kubeconfig
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-reset-phase/]kubeadm reset
+                           phase
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/kubeadm-upgrade-phase/]kubeadm
+                           upgrade phase
+                         @ [ ]
+                           [https://kubernetes.io/docs/reference/setup-too
+                           ls/kubeadm/implementation-details/]Implementati
+                           on details
+               o [ ]
+                 [https://kubernetes.io/docs/reference/kubectl/]Command
+                 line tool (kubectl)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/cheats
+                      heet/]kubectl Cheat Sheet
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/kubect
+                      l-cmds/]kubectl Commands
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/kubect
+                      l/]kubectl
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/jsonpa
+                      th/]JSONPath Support
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/docker
+                      -cli-to-kubectl/]kubectl for Docker Users
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/kubectl/conven
+                      tions/]kubectl Usage Conventions
+               o [ ]
+                 [https://kubernetes.io/docs/reference/command-line-tools-
+                 reference/]Component tools
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/feature-gates/]Feature Gates
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/feature-gates-removed/]Feature Gates
+                      (removed)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/kubelet/]kubelet
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/kube-apiserver/]kube-apiserver
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/kube-controller-manager/]kube-control
+                      ler-manager
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/kube-proxy/]kube-proxy
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/command-line-t
+                      ools-reference/kube-scheduler/]kube-scheduler
+               o [ ]
+                 [https://kubernetes.io/docs/reference/config-api/]Configu
+                 ration APIs
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/cli
+                      ent-authentication.v1/]Client Authentication (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/cli
+                      ent-authentication.v1beta1/]Client Authentication
+                      (v1beta1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-eventratelimit.v1alpha1/]Event Rate Limit
+                      Configuration (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/ima
+                      gepolicy.v1alpha1/]Image Policy API (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-admission.v1/]kube-apiserver Admission (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-audit.v1/]kube-apiserver Audit Configuration
+                      (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-config.v1/]kube-apiserver Configuration (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-config.v1alpha1/]kube-apiserver Configuration
+                      (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-config.v1beta1/]kube-apiserver Configuration
+                      (v1beta1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-encryption.v1/]kube-apiserver Encryption
+                      Configuration (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      e-controller-manager-config.v1alpha1/]kube-controlle
+                      r-manager Configuration (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      e-proxy-config.v1alpha1/]kube-proxy Configuration
+                      (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      e-scheduler-config.v1/]kube-scheduler Configuration
+                      (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      e-scheduler-config.v1beta2/]kube-scheduler
+                      Configuration (v1beta2)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      e-scheduler-config.v1beta3/]kube-scheduler
+                      Configuration (v1beta3)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      eadm-config.v1beta3/]kubeadm Configuration (v1beta3)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      econfig.v1/]kubeconfig (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-config.v1/]Kubelet Configuration (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-config.v1alpha1/]Kubelet Configuration
+                      (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-config.v1beta1/]Kubelet Configuration (v1beta1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-credentialprovider.v1/]Kubelet
+                      CredentialProvider (v1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-credentialprovider.v1alpha1/]Kubelet
+                      CredentialProvider (v1alpha1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/kub
+                      elet-credentialprovider.v1beta1/]Kubelet
+                      CredentialProvider (v1beta1)
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/config-api/api
+                      server-webhookadmission.v1/]WebhookAdmission
+                      Configuration (v1)
+               o [ ]
+                 [https://kubernetes.io/docs/reference/scheduling/]Schedul
+                 ing
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/scheduling/con
+                      fig/]Scheduler Configuration
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/scheduling/pol
+                      icies/]Scheduling Policies
+               o [ ] [https://kubernetes.io/docs/reference/tools/]Other
+                 Tools
+                    # [ ]
+                      [https://kubernetes.io/docs/reference/tools/map-cric
+                      tl-dockercli/]Mapping from dockercli to crictl
+          + [ ] [https://kubernetes.io/docs/contribute/]Contribute
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/suggesting-improve
+                 ments/]Suggesting content improvements
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/new-content/]Contr
+                 ibuting new content
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/new-content/o
+                      pen-a-pr/]Opening a pull request
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/new-content/n
+                      ew-features/]Documenting for a release
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/new-content/b
+                      logs-case-studies/]Blogs and case studies
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/review/]Reviewing
+                 changes
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/review/review
+                      ing-prs/]Reviewing pull requests
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/review/for-ap
+                      provers/]For approvers and reviewers
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/localization/]Loca
+                 lizing Kubernetes documentation
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/participate/]Parti
+                 cipating in SIG Docs
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/participate/r
+                      oles-and-responsibilities/]Roles and
+                      responsibilities
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/participate/p
+                      r-wranglers/]PR wranglers
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/style/]Documentati
+                 on style overview
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/content
+                      -guide/]Content guide
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/style-g
+                      uide/]Style guide
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/diagram
+                      -guide/]Diagram guide
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/write-n
+                      ew-topic/]Writing a new topic
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/page-co
+                      ntent-types/]Page content types
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/content
+                      -organization/]Content organization
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/style/hugo-sh
+                      ortcodes/]Custom Hugo Shortcodes
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/generate-ref-docs/
+                 ]Updating Reference Documentation
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/quickstart/]Quickstart
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/contribute-upstream/]Contributing to the
+                      Upstream Kubernetes Code
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/kubernetes-api/]Generating Reference
+                      Documentation for the Kubernetes API
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/kubectl/]Generating Reference Documentation for
+                      kubectl Commands
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/kubernetes-components/]Generating Reference
+                      Pages for Kubernetes Components and Tools
+                    # [ ]
+                      [https://kubernetes.io/docs/contribute/generate-ref-
+                      docs/prerequisites-ref-docs/]
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/advanced/]Advanced
+                 contributing
+               o [ ]
+                 [https://kubernetes.io/docs/contribute/analytics/]Viewing
+                 Site Analytics
+          + [ ] [https://kubernetes.io/docs/test/]Docs smoke test page
+
+    1. [https://kubernetes.io/docs/]Kubernetes Documentation
+    2. [https://kubernetes.io/docs/home/]Home
+
+   Kubernetes is an open source container orchestration engine for
+   automating deployment, scaling, and management of containerized
+   applications. The open source project is hosted by the Cloud Native
+   Computing Foundation ([https://www.cncf.io/about]CNCF).
+
+Understand Kubernetes
+
+   Learn about Kubernetes and its fundamental concepts.
+     * [https://kubernetes.io/docs/concepts/overview/]Overview
+     * [https://kubernetes.io/docs/concepts/overview/components/]Kubernete
+       s Components
+     * [https://kubernetes.io/docs/concepts/overview/kubernetes-api/]The
+       Kubernetes API
+     * [https://kubernetes.io/docs/concepts/overview/working-with-objects/
+       ]Objects In Kubernetes
+     * [https://kubernetes.io/docs/concepts/workloads/pods/]Pods
+
+   (BUTTON) View Concepts
+
+Try Kubernetes
+
+   Follow tutorials to learn how to deploy applications in Kubernetes.
+     * [https://kubernetes.io/docs/tutorials/hello-minikube/]Hello
+       Minikube
+     * [https://kubernetes.io/docs/tutorials/kubernetes-basics/]Walkthroug
+       h the basics
+     * [https://kubernetes.io/docs/tutorials/stateless-application/guestbo
+       ok/]Stateless Example: PHP Guestbook with Redis
+     * [https://kubernetes.io/docs/tutorials/stateful-application/mysql-wo
+       rdpress-persistent-volume/]Stateful Example: Wordpress with
+       Persistent Volumes
+
+   (BUTTON) View Tutorials
+
+Set up a K8s cluster
+
+   Get Kubernetes running based on your resources and needs.
+     * [https://kubernetes.io/docs/setup/production-environment/tools/kube
+       adm/install-kubeadm/]Install the kubeadm setup tool
+     * [https://kubernetes.io/docs/setup/#learning-environment]Learning
+       environment
+     * [https://kubernetes.io/docs/setup/#production-environment]Productio
+       n environment
+
+   (BUTTON) Set up Kubernetes
+
+Learn how to use Kubernetes
+
+   Look up common tasks and how to perform them using a short sequence of
+   steps.
+     * [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/]Inst
+       all kubectl on Linux
+     * [https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/]Inst
+       all kubectl on macOS
+     * [https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/]In
+       stall kubectl on Windows
+     * [https://kubernetes.io/docs/tasks/access-application-cluster/web-ui
+       -dashboard/]Use the Web UI Dashboard
+     * [https://kubernetes.io/docs/tasks/access-application-cluster/config
+       ure-access-multiple-clusters/]Configure Access to Multiple Clusters
+     * [https://kubernetes.io/docs/tasks/configure-pod-container/configure
+       -pod-configmap/]Configure a Pod to Use a ConfigMap
+
+   (BUTTON) View Tasks
+
+Training
+
+   Get certified in Kubernetes and make your cloud native projects
+   successful!
+
+   (BUTTON) View training
+
+Look up reference information
+
+   Browse terminology, command line syntax, API resource types, and setup
+   tool documentation.
+     * [https://kubernetes.io/docs/reference/glossary/]Glossary
+     * [https://kubernetes.io/docs/reference/kubectl/]Command line tool
+       (kubectl)
+     * [https://kubernetes.io/docs/reference/kubectl/cheatsheet/]kubectl
+       Cheat Sheet
+     * [https://kubernetes.io/docs/reference/setup-tools/kubeadm/]Kubeadm
+     * [https://kubernetes.io/docs/reference/using-api/]Overview of API
+     * [https://kubernetes.io/docs/reference/command-line-tools-reference/
+       feature-gates/]Feature Gates
+
+   (BUTTON) View Reference
+
+Contribute to the docs
+
+   Anyone can contribute, whether you're new to the project or you've been
+   around a long time.
+     * [https://kubernetes.io/docs/contribute/]Start contributing to K8s
+     * [https://kubernetes.io/docs/contribute/suggesting-improvements/]Sug
+       gesting content improvements
+     * [https://kubernetes.io/docs/contribute/style/page-content-types/]Pa
+       ge content types
+     * [https://kubernetes.io/docs/contribute/new-content/open-a-pr/]Openi
+       ng a pull request
+     * [https://kubernetes.io/docs/contribute/new-content/new-features/]Do
+       cumenting a feature for a release
+     * [https://kubernetes.io/docs/contribute/localization/]Translating
+       the docs
+     * [https://kubernetes.io/docs/contribute/participate/]Participating
+       in SIG Docs
+     * [https://kubernetes.io/docs/contribute/analytics/]Viewing Site
+       Analytics
+
+   (BUTTON) Contribute to the docs
+
+Download Kubernetes
+
+   Install Kubernetes or upgrade to the newest version.
+
+   (BUTTON) Download Kubernetes
+
+About the documentation
+
+   This website contains documentation for the current and previous 4
+   versions of Kubernetes.
+     * [https://kubernetes.io/docs/home/supported-doc-versions/]Available
+       Documentation Versions
+
+   Last modified October 09, 2022 at 11:31 AM PST:
+   [https://github.com/kubernetes/website/commit/16e02cd1934af9872fc93d3bc
+   4ad800d0dd0c450]Changes-01 applied (16e02cd193)
+   [https://github.com/kubernetes/website/edit/main/content/en/docs/home/_
+   index.md]Edit this page
+   [https://github.com/kubernetes/website/new/main/content/en/docs/home/_i
+   ndex.md?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%2
+   2%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A
+   +%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%2
+   3+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Giv
+   e+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60
+   %0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28we
+   ight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory
+   %3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bott
+   om+of+the+page+%28%3C80+characters%3B+use+the+extended+description+fiel
+   d+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your
+   +new+file+and+request+a+review+via+Pull+Request.%0A]Create child page
+   [https://github.com/kubernetes/website/issues/new?title=Kubernetes%20Do
+   cumentation]Create an issue
+   [https://kubernetes.io/docs/home/_print/]Print entire section
+
+   [https://kubernetes.io/docs/home/]Home
+   [https://kubernetes.io/blog/]Blog
+   [https://kubernetes.io/training/]Training
+   [https://kubernetes.io/partners/]Partners
+   [https://kubernetes.io/community/]Community
+   [https://kubernetes.io/case-studies/]Case Studies
+
+     * [https://discuss.kubernetes.io/]
+     * [https://twitter.com/kubernetesio]
+     * [https://calendar.google.com/calendar/embed?src=calendar%40kubernet
+       es.io]
+     * [https://youtube.com/kubernetescommunity]
+
+     * [https://github.com/kubernetes/kubernetes]
+     * [https://slack.k8s.io/]
+     * [https://git.k8s.io/community/contributors/guide]
+     * [https://stackoverflow.com/questions/tagged/kubernetes]
+
+   © 2023 The Kubernetes Authors | Documentation Distributed under
+   [https://git.k8s.io/website/LICENSE]CC BY 4.0
+   Copyright © 2023 The Linux Foundation ®. All rights reserved. The Linux
+   Foundation has registered trademarks and uses trademarks. For a list of
+   trademarks of The Linux Foundation, please see our
+   [https://www.linuxfoundation.org/trademark-usage]Trademark Usage page
+   ICP license: 京ICP备17074266号-3

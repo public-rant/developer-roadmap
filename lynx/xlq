@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://about.gitlab.com/topics/ci-cd/ > $(basename https://about.gitlab.com/topics/ci-cd/).txt

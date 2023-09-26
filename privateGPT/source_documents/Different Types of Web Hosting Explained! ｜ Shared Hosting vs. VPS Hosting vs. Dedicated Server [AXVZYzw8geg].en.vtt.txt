@@ -1,0 +1,379 @@
+hey guys my name is christian taylor
+welcome back to crailer made where i
+like to talk about all things
+branding marketing and entrepreneurship
+when building your first wordpress
+website
+you probably googled wordpress hosts or
+how to install wordpress
+and went down the rabbit trail of
+exploring the most popular wordpress
+hosts
+if you re new to wordpress you are
+likely confused by the wide variety of
+hosting packages offered by companies
+what is shared hosting can it run
+wordpress
+and what is a vps some hosts say they re
+managed
+some are unmanaged what s the difference
+today i ll be breaking down what you
+need to know about different types of
+web hosting
+so first let s start with shared hosting
+shared hosting explains itself in the
+name
+you re sharing your hosting with others
+but what does that mean
+is this a good thing or a bad thing well
+in my video where i explain the basics
+of web hosting
+i talk about web hosting being a server
+or souped up
+computer where your website files live
+when someone types in your domain name
+their computer points to the server
+downloads the website files and displays
+the website
+so with shared web hosting you re
+sharing a server with many people
+it really varies based on the web host
+but there may be as many as
+hundreds or thousands of other websites
+hosted on the same server as yours
+the pros to this are that you can get
+hosting at a crazy affordable cost
+anywhere from two dollars a month to ten
+dollars a month is pretty reasonable for
+basic shared hosting it s the most
+economic way to start a website and it s
+where i recommend you start unless you
+know you re going to get a
+huge surge in traffic on your website
+and that s the downside of shared
+hosting
+resources your website is on a server
+with potentially
+thousands of other websites and everyone
+is sharing the same ram
+and processor it s not always as bad as
+it sounds because hosting platforms have
+a way to compartmentalize resources and
+make sure that there s not a hog website
+using up all the power but it s still a
+limitation
+if you re getting 1 100th of the ram and
+processor of a server
+your website may load quickly for a
+light or medium load
+but say you re an ecommerce store and
+you get a spike in traffic from a black
+friday sale
+these types of scenarios are not handled
+well by shared hosting
+the other downside of shared hosting is
+being affected by denial of service
+attacks
+or other forms of malicious attacks that
+can happen on
+other users websites i want to be clear
+here and say
+just because someone else s site on your
+server gets hacked
+doesn t mean your site is hacked again
+shared hosting platforms separate and
+compartmentalized hosting accounts to
+stop that from happening
+but your site can be affected by
+specialized forms of attacks like a
+denial of service attack
+on another website think of it this way
+say you re in an office building with a
+hundred cubicles
+if one cubicle gets breached you re
+still safe but if the power to the
+entire office building gets compromised
+everyone in the office is affected even
+if the hacker didn t even know your
+website existed
+and they were just trying to mess with
+someone else s it could cause your site
+to go down if they do a certain type of
+attack
+that affects the server and not just the
+website
+so is shared hosting really worth it
+well again if you re running a casual
+blog or small business website
+i think shared hosting is absolutely
+worth it it s readily available
+offered by almost every hosting company
+and highly affordable
+if you re watching this video and you
+just want to build your first wordpress
+website
+i think you re good to start out with
+shared hosting alright so what is vps
+hosting a vps is a virtual private
+server
+now this is a bit of a wacky concept a
+vps acts like its own
+isolated server but it s shared with
+other virtual private servers on
+a single physical hardware server you re
+probably like
+wait a minute so shared hosting is
+shared on a server and
+a vps is shared too what s the
+difference well a vps takes the level of
+separation a step further
+giving you dedicated resources x amount
+of ram
+x shares of a cpu and a virtual server
+that s your
+own oftentimes with cheap shared hosting
+companies
+oversell their servers this means that
+they put more websites on the server
+than it can theoretically handle
+and they bank on x percentage of
+customers never setting up their website
+or
+setting up a website that never gets any
+traffic this usually works out but if
+their load is higher than expected
+say on black friday everyone s website
+suffers
+this really comes down to the web host
+and with premium hosts like wp engine
+and flywheel
+you won t face this problem with a vps
+while you re still
+sharing a physical server you re
+guaranteed the resources you re paying
+for
+it s a virtual computer that requires
+its own set of ram
+cpu and disk space and no one else can
+pull from that
+it has to be reserved for you think of
+it like this
+with shared hosting you have a folder on
+a computer with hundreds of other
+folders
+on the same computer with a virtual
+private server
+you have a virtual computer all to
+yourself so a vps can have any operating
+system
+windows or linux and you can change any
+setting and configure
+anything exactly how you want this
+effectively beats the two downsides to
+shared hosting
+you can have significantly more server
+resources than with a shared hosting
+account
+and vpss are known for being easily
+scalable
+you could go from four gigs of ram to
+eight gigs of ram with a click
+upgrade storage etc with a quality vps
+host
+everything is modular and can be
+upgraded and downgraded with a snap
+so this time on black friday if your
+server is unable to handle the load
+click a button upgrade to a more
+powerful vps for the day
+that can handle the surge in traffic and
+then when you re done
+simply downgrade to the vps you had it s
+really cool
+furthermore with the vps someone would
+have to target your virtual private
+server with a hack specifically
+even if someone took down another
+virtual private server that s on the
+same
+physical server as yours your server
+cannot be affected since it s treated as
+an entirely separate computer with
+shared hosting there are sometimes a few
+different plans you can upgrade to
+offering vague promises like double the
+speed
+but what does that really mean your
+server resource customization options
+are highly limited with basic shared
+hosting
+since a vps is your own private server
+you get to make the rules for the most
+part you can host as many websites as
+you like
+host email although i don t recommend
+that the sky is the limit
+with shared hosting there are often
+limits to how many sql databases you can
+create
+or how many domain names you can connect
+to one hosting account
+but with the vps it s all yours and you
+can do whatever you want with it
+of course it s your job to find a vps
+with the appropriate power for your
+needs
+and if you re going to put a large
+amount of websites on it you ll want to
+pay for a beefier vps that can handle
+the load
+so a vps is indefinitely more powerful
+but it does come with big downsides
+a vps on its own is a massive headache
+to manage if you aren t a tech geek
+i consider myself tech savvy but it s a
+challenge for me to manage a traditional
+vps by itself
+i say traditional vps by itself because
+this is where the concept of
+managed hosting comes in a managed vps
+host like cloudways will allow you to
+have your own vps from a cloud provider
+you choose
+but they handle all the technical side
+of getting it set up and configuring it
+you have a clean and simple management
+panel so you can just add a new website
+to the server whenever you want
+typically with a vps you d have to get
+your hands dirty and mess with a command
+line
+but with a managed vps you just have a
+convenient panel like
+shared hosting but you get to leverage
+the big power advantages of a vps
+obviously this is a lot more expensive
+than an unmanaged vps but it can
+definitely be worth it depending on your
+needs
+so the last main kind of hosting is
+dedicated hosting or a dedicated server
+and this one s pretty easy to understand
+take all the advantages of a vps
+but now visualize yourself having an
+entire physical server to yourself
+picture a server in your head got it you
+see it
+yeah that s yours all of it the entire
+thing
+it s only your stuff hosted on it and
+nothing else
+in my honest opinion a dedicated server
+is in some ways
+worse than a vps sure it s theoretically
+the most powerful option because you re
+not sharing it with anyone
+but you can t easily upgrade it or
+downgrade it like a vps
+it s also insanely expensive and i
+personally would stay away from a
+dedicated server
+unless you already knew what it was
+before watching this video
+there s really no reason to use it
+unless you re a giant company and you
+need multiple dedicated servers working
+together to host your files
+but then again if you know what a
+dedicated server is you probably know
+what aws
+azure and digitalocean are too and
+modular cloud computing is looking like
+a far
+better choice for very advanced hosting
+projects instead of dedicated servers
+alright so that was a lot to process but
+i want to give some examples of
+real world hosting packages and
+categorize where they fall to help you
+better understand different types of web
+hosting
+let s look at dreamhost here we can see
+that they actually offer
+every kind of hosting we talked about
+we ve got standard shared hosting which
+is affordable
+comes with basic support and a
+management panel we have managed vps
+hosting
+managed wordpress hosting and dedicated
+server hosting
+now wait a minute what is managed
+wordpress hosting is it shared
+is it a vps well in this case it s
+shared
+but it s premium managed wordpress
+hosting think
+dreampress wp engine flywheel and kinsta
+these hosts go above and beyond to
+provide a reliable and fast
+experience using isolated containers
+similar to a vps
+in other words with a premium managed
+wordpress host
+it is shared but you re not going to
+face the major throttling problems
+or other issues you get with economy
+shared hosting
+since it s managed you can expect great
+support access to staging environments
+and
+automatic backups with one click restore
+if money is no factor for you this is
+arguably the best wordpress hosting you
+can get for your site when it comes to
+the different types of web hosting
+i think you need to step back and look
+at the features and practicality
+first over the category is the hosting
+within your budget do you require
+hands on support or are you
+okay with poking around and figuring
+things out do you need development tools
+like a staging environment and automatic
+daily backups
+focus on these first and the features
+will help you narrow down whether you
+need shared hosting
+vps hosting and managed or unmanaged
+hosting
+if you d like to see me create a video
+talking about what to look for in a web
+host
+drop a comment below if you re starting
+out i d recommend basic shared hosting
+from namecheap or dreamhost
+if you need more power or features like
+a staging environment or high end
+support
+go with flywheel or wp engine if you
+just have one website
+if you host several wordpress websites
+and are looking for the ultimate managed
+vps host where you can host as many
+websites as you d like
+i recommend trying cloudways i
+personally use wp engine
+and cloudways i have my highest traffic
+website hosted on wp engine
+and i have a two gigabyte digitalocean
+server with cloudways that hosts the
+rest of my websites
+including all of my trailer media sites
+so what type of hosting do you use
+i d love to know your thoughts in the
+comments down below and if you like this
+video do be sure to hit that subscribe
+button and click the bell so you don t
+miss when i release new videos
+with that said i will catch you guys

@@ -1,0 +1,961 @@
+   #[https://www.guru99.com/wp-json/wp/v2/posts/2165]alternate
+
+   [https://www.guru99.com/rest-assured.html#main]Skip to content
+
+   [https://www.guru99.com/]Guru99
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   [https://www.guru99.com/]Guru99
+   (BUTTON)
+
+REST Assured Tutorial for API Automation Testing (Example)
+
+   By[https://www.guru99.com/author/thomas]Thomas Hamilton UpdatedJune 17,
+   2023
+
+What is Rest Assured?
+
+   Rest Assured enables you to test REST APIs using java libraries and
+   integrates well with Maven. It has very efficient matching techniques,
+   so asserting your expected results is also pretty straight forward.
+   Rest Assured has methods to fetch data from almost every part of the
+   request and response no matter how complex the JSON structures are.
+
+   For the testing community, API Automation Testing is still new and
+   niche. The JSON complexities keep API testing unexplored. But that does
+   not make it less important in the testing process. Rest Assured.io
+   framework has made it very simple using core java basics, making it a
+   very desirable thing to learn.
+
+   Table of Content: (BUTTON)
+     * [https://www.guru99.com/rest-assured.html#what-is-rest-assured]What
+       is Rest Assured?
+     * [https://www.guru99.com/rest-assured.html#why-need-restassured]Why
+       need Rest-Assured?
+     * [https://www.guru99.com/rest-assured.html#how-to-setup-of-rest-assu
+       redio-with-eclipse]How to Setup of Rest Assured.io with Eclipse
+     * [https://www.guru99.com/rest-assured.html#first-simple-rest-assured
+       -script]First simple Rest Assured script
+     * [https://www.guru99.com/rest-assured.html#script-to-fetch-different
+       -parts-of-a-response]Script to fetch different parts of a response
+     * [https://www.guru99.com/rest-assured.html#summary]Summary:
+
+Why need Rest-Assured?
+
+   Imagine you open your google map view and look for a place you want to
+   go, you immediately see closeby restaurants, you see options for the
+   commute; from some leading travel providers, and see so many options at
+   your fingertips. We all know they are not google products, then how
+   does Google manage to show it. They use the exposed APIs of these
+   providers. Now, if you are asked to test this kind of setup, even
+   before the UI is built or is under development, testing APIs becomes
+   extremely important and testing them repeatedly, with different data
+   combinations makes it a very suitable case for automation.
+
+   Earlier, we were using dynamic languages such as groovy, ruby to
+   achieve this, and it was challenging. Hence API testing was not
+   explored by functional testing.
+
+   But using Rest Assured, automation testing of APIs, sending simple
+   https requests with user-friendly customizations is simple if one has a
+   basic background of java. It is needed to understand API testing, and
+   integration testing, but post that automation Rest Assured gives very
+   good confidence on the backend while front-end testing can just focus
+   on the UI and client-side operations. Rest Assured is a open source
+   with a lot of additional methods and libraries being added has made it
+   a great choice for API automation.
+
+How to Setup of Rest Assured.io with Eclipse
+
+   Step 1) Install Java. Refer to this
+   [https://www.guru99.com/install-java.html]guide
+
+   Step 2) Download an IDE to begin:
+   [https://www.eclipse.org/downloads/]eclipse
+
+   Step 3) Install Maven and set up your eclipse. Refer
+   [https://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.h
+   tml]here.
+
+Setup Rest Assured
+
+    1. Create a Maven Project in your IDE. We are using Intellij, but you
+       will get a similar structure on any IDE you may be using.
+    2. Open your POM.xml
+
+                              Project structure
+
+   For Rest Assured.io: For Java version < 9 users:
+
+   Add the below dependency to your POM.xml:
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>json-path</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>xml-path</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>json-schema-validator</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+   For Rest Assured.io : For Java version 9+ users :
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>rest-assured-all</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+Troubleshooting:
+
+   In case you see errors and not sure if the dependencies got downloaded
+   well,
+    1. Perform a maven build to import all dependencies, again you will
+       find help on Maven set up on guru99.
+    2. Still, you see errors, then do a maven clean followed by a maven
+       install, and it should build without any errors.
+    3. You can add the below lines in your java class and see no compile
+       errors are present.
+
+import io.restassured.RestAssured.*;
+import io.restassured.matcher.RestAssuredMatchers.*;
+import org.hamcrest.Matchers.*;
+
+First simple Rest Assured script
+
+Syntax:
+
+   The syntax of Rest Assured.io is the most beautiful part, as it is very
+   BDD like and understandable.
+Given().
+        param("x", "y").
+        header("z", "w").
+when().
+Method().
+Then().
+        statusCode(XXX).
+        body("x, ”y", equalTo("z"));
+
+Explanation:
+
+   Code Explanation
+   Given() ‘Given’ keyword, lets you set a background, here, you pass the
+   request headers, query and path param, body, cookies. This is optional
+   if these items are not needed in the request
+   When() ‘when’ keyword marks the premise of your scenario. For example,
+   ‘when’ you get/post/put something, do something else.
+   Method() Substitute this with any of the CRUD
+   operations(get/post/put/delete)
+   Then() Your assert and matcher conditions go here
+
+   Now that you have the setup and some background to the syntax, let’s
+   create our first simple test. It is okay if so far the structure seems
+   new to you, as you code further interpret each line, you will get the
+   hang of it.
+
+What will you fetch?
+
+   Open your browser and hit –
+   http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&PASSW
+   ORD=1234!&Account_No=1. Ensure you see something as below.
+
+   In case you get an error on the browser when you try to get a response
+   for the request,
+    1. See if you have used Https or Http. Your browser might have
+       settings to not open insecure websites.
+    2. See if you have any proxy or firewall blocks your browser from
+       opening websites.
+
+   *Note – you did not use any headers here, no body, and no cookie. It
+   was a URL and also you are getting content from the API and not posting
+   or updating any existing content, so that makes it a GET call. Remember
+   this to understand our first test better.
+
+The Objective of your test:
+
+   The goal of the script is to print the same output on your IDE console
+   as what you received on the browser through Rest Assured.
+
+   Let us code this with the below steps:
+
+Getting the response Body
+
+   Step 1) Create a class named as “myFirstRestAssuredClass”
+
+   Step 2) Create a method called “getResponseBody”
+
+   Step 3) Similar to the structure learned earlier of given, when and
+   then, type the below code
+
+   given(). -> No headers required, no query or path param.
+
+   when(). -> No specific condition setup
+
+   get(‘http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&
+   PASSWORD=1234!&Account_No=1‘). ->only the url needs to be supplied
+
+   then(). -> No specific assertions required
+
+   log(). all() -> Once all the response is fetched, log response,
+   headers, essentially everything that the request returns to you.
+public static void getResponseBody(){
+   given().when().get("http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_
+ID=68195&PASSWORD=1234!&Account_No=1").then().log()
+  .all();
+
+}
+
+   Now notice that the URL used is long and less readable, if you look
+   closely, you will notice that 3 query parameters are being used which
+   are
+    1. Customer_ID
+    2. Password
+    3. Account_No
+
+   Rest Assured, helps us pass every part(query, path, header param)
+   separately, making the code more readable and easy to maintain. Also,
+   we can parameterize the data from an external file as required.
+
+   For using query param, we go back to our definition of the syntax and
+   see that all of them are passed as a part of given.
+public static void getResponseBody(){
+
+   given().queryParam("CUSTOMER_ID","68195")
+           .queryParam("PASSWORD","1234!")
+           .queryParam("Account_No","1")
+           .when().get("http://demo.guru99.com/V4/sinkministatement.php").then()
+.log()
+           .body();
+}
+
+   **Note that we used “body” instead of “all”; this helps us to extract
+   only the body of the response.
+
+   Output:
+
+                         Output for getResponseBody
+
+Getting the response status code
+
+   The next method that we script will be to get the status code and also
+   put an assertion to validate the same.
+
+   Step 1) Create a method called getResponseStatus()
+
+   Step 2) Use the same request structure used above. Copy and paste it.
+
+   Step 3) Instead of logging it, we use the ‘getStatusCode’ inbuilt
+   method of Rest Assured to fetch the status code value
+
+   Step 4) In order to assert that your status code is 200, we use the
+   keywords – assertThat().statusCode(expectedCode)
+
+   **Note – URL is a variable used for simplicity. URL holds the entire
+   API request URL
+public static void getResponseStatus(){
+   int statusCode= given().queryParam("CUSTOMER_ID","68195")
+           .queryParam("PASSWORD","1234!")
+           .queryParam("Account_No","1") .when().get("http://demo.guru99.com/V4/
+sinkministatement.php").getStatusCode();
+   System.out.println("The response status is "+statusCode);
+
+   given().when().get(url).then().assertThat().statusCode(200);
+}
+
+   Output:
+
+                        Output for getResponseStatus
+
+   Business Need
+
+   One of the basic rules of automation is that we have to put checkpoints
+   so that the test proceeds only if all the required conditions are met.
+   In API testing, the most basic validation is to check if the status
+   code of the request is in 2XX format.
+
+   The complete code, so far:
+import java.util.ArrayList;
+import static io.restassured.RestAssured.*;
+import static java.util.concurrent.TimeUnit.MILLISECONDS;
+
+public class myFirstRestAssuredClass {
+
+   final static String url="http://demo.guru99.com/V4/sinkministatement.php?CUST
+OMER_ID=68195&PASSWORD=1234!&Account_No=1";
+
+   public static void main(String args[]) {
+
+     getResponseBody();
+     getResponseStatus();
+
+; }
+
+   //This will fetch the response body as is and log it. given and when are opti
+onal here
+   public static void getResponseBody(){
+       given().when().get(url).then().log()
+      .all();
+
+  given().queryParam("CUSTOMER_ID","68195")
+               .queryParam("PASSWORD","1234!")
+               .queryParam("Account_No","1") .when().get("http://demo.guru99.com
+/V4/sinkministatement.php").then().log().body();
+   }
+
+public static void getResponseStatus(){
+   int statusCode= given().queryParam("CUSTOMER_ID","68195")
+           .queryParam("PASSWORD","1234!")
+           .queryParam("Account_No","1")
+           .when().get("http://demo.guru99.com/V4/sinkministatement.php").getSta
+tusCode();
+   System.out.println("The response status is "+statusCode);
+
+   given().when().get(url).then().assertThat().statusCode(200);
+}
+
+}
+
+   *Note:
+    1. 200 is a successful response for this scenario. At times, you need
+       the request to fail as well, and then you might use 4XX or 5XX. Do
+       try to change the status code by supplying invalid parameters and
+       check.
+    2. When we assert a condition, there will be no printing on the
+       console unless there is an error.
+
+Script to fetch different parts of a response
+
+   Fetching response body and response status code is already covered in
+   the above segment. It is worthy to note that to fetch different parts
+   of the response, the keyword ‘extract’ is very important.
+
+Header
+
+   Rest Assured is a very straightforward language, and fetching headers
+   is just as simple. The method name is headers(). Like before, we will
+   create a standalone method to do the same.
+public static void getResponseHeaders(){
+   System.out.println("The headers in the response "+
+                   get(url).then().extract()
+           .headers());
+}
+
+   Please note that ‘given().when()’ is skipped here, and the code line
+   starts from get(), this is because there is no precondition or
+   verification made here to hit the request and get a response. In such
+   cases, it’s optional to use the same.
+
+   Output :
+
+                        Output for getResponseHeader
+
+   Business Need:
+
+   Quite a few times, you would need to use the authorization token, or a
+   session cookie for the subsequent request, and mostly, these details
+   are returned as headers of the response.
+
+Response Time
+
+   To get the time needed to fetch the response from the backend or other
+   downstream systems, Rest Assured provides a method called ‘timeIn’ with
+   a suitable timeUnit to get the time taken to return the response.
+public static void getResponseTime(){
+  System.out.println("The time taken to fetch the response "+get(url)
+         .timeIn(TimeUnit.MILLISECONDS) + " milliseconds");
+}
+
+   Output:
+
+                         Output for getResponseTime
+
+   Business Need:
+
+   A very important feature of testing APIs is their response time, to
+   measure the performance of the application. Note that the time taken
+   for your call may take more or less time depending on your internet
+   speed, the performance of the API at that time, server load, and other
+   factors impacting the time.
+
+Content-Type
+
+   You can get the content-Type of the response returned using the method
+   is “contentType ()”.
+public static void getResponseContentType(){
+   System.out.println("The content type of response "+
+           get(url).then().extract()
+              .contentType());
+}
+
+   Output
+
+                          Output for getContentType
+
+   Business Need:
+
+   At times getting the content-type is essential for ensuring there are
+   no security gaps for any cross-origin threats or just to ensure the
+   content passed is as per the standards of the API.
+
+Fetch Individual JSON Element
+
+   From the given response, you are asked to calculate the total amount,
+   you need to fetch every amount and sum it up.
+
+   Steps:
+
+   Step 1) The amount field is within an array with Key “statements” which
+   is in turn in the list with key “result”
+
+   Step 2) Rest Assured, provides a mechanism to reach the values in the
+   API using “path”
+
+   Step 3) The path to reach amounts is “result.statements.AMOUNT”. Think
+   of it like Xpath in selenium.
+
+   Step 4) Fetch all amounts in a collection, and then loop for all values
+   to calculate the sum
+public static void getSpecificPartOfResponseBody(){
+
+ArrayList<String> amounts = when().get(url).then().extract().path("result.statem
+ents.AMOUNT") ;
+int sumOfAll=0;
+for(String a:amounts){
+
+    System.out.println("The amount value fetched is "+a);
+    sumOfAll=sumOfAll+Integer.valueOf(a);
+}
+System.out.println("The total amount is "+sumOfAll);
+
+}
+
+   Note: Since the amount value is in string data type, we convert to
+   integer and use it for summation.
+
+   Output:
+
+                    Output for getSpecificPartOfResponse
+
+Summary:
+
+     * Rest Assured is a group of java libraries which enables us to
+       automate Rest API testing
+     * Rest Assured is Java-based, and knowledge of core Java suffices for
+       learning it
+     * It helps fetch values of request and response from complicated JSON
+       structures
+     * The API request can be customized with a variety of header, query,
+       path param, and any session or cookies to be set.
+     * It helps set assert statements and conditions.
+     * While Rest Assured is very helpful when the response is JSON type,
+       it’s methods may not work seamlessly if content type id HTML or
+       plain text.
+
+   You Might Like:
+     * [https://www.guru99.com/software-testing-introduction-importance.ht
+       ml]What is Software Testing? Definition
+     * [https://www.guru99.com/software-testing-seven-principles.html]7
+       Principles of Software Testing with Examples
+     * [https://www.guru99.com/v-model-software-testing.html]V-Model in
+       Software Testing
+     * [https://www.guru99.com/software-testing-life-cycle.html]STLC
+       (Software Testing Life Cycle) Phases, Entry, Exit Criteria
+     * [https://www.guru99.com/manual-testing.html]Manual Testing
+       Tutorial: What is, Types, Concepts
+
+   Post navigation
+   [https://form.jotform.me/72391811797466]Report a Bug
+   [https://www.guru99.com/rest-client-testing.html]Prev
+   [https://www.guru99.com/what-is-security-testing.html]Next
+
+   Top Tutorials
+   [https://www.facebook.com/Guru99Official][https://twitter.com/guru99com
+   ][https://www.linkedin.com/company/guru99/][https://www.youtube.com/cha
+   nnel/UC19i1XD6k88KqHlET8atqFQ][https://forms.aweber.com/form/46/7248076
+   46.htm]About
+   [https://www.guru99.com/about-us]About Us
+   [https://www.guru99.com/advertise-us]Advertise with Us
+   [https://www.guru99.com/become-an-instructor]Write For Us
+   [https://www.guru99.com/contact-us]Contact Us
+   [https://www.guru99.com/python-tutorials.html]
+   Python
+   [https://www.guru99.com/software-testing.html]
+   Testing
+   [https://www.guru99.com/ethical-hacking-tutorials.html]
+   Hacking
+   Career Suggestion
+   [https://www.guru99.com/best-sap-module.html]SAP Career Suggestion Tool
+   [https://www.guru99.com/software-testing-career-complete-guide.html]Sof
+   tware Testing as a Career
+   Interesting
+   [https://www.guru99.com/ebook-pdf.html]eBook
+   [https://www.guru99.com/blog]Blog
+   [https://www.guru99.com/tests.html]Quiz
+   [https://www.guru99.com/sap-ebook-pdf.html]SAP eBook
+   [https://www.guru99.com/sap-training-hub.html]SAP
+   [https://www.guru99.com/java-tutorial.html]
+   Java
+   [https://www.guru99.com/sql.html]
+   SQL
+   Execute online
+   [https://www.guru99.com/try-java-editor.html]Execute Java Online
+   [https://www.guru99.com/execute-javascript-online.html]Execute
+   Javascript
+   [https://www.guru99.com/execute-html-online.html]Execute HTML
+   [https://www.guru99.com/execute-python-online.html]Execute Python
+   [https://www.guru99.com/selenium-tutorial.html]Selenium
+   [https://www.guru99.com/web-design-and-development-tutorial.html]
+   Build Website
+   [https://www.guru99.com/best-vpn.html]
+   VPNs
+
+   [svg%3E] [eLearning-badge-1.png]
+
+   © Copyright - Guru99 2023
+   [https://www.guru99.com/privacy-policy]Privacy
+   Policy  |  [https://www.guru99.com/affiliate-earning-disclaimer]Affilia
+   te Disclaimer  |  [https://www.guru99.com/terms-of-service]ToS
+
+   [https://www.guru99.com/rest-assured.html#wrapper](BUTTON)
+
+   (BUTTON)
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP (BUTTON) Expand child
+       menu
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web (BUTTON) Expand
+       child menu
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn (BUTTON) Expand child menu
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   Search for: ____________________ Search

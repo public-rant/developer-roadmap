@@ -1,0 +1,200 @@
+hey everyone my name is brian trong and
+today we re going to be talking about
+grpc
+so grpc is a modern communication
+framework that was introduced in 2015
+and is governed by the cloud native
+computing foundation and today i m just
+going to introduce the concept with a
+simple example and hopefully that will
+outline some of the benefits that i
+could bring to your application
+so let s say we have an application and
+we have a front end and i m going to
+signify this with a little
+computer monitor
+and
+the majority of the talk today will be
+about the back end layer so let s say in
+our example we have a back end micro
+services layer
+of
+python
+so let s say python handles something
+like analytics it doesn t really matter
+but python is one microservice
+and let s say
+we have another in java
+and one in golang for example
+and what i m going to do is i m going to
+go ahead and draw arrows between them to
+signify that these microservices
+need to
+connect and communicate with each other
+i do want to stop here and point out
+that i i m specifically talking about
+communication between microservices and
+i m not talking about communication
+between the front and the back end
+because
+communication uses communication via
+grpc
+does not natively work out of the box
+with
+web browsers so
+in particular grpc is more oriented for
+this type of communication
+so the first talking point that i want
+to mention with grpc is that it brings
+about
+significant improvements in convenience
+and scalability
+so i ll just write convenience here
+and
+if we weren t if we were to not use grpc
+it would be important to note that
+python has its own http client libraries
+java has its own golang has its own and
+these are client libraries that are
+supported by different groups
+and if we were to extend them it would
+be different individuals that are
+working to maintain these client
+libraries and it could get out of hand
+especially as we add
+more
+microservices that could be of different
+runtimes in different languages
+now grpc
+handles all the
+implementation to the http protocol for
+us so as a developer we don t have to
+worry about that level of detail since
+grpc implements the connections with ht
+2 0 for us so that s something that we
+don t have to worry about moving forward
+now
+on top of that
+hand in hand with convenience is grpc
+offers code generation now you re
+probably wondering how does code
+generation work how does it know what
+code to generate and what not and the
+
+and if you re not familiar with protocol
+buffers you can essentially think of
+them as
+a form of a contract for communication
+so traditionally with an api
+you don t necessarily have a
+api contract that is defined by the
+protocol itself so if we re using rest
+for example you re just sending json
+messages you know with key value pairs
+that aren t checked until you get to the
+receiving end and that s where it
+handles it but with these protocol
+buffers
+in
+the profile which is where you define
+the
+what is essentially a schema for the
+data that is being sent you can define
+things like the
+fields that you expect
+which fields are required which fields
+are optional as well as the object types
+for these fields
+on top of that
+in the protofile for the protocol buffer
+you also define the procedures that you
+expect to expose and these are
+essentially defining
+which procedures so rpcs standing for
+remote procedure calls
+you re essentially defining which
+procedures are callable remotely from
+other microservices
+and what happens is if you want to have
+the code generated you run the protofile
+against a compiler
+and what is output is
+source code in
+your respective language
+so for example if this was java and you
+defined
+in your protofile that you are expecting
+messages to have
+three fields of
+type in string etc
+what is output is essentially an
+interface that allows you to create
+these cloud that creates the classes for
+you
+that implements the object types that
+you outline in your protofile
+now the next point i want to talk about
+is
+performance
+and we already touched
+a bit about performance
+with http 2 0 being
+a much more modern protocol than http
+1 1 that already delivers a significant
+number of improvements
+but performance is further
+delivered with protocol buffers as
+protocol buffers are serialized and sent
+as binaries
+across the wire
+so if you re familiar with json which i
+think is the de facto message type that
+is sent via rest api these days
+you re probably well aware that json
+messages are
+not
+compressed or flat by any means
+considering that they are key value
+pairs that
+certainly are not the most space
+efficient
+with these protocol buffer buffers these
+messages are sent as binaries which are
+significantly significantly smaller than
+the normal json message
+of course that begs the question what
+about
+using something like gzip to compress
+the json message before transmission and
+that kind of brings us back to
+convenience in that if we were to use
+something like gzip or tool to compress
+these json messages before being sent
+you would need to import gzip or
+whatever
+compression tool you re using on each of
+the microservices and that would be
+a bit of a pain over time since you re
+basically working on different micro
+services and you re implementing that
+yourself whereas with grpc this is all
+handled for you
+so to summarize grpc offers convenience
+and then in the form of code generation
+protocol buffers
+the client library being implemented for
+you
+and on top of that performance overall
+using http 2 0 and
+sending very small performant messages
+across the wire
+so hopefully this provided an example of
+grpc in a useful applicable format
+of course grpc is not the banded curl
+solution for communication but i did
+want to emphasize that this can be a
+good solution for your application here
+are some videos that may be of interest
+to you if you have any questions about
+this video add them in the comments
+below and be sure to like and subscribe

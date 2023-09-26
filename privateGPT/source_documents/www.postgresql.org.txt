@@ -1,0 +1,281 @@
+   [https://www.postgresql.org/]PostgreSQL Elephant Logo (BUTTON)
+     * [https://www.postgresql.org/]Home
+     * [https://www.postgresql.org/about/]About
+     * [https://www.postgresql.org/download/]Download
+     * [https://www.postgresql.org/docs/]Documentation
+     * [https://www.postgresql.org/community/]Community
+     * [https://www.postgresql.org/developer/]Developers
+     * [https://www.postgresql.org/support/]Support
+     * [https://www.postgresql.org/about/donate/]Donate
+     * [https://www.postgresql.org/account/]Your account
+
+   ____________________ (BUTTON)
+   (BUTTON)
+   29th June 2023:
+   [https://www.postgresql.org/about/news/postgresql-16-beta-2-released-26
+   65/]PostgreSQL 16 Beta 2 Released!
+
+PostgreSQL: The World's Most Advanced Open Source Relational Database
+
+   [https://www.postgresql.org/download/]Download
+   [https://www.postgresql.org/about/]New to PostgreSQL?
+
+   PostgreSQL Elephant Logo
+
+New to PostgreSQL?
+
+   PostgreSQL is a powerful, open source object-relational database system
+   with over 35 years of active development that has earned it a strong
+   reputation for reliability, feature robustness, and performance.
+
+   There is a wealth of information to be found describing how to
+   [https://www.postgresql.org/download/]install and
+   [https://www.postgresql.org/docs/]use PostgreSQL through the
+   [https://www.postgresql.org/docs/]official documentation. The
+   [https://www.postgresql.org/community/]open source community provides
+   many helpful places to become familiar with PostgreSQL, discover how it
+   works, and find career opportunities. Learn more on how to
+   [https://www.postgresql.org/community/]engage with the community.
+   [https://www.postgresql.org/about/](BUTTON) Learn More
+   [https://www.postgresql.org/about/featurematrix/](BUTTON) Feature
+   Matrix
+
+Latest Releases
+
+   2023-06-29 -
+   [https://www.postgresql.org/about/news/postgresql-16-beta-2-released-26
+   65/]PostgreSQL 16 Beta 2 Released!
+
+   The PostgreSQL Global Development Group announces that the
+   [https://www.postgresql.org/about/news/postgresql-16-beta-2-released-26
+   65/]second beta release of PostgreSQL 16 is now
+   [https://www.postgresql.org/download/]available for download. This
+   release contains previews of all features that will be available when
+   PostgreSQL 16 is made generally available, though some details of the
+   release can change during the beta period.
+
+   You can find information about all of the features and changes found in
+   PostgreSQL 16 in the
+   [https://www.postgresql.org/docs/16/release-16.html]release notes.
+
+   In the spirit of the open source PostgreSQL community, we strongly
+   encourage you to [https://www.postgresql.org/developer/beta/]test
+   the new features of PostgreSQL 16 on your systems to help us eliminate
+   bugs or other issues that may exist. While we do not advise you to run
+   PostgreSQL 16 Beta 2 in production environments, we encourage you to
+   find ways to run your typical application workloads against this beta
+   release.
+
+   Your testing and feedback will help the community ensure that the
+   PostgreSQL 16 release upholds our standards of delivering a stable,
+   reliable release of the world's most advanced open source relational
+   database.
+
+   PostgreSQL 11 will stop receiving fixes on November 9, 2023. If you are
+   running PostgreSQL 11 in a production environment, we suggest that you
+   make plans to upgrade to a newer, supported version of PostgreSQL.
+   Please see our
+   [https://www.postgresql.org/support/versioning/]versioning policy for
+   more information.
+
+   For the full list of changes, please review the
+   [https://www.postgresql.org/docs/release/]release notes. You can get
+   the updates on the [https://www.postgresql.org/download/]download page.
+     * 15.3 · 2023-05-11 ·
+       [https://www.postgresql.org/docs/15/release-15-3.html]Notes
+     * 14.8 · 2023-05-11 ·
+       [https://www.postgresql.org/docs/14/release-14-8.html]Notes
+     * 13.11 · 2023-05-11 ·
+       [https://www.postgresql.org/docs/13/release-13-11.html]Notes
+     * 12.15 · 2023-05-11 ·
+       [https://www.postgresql.org/docs/12/release-12-15.html]Notes
+     * 11.20 · 2023-05-11 ·
+       [https://www.postgresql.org/docs/11/release-11-20.html]Notes
+
+   [https://www.postgresql.org/download/](BUTTON) Download
+   [https://www.postgresql.org/support/versioning/](BUTTON) Why Upgrade?
+   [https://www.postgresql.org/support/security/](BUTTON) Security
+
+Upcoming Events
+
+     * 2023-07-24 ·
+       [https://www.postgresql.org/about/event/edb-postgres-vision-nyc-202
+       3-2466/]EDB Postgres Vision NYC 2023
+     * 2023-07-31 ·
+       [https://www.postgresql.org/about/event/edb-postgres-vision-chicago
+       -2023-2467/]EDB Postgres Vision Chicago 2023
+     * PostgreSQL Community Event 2023-09-12 ·
+       [https://www.postgresql.org/about/event/pgday-uk-2023-2479/]PGDay
+       UK 2023
+     * PostgreSQL Community Event 2023-10-03 – 2023-10-05 ·
+       [https://www.postgresql.org/about/event/pgconf-nyc-2023-2463/]PGCon
+       f NYC 2023
+     * PostgreSQL Community Event 2023-10-19 ·
+       [https://www.postgresql.org/about/event/pgday-israel-2023-2449/]PGD
+       ay Israel 2023
+     * PostgreSQL Community Event 2023-12-12 – 2023-12-15 ·
+       [https://www.postgresql.org/about/event/pgconfeu-2023-2477/]PGConf.
+       EU 2023
+
+   PostgreSQL Community Event indicates that an event is recognised under
+   the [https://www.postgresql.org/about/policies/conferences/]community
+   event guidelines and is directly helping the PostgreSQL community.
+   [https://www.postgresql.org/about/events/](BUTTON) Check Schedule
+   [https://www.postgresql.org/account/events/new/](BUTTON) Add Your Event
+
+Mailing Lists
+
+   The PostgreSQL [https://lists.postgresql.org/]mailing lists enable you
+   to interact with active community participants on subjects related to
+   the development of PostgreSQL, discovering how to use PostgreSQL, or
+   learning about upcoming events and product releases.
+
+   In order to manage your mailing list subscription, you need a
+   [https://www.postgresql.org/account/]PostgreSQL community account.
+   [https://www.postgresql.org/account/]Signing up is easy and gives you
+   direct access to the [https://www.postgresql.org/community/]global
+   PostgreSQL community.
+   [https://lists.postgresql.org/](BUTTON) Subscribe
+   [https://www.postgresql.org/list/](BUTTON) View Archives
+
+Learning Opportunities Ahead
+
+   Want to learn more about PostgreSQL and help build the community? Come
+   to one of the many events, local user groups, & training sessions where
+   you can meet experienced PostgreSQL users and enhance your database
+   skills.
+   [https://www.postgresql.org/about/events/](BUTTON) Browse Events
+   [https://www.postgresql.org/community/user-groups/](BUTTON) Browse User
+   Groups
+
+Latest News
+
+[https://www.postgresql.org/about/news/postgresql-16-beta-2-released-2665/]Po
+stgreSQL 16 Beta 2 Released!
+
+     *  2023-06-29
+
+   The PostgreSQL Global Development Group announces that the
+   [https://www.postgresql.org/about/news/postgresql-16-beta-2-released-26
+   65/]first beta release of PostgreSQL 16 is now
+   [https://www.postgresql.org/download/]available for download. This
+   release contains previews of all features that will be available when
+   PostgreSQL 16 is made generally available, though some details of the
+   release can change during the beta period.
+
+   You can find information about all of the features and changes found in
+   PostgreSQL 16 in the
+   [https://www.postgresql.org/docs/16/release-16.html]release notes.
+
+   In the spirit of the open source PostgreSQL community, we strongly
+   encourage you to [https://www.postgresql.org/developer/beta/]test
+   the new features of PostgreSQL 16 on your systems to help us eliminate
+   bugs or other issues that may exist. While we do not advise you to run
+   PostgreSQL 16 Beta 1 in production environments, we encourage you to
+   find ways to run your typical application workloads against this beta
+   release.
+
+   Your testing and feedback will help the community ensure that the
+   PostgreSQL 16 release upholds our standards of delivering a stable,
+   reliable release of the world's most advanced open source relational
+   database.
+
+   For the full list of changes, please review the
+   [https://www.postgresql.org/docs/release/]release notes. You can get
+   the updates on the [https://www.postgresql.org/download/]download page.
+     * [https://www.postgresql.org/about/news/postgresql-16-beta-2-release
+       d-2665/]Release Announcement
+     * [https://www.postgresql.org/docs/16/release-16.html]Release Notes
+     * [https://www.postgresql.org/developer/beta/]Beta Testing
+       Information
+     * [https://www.postgresql.org/support/versioning/]Versioning Policy
+     * [https://www.postgresql.org/download/]Download
+
+   [https://www.postgresql.org/about/newsarchive/](BUTTON) Browse Archives
+   [https://www.postgresql.org/account/news/new/](BUTTON) Submit News
+     * [https://www.postgresql.org/about/news/pgadmin-4-v74-released-2666/
+       ]pgAdmin 4 v7.4 Released
+          +  2023-07-05 by pgAdmin Development Team
+     * [https://www.postgresql.org/about/news/postgresql-16-beta-2-release
+       d-2665/]PostgreSQL 16 Beta 2 Released!
+          +  2023-06-29 by PostgreSQL Global Development Group
+     * [https://www.postgresql.org/about/news/registration-for-pgcloud-con
+       ference-london-is-open-2662/]Registration for PGCloud Conference
+       London is Open!
+          +  2023-06-26 by PG Cloud
+     * [https://www.postgresql.org/about/news/plhaskell-v30-released-2660/
+       ]PL/Haskell v3.0 Released
+          +  2023-06-25 by PL/Haskell
+     * [https://www.postgresql.org/about/news/citus-con-an-event-for-postg
+       res-2023its-a-wrap-2653/]Citus Con: An Event for Postgres 2023—It’s
+       a wrap!
+          +  2023-06-23 by Microsoft Azure
+
+PLANET POSTGRESQL
+
+[https://postgr.es/p/5Nu]Let's Workshop an Unplanned Postgres Outage
+
+     *  Shaun M. Thomas
+     *  2023-07-07
+
+[https://postgr.es/p/5Nt]PGSQL Phriday #010: Log analysis
+
+     *  Lætitia AVROT
+     *  2023-07-07
+
+[https://postgr.es/p/5Ns]pgbadger PGSQLPhriday
+
+     *  Anthony Nowocien
+     *  2023-07-06
+
+[https://postgr.es/p/5Np]PostgreSQL Physical Backups Using pg_basebackup: A
+Comprehensive Guide
+
+     *  muhammad ali
+     *  2023-07-04
+
+[https://postgr.es/p/5Nr]TIL - IN is not the same as ANY
+
+     *  Kaarel Moppel
+     *  2023-07-03
+
+[https://postgr.es/p/5Nm]PGSQL Phriday #010
+
+     *  Ryan Booz
+     *  2023-07-03
+
+[https://postgr.es/p/5No]Afsane Anand
+
+     *  Andreas 'ads' Scherbaum
+     *  2023-07-03
+
+[https://postgr.es/p/5Nl]Automated index bloat management: How pg_index_watch
+keeps PostgreSQL indexes lean.
+
+     *  Maxim Boguk
+     *  2023-07-03
+
+[https://postgr.es/p/5Nk]pgBackRest differential vs incremental backup
+
+     *  Stefan Fercot
+     *  2023-07-03
+
+   [https://planet.postgresql.org/](BUTTON) Browse Archives
+
+Seeing unexpected behavior?
+
+   The PostgreSQL community takes pride in releasing software that
+   reliably stores your data. If you believe you've discovered a bug,
+   please click the button below and follow the instructions on how to
+   submit a bug.
+   [https://www.postgresql.org/account/submitbug/](BUTTON) Submit a Bug
+
+     * [https://twitter.com/postgresql]@postgresql
+     * [https://git.postgresql.org/gitweb/?p=postgresql.git]Git
+
+   [https://www.postgresql.org/about/policies/]Policies |
+   [https://www.postgresql.org/about/policies/coc/]Code of Conduct |
+   [https://www.postgresql.org/about/]About PostgreSQL |
+   [https://www.postgresql.org/about/contact/]Contact
+
+   Copyright © 1996-2023 The PostgreSQL Global Development Group

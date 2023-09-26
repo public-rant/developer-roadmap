@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/ > $(basename https://thenewstack.io/how-to-integrate-and-test-your-tech-stack/).txt

@@ -1,0 +1,241 @@
+how does the internet work
+the video you are watching now
+Music
+traveled thousands of miles from a
+google data center to reach you
+let s learn how the internet works by
+getting to understand the details of
+this data s incredible journey
+Music
+the data center which can be thousands
+of miles away from you
+has your video stored inside it
+how does this data reach your mobile
+phone or laptop
+an easy way to achieve this goal would
+be with use of satellites
+from the data center a signal could be
+
+and then from the satellite a signal
+could be sent to your mobile phone via
+another antenna near to you
+however this way of transmitting signals
+is not a good idea
+let s see why
+the satellite is parked nearly 22 000
+miles above the earth s equator
+so in order for the data transmission to
+be successful the data would have to
+travel a total distance of 44 000 miles
+such a long distance of travel causes a
+significant delay in receiving the
+signal more specifically it causes huge
+latency which is unacceptable for most
+internet applications
+so if this video does not reach you via
+a satellite then how does it actually
+get to you
+well it is done with the help of a
+complicated network of optical fiber
+cables which connect between the data
+
+your phone could be connected to the
+internet via cellular data or any wi fi
+router but ultimately at some point your
+phone will be connected to this network
+
+we saw at the beginning that the video
+you are currently watching is stored
+inside a data center
+to be more specific it is stored in a
+solid state device within the data
+center
+this ssd acts as the internal memory of
+a server the server is simply a powerful
+computer whose job is to provide you the
+video or other stored content when you
+request it
+now the challenge is how to transfer the
+data stored in the data center
+specifically to your device via the
+complex network of optical fiber cables
+let s see how this is done before
+proceeding further we should first
+understand an important concept which is
+the concept of an ip address
+every device that is connected to the
+internet whether it is a server a
+computer or a mobile phone is identified
+uniquely by a string of numbers known as
+an ip address
+you can consider the ip address similar
+to your home address
+that is the address that uniquely
+identifies your home
+any letter sent to you reaches you
+
+similarly in the internet world an ip
+address acts as a shipping address
+through which all information reaches
+its destination your internet service
+provider will decide the ip address of
+your device and you are able to see what
+i p address your isp has given to your
+
+the server in the data center also has
+an ip address
+the server stores a website so you can
+access any website just by knowing the
+server s ip address
+however it is difficult for a person to
+remember so many ip addresses so to
+solve this problem domain names like
+youtube com facebook com etc are used
+which correspond to ip addresses which
+are easier for us to remember than the
+long sequence of numbers
+another thing to notice here is that a
+server has the capability of storing
+several websites and if the server
+consists of multiple websites all the
+websites cannot be accessed with the
+server s ip address
+in such cases additional pieces of
+information host headers are used to
+uniquely identify the website
+however for the giant websites like
+facebook com or youtube com the entire
+data center infrastructure will be
+dedicated to the storage of the
+particular website
+to access the internet we always use
+domain names instead of the complex i p
+address numbers
+from where does the internet get i p
+addresses corresponding to our domain
+name requests
+well for this purpose the internet uses
+a huge phone book known as dns
+if you know a person s name but don t
+know the telephone number you can simply
+look it up in a phone book
+the dns server provides the same service
+to the internet your internet service
+provider or other organizations can
+
+let s have a recap of the whole
+operation
+you enter the domain name the browser
+sends a request to the dns server to get
+the corresponding ip address
+after getting the ip address your
+browser simply forwards the request to
+the data center
+more specifically to the respective
+server
+once the server gets a request to access
+a particular website the data flow
+starts the data is transferred in
+digital format via optical fiber cables
+more specifically in the form of light
+pulses
+these light pulses sometimes have to
+travel thousands of miles via the
+optical fiber cable to reach their
+destination
+during their journey they often have to
+go through tough terrains such as hilly
+areas or under the sea
+there are a few global companies who lay
+and maintain these optical cable
+networks
+these visuals show how the laying of
+optical fiber cables is done with the
+
+a plow is dropped deep into the sea from
+the ship
+and this plow creates a trench on the
+seabed into which is place the optical
+fiber cable
+in fact this complex optical cable
+network is the backbone of the internet
+these optical fiber cables carrying the
+light are stretched across the seabed to
+your doorstep where they are connected
+to a router
+the router converts these light signals
+
+an ethernet cable is then used to
+transmit the electrical signals to your
+laptop
+however if you are accessing the
+internet using cellular data from the
+optical cable the signal has to be sent
+to a cell tower
+and from the cell tower the signal
+reaches your cell phone in the form of
+
+since the internet is a global network
+it has become important to have an
+organization to manage things like ip
+address assignment domain name
+registration etc
+this is all managed by an institution
+called icann located in the usa one
+amazing thing about the internet is its
+efficiency in transmitting data when
+compared with cellular and landline
+communication technologies
+this video you are watching from the
+google data center is sent to you in the
+form of a huge collection of zeros and
+ones
+what makes the data transfer in the
+internet efficient is the way in which
+these zeros and ones are chopped up into
+small chunks known as packets and
+transmitted
+let s assume these streams of zeros and
+ones are divided into different packets
+by the server where each packet consists
+of six bits
+along with the bits of the video each
+packet also consists of the sequence
+number and the i p addresses of the
+server and your phone
+with this information the packets are
+routed towards your phone
+it s not necessary that all packets are
+routed through the same path and each
+packet independently takes the best
+route available at that time
+upon reaching your phone the packets are
+reassembled according to their sequence
+number
+if it is the case that any packets fail
+to reach your phone an acknowledgement
+is sent from your phone to resend the
+lost packets
+now compare this with a postal network
+with a good infrastructure but the
+customers do not follow the basic rules
+regarding the destination addresses
+in this scenario letters won t be able
+
+similarly in the internet we use
+something called protocols for the
+management of this complex flow of data
+packets
+the protocols set the rules for data
+packet conversion attachment of the
+source and destination addresses to each
+packet and the rules for routers etc for
+different applications the protocols
+used are different
+we hope this video has given you a good
+understanding about how the internet
+works more specifically about the
+amazing journey of data packets from the
+data center to your mobile phone
+please don t forget to support us at
+patreon com

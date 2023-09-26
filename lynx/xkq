@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://baida.dev/articles/https-explained-with-carrier-pigeons > $(basename https://baida.dev/articles/https-explained-with-carrier-pigeons).txt

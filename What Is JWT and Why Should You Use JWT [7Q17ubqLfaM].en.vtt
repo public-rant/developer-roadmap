@@ -1,0 +1,3664 @@
+WEBVTT
+
+
+
+00:00:00.030 --> 00:00:02.540 align:start position:0%
+ 
+hello<00:00:00.630><c> everyone</c><00:00:00.989><c> my</c><00:00:01.530><c> name</c><00:00:01.709><c> is</c><00:00:01.770><c> Kyle</c><00:00:01.979><c> and</c><00:00:02.190><c> this</c>
+
+00:00:02.540 --> 00:00:02.550 align:start position:0%
+hello everyone my name is Kyle and this
+ 
+
+00:00:02.550 --> 00:00:04.550 align:start position:0%
+hello everyone my name is Kyle and this
+is<00:00:02.700><c> web</c><00:00:02.879><c> dev</c><00:00:03.090><c> simplified</c><00:00:03.659><c> now</c><00:00:04.319><c> if</c><00:00:04.440><c> you're</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+is web dev simplified now if you're
+ 
+
+00:00:04.560 --> 00:00:06.320 align:start position:0%
+is web dev simplified now if you're
+anything<00:00:04.710><c> like</c><00:00:04.950><c> me</c><00:00:05.009><c> you've</c><00:00:05.640><c> probably</c><00:00:05.879><c> heard</c>
+
+00:00:06.320 --> 00:00:06.330 align:start position:0%
+anything like me you've probably heard
+ 
+
+00:00:06.330 --> 00:00:08.750 align:start position:0%
+anything like me you've probably heard
+of<00:00:06.509><c> JWT</c><00:00:07.049><c> you've</c><00:00:07.740><c> maybe</c><00:00:07.950><c> even</c><00:00:08.280><c> seen</c><00:00:08.460><c> a</c><00:00:08.490><c> few</c>
+
+00:00:08.750 --> 00:00:08.760 align:start position:0%
+of JWT you've maybe even seen a few
+ 
+
+00:00:08.760 --> 00:00:10.400 align:start position:0%
+of JWT you've maybe even seen a few
+videos<00:00:08.790><c> on</c><00:00:09.300><c> it</c><00:00:09.450><c> but</c><00:00:09.900><c> you</c><00:00:09.960><c> still</c><00:00:10.230><c> have</c>
+
+00:00:10.400 --> 00:00:10.410 align:start position:0%
+videos on it but you still have
+ 
+
+00:00:10.410 --> 00:00:13.370 align:start position:0%
+videos on it but you still have
+absolutely<00:00:10.620><c> no</c><00:00:11.400><c> idea</c><00:00:11.550><c> how</c><00:00:12.030><c> JWT</c><00:00:12.660><c> really</c><00:00:13.139><c> works</c>
+
+00:00:13.370 --> 00:00:13.380 align:start position:0%
+absolutely no idea how JWT really works
+ 
+
+00:00:13.380 --> 00:00:15.110 align:start position:0%
+absolutely no idea how JWT really works
+or<00:00:13.889><c> even</c><00:00:13.920><c> why</c><00:00:14.309><c> you</c><00:00:14.370><c> would</c><00:00:14.580><c> actually</c><00:00:14.700><c> want</c><00:00:15.059><c> to</c>
+
+00:00:15.110 --> 00:00:15.120 align:start position:0%
+or even why you would actually want to
+ 
+
+00:00:15.120 --> 00:00:17.689 align:start position:0%
+or even why you would actually want to
+use<00:00:15.389><c> it</c><00:00:15.599><c> so</c><00:00:16.139><c> today</c><00:00:16.650><c> in</c><00:00:16.859><c> this</c><00:00:16.980><c> video</c><00:00:17.160><c> I'm</c><00:00:17.460><c> going</c>
+
+00:00:17.689 --> 00:00:17.699 align:start position:0%
+use it so today in this video I'm going
+ 
+
+00:00:17.699 --> 00:00:19.250 align:start position:0%
+use it so today in this video I'm going
+to<00:00:17.789><c> answer</c><00:00:17.850><c> all</c><00:00:18.270><c> of</c><00:00:18.330><c> those</c><00:00:18.600><c> questions</c><00:00:18.660><c> for</c><00:00:19.109><c> you</c>
+
+00:00:19.250 --> 00:00:19.260 align:start position:0%
+to answer all of those questions for you
+ 
+
+00:00:19.260 --> 00:00:21.620 align:start position:0%
+to answer all of those questions for you
+first<00:00:19.949><c> I'm</c><00:00:20.220><c> gonna</c><00:00:20.340><c> tell</c><00:00:20.520><c> you</c><00:00:20.609><c> what</c><00:00:20.820><c> JWT</c><00:00:21.330><c> is</c>
+
+00:00:21.620 --> 00:00:21.630 align:start position:0%
+first I'm gonna tell you what JWT is
+ 
+
+00:00:21.630 --> 00:00:23.210 align:start position:0%
+first I'm gonna tell you what JWT is
+then<00:00:22.289><c> I'm</c><00:00:22.380><c> going</c><00:00:22.529><c> to</c><00:00:22.590><c> talk</c><00:00:22.740><c> about</c><00:00:22.890><c> why</c><00:00:23.160><c> you</c>
+
+00:00:23.210 --> 00:00:23.220 align:start position:0%
+then I'm going to talk about why you
+ 
+
+00:00:23.220 --> 00:00:25.580 align:start position:0%
+then I'm going to talk about why you
+should<00:00:23.340><c> use</c><00:00:23.609><c> JWT</c><00:00:24.359><c> and</c><00:00:24.689><c> finally</c><00:00:25.380><c> I'm</c><00:00:25.470><c> gonna</c>
+
+00:00:25.580 --> 00:00:25.590 align:start position:0%
+should use JWT and finally I'm gonna
+ 
+
+00:00:25.590 --> 00:00:27.830 align:start position:0%
+should use JWT and finally I'm gonna
+show<00:00:25.830><c> you</c><00:00:25.890><c> exactly</c><00:00:26.250><c> how</c><00:00:26.400><c> JWT</c><00:00:27.029><c> works</c><00:00:27.449><c> and</c><00:00:27.689><c> how</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+show you exactly how JWT works and how
+ 
+
+00:00:27.840 --> 00:00:30.019 align:start position:0%
+show you exactly how JWT works and how
+you<00:00:27.900><c> can</c><00:00:28.140><c> use</c><00:00:28.170><c> it</c><00:00:28.320><c> yourself</c><00:00:28.529><c> so</c><00:00:29.490><c> let's</c><00:00:29.910><c> get</c>
+
+00:00:30.019 --> 00:00:30.029 align:start position:0%
+you can use it yourself so let's get
+ 
+
+00:00:30.029 --> 00:00:35.630 align:start position:0%
+you can use it yourself so let's get
+started<00:00:30.390><c> now</c><00:00:33.649><c> first</c><00:00:34.649><c> before</c><00:00:34.860><c> we</c><00:00:35.160><c> can</c><00:00:35.250><c> get</c><00:00:35.430><c> into</c>
+
+00:00:35.630 --> 00:00:35.640 align:start position:0%
+started now first before we can get into
+ 
+
+00:00:35.640 --> 00:00:37.790 align:start position:0%
+started now first before we can get into
+the<00:00:35.760><c> nitty</c><00:00:35.969><c> gritty</c><00:00:36.030><c> details</c><00:00:36.719><c> of</c><00:00:36.930><c> exactly</c><00:00:37.260><c> how</c>
+
+00:00:37.790 --> 00:00:37.800 align:start position:0%
+the nitty gritty details of exactly how
+ 
+
+00:00:37.800 --> 00:00:40.700 align:start position:0%
+the nitty gritty details of exactly how
+JWT<00:00:38.370><c> works</c><00:00:38.790><c> we</c><00:00:39.360><c> need</c><00:00:39.450><c> to</c><00:00:39.510><c> understand</c><00:00:39.960><c> what</c><00:00:40.140><c> JWT</c>
+
+00:00:40.700 --> 00:00:40.710 align:start position:0%
+JWT works we need to understand what JWT
+ 
+
+00:00:40.710 --> 00:00:43.520 align:start position:0%
+JWT works we need to understand what JWT
+is<00:00:40.980><c> used</c><00:00:41.370><c> for</c><00:00:41.670><c> and</c><00:00:41.940><c> JWT</c><00:00:42.780><c> is</c><00:00:43.079><c> just</c><00:00:43.379><c> for</c>
+
+00:00:43.520 --> 00:00:43.530 align:start position:0%
+is used for and JWT is just for
+ 
+
+00:00:43.530 --> 00:00:46.310 align:start position:0%
+is used for and JWT is just for
+authorization<00:00:44.070><c> not</c><00:00:45.020><c> authentication</c><00:00:46.020><c> they're</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+authorization not authentication they're
+ 
+
+00:00:46.320 --> 00:00:48.410 align:start position:0%
+authorization not authentication they're
+slightly<00:00:46.739><c> different</c><00:00:47.100><c> with</c><00:00:47.670><c> authentication</c>
+
+00:00:48.410 --> 00:00:48.420 align:start position:0%
+slightly different with authentication
+ 
+
+00:00:48.420 --> 00:00:50.060 align:start position:0%
+slightly different with authentication
+what<00:00:48.750><c> you're</c><00:00:48.870><c> doing</c><00:00:49.110><c> is</c><00:00:49.469><c> you're</c><00:00:49.590><c> taking</c><00:00:49.739><c> in</c><00:00:49.980><c> a</c>
+
+00:00:50.060 --> 00:00:50.070 align:start position:0%
+what you're doing is you're taking in a
+ 
+
+00:00:50.070 --> 00:00:51.439 align:start position:0%
+what you're doing is you're taking in a
+username<00:00:50.430><c> and</c><00:00:50.700><c> a</c><00:00:50.789><c> password</c><00:00:50.820><c> and</c>
+
+00:00:51.439 --> 00:00:51.449 align:start position:0%
+username and a password and
+ 
+
+00:00:51.449 --> 00:00:52.729 align:start position:0%
+username and a password and
+authenticating<00:00:52.230><c> to</c><00:00:52.350><c> make</c><00:00:52.500><c> sure</c><00:00:52.620><c> that</c>
+
+00:00:52.729 --> 00:00:52.739 align:start position:0%
+authenticating to make sure that
+ 
+
+00:00:52.739 --> 00:00:54.560 align:start position:0%
+authenticating to make sure that
+username<00:00:53.160><c> and</c><00:00:53.340><c> password</c><00:00:53.789><c> is</c><00:00:53.850><c> correct</c><00:00:54.210><c> it's</c>
+
+00:00:54.560 --> 00:00:54.570 align:start position:0%
+username and password is correct it's
+ 
+
+00:00:54.570 --> 00:00:56.930 align:start position:0%
+username and password is correct it's
+like<00:00:54.750><c> logging</c><00:00:55.050><c> a</c><00:00:55.260><c> user</c><00:00:55.440><c> in</c><00:00:55.710><c> but</c><00:00:56.129><c> authorization</c>
+
+00:00:56.930 --> 00:00:56.940 align:start position:0%
+like logging a user in but authorization
+ 
+
+00:00:56.940 --> 00:00:58.549 align:start position:0%
+like logging a user in but authorization
+is<00:00:57.120><c> actually</c><00:00:57.539><c> making</c><00:00:57.899><c> sure</c><00:00:58.050><c> that</c><00:00:58.170><c> the</c><00:00:58.320><c> user</c>
+
+00:00:58.549 --> 00:00:58.559 align:start position:0%
+is actually making sure that the user
+ 
+
+00:00:58.559 --> 00:01:00.889 align:start position:0%
+is actually making sure that the user
+that<00:00:58.800><c> sends</c><00:00:59.160><c> request</c><00:00:59.520><c> to</c><00:00:59.789><c> your</c><00:00:59.969><c> server</c><00:01:00.030><c> is</c><00:01:00.510><c> the</c>
+
+00:01:00.889 --> 00:01:00.899 align:start position:0%
+that sends request to your server is the
+ 
+
+00:01:00.899 --> 00:01:03.200 align:start position:0%
+that sends request to your server is the
+same<00:01:01.170><c> user</c><00:01:01.530><c> that</c><00:01:01.800><c> actually</c><00:01:02.219><c> logged</c><00:01:02.489><c> in</c><00:01:02.730><c> during</c>
+
+00:01:03.200 --> 00:01:03.210 align:start position:0%
+same user that actually logged in during
+ 
+
+00:01:03.210 --> 00:01:04.549 align:start position:0%
+same user that actually logged in during
+the<00:01:03.300><c> authentication</c><00:01:03.600><c> process</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+the authentication process
+ 
+
+00:01:04.559 --> 00:01:06.590 align:start position:0%
+the authentication process
+it's<00:01:04.920><c> authorizing</c><00:01:05.729><c> that</c><00:01:05.850><c> this</c><00:01:06.240><c> user</c><00:01:06.479><c> has</c>
+
+00:01:06.590 --> 00:01:06.600 align:start position:0%
+it's authorizing that this user has
+ 
+
+00:01:06.600 --> 00:01:09.289 align:start position:0%
+it's authorizing that this user has
+access<00:01:06.990><c> to</c><00:01:07.500><c> this</c><00:01:07.619><c> particular</c><00:01:07.799><c> system</c><00:01:08.430><c> and</c><00:01:08.820><c> the</c>
+
+00:01:09.289 --> 00:01:09.299 align:start position:0%
+access to this particular system and the
+ 
+
+00:01:09.299 --> 00:01:11.030 align:start position:0%
+access to this particular system and the
+way<00:01:09.420><c> that</c><00:01:09.540><c> this</c><00:01:09.630><c> is</c><00:01:09.810><c> normally</c><00:01:10.229><c> done</c><00:01:10.260><c> is</c><00:01:10.590><c> by</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+way that this is normally done is by
+ 
+
+00:01:11.040 --> 00:01:12.830 align:start position:0%
+way that this is normally done is by
+using<00:01:11.250><c> session</c><00:01:11.850><c> so</c><00:01:12.090><c> for</c><00:01:12.270><c> example</c><00:01:12.600><c> you</c><00:01:12.689><c> have</c><00:01:12.780><c> a</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+using session so for example you have a
+ 
+
+00:01:12.840 --> 00:01:15.080 align:start position:0%
+using session so for example you have a
+session<00:01:13.110><c> ID</c><00:01:13.470><c> that</c><00:01:14.130><c> you</c><00:01:14.189><c> send</c><00:01:14.460><c> down</c><00:01:14.670><c> in</c><00:01:14.939><c> the</c>
+
+00:01:15.080 --> 00:01:15.090 align:start position:0%
+session ID that you send down in the
+ 
+
+00:01:15.090 --> 00:01:17.450 align:start position:0%
+session ID that you send down in the
+cookies<00:01:15.450><c> of</c><00:01:15.600><c> the</c><00:01:16.140><c> browser</c><00:01:16.590><c> and</c><00:01:16.920><c> then</c><00:01:17.159><c> every</c>
+
+00:01:17.450 --> 00:01:17.460 align:start position:0%
+cookies of the browser and then every
+ 
+
+00:01:17.460 --> 00:01:19.100 align:start position:0%
+cookies of the browser and then every
+time<00:01:17.610><c> the</c><00:01:17.790><c> client</c><00:01:18.090><c> makes</c><00:01:18.240><c> your</c><00:01:18.360><c> request</c><00:01:18.630><c> they</c>
+
+00:01:19.100 --> 00:01:19.110 align:start position:0%
+time the client makes your request they
+ 
+
+00:01:19.110 --> 00:01:20.929 align:start position:0%
+time the client makes your request they
+send<00:01:19.350><c> that</c><00:01:19.470><c> session</c><00:01:19.710><c> ID</c><00:01:19.979><c> up</c><00:01:20.310><c> to</c><00:01:20.580><c> the</c><00:01:20.670><c> server</c>
+
+00:01:20.929 --> 00:01:20.939 align:start position:0%
+send that session ID up to the server
+ 
+
+00:01:20.939 --> 00:01:23.870 align:start position:0%
+send that session ID up to the server
+and<00:01:21.180><c> the</c><00:01:21.600><c> server</c><00:01:21.630><c> checks</c><00:01:22.229><c> its</c><00:01:22.439><c> memory</c><00:01:22.830><c> says</c><00:01:23.430><c> ok</c>
+
+00:01:23.870 --> 00:01:23.880 align:start position:0%
+and the server checks its memory says ok
+ 
+
+00:01:23.880 --> 00:01:25.850 align:start position:0%
+and the server checks its memory says ok
+what<00:01:24.119><c> user</c><00:01:24.330><c> has</c><00:01:24.600><c> that</c><00:01:24.780><c> session</c><00:01:24.960><c> ID</c><00:01:25.229><c> it</c><00:01:25.500><c> finds</c>
+
+00:01:25.850 --> 00:01:25.860 align:start position:0%
+what user has that session ID it finds
+ 
+
+00:01:25.860 --> 00:01:27.230 align:start position:0%
+what user has that session ID it finds
+that<00:01:26.070><c> user</c><00:01:26.250><c> and</c><00:01:26.490><c> then</c><00:01:26.729><c> it</c><00:01:26.880><c> does</c><00:01:27.060><c> the</c>
+
+00:01:27.230 --> 00:01:27.240 align:start position:0%
+that user and then it does the
+ 
+
+00:01:27.240 --> 00:01:29.090 align:start position:0%
+that user and then it does the
+authorization<00:01:28.170><c> to</c><00:01:28.350><c> make</c><00:01:28.470><c> sure</c><00:01:28.619><c> the</c><00:01:28.710><c> user</c><00:01:28.890><c> has</c>
+
+00:01:29.090 --> 00:01:29.100 align:start position:0%
+authorization to make sure the user has
+ 
+
+00:01:29.100 --> 00:01:29.600 align:start position:0%
+authorization to make sure the user has
+access
+
+00:01:29.600 --> 00:01:29.610 align:start position:0%
+access
+ 
+
+00:01:29.610 --> 00:01:32.300 align:start position:0%
+access
+but<00:01:30.210><c> JWT</c><00:01:30.689><c> instead</c><00:01:31.500><c> of</c><00:01:31.590><c> actually</c><00:01:31.890><c> using</c><00:01:32.189><c> these</c>
+
+00:01:32.300 --> 00:01:32.310 align:start position:0%
+but JWT instead of actually using these
+ 
+
+00:01:32.310 --> 00:01:35.030 align:start position:0%
+but JWT instead of actually using these
+cookies<00:01:32.729><c> it</c><00:01:33.000><c> uses</c><00:01:33.420><c> a</c><00:01:33.450><c> JSON</c><00:01:34.020><c> web</c><00:01:34.229><c> token</c><00:01:34.680><c> which</c>
+
+00:01:35.030 --> 00:01:35.040 align:start position:0%
+cookies it uses a JSON web token which
+ 
+
+00:01:35.040 --> 00:01:37.429 align:start position:0%
+cookies it uses a JSON web token which
+is<00:01:35.220><c> what</c><00:01:35.400><c> JWT</c><00:01:35.970><c> stands</c><00:01:36.479><c> for</c><00:01:36.810><c> to</c><00:01:37.170><c> do</c><00:01:37.320><c> the</c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+is what JWT stands for to do the
+ 
+
+00:01:37.439 --> 00:01:39.200 align:start position:0%
+is what JWT stands for to do the
+authorization<00:01:38.189><c> let's</c><00:01:38.700><c> actually</c><00:01:38.850><c> look</c><00:01:39.090><c> at</c><00:01:39.180><c> a</c>
+
+00:01:39.200 --> 00:01:39.210 align:start position:0%
+authorization let's actually look at a
+ 
+
+00:01:39.210 --> 00:01:40.760 align:start position:0%
+authorization let's actually look at a
+quick<00:01:39.390><c> graph</c><00:01:39.659><c> to</c><00:01:39.930><c> explain</c><00:01:40.170><c> the</c><00:01:40.320><c> differences</c>
+
+00:01:40.760 --> 00:01:40.770 align:start position:0%
+quick graph to explain the differences
+ 
+
+00:01:40.770 --> 00:01:42.770 align:start position:0%
+quick graph to explain the differences
+first<00:01:41.340><c> we're</c><00:01:41.820><c> gonna</c><00:01:41.880><c> take</c><00:01:42.150><c> a</c><00:01:42.210><c> look</c><00:01:42.420><c> at</c><00:01:42.540><c> a</c><00:01:42.570><c> more</c>
+
+00:01:42.770 --> 00:01:42.780 align:start position:0%
+first we're gonna take a look at a more
+ 
+
+00:01:42.780 --> 00:01:45.139 align:start position:0%
+first we're gonna take a look at a more
+traditional<00:01:42.990><c> user</c><00:01:43.680><c> login</c><00:01:44.220><c> system</c><00:01:44.369><c> that</c><00:01:44.970><c> uses</c>
+
+00:01:45.139 --> 00:01:45.149 align:start position:0%
+traditional user login system that uses
+ 
+
+00:01:45.149 --> 00:01:47.240 align:start position:0%
+traditional user login system that uses
+sessions<00:01:45.720><c> and</c><00:01:45.930><c> cookies</c><00:01:46.320><c> to</c><00:01:46.680><c> store</c><00:01:46.890><c> the</c><00:01:47.040><c> user</c>
+
+00:01:47.240 --> 00:01:47.250 align:start position:0%
+sessions and cookies to store the user
+ 
+
+00:01:47.250 --> 00:01:49.639 align:start position:0%
+sessions and cookies to store the user
+so<00:01:47.909><c> the</c><00:01:48.180><c> first</c><00:01:48.390><c> thing</c><00:01:48.540><c> that</c><00:01:48.570><c> happens</c><00:01:48.960><c> is</c><00:01:49.110><c> the</c>
+
+00:01:49.639 --> 00:01:49.649 align:start position:0%
+so the first thing that happens is the
+ 
+
+00:01:49.649 --> 00:01:51.770 align:start position:0%
+so the first thing that happens is the
+user<00:01:49.860><c> actually</c><00:01:50.159><c> logs</c><00:01:50.549><c> in</c><00:01:50.759><c> from</c><00:01:50.939><c> the</c><00:01:51.090><c> client</c><00:01:51.420><c> by</c>
+
+00:01:51.770 --> 00:01:51.780 align:start position:0%
+user actually logs in from the client by
+ 
+
+00:01:51.780 --> 00:01:53.270 align:start position:0%
+user actually logs in from the client by
+posting<00:01:52.259><c> to</c><00:01:52.350><c> some</c><00:01:52.500><c> kind</c><00:01:52.649><c> of</c><00:01:52.680><c> login</c><00:01:52.920><c> service</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+posting to some kind of login service
+ 
+
+00:01:53.280 --> 00:01:54.649 align:start position:0%
+posting to some kind of login service
+with<00:01:53.549><c> their</c><00:01:53.700><c> email</c><00:01:53.970><c> password</c><00:01:54.450><c> for</c><00:01:54.600><c> example</c>
+
+00:01:54.649 --> 00:01:54.659 align:start position:0%
+with their email password for example
+ 
+
+00:01:54.659 --> 00:01:56.780 align:start position:0%
+with their email password for example
+and<00:01:55.200><c> as</c><00:01:55.619><c> soon</c><00:01:55.799><c> as</c><00:01:55.890><c> that</c><00:01:56.070><c> gets</c><00:01:56.280><c> to</c><00:01:56.460><c> the</c><00:01:56.579><c> server</c>
+
+00:01:56.780 --> 00:01:56.790 align:start position:0%
+and as soon as that gets to the server
+ 
+
+00:01:56.790 --> 00:01:58.100 align:start position:0%
+and as soon as that gets to the server
+what's<00:01:57.180><c> going</c><00:01:57.329><c> to</c><00:01:57.360><c> happen</c><00:01:57.689><c> is</c><00:01:57.810><c> the</c><00:01:57.899><c> third</c>
+
+00:01:58.100 --> 00:01:58.110 align:start position:0%
+what's going to happen is the third
+ 
+
+00:01:58.110 --> 00:01:59.870 align:start position:0%
+what's going to happen is the third
+server<00:01:58.439><c> is</c><00:01:58.680><c> going</c><00:01:58.860><c> to</c><00:01:58.950><c> do</c><00:01:59.070><c> the</c><00:01:59.159><c> authentication</c>
+
+00:01:59.870 --> 00:01:59.880 align:start position:0%
+server is going to do the authentication
+ 
+
+00:01:59.880 --> 00:02:01.370 align:start position:0%
+server is going to do the authentication
+to<00:02:00.180><c> make</c><00:02:00.329><c> sure</c><00:02:00.420><c> that</c><00:02:00.509><c> that</c><00:02:00.659><c> user</c><00:02:00.869><c> is</c><00:02:01.049><c> correct</c>
+
+00:02:01.370 --> 00:02:01.380 align:start position:0%
+to make sure that that user is correct
+ 
+
+00:02:01.380 --> 00:02:03.050 align:start position:0%
+to make sure that that user is correct
+and<00:02:01.560><c> if</c><00:02:01.890><c> that</c><00:02:02.040><c> user</c><00:02:02.250><c> is</c><00:02:02.520><c> correct</c><00:02:02.880><c> with</c><00:02:03.030><c> the</c>
+
+00:02:03.050 --> 00:02:03.060 align:start position:0%
+and if that user is correct with the
+ 
+
+00:02:03.060 --> 00:02:04.639 align:start position:0%
+and if that user is correct with the
+email<00:02:03.360><c> password</c><00:02:03.780><c> what</c><00:02:04.170><c> they're</c><00:02:04.320><c> going</c><00:02:04.439><c> to</c><00:02:04.500><c> do</c>
+
+00:02:04.639 --> 00:02:04.649 align:start position:0%
+email password what they're going to do
+ 
+
+00:02:04.649 --> 00:02:05.929 align:start position:0%
+email password what they're going to do
+is<00:02:04.799><c> they're</c><00:02:04.950><c> actually</c><00:02:05.040><c> going</c><00:02:05.340><c> to</c><00:02:05.399><c> store</c><00:02:05.700><c> that</c>
+
+00:02:05.929 --> 00:02:05.939 align:start position:0%
+is they're actually going to store that
+ 
+
+00:02:05.939 --> 00:02:08.389 align:start position:0%
+is they're actually going to store that
+user<00:02:06.180><c> inside</c><00:02:06.719><c> the</c><00:02:07.259><c> session</c><00:02:07.710><c> which</c><00:02:08.009><c> is</c><00:02:08.039><c> stored</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+user inside the session which is stored
+ 
+
+00:02:08.399 --> 00:02:10.820 align:start position:0%
+user inside the session which is stored
+in<00:02:08.580><c> the</c><00:02:08.940><c> memory</c><00:02:09.119><c> of</c><00:02:09.330><c> the</c><00:02:09.690><c> server</c><00:02:09.989><c> and</c><00:02:10.289><c> they're</c>
+
+00:02:10.820 --> 00:02:10.830 align:start position:0%
+in the memory of the server and they're
+ 
+
+00:02:10.830 --> 00:02:12.500 align:start position:0%
+in the memory of the server and they're
+going<00:02:10.920><c> to</c><00:02:11.009><c> get</c><00:02:11.129><c> a</c><00:02:11.310><c> unique</c><00:02:11.670><c> ID</c><00:02:11.940><c> that</c>
+
+00:02:12.500 --> 00:02:12.510 align:start position:0%
+going to get a unique ID that
+ 
+
+00:02:12.510 --> 00:02:13.880 align:start position:0%
+going to get a unique ID that
+corresponds<00:02:13.440><c> with</c><00:02:13.500><c> that</c>
+
+00:02:13.880 --> 00:02:13.890 align:start position:0%
+corresponds with that
+ 
+
+00:02:13.890 --> 00:02:15.410 align:start position:0%
+corresponds with that
+heart<00:02:14.010><c> in</c><00:02:14.160><c> memory</c><00:02:14.490><c> and</c><00:02:14.700><c> they're</c><00:02:15.000><c> gonna</c><00:02:15.120><c> send</c>
+
+00:02:15.410 --> 00:02:15.420 align:start position:0%
+heart in memory and they're gonna send
+ 
+
+00:02:15.420 --> 00:02:18.170 align:start position:0%
+heart in memory and they're gonna send
+that<00:02:15.600><c> ID</c><00:02:15.810><c> back</c><00:02:16.350><c> to</c><00:02:16.830><c> the</c><00:02:16.950><c> browser</c><00:02:17.130><c> using</c><00:02:18.030><c> a</c>
+
+00:02:18.170 --> 00:02:18.180 align:start position:0%
+that ID back to the browser using a
+ 
+
+00:02:18.180 --> 00:02:20.150 align:start position:0%
+that ID back to the browser using a
+cookie<00:02:18.569><c> so</c><00:02:18.840><c> that</c><00:02:18.990><c> the</c><00:02:19.140><c> browser</c><00:02:19.319><c> always</c><00:02:19.740><c> has</c>
+
+00:02:20.150 --> 00:02:20.160 align:start position:0%
+cookie so that the browser always has
+ 
+
+00:02:20.160 --> 00:02:22.850 align:start position:0%
+cookie so that the browser always has
+that<00:02:20.400><c> session</c><00:02:20.640><c> ID</c><00:02:20.910><c> that</c><00:02:21.540><c> it</c><00:02:21.630><c> sends</c><00:02:21.900><c> up</c><00:02:22.110><c> to</c><00:02:22.620><c> the</c>
+
+00:02:22.850 --> 00:02:22.860 align:start position:0%
+that session ID that it sends up to the
+ 
+
+00:02:22.860 --> 00:02:24.290 align:start position:0%
+that session ID that it sends up to the
+server<00:02:23.100><c> every</c><00:02:23.520><c> single</c><00:02:23.819><c> time</c><00:02:24.000><c> it</c><00:02:24.150><c> makes</c>
+
+00:02:24.290 --> 00:02:24.300 align:start position:0%
+server every single time it makes
+ 
+
+00:02:24.300 --> 00:02:26.600 align:start position:0%
+server every single time it makes
+requests<00:02:24.780><c> so</c><00:02:25.500><c> for</c><00:02:25.740><c> example</c><00:02:26.069><c> down</c><00:02:26.190><c> here</c><00:02:26.220><c> when</c>
+
+00:02:26.600 --> 00:02:26.610 align:start position:0%
+requests so for example down here when
+ 
+
+00:02:26.610 --> 00:02:28.040 align:start position:0%
+requests so for example down here when
+the<00:02:26.730><c> client</c><00:02:27.060><c> needs</c><00:02:27.209><c> to</c><00:02:27.270><c> make</c><00:02:27.480><c> another</c><00:02:27.630><c> request</c>
+
+00:02:28.040 --> 00:02:28.050 align:start position:0%
+the client needs to make another request
+ 
+
+00:02:28.050 --> 00:02:30.110 align:start position:0%
+the client needs to make another request
+for<00:02:28.709><c> example</c><00:02:29.040><c> they</c><00:02:29.160><c> want</c><00:02:29.340><c> to</c><00:02:29.430><c> go</c><00:02:29.550><c> to</c><00:02:29.610><c> a</c><00:02:29.760><c> new</c>
+
+00:02:30.110 --> 00:02:30.120 align:start position:0%
+for example they want to go to a new
+ 
+
+00:02:30.120 --> 00:02:32.240 align:start position:0%
+for example they want to go to a new
+page<00:02:30.330><c> in</c><00:02:30.540><c> the</c><00:02:30.630><c> application</c><00:02:30.740><c> that</c><00:02:31.740><c> session</c><00:02:31.980><c> ID</c>
+
+00:02:32.240 --> 00:02:32.250 align:start position:0%
+page in the application that session ID
+ 
+
+00:02:32.250 --> 00:02:34.460 align:start position:0%
+page in the application that session ID
+gets<00:02:32.760><c> sent</c><00:02:33.000><c> along</c><00:02:33.270><c> with</c><00:02:33.480><c> the</c><00:02:33.900><c> cookie</c><00:02:34.200><c> that</c><00:02:34.350><c> it</c>
+
+00:02:34.460 --> 00:02:34.470 align:start position:0%
+gets sent along with the cookie that it
+ 
+
+00:02:34.470 --> 00:02:36.140 align:start position:0%
+gets sent along with the cookie that it
+corresponds<00:02:34.980><c> with</c><00:02:35.070><c> so</c><00:02:35.430><c> since</c><00:02:35.700><c> it's</c><00:02:35.850><c> a</c><00:02:35.910><c> cookie</c>
+
+00:02:36.140 --> 00:02:36.150 align:start position:0%
+corresponds with so since it's a cookie
+ 
+
+00:02:36.150 --> 00:02:38.060 align:start position:0%
+corresponds with so since it's a cookie
+it<00:02:36.330><c> gets</c><00:02:36.510><c> sent</c><00:02:36.690><c> along</c><00:02:36.959><c> to</c><00:02:37.080><c> the</c><00:02:37.170><c> server</c><00:02:37.410><c> and</c><00:02:37.650><c> at</c>
+
+00:02:38.060 --> 00:02:38.070 align:start position:0%
+it gets sent along to the server and at
+ 
+
+00:02:38.070 --> 00:02:39.830 align:start position:0%
+it gets sent along to the server and at
+the<00:02:38.220><c> server</c><00:02:38.430><c> what</c><00:02:38.670><c> happens</c><00:02:39.000><c> is</c><00:02:39.150><c> it's</c><00:02:39.600><c> going</c><00:02:39.750><c> to</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+the server what happens is it's going to
+ 
+
+00:02:39.840 --> 00:02:41.479 align:start position:0%
+the server what happens is it's going to
+do<00:02:39.989><c> the</c><00:02:40.170><c> calculation</c><00:02:40.739><c> is</c><00:02:40.890><c> going</c><00:02:40.950><c> to</c><00:02:41.190><c> go</c><00:02:41.310><c> into</c>
+
+00:02:41.479 --> 00:02:41.489 align:start position:0%
+do the calculation is going to go into
+ 
+
+00:02:41.489 --> 00:02:42.800 align:start position:0%
+do the calculation is going to go into
+the<00:02:41.640><c> session</c><00:02:41.850><c> memory</c><00:02:42.300><c> and</c><00:02:42.480><c> it's</c><00:02:42.570><c> going</c><00:02:42.720><c> to</c>
+
+00:02:42.800 --> 00:02:42.810 align:start position:0%
+the session memory and it's going to
+ 
+
+00:02:42.810 --> 00:02:44.990 align:start position:0%
+the session memory and it's going to
+check<00:02:43.050><c> do</c><00:02:43.410><c> I</c><00:02:43.470><c> have</c><00:02:43.739><c> something</c><00:02:44.040><c> in</c><00:02:44.280><c> memory</c><00:02:44.670><c> that</c>
+
+00:02:44.990 --> 00:02:45.000 align:start position:0%
+check do I have something in memory that
+ 
+
+00:02:45.000 --> 00:02:47.180 align:start position:0%
+check do I have something in memory that
+corresponds<00:02:45.540><c> to</c><00:02:45.690><c> this</c><00:02:45.959><c> particular</c><00:02:46.350><c> ID</c><00:02:46.739><c> that</c>
+
+00:02:47.180 --> 00:02:47.190 align:start position:0%
+corresponds to this particular ID that
+ 
+
+00:02:47.190 --> 00:02:49.400 align:start position:0%
+corresponds to this particular ID that
+gets<00:02:47.370><c> sent</c><00:02:47.550><c> to</c><00:02:47.610><c> me</c><00:02:47.790><c> if</c><00:02:47.940><c> so</c><00:02:48.630><c> then</c><00:02:49.020><c> it's</c><00:02:49.170><c> going</c><00:02:49.290><c> to</c>
+
+00:02:49.400 --> 00:02:49.410 align:start position:0%
+gets sent to me if so then it's going to
+ 
+
+00:02:49.410 --> 00:02:51.290 align:start position:0%
+gets sent to me if so then it's going to
+say<00:02:49.590><c> this</c><00:02:49.830><c> is</c><00:02:50.100><c> the</c><00:02:50.310><c> user</c><00:02:50.520><c> that</c><00:02:50.730><c> corresponds</c>
+
+00:02:51.290 --> 00:02:51.300 align:start position:0%
+say this is the user that corresponds
+ 
+
+00:02:51.300 --> 00:02:53.600 align:start position:0%
+say this is the user that corresponds
+with<00:02:51.360><c> that</c><00:02:51.570><c> ID</c><00:02:51.810><c> and</c><00:02:52.170><c> it</c><00:02:52.620><c> has</c><00:02:52.920><c> access</c><00:02:53.430><c> to</c><00:02:53.519><c> that</c>
+
+00:02:53.600 --> 00:02:53.610 align:start position:0%
+with that ID and it has access to that
+ 
+
+00:02:53.610 --> 00:02:55.550 align:start position:0%
+with that ID and it has access to that
+user<00:02:53.820><c> to</c><00:02:53.970><c> store</c><00:02:54.390><c> that</c><00:02:54.570><c> user</c><00:02:54.780><c> in</c><00:02:55.050><c> the</c><00:02:55.260><c> session</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+user to store that user in the session
+ 
+
+00:02:55.560 --> 00:02:57.770 align:start position:0%
+user to store that user in the session
+memory<00:02:55.830><c> so</c><00:02:56.340><c> now</c><00:02:56.550><c> the</c><00:02:56.610><c> application</c><00:02:57.269><c> knows</c><00:02:57.480><c> this</c>
+
+00:02:57.770 --> 00:02:57.780 align:start position:0%
+memory so now the application knows this
+ 
+
+00:02:57.780 --> 00:02:59.479 align:start position:0%
+memory so now the application knows this
+is<00:02:57.989><c> the</c><00:02:58.110><c> user</c><00:02:58.290><c> I'm</c><00:02:58.470><c> working</c><00:02:58.800><c> with</c><00:02:58.920><c> are</c><00:02:59.160><c> they</c>
+
+00:02:59.479 --> 00:02:59.489 align:start position:0%
+is the user I'm working with are they
+ 
+
+00:02:59.489 --> 00:03:02.180 align:start position:0%
+is the user I'm working with are they
+authorized<00:02:59.970><c> to</c><00:03:00.120><c> access</c><00:03:00.510><c> this</c><00:03:00.690><c> information</c><00:03:01.530><c> if</c>
+
+00:03:02.180 --> 00:03:02.190 align:start position:0%
+authorized to access this information if
+ 
+
+00:03:02.190 --> 00:03:04.040 align:start position:0%
+authorized to access this information if
+they<00:03:02.760><c> are</c><00:03:02.910><c> authorized</c><00:03:03.360><c> then</c><00:03:03.600><c> it</c><00:03:03.720><c> sends</c><00:03:03.959><c> the</c>
+
+00:03:04.040 --> 00:03:04.050 align:start position:0%
+they are authorized then it sends the
+ 
+
+00:03:04.050 --> 00:03:05.720 align:start position:0%
+they are authorized then it sends the
+response<00:03:04.410><c> back</c><00:03:04.620><c> to</c><00:03:04.800><c> the</c><00:03:04.890><c> browser</c><00:03:05.010><c> saying</c><00:03:05.459><c> ok</c>
+
+00:03:05.720 --> 00:03:05.730 align:start position:0%
+response back to the browser saying ok
+ 
+
+00:03:05.730 --> 00:03:06.470 align:start position:0%
+response back to the browser saying ok
+everything's<00:03:06.090><c> good</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+everything's good
+ 
+
+00:03:06.480 --> 00:03:07.940 align:start position:0%
+everything's good
+here's<00:03:06.810><c> the</c><00:03:06.989><c> information</c><00:03:07.230><c> you</c><00:03:07.500><c> were</c><00:03:07.680><c> looking</c>
+
+00:03:07.940 --> 00:03:07.950 align:start position:0%
+here's the information you were looking
+ 
+
+00:03:07.950 --> 00:03:10.040 align:start position:0%
+here's the information you were looking
+for<00:03:08.130><c> the</c><00:03:08.580><c> other</c><00:03:08.700><c> form</c><00:03:09.060><c> of</c><00:03:09.209><c> authentication</c><00:03:09.959><c> we</c>
+
+00:03:10.040 --> 00:03:10.050 align:start position:0%
+for the other form of authentication we
+ 
+
+00:03:10.050 --> 00:03:12.620 align:start position:0%
+for the other form of authentication we
+have<00:03:10.230><c> here</c><00:03:10.440><c> is</c><00:03:10.830><c> JWT</c><00:03:11.489><c> so</c><00:03:12.239><c> I'm</c><00:03:12.330><c> going</c><00:03:12.480><c> to</c><00:03:12.540><c> get</c>
+
+00:03:12.620 --> 00:03:12.630 align:start position:0%
+have here is JWT so I'm going to get
+ 
+
+00:03:12.630 --> 00:03:13.759 align:start position:0%
+have here is JWT so I'm going to get
+these<00:03:12.750><c> two</c><00:03:12.900><c> we</c><00:03:12.989><c> can</c><00:03:13.019><c> see</c><00:03:13.140><c> both</c><00:03:13.410><c> of</c><00:03:13.440><c> them</c><00:03:13.620><c> on</c><00:03:13.739><c> the</c>
+
+00:03:13.759 --> 00:03:13.769 align:start position:0%
+these two we can see both of them on the
+ 
+
+00:03:13.769 --> 00:03:15.650 align:start position:0%
+these two we can see both of them on the
+screen<00:03:14.130><c> and</c><00:03:14.310><c> it</c><00:03:14.700><c> works</c><00:03:14.850><c> very</c><00:03:15.030><c> similarly</c><00:03:15.480><c> at</c>
+
+00:03:15.650 --> 00:03:15.660 align:start position:0%
+screen and it works very similarly at
+ 
+
+00:03:15.660 --> 00:03:16.970 align:start position:0%
+screen and it works very similarly at
+the<00:03:15.750><c> beginning</c><00:03:16.080><c> we</c><00:03:16.320><c> make</c><00:03:16.470><c> a</c><00:03:16.500><c> post</c><00:03:16.800><c> request</c>
+
+00:03:16.970 --> 00:03:16.980 align:start position:0%
+the beginning we make a post request
+ 
+
+00:03:16.980 --> 00:03:18.620 align:start position:0%
+the beginning we make a post request
+with<00:03:17.280><c> our</c><00:03:17.370><c> email</c><00:03:17.640><c> password</c><00:03:18.060><c> and</c><00:03:18.239><c> we</c><00:03:18.329><c> send</c><00:03:18.540><c> that</c>
+
+00:03:18.620 --> 00:03:18.630 align:start position:0%
+with our email password and we send that
+ 
+
+00:03:18.630 --> 00:03:21.110 align:start position:0%
+with our email password and we send that
+along<00:03:18.750><c> to</c><00:03:18.900><c> the</c><00:03:19.049><c> server</c><00:03:19.650><c> just</c><00:03:20.040><c> like</c><00:03:20.190><c> before</c><00:03:20.340><c> but</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+along to the server just like before but
+ 
+
+00:03:21.120 --> 00:03:23.300 align:start position:0%
+along to the server just like before but
+instead<00:03:21.390><c> of</c><00:03:21.630><c> storing</c><00:03:22.140><c> information</c><00:03:22.320><c> on</c><00:03:22.920><c> the</c>
+
+00:03:23.300 --> 00:03:23.310 align:start position:0%
+instead of storing information on the
+ 
+
+00:03:23.310 --> 00:03:25.460 align:start position:0%
+instead of storing information on the
+server<00:03:23.549><c> inside</c><00:03:24.060><c> session</c><00:03:24.600><c> memory</c><00:03:24.900><c> what</c>
+
+00:03:25.460 --> 00:03:25.470 align:start position:0%
+server inside session memory what
+ 
+
+00:03:25.470 --> 00:03:27.860 align:start position:0%
+server inside session memory what
+happens<00:03:25.799><c> is</c><00:03:26.040><c> the</c><00:03:26.400><c> server</c><00:03:26.640><c> creates</c><00:03:27.120><c> a</c><00:03:27.299><c> JSON</c><00:03:27.690><c> web</c>
+
+00:03:27.860 --> 00:03:27.870 align:start position:0%
+happens is the server creates a JSON web
+ 
+
+00:03:27.870 --> 00:03:30.680 align:start position:0%
+happens is the server creates a JSON web
+token<00:03:28.260><c> this</c><00:03:28.350><c> JWT</c><00:03:28.920><c> and</c><00:03:29.220><c> it</c><00:03:29.670><c> actually</c><00:03:30.090><c> encodes</c>
+
+00:03:30.680 --> 00:03:30.690 align:start position:0%
+token this JWT and it actually encodes
+ 
+
+00:03:30.690 --> 00:03:32.690 align:start position:0%
+token this JWT and it actually encodes
+and<00:03:30.930><c> C</c><00:03:31.170><c> realises</c><00:03:31.709><c> that</c><00:03:31.890><c> and</c><00:03:32.070><c> signs</c><00:03:32.370><c> it</c><00:03:32.579><c> with</c>
+
+00:03:32.690 --> 00:03:32.700 align:start position:0%
+and C realises that and signs it with
+ 
+
+00:03:32.700 --> 00:03:35.060 align:start position:0%
+and C realises that and signs it with
+its<00:03:32.850><c> own</c><00:03:33.030><c> secret</c><00:03:33.390><c> key</c><00:03:33.810><c> so</c><00:03:34.290><c> the</c><00:03:34.440><c> server</c><00:03:34.680><c> knows</c>
+
+00:03:35.060 --> 00:03:35.070 align:start position:0%
+its own secret key so the server knows
+ 
+
+00:03:35.070 --> 00:03:36.890 align:start position:0%
+its own secret key so the server knows
+that<00:03:35.459><c> if</c><00:03:35.579><c> you</c><00:03:35.730><c> tamper</c><00:03:36.120><c> with</c><00:03:36.269><c> it</c><00:03:36.299><c> then</c><00:03:36.750><c> it's</c>
+
+00:03:36.890 --> 00:03:36.900 align:start position:0%
+that if you tamper with it then it's
+ 
+
+00:03:36.900 --> 00:03:38.870 align:start position:0%
+that if you tamper with it then it's
+invalid<00:03:37.350><c> it</c><00:03:37.680><c> can</c><00:03:37.829><c> actually</c><00:03:38.070><c> check</c><00:03:38.250><c> that</c><00:03:38.519><c> based</c>
+
+00:03:38.870 --> 00:03:38.880 align:start position:0%
+invalid it can actually check that based
+ 
+
+00:03:38.880 --> 00:03:40.340 align:start position:0%
+invalid it can actually check that based
+on<00:03:39.060><c> the</c><00:03:39.269><c> fact</c><00:03:39.480><c> that</c><00:03:39.570><c> it's</c><00:03:39.780><c> signed</c><00:03:39.989><c> it</c><00:03:40.140><c> with</c><00:03:40.320><c> a</c>
+
+00:03:40.340 --> 00:03:40.350 align:start position:0%
+on the fact that it's signed it with a
+ 
+
+00:03:40.350 --> 00:03:43.009 align:start position:0%
+on the fact that it's signed it with a
+secret<00:03:40.680><c> key</c><00:03:40.920><c> then</c><00:03:41.760><c> it</c><00:03:41.910><c> takes</c><00:03:42.120><c> that</c><00:03:42.269><c> JSON</c><00:03:42.840><c> web</c>
+
+00:03:43.009 --> 00:03:43.019 align:start position:0%
+secret key then it takes that JSON web
+ 
+
+00:03:43.019 --> 00:03:44.660 align:start position:0%
+secret key then it takes that JSON web
+token<00:03:43.410><c> and</c><00:03:43.530><c> it</c><00:03:43.950><c> sends</c><00:03:44.250><c> it</c><00:03:44.340><c> back</c><00:03:44.370><c> to</c><00:03:44.489><c> the</c>
+
+00:03:44.660 --> 00:03:44.670 align:start position:0%
+token and it sends it back to the
+ 
+
+00:03:44.670 --> 00:03:46.759 align:start position:0%
+token and it sends it back to the
+browser<00:03:44.940><c> and</c><00:03:45.209><c> notice</c><00:03:45.900><c> the</c><00:03:46.200><c> main</c><00:03:46.350><c> difference</c>
+
+00:03:46.759 --> 00:03:46.769 align:start position:0%
+browser and notice the main difference
+ 
+
+00:03:46.769 --> 00:03:48.140 align:start position:0%
+browser and notice the main difference
+here<00:03:46.829><c> is</c><00:03:47.040><c> nothing</c><00:03:47.549><c> is</c><00:03:47.700><c> stored</c><00:03:47.940><c> on</c><00:03:48.000><c> the</c><00:03:48.060><c> server</c>
+
+00:03:48.140 --> 00:03:48.150 align:start position:0%
+here is nothing is stored on the server
+ 
+
+00:03:48.150 --> 00:03:50.000 align:start position:0%
+here is nothing is stored on the server
+the<00:03:48.720><c> server</c><00:03:48.750><c> doesn't</c><00:03:49.380><c> store</c><00:03:49.650><c> the</c><00:03:49.799><c> user</c>
+
+00:03:50.000 --> 00:03:50.010 align:start position:0%
+the server doesn't store the user
+ 
+
+00:03:50.010 --> 00:03:51.500 align:start position:0%
+the server doesn't store the user
+nothing<00:03:50.610><c> actually</c><00:03:50.880><c> happens</c><00:03:51.120><c> on</c><00:03:51.239><c> the</c><00:03:51.329><c> server</c>
+
+00:03:51.500 --> 00:03:51.510 align:start position:0%
+nothing actually happens on the server
+ 
+
+00:03:51.510 --> 00:03:54.140 align:start position:0%
+nothing actually happens on the server
+this<00:03:51.989><c> JWT</c><00:03:52.590><c> has</c><00:03:52.890><c> all</c><00:03:53.130><c> the</c><00:03:53.400><c> information</c><00:03:53.700><c> about</c>
+
+00:03:54.140 --> 00:03:54.150 align:start position:0%
+this JWT has all the information about
+ 
+
+00:03:54.150 --> 00:03:56.750 align:start position:0%
+this JWT has all the information about
+the<00:03:54.390><c> user</c><00:03:54.600><c> built</c><00:03:55.290><c> into</c><00:03:55.680><c> it</c><00:03:55.799><c> so</c><00:03:55.950><c> it</c><00:03:56.400><c> sends</c><00:03:56.670><c> that</c>
+
+00:03:56.750 --> 00:03:56.760 align:start position:0%
+the user built into it so it sends that
+ 
+
+00:03:56.760 --> 00:03:59.120 align:start position:0%
+the user built into it so it sends that
+JWT<00:03:57.299><c> back</c><00:03:57.750><c> down</c><00:03:58.019><c> to</c><00:03:58.110><c> the</c><00:03:58.200><c> browser</c><00:03:58.410><c> and</c><00:03:58.739><c> the</c>
+
+00:03:59.120 --> 00:03:59.130 align:start position:0%
+JWT back down to the browser and the
+ 
+
+00:03:59.130 --> 00:04:00.530 align:start position:0%
+JWT back down to the browser and the
+browser<00:03:59.160><c> can</c><00:03:59.640><c> choose</c><00:03:59.850><c> to</c><00:04:00.000><c> store</c><00:04:00.209><c> that</c><00:04:00.329><c> however</c>
+
+00:04:00.530 --> 00:04:00.540 align:start position:0%
+browser can choose to store that however
+ 
+
+00:04:00.540 --> 00:04:02.330 align:start position:0%
+browser can choose to store that however
+it<00:04:00.840><c> wants</c><00:04:00.959><c> for</c><00:04:01.290><c> example</c><00:04:01.620><c> you</c><00:04:01.739><c> could</c><00:04:01.860><c> do</c><00:04:02.010><c> cookie</c>
+
+00:04:02.330 --> 00:04:02.340 align:start position:0%
+it wants for example you could do cookie
+ 
+
+00:04:02.340 --> 00:04:03.890 align:start position:0%
+it wants for example you could do cookie
+storage<00:04:02.670><c> and</c><00:04:02.850><c> it</c><00:04:02.940><c> would</c><00:04:03.030><c> work</c><00:04:03.180><c> very</c><00:04:03.239><c> similarly</c>
+
+00:04:03.890 --> 00:04:03.900 align:start position:0%
+storage and it would work very similarly
+ 
+
+00:04:03.900 --> 00:04:06.949 align:start position:0%
+storage and it would work very similarly
+to<00:04:04.019><c> over</c><00:04:04.350><c> here</c><00:04:04.560><c> but</c><00:04:05.220><c> anyway</c><00:04:05.700><c> that</c><00:04:05.910><c> happens</c><00:04:06.329><c> the</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+to over here but anyway that happens the
+ 
+
+00:04:06.959 --> 00:04:08.360 align:start position:0%
+to over here but anyway that happens the
+client<00:04:07.410><c> is</c><00:04:07.500><c> then</c><00:04:07.680><c> going</c><00:04:07.890><c> to</c><00:04:07.950><c> send</c><00:04:08.250><c> a</c><00:04:08.340><c> request</c>
+
+00:04:08.360 --> 00:04:08.370 align:start position:0%
+client is then going to send a request
+ 
+
+00:04:08.370 --> 00:04:10.069 align:start position:0%
+client is then going to send a request
+to<00:04:08.790><c> the</c><00:04:09.120><c> server</c><00:04:09.329><c> and</c><00:04:09.510><c> they're</c><00:04:09.720><c> gonna</c><00:04:09.810><c> make</c>
+
+00:04:10.069 --> 00:04:10.079 align:start position:0%
+to the server and they're gonna make
+ 
+
+00:04:10.079 --> 00:04:12.259 align:start position:0%
+to the server and they're gonna make
+sure<00:04:10.230><c> to</c><00:04:10.440><c> include</c><00:04:10.680><c> that</c><00:04:11.070><c> JSON</c><00:04:11.519><c> web</c><00:04:11.670><c> token</c><00:04:12.060><c> so</c>
+
+00:04:12.259 --> 00:04:12.269 align:start position:0%
+sure to include that JSON web token so
+ 
+
+00:04:12.269 --> 00:04:13.310 align:start position:0%
+sure to include that JSON web token so
+that<00:04:12.420><c> it</c><00:04:12.540><c> knows</c><00:04:12.690><c> what</c><00:04:12.930><c> user</c><00:04:13.170><c> is</c>
+
+00:04:13.310 --> 00:04:13.320 align:start position:0%
+that it knows what user is
+ 
+
+00:04:13.320 --> 00:04:15.530 align:start position:0%
+that it knows what user is
+authenticating<00:04:14.160><c> with</c><00:04:14.310><c> and</c><00:04:14.489><c> the</c><00:04:15.090><c> server</c><00:04:15.299><c> what</c>
+
+00:04:15.530 --> 00:04:15.540 align:start position:0%
+authenticating with and the server what
+ 
+
+00:04:15.540 --> 00:04:17.479 align:start position:0%
+authenticating with and the server what
+it<00:04:15.630><c> does</c><00:04:15.780><c> is</c><00:04:15.959><c> it's</c><00:04:16.440><c> signed</c><00:04:16.709><c> to</c><00:04:16.829><c> that</c><00:04:16.979><c> JSON</c><00:04:17.340><c> web</c>
+
+00:04:17.479 --> 00:04:17.489 align:start position:0%
+it does is it's signed to that JSON web
+ 
+
+00:04:17.489 --> 00:04:19.610 align:start position:0%
+it does is it's signed to that JSON web
+token<00:04:17.880><c> with</c><00:04:18.030><c> its</c><00:04:18.180><c> own</c><00:04:18.390><c> secret</c><00:04:18.750><c> key</c><00:04:18.989><c> so</c><00:04:19.380><c> what</c><00:04:19.500><c> it</c>
+
+00:04:19.610 --> 00:04:19.620 align:start position:0%
+token with its own secret key so what it
+ 
+
+00:04:19.620 --> 00:04:21.620 align:start position:0%
+token with its own secret key so what it
+does<00:04:19.709><c> is</c><00:04:19.950><c> it</c><00:04:20.100><c> verifies</c><00:04:20.609><c> that</c><00:04:20.850><c> this</c><00:04:21.090><c> JSON</c><00:04:21.450><c> web</c>
+
+00:04:21.620 --> 00:04:21.630 align:start position:0%
+does is it verifies that this JSON web
+ 
+
+00:04:21.630 --> 00:04:23.779 align:start position:0%
+does is it verifies that this JSON web
+token<00:04:21.989><c> has</c><00:04:22.200><c> not</c><00:04:22.500><c> been</c><00:04:22.740><c> changed</c><00:04:22.979><c> since</c><00:04:23.640><c> the</c>
+
+00:04:23.779 --> 00:04:23.789 align:start position:0%
+token has not been changed since the
+ 
+
+00:04:23.789 --> 00:04:25.730 align:start position:0%
+token has not been changed since the
+time<00:04:23.820><c> that</c><00:04:24.180><c> it</c><00:04:24.300><c> signed</c><00:04:24.539><c> it</c><00:04:24.690><c> because</c><00:04:25.380><c> if</c><00:04:25.560><c> for</c>
+
+00:04:25.730 --> 00:04:25.740 align:start position:0%
+time that it signed it because if for
+ 
+
+00:04:25.740 --> 00:04:27.320 align:start position:0%
+time that it signed it because if for
+example<00:04:25.800><c> the</c><00:04:26.160><c> client</c><00:04:26.370><c> changed</c><00:04:26.789><c> it</c>
+
+00:04:27.320 --> 00:04:27.330 align:start position:0%
+example the client changed it
+ 
+
+00:04:27.330 --> 00:04:29.059 align:start position:0%
+example the client changed it
+changed<00:04:27.659><c> the</c><00:04:27.780><c> user</c><00:04:27.810><c> information</c><00:04:28.319><c> in</c><00:04:28.889><c> that</c>
+
+00:04:29.059 --> 00:04:29.069 align:start position:0%
+changed the user information in that
+ 
+
+00:04:29.069 --> 00:04:31.040 align:start position:0%
+changed the user information in that
+JSON<00:04:29.400><c> web</c><00:04:29.550><c> token</c><00:04:29.909><c> the</c><00:04:30.240><c> server</c><00:04:30.449><c> will</c><00:04:30.659><c> now</c><00:04:30.810><c> know</c>
+
+00:04:31.040 --> 00:04:31.050 align:start position:0%
+JSON web token the server will now know
+ 
+
+00:04:31.050 --> 00:04:33.260 align:start position:0%
+JSON web token the server will now know
+and<00:04:31.289><c> they</c><00:04:31.470><c> can</c><00:04:31.620><c> say</c><00:04:31.800><c> that</c><00:04:31.979><c> it's</c><00:04:32.099><c> invalid</c><00:04:32.580><c> but</c>
+
+00:04:33.260 --> 00:04:33.270 align:start position:0%
+and they can say that it's invalid but
+ 
+
+00:04:33.270 --> 00:04:34.969 align:start position:0%
+and they can say that it's invalid but
+if<00:04:33.539><c> for</c><00:04:33.870><c> example</c><00:04:33.930><c> nothing</c><00:04:34.590><c> actually</c><00:04:34.740><c> got</c>
+
+00:04:34.969 --> 00:04:34.979 align:start position:0%
+if for example nothing actually got
+ 
+
+00:04:34.979 --> 00:04:36.770 align:start position:0%
+if for example nothing actually got
+tampered<00:04:35.340><c> with</c><00:04:35.370><c> the</c><00:04:35.729><c> JSON</c><00:04:36.090><c> web</c><00:04:36.240><c> token</c><00:04:36.629><c> is</c>
+
+00:04:36.770 --> 00:04:36.780 align:start position:0%
+tampered with the JSON web token is
+ 
+
+00:04:36.780 --> 00:04:38.929 align:start position:0%
+tampered with the JSON web token is
+correct<00:04:37.169><c> now</c><00:04:37.560><c> what</c><00:04:37.800><c> happens</c><00:04:38.099><c> is</c><00:04:38.250><c> it</c><00:04:38.340><c> just</c><00:04:38.520><c> DC</c>
+
+00:04:38.929 --> 00:04:38.939 align:start position:0%
+correct now what happens is it just DC
+ 
+
+00:04:38.939 --> 00:04:41.119 align:start position:0%
+correct now what happens is it just DC
+realises<00:04:39.419><c> that</c><00:04:39.599><c> JSON</c><00:04:39.960><c> web</c><00:04:40.080><c> token</c><00:04:40.469><c> and</c><00:04:40.620><c> it</c><00:04:40.949><c> says</c>
+
+00:04:41.119 --> 00:04:41.129 align:start position:0%
+realises that JSON web token and it says
+ 
+
+00:04:41.129 --> 00:04:43.219 align:start position:0%
+realises that JSON web token and it says
+okay<00:04:41.490><c> this</c><00:04:42.090><c> is</c><00:04:42.270><c> the</c><00:04:42.360><c> user</c><00:04:42.509><c> information</c><00:04:42.719><c> it's</c>
+
+00:04:43.219 --> 00:04:43.229 align:start position:0%
+okay this is the user information it's
+ 
+
+00:04:43.229 --> 00:04:45.559 align:start position:0%
+okay this is the user information it's
+stored<00:04:43.560><c> in</c><00:04:43.740><c> that</c><00:04:44.009><c> token</c><00:04:44.430><c> already</c><00:04:44.789><c> so</c><00:04:45.300><c> it</c><00:04:45.419><c> knows</c>
+
+00:04:45.559 --> 00:04:45.569 align:start position:0%
+stored in that token already so it knows
+ 
+
+00:04:45.569 --> 00:04:47.570 align:start position:0%
+stored in that token already so it knows
+exactly<00:04:45.750><c> what</c><00:04:46.169><c> to</c><00:04:46.199><c> do</c><00:04:46.379><c> with</c><00:04:46.469><c> that</c><00:04:46.530><c> user</c><00:04:46.860><c> and</c><00:04:47.129><c> if</c>
+
+00:04:47.570 --> 00:04:47.580 align:start position:0%
+exactly what to do with that user and if
+ 
+
+00:04:47.580 --> 00:04:49.520 align:start position:0%
+exactly what to do with that user and if
+that<00:04:47.699><c> user</c><00:04:47.969><c> is</c><00:04:48.240><c> authorized</c><00:04:48.870><c> to</c><00:04:49.080><c> use</c><00:04:49.199><c> that</c>
+
+00:04:49.520 --> 00:04:49.530 align:start position:0%
+that user is authorized to use that
+ 
+
+00:04:49.530 --> 00:04:51.409 align:start position:0%
+that user is authorized to use that
+resource<00:04:49.860><c> it'll</c><00:04:50.310><c> send</c><00:04:50.520><c> that</c><00:04:50.699><c> response</c><00:04:51.060><c> back</c>
+
+00:04:51.409 --> 00:04:51.419 align:start position:0%
+resource it'll send that response back
+ 
+
+00:04:51.419 --> 00:04:53.510 align:start position:0%
+resource it'll send that response back
+down<00:04:51.689><c> to</c><00:04:51.840><c> the</c><00:04:51.930><c> client</c><00:04:52.289><c> now</c><00:04:52.860><c> really</c><00:04:53.159><c> the</c><00:04:53.310><c> main</c>
+
+00:04:53.510 --> 00:04:53.520 align:start position:0%
+down to the client now really the main
+ 
+
+00:04:53.520 --> 00:04:54.649 align:start position:0%
+down to the client now really the main
+difference<00:04:53.939><c> that</c><00:04:54.000><c> you're</c><00:04:54.240><c> going</c><00:04:54.449><c> to</c><00:04:54.479><c> is</c>
+
+00:04:54.649 --> 00:04:54.659 align:start position:0%
+difference that you're going to is
+ 
+
+00:04:54.659 --> 00:04:56.629 align:start position:0%
+difference that you're going to is
+notice<00:04:54.990><c> between</c><00:04:55.139><c> these</c><00:04:55.469><c> two</c><00:04:55.680><c> is</c><00:04:55.889><c> that</c><00:04:56.159><c> in</c><00:04:56.340><c> the</c>
+
+00:04:56.629 --> 00:04:56.639 align:start position:0%
+notice between these two is that in the
+ 
+
+00:04:56.639 --> 00:04:58.939 align:start position:0%
+notice between these two is that in the
+session<00:04:57.060><c> version</c><00:04:57.689><c> the</c><00:04:58.139><c> information</c><00:04:58.770><c> about</c>
+
+00:04:58.939 --> 00:04:58.949 align:start position:0%
+session version the information about
+ 
+
+00:04:58.949 --> 00:05:01.459 align:start position:0%
+session version the information about
+the<00:04:59.099><c> user</c><00:04:59.310><c> is</c><00:04:59.550><c> stored</c><00:05:00.030><c> on</c><00:05:00.210><c> the</c><00:05:00.300><c> server</c><00:05:00.719><c> so</c><00:05:01.349><c> the</c>
+
+00:05:01.459 --> 00:05:01.469 align:start position:0%
+the user is stored on the server so the
+ 
+
+00:05:01.469 --> 00:05:02.990 align:start position:0%
+the user is stored on the server so the
+server<00:05:01.680><c> actually</c><00:05:02.039><c> has</c><00:05:02.190><c> to</c><00:05:02.310><c> do</c><00:05:02.430><c> a</c><00:05:02.460><c> lookup</c><00:05:02.819><c> to</c>
+
+00:05:02.990 --> 00:05:03.000 align:start position:0%
+server actually has to do a lookup to
+ 
+
+00:05:03.000 --> 00:05:04.790 align:start position:0%
+server actually has to do a lookup to
+find<00:05:03.270><c> the</c><00:05:03.389><c> user</c><00:05:03.599><c> based</c><00:05:04.020><c> on</c><00:05:04.229><c> the</c><00:05:04.319><c> session</c><00:05:04.620><c> ID</c>
+
+00:05:04.790 --> 00:05:04.800 align:start position:0%
+find the user based on the session ID
+ 
+
+00:05:04.800 --> 00:05:08.240 align:start position:0%
+find the user based on the session ID
+but<00:05:05.729><c> with</c><00:05:06.180><c> the</c><00:05:06.300><c> JWT</c><00:05:06.780><c> the</c><00:05:07.229><c> JSON</c><00:05:07.560><c> web</c><00:05:07.710><c> token</c><00:05:08.099><c> what</c>
+
+00:05:08.240 --> 00:05:08.250 align:start position:0%
+but with the JWT the JSON web token what
+ 
+
+00:05:08.250 --> 00:05:09.830 align:start position:0%
+but with the JWT the JSON web token what
+happens<00:05:08.580><c> is</c><00:05:08.759><c> the</c><00:05:08.909><c> user</c><00:05:09.090><c> information</c><00:05:09.389><c> is</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+happens is the user information is
+ 
+
+00:05:09.840 --> 00:05:11.959 align:start position:0%
+happens is the user information is
+stored<00:05:10.080><c> in</c><00:05:10.319><c> the</c><00:05:10.620><c> actual</c><00:05:10.919><c> token</c><00:05:11.310><c> which</c><00:05:11.729><c> means</c>
+
+00:05:11.959 --> 00:05:11.969 align:start position:0%
+stored in the actual token which means
+ 
+
+00:05:11.969 --> 00:05:13.820 align:start position:0%
+stored in the actual token which means
+it's<00:05:12.150><c> stored</c><00:05:12.389><c> on</c><00:05:12.569><c> the</c><00:05:12.750><c> client</c><00:05:13.139><c> and</c><00:05:13.199><c> the</c><00:05:13.800><c> server</c>
+
+00:05:13.820 --> 00:05:13.830 align:start position:0%
+it's stored on the client and the server
+ 
+
+00:05:13.830 --> 00:05:16.100 align:start position:0%
+it's stored on the client and the server
+doesn't<00:05:14.639><c> have</c><00:05:14.789><c> to</c><00:05:14.940><c> remember</c><00:05:15.330><c> anything</c><00:05:15.690><c> which</c>
+
+00:05:16.100 --> 00:05:16.110 align:start position:0%
+doesn't have to remember anything which
+ 
+
+00:05:16.110 --> 00:05:17.390 align:start position:0%
+doesn't have to remember anything which
+is<00:05:16.139><c> great</c><00:05:16.500><c> because</c><00:05:16.770><c> it</c><00:05:16.919><c> means</c><00:05:17.039><c> you</c><00:05:17.219><c> can</c><00:05:17.250><c> use</c>
+
+00:05:17.390 --> 00:05:17.400 align:start position:0%
+is great because it means you can use
+ 
+
+00:05:17.400 --> 00:05:20.029 align:start position:0%
+is great because it means you can use
+the<00:05:17.639><c> same</c><00:05:17.909><c> JSON</c><00:05:18.419><c> web</c><00:05:18.569><c> token</c><00:05:18.960><c> across</c><00:05:19.560><c> multiple</c>
+
+00:05:20.029 --> 00:05:20.039 align:start position:0%
+the same JSON web token across multiple
+ 
+
+00:05:20.039 --> 00:05:21.800 align:start position:0%
+the same JSON web token across multiple
+servers<00:05:20.370><c> that</c><00:05:20.729><c> you</c><00:05:20.849><c> run</c><00:05:21.060><c> without</c><00:05:21.449><c> having</c><00:05:21.569><c> to</c>
+
+00:05:21.800 --> 00:05:21.810 align:start position:0%
+servers that you run without having to
+ 
+
+00:05:21.810 --> 00:05:23.600 align:start position:0%
+servers that you run without having to
+run<00:05:21.990><c> into</c><00:05:22.229><c> problems</c><00:05:22.379><c> where</c><00:05:22.770><c> one</c><00:05:22.979><c> server</c><00:05:23.279><c> has</c><00:05:23.580><c> a</c>
+
+00:05:23.600 --> 00:05:23.610 align:start position:0%
+run into problems where one server has a
+ 
+
+00:05:23.610 --> 00:05:25.339 align:start position:0%
+run into problems where one server has a
+certain<00:05:24.000><c> session</c><00:05:24.389><c> and</c><00:05:24.539><c> the</c><00:05:24.870><c> other</c><00:05:25.050><c> server</c>
+
+00:05:25.339 --> 00:05:25.349 align:start position:0%
+certain session and the other server
+ 
+
+00:05:25.349 --> 00:05:27.050 align:start position:0%
+certain session and the other server
+doesn't<00:05:25.740><c> I'm</c><00:05:26.310><c> gonna</c><00:05:26.490><c> go</c><00:05:26.610><c> into</c><00:05:26.789><c> a</c><00:05:26.819><c> lot</c><00:05:27.000><c> more</c>
+
+00:05:27.050 --> 00:05:27.060 align:start position:0%
+doesn't I'm gonna go into a lot more
+ 
+
+00:05:27.060 --> 00:05:28.939 align:start position:0%
+doesn't I'm gonna go into a lot more
+depth<00:05:27.509><c> on</c><00:05:27.629><c> why</c><00:05:27.900><c> this</c><00:05:27.960><c> is</c><00:05:28.229><c> really</c><00:05:28.379><c> important</c>
+
+00:05:28.939 --> 00:05:28.949 align:start position:0%
+depth on why this is really important
+ 
+
+00:05:28.949 --> 00:05:31.550 align:start position:0%
+depth on why this is really important
+and<00:05:29.129><c> how</c><00:05:29.250><c> this</c><00:05:29.460><c> makes</c><00:05:29.669><c> JWT</c><00:05:30.210><c> so</c><00:05:30.479><c> powerful</c><00:05:31.020><c> later</c>
+
+00:05:31.550 --> 00:05:31.560 align:start position:0%
+and how this makes JWT so powerful later
+ 
+
+00:05:31.560 --> 00:05:33.260 align:start position:0%
+and how this makes JWT so powerful later
+in<00:05:31.710><c> this</c><00:05:31.800><c> video</c><00:05:31.949><c> but</c><00:05:32.580><c> next</c><00:05:32.759><c> I</c><00:05:32.940><c> want</c><00:05:33.090><c> to</c><00:05:33.180><c> show</c>
+
+00:05:33.260 --> 00:05:33.270 align:start position:0%
+in this video but next I want to show
+ 
+
+00:05:33.270 --> 00:05:35.689 align:start position:0%
+in this video but next I want to show
+you<00:05:33.330><c> exactly</c><00:05:33.659><c> how</c><00:05:33.840><c> JWT</c><00:05:34.590><c> actually</c><00:05:35.129><c> signs</c><00:05:35.460><c> its</c>
+
+00:05:35.689 --> 00:05:35.699 align:start position:0%
+you exactly how JWT actually signs its
+ 
+
+00:05:35.699 --> 00:05:37.369 align:start position:0%
+you exactly how JWT actually signs its
+tokens<00:05:36.120><c> and</c><00:05:36.240><c> how</c><00:05:36.599><c> it</c><00:05:36.719><c> can</c><00:05:36.840><c> store</c><00:05:37.050><c> the</c><00:05:37.229><c> user</c>
+
+00:05:37.369 --> 00:05:37.379 align:start position:0%
+tokens and how it can store the user
+ 
+
+00:05:37.379 --> 00:05:39.769 align:start position:0%
+tokens and how it can store the user
+information<00:05:37.740><c> Here</c><00:05:38.699><c> I</c><00:05:38.729><c> am</c><00:05:38.819><c> on</c><00:05:39.060><c> a</c><00:05:39.150><c> site</c><00:05:39.509><c> called</c>
+
+00:05:39.769 --> 00:05:39.779 align:start position:0%
+information Here I am on a site called
+ 
+
+00:05:39.779 --> 00:05:42.800 align:start position:0%
+information Here I am on a site called
+JWT<00:05:40.409><c> IO</c><00:05:41.129><c> and</c><00:05:41.580><c> I'm</c><00:05:41.940><c> gonna</c><00:05:42.060><c> link</c><00:05:42.300><c> this</c><00:05:42.479><c> in</c><00:05:42.690><c> the</c>
+
+00:05:42.800 --> 00:05:42.810 align:start position:0%
+JWT IO and I'm gonna link this in the
+ 
+
+00:05:42.810 --> 00:05:44.180 align:start position:0%
+JWT IO and I'm gonna link this in the
+description<00:05:43.259><c> so</c><00:05:43.469><c> you</c><00:05:43.500><c> can</c><00:05:43.589><c> mess</c><00:05:43.860><c> around</c><00:05:43.979><c> with</c>
+
+00:05:44.180 --> 00:05:44.190 align:start position:0%
+description so you can mess around with
+ 
+
+00:05:44.190 --> 00:05:46.249 align:start position:0%
+description so you can mess around with
+it<00:05:44.310><c> yourself</c><00:05:44.430><c> if</c><00:05:44.909><c> you</c><00:05:44.969><c> want</c><00:05:45.270><c> but</c><00:05:45.779><c> essentially</c>
+
+00:05:46.249 --> 00:05:46.259 align:start position:0%
+it yourself if you want but essentially
+ 
+
+00:05:46.259 --> 00:05:48.050 align:start position:0%
+it yourself if you want but essentially
+what<00:05:46.409><c> we</c><00:05:46.500><c> have</c><00:05:46.529><c> is</c><00:05:46.889><c> two</c><00:05:47.339><c> different</c><00:05:47.639><c> panes</c><00:05:47.849><c> on</c>
+
+00:05:48.050 --> 00:05:48.060 align:start position:0%
+what we have is two different panes on
+ 
+
+00:05:48.060 --> 00:05:50.180 align:start position:0%
+what we have is two different panes on
+the<00:05:48.479><c> Left</c><00:05:48.659><c> we</c><00:05:48.870><c> have</c><00:05:48.900><c> the</c><00:05:49.169><c> encoded</c><00:05:49.710><c> version</c><00:05:49.889><c> of</c>
+
+00:05:50.180 --> 00:05:50.190 align:start position:0%
+the Left we have the encoded version of
+ 
+
+00:05:50.190 --> 00:05:52.219 align:start position:0%
+the Left we have the encoded version of
+our<00:05:50.310><c> JSON</c><00:05:50.610><c> web</c><00:05:50.759><c> token</c><00:05:51.150><c> this</c><00:05:51.539><c> is</c><00:05:51.719><c> what</c><00:05:51.870><c> you</c><00:05:51.960><c> send</c>
+
+00:05:52.219 --> 00:05:52.229 align:start position:0%
+our JSON web token this is what you send
+ 
+
+00:05:52.229 --> 00:05:54.260 align:start position:0%
+our JSON web token this is what you send
+to<00:05:52.379><c> and</c><00:05:52.800><c> from</c><00:05:53.039><c> the</c><00:05:53.190><c> client</c><00:05:53.550><c> and</c><00:05:53.699><c> this</c><00:05:54.029><c> is</c><00:05:54.180><c> how</c>
+
+00:05:54.260 --> 00:05:54.270 align:start position:0%
+to and from the client and this is how
+ 
+
+00:05:54.270 --> 00:05:56.029 align:start position:0%
+to and from the client and this is how
+you<00:05:54.330><c> authorize</c><00:05:55.020><c> the</c><00:05:55.199><c> user</c><00:05:55.409><c> for</c><00:05:55.740><c> different</c>
+
+00:05:56.029 --> 00:05:56.039 align:start position:0%
+you authorize the user for different
+ 
+
+00:05:56.039 --> 00:05:58.189 align:start position:0%
+you authorize the user for different
+resources<00:05:56.460><c> on</c><00:05:56.729><c> the</c><00:05:57.330><c> right</c><00:05:57.539><c> we</c><00:05:57.930><c> have</c><00:05:58.080><c> the</c>
+
+00:05:58.189 --> 00:05:58.199 align:start position:0%
+resources on the right we have the
+ 
+
+00:05:58.199 --> 00:06:00.619 align:start position:0%
+resources on the right we have the
+decoded<00:05:58.740><c> version</c><00:05:59.099><c> of</c><00:05:59.219><c> that</c><00:05:59.699><c> JSON</c><00:06:00.089><c> web</c><00:06:00.240><c> token</c>
+
+00:06:00.619 --> 00:06:00.629 align:start position:0%
+decoded version of that JSON web token
+ 
+
+00:06:00.629 --> 00:06:02.600 align:start position:0%
+decoded version of that JSON web token
+which<00:06:01.050><c> has</c><00:06:01.259><c> three</c><00:06:01.589><c> distinct</c><00:06:01.979><c> parts</c><00:06:02.159><c> it</c><00:06:02.430><c> has</c><00:06:02.460><c> a</c>
+
+00:06:02.600 --> 00:06:02.610 align:start position:0%
+which has three distinct parts it has a
+ 
+
+00:06:02.610 --> 00:06:04.309 align:start position:0%
+which has three distinct parts it has a
+header<00:06:02.879><c> which</c><00:06:03.270><c> determines</c><00:06:03.750><c> the</c><00:06:03.839><c> algorithm</c>
+
+00:06:04.309 --> 00:06:04.319 align:start position:0%
+header which determines the algorithm
+ 
+
+00:06:04.319 --> 00:06:06.230 align:start position:0%
+header which determines the algorithm
+that<00:06:04.500><c> you're</c><00:06:04.589><c> actually</c><00:06:04.770><c> using</c><00:06:05.009><c> to</c><00:06:05.669><c> encode</c><00:06:06.029><c> and</c>
+
+00:06:06.230 --> 00:06:06.240 align:start position:0%
+that you're actually using to encode and
+ 
+
+00:06:06.240 --> 00:06:08.510 align:start position:0%
+that you're actually using to encode and
+decode<00:06:06.270><c> this</c><00:06:06.750><c> it</c><00:06:06.960><c> has</c><00:06:07.529><c> the</c><00:06:07.710><c> payload</c><00:06:08.099><c> which</c><00:06:08.339><c> is</c>
+
+00:06:08.510 --> 00:06:08.520 align:start position:0%
+decode this it has the payload which is
+ 
+
+00:06:08.520 --> 00:06:10.100 align:start position:0%
+decode this it has the payload which is
+just<00:06:08.699><c> going</c><00:06:08.819><c> to</c><00:06:08.909><c> be</c><00:06:09.000><c> all</c><00:06:09.150><c> the</c><00:06:09.330><c> information</c><00:06:09.900><c> you</c>
+
+00:06:10.100 --> 00:06:10.110 align:start position:0%
+just going to be all the information you
+ 
+
+00:06:10.110 --> 00:06:12.320 align:start position:0%
+just going to be all the information you
+store<00:06:10.409><c> it</c><00:06:10.529><c> in</c><00:06:10.680><c> the</c><00:06:10.830><c> token</c><00:06:11.159><c> and</c><00:06:11.279><c> lastly</c><00:06:12.120><c> and</c>
+
+00:06:12.320 --> 00:06:12.330 align:start position:0%
+store it in the token and lastly and
+ 
+
+00:06:12.330 --> 00:06:14.149 align:start position:0%
+store it in the token and lastly and
+most<00:06:12.360><c> importantly</c><00:06:13.080><c> we</c><00:06:13.529><c> have</c><00:06:13.650><c> this</c><00:06:13.800><c> signature</c>
+
+00:06:14.149 --> 00:06:14.159 align:start position:0%
+most importantly we have this signature
+ 
+
+00:06:14.159 --> 00:06:16.129 align:start position:0%
+most importantly we have this signature
+which<00:06:14.520><c> allows</c><00:06:14.789><c> us</c><00:06:15.000><c> to</c><00:06:15.180><c> verify</c><00:06:15.419><c> that</c><00:06:15.659><c> the</c><00:06:15.930><c> token</c>
+
+00:06:16.129 --> 00:06:16.139 align:start position:0%
+which allows us to verify that the token
+ 
+
+00:06:16.139 --> 00:06:18.409 align:start position:0%
+which allows us to verify that the token
+hasn't<00:06:16.770><c> been</c><00:06:16.919><c> changed</c><00:06:17.430><c> by</c><00:06:17.580><c> the</c><00:06:17.610><c> client</c><00:06:18.060><c> before</c>
+
+00:06:18.409 --> 00:06:18.419 align:start position:0%
+hasn't been changed by the client before
+ 
+
+00:06:18.419 --> 00:06:20.719 align:start position:0%
+hasn't been changed by the client before
+it<00:06:18.690><c> gets</c><00:06:18.839><c> sent</c><00:06:19.050><c> back</c><00:06:19.110><c> to</c><00:06:19.289><c> us</c><00:06:19.620><c> so</c><00:06:20.339><c> the</c><00:06:20.580><c> very</c>
+
+00:06:20.719 --> 00:06:20.729 align:start position:0%
+it gets sent back to us so the very
+ 
+
+00:06:20.729 --> 00:06:21.860 align:start position:0%
+it gets sent back to us so the very
+first<00:06:20.940><c> thing</c><00:06:21.120><c> we</c><00:06:21.150><c> want</c><00:06:21.330><c> to</c><00:06:21.360><c> look</c><00:06:21.419><c> at</c><00:06:21.599><c> is</c><00:06:21.719><c> the</c>
+
+00:06:21.860 --> 00:06:21.870 align:start position:0%
+first thing we want to look at is the
+ 
+
+00:06:21.870 --> 00:06:23.450 align:start position:0%
+first thing we want to look at is the
+header<00:06:22.050><c> and</c><00:06:22.500><c> as</c><00:06:22.620><c> you</c><00:06:22.770><c> can</c><00:06:22.889><c> see</c><00:06:23.009><c> over</c><00:06:23.099><c> here</c><00:06:23.219><c> the</c>
+
+00:06:23.450 --> 00:06:23.460 align:start position:0%
+header and as you can see over here the
+ 
+
+00:06:23.460 --> 00:06:25.459 align:start position:0%
+header and as you can see over here the
+header<00:06:23.610><c> is</c><00:06:23.789><c> always</c><00:06:24.089><c> before</c><00:06:24.389><c> the</c><00:06:24.900><c> very</c><00:06:25.139><c> first</c>
+
+00:06:25.459 --> 00:06:25.469 align:start position:0%
+header is always before the very first
+ 
+
+00:06:25.469 --> 00:06:27.320 align:start position:0%
+header is always before the very first
+period<00:06:25.919><c> inside</c><00:06:26.339><c> of</c><00:06:26.460><c> this</c><00:06:26.550><c> and</c><00:06:26.759><c> it's</c><00:06:26.909><c> just</c><00:06:27.089><c> base</c>
+
+00:06:27.320 --> 00:06:27.330 align:start position:0%
+period inside of this and it's just base
+ 
+
+00:06:27.330 --> 00:06:30.260 align:start position:0%
+period inside of this and it's just base
+64<00:06:27.930><c> encoded</c><00:06:28.500><c> so</c><00:06:29.219><c> here</c><00:06:29.759><c> we</c><00:06:29.879><c> have</c><00:06:30.000><c> our</c><00:06:30.120><c> header</c>
+
+00:06:30.260 --> 00:06:30.270 align:start position:0%
+64 encoded so here we have our header
+ 
+
+00:06:30.270 --> 00:06:31.369 align:start position:0%
+64 encoded so here we have our header
+and<00:06:30.479><c> this</c><00:06:30.569><c> is</c><00:06:30.719><c> just</c><00:06:30.839><c> determining</c><00:06:31.289><c> our</c>
+
+00:06:31.369 --> 00:06:31.379 align:start position:0%
+and this is just determining our
+ 
+
+00:06:31.379 --> 00:06:33.680 align:start position:0%
+and this is just determining our
+algorithm<00:06:31.770><c> and</c><00:06:31.949><c> our</c><00:06:32.339><c> JWT</c><00:06:32.789><c> token</c><00:06:33.300><c> type</c><00:06:33.449><c> and</c>
+
+00:06:33.680 --> 00:06:33.690 align:start position:0%
+algorithm and our JWT token type and
+ 
+
+00:06:33.690 --> 00:06:35.540 align:start position:0%
+algorithm and our JWT token type and
+really<00:06:34.199><c> this</c><00:06:34.349><c> is</c><00:06:34.409><c> only</c><00:06:34.680><c> useful</c><00:06:35.069><c> for</c><00:06:35.279><c> our</c>
+
+00:06:35.540 --> 00:06:35.550 align:start position:0%
+really this is only useful for our
+ 
+
+00:06:35.550 --> 00:06:37.249 align:start position:0%
+really this is only useful for our
+signature<00:06:36.000><c> portion</c><00:06:36.449><c> at</c><00:06:36.569><c> the</c><00:06:36.599><c> very</c><00:06:36.899><c> end</c><00:06:37.050><c> where</c>
+
+00:06:37.249 --> 00:06:37.259 align:start position:0%
+signature portion at the very end where
+ 
+
+00:06:37.259 --> 00:06:38.600 align:start position:0%
+signature portion at the very end where
+we're<00:06:37.380><c> verifying</c><00:06:37.860><c> it</c><00:06:38.009><c> so</c><00:06:38.370><c> we're</c><00:06:38.459><c> going</c><00:06:38.550><c> to</c>
+
+00:06:38.600 --> 00:06:38.610 align:start position:0%
+we're verifying it so we're going to
+ 
+
+00:06:38.610 --> 00:06:39.980 align:start position:0%
+we're verifying it so we're going to
+kind<00:06:38.819><c> of</c><00:06:38.880><c> skip</c><00:06:39.089><c> over</c><00:06:39.270><c> this</c><00:06:39.449><c> and</c><00:06:39.659><c> go</c><00:06:39.750><c> on</c><00:06:39.839><c> to</c><00:06:39.899><c> the</c>
+
+00:06:39.980 --> 00:06:39.990 align:start position:0%
+kind of skip over this and go on to the
+ 
+
+00:06:39.990 --> 00:06:40.500 align:start position:0%
+kind of skip over this and go on to the
+second<00:06:40.289><c> so</c>
+
+00:06:40.500 --> 00:06:40.510 align:start position:0%
+second so
+ 
+
+00:06:40.510 --> 00:06:42.300 align:start position:0%
+second so
+which<00:06:40.810><c> is</c><00:06:40.930><c> our</c><00:06:41.050><c> data</c><00:06:41.260><c> and</c><00:06:41.500><c> this</c><00:06:41.920><c> comes</c><00:06:42.130><c> in</c>
+
+00:06:42.300 --> 00:06:42.310 align:start position:0%
+which is our data and this comes in
+ 
+
+00:06:42.310 --> 00:06:44.370 align:start position:0%
+which is our data and this comes in
+between<00:06:42.610><c> the</c><00:06:42.970><c> two</c><00:06:43.180><c> other</c><00:06:43.390><c> periods</c><00:06:43.810><c> it's</c>
+
+00:06:44.370 --> 00:06:44.380 align:start position:0%
+between the two other periods it's
+ 
+
+00:06:44.380 --> 00:06:46.470 align:start position:0%
+between the two other periods it's
+really<00:06:44.620><c> nice</c><00:06:44.770><c> JWT</c><00:06:45.460><c> actually</c><00:06:46.000><c> separates</c>
+
+00:06:46.470 --> 00:06:46.480 align:start position:0%
+really nice JWT actually separates
+ 
+
+00:06:46.480 --> 00:06:48.360 align:start position:0%
+really nice JWT actually separates
+things<00:06:46.720><c> by</c><00:06:46.900><c> periods</c><00:06:47.320><c> so</c><00:06:47.560><c> it's</c><00:06:47.680><c> very</c><00:06:47.800><c> visually</c>
+
+00:06:48.360 --> 00:06:48.370 align:start position:0%
+things by periods so it's very visually
+ 
+
+00:06:48.370 --> 00:06:49.920 align:start position:0%
+things by periods so it's very visually
+easy<00:06:48.550><c> to</c><00:06:48.790><c> see</c><00:06:49.000><c> what</c><00:06:49.240><c> the</c><00:06:49.420><c> different</c><00:06:49.720><c> sections</c>
+
+00:06:49.920 --> 00:06:49.930 align:start position:0%
+easy to see what the different sections
+ 
+
+00:06:49.930 --> 00:06:52.170 align:start position:0%
+easy to see what the different sections
+are<00:06:50.260><c> so</c><00:06:50.980><c> here</c><00:06:51.160><c> we</c><00:06:51.280><c> have</c><00:06:51.400><c> our</c><00:06:51.490><c> data</c><00:06:51.640><c> section</c><00:06:52.060><c> as</c>
+
+00:06:52.170 --> 00:06:52.180 align:start position:0%
+are so here we have our data section as
+ 
+
+00:06:52.180 --> 00:06:53.520 align:start position:0%
+are so here we have our data section as
+I<00:06:52.300><c> mentioned</c><00:06:52.630><c> and</c><00:06:52.780><c> this</c><00:06:53.140><c> is</c><00:06:53.290><c> where</c><00:06:53.410><c> you're</c>
+
+00:06:53.520 --> 00:06:53.530 align:start position:0%
+I mentioned and this is where you're
+ 
+
+00:06:53.530 --> 00:06:54.720 align:start position:0%
+I mentioned and this is where you're
+going<00:06:53.680><c> to</c><00:06:53.740><c> put</c><00:06:53.890><c> all</c><00:06:54.070><c> of</c><00:06:54.100><c> your</c><00:06:54.250><c> different</c><00:06:54.520><c> data</c>
+
+00:06:54.720 --> 00:06:54.730 align:start position:0%
+going to put all of your different data
+ 
+
+00:06:54.730 --> 00:06:56.430 align:start position:0%
+going to put all of your different data
+for<00:06:55.030><c> your</c><00:06:55.120><c> application</c><00:06:55.690><c> and</c><00:06:55.840><c> there's</c><00:06:56.290><c> some</c>
+
+00:06:56.430 --> 00:06:56.440 align:start position:0%
+for your application and there's some
+ 
+
+00:06:56.440 --> 00:06:58.140 align:start position:0%
+for your application and there's some
+very<00:06:56.470><c> common</c><00:06:56.980><c> fields</c><00:06:57.490><c> that</c><00:06:57.640><c> you're</c><00:06:57.790><c> gonna</c><00:06:57.880><c> see</c>
+
+00:06:58.140 --> 00:06:58.150 align:start position:0%
+very common fields that you're gonna see
+ 
+
+00:06:58.150 --> 00:07:00.870 align:start position:0%
+very common fields that you're gonna see
+across<00:06:58.390><c> all</c><00:06:58.720><c> different</c><00:06:59.050><c> JW</c><00:06:59.590><c> T's</c><00:06:59.830><c> for</c><00:07:00.520><c> example</c>
+
+00:07:00.870 --> 00:07:00.880 align:start position:0%
+across all different JW T's for example
+ 
+
+00:07:00.880 --> 00:07:03.480 align:start position:0%
+across all different JW T's for example
+this<00:07:01.210><c> SUV</c><00:07:01.780><c> which</c><00:07:02.200><c> stands</c><00:07:02.440><c> for</c><00:07:02.530><c> subject</c><00:07:03.130><c> this</c>
+
+00:07:03.480 --> 00:07:03.490 align:start position:0%
+this SUV which stands for subject this
+ 
+
+00:07:03.490 --> 00:07:05.250 align:start position:0%
+this SUV which stands for subject this
+is<00:07:03.670><c> just</c><00:07:03.880><c> going</c><00:07:04.120><c> to</c><00:07:04.210><c> be</c><00:07:04.300><c> most</c><00:07:04.540><c> likely</c><00:07:04.900><c> the</c><00:07:05.050><c> ID</c>
+
+00:07:05.250 --> 00:07:05.260 align:start position:0%
+is just going to be most likely the ID
+ 
+
+00:07:05.260 --> 00:07:07.500 align:start position:0%
+is just going to be most likely the ID
+of<00:07:05.470><c> the</c><00:07:05.860><c> user</c><00:07:05.890><c> you're</c><00:07:06.430><c> authenticating</c><00:07:07.120><c> lots</c>
+
+00:07:07.500 --> 00:07:07.510 align:start position:0%
+of the user you're authenticating lots
+ 
+
+00:07:07.510 --> 00:07:08.790 align:start position:0%
+of the user you're authenticating lots
+of<00:07:07.630><c> times</c><00:07:07.840><c> you</c><00:07:07.990><c> would</c><00:07:08.080><c> store</c><00:07:08.320><c> this</c><00:07:08.470><c> in</c><00:07:08.650><c> the</c>
+
+00:07:08.790 --> 00:07:08.800 align:start position:0%
+of times you would store this in the
+ 
+
+00:07:08.800 --> 00:07:10.620 align:start position:0%
+of times you would store this in the
+session<00:07:09.190><c> inside</c><00:07:09.580><c> of</c><00:07:09.700><c> your</c><00:07:09.910><c> database</c><00:07:10.270><c> or</c>
+
+00:07:10.620 --> 00:07:10.630 align:start position:0%
+session inside of your database or
+ 
+
+00:07:10.630 --> 00:07:12.540 align:start position:0%
+session inside of your database or
+inside<00:07:10.960><c> of</c><00:07:11.080><c> your</c><00:07:11.200><c> server</c><00:07:11.470><c> but</c><00:07:12.160><c> here</c><00:07:12.370><c> you're</c>
+
+00:07:12.540 --> 00:07:12.550 align:start position:0%
+inside of your server but here you're
+ 
+
+00:07:12.550 --> 00:07:14.220 align:start position:0%
+inside of your server but here you're
+just<00:07:12.730><c> storing</c><00:07:12.970><c> this</c><00:07:13.030><c> ID</c><00:07:13.270><c> directly</c><00:07:13.870><c> in</c><00:07:14.080><c> the</c>
+
+00:07:14.220 --> 00:07:14.230 align:start position:0%
+just storing this ID directly in the
+ 
+
+00:07:14.230 --> 00:07:16.070 align:start position:0%
+just storing this ID directly in the
+token<00:07:14.560><c> you're</c><00:07:14.740><c> sending</c><00:07:15.070><c> back</c><00:07:15.100><c> to</c><00:07:15.280><c> the</c><00:07:15.520><c> user</c>
+
+00:07:16.070 --> 00:07:16.080 align:start position:0%
+token you're sending back to the user
+ 
+
+00:07:16.080 --> 00:07:18.600 align:start position:0%
+token you're sending back to the user
+next<00:07:17.080><c> we</c><00:07:17.320><c> have</c><00:07:17.500><c> other</c><00:07:17.800><c> fields</c><00:07:18.190><c> you</c><00:07:18.310><c> can</c><00:07:18.460><c> put</c>
+
+00:07:18.600 --> 00:07:18.610 align:start position:0%
+next we have other fields you can put
+ 
+
+00:07:18.610 --> 00:07:20.340 align:start position:0%
+next we have other fields you can put
+anything<00:07:18.790><c> you</c><00:07:18.910><c> want</c><00:07:19.000><c> here</c><00:07:19.360><c> for</c><00:07:19.840><c> example</c><00:07:20.170><c> we</c>
+
+00:07:20.340 --> 00:07:20.350 align:start position:0%
+anything you want here for example we
+ 
+
+00:07:20.350 --> 00:07:21.720 align:start position:0%
+anything you want here for example we
+just<00:07:20.530><c> have</c><00:07:20.650><c> a</c><00:07:20.680><c> name</c><00:07:20.920><c> field</c><00:07:21.220><c> here</c><00:07:21.460><c> for</c><00:07:21.670><c> the</c>
+
+00:07:21.720 --> 00:07:21.730 align:start position:0%
+just have a name field here for the
+ 
+
+00:07:21.730 --> 00:07:23.580 align:start position:0%
+just have a name field here for the
+users<00:07:22.060><c> name</c><00:07:22.270><c> but</c><00:07:22.840><c> like</c><00:07:22.960><c> I</c><00:07:23.080><c> said</c><00:07:23.140><c> you</c><00:07:23.350><c> can</c><00:07:23.470><c> put</c>
+
+00:07:23.580 --> 00:07:23.590 align:start position:0%
+users name but like I said you can put
+ 
+
+00:07:23.590 --> 00:07:25.560 align:start position:0%
+users name but like I said you can put
+anything<00:07:23.920><c> in</c><00:07:24.250><c> this</c><00:07:24.340><c> data</c><00:07:24.610><c> component</c><00:07:25.150><c> these</c>
+
+00:07:25.560 --> 00:07:25.570 align:start position:0%
+anything in this data component these
+ 
+
+00:07:25.570 --> 00:07:26.910 align:start position:0%
+anything in this data component these
+are<00:07:25.690><c> just</c><00:07:25.810><c> some</c><00:07:25.990><c> common</c><00:07:26.200><c> fields</c><00:07:26.680><c> that</c><00:07:26.800><c> you've</c>
+
+00:07:26.910 --> 00:07:26.920 align:start position:0%
+are just some common fields that you've
+ 
+
+00:07:26.920 --> 00:07:29.190 align:start position:0%
+are just some common fields that you've
+made<00:07:27.130><c> all</c><00:07:27.340><c> the</c><00:07:27.520><c> time</c><00:07:27.550><c> see</c><00:07:28.000><c> another</c><00:07:28.870><c> one</c><00:07:29.050><c> that's</c>
+
+00:07:29.190 --> 00:07:29.200 align:start position:0%
+made all the time see another one that's
+ 
+
+00:07:29.200 --> 00:07:31.200 align:start position:0%
+made all the time see another one that's
+really<00:07:29.290><c> common</c><00:07:29.590><c> is</c><00:07:29.800><c> IAT</c><00:07:30.310><c> which</c><00:07:30.850><c> stands</c><00:07:31.090><c> for</c>
+
+00:07:31.200 --> 00:07:31.210 align:start position:0%
+really common is IAT which stands for
+ 
+
+00:07:31.210 --> 00:07:33.060 align:start position:0%
+really common is IAT which stands for
+issued<00:07:31.660><c> at</c><00:07:31.840><c> and</c><00:07:32.050><c> really</c><00:07:32.530><c> what</c><00:07:32.650><c> this</c><00:07:32.740><c> is</c><00:07:32.920><c> saying</c>
+
+00:07:33.060 --> 00:07:33.070 align:start position:0%
+issued at and really what this is saying
+ 
+
+00:07:33.070 --> 00:07:35.220 align:start position:0%
+issued at and really what this is saying
+is<00:07:33.310><c> when</c><00:07:33.580><c> the</c><00:07:33.730><c> token</c><00:07:33.940><c> was</c><00:07:34.240><c> created</c><00:07:34.720><c> this</c><00:07:35.080><c> is</c>
+
+00:07:35.220 --> 00:07:35.230 align:start position:0%
+is when the token was created this is
+ 
+
+00:07:35.230 --> 00:07:36.450 align:start position:0%
+is when the token was created this is
+really<00:07:35.470><c> useful</c><00:07:35.830><c> if</c><00:07:35.980><c> you</c><00:07:36.070><c> want</c><00:07:36.250><c> to</c><00:07:36.340><c> actually</c>
+
+00:07:36.450 --> 00:07:36.460 align:start position:0%
+really useful if you want to actually
+ 
+
+00:07:36.460 --> 00:07:38.820 align:start position:0%
+really useful if you want to actually
+expire<00:07:36.970><c> tokens</c><00:07:37.450><c> and</c><00:07:37.600><c> you</c><00:07:38.080><c> will</c><00:07:38.230><c> notice</c><00:07:38.410><c> a</c><00:07:38.650><c> lot</c>
+
+00:07:38.820 --> 00:07:38.830 align:start position:0%
+expire tokens and you will notice a lot
+ 
+
+00:07:38.830 --> 00:07:40.200 align:start position:0%
+expire tokens and you will notice a lot
+of<00:07:38.890><c> tokens</c><00:07:39.310><c> we'll</c><00:07:39.460><c> also</c><00:07:39.610><c> have</c><00:07:39.910><c> something</c>
+
+00:07:40.200 --> 00:07:40.210 align:start position:0%
+of tokens we'll also have something
+ 
+
+00:07:40.210 --> 00:07:42.780 align:start position:0%
+of tokens we'll also have something
+called<00:07:40.360><c> exp</c><00:07:41.230><c> or</c><00:07:41.550><c> e8e</c>
+
+00:07:42.780 --> 00:07:42.790 align:start position:0%
+called exp or e8e
+ 
+
+00:07:42.790 --> 00:07:44.610 align:start position:0%
+called exp or e8e
+which<00:07:43.030><c> is</c><00:07:43.180><c> going</c><00:07:43.330><c> to</c><00:07:43.420><c> stand</c><00:07:43.660><c> for</c><00:07:43.720><c> expired</c><00:07:44.350><c> at</c>
+
+00:07:44.610 --> 00:07:44.620 align:start position:0%
+which is going to stand for expired at
+ 
+
+00:07:44.620 --> 00:07:46.440 align:start position:0%
+which is going to stand for expired at
+and<00:07:44.860><c> this</c><00:07:45.250><c> is</c><00:07:45.400><c> just</c><00:07:45.610><c> the</c><00:07:45.730><c> date</c><00:07:45.910><c> that</c><00:07:46.150><c> the</c><00:07:46.240><c> token</c>
+
+00:07:46.440 --> 00:07:46.450 align:start position:0%
+and this is just the date that the token
+ 
+
+00:07:46.450 --> 00:07:48.600 align:start position:0%
+and this is just the date that the token
+no<00:07:46.750><c> longer</c><00:07:47.170><c> becomes</c><00:07:47.500><c> a</c><00:07:47.650><c> valid</c><00:07:47.950><c> and</c><00:07:48.130><c> it's</c>
+
+00:07:48.600 --> 00:07:48.610 align:start position:0%
+no longer becomes a valid and it's
+ 
+
+00:07:48.610 --> 00:07:50.010 align:start position:0%
+no longer becomes a valid and it's
+important<00:07:49.090><c> a</c><00:07:49.180><c> lot</c><00:07:49.330><c> of</c><00:07:49.450><c> times</c><00:07:49.600><c> to</c><00:07:49.750><c> have</c><00:07:49.900><c> an</c>
+
+00:07:50.010 --> 00:07:50.020 align:start position:0%
+important a lot of times to have an
+ 
+
+00:07:50.020 --> 00:07:51.900 align:start position:0%
+important a lot of times to have an
+expire<00:07:50.410><c> date</c><00:07:50.620><c> on</c><00:07:50.830><c> your</c><00:07:50.890><c> tokens</c><00:07:51.430><c> because</c>
+
+00:07:51.900 --> 00:07:51.910 align:start position:0%
+expire date on your tokens because
+ 
+
+00:07:51.910 --> 00:07:53.880 align:start position:0%
+expire date on your tokens because
+otherwise<00:07:52.300><c> someone</c><00:07:53.020><c> else</c><00:07:53.230><c> could</c><00:07:53.530><c> take</c><00:07:53.740><c> your</c>
+
+00:07:53.880 --> 00:07:53.890 align:start position:0%
+otherwise someone else could take your
+ 
+
+00:07:53.890 --> 00:07:55.590 align:start position:0%
+otherwise someone else could take your
+token<00:07:54.250><c> and</c><00:07:54.370><c> use</c><00:07:54.760><c> that</c><00:07:54.940><c> to</c><00:07:55.120><c> authorize</c>
+
+00:07:55.590 --> 00:07:55.600 align:start position:0%
+token and use that to authorize
+ 
+
+00:07:55.600 --> 00:07:58.140 align:start position:0%
+token and use that to authorize
+themselves<00:07:56.560><c> as</c><00:07:56.680><c> you</c><00:07:57.160><c> and</c><00:07:57.400><c> if</c><00:07:57.820><c> it</c><00:07:57.970><c> doesn't</c>
+
+00:07:58.140 --> 00:07:58.150 align:start position:0%
+themselves as you and if it doesn't
+ 
+
+00:07:58.150 --> 00:07:59.850 align:start position:0%
+themselves as you and if it doesn't
+expire<00:07:58.600><c> they</c><00:07:58.840><c> can</c><00:07:59.020><c> just</c><00:07:59.170><c> use</c><00:07:59.320><c> that</c><00:07:59.500><c> forever</c>
+
+00:07:59.850 --> 00:07:59.860 align:start position:0%
+expire they can just use that forever
+ 
+
+00:07:59.860 --> 00:08:01.350 align:start position:0%
+expire they can just use that forever
+and<00:08:00.100><c> ever</c><00:08:00.220><c> and</c><00:08:00.310><c> ever</c><00:08:00.460><c> always</c><00:08:00.970><c> saying</c><00:08:01.240><c> that</c>
+
+00:08:01.350 --> 00:08:01.360 align:start position:0%
+and ever and ever always saying that
+ 
+
+00:08:01.360 --> 00:08:03.090 align:start position:0%
+and ever and ever always saying that
+they're<00:08:01.570><c> you</c><00:08:01.780><c> even</c><00:08:02.440><c> though</c><00:08:02.530><c> they're</c><00:08:02.680><c> actually</c>
+
+00:08:03.090 --> 00:08:03.100 align:start position:0%
+they're you even though they're actually
+ 
+
+00:08:03.100 --> 00:08:05.160 align:start position:0%
+they're you even though they're actually
+or<00:08:03.190><c> not</c><00:08:03.370><c> so</c><00:08:03.970><c> you</c><00:08:04.030><c> need</c><00:08:04.240><c> some</c><00:08:04.480><c> way</c><00:08:04.630><c> to</c><00:08:04.660><c> expire</c>
+
+00:08:05.160 --> 00:08:05.170 align:start position:0%
+or not so you need some way to expire
+ 
+
+00:08:05.170 --> 00:08:07.020 align:start position:0%
+or not so you need some way to expire
+your<00:08:05.350><c> tokens</c><00:08:05.710><c> so</c><00:08:06.010><c> that</c><00:08:06.160><c> sort</c><00:08:06.400><c> of</c><00:08:06.460><c> activity</c><00:08:06.790><c> it</c>
+
+00:08:07.020 --> 00:08:07.030 align:start position:0%
+your tokens so that sort of activity it
+ 
+
+00:08:07.030 --> 00:08:09.690 align:start position:0%
+your tokens so that sort of activity it
+does<00:08:07.180><c> not</c><00:08:07.270><c> happen</c><00:08:07.660><c> to</c><00:08:07.780><c> your</c><00:08:07.870><c> users</c><00:08:08.700><c> lastly</c>
+
+00:08:09.690 --> 00:08:09.700 align:start position:0%
+does not happen to your users lastly
+ 
+
+00:08:09.700 --> 00:08:11.760 align:start position:0%
+does not happen to your users lastly
+most<00:08:10.030><c> importantly</c><00:08:10.630><c> we</c><00:08:11.080><c> have</c><00:08:11.200><c> this</c><00:08:11.290><c> verify</c>
+
+00:08:11.760 --> 00:08:11.770 align:start position:0%
+most importantly we have this verify
+ 
+
+00:08:11.770 --> 00:08:13.620 align:start position:0%
+most importantly we have this verify
+signature<00:08:12.250><c> at</c><00:08:12.340><c> the</c><00:08:12.400><c> bottom</c><00:08:12.490><c> and</c><00:08:13.060><c> what</c><00:08:13.360><c> this</c><00:08:13.450><c> is</c>
+
+00:08:13.620 --> 00:08:13.630 align:start position:0%
+signature at the bottom and what this is
+ 
+
+00:08:13.630 --> 00:08:14.760 align:start position:0%
+signature at the bottom and what this is
+going<00:08:13.810><c> to</c><00:08:13.870><c> do</c><00:08:13.990><c> is</c><00:08:14.170><c> it's</c><00:08:14.320><c> going</c><00:08:14.440><c> to</c><00:08:14.530><c> allow</c><00:08:14.590><c> you</c>
+
+00:08:14.760 --> 00:08:14.770 align:start position:0%
+going to do is it's going to allow you
+ 
+
+00:08:14.770 --> 00:08:16.890 align:start position:0%
+going to do is it's going to allow you
+to<00:08:14.860><c> actually</c><00:08:15.190><c> verify</c><00:08:15.400><c> that</c><00:08:15.880><c> the</c><00:08:16.030><c> user</c><00:08:16.270><c> did</c><00:08:16.750><c> not</c>
+
+00:08:16.890 --> 00:08:16.900 align:start position:0%
+to actually verify that the user did not
+ 
+
+00:08:16.900 --> 00:08:18.720 align:start position:0%
+to actually verify that the user did not
+mess<00:08:17.230><c> with</c><00:08:17.260><c> the</c><00:08:17.560><c> token</c><00:08:17.920><c> before</c><00:08:18.160><c> it</c><00:08:18.400><c> got</c><00:08:18.520><c> sent</c>
+
+00:08:18.720 --> 00:08:18.730 align:start position:0%
+mess with the token before it got sent
+ 
+
+00:08:18.730 --> 00:08:20.490 align:start position:0%
+mess with the token before it got sent
+back<00:08:18.820><c> to</c><00:08:19.150><c> you</c><00:08:19.240><c> and</c><00:08:19.420><c> the</c><00:08:19.990><c> way</c><00:08:20.110><c> that</c><00:08:20.290><c> it</c><00:08:20.380><c> does</c>
+
+00:08:20.490 --> 00:08:20.500 align:start position:0%
+back to you and the way that it does
+ 
+
+00:08:20.500 --> 00:08:22.500 align:start position:0%
+back to you and the way that it does
+that<00:08:20.710><c> is</c><00:08:20.890><c> it</c><00:08:21.280><c> actually</c><00:08:21.520><c> takes</c><00:08:21.730><c> the</c><00:08:21.910><c> first</c><00:08:22.240><c> two</c>
+
+00:08:22.500 --> 00:08:22.510 align:start position:0%
+that is it actually takes the first two
+ 
+
+00:08:22.510 --> 00:08:24.450 align:start position:0%
+that is it actually takes the first two
+portions<00:08:22.960><c> of</c><00:08:23.080><c> the</c><00:08:23.230><c> token</c><00:08:23.950><c> so</c><00:08:24.130><c> takes</c><00:08:24.340><c> your</c>
+
+00:08:24.450 --> 00:08:24.460 align:start position:0%
+portions of the token so takes your
+ 
+
+00:08:24.460 --> 00:08:26.670 align:start position:0%
+portions of the token so takes your
+header<00:08:24.610><c> and</c><00:08:24.760><c> it</c><00:08:25.090><c> base64</c><00:08:25.750><c> encode</c><00:08:25.990><c> it</c><00:08:26.230><c> so</c><00:08:26.620><c> you</c>
+
+00:08:26.670 --> 00:08:26.680 align:start position:0%
+header and it base64 encode it so you
+ 
+
+00:08:26.680 --> 00:08:28.260 align:start position:0%
+header and it base64 encode it so you
+have<00:08:26.860><c> this</c><00:08:26.980><c> read</c><00:08:27.190><c> section</c><00:08:27.580><c> and</c><00:08:28.000><c> then</c><00:08:28.090><c> it</c><00:08:28.180><c> adds</c>
+
+00:08:28.260 --> 00:08:28.270 align:start position:0%
+have this read section and then it adds
+ 
+
+00:08:28.270 --> 00:08:30.150 align:start position:0%
+have this read section and then it adds
+a<00:08:28.390><c> period</c><00:08:28.750><c> and</c><00:08:28.900><c> you</c><00:08:29.260><c> have</c><00:08:29.410><c> the</c><00:08:29.500><c> purple</c><00:08:29.740><c> section</c>
+
+00:08:30.150 --> 00:08:30.160 align:start position:0%
+a period and you have the purple section
+ 
+
+00:08:30.160 --> 00:08:32.580 align:start position:0%
+a period and you have the purple section
+which<00:08:30.370><c> is</c><00:08:30.550><c> the</c><00:08:30.580><c> base64</c><00:08:31.390><c> encoded</c><00:08:31.810><c> payload</c><00:08:32.169><c> so</c>
+
+00:08:32.580 --> 00:08:32.590 align:start position:0%
+which is the base64 encoded payload so
+ 
+
+00:08:32.590 --> 00:08:34.710 align:start position:0%
+which is the base64 encoded payload so
+base64<00:08:33.340><c> encode</c><00:08:33.610><c> both</c><00:08:33.880><c> of</c><00:08:34.060><c> those</c><00:08:34.120><c> sections</c><00:08:34.360><c> and</c>
+
+00:08:34.710 --> 00:08:34.720 align:start position:0%
+base64 encode both of those sections and
+ 
+
+00:08:34.720 --> 00:08:36.780 align:start position:0%
+base64 encode both of those sections and
+combines<00:08:35.380><c> them</c><00:08:35.500><c> with</c><00:08:35.620><c> period</c><00:08:36.070><c> essentially</c>
+
+00:08:36.780 --> 00:08:36.790 align:start position:0%
+combines them with period essentially
+ 
+
+00:08:36.790 --> 00:08:38.190 align:start position:0%
+combines them with period essentially
+all<00:08:37.030><c> it</c><00:08:37.150><c> does</c><00:08:37.300><c> is</c><00:08:37.419><c> it</c><00:08:37.540><c> takes</c><00:08:37.630><c> your</c><00:08:37.840><c> header</c><00:08:37.990><c> and</c>
+
+00:08:38.190 --> 00:08:38.200 align:start position:0%
+all it does is it takes your header and
+ 
+
+00:08:38.200 --> 00:08:39.659 align:start position:0%
+all it does is it takes your header and
+it<00:08:38.260><c> takes</c><00:08:38.440><c> your</c><00:08:38.530><c> payload</c><00:08:38.890><c> and</c><00:08:39.040><c> it</c><00:08:39.370><c> combines</c>
+
+00:08:39.659 --> 00:08:39.669 align:start position:0%
+it takes your payload and it combines
+ 
+
+00:08:39.669 --> 00:08:40.950 align:start position:0%
+it takes your payload and it combines
+them<00:08:39.820><c> together</c><00:08:39.910><c> so</c><00:08:40.270><c> you</c><00:08:40.360><c> have</c><00:08:40.479><c> all</c><00:08:40.690><c> of</c><00:08:40.720><c> the</c>
+
+00:08:40.950 --> 00:08:40.960 align:start position:0%
+them together so you have all of the
+ 
+
+00:08:40.960 --> 00:08:42.960 align:start position:0%
+them together so you have all of the
+data<00:08:41.110><c> as</c><00:08:41.380><c> it</c><00:08:41.440><c> was</c><00:08:41.860><c> when</c><00:08:42.070><c> you</c><00:08:42.099><c> sent</c><00:08:42.400><c> it</c><00:08:42.520><c> down</c><00:08:42.760><c> to</c>
+
+00:08:42.960 --> 00:08:42.970 align:start position:0%
+data as it was when you sent it down to
+ 
+
+00:08:42.970 --> 00:08:44.760 align:start position:0%
+data as it was when you sent it down to
+the<00:08:43.060><c> user</c><00:08:43.270><c> and</c><00:08:43.510><c> then</c><00:08:44.080><c> what</c><00:08:44.200><c> it</c><00:08:44.290><c> does</c><00:08:44.320><c> is</c><00:08:44.620><c> it</c>
+
+00:08:44.760 --> 00:08:44.770 align:start position:0%
+the user and then what it does is it
+ 
+
+00:08:44.770 --> 00:08:46.320 align:start position:0%
+the user and then what it does is it
+uses<00:08:44.890><c> the</c><00:08:45.130><c> algorithm</c><00:08:45.580><c> which</c><00:08:45.790><c> is</c><00:08:45.910><c> defined</c><00:08:46.210><c> in</c>
+
+00:08:46.320 --> 00:08:46.330 align:start position:0%
+uses the algorithm which is defined in
+ 
+
+00:08:46.330 --> 00:08:48.630 align:start position:0%
+uses the algorithm which is defined in
+the<00:08:46.390><c> header</c><00:08:46.480><c> here</c><00:08:46.810><c> HS</c><00:08:47.320><c> 256</c><00:08:48.010><c> you</c><00:08:48.250><c> can</c><00:08:48.430><c> change</c>
+
+00:08:48.630 --> 00:08:48.640 align:start position:0%
+the header here HS 256 you can change
+ 
+
+00:08:48.640 --> 00:08:50.280 align:start position:0%
+the header here HS 256 you can change
+this<00:08:48.760><c> algorithm</c><00:08:49.180><c> if</c><00:08:49.270><c> you</c><00:08:49.390><c> want</c><00:08:49.570><c> but</c><00:08:50.020><c> this</c><00:08:50.140><c> is</c>
+
+00:08:50.280 --> 00:08:50.290 align:start position:0%
+this algorithm if you want but this is
+ 
+
+00:08:50.290 --> 00:08:52.110 align:start position:0%
+this algorithm if you want but this is
+just<00:08:50.380><c> a</c><00:08:50.530><c> good</c><00:08:50.680><c> one</c><00:08:50.830><c> to</c><00:08:50.950><c> use</c><00:08:50.980><c> it</c><00:08:51.670><c> uses</c><00:08:52.030><c> that</c>
+
+00:08:52.110 --> 00:08:52.120 align:start position:0%
+just a good one to use it uses that
+ 
+
+00:08:52.120 --> 00:08:54.360 align:start position:0%
+just a good one to use it uses that
+algorithm<00:08:52.660><c> and</c><00:08:52.810><c> actually</c><00:08:53.380><c> a</c><00:08:53.560><c> secret</c>
+
+00:08:54.360 --> 00:08:54.370 align:start position:0%
+algorithm and actually a secret
+ 
+
+00:08:54.370 --> 00:08:56.190 align:start position:0%
+algorithm and actually a secret
+which<00:08:54.610><c> you</c><00:08:54.730><c> can</c><00:08:54.880><c> define</c><00:08:55.180><c> yourself</c><00:08:55.870><c> for</c>
+
+00:08:56.190 --> 00:08:56.200 align:start position:0%
+which you can define yourself for
+ 
+
+00:08:56.200 --> 00:08:57.660 align:start position:0%
+which you can define yourself for
+example<00:08:56.560><c> we</c><00:08:56.680><c> could</c><00:08:56.770><c> just</c><00:08:56.950><c> find</c><00:08:57.160><c> a</c><00:08:57.280><c> key</c><00:08:57.430><c> called</c>
+
+00:08:57.660 --> 00:08:57.670 align:start position:0%
+example we could just find a key called
+ 
+
+00:08:57.670 --> 00:08:59.520 align:start position:0%
+example we could just find a key called
+secret<00:08:58.120><c> that's</c><00:08:58.450><c> a</c><00:08:58.570><c> terrible</c><00:08:58.870><c> secret</c><00:08:59.050><c> key</c><00:08:59.320><c> but</c>
+
+00:08:59.520 --> 00:08:59.530 align:start position:0%
+secret that's a terrible secret key but
+ 
+
+00:08:59.530 --> 00:09:01.080 align:start position:0%
+secret that's a terrible secret key but
+just<00:08:59.860><c> for</c><00:09:00.010><c> this</c><00:09:00.070><c> example</c><00:09:00.250><c> we'll</c><00:09:00.640><c> use</c><00:09:00.670><c> it</c><00:09:00.970><c> and</c>
+
+00:09:01.080 --> 00:09:01.090 align:start position:0%
+just for this example we'll use it and
+ 
+
+00:09:01.090 --> 00:09:03.090 align:start position:0%
+just for this example we'll use it and
+then<00:09:01.540><c> what</c><00:09:01.720><c> happens</c><00:09:02.080><c> is</c><00:09:02.230><c> it</c><00:09:02.530><c> uses</c><00:09:02.980><c> this</c>
+
+00:09:03.090 --> 00:09:03.100 align:start position:0%
+then what happens is it uses this
+ 
+
+00:09:03.100 --> 00:09:06.210 align:start position:0%
+then what happens is it uses this
+algorithm<00:09:03.610><c> up</c><00:09:03.730><c> here</c><00:09:03.910><c> HS</c><00:09:04.360><c> 256</c><00:09:05.140><c> and</c><00:09:05.320><c> it</c><00:09:05.770><c> encodes</c>
+
+00:09:06.210 --> 00:09:06.220 align:start position:0%
+algorithm up here HS 256 and it encodes
+ 
+
+00:09:06.220 --> 00:09:08.430 align:start position:0%
+algorithm up here HS 256 and it encodes
+your<00:09:06.640><c> data</c><00:09:06.940><c> portion</c><00:09:07.420><c> so</c><00:09:07.600><c> essentially</c><00:09:07.990><c> all</c><00:09:08.380><c> of</c>
+
+00:09:08.430 --> 00:09:08.440 align:start position:0%
+your data portion so essentially all of
+ 
+
+00:09:08.440 --> 00:09:10.650 align:start position:0%
+your data portion so essentially all of
+your<00:09:08.920><c> header</c><00:09:09.340><c> information</c><00:09:09.970><c> and</c><00:09:10.150><c> your</c><00:09:10.240><c> data</c>
+
+00:09:10.650 --> 00:09:10.660 align:start position:0%
+your header information and your data
+ 
+
+00:09:10.660 --> 00:09:13.110 align:start position:0%
+your header information and your data
+information<00:09:11.110><c> it</c><00:09:11.680><c> takes</c><00:09:12.010><c> all</c><00:09:12.220><c> of</c><00:09:12.250><c> that</c><00:09:12.520><c> and</c><00:09:12.730><c> it</c>
+
+00:09:13.110 --> 00:09:13.120 align:start position:0%
+information it takes all of that and it
+ 
+
+00:09:13.120 --> 00:09:15.180 align:start position:0%
+information it takes all of that and it
+encodes<00:09:13.450><c> it</c><00:09:13.690><c> using</c><00:09:14.020><c> your</c><00:09:14.200><c> specific</c><00:09:14.800><c> secret</c>
+
+00:09:15.180 --> 00:09:15.190 align:start position:0%
+encodes it using your specific secret
+ 
+
+00:09:15.190 --> 00:09:16.980 align:start position:0%
+encodes it using your specific secret
+key<00:09:15.370><c> and</c><00:09:15.640><c> that's</c><00:09:15.970><c> what</c><00:09:16.150><c> this</c><00:09:16.300><c> blue</c><00:09:16.480><c> section</c><00:09:16.840><c> is</c>
+
+00:09:16.980 --> 00:09:16.990 align:start position:0%
+key and that's what this blue section is
+ 
+
+00:09:16.990 --> 00:09:19.770 align:start position:0%
+key and that's what this blue section is
+it's<00:09:17.230><c> the</c><00:09:17.410><c> encoded</c><00:09:18.010><c> version</c><00:09:18.250><c> of</c><00:09:18.610><c> your</c><00:09:19.510><c> data</c>
+
+00:09:19.770 --> 00:09:19.780 align:start position:0%
+it's the encoded version of your data
+ 
+
+00:09:19.780 --> 00:09:22.380 align:start position:0%
+it's the encoded version of your data
+that<00:09:19.990><c> you</c><00:09:20.140><c> have</c><00:09:20.350><c> sent</c><00:09:20.680><c> to</c><00:09:21.040><c> the</c><00:09:21.070><c> client</c><00:09:21.520><c> so</c><00:09:22.210><c> now</c>
+
+00:09:22.380 --> 00:09:22.390 align:start position:0%
+that you have sent to the client so now
+ 
+
+00:09:22.390 --> 00:09:24.480 align:start position:0%
+that you have sent to the client so now
+if<00:09:22.630><c> the</c><00:09:22.660><c> client</c><00:09:22.930><c> changes</c><00:09:23.830><c> the</c><00:09:23.980><c> data</c><00:09:24.190><c> for</c>
+
+00:09:24.480 --> 00:09:24.490 align:start position:0%
+if the client changes the data for
+ 
+
+00:09:24.490 --> 00:09:26.340 align:start position:0%
+if the client changes the data for
+example<00:09:24.820><c> they</c><00:09:24.940><c> remove</c><00:09:25.270><c> this</c><00:09:25.540><c> six</c><00:09:25.870><c> from</c><00:09:26.200><c> their</c>
+
+00:09:26.340 --> 00:09:26.350 align:start position:0%
+example they remove this six from their
+ 
+
+00:09:26.350 --> 00:09:28.230 align:start position:0%
+example they remove this six from their
+data<00:09:26.560><c> now</c><00:09:27.160><c> you</c><00:09:27.220><c> can</c><00:09:27.430><c> see</c><00:09:27.580><c> immediately</c><00:09:27.820><c> the</c>
+
+00:09:28.230 --> 00:09:28.240 align:start position:0%
+data now you can see immediately the
+ 
+
+00:09:28.240 --> 00:09:30.090 align:start position:0%
+data now you can see immediately the
+signature<00:09:28.690><c> is</c><00:09:28.780><c> not</c><00:09:28.930><c> going</c><00:09:29.140><c> to</c><00:09:29.230><c> match</c><00:09:29.380><c> because</c>
+
+00:09:30.090 --> 00:09:30.100 align:start position:0%
+signature is not going to match because
+ 
+
+00:09:30.100 --> 00:09:32.070 align:start position:0%
+signature is not going to match because
+when<00:09:30.340><c> the</c><00:09:30.550><c> client</c><00:09:30.940><c> or</c><00:09:31.060><c> when</c><00:09:31.180><c> the</c><00:09:31.300><c> server</c><00:09:31.540><c> gets</c>
+
+00:09:32.070 --> 00:09:32.080 align:start position:0%
+when the client or when the server gets
+ 
+
+00:09:32.080 --> 00:09:33.630 align:start position:0%
+when the client or when the server gets
+the<00:09:32.260><c> information</c><00:09:32.560><c> from</c><00:09:32.980><c> the</c><00:09:33.160><c> client</c><00:09:33.490><c> what</c>
+
+00:09:33.630 --> 00:09:33.640 align:start position:0%
+the information from the client what
+ 
+
+00:09:33.640 --> 00:09:34.860 align:start position:0%
+the information from the client what
+they're<00:09:33.760><c> gonna</c><00:09:33.880><c> do</c><00:09:34.060><c> is</c><00:09:34.240><c> they're</c><00:09:34.690><c> going</c><00:09:34.780><c> to</c>
+
+00:09:34.860 --> 00:09:34.870 align:start position:0%
+they're gonna do is they're going to
+ 
+
+00:09:34.870 --> 00:09:37.170 align:start position:0%
+they're gonna do is they're going to
+decode<00:09:35.380><c> this</c><00:09:35.740><c> top</c><00:09:35.980><c> section</c><00:09:36.250><c> they're</c><00:09:36.970><c> going</c><00:09:37.120><c> to</c>
+
+00:09:37.170 --> 00:09:37.180 align:start position:0%
+decode this top section they're going to
+ 
+
+00:09:37.180 --> 00:09:38.010 align:start position:0%
+decode this top section they're going to
+combine<00:09:37.330><c> it</c><00:09:37.630><c> together</c>
+
+00:09:38.010 --> 00:09:38.020 align:start position:0%
+combine it together
+ 
+
+00:09:38.020 --> 00:09:39.030 align:start position:0%
+combine it together
+down<00:09:38.260><c> here</c><00:09:38.470><c> as</c><00:09:38.530><c> you</c><00:09:38.560><c> can</c><00:09:38.710><c> see</c><00:09:38.830><c> they're</c><00:09:38.950><c> gonna</c>
+
+00:09:39.030 --> 00:09:39.040 align:start position:0%
+down here as you can see they're gonna
+ 
+
+00:09:39.040 --> 00:09:41.190 align:start position:0%
+down here as you can see they're gonna
+base64<00:09:39.820><c> encode</c><00:09:40.240><c> the</c><00:09:40.390><c> header</c><00:09:40.540><c> they're</c><00:09:41.080><c> gonna</c>
+
+00:09:41.190 --> 00:09:41.200 align:start position:0%
+base64 encode the header they're gonna
+ 
+
+00:09:41.200 --> 00:09:43.200 align:start position:0%
+base64 encode the header they're gonna
+base64<00:09:41.920><c> encode</c><00:09:42.160><c> the</c><00:09:42.280><c> payload</c><00:09:42.610><c> and</c><00:09:42.760><c> then</c>
+
+00:09:43.200 --> 00:09:43.210 align:start position:0%
+base64 encode the payload and then
+ 
+
+00:09:43.210 --> 00:09:44.760 align:start position:0%
+base64 encode the payload and then
+they're<00:09:43.360><c> going</c><00:09:43.510><c> to</c><00:09:43.600><c> hash</c><00:09:43.960><c> it</c><00:09:43.990><c> with</c><00:09:44.620><c> the</c>
+
+00:09:44.760 --> 00:09:44.770 align:start position:0%
+they're going to hash it with the
+ 
+
+00:09:44.770 --> 00:09:46.290 align:start position:0%
+they're going to hash it with the
+particular<00:09:45.100><c> algorithm</c><00:09:45.640><c> and</c><00:09:45.970><c> they're</c><00:09:46.180><c> gonna</c>
+
+00:09:46.290 --> 00:09:46.300 align:start position:0%
+particular algorithm and they're gonna
+ 
+
+00:09:46.300 --> 00:09:48.450 align:start position:0%
+particular algorithm and they're gonna
+check<00:09:46.570><c> does</c><00:09:46.960><c> it</c><00:09:47.110><c> match</c><00:09:47.320><c> the</c><00:09:47.350><c> last</c><00:09:47.830><c> portion</c><00:09:48.220><c> of</c>
+
+00:09:48.450 --> 00:09:48.460 align:start position:0%
+check does it match the last portion of
+ 
+
+00:09:48.460 --> 00:09:50.610 align:start position:0%
+check does it match the last portion of
+the<00:09:48.670><c> key</c><00:09:48.880><c> if</c><00:09:49.090><c> it</c><00:09:49.780><c> does</c><00:09:49.990><c> match</c><00:09:50.290><c> the</c><00:09:50.320><c> last</c>
+
+00:09:50.610 --> 00:09:50.620 align:start position:0%
+the key if it does match the last
+ 
+
+00:09:50.620 --> 00:09:52.020 align:start position:0%
+the key if it does match the last
+portion<00:09:50.950><c> of</c><00:09:51.070><c> the</c><00:09:51.190><c> key</c><00:09:51.340><c> then</c><00:09:51.640><c> you</c><00:09:51.760><c> know</c><00:09:51.880><c> that</c>
+
+00:09:52.020 --> 00:09:52.030 align:start position:0%
+portion of the key then you know that
+ 
+
+00:09:52.030 --> 00:09:54.090 align:start position:0%
+portion of the key then you know that
+the<00:09:52.150><c> user</c><00:09:52.270><c> did</c><00:09:52.570><c> not</c><00:09:52.690><c> mess</c><00:09:52.930><c> with</c><00:09:52.960><c> anything</c><00:09:53.350><c> but</c>
+
+00:09:54.090 --> 00:09:54.100 align:start position:0%
+the user did not mess with anything but
+ 
+
+00:09:54.100 --> 00:09:56.340 align:start position:0%
+the user did not mess with anything but
+if<00:09:54.310><c> when</c><00:09:54.730><c> they</c><00:09:54.880><c> hash</c><00:09:55.120><c> it</c><00:09:55.360><c> as</c><00:09:55.480><c> you</c><00:09:55.990><c> can</c><00:09:56.110><c> see</c><00:09:56.260><c> up</c>
+
+00:09:56.340 --> 00:09:56.350 align:start position:0%
+if when they hash it as you can see up
+ 
+
+00:09:56.350 --> 00:09:57.960 align:start position:0%
+if when they hash it as you can see up
+here<00:09:56.380><c> they</c><00:09:56.980><c> get</c><00:09:57.100><c> a</c><00:09:57.160><c> different</c><00:09:57.550><c> result</c><00:09:57.640><c> for</c>
+
+00:09:57.960 --> 00:09:57.970 align:start position:0%
+here they get a different result for
+ 
+
+00:09:57.970 --> 00:09:59.520 align:start position:0%
+here they get a different result for
+example<00:09:58.000><c> when</c><00:09:58.360><c> you</c><00:09:58.450><c> hash</c><00:09:58.660><c> this</c><00:09:58.990><c> information</c>
+
+00:09:59.520 --> 00:09:59.530 align:start position:0%
+example when you hash this information
+ 
+
+00:09:59.530 --> 00:10:00.960 align:start position:0%
+example when you hash this information
+you<00:09:59.770><c> are</c><00:09:59.800><c> not</c><00:10:00.100><c> going</c><00:10:00.370><c> to</c><00:10:00.460><c> get</c><00:10:00.580><c> this</c><00:10:00.730><c> blue</c>
+
+00:10:00.960 --> 00:10:00.970 align:start position:0%
+you are not going to get this blue
+ 
+
+00:10:00.970 --> 00:10:03.540 align:start position:0%
+you are not going to get this blue
+section<00:10:01.420><c> so</c><00:10:02.050><c> they</c><00:10:02.200><c> know</c><00:10:02.410><c> immediately</c><00:10:02.620><c> that</c>
+
+00:10:03.540 --> 00:10:03.550 align:start position:0%
+section so they know immediately that
+ 
+
+00:10:03.550 --> 00:10:05.220 align:start position:0%
+section so they know immediately that
+this<00:10:03.670><c> key</c><00:10:03.940><c> has</c><00:10:04.090><c> been</c><00:10:04.270><c> tampered</c><00:10:04.690><c> with</c><00:10:04.720><c> and</c><00:10:04.990><c> that</c>
+
+00:10:05.220 --> 00:10:05.230 align:start position:0%
+this key has been tampered with and that
+ 
+
+00:10:05.230 --> 00:10:07.650 align:start position:0%
+this key has been tampered with and that
+the<00:10:05.320><c> data</c><00:10:05.560><c> in</c><00:10:05.800><c> the</c><00:10:05.950><c> JWT</c><00:10:06.400><c> is</c><00:10:06.760><c> no</c><00:10:07.090><c> longer</c><00:10:07.450><c> valid</c>
+
+00:10:07.650 --> 00:10:07.660 align:start position:0%
+the data in the JWT is no longer valid
+ 
+
+00:10:07.660 --> 00:10:09.450 align:start position:0%
+the data in the JWT is no longer valid
+and<00:10:07.960><c> that's</c><00:10:08.500><c> why</c><00:10:08.650><c> you</c><00:10:08.710><c> can</c><00:10:08.980><c> actually</c><00:10:09.220><c> store</c>
+
+00:10:09.450 --> 00:10:09.460 align:start position:0%
+and that's why you can actually store
+ 
+
+00:10:09.460 --> 00:10:11.670 align:start position:0%
+and that's why you can actually store
+user<00:10:09.820><c> information</c><00:10:10.210><c> on</c><00:10:10.630><c> the</c><00:10:11.140><c> client</c><00:10:11.530><c> and</c><00:10:11.650><c> you</c>
+
+00:10:11.670 --> 00:10:11.680 align:start position:0%
+user information on the client and you
+ 
+
+00:10:11.680 --> 00:10:13.440 align:start position:0%
+user information on the client and you
+can<00:10:12.190><c> actually</c><00:10:12.310><c> trust</c><00:10:12.700><c> that</c><00:10:12.940><c> they</c><00:10:13.090><c> haven't</c>
+
+00:10:13.440 --> 00:10:13.450 align:start position:0%
+can actually trust that they haven't
+ 
+
+00:10:13.450 --> 00:10:14.730 align:start position:0%
+can actually trust that they haven't
+changed<00:10:13.600><c> it</c><00:10:13.870><c> because</c><00:10:14.170><c> they</c><00:10:14.290><c> would</c><00:10:14.440><c> have</c><00:10:14.590><c> to</c>
+
+00:10:14.730 --> 00:10:14.740 align:start position:0%
+changed it because they would have to
+ 
+
+00:10:14.740 --> 00:10:16.860 align:start position:0%
+changed it because they would have to
+have<00:10:14.890><c> your</c><00:10:15.130><c> secret</c><00:10:15.520><c> key</c><00:10:15.700><c> if</c><00:10:15.910><c> they</c><00:10:16.360><c> ever</c><00:10:16.540><c> did</c>
+
+00:10:16.860 --> 00:10:16.870 align:start position:0%
+have your secret key if they ever did
+ 
+
+00:10:16.870 --> 00:10:18.870 align:start position:0%
+have your secret key if they ever did
+get<00:10:17.050><c> access</c><00:10:17.440><c> to</c><00:10:17.470><c> your</c><00:10:17.680><c> secret</c><00:10:17.950><c> key</c><00:10:18.190><c> then</c><00:10:18.700><c> they</c>
+
+00:10:18.870 --> 00:10:18.880 align:start position:0%
+get access to your secret key then they
+ 
+
+00:10:18.880 --> 00:10:20.880 align:start position:0%
+get access to your secret key then they
+would<00:10:19.090><c> be</c><00:10:19.240><c> able</c><00:10:19.300><c> to</c><00:10:19.390><c> fake</c><00:10:19.630><c> changes</c><00:10:20.110><c> but</c><00:10:20.650><c> that's</c>
+
+00:10:20.880 --> 00:10:20.890 align:start position:0%
+would be able to fake changes but that's
+ 
+
+00:10:20.890 --> 00:10:22.260 align:start position:0%
+would be able to fake changes but that's
+actually<00:10:21.130><c> not</c><00:10:21.430><c> going</c><00:10:21.580><c> to</c><00:10:21.640><c> happen</c><00:10:21.970><c> as</c><00:10:22.090><c> long</c><00:10:22.120><c> as</c>
+
+00:10:22.260 --> 00:10:22.270 align:start position:0%
+actually not going to happen as long as
+ 
+
+00:10:22.270 --> 00:10:24.390 align:start position:0%
+actually not going to happen as long as
+you<00:10:22.450><c> safely</c><00:10:22.840><c> store</c><00:10:23.170><c> your</c><00:10:23.200><c> secret</c><00:10:23.710><c> key</c><00:10:23.890><c> on</c><00:10:24.070><c> your</c>
+
+00:10:24.390 --> 00:10:24.400 align:start position:0%
+you safely store your secret key on your
+ 
+
+00:10:24.400 --> 00:10:26.790 align:start position:0%
+you safely store your secret key on your
+server<00:10:24.670><c> and</c><00:10:24.880><c> unaccessible</c><00:10:25.720><c> to</c><00:10:26.170><c> other</c><00:10:26.380><c> people</c>
+
+00:10:26.790 --> 00:10:26.800 align:start position:0%
+server and unaccessible to other people
+ 
+
+00:10:26.800 --> 00:10:28.800 align:start position:0%
+server and unaccessible to other people
+outside<00:10:27.250><c> of</c><00:10:27.310><c> that</c><00:10:27.400><c> server</c><00:10:27.760><c> and</c><00:10:28.060><c> hopefully</c>
+
+00:10:28.800 --> 00:10:28.810 align:start position:0%
+outside of that server and hopefully
+ 
+
+00:10:28.810 --> 00:10:30.750 align:start position:0%
+outside of that server and hopefully
+that<00:10:28.990><c> made</c><00:10:29.230><c> sense</c><00:10:29.470><c> this</c><00:10:29.950><c> really</c><00:10:30.250><c> essentially</c>
+
+00:10:30.750 --> 00:10:30.760 align:start position:0%
+that made sense this really essentially
+ 
+
+00:10:30.760 --> 00:10:33.180 align:start position:0%
+that made sense this really essentially
+works<00:10:31.000><c> a</c><00:10:31.180><c> lot</c><00:10:31.390><c> like</c><00:10:31.450><c> password</c><00:10:32.200><c> hashing</c><00:10:32.620><c> in</c><00:10:32.740><c> the</c>
+
+00:10:33.180 --> 00:10:33.190 align:start position:0%
+works a lot like password hashing in the
+ 
+
+00:10:33.190 --> 00:10:35.220 align:start position:0%
+works a lot like password hashing in the
+fact<00:10:33.400><c> that</c><00:10:33.520><c> the</c><00:10:33.760><c> header</c><00:10:34.120><c> appear</c><00:10:34.900><c> and</c><00:10:35.080><c> the</c>
+
+00:10:35.220 --> 00:10:35.230 align:start position:0%
+fact that the header appear and the
+ 
+
+00:10:35.230 --> 00:10:36.990 align:start position:0%
+fact that the header appear and the
+payload<00:10:35.590><c> are</c><00:10:35.950><c> actually</c><00:10:36.340><c> combined</c><00:10:36.700><c> together</c>
+
+00:10:36.990 --> 00:10:37.000 align:start position:0%
+payload are actually combined together
+ 
+
+00:10:37.000 --> 00:10:38.610 align:start position:0%
+payload are actually combined together
+and<00:10:37.240><c> then</c><00:10:37.540><c> hashed</c><00:10:37.870><c> in</c><00:10:38.170><c> a</c><00:10:38.260><c> way</c><00:10:38.380><c> that</c><00:10:38.530><c> they</c>
+
+00:10:38.610 --> 00:10:38.620 align:start position:0%
+and then hashed in a way that they
+ 
+
+00:10:38.620 --> 00:10:40.890 align:start position:0%
+and then hashed in a way that they
+cannot<00:10:38.950><c> be</c><00:10:39.190><c> unhatched</c><00:10:39.640><c> and</c><00:10:39.970><c> the</c><00:10:40.420><c> way</c><00:10:40.600><c> that</c><00:10:40.780><c> it</c>
+
+00:10:40.890 --> 00:10:40.900 align:start position:0%
+cannot be unhatched and the way that it
+ 
+
+00:10:40.900 --> 00:10:42.960 align:start position:0%
+cannot be unhatched and the way that it
+checks<00:10:41.080><c> here</c><00:10:41.710><c> this</c><00:10:42.040><c> blue</c><00:10:42.250><c> section</c><00:10:42.430><c> is</c><00:10:42.760><c> just</c>
+
+00:10:42.960 --> 00:10:42.970 align:start position:0%
+checks here this blue section is just
+ 
+
+00:10:42.970 --> 00:10:45.060 align:start position:0%
+checks here this blue section is just
+the<00:10:43.090><c> hash</c><00:10:43.300><c> of</c><00:10:43.480><c> those</c><00:10:43.630><c> two</c><00:10:43.870><c> so</c><00:10:44.440><c> anytime</c><00:10:44.710><c> your</c>
+
+00:10:45.060 --> 00:10:45.070 align:start position:0%
+the hash of those two so anytime your
+ 
+
+00:10:45.070 --> 00:10:47.310 align:start position:0%
+the hash of those two so anytime your
+data<00:10:45.310><c> is</c><00:10:45.520><c> changed</c><00:10:46.000><c> the</c><00:10:46.420><c> two</c><00:10:46.600><c> hashes</c><00:10:46.840><c> will</c><00:10:47.170><c> no</c>
+
+00:10:47.310 --> 00:10:47.320 align:start position:0%
+data is changed the two hashes will no
+ 
+
+00:10:47.320 --> 00:10:49.020 align:start position:0%
+data is changed the two hashes will no
+longer<00:10:47.560><c> match</c><00:10:47.890><c> which</c><00:10:48.430><c> means</c><00:10:48.670><c> that</c><00:10:48.820><c> you</c><00:10:48.880><c> know</c>
+
+00:10:49.020 --> 00:10:49.030 align:start position:0%
+longer match which means that you know
+ 
+
+00:10:49.030 --> 00:10:50.400 align:start position:0%
+longer match which means that you know
+that<00:10:49.150><c> the</c><00:10:49.300><c> data</c><00:10:49.450><c> that</c><00:10:49.600><c> the</c><00:10:49.810><c> client</c><00:10:50.170><c> is</c><00:10:50.260><c> sending</c>
+
+00:10:50.400 --> 00:10:50.410 align:start position:0%
+that the data that the client is sending
+ 
+
+00:10:50.410 --> 00:10:52.050 align:start position:0%
+that the data that the client is sending
+you<00:10:50.680><c> is</c><00:10:50.890><c> not</c><00:10:51.220><c> the</c><00:10:51.250><c> same</c><00:10:51.610><c> as</c><00:10:51.790><c> what</c><00:10:51.940><c> you</c>
+
+00:10:52.050 --> 00:10:52.060 align:start position:0%
+you is not the same as what you
+ 
+
+00:10:52.060 --> 00:10:54.120 align:start position:0%
+you is not the same as what you
+originally<00:10:52.570><c> sent</c><00:10:52.930><c> them</c><00:10:53.080><c> yourselves</c><00:10:53.470><c> only</c>
+
+00:10:54.120 --> 00:10:54.130 align:start position:0%
+originally sent them yourselves only
+ 
+
+00:10:54.130 --> 00:10:55.920 align:start position:0%
+originally sent them yourselves only
+when<00:10:54.280><c> those</c><00:10:54.400><c> two</c><00:10:54.670><c> information</c><00:10:55.060><c> pieces</c><00:10:55.540><c> match</c>
+
+00:10:55.920 --> 00:10:55.930 align:start position:0%
+when those two information pieces match
+ 
+
+00:10:55.930 --> 00:10:57.420 align:start position:0%
+when those two information pieces match
+do<00:10:56.440><c> you</c><00:10:56.500><c> know</c><00:10:56.650><c> that</c><00:10:56.800><c> they're</c><00:10:56.950><c> exactly</c><00:10:57.160><c> the</c>
+
+00:10:57.420 --> 00:10:57.430 align:start position:0%
+do you know that they're exactly the
+ 
+
+00:10:57.430 --> 00:10:59.940 align:start position:0%
+do you know that they're exactly the
+same<00:10:57.760><c> now</c><00:10:58.390><c> that</c><00:10:58.570><c> we</c><00:10:58.690><c> talked</c><00:10:58.960><c> a</c><00:10:59.140><c> lot</c><00:10:59.320><c> about</c><00:10:59.380><c> how</c>
+
+00:10:59.940 --> 00:10:59.950 align:start position:0%
+same now that we talked a lot about how
+ 
+
+00:10:59.950 --> 00:11:02.730 align:start position:0%
+same now that we talked a lot about how
+JWT<00:11:00.520><c> works</c><00:11:00.940><c> what</c><00:11:01.570><c> it</c><00:11:01.720><c> is</c><00:11:01.870><c> we</c><00:11:02.380><c> should</c><00:11:02.410><c> finally</c>
+
+00:11:02.730 --> 00:11:02.740 align:start position:0%
+JWT works what it is we should finally
+ 
+
+00:11:02.740 --> 00:11:04.740 align:start position:0%
+JWT works what it is we should finally
+talk<00:11:03.010><c> about</c><00:11:03.250><c> why</c><00:11:03.430><c> you</c><00:11:03.490><c> would</c><00:11:03.700><c> want</c><00:11:03.880><c> to</c><00:11:03.940><c> use</c><00:11:04.210><c> JWT</c>
+
+00:11:04.740 --> 00:11:04.750 align:start position:0%
+talk about why you would want to use JWT
+ 
+
+00:11:04.750 --> 00:11:06.570 align:start position:0%
+talk about why you would want to use JWT
+and<00:11:05.080><c> let's</c><00:11:05.530><c> take</c><00:11:05.650><c> a</c><00:11:05.710><c> look</c><00:11:05.920><c> at</c><00:11:06.070><c> a</c><00:11:06.100><c> very</c><00:11:06.370><c> simple</c>
+
+00:11:06.570 --> 00:11:06.580 align:start position:0%
+and let's take a look at a very simple
+ 
+
+00:11:06.580 --> 00:11:07.769 align:start position:0%
+and let's take a look at a very simple
+example<00:11:07.210><c> of</c><00:11:07.330><c> one</c><00:11:07.480><c> of</c><00:11:07.540><c> them</c>
+
+00:11:07.769 --> 00:11:07.779 align:start position:0%
+example of one of them
+ 
+
+00:11:07.779 --> 00:11:11.189 align:start position:0%
+example of one of them
+common<00:11:08.259><c> use</c><00:11:08.439><c> cases</c><00:11:08.709><c> of</c><00:11:09.009><c> JWT</c><00:11:09.699><c> here</c><00:11:10.420><c> we</c><00:11:10.629><c> have</c><00:11:10.810><c> two</c>
+
+00:11:11.189 --> 00:11:11.199 align:start position:0%
+common use cases of JWT here we have two
+ 
+
+00:11:11.199 --> 00:11:13.050 align:start position:0%
+common use cases of JWT here we have two
+different<00:11:11.350><c> servers</c><00:11:11.860><c> we</c><00:11:12.430><c> have</c><00:11:12.579><c> a</c><00:11:12.610><c> bank</c><00:11:12.850><c> that</c>
+
+00:11:13.050 --> 00:11:13.060 align:start position:0%
+different servers we have a bank that
+ 
+
+00:11:13.060 --> 00:11:14.819 align:start position:0%
+different servers we have a bank that
+owns<00:11:13.360><c> a</c><00:11:13.540><c> server</c><00:11:13.779><c> that</c><00:11:13.990><c> runs</c><00:11:14.050><c> all</c><00:11:14.439><c> of</c><00:11:14.680><c> their</c>
+
+00:11:14.819 --> 00:11:14.829 align:start position:0%
+owns a server that runs all of their
+ 
+
+00:11:14.829 --> 00:11:16.829 align:start position:0%
+owns a server that runs all of their
+banking<00:11:15.249><c> applications</c><00:11:15.970><c> their</c><00:11:16.449><c> banking</c>
+
+00:11:16.829 --> 00:11:16.839 align:start position:0%
+banking applications their banking
+ 
+
+00:11:16.839 --> 00:11:18.749 align:start position:0%
+banking applications their banking
+website<00:11:17.290><c> all</c><00:11:17.470><c> of</c><00:11:17.529><c> the</c><00:11:17.949><c> bank</c><00:11:18.129><c> information</c><00:11:18.310><c> you</c>
+
+00:11:18.749 --> 00:11:18.759 align:start position:0%
+website all of the bank information you
+ 
+
+00:11:18.759 --> 00:11:20.850 align:start position:0%
+website all of the bank information you
+could<00:11:18.910><c> think</c><00:11:19.029><c> of</c><00:11:19.240><c> but</c><00:11:19.839><c> they</c><00:11:20.050><c> also</c><00:11:20.230><c> own</c><00:11:20.620><c> a</c>
+
+00:11:20.850 --> 00:11:20.860 align:start position:0%
+could think of but they also own a
+ 
+
+00:11:20.860 --> 00:11:22.439 align:start position:0%
+could think of but they also own a
+separate<00:11:21.220><c> server</c><00:11:21.459><c> and</c><00:11:21.730><c> this</c><00:11:21.910><c> takes</c><00:11:22.149><c> care</c><00:11:22.389><c> of</c>
+
+00:11:22.439 --> 00:11:22.449 align:start position:0%
+separate server and this takes care of
+ 
+
+00:11:22.449 --> 00:11:24.179 align:start position:0%
+separate server and this takes care of
+all<00:11:22.660><c> of</c><00:11:22.839><c> their</c><00:11:22.990><c> retirement</c><00:11:23.139><c> plans</c><00:11:23.769><c> they</c><00:11:24.009><c> allow</c>
+
+00:11:24.179 --> 00:11:24.189 align:start position:0%
+all of their retirement plans they allow
+ 
+
+00:11:24.189 --> 00:11:26.009 align:start position:0%
+all of their retirement plans they allow
+people<00:11:24.399><c> to</c><00:11:24.550><c> invest</c><00:11:24.970><c> and</c><00:11:25.209><c> do</c><00:11:25.300><c> retirement</c><00:11:25.809><c> plans</c>
+
+00:11:26.009 --> 00:11:26.019 align:start position:0%
+people to invest and do retirement plans
+ 
+
+00:11:26.019 --> 00:11:28.259 align:start position:0%
+people to invest and do retirement plans
+on<00:11:26.199><c> a</c><00:11:26.259><c> completely</c><00:11:26.860><c> separate</c><00:11:27.370><c> web</c><00:11:27.610><c> application</c>
+
+00:11:28.259 --> 00:11:28.269 align:start position:0%
+on a completely separate web application
+ 
+
+00:11:28.269 --> 00:11:30.689 align:start position:0%
+on a completely separate web application
+but<00:11:28.990><c> they</c><00:11:29.199><c> want</c><00:11:29.410><c> their</c><00:11:29.559><c> users</c><00:11:29.949><c> that</c><00:11:30.220><c> log</c><00:11:30.279><c> in</c><00:11:30.579><c> to</c>
+
+00:11:30.689 --> 00:11:30.699 align:start position:0%
+but they want their users that log in to
+ 
+
+00:11:30.699 --> 00:11:31.230 align:start position:0%
+but they want their users that log in to
+the<00:11:30.819><c> bank</c>
+
+00:11:31.230 --> 00:11:31.240 align:start position:0%
+the bank
+ 
+
+00:11:31.240 --> 00:11:32.999 align:start position:0%
+the bank
+to<00:11:31.540><c> also</c><00:11:31.899><c> be</c><00:11:32.050><c> able</c><00:11:32.110><c> to</c><00:11:32.319><c> be</c><00:11:32.470><c> automatically</c>
+
+00:11:32.999 --> 00:11:33.009 align:start position:0%
+to also be able to be automatically
+ 
+
+00:11:33.009 --> 00:11:34.980 align:start position:0%
+to also be able to be automatically
+logged<00:11:33.339><c> into</c><00:11:33.579><c> the</c><00:11:33.759><c> retirement</c><00:11:34.269><c> account</c><00:11:34.329><c> so</c>
+
+00:11:34.980 --> 00:11:34.990 align:start position:0%
+logged into the retirement account so
+ 
+
+00:11:34.990 --> 00:11:36.600 align:start position:0%
+logged into the retirement account so
+when<00:11:35.170><c> they</c><00:11:35.259><c> switch</c><00:11:35.529><c> from</c><00:11:35.559><c> the</c><00:11:35.860><c> bank</c><00:11:36.040><c> to</c><00:11:36.579><c> the</c>
+
+00:11:36.600 --> 00:11:36.610 align:start position:0%
+when they switch from the bank to the
+ 
+
+00:11:36.610 --> 00:11:38.220 align:start position:0%
+when they switch from the bank to the
+retirement<00:11:37.029><c> server</c><00:11:37.420><c> they</c><00:11:37.809><c> don't</c><00:11:37.959><c> want</c><00:11:38.139><c> the</c>
+
+00:11:38.220 --> 00:11:38.230 align:start position:0%
+retirement server they don't want the
+ 
+
+00:11:38.230 --> 00:11:39.840 align:start position:0%
+retirement server they don't want the
+user<00:11:38.379><c> to</c><00:11:38.499><c> have</c><00:11:38.620><c> to</c><00:11:38.920><c> re</c><00:11:39.129><c> log</c><00:11:39.370><c> back</c><00:11:39.639><c> in</c>
+
+00:11:39.840 --> 00:11:39.850 align:start position:0%
+user to have to re log back in
+ 
+
+00:11:39.850 --> 00:11:41.939 align:start position:0%
+user to have to re log back in
+especially<00:11:40.839><c> if</c><00:11:40.959><c> they</c><00:11:41.079><c> make</c><00:11:41.290><c> this</c><00:11:41.439><c> transition</c>
+
+00:11:41.939 --> 00:11:41.949 align:start position:0%
+especially if they make this transition
+ 
+
+00:11:41.949 --> 00:11:44.009 align:start position:0%
+especially if they make this transition
+very<00:11:42.399><c> seamless</c><00:11:42.850><c> to</c><00:11:43.029><c> the</c><00:11:43.059><c> user</c><00:11:43.300><c> so</c><00:11:43.540><c> it</c><00:11:43.749><c> looks</c>
+
+00:11:44.009 --> 00:11:44.019 align:start position:0%
+very seamless to the user so it looks
+ 
+
+00:11:44.019 --> 00:11:45.600 align:start position:0%
+very seamless to the user so it looks
+like<00:11:44.079><c> they're</c><00:11:44.379><c> on</c><00:11:44.499><c> the</c><00:11:44.529><c> same</c><00:11:44.829><c> application</c>
+
+00:11:45.600 --> 00:11:45.610 align:start position:0%
+like they're on the same application
+ 
+
+00:11:45.610 --> 00:11:48.150 align:start position:0%
+like they're on the same application
+this<00:11:46.120><c> is</c><00:11:46.329><c> really</c><00:11:46.749><c> common</c><00:11:47.019><c> in</c><00:11:47.319><c> a</c><00:11:47.379><c> lot</c><00:11:47.410><c> of</c><00:11:47.589><c> larger</c>
+
+00:11:48.150 --> 00:11:48.160 align:start position:0%
+this is really common in a lot of larger
+ 
+
+00:11:48.160 --> 00:11:50.460 align:start position:0%
+this is really common in a lot of larger
+scale<00:11:48.459><c> industries</c><00:11:49.089><c> and</c><00:11:49.290><c> applications</c><00:11:50.290><c> and</c>
+
+00:11:50.460 --> 00:11:50.470 align:start position:0%
+scale industries and applications and
+ 
+
+00:11:50.470 --> 00:11:52.799 align:start position:0%
+scale industries and applications and
+companies<00:11:50.860><c> so</c><00:11:51.459><c> what</c><00:11:51.579><c> happens</c><00:11:51.939><c> is</c><00:11:52.059><c> the</c><00:11:52.509><c> client</c>
+
+00:11:52.799 --> 00:11:52.809 align:start position:0%
+companies so what happens is the client
+ 
+
+00:11:52.809 --> 00:11:54.569 align:start position:0%
+companies so what happens is the client
+makes<00:11:53.019><c> a</c><00:11:53.110><c> request</c><00:11:53.350><c> here</c><00:11:53.800><c> to</c><00:11:53.980><c> the</c><00:11:54.069><c> bank</c><00:11:54.309><c> they</c>
+
+00:11:54.569 --> 00:11:54.579 align:start position:0%
+makes a request here to the bank they
+ 
+
+00:11:54.579 --> 00:11:56.369 align:start position:0%
+makes a request here to the bank they
+say<00:11:54.790><c> ok</c><00:11:55.059><c> I</c><00:11:55.120><c> want</c><00:11:55.269><c> some</c><00:11:55.480><c> bank</c><00:11:55.629><c> information</c><00:11:55.809><c> bank</c>
+
+00:11:56.369 --> 00:11:56.379 align:start position:0%
+say ok I want some bank information bank
+ 
+
+00:11:56.379 --> 00:11:57.749 align:start position:0%
+say ok I want some bank information bank
+information<00:11:56.559><c> blah</c><00:11:57.069><c> blah</c><00:11:57.220><c> blah</c><00:11:57.339><c> they</c><00:11:57.490><c> do</c><00:11:57.550><c> all</c>
+
+00:11:57.749 --> 00:11:57.759 align:start position:0%
+information blah blah blah they do all
+ 
+
+00:11:57.759 --> 00:11:59.639 align:start position:0%
+information blah blah blah they do all
+their<00:11:57.910><c> banking</c><00:11:58.269><c> stuff</c><00:11:58.480><c> and</c><00:11:58.720><c> then</c><00:11:59.199><c> finally</c>
+
+00:11:59.639 --> 00:11:59.649 align:start position:0%
+their banking stuff and then finally
+ 
+
+00:11:59.649 --> 00:12:00.809 align:start position:0%
+their banking stuff and then finally
+they<00:12:00.040><c> get</c><00:12:00.189><c> to</c><00:12:00.279><c> the</c><00:12:00.370><c> point</c><00:12:00.610><c> where</c><00:12:00.730><c> they</c>
+
+00:12:00.809 --> 00:12:00.819 align:start position:0%
+they get to the point where they
+ 
+
+00:12:00.819 --> 00:12:02.579 align:start position:0%
+they get to the point where they
+actually<00:12:01.209><c> want</c><00:12:01.360><c> to</c><00:12:01.480><c> access</c><00:12:01.899><c> the</c><00:12:02.019><c> retirement</c>
+
+00:12:02.579 --> 00:12:02.589 align:start position:0%
+actually want to access the retirement
+ 
+
+00:12:02.589 --> 00:12:04.499 align:start position:0%
+actually want to access the retirement
+information<00:12:03.160><c> and</c><00:12:03.339><c> if</c><00:12:03.759><c> you</c><00:12:03.790><c> have</c><00:12:03.879><c> a</c><00:12:04.029><c> normal</c>
+
+00:12:04.499 --> 00:12:04.509 align:start position:0%
+information and if you have a normal
+ 
+
+00:12:04.509 --> 00:12:06.869 align:start position:0%
+information and if you have a normal
+session<00:12:04.809><c> based</c><00:12:05.259><c> server</c><00:12:05.800><c> what</c><00:12:06.399><c> happens</c><00:12:06.730><c> as</c>
+
+00:12:06.869 --> 00:12:06.879 align:start position:0%
+session based server what happens as
+ 
+
+00:12:06.879 --> 00:12:08.759 align:start position:0%
+session based server what happens as
+your<00:12:07.059><c> session</c><00:12:07.420><c> is</c><00:12:07.540><c> stored</c><00:12:07.839><c> here</c><00:12:07.899><c> inside</c><00:12:08.620><c> of</c>
+
+00:12:08.759 --> 00:12:08.769 align:start position:0%
+your session is stored here inside of
+ 
+
+00:12:08.769 --> 00:12:10.590 align:start position:0%
+your session is stored here inside of
+the<00:12:08.889><c> bank</c><00:12:09.100><c> and</c><00:12:09.370><c> not</c><00:12:09.970><c> inside</c><00:12:10.420><c> of</c><00:12:10.540><c> the</c>
+
+00:12:10.590 --> 00:12:10.600 align:start position:0%
+the bank and not inside of the
+ 
+
+00:12:10.600 --> 00:12:12.420 align:start position:0%
+the bank and not inside of the
+retirement<00:12:10.959><c> server</c><00:12:11.439><c> so</c><00:12:11.829><c> what</c><00:12:11.949><c> happens</c><00:12:12.279><c> is</c>
+
+00:12:12.420 --> 00:12:12.430 align:start position:0%
+retirement server so what happens is
+ 
+
+00:12:12.430 --> 00:12:14.579 align:start position:0%
+retirement server so what happens is
+your<00:12:12.610><c> user</c><00:12:12.850><c> needs</c><00:12:13.180><c> to</c><00:12:13.269><c> log</c><00:12:13.449><c> back</c><00:12:13.689><c> in</c><00:12:14.050><c> because</c>
+
+00:12:14.579 --> 00:12:14.589 align:start position:0%
+your user needs to log back in because
+ 
+
+00:12:14.589 --> 00:12:15.509 align:start position:0%
+your user needs to log back in because
+they<00:12:14.680><c> need</c><00:12:14.800><c> to</c><00:12:14.920><c> be</c><00:12:15.040><c> able</c><00:12:15.100><c> to</c><00:12:15.220><c> have</c><00:12:15.370><c> their</c>
+
+00:12:15.509 --> 00:12:15.519 align:start position:0%
+they need to be able to have their
+ 
+
+00:12:15.519 --> 00:12:16.949 align:start position:0%
+they need to be able to have their
+session<00:12:15.879><c> stored</c><00:12:16.120><c> on</c><00:12:16.209><c> the</c><00:12:16.269><c> retirement</c><00:12:16.540><c> server</c>
+
+00:12:16.949 --> 00:12:16.959 align:start position:0%
+session stored on the retirement server
+ 
+
+00:12:16.959 --> 00:12:18.960 align:start position:0%
+session stored on the retirement server
+because<00:12:17.589><c> the</c><00:12:17.740><c> session</c><00:12:18.069><c> ID</c><00:12:18.220><c> from</c><00:12:18.490><c> the</c><00:12:18.550><c> client</c>
+
+00:12:18.960 --> 00:12:18.970 align:start position:0%
+because the session ID from the client
+ 
+
+00:12:18.970 --> 00:12:20.879 align:start position:0%
+because the session ID from the client
+is<00:12:19.059><c> not</c><00:12:19.509><c> found</c><00:12:19.839><c> in</c><00:12:20.079><c> the</c><00:12:20.199><c> retirement</c><00:12:20.500><c> server</c>
+
+00:12:20.879 --> 00:12:20.889 align:start position:0%
+is not found in the retirement server
+ 
+
+00:12:20.889 --> 00:12:23.280 align:start position:0%
+is not found in the retirement server
+but<00:12:21.790><c> when</c><00:12:22.240><c> you're</c><00:12:22.360><c> using</c><00:12:22.509><c> JWT</c>
+
+00:12:23.280 --> 00:12:23.290 align:start position:0%
+but when you're using JWT
+ 
+
+00:12:23.290 --> 00:12:25.470 align:start position:0%
+but when you're using JWT
+if<00:12:23.589><c> you</c><00:12:23.860><c> share</c><00:12:24.189><c> the</c><00:12:24.370><c> same</c><00:12:24.639><c> secret</c><00:12:25.120><c> key</c><00:12:25.149><c> between</c>
+
+00:12:25.470 --> 00:12:25.480 align:start position:0%
+if you share the same secret key between
+ 
+
+00:12:25.480 --> 00:12:27.329 align:start position:0%
+if you share the same secret key between
+both<00:12:25.870><c> your</c><00:12:25.899><c> bank</c><00:12:26.350><c> and</c><00:12:26.529><c> your</c><00:12:26.949><c> retirement</c>
+
+00:12:27.329 --> 00:12:27.339 align:start position:0%
+both your bank and your retirement
+ 
+
+00:12:27.339 --> 00:12:29.429 align:start position:0%
+both your bank and your retirement
+server<00:12:27.790><c> then</c><00:12:28.360><c> all</c><00:12:28.629><c> you</c><00:12:28.779><c> need</c><00:12:28.930><c> to</c><00:12:28.990><c> do</c><00:12:29.110><c> is</c><00:12:29.230><c> send</c>
+
+00:12:29.429 --> 00:12:29.439 align:start position:0%
+server then all you need to do is send
+ 
+
+00:12:29.439 --> 00:12:31.920 align:start position:0%
+server then all you need to do is send
+the<00:12:29.559><c> same</c><00:12:29.800><c> JWT</c><00:12:30.430><c> from</c><00:12:30.790><c> the</c><00:12:30.910><c> client</c><00:12:31.269><c> to</c><00:12:31.569><c> both</c><00:12:31.750><c> of</c>
+
+00:12:31.920 --> 00:12:31.930 align:start position:0%
+the same JWT from the client to both of
+ 
+
+00:12:31.930 --> 00:12:33.600 align:start position:0%
+the same JWT from the client to both of
+them<00:12:32.019><c> and</c><00:12:32.170><c> you'll</c><00:12:32.559><c> be</c><00:12:32.709><c> authenticated</c><00:12:33.430><c> both</c>
+
+00:12:33.600 --> 00:12:33.610 align:start position:0%
+them and you'll be authenticated both
+ 
+
+00:12:33.610 --> 00:12:35.639 align:start position:0%
+them and you'll be authenticated both
+times<00:12:33.939><c> without</c><00:12:34.209><c> having</c><00:12:34.300><c> to</c><00:12:34.660><c> re</c><00:12:34.779><c> log</c><00:12:34.990><c> back</c><00:12:35.199><c> in</c><00:12:35.439><c> I</c>
+
+00:12:35.639 --> 00:12:35.649 align:start position:0%
+times without having to re log back in I
+ 
+
+00:12:35.649 --> 00:12:37.710 align:start position:0%
+times without having to re log back in I
+know<00:12:36.490><c> this</c><00:12:36.699><c> is</c><00:12:36.790><c> a</c><00:12:36.819><c> little</c><00:12:36.970><c> bit</c><00:12:37.149><c> confusing</c><00:12:37.600><c> to</c>
+
+00:12:37.710 --> 00:12:37.720 align:start position:0%
+know this is a little bit confusing to
+ 
+
+00:12:37.720 --> 00:12:39.240 align:start position:0%
+know this is a little bit confusing to
+wrap<00:12:37.899><c> your</c><00:12:38.050><c> head</c><00:12:38.199><c> around</c><00:12:38.230><c> at</c><00:12:38.500><c> first</c><00:12:38.740><c> but</c>
+
+00:12:39.240 --> 00:12:39.250 align:start position:0%
+wrap your head around at first but
+ 
+
+00:12:39.250 --> 00:12:40.980 align:start position:0%
+wrap your head around at first but
+essentially<00:12:39.730><c> we're</c><00:12:40.209><c> storing</c><00:12:40.660><c> the</c><00:12:40.779><c> user</c>
+
+00:12:40.980 --> 00:12:40.990 align:start position:0%
+essentially we're storing the user
+ 
+
+00:12:40.990 --> 00:12:43.470 align:start position:0%
+essentially we're storing the user
+information<00:12:41.230><c> on</c><00:12:41.740><c> the</c><00:12:42.009><c> client</c><00:12:42.279><c> while</c><00:12:43.089><c> in</c><00:12:43.329><c> the</c>
+
+00:12:43.470 --> 00:12:43.480 align:start position:0%
+information on the client while in the
+ 
+
+00:12:43.480 --> 00:12:45.449 align:start position:0%
+information on the client while in the
+old<00:12:43.629><c> cookie</c><00:12:44.110><c> session</c><00:12:44.500><c> version</c><00:12:44.829><c> we</c><00:12:45.069><c> store</c><00:12:45.370><c> it</c>
+
+00:12:45.449 --> 00:12:45.459 align:start position:0%
+old cookie session version we store it
+ 
+
+00:12:45.459 --> 00:12:47.460 align:start position:0%
+old cookie session version we store it
+on<00:12:45.579><c> the</c><00:12:45.610><c> server</c><00:12:45.970><c> and</c><00:12:46.269><c> since</c><00:12:46.779><c> we</c><00:12:46.930><c> have</c><00:12:47.139><c> two</c>
+
+00:12:47.460 --> 00:12:47.470 align:start position:0%
+on the server and since we have two
+ 
+
+00:12:47.470 --> 00:12:49.740 align:start position:0%
+on the server and since we have two
+separate<00:12:47.920><c> servers</c><00:12:48.399><c> we</c><00:12:48.879><c> need</c><00:12:49.089><c> to</c><00:12:49.180><c> have</c><00:12:49.509><c> the</c>
+
+00:12:49.740 --> 00:12:49.750 align:start position:0%
+separate servers we need to have the
+ 
+
+00:12:49.750 --> 00:12:51.480 align:start position:0%
+separate servers we need to have the
+information<00:12:50.259><c> stored</c><00:12:50.470><c> on</c><00:12:50.649><c> both</c><00:12:50.889><c> of</c><00:12:51.069><c> them</c><00:12:51.189><c> but</c>
+
+00:12:51.480 --> 00:12:51.490 align:start position:0%
+information stored on both of them but
+ 
+
+00:12:51.490 --> 00:12:53.429 align:start position:0%
+information stored on both of them but
+that's<00:12:51.579><c> not</c><00:12:51.850><c> very</c><00:12:51.879><c> easy</c><00:12:52.509><c> to</c><00:12:52.629><c> do</c><00:12:52.839><c> or</c><00:12:53.050><c> very</c>
+
+00:12:53.429 --> 00:12:53.439 align:start position:0%
+that's not very easy to do or very
+ 
+
+00:12:53.439 --> 00:12:55.590 align:start position:0%
+that's not very easy to do or very
+possible<00:12:53.980><c> so</c><00:12:54.459><c> what</c><00:12:54.610><c> usually</c><00:12:54.759><c> happens</c><00:12:55.269><c> is</c><00:12:55.389><c> you</c>
+
+00:12:55.590 --> 00:12:55.600 align:start position:0%
+possible so what usually happens is you
+ 
+
+00:12:55.600 --> 00:12:57.329 align:start position:0%
+possible so what usually happens is you
+have<00:12:55.629><c> to</c><00:12:55.899><c> store</c><00:12:56.110><c> it</c><00:12:56.170><c> on</c><00:12:56.230><c> one</c><00:12:56.410><c> place</c><00:12:56.649><c> and</c><00:12:56.860><c> then</c>
+
+00:12:57.329 --> 00:12:57.339 align:start position:0%
+have to store it on one place and then
+ 
+
+00:12:57.339 --> 00:12:58.829 align:start position:0%
+have to store it on one place and then
+the<00:12:57.429><c> user</c><00:12:57.610><c> has</c><00:12:57.850><c> to</c><00:12:58.000><c> real</c><00:12:58.149><c> aughh</c><00:12:58.300><c> in</c><00:12:58.509><c> when</c><00:12:58.720><c> they</c>
+
+00:12:58.829 --> 00:12:58.839 align:start position:0%
+the user has to real aughh in when they
+ 
+
+00:12:58.839 --> 00:13:01.679 align:start position:0%
+the user has to real aughh in when they
+go<00:12:58.959><c> to</c><00:12:58.990><c> the</c><00:12:59.170><c> other</c><00:12:59.319><c> place</c><00:12:59.500><c> but</c><00:13:00.279><c> with</c><00:13:00.459><c> JWT</c><00:13:00.970><c> since</c>
+
+00:13:01.679 --> 00:13:01.689 align:start position:0%
+go to the other place but with JWT since
+ 
+
+00:13:01.689 --> 00:13:03.329 align:start position:0%
+go to the other place but with JWT since
+the<00:13:01.839><c> user</c><00:13:02.019><c> information</c><00:13:02.230><c> is</c><00:13:02.679><c> stored</c><00:13:02.920><c> in</c><00:13:03.100><c> that</c>
+
+00:13:03.329 --> 00:13:03.339 align:start position:0%
+the user information is stored in that
+ 
+
+00:13:03.339 --> 00:13:05.579 align:start position:0%
+the user information is stored in that
+token<00:13:03.730><c> on</c><00:13:03.850><c> the</c><00:13:04.209><c> client</c><00:13:04.600><c> it</c><00:13:04.779><c> doesn't</c><00:13:05.170><c> matter</c><00:13:05.350><c> if</c>
+
+00:13:05.579 --> 00:13:05.589 align:start position:0%
+token on the client it doesn't matter if
+ 
+
+00:13:05.589 --> 00:13:07.259 align:start position:0%
+token on the client it doesn't matter if
+they<00:13:05.860><c> access</c><00:13:06.189><c> the</c><00:13:06.339><c> bank</c><00:13:06.519><c> server</c><00:13:06.819><c> the</c>
+
+00:13:07.259 --> 00:13:07.269 align:start position:0%
+they access the bank server the
+ 
+
+00:13:07.269 --> 00:13:09.389 align:start position:0%
+they access the bank server the
+retirement<00:13:07.809><c> server</c><00:13:08.019><c> or</c><00:13:08.470><c> any</c><00:13:08.740><c> other</c><00:13:09.040><c> server</c>
+
+00:13:09.389 --> 00:13:09.399 align:start position:0%
+retirement server or any other server
+ 
+
+00:13:09.399 --> 00:13:11.400 align:start position:0%
+retirement server or any other server
+that<00:13:09.639><c> this</c><00:13:09.759><c> bank</c><00:13:09.999><c> owns</c><00:13:10.269><c> they're</c><00:13:10.809><c> still</c><00:13:11.199><c> going</c>
+
+00:13:11.400 --> 00:13:11.410 align:start position:0%
+that this bank owns they're still going
+ 
+
+00:13:11.410 --> 00:13:12.989 align:start position:0%
+that this bank owns they're still going
+to<00:13:11.470><c> be</c><00:13:11.559><c> logged</c><00:13:11.860><c> in</c><00:13:12.100><c> because</c><00:13:12.339><c> they</c><00:13:12.639><c> have</c><00:13:12.819><c> the</c>
+
+00:13:12.989 --> 00:13:12.999 align:start position:0%
+to be logged in because they have the
+ 
+
+00:13:12.999 --> 00:13:15.329 align:start position:0%
+to be logged in because they have the
+same<00:13:13.240><c> exact</c><00:13:13.660><c> token</c><00:13:14.050><c> and</c><00:13:14.170><c> all</c><00:13:14.620><c> the</c><00:13:14.949><c> server's</c>
+
+00:13:15.329 --> 00:13:15.339 align:start position:0%
+same exact token and all the server's
+ 
+
+00:13:15.339 --> 00:13:17.340 align:start position:0%
+same exact token and all the server's
+can<00:13:15.429><c> recognize</c><00:13:15.939><c> that</c><00:13:16.120><c> token</c><00:13:16.480><c> as</c><00:13:16.600><c> long</c><00:13:17.079><c> as</c><00:13:17.230><c> they</c>
+
+00:13:17.340 --> 00:13:17.350 align:start position:0%
+can recognize that token as long as they
+ 
+
+00:13:17.350 --> 00:13:19.679 align:start position:0%
+can recognize that token as long as they
+have<00:13:17.529><c> that</c><00:13:17.559><c> same</c><00:13:18.009><c> secret</c><00:13:18.519><c> key</c><00:13:18.550><c> on</c><00:13:19.059><c> the</c><00:13:19.449><c> server</c>
+
+00:13:19.679 --> 00:13:19.689 align:start position:0%
+have that same secret key on the server
+ 
+
+00:13:19.689 --> 00:13:21.850 align:start position:0%
+have that same secret key on the server
+another<00:13:20.470><c> time</c><00:13:20.740><c> that</c><00:13:20.769><c> this</c><00:13:20.980><c> is</c><00:13:21.129><c> really</c><00:13:21.279><c> used</c>
+
+00:13:21.850 --> 00:13:21.860 align:start position:0%
+another time that this is really used
+ 
+
+00:13:21.860 --> 00:13:23.290 align:start position:0%
+another time that this is really used
+same<00:13:22.100><c> kind</c><00:13:22.279><c> of</c><00:13:22.400><c> example</c><00:13:22.820><c> with</c><00:13:22.910><c> multiple</c>
+
+00:13:23.290 --> 00:13:23.300 align:start position:0%
+same kind of example with multiple
+ 
+
+00:13:23.300 --> 00:13:25.570 align:start position:0%
+same kind of example with multiple
+servers<00:13:23.660><c> is</c><00:13:24.080><c> let's</c><00:13:24.380><c> say</c><00:13:24.500><c> for</c><00:13:24.529><c> example</c><00:13:24.740><c> we</c><00:13:25.460><c> had</c>
+
+00:13:25.570 --> 00:13:25.580 align:start position:0%
+servers is let's say for example we had
+ 
+
+00:13:25.580 --> 00:13:27.400 align:start position:0%
+servers is let's say for example we had
+two<00:13:25.820><c> bank</c><00:13:26.089><c> servers</c><00:13:26.450><c> the</c><00:13:26.630><c> bank</c><00:13:26.810><c> was</c><00:13:26.990><c> very</c><00:13:27.230><c> large</c>
+
+00:13:27.400 --> 00:13:27.410 align:start position:0%
+two bank servers the bank was very large
+ 
+
+00:13:27.410 --> 00:13:29.230 align:start position:0%
+two bank servers the bank was very large
+and<00:13:27.680><c> they</c><00:13:27.800><c> needed</c><00:13:27.980><c> two</c><00:13:28.310><c> different</c><00:13:28.730><c> servers</c><00:13:28.940><c> to</c>
+
+00:13:29.230 --> 00:13:29.240 align:start position:0%
+and they needed two different servers to
+ 
+
+00:13:29.240 --> 00:13:30.970 align:start position:0%
+and they needed two different servers to
+build<00:13:29.420><c> a</c><00:13:29.510><c> handle</c><00:13:29.900><c> all</c><00:13:30.050><c> of</c><00:13:30.110><c> the</c><00:13:30.529><c> users</c><00:13:30.830><c> that</c>
+
+00:13:30.970 --> 00:13:30.980 align:start position:0%
+build a handle all of the users that
+ 
+
+00:13:30.980 --> 00:13:32.680 align:start position:0%
+build a handle all of the users that
+were<00:13:31.100><c> coming</c><00:13:31.279><c> to</c><00:13:31.460><c> the</c><00:13:31.580><c> server</c><00:13:31.820><c> and</c><00:13:32.120><c> they</c><00:13:32.570><c> have</c>
+
+00:13:32.680 --> 00:13:32.690 align:start position:0%
+were coming to the server and they have
+ 
+
+00:13:32.690 --> 00:13:34.390 align:start position:0%
+were coming to the server and they have
+some<00:13:32.900><c> form</c><00:13:33.140><c> of</c><00:13:33.230><c> load</c><00:13:33.440><c> balancer</c><00:13:33.890><c> out</c><00:13:34.040><c> in</c><00:13:34.190><c> front</c>
+
+00:13:34.390 --> 00:13:34.400 align:start position:0%
+some form of load balancer out in front
+ 
+
+00:13:34.400 --> 00:13:36.250 align:start position:0%
+some form of load balancer out in front
+that<00:13:34.850><c> distributed</c><00:13:35.390><c> traffic</c><00:13:35.870><c> to</c><00:13:36.170><c> the</c>
+
+00:13:36.250 --> 00:13:36.260 align:start position:0%
+that distributed traffic to the
+ 
+
+00:13:36.260 --> 00:13:38.260 align:start position:0%
+that distributed traffic to the
+different<00:13:36.650><c> servers</c><00:13:37.010><c> let's</c><00:13:37.730><c> say</c><00:13:37.910><c> that</c><00:13:38.180><c> your</c>
+
+00:13:38.260 --> 00:13:38.270 align:start position:0%
+different servers let's say that your
+ 
+
+00:13:38.270 --> 00:13:40.240 align:start position:0%
+different servers let's say that your
+client<00:13:38.450><c> was</c><00:13:38.720><c> accessing</c><00:13:39.320><c> server</c><00:13:39.620><c> a</c><00:13:39.890><c> for</c><00:13:40.220><c> a</c>
+
+00:13:40.240 --> 00:13:40.250 align:start position:0%
+client was accessing server a for a
+ 
+
+00:13:40.250 --> 00:13:42.010 align:start position:0%
+client was accessing server a for a
+while<00:13:40.310><c> and</c><00:13:40.700><c> then</c><00:13:40.940><c> this</c><00:13:41.270><c> server</c><00:13:41.540><c> it</c><00:13:41.720><c> got</c><00:13:41.900><c> really</c>
+
+00:13:42.010 --> 00:13:42.020 align:start position:0%
+while and then this server it got really
+ 
+
+00:13:42.020 --> 00:13:43.870 align:start position:0%
+while and then this server it got really
+busy<00:13:42.260><c> so</c><00:13:42.650><c> it</c><00:13:42.770><c> moved</c><00:13:42.980><c> that</c><00:13:43.130><c> client</c><00:13:43.550><c> over</c><00:13:43.790><c> to</c>
+
+00:13:43.870 --> 00:13:43.880 align:start position:0%
+busy so it moved that client over to
+ 
+
+00:13:43.880 --> 00:13:46.180 align:start position:0%
+busy so it moved that client over to
+server<00:13:44.089><c> B</c><00:13:44.360><c> over</c><00:13:44.779><c> here</c><00:13:44.990><c> their</c><00:13:45.529><c> session</c><00:13:45.920><c> is</c><00:13:46.040><c> no</c>
+
+00:13:46.180 --> 00:13:46.190 align:start position:0%
+server B over here their session is no
+ 
+
+00:13:46.190 --> 00:13:47.980 align:start position:0%
+server B over here their session is no
+longer<00:13:46.400><c> stored</c><00:13:46.760><c> on</c><00:13:46.850><c> server</c><00:13:47.060><c> B</c><00:13:47.300><c> it's</c><00:13:47.540><c> only</c><00:13:47.779><c> on</c>
+
+00:13:47.980 --> 00:13:47.990 align:start position:0%
+longer stored on server B it's only on
+ 
+
+00:13:47.990 --> 00:13:49.960 align:start position:0%
+longer stored on server B it's only on
+server<00:13:48.200><c> a</c><00:13:48.440><c> so</c><00:13:48.980><c> the</c><00:13:49.100><c> user</c><00:13:49.279><c> has</c><00:13:49.370><c> to</c><00:13:49.610><c> real</c><00:13:49.790><c> aughh</c>
+
+00:13:49.960 --> 00:13:49.970 align:start position:0%
+server a so the user has to real aughh
+ 
+
+00:13:49.970 --> 00:13:52.240 align:start position:0%
+server a so the user has to real aughh
+back<00:13:50.180><c> in</c><00:13:50.360><c> when</c><00:13:50.540><c> this</c><00:13:50.600><c> happens</c><00:13:50.990><c> and</c><00:13:51.170><c> with</c><00:13:51.770><c> JWT</c>
+
+00:13:52.240 --> 00:13:52.250 align:start position:0%
+back in when this happens and with JWT
+ 
+
+00:13:52.250 --> 00:13:53.950 align:start position:0%
+back in when this happens and with JWT
+you<00:13:52.910><c> don't</c><00:13:53.089><c> have</c><00:13:53.210><c> to</c><00:13:53.330><c> worry</c><00:13:53.510><c> about</c><00:13:53.630><c> that</c>
+
+00:13:53.950 --> 00:13:53.960 align:start position:0%
+you don't have to worry about that
+ 
+
+00:13:53.960 --> 00:13:55.930 align:start position:0%
+you don't have to worry about that
+because<00:13:54.290><c> like</c><00:13:54.860><c> I</c><00:13:54.980><c> mentioned</c><00:13:55.310><c> earlier</c><00:13:55.550><c> the</c>
+
+00:13:55.930 --> 00:13:55.940 align:start position:0%
+because like I mentioned earlier the
+ 
+
+00:13:55.940 --> 00:13:57.730 align:start position:0%
+because like I mentioned earlier the
+user<00:13:56.120><c> is</c><00:13:56.390><c> stored</c><00:13:56.690><c> on</c><00:13:56.900><c> the</c><00:13:57.080><c> client</c><00:13:57.320><c> that's</c>
+
+00:13:57.730 --> 00:13:57.740 align:start position:0%
+user is stored on the client that's
+ 
+
+00:13:57.740 --> 00:13:59.769 align:start position:0%
+user is stored on the client that's
+really<00:13:58.130><c> the</c><00:13:58.250><c> important</c><00:13:58.700><c> thing</c><00:13:58.820><c> about</c><00:13:58.850><c> JWT</c><00:13:59.450><c> is</c>
+
+00:13:59.769 --> 00:13:59.779 align:start position:0%
+really the important thing about JWT is
+ 
+
+00:13:59.779 --> 00:14:02.050 align:start position:0%
+really the important thing about JWT is
+the<00:14:00.200><c> user</c><00:14:00.380><c> is</c><00:14:00.560><c> stored</c><00:14:00.800><c> on</c><00:14:00.920><c> the</c><00:14:01.070><c> client</c><00:14:01.279><c> so</c><00:14:01.940><c> no</c>
+
+00:14:02.050 --> 00:14:02.060 align:start position:0%
+the user is stored on the client so no
+ 
+
+00:14:02.060 --> 00:14:03.490 align:start position:0%
+the user is stored on the client so no
+matter<00:14:02.210><c> how</c><00:14:02.300><c> many</c><00:14:02.630><c> different</c><00:14:02.839><c> servers</c><00:14:03.350><c> you</c>
+
+00:14:03.490 --> 00:14:03.500 align:start position:0%
+matter how many different servers you
+ 
+
+00:14:03.500 --> 00:14:04.810 align:start position:0%
+matter how many different servers you
+have<00:14:03.710><c> no</c><00:14:03.920><c> matter</c><00:14:04.070><c> how</c><00:14:04.310><c> many</c><00:14:04.580><c> different</c>
+
+00:14:04.810 --> 00:14:04.820 align:start position:0%
+have no matter how many different
+ 
+
+00:14:04.820 --> 00:14:07.150 align:start position:0%
+have no matter how many different
+applications<00:14:05.660><c> load</c><00:14:05.900><c> balancers</c><00:14:06.440><c> or</c><00:14:06.890><c> anything</c>
+
+00:14:07.150 --> 00:14:07.160 align:start position:0%
+applications load balancers or anything
+ 
+
+00:14:07.160 --> 00:14:08.920 align:start position:0%
+applications load balancers or anything
+that<00:14:07.339><c> you</c><00:14:07.520><c> have</c><00:14:07.550><c> it</c><00:14:08.180><c> doesn't</c><00:14:08.390><c> matter</c><00:14:08.690><c> if</c><00:14:08.810><c> the</c>
+
+00:14:08.920 --> 00:14:08.930 align:start position:0%
+that you have it doesn't matter if the
+ 
+
+00:14:08.930 --> 00:14:11.140 align:start position:0%
+that you have it doesn't matter if the
+user<00:14:09.110><c> can</c><00:14:09.380><c> always</c><00:14:09.710><c> authenticate</c><00:14:10.430><c> with</c><00:14:10.670><c> any</c><00:14:10.970><c> of</c>
+
+00:14:11.140 --> 00:14:11.150 align:start position:0%
+user can always authenticate with any of
+ 
+
+00:14:11.150 --> 00:14:12.700 align:start position:0%
+user can always authenticate with any of
+those<00:14:11.300><c> servers</c><00:14:11.600><c> as</c><00:14:11.870><c> long</c><00:14:12.260><c> as</c><00:14:12.410><c> you</c><00:14:12.500><c> have</c><00:14:12.620><c> the</c>
+
+00:14:12.700 --> 00:14:12.710 align:start position:0%
+those servers as long as you have the
+ 
+
+00:14:12.710 --> 00:14:15.040 align:start position:0%
+those servers as long as you have the
+same<00:14:12.980><c> secret</c><00:14:13.490><c> key</c><00:14:13.520><c> between</c><00:14:13.850><c> them</c><00:14:14.240><c> another</c>
+
+00:14:15.040 --> 00:14:15.050 align:start position:0%
+same secret key between them another
+ 
+
+00:14:15.050 --> 00:14:16.630 align:start position:0%
+same secret key between them another
+instance<00:14:15.500><c> where</c><00:14:15.680><c> this</c><00:14:15.770><c> is</c><00:14:15.920><c> really</c><00:14:16.040><c> useful</c><00:14:16.310><c> is</c>
+
+00:14:16.630 --> 00:14:16.640 align:start position:0%
+instance where this is really useful is
+ 
+
+00:14:16.640 --> 00:14:18.010 align:start position:0%
+instance where this is really useful is
+just<00:14:16.880><c> you</c><00:14:17.000><c> have</c><00:14:17.029><c> a</c><00:14:17.150><c> lot</c><00:14:17.390><c> of</c><00:14:17.420><c> really</c><00:14:17.779><c> small</c>
+
+00:14:18.010 --> 00:14:18.020 align:start position:0%
+just you have a lot of really small
+ 
+
+00:14:18.020 --> 00:14:20.410 align:start position:0%
+just you have a lot of really small
+services<00:14:18.680><c> such</c><00:14:19.010><c> as</c><00:14:19.040><c> micro</c><00:14:19.490><c> services</c><00:14:20.000><c> where</c>
+
+00:14:20.410 --> 00:14:20.420 align:start position:0%
+services such as micro services where
+ 
+
+00:14:20.420 --> 00:14:22.150 align:start position:0%
+services such as micro services where
+you<00:14:20.540><c> may</c><00:14:20.660><c> have</c><00:14:20.690><c> an</c><00:14:20.960><c> API</c><00:14:21.290><c> you</c><00:14:21.440><c> may</c><00:14:21.770><c> have</c><00:14:21.980><c> an</c>
+
+00:14:22.150 --> 00:14:22.160 align:start position:0%
+you may have an API you may have an
+ 
+
+00:14:22.160 --> 00:14:24.340 align:start position:0%
+you may have an API you may have an
+actual<00:14:22.460><c> web</c><00:14:22.700><c> server</c><00:14:23.000><c> maybe</c><00:14:23.720><c> even</c><00:14:24.050><c> something</c>
+
+00:14:24.340 --> 00:14:24.350 align:start position:0%
+actual web server maybe even something
+ 
+
+00:14:24.350 --> 00:14:26.680 align:start position:0%
+actual web server maybe even something
+else<00:14:24.500><c> you</c><00:14:24.980><c> can</c><00:14:25.130><c> use</c><00:14:25.279><c> that</c><00:14:25.430><c> same</c><00:14:25.670><c> JWT</c><00:14:26.209><c> token</c>
+
+00:14:26.680 --> 00:14:26.690 align:start position:0%
+else you can use that same JWT token
+ 
+
+00:14:26.690 --> 00:14:28.660 align:start position:0%
+else you can use that same JWT token
+from<00:14:26.930><c> the</c><00:14:27.020><c> client</c><00:14:27.380><c> to</c><00:14:27.529><c> authenticate</c><00:14:28.250><c> with</c><00:14:28.400><c> any</c>
+
+00:14:28.660 --> 00:14:28.670 align:start position:0%
+from the client to authenticate with any
+ 
+
+00:14:28.670 --> 00:14:30.699 align:start position:0%
+from the client to authenticate with any
+of<00:14:28.940><c> those</c><00:14:29.180><c> different</c><00:14:29.420><c> micro</c><00:14:30.020><c> services</c><00:14:30.529><c> all</c>
+
+00:14:30.699 --> 00:14:30.709 align:start position:0%
+of those different micro services all
+ 
+
+00:14:30.709 --> 00:14:32.470 align:start position:0%
+of those different micro services all
+across<00:14:31.279><c> your</c><00:14:31.459><c> different</c><00:14:31.730><c> architecture</c><00:14:32.300><c> and</c>
+
+00:14:32.470 --> 00:14:32.480 align:start position:0%
+across your different architecture and
+ 
+
+00:14:32.480 --> 00:14:34.449 align:start position:0%
+across your different architecture and
+now<00:14:33.050><c> you</c><00:14:33.110><c> know</c><00:14:33.350><c> literally</c><00:14:33.920><c> everything</c><00:14:34.279><c> you</c>
+
+00:14:34.449 --> 00:14:34.459 align:start position:0%
+now you know literally everything you
+ 
+
+00:14:34.459 --> 00:14:37.060 align:start position:0%
+now you know literally everything you
+need<00:14:34.670><c> to</c><00:14:34.790><c> know</c><00:14:34.910><c> about</c><00:14:35.150><c> JWT</c><00:14:35.930><c> if</c><00:14:36.320><c> you</c><00:14:36.800><c> want</c><00:14:36.980><c> me</c><00:14:37.040><c> to</c>
+
+00:14:37.060 --> 00:14:37.070 align:start position:0%
+need to know about JWT if you want me to
+ 
+
+00:14:37.070 --> 00:14:39.550 align:start position:0%
+need to know about JWT if you want me to
+make<00:14:37.279><c> a</c><00:14:37.310><c> video</c><00:14:37.490><c> explaining</c><00:14:38.150><c> JWT</c><00:14:38.690><c> in</c><00:14:38.990><c> nodejs</c>
+
+00:14:39.550 --> 00:14:39.560 align:start position:0%
+make a video explaining JWT in nodejs
+ 
+
+00:14:39.560 --> 00:14:41.110 align:start position:0%
+make a video explaining JWT in nodejs
+let<00:14:39.950><c> me</c><00:14:40.040><c> know</c><00:14:40.160><c> down</c><00:14:40.459><c> in</c><00:14:40.520><c> the</c><00:14:40.640><c> comments</c><00:14:41.029><c> below</c>
+
+00:14:41.110 --> 00:14:41.120 align:start position:0%
+let me know down in the comments below
+ 
+
+00:14:41.120 --> 00:14:42.340 align:start position:0%
+let me know down in the comments below
+because<00:14:41.360><c> I</c><00:14:41.570><c> would</c><00:14:41.690><c> love</c><00:14:41.810><c> to</c><00:14:41.959><c> make</c><00:14:42.110><c> a</c><00:14:42.140><c> tutorial</c>
+
+00:14:42.340 --> 00:14:42.350 align:start position:0%
+because I would love to make a tutorial
+ 
+
+00:14:42.350 --> 00:14:44.769 align:start position:0%
+because I would love to make a tutorial
+on<00:14:42.709><c> that</c><00:14:42.770><c> for</c><00:14:43.100><c> you</c><00:14:43.250><c> also</c><00:14:43.850><c> make</c><00:14:44.420><c> sure</c><00:14:44.450><c> to</c><00:14:44.600><c> check</c>
+
+00:14:44.769 --> 00:14:44.779 align:start position:0%
+on that for you also make sure to check
+ 
+
+00:14:44.779 --> 00:14:46.630 align:start position:0%
+on that for you also make sure to check
+out<00:14:44.930><c> my</c><00:14:44.990><c> other</c><00:14:45.110><c> videos</c><00:14:45.470><c> linked</c><00:14:46.070><c> over</c><00:14:46.160><c> here</c><00:14:46.459><c> and</c>
+
+00:14:46.630 --> 00:14:46.640 align:start position:0%
+out my other videos linked over here and
+ 
+
+00:14:46.640 --> 00:14:48.430 align:start position:0%
+out my other videos linked over here and
+subscribe<00:14:47.240><c> to</c><00:14:47.360><c> the</c><00:14:47.450><c> channel</c><00:14:47.480><c> for</c><00:14:47.990><c> more</c><00:14:48.140><c> videos</c>
+
+00:14:48.430 --> 00:14:48.440 align:start position:0%
+subscribe to the channel for more videos
+ 
+
+00:14:48.440 --> 00:14:50.650 align:start position:0%
+subscribe to the channel for more videos
+of<00:14:48.589><c> me</c><00:14:48.800><c> simplifying</c><00:14:49.279><c> the</c><00:14:49.430><c> web</c><00:14:49.580><c> for</c><00:14:49.850><c> you</c><00:14:50.000><c> thank</c>
+
+00:14:50.650 --> 00:14:50.660 align:start position:0%
+of me simplifying the web for you thank
+ 
+
+00:14:50.660 --> 00:14:51.940 align:start position:0%
+of me simplifying the web for you thank
+you<00:14:50.750><c> very</c><00:14:50.900><c> much</c><00:14:51.080><c> for</c><00:14:51.230><c> watching</c><00:14:51.350><c> and</c><00:14:51.680><c> have</c><00:14:51.920><c> a</c>
+
+00:14:51.940 --> 00:14:51.950 align:start position:0%
+you very much for watching and have a
+ 
+
+00:14:51.950 --> 00:14:54.279 align:start position:0%
+you very much for watching and have a
+good<00:14:52.160><c> day</c>
+

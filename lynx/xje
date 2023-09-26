@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2 > $(basename https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2).txt

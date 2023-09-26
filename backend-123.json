@@ -1,0 +1,177 @@
+[
+ {
+  "id": "migration-strategies",
+  "tag": "h1",
+  "text": "Migration Strategies"
+ },
+ {
+  "id": "backpressure",
+  "tag": "h1",
+  "text": "Backpressure"
+ },
+ {
+  "id": "circuit-breaker",
+  "tag": "h1",
+  "text": "Circuit Breaker"
+ },
+ {
+  "id": "throttling",
+  "tag": "h1",
+  "text": "Throttling"
+ },
+ {
+  "id": "mitigation-strategies",
+  "tag": "h1",
+  "text": "Mitigation Strategies"
+ },
+ {
+  "id": "graceful-degradation",
+  "tag": "h1",
+  "text": "Graceful Degradation"
+ },
+ {
+  "id": "load-shifting",
+  "tag": "h1",
+  "text": "Load Shifting"
+ },
+ {
+  "id": "building-for-scale",
+  "tag": "h1",
+  "text": "Building for Scale"
+ },
+ {
+  "id": "observability",
+  "tag": "h1",
+  "text": "Observability"
+ },
+ {
+  "id": "horizontalvertical-scaling",
+  "tag": "h1",
+  "text": "Horizontal/Vertical Scaling"
+ },
+ {
+  "id": "instrumentation-monitoring-and-telemetry",
+  "tag": "h1",
+  "text": "Instrumentation, Monitoring, and Telemetry"
+ },
+ {
+  "href": "https://phauer.com/2015/databases-challenge-continuous-delivery/",
+  "tag": "a",
+  "text": "Databases as a Challenge for Continuous Delivery"
+ },
+ {
+  "href": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/backpressure/",
+  "tag": "a",
+  "text": "Backpressure - AWS Well-Architected Framework"
+ },
+ {
+  "href": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html",
+  "tag": "a",
+  "text": "Circuit Breaker - AWS Well-Architected Framework"
+ },
+ {
+  "href": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/throttling/",
+  "tag": "a",
+  "text": "Throttling - AWS Well-Architected Framework"
+ },
+ {
+  "href": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+  "tag": "a",
+  "text": "Cloud Design Patterns"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=0HoTGgb5oFg",
+  "tag": "a",
+  "text": "the throttling, retry and circuit breaker patterns"
+ },
+ {
+  "href": "https://blog.hubspot.com/website/graceful-degradation",
+  "tag": "a",
+  "text": "What is Graceful Degradation \u0026amp; Why Does it Matter?"
+ },
+ {
+  "href": "https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation",
+  "tag": "a",
+  "text": "Four Considerations When Designing Systems For Graceful Degradation"
+ },
+ {
+  "href": "https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/",
+  "tag": "a",
+  "text": "The Art of Graceful Degradation"
+ },
+ {
+  "href": "https://aws.amazon.com/architecture/well-architected/serverless/patterns/load-shifting/",
+  "tag": "a",
+  "text": "Load Shifting - AWS Well-Architected Framework"
+ },
+ {
+  "href": "https://www.sentinelone.com/blog/scalable-architecture/",
+  "tag": "a",
+  "text": "Scalable Architecture: A Definition and How-To Guide"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=gxfERVP18-g",
+  "tag": "a",
+  "text": "Scaling Distributed Systems - Software Architecture Introduction"
+ },
+ {
+  "href": "https://docs.datadoghq.com/",
+  "tag": "a",
+  "text": "DataDog Docs"
+ },
+ {
+  "href": "https://aws.amazon.com/cloudwatch/getting-started/",
+  "tag": "a",
+  "text": "AWS CloudWatch Docs"
+ },
+ {
+  "href": "https://docs.sentry.io/",
+  "tag": "a",
+  "text": "Sentry Docs"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Wx0SHRb2xcI",
+  "tag": "a",
+  "text": "AWS re:Invent 2017: Improving Microservice and Serverless Observability with Monitor"
+ },
+ {
+  "href": "https://newrelic.com/blog/best-practices/observability-instrumentation",
+  "tag": "a",
+  "text": "Observability and Instrumentation: What They Are and Why They Matter"
+ },
+ {
+  "href": "https://touchstonesecurity.com/horizontal-vs-vertical-scaling-what-you-need-to-know/",
+  "tag": "a",
+  "text": "Horizontal vs Vertical Scaling"
+ },
+ {
+  "href": "https://www.geeksforgeeks.org/horizontal-and-vertical-scaling-in-databases/",
+  "tag": "a",
+  "text": "Scaling In Databases"
+ },
+ {
+  "href": "https://youtu.be/xpDnVSmNFX0",
+  "tag": "a",
+  "text": "System Design Basics: Horizontal vs. Vertical Scaling"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Y-Gl4HEyeUQ",
+  "tag": "a",
+  "text": "System Design 101"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)",
+  "tag": "a",
+  "text": "What is Instrumentation?"
+ },
+ {
+  "href": "https://www.yottaa.com/performance-monitoring-backend-vs-front-end-solutions/",
+  "tag": "a",
+  "text": "What is Monitoring?"
+ },
+ {
+  "href": "https://www.sumologic.com/insight/what-is-telemetry/",
+  "tag": "a",
+  "text": "What is Telemetry?"
+ }
+]

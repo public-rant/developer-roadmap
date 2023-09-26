@@ -1,0 +1,19 @@
+   It looks like you don't have javascript enabled which is required for
+   cmdchallenge.
+
+     * [https://cmdchallenge.com/]cmdchallenge
+     * [https://oops.cmdchallenge.com/]oops
+     * [https://12days.cmdchallenge.com/]12days
+     * [https://gitlab.com/jarv/cmdchallenge]gitlab
+     * [mailto:info@cmdchallenge.com]email
+
+   [https://cmdchallenge.com/]
+   [https://cmdchallenge.com/]
+
+   [ ] View Solutions
+
+   [ ] Learn
+
+   Site built with ♡ using [https://terminal.jcubic.pl/]jquery.terminal /
+   [https://openmoji.org/]Openmoji / [https://golang.org/]Golang
+   [https://jarv.org/tags/cmdchallenge/]Read more about cmdchallenge

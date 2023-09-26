@@ -1,0 +1,66 @@
+## apollo
+
+ Apolo is software that helps with building unified graphs, enabling communication between clients (web or native apps) to interact with your backend services. It was installed and used in the provided context before showing an example code snippet on how it can be integrated into a client's application using GraphQL API as well as connecting through its provider tags for easy access of APIs from within itself. The error library inside Apolo is called "Error", which logs any errors encountered during communication between clients with servers, and allows developers to detect if there were no issues in their system while making the request via an HTTP endpoint on a server's end or using a client-side API like GraphQL through its provider tag integration.
+Visit the following resources to learn more:
+Apollo is a platform for building a unified graph, a communication layer that helps you manage the flow of data between your application clients (such as web and native apps) and your back-end services.
+Visit the following resources to learn more:
+
+
+source_documents/backend-119.md
+this right here i already installed it
+i m going to show you guys in my
+package json
+it s over here um let me come here yeah
+apollo client over here
+this is the version i m using so if it s
+like far in the future and
+for some reason the apollo client it s
+above version three so it s a bit
+different for versions two
+to less so that s important but if
+apollo client changed in the future i
+don t know
+this is the version i m using and you
+can see graphql is also installed over
+here
+
+
+source_documents/GraphQL With React Tutorial - Apollo Client [YyUWW04HwKY].en.vtt.txt
+error link for our link and we actually
+started our client so this right now
+it s done for
+setting up the graphql connection and
+honestly just skip around after this
+because it s going to get a lot more
+easier
+so now that we have this we can
+basically wrap our
+whole application with an apollo
+provider
+and what will this do basically between
+this apollo provider tags
+is where you can reach all the like your
+your graphql api so it s going to be
+served through this
+
+
+source_documents/GraphQL With React Tutorial - Apollo Client [YyUWW04HwKY].en.vtt.txt
+build a link to connect
+to our api so from is just a uh
+it s a method from the apollo client
+library which allows us to do that
+and finally after we do this we
+we maybe we need to import a method of
+determining if there was any errors in
+our api
+uh we re gonna import it called on error
+from the packages uh at apollo client
+slash um client
+no it s not it s not client it s slash
+link right
+slash link yeah and slash error so a
+public line contains an error library
+inside of it
+
+
+source_documents/GraphQL With React Tutorial - Apollo Client [YyUWW04HwKY].en.vtt.txt

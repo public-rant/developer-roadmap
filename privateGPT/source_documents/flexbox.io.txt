@@ -1,0 +1,138 @@
+   [https://courses.wesbos.com/account]My Account →
+
+                     [http://flexbox.io/]What TheFlexBox?!
+
+   A simple, free 20 video course that will help you master CSS Flexbox!
+
+   ____________________ Join the Course →
+
+   [ ] I agree to the [https://wesbos.com/terms]Terms and
+   [https://wesbos.com/privacy]Privacy Policy
+
+   Get access to all 20 videos and download the exercises!
+
+   Join 102,000+ others in learning with Wes Bos!
+
+   👌 Almost Done — you'll get a confirmation email any minute now.
+
+   [https://twitter.com/share]Tweet[https://twitter.com/wesbos]Follow
+   @wesbos
+
+   Like
+
+What is this?
+
+   The first 13 videos are aimed at understanding the fundamentals of
+   Flexbox - we will take a deep dive into understanding rows, columns,
+   axes, wrapping, alignment, centering and layout. The last 7 are code
+   alongs where we will build everything from a navigation to a mobile app
+   layout entirely with Flexbox!
+   Wes Bos
+
+Meet Wes Bos
+
+   Wes Bos is a Full Stack Developer, Speaker and Teacher from Canada. He
+   is a course creator, works as an independent web developer and is the
+   co-host of [https://syntax.fm/]Syntax - a popular web development
+   podcast. Wes has taught over 500 students in 200+ classes and spoken at
+   dozens of conferences around the world. Wes wrote his own bio in the
+   third person for some reason.
+
+   Wes is the author of [https://ReactForBeginners.com/]React For
+   Beginners, [https://AdvancedReact.com/]Advanced React and GraphQL,
+   [https://ES6.io/]ES6 for Everyone and [http://LearnNode.com/]Learn Node
+   which together have sold over 55,000 copies. He is also the author of
+   [http://JavaScript30.com/]JavaScript30.com,
+   [http://CSSGrid.io/]CSSGrid.io, [http://flexbox.io/]Flexbox.io and
+   [http://CommandLinePowerUser.com/]Command Line Power User, a set of
+   free video series. 300,000 people have taken at least one of Wes' free
+   video courses.
+   [https://twitter.com/wesbos]Follow @wesbos
+
+What will you build?
+
+   Here are just a few things you will build entirely with Flexbox
+   [app.png] A mobile app layout [grid.png] A Flexbox Pricing Grid
+   [form.png] An inline booking form
+
+  The Videos
+
+     * Introduction to What The FlexBox
+    Introduction to What The FlexBox1
+     * Introduction to Flexbox
+    Introduction to Flexbox2
+     * Working with Flexbox flex-direction
+    Working with Flexbox flex-direction3
+     * Wrapping elements with Flexbox
+    Wrapping elements with Flexbox4
+     * Flexbox Ordering
+    Flexbox Ordering5
+     * Flexbox Alignment and Centering with justify-content
+    Flexbox Alignment and Centering with justify-content6
+     * Alignment and Centering with align-items
+    Alignment and Centering with align-items7
+     * Alignment and Centering with align-content
+    Alignment and Centering with align-content8
+     * Alignment and Centering with align-self
+    Alignment and Centering with align-self9
+     * Understanding Flexbox sizing with the flex property
+    Understanding Flexbox sizing with the flex property10
+     * Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
+    Finally understanding Flexbox flex-grow, flex-shrink and flex-basis11
+     * How Flexbox's flex-basis and wrapping work together
+    How Flexbox's flex-basis and wrapping work together12
+     * Cross Browser Flexbox Support and Autoprefixer!
+    Cross Browser Flexbox Support and Autoprefixer!13
+     * Pure Flexbox navigation code along
+    Pure Flexbox navigation code along14
+     * Mobile content reordering with Flexbox
+    Mobile content reordering with Flexbox15
+     * Nesting Flexbox for vertical and horizontal centering with Flexbox
+    Nesting Flexbox for vertical and horizontal centering with Flexbox16
+     * Flexbox Pricing Grid
+    Flexbox Pricing Grid17
+     * Flexbox Equal height columns and leftover elements
+    Flexbox Equal height columns and leftover elements18
+     * Flexbox single line form
+    Flexbox single line form19
+     * Create a mobile app layout with Flexbox
+    Create a mobile app layout with Flexbox20
+
+   ©[http://wesbos.com/]Wes Bos
+
+   [https://wesbos.com/terms]Terms[https://wesbos.com/privacy]Privacy
+
+Some nice things people have said
+
+     Just finished the excellent
+     [https://t.co/wlRIDd3IQf]https://t.co/wlRIDd3IQf videos by
+     [https://twitter.com/wesbos]@wesbos. If you hate CSS float hacks you
+     will love FlexBox. Thanks Wes!
+     — Chris Sears (@csears)
+     [https://twitter.com/csears/status/689812549320179712]January 20,
+     2016
+
+     Just finished What The Flexbox. Even if you already know flexbox,
+     watch and you'll know it better. Thanks
+     [https://twitter.com/wesbos]@wesbos!
+     [http://t.co/PkZ8qbSFAZ]http://t.co/PkZ8qbSFAZ
+     — Chris Coleman (@freshyill)
+     [https://twitter.com/freshyill/status/650101666306486273]October 3,
+     2015
+
+     Thanks [https://twitter.com/wesbos]@wesbos for creating an amazing +
+     free [https://twitter.com/hashtag/flexbox?src=hash]#flexbox
+     tutorial! I went through it in one night + totally get it:
+     [http://t.co/NFoetljedk]http://t.co/NFoetljedk
+     — Moya (@moyamiller)
+     [https://twitter.com/moyamiller/status/648874999479201792]September
+     29, 2015
+
+     For any Front End Dev FlexBox mastery is a must. Do yourself a favor
+     & check out [http://t.co/6D179vXY2W]http://t.co/6D179vXY2W from
+     [https://twitter.com/wesbos]@wesbos
+     [https://twitter.com/hashtag/css?src=hash]#css
+     [https://twitter.com/hashtag/webdevelopment?src=hash]#webdevelopment
+     — Mike Lawrence (@MikeTLawrence)
+     [https://twitter.com/MikeTLawrence/status/646522021564837888]Septemb
+     er 23, 2015

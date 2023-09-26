@@ -1,0 +1,242 @@
+[
+ {
+  "id": "hosting",
+  "tag": "h1",
+  "text": "Hosting"
+ },
+ {
+  "id": "dns",
+  "tag": "h1",
+  "text": "DNS"
+ },
+ {
+  "id": "browsers",
+  "tag": "h1",
+  "text": "Browsers"
+ },
+ {
+  "id": "domain-name",
+  "tag": "h1",
+  "text": "Domain Name"
+ },
+ {
+  "id": "internet",
+  "tag": "h1",
+  "text": "Internet"
+ },
+ {
+  "id": "what-is-http",
+  "tag": "h1",
+  "text": "What is HTTP?"
+ },
+ {
+  "id": "internet-1",
+  "tag": "h1",
+  "text": "Internet"
+ },
+ {
+  "id": "graphql-on-the-backend",
+  "tag": "h1",
+  "text": "GraphQL on the Backend"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=htbY9-yggB0",
+  "tag": "a",
+  "text": "What Is Web Hosting? Explained"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=AXVZYzw8geg",
+  "tag": "a",
+  "text": "Different Types of Web Hosting Explained"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Kx_1NYYJS7Q",
+  "tag": "a",
+  "text": "Where to Host a Fullstack Project on a Budget"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines",
+  "tag": "a",
+  "text": "What is the difference between webpage, website, web server, and search engine?"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server",
+  "tag": "a",
+  "text": "What is a web server?"
+ },
+ {
+  "href": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/",
+  "tag": "a",
+  "text": "What is DNS?"
+ },
+ {
+  "href": "https://howdns.works/",
+  "tag": "a",
+  "text": "How DNS works (comic)"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Glossary/DNS/",
+  "tag": "a",
+  "text": "Understanding Domain names"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Wj0od2ag5sk",
+  "tag": "a",
+  "text": "DNS and How does it Work?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7lxgpKh_fRY",
+  "tag": "a",
+  "text": "DNS Records"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=zEmUuNFBgN8\u0026amp;list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K",
+  "tag": "a",
+  "text": "Complete DNS mini-series"
+ },
+ {
+  "href": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/",
+  "tag": "a",
+  "text": "How Browsers Work"
+ },
+ {
+  "href": "https://www.browserstack.com/guide/browser-rendering-engine",
+  "tag": "a",
+  "text": "Role of Rendering Engine in Browsers"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work",
+  "tag": "a",
+  "text": "Populating the Page: How Browsers Work"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name",
+  "tag": "a",
+  "text": "What is a Domain Name?"
+ },
+ {
+  "href": "https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/",
+  "tag": "a",
+  "text": "What is a Domain Name? | Domain name vs. URL"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=Y4cRx19nhJk",
+  "tag": "a",
+  "text": "A Beginners Guide to How Domain Names Work"
+ },
+ {
+  "href": "https://cs.fyi/guide/how-does-internet-work",
+  "tag": "a",
+  "text": "How does the Internet Work?"
+ },
+ {
+  "href": "https://www.vox.com/2014/6/16/18076282/the-internet",
+  "tag": "a",
+  "text": "The Internet Explained"
+ },
+ {
+  "href": "http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm",
+  "tag": "a",
+  "text": "How Does the Internet Work?"
+ },
+ {
+  "href": "/guides/what-is-internet",
+  "tag": "a",
+  "text": "Introduction to Internet"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=x3c1ih2NJEg",
+  "tag": "a",
+  "text": "How does the Internet work?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7_LPdttKXPc",
+  "tag": "a",
+  "text": "How the Internet Works in 5 Minutes"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=z_hu2zm4_s8\u0026amp;list=pltzyg7bz1u6o6wz9ef9tqt1js-pummktj",
+  "tag": "a",
+  "text": "Computer Network | Google IT Support Certificate"
+ },
+ {
+  "href": "https://cs.fyi/guide/http-in-depth",
+  "tag": "a",
+  "text": "Everything you need to know about HTTP"
+ },
+ {
+  "href": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+  "tag": "a",
+  "text": "What is HTTP?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=2JYT5f2isg4",
+  "tag": "a",
+  "text": "Full HTTP Networking Course"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+  "tag": "a",
+  "text": "An overview of HTTP"
+ },
+ {
+  "href": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/",
+  "tag": "a",
+  "text": "HTTP/3 From A To Z: Core Concepts"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=a-sBfyiXysI",
+  "tag": "a",
+  "text": "HTTP/1 to HTTP/2 to HTTP/3"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=iYM2zFP3Zn0",
+  "tag": "a",
+  "text": "HTTP Crash Course \u0026amp; Exploration"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=j9QmMEWmcfo",
+  "tag": "a",
+  "text": "SSL, TLS, HTTPS Explained"
+ },
+ {
+  "href": "https://cs.fyi/guide/how-does-internet-work",
+  "tag": "a",
+  "text": "How does the Internet Work?"
+ },
+ {
+  "href": "https://www.vox.com/2014/6/16/18076282/the-internet",
+  "tag": "a",
+  "text": "The Internet Explained"
+ },
+ {
+  "href": "http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm",
+  "tag": "a",
+  "text": "How Does the Internet Work?"
+ },
+ {
+  "href": "/guides/what-is-internet",
+  "tag": "a",
+  "text": "Introduction to Internet"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=x3c1ih2NJEg",
+  "tag": "a",
+  "text": "How does the Internet work?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7_LPdttKXPc",
+  "tag": "a",
+  "text": "How the Internet Works in 5 Minutes"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=zN8YNNHcaZc",
+  "tag": "a",
+  "text": "How does the internet work? (Full Course)"
+ },
+ {
+  "href": "https://www.howtographql.com/",
+  "tag": "a",
+  "text": "How to use GraphQL in Backend?"
+ }
+]

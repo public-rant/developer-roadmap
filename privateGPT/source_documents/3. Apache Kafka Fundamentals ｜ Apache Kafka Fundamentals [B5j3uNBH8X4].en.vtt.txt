@@ -1,0 +1,331 @@
+This is the fundamentals of Apache Kafka
+So we re really gonna get into the fundamentals here
+In this module you re gonna develop a mental model
+When we re done you should be able to identify
+and have some idea of what the basic responsibilities
+Explain what a topic is
+and that basic sort of storage model of Kafka
+thinking about when you re actually
+so we want that to be pretty solid by the time we re done
+happen in it
+and no matter what sort of industry you re in
+all of those things are producing events all the time
+So to get data into a Kafka cluster
+A producer is an application that you write
+that s either a Kafka cluster that you re operating
+where you don t know too much about the operational details
+and you know how to connect to it
+your job is to write programs that put data into it
+So all of those sources of events we see connected cars
+boxes being shipped around the world
+and some producing application is aware of those events
+into a Kafka cluster
+okay got it sends an acknowledgement
+What s in a Kafka cluster
+It s made up of things called brokers
+for maybe 10 or 15 years ago
+and they were in a data center
+and it was this metal box with blinky lights and fans
+If you could imagine that that helps make this
+those are kind of what brokers are
+each one has its own disks that s important
+Those brokers are networked together
+When producers produce they write into those things
+Now if you re using Kafka in the cloud
+about brokers too much
+there are brokers that are out there you know that s true
+they ve got some retention time set on the data
+That s maybe five minutes or maybe a month
+They ve got some amount of time
+But in the cloud of course
+Those are the things that s abstracted away from us
+Every Kafka cluster is composed
+And we never quite know how to refer to those
+Are they servers
+they might be containers
+And I ll skip that for the rest of this course
+or servers or some kind of legacy term like that
+just so you kind of have an idea what I mean
+it s stored on those discs inside those brokers
+we do that with the consumer
+That Kafka cluster those brokers that s infrastructure
+operates that cluster
+but what you write is the producer and the consumer
+And it s reading data that frankly
+This is where a lot of the work happens on the consume side
+well that s up to the application itself
+is there some other process that it s sending
+Often a consumer will also be a producer
+that transform data
+You have a producer you have the cluster itself
+And that model those three pieces
+conforms to that model
+If you re using something like Kafka Streams
+you don t think about producing and consuming
+These are the fundamental components of Kafka
+We ve got our producers there on the left
+those producing applications are writing into the cluster
+they re reading from the cluster
+Well that s a ZooKeeper ensemble
+Kafka uses ZooKeeper to manage consensus
+There are a few things that all of those brokers
+They need to have some consensus story on what is true
+Now again as I said at the time of this recording
+that s Kafka Improvement Proposal 500
+and a whole bunch of work to remove
+So at some point after this recording
+So it may be that you look at Kafka
+and maybe you see this video and say
+And that means a new day has dawned
+and that work is ongoing
+being a distributed consensus manager for the cluster
+So a consumer doesn t know anything about the producer
+Likewise when you produce data
+you re sending it to a structure inside the Kafka cluster
+You re producing that data to a topic
+But you don t know anything about
+And that decoupling is intentional
+of state information between producer and consumer
+Producers write data in consumers read data out
+I can add producers that write data into a cluster
+I can add consumers that are reading
+Maybe I ve got this long history of records
+I add some new fraud detection algorithm
+none of my producers need to know
+They re decoupled
+Revisiting ZooKeeper for a moment
+Well authorization information
+those are stored in ZooKeeper
+So when a broker fails there are gonna be various
+they re replicated in other places in the cluster
+and who s in charge of each replica and that sort of thing
+So when a broker dies and the cluster has to decide
+ZooKeeper participates in the election
+So it s basically what it does
+access control lists
+I ve used this word a few times topics
+of what a topic is
+or related events
+as a sequence of events
+I m gonna unfold some concepts here
+But for right now just think of it as a sequence of events
+and when a producer writes a new one
+I can have any number of producers writing to a topic
+Likewise many consumers can consume from a topic
+There isn t a theoretical limit on the number of topics
+on the number of what are called partitions
+But topics by themselves it s not like you can only have 50
+you can really have conceptually as many as you d like
+So I better tell you what that means
+it s got a number of topics in it
+Now that topic is a log
+which means what it s gonna be stored on disc somewhere
+well that s just a computer at the end of the day
+and reading messages from that topic that s work
+that computer has to do
+You can t have storage scaling forever
+on that broker scaling forever
+We call those pieces partitions
+to different brokers in the cluster
+I can take a topic partition it
+So when I set a topic was a log
+and there s an exception to really what that means
+So every partition has strict ordering
+I put the message on the end of the partition
+I can t disturb any of the previous messages
+And so that is a log and the events in that log
+A topic having been broken into partitions
+over all of the events in the topic
+And if you wanna look at an implementation detail
+on an individual broker
+by multiple logs
+it s really a set of a few files
+So that segment is a thing that exists on disc
+into multiple segments
+in hands on administration of a Kafka cluster
+but you do have to think about partitioning
+It s very important
+If you can see those colors topic a is green
+and I wanna call c sort of a cornflower blue
+if you think any of those color names are wrong
+we re calling them 101 102 103 104
+are broken up
+You see partition zero is on broker 101
+partition two is on broker 104
+I won t go through all of those
+and look through that diagram
+The cluster does that automatically
+it makes decisions about where those partitions
+What a Kafka cluster doesn t do
+and move them around
+as topics get created and destroyed
+So this is functionality you d have to add yourself
+There are parts of Confluent platform
+And of course if you re using a managed Kafka service
+there is a team of highly skilled software developers
+this kind of stuff works for you
+You see over there on the right there
+into individual segments on disc
+into what s going on on the broker
+This is important you probably know this right
+or at least read one
+even if you ve never thought about it
+So when you write something to a log file where does it go
+It doesn t go at the beginning that s already happened
+You can only add new things to the log
+of what has happened in time up till now
+those are immutable
+there s almost something like ethically suspect
+You know you conspiring in a crime or something
+And the semantics are when you wanna write to a log
+and those are immutable after that
+and that s certainly the case in Kafka
+But this is what a log is
+that Kafka is based on
+the zero one two three four like that
+They actually start at zero
+And there are many many bits of them
+but every partition has its own unique offset space
+And you can actually find that out
+when you consume a message
+oh this will ended up being offset such and such
+Usually don t need to know
+and it s there inside of each partition
+those blue boxes on the bottom
+consuming doesn t consume
+So you can have multiple consumers
+and they can be at their own independent offsets
+Everybody wants to be kind of close to the events
+so this processing could be called real time
+in terms of the way the system works
+and take days to catch up if you need to do that
+that are working from independent offsets
+this log or topic I ll say stream
+and the current time is where I m producing right now
+extends back into the past
+What s the structure of a Kafka message
+are the key and the value that s your Kafka data model
+Now very likely there s gonna be some structure
+That s probably some sort of domain object
+There may be structure in the key
+But sometimes people have a compound
+and use as the key that s completely allowed
+If you don t have a timestamp one will be provided for you
+at the time that you produce the message
+But if in your value in that domain object
+well then in the API when you re producing you can say
+I don t care what time it is right now
+You can set that explicitly
+Think of them like HTTP headers
+So you don t wanna use this as additional payload
+So these are properties of the data
+So consumers have access to these
+But that s it you have key value timestamp and headers
+I ve introduced them
+Their basic function is to manage partitions
+you re thinking about topics all the time
+you re thinking about the schema of a topic
+What s its retention period
+All these great things that you ll learn about topics
+If you re a broker
+You re managing some set of partitions locally
+It manages those log files
+updates those partitions takes requests from consumers
+That s what a broker does
+So those partitions are stored locally on the broker s disc
+many partitions on each individual broker
+again you ve got producers
+brokers that are taking those rights
+and consumers that are reading from those partitions
+actually gets pretty interesting
+It would be a bummer
+such that if that broker died the partition would die
+And of course Kafka does replicate
+three is typical that s called the replication factor
+and the others are called the follower
+I m actually producing to the leader
+that has the lead partition there
+to reach out to those leaders
+and keep up to date with them as quickly as possible
+inside of a properly operating Kafka cluster
+for that replication to take place
+which makes consistency a lot easier to think about
+are these client applications
+Well Java was always the native language of Apache Kafka
+is a Java library
+of the JVM like Kotlin and Closure and Groovy
+there are always wrappers for those
+in those languages
+C C Python Go Net
+So if you need like a proper supported version
+Those are all based on a C language library
+That s an open source library that duplicates
+and many other non JVM language libraries
+There are many more than that
+if you re wondering where node support is
+Well believe me they are there
+for each one of them
+that lets you access Kafka
+that doesn t have library support
+that native language support you can use the REST Proxy
+That s good for tests and scripts and sending
+Now I said when a producer writes to a topic
+and these partitions are stored on separate brokers
+which partition to write a message to
+Now if the message has no key
+that it applies
+partition two partition three
+and interesting ways to configure that
+you re gonna load bouncing round robin way
+but you don t have a lot of ordering there
+you have the opportunity to order them by key
+is hash that key mode the number of partitions
+So the same key is always gonna get written
+is held constant in the topic
+So messages with the same key land in same partition
+And that s an important thing
+say you ve got an internet of things application
+tens of millions of them
+and every other kind of metadata every minute
+You wanna be able to process those in order
+well then each devices messages
+So messages of the same key always land in order
+and write a custom partitioner if you d like to
+but it absolutely is available to you if you need it
+that are reading from topics
+and what they do they pull
+will go and ask the Kafka cluster
+and this is the last offset I read
+Do you have any messages after that offset
+and the consumer can come back and ask
+Usually of course the answer is yes
+and moves on
+that s state right
+So the offset of each consumer into each partition
+is stored in a special topic inside the Kafka cluster
+So if you see that consumer offset topic
+That s helping your consumers remember where they are
+the cluster can help them remember
+And just like the producer there is a Command Line Tool
+for quick visibility into things and scripting and so forth
+gets written with the CLI tools
+As I ve said each topic can have multiple consumers
+I mean multiple different applications
+So there s separate code bases separate images
+could be managed by separate teams
+as long as they ve got the right to access the data
+Consumers also live in groups
+that s kind of the degenerate group of one
+Meaning I can add additional instances of a consumer
+there are three instances of that consuming application
+and you ve built a Docker image around it
+instead of only one of it
+We ll talk about the details of that a little bit more
+Let s come back to the same architecture diagram
+You ve got producers that write data into the cluster
+about partitions and replication and things like that now
+those programs that read data out
+conforms to this diagram
+of how Kafka works a little bit about producers
+all of these things put you on a solid footing
+bright upbeat music

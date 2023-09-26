@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation > $(basename https://newrelic.com/blog/best-practices/design-software-for-graceful-degradation).txt

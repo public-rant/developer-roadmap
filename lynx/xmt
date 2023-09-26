@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://solr.apache.org/resources.html#documentation > $(basename https://solr.apache.org/resources.html#documentation).txt

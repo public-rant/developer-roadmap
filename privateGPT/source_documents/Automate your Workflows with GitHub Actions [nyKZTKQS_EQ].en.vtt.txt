@@ -1,0 +1,203 @@
+hey everyone this has come down and
+today we re going to talk about the
+github actions
+getup actions are really powerful and
+they allow you to automate your
+workflows
+i ve been using them in roadmap essay so
+whenever i push something
+it automatically runs the actions and
+the website is deployed automatically to
+roadmap sh they are written normally in
+the form of yaml files and can be found
+on the github directory called github
+under the workflows
+here i have a file called deploy eml
+with a workflow called deployment to
+github pages and it is instructing
+github that whenever i push to the
+branch master
+it should run the jobs that i have
+listed here so first of all it will run
+the job called build
+that is going to be running on a ubuntu
+container so first of all it will clone
+the repository using this action
+then it will set up the node version 12
+then it will install the dependencies
+and then the build and then it will
+simply deploy the project to the github
+pages
+you can find the history of all the
+github actions run in the actions tab so
+if i go to the actions tab so this is
+the most recent run
+and if i go here and click the build so
+under the build job we have all the
+actions that were run
+and you can click and see the logs for
+all the commands that were done
+let s write our own workflow to see how
+it is working here on my local i have a
+html file called index html with some
+text
+then under the test directory i have a
+dummy file which is just printing that
+the tests are passing and then in my
+package json i have two scripts
+one called build which is just logging
+that the code has been built
+and the test script is just running the
+dummy file that we have i ve already put
+the code base to github and deploy it to
+the github pages branch
+and you can see the output on the url at
+this page but i ve done it manually and
+you will see that i don t have any
+actions at this moment let s automate
+this process that whenever i push
+something to the master bunch it will
+automatically
+build and deploy the changes onto the
+website without us doing anything
+to do that i will go to the code base
+and create a directory called github
+under that i will create another
+directory called workflows
+and inside that we re going to have a
+file called deployment yml which is
+going to be holding our workflow inside
+this file first thing i m going to do is
+i m going to give it a name
+our job name is going to be deployment
+next we have an event on which we want
+to run our action
+because you want to run our workflow on
+the push so we are going to add the push
+on the branches master it can be an
+array of branches
+but in our case we are only going to
+have master for now next we have a list
+of
+jobs that we want to run under this
+workflow so our first job is going to be
+called build which is going to run
+on ubuntu ubuntu is a container or the
+machine that we want our
+workflow to run on and the steps that we
+are going to put for that are first of
+all pull the repository and check out
+the branch using the action called
+checkout checkout is one of the official
+github actions and there are a lot of
+actions available from the community as
+well to deploy our website to github
+pages we are going to use one such
+action called
+get a pages deploy action which we give
+the branch and the folder that we want
+to deploy and it will automatically
+reply our website to the github pages
+secrets is something that we are not
+going to cover in this lesson but github
+provides the secrets under the secrets
+variable this action requires a github
+token
+so we re taking it from the github token
+secret and giving it to the
+action using the environment variable
+called github underscore token
+so now let s commit our changes and see
+how it works i m going to commit all of
+my changes and push it to github and if
+i go to the browser and refresh
+you will see an already dot which means
+that our action is running
+and now if i click the details button it
+will take me to the actions tab where we
+can see our action running
+it will go through all the steps and
+after some time our deployment will be
+finished
+now if i go back to the repository page
+you will see that our orange circle has
+turned into a check now which means that
+our action was successful let s go back
+to the code base and add some more steps
+so i m going to add the steps for build
+and test but to do that we are going to
+require
+node as well so in our steps after the
+checkout we are going to set up the node
+version 12 so i will add another action
+called
+setup node with node version set to 12
+and i will also add two more steps to
+run build and the test
+next before we push our changes to
+github let me add some changes to our
+index html
+file so to make sure that our changes
+are getting deployed i m going to open
+deskt html and just add three
+exclamation marks here and then i will
+open the terminal
+add my changes to staging and push it
+all to github
+now if i go to the browser and refresh
+you will see the ordering circle which
+means that our
+build is running and if i click the
+details and go to the
+actions page you ll see that we have our
+new steps
+in the build steps also the build and
+the test if i click build you see that
+we have our echo built
+and in the test it is also showing that
+the tests are passing
+go back to the github repository and you
+will see that our action is now
+successful and now if i open the website
+and refresh you will see that our
+changes are being reflected now let s go
+back to the code base and see what
+happens when one of our
+build steps fail so i m going to make
+our test cases fail by throwing an error
+i m also going to make some changes to
+our index html to see that if
+our changes are deployed inferior or not
+next i m gonna go to the terminal commit
+my changes and push them to github
+and now if i open the browser and
+refresh you will see the already dot
+which means that our build is running
+click this and go to the build detail
+page
+wait for the build to finish you will
+see that our build
+failed at running the test cases and no
+steps after that were done
+and if i click and expand the failed
+step you will see the error that made
+the build to fail
+now if i go to the repository landing
+page you will see a cross mark
+which means that our build was failed
+and if you go to the website
+you will see that our changes were not
+deployed github actions are really
+powerful
+and you can do a lot with them to
+automate your workflows and also you can
+find a lot of github accounts made by
+the community on github and in the
+marketplace which you can use to
+automate your workflows and the other
+good thing about them
+is that they re completely free for the
+open source and with that our lesson
+comes to an end i hope you enjoyed it
+thank you for watching and i will see
+

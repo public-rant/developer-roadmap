@@ -1,0 +1,794 @@
+   IFRAME:
+   [https://obseu.michiganrobotflower.com/ns/1026a1528f8727653fd96984e7b20
+   %20597.html?ch=cheq4ppc]https://obseu.michiganrobotflower.com/ns/1026a1
+   528f8727653fd96984e7b20 597.html?ch=cheq4ppc
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-GDFN&nojscript=true]ht
+   tps://www.googletagmanager.com/ns.html?id=GTM-GDFN&nojscript=true
+
+   [https://www.mongodb.com/blog/post/announced-mongodb-local-nyc-2023?tck
+   =pencil_banner]
+   Blog
+   {Blog}  MongoDB to release new Vector Search and Stream Processing
+   capabilities. Learn more >
+   [https://www.mongodb.com/]MongoDB logo
+   ____________________
+   (BUTTON) General Information
+     * General Information
+     * All Documentation
+     * Realm Documentation
+     * Developer Articles & Topics
+     * Community Forums
+     * Blog
+     * University
+
+   (BUTTON) search icon
+     * (BUTTON) Products
+       [https://www.mongodb.com/atlas]Atlas→
+       Developer data platform
+         ______________________________________________________________
+
+       [https://www.mongodb.com/products/mongodb-enterprise-advanced]Enter
+       prise Advanced→
+       Enterprise software and support
+         ______________________________________________________________
+
+       [https://www.mongodb.com/try/download/community]Community Edition→
+       Free software used by millions
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/atlas/database]Database→
+          + [https://www.mongodb.com/atlas/search]Search→
+          + [https://www.mongodb.com/products/platform/atlas-vector-search
+            ]Vector Search→
+          + [https://www.mongodb.com/products/platform/atlas-stream-proces
+            sing]Stream Processing→
+          + [https://www.mongodb.com/atlas/data-lake]Data Lake (Preview)→
+          + [https://www.mongodb.com/products/charts]Charts→
+          + [https://www.mongodb.com/atlas/app-services/device-sync]Device
+            Sync→
+          + [https://www.mongodb.com/atlas/app-services]APIs, Triggers,
+            Functions→
+          + [https://www.mongodb.com/try/download/enterprise]Enterprise
+            Server→
+          + [https://www.mongodb.com/products/ops-manager]Ops Manager→
+          + [https://www.mongodb.com/docs/kubernetes-operator/master/]Ente
+            rprise Kubernetes Operator→
+          + [https://www.mongodb.com/try/download/community]Community
+            Server→
+          + [https://www.mongodb.com/cloud/cloud-manager]Cloud Manager→
+          + [https://github.com/mongodb/mongodb-kubernetes-operator]Commun
+            ity Kubernetes Operator→
+       [https://www.mongodb.com/developer-tools]Tools→
+       Build faster
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/products/compass]Compass→
+          + [https://www.mongodb.com/products/shell]Shell→
+          + [https://www.mongodb.com/products/vs-code]VS Code Plugin→
+          + [https://www.mongodb.com/cloud/cli]Atlas CLI→
+          + [https://www.mongodb.com/connectors]Database Connectors→
+          + [https://www.mongodb.com/products/cluster-to-cluster-sync]Clus
+            ter-to-Cluster Sync→
+          + [https://www.mongodb.com/tools/mongoose]Mongoose ODM Support→
+          + [https://www.mongodb.com/products/relational-migrator]Relation
+            al Migrator→
+     * (BUTTON) Solutions
+       By Industry
+         ______________________________________________________________
+
+       By Use Case
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/industries/financial-services]Financi
+            al Services→
+          + [https://www.mongodb.com/industries/telecommunications]Telecom
+            →
+          + [https://www.mongodb.com/industries/healthcare]Healthcare→
+          + [https://www.mongodb.com/industries/retail]Retail→
+          + [https://www.mongodb.com/industries/public-sector]Public
+            Sector→
+          + [https://www.mongodb.com/industries/manufacturing]Manufacturin
+            g→
+          + [https://www.mongodb.com/industries]All Industries→
+          + [https://www.mongodb.com/use-cases/analytics]Analytics→
+          + [https://www.mongodb.com/use-cases/artificial-intelligence]Art
+            ificial Intelligence→
+          + [https://www.mongodb.com/use-cases/internet-of-things]Internet
+            of Things→
+          + [https://www.mongodb.com/use-cases/mobile]Mobile→
+          + [https://www.mongodb.com/use-cases/payments]Payments→
+          + [https://www.mongodb.com/use-cases/serverless]Serverless
+            Development→
+          + [https://www.mongodb.com/use-cases]All Use Cases→
+       Developer Data Platform
+       Innovate fast at scale with a unified developer experience
+       [https://www.mongodb.com/developer-data-platform]Learn More
+         ______________________________________________________________
+
+       White Papers & Presentations
+       Webinars, white papers, datasheets and more
+       [https://www.mongodb.com/resources]View All
+     * (BUTTON) Resources
+       [https://www.mongodb.com/docs/]Documentation→
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/docs/atlas/]Atlas→
+          + [https://www.mongodb.com/docs/manual/]Server→
+          + [https://www.mongodb.com/docs/drivers/]Drivers→
+          + [https://www.mongodb.com/docs/develop-applications/]Develop
+            Applications→
+          + [https://www.mongodb.com/docs/launch-manage/]Launch and Manage
+            MongoDB→
+          + [https://www.mongodb.com/docs/view-analyze/]View and Analyze→
+          + [https://www.mongodb.com/docs/guides/]Start with Guides→
+       Community
+         ______________________________________________________________
+
+       Education
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/developer/]Developer Center→
+          + [https://www.mongodb.com/events-webinars-overview]Events &
+            Webinars→
+          + [https://www.mongodb.com/community/forums/]Forums→
+          + [https://www.mongodb.com/community/forums/champions/]Champions
+            →
+          + [https://www.mongodb.com/community/forums/c/user-groups/11]Fin
+            d a User Group→
+          + [https://learn.mongodb.com/]University→
+          + [https://learn.mongodb.com/pages/certification-program]Certifi
+            cation→
+          + [https://www.mongodb.com/academia]Academia→
+          + [https://learn.mongodb.com/learn/learning-path/introduction-to
+            -mongodb]Intro to MongoDB Course→
+          + [https://learn.mongodb.com/catalog]Browse All Courses→
+     * (BUTTON) Company
+       About
+         ______________________________________________________________
+
+       Services
+         ______________________________________________________________
+
+       Partnerships
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/company]Who We Are→
+          + [https://www.mongodb.com/who-uses-mongodb]Customer Stories→
+          + [https://www.mongodb.com/blog]Blog→
+          + [https://www.mongodb.com/careers]Careers→
+          + [https://www.mongodb.com/pressroom]Pressroom→
+          + [https://www.mongodb.com/leadership]Leadership→
+          + [https://investors.mongodb.com/corporate-profile/default.aspx]
+            Investors→
+          + [https://www.mongodb.com/company/ventures]MongoDB Ventures→
+          + [https://www.mongodb.com/products/consulting]Consulting→
+          + [https://www.mongodb.com/products/training]Training→
+          + [https://www.mongodb.com/support]Customer Support→
+          + [https://www.mongodb.com/customer-success]Customer Success→
+          + [https://www.mongodb.com/partners]Partner Ecosystem→
+          + [https://www.mongodb.com/startups]MongoDB for Startups→
+     * [https://www.mongodb.com/pricing]Pricing
+
+   (BUTTON) Search [https://account.mongodb.com/account/login]Sign In
+   [https://www.mongodb.com/cloud/atlas/register]Try Free
+   [https://www.mongodb.com/]MongoDB logo
+   (BUTTON) [kqi3wccsoikv7vwbf-icon.svg?auto=format%252Ccompress] (BUTTON)
+   [kqi3hi5xztie05zgy-Vector%2020.svg?auto=format%252Ccompress]
+   ____________________
+   [General Information________]
+   (BUTTON) Search
+   [kpn4um6152wlecys3-Hero-Background.svg?auto=format%2Ccompress&amp;ch=DP
+   R]
+
+What is NoSQL?
+
+   [https://www.mongodb.com/cloud/atlas/register](BUTTON) Spin up a NoSQL
+   Cluster Free[https://www.mongodb.com/cloud/atlas] (BUTTON) Try a NoSQL
+   Database with Atlas
+
+   NoSQL databases (aka "not only SQL") are non-tabular databases and
+   store data differently than relational tables. NoSQL databases come in
+   a variety of types based on their data model. The main types are
+   document, key-value, wide-column, and graph. They provide flexible
+   schemas and scale easily with large amounts of data and high user
+   loads.
+
+   In this article, you'll learn what a NoSQL database is, why (and when!)
+   you should use one, and how to get started.
+
+Overview
+
+   This article will cover:
+     * [https://www.mongodb.com/nosql-explained#what-is-a-nosql-database-]
+       What is a NoSQL Database?
+          + [https://www.mongodb.com/nosql-explained#brief-history-of-nosq
+            l-databases-]Brief History of NoSQL Databases
+          + [https://www.mongodb.com/nosql-explained#nosql-database-featur
+            es-]NoSQL Database Features
+          + [https://www.mongodb.com/nosql-explained#types-of-nosql-databa
+            ses-]Types of NoSQL Database
+          + [https://www.mongodb.com/nosql-explained#difference-between-rd
+            bms-and-nosql-databases-]Difference between RDBMS and NoSQL
+          + [https://www.mongodb.com/nosql-explained#why-nosql]Why NoSQL?
+          + [https://www.mongodb.com/nosql-explained#when-should-nosql-be-
+            used]When should NoSQL be Used?
+          + [https://www.mongodb.com/nosql-explained#nosql-database-miscon
+            ceptions]NoSQL Database Misconceptions
+     * [https://www.mongodb.com/nosql-explained#nosql-query-tutorial]NoSQL
+       Query Tutorial
+     * [https://www.mongodb.com/nosql-explained#summary]Summary
+     * [https://www.mongodb.com/nosql-explained#faq]FAQ
+
+What is a NoSQL database?
+
+   When people use the term “NoSQL database,” they typically use it to
+   refer to any non-relational database. Some say the term “NoSQL” stands
+   for “non SQL” while others say it stands for “not only SQL.” Either
+   way, most agree that NoSQL databases are databases that store data in a
+   format other than relational tables.
+
+Brief history of NoSQL databases
+
+   NoSQL databases emerged in the late 2000s as the cost of storage
+   dramatically decreased. Gone were the days of needing to create a
+   complex, difficult-to-manage data model in order to avoid data
+   duplication. Developers (rather than storage) were becoming the primary
+   cost of software development, so NoSQL databases optimized for
+   developer productivity.
+
+   IFRAME:
+   [https://charts.mongodb.com/charts-storage-costs-sbekh/embed/charts?id=
+   740dea93-d2da-44c3-8104-14ccef947662&theme=light]https://charts.mongodb
+   .com/charts-storage-costs-sbekh/embed/charts?id=740dea93-d2da-44c3-8104
+   -14ccef947662&theme=light
+
+   As storage costs rapidly decreased, the amount of data that
+   applications needed to store and query increased. This data came in all
+   shapes and sizes —
+   [https://www.mongodb.com/unstructured-data]structured, semi-structured,
+   and
+   [https://www.mongodb.com/developer/how-to/polymorphic-pattern/]polymorp
+   hic — and defining the schema in advance became nearly impossible.
+   NoSQL databases allow developers to store huge amounts of unstructured
+   data, giving them a lot of flexibility.
+
+   Additionally, the [https://agilemanifesto.org/]Agile Manifesto was
+   rising in popularity, and software engineers were rethinking the way
+   they developed software. They were recognizing the need to rapidly
+   adapt to changing requirements. They needed the ability to iterate
+   quickly and make changes throughout their software stack — all the way
+   down to the database. NoSQL databases gave them this flexibility.
+
+   Cloud computing also rose in popularity, and developers began using
+   public clouds to host their applications and data. They wanted the
+   ability to distribute data across multiple servers and regions to make
+   their applications resilient, to scale out instead of scale up, and to
+   intelligently geo-place their data. Some NoSQL databases like MongoDB
+   provide these capabilities.
+
+NoSQL database features
+
+   Each NoSQL database has its own unique features. At a high level, many
+   NoSQL databases have the following features:
+     * [https://docs.mongodb.com/manual/core/data-modeling-introduction/#f
+       lexible-schema]Flexible schemas
+     * [https://www.mongodb.com/basics/scaling]Horizontal scaling
+     * [https://docs.mongodb.com/manual/core/data-modeling-introduction/#d
+       ocument-structure]Fast queries due to the data model
+     * [https://www.mongodb.com/why-use-mongodb]Ease of use for developers
+
+   Check out
+   [https://www.mongodb.com/nosql-explained/nosql-vs-sql#what-are-the-bene
+   fits-of-nosql-databases]What are the Benefits of NoSQL Databases? to
+   learn more about each of the features listed above.
+
+Types of NoSQL databases
+
+   Over time, four major
+   [https://www.mongodb.com/scale/types-of-nosql-databases]types of NoSQL
+   databases emerged: document databases,
+   [https://www.mongodb.com/databases/key-value-database]key-value
+   databases, wide-column stores, and graph databases.
+     * Document databases store data in documents similar to JSON
+       (JavaScript Object Notation) objects. Each document contains pairs
+       of fields and values. The values can typically be a variety of
+       types including things like strings, numbers, booleans, arrays, or
+       objects.
+     * Key-value databases are a simpler type of database where each item
+       contains keys and values.
+     * Wide-column stores store data in tables, rows, and dynamic columns.
+     * Graph databases store data in nodes and edges. Nodes typically
+       store information about people, places, and things, while edges
+       store information about the relationships between the nodes.
+
+   To learn more, visit
+   [https://www.mongodb.com/scale/types-of-nosql-databases]Understanding
+   the Different Types of NoSQL Databases.
+
+Difference between RDBMS and NoSQL databases
+
+   While a variety of differences exist between relational database
+   management systems (RDBMS) and NoSQL databases, one of the key
+   differences is the way the data is modeled in the database. In this
+   section, we'll work through an example of modeling the same data in a
+   relational database and a NoSQL database. Then, we'll highlight some of
+   the other key differences between relational databases and NoSQL
+   databases.
+
+RDBMS vs NoSQL: Data Modeling Example
+
+   Let's consider an example of storing information about a user and their
+   hobbies. We need to store a user's first name, last name, cell phone
+   number, city, and hobbies.
+
+   In a relational database, we'd likely create two tables: one for Users
+   and one for Hobbies.
+
+   Users
+   ID first_name last_name    cell     city
+   1  Leslie     Yepp      8125552344 Pawnee
+
+   Hobbies
+   ID user_id     hobby
+   10 1       scrapbooking
+   11 1       eating waffles
+   12 1       working
+
+   In order to retrieve all of the information about a user and their
+   hobbies, information from the Users table and Hobbies table will need
+   to be joined together.
+
+   The data model we design for a NoSQL database will depend on the type
+   of NoSQL database we choose. Let's consider how to store the same
+   information about a user and their hobbies in a
+   [https://www.mongodb.com/document-databases]document database like
+   MongoDB.
+{
+   "_id": 1,
+   "first_name": "Leslie",
+   "last_name": "Yepp",
+   "cell": "8125552344",
+   "city": "Pawnee",
+   "hobbies": ["scrapbooking", "eating waffles", "working"]
+}
+
+   In order to retrieve all of the information about a user and their
+   hobbies, a single document can be retrieved from the database. No joins
+   are required, resulting in faster queries.
+
+   To see a more detailed version of this data modeling example, read
+   [https://www.mongodb.com/developer/article/map-terms-concepts-sql-mongo
+   db/]Mapping Terms and Concepts from SQL to MongoDB.
+
+Other differences between RDBMS and relational databases
+
+   While the example above highlights the differences in data models
+   between relational databases and NoSQL databases, many other important
+   differences exist, including:
+     * Flexibility of the schema
+     * Scaling technique
+     * Support for transactions
+     * Reliance on data to object mapping
+
+   To learn more about the differences between relational databases and
+   NoSQL databases, visit
+   [https://www.mongodb.com/nosql-explained/nosql-vs-sql#differences-betwe
+   en-sql-and-nosql]NoSQL vs SQL Databases, or
+   [https://www.youtube.com/watch?v=eEENrNKxCdw]watch From RDBMS to NoSQL
+   presentation from AWs re:Invent 2022.
+
+Why NoSQL?
+
+   NoSQL databases are used in nearly every
+   [https://www.mongodb.com/industries]industry. Use cases range from the
+   highly critical (e.g., storing
+   [https://www.mongodb.com/industries/financial-services]financial data
+   and [https://www.mongodb.com/industries/healthcare]healthcare records)
+   to the more fun and frivolous (e.g.,
+   [https://www.mongodb.com/developer/how-to/internet-of-toilets/]storing
+   IoT readings from a smart kitty litter box).
+
+   In the following sections, we'll explore when you should choose to use
+   a NoSQL database and common misconceptions about NoSQL databases.
+
+When should NoSQL be used?
+
+   When deciding which database to use, decision-makers typically find one
+   or more of the following factors lead them to selecting a NoSQL
+   database:
+     * Fast-paced Agile development
+     * Storage of structured and semi-structured data
+     * Huge volumes of data
+     * Requirements for scale-out architecture
+     * Modern application paradigms like microservices and real-time
+       streaming
+
+   See [https://www.mongodb.com/nosql-explained/when-to-use-nosql]When to
+   Use NoSQL Databases and
+   [https://www.mongodb.com/nosql-explained/examples]Exploring NoSQL
+   Database Examples for more detailed information on the reasons listed
+   above.
+
+NoSQL database misconceptions
+
+   Over the years, many misconceptions about NoSQL databases have spread
+   throughout the developer community. In this section, we'll discuss two
+   of the most common misconceptions:
+     * Relationship data is best suited for relational databases.
+     * NoSQL databases don't support ACID transactions.
+
+   To learn more about common misconceptions, read
+   [https://www.mongodb.com/developer/article/everything-you-know-is-wrong
+   /]Everything You Know About MongoDB is Wrong.
+
+Misconception: relationship data is best suited for relational databases
+
+   A common misconception is that NoSQL databases or non-relational
+   databases don’t store relationship data well. NoSQL databases can store
+   relationship data — they just store it differently than relational
+   databases do.
+
+   In fact, [https://www.mongodb.com/nosql-explained/nosql-vs-sql]when
+   compared with relational databases, many find modeling relationship
+   data in NoSQL databases to be easier than in relational databases,
+   because related data doesn’t have to be split between tables. NoSQL
+   data models allow related data to be nested within a single data
+   structure.
+
+Misconception: NoSQL databases don't support ACID transactions
+
+   Another common misconception is that NoSQL databases don't support ACID
+   transactions. Some NoSQL databases like MongoDB do, in fact, support
+   [https://www.mongodb.com/basics/transactions]ACID transactions.
+
+   Note that the way data is modeled in NoSQL databases can eliminate the
+   need for multi-record transactions in many use cases. Consider the
+   earlier example where we stored information about a user and their
+   hobbies in both a relational database and a document database. In order
+   to ensure information about a user and their hobbies was updated
+   together in a relational database, we'd need to use a transaction to
+   update records in two tables. In order to do the same in a document
+   database, we could update a single document — no multi-record
+   transaction required.
+
+NoSQL query tutorial
+
+   A variety of NoSQL databases exist. Today, we'll be trying MongoDB, the
+   world's most popular NoSQL database according to
+   [https://db-engines.com/en/ranking]DB-Engines.
+
+   In this tutorial, you'll load a sample database and learn to query it —
+   all without installing anything on your computer or paying anything.
+
+Authenticate to MongoDB Atlas
+
+   The easiest way to get started with MongoDB is
+   [http://cloud.mongodb.com/]MongoDB Atlas. Atlas is MongoDB's fully
+   managed database-as-a-service. Atlas has a forever free tier, which is
+   what you'll be using today.
+    1. Navigate to [http://cloud.mongodb.com/]Atlas.
+    2. [https://www.mongodb.com/cloud/atlas/register]Create an account if
+       you haven't already.
+    3. [https://account.mongodb.com/account/login?nds=true]Log into Atlas.
+    4. Create an Atlas organization and project.
+
+   For more information on how to complete the steps above, visit the
+   official MongoDB documentation on
+   [https://docs.atlas.mongodb.com/tutorial/create-atlas-account/]creating
+   an Atlas account.
+
+Create a cluster and a database
+
+   A cluster is a place where you can store your MongoDB databases. In
+   this section, you'll create a free cluster.
+
+   Once you have a cluster, you can begin storing data in Atlas. You could
+   choose to manually
+   [https://www.mongodb.com/basics/create-database]create a database in
+   the
+   [https://docs.atlas.mongodb.com/data-explorer/databases-collections/#cr
+   eate-a-database]Atlas Data Explorer, in the
+   [https://docs.mongodb.com/mongodb-shell/run-commands/#create-a-new-data
+   base-and-collection]MongoDB Shell, in
+   [https://docs.mongodb.com/compass/current/databases/#create-a-database]
+   MongoDB Compass, or using [https://docs.mongodb.com/drivers/]your
+   favorite programming language. Instead, in this example, you will
+   import Atlas's sample dataset.
+    1. Create a free cluster by following the steps in the
+       [https://docs.atlas.mongodb.com/tutorial/deploy-free-tier-cluster/]
+       official MongoDB documentation.
+    2. Load the sample dataset by following the instructions in the
+       [https://docs.atlas.mongodb.com/sample-data/]official MongoDB
+       documentation.
+
+   Loading the sample dataset will take several minutes.
+
+   While we don't need to think about database design for this tutorial,
+   note that database design and
+   [https://www.mongodb.com/nosql-explained/data-modeling]data modeling
+   are major factors in MongoDB performance. Learn more about best
+   practices for modeling data in MongoDB:
+     * [https://www.mongodb.com/blog/post/building-with-patterns-a-summary
+       ]MongoDB Schema Design Patterns Blog Series
+     * [https://www.mongodb.com/developer/article/schema-design-anti-patte
+       rn-summary/]MongoDB Schema Design Anti-Patterns Blog Series
+     * [https://university.mongodb.com/courses/M320/about]Free MongoDB
+       University Course: M320 Data Modeling
+
+Query the database
+
+   Now that you have data in your cluster, let's query it! Just like you
+   had multiple ways to create a database, you have multiple options for
+   querying a database: in the
+   [https://docs.atlas.mongodb.com/data-explorer/documents/#view-documents
+   ]Atlas Data Explorer, in the
+   [https://docs.mongodb.com/mongodb-shell/crud/read/]MongoDB Shell, in
+   [https://docs.mongodb.com/compass/current/query/filter/]MongoDB
+   Compass, or using [https://docs.mongodb.com/drivers/]your favorite
+   programming language.
+
+   In this section, you’ll query the database using the Atlas Data
+   Explorer. This is a good way to get started querying, as it requires
+   zero setup.
+    1. Navigate to the Data Explorer (the Collections tab), if you are not
+       already there. See the
+       [https://docs.atlas.mongodb.com/data-explorer/documents/#manage-doc
+       uments-in-data-explorer]official MongoDB documentation for
+       information on how to navigate to the Data Explorer.
+       The left panel of the Data Explorer displays a list of
+       [https://docs.mongodb.com/v4.2/reference/glossary/#term-database]da
+       tabases and
+       [https://docs.mongodb.com/v4.2/reference/glossary/#term-collection]
+       collections in the current cluster. The right panel of the Data
+       Explorer displays a list of documents in the current collection.
+       A screenshot of the Collections tab in Atlas
+       The Data Explorer displays a list of documents in the
+       listingsAndReviews collection.
+         2. Expand the
+            [https://docs.atlas.mongodb.com/sample-data/sample-mflix/#std-
+            label-sample-mflix]sample_mflix database in the left panel. A
+            list of the database's collections is displayed.
+         3. Select the
+            [https://docs.atlas.mongodb.com/sample-data/sample-mflix/#std-
+            label-mflix-movies]movies collection. The Find View is
+            displayed in the right panel. The first twenty documents of
+            the results are displayed.
+         4. You are now ready to query the movies collection. Let's query
+            for the movie Pride and Prejudice. In the query bar, input {
+            title: "Pride and Prejudice"} in the query bar and click
+            Apply.
+
+   Two documents with the title “Pride and Prejudice” are returned.
+
+   A screenshot of the query bar and results in the Atlas Data Explorer. A
+   query { title: "Pride and Prejudice"} is in the query bar. Two
+   documents with the title "Pride and Prejudice" are returned. The
+   results for querying for movies with the title "Pride and Prejudice".
+
+   Congrats! You've successfully queried a NoSQL database!
+
+Continue exploring your data
+
+   In this tutorial, we only scratched the surface of what you can do in
+   MongoDB and Atlas.
+   Continue interacting with your data by using the Data Explorer to
+   insert new documents, edit existing documents, and delete documents.
+
+   When you are ready to try more advanced queries that aggregate your
+   data,
+   [https://docs.atlas.mongodb.com/data-explorer/cloud-agg-pipeline/]creat
+   e an aggregation pipeline. The aggregation framework is an incredibly
+   powerful tool for analyzing your data. To learn more, take the free
+   MongoDB University Course
+   [https://university.mongodb.com/courses/M121/about]M121 The MongoDB
+   Aggregation Framework.
+
+   When you want to visualize your data, check out
+   [https://www.mongodb.com/products/charts]MongoDB Charts. Charts is the
+   easiest way to visualize data stored in Atlas and Atlas Data Lake.
+   Charts allows you to create dashboards that are filled with
+   visualizations of your data.
+
+Summary
+
+   NoSQL databases provide a variety of benefits including flexible data
+   models, horizontal scaling, lightning fast queries, and ease of use for
+   developers. NoSQL databases come in a variety of types including
+   document databases, key-values databases, wide-column stores, and graph
+   databases.
+
+   MongoDB is the [https://db-engines.com/en/ranking]world's most popular
+   NoSQL database. [https://www.mongodb.com/cloud/atlas]Learn more about
+   MongoDB Atlas, and give the free tier a try.
+
+   Excited to learn more now that you have your own Atlas account? Head
+   over to [https://university.mongodb.com/]MongoDB University where you
+   can get free online training from MongoDB engineers and earn a
+   [https://university.mongodb.com/certification]MongoDB certification.
+   The [https://www.mongodb.com/developer/type/quickstart/]Quick Start
+   Tutorials are another great place to begin; they will get you up and
+   running quickly with your favorite programming language.
+
+Follow this tutorial with MongoDB Atlas
+
+Experience the benefits of using MongoDB, the premier NoSQL database, on the
+cloud.
+
+   [https://www.mongodb.com/cloud/atlas/register](BUTTON) Get Started
+   Free!
+
+FAQ
+
+What are the advantages of NoSQL?
+
+   Many NoSQL databases have the following advantages:
+     * Flexible schemas
+     * Horizontal scaling
+     * Fast queries due to the data model
+     * Ease of use for developers
+
+   Check out
+   [https://www.mongodb.com/nosql-explained/nosql-vs-sql#what-are-the-bene
+   fits-of-nosql-databases]What are the Benefits of NoSQL Databases? for
+   more details.
+   (BUTTON)
+
+What is eventual consistency?
+
+   Eventual consistency is a property of distributed databases. Eventual
+   consistency ensures that when an update is made to the database,
+   eventually all nodes in the distributed database will reflect that
+   update.
+   (BUTTON)
+
+What is the CAP theorem?
+
+   The CAP theorem states that a distributed computing system can provide
+   a maximum of two of the following three properties: consistency,
+   availability, and partition tolerance.
+   (BUTTON)
+
+What is NoSQL used for?
+
+   NoSQL databases are used in nearly
+   [https://www.mongodb.com/industries]every industry for a
+   [https://www.mongodb.com/use-cases]variety of use cases.
+
+   The type of NoSQL database determines the typical use case. For
+   example, document databases like MongoDB are general purpose databases.
+   Key-value databases are ideal for large volumes of data with simple
+   lookup queries. Wide-column stores work well for use cases with large
+   amounts of data and predictable query patterns. Graph databases excel
+   at analyzing and traversing relationships between data. See
+   [https://www.mongodb.com/scale/types-of-nosql-databases]Understanding
+   the Different Types of NoSQL Databases for more information.
+   (BUTTON)
+
+What is a NoSQL database?
+
+   A NoSQL database is a database that stores data in a format other than
+   relational tables.
+   (BUTTON)
+
+How do I write a NoSQL query?
+
+   Each NoSQL database will have its own approach to writing queries.
+   Visit the
+   [https://docs.mongodb.com/manual/tutorial/query-documents/]interactive
+   MongoDB documentation to learn more about querying a MongoDB database.
+   (BUTTON)
+
+Is NoSQL hard to learn?
+
+   No, NoSQL databases are not hard to learn. In fact, many developers
+   find modeling data in NoSQL databases to be incredibly intuitive. For
+   example, documents in MongoDB map to data structures in most popular
+   programming languages, making programming faster and easier.
+
+   Note that those with training and experience in relational databases
+   will likely face a bit of a learning curve as they adjust to
+   [https://www.mongodb.com/developer/article/map-terms-concepts-sql-mongo
+   db/]new ways of modeling data in NoSQL databases.
+   (BUTTON)
+
+Is JSON a NoSQL?
+
+   Document databases are a type of NoSQL database that store data in
+   [https://www.mongodb.com/json-and-bson]JSON or BSON documents.
+   (BUTTON)
+
+What language is used to query NoSQL?
+
+   NoSQL databases span a variety of types and implementations. As a
+   result, NoSQL databases can be queried using a variety of query
+   languages and APIs. MongoDB, the
+   [https://db-engines.com/en/ranking]world's most popular NoSQL database,
+   can be queried using the
+   [https://www.mongodb.com/developer/how-to/getting-started-atlas-mongodb
+   -query-language-mql/]MongoDB Query Language (MQL).
+   (BUTTON)
+
+Does NoSQL have schema?
+
+   NoSQL databases typically have
+   [https://docs.mongodb.com/manual/core/data-modeling-introduction/#flexi
+   ble-schema]flexible schemas. Note that some NoSQL databases like
+   MongoDB also have support for
+   [https://docs.mongodb.com/manual/core/schema-validation/]schema
+   validation, so developers can lock down their schemas as much or as
+   little as they'd like when they are ready.
+   (BUTTON)
+
+   This article was written by [https://twitter.com/Lauren_Schaefer]Lauren
+   Schaefer, a MongoDB Developer Advocate.
+
+   Learn more about key differences between
+   [https://www.mongodb.com/nosql-explained/nosql-vs-sql]NoSQL vs SQL
+   Databases
+
+Related NoSQL Resources
+
+     * [https://www.mongodb.com/nosql-explained/nosql-vs-sql]What are the
+       main differences between NoSQL and SQL?
+     * [https://www.mongodb.com/nosql-explained/when-to-use-nosql]When
+       should you use a NoSQL database?
+     * [https://www.mongodb.com/scale/types-of-nosql-databases]What are
+       the 4 different types of NoSQL databases?
+     * [https://www.mongodb.com/nosql-explained/advantages]NoSQL Databases
+       Advantages
+     * [https://www.mongodb.com/nosql-explained/data-modeling]NoSQL data
+       modeling and schema design
+     * [https://www.mongodb.com/nosql-explained/examples]NoSQL Database
+       Examples
+
+Learn More
+
+     * [https://www.mongodb.com/compatibility]MongoDB Compatibility
+     * [https://www.mongodb.com/basics]MongoDB Basics
+     * [https://www.mongodb.com/databases]Learn About Databases
+     * [https://www.mongodb.com/languages]Languages compatible with
+       MongoDB
+
+   [https://www.mongodb.com/]MongoDB logo
+   [kr6zmbrgbwlke2l97-atlas-global-deployments.svg?auto=format%252Ccompres
+   s]
+   (BUTTON) English
+     * English
+     * Português
+     * Español
+     * 한국어
+     * 日本語
+     * Italiano
+     * Deutsch
+     * Français
+     * 简体中文
+
+   © 2023 MongoDB, Inc.
+
+   About
+     * [https://www.mongodb.com/careers]Careers
+     * [https://investors.mongodb.com/]Investor Relations
+     * [https://www.mongodb.com/legal/legal-notices]Legal Notices
+     * [https://www.mongodb.com/legal/privacy-policy]Privacy Notices
+     * [https://www.mongodb.com/security]Security Information
+     * [https://www.mongodb.com/cloud/trust]Trust Center
+
+   Support
+     * [https://www.mongodb.com/contact]Contact Us
+     * [https://support.mongodb.com/welcome]Customer Portal
+     * [https://status.cloud.mongodb.com/]Atlas Status
+     * [https://www.mongodb.com/products/enterprise-grade-support]Paid
+       Support
+
+   Social
+     * [https://github.com/mongodb]Github
+     * [https://stackoverflow.com/tags/mongodb/info]Stack Overflow
+     * [https://www.linkedin.com/company/mongodbinc/]LinkedIn
+     * [https://youtube.com/user/mongodb]Youtube
+     * [https://twitter.com/mongodb]Twitter
+     * [https://twitch.tv/mongodb/videos]Twitch
+     * [https://facebook.com/mongodb]Facebook
+
+   © 2023 MongoDB, Inc.

@@ -1,0 +1,802 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/6666449]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fgo-the-programming-language-of-the-cloud%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fgo-the-programming-language-of-the-cloud%2F&format=xml]alt
+   ernate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/go-the-programming-language-of-the-cloud/]ARCHI
+   TECTURE
+   [https://thenewstack.io/go-the-programming-language-of-the-cloud/]ENGIN
+   EERING
+   [https://thenewstack.io/go-the-programming-language-of-the-cloud/]OPERA
+   TIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2019-02-18 06:00:14
+   Go, the Programming Language of the Cloud
+   [https://thenewstack.io/category/cloud-native/]Cloud Native Ecosystem /
+   [https://thenewstack.io/category/software-development/]Software
+   Development
+
+Go, the Programming Language of the Cloud
+
+   Feb 18th, 2019 6:00am by [https://thenewstack.io/author/destiny/]David
+   Cassel
+   Featued image for: Go, the Programming Language of the Cloud
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   With major cloud vendors like AWS Lambda supporting Go, the Google-born
+   Golang is rapidly becoming the language of choice for many cloud native
+   operations. [https://github.com/spf13]Steve Francia, who joined Google
+   in 2016 to become its product lead for Go, recently shared insights
+   into its usage in cloud operations, and elsewhere.
+
+   He also shared a fresh status update on the Go Cloud Development Kit,
+   while delving into the proposition that not only is Go the language of
+   cloud infrastructure, it’s also even becoming the language of the
+   entire cloud.
+   Google Go Lead Steve Francia
+
+   Steve Francia, Google’s Go lead
+
+   I’d wanted to ask you about Go’s role in Docker and Kubernetes. You
+   were at one time the vice president and chief operator at Docker…
+
+   Yeah, I’m personally no longer involved with Docker, but I can say as a
+   member of our Go ecosystem, that, you know — Go has played a
+   significant role in the creation of both Docker, Kubernetes, Istio, and
+   many of the other cloud-related technologies. In fact, you know, I
+   think it’d be reasonable to say that the modern cloud is written in Go.
+   A number of years ago an analyst wrote that Go is the language of cloud
+   infrastructure, and I think that has been proven overwhelmingly true —
+   most cloud infrastructure things have been written in Go.
+
+   And we’re increasingly seeing that Go is not only the language of cloud
+   infrastructure but the entire language of the cloud. We’re seeing more
+   significant adoption of Go applications on the cloud than other
+   languages, and we’re also seeing that a lot of people are looking to
+   Go. And it’s a very natural fit for the cloud, with asynchronous built
+   in. Its native feature set is really a great fit for the microservice
+   architecture that is very common in the cloud — and its performance and
+   cost savings. So that kind of triple feature set has been a really big
+   draw for a lot of people towards building cloud applications in Go…
+
+   And how do they feel about Go within Google? I know that Go is widely
+   used in production at Google. So what do Google developers say about
+   Go?
+
+   There’s — you know, there’s general support for it across Google. I
+   think there’s an excitement to work with a language that we created
+   in-house, you know? And we’re seeing good and steady adoption across
+   Google. There’s not much detail I can provide on that, but Go is used
+   throughout the company, in a lot of places. And we’re very excited
+   about that…
+
+   This is an interesting place to be because obviously, I represent the
+   Go team, but we are also, you know, sponsored by and part of Google,
+   which is one of the cloud vendors. And we try and keep a neutral party,
+   as part of it.
+
+   So where does Go stand now with the major cloud vendors?
+
+   One of our more exciting projects that we’ve been working on this year
+   is — speaking to Go as the language of the cloud — we’ve built a
+   project which is more or less the standard library for cloud
+   applications. We call it — let’s see, we just settled on a name this
+   morning, so I want to get it exactly right… It’s the
+   “[https://github.com/google/go-cloud]Go Cloud Development Kit.” And
+   effectively, it’s like a standard library for the cloud. We’re looking
+   to make an announcement later this quarter when we have something more
+   significant to announce.
+
+   Right now we’re doing early testing with a subset of users. It’s been
+   integrated into a number of major open source projects, one of which
+   I’m associated with, but (laughs) I actually had no part in it. Hugo is
+   one of our more popular website engines that’s written in Go, and we
+   recently added support for cloud publishing using Go Cloud Development
+   Kit libraries…
+
+   Much like the Go standard library may cross — you know, you can write
+   an application, and just compile it for Mac, compile it for Linux or
+   Windows or different architectures, and it just runs, and it runs
+   without really any extra code. So, you know, the promise of true
+   portability, the Go standard library delivered well on. Our goal is to
+   do the same thing for cloud.
+
+   Initially, we’re supporting the big three — Amazon, Azure, and Google
+   Cloud Platform. We’re also having open development, and we’ve already
+   talked to a number of other cloud providers about providing their own
+   backends for it. And we’re working with Microsoft on this as well, so
+   we’ve had contributions from across the cloud providers for it.
+
+   That’s one initiative that we’re working on that we think is really
+   important.
+
+   We did a survey in September which found that 27 percent of serverless
+   developers
+   [https://thenewstack.io/add-it-up-prepare-for-an-onslaught-of-go-langua
+   ge-serverless-functions/]said they planned to use Go in the next 18
+   months. Have you seen any interesting Go projects out in the wild?
+
+   Yeah, absolutely, there’s a lot of different spaces where Go has
+   actually made a pretty significant impact. We often think of the cloud
+   first, but the web is also a pretty significant place, where a number
+   of Go projects have been significant. As well as, you know — it’s
+   interesting to talk about this, but even the cryptocurrency space has
+   been disrupted by Go. Ethereum is primarily written in Go. A lot of
+   networking projects are written in Go — and of course, Kubernetes and
+   Docker and Istio…
+
+   In November GitHub’s annual “State of the Octoverse” report concluded
+   there are 1.5x more contributors writing Go this year than last year.
+   Are you also seeing a big spike in new people migrating to Go?
+
+   Yeah, we’ve seen a very significant increase of Go users over the
+   last — really, 18 months. You know, so we have some hard numbers.
+   According to the Stack Overflow survey, which tracks all these things,
+   there was a 76% increase from 2017 to 2018.
+
+   [Steve later supplied us with this calculation based on the percentage
+   of Go users in Stack Overflow’s Developer Surveys — multiplied by
+   estimates of the total developer population from Evans Data.]
+
+   2018
+   All Respondents:
+   [https://insights.stackoverflow.com/survey/2018#most-popular-technologi
+   es]7.1 percent using Go
+   Estimated Go developers:
+   [https://evansdata.com/reports/viewRelease.php?reportID=9]23M * 7.1% =
+   1.633M
+
+   2017
+   All Respondents (second tab):
+   [https://insights.stackoverflow.com/survey/2017#most-popular-technologi
+   es]4.2% using Go
+   Estimated Go developers:
+   [https://evansdata.com/press/viewRelease.php?pressID=256]22M * 4.2% =
+   924K
+   ____________________________________________
+   Year-over-year growth = 1.633M / 924K = 76%
+
+   And we’ve seen a number of other things. GitHub is another strong
+   indicator, where with the pull request count on GitHub, Go saw a very
+   significant increase…
+
+   Even just from [https://octoverse.github.com/2016/]2016 to
+   [https://octoverse.github.com/2017/#build]2017, Go saw 96,879 more Pull
+   requests opened on GitHub — an increase of 51.4 percent (to 285,000).
+   But what’s your sense of what’s happening in the Go community now?
+
+   At this point, it’s GitHub’s
+   [https://madnight.github.io/githut/#/pull_requests/2018/4]#4 language,
+   by pull request. Which is phenomenal.
+
+   4th quarter stats from GitHut 2.0
+
+   So yeah, we’ve seen a very significant increase…
+
+   It’s an exciting time to be a part of Go. Vendors like IntelliJ,
+   Microsoft’s Visual Studio Code, JFrog Artifactory, are all starting to
+   realize that Go is a place where a lot of developers want to be, so
+   they’ve built and released supporting products. And we’re seeing that
+   from a number of other vendors. Obviously, cloud platforms are very
+   aware of Go, and are creating solutions, often with Go first.
+
+   It’s an exciting time. And on the community side, we’re seeing a lot of
+   efforts across the world. The number of conferences is growing
+   significantly, about 30 percent, year over year. I can’t remember the
+   exact number, but I think we’re between 15 and 20 conferences worldwide
+   this year, and the number of attendees is also increasing, so It’s
+   really an exciting time to be a part of it. And all the conferences are
+   organized by community members, so it’s a very grassroots effort… We
+   have conferences in South America in their native languages, and Japan
+   in their native languages, and China in their native languages, as well
+   as throughout the world, in a variety of languages…
+
+   What it really is is bringing Go to the people, where they are.
+   Created with Sketch.
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fgo-the-pr
+   ogramming-language-of-the-cloud%2F&text=Go%2C+the+Programming+Language+
+   of+the+Cloud:%20&via=thenewstack][https://news.ycombinator.com/submitli
+   nk?u=https%3A%2F%2Fthenewstack.io%2Fgo-the-programming-language-of-the-
+   cloud%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%
+   2F%2Fthenewstack.io%2Fgo-the-programming-language-of-the-cloud%2F][http
+   s://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Fgo-the-program
+   ming-language-of-the-cloud%2F&title=Go%2C+the+Programming+Language+of+t
+   he+Cloud][https://www.facebook.com/sharer/sharer.php?u=https://thenewst
+   ack.io/go-the-programming-language-of-the-cloud/]
+   RELATED STORIES
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   [https://thenewstack.io/infrastructure-as-code-modernizing-for-faster-d
+   evelopment/]Infrastructure as Code: Modernizing for Faster Development
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   [https://thenewstack.io/top-3-application-security-must-haves/]Top 3
+   Application Security Must-Haves
+   [https://thenewstack.io/how-github-uses-github-to-be-productive-and-sec
+   ure/]How GitHub Uses GitHub to Be Productive and Secure
+
+   TNS owner Insight Partners is an investor in: Docker, JFrog.
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fgo-the-pr
+   ogramming-language-of-the-cloud%2F&text=Go%2C+the+Programming+Language+
+   of+the+Cloud:%20&via=thenewstack][https://news.ycombinator.com/submitli
+   nk?u=https%3A%2F%2Fthenewstack.io%2Fgo-the-programming-language-of-the-
+   cloud%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%
+   2F%2Fthenewstack.io%2Fgo-the-programming-language-of-the-cloud%2F][http
+   s://reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Fgo-the-program
+   ming-language-of-the-cloud%2F&title=Go%2C+the+Programming+Language+of+t
+   he+Cloud][https://www.facebook.com/sharer/sharer.php?u=https://thenewst
+   ack.io/go-the-programming-language-of-the-cloud/]
+   RELATED STORIES
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   [https://thenewstack.io/pulumi-new-features-for-infrastructure-as-code-
+   automation/]Pulumi: New Features for Infrastructure as Code Automation
+   [https://thenewstack.io/top-3-application-security-must-haves/]Top 3
+   Application Security Must-Haves
+   [https://thenewstack.io/winglang-cloud-development-programming-for-the-
+   ai-era/]Winglang: Cloud Development Programming for the AI Era
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

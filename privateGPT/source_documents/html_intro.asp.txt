@@ -1,0 +1,1177 @@
+   [https://www.w3schools.com/][javascript:void(0)]Tutorials
+   [javascript:void(0)]Exercises [javascript:void(0)]Get Certified
+   [javascript:void(0)]Services [javascript:void(0)]Menu
+   [https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-lea
+   rning.w3schools.com]Log in
+   [https://billing.w3schools.com/products/spaces?frequency=monthly&change
+   Plan=true]Upgrade [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+
+   [javascript:void(0)]Close
+   [javascript:void(0);]Tutorials
+   [javascript:void(0);]Exercises
+   [javascript:void(0);]Get Certified
+   [javascript:void(0);]Services
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+   [https://www.w3schools.com/videos/index.php]Videos
+   [https://shop.w3schools.com/]Shop
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+
+   ×
+
+Tutorials and References
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/default.asp]Learn HTML
+   [https://www.w3schools.com/html/default.asp]Tutorial
+   [https://www.w3schools.com/tags/default.asp]Reference
+   [https://www.w3schools.com/css/default.asp]Learn CSS
+   [https://www.w3schools.com/css/default.asp]Tutorial
+   [https://www.w3schools.com/cssref/default.asp]Reference
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Learn RWD
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Learn Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Overview
+   [https://www.w3schools.com/w3css/default.asp]Learn W3.CSS
+   [https://www.w3schools.com/w3css/default.asp]Tutorial
+   [https://www.w3schools.com/w3css/w3css_references.asp]Reference
+   [https://www.w3schools.com/sass/default.php]Learn Sass
+   [https://www.w3schools.com/sass/default.php]Tutorial
+   [https://www.w3schools.com/sass/sass_functions_string.php]Reference
+   [https://www.w3schools.com/colors/default.asp]Learn Colors
+   [https://www.w3schools.com/colors/default.asp]Tutorial
+   [https://www.w3schools.com/colors/colors_fs595.asp]Reference
+   [https://www.w3schools.com/icons/default.asp]Learn Icons
+   [https://www.w3schools.com/icons/default.asp]Tutorial
+   [https://www.w3schools.com/icons/icons_reference.asp]Reference
+   [https://www.w3schools.com/graphics/svg_intro.asp]Learn SVG
+   [https://www.w3schools.com/graphics/svg_intro.asp]Tutorial
+   [https://www.w3schools.com/graphics/svg_reference.asp]Reference
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Learn Canvas
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/api_canvas.asp]Reference
+   [https://www.w3schools.com/graphics/default.asp]Learn Graphics
+   [https://www.w3schools.com/graphics/default.asp]Tutorial
+   [https://www.w3schools.com/howto/default.asp]Learn How To
+   [https://www.w3schools.com/howto/default.asp]Tutorial
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+JavaScript
+
+   [https://www.w3schools.com/js/default.asp]Learn JavaScript
+   [https://www.w3schools.com/js/default.asp]Tutorial
+   [https://www.w3schools.com/jsref/default.asp]Reference
+   [https://www.w3schools.com/react/default.asp]Learn React
+   [https://www.w3schools.com/react/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/default.asp]Learn jQuery
+   [https://www.w3schools.com/jquery/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]Reference
+   [https://www.w3schools.com/vue/index.php]Learn Vue
+   [https://www.w3schools.com/vue/index.php]Tutorial
+   [https://www.w3schools.com/vue/vue_ref_builtin-attributes.php]Reference
+   [https://www.w3schools.com/angular/default.asp]Learn AngularJS
+   [https://www.w3schools.com/angular/default.asp]Tutorial
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Reference
+   [https://www.w3schools.com/js/js_json_intro.asp]Learn JSON
+   [https://www.w3schools.com/js/js_json_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/jsref_obj_json.asp]Reference
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Learn AJAX
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Tutorial
+   [https://www.w3schools.com/appml/default.asp]Learn AppML
+   [https://www.w3schools.com/appml/default.asp]Tutorial
+   [https://www.w3schools.com/appml/appml_reference.asp]Reference
+   [https://www.w3schools.com/w3js/default.asp]Learn W3.JS
+   [https://www.w3schools.com/w3js/default.asp]Tutorial
+   [https://www.w3schools.com/w3js/w3js_references.asp]Reference
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+Backend
+
+   [https://www.w3schools.com/python/default.asp]Learn Python
+   [https://www.w3schools.com/python/default.asp]Tutorial
+   [https://www.w3schools.com/python/python_reference.asp]Reference
+   [https://www.w3schools.com/sql/default.asp]Learn SQL
+   [https://www.w3schools.com/sql/default.asp]Tutorial
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]Reference
+   [https://www.w3schools.com/mysql/default.asp]Learn MySQL
+   [https://www.w3schools.com/mysql/default.asp]Tutorial
+   [https://www.w3schools.com/mysql/mysql_datatypes.asp]Reference
+   [https://www.w3schools.com/php/default.asp]Learn PHP
+   [https://www.w3schools.com/php/default.asp]Tutorial
+   [https://www.w3schools.com/php/php_ref_overview.asp]Reference
+   [https://www.w3schools.com/java/default.asp]Learn Java
+   [https://www.w3schools.com/java/default.asp]Tutorial
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Reference
+   [https://www.w3schools.com/c/index.php]Learn C
+   [https://www.w3schools.com/c/index.php]Tutorial
+   [https://www.w3schools.com/cpp/default.asp]Learn C++
+   [https://www.w3schools.com/cpp/default.asp]Tutorial
+   [https://www.w3schools.com/cs/index.php]Learn C#
+   [https://www.w3schools.com/cs/index.php]Tutorial
+   [https://www.w3schools.com/r/default.asp]Learn R
+   [https://www.w3schools.com/r/default.asp]Tutorial
+   [https://www.w3schools.com/kotlin/index.php]Learn Kotlin
+   [https://www.w3schools.com/kotlin/index.php]Tutorial
+   [https://www.w3schools.com/go/index.php]Learn Go
+   [https://www.w3schools.com/go/index.php]Tutorial
+   [https://www.w3schools.com/django/index.php]Learn Django
+   [https://www.w3schools.com/django/index.php]Tutorial
+   [https://www.w3schools.com/django/django_ref_template_tags.php]Referenc
+   e
+   [https://www.w3schools.com/postgresql/index.php]Learn PostgreSQL
+   [https://www.w3schools.com/postgresql/index.php]Tutorial
+   [https://www.w3schools.com/typescript/index.php]Learn TypeScript
+   [https://www.w3schools.com/typescript/index.php]Tutorial
+   [https://www.w3schools.com/asp/default.asp]Learn ASP
+   [https://www.w3schools.com/asp/default.asp]Tutorial
+   [https://www.w3schools.com/asp/asp_ref_vbscript_functions.asp]Reference
+   [https://www.w3schools.com/nodejs/default.asp]Learn Node.js
+   [https://www.w3schools.com/nodejs/default.asp]Tutorial
+   [https://www.w3schools.com/nodejs/ref_modules.asp]Reference
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Learn
+   Raspberry Pi
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Tutorial
+   [https://www.w3schools.com/git/default.asp]Learn Git
+   [https://www.w3schools.com/git/default.asp]Tutorial
+   [https://www.w3schools.com/mongodb/index.php]Learn MongoDB
+   [https://www.w3schools.com/mongodb/index.php]Tutorial
+   [https://www.w3schools.com/aws/index.php]Learn AWS Cloud
+   [https://www.w3schools.com/aws/index.php]Tutorial
+   [https://www.w3schools.com/xml/default.asp]Learn XML
+   [https://www.w3schools.com/xml/default.asp]Tutorial
+   [https://www.w3schools.com/xml/dom_nodetype.asp]Reference
+
+Next Bootcamp:
+
+August 1st
+
+   [https://www.w3schools.com/bootcamp/index.php]Learn More
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+   ×
+
+Exercises and Quizzes
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/html_exercises.asp]HTML
+   [https://www.w3schools.com/html/html_exercises.asp]Exercise
+   [https://www.w3schools.com/html/html_quiz.asp]Quiz
+   [https://www.w3schools.com/css/css_exercises.asp]CSS
+   [https://www.w3schools.com/css/css_exercises.asp]Exercise
+   [https://www.w3schools.com/css/css_quiz.asp]Quiz
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Exercise
+   [https://www.w3schools.com/bootstrap/bootstrap_quiz.asp]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+JavaScript
+
+   [https://www.w3schools.com/js/js_exercises.asp]JavaScript
+   [https://www.w3schools.com/js/js_exercises.asp]Exercise
+   [https://www.w3schools.com/js/js_quiz.asp]Quiz
+   [https://www.w3schools.com/react/react_exercises.asp]React
+   [https://www.w3schools.com/react/react_exercises.asp]Exercise
+   [https://www.w3schools.com/react/react_quiz.asp]Quiz
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]jQuery
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]Exercise
+   [https://www.w3schools.com/jquery/jquery_quiz.asp]Quiz
+   [https://www.w3schools.com/vue/vue_exercises.php]Vue
+   [https://www.w3schools.com/vue/vue_exercises.php]Exercise
+   [https://www.w3schools.com/vue/vue_quiz.php]Quiz
+
+Backend
+
+   [https://www.w3schools.com/python/python_exercises.asp]Python
+   [https://www.w3schools.com/python/python_exercises.asp]Exercise
+   [https://www.w3schools.com/python/python_quiz.asp]Quiz
+   [https://www.w3schools.com/sql/sql_exercises.asp]SQL
+   [https://www.w3schools.com/sql/sql_exercises.asp]Exercise
+   [https://www.w3schools.com/sql/sql_quiz.asp]Quiz
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]MySQL
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]Exercise
+   [https://www.w3schools.com/mysql/mysql_quiz.asp]Quiz
+   [https://www.w3schools.com/php/php_exercises.asp]PHP
+   [https://www.w3schools.com/php/php_exercises.asp]Exercise
+   [https://www.w3schools.com/php/php_quiz.asp]Quiz
+   [https://www.w3schools.com/java/java_exercises.asp]Java
+   [https://www.w3schools.com/java/java_exercises.asp]Exercise
+   [https://www.w3schools.com/java/java_quiz.asp]Quiz
+   [https://www.w3schools.com/c/c_exercises.php]C
+   [https://www.w3schools.com/c/c_exercises.php]Exercise
+   [https://www.w3schools.com/c/c_quiz.php]Quiz
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]C++
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]Exercise
+   [https://www.w3schools.com/cpp/cpp_quiz.asp]Quiz
+   [https://www.w3schools.com/cs/cs_exercises.php]C#
+   [https://www.w3schools.com/cs/cs_exercises.php]Exercise
+   [https://www.w3schools.com/cs/cs_quiz.php]Quiz
+   [https://www.w3schools.com/r/r_exercises.asp]R
+   [https://www.w3schools.com/r/r_exercises.asp]Exercise
+   [https://www.w3schools.com/r/r_quiz.asp]Quiz
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Kotlin
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Exercise
+   [https://www.w3schools.com/kotlin/kotlin_quiz.php]Quiz
+   [https://www.w3schools.com/django/django_exercises.php]Django
+   [https://www.w3schools.com/django/django_exercises.php]Exercise
+   [https://www.w3schools.com/django/django_quiz.php]Quiz
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]PostgreS
+   QL
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]Exercise
+   [https://www.w3schools.com/postgresql/postgresql_quiz.php]Quiz
+   [https://www.w3schools.com/typescript/typescript_exercises.php]TypeScri
+   pt
+   [https://www.w3schools.com/typescript/typescript_exercises.php]Exercise
+   [https://www.w3schools.com/typescript/typescript_quiz.php]Quiz
+   [https://www.w3schools.com/git/git_exercises.asp]Git
+   [https://www.w3schools.com/git/git_exercises.asp]Exercise
+   [https://www.w3schools.com/git/git_quiz.asp]Quiz
+   [https://www.w3schools.com/go/go_exercises.php]Go
+   [https://www.w3schools.com/go/go_exercises.php]Exercise
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]MongoDB
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_exercises.php]AWS Cloud
+   [https://www.w3schools.com/aws/aws_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_quiz.php]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+   ×
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications]w3schools
+   CERTIFIED . 2023
+
+HTML and CSS
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/html-
+   course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/css-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Bootstrap
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Certificate
+   [https://campus.w3schools.com/collections/single-courses/products/boots
+   trap-course]Course
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+JavaScript
+
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/javas
+   cript-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_js.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]React
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/react
+   -js-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/jquer
+   y-course]Course
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Vue
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Certif
+   icate
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+Backend
+
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/pytho
+   n-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_python.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/sql-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_sql.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]MySQL
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/php-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/java-
+   course]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse-1]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C#
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse]Course
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]R
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]Course
+   [https://campus.w3schools.com/products/django-certification-exam]Django
+   [https://campus.w3schools.com/products/django-certification-exam]Certif
+   icate
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]TypeScript
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/products/learn-typescript]Course
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/xml-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Cyber Security
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Certificate
+   [https://campus.w3schools.com/products/cyber-security-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Accessibility
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Certificate
+   [https://campus.w3schools.com/products/accessibility-course]Course
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Python Apps on AWS
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Course
+   [https://www.w3schools.com/training/aws/home/]AWS Training
+   [https://www.w3schools.com/training/aws/home/]Courses
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+   [https://campus.w3schools.com/]What is a Certificate?
+   [https://www.w3schools.com/bootcamp/index.php]What is a Bootcamp?
+
+   ×
+
+All Our Services
+
+   W3Schools offers a wide range of services and products for beginners
+   and professionals,
+   helping millions of people everyday to learn and master new skills.
+   [https://www.w3schools.com/tutorials/index.php]
+
+Free Tutorials
+
+   Enjoy our free tutorials like millions of other internet users since
+   1999
+   [https://www.w3schools.com/references/index.php]
+
+References
+
+   Explore our selection of references covering all popular coding
+   languages
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Website
+
+   Create your own website with W3Schools Spaces - no setup required
+   [https://www.w3schools.com/exercises/index.php]
+
+Exercises
+
+   Test your skills with different exercises
+   [https://www.w3schools.com/quiztest/default.asp]
+
+Quizzes
+
+   Test yourself with multiple choice questions
+   [https://campus.w3schools.com/collections/certifications]
+
+Get Certified
+
+   Document your knowledge.
+   [https://www.w3schools.com/signup/index.php]
+
+Log in / Sign Up
+
+   Create a free W3Schools Account to Improve Your Learning Experience
+   [https://www.w3schools.com/signup/index.php]
+
+My Learning
+
+   Track your learning progress at W3Schools and collect rewards
+   [https://www.w3schools.com/pro/index.php]
+
+Upgrade
+
+   Become a PRO user and unlock powerful features (ad-free, hosting,
+   videos,..)
+   [https://www.w3schools.com/where_to_start.asp]
+
+Where To Start
+
+   Not sure where you want to start? Follow our guided path
+   [https://www.w3schools.com/tryit/default.asp]
+
+Code Editor (Try it)
+
+   With our online code editor, you can edit code and view the result in
+   your browser
+   [https://www.w3schools.com/bootcamp/index.php]
+
+Bootcamps
+
+   Join one of our online bootcamps and learn from experienced instructors
+   [https://www.w3schools.com/w3css/w3css_templates.asp]
+
+Templates
+
+   We have created a bunch of responsive website templates you can use -
+   for free
+   [https://www.w3schools.com/howto/default.asp]
+
+How To's
+
+   Large collection of code snippets for HTML, CSS and JavaScript
+   [https://www.w3schools.com/videos/index.php]
+
+Videos
+
+   Learn the basics of HTML in a fun and engaging video tutorial
+   [https://www.w3schools.com/w3css/default.asp]
+
+CSS Framework
+
+   Build fast and responsive sites using our free W3.CSS framework
+   [https://www.w3schools.com/spaces/index.php]
+
+Web Hosting
+
+   Host your own website, and share it to the world with W3Schools Spaces
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Server
+
+   Create your own server using Python, PHP, React.js, Node.js, Java, C#,
+   etc.
+   [https://www.w3schools.com/browsers/default.asp]
+
+Browser Statistics
+
+   Read long term trends of browser usage
+   [https://www.w3schools.com/typingspeed/default.asp]
+
+Typing Speed
+
+   Test your typing speed
+   [https://www.w3schools.com/training/aws/home/]
+
+AWS Training
+
+   Learn Amazon Web Services
+   [https://www.w3schools.com/colors/colors_picker.asp]
+
+Color Picker
+
+   Use our color picker to find different RGB, HEX and HSL colors
+   colorpicker
+   [https://www.w3schools.com/codegame/index.html]
+
+Code Game
+
+   W3Schools Coding Game! Help the lynx collect pine cones Lynx logo
+   [https://campus.w3schools.com/pages/newsletter]
+
+Newsletter
+
+   Join our newsletter and get access to exclusive content every month
+   [https://discord.gg/6Z7UaRbUQM][https://www.linkedin.com/company/w3scho
+   ols.com/][https://www.instagram.com/w3schools.com_official/][https://ww
+   w.facebook.com/w3schoolscom/]
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-KTCFC3S
+
+   [javascript:void(0);][https://www.w3schools.com/default.asp][https://ww
+   w.w3schools.com/html/default.asp]HTML
+   [https://www.w3schools.com/css/default.asp]CSS
+   [https://www.w3schools.com/js/default.asp]JAVASCRIPT
+   [https://www.w3schools.com/sql/default.asp]SQL
+   [https://www.w3schools.com/python/default.asp]PYTHON
+   [https://www.w3schools.com/java/default.asp]JAVA
+   [https://www.w3schools.com/php/default.asp]PHP
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]BOOTSTRAP
+   [https://www.w3schools.com/howto/default.asp]HOW TO
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS
+   [https://www.w3schools.com/c/index.php]C
+   [https://www.w3schools.com/cpp/default.asp]C++
+   [https://www.w3schools.com/cs/index.php]C#
+   [https://www.w3schools.com/react/default.asp]REACT
+   [https://www.w3schools.com/r/default.asp]R
+   [https://www.w3schools.com/jquery/default.asp]JQUERY
+   [https://www.w3schools.com/django/index.php]DJANGO
+   [https://www.w3schools.com/typescript/index.php]TYPESCRIPT
+   [https://www.w3schools.com/nodejs/default.asp]NODEJS
+   [https://www.w3schools.com/mysql/default.asp]MYSQL
+   [javascript:void(0);] [javascript:void(0);] [javascript:void(0);]
+   [ ] Dark mode
+   [ ] Dark code
+
+HTML Tutorial
+
+   [https://www.w3schools.com/html/default.asp]HTML HOME
+   [https://www.w3schools.com/html/html_intro.asp]HTML Introduction
+   [https://www.w3schools.com/html/html_editors.asp]HTML Editors
+   [https://www.w3schools.com/html/html_basic.asp]HTML Basic
+   [https://www.w3schools.com/html/html_elements.asp]HTML Elements
+   [https://www.w3schools.com/html/html_attributes.asp]HTML Attributes
+   [https://www.w3schools.com/html/html_headings.asp]HTML Headings
+   [https://www.w3schools.com/html/html_paragraphs.asp]HTML Paragraphs
+   [https://www.w3schools.com/html/html_styles.asp]HTML Styles
+   [https://www.w3schools.com/html/html_formatting.asp]HTML Formatting
+   [https://www.w3schools.com/html/html_quotation_elements.asp]HTML
+   Quotations [https://www.w3schools.com/html/html_comments.asp]HTML
+   Comments [https://www.w3schools.com/html/html_colors.asp]HTML Colors
+   [https://www.w3schools.com/html/html_colors.asp]Colors
+   [https://www.w3schools.com/html/html_colors_rgb.asp]RGB
+   [https://www.w3schools.com/html/html_colors_hex.asp]HEX
+   [https://www.w3schools.com/html/html_colors_hsl.asp]HSL
+   [https://www.w3schools.com/html/html_css.asp]HTML CSS
+   [https://www.w3schools.com/html/html_links.asp]HTML Links
+   [https://www.w3schools.com/html/html_links.asp]Links
+   [https://www.w3schools.com/html/html_links_colors.asp]Link Colors
+   [https://www.w3schools.com/html/html_links_bookmarks.asp]Link Bookmarks
+   [https://www.w3schools.com/html/html_images.asp]HTML Images
+   [https://www.w3schools.com/html/html_images.asp]Images
+   [https://www.w3schools.com/html/html_images_imagemap.asp]Image Map
+   [https://www.w3schools.com/html/html_images_background.asp]Background
+   Images [https://www.w3schools.com/html/html_images_picture.asp]The
+   Picture Element
+   [https://www.w3schools.com/html/html_favicon.asp]HTML Favicon
+   [https://www.w3schools.com/html/html_page_title.asp]HTML Page Title
+   [https://www.w3schools.com/html/html_tables.asp]HTML Tables
+   [https://www.w3schools.com/html/html_tables.asp]HTML Tables
+   [https://www.w3schools.com/html/html_table_borders.asp]Table Borders
+   [https://www.w3schools.com/html/html_table_sizes.asp]Table Sizes
+   [https://www.w3schools.com/html/html_table_headers.asp]Table Headers
+   [https://www.w3schools.com/html/html_table_padding_spacing.asp]Padding
+   & Spacing
+   [https://www.w3schools.com/html/html_table_colspan_rowspan.asp]Colspan
+   & Rowspan [https://www.w3schools.com/html/html_table_styling.asp]Table
+   Styling [https://www.w3schools.com/html/html_table_colgroup.asp]Table
+   Colgroup
+   [https://www.w3schools.com/html/html_lists.asp]HTML Lists
+   [https://www.w3schools.com/html/html_lists.asp]Lists
+   [https://www.w3schools.com/html/html_lists_unordered.asp]Unordered
+   Lists [https://www.w3schools.com/html/html_lists_ordered.asp]Ordered
+   Lists [https://www.w3schools.com/html/html_lists_other.asp]Other Lists
+   [https://www.w3schools.com/html/html_blocks.asp]HTML Block & Inline
+   [https://www.w3schools.com/html/html_classes.asp]HTML Classes
+   [https://www.w3schools.com/html/html_id.asp]HTML Id
+   [https://www.w3schools.com/html/html_iframe.asp]HTML Iframes
+   [https://www.w3schools.com/html/html_scripts.asp]HTML JavaScript
+   [https://www.w3schools.com/html/html_filepaths.asp]HTML File Paths
+   [https://www.w3schools.com/html/html_head.asp]HTML Head
+   [https://www.w3schools.com/html/html_layout.asp]HTML Layout
+   [https://www.w3schools.com/html/html_responsive.asp]HTML Responsive
+   [https://www.w3schools.com/html/html_computercode_elements.asp]HTML
+   Computercode
+   [https://www.w3schools.com/html/html5_semantic_elements.asp]HTML
+   Semantics [https://www.w3schools.com/html/html5_syntax.asp]HTML Style
+   Guide [https://www.w3schools.com/html/html_entities.asp]HTML Entities
+   [https://www.w3schools.com/html/html_symbols.asp]HTML Symbols
+   [https://www.w3schools.com/html/html_emojis.asp]HTML Emojis
+   [https://www.w3schools.com/html/html_charset.asp]HTML Charset
+   [https://www.w3schools.com/html/html_urlencode.asp]HTML URL Encode
+   [https://www.w3schools.com/html/html_xhtml.asp]HTML vs. XHTML
+
+HTML Forms
+
+   [https://www.w3schools.com/html/html_forms.asp]HTML Forms
+   [https://www.w3schools.com/html/html_forms_attributes.asp]HTML Form
+   Attributes [https://www.w3schools.com/html/html_form_elements.asp]HTML
+   Form Elements
+   [https://www.w3schools.com/html/html_form_input_types.asp]HTML Input
+   Types [https://www.w3schools.com/html/html_form_attributes.asp]HTML
+   Input Attributes
+   [https://www.w3schools.com/html/html_form_attributes_form.asp]HTML
+   Input Form Attributes
+
+HTML Graphics
+
+   [https://www.w3schools.com/html/html5_canvas.asp]HTML Canvas
+   [https://www.w3schools.com/html/html5_svg.asp]HTML SVG
+
+HTML Media
+
+   [https://www.w3schools.com/html/html_media.asp]HTML Media
+   [https://www.w3schools.com/html/html5_video.asp]HTML Video
+   [https://www.w3schools.com/html/html5_audio.asp]HTML Audio
+   [https://www.w3schools.com/html/html_object.asp]HTML Plug-ins
+   [https://www.w3schools.com/html/html_youtube.asp]HTML YouTube
+
+HTML APIs
+
+   [https://www.w3schools.com/html/html5_geolocation.asp]HTML Geolocation
+   [https://www.w3schools.com/html/html5_draganddrop.asp]HTML Drag/Drop
+   [https://www.w3schools.com/html/html5_webstorage.asp]HTML Web Storage
+   [https://www.w3schools.com/html/html5_webworkers.asp]HTML Web Workers
+   [https://www.w3schools.com/html/html5_serversentevents.asp]HTML SSE
+
+HTML Examples
+
+   [https://www.w3schools.com/html/html_examples.asp]HTML Examples
+   [https://www.w3schools.com/html/html_editor.asp]HTML Editor
+   [https://www.w3schools.com/html/html_quiz.asp]HTML Quiz
+   [https://www.w3schools.com/html/html_exercises.asp]HTML Exercises
+   [https://www.w3schools.com/html/html_bootcamp.asp]HTML Bootcamp
+   [https://www.w3schools.com/html/html_exam.asp]HTML Certificate
+   [https://www.w3schools.com/html/html_summary.asp]HTML Summary
+   [https://www.w3schools.com/html/html_accessibility.asp]HTML
+   Accessibility
+
+HTML References
+
+   [https://www.w3schools.com/tags/default.asp]HTML Tag List
+   [https://www.w3schools.com/tags/ref_attributes.asp]HTML Attributes
+   [https://www.w3schools.com/tags/ref_standardattributes.asp]HTML Global
+   Attributes
+   [https://www.w3schools.com/tags/ref_html_browsersupport.asp]HTML
+   Browser Support
+   [https://www.w3schools.com/tags/ref_eventattributes.asp]HTML Events
+   [https://www.w3schools.com/tags/ref_colornames.asp]HTML Colors
+   [https://www.w3schools.com/tags/ref_canvas.asp]HTML Canvas
+   [https://www.w3schools.com/tags/ref_av_dom.asp]HTML Audio/Video
+   [https://www.w3schools.com/tags/ref_html_dtd.asp]HTML Doctypes
+   [https://www.w3schools.com/tags/ref_charactersets.asp]HTML Character
+   Sets [https://www.w3schools.com/tags/ref_urlencode.asp]HTML URL Encode
+   [https://www.w3schools.com/tags/ref_language_codes.asp]HTML Lang Codes
+   [https://www.w3schools.com/tags/ref_httpmessages.asp]HTTP Messages
+   [https://www.w3schools.com/tags/ref_httpmethods.asp]HTTP Methods
+   [https://www.w3schools.com/tags/ref_pxtoemconversion.asp]PX to EM
+   Converter
+   [https://www.w3schools.com/tags/ref_keyboardshortcuts.asp]Keyboard
+   Shortcuts
+
+HTML Introduction
+
+   [https://www.w3schools.com/html/default.asp]❮ Previous
+   [https://www.w3schools.com/html/html_editors.asp]Next ❯
+     __________________________________________________________________
+
+   HTML is the standard markup language for creating Web pages.
+     __________________________________________________________________
+
+What is HTML?
+
+     * HTML stands for Hyper Text Markup Language
+     * HTML is the standard markup language for creating Web pages
+     * HTML describes the structure of a Web page
+     * HTML consists of a series of elements
+     * HTML elements tell the browser how to display the content
+     * HTML elements label pieces of content such as "this is a heading",
+       "this is a paragraph", "this is a link", etc.
+     __________________________________________________________________
+
+A Simple HTML Document
+
+Example
+
+   <!DOCTYPE html>
+   <html>
+   <head>
+   <title>Page Title</title>
+   </head>
+   <body>
+   <h1>My First Heading</h1>
+   <p>My first paragraph.</p>
+   </body>
+   </html>
+   [https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro]Try it
+   Yourself »
+
+Example Explained
+
+     * The <!DOCTYPE html> declaration defines that this document is an
+       HTML5 document
+     * The <html> element is the root element of an HTML page
+     * The <head> element contains meta information about the HTML page
+     * The <title> element specifies a title for the HTML page (which is
+       shown in the browser's title bar or in the page's tab)
+     * The <body> element defines the document's body, and is a container
+       for all the visible contents, such as headings, paragraphs, images,
+       hyperlinks, tables, lists, etc.
+     * The <h1> element defines a large heading
+     * The <p> element defines a paragraph
+     __________________________________________________________________
+
+What is an HTML Element?
+
+   An HTML element is defined by a start tag, some content, and an end
+   tag:
+   <tagname> Content goes here... </tagname>
+
+   The HTML element is everything from the start tag to the end tag:
+   <h1>My First Heading</h1>
+   <p>My first paragraph.</p>
+   Start tag   Element content   End tag
+   <h1>      My First Heading    </h1>
+   <p>       My first paragraph. </p>
+   <br>      none                none
+
+   Note: Some HTML elements have no content (like the <br> element). These
+   elements are called empty elements. Empty elements do not have an end
+   tag!
+     __________________________________________________________________
+     __________________________________________________________________
+
+Web Browsers
+
+   The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read
+   HTML documents and display them correctly.
+
+   A browser does not display the HTML tags, but uses them to determine
+   how to display the document:
+
+   View in Browser
+     __________________________________________________________________
+
+HTML Page Structure
+
+   Below is a visualization of an HTML page structure:
+   <html>
+   <head>
+   <title>Page title</title>
+   </head>
+   <body>
+   <h1>This is a heading</h1>
+   <p>This is a paragraph.</p>
+   <p>This is another paragraph.</p>
+   </body>
+   </html>
+
+   Note: The content inside the <body> section will be displayed in a
+   browser. The content inside the <title> element will be shown in the
+   browser's title bar or in the page's tab.
+     __________________________________________________________________
+
+HTML History
+
+   Since the early days of the World Wide Web, there have been many
+   versions of HTML:
+   Year Version
+   1989 Tim Berners-Lee invented www
+   1991 Tim Berners-Lee invented HTML
+   1993 Dave Raggett drafted HTML+
+   1995 HTML Working Group defined HTML 2.0
+   1997 W3C Recommendation: HTML 3.2
+   1999 W3C Recommendation: HTML 4.01
+   2000 W3C Recommendation: XHTML 1.0
+   2008 WHATWG HTML5 First Public Draft
+   2012 [http://whatwg.org/html/]WHATWG HTML5 Living Standard
+   2014 [http://www.w3.org/TR/html5/]W3C Recommendation: HTML5
+   2016 W3C Candidate Recommendation: HTML 5.1
+   2017 [http://www.w3.org/TR/html51/]W3C Recommendation: HTML5.1 2nd
+   Edition
+   2017 [http://www.w3.org/TR/html52/]W3C Recommendation: HTML5.2
+
+   This tutorial follows the latest HTML5 standard.
+   [https://www.w3schools.com/html/default.asp]❮ Previous
+   [https://www.w3schools.com/html/html_editors.asp]Next ❯
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Unlock Full Access 50% off
+
+[https://www.w3schools.com/colors/colors_picker.asp]COLOR PICKER
+
+   [https://www.w3schools.com/colors/colors_picker.asp]colorpicker
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Join our
+   Bootcamp!
+     __________________________________________________________________
+     __________________________________________________________________
+
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [javascript:void(0);]Report Error
+   [javascript:void(0);]Report Error
+     __________________________________________________________________
+
+   ×
+
+Report Error
+
+   If you want to report an error, or if you want to make a suggestion, do
+   not hesitate to send us an e-mail:
+
+   help@w3schools.com
+   ×
+
+Thank You For Helping Us!
+
+   Your message has been sent to W3Schools.
+
+Top Tutorials
+
+   [https://www.w3schools.com/html/default.asp]HTML Tutorial
+   [https://www.w3schools.com/css/default.asp]CSS Tutorial
+   [https://www.w3schools.com/js/default.asp]JavaScript Tutorial
+   [https://www.w3schools.com/howto/default.asp]How To Tutorial
+   [https://www.w3schools.com/sql/default.asp]SQL Tutorial
+   [https://www.w3schools.com/python/default.asp]Python Tutorial
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Bootstrap
+   Tutorial
+   [https://www.w3schools.com/php/default.asp]PHP Tutorial
+   [https://www.w3schools.com/java/default.asp]Java Tutorial
+   [https://www.w3schools.com/cpp/default.asp]C++ Tutorial
+   [https://www.w3schools.com/jquery/default.asp]jQuery Tutorial
+
+Top References
+
+   [https://www.w3schools.com/tags/default.asp]HTML Reference
+   [https://www.w3schools.com/cssref/index.php]CSS Reference
+   [https://www.w3schools.com/jsref/default.asp]JavaScript Reference
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]SQL Reference
+   [https://www.w3schools.com/python/python_reference.asp]Python Reference
+   [https://www.w3schools.com/w3css/w3css_references.asp]W3.CSS Reference
+   [https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp]Boot
+   strap Reference
+   [https://www.w3schools.com/php/php_ref_overview.asp]PHP Reference
+   [https://www.w3schools.com/colors/colors_names.asp]HTML Colors
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Java Reference
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Angular
+   Reference
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]jQuery
+   Reference
+
+Top Examples
+
+   [https://www.w3schools.com/html/html_examples.asp]HTML Examples
+   [https://www.w3schools.com/css/css_examples.asp]CSS Examples
+   [https://www.w3schools.com/js/js_examples.asp]JavaScript Examples
+   [https://www.w3schools.com/howto/default.asp]How To Examples
+   [https://www.w3schools.com/sql/sql_examples.asp]SQL Examples
+   [https://www.w3schools.com/python/python_examples.asp]Python Examples
+   [https://www.w3schools.com/w3css/w3css_examples.asp]W3.CSS Examples
+   [https://www.w3schools.com/bootstrap/bootstrap_examples.asp]Bootstrap
+   Examples
+   [https://www.w3schools.com/php/php_examples.asp]PHP Examples
+   [https://www.w3schools.com/java/java_examples.asp]Java Examples
+   [https://www.w3schools.com/xml/xml_examples.asp]XML Examples
+   [https://www.w3schools.com/jquery/jquery_examples.asp]jQuery Examples
+   [https://campus.w3schools.com/collections/course-catalog]
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML Certificate
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS Certificate
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript Certificate
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End Certificate
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL Certificate
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP Certificate
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery Certificate
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++ Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C# Certificate
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML Certificate
+     __________________________________________________________________
+
+   [https://www.w3schools.com/forum/default.asp]FORUM |
+   [https://www.w3schools.com/about/default.asp]ABOUT
+   W3Schools is optimized for learning and training. Examples might be
+   simplified to improve reading and learning. Tutorials, references, and
+   examples are constantly reviewed to avoid errors, but we cannot warrant
+   full correctness of all content. While using W3Schools, you agree to
+   have read and accepted our
+   [https://www.w3schools.com/about/about_copyright.asp]terms of use,
+   [https://www.w3schools.com/about/about_privacy.asp]cookie and privacy
+   policy.
+   [https://www.w3schools.com/about/about_copyright.asp]Copyright
+   1999-2023 by Refsnes Data. All Rights Reserved.
+   [https://www.w3schools.com/w3css/default.asp]W3Schools is Powered by
+   W3.CSS.
+   [https://www.w3schools.com/html/html_intro.asp]

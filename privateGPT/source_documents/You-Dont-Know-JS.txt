@@ -1,0 +1,549 @@
+   #[https://github.com/opensearch.xml]GitHub
+
+   [https://github.com/getify/You-Dont-Know-JS#start-of-content]Skip to
+   content
+
+   (BUTTON) Toggle navigation
+   [https://github.com/]
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo]Sign up
+   (BUTTON)
+
+     * (BUTTON) Product
+          + [https://github.com/features/actions]Actions
+            Automate any workflow
+          + [https://github.com/features/packages]Packages
+            Host and manage packages
+          + [https://github.com/features/security]Security
+            Find and fix vulnerabilities
+          + [https://github.com/features/codespaces]Codespaces
+            Instant dev environments
+          + [https://github.com/features/copilot]Copilot
+            Write better code with AI
+          + [https://github.com/features/code-review]Code review
+            Manage code changes
+          + [https://github.com/features/issues]Issues
+            Plan and track work
+          + [https://github.com/features/discussions]Discussions
+            Collaborate outside of code
+       Explore
+          + [https://github.com/features]All features
+          + [https://docs.github.com/]Documentation
+          + [https://skills.github.com/]GitHub Skills
+          + [https://github.blog/]Blog
+     * (BUTTON) Solutions
+       For
+          + [https://github.com/enterprise]Enterprise
+          + [https://github.com/team]Teams
+          + [https://github.com/enterprise/startups]Startups
+          + [https://education.github.com/]Education
+       By Solution
+          + [https://github.com/solutions/ci-cd/]CI/CD & Automation
+          + [https://resources.github.com/devops/]DevOps
+          + [https://resources.github.com/devops/fundamentals/devsecops/]D
+            evSecOps
+       Case Studies
+          + [https://github.com/customer-stories]Customer Stories
+          + [https://resources.github.com/]Resources
+     * (BUTTON) Open Source
+          + [https://github.com/sponsors]GitHub Sponsors
+            Fund open source developers
+          + [https://github.com/readme]The ReadME Project
+            GitHub community articles
+       Repositories
+          + [https://github.com/topics]Topics
+          + [https://github.com/trending]Trending
+          + [https://github.com/collections]Collections
+     * [https://github.com/pricing]Pricing
+
+   (BUTTON)
+   Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+   Search
+   ____________________
+   Clear (BUTTON)
+
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]Search syntax tips
+
+Provide feedback
+
+   (BUTTON)
+
+   We read every piece of feedback, and take your input very seriously.
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [ ] Include my email address so I can be contacted
+   (BUTTON) Cancel (BUTTON) Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+   (BUTTON)
+   Name ____________________
+   Query ____________________
+
+   To see all available qualifiers, see our
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]documentation.
+   (BUTTON) Cancel (BUTTON) Create saved search
+   [https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgetify%2
+   FYou-Dont-Know-JS]Sign in
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_r
+   epo=getify%2FYou-Dont-Know-JS]Sign up
+
+   You signed in with another tab or window.
+   [https://github.com/getify/You-Dont-Know-JS]Reload to refresh your
+   session. You signed out in another tab or window.
+   [https://github.com/getify/You-Dont-Know-JS]Reload to refresh your
+   session. You switched accounts on another tab or window.
+   [https://github.com/getify/You-Dont-Know-JS]Reload to refresh your
+   session. (BUTTON)
+
+   (BUTTON)
+   {{ message }}
+
+   [https://github.com/getify]getify /
+   [https://github.com/getify/You-Dont-Know-JS]You-Dont-Know-JS Public
+     * [https://github.com/login?return_to=%2Fgetify%2FYou-Dont-Know-JS]No
+       tifications
+     * [https://github.com/login?return_to=%2Fgetify%2FYou-Dont-Know-JS]Fo
+       rk 32.8k
+     * [https://github.com/login?return_to=%2Fgetify%2FYou-Dont-Know-JS]St
+       ar 170k (BUTTON)
+
+   A book series on JavaScript. [https://github.com/YDKJS]@YDKJS on
+   twitter.
+
+License
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/LICENSE.txt]Vie
+   w license
+   [https://github.com/getify/You-Dont-Know-JS/stargazers]170k stars
+   [https://github.com/getify/You-Dont-Know-JS/forks]32.8k forks
+   [https://github.com/login?return_to=%2Fgetify%2FYou-Dont-Know-JS]Star
+   (BUTTON)
+   [https://github.com/login?return_to=%2Fgetify%2FYou-Dont-Know-JS]Notifi
+   cations
+
+     * [https://github.com/getify/You-Dont-Know-JS]Code
+     * [https://github.com/getify/You-Dont-Know-JS/issues]Issues 81
+     * [https://github.com/getify/You-Dont-Know-JS/pulls]Pull requests 48
+     * [https://github.com/getify/You-Dont-Know-JS/actions]Actions
+     * [https://github.com/getify/You-Dont-Know-JS/projects]Projects 1
+     * [https://github.com/getify/You-Dont-Know-JS/security]Security
+     * [https://github.com/getify/You-Dont-Know-JS/pulse]Insights
+
+   More
+     * [https://github.com/getify/You-Dont-Know-JS]Code
+     * [https://github.com/getify/You-Dont-Know-JS/issues]Issues
+     * [https://github.com/getify/You-Dont-Know-JS/pulls]Pull requests
+     * [https://github.com/getify/You-Dont-Know-JS/actions]Actions
+     * [https://github.com/getify/You-Dont-Know-JS/projects]Projects
+     * [https://github.com/getify/You-Dont-Know-JS/security]Security
+     * [https://github.com/getify/You-Dont-Know-JS/pulse]Insights
+
+getify/You-Dont-Know-JS
+
+   This commit does not belong to any branch on this repository, and may
+   belong to a fork outside of the repository.
+   2nd-ed
+
+   Switch branches/tags (BUTTON)
+   ____________________
+   (BUTTON) Branches (BUTTON) Tags
+   Could not load branches
+   Nothing to show
+   [https://github.com/getify/You-Dont-Know-JS/tree/{{%20urlEncodedRefName
+   %20}}]{{ refName }} default
+
+   [https://github.com/getify/You-Dont-Know-JS/branches]View all branches
+   Could not load tags
+   Nothing to show
+   [https://github.com/getify/You-Dont-Know-JS/tree/{{%20urlEncodedRefName
+   %20}}]{{ refName }} default
+
+   [https://github.com/getify/You-Dont-Know-JS/tags]View all tags
+
+Name already in use
+
+   (BUTTON)
+   A tag already exists with the provided branch name. Many Git commands
+   accept both tag and branch names, so creating this branch may cause
+   unexpected behavior. Are you sure you want to create this branch?
+
+   (BUTTON) Cancel (BUTTON) Create
+   [https://github.com/getify/You-Dont-Know-JS/branches]6 branches
+   [https://github.com/getify/You-Dont-Know-JS/tags]0 tags
+   Code
+     * (BUTTON) Local
+     * (BUTTON) Codespaces
+
+     * [https://docs.github.com/articles/which-remote-url-should-i-use]Clo
+       ne
+       (button) HTTPS (button) GitHub CLI
+       https://github.com/g
+       Use Git or checkout with SVN using the web URL.
+       gh repo clone getify
+       Work fast with our official CLI. [https://cli.github.com/]Learn
+       more about the CLI.
+     * [https://desktop.github.com/]Open with GitHub Desktop
+     * [https://github.com/getify/You-Dont-Know-JS/archive/refs/heads/2nd-
+       ed.zip]Download ZIP
+
+Sign In Required
+
+   Please
+   [https://github.com/codespaces/new?hide_repo_select=true&ref=2nd-ed&rep
+   o=14440270]sign in to use Codespaces.
+
+Launching GitHub Desktop
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+   (BUTTON)
+
+Launching GitHub Desktop
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+   (BUTTON)
+
+Launching Xcode
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+   (BUTTON)
+
+Launching Visual Studio Code
+
+   Your codespace will open once ready.
+
+   There was a problem preparing your codespace, please try again.
+
+Latest commit
+
+   [https://github.com/getify]@getify
+   [https://github.com/getify/You-Dont-Know-JS/commits?author=getify]getif
+   y
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]clean up formatting of thank-you pages
+   (BUTTON) …
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]1
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]7d3a4b7
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]Mar 10, 2023
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]clean up formatting of thank-you pages
+   7d3a4b7
+   [https://github.com/getify/You-Dont-Know-JS/commit/7d3a4b7351515fa41c8e
+   3127376dda1ca98514d8]1
+
+Git stats
+
+     * [https://github.com/getify/You-Dont-Know-JS/commits/2nd-ed]1,892
+       commits
+
+Files
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/7d3a4b7351515fa41c8e31
+   27376dda1ca98514d8]Permalink
+   Failed to load latest commit information.
+   Type
+   Name
+   Latest commit message
+   Commit time
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/.github/ISSUE_T
+   EMPLATE].github/ISSUE_TEMPLATE
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/es-next-beyond]
+   es-next-beyond
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/external-logos]
+   external-logos
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/get-started]get
+   -started
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/objects-classes
+   ]objects-classes
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures]
+   scope-closures
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/sync-async]sync
+   -async
+
+
+   [https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/types-grammar]t
+   ypes-grammar
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/.editorconfig].
+   editorconfig
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/CONTRIBUTING.md
+   ]CONTRIBUTING.md
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/LICENSE.txt]LIC
+   ENSE.txt
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/PULL_REQUEST_TE
+   MPLATE.md]PULL_REQUEST_TEMPLATE.md
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/README.md]READM
+   E.md
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/fixed-it-for-yo
+   u.png]fixed-it-for-you.png
+
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/preface.md]pref
+   ace.md
+
+
+   (BUTTON) View code
+   [https://github.com/getify/You-Dont-Know-JS#you-dont-know-js-yet-book-s
+   eries---2nd-edition]You Don't Know JS Yet (book series) - 2nd Edition
+   [https://github.com/getify/You-Dont-Know-JS#titles]Titles
+   [https://github.com/getify/You-Dont-Know-JS#publishing]Publishing
+   [https://github.com/getify/You-Dont-Know-JS#contributions]Contributions
+   [https://github.com/getify/You-Dont-Know-JS#thank-you-to-these-wonderfu
+   l-sponsors]Thank You To These Wonderful Sponsors
+   [https://github.com/getify/You-Dont-Know-JS#license--copyright]License
+   & Copyright
+
+[https://github.com/getify/You-Dont-Know-JS#readme]README.md
+
+[https://github.com/getify/You-Dont-Know-JS#you-dont-know-js-yet-book-series-
+--2nd-edition]You Don't Know JS Yet (book series) - 2nd Edition
+
+   This is a series of books diving deep into the core mechanisms of the
+   JavaScript language. This is the second edition of the book series:
+
+   [https://leanpub.com/ydkjsy-get-started][cover.png]
+   [https://leanpub.com/ydkjsy-scope-closures][cover.png]   ...
+
+   To read more about the motivations and perspective behind this book
+   series, check out the
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/preface.md]Pref
+   ace.
+
+   If you're looking for the previous first edition books,
+   [https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md]they
+   can be found here.
+
+[https://github.com/getify/You-Dont-Know-JS#titles]Titles
+
+   I recommend reading the second edition books in this order:
+     * [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started
+       /README.md]Get Started |
+       [https://leanpub.com/ydkjsy-get-started]Buy on Leanpub |
+       [https://www.amazon.com/dp/B084BNMN7T]Buy on Amazon
+     * [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closu
+       res/README.md]Scope & Closures |
+       [https://leanpub.com/ydkjsy-scope-closures]Buy on Leanpub |
+       [https://www.amazon.com/dp/B08634PZ3N]Buy on Amazon
+     * [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/objects-cla
+       sses/README.md]Objects & Classes (draft stable)
+     * [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-gramm
+       ar/README.md]Types & Grammar (draft in progress)
+     * Sync & Async (not yet started)
+     * ES.Next & Beyond (not yet started)
+
+   If you're looking for the previous first edition books,
+   [https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md]they
+   can be found here.
+
+[https://github.com/getify/You-Dont-Know-JS#publishing]Publishing
+
+   As always, you'll be able to read these books online here entirely for
+   free.
+
+   This edition of the books is being self-published through
+   [https://geti.pub/]GetiPub publishing. The published books will be made
+   available for sale through normal book retail sources.
+
+   If you'd like to contribute financially towards the effort (or any of
+   my other OSS efforts) aside from purchasing the published books, please
+   consider these options:
+     * [https://github.com/users/getify/sponsorship]Github Sponsorship
+     * [https://www.patreon.com/getify]Patreon
+     * [https://www.paypal.me/getify]Paypal
+
+[https://github.com/getify/You-Dont-Know-JS#contributions]Contributions
+
+   Please feel free to contribute to the quality of this content by
+   submitting PRs for improvements to code snippets, explanations, etc.
+   While typo fixes are welcomed, they will likely be caught through
+   normal editing/publishing processes, so please don't worry about them
+   right now.
+
+   Any contributions you make to this effort are of course greatly
+   appreciated.
+
+   But PLEASE read the
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/CONTRIBUTING.md
+   ]Contributions Guidelines carefully before submitting a PR.
+
+[https://github.com/getify/You-Dont-Know-JS#thank-you-to-these-wonderful-spon
+sors]Thank You To These Wonderful Sponsors
+
+   [https://frontendmasters.com/#gh-light-mode-only]Frontend Masters Logo
+   (dark)
+
+   [https://frontendmasters.com/#gh-dark-mode-only]Frontend Masters Logo
+   (light)
+
+   The first two books of the second edition are exclusively sponsored by
+   [https://frontendmasters.com/]Frontend Masters.
+
+   Frontend Masters is the gold standard for top-of-the-line expert
+   training material in frontend-oriented software development. With over
+   150 courses on all things frontend, this should be your first and only
+   stop for quality video training on HTML, CSS, JS, and related
+   technologies.
+
+   Note: I teach [https://frontendmasters.com/kyle-simpson]all my
+   workshops exclusively through Frontend Masters. If you like this book
+   content, please check out my video training courses.
+
+   I want to extend a warm and deep thanks to Marc Grabanski and the
+   entire Frontend Masters team, not only for their excellent work with
+   the video training platform, but for their unwavering support of me and
+   of the "You Don't Know JS" books!
+     __________________________________________________________________
+
+[https://github.com/getify/You-Dont-Know-JS#license--copyright]License &
+Copyright
+
+   The materials herein are all © 2019-2022 Kyle Simpson.
+
+   [http://creativecommons.org/licenses/by-nc-nd/4.0/]Creative Commons
+   License
+   This work is licensed under a
+   [http://creativecommons.org/licenses/by-nc-nd/4.0/]Creative Commons
+   Attribution-NonCommercial-NoDerivs 4.0 Unported License.
+
+About
+
+   A book series on JavaScript. [https://github.com/YDKJS]@YDKJS on
+   twitter.
+
+Topics
+
+   [https://github.com/topics/javascript]javascript
+   [https://github.com/topics/education]education
+   [https://github.com/topics/programming]programming
+   [https://github.com/topics/es6]es6
+   [https://github.com/topics/async]async
+   [https://github.com/topics/book]book
+   [https://github.com/topics/book-series]book-series
+   [https://github.com/topics/es2015]es2015
+   [https://github.com/topics/learn-to-code]learn-to-code
+   [https://github.com/topics/training-providers]training-providers
+   [https://github.com/topics/closures]closures
+   [https://github.com/topics/prototypes]prototypes
+   [https://github.com/topics/training-materials]training-materials
+
+Resources
+
+   [https://github.com/getify/You-Dont-Know-JS#readme]Readme
+
+License
+
+   [https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/LICENSE.txt]Vie
+   w license
+
+Stars
+
+   [https://github.com/getify/You-Dont-Know-JS/stargazers]170k stars
+
+Watchers
+
+   [https://github.com/getify/You-Dont-Know-JS/watchers]5.9k watching
+
+Forks
+
+   [https://github.com/getify/You-Dont-Know-JS/forks]32.8k forks
+   [https://github.com/contact/report-content?content_url=https%3A%2F%2Fgi
+   thub.com%2Fgetify%2FYou-Dont-Know-JS&report=getify+%28user%29]Report
+   repository
+
+[https://github.com/getify/You-Dont-Know-JS/releases]Releases
+
+   No releases published
+
+[https://github.com/users/getify/packages?repo_name=You-Dont-Know-JS]Packages
+0
+
+   No packages published
+
+[https://github.com/getify/You-Dont-Know-JS/network/dependents]Used by 3
+
+     * [https://github.com/Prounckk/Prounckk]@Prounckk @Prounckk /
+       Prounckk
+     * [https://github.com/KasperiP/KasperiP]@KasperiP @KasperiP /
+       KasperiP
+
+[https://github.com/getify/You-Dont-Know-JS/graphs/contributors]Contributors
+180
+
+     * [https://github.com/getify]@getify
+     * [https://github.com/machineloop]@machineloop
+     * [https://github.com/pdawyndt]@pdawyndt
+     * [https://github.com/4thana]@4thana
+     * [https://github.com/zackgao]@zackgao
+     * [https://github.com/harpreetkhalsagtbit]@harpreetkhalsagtbit
+     * [https://github.com/magul]@magul
+     * [https://github.com/ryanplusplus]@ryanplusplus
+     * [https://github.com/diogocampos]@diogocampos
+     * [https://github.com/severyanov]@severyanov
+     * [https://github.com/imurchie]@imurchie
+
+   [https://github.com/getify/You-Dont-Know-JS/graphs/contributors]+ 169
+   contributors
+
+Footer
+
+   [https://github.com/]© 2023 GitHub, Inc.
+
+Footer navigation
+
+     * [https://docs.github.com/site-policy/github-terms/github-terms-of-s
+       ervice]Terms
+     * [https://docs.github.com/site-policy/privacy-policies/github-privac
+       y-statement]Privacy
+     * [https://github.com/security]Security
+     * [https://www.githubstatus.com/]Status
+     * [https://docs.github.com/]Docs
+     * [https://support.github.com/?tags=dotcom-footer]Contact GitHub
+     * [https://github.com/pricing]Pricing
+     * [https://docs.github.com/]API
+     * [https://services.github.com/]Training
+     * [https://github.blog/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can’t perform that action at this time.
+
+   (BUTTON)

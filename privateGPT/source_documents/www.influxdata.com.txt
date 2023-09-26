@@ -1,0 +1,630 @@
+   #[https://www.influxdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2
+   Fwww.influxdata.com%2Fhome]alternate
+   [https://www.influxdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F
+   www.influxdata.com%2Fhome;format=xml]alternate
+   [https://www.influxdata.com/feed.xml]InfluxData » Feed
+   [https://www.influxdata.com/feed.json/]InfluxData » JSON Feed
+
+   [https://www.influxdata.com/#content]Skip to content
+
+   [https://www.influxdata.com/][https://www.influxdata.com/][https://www.
+   influxdata.com/get-influxdb/]Get InfluxDB
+   [https://www.influxdata.com/products/influxdb-overview/]Products
+
+What is InfluxDB?
+
+   Build real-time applications for analytics, IoT, and cloud-native
+   services in less time with less code using InfluxDB.
+   [https://www.influxdata.com/products/influxdb-overview/]Find the right
+   product
+
+[https://www.influxdata.com/products/influxdb-cloud/]In the Cloud
+
+   [https://www.influxdata.com/products/influxdb-cloud/serverless/]InfluxD
+   B Cloud Serverless
+
+   Fully managed, elastic, multi-tenant service
+   [https://www.influxdata.com/products/influxdb-cloud/dedicated/]InfluxDB
+   Cloud Dedicated
+
+   Fully managed, single-tenant service
+
+On-Prem
+
+   [https://www.influxdata.com/products/influxdb-enterprise/]InfluxDB
+   Enterprise
+
+   Self-managed database for on-prem or private cloud deployment
+   [https://www.influxdata.com/solutions/]Solutions
+
+InfluxDB in action
+
+   Discover the range of applications built on InfluxDB. Explore
+   technical, industry-specific, and customer use cases.
+
+InfluxDB by Use Cases
+
+   [https://www.influxdata.com/solutions/network-monitoring/]Network
+   Monitoring [https://www.influxdata.com/use-cases/iot/]IoT Monitoring
+   and Analytics
+   [https://www.influxdata.com/solutions/saas-operational-monitoring/]SaaS
+   Operational Monitoring
+   [https://www.influxdata.com/use-cases/]Explore more
+
+InfluxDB by Industries
+
+   [https://www.influxdata.com/solutions/by-industries/manufacturing/]Manu
+   facturing
+   [https://www.influxdata.com/solutions/by-industries/telecommunications/
+   ]Telecommunications
+   [https://www.influxdata.com/solutions/by-industries/energy-and-utilitie
+   s/]Energy and Utilities
+   [https://www.influxdata.com/solutions/by-industries/]Explore more
+
+InfluxDB Customers
+
+   [https://www.influxdata.com/customers/]Customers
+   [https://www.influxdata.com/customers/influxdb-inventors/]Become an
+   InfluxDB Inventor
+   [https://www.influxdata.com/customers/]Explore more
+   [https://www.influxdata.com/developers/]Developers
+
+Creating with InfluxDB
+
+   Access resources to help get started quickly with InfluxDB or learn
+   about new features and capabilities.
+
+Resources
+
+   [https://docs.influxdata.com/]Documentation
+   [https://www.influxdata.com/blog/]Blog
+   [https://www.influxdata.com/university/]InfluxDB University
+
+Open source
+
+   [https://www.influxdata.com/products/influxdb/]InfluxDB OSS
+   [https://www.influxdata.com/time-series-platform/telegraf/]Telegraf
+   [https://www.influxdata.com/community/]Community
+   [https://www.influxdata.com/influxdb-pricing/]Pricing
+   [https://www.influxdata.com/contact-sales/]Contact Us
+   Log In
+   [https://cloud2.influxdata.com/login]Log in to InfluxDB Cloud 2.0
+   [https://portal.influxdata.com/users/sign_in]Log in to InfluxDB
+   Enterprise [https://cloud.influxdata.com/]Log in to InfluxDB Cloud 1.x
+   [https://www.influxdata.com/get-influxdb/]Get InfluxDB
+   Products
+   [https://www.influxdata.com/products/influxdb-overview/]Find the right
+   product
+   [https://www.influxdata.com/products/influxdb-cloud/]
+
+Running in the Cloud
+
+   [https://www.influxdata.com/products/influxdb-cloud/serverless/]InfluxD
+   B Cloud Serverless
+
+   Fully managed, elastic, multi-tenant service
+   [https://www.influxdata.com/products/influxdb-cloud/dedicated/]InfluxDB
+   Cloud Dedicated
+
+   Fully managed, single-tenant service
+
+On-Premises
+
+   [https://www.influxdata.com/products/influxdb-enterprise/]InfluxDB
+   Enterprise
+
+   Self-managed database for on-prem or private cloud deployment
+   Solutions
+
+InfluxDB by Use Cases
+
+   [https://www.influxdata.com/solutions/network-monitoring/]Network
+   monitoring [https://www.influxdata.com/use-cases/iot/]IoT Monitoring
+   and Analytics
+   [https://www.influxdata.com/solutions/saas-operational-monitoring/]SaaS
+   Operational Monitoring
+   [https://www.influxdata.com/use-cases/]Explore more
+
+InfluxDB by Industries
+
+   [https://www.influxdata.com/solutions/by-industries/manufacturing/]Manu
+   facturing
+   [https://www.influxdata.com/solutions/by-industries/telecommunications/
+   ]Telecommunications
+   [https://www.influxdata.com/solutions/by-industries/energy-and-utilitie
+   s/]Energy and Utilities
+   [https://www.influxdata.com/solutions/by-industries/]Explore more
+
+InfluxDB Customers
+
+   [https://www.influxdata.com/customers/]Customers
+   [https://www.influxdata.com/customers/influxdb-inventors/]Become an
+   InfluxDB Inventor
+   [https://www.influxdata.com/customers/]Explore more
+   Developers
+
+Resources
+
+   [https://docs.influxdata.com/]Documentation
+   [https://www.influxdata.com/blog/]Blog
+   [https://www.influxdata.com/university/]InfluxDB University
+
+Open source
+
+   [https://www.influxdata.com/products/influxdb/]InfluxDB OSS
+   [https://www.influxdata.com/time-series-platform/telegraf/]Telegraf
+   [https://www.influxdata.com/community/]Community
+     __________________________________________________________________
+
+   [https://www.influxdata.com/influxdb-pricing/]Pricing
+   [https://www.influxdata.com/contact-sales/]Contact Us
+   Log In
+   [https://cloud2.influxdata.com/login]Log in to InfluxDB Cloud 2.0
+   [https://portal.influxdata.com/users/sign_in]Log in to InfluxDB
+   Enterprise [https://cloud.influxdata.com/]Log in to InfluxDB Cloud 1.x
+
+   Now offering Tableau connection support with InfluxDB 3.0.
+   [https://www.influxdata.com/blog/querying-influxdb-3-0-using-jdbc-drive
+   r-tableau/]Read more!
+
+InfluxDB.
+It's About Time.
+
+   Manage all types of time series data in a single, purpose-built
+   database. Run at any scale in any environment in the cloud,
+   on-premises, or at the edge.
+   [https://cloud2.influxdata.com/signup]Get InfluxDB
+   [https://www.influxdata.com/products/influxdb-overview/]Find the right
+   product
+   turbine
+
+Fast just got faster. InfluxDB 3.0 is raising the bar.
+     __________________________________________________________________
+
+   10x
+     __________________________________________________________________
+
+   Better Storage Compression*
+
+   100x
+     __________________________________________________________________
+
+   Faster Queries Against High-Cardinality Data*
+
+   10x
+     __________________________________________________________________
+
+   Better Ingest Performance*
+
+   * Over InfluxDB Open Source
+
+InfluxDB 3.0 features
+     __________________________________________________________________
+
+   046-abstract shape-hl
+
+   Single datastore for all time series data
+   009-marble-hl
+
+   Native SQL
+   support
+   021-petals-hl
+
+   Low latency
+   queries
+   009-marble-hl
+
+   Unlimited
+   cardinality
+   021-petals-hl
+
+   Open and interoperable with data ecosystems
+   046-abstract shape-hl
+
+   Superior data compression
+
+   Read
+   Write
+   JavaScript Python Go PHP C#
+          const {InfluxDB, flux} = require('@influxdata/influxdb-client')
+
+          // const url = "https://us-west-2-1.aws.cloud2.influxdata.com";
+          const url = "http://localhost:9999";
+          const token = 'my-token'
+          const org = 'my-org'
+          const bucket = 'my-bucket'
+
+          const client = new InfluxDB({url: url, token: token})
+          const queryApi = client.getQueryApi(org)
+
+          const query = flux`from(bucket: "${bucket}")
+            |> range(start: -1d)
+            |> filter(fn: (r) => r._measurement == "weatherstation")`
+          queryApi.queryRows(query, {
+              next(row, tableMeta) {
+                  const o = tableMeta.toObject(row)
+                  console.log(`${o._time} ${o._measurement}: ${o._field}=${o._va
+lue}`)
+              },
+              error(error) {
+                  console.error(error)
+                  console.log('Finished ERROR')
+              },
+              complete() {
+                  console.log('Finished SUCCESS')
+              },
+          })
+
+   c
+          const { InfluxDB, Point } = require("@influxdata/influxdb-client");
+
+          // const url = "https://us-west-2-1.aws.cloud2.influxdata.com";
+          const url = "http://localhost:9999";
+          const token = "my-token";
+          const org = "my-org";
+          const bucket = "my-bucket";
+
+          const client = new InfluxDB({ url: url, token: token });
+          const writeApi = client.getWriteApi(org, bucket);
+          const point = new Point("weatherstation")
+            .tag("location", "San Francisco")
+            .floatField("temperature", 23.4)
+            .timestamp(new Date());
+
+          writeApi.writePoint(point);
+
+          writeApi
+            .close()
+            .then(() => {
+              console.log("FINISHED");
+            })
+            .catch((e) => {
+              console.error(e);
+              console.log("Finished ERROR");
+            });
+
+   c
+          from influxdb_client import InfluxDBClient
+
+          url = 'https://us-west-2-1.aws.cloud2.influxdata.com'
+          token = 'my-token'
+          org = 'my-org'
+          bucket = 'my-bucket'
+
+          with InfluxDBClient(url=url, token=token, org=org) as client:
+              query_api = client.query_api()
+
+              tables = query_api.query('from(bucket: "my-bucket") |> range(start
+: -1d)')
+
+              for table in tables:
+                  for record in table.records:
+                      print(str(record["_time"]) + " - " + record.get_measuremen
+t()
+                            + " " + record.get_field() + "=" + str(record.get_va
+lue()))
+
+   c
+          from datetime import datetime
+
+          from influxdb_client import WritePrecision, InfluxDBClient, Point
+          from influxdb_client.client.write_api import SYNCHRONOUS
+
+          url = 'https://us-west-2-1.aws.cloud2.influxdata.com'
+          token = 'my-token'
+          org = 'my-org'
+          bucket = 'my-bucket'
+
+          with InfluxDBClient(url=url, token=token, org=org) as client:
+              p = Point("weatherstation") \
+                  .tag("location", "San Francisco") \
+                  .field("temperature", 25.9) \
+                  .time(datetime.utcnow(), WritePrecision.MS)
+
+              with client.write_api(write_options=SYNCHRONOUS) as write_api:
+                  write_api.write(bucket=bucket, record=p)
+
+   c
+          package main
+
+          import (
+              "context"
+              "fmt"
+
+              influxdb2 "github.com/influxdata/influxdb-client-go/v2"
+          )
+
+          func main() {
+              url := "https://us-west-2-1.aws.cloud2.influxdata.com"
+              token := "my-token"
+              org := "my-org"
+              bucket := "my-bucket"
+
+              client := influxdb2.NewClient(url, token)
+              queryAPI := client.QueryAPI(org)
+              query := fmt.Sprintf(`from(bucket: "%v") |> range(start: -1d)`, bu
+cket)
+              result, err := queryAPI.Query(context.Background(), query)
+              if err != nil {
+                  panic(err)
+              }
+              for result.Next() {
+                  record := result.Record()
+                  fmt.Printf("%v %v: %v=%v\n", record.Time(), record.Measurement
+(), record.Field(), record.Value())
+              }
+              client.Close()
+          }
+
+   c
+          package main
+
+          import (
+              "context"
+              "time"
+
+              influxdb2 "github.com/influxdata/influxdb-client-go/v2"
+          )
+
+          func main() {
+              url := "https://us-west-2-1.aws.cloud2.influxdata.com"
+              token := "my-token"
+              org := "my-org"
+              bucket := "my-bucket"
+
+              client := influxdb2.NewClient(url, token)
+              writeAPI := client.WriteAPIBlocking(org, bucket)
+              p := influxdb2.NewPointWithMeasurement("weatherstation").
+                  AddTag("location", "San Francisco").
+                  AddField("temperature", 25.7).
+                  SetTime(time.Now())
+
+              err := writeAPI.WritePoint(context.Background(), p)
+              if err != nil {
+                  panic(err)
+              }
+              client.Close()
+          }
+
+   c
+          <?php
+
+          require __DIR__ . '/vendor/autoload.php';
+
+          use InfluxDB2\Client;
+          use InfluxDB2\Model\WritePrecision;
+
+          $url =  "https://us-west-2-1.aws.cloud2.influxdata.com";
+          $token = "my-token";
+          $org = "my-org";
+          $bucket = "my-bucket";
+
+          $client = new Client(["url" => $url, "token" => $token, "org" => $org,
+ "precision" => WritePrecision::S]);
+
+          $queryApi = $client->createQueryApi();
+          $query = "from(bucket: \"$bucket\") |> range(start: -1d)";
+          $result = $queryApi->query($query);
+
+          foreach ($result as $table) {
+              foreach ($table->records as $record) {
+                  $measurement = $record->getMeasurement();
+                  $field = $record->getField();
+                  $time = $record->getTime();
+                  $value = $record->getValue();
+                  print "$time $measurement: $field=$value\n";
+              }
+          }
+
+          $client->close();
+
+   c
+          <?php
+
+          require __DIR__ . '/vendor/autoload.php';
+
+          use InfluxDB2\Client;
+          use InfluxDB2\Model\WritePrecision;
+          use InfluxDB2\Point;
+
+          $url = "https://us-west-2-1.aws.cloud2.influxdata.com";
+          $token = "my-token";
+          $org = "my-org";
+          $bucket = "my-bucket";
+
+          $client = new Client(["url" => $url, "token" => $token, "org" => $org,
+              "bucket" => $bucket, "precision" => WritePrecision::S]);
+
+          $writeApi = $client->createWriteApi();
+
+          $point = Point::measurement("weatherstation")
+              ->addTag("location", "San Francisco")
+              ->addField("temperature", 25.1)
+              ->time(time(), WritePrecision::S);
+
+          $writeApi->write($point);
+          $client->close();
+
+   c
+          using System;
+          using System.Threading.Tasks;
+          using InfluxDB.Client;
+
+          namespace Examples
+          {
+              public class QueryExample
+              {
+                  public static async Task Main(string[] args)
+                  {
+                      var url = "https://us-west-2-1.aws.cloud2.influxdata.com";
+                      var token = "my-token";
+                      var org = "my-org";
+                      var bucket = "my-bucket";
+
+                      using var client = InfluxDBClientFactory.Create(url, token
+);
+
+                      var queryApi = client.GetQueryApi();
+                      var query = $"from(bucket:\"{bucket}\") |> range(start: -1
+d)";
+                      var tables = await queryApi.QueryAsync(query, org);
+                      tables.ForEach(table =>
+                      {
+                          table.Records.ForEach(record =>
+                          {
+                              Console.WriteLine(
+                                  $"{record.GetTime()} {record.GetMeasurement()}
+: {record.GetField()}={record.GetValue()}");
+                          });
+                      });
+                  }
+              }
+          }
+
+   c
+          using System;
+          using System.Threading.Tasks;
+          using InfluxDB.Client;
+          using InfluxDB.Client.Api.Domain;
+          using InfluxDB.Client.Writes;
+
+          namespace Examples
+          {
+              public class WriteExample
+              {
+                  public static async Task Main(string[] args)
+                  {
+                      var url = "https://us-west-2-1.aws.cloud2.influxdata.com";
+                      var token = "my-token";
+                      var org = "my-org";
+                      var bucket = "bucket";
+
+                      using var client = InfluxDBClientFactory.Create(url, token
+);
+                      var writeApi = client.GetWriteApiAsync();
+
+                      var point = PointData.Measurement("weatherstation")
+                          .Tag("location", "San Francisco")
+                          .Field("temperature", 25.5)
+                          .Timestamp(DateTime.UtcNow, WritePrecision.Ns);
+
+                       await writeApi.WritePointAsync(point, bucket, org);
+                  }
+              }
+          }
+
+   c
+
+Code in the languages you love
+     __________________________________________________________________
+
+   Tap into our custom
+   [https://docs.influxdata.com/influxdb/cloud-dedicated/reference/client-
+   libraries/]client libraries, powerful APIs and tools, or build it
+   yourself, line by line.
+   [https://github.com/influxdata/influxdb-client-swift][https://www.influ
+   xdata.com/integration/python-client-library/][https://github.com/influx
+   data/influxdb-client-r][https://www.influxdata.com/integration/javascri
+   pt-client-library/][https://github.com/influxdata/influxdb-client-cshar
+   p][https://github.com/influxdata/influxdb-client-java/tree/master/clien
+   t-scala][https://github.com/influxdata/influxdb-client-ruby][https://gi
+   thub.com/influxdata/influxdb-client-java][https://github.com/influxdata
+   /influxdb-client-php][https://github.com/influxdata/influxdb-client-jav
+   a/tree/master/client-kotlin][https://github.com/influxdata/influxdb-nod
+   ejs]NodeJS
+
+Trusted by developers, from startups to enterprises
+     __________________________________________________________________
+
+   Playtech logo small
+
+   “InfluxDB has a very awesome stack, which gave us everything we needed
+   when constructing the system.”
+   [https://www.influxdata.com/customer/robinhood/]Read success story
+   Allison Wang
+   Software Engineer, Robinhood
+   Playtech logo small
+
+   “InfluxDB is a high-speed read and write database. So think of it. The
+   data is being written in real time, you can read in real time, and when
+   you’re reading it, you can apply your machine learning model. So, in
+   real time, you can forecast, and you can detect anomalies.”
+   [https://www.influxdata.com/customer/capital-one/]Read success story
+   Rajeev Tomer
+   Sr. Manager of Data Engineering, Capital One
+   Playtech logo small
+
+   “InfluxDB has become our go-to database choice. Often if we are using a
+   different tool, we figure out how to get data out of the tool into
+   InfluxDB. It’s easier to use, performs better, and is cheaper.”
+   [https://www.influxdata.com/customer/newvoicemedia/]Read success story
+   Jack Tench
+   Senior Software Engineer, Vonage
+
+InfluxDB is a G2 Leader in Time Series
+     __________________________________________________________________
+
+   G2 - Leader Summer 2023
+   G2 Momentum Leader
+   G2-Leadeer-Winter-2023
+   G2 - Best Usability
+
+   “InfluxDB is a strong database built specifically for time series data.
+   It has made working with such data seamless and easy.”
+
+   Verified G2 Reviewer
+   [https://www.g2.com/products/influxdata-influxdb/reviews]Read reviews
+
+   InfluxData logo with tagline
+
+   548 Market St, PMB 77953
+   San Francisco, California 94104
+   [https://www.influxdata.com/general-inquiries/]Contact Us
+   [https://twitter.com/influxdb]
+   [https://www.linkedin.com/company/influxdb/]
+   [https://github.com/influxdata/influxdb]
+   [https://www.influxdata.com/slack]
+
+Products
+
+   [https://www.influxdata.com/products/influxdb-overview/]InfluxDB
+   [https://www.influxdata.com/time-series-platform/telegraf/]Telegraf
+   [https://www.influxdata.com/influxdb-pricing/]Pricing
+   [https://support.influxdata.com/]Support
+   [https://www.influxdata.com/use-cases/]Use Cases
+
+Resources
+
+   [https://influxdbu.com/]InfluxDB U
+   [https://www.influxdata.com/blog/]Blog
+   [https://community.influxdata.com/]Community
+   [https://www.influxdata.com/customers/]Customers
+   [https://store-influxdb.myshopify.com/]Swag
+   [https://www.influxdata.com/events/]Events
+   [https://www.influxdata.com/glossary/]Glossary
+   [https://www.influxdata.com/what-is-time-series-data/]Time Series Data
+   [https://www.influxdata.com/time-series-database/]Time Series Database
+   [https://www.influxdata.com/time-series-forecasting-methods/]Time
+   Series Forecasting
+   [https://www.influxdata.com/time-series-analysis-methods/]Time Series
+   Analysis
+
+InfluxData
+
+   [https://www.influxdata.com/about/]About
+   [https://www.influxdata.com/careers/]Careers
+   [https://www.influxdata.com/partners/]Partners
+   [https://www.influxdata.com/legal/]Legal
+   [https://www.influxdata.com/newsroom/]Newsroom
+   [https://www.influxdata.com/contact-sales/]Contact Sales
+
+Sign Up for the InfluxData Newsletter
+
+   © 2023 InfluxData Inc. All Rights Reserved.
+   [https://www.influxdata.com/sitemap-pages/]Sitemap
+
+   ____________________
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-WXRH9C]https://www.goo
+   gletagmanager.com/ns.html?id=GTM-WXRH9C

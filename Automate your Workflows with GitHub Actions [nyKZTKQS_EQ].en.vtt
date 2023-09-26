@@ -1,0 +1,1632 @@
+WEBVTT
+
+
+
+00:00:00.160 --> 00:00:01.510 align:start position:0%
+ 
+hey<00:00:00.320><c> everyone</c><00:00:00.640><c> this</c><00:00:00.799><c> has</c><00:00:00.880><c> come</c><00:00:01.120><c> down</c><00:00:01.439><c> and</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+hey everyone this has come down and
+ 
+
+00:00:01.520 --> 00:00:02.950 align:start position:0%
+hey everyone this has come down and
+today<00:00:01.839><c> we're</c><00:00:02.000><c> going</c><00:00:02.159><c> to</c><00:00:02.240><c> talk</c><00:00:02.480><c> about</c><00:00:02.800><c> the</c>
+
+00:00:02.950 --> 00:00:02.960 align:start position:0%
+today we're going to talk about the
+ 
+
+00:00:02.960 --> 00:00:04.070 align:start position:0%
+today we're going to talk about the
+github<00:00:03.360><c> actions</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+github actions
+ 
+
+00:00:04.080 --> 00:00:05.910 align:start position:0%
+github actions
+getup<00:00:04.480><c> actions</c><00:00:04.799><c> are</c><00:00:04.960><c> really</c><00:00:05.359><c> powerful</c><00:00:05.839><c> and</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+getup actions are really powerful and
+ 
+
+00:00:05.920 --> 00:00:07.269 align:start position:0%
+getup actions are really powerful and
+they<00:00:06.080><c> allow</c><00:00:06.319><c> you</c><00:00:06.480><c> to</c><00:00:06.640><c> automate</c><00:00:07.040><c> your</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+they allow you to automate your
+ 
+
+00:00:07.279 --> 00:00:08.150 align:start position:0%
+they allow you to automate your
+workflows
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+workflows
+ 
+
+00:00:08.160 --> 00:00:10.230 align:start position:0%
+workflows
+i've<00:00:08.320><c> been</c><00:00:08.480><c> using</c><00:00:08.720><c> them</c><00:00:08.960><c> in</c><00:00:09.080><c> roadmap.essay</c><00:00:10.080><c> so</c>
+
+00:00:10.230 --> 00:00:10.240 align:start position:0%
+i've been using them in roadmap.essay so
+ 
+
+00:00:10.240 --> 00:00:11.589 align:start position:0%
+i've been using them in roadmap.essay so
+whenever<00:00:10.719><c> i</c><00:00:10.880><c> push</c><00:00:11.120><c> something</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+whenever i push something
+ 
+
+00:00:11.599 --> 00:00:14.310 align:start position:0%
+whenever i push something
+it<00:00:11.759><c> automatically</c><00:00:12.559><c> runs</c><00:00:12.880><c> the</c><00:00:13.040><c> actions</c><00:00:13.759><c> and</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+it automatically runs the actions and
+ 
+
+00:00:14.320 --> 00:00:16.430 align:start position:0%
+it automatically runs the actions and
+the<00:00:14.480><c> website</c><00:00:14.880><c> is</c><00:00:14.960><c> deployed</c><00:00:15.440><c> automatically</c><00:00:16.000><c> to</c>
+
+00:00:16.430 --> 00:00:16.440 align:start position:0%
+the website is deployed automatically to
+ 
+
+00:00:16.440 --> 00:00:18.870 align:start position:0%
+the website is deployed automatically to
+roadmap.sh<00:00:17.920><c> they</c><00:00:18.080><c> are</c><00:00:18.160><c> written</c><00:00:18.480><c> normally</c><00:00:18.800><c> in</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+roadmap.sh they are written normally in
+ 
+
+00:00:18.880 --> 00:00:20.950 align:start position:0%
+roadmap.sh they are written normally in
+the<00:00:18.960><c> form</c><00:00:19.199><c> of</c><00:00:19.359><c> yaml</c><00:00:19.680><c> files</c><00:00:20.080><c> and</c><00:00:20.160><c> can</c><00:00:20.400><c> be</c><00:00:20.560><c> found</c>
+
+00:00:20.950 --> 00:00:20.960 align:start position:0%
+the form of yaml files and can be found
+ 
+
+00:00:20.960 --> 00:00:23.509 align:start position:0%
+the form of yaml files and can be found
+on<00:00:21.119><c> the</c><00:00:21.359><c> github</c><00:00:21.760><c> directory</c><00:00:22.359><c> called.github</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+on the github directory called.github
+ 
+
+00:00:23.519 --> 00:00:24.630 align:start position:0%
+on the github directory called.github
+under<00:00:23.760><c> the</c><00:00:23.920><c> workflows</c>
+
+00:00:24.630 --> 00:00:24.640 align:start position:0%
+under the workflows
+ 
+
+00:00:24.640 --> 00:00:27.109 align:start position:0%
+under the workflows
+here<00:00:24.880><c> i</c><00:00:24.960><c> have</c><00:00:25.199><c> a</c><00:00:25.279><c> file</c><00:00:25.599><c> called</c><00:00:26.039><c> deploy.eml</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+here i have a file called deploy.eml
+ 
+
+00:00:27.119 --> 00:00:29.269 align:start position:0%
+here i have a file called deploy.eml
+with<00:00:27.359><c> a</c><00:00:27.599><c> workflow</c><00:00:28.160><c> called</c><00:00:28.560><c> deployment</c><00:00:29.119><c> to</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+with a workflow called deployment to
+ 
+
+00:00:29.279 --> 00:00:31.109 align:start position:0%
+with a workflow called deployment to
+github<00:00:29.599><c> pages</c><00:00:30.080><c> and</c><00:00:30.320><c> it</c><00:00:30.400><c> is</c><00:00:30.560><c> instructing</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+github pages and it is instructing
+ 
+
+00:00:31.119 --> 00:00:32.790 align:start position:0%
+github pages and it is instructing
+github<00:00:31.519><c> that</c><00:00:31.760><c> whenever</c><00:00:32.160><c> i</c><00:00:32.320><c> push</c><00:00:32.559><c> to</c><00:00:32.719><c> the</c>
+
+00:00:32.790 --> 00:00:32.800 align:start position:0%
+github that whenever i push to the
+ 
+
+00:00:32.800 --> 00:00:33.750 align:start position:0%
+github that whenever i push to the
+branch<00:00:33.200><c> master</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+branch master
+ 
+
+00:00:33.760 --> 00:00:35.430 align:start position:0%
+branch master
+it<00:00:33.920><c> should</c><00:00:34.160><c> run</c><00:00:34.399><c> the</c><00:00:34.640><c> jobs</c><00:00:34.960><c> that</c><00:00:35.120><c> i</c><00:00:35.200><c> have</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+it should run the jobs that i have
+ 
+
+00:00:35.440 --> 00:00:37.350 align:start position:0%
+it should run the jobs that i have
+listed<00:00:35.760><c> here</c><00:00:36.160><c> so</c><00:00:36.320><c> first</c><00:00:36.640><c> of</c><00:00:36.719><c> all</c><00:00:36.880><c> it</c><00:00:36.960><c> will</c><00:00:37.200><c> run</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+listed here so first of all it will run
+ 
+
+00:00:37.360 --> 00:00:38.790 align:start position:0%
+listed here so first of all it will run
+the<00:00:37.520><c> job</c><00:00:37.760><c> called</c><00:00:38.160><c> build</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+the job called build
+ 
+
+00:00:38.800 --> 00:00:40.709 align:start position:0%
+the job called build
+that<00:00:39.040><c> is</c><00:00:39.120><c> going</c><00:00:39.280><c> to</c><00:00:39.440><c> be</c><00:00:39.600><c> running</c><00:00:39.920><c> on</c><00:00:40.079><c> a</c><00:00:40.239><c> ubuntu</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+that is going to be running on a ubuntu
+ 
+
+00:00:40.719 --> 00:00:42.709 align:start position:0%
+that is going to be running on a ubuntu
+container<00:00:41.360><c> so</c><00:00:41.520><c> first</c><00:00:41.760><c> of</c><00:00:41.920><c> all</c><00:00:42.079><c> it</c><00:00:42.239><c> will</c><00:00:42.399><c> clone</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+container so first of all it will clone
+ 
+
+00:00:42.719 --> 00:00:44.790 align:start position:0%
+container so first of all it will clone
+the<00:00:42.879><c> repository</c><00:00:43.600><c> using</c><00:00:43.920><c> this</c><00:00:44.160><c> action</c>
+
+00:00:44.790 --> 00:00:44.800 align:start position:0%
+the repository using this action
+ 
+
+00:00:44.800 --> 00:00:46.950 align:start position:0%
+the repository using this action
+then<00:00:44.960><c> it</c><00:00:45.120><c> will</c><00:00:45.280><c> set</c><00:00:45.520><c> up</c><00:00:45.600><c> the</c><00:00:45.760><c> node</c><00:00:46.079><c> version</c><00:00:46.480><c> 12</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+then it will set up the node version 12
+ 
+
+00:00:46.960 --> 00:00:49.029 align:start position:0%
+then it will set up the node version 12
+then<00:00:47.120><c> it</c><00:00:47.280><c> will</c><00:00:47.440><c> install</c><00:00:47.760><c> the</c><00:00:47.920><c> dependencies</c>
+
+00:00:49.029 --> 00:00:49.039 align:start position:0%
+then it will install the dependencies
+ 
+
+00:00:49.039 --> 00:00:50.950 align:start position:0%
+then it will install the dependencies
+and<00:00:49.200><c> then</c><00:00:49.520><c> the</c><00:00:49.680><c> build</c><00:00:50.320><c> and</c><00:00:50.480><c> then</c><00:00:50.640><c> it</c><00:00:50.800><c> will</c>
+
+00:00:50.950 --> 00:00:50.960 align:start position:0%
+and then the build and then it will
+ 
+
+00:00:50.960 --> 00:00:52.630 align:start position:0%
+and then the build and then it will
+simply<00:00:51.199><c> deploy</c><00:00:51.600><c> the</c><00:00:51.760><c> project</c><00:00:52.079><c> to</c><00:00:52.239><c> the</c><00:00:52.320><c> github</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+simply deploy the project to the github
+ 
+
+00:00:52.640 --> 00:00:53.270 align:start position:0%
+simply deploy the project to the github
+pages
+
+00:00:53.270 --> 00:00:53.280 align:start position:0%
+pages
+ 
+
+00:00:53.280 --> 00:00:54.709 align:start position:0%
+pages
+you<00:00:53.440><c> can</c><00:00:53.600><c> find</c><00:00:53.840><c> the</c><00:00:53.920><c> history</c><00:00:54.239><c> of</c><00:00:54.399><c> all</c><00:00:54.559><c> the</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+you can find the history of all the
+ 
+
+00:00:54.719 --> 00:00:56.869 align:start position:0%
+you can find the history of all the
+github<00:00:55.120><c> actions</c><00:00:55.520><c> run</c><00:00:55.840><c> in</c><00:00:55.920><c> the</c><00:00:56.079><c> actions</c><00:00:56.480><c> tab</c><00:00:56.719><c> so</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+github actions run in the actions tab so
+ 
+
+00:00:56.879 --> 00:00:58.630 align:start position:0%
+github actions run in the actions tab so
+if<00:00:56.960><c> i</c><00:00:57.039><c> go</c><00:00:57.199><c> to</c><00:00:57.360><c> the</c><00:00:57.440><c> actions</c><00:00:57.840><c> tab</c><00:00:58.160><c> so</c><00:00:58.320><c> this</c><00:00:58.559><c> is</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+if i go to the actions tab so this is
+ 
+
+00:00:58.640 --> 00:00:59.910 align:start position:0%
+if i go to the actions tab so this is
+the<00:00:58.800><c> most</c><00:00:59.120><c> recent</c><00:00:59.600><c> run</c>
+
+00:00:59.910 --> 00:00:59.920 align:start position:0%
+the most recent run
+ 
+
+00:00:59.920 --> 00:01:02.229 align:start position:0%
+the most recent run
+and<00:01:00.160><c> if</c><00:01:00.320><c> i</c><00:01:00.480><c> go</c><00:01:00.719><c> here</c><00:01:01.039><c> and</c><00:01:01.280><c> click</c><00:01:01.520><c> the</c><00:01:01.760><c> build</c><00:01:02.079><c> so</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+and if i go here and click the build so
+ 
+
+00:01:02.239 --> 00:01:03.750 align:start position:0%
+and if i go here and click the build so
+under<00:01:02.480><c> the</c><00:01:02.640><c> build</c><00:01:02.879><c> job</c><00:01:03.120><c> we</c><00:01:03.280><c> have</c><00:01:03.520><c> all</c><00:01:03.600><c> the</c>
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+under the build job we have all the
+ 
+
+00:01:03.760 --> 00:01:04.869 align:start position:0%
+under the build job we have all the
+actions<00:01:04.159><c> that</c><00:01:04.320><c> were</c><00:01:04.559><c> run</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+actions that were run
+ 
+
+00:01:04.879 --> 00:01:07.030 align:start position:0%
+actions that were run
+and<00:01:05.040><c> you</c><00:01:05.119><c> can</c><00:01:05.360><c> click</c><00:01:05.680><c> and</c><00:01:05.840><c> see</c><00:01:06.080><c> the</c><00:01:06.479><c> logs</c><00:01:06.880><c> for</c>
+
+00:01:07.030 --> 00:01:07.040 align:start position:0%
+and you can click and see the logs for
+ 
+
+00:01:07.040 --> 00:01:09.109 align:start position:0%
+and you can click and see the logs for
+all<00:01:07.200><c> the</c><00:01:07.360><c> commands</c><00:01:07.760><c> that</c><00:01:07.920><c> were</c><00:01:08.159><c> done</c>
+
+00:01:09.109 --> 00:01:09.119 align:start position:0%
+all the commands that were done
+ 
+
+00:01:09.119 --> 00:01:11.030 align:start position:0%
+all the commands that were done
+let's<00:01:09.439><c> write</c><00:01:09.680><c> our</c><00:01:09.920><c> own</c><00:01:10.080><c> workflow</c><00:01:10.560><c> to</c><00:01:10.640><c> see</c><00:01:10.880><c> how</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+let's write our own workflow to see how
+ 
+
+00:01:11.040 --> 00:01:12.870 align:start position:0%
+let's write our own workflow to see how
+it<00:01:11.200><c> is</c><00:01:11.280><c> working</c><00:01:11.760><c> here</c><00:01:12.000><c> on</c><00:01:12.080><c> my</c><00:01:12.240><c> local</c><00:01:12.560><c> i</c><00:01:12.640><c> have</c><00:01:12.799><c> a</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+it is working here on my local i have a
+ 
+
+00:01:12.880 --> 00:01:15.510 align:start position:0%
+it is working here on my local i have a
+html<00:01:13.439><c> file</c><00:01:13.760><c> called</c><00:01:14.040><c> index.html</c><00:01:15.040><c> with</c><00:01:15.280><c> some</c>
+
+00:01:15.510 --> 00:01:15.520 align:start position:0%
+html file called index.html with some
+ 
+
+00:01:15.520 --> 00:01:15.910 align:start position:0%
+html file called index.html with some
+text
+
+00:01:15.910 --> 00:01:15.920 align:start position:0%
+text
+ 
+
+00:01:15.920 --> 00:01:17.670 align:start position:0%
+text
+then<00:01:16.159><c> under</c><00:01:16.400><c> the</c><00:01:16.479><c> test</c><00:01:16.720><c> directory</c><00:01:17.280><c> i</c><00:01:17.360><c> have</c><00:01:17.520><c> a</c>
+
+00:01:17.670 --> 00:01:17.680 align:start position:0%
+then under the test directory i have a
+ 
+
+00:01:17.680 --> 00:01:19.510 align:start position:0%
+then under the test directory i have a
+dummy<00:01:18.080><c> file</c><00:01:18.400><c> which</c><00:01:18.560><c> is</c><00:01:18.640><c> just</c><00:01:18.880><c> printing</c><00:01:19.280><c> that</c>
+
+00:01:19.510 --> 00:01:19.520 align:start position:0%
+dummy file which is just printing that
+ 
+
+00:01:19.520 --> 00:01:21.109 align:start position:0%
+dummy file which is just printing that
+the<00:01:19.600><c> tests</c><00:01:19.920><c> are</c><00:01:20.080><c> passing</c><00:01:20.560><c> and</c><00:01:20.640><c> then</c><00:01:20.799><c> in</c><00:01:20.960><c> my</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+the tests are passing and then in my
+ 
+
+00:01:21.119 --> 00:01:23.510 align:start position:0%
+the tests are passing and then in my
+package.json<00:01:22.159><c> i</c><00:01:22.240><c> have</c><00:01:22.560><c> two</c><00:01:22.799><c> scripts</c>
+
+00:01:23.510 --> 00:01:23.520 align:start position:0%
+package.json i have two scripts
+ 
+
+00:01:23.520 --> 00:01:25.510 align:start position:0%
+package.json i have two scripts
+one<00:01:23.759><c> called</c><00:01:24.080><c> build</c><00:01:24.479><c> which</c><00:01:24.720><c> is</c><00:01:24.880><c> just</c><00:01:25.119><c> logging</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+one called build which is just logging
+ 
+
+00:01:25.520 --> 00:01:27.109 align:start position:0%
+one called build which is just logging
+that<00:01:25.759><c> the</c><00:01:26.080><c> code</c><00:01:26.400><c> has</c><00:01:26.560><c> been</c><00:01:26.720><c> built</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+that the code has been built
+ 
+
+00:01:27.119 --> 00:01:28.789 align:start position:0%
+that the code has been built
+and<00:01:27.280><c> the</c><00:01:27.360><c> test</c><00:01:27.600><c> script</c><00:01:28.000><c> is</c><00:01:28.080><c> just</c><00:01:28.400><c> running</c><00:01:28.720><c> the</c>
+
+00:01:28.789 --> 00:01:28.799 align:start position:0%
+and the test script is just running the
+ 
+
+00:01:28.799 --> 00:01:30.870 align:start position:0%
+and the test script is just running the
+dummy<00:01:29.119><c> file</c><00:01:29.439><c> that</c><00:01:29.600><c> we</c><00:01:29.759><c> have</c><00:01:30.079><c> i've</c><00:01:30.240><c> already</c><00:01:30.640><c> put</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+dummy file that we have i've already put
+ 
+
+00:01:30.880 --> 00:01:32.870 align:start position:0%
+dummy file that we have i've already put
+the<00:01:30.960><c> code</c><00:01:31.200><c> base</c><00:01:31.439><c> to</c><00:01:31.600><c> github</c><00:01:32.079><c> and</c><00:01:32.240><c> deploy</c><00:01:32.640><c> it</c><00:01:32.720><c> to</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+the code base to github and deploy it to
+ 
+
+00:01:32.880 --> 00:01:34.390 align:start position:0%
+the code base to github and deploy it to
+the<00:01:32.960><c> github</c><00:01:33.360><c> pages</c><00:01:33.840><c> branch</c>
+
+00:01:34.390 --> 00:01:34.400 align:start position:0%
+the github pages branch
+ 
+
+00:01:34.400 --> 00:01:37.190 align:start position:0%
+the github pages branch
+and<00:01:34.560><c> you</c><00:01:34.640><c> can</c><00:01:34.799><c> see</c><00:01:34.960><c> the</c><00:01:35.200><c> output</c><00:01:35.680><c> on</c><00:01:35.840><c> the</c><00:01:36.079><c> url</c><00:01:37.040><c> at</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+and you can see the output on the url at
+ 
+
+00:01:37.200 --> 00:01:39.510 align:start position:0%
+and you can see the output on the url at
+this<00:01:37.520><c> page</c><00:01:37.920><c> but</c><00:01:38.079><c> i've</c><00:01:38.240><c> done</c><00:01:38.479><c> it</c><00:01:38.640><c> manually</c><00:01:39.200><c> and</c>
+
+00:01:39.510 --> 00:01:39.520 align:start position:0%
+this page but i've done it manually and
+ 
+
+00:01:39.520 --> 00:01:41.190 align:start position:0%
+this page but i've done it manually and
+you<00:01:39.680><c> will</c><00:01:39.920><c> see</c><00:01:40.159><c> that</c><00:01:40.400><c> i</c><00:01:40.560><c> don't</c><00:01:40.799><c> have</c><00:01:40.960><c> any</c>
+
+00:01:41.190 --> 00:01:41.200 align:start position:0%
+you will see that i don't have any
+ 
+
+00:01:41.200 --> 00:01:42.950 align:start position:0%
+you will see that i don't have any
+actions<00:01:41.600><c> at</c><00:01:41.680><c> this</c><00:01:41.920><c> moment</c><00:01:42.320><c> let's</c><00:01:42.560><c> automate</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+actions at this moment let's automate
+ 
+
+00:01:42.960 --> 00:01:44.710 align:start position:0%
+actions at this moment let's automate
+this<00:01:43.200><c> process</c><00:01:43.600><c> that</c><00:01:43.840><c> whenever</c><00:01:44.240><c> i</c><00:01:44.399><c> push</c>
+
+00:01:44.710 --> 00:01:44.720 align:start position:0%
+this process that whenever i push
+ 
+
+00:01:44.720 --> 00:01:46.550 align:start position:0%
+this process that whenever i push
+something<00:01:45.119><c> to</c><00:01:45.280><c> the</c><00:01:45.439><c> master</c><00:01:45.840><c> bunch</c><00:01:46.240><c> it</c><00:01:46.320><c> will</c>
+
+00:01:46.550 --> 00:01:46.560 align:start position:0%
+something to the master bunch it will
+ 
+
+00:01:46.560 --> 00:01:47.350 align:start position:0%
+something to the master bunch it will
+automatically
+
+00:01:47.350 --> 00:01:47.360 align:start position:0%
+automatically
+ 
+
+00:01:47.360 --> 00:01:49.670 align:start position:0%
+automatically
+build<00:01:47.920><c> and</c><00:01:48.079><c> deploy</c><00:01:48.560><c> the</c><00:01:48.640><c> changes</c><00:01:49.200><c> onto</c><00:01:49.520><c> the</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+build and deploy the changes onto the
+ 
+
+00:01:49.680 --> 00:01:51.749 align:start position:0%
+build and deploy the changes onto the
+website<00:01:50.079><c> without</c><00:01:50.479><c> us</c><00:01:50.720><c> doing</c><00:01:51.040><c> anything</c>
+
+00:01:51.749 --> 00:01:51.759 align:start position:0%
+website without us doing anything
+ 
+
+00:01:51.759 --> 00:01:53.590 align:start position:0%
+website without us doing anything
+to<00:01:51.920><c> do</c><00:01:52.079><c> that</c><00:01:52.320><c> i</c><00:01:52.479><c> will</c><00:01:52.560><c> go</c><00:01:52.720><c> to</c><00:01:52.880><c> the</c><00:01:53.040><c> code</c><00:01:53.280><c> base</c>
+
+00:01:53.590 --> 00:01:53.600 align:start position:0%
+to do that i will go to the code base
+ 
+
+00:01:53.600 --> 00:01:56.310 align:start position:0%
+to do that i will go to the code base
+and<00:01:53.680><c> create</c><00:01:54.079><c> a</c><00:01:54.159><c> directory</c><00:01:55.079><c> called.github</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+and create a directory called.github
+ 
+
+00:01:56.320 --> 00:01:57.670 align:start position:0%
+and create a directory called.github
+under<00:01:56.560><c> that</c><00:01:56.799><c> i</c><00:01:56.880><c> will</c><00:01:57.040><c> create</c><00:01:57.360><c> another</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+under that i will create another
+ 
+
+00:01:57.680 --> 00:01:59.670 align:start position:0%
+under that i will create another
+directory<00:01:58.240><c> called</c><00:01:58.640><c> workflows</c>
+
+00:01:59.670 --> 00:01:59.680 align:start position:0%
+directory called workflows
+ 
+
+00:01:59.680 --> 00:02:01.429 align:start position:0%
+directory called workflows
+and<00:01:59.920><c> inside</c><00:02:00.320><c> that</c><00:02:00.479><c> we're</c><00:02:00.719><c> going</c><00:02:00.960><c> to</c><00:02:01.040><c> have</c><00:02:01.280><c> a</c>
+
+00:02:01.429 --> 00:02:01.439 align:start position:0%
+and inside that we're going to have a
+ 
+
+00:02:01.439 --> 00:02:03.910 align:start position:0%
+and inside that we're going to have a
+file<00:02:01.759><c> called</c><00:02:02.520><c> deployment.yml</c><00:02:03.600><c> which</c><00:02:03.759><c> is</c>
+
+00:02:03.910 --> 00:02:03.920 align:start position:0%
+file called deployment.yml which is
+ 
+
+00:02:03.920 --> 00:02:06.149 align:start position:0%
+file called deployment.yml which is
+going<00:02:04.079><c> to</c><00:02:04.240><c> be</c><00:02:04.479><c> holding</c><00:02:04.960><c> our</c><00:02:05.280><c> workflow</c><00:02:05.840><c> inside</c>
+
+00:02:06.149 --> 00:02:06.159 align:start position:0%
+going to be holding our workflow inside
+ 
+
+00:02:06.159 --> 00:02:07.990 align:start position:0%
+going to be holding our workflow inside
+this<00:02:06.320><c> file</c><00:02:06.640><c> first</c><00:02:06.880><c> thing</c><00:02:07.119><c> i'm</c><00:02:07.280><c> going</c><00:02:07.520><c> to</c><00:02:07.600><c> do</c><00:02:07.840><c> is</c>
+
+00:02:07.990 --> 00:02:08.000 align:start position:0%
+this file first thing i'm going to do is
+ 
+
+00:02:08.000 --> 00:02:09.589 align:start position:0%
+this file first thing i'm going to do is
+i'm<00:02:08.160><c> going</c><00:02:08.239><c> to</c><00:02:08.319><c> give</c><00:02:08.560><c> it</c><00:02:08.720><c> a</c><00:02:08.959><c> name</c>
+
+00:02:09.589 --> 00:02:09.599 align:start position:0%
+i'm going to give it a name
+ 
+
+00:02:09.599 --> 00:02:11.750 align:start position:0%
+i'm going to give it a name
+our<00:02:09.920><c> job</c><00:02:10.160><c> name</c><00:02:10.399><c> is</c><00:02:10.560><c> going</c><00:02:10.720><c> to</c><00:02:10.800><c> be</c><00:02:11.039><c> deployment</c>
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+our job name is going to be deployment
+ 
+
+00:02:11.760 --> 00:02:13.670 align:start position:0%
+our job name is going to be deployment
+next<00:02:12.000><c> we</c><00:02:12.160><c> have</c><00:02:12.319><c> an</c><00:02:12.480><c> event</c><00:02:12.879><c> on</c><00:02:13.040><c> which</c><00:02:13.200><c> we</c><00:02:13.440><c> want</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+next we have an event on which we want
+ 
+
+00:02:13.680 --> 00:02:15.110 align:start position:0%
+next we have an event on which we want
+to<00:02:13.840><c> run</c><00:02:14.160><c> our</c><00:02:14.560><c> action</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+to run our action
+ 
+
+00:02:15.120 --> 00:02:17.030 align:start position:0%
+to run our action
+because<00:02:15.360><c> you</c><00:02:15.520><c> want</c><00:02:15.680><c> to</c><00:02:15.840><c> run</c><00:02:16.080><c> our</c><00:02:16.319><c> workflow</c><00:02:16.879><c> on</c>
+
+00:02:17.030 --> 00:02:17.040 align:start position:0%
+because you want to run our workflow on
+ 
+
+00:02:17.040 --> 00:02:19.190 align:start position:0%
+because you want to run our workflow on
+the<00:02:17.280><c> push</c><00:02:17.599><c> so</c><00:02:17.760><c> we</c><00:02:17.920><c> are</c><00:02:18.000><c> going</c><00:02:18.160><c> to</c><00:02:18.239><c> add</c><00:02:18.480><c> the</c><00:02:18.720><c> push</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+the push so we are going to add the push
+ 
+
+00:02:19.200 --> 00:02:21.430 align:start position:0%
+the push so we are going to add the push
+on<00:02:19.360><c> the</c><00:02:19.520><c> branches</c><00:02:20.239><c> master</c><00:02:20.800><c> it</c><00:02:20.959><c> can</c><00:02:21.120><c> be</c><00:02:21.200><c> an</c>
+
+00:02:21.430 --> 00:02:21.440 align:start position:0%
+on the branches master it can be an
+ 
+
+00:02:21.440 --> 00:02:22.550 align:start position:0%
+on the branches master it can be an
+array<00:02:21.680><c> of</c><00:02:21.840><c> branches</c>
+
+00:02:22.550 --> 00:02:22.560 align:start position:0%
+array of branches
+ 
+
+00:02:22.560 --> 00:02:24.229 align:start position:0%
+array of branches
+but<00:02:22.720><c> in</c><00:02:22.879><c> our</c><00:02:23.040><c> case</c><00:02:23.280><c> we</c><00:02:23.360><c> are</c><00:02:23.520><c> only</c><00:02:23.840><c> going</c><00:02:24.080><c> to</c>
+
+00:02:24.229 --> 00:02:24.239 align:start position:0%
+but in our case we are only going to
+ 
+
+00:02:24.239 --> 00:02:26.309 align:start position:0%
+but in our case we are only going to
+have<00:02:24.480><c> master</c><00:02:24.879><c> for</c><00:02:25.040><c> now</c><00:02:25.360><c> next</c><00:02:25.520><c> we</c><00:02:25.680><c> have</c><00:02:25.840><c> a</c><00:02:26.000><c> list</c>
+
+00:02:26.309 --> 00:02:26.319 align:start position:0%
+have master for now next we have a list
+ 
+
+00:02:26.319 --> 00:02:26.550 align:start position:0%
+have master for now next we have a list
+of
+
+00:02:26.550 --> 00:02:26.560 align:start position:0%
+of
+ 
+
+00:02:26.560 --> 00:02:28.470 align:start position:0%
+of
+jobs<00:02:26.959><c> that</c><00:02:27.120><c> we</c><00:02:27.280><c> want</c><00:02:27.440><c> to</c><00:02:27.599><c> run</c><00:02:27.920><c> under</c><00:02:28.239><c> this</c>
+
+00:02:28.470 --> 00:02:28.480 align:start position:0%
+jobs that we want to run under this
+ 
+
+00:02:28.480 --> 00:02:30.309 align:start position:0%
+jobs that we want to run under this
+workflow<00:02:28.959><c> so</c><00:02:29.120><c> our</c><00:02:29.200><c> first</c><00:02:29.520><c> job</c><00:02:29.760><c> is</c><00:02:29.840><c> going</c><00:02:30.000><c> to</c><00:02:30.160><c> be</c>
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+workflow so our first job is going to be
+ 
+
+00:02:30.319 --> 00:02:32.070 align:start position:0%
+workflow so our first job is going to be
+called<00:02:30.640><c> build</c><00:02:30.959><c> which</c><00:02:31.200><c> is</c><00:02:31.280><c> going</c><00:02:31.519><c> to</c><00:02:31.680><c> run</c>
+
+00:02:32.070 --> 00:02:32.080 align:start position:0%
+called build which is going to run
+ 
+
+00:02:32.080 --> 00:02:35.030 align:start position:0%
+called build which is going to run
+on<00:02:32.400><c> ubuntu</c><00:02:33.120><c> ubuntu</c><00:02:33.680><c> is</c><00:02:33.760><c> a</c><00:02:33.920><c> container</c><00:02:34.640><c> or</c><00:02:34.800><c> the</c>
+
+00:02:35.030 --> 00:02:35.040 align:start position:0%
+on ubuntu ubuntu is a container or the
+ 
+
+00:02:35.040 --> 00:02:36.470 align:start position:0%
+on ubuntu ubuntu is a container or the
+machine<00:02:35.440><c> that</c><00:02:35.680><c> we</c><00:02:35.840><c> want</c><00:02:36.080><c> our</c>
+
+00:02:36.470 --> 00:02:36.480 align:start position:0%
+machine that we want our
+ 
+
+00:02:36.480 --> 00:02:38.390 align:start position:0%
+machine that we want our
+workflow<00:02:36.879><c> to</c><00:02:37.040><c> run</c><00:02:37.280><c> on</c><00:02:37.519><c> and</c><00:02:37.599><c> the</c><00:02:37.760><c> steps</c><00:02:38.160><c> that</c><00:02:38.239><c> we</c>
+
+00:02:38.390 --> 00:02:38.400 align:start position:0%
+workflow to run on and the steps that we
+ 
+
+00:02:38.400 --> 00:02:40.150 align:start position:0%
+workflow to run on and the steps that we
+are<00:02:38.480><c> going</c><00:02:38.640><c> to</c><00:02:38.720><c> put</c><00:02:38.959><c> for</c><00:02:39.120><c> that</c><00:02:39.440><c> are</c><00:02:39.680><c> first</c><00:02:40.000><c> of</c>
+
+00:02:40.150 --> 00:02:40.160 align:start position:0%
+are going to put for that are first of
+ 
+
+00:02:40.160 --> 00:02:42.150 align:start position:0%
+are going to put for that are first of
+all<00:02:40.400><c> pull</c><00:02:40.640><c> the</c><00:02:40.800><c> repository</c><00:02:41.519><c> and</c><00:02:41.760><c> check</c><00:02:42.000><c> out</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+all pull the repository and check out
+ 
+
+00:02:42.160 --> 00:02:43.910 align:start position:0%
+all pull the repository and check out
+the<00:02:42.319><c> branch</c><00:02:42.800><c> using</c><00:02:43.040><c> the</c><00:02:43.200><c> action</c><00:02:43.599><c> called</c>
+
+00:02:43.910 --> 00:02:43.920 align:start position:0%
+the branch using the action called
+ 
+
+00:02:43.920 --> 00:02:45.589 align:start position:0%
+the branch using the action called
+checkout<00:02:44.400><c> checkout</c><00:02:44.800><c> is</c><00:02:44.879><c> one</c><00:02:45.040><c> of</c><00:02:45.120><c> the</c><00:02:45.200><c> official</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+checkout checkout is one of the official
+ 
+
+00:02:45.599 --> 00:02:47.430 align:start position:0%
+checkout checkout is one of the official
+github<00:02:46.080><c> actions</c><00:02:46.560><c> and</c><00:02:46.720><c> there</c><00:02:46.879><c> are</c><00:02:46.959><c> a</c><00:02:47.040><c> lot</c><00:02:47.200><c> of</c>
+
+00:02:47.430 --> 00:02:47.440 align:start position:0%
+github actions and there are a lot of
+ 
+
+00:02:47.440 --> 00:02:49.270 align:start position:0%
+github actions and there are a lot of
+actions<00:02:47.840><c> available</c><00:02:48.239><c> from</c><00:02:48.400><c> the</c><00:02:48.560><c> community</c><00:02:49.120><c> as</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+actions available from the community as
+ 
+
+00:02:49.280 --> 00:02:51.030 align:start position:0%
+actions available from the community as
+well<00:02:49.599><c> to</c><00:02:49.680><c> deploy</c><00:02:50.000><c> our</c><00:02:50.160><c> website</c><00:02:50.560><c> to</c><00:02:50.720><c> github</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+well to deploy our website to github
+ 
+
+00:02:51.040 --> 00:02:52.790 align:start position:0%
+well to deploy our website to github
+pages<00:02:51.440><c> we</c><00:02:51.519><c> are</c><00:02:51.599><c> going</c><00:02:51.840><c> to</c><00:02:52.000><c> use</c><00:02:52.239><c> one</c><00:02:52.480><c> such</c>
+
+00:02:52.790 --> 00:02:52.800 align:start position:0%
+pages we are going to use one such
+ 
+
+00:02:52.800 --> 00:02:53.750 align:start position:0%
+pages we are going to use one such
+action<00:02:53.280><c> called</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+action called
+ 
+
+00:02:53.760 --> 00:02:55.910 align:start position:0%
+action called
+get<00:02:54.000><c> a</c><00:02:54.160><c> pages</c><00:02:54.560><c> deploy</c><00:02:55.040><c> action</c><00:02:55.360><c> which</c><00:02:55.519><c> we</c><00:02:55.680><c> give</c>
+
+00:02:55.910 --> 00:02:55.920 align:start position:0%
+get a pages deploy action which we give
+ 
+
+00:02:55.920 --> 00:02:57.750 align:start position:0%
+get a pages deploy action which we give
+the<00:02:56.080><c> branch</c><00:02:56.560><c> and</c><00:02:56.720><c> the</c><00:02:56.879><c> folder</c><00:02:57.280><c> that</c><00:02:57.440><c> we</c><00:02:57.599><c> want</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+the branch and the folder that we want
+ 
+
+00:02:57.760 --> 00:02:59.350 align:start position:0%
+the branch and the folder that we want
+to<00:02:57.920><c> deploy</c><00:02:58.319><c> and</c><00:02:58.480><c> it</c><00:02:58.640><c> will</c><00:02:58.800><c> automatically</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+to deploy and it will automatically
+ 
+
+00:02:59.360 --> 00:03:01.430 align:start position:0%
+to deploy and it will automatically
+reply<00:02:59.680><c> our</c><00:02:59.840><c> website</c><00:03:00.239><c> to</c><00:03:00.480><c> the</c><00:03:00.560><c> github</c><00:03:00.959><c> pages</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+reply our website to the github pages
+ 
+
+00:03:01.440 --> 00:03:02.790 align:start position:0%
+reply our website to the github pages
+secrets<00:03:01.920><c> is</c><00:03:02.000><c> something</c><00:03:02.319><c> that</c><00:03:02.480><c> we</c><00:03:02.560><c> are</c><00:03:02.640><c> not</c>
+
+00:03:02.790 --> 00:03:02.800 align:start position:0%
+secrets is something that we are not
+ 
+
+00:03:02.800 --> 00:03:04.550 align:start position:0%
+secrets is something that we are not
+going<00:03:02.959><c> to</c><00:03:03.040><c> cover</c><00:03:03.360><c> in</c><00:03:03.440><c> this</c><00:03:03.599><c> lesson</c><00:03:04.000><c> but</c><00:03:04.159><c> github</c>
+
+00:03:04.550 --> 00:03:04.560 align:start position:0%
+going to cover in this lesson but github
+ 
+
+00:03:04.560 --> 00:03:06.470 align:start position:0%
+going to cover in this lesson but github
+provides<00:03:04.959><c> the</c><00:03:05.120><c> secrets</c><00:03:05.680><c> under</c><00:03:05.920><c> the</c><00:03:06.000><c> secrets</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+provides the secrets under the secrets
+ 
+
+00:03:06.480 --> 00:03:08.470 align:start position:0%
+provides the secrets under the secrets
+variable<00:03:07.120><c> this</c><00:03:07.360><c> action</c><00:03:07.680><c> requires</c><00:03:08.080><c> a</c><00:03:08.159><c> github</c>
+
+00:03:08.470 --> 00:03:08.480 align:start position:0%
+variable this action requires a github
+ 
+
+00:03:08.480 --> 00:03:09.270 align:start position:0%
+variable this action requires a github
+token
+
+00:03:09.270 --> 00:03:09.280 align:start position:0%
+token
+ 
+
+00:03:09.280 --> 00:03:11.270 align:start position:0%
+token
+so<00:03:09.440><c> we're</c><00:03:09.680><c> taking</c><00:03:10.000><c> it</c><00:03:10.159><c> from</c><00:03:10.319><c> the</c><00:03:10.480><c> github</c><00:03:10.879><c> token</c>
+
+00:03:11.270 --> 00:03:11.280 align:start position:0%
+so we're taking it from the github token
+ 
+
+00:03:11.280 --> 00:03:13.190 align:start position:0%
+so we're taking it from the github token
+secret<00:03:11.840><c> and</c><00:03:12.000><c> giving</c><00:03:12.319><c> it</c><00:03:12.480><c> to</c><00:03:12.640><c> the</c>
+
+00:03:13.190 --> 00:03:13.200 align:start position:0%
+secret and giving it to the
+ 
+
+00:03:13.200 --> 00:03:15.030 align:start position:0%
+secret and giving it to the
+action<00:03:13.599><c> using</c><00:03:13.920><c> the</c><00:03:14.080><c> environment</c><00:03:14.560><c> variable</c>
+
+00:03:15.030 --> 00:03:15.040 align:start position:0%
+action using the environment variable
+ 
+
+00:03:15.040 --> 00:03:16.869 align:start position:0%
+action using the environment variable
+called<00:03:15.360><c> github</c><00:03:15.760><c> underscore</c><00:03:16.239><c> token</c>
+
+00:03:16.869 --> 00:03:16.879 align:start position:0%
+called github underscore token
+ 
+
+00:03:16.879 --> 00:03:19.110 align:start position:0%
+called github underscore token
+so<00:03:17.040><c> now</c><00:03:17.280><c> let's</c><00:03:17.519><c> commit</c><00:03:17.920><c> our</c><00:03:18.159><c> changes</c><00:03:18.720><c> and</c><00:03:18.879><c> see</c>
+
+00:03:19.110 --> 00:03:19.120 align:start position:0%
+so now let's commit our changes and see
+ 
+
+00:03:19.120 --> 00:03:20.869 align:start position:0%
+so now let's commit our changes and see
+how<00:03:19.280><c> it</c><00:03:19.440><c> works</c><00:03:19.760><c> i'm</c><00:03:19.920><c> going</c><00:03:20.080><c> to</c><00:03:20.159><c> commit</c><00:03:20.560><c> all</c><00:03:20.800><c> of</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+how it works i'm going to commit all of
+ 
+
+00:03:20.879 --> 00:03:22.869 align:start position:0%
+how it works i'm going to commit all of
+my<00:03:21.040><c> changes</c><00:03:21.440><c> and</c><00:03:21.599><c> push</c><00:03:21.840><c> it</c><00:03:21.920><c> to</c><00:03:22.080><c> github</c><00:03:22.560><c> and</c><00:03:22.720><c> if</c>
+
+00:03:22.869 --> 00:03:22.879 align:start position:0%
+my changes and push it to github and if
+ 
+
+00:03:22.879 --> 00:03:24.710 align:start position:0%
+my changes and push it to github and if
+i<00:03:22.959><c> go</c><00:03:23.120><c> to</c><00:03:23.200><c> the</c><00:03:23.360><c> browser</c><00:03:23.840><c> and</c><00:03:24.080><c> refresh</c>
+
+00:03:24.710 --> 00:03:24.720 align:start position:0%
+i go to the browser and refresh
+ 
+
+00:03:24.720 --> 00:03:26.949 align:start position:0%
+i go to the browser and refresh
+you<00:03:24.879><c> will</c><00:03:25.120><c> see</c><00:03:25.360><c> an</c><00:03:25.519><c> already</c><00:03:25.920><c> dot</c><00:03:26.400><c> which</c><00:03:26.640><c> means</c>
+
+00:03:26.949 --> 00:03:26.959 align:start position:0%
+you will see an already dot which means
+ 
+
+00:03:26.959 --> 00:03:28.550 align:start position:0%
+you will see an already dot which means
+that<00:03:27.200><c> our</c><00:03:27.440><c> action</c><00:03:27.840><c> is</c><00:03:28.000><c> running</c>
+
+00:03:28.550 --> 00:03:28.560 align:start position:0%
+that our action is running
+ 
+
+00:03:28.560 --> 00:03:30.390 align:start position:0%
+that our action is running
+and<00:03:28.640><c> now</c><00:03:28.879><c> if</c><00:03:28.959><c> i</c><00:03:29.120><c> click</c><00:03:29.360><c> the</c><00:03:29.519><c> details</c><00:03:29.920><c> button</c><00:03:30.319><c> it</c>
+
+00:03:30.390 --> 00:03:30.400 align:start position:0%
+and now if i click the details button it
+ 
+
+00:03:30.400 --> 00:03:32.470 align:start position:0%
+and now if i click the details button it
+will<00:03:30.640><c> take</c><00:03:30.879><c> me</c><00:03:31.040><c> to</c><00:03:31.200><c> the</c><00:03:31.360><c> actions</c><00:03:31.840><c> tab</c><00:03:32.159><c> where</c><00:03:32.400><c> we</c>
+
+00:03:32.470 --> 00:03:32.480 align:start position:0%
+will take me to the actions tab where we
+ 
+
+00:03:32.480 --> 00:03:34.229 align:start position:0%
+will take me to the actions tab where we
+can<00:03:32.720><c> see</c><00:03:32.959><c> our</c><00:03:33.280><c> action</c><00:03:33.760><c> running</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+can see our action running
+ 
+
+00:03:34.239 --> 00:03:36.149 align:start position:0%
+can see our action running
+it<00:03:34.319><c> will</c><00:03:34.560><c> go</c><00:03:34.799><c> through</c><00:03:35.040><c> all</c><00:03:35.200><c> the</c><00:03:35.360><c> steps</c><00:03:35.920><c> and</c>
+
+00:03:36.149 --> 00:03:36.159 align:start position:0%
+it will go through all the steps and
+ 
+
+00:03:36.159 --> 00:03:38.070 align:start position:0%
+it will go through all the steps and
+after<00:03:36.480><c> some</c><00:03:36.720><c> time</c><00:03:36.959><c> our</c><00:03:37.200><c> deployment</c><00:03:37.760><c> will</c><00:03:37.920><c> be</c>
+
+00:03:38.070 --> 00:03:38.080 align:start position:0%
+after some time our deployment will be
+ 
+
+00:03:38.080 --> 00:03:39.750 align:start position:0%
+after some time our deployment will be
+finished
+
+00:03:39.750 --> 00:03:39.760 align:start position:0%
+finished
+ 
+
+00:03:39.760 --> 00:03:42.070 align:start position:0%
+finished
+now<00:03:40.000><c> if</c><00:03:40.080><c> i</c><00:03:40.239><c> go</c><00:03:40.400><c> back</c><00:03:40.640><c> to</c><00:03:40.799><c> the</c><00:03:41.040><c> repository</c><00:03:41.760><c> page</c>
+
+00:03:42.070 --> 00:03:42.080 align:start position:0%
+now if i go back to the repository page
+ 
+
+00:03:42.080 --> 00:03:44.390 align:start position:0%
+now if i go back to the repository page
+you<00:03:42.239><c> will</c><00:03:42.400><c> see</c><00:03:42.720><c> that</c><00:03:42.959><c> our</c><00:03:43.360><c> orange</c><00:03:43.760><c> circle</c><00:03:44.159><c> has</c>
+
+00:03:44.390 --> 00:03:44.400 align:start position:0%
+you will see that our orange circle has
+ 
+
+00:03:44.400 --> 00:03:46.149 align:start position:0%
+you will see that our orange circle has
+turned<00:03:44.720><c> into</c><00:03:44.959><c> a</c><00:03:45.120><c> check</c><00:03:45.360><c> now</c><00:03:45.599><c> which</c><00:03:45.760><c> means</c><00:03:46.000><c> that</c>
+
+00:03:46.149 --> 00:03:46.159 align:start position:0%
+turned into a check now which means that
+ 
+
+00:03:46.159 --> 00:03:47.990 align:start position:0%
+turned into a check now which means that
+our<00:03:46.400><c> action</c><00:03:46.720><c> was</c><00:03:46.879><c> successful</c><00:03:47.440><c> let's</c><00:03:47.680><c> go</c><00:03:47.840><c> back</c>
+
+00:03:47.990 --> 00:03:48.000 align:start position:0%
+our action was successful let's go back
+ 
+
+00:03:48.000 --> 00:03:49.910 align:start position:0%
+our action was successful let's go back
+to<00:03:48.080><c> the</c><00:03:48.239><c> code</c><00:03:48.480><c> base</c><00:03:48.720><c> and</c><00:03:48.879><c> add</c><00:03:49.040><c> some</c><00:03:49.280><c> more</c><00:03:49.519><c> steps</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+to the code base and add some more steps
+ 
+
+00:03:49.920 --> 00:03:51.830 align:start position:0%
+to the code base and add some more steps
+so<00:03:50.080><c> i'm</c><00:03:50.159><c> going</c><00:03:50.319><c> to</c><00:03:50.480><c> add</c><00:03:50.720><c> the</c><00:03:50.879><c> steps</c><00:03:51.200><c> for</c><00:03:51.440><c> build</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+so i'm going to add the steps for build
+ 
+
+00:03:51.840 --> 00:03:53.509 align:start position:0%
+so i'm going to add the steps for build
+and<00:03:52.080><c> test</c><00:03:52.319><c> but</c><00:03:52.480><c> to</c><00:03:52.640><c> do</c><00:03:52.799><c> that</c><00:03:52.959><c> we</c><00:03:53.120><c> are</c><00:03:53.200><c> going</c><00:03:53.360><c> to</c>
+
+00:03:53.509 --> 00:03:53.519 align:start position:0%
+and test but to do that we are going to
+ 
+
+00:03:53.519 --> 00:03:54.149 align:start position:0%
+and test but to do that we are going to
+require
+
+00:03:54.149 --> 00:03:54.159 align:start position:0%
+require
+ 
+
+00:03:54.159 --> 00:03:56.710 align:start position:0%
+require
+node<00:03:54.640><c> as</c><00:03:54.799><c> well</c><00:03:55.040><c> so</c><00:03:55.360><c> in</c><00:03:55.519><c> our</c><00:03:55.760><c> steps</c><00:03:56.239><c> after</c><00:03:56.560><c> the</c>
+
+00:03:56.710 --> 00:03:56.720 align:start position:0%
+node as well so in our steps after the
+ 
+
+00:03:56.720 --> 00:03:58.630 align:start position:0%
+node as well so in our steps after the
+checkout<00:03:57.120><c> we</c><00:03:57.280><c> are</c><00:03:57.360><c> going</c><00:03:57.599><c> to</c><00:03:57.760><c> set</c><00:03:58.000><c> up</c><00:03:58.159><c> the</c><00:03:58.319><c> node</c>
+
+00:03:58.630 --> 00:03:58.640 align:start position:0%
+checkout we are going to set up the node
+ 
+
+00:03:58.640 --> 00:04:00.470 align:start position:0%
+checkout we are going to set up the node
+version<00:03:58.959><c> 12.</c><00:03:59.280><c> so</c><00:03:59.360><c> i</c><00:03:59.439><c> will</c><00:03:59.599><c> add</c><00:03:59.840><c> another</c><00:04:00.159><c> action</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+version 12. so i will add another action
+ 
+
+00:04:00.480 --> 00:04:00.869 align:start position:0%
+version 12. so i will add another action
+called
+
+00:04:00.869 --> 00:04:00.879 align:start position:0%
+called
+ 
+
+00:04:00.879 --> 00:04:04.309 align:start position:0%
+called
+setup<00:04:01.439><c> node</c><00:04:01.840><c> with</c><00:04:02.159><c> node</c><00:04:02.480><c> version</c><00:04:02.959><c> set</c><00:04:03.200><c> to</c><00:04:03.439><c> 12</c>
+
+00:04:04.309 --> 00:04:04.319 align:start position:0%
+setup node with node version set to 12
+ 
+
+00:04:04.319 --> 00:04:06.309 align:start position:0%
+setup node with node version set to 12
+and<00:04:04.480><c> i</c><00:04:04.560><c> will</c><00:04:04.799><c> also</c><00:04:05.040><c> add</c><00:04:05.360><c> two</c><00:04:05.519><c> more</c><00:04:05.760><c> steps</c><00:04:06.159><c> to</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+and i will also add two more steps to
+ 
+
+00:04:06.319 --> 00:04:08.949 align:start position:0%
+and i will also add two more steps to
+run<00:04:06.640><c> build</c><00:04:07.200><c> and</c><00:04:07.360><c> the</c><00:04:07.519><c> test</c>
+
+00:04:08.949 --> 00:04:08.959 align:start position:0%
+run build and the test
+ 
+
+00:04:08.959 --> 00:04:10.710 align:start position:0%
+run build and the test
+next<00:04:09.280><c> before</c><00:04:09.599><c> we</c><00:04:09.760><c> push</c><00:04:10.000><c> our</c><00:04:10.239><c> changes</c><00:04:10.560><c> to</c>
+
+00:04:10.710 --> 00:04:10.720 align:start position:0%
+next before we push our changes to
+ 
+
+00:04:10.720 --> 00:04:12.830 align:start position:0%
+next before we push our changes to
+github<00:04:11.120><c> let</c><00:04:11.360><c> me</c><00:04:11.519><c> add</c><00:04:11.760><c> some</c><00:04:12.080><c> changes</c><00:04:12.480><c> to</c><00:04:12.640><c> our</c>
+
+00:04:12.830 --> 00:04:12.840 align:start position:0%
+github let me add some changes to our
+ 
+
+00:04:12.840 --> 00:04:13.990 align:start position:0%
+github let me add some changes to our
+index.html
+
+00:04:13.990 --> 00:04:14.000 align:start position:0%
+index.html
+ 
+
+00:04:14.000 --> 00:04:15.990 align:start position:0%
+index.html
+file<00:04:14.239><c> so</c><00:04:14.480><c> to</c><00:04:14.640><c> make</c><00:04:14.799><c> sure</c><00:04:15.040><c> that</c><00:04:15.200><c> our</c><00:04:15.599><c> changes</c>
+
+00:04:15.990 --> 00:04:16.000 align:start position:0%
+file so to make sure that our changes
+ 
+
+00:04:16.000 --> 00:04:17.550 align:start position:0%
+file so to make sure that our changes
+are<00:04:16.079><c> getting</c><00:04:16.320><c> deployed</c><00:04:16.799><c> i'm</c><00:04:16.880><c> going</c><00:04:17.040><c> to</c><00:04:17.199><c> open</c>
+
+00:04:17.550 --> 00:04:17.560 align:start position:0%
+are getting deployed i'm going to open
+ 
+
+00:04:17.560 --> 00:04:19.749 align:start position:0%
+are getting deployed i'm going to open
+deskt.html<00:04:18.639><c> and</c><00:04:18.880><c> just</c><00:04:19.120><c> add</c><00:04:19.440><c> three</c>
+
+00:04:19.749 --> 00:04:19.759 align:start position:0%
+deskt.html and just add three
+ 
+
+00:04:19.759 --> 00:04:21.590 align:start position:0%
+deskt.html and just add three
+exclamation<00:04:20.560><c> marks</c><00:04:20.880><c> here</c><00:04:21.040><c> and</c><00:04:21.199><c> then</c><00:04:21.280><c> i</c><00:04:21.440><c> will</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+exclamation marks here and then i will
+ 
+
+00:04:21.600 --> 00:04:22.550 align:start position:0%
+exclamation marks here and then i will
+open<00:04:21.840><c> the</c><00:04:22.000><c> terminal</c>
+
+00:04:22.550 --> 00:04:22.560 align:start position:0%
+open the terminal
+ 
+
+00:04:22.560 --> 00:04:24.710 align:start position:0%
+open the terminal
+add<00:04:22.800><c> my</c><00:04:23.120><c> changes</c><00:04:23.440><c> to</c><00:04:23.680><c> staging</c><00:04:24.160><c> and</c><00:04:24.320><c> push</c><00:04:24.560><c> it</c>
+
+00:04:24.710 --> 00:04:24.720 align:start position:0%
+add my changes to staging and push it
+ 
+
+00:04:24.720 --> 00:04:25.590 align:start position:0%
+add my changes to staging and push it
+all<00:04:24.880><c> to</c><00:04:25.040><c> github</c>
+
+00:04:25.590 --> 00:04:25.600 align:start position:0%
+all to github
+ 
+
+00:04:25.600 --> 00:04:27.670 align:start position:0%
+all to github
+now<00:04:25.840><c> if</c><00:04:26.000><c> i</c><00:04:26.080><c> go</c><00:04:26.240><c> to</c><00:04:26.320><c> the</c><00:04:26.479><c> browser</c><00:04:26.960><c> and</c><00:04:27.199><c> refresh</c>
+
+00:04:27.670 --> 00:04:27.680 align:start position:0%
+now if i go to the browser and refresh
+ 
+
+00:04:27.680 --> 00:04:29.430 align:start position:0%
+now if i go to the browser and refresh
+you<00:04:27.840><c> will</c><00:04:28.000><c> see</c><00:04:28.160><c> the</c><00:04:28.320><c> ordering</c><00:04:28.720><c> circle</c><00:04:29.199><c> which</c>
+
+00:04:29.430 --> 00:04:29.440 align:start position:0%
+you will see the ordering circle which
+ 
+
+00:04:29.440 --> 00:04:30.310 align:start position:0%
+you will see the ordering circle which
+means<00:04:29.680><c> that</c><00:04:29.840><c> our</c>
+
+00:04:30.310 --> 00:04:30.320 align:start position:0%
+means that our
+ 
+
+00:04:30.320 --> 00:04:32.070 align:start position:0%
+means that our
+build<00:04:30.639><c> is</c><00:04:30.720><c> running</c><00:04:31.199><c> and</c><00:04:31.360><c> if</c><00:04:31.520><c> i</c><00:04:31.680><c> click</c><00:04:31.919><c> the</c>
+
+00:04:32.070 --> 00:04:32.080 align:start position:0%
+build is running and if i click the
+ 
+
+00:04:32.080 --> 00:04:33.510 align:start position:0%
+build is running and if i click the
+details<00:04:32.639><c> and</c><00:04:32.800><c> go</c><00:04:32.960><c> to</c><00:04:33.120><c> the</c>
+
+00:04:33.510 --> 00:04:33.520 align:start position:0%
+details and go to the
+ 
+
+00:04:33.520 --> 00:04:35.270 align:start position:0%
+details and go to the
+actions<00:04:34.000><c> page</c><00:04:34.240><c> you'll</c><00:04:34.479><c> see</c><00:04:34.639><c> that</c><00:04:34.720><c> we</c><00:04:34.880><c> have</c><00:04:35.040><c> our</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+actions page you'll see that we have our
+ 
+
+00:04:35.280 --> 00:04:36.550 align:start position:0%
+actions page you'll see that we have our
+new<00:04:36.000><c> steps</c>
+
+00:04:36.550 --> 00:04:36.560 align:start position:0%
+new steps
+ 
+
+00:04:36.560 --> 00:04:39.030 align:start position:0%
+new steps
+in<00:04:36.639><c> the</c><00:04:36.880><c> build</c><00:04:37.199><c> steps</c><00:04:37.680><c> also</c><00:04:38.160><c> the</c><00:04:38.400><c> build</c><00:04:38.880><c> and</c>
+
+00:04:39.030 --> 00:04:39.040 align:start position:0%
+in the build steps also the build and
+ 
+
+00:04:39.040 --> 00:04:40.710 align:start position:0%
+in the build steps also the build and
+the<00:04:39.199><c> test</c><00:04:39.520><c> if</c><00:04:39.600><c> i</c><00:04:39.759><c> click</c><00:04:40.000><c> build</c><00:04:40.240><c> you</c><00:04:40.400><c> see</c><00:04:40.560><c> that</c>
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+the test if i click build you see that
+ 
+
+00:04:40.720 --> 00:04:42.790 align:start position:0%
+the test if i click build you see that
+we<00:04:40.880><c> have</c><00:04:41.040><c> our</c><00:04:41.199><c> echo</c><00:04:41.600><c> built</c>
+
+00:04:42.790 --> 00:04:42.800 align:start position:0%
+we have our echo built
+ 
+
+00:04:42.800 --> 00:04:45.510 align:start position:0%
+we have our echo built
+and<00:04:43.120><c> in</c><00:04:43.280><c> the</c><00:04:43.440><c> test</c><00:04:44.479><c> it</c><00:04:44.639><c> is</c><00:04:44.800><c> also</c><00:04:45.040><c> showing</c><00:04:45.280><c> that</c>
+
+00:04:45.510 --> 00:04:45.520 align:start position:0%
+and in the test it is also showing that
+ 
+
+00:04:45.520 --> 00:04:46.950 align:start position:0%
+and in the test it is also showing that
+the<00:04:45.600><c> tests</c><00:04:45.919><c> are</c><00:04:46.080><c> passing</c>
+
+00:04:46.950 --> 00:04:46.960 align:start position:0%
+the tests are passing
+ 
+
+00:04:46.960 --> 00:04:48.710 align:start position:0%
+the tests are passing
+go<00:04:47.199><c> back</c><00:04:47.360><c> to</c><00:04:47.520><c> the</c><00:04:47.600><c> github</c><00:04:47.919><c> repository</c><00:04:48.479><c> and</c><00:04:48.639><c> you</c>
+
+00:04:48.710 --> 00:04:48.720 align:start position:0%
+go back to the github repository and you
+ 
+
+00:04:48.720 --> 00:04:50.550 align:start position:0%
+go back to the github repository and you
+will<00:04:48.960><c> see</c><00:04:49.199><c> that</c><00:04:49.440><c> our</c><00:04:49.840><c> action</c><00:04:50.240><c> is</c><00:04:50.320><c> now</c>
+
+00:04:50.550 --> 00:04:50.560 align:start position:0%
+will see that our action is now
+ 
+
+00:04:50.560 --> 00:04:52.710 align:start position:0%
+will see that our action is now
+successful<00:04:51.199><c> and</c><00:04:51.280><c> now</c><00:04:51.600><c> if</c><00:04:51.759><c> i</c><00:04:51.919><c> open</c><00:04:52.240><c> the</c><00:04:52.320><c> website</c>
+
+00:04:52.710 --> 00:04:52.720 align:start position:0%
+successful and now if i open the website
+ 
+
+00:04:52.720 --> 00:04:54.469 align:start position:0%
+successful and now if i open the website
+and<00:04:52.880><c> refresh</c><00:04:53.360><c> you</c><00:04:53.520><c> will</c><00:04:53.680><c> see</c><00:04:53.919><c> that</c><00:04:54.160><c> our</c>
+
+00:04:54.469 --> 00:04:54.479 align:start position:0%
+and refresh you will see that our
+ 
+
+00:04:54.479 --> 00:04:56.230 align:start position:0%
+and refresh you will see that our
+changes<00:04:54.880><c> are</c><00:04:54.960><c> being</c><00:04:55.199><c> reflected</c><00:04:55.759><c> now</c><00:04:55.919><c> let's</c><00:04:56.080><c> go</c>
+
+00:04:56.230 --> 00:04:56.240 align:start position:0%
+changes are being reflected now let's go
+ 
+
+00:04:56.240 --> 00:04:57.749 align:start position:0%
+changes are being reflected now let's go
+back<00:04:56.400><c> to</c><00:04:56.560><c> the</c><00:04:56.639><c> code</c><00:04:56.880><c> base</c><00:04:57.120><c> and</c><00:04:57.280><c> see</c><00:04:57.520><c> what</c>
+
+00:04:57.749 --> 00:04:57.759 align:start position:0%
+back to the code base and see what
+ 
+
+00:04:57.759 --> 00:04:59.189 align:start position:0%
+back to the code base and see what
+happens<00:04:58.160><c> when</c><00:04:58.479><c> one</c><00:04:58.720><c> of</c><00:04:58.800><c> our</c>
+
+00:04:59.189 --> 00:04:59.199 align:start position:0%
+happens when one of our
+ 
+
+00:04:59.199 --> 00:05:00.790 align:start position:0%
+happens when one of our
+build<00:04:59.440><c> steps</c><00:04:59.759><c> fail</c><00:05:00.080><c> so</c><00:05:00.240><c> i'm</c><00:05:00.320><c> going</c><00:05:00.479><c> to</c><00:05:00.639><c> make</c>
+
+00:05:00.790 --> 00:05:00.800 align:start position:0%
+build steps fail so i'm going to make
+ 
+
+00:05:00.800 --> 00:05:02.950 align:start position:0%
+build steps fail so i'm going to make
+our<00:05:01.039><c> test</c><00:05:01.280><c> cases</c><00:05:01.759><c> fail</c><00:05:02.000><c> by</c><00:05:02.160><c> throwing</c><00:05:02.560><c> an</c><00:05:02.720><c> error</c>
+
+00:05:02.950 --> 00:05:02.960 align:start position:0%
+our test cases fail by throwing an error
+ 
+
+00:05:02.960 --> 00:05:04.550 align:start position:0%
+our test cases fail by throwing an error
+i'm<00:05:03.120><c> also</c><00:05:03.360><c> going</c><00:05:03.600><c> to</c><00:05:03.680><c> make</c><00:05:03.840><c> some</c><00:05:04.080><c> changes</c><00:05:04.400><c> to</c>
+
+00:05:04.550 --> 00:05:04.560 align:start position:0%
+i'm also going to make some changes to
+ 
+
+00:05:04.560 --> 00:05:06.790 align:start position:0%
+i'm also going to make some changes to
+our<00:05:04.840><c> index.html</c><00:05:05.919><c> to</c><00:05:06.080><c> see</c><00:05:06.320><c> that</c><00:05:06.560><c> if</c>
+
+00:05:06.790 --> 00:05:06.800 align:start position:0%
+our index.html to see that if
+ 
+
+00:05:06.800 --> 00:05:08.950 align:start position:0%
+our index.html to see that if
+our<00:05:07.039><c> changes</c><00:05:07.440><c> are</c><00:05:07.600><c> deployed</c><00:05:08.000><c> inferior</c><00:05:08.560><c> or</c><00:05:08.639><c> not</c>
+
+00:05:08.950 --> 00:05:08.960 align:start position:0%
+our changes are deployed inferior or not
+ 
+
+00:05:08.960 --> 00:05:11.029 align:start position:0%
+our changes are deployed inferior or not
+next<00:05:09.280><c> i'm</c><00:05:09.360><c> gonna</c><00:05:09.600><c> go</c><00:05:09.759><c> to</c><00:05:09.919><c> the</c><00:05:10.080><c> terminal</c><00:05:10.639><c> commit</c>
+
+00:05:11.029 --> 00:05:11.039 align:start position:0%
+next i'm gonna go to the terminal commit
+ 
+
+00:05:11.039 --> 00:05:13.350 align:start position:0%
+next i'm gonna go to the terminal commit
+my<00:05:11.280><c> changes</c><00:05:11.840><c> and</c><00:05:12.000><c> push</c><00:05:12.240><c> them</c><00:05:12.400><c> to</c><00:05:12.560><c> github</c>
+
+00:05:13.350 --> 00:05:13.360 align:start position:0%
+my changes and push them to github
+ 
+
+00:05:13.360 --> 00:05:14.950 align:start position:0%
+my changes and push them to github
+and<00:05:13.440><c> now</c><00:05:13.600><c> if</c><00:05:13.759><c> i</c><00:05:13.840><c> open</c><00:05:14.080><c> the</c><00:05:14.240><c> browser</c><00:05:14.720><c> and</c>
+
+00:05:14.950 --> 00:05:14.960 align:start position:0%
+and now if i open the browser and
+ 
+
+00:05:14.960 --> 00:05:17.189 align:start position:0%
+and now if i open the browser and
+refresh<00:05:15.600><c> you</c><00:05:15.759><c> will</c><00:05:16.000><c> see</c><00:05:16.320><c> the</c><00:05:16.479><c> already</c><00:05:16.880><c> dot</c>
+
+00:05:17.189 --> 00:05:17.199 align:start position:0%
+refresh you will see the already dot
+ 
+
+00:05:17.199 --> 00:05:18.950 align:start position:0%
+refresh you will see the already dot
+which<00:05:17.520><c> means</c><00:05:17.759><c> that</c><00:05:17.919><c> our</c><00:05:18.160><c> build</c><00:05:18.400><c> is</c><00:05:18.560><c> running</c>
+
+00:05:18.950 --> 00:05:18.960 align:start position:0%
+which means that our build is running
+ 
+
+00:05:18.960 --> 00:05:20.790 align:start position:0%
+which means that our build is running
+click<00:05:19.199><c> this</c><00:05:19.520><c> and</c><00:05:19.680><c> go</c><00:05:19.840><c> to</c><00:05:20.000><c> the</c><00:05:20.080><c> build</c><00:05:20.400><c> detail</c>
+
+00:05:20.790 --> 00:05:20.800 align:start position:0%
+click this and go to the build detail
+ 
+
+00:05:20.800 --> 00:05:21.270 align:start position:0%
+click this and go to the build detail
+page
+
+00:05:21.270 --> 00:05:21.280 align:start position:0%
+page
+ 
+
+00:05:21.280 --> 00:05:23.350 align:start position:0%
+page
+wait<00:05:21.520><c> for</c><00:05:21.680><c> the</c><00:05:21.759><c> build</c><00:05:22.080><c> to</c><00:05:22.240><c> finish</c><00:05:23.039><c> you</c><00:05:23.199><c> will</c>
+
+00:05:23.350 --> 00:05:23.360 align:start position:0%
+wait for the build to finish you will
+ 
+
+00:05:23.360 --> 00:05:24.629 align:start position:0%
+wait for the build to finish you will
+see<00:05:23.520><c> that</c><00:05:23.840><c> our</c><00:05:24.160><c> build</c>
+
+00:05:24.629 --> 00:05:24.639 align:start position:0%
+see that our build
+ 
+
+00:05:24.639 --> 00:05:26.870 align:start position:0%
+see that our build
+failed<00:05:25.039><c> at</c><00:05:25.199><c> running</c><00:05:25.520><c> the</c><00:05:25.680><c> test</c><00:05:25.919><c> cases</c><00:05:26.479><c> and</c><00:05:26.639><c> no</c>
+
+00:05:26.870 --> 00:05:26.880 align:start position:0%
+failed at running the test cases and no
+ 
+
+00:05:26.880 --> 00:05:28.629 align:start position:0%
+failed at running the test cases and no
+steps<00:05:27.360><c> after</c><00:05:27.680><c> that</c><00:05:27.919><c> were</c><00:05:28.160><c> done</c>
+
+00:05:28.629 --> 00:05:28.639 align:start position:0%
+steps after that were done
+ 
+
+00:05:28.639 --> 00:05:30.629 align:start position:0%
+steps after that were done
+and<00:05:28.800><c> if</c><00:05:28.960><c> i</c><00:05:29.120><c> click</c><00:05:29.440><c> and</c><00:05:29.600><c> expand</c><00:05:30.080><c> the</c><00:05:30.320><c> failed</c>
+
+00:05:30.629 --> 00:05:30.639 align:start position:0%
+and if i click and expand the failed
+ 
+
+00:05:30.639 --> 00:05:32.550 align:start position:0%
+and if i click and expand the failed
+step<00:05:31.039><c> you</c><00:05:31.199><c> will</c><00:05:31.360><c> see</c><00:05:31.520><c> the</c><00:05:31.680><c> error</c><00:05:32.080><c> that</c><00:05:32.320><c> made</c>
+
+00:05:32.550 --> 00:05:32.560 align:start position:0%
+step you will see the error that made
+ 
+
+00:05:32.560 --> 00:05:33.670 align:start position:0%
+step you will see the error that made
+the<00:05:32.800><c> build</c><00:05:33.039><c> to</c><00:05:33.280><c> fail</c>
+
+00:05:33.670 --> 00:05:33.680 align:start position:0%
+the build to fail
+ 
+
+00:05:33.680 --> 00:05:35.430 align:start position:0%
+the build to fail
+now<00:05:33.919><c> if</c><00:05:34.000><c> i</c><00:05:34.160><c> go</c><00:05:34.320><c> to</c><00:05:34.479><c> the</c><00:05:34.560><c> repository</c><00:05:35.120><c> landing</c>
+
+00:05:35.430 --> 00:05:35.440 align:start position:0%
+now if i go to the repository landing
+ 
+
+00:05:35.440 --> 00:05:37.430 align:start position:0%
+now if i go to the repository landing
+page<00:05:35.919><c> you</c><00:05:36.080><c> will</c><00:05:36.240><c> see</c><00:05:36.479><c> a</c><00:05:36.639><c> cross</c><00:05:37.039><c> mark</c>
+
+00:05:37.430 --> 00:05:37.440 align:start position:0%
+page you will see a cross mark
+ 
+
+00:05:37.440 --> 00:05:39.189 align:start position:0%
+page you will see a cross mark
+which<00:05:37.680><c> means</c><00:05:37.919><c> that</c><00:05:38.080><c> our</c><00:05:38.320><c> build</c><00:05:38.560><c> was</c><00:05:38.800><c> failed</c>
+
+00:05:39.189 --> 00:05:39.199 align:start position:0%
+which means that our build was failed
+ 
+
+00:05:39.199 --> 00:05:40.550 align:start position:0%
+which means that our build was failed
+and<00:05:39.280><c> if</c><00:05:39.440><c> you</c><00:05:39.520><c> go</c><00:05:39.680><c> to</c><00:05:39.759><c> the</c><00:05:39.919><c> website</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+and if you go to the website
+ 
+
+00:05:40.560 --> 00:05:42.310 align:start position:0%
+and if you go to the website
+you<00:05:40.720><c> will</c><00:05:40.880><c> see</c><00:05:41.039><c> that</c><00:05:41.280><c> our</c><00:05:41.520><c> changes</c><00:05:41.919><c> were</c><00:05:42.080><c> not</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+you will see that our changes were not
+ 
+
+00:05:42.320 --> 00:05:44.629 align:start position:0%
+you will see that our changes were not
+deployed<00:05:43.520><c> github</c><00:05:43.919><c> actions</c><00:05:44.240><c> are</c><00:05:44.400><c> really</c>
+
+00:05:44.629 --> 00:05:44.639 align:start position:0%
+deployed github actions are really
+ 
+
+00:05:44.639 --> 00:05:45.189 align:start position:0%
+deployed github actions are really
+powerful
+
+00:05:45.189 --> 00:05:45.199 align:start position:0%
+powerful
+ 
+
+00:05:45.199 --> 00:05:46.469 align:start position:0%
+powerful
+and<00:05:45.360><c> you</c><00:05:45.440><c> can</c><00:05:45.600><c> do</c><00:05:45.759><c> a</c><00:05:45.840><c> lot</c><00:05:46.000><c> with</c><00:05:46.160><c> them</c><00:05:46.320><c> to</c>
+
+00:05:46.469 --> 00:05:46.479 align:start position:0%
+and you can do a lot with them to
+ 
+
+00:05:46.479 --> 00:05:48.230 align:start position:0%
+and you can do a lot with them to
+automate<00:05:46.880><c> your</c><00:05:47.039><c> workflows</c><00:05:47.600><c> and</c><00:05:47.759><c> also</c><00:05:48.000><c> you</c><00:05:48.080><c> can</c>
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+automate your workflows and also you can
+ 
+
+00:05:48.240 --> 00:05:50.150 align:start position:0%
+automate your workflows and also you can
+find<00:05:48.479><c> a</c><00:05:48.560><c> lot</c><00:05:48.720><c> of</c><00:05:48.880><c> github</c><00:05:49.280><c> accounts</c><00:05:49.759><c> made</c><00:05:50.000><c> by</c>
+
+00:05:50.150 --> 00:05:50.160 align:start position:0%
+find a lot of github accounts made by
+ 
+
+00:05:50.160 --> 00:05:51.830 align:start position:0%
+find a lot of github accounts made by
+the<00:05:50.320><c> community</c><00:05:50.880><c> on</c><00:05:51.039><c> github</c><00:05:51.440><c> and</c><00:05:51.600><c> in</c><00:05:51.759><c> the</c>
+
+00:05:51.830 --> 00:05:51.840 align:start position:0%
+the community on github and in the
+ 
+
+00:05:51.840 --> 00:05:53.430 align:start position:0%
+the community on github and in the
+marketplace<00:05:52.560><c> which</c><00:05:52.800><c> you</c><00:05:52.960><c> can</c><00:05:53.120><c> use</c><00:05:53.360><c> to</c>
+
+00:05:53.430 --> 00:05:53.440 align:start position:0%
+marketplace which you can use to
+ 
+
+00:05:53.440 --> 00:05:55.029 align:start position:0%
+marketplace which you can use to
+automate<00:05:53.840><c> your</c><00:05:54.000><c> workflows</c><00:05:54.560><c> and</c><00:05:54.720><c> the</c><00:05:54.800><c> other</c>
+
+00:05:55.029 --> 00:05:55.039 align:start position:0%
+automate your workflows and the other
+ 
+
+00:05:55.039 --> 00:05:55.990 align:start position:0%
+automate your workflows and the other
+good<00:05:55.199><c> thing</c><00:05:55.440><c> about</c><00:05:55.680><c> them</c>
+
+00:05:55.990 --> 00:05:56.000 align:start position:0%
+good thing about them
+ 
+
+00:05:56.000 --> 00:05:57.830 align:start position:0%
+good thing about them
+is<00:05:56.160><c> that</c><00:05:56.319><c> they're</c><00:05:56.560><c> completely</c><00:05:57.199><c> free</c><00:05:57.440><c> for</c><00:05:57.600><c> the</c>
+
+00:05:57.830 --> 00:05:57.840 align:start position:0%
+is that they're completely free for the
+ 
+
+00:05:57.840 --> 00:05:59.830 align:start position:0%
+is that they're completely free for the
+open<00:05:58.080><c> source</c><00:05:58.639><c> and</c><00:05:58.800><c> with</c><00:05:59.039><c> that</c><00:05:59.280><c> our</c><00:05:59.520><c> lesson</c>
+
+00:05:59.830 --> 00:05:59.840 align:start position:0%
+open source and with that our lesson
+ 
+
+00:05:59.840 --> 00:06:01.590 align:start position:0%
+open source and with that our lesson
+comes<00:06:00.080><c> to</c><00:06:00.240><c> an</c><00:06:00.400><c> end</c><00:06:00.639><c> i</c><00:06:00.800><c> hope</c><00:06:00.960><c> you</c><00:06:01.120><c> enjoyed</c><00:06:01.440><c> it</c>
+
+00:06:01.590 --> 00:06:01.600 align:start position:0%
+comes to an end i hope you enjoyed it
+ 
+
+00:06:01.600 --> 00:06:03.029 align:start position:0%
+comes to an end i hope you enjoyed it
+thank<00:06:01.759><c> you</c><00:06:01.919><c> for</c><00:06:02.080><c> watching</c><00:06:02.560><c> and</c><00:06:02.639><c> i</c><00:06:02.720><c> will</c><00:06:02.880><c> see</c>
+
+00:06:03.029 --> 00:06:03.039 align:start position:0%
+thank you for watching and i will see
+ 
+
+00:06:03.039 --> 00:06:09.350 align:start position:0%
+thank you for watching and i will see
+you<00:06:03.120><c> in</c><00:06:03.199><c> the</c><00:06:03.360><c> next</c><00:06:04.840><c> lesson</c>
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+ 
+ 
+
+00:06:09.360 --> 00:06:11.440 align:start position:0%
+ 
+you
+

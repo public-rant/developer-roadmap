@@ -1,0 +1,229 @@
+so this will be a quick video on what s
+known as virgin control and the specific
+type of version control we re using is
+get GI T and so if any of you ever do
+any sort of programming ever again
+you maybe maybe you don t have plans for
+it but you ll you ll probably see
+version control again and there s just
+
+
+when and that s just really so if
+somebody makes it uh somebody changes a
+piece of code and they break something
+it s not really to blame them it s not
+so they get in trouble it s just so you
+can figure out what what exactly broke
+and who broke it and what they were
+trying to accomplish when they broke so
+you can kind of sit down and meet and
+say well what was going on what were you
+trying to do is not really to get people
+in trouble it s not that kind of tell
+that kind of administrative telling of
+who did what there s a more importantly
+you can go back to any point and time so
+this is this is really the most
+important part of it you can you can go
+back to any point in time so say I make
+five or six code changes and somebody
+else make some changes and somebody else
+make some changes and then it turns out
+okay we re we re not going to proceed
+with that feature in this version we re
+not going to pursue that let s we need
+to go back to a point in time and then
+there s all kinds of other things to
+manage that so that s just the general
+overview of what version control is and
+why we want it the specific service that
+we re going to use for this is just
+called bit bucket so a bit bucket open
+
+just a little bit bigger so I sent you
+invites and so just take your invites
+and sign up with an account they should
+be to your IRS C account so you ll only
+see one team I have both teams the
+events and healthcare management which
+is another another project another
+capstone so I click events and then you
+can see all kinds of you can see these
+are known as commits so every time the
+source control or source code is changed
+and we actually want to to check on it
+we can click any this and see exactly
+what happened so here I uploaded images
+emerged some of the some of the stuff
+from the from the template pages and
+then we could actually see what was done
+so let s I think we can view the
+activity the very specific activity you
+can see that ok this was exactly what
+was done if I wanted to view site master
+so say I wanted to and you can see this
+is it s smart enough to know how to go
+through and the stuff in the red is the
+old and then the stuff in the green is
+the new so that s all you probably won t
+even touch that we ll probably just use
+it to to go back to a specific time in
+history if something messes up and it s
+and I guess there s also the added
+benefit that you can it s kind of a
+central storage location that s kind of
+easy to access so what you re going to
+be doing initially is you re going to do
+a clone so you click clone get this
+address right here this is what what s
+important so this from this HTTP all the
+way down to this get right here and then
+I m going to hop into Visual Studio and
+then so I Visual Studio open and I m
+going to make sure I m in the in the
+team Explorer view so Microsoft has its
+own source control management and
+revision control product it s called
+Team Foundation we re not going to use
+that because it s one of their
+commercial project products and it s
+it s going to require its own separate
+server to set ups it s just it s just
+typically easier to use a service like
+bitbucket
+or github or any in any of the other
+
+so what we ll do is so normally when
+you re the solution Explorer but we want
+to be in the team Explorer and what we
+want what we want to do is clone so I
+click clone and this is the place it s
+going to put it that s fine for now I
+don t really I don t really care too
+much so I put in that URL I just pasted
+so you can see it s just the URL it s
+HTTP so it s secure it s my username so
+my bitbucket username is C Bakley
+underscore IRS C and then don t worry
+about this isn t an email address or
+anything it s just saying this is the
+domain and then this is kind of the and
+this is actually should mention this
+real quick even if you re not going to
+program you go anyit you ll see this a
+lot you ll see username at domain and
+then and then some slashes and and this
+is the directory and this is the
+specific get file that has all the
+information so don t worry about that
+too much just I m just going to click
+clone and then it s going to basically
+bring everything in as a as a project ok
+so what happened if I click solution
+Explorer I don t see anything yet right
+I have to actually open it up now so
+it s been cloned you can just go ahead
+and double click and then I want to open
+up the events SLN click that I may have
+to double click and all of a sudden we
+see it in the solution Explorer so I ve
+merged the site master I didn t get it
+and the and this one right here the
+events I didn t get a chance to do the
+do the calendar yet but I ll merge that
+soon and that ll probably its own
+separate page but I ll show you how
+essentially how this works so say this
+there s a page in here that s just
+
+I m just going to change it to say like
+events or something like that and then I
+save it so you can see there s a little
+red or red checkbox there and it says
+okay we ve changed we ve changed this
+and done something to it so we can do is
+there s two ways we can either commit
+and I know you can t see that so let me
+see if I can
+scooch this over just a little I ll
+
+okay so we can right click and then
+specifically commit this file or if
+you ve changed like five or six files
+
+you can no source control we can do a
+commit and I know you can t see that but
+one of the menus that popped out was
+commit but let s just commit the
+individual file first let s let s do
+that so I right click and then I go to
+commit and then the type of commit I
+want to do is so we go to actions so
+what I m going to do is we did have all
+these so what I m going to do oh that s
+right so we have to add one of the
+things that that s kind of typical that
+you want to do is you want to put a
+little message here so I just write
+changed about page to have the events
+name it s just a little a little nice
+thing that way when you ve had 30 or 40
+or 100 commits in between you say okay I
+wanted to figure out which one caused
+the problem or that we need to revert
+back to this was our kind of our good
+put in point in time and we look at this
+label and we say okay the events page
+broke and this is this is the last time
+the events page has been touched so
+let s go back to this point so I m going
+to click the drop down so can get is
+kind of funny it has a bunch of
+different a bunch of different modes
+we re going to do is we re going to do
+the commit and push so commit actually
+commits the file and then we can go up
+into what that means it s not really
+
+but commit and push will actually push
+it out to the server so we really want
+to do both if we were to just commit
+it s like only doing half the process
+it s not actually going anywhere it s
+just marked for commit on your computer
+it s when we do the commit and push that
+we that we actually send it to the
+bitbucket server so you re going to
+click that so successfully pushed and
+then what we typically also want to do
+is resync so if anybody else made
+changes in between we can click sync and
+then it syncs that up and now any any
+time somebody opens their visual studio
+the first thing they ll probably do is
+click sync and then they ll get all my
+changes so we didn t have to email
+changes back and forth we did have to
+put it on a shared drive nothing it s
+just automatically there they open up
+their visual studio and they just click
+sync under team Explorer and then boom
+they have all the changes and then we
+can also do is we can go back to the
+bitbucket website we can say okay let s
+view all the commits what we can see I
+just made a commit and then here s our
+message changed about page to have
+events name and then we can actually
+view here and you can see right here are
+the red stuff this is the old thing
+it s your application description page
+test and then the new thing is it says
+events so hopefully that makes sense
+it s not too tough to set up you can t
+convert your old project so any any of
+you that had your previous project as a
+that you set up you ll just leave that
+alone you re going to import the new
+project from from the from that process
+that I showed at the beginning of the

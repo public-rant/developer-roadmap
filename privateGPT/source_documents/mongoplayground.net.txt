@@ -1,0 +1,19 @@
+   Template [single collection___]
+   Stage [BUTTON Input] (not implemented)________ [BUTTON Input] (not
+   implemented)______ [BUTTON Input] (not implemented)_____
+   [BUTTON Input] (not implemented)____
+
+Database
+
+   [bson______]
+   [{"key":1},{"key":2}]
+
+Query
+
+   db.collection.find()
+
+Result
+
+   MongoDB version 6.0.6 -
+   [https://github.com/feliixx/mongoplayground/issues]Report an issue -
+   [https://mongoplayground.net/static/about.html]About this playground

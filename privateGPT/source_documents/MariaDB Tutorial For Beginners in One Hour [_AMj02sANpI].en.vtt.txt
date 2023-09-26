@@ -1,0 +1,1490 @@
+okay right now let s go ahead and see
+how can we install new Maury DB database
+first we need to go to the symbol pan
+territorial in here am ready bead of
+ORAC come press on the download button
+here click on it should take you to the
+word day to go ahead as you can see that
+ray DB is free and open source software
+and here at the premium sponsors for the
+Maria DB really big
+sponsored cooking Alibaba Tencent
+Microsoft go ahead and click the alert
+
+now the available versions right now is
+ten point two and ten point three ten
+point eight still Amida this table
+virgin but I m going to go for the
+latest version 10 point straight
+go ahead and click the green button now
+choose the operating system that will be
+using kind of choose as you can see from
+here Windows or Linux I m going to use
+it on the windows 64 bit go ahead and
+click on it or choose your version as
+you can see now it should be now willing
+as you can see it s being the wooded I
+have it already downloaded so I m going
+to double click on the double load it s
+fine as you can see in here that s from
+here is the installation window I m
+going to press Next accept terms and
+here is the components that will be
+installed with the Punda l in here and
+this one here it s really interesting
+this is the graphical user interface it
+will be using heidi SQL so go ahead and
+press next the root user control this is
+as the administrator user or the super
+user so go ahead and specify a password
+for it who will be using the root to do
+a lot of things okay this option in here
+enable access from remote machines for
+root users if you d like to access your
+database from remote machines for the
+root user it s okay just leave it right
+now we re not going to use it the
+service name i m going
+we named it from ready B and the P TCP
+port you maybe have a problem if you
+have the same port if you have the MySQL
+installed because you are using the same
+port so if you have this problem you
+need to change one of the ports the
+MySQL port or the Maria DB for it right
+now I m going to leave it as a default
+I m going to press next now I m going to
+enable this right now go ahead and
+install yes go ahead and install it it
+should be straightforward
+I m sassed Alejo ok it s definitely very
+fast if we go to the store it as you can
+see now here it is recently added I have
+the Heidi SQL I can go ahead and open it
+as I told you this is a graphical user
+interface that will be using hearing
+aids I can go ahead and add a new
+decision from here I can go ahead and to
+the network type I can connect to any
+database MySQL and MySQL here I can
+choose to connect to a DB o my SQL or
+you can connect to SQL Server the
+Microsoft of course SQL Server all the
+Postgres sequel right now I m going to
+choose MySQL TCP IP and when you see
+this I beam here this means a localhost
+this local machine this is the local one
+again here is the root go ahead and give
+it the password this is the pour it and
+if there is a database that we would
+like to connect I don t think I ll leave
+this right now I m gonna click on this
+in here and double click and we are
+connected but the condition is not
+renamed we can go ahead and rename it
+it s that important right now but as you
+can see here is the Heidi SQL that we
+are going to use to I will do everything
+to is you Maria DB database and it s
+free and in the bundle of the Maria
+I can use it for example to create a new
+database for example I m going to call
+this maybe HR database the cool agent
+going to discuss this later on or just
+leave it as default for now ok I m going
+to choose ok and as you can see here the
+code is generated for us create database
+HR we didn t have to write any code
+anything that we will be doing in the
+interface in here will be translated
+into code we don t have to do this it s
+doing it for us as you can see we have a
+new database in here called H car I can
+come in here of course and create a new
+table maybe name this table employees
+and I can come in here and tell it that
+this table will contain the formation
+about each and plea for example it s
+just as a test I can start I think the
+columns may be the employee number the
+digital ID would be an end we re going
+to go through all of this so don t worry
+with just navigating through the
+interface so I can come in here and kill
+it the employee name I can make this
+text so go down to variable tractor and
+I m going to explain all of these data
+types don t worry but I had saved this
+in here here it is go ahead and save it
+as you can see it s translated into a
+SQL code without us doing anything
+create table all of what we are doing as
+you can see in here is translated into
+code which is really interesting now we
+have a table that we ve created in here
+it s called employees I can go ahead and
+create another one I can grab it I can
+edit it can make it empty really very
+powerful small and free interface that
+we can use so next we re going to see
+how to create or install rady be only
+cloud see you in the next lecture
+welcome back in this lecture you will be
+creating your first ready B database
+let s go ahead and do it so here I have
+Heidi SQL I m going to create a new
+surgeon in here from
+you session in route fuller we re gonna
+name it
+for example localhost you can go ahead
+and name it whatever you want here I
+have the IP address this IP address is
+the locale for this machine or any other
+machine actually this is the local IP
+address you can replace it with the word
+local host or the actual IP if you have
+real IV you can just type it in here and
+the user root this is as we agreed
+before this is the administrator or the
+super user for the database I m gonna
+type the password that I said earlier
+when we were installing mariadb and I m
+going to click on yes okay here it is
+now it s open and connected without any
+problem to create a database simply come
+in here right click and choose create
+new database as easy as this so the name
+of the database go ahead and time it for
+example maybe this is in pleased
+database going to store information
+about the employees the collegian
+actually is a set of rules for storing
+and ordering the data in the columns and
+the database don t worry about that
+right now we re not going to change it
+so as you can see here is the code for
+creating database great database in
+please it s saving the time for our
+sound doing it using the Dewey in here
+which is very fast what if I wanted to
+use as you can see here is little base
+created what if I wanted to use the code
+to create it I can simply come in here
+and start typing in the query in here I
+would like to create a new database so
+I m going to do with using the SQL code
+so create database just maybe test or
+any name that you d go ahead and run
+this from this icon here and it s
+executed as you can see in here create
+databases expected without warning let s
+just go and refresh and here it is you
+see it s very easy to create it using
+the
+Heidi s field interface oh using the SQL
+code in here and the same for the delete
+or the drop if I would like to delete or
+drop my database I can just come in here
+and choose drug warning you lose all the
+objects in the database in please okay
+there s no objects actually if I would
+like to do it using the code I can
+simply grab database tests and run now
+I m deleting the test of the please
+because already deleted go ahead and
+execute SQL here it is just a little
+fresh and it s created really it s nice
+feature that we have in here to see
+whatever you doing it s translated into
+SQL code so you can revise whatever
+you re doing in here
+you see Cho databases show the databases
+drop database does show the devices drop
+with a base name please every sink every
+single step you re doing it s translated
+into SQL code which is really really
+very powerful that s it now aunty you in
+the next lecture
+welcome back in this lecture we re going
+to see how to create and manage users in
+Moorea DB it s really important to know
+how to create and manage users who s in
+the real world and scenario in a
+production we be creating a lot of users
+maybe users to only select date of human
+database maybe another users to take
+backups maybe as a user to create
+objects maybe
+force users to add and update you data
+in your database so it s really
+important to know how to create and
+manage users and actually it s pretty
+easy to do with using the heidi is
+secure so first i m going to connect it
+to my database here it is so i m going
+to create a new database clicking here
+create new database and i m gonna name
+it may be uh louisa killed right now to
+create users i m going to create another
+user under than the root user and I m
+gonna give it specific permissions on
+this database so from the
+told in here we
+go to user manager who user manager we
+can start adding users from here and
+give them permissions so here is the
+username I m going to add maybe name it
+HR okay and the password go and choose
+anything this flight from here allow
+access to as you can see here global
+privileges this here all of this our SQL
+statements excuse like Choa alter create
+all of this statements we re going to
+see most of them almost most of them and
+the upcoming lecture so don t worry so
+from here I can give this users HR user
+in here maybe he can excuse maybe he can
+select Osho databases or Larter or
+create or create a view hold it as you
+can see doesn t go and give him but this
+permissions here is given globally as
+you can see to all the databases not
+specific database on that specific
+tables so let s go ahead and see what
+does this mean now how it s different so
+I m going to give him only execute and
+select so I m going to say so he cannot
+create items okay he can create tables
+for example so I save it and here it is
+it s created in here create user rich or
+at localhost identified bar this is a
+password that I entered and if I come in
+here and try to patent you right now I m
+connecting using the root which is the
+administrator so I can come in here of
+course and create a new table I know
+that we didn t discuss table eight but
+we re going to discuss there is a whole
+section of have tables because you re
+really important but cope with me and
+create this table so I m gonna name this
+table maybe you please please
+this table should contain the names of
+so please just add one column from
+change anything just save it and it
+should be created successful here it is
+it s created without any problem please
+name it it s not going to be used this
+is just as test to see if I have a civic
+or enough was sufficient permission or
+privileges
+to create tables so right now I m going
+to connect using another user so from
+the file session manager I m going to
+create another one so great you one HR
+collection I m gonna name it this name
+and I m gonna use the HR user as I
+created and I create a password 1 2 3
+it s very easy so go ahead and convict
+it here it is yes change it I don t like
+to disconnect this in here so right now
+I m only connecting using the HR so
+let s go ahead he not only have access
+to the employees a new database and
+table we can see it without any problem
+but can he create the table let s go
+ahead and try it
+so from new we re going to do the same
+create table I m gonna give it a name
+any name just just add a column and save
+it as you can see sequel error create
+deny it to this user because he doesn t
+have enough permissions today this task
+she s a difference what if I wanted to
+lead the employees names the table that
+I created I can come in here and press
+Grob using can be dropped look it will
+not be dropped again because he doesn t
+have sufficient permission to do this a
+specific task he can view but he cannot
+create or delete so let s go ahead and
+give him enough permissions to do
+positive so I m going to connect using
+the localhost route so now I m an
+administrator now and I m going to the
+email manager I m gonna go through the
+HR maybe if I give him from here Grouper
+privileges in here so that he can create
+would lead it will be given to all the
+databases what if I wanted to give him
+specifically on this database in please
+imagine that I have maybe 10 or 20
+databases and I would like only this
+user to access only the M key
+database so I can close this in here and
+you see this here at object I can go
+ahead and add object I m going to add
+people please
+and now the employee is here and I can
+start giving him specific permissions on
+this specific database so right now I m
+going to use create maybe delete as well
+on drop believe this is a delete
+statement for record drop is for
+dropping objects like the tables views
+are my databases so go ahead and save it
+that s it going to disconnect going to
+fish just to make sure that everything
+is working properly so right now I m
+going to create a new table name it may
+be just again let s see if it will work
+this time I m adding a column and let s
+go ahead and press safe and it s working
+here it is you see now I m using the
+same HR connection
+it s working without any problem if I
+try to delete or drop this table again
+it s dropped without any problem because
+now the HR user has sufficient
+permissions to do this tasks so I hope
+you saved this lecture and see you in
+the next welcome back in this lecture
+we re going to discuss database tables
+what is a database table a relational
+database consists of many components as
+we re going to see but the most
+important one is the table it s the
+heart of the relational databases the
+database table is where all the data in
+the database is stored
+if there is no tables there is no reason
+for relation of the trays to exist so
+take a look at this example in here this
+is a simple table we have in here we
+have the blurry name this is a column
+here is the title or the name or the
+attribute called Blair name and here is
+data itself each data is a row so here
+we have a column the column Blair name
+and row the first was ronaldo then we
+have missus and salah anymore then the
+second column is the country the third
+is t shirt number the force is born on
+and the date so this is a very simple
+example of a table so to design such
+structures in a database we re going to
+see how to do this in this lecture we re
+going to do this using z SQL script and
+using the idea secure okay this is here
+this tab the query is where i m going to
+type all my sphere script so make sure
+that you re using the human resources
+database and you are on the query tab
+and in here i m going to specify the
+testicle code i m going to write it to
+do things like create table add column
+to a table or draw a table or selecting
+some data from a table all out where is
+going to be inside of this query tab in
+here okay so by default you might find
+it it s smaller than i have to increase
+the font you can go ahead to tools
+preferences and secure and you can go
+ahead and increase it as you want as
+increasing if it s increasing as you can
+see so right now i m using 18 i m i can
+go ahead and play with the colors the
+foreground and so go ahead and switch
+and serve so right now i m going to
+create a new table using the SQL script
+this table will consist of if there s an
+ID a person named are sitting under
+country very symbol so to create
+anything in the SQL already be we re
+going to use the create command so
+create and then we need to specify what
+are you creating we re going to create a
+table then we re going to need to give
+it a name so the table is going to be
+named maybe person s okay that s not it
+we need to continue so we re going to
+open and close the parentheses like this
+then we re going to specify the columns
+inside of this table so i m going first
+to add the person ID that s the first
+column the first
+name and maybe the city or maybe the
+country can go ahead and add anyone or
+any else or any other columns that you
+would like to yeah so we are not done
+yet
+actually because each column of these
+columns I need to specify the data type
+the type of the date that is going to be
+stored in each column so the person ID
+probably it s going to be a number so to
+use a number there is plenty of options
+in the Morea DB but I m going to you the
+very popular one which is the end or the
+intern and for the person name I can go
+ahead and use character there s other
+ways to store text inside of the columns
+in the marais DB but I m going to use
+for now my personal favorite which is
+the variable character and B text all
+the variable character and me we need to
+specify the lid so I m going to use 100
+between two phrases like this and I m
+going to explain the differences between
+the characters variable character and
+the other data types as we re going so
+I m going to choose either the type for
+this city or which potato it is suitable
+for the city maybe it s also variable
+character is going to store some text
+and also the country is going to be
+variable character and don t forget to
+suppress your colons with come like this
+this is eco okay right now we re ready
+to run this code or execute it so I m
+going to click on this kit blue icon in
+here execute SQL so I m going to execute
+it and I m going through fresh mine
+database process five simply when i
+refresh it I will have a new table
+called person if I right click and
+choose edit here I have my columns and
+here is it aside that is specified with
+the lenses okay so what if I wanted to
+edit something in this column this is
+probably a scenario you create table and
+you edit it not the data itself we re
+going to
+go to the data and see how can we add
+some data to this table but what if I
+wanted to edit the structure we can
+simply use for example I m going to
+Hannah Cole I would like to add a new
+column how can I do this okay stay
+focused so what I m going to do is I m
+going to till it outer table reasons so
+again like create we re going to use
+alter to edit a sink what object are you
+going to alter it s a table and its name
+is reasons okay so what are you going to
+alter in this table it s asking me I m
+going to add a column C it s very
+straightforward year of first and it s
+going to be of the table date this is e
+type used store date okay so again with
+the command I m altering a table called
+persons I m adding a column cool
+irreversible type date derby state
+forward I guess you re going to get
+familiar with it so right now if I
+execute it this is going to execute the
+create table again and that s not what I
+want what I want is to exceed only this
+so I m going to select it and I m going
+to this icon in here and I m going to
+run selection okay but selection going
+to and only this and if i refresh my
+table right now at it again we don t
+have anything actually let s refresh our
+database let s try to edit it again okay
+now it s at year first and design his
+date as you can see okay let s go ahead
+and try to add something different what
+if I wanted to remove the column maybe I
+don t need the country I m doing the
+city how could I do this simply again
+you can come in here and kill it alter
+table persons and we use the keyword
+drop for deleting a Colo job drop
+which is going to delete column and give
+it the name of the column what do you
+think leave the city or the country I m
+going for the country ready for now okay
+
+
+what will the column again for the table
+there is no column country gets deleted
+or dropped very interesting so let me
+try to do something else what if I
+wanted to change the data type of one of
+these columns in here maybe change the
+year of birth to an aunt I don t want to
+store the whole date only the year so
+how can I do this again simply we re
+going to tell it alter table persons and
+we re going to kill it
+modify we re going to modify a column
+this column is going to be called for
+example the year of first and I m gonna
+change it to an end say what I did I
+began alter table persons now he knows
+all the Marie diamond house she knows
+actually if I can say this it s real so
+what if I m going to modify a column
+your burst to time nth let s run this
+cigar hat run selection it s fresh or
+database check your table and here did
+the rivers have changed to an end I hope
+that s an easy if you think this is easy
+that s really good you re going to get
+familiar with the SQL script with a
+secure current through right now this is
+the hard way to do it we can do it in a
+very easy way using this D line here but
+first let me delete this table so to
+delete the table I can simply come in
+
+that s election and we re done if i
+refresh this right now there is no
+tables inside of my Human Resources
+database see very straightforward so
+what I m going to do now is going to
+create the same table person by the
+person name city and country using the
+heidi SQL so I m going to choose
+right click create new table and I m
+going to give it a name persons can go
+ahead and add you command if you d like
+to leave a comment for this table and in
+the couple are in section in here I m
+going to start to add columns so the
+first one is going to be person ID it s
+going to be and here is actually very
+nice latest I can see that this is all
+the numeric numbers tiny and small and
+medium hands and big and big and real is
+storing the floating point numbers you
+can find the text really cool options to
+use II Heidi SQL so I m going to leave
+it at the anything here I m going to add
+a new column this will be person name
+and it s going to be a variable
+character and I can go ahead and set it
+to 50 or 150 or anything actually so I
+have an the city also a variable
+character just leave it under 50 and the
+country again also variable character
+can go ahead and change it if I want
+force maybe which will be only 100 and
+so then we re going to press safe and
+here it is we created our table you see
+the as you can see in here everything
+that I m doing is being transformed it
+into a circular script so here s what I
+did
+create table person ID null there s no
+ID we re going to check it s having some
+extra SQL script but we re going to get
+through this so you don t worry about
+this if I am in my database right now I
+have this new table created using the
+idea cycle in a very fast way
+so I hope that this was fun and see you
+in the next lecture ok let s learn more
+about datatypes by creating more columns
+to the person s table that we ve created
+in the last lecture so I m going to the
+person s and I m going to choose edit
+and in here this is the column that
+we ve created the person ID the person
+name the city the country if you don t
+have them please go ahead and create
+them it s going to be first one of time
+and the person ID and the person name
+city and country is going to be a five
+variable characters so let s go ahead
+and try to add more columns I m going to
+press add and I m going to add for
+example maybe the address I ll write
+story address army address is going to
+be actually behind the SDK L is doing a
+great job when you hover over any
+dissolve it s going to give you a brief
+about each digit or as you can see in
+here go ahead play with that read the
+documentation about these data types but
+what is the difference between the
+variable character on the card there is
+a magnificent difference between them
+the character field is a fix it lens and
+the variable corrector from its name
+it s if variable lens field what does
+this mean this means that the storage
+requirements are different the character
+data type always takes the same amount
+of his face regardless of what actually
+you re going to store again what does
+this mean sir if I made the address
+character and the specified it to be 50
+and they give only thin litters to the
+address of this 50 it s going to store
+the 50 not to 10 because it s fix it
+lens which is not good for the memory
+and the performance if you go into your
+this empty spaces oh this is pieces on
+the other hand if you re choosing
+variable character variable character is
+dynamic it s going to store what
+actually you used not the whole lens so
+it s very good option to use the
+variable character rather than the
+character itself so I m going to add
+more columns
+leave the correct
+the characters and I m going to choose
+maybe the date of birth to you betta
+data first and I m going to choose a
+date sirs e type called dates go and
+store the date and it s telling you the
+format that it should be stored in I m
+going to choose it and I m going to add
+another column this column is going to
+be maybe the salary found choose the
+salary and the salary is going to be of
+type decimal this will actually takes
+two inputs in here at the lens and the
+numbers after the point so I m going to
+choose for example ten two digits is
+enough I guess and I m going to add
+that s enough for now I m going to save
+this you save this we can go ahead and
+click Save and I m going to choose
+persons again and go to choose you have
+a free person so you need to choose it
+already go to the data tab and we can go
+ahead and start having some record this
+to this table in here that s not the
+best way to add recorders to a table we
+going to discuss update and insert
+statements in the upcoming lectures but
+right now we re going to you the hardy
+SQL to add rows to this table so I m
+going to choose this between our in here
+insert through enter table as you can
+see it s changed to be here so I can now
+I have items a person has been going to
+be one the person name maybe we can add
+Jessica the city maybe New York the
+country you say I m your dress go ahead
+and save anything over leave it empty
+isn t a problem
+they do burst later we going to see how
+not too late database leave feel this
+all columns rows to be empty like this
+we can apply some constraint make us
+must supply or give some input to this
+column in here okay I m going to see
+this later
+the lady actually the hernia still doing
+us a great job at generated to date
+automatically for us and can come in
+here and change
+increases or decreases even time it from
+the beginning but as you can see it
+takes it in this may be it strange for
+you at the first but it takes the year
+months and the day ok year month day
+Music
+inspirated by dashes so I m going to
+choose maybe 1990 member that s ok yeah
+I m the salary I m going to choose any
+number in here if you remember we added
+only two numbers of at the point so I
+can come in here and add more that s
+going to round it to two numbers only
+right now nothing of this has been saved
+as you can see from this red corner in
+here go ahead and click post
+and it s going to post the number and
+here we lay out a problem and now it s
+saved it answered it already this record
+into the database I can come in here and
+add more if I want as you can see in
+here the number the date of birth the
+address the country city um I think um
+let s go ahead and try to add another
+one maybe number two and maybe James the
+city is we Berlin maybe the country
+maybe Berlin is in Germany I don t any
+address I m go ahead and choose any date
+as I told you I m coming here to create
+the year I m going to leave the cellar
+anywhere can go ahead and here and sort
+it if you want
+it s really something or in something
+I m going to discuss this in detail so
+don t worry about this I can come in
+here and choose it so as you can see now
+I added two records I can sort it by the
+name ascending or descending or the city
+or the country or the address actually
+just to address right now and did a
+burst of course I can select it the
+salary there is no salary
+here so what is really happening in here
+with his Hillary is that it traveled it
+to the two numbers if you move that we
+added a very long number after the point
+but it only used two number and this is
+the comma for these thousand it s not
+the point here at the point so that s a
+very easy way to create tables using the
+high DSC QL and that would be it and see
+you in the next welcome back in this
+lecture we re going to discuss primary
+case but first let s define what is a
+primary key simply a primary key is
+special relational database table column
+or multiple columns so it can be sink
+column or multiple columns that will
+uniquely identify all the table records
+the main features of the primary key is
+that it s unique it cannot be duplicated
+and it cannot contain no it cannot be
+empty the primary key concept is
+critical to an efficient relational
+databases
+if there is no primary Keys relation
+with the basis is not going to work so
+almost all of us deal with primary keys
+in our daily life without us knowing
+this so all the citizens for example no
+matter what nationality you have you
+must have some kind of a unique number
+you must have the passport number all of
+these numbers or a primary keys or they
+are unique and cannot contain null you
+cannot have an ID if no and your ID
+cannot be duplicated with someone else
+called license also or the same banking
+counts employee IDs in a company so
+there is a lot of examples for primary
+keys so how can we create primary keys
+in Moorea Debbie let s go ahead and find
+
+okay I m going to create a new table
+called person the same table that we
+were creating in the previous lectures
+so if you have it already from previous
+lectures go ahead and drop it or delete
+it we re going to create table I ll call
+it person s again and the person s table
+is going to have two the first column
+is going to be person ID and lives in
+this before type end and to mark this
+column that this is the primary key
+because this column is going to hold the
+primary key or the identification number
+of each person simply all we have to do
+is to type primary key and that s it now
+more EDB know that this table person s
+ID has a colon code person ID which is
+going to be the primary key for this
+table so let s go ahead and add a little
+one maybe person name of variable
+character and maybe 150 and I m gonna
+leave it like this go ahead and execute
+
+persons let s go ahead and return we can
+see that now there is a new icon in here
+we saw the person ID it s mark it as a
+key in here okay let s go ahead and
+check the data let s see what does this
+will behave will make the behavior of
+our table so I m going to specify the
+number in here maybe there somebody s
+going to be one I m going to choose many
+my name but I m that I m going to click
+on this icon post and now it s posted
+I m going to add a new one maybe number
+two I m gonna choose maybe Tonya I m
+going to click post I m going to add
+another one and this time I m going to
+give it the same number for this person
+maybe I m at this record in here so I m
+going to add one
+give it a different name maybe Jack I m
+going to click anywhere in here as you
+can see in here it s telling me that
+there is a duplicate value floor number
+one because this is a primary it s
+notifying me that this is a primary key
+in case that I forget or hit that I
+didn t notice it so go ahead make this
+three but I can duplicate the name
+without the problem so I can make this
+but again without a problem it will
+accept it because the person name is not
+the primary key and as we agreed that
+the primary key must be unique and
+cannot be null so if I try to make it
+null in here and give it any name maybe
+Emma go ahead place it anywhere as you
+can see in here personal ID doesn t have
+a default value I can make this 4 and I
+can leave the name empty ok because the
+name is a personal name is not e a
+primary key on there is no I can strain
+to tell it that you must enter this name
+later we re going to see how to make it
+or make a constrain to make it enter the
+person name and it s not going to accept
+any data if you didn t enter the person
+name without making it a key okay so
+this is one of the way is to create
+primary key so I m going to drop the
+table and create the primary key in a
+different way to drop table persons
+I haven t grabbed it now let s drop this
+will fish or database don t we drop okay
+let s go ahead and create it again so
+I m going to create it in a different
+way and I m going to add something in
+here so I m going to create table
+prisons and I m going for the person ID
+let s type end run person name which is
+variable character as you created before
+150 so I still didn t add my primary key
+we have seen that we can add it in here
+very simply and we can add it in a
+different way we can come in here and
+tell it that I m going to add a
+constraint primary key is some type of
+constraint and we going to discuss
+constraints next so constraint I m gonna
+give it a name
+maybe primary key on the person ID this
+is just a name and I m going to specify
+that this Chris trained is of type
+primary key and I need to specify the
+column so the column is going to be
+person ID so this is another way to
+create a primary key and in here I m
+going to do a trick in here I m going to
+make this field go to increment out like
+this number to be incremented directly
+entering it so I m going to add this
+keyword butwho increment as you can see
+here turn it blue keyboard so this will
+make this field go to increment by one
+each time so I can come in here now and
+grab this as you can see in here because
+that I missed in here a comma so if I
+add this color in here and I m going to
+run this now activities are the problem
+so make sure that all the commands are
+placed without a problem go ahead and
+refresh it so here it here is my new
+created column going to go to the edit
+mode or the data and here I m going to
+having some data mcgann specific person
+ID I m going to choose the person name
+maybe James then going to I don t know
+one did you see that that the
+personality was generated automatically
+without me having this let s push again
+maybe jacked I have something with the
+J s here and add it as you can see the
+two also added maybe use Jennifer and
+here it is as you can see if I delete it
+one record if I press right click delete
+selected row and if I add it again what
+do you think the person ID is going to
+be three four
+else it s going to be not three it s
+going to be four so let s go ahead and
+maybe my name and here it is because in
+the background it already saved that
+there is there was a three numbers tree
+so it s keep incrementing with time
+litter we can see how can we reset it
+I ll get the last value okay so this is
+how can you create primary keys using
+this healer script the easy way of
+course to created using the IDS you feel
+so if I come in here until it to create
+new table so I can come in here now and
+add and you call them I m gonna give it
+a name maybe this is going to be an
+employee table don t mean take in the
+multi ID going to be use five and then
+add another one the column maybe it s
+going to be the employee for the first
+name lyric first name is going to be a
+variable character okay and another one
+the last I m going to keep it simple so
+to make this a primary key simply just
+right click in here create new index
+primary now it s flagged on market as a
+primary key as you can see in here and
+you can come in here and give the table
+a name so this table is going to be cold
+please save it and if i refresh my human
+resources database now i m gonna see
+that there is d please it will create it
+as i go to edit mode we are already in
+dated mode in here and the employee ID
+is market ANSI primary key so that s it
+about the primary is and see you in the
+next lecture welcome back
+he s lecture we re going to discuss
+constraints constraints are used in
+Moorea DB to limit the behavior of the
+data entered into a table i can make for
+example some fields are mandatory that i
+have to enter them I can make some
+fields for to increment I can make some
+columns unique without making them
+primary keys or I can
+make them have a default value let s go
+ahead and see how can we do this so in
+here I m going to drop the table persons
+I m going to create it again but first
+let s go be current one so drop table
+persons if you have it go ahead and drop
+it if you don t have then ignore this
+command in here okay so what I m going
+
+persons and I m going to create the
+first column person ID it s going to be
+X type and primary key you want to be
+you to increment so now this field is
+the primary key which means that this is
+going to be a unique and can contain
+null values and is going to be Oh to
+incremented by one each time I create
+another column person name it s going to
+be of type variable director and the
+person named in a mandatory field so the
+user has to enter it so I m going to
+make this using this keyword not long
+now memory DB will it shake if this row
+or this column is not entered it will
+not allow you to save or insert in the
+database I m going to see this the
+address for example the address is going
+to be variable character but it s not
+going to have any special constraint
+about it I m gonna leave it as it is so
+user can enter it or can t it some time
+so I m going to use field maybe the
+passport number the passport number is
+going to be a variable character because
+it contains letters and is going to be
+unique because you best put number it s
+only for you no one else can have your
+passport number so to make this field
+unique without making it
+hurricane sandy we use the keyword
+unique now it will make sure that only
+one passport number is stored in your
+whole table and the one else can use it
+again I m going to discus now let s go
+ahead and create movies a salary here
+it s going to be disabled maybe ten and
+two and I m gonna make the salary how
+the default value may be if the user
+didn t enter B value have a default I m
+gonna set the number to maybe 4 000 okay
+so I ve created the person s table with
+a little bit different constraints in
+here we had a be not null to the person
+name they unique to the passport number
+and a default value of 4 000 to the
+salary let s go ahead and execute this
+and a fresh and open our person s table
+in here if you take a look now the
+YouTube or the allowed null in here is
+checked
+this is allowed now this also and this
+but it s not the person name because I
+told it in the query when we were
+creating the table that this cannot
+contain love so I can go ahead and edit
+them in here without the problem okay so
+let s go ahead and try it so I m going
+to add a record in here maybe person ID
+what I m gonna leave it actually it s
+going to increment so I m going to have
+a person name don t be the person name
+is going to be Charla s and the address
+I m going to leave it like this and the
+password number maybe a 1 3 4 this is
+just course he doesn t eat and as you
+can see I didn t enter this Hillary and
+it s already there I can go ahead and
+change it or I can leave it okay that s
+what I need to specify for the first
+time so I m going nuts user to choose
+resembles to will so it s going to
+increment
+one each time after the twelve in here
+okay so go ahead sat on the wall I m
+going to add a person ID person name is
+going to be Emma
+let me there is not to enter the
+personally I m going to choose number
+maybe seven eight nine and I m going to
+change the salary maybe five thousand
+let s try this as you can seen here the
+field person name doesn t have a default
+value okay this means that there is no
+default value on I didn t give it a
+value so it s empty and this view cannot
+be empty I m going to add a name here as
+you can see now the person ID
+incremented by one which is now 13 let s
+go ahead and add another one we re going
+to add this maybe 15 I m going to skip
+one I m going to add maybe my name make
+the address wanted free Street and I m
+going to add the same password number as
+Charlie so I m going to go for a 1 2 3 4
+now let s see what user base is going to
+tell us as you can see dublicate entry a
+1 2 3 4 the data that I entered is
+already existed so it cannot be added
+again by SI phan seizure let s go ahead
+and change it maybe make it 1 and it s
+saved as you can see and if I added
+number it s keep adding or incrementing
+after the last number that the add which
+is 15 so now it s going to be 16 this is
+going to be jacked I ll leave everything
+else okay now it s steamed and as you
+can see in here the address and the
+passport number accepted they note
+because I didn t tell it that B must be
+entered and the salary is a default
+value when come back everyone in the
+station going to discuss for in case but
+first let s define what is a foreign key
+foreign key is one or more columns in a
+table that you first in the primary key
+in another table for
+is used to link two tables together so
+its main purpose is to do linking or
+design a relation between tables as we
+going to see so let s go ahead and see
+how can we create foreign keys and
+designed relations in Moorea DP we re
+going to see it using the SQL script
+first and using the idea secure so let s
+go ahead now and create two table I m
+going to create a table 140 countries
+I m going to store the countries in it
+and one for the cities and there is a
+relation between the countries and the
+cities each city should belong to one
+country so we re going to make a
+relation between the cities and the car
+so let s first create the countries
+table so I m going to create table
+countries I m going to create maybe
+primary key is going to be the country
+ID it s going to be an ID for the
+country it will act as the primary key
+primary key you can go ahead and make it
+put in Quentin you want and don t forget
+the type of it that s going to be
+entered and maybe the country name it s
+going to be variable corrector and maybe
+it s 150 and it s not long must be
+provided I live in the country
+abbreviation like for example x is use a
+UK de etc it s going to be variable
+character maybe maybe farce is enough I
+guess and it can be known nothing
+special about this and we can go ahead
+and even add the capital of each country
+it s going to be real character maybe
+100 okay now we re done with the
+countries table if we run this you
+should have a new table called punches
+it s refresh our database and here it is
+here is the table countries and the
+country ID is a primary key it s good to
+go ahead and continue so right now we
+didn t create any foreign keys in this
+table the stick is that we re going to
+create we re going to create
+Rinke and make a relation between the
+countries and the cities so create table
+cities city ID probably when you re
+creating something you will have a ID
+for each row to identify this row it
+will act as the primary key so I m going
+to use e see the ID to know to be an
+entity going to be the primary heat some
+special cases we will need to have two
+colons as the primary key as we going to
+see city name also variable character
+maybe 150 again not low right now I
+didn t make the relationship between the
+countries and the city so I m going to
+do it how do I do this okay first we
+tell that we re going to create a
+foreign key like this and it s going to
+be on the country ID but wait a minute I
+don t have a country ID in this table so
+you need to create a country ID in this
+table in here and just leave it as it
+don t mark it with anything okay
+so right now I have three the city ID
+which belongs to this city and the city
+name belongs to the city
+containing the name of the city and the
+country our deeds come to hold for
+example 1 2 or 3 or 10 1100 or any other
+number and this number will link to this
+table to get the data related to this
+number how are we going to see so here I
+specified that I m going to create a
+foreign key on this column in this table
+but I need to tell it where it s going
+to link so I m going to use this new
+keyboard references and I m going to
+tell it that it s going to take you to
+the countries table this is the table in
+here and I m going to add the column in
+this table so again what did I do
+I added the country ID in here which is
+going to
+all the numbers it s going to link me to
+this table to this specific row in here
+are we going to see this and detailed
+how to link it and how to extract this
+data from here and then we added the
+foreign key it s going to be the country
+IDs mean this column in here is going to
+reference to this table the countries to
+this column and this table okay I hope
+it s clear let s go ahead and try to
+execute this run selection and we should
+have cities here it is go ahead to edit
+mode as you can see I have a special
+field in here as you can see there is
+some kind if you can see this there is a
+link between two tables in here if I go
+to this tab soaring Keys tab in here I
+can see that there is a foreign key
+created and it s going to be linked it
+the coulomb ID in my table it s going to
+the table reference table countries to
+the foreign column which is the country
+ID this is exactly the information that
+we gave in here in the query foreign key
+country ID reference to the countries to
+the country ID this is it the same only
+that we are using here to Joey
+o di da secure okay right now I m going
+to create a new table using behind the
+SQL and I m going to connect it to the
+employees table in here this table is
+going to be called department it s going
+to contain the departments in my Human
+Resources database so let s go ahead and
+create this new table to right click
+create new table I m gonna name it in
+the portland s I m going to add a new
+column department ID it s going to be
+under force go ahead and mark this as
+primary key create new index primary add
+apartment name variable character I m
+
+okay it s created
+we refresh our database we can see that
+we have a new created table departments
+so what I m going to do is I m going to
+link the department ID to the employees
+ID in here using the same Cola but I
+don t have a department ID on this
+column if you remember so I m going to
+add the department ID in them please
+here go ahead and click Add
+it added it a number Street you can go
+ahead and leave it or move it down I d
+like to move it down moved anywhere you
+like just to look nice things Department
+ID and this time is going to be and
+there it is okay let s go to the foreign
+keys tab can t add you Frankie I m going
+to name it maybe the Portland the
+Portland ID please just go ahead and
+choose anything that you like colons is
+going to be the department ID it s going
+to be reference it to the table this is
+the table that I m going to link to
+which is the department s I m going to
+link to the department ID column in the
+departments table to go ahead and click
+this let s go ahead and click Save and
+it s saved successfully and as you can
+see in here there is some link I can
+create it in the department ID if you
+have problem creating this foreign key
+or primary keys probably you will have
+some day ten years you go ahead and
+clear your data if you re going to do
+some linking and you re facing some
+problems okay so that s it about foreign
+keys and how to design relations we re
+going to see this frequently so hope
+it s easy see you in the next welcome
+back in this lecture we re going to see
+something really interesting we re going
+to see how to import data into our
+database to import data in R ad B we
+need to have CSV files CSV files can be
+created using excel sheet you can go
+ahead and create these before using X
+so you can just open an excel at some
+data you have some data and just save as
+CSV so right now I m going to upload a
+couple of tables in you re going to
+upload the country s departments and
+jobs I m avoiding the cities and
+employees because if you notice that
+cities have a relation with the country
+so there has to be some data for the
+countries I cannot go ahead and upload
+the cities first because it s going to
+look for the country ID and it will not
+find it the same for the employees it s
+going to look for the country ID and the
+department and if there is no data in
+these two tables I might have a problem
+so I m going to upload the first tables
+country s jumps and Portland s so let s
+start and adding some data but first I
+needed to go ahead and clear any data
+that you might have can go ahead and
+right click on the tables empty table or
+simply go to any data that you have like
+this for example just select what you
+want to delete right click and delete
+select it we re going to see how to
+delete data using SQL script later so
+right now I m going to choose tools
+import CSV file and from here I m going
+to export the first one I m going to be
+the countries and the user is a couple
+of information that I would like to
+avoid Swiss you ignore the first
+probably in most of these fee files all
+the exempt ions the first line or the
+first row is going to be the header so
+if that s not the case make it zero if
+you have the header and number one or
+the first line go ahead and make it one
+so that can ignore the first column okay
+here you have option you can insert you
+can insert ignore which is going to do
+duplicates or you can replace which is
+going to replace if there is a key if
+there is for example country number one
+in your table ready and you re uploading
+an excel file or CSV file that have
+number one it s going to replace it so
+I m going to choose replace for now and
+in here I m choosing combat so please
+make sure that you have a comma fields
+terminated by comma
+okay honey
+the destination I m going to choose of
+course the human resources that the base
+go ahead and choose the name of the
+database that you have name it I hope
+that you named it like me human
+resources so that s easier and in here
+I m going to choose the table that I m
+going to upload to in this case I m
+going to choose countries okay here the
+field that I m going to copy or upload
+go ahead and import and it didn t say
+anything but it uploaded it if I go to
+the countries right now as you can see
+now I have a couple of countries you can
+go ahead and add more if you d like but
+this is what I have right now let s go
+ahead and try another one tools the
+quotes is V let s change the file I m
+going to choose maybe dumps go ahead and
+more resources selected choose jobs
+report let s go ahead and check it two
+jobs and here we have the jobs we have
+them my name um salary the maximum
+salary and the minimum experience years
+really interesting let s do the last one
+Ford says V let s choose the
+department s and change the table to
+departments which is already selected
+let s check the department and here is
+our departments so that s how you can
+upload data into database using the
+heidi is um very easy I think and very
+powerful see you can see mix Lichter so
+as your database is growing you might
+have a problem instead of mining which
+relation is going between two tables so
+we can use a concept called entity
+relationship diagram
+oh the erd to the Des Moines this
+relationships between different tables
+as our database is growing
+what is entity relationship diagram it s
+a visual form of relational databases
+it shows entities all the tables in a
+database and the relationships between
+the tables within this database it s
+essential to have erd as it shows three
+basic elements the tables two attributes
+all the columns
+the different relationships between them
+we cannot do this using the Heine SQL
+the switcher is not available right now
+have I told you there is different
+graphical user interface that we can use
+for a DB first one that they recommend
+in the website at the debase workbench
+and here the link in the official Maria
+DB website and who the link for the
+database workbench and there is the
+dbForge studio from Murray ATP and the
+Navi cat and the DB schema there is
+other alternative that we can use but
+all of these alternatives are not
+straight the obtained GUI that we can
+use the one that we re going to try
+right now at the DB schema so I m going
+to install it right now I m trying to
+show you some of the basics to use a DP
+
+okay here is the URL that we re going to
+use www dsc uci edu go ahead and click
+on the green button if you d like and it
+will do load the DB schema for the
+version of Windows you re using I m
+using e 64 bit right now so I m going to
+install this I have it already installed
+but I m going to install it again with
+
+yes I would like to update probably will
+not have this one aren t you the SQL
+query hardware we re not going to use
+this GUI or the DB schema to open all
+the is you ll find just only this the DB
+schema
+project file so first next it s going to
+install that s pretty straightforward
+the there is no a lot of steps in here
+just a simple installation after the
+installation is done we re going to see
+how can we connect this DP schema to an
+RIA db2 can get all the information
+remember that we have the resources with
+some tables cities
+countries and please answer okay great
+run the DB schema here it is okay as you
+can see in here that this is a trial and
+will expire in 15 days if you d like to
+buy it you can go ahead and pipe as you
+can see here I have a diagram for a
+little baby that I have already in my
+system as you can see he read the main
+table the phones yeah there is the film
+ID the title of the film the description
+the release year and there is a
+different relation it s really a
+beautiful leg rhyme in here see the
+relations where is going to one the type
+of relation the Coulomb really beautiful
+so how can I do this diagram to our
+Human Resources database okay let s go
+ahead and see how can we create this
+beautiful diagram so he moves it to the
+base it s not going to be a lot of table
+to have our table donut at much do fewer
+than this so I m going to choose project
+new project I m gonna name it
+Human Resources handful here the our
+DBMS you can go ahead and choose any
+database there is a lot of databases in
+here as you can see folks prefer derby
+db2 there is a skill the minus ik l can
+Sandra what have databases that we can
+use we re going to choose Maria Debbie
+where are you Maria as you can see the
+interface is a changing based on the
+type of the database going to go for
+Maria de P and in here you can find all
+the default settings the localhost I
+have here the IB if you have a different
+IP for your database or it is on the
+cloud open another server you can go
+ahead and add the host name or the IP
+address and this is the port I have the
+default port in here she s 306 and here
+is the root and the password you can go
+ahead and type it and as you can see now
+I have access to the databases I have
+the information schema and the human
+resources or I can even come in here and
+create you just press connect and
+it shows me that there is the human
+resources and with tables okay that s
+what I m going to work with press okay
+and here it is I have my my grams this
+is just a quick tour in here you can go
+ahead and use it to see what s doing
+what if you d like but we re going to
+see this so here is my high tables that
+we ve created if you remember we have
+taken please and here is the columns
+holding please the countries and here is
+the relation between the countries as
+you can see and then please and the
+relation between the countries and the
+cities and the cities and the experience
+previous experience and the importance
+and the empty really amazing chose me
+what is going where without me taking a
+look at foreign keys or anything this is
+just a beautiful diagram this is the erd
+diagram or the entity relationship
+diagram as you can see me we missed one
+link we actually didn t miss it but we
+can see that maybe you missed some
+relation that you need to add retable
+that is not connecting to any table this
+help you really view the relationship
+between new tables it s not only just
+about views we can go ahead and for
+example I think I m Annie and right
+click and there is a plenty of options
+in here that we can do for example I can
+change it to color this is a special
+table for example the jobs I can go
+ahead and make it crab just means that
+there is some kind of a problem with
+this table in here or I can come in here
+and set a call out I can say that there
+is no relation for this table at the
+moment okay now I can see that there is
+this command in here showing me on my
+colleague that there is information for
+this table at the moment I can go ahead
+in here and mark this and the main table
+for example go ahead and make call out
+main table or I can change the color
+also maybe green this now you can change
+the the green in here so it s
+really nice and if I need the schema
+divvy you can go ahead play with it next
+we re going to see how to create tables
+using the DB schema see you in the next

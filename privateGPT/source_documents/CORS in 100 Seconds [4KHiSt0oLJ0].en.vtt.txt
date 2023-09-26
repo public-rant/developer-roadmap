@@ -1,0 +1,90 @@
+cross origin resource sharing or cores
+is a mechanism that allows a website on
+one url to request data from a different
+url
+and it s frustrated both front end and
+back end developers since the dawn of
+time you may have tried to use an image
+on your website that lives on a
+different url
+only to end up with a broken image or
+your website might try to fetch data
+from your api
+then fail with a coors error in the
+console that happens
+because the browser implements the same
+origin policy as part of its security
+model which allows a website to freely
+request
+images and data from its own url but
+blocks anything from an external url
+unless certain conditions are met when
+the browser makes a request
+it adds an origin header to the request
+message if that request goes to a server
+on the same origin
+then it s allowed by the browser with no
+questions asked however
+if that request goes to a different url
+then it s known as a cross origin
+request
+when sending the response the server
+will add the access control allow origin
+header
+its value needs to match the origin
+header on the request
+or it can be a wild card which allows
+any url to make the request
+if it s a mismatch though the browser
+will prevent the response data from
+being shared with the client
+this results in an error in the browser
+but for security reasons there s very
+limited information about what actually
+went wrong
+the solution to a corsair lies on the
+server if you don t control the server
+you re out of luck
+if you do control it you likely just
+need to configure it to respond with a
+proper header in express js for example
+that can be achieved with a single line
+of middleware code which tells the
+server to include the course headers on
+every response
+now certain http requests like put or
+any request with a non standard header
+will need to be preflighted
+and just like at the airport it s a
+sanity check that ensures the passenger
+or request
+is safe to fly on the airplane or server
+the browser automatically knows when to
+preflight and will first make a request
+using the options http verb
+the server will then respond saying yes
+i allow this origin
+to make requests with the following
+methods at which point the main request
+can happen
+without fear of disaster that may sound
+inefficient but the server can respond
+with a max age header allowing the
+browser to cache a preflight for a
+certain amount of time
+if you happen to be facing a coors error
+right now open the network tab in the
+browser
+find the response and look for the
+access control allow origin header if it
+doesn t exist you need to enable cores
+on your server
+if it does exist the url may be a
+mismatch with the website
+or if it was preflighted it may not be
+allowing those methods or headers in the
+request
+all of which are things you can
+configure on the server this has been
+cross origin resource sharing in 100
+seconds thanks for watching and i will

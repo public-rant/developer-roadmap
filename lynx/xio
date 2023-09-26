@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.codecademy.com/article/what-is-rest > $(basename https://www.codecademy.com/article/what-is-rest).txt

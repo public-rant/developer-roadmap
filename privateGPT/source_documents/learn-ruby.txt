@@ -1,0 +1,357 @@
+   #[https://www.codecademy.com/blog.rss]Codecademy Blog
+
+   [https://www.codecademy.com/learn/learn-ruby#course-landing-page-headin
+   g]Skip to Content
+
+     * Loading menu bar
+
+     * Loading menu bar
+     * (BUTTON) Menu Icon
+
+   Free
+   Course
+
+Learn Ruby
+
+   Learn to program in Ruby, a ﬂexible and beginner-friendly language used
+   to create sites like Codecademy.
+   4.4
+   (BUTTON) 3,869 ratings
+   [https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-
+   ruby]Start
+   405,280 learners enrolled
+     * Skill level
+       Beginner
+     * Time to complete
+       Approx. 10 hours
+     * Certificate of completion
+       Included with paid plans
+     * Prerequisites
+       None
+
+About this course
+
+   Ruby is a general-purpose language that is still popular and in high
+   demand in the marketplace, as it’s more commonly used in Rails
+   applications.
+
+   Concise and readable, it is easy to pick up but also plenty powerful.
+   Companies like Twitter, Soundcloud, Goodreads, and Kickstarter got
+   their products off the ground with Ruby.
+   (BUTTON) Read moreMini Chevron Down Icon
+
+Syllabus
+
+   19 lessons • 0 projects • 0 quizzes
+   (BUTTON) Expand all sections
+     * (BUTTON)
+       1
+
+Introduction to Ruby
+       Learn about Ruby, an object-oriented scripting language you can use
+       on its own or as part of the Ruby on Rails web framework.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       2
+
+Control Flow in Ruby
+       Learn how to write more complex programs that can respond to user
+       input.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       3
+
+Looping with Ruby
+       Learn to use loops and iterators to automate repetitive tasks.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       4
+
+Arrays and Hashes
+       Learn about arrays and hashes, including how to iterate over these
+       data structures.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       5
+
+Blocks and Sorting
+       Learn how to define your own methods, as well as how to use blocks
+       to develop powerful sorting algorithms.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       6
+
+Hashes and Symbols
+       Learn more about Ruby’s hash data structure including its various
+       syntaxes, relationship with symbols, and the commonly used methods
+       it
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       7
+
+Refactoring
+       Learn how to refactor code with Ruby’s best practices and
+       conventions in order to vastly improve the readability and
+       structure of a program.
+       Arrow Chevron Down Icon
+
+   (BUTTON) Show all 10 modules
+   [https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-
+   ruby]Start
+   The platform
+
+Hands-on learning
+
+   Don’t just watch or read about someone else coding — write your own
+   code live in our online, interactive platform. You’ll even get
+   AI-driven recommendations on what you need to review to help keep you
+   on track.
+   Animated demonstration of running code in Codecademy's learning
+   environment
+
+   Learn Ruby course ratings and reviews
+   4.4
+   3,869 ratings
+    1. 5 stars
+       59%
+    2. 4 stars
+       28%
+    3. 3 stars
+       9%
+    4. 2 stars
+       3%
+    5. 1 star
+       2%
+
+     * The course is excellent for beginners as it explores all the
+       fundamentals regarding Ruby and explains and presents them in a
+       neat and efficient manner.
+       Amal V.
+       Verified Learner
+     * A really helpful and well-made intro course to Ruby! I liked the
+       inclusion of the projects as well as the introduction to shorthands
+       like the ternary operator.
+       Sam M.
+       Verified Learner
+     * I'm very glad that my friend told me about Codecedemy and the Ruby
+       course. It is my first OOP language that I have learned, and I'm
+       excited that this course is so easy to learn.
+       Tuytuynnik D.
+       Verified Learner
+
+Our learners work at
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Two people in conversation while learning to code with Codecademy on
+   their laptops
+
+Unlock additional features with a paid plan
+
+     *
+
+Practice Projects
+       Guided projects that help you solidify the skills and concepts
+       you're learning.
+     *
+
+Assessments
+       Auto-graded quizzes and immediate feedback help you reinforce your
+       skills as you learn.
+     *
+
+Certificate of Completion
+       Earn a document to prove you've completed a course or path that you
+       can share with your network.
+
+   [https://www.codecademy.com/pricing]See pricing and plans
+
+Join over 50 million learners and start Learn Ruby today!
+
+   [https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-
+   ruby]Start
+
+Frequently asked questions about Ruby
+
+     * (BUTTON)
+
+What is Ruby?
+       Arrow Chevron Down Icon
+       Ruby is an open-source programming language, making it free for
+       anyone to use or contribute to. It’s also cross-platform, so you
+       can run its code on any operating system. Ruby’s syntax lacks many
+       of the special symbols you’ll find in some other languages, and as
+       a general-purpose language, it has a wide range of applications.
+     * (BUTTON)
+
+What does Ruby do?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What kind of jobs use Ruby?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What else should I study if I am learning Ruby?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+Should I learn Ruby as a beginner?
+       Arrow Chevron Down Icon
+
+Company
+
+     * [https://www.codecademy.com/about]About
+     * [https://www.codecademy.com/about/careers]Careers
+     * [https://www.codecademy.com/pages/codecademy-affiliate-program]Affi
+       liates
+     *
+          + [https://twitter.com/Codecademy]
+          + [https://codecademy.com/users/redirect?redirect_url=https://ww
+            w.facebook.com/groups/codecademy.community]
+          + [https://instagram.com/codecademy]
+          + [https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ]
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Plans
+
+     * [https://www.codecademy.com/pages/paid-plans]Paid memberships
+     * [https://www.codecademy.com/student-center]For students
+     * [https://www.codecademy.com/business]For teams
+
+Community
+
+     * [https://discuss.codecademy.com/]Forums
+     * [https://community.codecademy.com/chapters]Chapters
+     * [https://www.codecademy.com/events]Events
+     * [https://try.codecademy.com/code-crew/]Code Crew
+     * [https://www.codecademy.com/resources/blog/category/learner-stories
+       ]Learner Stories
+     *
+     * [https://discord.com/invite/codecademy]Discord
+
+Subjects
+
+     * [https://www.codecademy.com/catalog/subject/artificial-intelligence
+       ]AI
+     * [https://www.codecademy.com/catalog/subject/cloud-computing]Cloud
+       Computing
+     * [https://www.codecademy.com/catalog/subject/code-foundations]Code
+       Foundations
+     * [https://www.codecademy.com/catalog/subject/computer-science]Comput
+       er Science
+     * [https://www.codecademy.com/catalog/subject/cybersecurity]Cybersecu
+       rity
+     * [https://www.codecademy.com/catalog/subject/data-analytics]Data
+       Analytics
+     * [https://www.codecademy.com/catalog/subject/data-science]Data
+       Science
+     * [https://www.codecademy.com/catalog/subject/data-visualization]Data
+       Visualization
+     * [https://www.codecademy.com/catalog/subject/developer-tools]Develop
+       er Tools
+     * [https://www.codecademy.com/catalog/subject/devops]DevOps
+     * [https://www.codecademy.com/catalog/subject/game-development]Game
+       Development
+     * [https://www.codecademy.com/catalog/subject/information-technology]
+       IT
+     * [https://www.codecademy.com/catalog/subject/machine-learning]Machin
+       e Learning
+     * [https://www.codecademy.com/catalog/subject/math]Math
+     * [https://www.codecademy.com/catalog/subject/mobile-development]Mobi
+       le Development
+     * [https://www.codecademy.com/catalog/subject/web-design]Web Design
+     * [https://www.codecademy.com/catalog/subject/web-development]Web
+       Development
+
+Languages
+
+     * [https://www.codecademy.com/catalog/language/bash]Bash
+     * [https://www.codecademy.com/catalog/language/c]C
+     * [https://www.codecademy.com/catalog/language/c-plus-plus]C++
+     * [https://www.codecademy.com/catalog/language/c-sharp]C#
+     * [https://www.codecademy.com/catalog/language/go]Go
+     * [https://www.codecademy.com/catalog/language/html-css]HTML & CSS
+     * [https://www.codecademy.com/catalog/language/java]Java
+     * [https://www.codecademy.com/catalog/language/javascript]JavaScript
+     * [https://www.codecademy.com/catalog/language/kotlin]Kotlin
+     * [https://www.codecademy.com/catalog/language/php]PHP
+     * [https://www.codecademy.com/catalog/language/python]Python
+     * [https://www.codecademy.com/catalog/language/r]R
+     * [https://www.codecademy.com/catalog/language/ruby]Ruby
+     * [https://www.codecademy.com/catalog/language/sql]SQL
+     * [https://www.codecademy.com/catalog/language/swift]Swift
+
+Career building
+
+     * [https://www.codecademy.com/catalog/all]Career paths
+     * [https://www.codecademy.com/pages/career-services]Career services
+     * [https://www.codecademy.com/pages/interview-prep]Interview prep
+     * [https://www.codecademy.com/pages/pro-certifications]Professional
+       certification
+     * —
+     * [https://www.codecademy.com/catalog/all]Full Catalog
+     * [https://www.codecademy.com/catalog/subject/beta]Beta Content
+     * [https://trello.com/b/vAgDXtT6/codecademy-releases-roadmap]Roadmap
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+     * [https://www.codecademy.com/policy]Privacy Policy
+     * [https://www.codecademy.com/cookie-policy]Cookie Policy
+     * [https://privacy.codecademy.com/]Do Not Sell My Personal
+       Information
+     * [https://www.codecademy.com/terms]Terms
+
+   Made with ❤️in NYC © 2023 Codecademy

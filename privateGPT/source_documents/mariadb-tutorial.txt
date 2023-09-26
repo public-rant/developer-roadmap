@@ -1,0 +1,442 @@
+    #[https://www.w3schools.blog/web-stories/feed/]W3schools » Stories
+   Feed [https://www.w3schools.blog/wp-json/wp/v2/pages/34501]alternate
+   [https://www.w3schools.blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2F
+   www.w3schools.blog%2Fmariadb-tutorial]alternate
+   [https://www.w3schools.blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2F
+   www.w3schools.blog%2Fmariadb-tutorial&format=xml]alternate
+
+   [https://www.w3schools.blog/mariadb-tutorial#content]Skip to content
+
+   [https://www.w3schools.blog/]W3schools
+
+   (BUTTON) Menu
+   MENUMENU
+     * [https://www.w3schools.blog/mariadb-tutorial]Academics
+          + [https://www.w3schools.blog/physics-tutorial]Physics
+          + [https://www.w3schools.blog/chemistry-tutorial]Chemistry
+          + [https://www.w3schools.blog/math-tutorial]Math
+          + [https://www.w3schools.blog/biology-tutorial]Biology
+          + [https://www.w3schools.blog/english-grammar-tutorial]English
+          + [https://www.w3schools.blog/hindi-tutorial]Hindi
+          + [https://wikipoint.blog/]Wiki
+     * [https://www.w3schools.blog/]Tutorials
+          + [https://www.w3schools.blog/quartz-java]Quartz scheduler
+          + [https://www.w3schools.blog/log4j-tutorial]Log4j
+          + [https://www.w3schools.blog/junit-tutorial]JUnit
+          + [https://www.w3schools.blog/java-mail-tutorial]Java Mail
+          + [https://www.w3schools.blog/generics-java]Java Generics
+          + [https://www.w3schools.blog/jaxb-java]JAXB
+          + [https://www.w3schools.blog/jsoup-tutorial-java]Jsoup
+          + [https://www.w3schools.blog/json-tutorial-java]JSON
+          + [https://www.w3schools.blog/xml-parser-java]XML Parser
+          + [https://www.w3schools.blog/data-structure-tutorial]Data
+            structure
+          + [https://www.w3schools.blog/category/assembly]Assembly
+     * [https://www.w3schools.blog/java-tutorial]Java
+          + [https://www.w3schools.blog/java-tutorial]Java
+          + [https://www.w3schools.blog/string-tutorial-java]String
+            handling
+          + [https://www.w3schools.blog/exception-handling-tutorial-java]E
+            xception handling
+          + [https://www.w3schools.blog/multithreading-tutorial-in-java]Mu
+            ltithreading
+          + [https://www.w3schools.blog/input-output-tutorial-java]Input
+            output
+          + [https://www.w3schools.blog/collection-tutorial-java]Collectio
+            n framework
+          + [https://www.w3schools.blog/java-date-time-api-tutorial]Java
+            date time api
+          + [https://www.w3schools.blog/java-regular-expressions-regex-tut
+            orial]Java regex
+          + [https://www.w3schools.blog/annotations-java]Java annotations
+          + [https://www.w3schools.blog/design-principles-java]Design
+            principles
+          + [https://www.w3schools.blog/java-design-patterns-tutorial-with
+            -examples]Design patterns
+          + [https://www.w3schools.blog/java-examples-programs]Java sample
+            programs
+          + [https://www.w3schools.blog/java-7-features-with-examples]Java
+            7 features
+          + [https://www.w3schools.blog/java-8-features-with-examples]Java
+            8 features
+     * [https://www.w3schools.blog/android-tutorial]Android
+     * [https://www.w3schools.blog/servlet-tutorial]Servlet
+          + [https://www.w3schools.blog/jsp-tutorial]JSP
+     * [https://www.w3schools.blog/spring-tutorial]Spring
+          + [https://www.w3schools.blog/spring-tutorial]Spring
+          + [https://www.w3schools.blog/spring-aop-tutorial]Spring AOP
+          + [https://www.w3schools.blog/dependency-injection-spring]Spring
+            DI
+          + [https://www.w3schools.blog/spring-mvc-tutorial]Spring MVC
+          + [https://www.w3schools.blog/spel-spring-expression-language]Sp
+            ring spel
+          + [https://www.w3schools.blog/spring-boot-tutorial]Spring boot
+          + [https://www.w3schools.blog/spring-security-tutorial]Spring
+            security
+     * [https://www.w3schools.blog/hibernate-tutorial]Hibernate
+     * [https://www.w3schools.blog/category/git]Git
+     * [https://www.w3schools.blog/category/aws]AWS
+     * [https://www.w3schools.blog/ajax-tutorial]Ajax
+     * [https://www.w3schools.blog/web-services-java-tutorial]WS
+          + [https://www.w3schools.blog/web-stories]Story Archives
+          + [https://www.w3schools.blog/ws-category/stories]Stories
+          + [https://www.w3schools.blog/ws-category/world]World
+          + [https://www.w3schools.blog/ws-category/animals]Animals
+          + [https://www.w3schools.blog/ws-category/science]Science
+          + [https://www.w3schools.blog/ws-category/entertainment]Entertai
+            nment
+          + [https://www.w3schools.blog/ws-category/travel]Travel
+          + [https://www.w3schools.blog/ws-category/news]News
+          + [https://www.w3schools.blog/ws-category/rarest]Rarest
+          + [https://www.w3schools.blog/ws-category/places]Places
+          + [https://www.w3schools.blog/ws-category/health]Health
+     * [https://www.w3schools.blog/python-tutorial]Python
+     * [https://www.w3schools.blog/mariadb-tutorial]Web
+          + [https://www.w3schools.blog/html-tutorial]HTML
+          + [https://www.w3schools.blog/css-tutorial]CSS
+          + [https://www.w3schools.blog/javascript-js-tutorial]Javascript
+          + [https://www.w3schools.blog/jquery-tutorial]jQuery
+          + [https://www.w3schools.blog/jquery-ui-tutorial]jQuery UI
+          + [https://www.w3schools.blog/php-tutorial]PHP
+          + [https://www.w3schools.blog/typescript-tutorial]TypeScript
+          + [https://www.w3schools.blog/reactjs-tutorial]ReactJS
+          + [https://www.w3schools.blog/backbonejs-tutorial]BackboneJS
+          + [https://www.w3schools.blog/mariadb-tutorial]Bootstrap
+               o [https://www.w3schools.blog/bootstrap-tutorial]Bootstrap
+               o [https://www.w3schools.blog/bootstrap-4-tutorial]Bootstra
+                 p 4
+          + [https://www.w3schools.blog/mariadb-tutorial]XML
+               o [https://www.w3schools.blog/xml-tutorial]XML
+               o [https://www.w3schools.blog/xml-dom-tutorial]XML DOM
+               o [https://www.w3schools.blog/xpath-tutorial]XPath
+               o [https://www.w3schools.blog/xslt-tutorial]XSLT
+               o [https://www.w3schools.blog/dtd-tutorial]DTD
+               o [https://www.w3schools.blog/xsd-xml-schema-definition-tut
+                 orial]XSD
+               o [https://www.w3schools.blog/xquery-tutorial]XQuery
+     * [https://www.w3schools.blog/mariadb-tutorial]Angular
+          + [https://www.w3schools.blog/angularjs-tutorial]AngularJS
+          + [https://www.w3schools.blog/angular-7-tutorial]Angular 7
+          + [https://www.w3schools.blog/angular-8-tutorial]Angular 8
+     * [https://www.w3schools.blog/mariadb-tutorial]DB
+          + [https://www.w3schools.blog/sql-tutorial]SQL
+          + [https://www.w3schools.blog/mysql-tutorial]MySQL
+          + [https://www.w3schools.blog/oracle-tutorial]Oracle
+          + [https://www.w3schools.blog/postgresql-tutorial]PostgreSQL
+          + [https://www.w3schools.blog/pouchdb-tutorial]PouchDB
+          + [https://www.w3schools.blog/mongodb-tutorial]MongoDB
+          + [https://www.w3schools.blog/sqlite-tutorial]SQLite
+          + [https://www.w3schools.blog/plsql-tutorial]PL/SQL
+          + [https://www.w3schools.blog/dbms-tutorial]DBMS
+     * [https://www.w3schools.blog/c-tutorial]C
+     * [https://www.w3schools.blog/java-interview-questions-and-answers]Q&
+       A
+          + [https://www.w3schools.blog/category/c-qa]C Q&A
+          + [https://www.w3schools.blog/category/c-qa-2]C# Q&A
+          + [https://www.w3schools.blog/category/cpp-qa]CPP Q&A
+          + [https://stackoverflowpoint.com/]StackOverflow
+     * [https://www.w3schools.blog/java-online-quiz-practice-test]Quiz
+     * [https://www.w3schools.blog/mariadb-tutorial]More
+          + [https://www.w3schools.blog/cpp-tutorial]CPP
+          + [https://www.w3schools.blog/jsf-tutorial]JSF
+          + [https://www.w3schools.blog/jdbc-tutorial]JDBC
+          + [https://www.w3schools.blog/jpa-tutorial]JPA
+          + [https://www.w3schools.blog/wordpress-tutorial]WordPress
+          + [https://www.w3schools.blog/maven-tutorial]Maven
+          + [https://www.w3schools.blog/shell-bash-tutorial]Shell/Bash
+          + [https://www.w3schools.blog/julia-tutorial]Julia
+          + [https://www.w3schools.blog/ant-tutorial]Ant Tutorial
+          + [https://www.w3schools.blog/scala-tutorial]Scala
+          + [https://www.w3schools.blog/category/world]World
+          + [https://www.w3schools.blog/jar-tutorial]JAR
+          + [https://www.w3schools.blog/war-tutorial]WAR
+
+   (BUTTON) Menu
+   MENUMENU
+     * [https://www.w3schools.blog/mariadb-tutorial]Academics
+          + [https://www.w3schools.blog/physics-tutorial]Physics
+          + [https://www.w3schools.blog/chemistry-tutorial]Chemistry
+          + [https://www.w3schools.blog/math-tutorial]Math
+          + [https://www.w3schools.blog/biology-tutorial]Biology
+          + [https://www.w3schools.blog/english-grammar-tutorial]English
+          + [https://www.w3schools.blog/hindi-tutorial]Hindi
+          + [https://wikipoint.blog/]Wiki
+     * [https://www.w3schools.blog/]Tutorials
+          + [https://www.w3schools.blog/quartz-java]Quartz scheduler
+          + [https://www.w3schools.blog/log4j-tutorial]Log4j
+          + [https://www.w3schools.blog/junit-tutorial]JUnit
+          + [https://www.w3schools.blog/java-mail-tutorial]Java Mail
+          + [https://www.w3schools.blog/generics-java]Java Generics
+          + [https://www.w3schools.blog/jaxb-java]JAXB
+          + [https://www.w3schools.blog/jsoup-tutorial-java]Jsoup
+          + [https://www.w3schools.blog/json-tutorial-java]JSON
+          + [https://www.w3schools.blog/xml-parser-java]XML Parser
+          + [https://www.w3schools.blog/data-structure-tutorial]Data
+            structure
+          + [https://www.w3schools.blog/category/assembly]Assembly
+     * [https://www.w3schools.blog/java-tutorial]Java
+          + [https://www.w3schools.blog/java-tutorial]Java
+          + [https://www.w3schools.blog/string-tutorial-java]String
+            handling
+          + [https://www.w3schools.blog/exception-handling-tutorial-java]E
+            xception handling
+          + [https://www.w3schools.blog/multithreading-tutorial-in-java]Mu
+            ltithreading
+          + [https://www.w3schools.blog/input-output-tutorial-java]Input
+            output
+          + [https://www.w3schools.blog/collection-tutorial-java]Collectio
+            n framework
+          + [https://www.w3schools.blog/java-date-time-api-tutorial]Java
+            date time api
+          + [https://www.w3schools.blog/java-regular-expressions-regex-tut
+            orial]Java regex
+          + [https://www.w3schools.blog/annotations-java]Java annotations
+          + [https://www.w3schools.blog/design-principles-java]Design
+            principles
+          + [https://www.w3schools.blog/java-design-patterns-tutorial-with
+            -examples]Design patterns
+          + [https://www.w3schools.blog/java-examples-programs]Java sample
+            programs
+          + [https://www.w3schools.blog/java-7-features-with-examples]Java
+            7 features
+          + [https://www.w3schools.blog/java-8-features-with-examples]Java
+            8 features
+     * [https://www.w3schools.blog/android-tutorial]Android
+     * [https://www.w3schools.blog/servlet-tutorial]Servlet
+          + [https://www.w3schools.blog/jsp-tutorial]JSP
+     * [https://www.w3schools.blog/spring-tutorial]Spring
+          + [https://www.w3schools.blog/spring-tutorial]Spring
+          + [https://www.w3schools.blog/spring-aop-tutorial]Spring AOP
+          + [https://www.w3schools.blog/dependency-injection-spring]Spring
+            DI
+          + [https://www.w3schools.blog/spring-mvc-tutorial]Spring MVC
+          + [https://www.w3schools.blog/spel-spring-expression-language]Sp
+            ring spel
+          + [https://www.w3schools.blog/spring-boot-tutorial]Spring boot
+          + [https://www.w3schools.blog/spring-security-tutorial]Spring
+            security
+     * [https://www.w3schools.blog/hibernate-tutorial]Hibernate
+     * [https://www.w3schools.blog/category/git]Git
+     * [https://www.w3schools.blog/category/aws]AWS
+     * [https://www.w3schools.blog/ajax-tutorial]Ajax
+     * [https://www.w3schools.blog/web-services-java-tutorial]WS
+          + [https://www.w3schools.blog/web-stories]Story Archives
+          + [https://www.w3schools.blog/ws-category/stories]Stories
+          + [https://www.w3schools.blog/ws-category/world]World
+          + [https://www.w3schools.blog/ws-category/animals]Animals
+          + [https://www.w3schools.blog/ws-category/science]Science
+          + [https://www.w3schools.blog/ws-category/entertainment]Entertai
+            nment
+          + [https://www.w3schools.blog/ws-category/travel]Travel
+          + [https://www.w3schools.blog/ws-category/news]News
+          + [https://www.w3schools.blog/ws-category/rarest]Rarest
+          + [https://www.w3schools.blog/ws-category/places]Places
+          + [https://www.w3schools.blog/ws-category/health]Health
+     * [https://www.w3schools.blog/python-tutorial]Python
+     * [https://www.w3schools.blog/mariadb-tutorial]Web
+          + [https://www.w3schools.blog/html-tutorial]HTML
+          + [https://www.w3schools.blog/css-tutorial]CSS
+          + [https://www.w3schools.blog/javascript-js-tutorial]Javascript
+          + [https://www.w3schools.blog/jquery-tutorial]jQuery
+          + [https://www.w3schools.blog/jquery-ui-tutorial]jQuery UI
+          + [https://www.w3schools.blog/php-tutorial]PHP
+          + [https://www.w3schools.blog/typescript-tutorial]TypeScript
+          + [https://www.w3schools.blog/reactjs-tutorial]ReactJS
+          + [https://www.w3schools.blog/backbonejs-tutorial]BackboneJS
+          + [https://www.w3schools.blog/mariadb-tutorial]Bootstrap
+               o [https://www.w3schools.blog/bootstrap-tutorial]Bootstrap
+               o [https://www.w3schools.blog/bootstrap-4-tutorial]Bootstra
+                 p 4
+          + [https://www.w3schools.blog/mariadb-tutorial]XML
+               o [https://www.w3schools.blog/xml-tutorial]XML
+               o [https://www.w3schools.blog/xml-dom-tutorial]XML DOM
+               o [https://www.w3schools.blog/xpath-tutorial]XPath
+               o [https://www.w3schools.blog/xslt-tutorial]XSLT
+               o [https://www.w3schools.blog/dtd-tutorial]DTD
+               o [https://www.w3schools.blog/xsd-xml-schema-definition-tut
+                 orial]XSD
+               o [https://www.w3schools.blog/xquery-tutorial]XQuery
+     * [https://www.w3schools.blog/mariadb-tutorial]Angular
+          + [https://www.w3schools.blog/angularjs-tutorial]AngularJS
+          + [https://www.w3schools.blog/angular-7-tutorial]Angular 7
+          + [https://www.w3schools.blog/angular-8-tutorial]Angular 8
+     * [https://www.w3schools.blog/mariadb-tutorial]DB
+          + [https://www.w3schools.blog/sql-tutorial]SQL
+          + [https://www.w3schools.blog/mysql-tutorial]MySQL
+          + [https://www.w3schools.blog/oracle-tutorial]Oracle
+          + [https://www.w3schools.blog/postgresql-tutorial]PostgreSQL
+          + [https://www.w3schools.blog/pouchdb-tutorial]PouchDB
+          + [https://www.w3schools.blog/mongodb-tutorial]MongoDB
+          + [https://www.w3schools.blog/sqlite-tutorial]SQLite
+          + [https://www.w3schools.blog/plsql-tutorial]PL/SQL
+          + [https://www.w3schools.blog/dbms-tutorial]DBMS
+     * [https://www.w3schools.blog/c-tutorial]C
+     * [https://www.w3schools.blog/java-interview-questions-and-answers]Q&
+       A
+          + [https://www.w3schools.blog/category/c-qa]C Q&A
+          + [https://www.w3schools.blog/category/c-qa-2]C# Q&A
+          + [https://www.w3schools.blog/category/cpp-qa]CPP Q&A
+          + [https://stackoverflowpoint.com/]StackOverflow
+     * [https://www.w3schools.blog/java-online-quiz-practice-test]Quiz
+     * [https://www.w3schools.blog/mariadb-tutorial]More
+          + [https://www.w3schools.blog/cpp-tutorial]CPP
+          + [https://www.w3schools.blog/jsf-tutorial]JSF
+          + [https://www.w3schools.blog/jdbc-tutorial]JDBC
+          + [https://www.w3schools.blog/jpa-tutorial]JPA
+          + [https://www.w3schools.blog/wordpress-tutorial]WordPress
+          + [https://www.w3schools.blog/maven-tutorial]Maven
+          + [https://www.w3schools.blog/shell-bash-tutorial]Shell/Bash
+          + [https://www.w3schools.blog/julia-tutorial]Julia
+          + [https://www.w3schools.blog/ant-tutorial]Ant Tutorial
+          + [https://www.w3schools.blog/scala-tutorial]Scala
+          + [https://www.w3schools.blog/category/world]World
+          + [https://www.w3schools.blog/jar-tutorial]JAR
+          + [https://www.w3schools.blog/war-tutorial]WAR
+
+MariaDB tutorial
+
+   Features of MariaDB
+
+   MariaDB can be understood as the advanced version of MySQL, as it
+   provides the same features of MySQL but with some extensions. MariaDB
+   offers some unique features that are listed below.
+     * Licenced under GPL, LGPL, or BSD.
+     * Includes a wide selection of storage engines (including
+       high-performance storage engines), for working with other RDBMS
+       data sources.
+     * Uses a standard and popular querying language.
+     * Runs on a number of operating systems.
+     * Supports a wide variety of programming languages.
+     * Facilitates support for PHP.
+     * Facilitates Galera cluster technology.
+     * Facilitates many operations and commands unavailable in MySQL.
+     * Eliminated and replaced the MySQL features that have a negative
+       impact on the performance.
+
+
+   Versions of MariaDB:
+   Latest Version Release Date   Original Version Release Date   Status
+   5.1.67         2013-01-30[13] 5.1              2009-10-29[12] Stable
+   5.2.14         2013-01-30[15] 5.2              2010-04-10[14] Stable
+   5.3.12         2013-01-30[17] 5.3              2011-07-26[16] Stable
+   5.5.56         2017-05-03[19] 5.5              2012-02-25[18] Stable
+   10.0.31        2017-05-23[21] 10               2012-11-12[20] Stable
+   10.1.24        2017-05-31[23] 10.1             2014-06-30[22] Stable
+   10.2.6         2017-05-23[25] 10.2             2016-04-18[24] Stable
+   10.3.0         2017-04-16[27] 10.3             2017-04-16[26] Alpha
+
+
+MariaDB tutorial
+
+     * [https://www.w3schools.blog/install-mariadb]Install MariaDB
+     * [https://www.w3schools.blog/data-types-mariadb]Data Types in
+       MariaDB
+     * [https://www.w3schools.blog/create-database-mariadb]CREATE DATABASE
+       in MariaDB
+     * [https://www.w3schools.blog/select-database-mariadb]SELECT DATABASE
+       in MariaDB
+     * [https://www.w3schools.blog/drop-database-mariadb]DROP DATABASE in
+       MariaDB
+     * [https://www.w3schools.blog/drop-table-mariadb]DROP TABLE in
+       MariaDB
+     * [https://www.w3schools.blog/create-table-mariadb]CREATE TABLE in
+       MariaDB
+     * [https://www.w3schools.blog/insert-query-mariadb]INSERT query in
+       MariaDB
+     * [https://www.w3schools.blog/comparison-operator-mariadb]Comparison
+       Operator in MariaDB
+     * [https://www.w3schools.blog/select-query-mariadb]SELECT Query in
+       MariaDB
+     * [https://www.w3schools.blog/select-limit-mariadb]SELECT LIMIT in
+       MariaDB
+     * [https://www.w3schools.blog/update-query-mariadb]UPDATE Query in
+       MariaDB
+     * [https://www.w3schools.blog/delete-query-mariadb]DELETE Query in
+       MariaDB
+     * [https://www.w3schools.blog/truncate-table-mariadb]TRUNCATE TABLE
+       in MariaDB
+     * [https://www.w3schools.blog/where-clause-mariadb]WHERE clause in
+       MariaDB
+     * [https://www.w3schools.blog/like-operator-mariadb]LIKE Operator in
+       MariaDB
+     * [https://www.w3schools.blog/order-by-mariadb]ORDER BY in MariaDB
+     * [https://www.w3schools.blog/distinct-clause-mariadb]DISTINCT clause
+       in MariaDB
+     * [https://www.w3schools.blog/from-clause-mariadb]FROM clause in
+       MariaDB
+     * [https://www.w3schools.blog/sum-function-mariadb]SUM function in
+       MariaDB
+     * [https://www.w3schools.blog/min-function-mariadb]MIN function in
+       MariaDB
+     * [https://www.w3schools.blog/count-function-mariadb]COUNT function
+       in MariaDB
+     * [https://www.w3schools.blog/max-function-mariadb]MAX function in
+       MariaDB
+     * [https://www.w3schools.blog/avg-function-mariadb]AVG function in
+       MariaDB
+     * [https://www.w3schools.blog/joins-mariadb]JOINS in MariaDB
+     * [https://www.w3schools.blog/left-outer-join-mariadb]Left Outer join
+       in MariaDB
+     * [https://www.w3schools.blog/right-outer-join-mariadb]Right Outer
+       Join in MariaDB
+     * [https://www.w3schools.blog/union-operator-mariadb]UNION operator
+       in MariaDB
+     * [https://www.w3schools.blog/union-all-operator-mariadb]UNION ALL
+       operator in MariaDB
+     * [https://www.w3schools.blog/intersect-operator-mariadb]INTERSECT
+       Operator in MariaDB
+     * [https://www.w3schools.blog/mariadb-export]MariaDB Export
+     * [https://www.w3schools.blog/function-mariadb]Function in MariaDB
+     * [https://www.w3schools.blog/procedure-mariadb]Procedure in MariaDB
+     * [https://www.w3schools.blog/regular-expressions-mariadb]Regular
+       Expressions in MariaDB
+     * [https://www.w3schools.blog/conditions-in-mariadb]Conditions in
+       MariaDB
+
+   [https://www.dmca.com/Protection/Status.aspx?ID=39bd3991-287f-45e5-9656
+   -bc691b3df115]Content Protection by DMCA.com
+   Please Share
+   [https://twitter.com/intent/tweet?text=MariaDB%20tutorial&url=https%3A%
+   2F%2Fwww.w3schools.blog%2Fmariadb-tutorial][http://reddit.com/submit?ur
+   l=https%3A%2F%2Fwww.w3schools.blog%2Fmariadb-tutorial&title=MariaDB%20t
+   utorial][http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F
+   %2Fwww.w3schools.blog%2Fmariadb-tutorial&title=MariaDB%20tutorial][http
+   s://www.w3schools.blog/mariadb-tutorial][https://mewe.com/share?link=ht
+   tps%3A%2F%2Fwww.w3schools.blog%2Fmariadb-tutorial][https://mix.com/mixi
+   t?url=https%3A%2F%2Fwww.w3schools.blog%2Fmariadb-tutorial][https://api.
+   whatsapp.com/send?text=MariaDB%20tutorial%20https%3A%2F%2Fwww.w3schools
+   .blog%2Fmariadb-tutorial][https://www.tumblr.com/widgets/share/tool?pos
+   ttype=link&canonicalUrl=https%3A%2F%2Fwww.w3schools.blog%2Fmariadb-tuto
+   rial&title=MariaDB%20tutorial&caption=][https://www.blogger.com/blog_th
+   is.pyra?t&u=https%3A%2F%2Fwww.w3schools.blog%2Fmariadb-tutorial&l&n=Mar
+   iaDB%20tutorial][http://www.diigo.com/post?url=https%3A%2F%2Fwww.w3scho
+   ols.blog%2Fmariadb-tutorial&title=MariaDB%20tutorial][http://www.livejo
+   urnal.com/update.bml?subject=MariaDB%20tutorial&event=https%3A%2F%2Fwww
+   .w3schools.blog%2Fmariadb-tutorial][https://www.w3schools.blog/mariadb-
+   tutorial]
+
+   IFRAME:
+   [https://www.w3schools.blog/ws/the-most-memorable-state-quarters-of-all
+   -time]iframe1
+
+   powered by Advanced iFrame. Get the [https://1.envato.market/Kd23v]Pro
+   version on CodeCanyon.
+   [https://www.mysqlw3schools.com/]MySQL
+
+   IFRAME:
+   [https://www.w3schools.blog/ws/12-most-expensive-french-bulldogs]iframe
+   1
+
+   powered by Advanced iFrame. Get the [https://1.envato.market/Kd23v]Pro
+   version on CodeCanyon.
+
+   IFRAME:
+   [https://www.w3schools.blog/ws/20-best-movies-of-all-time]iframe1
+
+   powered by Advanced iFrame. Get the [https://1.envato.market/Kd23v]Pro
+   version on CodeCanyon.
+
+   © Copyright 2023 W3schools.blog. All rights reserved.
+   [https://www.w3schools.blog/sitemap_index.xml]SiteMap
+
+   [https://www.w3schools.blog/mariadb-tutorial]

@@ -1,0 +1,697 @@
+   #[https://www.okta.com/identity-101/what-is-token-based-authentication/
+   ]alternate
+   [https://www.okta.com/uk/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/fr/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/de/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/jp/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/nl/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/au/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/sg/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/kr/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/se/identity-101/what-is-token-based-authenticatio
+   n/]alternate
+   [https://www.okta.com/identity-101/what-is-token-based-authentication/]
+   alternate
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-KXMLV58]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-KXMLV58
+
+   Okta
+
+   Looks like you have Javascript turned off! Please enable it to improve
+   your browsing experience.
+
+   [https://www.okta.com/identity-101/what-is-token-based-authentication/#
+   main-content]Skip to main content
+
+   Oktane Early Bird pricing extended. Save $100 through July 31st.
+
+   Oktane Early Bird pricing extended. Save $100 through July 31st.
+
+   [https://www.okta.com/oktane/]Register now
+
+   [https://www.okta.com/oktane/]Register now
+
+   [https://www.okta.com/oktane/]Register for Oktane now and save $100!
+   [tel:+1-800-425-1267]+1 (800) 425-1267
+   [https://www.okta.com/identity-101/what-is-token-based-authentication/#
+   chat-now]Chat with Sales
+   [https://www.okta.com/search]Search
+
+   United States
+     * [https://www.okta.com/uk/identity-101/what-is-token-based-authentic
+       ation/]United Kingdom
+     * [https://www.okta.com/fr/identity-101/what-is-token-based-authentic
+       ation/]France
+     * [https://www.okta.com/de/identity-101/what-is-token-based-authentic
+       ation/]Germany
+     * [https://www.okta.com/jp/identity-101/what-is-token-based-authentic
+       ation/]Japan
+     * [https://www.okta.com/nl/identity-101/what-is-token-based-authentic
+       ation/]Netherlands
+     * [https://www.okta.com/au/identity-101/what-is-token-based-authentic
+       ation/]Australia
+     * [https://www.okta.com/sg/identity-101/what-is-token-based-authentic
+       ation/]Singapore
+     * [https://www.okta.com/kr/identity-101/what-is-token-based-authentic
+       ation/]Korea
+     * [https://www.okta.com/se/identity-101/what-is-token-based-authentic
+       ation/]Sweden
+
+   [https://www.okta.com/]
+
+     * Customer Identity
+          +
+               o
+                    #
+                         @ Customer Identity Cloud
+                           Secure your consumer and SaaS apps, while
+                           creating optimized digital experiences.
+                           Innovate without compromise with Customer
+                           Identity Cloud.
+                         @ [https://auth0.com/signup?ocid=7014z000001cbvZA
+                           AQ-aPA4z0000008OZeGAM]Free trial
+                         @ [https://www.okta.com/pricing/#customer-identit
+                           y-products]Pricing
+                         @ [https://www.okta.com/customer-identity/]Explor
+                           e Customer Identity
+               o
+                    # Key Features
+                    # [https://auth0.com/universal-login]Universal Login
+                    # [https://auth0.com/single-sign-on]Single Sign On
+                    # [https://www.okta.com/customer-identity/#attack-prot
+                      ection]Attack Protection
+                    # [https://www.okta.com/customer-identity/#attack-prot
+                      ection]Organizations
+                    # [https://auth0.com/passwordless]Passwordless
+                    # [https://www.okta.com/customer-identity/]See all
+                      features
+               o
+                    # Go Further
+                    # [https://auth0.com/marketplace]Marketplace
+                    # [https://developer.auth0.com/resources]Developer
+                      Center
+                    # [https://community.auth0.com/?_ga=2.183091366.148157
+                      9306.1666290267-1015602461.1664989690&_gl=1%2Ahds30i
+                      %2Arollup_ga%2AMTAxNTYwMjQ2MS4xNjY0OTg5Njkw%2Arollup
+                      _ga_F1G3E656YZ%2AMTY2NjI5MDI2Ny4zLjEuMTY2NjI5MDUwNy4
+                      0NC4wLjA.]Community
+                    # [https://support.auth0.com/?_ga=2.174861474.14815793
+                      06.1666290267-1015602461.1664989690&_gl=1%2Aquf9%2Ar
+                      ollup_ga%2AMTAxNTYwMjQ2MS4xNjY0OTg5Njkw%2Arollup_ga_
+                      F1G3E656YZ%2AMTY2NjI5MDI2Ny4zLjEuMTY2NjI5MDUyNC4yNy4
+                      wLjA.]Knowledge Base
+                    # [https://status.auth0.com/?_gl=1%2A106pl39%2Arollup_
+                      ga%2AMzAyODgzOTQ2LjE2NjEzODIzNzE.%2Arollup_ga_F1G3E6
+                      56YZ%2AMTY2Njk3MjM3OC4yMS4wLjE2NjY5NzIzNzguNjAuMC4w&
+                      _ga=2.76843029.1408116888.1666972379-302883946.16613
+                      82371]Status
+     * Workforce Identity
+          +
+               o
+                    #
+                         @ Workforce Identity Cloud
+                           Connect and protect your employees,
+                           contractors, and business partners with
+                           Identity-powered security. Empower agile
+                           workforces and high-performing IT teams with
+                           Workforce Identity Cloud.
+                         @ [https://www.okta.com/free-trial/]Free trial
+                         @ [https://www.okta.com/pricing/]Pricing
+                         @ [https://www.okta.com/workforce-identity/]Explo
+                           re Workforce Identity
+               o
+                    # Key Features
+                    # [https://www.okta.com/products/single-sign-on/]Singl
+                      e Sign On
+                    # [https://www.okta.com/products/adaptive-multi-factor
+                      -authentication/]Adaptive MFA
+                    # [https://www.okta.com/products/lifecycle-management/
+                      ]Lifecycle Management
+                    # [https://www.okta.com/platform/workflows/]Workflows
+                    # [https://www.okta.com/products/identity-governance/]
+                      Identity Governance
+                    # [https://www.okta.com/workforce-identity/]See all
+                      features
+               o
+                    # Go Further
+                    # [https://www.okta.com/okta-integration-network/]Okta
+                      Integration Network
+                    # [https://developer.okta.com/]Developer Center
+                    # [https://devforum.okta.com/]Community
+                    # [https://support.okta.com/help/s/knowledge?language=
+                      en_US]Knowledge Base
+                    # [https://status.okta.com/?_ga=2.15183030.1408537636.
+                      1665532992-1758812997.1653668763]Status
+     * Why Okta
+          +
+               o
+                    #
+                         @ Why Okta
+                           Okta gives you a neutral, powerful and
+                           extensible platform that puts identity at the
+                           heart of your stack. No matter what industry,
+                           use case, or level of support you need, we’ve
+                           got you covered.
+               o
+                    # Your Goals
+                    # [https://www.okta.com/workforce-identity/]High-Perfo
+                      rming IT
+                    # [https://www.okta.com/customer-identity/]Optimized
+                      Digital Experiences
+                    # [https://www.okta.com/zero-trust/]Identity-Powered
+                      Security
+                    # [https://www.okta.com/customer-identity/]Innovation
+                      Without Compromise
+                    # [https://www.okta.com/workforce-identity/]Agile
+                      Workforces
+               o
+                    # Your Industry
+                    # [https://www.okta.com/solutions/public-sector/]Publi
+                      c Sector
+                    # [https://www.okta.com/solutions/financial-services/]
+                      Financial Services
+                    # [https://www.okta.com/solutions/retail/]Retail
+                    # [https://www.okta.com/solutions/healthcare/]Healthca
+                      re
+                    # [https://www.okta.com/solutions/travel-hospitality/]
+                      Travel & Hospitality
+                    # [https://www.okta.com/solutions/technology/]Technolo
+                      gy
+                    # [https://www.okta.com/solutions/energy/]Energy
+                    # [https://www.okta.com/nonprofits/]Nonprofit
+               o
+                    # Ensuring Success
+                    # [https://www.okta.com/customers/]Customer Success
+                      Stories
+                    # [https://www.okta.com/okta-advantage/]Okta Advantage
+                    # [https://www.okta.com/transparency/]Transparency
+                    # [https://trust.okta.com/]Trust
+     * Developers
+          +
+               o
+                    #
+                         @ For Developers
+                           Start building with powerful and extensible
+                           out-of-the-box features, plus thousands of
+                           integrations and customizations. Our developer
+                           community is here for you.
+               o
+                    # Customer Identity Cloud
+                    # [https://auth0.com/marketplace]Auth0 Marketplace
+                    # [https://developer.auth0.com/resources]Developer
+                      Center
+                    # [https://community.auth0.com/?_ga=2.183091366.148157
+                      9306.1666290267-1015602461.1664989690&_gl=1%2Ahds30i
+                      %2Arollup_ga%2AMTAxNTYwMjQ2MS4xNjY0OTg5Njkw%2Arollup
+                      _ga_F1G3E656YZ%2AMTY2NjI5MDI2Ny4zLjEuMTY2NjI5MDUwNy4
+                      0NC4wLjA.]Community
+                    # [https://support.auth0.com/?_ga=2.174861474.14815793
+                      06.1666290267-1015602461.1664989690&_gl=1%2Aquf9%2Ar
+                      ollup_ga%2AMTAxNTYwMjQ2MS4xNjY0OTg5Njkw%2Arollup_ga_
+                      F1G3E656YZ%2AMTY2NjI5MDI2Ny4zLjEuMTY2NjI5MDUyNC4yNy4
+                      wLjA.]Knowledge Base
+                    # [https://auth0.com/signup?ocid=7014z000001cbvZAAQ-aP
+                      A4z0000008OZeGAM]Sign up at Auth0 by Okta
+               o
+                    # Workforce Identity Cloud
+                    # [https://www.okta.com/okta-integration-network/]Okta
+                      Integration Network
+                    # [https://developer.okta.com/]Developer Center
+                    # [https://devforum.okta.com/]Community
+                    # [https://devforum.okta.com/]Knowledge Base
+                    # [https://www.okta.com/free-trial/]Sign up with Okta
+     * Resources
+          +
+               o
+                    #
+                         @ Resources and Support
+                           Here's everything you need to succeed with
+                           Okta. From professional services to
+                           documentation, all via the latest industry
+                           blogs, we've got you covered.
+               o
+                    # Resources
+                    # [https://www.okta.com/customers/]Customer Case
+                      Studies
+                    # [https://www.okta.com/resources/]Featured Resources
+                    # [https://www.okta.com/resources/events/]Events
+                    # [https://www.okta.com/blog/]Blog
+                    # [https://www.okta.com/press-room/]Press Room
+                    # [https://www.okta.com/resources/content-library/?fie
+                      ld_resource_solutions_target_id=All&type=analyst_res
+                      earch]Analyst Research
+                    # [https://www.okta.com/resources/content-library/?typ
+                      e=datasheet]Datasheets
+                    # [https://www.okta.com/resources/content-library/?typ
+                      e=demo]Demo Library
+                    # [https://www.okta.com/resources/content-library/?fie
+                      ld_resource_solutions_target_id=All&type=video]Video
+                      s
+                    # [https://www.okta.com/resources/content-library/?fie
+                      ld_resource_solutions_target_id=All&type=webinar]Web
+                      inars
+                    # [https://www.okta.com/resources/content-library/?fie
+                      ld_resource_solutions_target_id=All&type=whitepaper]
+                      Whitepapers
+               o
+                    # Customer Success
+                    # [https://www.okta.com/customer-first/]Customer First
+                      Overview
+                    # [https://www.okta.com/services/self-service/communit
+                      y/]Okta Community
+                    # [https://www.okta.com/services/success-and-support/]
+                      Support Services
+                    # [https://www.okta.com/services/professional-services
+                      /]Professional Services
+                    # [https://www.okta.com/services/training/]Training
+                    # [https://www.okta.com/services/certification/]Certif
+                      ication
+                    # [https://www.okta.com/partners/meet-our-partners/]Fi
+                      nd a Partner
+               o
+                    # Support
+                    # [https://support.okta.com/help/s/?language=en_US&_ga
+                      =2.141001906.1408537636.1665532992-1758812997.165366
+                      8763&_gl=1%2A19k8ftp%2A_ga%2AMTc1ODgxMjk5Ny4xNjUzNjY
+                      4NzYz%2A_ga_QKMSDV5369%2AMTY2NTU4ODY2NC41Ny4xLjE2NjU
+                      1ODk0OTAuNTkuMC4w]Help and Support
+                    # [http://help.okta.com/]Product Documentation
+                    # [https://support.okta.com/help/s/knowledge?language=
+                      en_US]Knowledge Base
+                    # [https://www.okta.com/faq/]Frequently Asked
+                      Questions
+                    # [https://www.okta.com/contact-sales/]Contact Us
+
+   [https://www.okta.com/free-trial/]Sign up
+   [https://www.okta.com/contact-sales/]Contact Us
+   [https://login.okta.com/?SAMLRequest=fc%2B7CsJAEAXQXvAflu1NNJUMeZBGELTx
+   1a%2FrYILJTtyZGD%2FfSBRiYzlw77lMnD3rSj3Qc0ku0YtgrhU6S5fSXRN9PKxmS52l00n
+   Mpq6iBvJWCrfDe4ss6vStRe9aDzmGIZfo1jsgwyWDMzUyiIV9vt1AH4XGk5ClSvewUgMNa%
+   2BYW%2FVj5jxhm9NLP67QQaSAMu64L6CYmsFSHlnzT4ZlLwTgcL6Sf8%2FeX9AU%3D]
+
+   Login
+   [https://www.okta.com/identity-101/what-is-token-based-authentication/]
+   Questions? Contact us: [tel:1-800-425-1267]1 (800) 425-1267
+
+     * [https://www.okta.com/identity-101/]Identity 101
+     * What Is Token-Based Authentication?
+
+What Is Token-Based Authentication?
+
+What Is Token-Based Authentication?
+
+   Thousands of businesses across the globe save time and money with Okta.
+   Find out what the impact of identity could be for your organization.
+   [https://www.okta.com/roi-calculator/]ROI Calculator
+
+What Is Token-Based Authentication?
+
+   Learn why Top Industry Analysts consistently name Okta and Auth0 as the
+   Identity Leader
+   [https://www.okta.com/resources/access-management-leader-gartner-magic-
+   quadrant-2021-id101/]Read more
+   Okta
+   Updated: 02/14/2023 - 11:14
+   Time to read: 8 minutes
+
+   Token-based authentication is a protocol which allows users to verify
+   their identity, and in return receive a unique
+   [https://www.okta.com/identity-101/access-token/]access token. During
+   the life of the token, users then access the website or app that the
+   token has been issued for, rather than having to re-enter credentials
+   each time they go back to the same webpage, app, or any resource
+   protected with that same token.
+
+   Auth tokens work like a stamped ticket. The user retains access as long
+   as the token remains valid. Once the user logs out or quits an app, the
+   token is invalidated.
+
+   Token-based authentication is different from traditional password-based
+   or server-based authentication techniques. Tokens offer a second layer
+   of security, and administrators have detailed control over each action
+   and transaction.
+
+   But using tokens requires a bit of coding know-how. Most developers
+   pick up the techniques quickly, but there is a learning curve.
+
+   Let's dig in, so you can determine if tokens are right for you and your
+   organization.
+
+A History of Authentication Tokens
+
+   [https://www.okta.com/identity-101/authentication-vs-authorization/]Aut
+   hentication and authorization are different but related concepts.
+   Before we had authentication tokens, we had passwords and servers. We
+   used traditional methods to ensure that the right people had access to
+   the right things at the right time. It wasn't always effective.
+
+   Consider passwords. Typically, they involve:
+     * User generation. Someone comes up with a combination of letters,
+       numbers, and symbols.
+     * Memory. The person must keep that unique combination in their mind.
+     * Repetition. Whenever the user needs to access something, the
+       password has to be entered.
+
+   Password theft is common. In fact, one of the first documented cases of
+   password theft happened all the way
+   [https://www.wired.com/2012/01/computer-password/]back in 1962. People
+   can't remember all of their passwords, so they resort to tricks, such
+   as:
+     * Writing them all down. Loose pieces of paper filled with passwords
+       are security nightmares.
+     * Repeating them. People tend to use the same password in multiple
+       places. If one password is discovered, many accounts may be
+       vulnerable.
+     * Slightly changing them. People change one letter or number when
+       prompted to update a password.
+
+   Passwords also require server authentication. Each time the person logs
+   on, the computer creates a record of the transaction. Memory load
+   increases accordingly.
+
+   Token authentication is different.
+
+   With token authentication, a secondary service verifies a server
+   request. When verification is complete, the server issues a token and
+   responds to the request.
+
+   The user may still have one password to remember, but the token offers
+   another form of access that's much harder to steal or overcome. And the
+   session's record takes up no space on the server.
+
+3 Authentication Token Types
+
+   All [https://www.okta.com/identity-101/security-token/]authentication
+   tokens allow access, but each type works a little differently.
+
+   These are three common types of authentication tokens:
+     * Connected: Keys, discs, drives, and other physical items plug into
+       the system for access. If you've ever used a USB device or
+       smartcard to log into a system, you've used a connected token.
+     * Contactless: A device is close enough to a server to communicate
+       with it, but it doesn't plug in. Microsoft's so-called
+       "[https://smallbiztrends.com/2017/07/token-ring-will-replace-passwo
+       rds.html]magic ring" would be an example of this type of token.
+     * Disconnected: A device can communicate with the server across long
+       distances, even if it never touches another device at all. If
+       you've ever used your phone for a two-factor authentication
+       process, you've used this type of token.
+
+   In all three of these scenarios, a user must do something to start the
+   process. They may need to enter a password or answer a question. But
+   even when they complete those preliminary steps perfectly, they can't
+   gain access without the help of an access token.
+
+Token Authentication in 4 Easy Steps
+
+   Use a token-based authentication system, and visitors will verify
+   credentials just once. In return, they'll get a token that allows
+   access for a time period you define.
+
+   The process works like this:
+     * Request: The person asks for access to a server or protected
+       resource. That could involve a login with a password, or it could
+       involve some other process you specify.
+     * Verification: The server determines that the person should have
+       access. That could involve checking the password against the
+       username, or it could involve another process you specify.
+     * Tokens: The server communicates with the authentication device,
+       like a ring, key, phone, or similar device. After verification, the
+       server issues a token and passes it to the user.
+     * Storage: The token sits within the user's browser while work
+       continues.
+
+   If the user attempts to visit a different part of the server, the token
+   communicates with the server again. Access is granted or denied based
+   on the token.
+
+   Administrators set limits on tokens. You could allow a one-use token
+   that is immediately destroyed when the person logs out. Or you could
+   set the token to self-destruct at the end of a specified time period.
+   Token Based Authentication
+
+JSON Web Token (JWT): A Special Form of Auth Token
+
+   Because so many users are accessing systems via mobile phones (apps)
+   and web apps nowadays, developers need a secure way to authenticate
+   that’s appropriate for those platforms.
+
+   To solve that challenge, many developers turn to JSON Web Tokens (JWTs)
+   when working on tokens for their applications.
+
+   A JSON web token (JWT) is an [https://tools.ietf.org/html/rfc7519]open
+   standard. The finished product allows for safe, secure communication
+   between two parties. Data is verified with a digital signature, and if
+   it's sent via HTTP, encryption keeps the data secure.
+
+   JWTs have three important components.
+    1. Header: Define token type and the signing algorithm involved in
+       this space.
+    2. Payload: Define the token issuer, the expiration of the token, and
+       more in this section.
+    3. Signature: Verify that the message hasn't changed in transit with a
+       secure signature.
+
+   Coding ties these pieces together. The finished product looks something
+   like this.
+
+   Don't be intimidated by
+   [https://www.okta.com/video/oktane20-whats-new-with-oauth-and-oidc/]JSO
+   N code. This type of notation is common when entities want to pass data
+   back and forth, and tutorials abound. If you're interested in using
+   JSON tokens but you've never tried the language before, a
+   [https://jwt.io/introduction/]resource like this could be helpful.
+
+Pros & Cons of JWTs
+
+   There are many benefits of JWTs.
+     * Size: Tokens in this code language are tiny, and they can be passed
+       between two entities quite quickly.
+     * Ease: Tokens can be generated from almost anywhere, and they don't
+       need to be verified on your server.
+     * Control: You can specify what someone can access, how long that
+       permission lasts, and what the person can do while logged on.
+
+   There are also potential disadvantages.
+     * Single key: JWTs rely on a single key. If that key is compromised,
+       the entire system is at risk.
+     * Complexity: These tokens aren’t simple to understand. If a
+       developer doesn’t have a strong knowledge of cryptographic
+       signature algorithms, they could inadvertently put the system at
+       risk.
+     * Limitations: You can’t push messages to all clients, and you can’t
+       manage clients from the server side.
+
+Why Should You Try Authorization Tokens?
+
+   You've assessed your current strategy, and you think things are working
+   just fine. Why should authorization tokens become part of your systems?
+   Very real benefits come to developers who take the plunge.
+
+   Authorization tokens are good for administrators of systems that:
+     * Often grant temporary access. Your user base fluctuates based on
+       the date, the time, or a special event. Granting and rescinding
+       access repeatedly is too draining. Tokens could be helpful.
+       Administrators of university library sites, for example, might
+       appreciate a token approach.
+     * Require granular access. Your server grants access based on
+       specific document properties, not user properties. Passwords don't
+       allow that time of fine-tuned detail.
+       For example, you run an online journal. You want everyone to read
+       and comment on only one document, not on any others. Tokens could
+       allow this.
+     * Are prime hacking targets. Your server contains sensitive documents
+       that could do your company intense damage on release. A simple
+       password doesn't offer enough protection. A piece of hardware helps
+       quite a bit.
+
+   Many more authentication token use cases exist. But this quick list
+   could get your creative juices flowing, and the more you think about
+   the benefits, the more likely you might be to get on board.
+
+Follow Authentication Token Best Practices
+
+   Authentication tokens are meant to enhance your security protocols and
+   keep your server safe. But they won't work effectively if you don't
+   build your processes with safety in mind.
+
+   Your authentication tokens should be:
+     * Private. Users can't share token authentication devices or pass
+       them around between departments. Just as they wouldn't share
+       passwords, they shouldn't share any other part of your security
+       system.
+     * Secure. Communication between the token and your server must be
+       secure via HHTPS connections. Encryption is a critical part of
+       keeping tokens safe.
+     * Tested. Run periodic token tests to ensure that your system is
+       secure and functioning properly. If you spot a problem, fix it
+       quickly.
+     * Appropriate. Pick the right token type for your individual use
+       case. For example, JWTs aren't ideal for session tokens. They can
+       be costly, and security risks involved with interception are
+       impossible to eliminate. Ensure you're always picking the right
+       tool for the job.
+
+   Don't take your authentication token decision lightly. Do your
+   homework, ask your peers, and ensure that you're doing the best job you
+   can for your company.
+
+Let Us Help
+
+   As we continue to evaluate how we secure access to our homes and
+   offices, it’s just as important to implement mechanisms like
+   token-based authentication to ensure that only the right people have
+   access to our digital resources.
+
+   Discover how Okta can better secure your world.
+
+References
+
+   [https://www.wired.com/2012/01/computer-password/]The World's First
+   Computer Password? It Was Useless Too. (January 2012). Wired.
+
+   [https://smallbiztrends.com/2017/07/token-ring-will-replace-passwords.h
+   tml]Microsoft Says This Magic Ring Could Make Passwords Obsolete. (June
+   2020). Small Business Trends.
+
+   [https://tools.ietf.org/html/rfc7519]JSON Web Token. (May 2015).
+   Internet Engineering Task Force.
+
+   [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+   ]Working With JSON. Mozilla.
+
+   [https://www.privatebank.citibank.com/learnMore.htm]Security Token.
+   Citi.
+
+   [https://www.investopedia.com/terms/s/security-token.asp]Security Token
+   Definition. (June 2020). Investopedia.
+
+   [https://www.explainthatstuff.com/how-security-tokens-work.html]Two-Fac
+   tor Authentication. (February 2020). Explain That Stuff.
+
+   [https://corpgov.law.harvard.edu/2018/12/20/when-are-tokens-securities-
+   some-questions-from-the-perplexed/]When Are Tokens Securities? Some
+   Questions from the Perplexed. (December 2018). Harvard Law School Forum
+   on Corporate Governance
+
+Additional Resources
+
+   Identity 101
+
+Biometrics: Secure Authentication in the Modern Age
+
+   Learn more
+   Identity 101
+
+What is Strong Authentication? We Rank 6 Security Factors
+
+   Learn more
+
+Interested in learning more?
+
+Okta Adaptive Multi-factor Authentication is the first step to going
+passwordless.
+
+   [https://www.okta.com/products/adaptive-multi-factor-authentication/]Le
+   arn more
+
+   [https://www.okta.com/]Okta
+
+   To connect with a product expert today, use our
+   [https://www.okta.com/#chat-now]chat box,
+   [https://www.okta.com/contact-sales/]email us, or call
+   [tel:+1-800-425-1267]+1-800-425-1267.
+   [https://www.okta.com/contact-sales/]Contact Us
+     * [https://www.youtube.com/OktaInc]YouTube
+     * [https://www.facebook.com/Okta/]Facebook
+     * [https://twitter.com/okta]Twitter
+     * [https://www.linkedin.com/company/okta-inc-/]LinkedIn
+
+   Footer Navtane22
+     * Company
+          + [https://www.okta.com/company/]About Us
+          + [https://www.okta.com/customers/]Our Customers
+          + [https://www.okta.com/company/leadership/]Leadership
+          + [https://investor.okta.com/?_ga=2.173311395.1408537636.1665532
+            992-1758812997.1653668763]Investors
+          + [https://www.okta.com/company/careers/]Careers
+          + [https://www.okta.com/resources/events/]Events
+          + [https://www.okta.com/press-room/]Press Room
+          + [https://www.okta.com/partners/]Partners
+          + [https://www.okta.com/responsibility/]Responsibility
+          + [https://www.okta.com/okta-for-good/]Okta for Good
+          + [https://www.okta.com/diversity/]Diversity, Inclusion &
+            Belonging
+     * Starting with Okta
+          + [https://www.okta.com/okta-advantage/]The Okta Advantage
+          + [https://www.okta.com/customer-identity/]Customer Identity
+            Cloud
+          + [https://www.okta.com/workforce-identity/]Workforce Identity
+            Cloud
+          + [https://www.okta.com/free-trial/]Free Trial
+          + [https://www.okta.com/pricing/]Pricing
+          + [https://www.okta.com/contact-sales/]Contact Sales
+          + [https://trust.okta.com/?_ga=2.112714756.1408537636.1665532992
+            -1758812997.1653668763&_gl=1%2A16ec8o3%2A_ga%2AMTc1ODgxMjk5Ny4
+            xNjUzNjY4NzYz%2A_ga_QKMSDV5369%2AMTY2NTU4ODY2NC41Ny4xLjE2NjU1O
+            Dg5MTIuNjAuMC4w]Trust
+          + [https://status.okta.com/?_ga=2.112714756.1408537636.166553299
+            2-1758812997.1653668763&_gl=1%2Ao9ielo%2A_ga%2AMTc1ODgxMjk5Ny4
+            xNjUzNjY4NzYz%2A_ga_QKMSDV5369%2AMTY2NTU4ODY2NC41Ny4xLjE2NjU1O
+            Dg5NDAuMzIuMC4w]Status
+          + [https://www.okta.com/accessibility/]Accessibility
+     * Help & Support
+          + [https://support.okta.com/help/s/?language=en_US&_ga=2.1410019
+            06.1408537636.1665532992-1758812997.1653668763&_gl=1%2A19k8ftp
+            %2A_ga%2AMTc1ODgxMjk5Ny4xNjUzNjY4NzYz%2A_ga_QKMSDV5369%2AMTY2N
+            TU4ODY2NC41Ny4xLjE2NjU1ODk0OTAuNTkuMC4w]Help and Support
+          + [https://www.okta.com/faq/]Frequently Asked Questions
+          + [https://www.okta.com/contact-sales/]Contact Us
+
+   Footer utility Navtane22
+     * [https://www.okta.com/privacy-policy/]Privacy Policy
+     * [https://www.okta.com/terms-of-service/]Site Terms
+     * [https://trust.okta.com/]Security
+     * [https://www.okta.com/html-sitemap/]Sitemap
+     * (BUTTON) Cookie Preferences
+     * [https://www.okta.com/your-privacy-choices/]Your Privacy Choices
+
+   Copyright © 2023 Okta. All rights reserved.
+
+   Footer utility Navtane22
+     * [https://www.okta.com/privacy-policy/]Privacy Policy
+     * [https://www.okta.com/terms-of-service/]Site Terms
+     * [https://trust.okta.com/]Security
+     * [https://www.okta.com/html-sitemap/]Sitemap
+     * (BUTTON) Cookie Preferences
+     * [https://www.okta.com/your-privacy-choices/]Your Privacy Choices
+
+   United States
+     * [https://www.okta.com/uk/identity-101/what-is-token-based-authentic
+       ation/]United Kingdom
+     * [https://www.okta.com/fr/identity-101/what-is-token-based-authentic
+       ation/]France
+     * [https://www.okta.com/de/identity-101/what-is-token-based-authentic
+       ation/]Germany
+     * [https://www.okta.com/jp/identity-101/what-is-token-based-authentic
+       ation/]Japan
+     * [https://www.okta.com/nl/identity-101/what-is-token-based-authentic
+       ation/]Netherlands
+     * [https://www.okta.com/au/identity-101/what-is-token-based-authentic
+       ation/]Australia
+     * [https://www.okta.com/sg/identity-101/what-is-token-based-authentic
+       ation/]Singapore
+     * [https://www.okta.com/kr/identity-101/what-is-token-based-authentic
+       ation/]Korea
+     * [https://www.okta.com/se/identity-101/what-is-token-based-authentic
+       ation/]Sweden

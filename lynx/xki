@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://cheatsheetseries.owasp.org/IndexTopTen.html > $(basename https://cheatsheetseries.owasp.org/IndexTopTen.html).txt

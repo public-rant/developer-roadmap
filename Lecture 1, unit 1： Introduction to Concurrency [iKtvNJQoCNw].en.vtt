@@ -1,0 +1,2848 @@
+WEBVTT
+
+
+
+00:00:00.030 --> 00:00:02.929 align:start position:0%
+ 
+hi<00:00:00.930><c> welcome</c><00:00:01.410><c> to</c><00:00:01.589><c> our</c><00:00:01.829><c> concurrency</c><00:00:02.550><c> unit</c><00:00:02.820><c> and</c>
+
+00:00:02.929 --> 00:00:02.939 align:start position:0%
+hi welcome to our concurrency unit and
+ 
+
+00:00:02.939 --> 00:00:04.220 align:start position:0%
+hi welcome to our concurrency unit and
+operating<00:00:03.300><c> systems</c><00:00:03.689><c> they're</c><00:00:03.990><c> trying</c>
+
+00:00:04.220 --> 00:00:04.230 align:start position:0%
+operating systems they're trying
+ 
+
+00:00:04.230 --> 00:00:05.720 align:start position:0%
+operating systems they're trying
+something<00:00:04.440><c> different</c><00:00:04.980><c> here</c><00:00:05.160><c> which</c><00:00:05.370><c> is</c><00:00:05.549><c> have</c>
+
+00:00:05.720 --> 00:00:05.730 align:start position:0%
+something different here which is have
+ 
+
+00:00:05.730 --> 00:00:07.099 align:start position:0%
+something different here which is have
+you<00:00:05.910><c> watched</c><00:00:06.120><c> lectures</c><00:00:06.509><c> at</c><00:00:06.629><c> home</c><00:00:06.660><c> and</c><00:00:07.020><c> then</c>
+
+00:00:07.099 --> 00:00:07.109 align:start position:0%
+you watched lectures at home and then
+ 
+
+00:00:07.109 --> 00:00:08.570 align:start position:0%
+you watched lectures at home and then
+we'll<00:00:07.259><c> work</c><00:00:07.410><c> out</c><00:00:07.589><c> homework</c><00:00:07.859><c> style</c><00:00:08.189><c> problems</c>
+
+00:00:08.570 --> 00:00:08.580 align:start position:0%
+we'll work out homework style problems
+ 
+
+00:00:08.580 --> 00:00:11.000 align:start position:0%
+we'll work out homework style problems
+in<00:00:08.670><c> the</c><00:00:08.760><c> classroom</c><00:00:09.260><c> let's</c><00:00:10.260><c> get</c><00:00:10.469><c> started</c>
+
+00:00:11.000 --> 00:00:11.010 align:start position:0%
+in the classroom let's get started
+ 
+
+00:00:11.010 --> 00:00:13.640 align:start position:0%
+in the classroom let's get started
+well<00:00:11.820><c> start</c><00:00:12.150><c> each</c><00:00:12.389><c> lecture</c><00:00:12.870><c> with</c><00:00:13.440><c> some</c>
+
+00:00:13.640 --> 00:00:13.650 align:start position:0%
+well start each lecture with some
+ 
+
+00:00:13.650 --> 00:00:15.140 align:start position:0%
+well start each lecture with some
+learning<00:00:13.920><c> objectives</c><00:00:13.980><c> these</c><00:00:14.670><c> are</c><00:00:14.820><c> the</c><00:00:14.910><c> things</c>
+
+00:00:15.140 --> 00:00:15.150 align:start position:0%
+learning objectives these are the things
+ 
+
+00:00:15.150 --> 00:00:16.730 align:start position:0%
+learning objectives these are the things
+that<00:00:15.240><c> you</c><00:00:15.480><c> should</c><00:00:15.690><c> learn</c><00:00:15.839><c> from</c><00:00:15.900><c> watching</c><00:00:16.529><c> this</c>
+
+00:00:16.730 --> 00:00:16.740 align:start position:0%
+that you should learn from watching this
+ 
+
+00:00:16.740 --> 00:00:19.370 align:start position:0%
+that you should learn from watching this
+lecture<00:00:17.220><c> our</c><00:00:18.150><c> goal</c><00:00:18.449><c> today</c><00:00:18.660><c> is</c><00:00:18.779><c> to</c><00:00:19.140><c> first</c>
+
+00:00:19.370 --> 00:00:19.380 align:start position:0%
+lecture our goal today is to first
+ 
+
+00:00:19.380 --> 00:00:22.130 align:start position:0%
+lecture our goal today is to first
+identify<00:00:19.619><c> uses</c><00:00:20.609><c> of</c><00:00:20.730><c> concurrency</c><00:00:21.180><c> what</c><00:00:21.900><c> is</c><00:00:22.020><c> it</c>
+
+00:00:22.130 --> 00:00:22.140 align:start position:0%
+identify uses of concurrency what is it
+ 
+
+00:00:22.140 --> 00:00:23.900 align:start position:0%
+identify uses of concurrency what is it
+good<00:00:22.320><c> for</c><00:00:22.350><c> when</c><00:00:22.800><c> do</c><00:00:22.890><c> we</c><00:00:22.980><c> use</c><00:00:23.130><c> it</c><00:00:23.189><c> identify</c>
+
+00:00:23.900 --> 00:00:23.910 align:start position:0%
+good for when do we use it identify
+ 
+
+00:00:23.910 --> 00:00:26.120 align:start position:0%
+good for when do we use it identify
+sources<00:00:24.210><c> of</c><00:00:24.510><c> concurrency</c><00:00:25.080><c> where</c><00:00:25.500><c> do</c><00:00:25.619><c> we</c><00:00:25.740><c> have</c>
+
+00:00:26.120 --> 00:00:26.130 align:start position:0%
+sources of concurrency where do we have
+ 
+
+00:00:26.130 --> 00:00:28.519 align:start position:0%
+sources of concurrency where do we have
+things<00:00:26.519><c> happen</c><00:00:26.880><c> at</c><00:00:26.970><c> the</c><00:00:27.029><c> same</c><00:00:27.090><c> time</c><00:00:27.510><c> I</c><00:00:27.750><c> want</c>
+
+00:00:28.519 --> 00:00:28.529 align:start position:0%
+things happen at the same time I want
+ 
+
+00:00:28.529 --> 00:00:30.259 align:start position:0%
+things happen at the same time I want
+you<00:00:28.590><c> to</c><00:00:28.680><c> understand</c><00:00:29.220><c> the</c><00:00:29.369><c> schedulers</c><00:00:29.820><c> role</c><00:00:30.150><c> in</c>
+
+00:00:30.259 --> 00:00:30.269 align:start position:0%
+you to understand the schedulers role in
+ 
+
+00:00:30.269 --> 00:00:32.209 align:start position:0%
+you to understand the schedulers role in
+concurrency<00:00:30.900><c> meaning</c><00:00:31.500><c> how</c><00:00:31.740><c> it</c><00:00:31.920><c> is</c><00:00:32.009><c> these</c>
+
+00:00:32.209 --> 00:00:32.219 align:start position:0%
+concurrency meaning how it is these
+ 
+
+00:00:32.219 --> 00:00:34.549 align:start position:0%
+concurrency meaning how it is these
+process<00:00:33.120><c> scheduler</c><00:00:33.600><c> which</c><00:00:33.780><c> decides</c><00:00:34.170><c> what</c><00:00:34.410><c> to</c>
+
+00:00:34.549 --> 00:00:34.559 align:start position:0%
+process scheduler which decides what to
+ 
+
+00:00:34.559 --> 00:00:37.549 align:start position:0%
+process scheduler which decides what to
+run<00:00:34.710><c> next</c><00:00:34.980><c> impact</c><00:00:35.579><c> concurrency</c><00:00:36.420><c> I'd</c><00:00:37.230><c> like</c><00:00:37.440><c> you</c>
+
+00:00:37.549 --> 00:00:37.559 align:start position:0%
+run next impact concurrency I'd like you
+ 
+
+00:00:37.559 --> 00:00:39.500 align:start position:0%
+run next impact concurrency I'd like you
+to<00:00:37.620><c> identify</c><00:00:37.829><c> real-world</c><00:00:38.760><c> examples</c><00:00:39.360><c> of</c>
+
+00:00:39.500 --> 00:00:39.510 align:start position:0%
+to identify real-world examples of
+ 
+
+00:00:39.510 --> 00:00:42.979 align:start position:0%
+to identify real-world examples of
+concurrency<00:00:40.079><c> how</c><00:00:40.820><c> we</c><00:00:41.820><c> work</c><00:00:42.030><c> with</c><00:00:42.270><c> multiple</c>
+
+00:00:42.979 --> 00:00:42.989 align:start position:0%
+concurrency how we work with multiple
+ 
+
+00:00:42.989 --> 00:00:44.330 align:start position:0%
+concurrency how we work with multiple
+things<00:00:43.110><c> happening</c><00:00:43.200><c> in</c><00:00:43.530><c> the</c><00:00:43.590><c> real</c><00:00:43.739><c> world</c><00:00:43.980><c> and</c>
+
+00:00:44.330 --> 00:00:44.340 align:start position:0%
+things happening in the real world and
+ 
+
+00:00:44.340 --> 00:00:45.979 align:start position:0%
+things happening in the real world and
+also<00:00:44.640><c> identify</c><00:00:45.090><c> how</c><00:00:45.390><c> you</c><00:00:45.450><c> solve</c><00:00:45.840><c> these</c>
+
+00:00:45.979 --> 00:00:45.989 align:start position:0%
+also identify how you solve these
+ 
+
+00:00:45.989 --> 00:00:48.080 align:start position:0%
+also identify how you solve these
+problems<00:00:46.379><c> in</c><00:00:46.410><c> the</c><00:00:46.500><c> real</c><00:00:46.680><c> world</c><00:00:46.890><c> and</c><00:00:47.160><c> finally</c>
+
+00:00:48.080 --> 00:00:48.090 align:start position:0%
+problems in the real world and finally
+ 
+
+00:00:48.090 --> 00:00:48.950 align:start position:0%
+problems in the real world and finally
+I'd<00:00:48.180><c> like</c><00:00:48.210><c> you</c><00:00:48.450><c> know</c><00:00:48.539><c> the</c><00:00:48.660><c> difference</c><00:00:48.930><c> between</c>
+
+00:00:48.950 --> 00:00:48.960 align:start position:0%
+I'd like you know the difference between
+ 
+
+00:00:48.960 --> 00:00:51.110 align:start position:0%
+I'd like you know the difference between
+benign<00:00:49.379><c> uses</c><00:00:49.950><c> of</c><00:00:50.070><c> concurrency</c><00:00:50.610><c> that</c><00:00:50.760><c> won't</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+benign uses of concurrency that won't
+ 
+
+00:00:51.120 --> 00:00:53.209 align:start position:0%
+benign uses of concurrency that won't
+cause<00:00:51.360><c> any</c><00:00:51.390><c> problems</c><00:00:51.960><c> in</c><00:00:52.079><c> your</c><00:00:52.110><c> code</c><00:00:52.440><c> from</c>
+
+00:00:53.209 --> 00:00:53.219 align:start position:0%
+cause any problems in your code from
+ 
+
+00:00:53.219 --> 00:00:55.400 align:start position:0%
+cause any problems in your code from
+other<00:00:53.579><c> kinds</c><00:00:53.879><c> of</c><00:00:53.910><c> concurrency</c><00:00:54.480><c> that</c><00:00:54.719><c> really</c>
+
+00:00:55.400 --> 00:00:55.410 align:start position:0%
+other kinds of concurrency that really
+ 
+
+00:00:55.410 --> 00:00:58.369 align:start position:0%
+other kinds of concurrency that really
+need<00:00:55.559><c> to</c><00:00:55.620><c> be</c><00:00:55.710><c> taken</c><00:00:56.190><c> care</c><00:00:56.399><c> of</c><00:00:56.430><c> carefully</c><00:00:57.379><c> so</c>
+
+00:00:58.369 --> 00:00:58.379 align:start position:0%
+need to be taken care of carefully so
+ 
+
+00:00:58.379 --> 00:00:59.360 align:start position:0%
+need to be taken care of carefully so
+let's<00:00:58.590><c> start</c><00:00:58.739><c> off</c><00:00:58.829><c> by</c><00:00:58.949><c> looking</c><00:00:59.100><c> at</c>
+
+00:00:59.360 --> 00:00:59.370 align:start position:0%
+let's start off by looking at
+ 
+
+00:00:59.370 --> 00:01:00.619 align:start position:0%
+let's start off by looking at
+concurrency<00:00:59.879><c> in</c><00:00:59.940><c> the</c><00:01:00.030><c> real</c><00:01:00.180><c> world</c>
+
+00:01:00.619 --> 00:01:00.629 align:start position:0%
+concurrency in the real world
+ 
+
+00:01:00.629 --> 00:01:02.869 align:start position:0%
+concurrency in the real world
+what<00:01:01.020><c> is</c><00:01:01.230><c> concurrency</c><00:01:01.920><c> it's</c><00:01:02.219><c> really</c><00:01:02.520><c> whenever</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+what is concurrency it's really whenever
+ 
+
+00:01:02.879 --> 00:01:04.609 align:start position:0%
+what is concurrency it's really whenever
+you<00:01:03.030><c> have</c><00:01:03.270><c> multiple</c><00:01:03.780><c> things</c><00:01:03.960><c> happening</c><00:01:04.140><c> at</c>
+
+00:01:04.609 --> 00:01:04.619 align:start position:0%
+you have multiple things happening at
+ 
+
+00:01:04.619 --> 00:01:06.740 align:start position:0%
+you have multiple things happening at
+the<00:01:04.739><c> same</c><00:01:04.890><c> time</c><00:01:04.949><c> that</c><00:01:05.790><c> interact</c><00:01:06.299><c> some</c>
+
+00:01:06.740 --> 00:01:06.750 align:start position:0%
+the same time that interact some
+ 
+
+00:01:06.750 --> 00:01:08.510 align:start position:0%
+the same time that interact some
+examples<00:01:07.229><c> are</c><00:01:07.380><c> shared</c><00:01:07.650><c> bathrooms</c><00:01:08.189><c> shared</c>
+
+00:01:08.510 --> 00:01:08.520 align:start position:0%
+examples are shared bathrooms shared
+ 
+
+00:01:08.520 --> 00:01:10.670 align:start position:0%
+examples are shared bathrooms shared
+food<00:01:08.729><c> in</c><00:01:08.909><c> an</c><00:01:09.000><c> apartment</c><00:01:09.479><c> and</c><00:01:09.659><c> traffic</c><00:01:10.470><c> lights</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+food in an apartment and traffic lights
+ 
+
+00:01:10.680 --> 00:01:12.260 align:start position:0%
+food in an apartment and traffic lights
+are<00:01:10.799><c> shared</c><00:01:11.040><c> streets</c><00:01:11.430><c> so</c><00:01:11.790><c> let's</c><00:01:11.939><c> look</c><00:01:12.119><c> at</c>
+
+00:01:12.260 --> 00:01:12.270 align:start position:0%
+are shared streets so let's look at
+ 
+
+00:01:12.270 --> 00:01:14.870 align:start position:0%
+are shared streets so let's look at
+these<00:01:12.360><c> in</c><00:01:12.420><c> more</c><00:01:12.720><c> detail</c><00:01:13.159><c> so</c><00:01:14.159><c> here's</c><00:01:14.430><c> a</c><00:01:14.520><c> problem</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+these in more detail so here's a problem
+ 
+
+00:01:14.880 --> 00:01:17.210 align:start position:0%
+these in more detail so here's a problem
+you<00:01:15.000><c> have</c><00:01:15.150><c> a</c><00:01:15.180><c> bathroom</c><00:01:15.689><c> and</c><00:01:16.560><c> you</c><00:01:16.979><c> would</c><00:01:17.100><c> like</c>
+
+00:01:17.210 --> 00:01:17.220 align:start position:0%
+you have a bathroom and you would like
+ 
+
+00:01:17.220 --> 00:01:18.740 align:start position:0%
+you have a bathroom and you would like
+to<00:01:17.340><c> make</c><00:01:17.490><c> sure</c><00:01:17.610><c> that</c><00:01:17.700><c> only</c><00:01:17.820><c> one</c><00:01:18.090><c> person</c><00:01:18.420><c> goes</c>
+
+00:01:18.740 --> 00:01:18.750 align:start position:0%
+to make sure that only one person goes
+ 
+
+00:01:18.750 --> 00:01:20.600 align:start position:0%
+to make sure that only one person goes
+at<00:01:18.930><c> the</c><00:01:19.049><c> same</c><00:01:19.200><c> time</c><00:01:19.530><c> if</c><00:01:19.770><c> two</c><00:01:20.009><c> people</c><00:01:20.159><c> go</c><00:01:20.400><c> in</c><00:01:20.490><c> at</c>
+
+00:01:20.600 --> 00:01:20.610 align:start position:0%
+at the same time if two people go in at
+ 
+
+00:01:20.610 --> 00:01:20.899 align:start position:0%
+at the same time if two people go in at
+once
+
+00:01:20.899 --> 00:01:20.909 align:start position:0%
+once
+ 
+
+00:01:20.909 --> 00:01:23.149 align:start position:0%
+once
+nobody<00:01:21.330><c> likes</c><00:01:21.540><c> that</c><00:01:21.659><c> so</c><00:01:22.500><c> how</c><00:01:22.740><c> do</c><00:01:22.799><c> we</c><00:01:22.890><c> deal</c><00:01:23.130><c> with</c>
+
+00:01:23.149 --> 00:01:23.159 align:start position:0%
+nobody likes that so how do we deal with
+ 
+
+00:01:23.159 --> 00:01:24.950 align:start position:0%
+nobody likes that so how do we deal with
+this<00:01:23.369><c> in</c><00:01:23.549><c> the</c><00:01:23.610><c> real</c><00:01:23.790><c> world</c><00:01:24.030><c> well</c><00:01:24.540><c> the</c><00:01:24.630><c> answer</c>
+
+00:01:24.950 --> 00:01:24.960 align:start position:0%
+this in the real world well the answer
+ 
+
+00:01:24.960 --> 00:01:27.080 align:start position:0%
+this in the real world well the answer
+is<00:01:24.990><c> we</c><00:01:25.290><c> put</c><00:01:25.470><c> a</c><00:01:25.500><c> lock</c><00:01:25.740><c> on</c><00:01:25.770><c> the</c><00:01:25.950><c> door</c><00:01:26.090><c> which</c>
+
+00:01:27.080 --> 00:01:27.090 align:start position:0%
+is we put a lock on the door which
+ 
+
+00:01:27.090 --> 00:01:28.850 align:start position:0%
+is we put a lock on the door which
+somebody<00:01:27.479><c> inside</c><00:01:27.840><c> can</c><00:01:28.110><c> lock</c><00:01:28.290><c> when</c><00:01:28.470><c> they</c><00:01:28.590><c> go</c><00:01:28.710><c> in</c>
+
+00:01:28.850 --> 00:01:28.860 align:start position:0%
+somebody inside can lock when they go in
+ 
+
+00:01:28.860 --> 00:01:31.010 align:start position:0%
+somebody inside can lock when they go in
+to<00:01:28.890><c> nobody</c><00:01:29.400><c> in</c><00:01:29.610><c> the</c><00:01:29.909><c> outside</c><00:01:30.270><c> can</c><00:01:30.570><c> get</c><00:01:30.689><c> into</c><00:01:30.900><c> it</c>
+
+00:01:31.010 --> 00:01:31.020 align:start position:0%
+to nobody in the outside can get into it
+ 
+
+00:01:31.020 --> 00:01:32.630 align:start position:0%
+to nobody in the outside can get into it
+the<00:01:31.320><c> rule</c><00:01:31.500><c> is</c><00:01:31.740><c> if</c><00:01:32.070><c> you</c><00:01:32.189><c> go</c><00:01:32.310><c> to</c><00:01:32.340><c> the</c><00:01:32.490><c> bathroom</c>
+
+00:01:32.630 --> 00:01:32.640 align:start position:0%
+the rule is if you go to the bathroom
+ 
+
+00:01:32.640 --> 00:01:34.370 align:start position:0%
+the rule is if you go to the bathroom
+the<00:01:33.000><c> door's</c><00:01:33.180><c> locked</c><00:01:33.270><c> you</c><00:01:33.659><c> have</c><00:01:33.810><c> to</c><00:01:33.930><c> wait</c><00:01:34.079><c> for</c>
+
+00:01:34.370 --> 00:01:34.380 align:start position:0%
+the door's locked you have to wait for
+ 
+
+00:01:34.380 --> 00:01:36.920 align:start position:0%
+the door's locked you have to wait for
+it<00:01:34.470><c> so</c><00:01:35.220><c> the</c><00:01:35.369><c> point</c><00:01:35.610><c> here</c><00:01:35.700><c> is</c><00:01:35.970><c> that</c><00:01:36.000><c> we</c><00:01:36.750><c> have</c>
+
+00:01:36.920 --> 00:01:36.930 align:start position:0%
+it so the point here is that we have
+ 
+
+00:01:36.930 --> 00:01:38.300 align:start position:0%
+it so the point here is that we have
+something<00:01:37.170><c> that's</c><00:01:37.470><c> shared</c><00:01:37.710><c> which</c><00:01:38.070><c> is</c><00:01:38.189><c> the</c>
+
+00:01:38.300 --> 00:01:38.310 align:start position:0%
+something that's shared which is the
+ 
+
+00:01:38.310 --> 00:01:41.719 align:start position:0%
+something that's shared which is the
+bathroom<00:01:38.700><c> and</c><00:01:39.000><c> we</c><00:01:39.180><c> have</c><00:01:39.390><c> rules</c><00:01:39.780><c> that</c><00:01:40.729><c> express</c>
+
+00:01:41.719 --> 00:01:41.729 align:start position:0%
+bathroom and we have rules that express
+ 
+
+00:01:41.729 --> 00:01:43.429 align:start position:0%
+bathroom and we have rules that express
+how<00:01:42.000><c> we</c><00:01:42.060><c> share</c><00:01:42.390><c> it</c><00:01:42.509><c> between</c><00:01:42.720><c> people</c><00:01:43.140><c> to</c><00:01:43.259><c> make</c>
+
+00:01:43.429 --> 00:01:43.439 align:start position:0%
+how we share it between people to make
+ 
+
+00:01:43.439 --> 00:01:45.530 align:start position:0%
+how we share it between people to make
+sure<00:01:43.470><c> that</c><00:01:43.619><c> bad</c><00:01:43.979><c> things</c><00:01:44.280><c> don't</c><00:01:44.460><c> happen</c><00:01:44.610><c> for</c>
+
+00:01:45.530 --> 00:01:45.540 align:start position:0%
+sure that bad things don't happen for
+ 
+
+00:01:45.540 --> 00:01:46.999 align:start position:0%
+sure that bad things don't happen for
+our<00:01:45.600><c> next</c><00:01:45.780><c> example</c><00:01:45.960><c> let's</c><00:01:46.470><c> look</c><00:01:46.530><c> at</c><00:01:46.680><c> shared</c>
+
+00:01:46.999 --> 00:01:47.009 align:start position:0%
+our next example let's look at shared
+ 
+
+00:01:47.009 --> 00:01:49.160 align:start position:0%
+our next example let's look at shared
+food<00:01:47.189><c> and</c><00:01:47.340><c> apartment</c><00:01:47.820><c> suppose</c><00:01:48.659><c> you</c><00:01:48.840><c> share</c><00:01:49.079><c> an</c>
+
+00:01:49.160 --> 00:01:49.170 align:start position:0%
+food and apartment suppose you share an
+ 
+
+00:01:49.170 --> 00:01:50.359 align:start position:0%
+food and apartment suppose you share an
+apartment<00:01:49.380><c> with</c><00:01:49.649><c> someone</c><00:01:50.040><c> and</c><00:01:50.130><c> you</c><00:01:50.189><c> have</c><00:01:50.220><c> a</c>
+
+00:01:50.359 --> 00:01:50.369 align:start position:0%
+apartment with someone and you have a
+ 
+
+00:01:50.369 --> 00:01:52.010 align:start position:0%
+apartment with someone and you have a
+problem<00:01:50.670><c> that</c><00:01:51.119><c> you</c><00:01:51.210><c> would</c><00:01:51.360><c> like</c><00:01:51.540><c> to</c><00:01:51.750><c> make</c><00:01:51.899><c> sure</c>
+
+00:01:52.010 --> 00:01:52.020 align:start position:0%
+problem that you would like to make sure
+ 
+
+00:01:52.020 --> 00:01:53.810 align:start position:0%
+problem that you would like to make sure
+there's<00:01:52.170><c> always</c><00:01:52.439><c> fresh</c><00:01:52.710><c> milk</c><00:01:52.950><c> how</c><00:01:53.610><c> do</c><00:01:53.670><c> you</c>
+
+00:01:53.810 --> 00:01:53.820 align:start position:0%
+there's always fresh milk how do you
+ 
+
+00:01:53.820 --> 00:01:56.679 align:start position:0%
+there's always fresh milk how do you
+work<00:01:53.970><c> this</c><00:01:54.390><c> out</c><00:01:54.600><c> with</c><00:01:54.780><c> your</c><00:01:55.159><c> apartment</c><00:01:56.159><c> mates</c>
+
+00:01:56.679 --> 00:01:56.689 align:start position:0%
+work this out with your apartment mates
+ 
+
+00:01:56.689 --> 00:01:59.209 align:start position:0%
+work this out with your apartment mates
+well<00:01:57.689><c> one</c><00:01:57.930><c> way</c><00:01:58.079><c> to</c><00:01:58.140><c> do</c><00:01:58.350><c> it</c><00:01:58.500><c> is</c><00:01:58.649><c> to</c><00:01:58.799><c> have</c><00:01:58.950><c> a</c><00:01:58.979><c> note</c>
+
+00:01:59.209 --> 00:01:59.219 align:start position:0%
+well one way to do it is to have a note
+ 
+
+00:01:59.219 --> 00:02:01.700 align:start position:0%
+well one way to do it is to have a note
+on<00:01:59.250><c> the</c><00:01:59.369><c> door</c><00:01:59.460><c> that</c><00:02:00.000><c> says</c><00:02:00.329><c> whether</c><00:02:01.140><c> we</c><00:02:01.380><c> need</c><00:02:01.590><c> to</c>
+
+00:02:01.700 --> 00:02:01.710 align:start position:0%
+on the door that says whether we need to
+ 
+
+00:02:01.710 --> 00:02:03.350 align:start position:0%
+on the door that says whether we need to
+buy<00:02:01.860><c> milk</c><00:02:02.130><c> because</c><00:02:02.520><c> you</c><00:02:02.670><c> used</c><00:02:02.909><c> up</c><00:02:03.060><c> the</c><00:02:03.090><c> milk</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+buy milk because you used up the milk
+ 
+
+00:02:03.360 --> 00:02:04.819 align:start position:0%
+buy milk because you used up the milk
+and<00:02:03.509><c> there's</c><00:02:03.630><c> none</c><00:02:03.780><c> left</c><00:02:04.020><c> and</c><00:02:04.290><c> then</c><00:02:04.530><c> another</c>
+
+00:02:04.819 --> 00:02:04.829 align:start position:0%
+and there's none left and then another
+ 
+
+00:02:04.829 --> 00:02:06.770 align:start position:0%
+and there's none left and then another
+note<00:02:05.070><c> to</c><00:02:05.340><c> say</c><00:02:05.579><c> you're</c><00:02:05.820><c> actually</c><00:02:06.180><c> buying</c><00:02:06.390><c> milk</c>
+
+00:02:06.770 --> 00:02:06.780 align:start position:0%
+note to say you're actually buying milk
+ 
+
+00:02:06.780 --> 00:02:08.570 align:start position:0%
+note to say you're actually buying milk
+you<00:02:07.409><c> need</c><00:02:07.590><c> the</c><00:02:07.680><c> first</c><00:02:07.920><c> note</c><00:02:08.160><c> to</c><00:02:08.190><c> tell</c><00:02:08.489><c> the</c>
+
+00:02:08.570 --> 00:02:08.580 align:start position:0%
+you need the first note to tell the
+ 
+
+00:02:08.580 --> 00:02:10.160 align:start position:0%
+you need the first note to tell the
+other<00:02:08.700><c> person</c><00:02:08.759><c> there's</c><00:02:09.270><c> no</c><00:02:09.420><c> milk</c><00:02:09.629><c> available</c>
+
+00:02:10.160 --> 00:02:10.170 align:start position:0%
+other person there's no milk available
+ 
+
+00:02:10.170 --> 00:02:12.110 align:start position:0%
+other person there's no milk available
+and<00:02:10.410><c> they</c><00:02:10.470><c> need</c><00:02:10.619><c> to</c><00:02:10.739><c> get</c><00:02:10.890><c> it</c><00:02:11.069><c> the</c><00:02:11.580><c> second</c><00:02:11.970><c> note</c>
+
+00:02:12.110 --> 00:02:12.120 align:start position:0%
+and they need to get it the second note
+ 
+
+00:02:12.120 --> 00:02:13.880 align:start position:0%
+and they need to get it the second note
+is<00:02:12.150><c> needed</c><00:02:12.629><c> to</c><00:02:13.020><c> let</c><00:02:13.170><c> them</c><00:02:13.319><c> know</c><00:02:13.349><c> that</c>
+
+00:02:13.880 --> 00:02:13.890 align:start position:0%
+is needed to let them know that
+ 
+
+00:02:13.890 --> 00:02:15.590 align:start position:0%
+is needed to let them know that
+you're<00:02:13.980><c> buying</c><00:02:14.250><c> milk</c><00:02:14.520><c> so</c><00:02:14.730><c> they</c><00:02:14.880><c> won't</c><00:02:15.120><c> go</c><00:02:15.300><c> and</c>
+
+00:02:15.590 --> 00:02:15.600 align:start position:0%
+you're buying milk so they won't go and
+ 
+
+00:02:15.600 --> 00:02:17.120 align:start position:0%
+you're buying milk so they won't go and
+buy<00:02:15.690><c> milk</c><00:02:15.750><c> themselves</c><00:02:16.140><c> and</c><00:02:16.680><c> leave</c><00:02:16.830><c> you</c><00:02:17.010><c> with</c>
+
+00:02:17.120 --> 00:02:17.130 align:start position:0%
+buy milk themselves and leave you with
+ 
+
+00:02:17.130 --> 00:02:19.280 align:start position:0%
+buy milk themselves and leave you with
+too<00:02:17.250><c> much</c><00:02:17.400><c> milk</c><00:02:17.700><c> so</c><00:02:18.480><c> the</c><00:02:18.569><c> note</c><00:02:18.720><c> here</c><00:02:18.900><c> is</c><00:02:18.990><c> again</c>
+
+00:02:19.280 --> 00:02:19.290 align:start position:0%
+too much milk so the note here is again
+ 
+
+00:02:19.290 --> 00:02:21.620 align:start position:0%
+too much milk so the note here is again
+we<00:02:19.620><c> have</c><00:02:19.770><c> a</c><00:02:19.800><c> shared</c><00:02:20.100><c> resources</c><00:02:20.670><c> which</c><00:02:21.330><c> is</c><00:02:21.510><c> the</c>
+
+00:02:21.620 --> 00:02:21.630 align:start position:0%
+we have a shared resources which is the
+ 
+
+00:02:21.630 --> 00:02:23.660 align:start position:0%
+we have a shared resources which is the
+milk<00:02:21.810><c> in</c><00:02:21.959><c> the</c><00:02:21.990><c> apartment</c><00:02:22.530><c> and</c><00:02:22.680><c> we</c><00:02:23.190><c> have</c><00:02:23.400><c> rules</c>
+
+00:02:23.660 --> 00:02:23.670 align:start position:0%
+milk in the apartment and we have rules
+ 
+
+00:02:23.670 --> 00:02:25.820 align:start position:0%
+milk in the apartment and we have rules
+on<00:02:24.000><c> how</c><00:02:24.420><c> to</c><00:02:24.480><c> share</c><00:02:24.780><c> it</c><00:02:24.990><c> meaning</c><00:02:25.350><c> we</c><00:02:25.470><c> have</c><00:02:25.590><c> rules</c>
+
+00:02:25.820 --> 00:02:25.830 align:start position:0%
+on how to share it meaning we have rules
+ 
+
+00:02:25.830 --> 00:02:28.610 align:start position:0%
+on how to share it meaning we have rules
+that<00:02:25.980><c> say</c><00:02:26.720><c> notify</c><00:02:27.720><c> somebody</c><00:02:28.140><c> when</c><00:02:28.290><c> milk</c><00:02:28.470><c> is</c>
+
+00:02:28.610 --> 00:02:28.620 align:start position:0%
+that say notify somebody when milk is
+ 
+
+00:02:28.620 --> 00:02:31.280 align:start position:0%
+that say notify somebody when milk is
+needed<00:02:28.980><c> so</c><00:02:29.580><c> that</c><00:02:29.760><c> we</c><00:02:29.850><c> don't</c><00:02:30.000><c> we</c><00:02:30.870><c> will</c><00:02:31.020><c> go</c><00:02:31.140><c> get</c>
+
+00:02:31.280 --> 00:02:31.290 align:start position:0%
+needed so that we don't we will go get
+ 
+
+00:02:31.290 --> 00:02:33.350 align:start position:0%
+needed so that we don't we will go get
+more<00:02:31.440><c> milk</c><00:02:31.680><c> and</c><00:02:31.950><c> notify</c><00:02:32.370><c> somebody</c><00:02:32.760><c> when</c>
+
+00:02:33.350 --> 00:02:33.360 align:start position:0%
+more milk and notify somebody when
+ 
+
+00:02:33.360 --> 00:02:34.670 align:start position:0%
+more milk and notify somebody when
+you're<00:02:33.480><c> buying</c><00:02:33.690><c> milk</c><00:02:34.020><c> so</c><00:02:34.170><c> we</c><00:02:34.260><c> don't</c><00:02:34.440><c> end</c><00:02:34.560><c> up</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+you're buying milk so we don't end up
+ 
+
+00:02:34.680 --> 00:02:37.670 align:start position:0%
+you're buying milk so we don't end up
+with<00:02:34.830><c> too</c><00:02:34.980><c> much</c><00:02:35.990><c> our</c><00:02:36.990><c> third</c><00:02:37.200><c> example</c><00:02:37.320><c> is</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+with too much our third example is
+ 
+
+00:02:37.680 --> 00:02:39.680 align:start position:0%
+with too much our third example is
+traffic<00:02:37.920><c> lights</c><00:02:38.280><c> and</c><00:02:38.430><c> shared</c><00:02:38.700><c> streets</c><00:02:39.060><c> again</c>
+
+00:02:39.680 --> 00:02:39.690 align:start position:0%
+traffic lights and shared streets again
+ 
+
+00:02:39.690 --> 00:02:41.210 align:start position:0%
+traffic lights and shared streets again
+we<00:02:39.870><c> have</c><00:02:40.020><c> a</c><00:02:40.050><c> problem</c><00:02:40.440><c> that</c><00:02:40.650><c> we</c><00:02:40.890><c> have</c><00:02:40.980><c> a</c><00:02:41.010><c> shared</c>
+
+00:02:41.210 --> 00:02:41.220 align:start position:0%
+we have a problem that we have a shared
+ 
+
+00:02:41.220 --> 00:02:43.040 align:start position:0%
+we have a problem that we have a shared
+resource<00:02:41.520><c> which</c><00:02:42.060><c> is</c><00:02:42.209><c> the</c><00:02:42.330><c> intersection</c><00:02:43.020><c> that</c>
+
+00:02:43.040 --> 00:02:43.050 align:start position:0%
+resource which is the intersection that
+ 
+
+00:02:43.050 --> 00:02:44.660 align:start position:0%
+resource which is the intersection that
+cars<00:02:43.380><c> in</c><00:02:43.560><c> both</c><00:02:43.709><c> directions</c><00:02:44.040><c> want</c><00:02:44.370><c> to</c><00:02:44.489><c> go</c>
+
+00:02:44.660 --> 00:02:44.670 align:start position:0%
+cars in both directions want to go
+ 
+
+00:02:44.670 --> 00:02:46.340 align:start position:0%
+cars in both directions want to go
+through<00:02:45.000><c> how</c><00:02:45.360><c> do</c><00:02:45.420><c> we</c><00:02:45.569><c> make</c><00:02:45.720><c> sure</c><00:02:45.930><c> that</c><00:02:45.959><c> cars</c>
+
+00:02:46.340 --> 00:02:46.350 align:start position:0%
+through how do we make sure that cars
+ 
+
+00:02:46.350 --> 00:02:49.760 align:start position:0%
+through how do we make sure that cars
+don't<00:02:46.590><c> collide</c><00:02:46.970><c> so</c><00:02:47.970><c> again</c><00:02:48.660><c> we</c><00:02:48.930><c> have</c><00:02:49.110><c> rules</c><00:02:49.380><c> and</c>
+
+00:02:49.760 --> 00:02:49.770 align:start position:0%
+don't collide so again we have rules and
+ 
+
+00:02:49.770 --> 00:02:51.320 align:start position:0%
+don't collide so again we have rules and
+we<00:02:49.950><c> have</c><00:02:50.160><c> some</c><00:02:50.459><c> state</c><00:02:50.700><c> that</c><00:02:50.730><c> help</c><00:02:51.060><c> us</c><00:02:51.180><c> figure</c>
+
+00:02:51.320 --> 00:02:51.330 align:start position:0%
+we have some state that help us figure
+ 
+
+00:02:51.330 --> 00:02:53.690 align:start position:0%
+we have some state that help us figure
+this<00:02:51.540><c> out</c><00:02:51.750><c> so</c><00:02:52.170><c> we</c><00:02:52.290><c> have</c><00:02:52.380><c> a</c><00:02:52.410><c> traffic</c><00:02:52.709><c> light</c><00:02:53.040><c> that</c>
+
+00:02:53.690 --> 00:02:53.700 align:start position:0%
+this out so we have a traffic light that
+ 
+
+00:02:53.700 --> 00:02:56.509 align:start position:0%
+this out so we have a traffic light that
+tells<00:02:54.269><c> us</c><00:02:54.620><c> which</c><00:02:55.620><c> direction</c><00:02:55.650><c> cars</c><00:02:56.340><c> are</c>
+
+00:02:56.509 --> 00:02:56.519 align:start position:0%
+tells us which direction cars are
+ 
+
+00:02:56.519 --> 00:02:58.250 align:start position:0%
+tells us which direction cars are
+allowed<00:02:56.670><c> to</c><00:02:56.850><c> go</c><00:02:57.000><c> and</c><00:02:57.209><c> the</c><00:02:57.480><c> rule</c><00:02:57.660><c> is</c><00:02:57.690><c> don't</c>
+
+00:02:58.250 --> 00:02:58.260 align:start position:0%
+allowed to go and the rule is don't
+ 
+
+00:02:58.260 --> 00:02:59.780 align:start position:0%
+allowed to go and the rule is don't
+enter<00:02:58.620><c> the</c><00:02:58.650><c> light</c><00:02:58.920><c> don't</c><00:02:59.519><c> enter</c><00:02:59.760><c> the</c>
+
+00:02:59.780 --> 00:02:59.790 align:start position:0%
+enter the light don't enter the
+ 
+
+00:02:59.790 --> 00:03:01.190 align:start position:0%
+enter the light don't enter the
+intersection<00:03:00.390><c> if</c><00:03:00.570><c> the</c><00:03:00.690><c> light</c><00:03:00.870><c> is</c><00:03:00.989><c> red</c><00:03:01.140><c> or</c>
+
+00:03:01.190 --> 00:03:01.200 align:start position:0%
+intersection if the light is red or
+ 
+
+00:03:01.200 --> 00:03:03.259 align:start position:0%
+intersection if the light is red or
+yellow<00:03:01.440><c> and</c><00:03:01.800><c> when</c><00:03:02.430><c> the</c><00:03:02.580><c> light</c><00:03:02.760><c> changes</c><00:03:03.150><c> to</c>
+
+00:03:03.259 --> 00:03:03.269 align:start position:0%
+yellow and when the light changes to
+ 
+
+00:03:03.269 --> 00:03:05.120 align:start position:0%
+yellow and when the light changes to
+green<00:03:03.420><c> in</c><00:03:03.600><c> your</c><00:03:03.630><c> direction</c><00:03:03.870><c> wait</c><00:03:04.650><c> for</c><00:03:04.890><c> all</c><00:03:04.980><c> the</c>
+
+00:03:05.120 --> 00:03:05.130 align:start position:0%
+green in your direction wait for all the
+ 
+
+00:03:05.130 --> 00:03:07.490 align:start position:0%
+green in your direction wait for all the
+cars<00:03:05.370><c> in</c><00:03:05.580><c> the</c><00:03:05.700><c> intersection</c><00:03:05.730><c> to</c><00:03:06.360><c> exit</c><00:03:06.690><c> if</c><00:03:07.290><c> you</c>
+
+00:03:07.490 --> 00:03:07.500 align:start position:0%
+cars in the intersection to exit if you
+ 
+
+00:03:07.500 --> 00:03:10.040 align:start position:0%
+cars in the intersection to exit if you
+follow<00:03:07.739><c> these</c><00:03:07.920><c> rules</c><00:03:08.220><c> then</c><00:03:08.880><c> it's</c><00:03:09.630><c> safe</c><00:03:09.840><c> for</c>
+
+00:03:10.040 --> 00:03:10.050 align:start position:0%
+follow these rules then it's safe for
+ 
+
+00:03:10.050 --> 00:03:11.570 align:start position:0%
+follow these rules then it's safe for
+both<00:03:10.230><c> directions</c><00:03:10.590><c> through</c><00:03:10.920><c> the</c><00:03:11.040><c> intersection</c>
+
+00:03:11.570 --> 00:03:11.580 align:start position:0%
+both directions through the intersection
+ 
+
+00:03:11.580 --> 00:03:13.610 align:start position:0%
+both directions through the intersection
+and<00:03:11.700><c> there</c><00:03:11.820><c> won't</c><00:03:11.970><c> be</c><00:03:12.030><c> any</c><00:03:12.180><c> collisions</c><00:03:12.660><c> so</c>
+
+00:03:13.610 --> 00:03:13.620 align:start position:0%
+and there won't be any collisions so
+ 
+
+00:03:13.620 --> 00:03:15.830 align:start position:0%
+and there won't be any collisions so
+what<00:03:14.130><c> do</c><00:03:14.190><c> we</c><00:03:14.310><c> learn</c><00:03:14.489><c> from</c><00:03:14.550><c> this</c><00:03:14.790><c> well</c><00:03:15.420><c> first</c><00:03:15.690><c> of</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+what do we learn from this well first of
+ 
+
+00:03:15.840 --> 00:03:16.850 align:start position:0%
+what do we learn from this well first of
+all<00:03:15.930><c> there</c><00:03:16.140><c> are</c><00:03:16.200><c> some</c><00:03:16.320><c> properties</c><00:03:16.590><c> of</c>
+
+00:03:16.850 --> 00:03:16.860 align:start position:0%
+all there are some properties of
+ 
+
+00:03:16.860 --> 00:03:18.800 align:start position:0%
+all there are some properties of
+concurrent<00:03:17.370><c> systems</c><00:03:17.519><c> the</c><00:03:18.060><c> first</c><00:03:18.360><c> thing</c><00:03:18.600><c> is</c>
+
+00:03:18.800 --> 00:03:18.810 align:start position:0%
+concurrent systems the first thing is
+ 
+
+00:03:18.810 --> 00:03:20.270 align:start position:0%
+concurrent systems the first thing is
+that<00:03:18.989><c> there's</c><00:03:19.140><c> multiple</c><00:03:19.320><c> actors</c><00:03:19.980><c> involved</c>
+
+00:03:20.270 --> 00:03:20.280 align:start position:0%
+that there's multiple actors involved
+ 
+
+00:03:20.280 --> 00:03:22.520 align:start position:0%
+that there's multiple actors involved
+who<00:03:20.519><c> can</c><00:03:20.700><c> do</c><00:03:20.820><c> things</c><00:03:21.030><c> in</c><00:03:21.329><c> this</c><00:03:21.930><c> case</c><00:03:22.170><c> it</c><00:03:22.440><c> was</c>
+
+00:03:22.520 --> 00:03:22.530 align:start position:0%
+who can do things in this case it was
+ 
+
+00:03:22.530 --> 00:03:23.900 align:start position:0%
+who can do things in this case it was
+the<00:03:22.560><c> multiple</c><00:03:22.799><c> people</c><00:03:23.250><c> wanting</c><00:03:23.579><c> to</c><00:03:23.610><c> use</c><00:03:23.730><c> the</c>
+
+00:03:23.900 --> 00:03:23.910 align:start position:0%
+the multiple people wanting to use the
+ 
+
+00:03:23.910 --> 00:03:25.520 align:start position:0%
+the multiple people wanting to use the
+bathroom<00:03:24.329><c> or</c><00:03:24.480><c> there</c><00:03:24.660><c> multiple</c><00:03:24.810><c> people</c><00:03:25.260><c> living</c>
+
+00:03:25.520 --> 00:03:25.530 align:start position:0%
+bathroom or there multiple people living
+ 
+
+00:03:25.530 --> 00:03:27.410 align:start position:0%
+bathroom or there multiple people living
+in<00:03:25.620><c> the</c><00:03:25.709><c> apartment</c><00:03:26.100><c> or</c><00:03:26.579><c> the</c><00:03:26.820><c> multiple</c><00:03:27.150><c> cars</c>
+
+00:03:27.410 --> 00:03:27.420 align:start position:0%
+in the apartment or the multiple cars
+ 
+
+00:03:27.420 --> 00:03:28.780 align:start position:0%
+in the apartment or the multiple cars
+that<00:03:27.660><c> wanted</c><00:03:27.870><c> to</c><00:03:27.959><c> go</c><00:03:28.079><c> into</c><00:03:28.200><c> the</c><00:03:28.290><c> intersection</c>
+
+00:03:28.780 --> 00:03:28.790 align:start position:0%
+that wanted to go into the intersection
+ 
+
+00:03:28.790 --> 00:03:31.220 align:start position:0%
+that wanted to go into the intersection
+second<00:03:29.790><c> we</c><00:03:29.970><c> have</c><00:03:30.150><c> shared</c><00:03:30.420><c> resources</c><00:03:30.959><c> the</c>
+
+00:03:31.220 --> 00:03:31.230 align:start position:0%
+second we have shared resources the
+ 
+
+00:03:31.230 --> 00:03:34.370 align:start position:0%
+second we have shared resources the
+bathrooms<00:03:31.769><c> the</c><00:03:32.190><c> food</c><00:03:32.459><c> and</c><00:03:32.790><c> the</c><00:03:33.060><c> street</c><00:03:33.380><c> third</c>
+
+00:03:34.370 --> 00:03:34.380 align:start position:0%
+bathrooms the food and the street third
+ 
+
+00:03:34.380 --> 00:03:36.770 align:start position:0%
+bathrooms the food and the street third
+we<00:03:34.769><c> need</c><00:03:34.799><c> to</c><00:03:34.980><c> have</c><00:03:35.190><c> some</c><00:03:35.400><c> rules</c><00:03:35.610><c> that</c><00:03:35.970><c> say</c><00:03:36.480><c> how</c>
+
+00:03:36.770 --> 00:03:36.780 align:start position:0%
+we need to have some rules that say how
+ 
+
+00:03:36.780 --> 00:03:39.050 align:start position:0%
+we need to have some rules that say how
+do<00:03:36.840><c> we</c><00:03:36.959><c> share</c><00:03:37.350><c> these</c><00:03:37.590><c> resources</c><00:03:37.799><c> safely</c><00:03:38.670><c> one</c>
+
+00:03:39.050 --> 00:03:39.060 align:start position:0%
+do we share these resources safely one
+ 
+
+00:03:39.060 --> 00:03:42.140 align:start position:0%
+do we share these resources safely one
+person<00:03:39.450><c> at</c><00:03:39.540><c> a</c><00:03:39.600><c> time</c><00:03:39.630><c> uses</c><00:03:40.110><c> the</c><00:03:40.230><c> bathroom</c><00:03:41.150><c> one</c>
+
+00:03:42.140 --> 00:03:42.150 align:start position:0%
+person at a time uses the bathroom one
+ 
+
+00:03:42.150 --> 00:03:44.600 align:start position:0%
+person at a time uses the bathroom one
+person<00:03:42.600><c> buys</c><00:03:42.810><c> food</c><00:03:43.170><c> or</c><00:03:43.470><c> only</c><00:03:44.190><c> one</c><00:03:44.459><c> direction</c>
+
+00:03:44.600 --> 00:03:44.610 align:start position:0%
+person buys food or only one direction
+ 
+
+00:03:44.610 --> 00:03:48.259 align:start position:0%
+person buys food or only one direction
+uses<00:03:45.239><c> the</c><00:03:45.360><c> traffic</c><00:03:45.810><c> light</c><00:03:45.989><c> at</c><00:03:46.110><c> a</c><00:03:46.200><c> time</c><00:03:47.090><c> so</c><00:03:48.090><c> how</c>
+
+00:03:48.259 --> 00:03:48.269 align:start position:0%
+uses the traffic light at a time so how
+ 
+
+00:03:48.269 --> 00:03:50.180 align:start position:0%
+uses the traffic light at a time so how
+does<00:03:48.329><c> this</c><00:03:48.540><c> apply</c><00:03:48.720><c> to</c><00:03:48.900><c> computer</c><00:03:49.380><c> systems</c><00:03:49.769><c> well</c>
+
+00:03:50.180 --> 00:03:50.190 align:start position:0%
+does this apply to computer systems well
+ 
+
+00:03:50.190 --> 00:03:52.310 align:start position:0%
+does this apply to computer systems well
+we<00:03:50.850><c> have</c><00:03:51.000><c> multiple</c><00:03:51.510><c> actors</c><00:03:51.900><c> inside</c><00:03:52.230><c> an</c>
+
+00:03:52.310 --> 00:03:52.320 align:start position:0%
+we have multiple actors inside an
+ 
+
+00:03:52.320 --> 00:03:54.020 align:start position:0%
+we have multiple actors inside an
+operating<00:03:52.769><c> system</c><00:03:52.920><c> these</c><00:03:53.370><c> are</c><00:03:53.519><c> processes</c>
+
+00:03:54.020 --> 00:03:54.030 align:start position:0%
+operating system these are processes
+ 
+
+00:03:54.030 --> 00:03:56.060 align:start position:0%
+operating system these are processes
+multiple<00:03:54.780><c> processes</c><00:03:55.350><c> can</c><00:03:55.560><c> run</c><00:03:55.680><c> at</c><00:03:55.799><c> the</c><00:03:55.890><c> same</c>
+
+00:03:56.060 --> 00:03:56.070 align:start position:0%
+multiple processes can run at the same
+ 
+
+00:03:56.070 --> 00:03:58.250 align:start position:0%
+multiple processes can run at the same
+time<00:03:56.340><c> or</c><00:03:56.880><c> we</c><00:03:57.450><c> might</c><00:03:57.600><c> have</c><00:03:57.720><c> multiple</c><00:03:58.110><c> threads</c>
+
+00:03:58.250 --> 00:03:58.260 align:start position:0%
+time or we might have multiple threads
+ 
+
+00:03:58.260 --> 00:03:59.990 align:start position:0%
+time or we might have multiple threads
+within<00:03:58.590><c> a</c><00:03:58.620><c> single</c><00:03:58.890><c> process</c><00:03:59.459><c> that</c><00:03:59.730><c> are</c><00:03:59.850><c> running</c>
+
+00:03:59.990 --> 00:04:00.000 align:start position:0%
+within a single process that are running
+ 
+
+00:04:00.000 --> 00:04:03.410 align:start position:0%
+within a single process that are running
+at<00:04:00.209><c> the</c><00:04:00.239><c> same</c><00:04:00.450><c> time</c><00:04:01.190><c> so</c><00:04:02.190><c> why</c><00:04:02.760><c> am</c><00:04:02.940><c> i</c><00:04:03.030><c> you</c><00:04:03.090><c> have</c>
+
+00:04:03.410 --> 00:04:03.420 align:start position:0%
+at the same time so why am i you have
+ 
+
+00:04:03.420 --> 00:04:05.240 align:start position:0%
+at the same time so why am i you have
+concurrency<00:04:04.110><c> well</c><00:04:04.530><c> we've</c><00:04:04.709><c> seen</c><00:04:04.950><c> many</c><00:04:05.130><c> of</c>
+
+00:04:05.240 --> 00:04:05.250 align:start position:0%
+concurrency well we've seen many of
+ 
+
+00:04:05.250 --> 00:04:06.920 align:start position:0%
+concurrency well we've seen many of
+these<00:04:05.400><c> before</c><00:04:05.570><c> suppose</c><00:04:06.570><c> you</c><00:04:06.720><c> have</c><00:04:06.900><c> one</c>
+
+00:04:06.920 --> 00:04:06.930 align:start position:0%
+these before suppose you have one
+ 
+
+00:04:06.930 --> 00:04:08.750 align:start position:0%
+these before suppose you have one
+process<00:04:07.530><c> that</c><00:04:07.680><c> is</c><00:04:07.769><c> producing</c><00:04:08.280><c> data</c><00:04:08.459><c> and</c>
+
+00:04:08.750 --> 00:04:08.760 align:start position:0%
+process that is producing data and
+ 
+
+00:04:08.760 --> 00:04:11.390 align:start position:0%
+process that is producing data and
+another<00:04:09.360><c> process</c><00:04:09.870><c> that's</c><00:04:10.049><c> consuming</c><00:04:10.620><c> it</c><00:04:10.769><c> here</c>
+
+00:04:11.390 --> 00:04:11.400 align:start position:0%
+another process that's consuming it here
+ 
+
+00:04:11.400 --> 00:04:12.620 align:start position:0%
+another process that's consuming it here
+we<00:04:11.519><c> want</c><00:04:11.730><c> to</c><00:04:11.790><c> have</c><00:04:11.940><c> the</c><00:04:12.030><c> producer</c><00:04:12.480><c> and</c><00:04:12.540><c> the</c>
+
+00:04:12.620 --> 00:04:12.630 align:start position:0%
+we want to have the producer and the
+ 
+
+00:04:12.630 --> 00:04:14.660 align:start position:0%
+we want to have the producer and the
+consumer<00:04:12.660><c> running</c><00:04:13.350><c> at</c><00:04:13.440><c> the</c><00:04:13.560><c> same</c><00:04:13.769><c> time</c><00:04:14.070><c> but</c>
+
+00:04:14.660 --> 00:04:14.670 align:start position:0%
+consumer running at the same time but
+ 
+
+00:04:14.670 --> 00:04:16.430 align:start position:0%
+consumer running at the same time but
+they<00:04:14.820><c> both</c><00:04:15.030><c> have</c><00:04:15.299><c> to</c><00:04:15.420><c> access</c><00:04:15.840><c> the</c><00:04:15.989><c> shared</c><00:04:16.229><c> data</c>
+
+00:04:16.430 --> 00:04:16.440 align:start position:0%
+they both have to access the shared data
+ 
+
+00:04:16.440 --> 00:04:18.830 align:start position:0%
+they both have to access the shared data
+for<00:04:16.769><c> communication</c><00:04:17.400><c> a</c><00:04:17.609><c> second</c><00:04:18.479><c> reason</c><00:04:18.600><c> is</c>
+
+00:04:18.830 --> 00:04:18.840 align:start position:0%
+for communication a second reason is
+ 
+
+00:04:18.840 --> 00:04:21.199 align:start position:0%
+for communication a second reason is
+asynchronous<00:04:19.169><c> i/o</c><00:04:19.769><c> for</c><00:04:20.489><c> example</c><00:04:20.940><c> you</c><00:04:21.060><c> might</c>
+
+00:04:21.199 --> 00:04:21.209 align:start position:0%
+asynchronous i/o for example you might
+ 
+
+00:04:21.209 --> 00:04:23.150 align:start position:0%
+asynchronous i/o for example you might
+want<00:04:21.269><c> to</c><00:04:21.539><c> have</c><00:04:21.660><c> a</c><00:04:21.690><c> web</c><00:04:21.900><c> server</c><00:04:22.169><c> that</c><00:04:22.770><c> can</c><00:04:22.950><c> read</c>
+
+00:04:23.150 --> 00:04:23.160 align:start position:0%
+want to have a web server that can read
+ 
+
+00:04:23.160 --> 00:04:24.920 align:start position:0%
+want to have a web server that can read
+data<00:04:23.370><c> off</c><00:04:23.610><c> disk</c><00:04:23.910><c> and</c><00:04:24.120><c> send</c><00:04:24.360><c> it</c><00:04:24.450><c> to</c><00:04:24.479><c> the</c><00:04:24.599><c> network</c>
+
+00:04:24.920 --> 00:04:24.930 align:start position:0%
+data off disk and send it to the network
+ 
+
+00:04:24.930 --> 00:04:26.930 align:start position:0%
+data off disk and send it to the network
+the<00:04:25.289><c> network</c><00:04:25.800><c> the</c><00:04:25.979><c> disk</c><00:04:26.190><c> and</c><00:04:26.430><c> the</c><00:04:26.580><c> web</c><00:04:26.760><c> server</c>
+
+00:04:26.930 --> 00:04:26.940 align:start position:0%
+the network the disk and the web server
+ 
+
+00:04:26.940 --> 00:04:27.959 align:start position:0%
+the network the disk and the web server
+all<00:04:27.210><c> act</c>
+
+00:04:27.959 --> 00:04:27.969 align:start position:0%
+all act
+ 
+
+00:04:27.969 --> 00:04:29.429 align:start position:0%
+all act
+the<00:04:28.389><c> shared</c><00:04:28.629><c> resource</c><00:04:28.960><c> were</c><00:04:29.110><c> worried</c><00:04:29.379><c> about</c>
+
+00:04:29.429 --> 00:04:29.439 align:start position:0%
+the shared resource were worried about
+ 
+
+00:04:29.439 --> 00:04:31.260 align:start position:0%
+the shared resource were worried about
+is<00:04:29.770><c> the</c><00:04:29.919><c> data</c><00:04:30.099><c> moving</c><00:04:30.550><c> between</c><00:04:30.699><c> the</c><00:04:31.000><c> network</c>
+
+00:04:31.260 --> 00:04:31.270 align:start position:0%
+is the data moving between the network
+ 
+
+00:04:31.270 --> 00:04:33.240 align:start position:0%
+is the data moving between the network
+and<00:04:31.449><c> the</c><00:04:31.509><c> disk</c><00:04:31.889><c> finally</c><00:04:32.889><c> we</c><00:04:32.979><c> might</c><00:04:33.069><c> have</c>
+
+00:04:33.240 --> 00:04:33.250 align:start position:0%
+and the disk finally we might have
+ 
+
+00:04:33.250 --> 00:04:36.270 align:start position:0%
+and the disk finally we might have
+parallel<00:04:33.669><c> programs</c><00:04:34.150><c> where</c><00:04:34.629><c> one</c><00:04:34.930><c> thread</c><00:04:35.500><c> will</c>
+
+00:04:36.270 --> 00:04:36.280 align:start position:0%
+parallel programs where one thread will
+ 
+
+00:04:36.280 --> 00:04:38.309 align:start position:0%
+parallel programs where one thread will
+split<00:04:37.090><c> the</c><00:04:37.210><c> problem</c><00:04:37.419><c> into</c><00:04:37.689><c> three</c><00:04:38.020><c> smaller</c>
+
+00:04:38.309 --> 00:04:38.319 align:start position:0%
+split the problem into three smaller
+ 
+
+00:04:38.319 --> 00:04:39.899 align:start position:0%
+split the problem into three smaller
+problems<00:04:38.770><c> work</c><00:04:38.949><c> done</c><00:04:39.129><c> by</c><00:04:39.280><c> different</c><00:04:39.639><c> threads</c>
+
+00:04:39.899 --> 00:04:39.909 align:start position:0%
+problems work done by different threads
+ 
+
+00:04:39.909 --> 00:04:42.149 align:start position:0%
+problems work done by different threads
+here<00:04:40.569><c> the</c><00:04:40.780><c> shared</c><00:04:41.020><c> data</c><00:04:41.199><c> is</c><00:04:41.469><c> the</c><00:04:41.650><c> data</c><00:04:41.830><c> for</c><00:04:42.039><c> the</c>
+
+00:04:42.149 --> 00:04:42.159 align:start position:0%
+here the shared data is the data for the
+ 
+
+00:04:42.159 --> 00:04:43.619 align:start position:0%
+here the shared data is the data for the
+program<00:04:42.550><c> the</c><00:04:42.759><c> actors</c><00:04:43.090><c> are</c><00:04:43.240><c> the</c><00:04:43.270><c> different</c>
+
+00:04:43.619 --> 00:04:43.629 align:start position:0%
+program the actors are the different
+ 
+
+00:04:43.629 --> 00:04:46.499 align:start position:0%
+program the actors are the different
+threads<00:04:43.870><c> the</c><00:04:44.530><c> reason</c><00:04:44.860><c> to</c><00:04:44.949><c> do</c><00:04:45.099><c> this</c><00:04:45.310><c> is</c><00:04:46.180><c> that</c><00:04:46.330><c> it</c>
+
+00:04:46.499 --> 00:04:46.509 align:start position:0%
+threads the reason to do this is that it
+ 
+
+00:04:46.509 --> 00:04:47.850 align:start position:0%
+threads the reason to do this is that it
+makes<00:04:46.659><c> the</c><00:04:46.750><c> program</c><00:04:47.080><c> run</c><00:04:47.229><c> faster</c><00:04:47.650><c> we</c><00:04:47.740><c> have</c>
+
+00:04:47.850 --> 00:04:47.860 align:start position:0%
+makes the program run faster we have
+ 
+
+00:04:47.860 --> 00:04:49.890 align:start position:0%
+makes the program run faster we have
+multiple<00:04:48.159><c> processes</c><00:04:48.759><c> simply</c><00:04:49.750><c> for</c>
+
+00:04:49.890 --> 00:04:49.900 align:start position:0%
+multiple processes simply for
+ 
+
+00:04:49.900 --> 00:04:51.480 align:start position:0%
+multiple processes simply for
+asynchronous<00:04:50.379><c> i/o</c><00:04:50.530><c> this</c><00:04:50.949><c> can</c><00:04:51.159><c> make</c><00:04:51.310><c> things</c>
+
+00:04:51.480 --> 00:04:51.490 align:start position:0%
+asynchronous i/o this can make things
+ 
+
+00:04:51.490 --> 00:04:53.399 align:start position:0%
+asynchronous i/o this can make things
+faster<00:04:51.939><c> because</c><00:04:52.270><c> we</c><00:04:52.300><c> can</c><00:04:52.599><c> access</c><00:04:52.810><c> the</c><00:04:53.169><c> disk</c>
+
+00:04:53.399 --> 00:04:53.409 align:start position:0%
+faster because we can access the disk
+ 
+
+00:04:53.409 --> 00:04:54.899 align:start position:0%
+faster because we can access the disk
+and<00:04:53.740><c> the</c><00:04:53.919><c> net</c><00:04:54.069><c> at</c><00:04:54.189><c> the</c><00:04:54.250><c> same</c><00:04:54.490><c> time</c><00:04:54.729><c> on</c>
+
+00:04:54.899 --> 00:04:54.909 align:start position:0%
+and the net at the same time on
+ 
+
+00:04:54.909 --> 00:04:56.670 align:start position:0%
+and the net at the same time on
+different<00:04:55.240><c> threads</c><00:04:55.530><c> producing</c><00:04:56.530><c> consumer</c>
+
+00:04:56.670 --> 00:04:56.680 align:start position:0%
+different threads producing consumer
+ 
+
+00:04:56.680 --> 00:04:59.100 align:start position:0%
+different threads producing consumer
+stimuli<00:04:57.340><c> we</c><00:04:57.550><c> can</c><00:04:57.759><c> make</c><00:04:58.090><c> go</c><00:04:58.240><c> faster</c><00:04:58.689><c> because</c><00:04:58.990><c> we</c>
+
+00:04:59.100 --> 00:04:59.110 align:start position:0%
+stimuli we can make go faster because we
+ 
+
+00:04:59.110 --> 00:05:00.719 align:start position:0%
+stimuli we can make go faster because we
+can<00:04:59.289><c> produce</c><00:04:59.439><c> the</c><00:04:59.830><c> producing</c><00:05:00.250><c> things</c><00:05:00.490><c> while</c>
+
+00:05:00.719 --> 00:05:00.729 align:start position:0%
+can produce the producing things while
+ 
+
+00:05:00.729 --> 00:05:04.860 align:start position:0%
+can produce the producing things while
+we're<00:05:00.879><c> consuming</c><00:05:01.180><c> them</c><00:05:02.939><c> so</c><00:05:03.939><c> the</c><00:05:04.389><c> properties</c>
+
+00:05:04.860 --> 00:05:04.870 align:start position:0%
+we're consuming them so the properties
+ 
+
+00:05:04.870 --> 00:05:06.629 align:start position:0%
+we're consuming them so the properties
+we<00:05:04.990><c> have</c><00:05:05.169><c> for</c><00:05:05.319><c> concurrent</c><00:05:05.740><c> computer</c><00:05:06.250><c> systems</c>
+
+00:05:06.629 --> 00:05:06.639 align:start position:0%
+we have for concurrent computer systems
+ 
+
+00:05:06.639 --> 00:05:08.129 align:start position:0%
+we have for concurrent computer systems
+are<00:05:06.849><c> very</c><00:05:07.029><c> similar</c><00:05:07.419><c> to</c><00:05:07.509><c> the</c><00:05:07.599><c> concurrent</c>
+
+00:05:08.129 --> 00:05:08.139 align:start position:0%
+are very similar to the concurrent
+ 
+
+00:05:08.139 --> 00:05:10.019 align:start position:0%
+are very similar to the concurrent
+systems<00:05:08.439><c> we</c><00:05:08.770><c> had</c><00:05:08.919><c> in</c><00:05:09.009><c> the</c><00:05:09.099><c> real</c><00:05:09.250><c> world</c><00:05:09.490><c> we</c><00:05:09.909><c> have</c>
+
+00:05:10.019 --> 00:05:10.029 align:start position:0%
+systems we had in the real world we have
+ 
+
+00:05:10.029 --> 00:05:11.969 align:start position:0%
+systems we had in the real world we have
+multiple<00:05:10.419><c> actors</c><00:05:10.779><c> in</c><00:05:11.050><c> this</c><00:05:11.259><c> case</c><00:05:11.500><c> multiple</c>
+
+00:05:11.969 --> 00:05:11.979 align:start position:0%
+multiple actors in this case multiple
+ 
+
+00:05:11.979 --> 00:05:14.580 align:start position:0%
+multiple actors in this case multiple
+threads<00:05:12.250><c> we</c><00:05:13.150><c> have</c><00:05:13.240><c> shared</c><00:05:13.509><c> resources</c><00:05:14.080><c> which</c>
+
+00:05:14.580 --> 00:05:14.590 align:start position:0%
+threads we have shared resources which
+ 
+
+00:05:14.590 --> 00:05:17.249 align:start position:0%
+threads we have shared resources which
+can<00:05:14.830><c> be</c><00:05:14.949><c> memory</c><00:05:15.389><c> heap</c><00:05:16.389><c> variables</c><00:05:16.840><c> or</c><00:05:16.960><c> global</c>
+
+00:05:17.249 --> 00:05:17.259 align:start position:0%
+can be memory heap variables or global
+ 
+
+00:05:17.259 --> 00:05:19.409 align:start position:0%
+can be memory heap variables or global
+variables<00:05:17.680><c> or</c><00:05:17.889><c> devices</c><00:05:18.370><c> such</c><00:05:18.819><c> as</c><00:05:18.849><c> the</c><00:05:19.120><c> network</c>
+
+00:05:19.409 --> 00:05:19.419 align:start position:0%
+variables or devices such as the network
+ 
+
+00:05:19.419 --> 00:05:22.980 align:start position:0%
+variables or devices such as the network
+or<00:05:19.629><c> the</c><00:05:19.719><c> disk</c><00:05:21.029><c> so</c><00:05:22.029><c> one</c><00:05:22.330><c> thing</c><00:05:22.539><c> to</c><00:05:22.569><c> worry</c><00:05:22.900><c> about</c>
+
+00:05:22.980 --> 00:05:22.990 align:start position:0%
+or the disk so one thing to worry about
+ 
+
+00:05:22.990 --> 00:05:25.080 align:start position:0%
+or the disk so one thing to worry about
+is<00:05:23.439><c> well</c><00:05:23.770><c> doesn't</c><00:05:24.250><c> the</c><00:05:24.340><c> scheduler</c><00:05:24.759><c> handle</c>
+
+00:05:25.080 --> 00:05:25.090 align:start position:0%
+is well doesn't the scheduler handle
+ 
+
+00:05:25.090 --> 00:05:26.550 align:start position:0%
+is well doesn't the scheduler handle
+this<00:05:25.180><c> for</c><00:05:25.449><c> this</c><00:05:25.599><c> because</c><00:05:25.960><c> the</c><00:05:26.110><c> scheduler</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+this for this because the scheduler
+ 
+
+00:05:26.560 --> 00:05:28.110 align:start position:0%
+this for this because the scheduler
+responsible<00:05:27.189><c> for</c><00:05:27.340><c> scheduling</c><00:05:27.550><c> threads</c><00:05:27.969><c> and</c>
+
+00:05:28.110 --> 00:05:28.120 align:start position:0%
+responsible for scheduling threads and
+ 
+
+00:05:28.120 --> 00:05:30.929 align:start position:0%
+responsible for scheduling threads and
+processes<00:05:28.830><c> it</c><00:05:29.830><c> is</c><00:05:29.860><c> possible</c><00:05:30.400><c> the</c><00:05:30.490><c> scheduler</c>
+
+00:05:30.929 --> 00:05:30.939 align:start position:0%
+processes it is possible the scheduler
+ 
+
+00:05:30.939 --> 00:05:32.519 align:start position:0%
+processes it is possible the scheduler
+will<00:05:31.090><c> help</c><00:05:31.270><c> you</c><00:05:31.389><c> out</c><00:05:31.449><c> and</c><00:05:31.839><c> make</c><00:05:31.900><c> things</c><00:05:32.259><c> run</c><00:05:32.409><c> in</c>
+
+00:05:32.519 --> 00:05:32.529 align:start position:0%
+will help you out and make things run in
+ 
+
+00:05:32.529 --> 00:05:34.529 align:start position:0%
+will help you out and make things run in
+the<00:05:32.589><c> right</c><00:05:32.740><c> order</c><00:05:32.949><c> however</c><00:05:33.460><c> there's</c><00:05:34.330><c> no</c>
+
+00:05:34.529 --> 00:05:34.539 align:start position:0%
+the right order however there's no
+ 
+
+00:05:34.539 --> 00:05:36.749 align:start position:0%
+the right order however there's no
+guarantee<00:05:34.990><c> this</c><00:05:35.229><c> happened</c><00:05:35.620><c> in</c><00:05:35.740><c> fact</c><00:05:36.219><c> the</c><00:05:36.339><c> only</c>
+
+00:05:36.749 --> 00:05:36.759 align:start position:0%
+guarantee this happened in fact the only
+ 
+
+00:05:36.759 --> 00:05:38.640 align:start position:0%
+guarantee this happened in fact the only
+guarantee<00:05:37.210><c> the</c><00:05:37.419><c> scheduler</c><00:05:37.870><c> really</c><00:05:38.169><c> makes</c><00:05:38.409><c> is</c>
+
+00:05:38.640 --> 00:05:38.650 align:start position:0%
+guarantee the scheduler really makes is
+ 
+
+00:05:38.650 --> 00:05:40.379 align:start position:0%
+guarantee the scheduler really makes is
+there<00:05:38.889><c> will</c><00:05:38.979><c> be</c><00:05:39.009><c> no</c><00:05:39.099><c> starvation</c><00:05:39.610><c> that</c><00:05:40.089><c> every</c>
+
+00:05:40.379 --> 00:05:40.389 align:start position:0%
+there will be no starvation that every
+ 
+
+00:05:40.389 --> 00:05:42.200 align:start position:0%
+there will be no starvation that every
+thread<00:05:40.629><c> or</c><00:05:40.750><c> process</c><00:05:40.779><c> will</c><00:05:41.289><c> eventually</c><00:05:41.800><c> run</c>
+
+00:05:42.200 --> 00:05:42.210 align:start position:0%
+thread or process will eventually run
+ 
+
+00:05:42.210 --> 00:05:44.519 align:start position:0%
+thread or process will eventually run
+schedulers<00:05:43.210><c> generally</c><00:05:43.659><c> make</c><00:05:43.839><c> no</c><00:05:44.080><c> guarantee</c>
+
+00:05:44.519 --> 00:05:44.529 align:start position:0%
+schedulers generally make no guarantee
+ 
+
+00:05:44.529 --> 00:05:46.320 align:start position:0%
+schedulers generally make no guarantee
+of<00:05:44.560><c> fairness</c><00:05:44.919><c> meaning</c><00:05:45.550><c> that</c><00:05:45.699><c> process</c><00:05:46.120><c> a</c><00:05:46.300><c> and</c>
+
+00:05:46.320 --> 00:05:46.330 align:start position:0%
+of fairness meaning that process a and
+ 
+
+00:05:46.330 --> 00:05:47.969 align:start position:0%
+of fairness meaning that process a and
+process<00:05:46.900><c> B</c><00:05:47.050><c> will</c><00:05:47.229><c> run</c><00:05:47.379><c> the</c><00:05:47.500><c> same</c><00:05:47.680><c> amount</c><00:05:47.919><c> of</c>
+
+00:05:47.969 --> 00:05:47.979 align:start position:0%
+process B will run the same amount of
+ 
+
+00:05:47.979 --> 00:05:50.579 align:start position:0%
+process B will run the same amount of
+time<00:05:48.190><c> or</c><00:05:48.430><c> timeliness</c><00:05:49.360><c> the</c><00:05:49.719><c> process</c><00:05:50.139><c> a</c><00:05:50.259><c> and</c><00:05:50.289><c> B</c>
+
+00:05:50.579 --> 00:05:50.589 align:start position:0%
+time or timeliness the process a and B
+ 
+
+00:05:50.589 --> 00:05:52.200 align:start position:0%
+time or timeliness the process a and B
+will<00:05:50.830><c> get</c><00:05:50.979><c> to</c><00:05:51.099><c> run</c><00:05:51.219><c> in</c><00:05:51.400><c> some</c><00:05:51.430><c> finite</c><00:05:52.029><c> bounded</c>
+
+00:05:52.200 --> 00:05:52.210 align:start position:0%
+will get to run in some finite bounded
+ 
+
+00:05:52.210 --> 00:05:55.050 align:start position:0%
+will get to run in some finite bounded
+amount<00:05:52.509><c> of</c><00:05:52.750><c> time</c><00:05:52.960><c> such</c><00:05:53.319><c> as</c><00:05:53.469><c> one</c><00:05:53.620><c> second</c><00:05:54.159><c> one</c>
+
+00:05:55.050 --> 00:05:55.060 align:start position:0%
+amount of time such as one second one
+ 
+
+00:05:55.060 --> 00:05:56.519 align:start position:0%
+amount of time such as one second one
+way<00:05:55.210><c> to</c><00:05:55.270><c> think</c><00:05:55.360><c> about</c><00:05:55.719><c> this</c><00:05:55.900><c> is</c><00:05:56.169><c> that</c><00:05:56.379><c> when</c>
+
+00:05:56.519 --> 00:05:56.529 align:start position:0%
+way to think about this is that when
+ 
+
+00:05:56.529 --> 00:05:58.740 align:start position:0%
+way to think about this is that when
+reasoning<00:05:57.009><c> about</c><00:05:57.189><c> concurrency</c><00:05:57.879><c> we</c><00:05:58.419><c> really</c>
+
+00:05:58.740 --> 00:05:58.750 align:start position:0%
+reasoning about concurrency we really
+ 
+
+00:05:58.750 --> 00:06:00.179 align:start position:0%
+reasoning about concurrency we really
+try<00:05:58.960><c> to</c><00:05:58.990><c> think</c><00:05:59.259><c> about</c><00:05:59.409><c> the</c><00:05:59.529><c> scheduler</c><00:05:59.949><c> as</c><00:06:00.069><c> an</c>
+
+00:06:00.179 --> 00:06:00.189 align:start position:0%
+try to think about the scheduler as an
+ 
+
+00:06:00.189 --> 00:06:02.159 align:start position:0%
+try to think about the scheduler as an
+adversary<00:06:00.729><c> it</c><00:06:01.150><c> will</c><00:06:01.330><c> intentionally</c><00:06:01.689><c> switch</c>
+
+00:06:02.159 --> 00:06:02.169 align:start position:0%
+adversary it will intentionally switch
+ 
+
+00:06:02.169 --> 00:06:04.019 align:start position:0%
+adversary it will intentionally switch
+between<00:06:02.529><c> processes</c><00:06:02.979><c> at</c><00:06:03.219><c> the</c><00:06:03.310><c> worst</c><00:06:03.520><c> possible</c>
+
+00:06:04.019 --> 00:06:04.029 align:start position:0%
+between processes at the worst possible
+ 
+
+00:06:04.029 --> 00:06:06.029 align:start position:0%
+between processes at the worst possible
+time<00:06:04.270><c> to</c><00:06:04.509><c> cause</c><00:06:05.050><c> the</c><00:06:05.229><c> worst</c><00:06:05.409><c> thing</c><00:06:05.710><c> to</c><00:06:05.860><c> happen</c>
+
+00:06:06.029 --> 00:06:06.039 align:start position:0%
+time to cause the worst thing to happen
+ 
+
+00:06:06.039 --> 00:06:08.429 align:start position:0%
+time to cause the worst thing to happen
+for<00:06:06.430><c> example</c><00:06:07.330><c> suppose</c><00:06:07.689><c> we</c><00:06:07.719><c> have</c><00:06:08.080><c> the</c><00:06:08.229><c> code</c>
+
+00:06:08.429 --> 00:06:08.439 align:start position:0%
+for example suppose we have the code
+ 
+
+00:06:08.439 --> 00:06:11.579 align:start position:0%
+for example suppose we have the code
+here<00:06:08.770><c> shown</c><00:06:09.370><c> here</c><00:06:09.669><c> process</c><00:06:10.180><c> a</c><00:06:10.360><c> tries</c><00:06:11.169><c> to</c><00:06:11.349><c> count</c>
+
+00:06:11.579 --> 00:06:11.589 align:start position:0%
+here shown here process a tries to count
+ 
+
+00:06:11.589 --> 00:06:14.189 align:start position:0%
+here shown here process a tries to count
+up<00:06:11.860><c> to</c><00:06:12.250><c> 10</c><00:06:12.490><c> and</c><00:06:12.729><c> will</c><00:06:12.939><c> print</c><00:06:13.240><c> a</c><00:06:13.389><c> 1</c><00:06:13.779><c> when</c><00:06:13.960><c> it</c><00:06:14.050><c> gets</c>
+
+00:06:14.189 --> 00:06:14.199 align:start position:0%
+up to 10 and will print a 1 when it gets
+ 
+
+00:06:14.199 --> 00:06:16.529 align:start position:0%
+up to 10 and will print a 1 when it gets
+to<00:06:14.349><c> 10</c><00:06:14.560><c> process</c><00:06:15.250><c> B</c><00:06:15.400><c> will</c><00:06:15.580><c> try</c><00:06:15.729><c> to</c><00:06:15.759><c> count</c><00:06:16.060><c> to</c>
+
+00:06:16.529 --> 00:06:16.539 align:start position:0%
+to 10 process B will try to count to
+ 
+
+00:06:16.539 --> 00:06:18.540 align:start position:0%
+to 10 process B will try to count to
+negative<00:06:16.960><c> 10</c><00:06:17.139><c> and</c><00:06:17.439><c> will</c><00:06:17.770><c> print</c><00:06:17.919><c> B</c><00:06:18.129><c> 1</c><00:06:18.339><c> if</c><00:06:18.460><c> it</c>
+
+00:06:18.540 --> 00:06:18.550 align:start position:0%
+negative 10 and will print B 1 if it
+ 
+
+00:06:18.550 --> 00:06:20.670 align:start position:0%
+negative 10 and will print B 1 if it
+gets<00:06:18.669><c> a</c><00:06:18.789><c> negative</c><00:06:18.939><c> time</c><00:06:19.330><c> what</c><00:06:20.110><c> could</c><00:06:20.289><c> happen</c>
+
+00:06:20.670 --> 00:06:20.680 align:start position:0%
+gets a negative time what could happen
+ 
+
+00:06:20.680 --> 00:06:22.649 align:start position:0%
+gets a negative time what could happen
+here<00:06:20.889><c> well</c><00:06:21.400><c> it's</c><00:06:21.520><c> possible</c><00:06:21.729><c> if</c><00:06:22.300><c> you</c><00:06:22.509><c> have</c><00:06:22.629><c> a</c>
+
+00:06:22.649 --> 00:06:22.659 align:start position:0%
+here well it's possible if you have a
+ 
+
+00:06:22.659 --> 00:06:25.499 align:start position:0%
+here well it's possible if you have a
+unit<00:06:22.930><c> processor</c><00:06:23.469><c> that</c><00:06:24.250><c> process</c><00:06:24.819><c> a</c><00:06:25.000><c> well</c><00:06:25.240><c> if</c><00:06:25.360><c> it</c>
+
+00:06:25.499 --> 00:06:25.509 align:start position:0%
+unit processor that process a well if it
+ 
+
+00:06:25.509 --> 00:06:27.209 align:start position:0%
+unit processor that process a well if it
+starts<00:06:25.810><c> first</c><00:06:25.990><c> will</c><00:06:26.229><c> run</c><00:06:26.439><c> and</c><00:06:26.680><c> win</c><00:06:26.800><c> right</c><00:06:27.009><c> away</c>
+
+00:06:27.209 --> 00:06:27.219 align:start position:0%
+starts first will run and win right away
+ 
+
+00:06:27.219 --> 00:06:29.429 align:start position:0%
+starts first will run and win right away
+or<00:06:27.639><c> process</c><00:06:28.150><c> B</c><00:06:28.300><c> if</c><00:06:28.389><c> it</c><00:06:28.509><c> starts</c><00:06:28.870><c> with</c><00:06:29.080><c> run</c><00:06:29.289><c> and</c>
+
+00:06:29.429 --> 00:06:29.439 align:start position:0%
+or process B if it starts with run and
+ 
+
+00:06:29.439 --> 00:06:32.040 align:start position:0%
+or process B if it starts with run and
+run<00:06:29.620><c> and</c><00:06:29.740><c> win</c><00:06:30.550><c> right</c><00:06:30.729><c> away</c><00:06:30.969><c> if</c><00:06:31.539><c> a</c><00:06:31.750><c> and</c><00:06:31.930><c> B</c><00:06:32.020><c> are</c>
+
+00:06:32.040 --> 00:06:32.050 align:start position:0%
+run and win right away if a and B are
+ 
+
+00:06:32.050 --> 00:06:33.689 align:start position:0%
+run and win right away if a and B are
+running<00:06:32.409><c> at</c><00:06:32.500><c> the</c><00:06:32.620><c> same</c><00:06:32.800><c> time</c><00:06:33.159><c> then</c><00:06:33.550><c> it's</c>
+
+00:06:33.689 --> 00:06:33.699 align:start position:0%
+running at the same time then it's
+ 
+
+00:06:33.699 --> 00:06:35.010 align:start position:0%
+running at the same time then it's
+possible<00:06:33.909><c> that</c><00:06:34.240><c> they'll</c><00:06:34.539><c> sit</c><00:06:34.719><c> there</c><00:06:34.750><c> forever</c>
+
+00:06:35.010 --> 00:06:35.020 align:start position:0%
+possible that they'll sit there forever
+ 
+
+00:06:35.020 --> 00:06:37.320 align:start position:0%
+possible that they'll sit there forever
+and<00:06:36.009><c> neither</c><00:06:36.310><c> of</c><00:06:36.430><c> them</c><00:06:36.550><c> will</c><00:06:36.639><c> ever</c><00:06:36.849><c> win</c><00:06:37.089><c> it</c>
+
+00:06:37.320 --> 00:06:37.330 align:start position:0%
+and neither of them will ever win it
+ 
+
+00:06:37.330 --> 00:06:38.579 align:start position:0%
+and neither of them will ever win it
+will<00:06:37.419><c> ever</c><00:06:37.569><c> win</c><00:06:37.779><c> because</c><00:06:37.990><c> they</c><00:06:38.289><c> will</c><00:06:38.409><c> take</c>
+
+00:06:38.579 --> 00:06:38.589 align:start position:0%
+will ever win because they will take
+ 
+
+00:06:38.589 --> 00:06:39.580 align:start position:0%
+will ever win because they will take
+turns<00:06:38.830><c> incrementing</c>
+
+00:06:39.580 --> 00:06:39.590 align:start position:0%
+turns incrementing
+ 
+
+00:06:39.590 --> 00:06:41.680 align:start position:0%
+turns incrementing
+decrementing<00:06:40.160><c> odd</c><00:06:40.310><c> what</c><00:06:41.030><c> this</c><00:06:41.180><c> means</c><00:06:41.390><c> is</c><00:06:41.570><c> we</c>
+
+00:06:41.680 --> 00:06:41.690 align:start position:0%
+decrementing odd what this means is we
+ 
+
+00:06:41.690 --> 00:06:43.450 align:start position:0%
+decrementing odd what this means is we
+really<00:06:41.990><c> can't</c><00:06:42.290><c> count</c><00:06:42.560><c> on</c><00:06:42.590><c> the</c><00:06:42.710><c> scheduler</c><00:06:43.160><c> to</c>
+
+00:06:43.450 --> 00:06:43.460 align:start position:0%
+really can't count on the scheduler to
+ 
+
+00:06:43.460 --> 00:06:46.930 align:start position:0%
+really can't count on the scheduler to
+help<00:06:43.640><c> us</c><00:06:43.820><c> out</c><00:06:43.940><c> in</c><00:06:44.000><c> these</c><00:06:44.300><c> problems</c><00:06:45.640><c> so</c><00:06:46.640><c> one</c>
+
+00:06:46.930 --> 00:06:46.940 align:start position:0%
+help us out in these problems so one
+ 
+
+00:06:46.940 --> 00:06:48.760 align:start position:0%
+help us out in these problems so one
+thing<00:06:47.150><c> to</c><00:06:47.180><c> know</c><00:06:47.420><c> is</c><00:06:47.600><c> when</c><00:06:47.630><c> do</c><00:06:48.050><c> we</c><00:06:48.170><c> not</c><00:06:48.380><c> have</c><00:06:48.590><c> to</c>
+
+00:06:48.760 --> 00:06:48.770 align:start position:0%
+thing to know is when do we not have to
+ 
+
+00:06:48.770 --> 00:06:50.890 align:start position:0%
+thing to know is when do we not have to
+worry<00:06:48.950><c> about</c><00:06:49.100><c> concurrency</c><00:06:49.730><c> when</c><00:06:50.420><c> do</c><00:06:50.600><c> we</c><00:06:50.660><c> have</c>
+
+00:06:50.890 --> 00:06:50.900 align:start position:0%
+worry about concurrency when do we have
+ 
+
+00:06:50.900 --> 00:06:52.450 align:start position:0%
+worry about concurrency when do we have
+to<00:06:51.050><c> not</c><00:06:51.260><c> have</c><00:06:51.290><c> to</c><00:06:51.590><c> worry</c><00:06:51.800><c> about</c><00:06:51.950><c> multiple</c>
+
+00:06:52.450 --> 00:06:52.460 align:start position:0%
+to not have to worry about multiple
+ 
+
+00:06:52.460 --> 00:06:54.460 align:start position:0%
+to not have to worry about multiple
+threads<00:06:52.670><c> running</c><00:06:52.970><c> at</c><00:06:53.060><c> the</c><00:06:53.180><c> same</c><00:06:53.360><c> time</c><00:06:53.630><c> the</c>
+
+00:06:54.460 --> 00:06:54.470 align:start position:0%
+threads running at the same time the
+ 
+
+00:06:54.470 --> 00:06:56.110 align:start position:0%
+threads running at the same time the
+first<00:06:54.710><c> case</c><00:06:54.980><c> is</c><00:06:55.220><c> when</c><00:06:55.430><c> there's</c><00:06:55.610><c> no</c><00:06:55.790><c> shared</c>
+
+00:06:56.110 --> 00:06:56.120 align:start position:0%
+first case is when there's no shared
+ 
+
+00:06:56.120 --> 00:06:58.330 align:start position:0%
+first case is when there's no shared
+data<00:06:56.360><c> or</c><00:06:56.570><c> communication</c><00:06:57.260><c> supposed</c><00:06:58.130><c> to</c><00:06:58.250><c> have</c>
+
+00:06:58.330 --> 00:06:58.340 align:start position:0%
+data or communication supposed to have
+ 
+
+00:06:58.340 --> 00:07:00.190 align:start position:0%
+data or communication supposed to have
+three<00:06:58.610><c> threads</c><00:06:58.970><c> operating</c><00:06:59.720><c> on</c><00:06:59.810><c> three</c>
+
+00:07:00.190 --> 00:07:00.200 align:start position:0%
+three threads operating on three
+ 
+
+00:07:00.200 --> 00:07:01.870 align:start position:0%
+three threads operating on three
+different<00:07:00.440><c> data</c><00:07:00.740><c> structures</c><00:07:01.280><c> perhaps</c><00:07:01.550><c> three</c>
+
+00:07:01.870 --> 00:07:01.880 align:start position:0%
+different data structures perhaps three
+ 
+
+00:07:01.880 --> 00:07:03.760 align:start position:0%
+different data structures perhaps three
+different<00:07:02.210><c> arrays</c><00:07:02.420><c> in</c><00:07:02.720><c> this</c><00:07:03.290><c> case</c><00:07:03.530><c> they're</c>
+
+00:07:03.760 --> 00:07:03.770 align:start position:0%
+different arrays in this case they're
+ 
+
+00:07:03.770 --> 00:07:05.620 align:start position:0%
+different arrays in this case they're
+all<00:07:03.890><c> working</c><00:07:04.280><c> on</c><00:07:04.400><c> separate</c><00:07:04.760><c> data</c><00:07:04.970><c> there's</c><00:07:05.390><c> no</c>
+
+00:07:05.620 --> 00:07:05.630 align:start position:0%
+all working on separate data there's no
+ 
+
+00:07:05.630 --> 00:07:07.510 align:start position:0%
+all working on separate data there's no
+sharing<00:07:05.990><c> and</c><00:07:06.260><c> no</c><00:07:06.320><c> communication</c><00:07:06.530><c> so</c><00:07:07.340><c> there's</c>
+
+00:07:07.510 --> 00:07:07.520 align:start position:0%
+sharing and no communication so there's
+ 
+
+00:07:07.520 --> 00:07:08.560 align:start position:0%
+sharing and no communication so there's
+no<00:07:07.670><c> nothing</c><00:07:08.120><c> to</c><00:07:08.210><c> worry</c><00:07:08.330><c> about</c><00:07:08.360><c> the</c>
+
+00:07:08.560 --> 00:07:08.570 align:start position:0%
+no nothing to worry about the
+ 
+
+00:07:08.570 --> 00:07:10.930 align:start position:0%
+no nothing to worry about the
+concurrency<00:07:09.190><c> the</c><00:07:10.190><c> second</c><00:07:10.580><c> time</c><00:07:10.730><c> we</c><00:07:10.850><c> don't</c>
+
+00:07:10.930 --> 00:07:10.940 align:start position:0%
+concurrency the second time we don't
+ 
+
+00:07:10.940 --> 00:07:13.300 align:start position:0%
+concurrency the second time we don't
+have<00:07:11.090><c> to</c><00:07:11.270><c> worry</c><00:07:11.480><c> about</c><00:07:11.600><c> it</c><00:07:11.870><c> is</c><00:07:12.140><c> when</c><00:07:13.040><c> we</c><00:07:13.160><c> have</c>
+
+00:07:13.300 --> 00:07:13.310 align:start position:0%
+have to worry about it is when we have
+ 
+
+00:07:13.310 --> 00:07:14.710 align:start position:0%
+have to worry about it is when we have
+read-only<00:07:13.550><c> data</c><00:07:13.850><c> meaning</c><00:07:14.480><c> that</c><00:07:14.570><c> it's</c>
+
+00:07:14.710 --> 00:07:14.720 align:start position:0%
+read-only data meaning that it's
+ 
+
+00:07:14.720 --> 00:07:16.540 align:start position:0%
+read-only data meaning that it's
+constant<00:07:15.320><c> so</c><00:07:15.560><c> even</c><00:07:15.890><c> though</c><00:07:15.980><c> we</c><00:07:16.100><c> have</c><00:07:16.250><c> shared</c>
+
+00:07:16.540 --> 00:07:16.550 align:start position:0%
+constant so even though we have shared
+ 
+
+00:07:16.550 --> 00:07:18.430 align:start position:0%
+constant so even though we have shared
+data<00:07:16.820><c> and</c><00:07:17.090><c> this</c><00:07:17.330><c> is</c><00:07:17.510><c> example</c><00:07:17.780><c> a</c><00:07:17.990><c> hash</c><00:07:18.200><c> table</c>
+
+00:07:18.430 --> 00:07:18.440 align:start position:0%
+data and this is example a hash table
+ 
+
+00:07:18.440 --> 00:07:20.980 align:start position:0%
+data and this is example a hash table
+the<00:07:19.340><c> threads</c><00:07:19.760><c> are</c><00:07:19.940><c> only</c><00:07:20.060><c> reading</c><00:07:20.360><c> it</c><00:07:20.660><c> so</c>
+
+00:07:20.980 --> 00:07:20.990 align:start position:0%
+the threads are only reading it so
+ 
+
+00:07:20.990 --> 00:07:22.090 align:start position:0%
+the threads are only reading it so
+there's<00:07:21.170><c> nothing</c><00:07:21.350><c> that</c><00:07:21.620><c> can</c><00:07:21.740><c> go</c><00:07:21.860><c> wrong</c>
+
+00:07:22.090 --> 00:07:22.100 align:start position:0%
+there's nothing that can go wrong
+ 
+
+00:07:22.100 --> 00:07:23.830 align:start position:0%
+there's nothing that can go wrong
+there's<00:07:22.550><c> no</c><00:07:22.700><c> chance</c><00:07:23.000><c> that</c><00:07:23.270><c> one</c><00:07:23.450><c> thread</c><00:07:23.690><c> will</c>
+
+00:07:23.830 --> 00:07:23.840 align:start position:0%
+there's no chance that one thread will
+ 
+
+00:07:23.840 --> 00:07:25.780 align:start position:0%
+there's no chance that one thread will
+modify<00:07:24.260><c> the</c><00:07:24.320><c> data</c><00:07:24.680><c> and</c><00:07:25.010><c> some</c><00:07:25.250><c> other</c><00:07:25.400><c> one</c><00:07:25.610><c> will</c>
+
+00:07:25.780 --> 00:07:25.790 align:start position:0%
+modify the data and some other one will
+ 
+
+00:07:25.790 --> 00:07:27.790 align:start position:0%
+modify the data and some other one will
+see<00:07:25.940><c> the</c><00:07:26.060><c> wrong</c><00:07:26.210><c> value</c><00:07:26.600><c> because</c><00:07:27.320><c> the</c><00:07:27.440><c> data</c><00:07:27.650><c> is</c>
+
+00:07:27.790 --> 00:07:27.800 align:start position:0%
+see the wrong value because the data is
+ 
+
+00:07:27.800 --> 00:07:32.380 align:start position:0%
+see the wrong value because the data is
+constant<00:07:28.340><c> some</c><00:07:29.060><c> examples</c><00:07:29.630><c> of</c><00:07:31.060><c> data</c><00:07:32.060><c> that</c><00:07:32.270><c> is</c>
+
+00:07:32.380 --> 00:07:32.390 align:start position:0%
+constant some examples of data that is
+ 
+
+00:07:32.390 --> 00:07:34.360 align:start position:0%
+constant some examples of data that is
+not<00:07:32.540><c> shared</c><00:07:32.990><c> are</c><00:07:33.230><c> local</c><00:07:33.710><c> variables</c><00:07:33.740><c> in</c><00:07:34.250><c> your</c>
+
+00:07:34.360 --> 00:07:34.370 align:start position:0%
+not shared are local variables in your
+ 
+
+00:07:34.370 --> 00:07:36.040 align:start position:0%
+not shared are local variables in your
+thread<00:07:34.640><c> stack</c><00:07:34.940><c> these</c><00:07:35.390><c> are</c><00:07:35.600><c> private</c><00:07:35.930><c> to</c><00:07:35.960><c> the</c>
+
+00:07:36.040 --> 00:07:36.050 align:start position:0%
+thread stack these are private to the
+ 
+
+00:07:36.050 --> 00:07:37.600 align:start position:0%
+thread stack these are private to the
+thread<00:07:36.350><c> and</c><00:07:36.530><c> generally</c><00:07:36.830><c> not</c><00:07:36.860><c> shared</c><00:07:37.370><c> an</c>
+
+00:07:37.600 --> 00:07:37.610 align:start position:0%
+thread and generally not shared an
+ 
+
+00:07:37.610 --> 00:07:39.610 align:start position:0%
+thread and generally not shared an
+example<00:07:38.180><c> of</c><00:07:38.300><c> read-only</c><00:07:38.480><c> constant</c><00:07:39.230><c> data</c><00:07:39.380><c> are</c>
+
+00:07:39.610 --> 00:07:39.620 align:start position:0%
+example of read-only constant data are
+ 
+
+00:07:39.620 --> 00:07:41.650 align:start position:0%
+example of read-only constant data are
+global<00:07:39.980><c> constants</c><00:07:40.490><c> that</c><00:07:40.790><c> you</c><00:07:41.060><c> compile</c><00:07:41.420><c> into</c>
+
+00:07:41.650 --> 00:07:41.660 align:start position:0%
+global constants that you compile into
+ 
+
+00:07:41.660 --> 00:07:44.800 align:start position:0%
+global constants that you compile into
+your<00:07:41.840><c> code</c><00:07:43.060><c> so</c><00:07:44.060><c> what</c><00:07:44.270><c> about</c><00:07:44.360><c> risky</c>
+
+00:07:44.800 --> 00:07:44.810 align:start position:0%
+your code so what about risky
+ 
+
+00:07:44.810 --> 00:07:46.630 align:start position:0%
+your code so what about risky
+concurrency<00:07:45.350><c> when</c><00:07:45.650><c> do</c><00:07:45.920><c> we</c><00:07:46.100><c> have</c><00:07:46.250><c> to</c><00:07:46.460><c> worry</c>
+
+00:07:46.630 --> 00:07:46.640 align:start position:0%
+concurrency when do we have to worry
+ 
+
+00:07:46.640 --> 00:07:49.000 align:start position:0%
+concurrency when do we have to worry
+about<00:07:46.760><c> things</c><00:07:47.180><c> well</c><00:07:47.930><c> if</c><00:07:48.290><c> we</c><00:07:48.440><c> have</c><00:07:48.590><c> multiple</c>
+
+00:07:49.000 --> 00:07:49.010 align:start position:0%
+about things well if we have multiple
+ 
+
+00:07:49.010 --> 00:07:50.530 align:start position:0%
+about things well if we have multiple
+threads<00:07:49.160><c> accessing</c><00:07:49.850><c> a</c><00:07:49.940><c> shared</c><00:07:50.240><c> variable</c>
+
+00:07:50.530 --> 00:07:50.540 align:start position:0%
+threads accessing a shared variable
+ 
+
+00:07:50.540 --> 00:07:52.870 align:start position:0%
+threads accessing a shared variable
+without<00:07:51.110><c> any</c><00:07:51.320><c> kind</c><00:07:51.620><c> of</c><00:07:51.800><c> rules</c><00:07:52.040><c> to</c><00:07:52.250><c> access</c><00:07:52.670><c> it</c>
+
+00:07:52.870 --> 00:07:52.880 align:start position:0%
+without any kind of rules to access it
+ 
+
+00:07:52.880 --> 00:07:55.330 align:start position:0%
+without any kind of rules to access it
+we<00:07:53.420><c> have</c><00:07:53.570><c> a</c><00:07:53.600><c> problem</c><00:07:53.690><c> this</c><00:07:54.380><c> is</c><00:07:54.440><c> like</c><00:07:54.800><c> having</c><00:07:55.100><c> a</c>
+
+00:07:55.330 --> 00:07:55.340 align:start position:0%
+we have a problem this is like having a
+ 
+
+00:07:55.340 --> 00:07:56.860 align:start position:0%
+we have a problem this is like having a
+shared<00:07:55.580><c> bathroom</c><00:07:56.030><c> with</c><00:07:56.150><c> no</c><00:07:56.180><c> lock</c><00:07:56.540><c> on</c><00:07:56.720><c> the</c><00:07:56.840><c> door</c>
+
+00:07:56.860 --> 00:07:56.870 align:start position:0%
+shared bathroom with no lock on the door
+ 
+
+00:07:56.870 --> 00:07:59.800 align:start position:0%
+shared bathroom with no lock on the door
+that<00:07:57.170><c> people</c><00:07:57.440><c> can</c><00:07:57.590><c> walk</c><00:07:57.740><c> in</c><00:07:57.980><c> at</c><00:07:58.160><c> any</c><00:07:58.310><c> time</c><00:07:58.810><c> the</c>
+
+00:07:59.800 --> 00:07:59.810 align:start position:0%
+that people can walk in at any time the
+ 
+
+00:07:59.810 --> 00:08:01.330 align:start position:0%
+that people can walk in at any time the
+second<00:08:00.170><c> thing</c><00:08:00.290><c> we</c><00:08:00.380><c> worry</c><00:08:00.560><c> about</c><00:08:00.620><c> is</c><00:08:00.800><c> when</c><00:08:01.190><c> at</c>
+
+00:08:01.330 --> 00:08:01.340 align:start position:0%
+second thing we worry about is when at
+ 
+
+00:08:01.340 --> 00:08:03.190 align:start position:0%
+second thing we worry about is when at
+least<00:08:01.490><c> one</c><00:08:01.730><c> thread</c><00:08:02.030><c> modifies</c><00:08:02.570><c> the</c><00:08:02.780><c> resource</c>
+
+00:08:03.190 --> 00:08:03.200 align:start position:0%
+least one thread modifies the resource
+ 
+
+00:08:03.200 --> 00:08:05.530 align:start position:0%
+least one thread modifies the resource
+so<00:08:03.650><c> in</c><00:08:03.740><c> our</c><00:08:03.860><c> hash</c><00:08:04.010><c> table</c><00:08:04.250><c> example</c><00:08:04.850><c> if</c><00:08:05.090><c> one</c><00:08:05.420><c> of</c>
+
+00:08:05.530 --> 00:08:05.540 align:start position:0%
+so in our hash table example if one of
+ 
+
+00:08:05.540 --> 00:08:06.940 align:start position:0%
+so in our hash table example if one of
+our<00:08:05.630><c> threads</c><00:08:05.930><c> is</c><00:08:06.050><c> inserting</c><00:08:06.560><c> into</c><00:08:06.650><c> the</c><00:08:06.770><c> hash</c>
+
+00:08:06.940 --> 00:08:06.950 align:start position:0%
+our threads is inserting into the hash
+ 
+
+00:08:06.950 --> 00:08:08.650 align:start position:0%
+our threads is inserting into the hash
+table<00:08:07.160><c> what</c><00:08:07.580><c> other</c><00:08:07.700><c> ones</c><00:08:07.910><c> are</c><00:08:08.030><c> looking</c><00:08:08.330><c> up</c>
+
+00:08:08.650 --> 00:08:08.660 align:start position:0%
+table what other ones are looking up
+ 
+
+00:08:08.660 --> 00:08:10.990 align:start position:0%
+table what other ones are looking up
+it's<00:08:09.140><c> possible</c><00:08:09.710><c> the</c><00:08:09.860><c> threads</c><00:08:10.160><c> might</c><00:08:10.430><c> see</c><00:08:10.760><c> the</c>
+
+00:08:10.990 --> 00:08:11.000 align:start position:0%
+it's possible the threads might see the
+ 
+
+00:08:11.000 --> 00:08:12.400 align:start position:0%
+it's possible the threads might see the
+hash<00:08:11.270><c> table</c><00:08:11.450><c> in</c><00:08:11.630><c> the</c><00:08:11.690><c> middle</c><00:08:11.900><c> of</c><00:08:11.990><c> an</c><00:08:12.080><c> insert</c>
+
+00:08:12.400 --> 00:08:12.410 align:start position:0%
+hash table in the middle of an insert
+ 
+
+00:08:12.410 --> 00:08:14.980 align:start position:0%
+hash table in the middle of an insert
+and<00:08:12.680><c> sees</c><00:08:13.240><c> invalid</c><00:08:14.240><c> pointer</c><00:08:14.450><c> or</c><00:08:14.780><c> a</c><00:08:14.810><c> null</c>
+
+00:08:14.980 --> 00:08:14.990 align:start position:0%
+and sees invalid pointer or a null
+ 
+
+00:08:14.990 --> 00:08:17.650 align:start position:0%
+and sees invalid pointer or a null
+pointer<00:08:15.320><c> in</c><00:08:15.440><c> crash</c><00:08:15.820><c> we</c><00:08:16.820><c> call</c><00:08:17.060><c> this</c><00:08:17.240><c> a</c><00:08:17.420><c> race</c>
+
+00:08:17.650 --> 00:08:17.660 align:start position:0%
+pointer in crash we call this a race
+ 
+
+00:08:17.660 --> 00:08:20.890 align:start position:0%
+pointer in crash we call this a race
+condition<00:08:18.970><c> which</c><00:08:19.970><c> is</c><00:08:20.150><c> when</c><00:08:20.360><c> we</c><00:08:20.540><c> have</c><00:08:20.690><c> two</c>
+
+00:08:20.890 --> 00:08:20.900 align:start position:0%
+condition which is when we have two
+ 
+
+00:08:20.900 --> 00:08:22.360 align:start position:0%
+condition which is when we have two
+threads<00:08:21.230><c> that</c><00:08:21.440><c> are</c><00:08:21.500><c> accessing</c><00:08:21.920><c> the</c><00:08:22.130><c> same</c><00:08:22.310><c> data</c>
+
+00:08:22.360 --> 00:08:22.370 align:start position:0%
+threads that are accessing the same data
+ 
+
+00:08:22.370 --> 00:08:24.460 align:start position:0%
+threads that are accessing the same data
+without<00:08:22.820><c> any</c><00:08:23.210><c> kind</c><00:08:23.390><c> of</c><00:08:23.510><c> rules</c><00:08:23.720><c> for</c><00:08:23.900><c> access</c><00:08:24.020><c> and</c>
+
+00:08:24.460 --> 00:08:24.470 align:start position:0%
+without any kind of rules for access and
+ 
+
+00:08:24.470 --> 00:08:25.720 align:start position:0%
+without any kind of rules for access and
+we'll<00:08:24.680><c> talk</c><00:08:24.860><c> about</c><00:08:25.010><c> this</c><00:08:25.310><c> in</c><00:08:25.370><c> the</c><00:08:25.580><c> next</c>
+
+00:08:25.720 --> 00:08:25.730 align:start position:0%
+we'll talk about this in the next
+ 
+
+00:08:25.730 --> 00:08:29.440 align:start position:0%
+we'll talk about this in the next
+lecture<00:08:26.800><c> so</c><00:08:27.800><c> a</c><00:08:28.130><c> standard</c><00:08:28.400><c> example</c><00:08:29.030><c> of</c><00:08:29.240><c> where</c>
+
+00:08:29.440 --> 00:08:29.450 align:start position:0%
+lecture so a standard example of where
+ 
+
+00:08:29.450 --> 00:08:31.030 align:start position:0%
+lecture so a standard example of where
+concurrency<00:08:29.990><c> matters</c><00:08:30.320><c> is</c><00:08:30.500><c> in</c><00:08:30.620><c> a</c><00:08:30.710><c> bank</c><00:08:30.860><c> account</c>
+
+00:08:31.030 --> 00:08:31.040 align:start position:0%
+concurrency matters is in a bank account
+ 
+
+00:08:31.040 --> 00:08:33.070 align:start position:0%
+concurrency matters is in a bank account
+suppose<00:08:31.880><c> you</c><00:08:32.000><c> have</c><00:08:32.090><c> a</c><00:08:32.150><c> bank</c><00:08:32.420><c> server</c><00:08:32.780><c> that</c><00:08:32.960><c> is</c>
+
+00:08:33.070 --> 00:08:33.080 align:start position:0%
+suppose you have a bank server that is
+ 
+
+00:08:33.080 --> 00:08:34.720 align:start position:0%
+suppose you have a bank server that is
+managing<00:08:33.440><c> an</c><00:08:33.530><c> account</c><00:08:33.800><c> balance</c><00:08:33.980><c> it</c><00:08:34.430><c> has</c><00:08:34.460><c> one</c>
+
+00:08:34.720 --> 00:08:34.730 align:start position:0%
+managing an account balance it has one
+ 
+
+00:08:34.730 --> 00:08:36.430 align:start position:0%
+managing an account balance it has one
+method<00:08:34.940><c> a</c><00:08:35.180><c> withdraw</c><00:08:35.540><c> method</c><00:08:35.960><c> that</c><00:08:36.140><c> takes</c><00:08:36.260><c> an</c>
+
+00:08:36.430 --> 00:08:36.440 align:start position:0%
+method a withdraw method that takes an
+ 
+
+00:08:36.440 --> 00:08:38.590 align:start position:0%
+method a withdraw method that takes an
+account<00:08:36.770><c> number</c><00:08:37.130><c> or</c><00:08:37.280><c> count</c><00:08:37.790><c> object</c><00:08:38.240><c> and</c><00:08:38.450><c> the</c>
+
+00:08:38.590 --> 00:08:38.600 align:start position:0%
+account number or count object and the
+ 
+
+00:08:38.600 --> 00:08:40.690 align:start position:0%
+account number or count object and the
+amount<00:08:38.780><c> of</c><00:08:38.930><c> money</c><00:08:39.050><c> to</c><00:08:39.260><c> withdraw</c><00:08:39.620><c> and</c><00:08:39.950><c> we</c><00:08:40.550><c> have</c>
+
+00:08:40.690 --> 00:08:40.700 align:start position:0%
+amount of money to withdraw and we have
+ 
+
+00:08:40.700 --> 00:08:42.190 align:start position:0%
+amount of money to withdraw and we have
+two<00:08:40.880><c> people</c><00:08:41.180><c> trying</c><00:08:41.420><c> to</c><00:08:41.540><c> call</c><00:08:41.720><c> it</c><00:08:41.840><c> at</c><00:08:41.930><c> the</c><00:08:42.020><c> same</c>
+
+00:08:42.190 --> 00:08:42.200 align:start position:0%
+two people trying to call it at the same
+ 
+
+00:08:42.200 --> 00:08:44.620 align:start position:0%
+two people trying to call it at the same
+time<00:08:42.260><c> shown</c><00:08:42.950><c> here</c><00:08:43.190><c> in</c><00:08:43.280><c> pink</c><00:08:43.520><c> and</c><00:08:43.730><c> green</c><00:08:43.880><c> both</c>
+
+00:08:44.620 --> 00:08:44.630 align:start position:0%
+time shown here in pink and green both
+ 
+
+00:08:44.630 --> 00:08:46.630 align:start position:0%
+time shown here in pink and green both
+times<00:08:45.290><c> the</c><00:08:45.500><c> code</c><00:08:45.680><c> get</c><00:08:45.890><c> called</c><00:08:46.190><c> it</c><00:08:46.340><c> does</c><00:08:46.490><c> the</c>
+
+00:08:46.630 --> 00:08:46.640 align:start position:0%
+times the code get called it does the
+ 
+
+00:08:46.640 --> 00:08:48.790 align:start position:0%
+times the code get called it does the
+same<00:08:46.850><c> thing</c><00:08:46.910><c> it</c><00:08:47.450><c> reads</c><00:08:47.720><c> the</c><00:08:47.930><c> balance</c><00:08:48.560><c> from</c><00:08:48.710><c> the</c>
+
+00:08:48.790 --> 00:08:48.800 align:start position:0%
+same thing it reads the balance from the
+ 
+
+00:08:48.800 --> 00:08:50.980 align:start position:0%
+same thing it reads the balance from the
+account<00:08:49.190><c> it</c><00:08:49.820><c> subtracts</c><00:08:50.090><c> the</c><00:08:50.540><c> amount</c><00:08:50.750><c> of</c><00:08:50.810><c> money</c>
+
+00:08:50.980 --> 00:08:50.990 align:start position:0%
+account it subtracts the amount of money
+ 
+
+00:08:50.990 --> 00:08:52.540 align:start position:0%
+account it subtracts the amount of money
+withdrawn<00:08:51.350><c> from</c><00:08:51.560><c> the</c><00:08:51.740><c> balance</c><00:08:52.070><c> and</c><00:08:52.250><c> then</c>
+
+00:08:52.540 --> 00:08:52.550 align:start position:0%
+withdrawn from the balance and then
+ 
+
+00:08:52.550 --> 00:08:53.050 align:start position:0%
+withdrawn from the balance and then
+update
+
+00:08:53.050 --> 00:08:53.060 align:start position:0%
+update
+ 
+
+00:08:53.060 --> 00:08:54.580 align:start position:0%
+update
+the<00:08:53.180><c> accounts</c><00:08:53.480><c> balance</c><00:08:53.660><c> with</c><00:08:53.960><c> the</c><00:08:54.080><c> new</c><00:08:54.200><c> value</c>
+
+00:08:54.580 --> 00:08:54.590 align:start position:0%
+the accounts balance with the new value
+ 
+
+00:08:54.590 --> 00:08:57.310 align:start position:0%
+the accounts balance with the new value
+and<00:08:54.770><c> returns</c><00:08:55.490><c> the</c><00:08:55.700><c> current</c><00:08:55.880><c> balance</c><00:08:56.150><c> so</c><00:08:57.140><c> this</c>
+
+00:08:57.310 --> 00:08:57.320 align:start position:0%
+and returns the current balance so this
+ 
+
+00:08:57.320 --> 00:08:58.930 align:start position:0%
+and returns the current balance so this
+seems<00:08:57.560><c> like</c><00:08:57.680><c> it's</c><00:08:57.920><c> fine</c><00:08:58.130><c> if</c><00:08:58.310><c> two</c><00:08:58.430><c> people</c><00:08:58.580><c> draw</c>
+
+00:08:58.930 --> 00:08:58.940 align:start position:0%
+seems like it's fine if two people draw
+ 
+
+00:08:58.940 --> 00:09:00.519 align:start position:0%
+seems like it's fine if two people draw
+at<00:08:59.060><c> the</c><00:08:59.150><c> same</c><00:08:59.360><c> time</c><00:08:59.600><c> but</c><00:08:59.870><c> let's</c><00:09:00.080><c> look</c><00:09:00.260><c> at</c><00:09:00.410><c> what</c>
+
+00:09:00.519 --> 00:09:00.529 align:start position:0%
+at the same time but let's look at what
+ 
+
+00:09:00.529 --> 00:09:01.330 align:start position:0%
+at the same time but let's look at what
+can<00:09:00.680><c> go</c><00:09:00.830><c> wrong</c>
+
+00:09:01.330 --> 00:09:01.340 align:start position:0%
+can go wrong
+ 
+
+00:09:01.340 --> 00:09:04.269 align:start position:0%
+can go wrong
+suppose<00:09:02.000><c> we</c><00:09:02.210><c> start</c><00:09:02.480><c> out</c><00:09:02.630><c> with</c><00:09:03.200><c> $100</c><00:09:03.950><c> now</c>
+
+00:09:04.269 --> 00:09:04.279 align:start position:0%
+suppose we start out with $100 now
+ 
+
+00:09:04.279 --> 00:09:05.920 align:start position:0%
+suppose we start out with $100 now
+remember<00:09:04.730><c> these</c><00:09:04.910><c> two</c><00:09:05.120><c> functions</c><00:09:05.600><c> are</c><00:09:05.690><c> being</c>
+
+00:09:05.920 --> 00:09:05.930 align:start position:0%
+remember these two functions are being
+ 
+
+00:09:05.930 --> 00:09:07.540 align:start position:0%
+remember these two functions are being
+called<00:09:06.110><c> by</c><00:09:06.290><c> two</c><00:09:06.350><c> different</c><00:09:06.620><c> users</c><00:09:06.950><c> meaning</c>
+
+00:09:07.540 --> 00:09:07.550 align:start position:0%
+called by two different users meaning
+ 
+
+00:09:07.550 --> 00:09:09.460 align:start position:0%
+called by two different users meaning
+logically<00:09:08.060><c> in</c><00:09:08.240><c> a</c><00:09:08.300><c> computer</c><00:09:08.720><c> system</c><00:09:09.050><c> to</c><00:09:09.200><c> run</c><00:09:09.320><c> on</c>
+
+00:09:09.460 --> 00:09:09.470 align:start position:0%
+logically in a computer system to run on
+ 
+
+00:09:09.470 --> 00:09:11.650 align:start position:0%
+logically in a computer system to run on
+two<00:09:09.620><c> different</c><00:09:09.740><c> threads</c><00:09:10.010><c> the</c><00:09:10.880><c> scheduler</c><00:09:11.420><c> as</c><00:09:11.570><c> I</c>
+
+00:09:11.650 --> 00:09:11.660 align:start position:0%
+two different threads the scheduler as I
+ 
+
+00:09:11.660 --> 00:09:13.810 align:start position:0%
+two different threads the scheduler as I
+said<00:09:11.900><c> can</c><00:09:12.440><c> interleave</c><00:09:12.830><c> these</c><00:09:13.130><c> two</c><00:09:13.339><c> threads</c><00:09:13.670><c> in</c>
+
+00:09:13.810 --> 00:09:13.820 align:start position:0%
+said can interleave these two threads in
+ 
+
+00:09:13.820 --> 00:09:14.829 align:start position:0%
+said can interleave these two threads in
+any<00:09:13.970><c> way</c><00:09:14.180><c> we</c><00:09:14.450><c> want</c>
+
+00:09:14.829 --> 00:09:14.839 align:start position:0%
+any way we want
+ 
+
+00:09:14.839 --> 00:09:16.840 align:start position:0%
+any way we want
+so<00:09:15.140><c> suppose</c><00:09:15.589><c> we</c><00:09:15.620><c> have</c><00:09:15.920><c> the</c><00:09:16.010><c> interleaving</c><00:09:16.550><c> here</c>
+
+00:09:16.840 --> 00:09:16.850 align:start position:0%
+so suppose we have the interleaving here
+ 
+
+00:09:16.850 --> 00:09:19.180 align:start position:0%
+so suppose we have the interleaving here
+where<00:09:17.450><c> time</c><00:09:18.050><c> is</c><00:09:18.080><c> starting</c><00:09:18.500><c> at</c><00:09:18.620><c> the</c><00:09:18.710><c> top</c><00:09:18.890><c> and</c>
+
+00:09:19.180 --> 00:09:19.190 align:start position:0%
+where time is starting at the top and
+ 
+
+00:09:19.190 --> 00:09:21.280 align:start position:0%
+where time is starting at the top and
+going<00:09:19.490><c> down</c><00:09:19.670><c> so</c><00:09:20.480><c> we</c><00:09:20.630><c> start</c><00:09:20.900><c> off</c><00:09:20.960><c> with</c><00:09:21.140><c> your</c>
+
+00:09:21.280 --> 00:09:21.290 align:start position:0%
+going down so we start off with your
+ 
+
+00:09:21.290 --> 00:09:24.760 align:start position:0%
+going down so we start off with your
+balance<00:09:21.410><c> at</c><00:09:21.680><c> $100</c><00:09:22.310><c> the</c><00:09:23.350><c> first</c><00:09:24.350><c> thread</c><00:09:24.680><c> to</c>
+
+00:09:24.760 --> 00:09:24.770 align:start position:0%
+balance at $100 the first thread to
+ 
+
+00:09:24.770 --> 00:09:26.290 align:start position:0%
+balance at $100 the first thread to
+execute<00:09:25.070><c> is</c><00:09:25.190><c> the</c><00:09:25.279><c> pink</c><00:09:25.520><c> thread</c><00:09:25.670><c> and</c><00:09:26.089><c> it</c>
+
+00:09:26.290 --> 00:09:26.300 align:start position:0%
+execute is the pink thread and it
+ 
+
+00:09:26.300 --> 00:09:27.970 align:start position:0%
+execute is the pink thread and it
+executes<00:09:26.720><c> up</c><00:09:27.050><c> to</c><00:09:27.140><c> the</c><00:09:27.230><c> point</c><00:09:27.470><c> where</c><00:09:27.860><c> it</c>
+
+00:09:27.970 --> 00:09:27.980 align:start position:0%
+executes up to the point where it
+ 
+
+00:09:27.980 --> 00:09:30.010 align:start position:0%
+executes up to the point where it
+calculates<00:09:28.490><c> the</c><00:09:28.610><c> new</c><00:09:28.760><c> balance</c><00:09:29.000><c> at</c><00:09:29.360><c> 90</c><00:09:29.690><c> dollars</c>
+
+00:09:30.010 --> 00:09:30.020 align:start position:0%
+calculates the new balance at 90 dollars
+ 
+
+00:09:30.020 --> 00:09:32.350 align:start position:0%
+calculates the new balance at 90 dollars
+if<00:09:30.230><c> we</c><00:09:31.070><c> now</c><00:09:31.220><c> switch</c><00:09:31.279><c> and</c><00:09:31.850><c> start</c><00:09:31.970><c> running</c><00:09:32.300><c> the</c>
+
+00:09:32.350 --> 00:09:32.360 align:start position:0%
+if we now switch and start running the
+ 
+
+00:09:32.360 --> 00:09:34.930 align:start position:0%
+if we now switch and start running the
+green<00:09:32.570><c> thread</c><00:09:32.870><c> it</c><00:09:33.290><c> will</c><00:09:33.560><c> try</c><00:09:34.100><c> to</c><00:09:34.130><c> be</c><00:09:34.339><c> removing</c>
+
+00:09:34.930 --> 00:09:34.940 align:start position:0%
+green thread it will try to be removing
+ 
+
+00:09:34.940 --> 00:09:36.579 align:start position:0%
+green thread it will try to be removing
+20<00:09:35.210><c> dollars</c><00:09:35.510><c> and</c><00:09:35.690><c> it'll</c><00:09:35.839><c> execute</c><00:09:36.170><c> down</c><00:09:36.320><c> to</c><00:09:36.500><c> the</c>
+
+00:09:36.579 --> 00:09:36.589 align:start position:0%
+20 dollars and it'll execute down to the
+ 
+
+00:09:36.589 --> 00:09:38.140 align:start position:0%
+20 dollars and it'll execute down to the
+point<00:09:36.830><c> where</c><00:09:37.040><c> it</c><00:09:37.100><c> accounts</c><00:09:37.430><c> so</c><00:09:37.910><c> it's</c><00:09:38.029><c> the</c>
+
+00:09:38.140 --> 00:09:38.150 align:start position:0%
+point where it accounts so it's the
+ 
+
+00:09:38.150 --> 00:09:40.300 align:start position:0%
+point where it accounts so it's the
+balance<00:09:38.450><c> to</c><00:09:38.570><c> be</c><00:09:38.660><c> 80</c><00:09:38.870><c> dollars</c><00:09:39.290><c> the</c><00:09:40.040><c> pink</c>
+
+00:09:40.300 --> 00:09:40.310 align:start position:0%
+balance to be 80 dollars the pink
+ 
+
+00:09:40.310 --> 00:09:41.890 align:start position:0%
+balance to be 80 dollars the pink
+threads<00:09:40.610><c> can</c><00:09:40.940><c> start</c><00:09:41.150><c> running</c><00:09:41.270><c> again</c><00:09:41.480><c> at</c><00:09:41.750><c> this</c>
+
+00:09:41.890 --> 00:09:41.900 align:start position:0%
+threads can start running again at this
+ 
+
+00:09:41.900 --> 00:09:43.660 align:start position:0%
+threads can start running again at this
+point<00:09:42.170><c> and</c><00:09:42.440><c> it</c><00:09:42.650><c> will</c><00:09:42.740><c> save</c><00:09:43.040><c> the</c><00:09:43.220><c> balance</c><00:09:43.550><c> as</c>
+
+00:09:43.660 --> 00:09:43.670 align:start position:0%
+point and it will save the balance as
+ 
+
+00:09:43.670 --> 00:09:47.829 align:start position:0%
+point and it will save the balance as
+$90<00:09:44.360><c> and</c><00:09:44.570><c> return</c><00:09:46.180><c> when</c><00:09:47.180><c> the</c><00:09:47.390><c> green</c><00:09:47.600><c> thread</c>
+
+00:09:47.829 --> 00:09:47.839 align:start position:0%
+$90 and return when the green thread
+ 
+
+00:09:47.839 --> 00:09:49.870 align:start position:0%
+$90 and return when the green thread
+starts<00:09:48.290><c> up</c><00:09:48.470><c> it</c><00:09:48.740><c> will</c><00:09:48.920><c> save</c><00:09:49.130><c> the</c><00:09:49.310><c> value</c><00:09:49.670><c> as</c>
+
+00:09:49.870 --> 00:09:49.880 align:start position:0%
+starts up it will save the value as
+ 
+
+00:09:49.880 --> 00:09:52.180 align:start position:0%
+starts up it will save the value as
+eight<00:09:50.390><c> of</c><00:09:50.600><c> the</c><00:09:50.720><c> balances</c><00:09:51.110><c> $80</c><00:09:51.770><c> and</c><00:09:52.010><c> then</c>
+
+00:09:52.180 --> 00:09:52.190 align:start position:0%
+eight of the balances $80 and then
+ 
+
+00:09:52.190 --> 00:09:54.460 align:start position:0%
+eight of the balances $80 and then
+return<00:09:52.520><c> the</c><00:09:53.210><c> problem</c><00:09:53.600><c> here</c><00:09:53.810><c> is</c><00:09:53.930><c> at</c><00:09:54.080><c> the</c><00:09:54.110><c> end</c><00:09:54.200><c> of</c>
+
+00:09:54.460 --> 00:09:54.470 align:start position:0%
+return the problem here is at the end of
+ 
+
+00:09:54.470 --> 00:09:56.800 align:start position:0%
+return the problem here is at the end of
+this<00:09:54.650><c> the</c><00:09:54.980><c> account</c><00:09:55.250><c> balance</c><00:09:55.610><c> is</c><00:09:55.730><c> left</c><00:09:55.970><c> at</c><00:09:56.150><c> $80</c>
+
+00:09:56.800 --> 00:09:56.810 align:start position:0%
+this the account balance is left at $80
+ 
+
+00:09:56.810 --> 00:09:59.740 align:start position:0%
+this the account balance is left at $80
+even<00:09:57.320><c> though</c><00:09:57.760><c> 30</c><00:09:58.760><c> dollars</c><00:09:59.150><c> were</c><00:09:59.360><c> removed</c><00:09:59.690><c> from</c>
+
+00:09:59.740 --> 00:09:59.750 align:start position:0%
+even though 30 dollars were removed from
+ 
+
+00:09:59.750 --> 00:10:01.300 align:start position:0%
+even though 30 dollars were removed from
+the<00:09:59.900><c> bank</c><00:10:00.080><c> account</c><00:10:00.230><c> and</c><00:10:00.680><c> it</c><00:10:00.800><c> began</c><00:10:01.070><c> with</c><00:10:01.130><c> a</c>
+
+00:10:01.300 --> 00:10:01.310 align:start position:0%
+the bank account and it began with a
+ 
+
+00:10:01.310 --> 00:10:03.640 align:start position:0%
+the bank account and it began with a
+balance<00:10:01.580><c> of</c><00:10:01.640><c> $100</c><00:10:02.300><c> the</c><00:10:02.930><c> problem</c><00:10:03.350><c> here</c><00:10:03.530><c> is</c><00:10:03.620><c> that</c>
+
+00:10:03.640 --> 00:10:03.650 align:start position:0%
+balance of $100 the problem here is that
+ 
+
+00:10:03.650 --> 00:10:05.440 align:start position:0%
+balance of $100 the problem here is that
+we<00:10:03.830><c> have</c><00:10:03.920><c> a</c><00:10:03.950><c> race</c><00:10:04.160><c> condition</c><00:10:04.730><c> both</c><00:10:05.089><c> threads</c>
+
+00:10:05.440 --> 00:10:05.450 align:start position:0%
+we have a race condition both threads
+ 
+
+00:10:05.450 --> 00:10:07.450 align:start position:0%
+we have a race condition both threads
+are<00:10:05.660><c> modifying</c><00:10:06.140><c> shared</c><00:10:06.500><c> State</c><00:10:06.800><c> which</c><00:10:07.220><c> is</c><00:10:07.250><c> the</c>
+
+00:10:07.450 --> 00:10:07.460 align:start position:0%
+are modifying shared State which is the
+ 
+
+00:10:07.460 --> 00:10:09.640 align:start position:0%
+are modifying shared State which is the
+bank<00:10:07.610><c> account</c><00:10:07.910><c> balance</c><00:10:08.089><c> with</c><00:10:08.930><c> no</c><00:10:09.140><c> rules</c><00:10:09.470><c> about</c>
+
+00:10:09.640 --> 00:10:09.650 align:start position:0%
+bank account balance with no rules about
+ 
+
+00:10:09.650 --> 00:10:13.090 align:start position:0%
+bank account balance with no rules about
+how<00:10:09.890><c> they</c><00:10:10.070><c> should</c><00:10:10.130><c> be</c><00:10:10.339><c> think</c><00:10:10.580><c> Rijn</c><00:10:10.700><c> eyes</c><00:10:12.100><c> so</c>
+
+00:10:13.090 --> 00:10:13.100 align:start position:0%
+how they should be think Rijn eyes so
+ 
+
+00:10:13.100 --> 00:10:15.160 align:start position:0%
+how they should be think Rijn eyes so
+remembering<00:10:13.970><c> why</c><00:10:14.150><c> this</c><00:10:14.210><c> happens</c><00:10:14.750><c> we</c><00:10:14.870><c> need</c><00:10:15.080><c> to</c>
+
+00:10:15.160 --> 00:10:15.170 align:start position:0%
+remembering why this happens we need to
+ 
+
+00:10:15.170 --> 00:10:17.050 align:start position:0%
+remembering why this happens we need to
+look<00:10:15.320><c> at</c><00:10:15.500><c> what</c><00:10:15.680><c> is</c><00:10:15.800><c> shared</c><00:10:16.130><c> as</c><00:10:16.670><c> I</c><00:10:16.820><c> said</c>
+
+00:10:17.050 --> 00:10:17.060 align:start position:0%
+look at what is shared as I said
+ 
+
+00:10:17.060 --> 00:10:18.760 align:start position:0%
+look at what is shared as I said
+concurrency<00:10:17.870><c> is</c><00:10:17.930><c> benign</c><00:10:18.230><c> when</c><00:10:18.500><c> we</c><00:10:18.620><c> have</c>
+
+00:10:18.760 --> 00:10:18.770 align:start position:0%
+concurrency is benign when we have
+ 
+
+00:10:18.770 --> 00:10:20.410 align:start position:0%
+concurrency is benign when we have
+things<00:10:18.920><c> that</c><00:10:19.070><c> are</c><00:10:19.220><c> not</c><00:10:19.400><c> shared</c><00:10:19.700><c> local</c>
+
+00:10:20.410 --> 00:10:20.420 align:start position:0%
+things that are not shared local
+ 
+
+00:10:20.420 --> 00:10:22.060 align:start position:0%
+things that are not shared local
+variables<00:10:20.900><c> are</c><00:10:21.020><c> not</c><00:10:21.170><c> shared</c><00:10:21.530><c> because</c><00:10:21.770><c> they</c>
+
+00:10:22.060 --> 00:10:22.070 align:start position:0%
+variables are not shared because they
+ 
+
+00:10:22.070 --> 00:10:24.130 align:start position:0%
+variables are not shared because they
+refer<00:10:22.370><c> to</c><00:10:22.490><c> the</c><00:10:22.610><c> threads</c><00:10:22.880><c> stacked</c><00:10:23.210><c> what</c><00:10:23.960><c> this</c>
+
+00:10:24.130 --> 00:10:24.140 align:start position:0%
+refer to the threads stacked what this
+ 
+
+00:10:24.140 --> 00:10:25.540 align:start position:0%
+refer to the threads stacked what this
+means<00:10:24.350><c> is</c><00:10:24.560><c> that</c><00:10:24.589><c> you</c><00:10:24.800><c> should</c><00:10:24.980><c> never</c><00:10:25.130><c> store</c><00:10:25.520><c> a</c>
+
+00:10:25.540 --> 00:10:25.550 align:start position:0%
+means is that you should never store a
+ 
+
+00:10:25.550 --> 00:10:27.220 align:start position:0%
+means is that you should never store a
+pointer<00:10:25.820><c> to</c><00:10:25.970><c> a</c><00:10:26.150><c> local</c><00:10:26.450><c> variable</c><00:10:26.690><c> in</c><00:10:26.839><c> a</c><00:10:26.930><c> global</c>
+
+00:10:27.220 --> 00:10:27.230 align:start position:0%
+pointer to a local variable in a global
+ 
+
+00:10:27.230 --> 00:10:29.470 align:start position:0%
+pointer to a local variable in a global
+structure<00:10:27.530><c> or</c><00:10:28.220><c> else</c><00:10:28.490><c> that</c><00:10:28.700><c> threads</c><00:10:29.000><c> deck</c><00:10:29.240><c> may</c>
+
+00:10:29.470 --> 00:10:29.480 align:start position:0%
+structure or else that threads deck may
+ 
+
+00:10:29.480 --> 00:10:31.780 align:start position:0%
+structure or else that threads deck may
+become<00:10:29.810><c> shared</c><00:10:30.160><c> global</c><00:10:31.160><c> variables</c><00:10:31.550><c> are</c>
+
+00:10:31.780 --> 00:10:31.790 align:start position:0%
+become shared global variables are
+ 
+
+00:10:31.790 --> 00:10:33.400 align:start position:0%
+become shared global variables are
+however<00:10:32.030><c> shared</c><00:10:32.510><c> because</c><00:10:32.870><c> they're</c><00:10:33.140><c> stored</c><00:10:33.380><c> in</c>
+
+00:10:33.400 --> 00:10:33.410 align:start position:0%
+however shared because they're stored in
+ 
+
+00:10:33.410 --> 00:10:34.960 align:start position:0%
+however shared because they're stored in
+the<00:10:33.530><c> data</c><00:10:33.740><c> segment</c><00:10:34.220><c> that's</c><00:10:34.430><c> accessible</c><00:10:34.850><c> to</c>
+
+00:10:34.960 --> 00:10:34.970 align:start position:0%
+the data segment that's accessible to
+ 
+
+00:10:34.970 --> 00:10:36.550 align:start position:0%
+the data segment that's accessible to
+all<00:10:35.180><c> threads</c><00:10:35.600><c> through</c><00:10:36.050><c> the</c><00:10:36.230><c> name</c><00:10:36.380><c> of</c><00:10:36.500><c> the</c>
+
+00:10:36.550 --> 00:10:36.560 align:start position:0%
+all threads through the name of the
+ 
+
+00:10:36.560 --> 00:10:39.100 align:start position:0%
+all threads through the name of the
+global<00:10:36.830><c> variable</c><00:10:37.220><c> heap</c><00:10:38.060><c> variables</c><00:10:38.630><c> may</c><00:10:38.959><c> or</c>
+
+00:10:39.100 --> 00:10:39.110 align:start position:0%
+global variable heap variables may or
+ 
+
+00:10:39.110 --> 00:10:41.320 align:start position:0%
+global variable heap variables may or
+may<00:10:39.200><c> not</c><00:10:39.230><c> be</c><00:10:39.589><c> shared</c><00:10:39.920><c> when</c><00:10:40.370><c> he</c><00:10:40.490><c> variables</c><00:10:41.209><c> are</c>
+
+00:10:41.320 --> 00:10:41.330 align:start position:0%
+may not be shared when he variables are
+ 
+
+00:10:41.330 --> 00:10:42.760 align:start position:0%
+may not be shared when he variables are
+first<00:10:41.570><c> initialized</c><00:10:42.140><c> through</c><00:10:42.320><c> the</c><00:10:42.410><c> malloc</c>
+
+00:10:42.760 --> 00:10:42.770 align:start position:0%
+first initialized through the malloc
+ 
+
+00:10:42.770 --> 00:10:45.340 align:start position:0%
+first initialized through the malloc
+call<00:10:42.980><c> only</c><00:10:43.580><c> one</c><00:10:44.150><c> thread</c><00:10:44.390><c> has</c><00:10:44.780><c> access</c><00:10:45.170><c> to</c><00:10:45.200><c> that</c>
+
+00:10:45.340 --> 00:10:45.350 align:start position:0%
+call only one thread has access to that
+ 
+
+00:10:45.350 --> 00:10:45.850 align:start position:0%
+call only one thread has access to that
+data
+
+00:10:45.850 --> 00:10:45.860 align:start position:0%
+data
+ 
+
+00:10:45.860 --> 00:10:47.890 align:start position:0%
+data
+however<00:10:46.730><c> if</c><00:10:47.030><c> another</c><00:10:47.300><c> thread</c><00:10:47.570><c> can</c><00:10:47.720><c> get</c><00:10:47.870><c> a</c>
+
+00:10:47.890 --> 00:10:47.900 align:start position:0%
+however if another thread can get a
+ 
+
+00:10:47.900 --> 00:10:49.720 align:start position:0%
+however if another thread can get a
+pointer<00:10:48.290><c> to</c><00:10:48.440><c> it</c><00:10:48.589><c> for</c><00:10:48.980><c> example</c><00:10:49.370><c> you</c><00:10:49.490><c> store</c><00:10:49.700><c> a</c>
+
+00:10:49.720 --> 00:10:49.730 align:start position:0%
+pointer to it for example you store a
+ 
+
+00:10:49.730 --> 00:10:51.640 align:start position:0%
+pointer to it for example you store a
+pointer<00:10:49.940><c> in</c><00:10:50.150><c> a</c><00:10:50.209><c> global</c><00:10:50.540><c> variable</c><00:10:50.720><c> or</c><00:10:51.620><c> you</c>
+
+00:10:51.640 --> 00:10:51.650 align:start position:0%
+pointer in a global variable or you
+ 
+
+00:10:51.650 --> 00:10:54.010 align:start position:0%
+pointer in a global variable or you
+store<00:10:52.220><c> a</c><00:10:52.250><c> pointer</c><00:10:52.459><c> in</c><00:10:52.760><c> another</c><00:10:53.060><c> variable</c><00:10:53.839><c> that</c>
+
+00:10:54.010 --> 00:10:54.020 align:start position:0%
+store a pointer in another variable that
+ 
+
+00:10:54.020 --> 00:10:56.560 align:start position:0%
+store a pointer in another variable that
+is<00:10:54.110><c> already</c><00:10:54.350><c> shared</c><00:10:54.770><c> then</c><00:10:55.250><c> that</c><00:10:55.940><c> data</c><00:10:56.150><c> becomes</c>
+
+00:10:56.560 --> 00:10:56.570 align:start position:0%
+is already shared then that data becomes
+ 
+
+00:10:56.570 --> 00:10:58.960 align:start position:0%
+is already shared then that data becomes
+shared<00:10:56.930><c> this</c><00:10:57.770><c> means</c><00:10:58.220><c> that</c><00:10:58.459><c> heap</c><00:10:58.730><c> data</c>
+
+00:10:58.960 --> 00:10:58.970 align:start position:0%
+shared this means that heap data
+ 
+
+00:10:58.970 --> 00:11:01.480 align:start position:0%
+shared this means that heap data
+variables<00:10:59.570><c> are</c><00:10:59.720><c> only</c><00:10:59.750><c> private</c><00:11:00.589><c> or</c><00:11:00.740><c> private</c><00:11:01.310><c> if</c>
+
+00:11:01.480 --> 00:11:01.490 align:start position:0%
+variables are only private or private if
+ 
+
+00:11:01.490 --> 00:11:05.230 align:start position:0%
+variables are only private or private if
+only<00:11:02.060><c> local</c><00:11:02.420><c> variables</c><00:11:02.810><c> can</c><00:11:02.959><c> point</c><00:11:03.170><c> to</c><00:11:03.350><c> it</c><00:11:04.240><c> so</c>
+
+00:11:05.230 --> 00:11:05.240 align:start position:0%
+only local variables can point to it so
+ 
+
+00:11:05.240 --> 00:11:07.000 align:start position:0%
+only local variables can point to it so
+how<00:11:05.450><c> can</c><00:11:05.510><c> we</c><00:11:05.720><c> manage</c><00:11:05.900><c> concurrency</c>
+
+00:11:07.000 --> 00:11:07.010 align:start position:0%
+how can we manage concurrency
+ 
+
+00:11:07.010 --> 00:11:08.199 align:start position:0%
+how can we manage concurrency
+well<00:11:07.100><c> there's</c><00:11:07.250><c> a</c><00:11:07.310><c> couple</c><00:11:07.459><c> of</c><00:11:07.639><c> techniques</c><00:11:08.029><c> that</c>
+
+00:11:08.199 --> 00:11:08.209 align:start position:0%
+well there's a couple of techniques that
+ 
+
+00:11:08.209 --> 00:11:09.759 align:start position:0%
+well there's a couple of techniques that
+computer<00:11:08.660><c> scientists</c><00:11:09.170><c> have</c><00:11:09.260><c> developed</c><00:11:09.680><c> over</c>
+
+00:11:09.759 --> 00:11:09.769 align:start position:0%
+computer scientists have developed over
+ 
+
+00:11:09.769 --> 00:11:12.100 align:start position:0%
+computer scientists have developed over
+the<00:11:09.980><c> past</c><00:11:10.190><c> 50</c><00:11:10.579><c> years</c><00:11:10.790><c> for</c><00:11:10.940><c> this</c><00:11:11.089><c> problem</c><00:11:11.329><c> the</c>
+
+00:11:12.100 --> 00:11:12.110 align:start position:0%
+the past 50 years for this problem the
+ 
+
+00:11:12.110 --> 00:11:13.720 align:start position:0%
+the past 50 years for this problem the
+first<00:11:12.380><c> is</c><00:11:12.649><c> a</c><00:11:12.680><c> set</c><00:11:12.889><c> of</c><00:11:13.010><c> synchronization</c>
+
+00:11:13.720 --> 00:11:13.730 align:start position:0%
+first is a set of synchronization
+ 
+
+00:11:13.730 --> 00:11:15.460 align:start position:0%
+first is a set of synchronization
+mechanisms<00:11:14.300><c> that</c><00:11:14.630><c> allow</c><00:11:14.750><c> programmers</c><00:11:15.350><c> to</c>
+
+00:11:15.460 --> 00:11:15.470 align:start position:0%
+mechanisms that allow programmers to
+ 
+
+00:11:15.470 --> 00:11:17.439 align:start position:0%
+mechanisms that allow programmers to
+write<00:11:15.589><c> rules</c><00:11:15.980><c> on</c><00:11:16.339><c> how</c><00:11:16.459><c> to</c><00:11:16.490><c> manage</c><00:11:16.730><c> concurrency</c>
+
+00:11:17.439 --> 00:11:17.449 align:start position:0%
+write rules on how to manage concurrency
+ 
+
+00:11:17.449 --> 00:11:19.079 align:start position:0%
+write rules on how to manage concurrency
+just<00:11:17.870><c> like</c><00:11:18.019><c> the</c><00:11:18.170><c> lock</c><00:11:18.320><c> on</c><00:11:18.500><c> the</c><00:11:18.529><c> bathroom</c><00:11:18.920><c> door</c>
+
+00:11:19.079 --> 00:11:19.089 align:start position:0%
+just like the lock on the bathroom door
+ 
+
+00:11:19.089 --> 00:11:21.819 align:start position:0%
+just like the lock on the bathroom door
+one<00:11:20.089><c> of</c><00:11:20.120><c> these</c><00:11:20.360><c> is</c><00:11:20.510><c> an</c><00:11:20.690><c> Amissah</c><00:11:20.959><c> T</c><00:11:21.139><c> this</c><00:11:21.620><c> is</c>
+
+00:11:21.819 --> 00:11:21.829 align:start position:0%
+one of these is an Amissah T this is
+ 
+
+00:11:21.829 --> 00:11:23.650 align:start position:0%
+one of these is an Amissah T this is
+basically<00:11:22.220><c> make</c><00:11:22.550><c> sure</c><00:11:22.820><c> that</c><00:11:23.060><c> while</c><00:11:23.329><c> one</c>
+
+00:11:23.650 --> 00:11:23.660 align:start position:0%
+basically make sure that while one
+ 
+
+00:11:23.660 --> 00:11:25.870 align:start position:0%
+basically make sure that while one
+thread<00:11:23.930><c> is</c><00:11:23.959><c> modifying</c><00:11:24.620><c> data</c><00:11:24.889><c> no</c><00:11:25.699><c> other</c>
+
+00:11:25.870 --> 00:11:25.880 align:start position:0%
+thread is modifying data no other
+ 
+
+00:11:25.880 --> 00:11:27.850 align:start position:0%
+thread is modifying data no other
+threads<00:11:26.269><c> can</c><00:11:26.480><c> change</c><00:11:26.720><c> that</c><00:11:26.899><c> data</c><00:11:27.199><c> this</c><00:11:27.649><c> is</c>
+
+00:11:27.850 --> 00:11:27.860 align:start position:0%
+threads can change that data this is
+ 
+
+00:11:27.860 --> 00:11:29.079 align:start position:0%
+threads can change that data this is
+somewhat<00:11:28.130><c> of</c><00:11:28.250><c> when</c><00:11:28.370><c> you're</c><00:11:28.519><c> in</c><00:11:28.550><c> the</c><00:11:28.639><c> bathroom</c>
+
+00:11:29.079 --> 00:11:29.089 align:start position:0%
+somewhat of when you're in the bathroom
+ 
+
+00:11:29.089 --> 00:11:30.550 align:start position:0%
+somewhat of when you're in the bathroom
+you<00:11:29.240><c> make</c><00:11:29.389><c> sure</c><00:11:29.570><c> nobody</c><00:11:29.990><c> else</c><00:11:30.139><c> can</c><00:11:30.260><c> come</c><00:11:30.470><c> in</c>
+
+00:11:30.550 --> 00:11:30.560 align:start position:0%
+you make sure nobody else can come in
+ 
+
+00:11:30.560 --> 00:11:33.310 align:start position:0%
+you make sure nobody else can come in
+the<00:11:30.620><c> bathroom</c><00:11:30.769><c> the</c><00:11:31.760><c> other</c><00:11:31.930><c> major</c><00:11:32.930><c> technique</c>
+
+00:11:33.310 --> 00:11:33.320 align:start position:0%
+the bathroom the other major technique
+ 
+
+00:11:33.320 --> 00:11:35.050 align:start position:0%
+the bathroom the other major technique
+is<00:11:33.500><c> conditional</c><00:11:33.980><c> synchronization</c><00:11:34.670><c> these</c>
+
+00:11:35.050 --> 00:11:35.060 align:start position:0%
+is conditional synchronization these
+ 
+
+00:11:35.060 --> 00:11:37.060 align:start position:0%
+is conditional synchronization these
+allows<00:11:35.389><c> code</c><00:11:35.839><c> in</c><00:11:36.110><c> different</c><00:11:36.320><c> threads</c><00:11:36.740><c> to</c><00:11:36.920><c> run</c>
+
+00:11:37.060 --> 00:11:37.070 align:start position:0%
+allows code in different threads to run
+ 
+
+00:11:37.070 --> 00:11:38.889 align:start position:0%
+allows code in different threads to run
+in<00:11:37.190><c> the</c><00:11:37.279><c> correct</c><00:11:37.519><c> order</c><00:11:37.760><c> suppose</c><00:11:38.690><c> for</c><00:11:38.870><c> example</c>
+
+00:11:38.889 --> 00:11:38.899 align:start position:0%
+in the correct order suppose for example
+ 
+
+00:11:38.899 --> 00:11:40.930 align:start position:0%
+in the correct order suppose for example
+you<00:11:39.260><c> want</c><00:11:39.500><c> to</c><00:11:39.529><c> make</c><00:11:39.709><c> sure</c><00:11:39.740><c> that</c><00:11:40.339><c> code</c><00:11:40.910><c> that</c>
+
+00:11:40.930 --> 00:11:40.940 align:start position:0%
+you want to make sure that code that
+ 
+
+00:11:40.940 --> 00:11:42.970 align:start position:0%
+you want to make sure that code that
+withdraws<00:11:41.600><c> from</c><00:11:41.630><c> a</c><00:11:41.990><c> bank</c><00:11:42.170><c> account</c><00:11:42.470><c> waits</c>
+
+00:11:42.970 --> 00:11:42.980 align:start position:0%
+withdraws from a bank account waits
+ 
+
+00:11:42.980 --> 00:11:44.170 align:start position:0%
+withdraws from a bank account waits
+until<00:11:43.190><c> there's</c><00:11:43.519><c> enough</c><00:11:43.699><c> money</c><00:11:43.880><c> in</c><00:11:44.089><c> the</c>
+
+00:11:44.170 --> 00:11:44.180 align:start position:0%
+until there's enough money in the
+ 
+
+00:11:44.180 --> 00:11:45.730 align:start position:0%
+until there's enough money in the
+account<00:11:44.420><c> to</c><00:11:44.510><c> withdraw</c><00:11:44.959><c> conditional</c>
+
+00:11:45.730 --> 00:11:45.740 align:start position:0%
+account to withdraw conditional
+ 
+
+00:11:45.740 --> 00:11:47.470 align:start position:0%
+account to withdraw conditional
+synchronization<00:11:46.430><c> would</c><00:11:46.730><c> allow</c><00:11:46.910><c> one</c><00:11:47.180><c> thread</c>
+
+00:11:47.470 --> 00:11:47.480 align:start position:0%
+synchronization would allow one thread
+ 
+
+00:11:47.480 --> 00:11:49.210 align:start position:0%
+synchronization would allow one thread
+to<00:11:47.510><c> wait</c><00:11:47.870><c> until</c><00:11:48.290><c> the</c><00:11:48.380><c> bank</c><00:11:48.589><c> balance</c><00:11:48.920><c> is</c><00:11:49.010><c> high</c>
+
+00:11:49.210 --> 00:11:49.220 align:start position:0%
+to wait until the bank balance is high
+ 
+
+00:11:49.220 --> 00:11:53.199 align:start position:0%
+to wait until the bank balance is high
+enough<00:11:49.430><c> before</c><00:11:49.639><c> the</c><00:11:50.000><c> withdraw</c><00:11:50.320><c> runs</c><00:11:51.970><c> this</c><00:11:52.970><c> is</c>
+
+00:11:53.199 --> 00:11:53.209 align:start position:0%
+enough before the withdraw runs this is
+ 
+
+00:11:53.209 --> 00:11:54.430 align:start position:0%
+enough before the withdraw runs this is
+the<00:11:53.300><c> end</c><00:11:53.449><c> of</c><00:11:53.630><c> the</c><00:11:53.720><c> first</c><00:11:53.990><c> lecture</c><00:11:54.230><c> in</c>
+
+00:11:54.430 --> 00:11:54.440 align:start position:0%
+the end of the first lecture in
+ 
+
+00:11:54.440 --> 00:11:56.590 align:start position:0%
+the end of the first lecture in
+concurrency<00:11:55.010><c> please</c><00:11:55.699><c> take</c><00:11:55.940><c> the</c><00:11:56.060><c> quiz</c><00:11:56.300><c> on</c>
+
+00:11:56.590 --> 00:11:56.600 align:start position:0%
+concurrency please take the quiz on
+ 
+
+00:11:56.600 --> 00:11:58.329 align:start position:0%
+concurrency please take the quiz on
+concurrency<00:11:57.350><c> before</c><00:11:57.709><c> watching</c><00:11:57.920><c> the</c><00:11:58.190><c> next</c>
+
+00:11:58.329 --> 00:11:58.339 align:start position:0%
+concurrency before watching the next
+ 
+
+00:11:58.339 --> 00:12:00.820 align:start position:0%
+concurrency before watching the next
+lecture
+

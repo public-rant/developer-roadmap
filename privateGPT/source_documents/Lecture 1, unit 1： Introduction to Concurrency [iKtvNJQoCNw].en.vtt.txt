@@ -1,0 +1,355 @@
+hi welcome to our concurrency unit and
+operating systems they re trying
+something different here which is have
+you watched lectures at home and then
+we ll work out homework style problems
+in the classroom let s get started
+well start each lecture with some
+learning objectives these are the things
+that you should learn from watching this
+lecture our goal today is to first
+identify uses of concurrency what is it
+good for when do we use it identify
+sources of concurrency where do we have
+things happen at the same time I want
+you to understand the schedulers role in
+concurrency meaning how it is these
+process scheduler which decides what to
+run next impact concurrency I d like you
+to identify real world examples of
+concurrency how we work with multiple
+things happening in the real world and
+also identify how you solve these
+problems in the real world and finally
+I d like you know the difference between
+benign uses of concurrency that won t
+cause any problems in your code from
+other kinds of concurrency that really
+need to be taken care of carefully so
+let s start off by looking at
+concurrency in the real world
+what is concurrency it s really whenever
+you have multiple things happening at
+the same time that interact some
+examples are shared bathrooms shared
+food in an apartment and traffic lights
+are shared streets so let s look at
+these in more detail so here s a problem
+you have a bathroom and you would like
+to make sure that only one person goes
+at the same time if two people go in at
+once
+nobody likes that so how do we deal with
+this in the real world well the answer
+is we put a lock on the door which
+somebody inside can lock when they go in
+to nobody in the outside can get into it
+the rule is if you go to the bathroom
+the door s locked you have to wait for
+it so the point here is that we have
+something that s shared which is the
+bathroom and we have rules that express
+how we share it between people to make
+sure that bad things don t happen for
+our next example let s look at shared
+food and apartment suppose you share an
+apartment with someone and you have a
+problem that you would like to make sure
+there s always fresh milk how do you
+work this out with your apartment mates
+well one way to do it is to have a note
+on the door that says whether we need to
+buy milk because you used up the milk
+and there s none left and then another
+note to say you re actually buying milk
+you need the first note to tell the
+other person there s no milk available
+and they need to get it the second note
+is needed to let them know that
+you re buying milk so they won t go and
+buy milk themselves and leave you with
+too much milk so the note here is again
+we have a shared resources which is the
+milk in the apartment and we have rules
+on how to share it meaning we have rules
+that say notify somebody when milk is
+needed so that we don t we will go get
+more milk and notify somebody when
+you re buying milk so we don t end up
+with too much our third example is
+traffic lights and shared streets again
+we have a problem that we have a shared
+resource which is the intersection that
+cars in both directions want to go
+through how do we make sure that cars
+don t collide so again we have rules and
+we have some state that help us figure
+this out so we have a traffic light that
+tells us which direction cars are
+allowed to go and the rule is don t
+enter the light don t enter the
+intersection if the light is red or
+yellow and when the light changes to
+green in your direction wait for all the
+cars in the intersection to exit if you
+follow these rules then it s safe for
+both directions through the intersection
+and there won t be any collisions so
+what do we learn from this well first of
+all there are some properties of
+concurrent systems the first thing is
+that there s multiple actors involved
+who can do things in this case it was
+the multiple people wanting to use the
+bathroom or there multiple people living
+in the apartment or the multiple cars
+that wanted to go into the intersection
+second we have shared resources the
+bathrooms the food and the street third
+we need to have some rules that say how
+do we share these resources safely one
+person at a time uses the bathroom one
+person buys food or only one direction
+uses the traffic light at a time so how
+does this apply to computer systems well
+we have multiple actors inside an
+operating system these are processes
+multiple processes can run at the same
+time or we might have multiple threads
+within a single process that are running
+at the same time so why am i you have
+concurrency well we ve seen many of
+these before suppose you have one
+process that is producing data and
+another process that s consuming it here
+we want to have the producer and the
+consumer running at the same time but
+they both have to access the shared data
+for communication a second reason is
+asynchronous i o for example you might
+want to have a web server that can read
+data off disk and send it to the network
+the network the disk and the web server
+all act
+the shared resource were worried about
+is the data moving between the network
+and the disk finally we might have
+parallel programs where one thread will
+split the problem into three smaller
+problems work done by different threads
+here the shared data is the data for the
+program the actors are the different
+threads the reason to do this is that it
+makes the program run faster we have
+multiple processes simply for
+asynchronous i o this can make things
+faster because we can access the disk
+and the net at the same time on
+different threads producing consumer
+stimuli we can make go faster because we
+can produce the producing things while
+we re consuming them so the properties
+we have for concurrent computer systems
+are very similar to the concurrent
+systems we had in the real world we have
+multiple actors in this case multiple
+threads we have shared resources which
+can be memory heap variables or global
+variables or devices such as the network
+or the disk so one thing to worry about
+is well doesn t the scheduler handle
+this for this because the scheduler
+responsible for scheduling threads and
+processes it is possible the scheduler
+will help you out and make things run in
+the right order however there s no
+guarantee this happened in fact the only
+guarantee the scheduler really makes is
+there will be no starvation that every
+thread or process will eventually run
+schedulers generally make no guarantee
+of fairness meaning that process a and
+process B will run the same amount of
+time or timeliness the process a and B
+will get to run in some finite bounded
+amount of time such as one second one
+way to think about this is that when
+reasoning about concurrency we really
+try to think about the scheduler as an
+adversary it will intentionally switch
+between processes at the worst possible
+time to cause the worst thing to happen
+for example suppose we have the code
+here shown here process a tries to count
+up to 10 and will print a 1 when it gets
+to 10 process B will try to count to
+negative 10 and will print B 1 if it
+gets a negative time what could happen
+here well it s possible if you have a
+unit processor that process a well if it
+starts first will run and win right away
+or process B if it starts with run and
+run and win right away if a and B are
+running at the same time then it s
+possible that they ll sit there forever
+and neither of them will ever win it
+will ever win because they will take
+turns incrementing
+decrementing odd what this means is we
+really can t count on the scheduler to
+help us out in these problems so one
+thing to know is when do we not have to
+worry about concurrency when do we have
+to not have to worry about multiple
+threads running at the same time the
+first case is when there s no shared
+data or communication supposed to have
+three threads operating on three
+different data structures perhaps three
+different arrays in this case they re
+all working on separate data there s no
+sharing and no communication so there s
+no nothing to worry about the
+concurrency the second time we don t
+have to worry about it is when we have
+read only data meaning that it s
+constant so even though we have shared
+data and this is example a hash table
+the threads are only reading it so
+there s nothing that can go wrong
+there s no chance that one thread will
+modify the data and some other one will
+see the wrong value because the data is
+constant some examples of data that is
+not shared are local variables in your
+thread stack these are private to the
+thread and generally not shared an
+example of read only constant data are
+global constants that you compile into
+your code so what about risky
+concurrency when do we have to worry
+about things well if we have multiple
+threads accessing a shared variable
+without any kind of rules to access it
+we have a problem this is like having a
+shared bathroom with no lock on the door
+that people can walk in at any time the
+second thing we worry about is when at
+least one thread modifies the resource
+so in our hash table example if one of
+our threads is inserting into the hash
+table what other ones are looking up
+it s possible the threads might see the
+hash table in the middle of an insert
+and sees invalid pointer or a null
+pointer in crash we call this a race
+condition which is when we have two
+threads that are accessing the same data
+without any kind of rules for access and
+we ll talk about this in the next
+lecture so a standard example of where
+concurrency matters is in a bank account
+suppose you have a bank server that is
+managing an account balance it has one
+method a withdraw method that takes an
+account number or count object and the
+amount of money to withdraw and we have
+two people trying to call it at the same
+time shown here in pink and green both
+times the code get called it does the
+same thing it reads the balance from the
+account it subtracts the amount of money
+withdrawn from the balance and then
+update
+the accounts balance with the new value
+and returns the current balance so this
+seems like it s fine if two people draw
+at the same time but let s look at what
+can go wrong
+suppose we start out with 100 now
+remember these two functions are being
+called by two different users meaning
+logically in a computer system to run on
+two different threads the scheduler as I
+said can interleave these two threads in
+any way we want
+so suppose we have the interleaving here
+where time is starting at the top and
+going down so we start off with your
+balance at 100 the first thread to
+execute is the pink thread and it
+executes up to the point where it
+calculates the new balance at 90 dollars
+if we now switch and start running the
+green thread it will try to be removing
+20 dollars and it ll execute down to the
+point where it accounts so it s the
+balance to be 80 dollars the pink
+threads can start running again at this
+point and it will save the balance as
+90 and return when the green thread
+starts up it will save the value as
+eight of the balances 80 and then
+return the problem here is at the end of
+this the account balance is left at 80
+even though 30 dollars were removed from
+the bank account and it began with a
+balance of 100 the problem here is that
+we have a race condition both threads
+are modifying shared State which is the
+bank account balance with no rules about
+how they should be think Rijn eyes so
+remembering why this happens we need to
+look at what is shared as I said
+concurrency is benign when we have
+things that are not shared local
+variables are not shared because they
+refer to the threads stacked what this
+means is that you should never store a
+pointer to a local variable in a global
+structure or else that threads deck may
+become shared global variables are
+however shared because they re stored in
+the data segment that s accessible to
+all threads through the name of the
+global variable heap variables may or
+may not be shared when he variables are
+first initialized through the malloc
+call only one thread has access to that
+data
+however if another thread can get a
+pointer to it for example you store a
+pointer in a global variable or you
+store a pointer in another variable that
+is already shared then that data becomes
+shared this means that heap data
+variables are only private or private if
+only local variables can point to it so
+how can we manage concurrency
+well there s a couple of techniques that
+computer scientists have developed over
+the past 50 years for this problem the
+first is a set of synchronization
+mechanisms that allow programmers to
+write rules on how to manage concurrency
+just like the lock on the bathroom door
+one of these is an Amissah T this is
+basically make sure that while one
+thread is modifying data no other
+threads can change that data this is
+somewhat of when you re in the bathroom
+you make sure nobody else can come in
+the bathroom the other major technique
+is conditional synchronization these
+allows code in different threads to run
+in the correct order suppose for example
+you want to make sure that code that
+withdraws from a bank account waits
+until there s enough money in the
+account to withdraw conditional
+synchronization would allow one thread
+to wait until the bank balance is high
+enough before the withdraw runs this is
+the end of the first lecture in
+concurrency please take the quiz on
+concurrency before watching the next

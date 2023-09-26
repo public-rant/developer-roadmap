@@ -1,0 +1,489 @@
+   IFRAME:
+   [https://obseu.michiganrobotflower.com/ns/1026a1528f8727653fd96984e7b20
+   %20597.html?ch=cheq4ppc]https://obseu.michiganrobotflower.com/ns/1026a1
+   528f8727653fd96984e7b20 597.html?ch=cheq4ppc
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-GDFN&nojscript=true]ht
+   tps://www.googletagmanager.com/ns.html?id=GTM-GDFN&nojscript=true
+
+   [https://www.mongodb.com/blog/post/announced-mongodb-local-nyc-2023?tck
+   =pencil_banner]
+   Blog
+   {Blog}  MongoDB to release new Vector Search and Stream Processing
+   capabilities. Learn more >
+   [https://www.mongodb.com/]MongoDB logo
+   ____________________
+   (BUTTON) General Information
+     * General Information
+     * All Documentation
+     * Realm Documentation
+     * Developer Articles & Topics
+     * Community Forums
+     * Blog
+     * University
+
+   (BUTTON) search icon
+     * (BUTTON) Products
+       [https://www.mongodb.com/atlas]Atlas→
+       Developer data platform
+         ______________________________________________________________
+
+       [https://www.mongodb.com/products/mongodb-enterprise-advanced]Enter
+       prise Advanced→
+       Enterprise software and support
+         ______________________________________________________________
+
+       [https://www.mongodb.com/try/download/community]Community Edition→
+       Free software used by millions
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/atlas/database]Database→
+          + [https://www.mongodb.com/atlas/search]Search→
+          + [https://www.mongodb.com/products/platform/atlas-vector-search
+            ]Vector Search→
+          + [https://www.mongodb.com/products/platform/atlas-stream-proces
+            sing]Stream Processing→
+          + [https://www.mongodb.com/atlas/data-lake]Data Lake (Preview)→
+          + [https://www.mongodb.com/products/charts]Charts→
+          + [https://www.mongodb.com/atlas/app-services/device-sync]Device
+            Sync→
+          + [https://www.mongodb.com/atlas/app-services]APIs, Triggers,
+            Functions→
+          + [https://www.mongodb.com/try/download/enterprise]Enterprise
+            Server→
+          + [https://www.mongodb.com/products/ops-manager]Ops Manager→
+          + [https://www.mongodb.com/docs/kubernetes-operator/master/]Ente
+            rprise Kubernetes Operator→
+          + [https://www.mongodb.com/try/download/community]Community
+            Server→
+          + [https://www.mongodb.com/cloud/cloud-manager]Cloud Manager→
+          + [https://github.com/mongodb/mongodb-kubernetes-operator]Commun
+            ity Kubernetes Operator→
+       [https://www.mongodb.com/developer-tools]Tools→
+       Build faster
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/products/compass]Compass→
+          + [https://www.mongodb.com/products/shell]Shell→
+          + [https://www.mongodb.com/products/vs-code]VS Code Plugin→
+          + [https://www.mongodb.com/cloud/cli]Atlas CLI→
+          + [https://www.mongodb.com/connectors]Database Connectors→
+          + [https://www.mongodb.com/products/cluster-to-cluster-sync]Clus
+            ter-to-Cluster Sync→
+          + [https://www.mongodb.com/tools/mongoose]Mongoose ODM Support→
+          + [https://www.mongodb.com/products/relational-migrator]Relation
+            al Migrator→
+     * (BUTTON) Solutions
+       By Industry
+         ______________________________________________________________
+
+       By Use Case
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/industries/financial-services]Financi
+            al Services→
+          + [https://www.mongodb.com/industries/telecommunications]Telecom
+            →
+          + [https://www.mongodb.com/industries/healthcare]Healthcare→
+          + [https://www.mongodb.com/industries/retail]Retail→
+          + [https://www.mongodb.com/industries/public-sector]Public
+            Sector→
+          + [https://www.mongodb.com/industries/manufacturing]Manufacturin
+            g→
+          + [https://www.mongodb.com/industries]All Industries→
+          + [https://www.mongodb.com/use-cases/analytics]Analytics→
+          + [https://www.mongodb.com/use-cases/artificial-intelligence]Art
+            ificial Intelligence→
+          + [https://www.mongodb.com/use-cases/internet-of-things]Internet
+            of Things→
+          + [https://www.mongodb.com/use-cases/mobile]Mobile→
+          + [https://www.mongodb.com/use-cases/payments]Payments→
+          + [https://www.mongodb.com/use-cases/serverless]Serverless
+            Development→
+          + [https://www.mongodb.com/use-cases]All Use Cases→
+       Developer Data Platform
+       Innovate fast at scale with a unified developer experience
+       [https://www.mongodb.com/developer-data-platform]Learn More
+         ______________________________________________________________
+
+       White Papers & Presentations
+       Webinars, white papers, datasheets and more
+       [https://www.mongodb.com/resources]View All
+     * (BUTTON) Resources
+       [https://www.mongodb.com/docs/]Documentation→
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/docs/atlas/]Atlas→
+          + [https://www.mongodb.com/docs/manual/]Server→
+          + [https://www.mongodb.com/docs/drivers/]Drivers→
+          + [https://www.mongodb.com/docs/develop-applications/]Develop
+            Applications→
+          + [https://www.mongodb.com/docs/launch-manage/]Launch and Manage
+            MongoDB→
+          + [https://www.mongodb.com/docs/view-analyze/]View and Analyze→
+          + [https://www.mongodb.com/docs/guides/]Start with Guides→
+       Community
+         ______________________________________________________________
+
+       Education
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/developer/]Developer Center→
+          + [https://www.mongodb.com/events-webinars-overview]Events &
+            Webinars→
+          + [https://www.mongodb.com/community/forums/]Forums→
+          + [https://www.mongodb.com/community/forums/champions/]Champions
+            →
+          + [https://www.mongodb.com/community/forums/c/user-groups/11]Fin
+            d a User Group→
+          + [https://learn.mongodb.com/]University→
+          + [https://learn.mongodb.com/pages/certification-program]Certifi
+            cation→
+          + [https://www.mongodb.com/academia]Academia→
+          + [https://learn.mongodb.com/learn/learning-path/introduction-to
+            -mongodb]Intro to MongoDB Course→
+          + [https://learn.mongodb.com/catalog]Browse All Courses→
+     * (BUTTON) Company
+       About
+         ______________________________________________________________
+
+       Services
+         ______________________________________________________________
+
+       Partnerships
+         ______________________________________________________________
+
+          + [https://www.mongodb.com/company]Who We Are→
+          + [https://www.mongodb.com/who-uses-mongodb]Customer Stories→
+          + [https://www.mongodb.com/blog]Blog→
+          + [https://www.mongodb.com/careers]Careers→
+          + [https://www.mongodb.com/pressroom]Pressroom→
+          + [https://www.mongodb.com/leadership]Leadership→
+          + [https://investors.mongodb.com/corporate-profile/default.aspx]
+            Investors→
+          + [https://www.mongodb.com/company/ventures]MongoDB Ventures→
+          + [https://www.mongodb.com/products/consulting]Consulting→
+          + [https://www.mongodb.com/products/training]Training→
+          + [https://www.mongodb.com/support]Customer Support→
+          + [https://www.mongodb.com/customer-success]Customer Success→
+          + [https://www.mongodb.com/partners]Partner Ecosystem→
+          + [https://www.mongodb.com/startups]MongoDB for Startups→
+     * [https://www.mongodb.com/pricing]Pricing
+
+   (BUTTON) Search [https://account.mongodb.com/account/login]Sign In
+   [https://www.mongodb.com/cloud/atlas/register]Try Free
+   [https://www.mongodb.com/]MongoDB logo
+   (BUTTON) [kqi3wccsoikv7vwbf-icon.svg?auto=format%252Ccompress] (BUTTON)
+   [kqi3hi5xztie05zgy-Vector%2020.svg?auto=format%252Ccompress]
+   ____________________
+   [General Information________]
+   (BUTTON) Search
+   NEWGet the latest and greatest with MongoDB 6.0
+   —[https://www.mongodb.com/new?tck=mdb_6.0_GA_new_banner]
+   Learn more
+
+Build faster.
+Build smarter.​​
+
+   Get your ideas to market faster with a developer data platform built on
+   the leading modern database. Support transactional, search, analytics,
+   and mobile use cases while using a common query interface and the data
+   model developers love.
+   [https://www.mongodb.com/cloud/atlas/register]Start Free
+   [https://www.mongodb.com/contact]
+   Questions? Talk to us
+   Illustration of documents and objects powering user interfaces
+   TRUSTED BY THOUSANDS OF ORGANIZATIONS INCLUDING
+   Bosch logo
+   Cisco logo
+   Humanitix logo
+   Toyota logo
+   Illustration of MongoDB basic concepts (charts, alerts, data config).
+
+MongoDB University
+
+   The new learning experience makes picking up knowledge, developing a
+   fundamental MongoDB skill set, and getting certified both quick and
+   easy.
+   [https://learn.mongodb.com/?tck=university_hp_banner]Explore Now
+
+Working with data doesn’t
+need to be hard
+
+   Our guiding principle is to help developers solve their data
+   challenges. Here’s what you can do with MongoDB.
+   general_features_build_faster
+
+Build Faster
+
+   Ship and iterate 3–5x faster with our flexible document data model and
+   a unified query interface for any use case.
+   general_features_scale_bigger
+
+Scale Further
+
+   Whether it’s your first customer or 20 million users around the world,
+   meet your performance SLAs in any environment.
+   general_security
+
+Sleep Better
+
+   Easily ensure high availability, protect data integrity, and meet the
+   security and compliance standards for your mission-critical workloads.
+
+Fully managed in the cloud
+
+   Start in seconds and scale to millions with our cloud services
+   [https://www.mongodb.com/atlas]
+   product_family_atlas
+
+Atlas
+
+Multi-cloud developer data platform
+
+   An integrated suite of cloud database services that allow you to
+   address a wide variety of use cases, from transactional to analytical,
+   from search to data visualizations.
+   (BUTTON)
+   Learn more
+   Illustration of a cloud data platform
+   [https://www.mongodb.com/use-cases/mobile]
+   product_family_realm
+
+Mobile
+
+Real-time data at the edge
+
+   Launch secure mobile apps with native, edge-to-cloud sync and automatic
+   conflict resolution.
+   (BUTTON)
+   Learn more
+
+Self-managed in any environment
+
+   Run MongoDB anywhere, from your laptop to your data center
+   [https://www.mongodb.com/try/download/community]
+   product family_enterprise_advanced
+
+Community Edition
+
+Database software used by millions
+
+   Our distributed document database is where it all began. Free forever
+   with seamless migration to Atlas.
+   (BUTTON)
+   Learn more
+   [https://www.mongodb.com/products/mongodb-enterprise-advanced]
+   product_family_community_edition
+
+Enterprise Advanced
+
+Enterprise software and support
+
+   The best way to run MongoDB yourself. Drive operational efficiency and
+   security.
+   (BUTTON)
+   Learn more
+
+Built by developers, for developers
+
+   With a document data model that maps to how developers think and code
+   and a powerful, unified query API, MongoDB powers faster, more flexible
+   application development.
+   [https://docs.mongodb.com/]View Documentation
+
+One platform, many workloads
+
+   [ktei3jh2ytadx4nj9-StateMinus.svg?auto=format%252Ccompress]
+   Transactional, analytical, full-text search, time series, and more
+
+Query and analyze data in place
+
+   [ktei3afgrst841sdx-StatePlus.svg?auto=format%252Ccompress]
+   Consistent Query API experience for all operations, with idiomatic
+   language support
+
+Deploy, scale, and optimize easily
+
+   [ktei3afgrst841sdx-StatePlus.svg?auto=format%252Ccompress]
+   Run confidently in production with built-in replication, sharding,
+   indexing, performance tools, and more
+
+One platform, many workloads
+
+   [ktei3jh2ytadx4nj9-StateMinus.svg?auto=format%252Ccompress]
+   Transactional, analytical, full-text search, time series, and more
+   Transactions
+   Search
+   Time Series
+   Change Streams / Event Driven
+   Code Snippet
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+Query and analyze data in place
+
+   [ktei3afgrst841sdx-StatePlus.svg?auto=format%252Ccompress]
+   Consistent Query API experience for all operations, with idiomatic
+   language support
+   Transactions
+   Search
+   Time Series
+   Change Streams / Event Driven
+   Code Snippet
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+Deploy, scale, and optimize easily
+
+   [ktei3afgrst841sdx-StatePlus.svg?auto=format%252Ccompress]
+   Run confidently in production with built-in replication, sharding,
+   indexing, performance tools, and more
+   Transactions
+   Search
+   Time Series
+   Change Streams / Event Driven
+   Code Snippet
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Transactions
+   Search
+   Time Series
+   Change Streams / Event Driven
+   Code Snippet
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [ks9ey91u6mgoo8on4-copyIcon.svg?auto=format%252Ccompress]
+
+Data solutions tailored
+for your business
+
+   Whether you’re pushing the boundaries of customer experience or
+   building mission-critical applications, MongoDB is the data foundation
+   for any industry
+   Illustration of currency and a document, representing MongoDB's usage
+   in the financial services industry
+   FINANCIAL SERVICES
+
+De-risk your modernization journey
+
+   Iterative modernization enables financial firms to innovate while
+   modernizing — with immediate gains and less risk.
+   [https://www.mongodb.com/collateral/the-5-phases-of-banking-modernizati
+   on]Learn More
+   [https://www.mongodb.com/use-cases]
+   Illustration of a mobile app and charts.
+
+Use cases
+
+   From legacy modernization to IOT data to single view, learn how you can
+   use MongoDB.
+   (BUTTON)
+   View all use cases
+   [https://www.mongodb.com/industries]
+   Illustration of a heartbeat, pill, and a hospital sign representing
+   MongoDB's usage in the healthcare industry.
+
+Industries
+
+   MongoDB helps remove barriers to innovation for organizations in any
+   industry.
+   (BUTTON)
+   View our solutions
+   SMART FACTORY
+
+“For the developers, it is easy, really easy for them to work with quickly.
+Spending time on building business value, rather than data modeling.”
+
+   Filip Dadgar
+   Principal Solutions Architect and IT Manager, Toyota Material Handling
+   [https://www.mongodb.com/blog/post/video-toyota-industry-40-creating-sm
+   art-factory-moving-from-monolithic-code-base-microservices-mongodb-atla
+   s-microsoft-azure]
+   Read the whole story
+   (BUTTON) chevron-left (BUTTON) chevron-right
+   [kv2toxqbrnke4v9e9-tmh.svg?auto=format%252Ccompress]
+   SCALING FAST
+
+“Agile development, multi-disciplinary teams, rapid iteration, and weekly
+releases have all helped us react seamlessly to changes in demand. MongoDB
+has been able to cope with that all the way through and gave us the agility
+and flexibility we so needed.”
+
+   Tom Padgham
+   Deputy Director of Engineering, Department for Work & Pensions
+   [https://www.mongodb.com/customers/department-for-work-and-pensions]
+   Read the whole story
+   (BUTTON) chevron-left (BUTTON) chevron-right
+   [kv9v7wq9imvcce10o-DWP.png?auto=format%252Ccompress]
+   SCALING
+
+“For a long time, your compute layer scaled far more dynamically than your
+database. With MongoDB Atlas, really for the first time, you can have your
+data engines scale just as well, just as fast.”
+
+   William Fong
+   CTO and Co-Founder, Boxed
+   [https://www.mongodb.com/blog/post/boxed-keeps-shipping-as-atlas-keeps-
+   the-lights-on]
+   Read the whole story
+   (BUTTON) chevron-left (BUTTON) chevron-right
+   [kv2ts0y8wdiyy9xwp-boxed.svg?auto=format%252Ccompress]
+
+Ready to get started?
+
+   Begin building your next app today
+   [https://www.mongodb.com/try]Try Free
+   [https://www.mongodb.com/contact]
+   Questions? Talk to us
+   Illustration of a database.
+   [https://www.mongodb.com/]MongoDB logo
+   [kr6zmbrgbwlke2l97-atlas-global-deployments.svg?auto=format%252Ccompres
+   s]
+   (BUTTON) English
+     * English
+     * Português
+     * Español
+     * 한국어
+     * 日本語
+     * Italiano
+     * Deutsch
+     * Français
+     * 简体中文
+
+   © 2023 MongoDB, Inc.
+
+   About
+     * [https://www.mongodb.com/careers]Careers
+     * [https://investors.mongodb.com/]Investor Relations
+     * [https://www.mongodb.com/legal/legal-notices]Legal Notices
+     * [https://www.mongodb.com/legal/privacy-policy]Privacy Notices
+     * [https://www.mongodb.com/security]Security Information
+     * [https://www.mongodb.com/cloud/trust]Trust Center
+
+   Support
+     * [https://www.mongodb.com/contact]Contact Us
+     * [https://support.mongodb.com/welcome]Customer Portal
+     * [https://status.cloud.mongodb.com/]Atlas Status
+     * [https://www.mongodb.com/products/enterprise-grade-support]Paid
+       Support
+
+   Social
+     * [https://github.com/mongodb]Github
+     * [https://stackoverflow.com/tags/mongodb/info]Stack Overflow
+     * [https://www.linkedin.com/company/mongodbinc/]LinkedIn
+     * [https://youtube.com/user/mongodb]Youtube
+     * [https://twitter.com/mongodb]Twitter
+     * [https://twitch.tv/mongodb/videos]Twitch
+     * [https://facebook.com/mongodb]Facebook
+
+   © 2023 MongoDB, Inc.

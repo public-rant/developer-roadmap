@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89 > $(basename https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89).txt

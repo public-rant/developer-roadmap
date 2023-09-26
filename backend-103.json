@@ -1,0 +1,467 @@
+[
+ {
+  "id": "javascript",
+  "tag": "h1",
+  "text": "JavaScript"
+ },
+ {
+  "id": "ruby",
+  "tag": "h1",
+  "text": "Ruby"
+ },
+ {
+  "id": "php",
+  "tag": "h1",
+  "text": "PHP"
+ },
+ {
+  "id": "learn-a-language",
+  "tag": "h1",
+  "text": "Learn a Language"
+ },
+ {
+  "id": "java",
+  "tag": "h1",
+  "text": "Java"
+ },
+ {
+  "id": "c",
+  "tag": "h1",
+  "text": "C"
+ },
+ {
+  "id": "c-1",
+  "tag": "h1",
+  "text": "C++"
+ },
+ {
+  "id": "rust",
+  "tag": "h1",
+  "text": "Rust"
+ },
+ {
+  "id": "go",
+  "tag": "h1",
+  "text": "Go"
+ },
+ {
+  "id": "python",
+  "tag": "h1",
+  "text": "Python"
+ },
+ {
+  "id": "soapui",
+  "tag": "h1",
+  "text": "SoapUI"
+ },
+ {
+  "id": "cypress",
+  "tag": "h1",
+  "text": "Cypress"
+ },
+ {
+  "id": "karate-framework",
+  "tag": "h1",
+  "text": "Karate framework"
+ },
+ {
+  "id": "newman",
+  "tag": "h1",
+  "text": "Newman"
+ },
+ {
+  "id": "backend-automation",
+  "tag": "h1",
+  "text": "Backend Automation"
+ },
+ {
+  "id": "rest-assured",
+  "tag": "h1",
+  "text": "REST Assured"
+ },
+ {
+  "href": "https://nodejs.org/",
+  "tag": "a",
+  "text": "Node.js"
+ },
+ {
+  "href": "https://deno.land/",
+  "tag": "a",
+  "text": "Deno"
+ },
+ {
+  "href": "/javascript",
+  "tag": "a",
+  "text": "JavaScript"
+ },
+ {
+  "href": "/nodejs",
+  "tag": "a",
+  "text": "Node.js"
+ },
+ {
+  "href": "/javascript",
+  "tag": "a",
+  "text": "Visit Dedicated JavaScript Roadmap"
+ },
+ {
+  "href": "https://www.w3schools.com/js/",
+  "tag": "a",
+  "text": "W3Schools – JavaScript Tutorial"
+ },
+ {
+  "href": "https://javascript.info/",
+  "tag": "a",
+  "text": "The Modern JavaScript Tutorial"
+ },
+ {
+  "href": "https://eloquentjavascript.net/",
+  "tag": "a",
+  "text": "Eloquent Javascript - Book"
+ },
+ {
+  "href": "https://github.com/getify/You-Dont-Know-JS",
+  "tag": "a",
+  "text": "You Dont Know JS Yet (book series)"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/introduction-to-javascript",
+  "tag": "a",
+  "text": "Codecademy - Learn JavaScript"
+ },
+ {
+  "href": "https://youtu.be/hdI2bqOjy3c",
+  "tag": "a",
+  "text": "JavaScript Crash Course for Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+  "tag": "a",
+  "text": "Node.js Crash Course"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+  "tag": "a",
+  "text": "Node.js Tutorial for Beginners"
+ },
+ {
+  "href": "https://www.ruby-lang.org/en/",
+  "tag": "a",
+  "text": "Ruby Website"
+ },
+ {
+  "href": "https://www.ruby-lang.org/en/documentation/quickstart/",
+  "tag": "a",
+  "text": "Learn Ruby in 20 minutes"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-ruby",
+  "tag": "a",
+  "text": "Learn Ruby | Codecademy"
+ },
+ {
+  "href": "https://thenewstack.io/ruby-a-programmers-best-friend/",
+  "tag": "a",
+  "text": "Ruby, An Introduction to a Programmer’s Best Friend"
+ },
+ {
+  "href": "https://php.org/",
+  "tag": "a",
+  "text": "PHP Website"
+ },
+ {
+  "href": "https://www.w3schools.com/php/",
+  "tag": "a",
+  "text": "Learn PHP - W3Schools"
+ },
+ {
+  "href": "https://phptherightway.com/",
+  "tag": "a",
+  "text": "PHP - The Right Way"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=U2lQWR6uIuo\u0026amp;list=PL3VM-unCzF8ipG50KDjnzhugceoSG3RTC",
+  "tag": "a",
+  "text": "PHP for Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=2eebptXfEvw",
+  "tag": "a",
+  "text": "PHP For Absolute Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=sVbEyFZKgqk\u0026amp;list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-",
+  "tag": "a",
+  "text": "Full PHP 8 Tutorial - Learn PHP The Right Way In 2022"
+ },
+ {
+  "href": "/java",
+  "tag": "a",
+  "text": "Visit Dedicated Java Roadmap"
+ },
+ {
+  "href": "https://www.java.com/",
+  "tag": "a",
+  "text": "Java Website"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-java",
+  "tag": "a",
+  "text": "Codeacademy - Free Course"
+ },
+ {
+  "href": "https://www.w3schools.com/java/",
+  "tag": "a",
+  "text": "W3 Schools Tutorials"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+  "tag": "a",
+  "text": "Java Crash Course"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=xk4_1vdrzzo",
+  "tag": "a",
+  "text": "Complete Java course"
+ },
+ {
+  "href": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website",
+  "tag": "a",
+  "text": "C# Learning Path"
+ },
+ {
+  "href": "https://www.w3schools.com/cs/index.php",
+  "tag": "a",
+  "text": "C# on W3 schools"
+ },
+ {
+  "href": "https://docs.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha",
+  "tag": "a",
+  "text": "Introduction to C#"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=gfkTfcpWqAY\u0026amp;list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef",
+  "tag": "a",
+  "text": "C# tutorials"
+ },
+ {
+  "href": "https://learncpp.com/",
+  "tag": "a",
+  "text": "Learn Cpp"
+ },
+ {
+  "href": "https://en.cppreference.com/",
+  "tag": "a",
+  "text": "C++ Reference"
+ },
+ {
+  "href": "https://doc.rust-lang.org/book/",
+  "tag": "a",
+  "text": "The Rust Programming Language - online book"
+ },
+ {
+  "href": "https://doc.rust-lang.org/stable/rust-by-example/index.html",
+  "tag": "a",
+  "text": "Rust by Example - collection of runnable examples"
+ },
+ {
+  "href": "https://thenewstack.io/rust-vs-go-why-theyre-better-together/",
+  "tag": "a",
+  "text": "Rust vs. Go: Why They’re Better Together"
+ },
+ {
+  "href": "https://thenewstack.io/rust-by-the-numbers-the-rust-programming-language-in-2021/",
+  "tag": "a",
+  "text": "Rust by the Numbers: The Rust Programming Language in 2021"
+ },
+ {
+  "href": "/golang",
+  "tag": "a",
+  "text": "Visit Dedicated Go Roadmap"
+ },
+ {
+  "href": "https://go.dev/tour/welcome/1",
+  "tag": "a",
+  "text": "A Tour of Go – Go Basics"
+ },
+ {
+  "href": "https://go.dev/doc/",
+  "tag": "a",
+  "text": "Go Reference Documentation"
+ },
+ {
+  "href": "https://gobyexample.com/",
+  "tag": "a",
+  "text": "Go by Example - annotated example programs"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-go",
+  "tag": "a",
+  "text": "Learn Go | Codecademy"
+ },
+ {
+  "href": "https://www.w3schools.com/go/",
+  "tag": "a",
+  "text": "W3Schools Go Tutorial"
+ },
+ {
+  "href": "https://thenewstack.io/make-a-restful-json-api-go/",
+  "tag": "a",
+  "text": "Making a RESTful JSON API in Go"
+ },
+ {
+  "href": "https://thenewstack.io/go-the-programming-language-of-the-cloud/",
+  "tag": "a",
+  "text": "Go, the Programming Language of the Cloud"
+ },
+ {
+  "href": "/python",
+  "tag": "a",
+  "text": "Visit Dedicated Python Roadmap"
+ },
+ {
+  "href": "https://www.python.org/",
+  "tag": "a",
+  "text": "Python Website"
+ },
+ {
+  "href": "https://www.python.org/about/gettingstarted/",
+  "tag": "a",
+  "text": "Python Getting Started"
+ },
+ {
+  "href": "https://automatetheboringstuff.com/",
+  "tag": "a",
+  "text": "Automate the Boring Stuff"
+ },
+ {
+  "href": "https://www.freecodecamp.org/news/how-to-learn-python/",
+  "tag": "a",
+  "text": "FreeCodeCamp.org - How to Learn Python ?"
+ },
+ {
+  "href": "https://pythonprinciples.com/",
+  "tag": "a",
+  "text": "Python principles - Python basics"
+ },
+ {
+  "href": "https://www.w3schools.com/python/",
+  "tag": "a",
+  "text": "W3Schools - Python Tutorial"
+ },
+ {
+  "href": "https://ehmatthes.github.io/pcc/",
+  "tag": "a",
+  "text": "Python Crash Course"
+ },
+ {
+  "href": "https://www.codecademy.com/learn/learn-python",
+  "tag": "a",
+  "text": "Codecademy - Learn Python 2"
+ },
+ {
+  "href": "https://thenewstack.io/an-introduction-to-python-for-non-programmers/",
+  "tag": "a",
+  "text": "An Introduction to Python for Non-Programmers"
+ },
+ {
+  "href": "https://thenewstack.io/getting-started-with-python-and-influxdb/",
+  "tag": "a",
+  "text": "Getting Started with Python and InfluxDB"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=kqtD5dpn9C8\u0026amp;ab_channel=ProgrammingwithMosh",
+  "tag": "a",
+  "text": "Python for Beginners - Learn Python in 1 Hour"
+ },
+ {
+  "href": "https://www.soapui.org/",
+  "tag": "a",
+  "text": "SoapUI Official Website"
+ },
+ {
+  "href": "https://www.soapui.org/getting-started/",
+  "tag": "a",
+  "text": "SoapUI Docs"
+ },
+ {
+  "href": "https://www.cypress.io/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://docs.cypress.io/guides/overview/why-cypress#Other",
+  "tag": "a",
+  "text": "Official Documentation"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7N63cMKosIE",
+  "tag": "a",
+  "text": "Cypress End-to-End Testing"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=PZ2OsLBts1E\u0026amp;list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI",
+  "tag": "a",
+  "text": "Cypress Tips \u0026amp; Trics"
+ },
+ {
+  "href": "https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa",
+  "tag": "a",
+  "text": "Cypress - End to End Testing Framework"
+ },
+ {
+  "href": "https://www.karatelabs.io/",
+  "tag": "a",
+  "text": "karate website"
+ },
+ {
+  "href": "https://github.com/karatelabs/karate/blob/master/karate-core/src/test/resources/karate-map.jpg?raw=true",
+  "tag": "a",
+  "text": "karate architecture"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=1f6xtJpRx4k\u0026amp;list=PLhW3qG5bs-L-y5Q1zDXJAur1JNZVFB534",
+  "tag": "a",
+  "text": "karate for beginner"
+ },
+ {
+  "href": "https://www.postman.com",
+  "tag": "a",
+  "text": "Postman website"
+ },
+ {
+  "href": "https://learning.postman.com/docs/getting-started/introduction/",
+  "tag": "a",
+  "text": "Learn postman"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+  "tag": "a",
+  "text": "API testing with postman"
+ },
+ {
+  "href": "https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/",
+  "tag": "a",
+  "text": "Newman cli usage"
+ },
+ {
+  "href": "https://testinggenez.com/what-is-backend-testing-and-types/",
+  "tag": "a",
+  "text": "What is backend testing?"
+ },
+ {
+  "href": "https://www.guru99.com/what-is-backend-testing.html",
+  "tag": "a",
+  "text": "Backend Testing Tutorial"
+ },
+ {
+  "href": "https://rest-assured.io",
+  "tag": "a",
+  "text": "REST-assured Website"
+ },
+ {
+  "href": "https://www.guru99.com/rest-assured.html",
+  "tag": "a",
+  "text": "REST Assured Tutorial: How to test API with Example"
+ }
+]

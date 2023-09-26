@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://swoopnow.com/user-authentication/ > $(basename https://swoopnow.com/user-authentication/).txt

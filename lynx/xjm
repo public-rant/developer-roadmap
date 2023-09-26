@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.tutorialspoint.com/memcached/index.htm > $(basename https://www.tutorialspoint.com/memcached/index.htm).txt

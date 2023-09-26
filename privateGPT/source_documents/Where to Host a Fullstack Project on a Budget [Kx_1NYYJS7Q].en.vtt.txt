@@ -1,0 +1,1593 @@
+This is a subtitle
+Bar
+This is a subtitle
+Bar
+This is a subtitle
+Bar
+welcome back I hope you had a good
+holiday if you celebrate Thanksgiving I
+have a pretty decent one had a weird
+sore throat problem but I m starting to
+recover from it and feel a lot better
+now so that s good
+and I actually didn t have a big turkey
+I am half 11 knees so he actually had
+some middle eastern food we had Kibby
+which is a minced meat dish mixed with
+bulgur which is actually quite good I
+enjoyed it a lot but today we re going
+to be talking about hosting your
+projects and where are some good options
+if you want to save money and deploy on
+a budget so the general way to save
+money when deploying things is to spend
+more time setting them up yourself
+rather than paying a service to set up
+stuff for you now the first thing that
+we re going to look at is cloud
+providers now they kind of break the
+rule because they do this thing where
+they have a juicy free tier so AWS has
+it where they offer a bunch of free
+stuff for their services for 12 months
+Azure has a similar thing where for 12
+months they offer you free services and
+they also throw in a two hundred dollar
+credit for 30 days now AWS I believe
+also gives you like a hundred dollar
+credit you can get somewhere and all of
+these cloud providers have random
+promotions where they re throwing money
+at you also Google cloud has one where
+you just get straight 300 for 12 months
+and then they also have some always free
+stuff so these guys are kind of cheating
+because they don t actually charge you
+anything usually until after a year of
+using them or until you pass their free
+usage which usually doesn t happen right
+away so there s this illusion of value
+that you re able to not spend anything
+and get a ton of services and so this is
+the exception to the rule where you re
+able to leverage some of this stuff
+short term and that s the key thing
+these are great options if you want to
+set up a project that you think maybe
+take a year to
+set up or something you re gonna have a
+low traffic at first and then after that
+you see yourself growing the project and
+starting to get more users and hopefully
+generating some revenue through your
+service and then you can pay for some of
+the higher prices that the cloud
+services are going to charge because
+that is the way they function they try
+to hook you in with the free services
+you get set up and using them you re
+using their services so it s harder to
+migrate away and use a different service
+it s easier to just stay where you are
+so when the free tier is up you continue
+using them and you start using their
+paid versions of whatever you re getting
+from free before and this is where it
+starts to get more expensive than some
+of the other options but with that said
+I still think this is a super legit way
+to go especially if you see yourself in
+the short term having a smaller budget
+but in the long term having a more
+flexible or larger budget to work with
+especially because it s always gonna be
+cheaper to hire Google cloud to manage
+for example your database or your
+servers than it is to hire a human to
+monitor and make sure those things are
+working and so if you want to start
+cheap and then get some of the services
+that are gonna be handled for you I
+think a cloud free tier and then paying
+later is a great option to go with now
+there s some other things to consider
+when choosing a cloud provider there s
+two things that I do not like about them
+the first is their complexity just to
+setup and use so they have gone to the
+point now where they are just supporting
+so many use cases and so many different
+services that their dashboards are
+getting very very complex and they are
+offering certificates to learn AWS or
+you get certified to show that you
+actually know how to use AWS now because
+it is that complex and you actually put
+on your resume that you are capable of
+using AWS because it is getting to that
+point where you really need to study it
+to fully understand how it works and
+make sure you re using it correctly and
+so that really ties in with the second
+thing you can really easily mess up and
+the price
+is not always super transparent it s
+very easy to spin up a lot of different
+services underneath the hood and then
+all of a sudden you have a larger bill
+than you were expecting so it s not
+always clear how much you re going to be
+spending when you actually start using
+these cloud providers so once you ve
+decided you actually want to use a cloud
+provider the next question is which one
+should you use should you go with Google
+Microsoft desert or Amazon s AWS now
+this is a video and it s owned which one
+should you choose and this is also just
+not the only options Oracle has a cloud
+these just happen to be the biggest ones
+and I would probably recommend just
+starting with AWS because this happens
+to be the one that is used the most so
+it s gonna carry over this skill set to
+know a BWS is actually getting pretty
+important and a lot of different jobs
+need it and you ll use it in a lot of
+different places but I m gonna leave an
+in depth comparison for a separate video
+okay so that is option number one go
+with a cloud and take advantage of their
+generous free tears now option number
+two is one that I personally use and
+it s where we get more into setting
+stuff up ourselves and I m gonna split
+this into four categories number one is
+hosting our database number two is
+hosting our server number three is
+hosting our front end
+so server more are back inside and then
+our front end side our website and then
+lastly what about user uploaded images
+now I m choosing that because that s a
+very common thing that you usually have
+in your application and something you
+need to think about and affects how you
+host so starting with the database this
+is what I would not recommend using if
+you re on a budget and the reason for
+that is it gets very expensive very
+quickly and that is these hosted
+database options that are getting more
+popular so one example this is M lap
+where they will host a MongoDB database
+for you and you can see here it costs
+15 per gigabyte and that is very
+expensive a gigabyte is not a lot of
+data but if you take it to the
+why this is so much it makes sense and
+that s because you re not just getting a
+database you are getting backups
+included for you you re getting support
+free transfer analytics hardware costs
+and maybe some other stuff thrown in
+there but it s something where if your
+database crashes you don t have to go in
+there and handle that stuff they have a
+team that is making sure your database
+is up and running and functioning
+correctly and so that can be really nice
+but it can be really expensive so
+another option and that s similar to
+this is with Redis labs where they are
+hosting a Redis instance for you and
+here you can see it is twenty two
+dollars a month for one gigabyte and for
+five of your bytes is one hundred and
+five dollars a month so very quickly
+with not a lot of gigs it gets very
+pricey but again they are doing extra
+stuff for you and again depending on
+your plan you get more stuff and so if
+you need these extra services maybe you
+want to consider these things but not
+everybody needs all of these things and
+it s one of those things where for a lot
+of sites if your database crashes it s
+okay to have an hour of downtime where
+you go in there and you fix it yourself
+that usually isn t too problematic for
+most sites it s just the fact that you
+don t really need 99 percent uptime all
+the time it s a very rare case that your
+database crashes at least it should be
+if it isn t you may want to have to
+consider switching your database or
+changing something up so what I like to
+do instead is host the database and a
+virtual private server so for example
+digitalocean is a company that sells
+these so is a vulture and there is a ton
+like this where basically you get a
+little computer and you can install
+whatever software you want in there and
+host projects and so it s also very
+flexible so not only can I stick MongoDB
+but I can also stick Redis on there and
+so I m not limited to just hosting a
+single database on there but I can host
+multiple databases and I can also
+include my back end server so personally
+what I will do for small projects is I
+will setup a single virtual machine
+which I will stick my database and I ll
+also stick my server on
+so they re close together now again this
+may not be optimal in all cases because
+if my database crashes so does my entire
+application but a lot of cases this is
+an acceptable amount of risk and I think
+is a great option if you are doing a
+small to medium sized project and you
+see using this or building this over a
+long term because it is a cheaper price
+and if you want some of these other
+services along with just you know
+hosting your database you will need to
+set these up yourself which can be a pro
+or a con the pro is you can set up
+however you like and you get a ton of
+flexibility with it you get to choose
+the analytic tool that you use or you
+get to pick the way that you re backing
+up your database so for example backups
+were something that I really want it so
+what I do is I have a cron job which
+runs every day and it backs up the
+database and saves the database to s3 so
+on AWS on Amazon and so I have backups
+made every day and make sure I don t
+lose any data still and to give you a
+little insight into I actually like to
+use to manage everything on the virtual
+machine I like this open source software
+called dokku which works very similar to
+Heroku where you just push up your code
+and add in some database add ons and you
+just let it handle the rest for you you
+know if they touch nginx or mapping
+subdomains and it s very easy to get
+let s encrypt set up so you have htps
+and so I actually have and you can run
+several different servers from the
+single virtual machine and so I have
+Postgres running in there and Redis and
+then also my back end server and so
+being able to handle all those things in
+a single box or single server is pre
+cost efficient so how much do these
+virtual private readings actually cost
+well here is the pricing table for
+vulture so you can see it starts at 250
+a month and it goes up from there and it
+really just depends on how much memory
+and how much CPU you need or you want
+now it s not just about those two things
+though and so that s one of the things
+that I naively would compare before so
+for example we can look at the price
+table here and the price table
+Oshin and we can see they re pretty
+comparable at least with the amount of
+memory and CPUs and transferred discs
+and that sort of thing that you get
+compared to each other but that doesn t
+mean you re gonna get similar
+performance and the underlying software
+that vulture and digitalocean use could
+be totally different and so to be honest
+with you I have no idea which VPS
+provider you should choose I m
+personally trying out a couple different
+ones right now that try to figuring out
+which one I like the best I m playing
+around with this one called SSD notes
+but I have no idea if they re any good
+but here is the thing that I think is
+the true test is to just do benchmarks
+and to see which one benchmarks the best
+is probably the best way to choose
+between these and so one place that does
+this there s this Josh tronic blog that
+compares them and so it gives you a nice
+side by side of these five providers and
+they ll actually go into CPU and some
+other things memory and compare the
+speeds of them and see which one you re
+actually getting you know you may pay
+10 for each one of these which ones
+actually give you the most performance
+best memory or best CP or etc another
+place that I found that was pretty
+interesting was called VPS benchmarks
+where you could actually compare two
+different VPS and their speeds and
+whatnot so if you go to compare maybe
+providers where was I could actually
+like show suit compare VPS providers and
+so I could click vulture and I could
+click Google cloud compute or compute
+engine I mean we could actually compare
+these and get a breakdown of their both
+their pricing and also in each category
+they kind of rate them on performance
+and whatnot and you can even get into
+more fine grain things down here on the
+performance at different levels so if
+you re into this thing and you want to
+dive into this you could send you could
+consider looking at these different
+benchmarks and maybe that ll help you
+pick but in this particular category I
+have no idea which one is the best
+vulture seems to consistently be one
+that across several different benchmarks
+performs
+pretty well and I ve used it and it s
+been a positive experience so it s one I
+feel confident recommending starting
+with at least but there may be some
+better ones out there so let me know if
+you have a favorite on what you actually
+choose for this but in general
+price wise they re pretty comparative
+and they offer about the same CPU about
+the same memory so it really comes down
+to the performance of each one of what
+they re giving you okay so the VPS will
+handle your back end in your database
+now for your front end this only really
+matters if you re not doing server side
+rendering so if you re doing jam stack
+or you have a static website aka if
+you re using create react app using
+Gatsby something like that I actually
+like to host it on net liffe I if you
+are doing server side rendering aka
+you re using Django Ruby on Rails using
+next yes something like that where you
+are actually you know rendering the
+pages from your server then you can
+actually just stick it with your VPS and
+you can do it there so this is for
+static sites I like to split them off
+and not render them in the VPS because
+you can get a really nice free tier from
+net liffe I and so it will take some
+load off of your server if you can serve
+stack files here so what I ll do is I
+believe it s up to a hundred gigabytes
+of bandwidth that you get for actually
+being able to host here and so that will
+last you a very long time and static
+websites are so easy to like migrate who
+you re hosting with it s very easy to if
+you reach over the hundred gigs which
+will give you give you for free it s
+very easy to switch if you want to go
+somewhere else but you may even want to
+stick with metal if I I personally just
+really like the experience with
+deploying here it s very easy it s very
+quick and I like it a lot so this is
+where I would go just totally free for
+front end at your website if it s static
+so lastly let s talk about handling user
+uploaded images so I m not talking about
+you know you have some assets on your
+landing page I m talking about your
+Twitter your Facebook your some place
+where you want to handle the user
+uploading stuff and displaying their
+custom images and they could upload them
+anytime and so you want to be able to
+handle that so I want to first talk
+about the approach that I like the best
+and then we re talking about how you
+can t accomplish that approach so this
+is the one that I really like and that
+is to store wherever they upload store
+it at that size so if they upload an
+image that happens to be 900 by 900 you
+save it as 900 by 900 now the thing is
+your website may need it a different
+size or may need some different settings
+on the image so what you ll do is when
+you request the image you will give it
+some parameters for example the width
+and height that you need or maybe you
+need this width right and so what we ll
+do is the service will resize it get to
+the width that you want it on the fly
+then it will cache it and then it ll
+give you the image so this is something
+where the first time it may take
+slightly longer because it needs to
+dynamically create the image at the do
+size on the server and it s going to
+give you the image so the nice part of
+this approach is you have the original
+image at 900 by 900 and then you can
+resize it to whatever you want right so
+as your requirements for the website
+change or maybe you need different sizes
+in different places it s very easy to be
+able to just change the URL parameter
+you don t have to go generating a bunch
+of files ahead of time the right size
+that you want now I ve tried doing this
+approach myself in putting this logic on
+digital ocean or vulture or one of those
+places but to be honest it is just a
+headache to try to do well it s not so
+much it s a headache to actually set up
+it s more of a headache to try to get
+performant and I was never able to get
+to a speed that was quite happy with
+I even tried seeking cloud fair in front
+but even then when image is loaded it
+was just a lot slower than some of the
+other options so I would actually
+recommend in this case at least I
+haven t had much success try and do it
+myself
+this is where I actually do like using a
+service to handle dynamically resizing
+images for me so there are two places
+that I know of that can
+do this image thing for you so the first
+one is cloud nari and they are great on
+a budget at least they re free tier
+handles quite a bit of images so you pay
+nothing upfront similar to how with the
+cloud provider has a nice free tier and
+then maybe you ll be paying more later
+but the hard thing I have with this
+service is or the hard thing to tell
+from this is they give you monthly
+credits so for example the free tier you
+get 25 and just a side note I really
+hate when these companies create their
+own little currency like this it s very
+hard to try to figure out how the
+currency maps to actual spending but
+anyway you get 25 credits which then
+used to a hundred or a thousand
+transformations one Giga storage or one
+gig of net viewing bandwidth you get the
+gist so what the credits could go to
+some amount of image processing so it s
+really hard to tell when exactly you
+would hit threshold to be paying 89 a
+month to be honest I m not quite sure
+when a project you really need or how
+much usage you d have before you reach
+the threshold because it s kind of hard
+to calculate ahead of time how much your
+image usage is going to be so that s my
+main beef with clouding area I think
+it s really nice I think the service is
+good but I personally haven t used them
+a ton because I feel like their pricing
+is a little less transparent than the
+second option which is image X so with
+this company how it works is you pay 3
+per thousand images and then 8 cents per
+gigabyte of bandwidth and then you can
+transform the image with the property s
+height width and then they have a
+thousand other transformations you can
+do as me as many times as you want it
+doesn t cost extra so I have a very hard
+time trying to compare this pricing take
+Loudoun Aires and trying to figure out
+well with this many credits how much is
+it going to be on image X I m not really
+sure so if someone s done the math do
+let me know but my gut instinct says
+once you pass the free tier of cloud and
+airy I feel like image X is going to be
+less money but to be asked I haven t
+no idea but I think both of them are
+pretty good options I ve really enjoyed
+image X as a service I thought it s
+worked out really great but they don t
+have a free tier cloud Andheri does so
+maybe cloud nare just strictly wins and
+maybe it s even cheaper at the plus tier
+that was the case I probably should
+probably switch the cloud nari but I am
+personally using image X right now
+liking them but these are two really
+good options for handling your images
+but there you go in conclusion I like to
+use cloud services if I am doing a
+project where in the long term I see it
+making a lot of money but maybe in the
+short term I want to take advantage of
+the free tier otherwise I like putting
+my back end my server on a virtual
+machine for example using vulture and
+then serving my website on net low Phi
+and hosting my images on either cloud
+Neri or on image X also one thing I
+totally forgot to mention Culinaire will
+actually host your images image X you
+don t doesn t actually host your images
+I forgot that s like a huge difference
+actually so I actually have my images
+stored on Google Cloud storage and then
+image X is kind of a cache layer in
+front of it so that s big thing to know
+difference between the two but yeah I ve
+liked image X that s just a heads up so
+there you go that is how you can deploy
+
+welcome back I hope you had a good
+holiday if you celebrate Thanksgiving I
+have a pretty decent one had a weird
+sore throat problem but I m starting to
+recover from it and feel a lot better
+now so that s good
+and I actually didn t have a big turkey
+I am half 11 knees so he actually had
+some middle eastern food we had Kibby
+which is a minced meat dish mixed with
+bulgur which is actually quite good I
+enjoyed it a lot but today we re going
+to be talking about hosting your
+projects and where are some good options
+if you want to save money and deploy on
+a budget so the general way to save
+money when deploying things is to spend
+more time setting them up yourself
+rather than paying a service to set up
+stuff for you now the first thing that
+we re going to look at is cloud
+providers now they kind of break the
+rule because they do this thing where
+they have a juicy free tier so AWS has
+it where they offer a bunch of free
+stuff for their services for 12 months
+Azure has a similar thing where for 12
+months they offer you free services and
+they also throw in a two hundred dollar
+credit for 30 days now AWS I believe
+also gives you like a hundred dollar
+credit you can get somewhere and all of
+these cloud providers have random
+promotions where they re throwing money
+at you also Google cloud has one where
+you just get straight 300 for 12 months
+and then they also have some always free
+stuff so these guys are kind of cheating
+because they don t actually charge you
+anything usually until after a year of
+using them or until you pass their free
+usage which usually doesn t happen right
+away so there s this illusion of value
+that you re able to not spend anything
+and get a ton of services and so this is
+the exception to the rule where you re
+able to leverage some of this stuff
+short term and that s the key thing
+these are great options if you want to
+set up a project that you think maybe
+take a year to
+set up or something you re gonna have a
+low traffic at first and then after that
+you see yourself growing the project and
+starting to get more users and hopefully
+generating some revenue through your
+service and then you can pay for some of
+the higher prices that the cloud
+services are going to charge because
+that is the way they function they try
+to hook you in with the free services
+you get set up and using them you re
+using their services so it s harder to
+migrate away and use a different service
+it s easier to just stay where you are
+so when the free tier is up you continue
+using them and you start using their
+paid versions of whatever you re getting
+from free before and this is where it
+starts to get more expensive than some
+of the other options but with that said
+I still think this is a super legit way
+to go especially if you see yourself in
+the short term having a smaller budget
+but in the long term having a more
+flexible or larger budget to work with
+especially because it s always gonna be
+cheaper to hire Google cloud to manage
+for example your database or your
+servers than it is to hire a human to
+monitor and make sure those things are
+working and so if you want to start
+cheap and then get some of the services
+that are gonna be handled for you I
+think a cloud free tier and then paying
+later is a great option to go with now
+there s some other things to consider
+when choosing a cloud provider there s
+two things that I do not like about them
+the first is their complexity just to
+setup and use so they have gone to the
+point now where they are just supporting
+so many use cases and so many different
+services that their dashboards are
+getting very very complex and they are
+offering certificates to learn AWS or
+you get certified to show that you
+actually know how to use AWS now because
+it is that complex and you actually put
+on your resume that you are capable of
+using AWS because it is getting to that
+point where you really need to study it
+to fully understand how it works and
+make sure you re using it correctly and
+so that really ties in with the second
+thing you can really easily mess up and
+the price
+is not always super transparent it s
+very easy to spin up a lot of different
+services underneath the hood and then
+all of a sudden you have a larger bill
+than you were expecting so it s not
+always clear how much you re going to be
+spending when you actually start using
+these cloud providers so once you ve
+decided you actually want to use a cloud
+provider the next question is which one
+should you use should you go with Google
+Microsoft desert or Amazon s AWS now
+this is a video and it s owned which one
+should you choose and this is also just
+not the only options Oracle has a cloud
+these just happen to be the biggest ones
+and I would probably recommend just
+starting with AWS because this happens
+to be the one that is used the most so
+it s gonna carry over this skill set to
+know a BWS is actually getting pretty
+important and a lot of different jobs
+need it and you ll use it in a lot of
+different places but I m gonna leave an
+in depth comparison for a separate video
+okay so that is option number one go
+with a cloud and take advantage of their
+generous free tears now option number
+two is one that I personally use and
+it s where we get more into setting
+stuff up ourselves and I m gonna split
+this into four categories number one is
+hosting our database number two is
+hosting our server number three is
+hosting our front end
+so server more are back inside and then
+our front end side our website and then
+lastly what about user uploaded images
+now I m choosing that because that s a
+very common thing that you usually have
+in your application and something you
+need to think about and affects how you
+host so starting with the database this
+is what I would not recommend using if
+you re on a budget and the reason for
+that is it gets very expensive very
+quickly and that is these hosted
+database options that are getting more
+popular so one example this is M lap
+where they will host a MongoDB database
+for you and you can see here it costs
+15 per gigabyte and that is very
+expensive a gigabyte is not a lot of
+data but if you take it to the
+why this is so much it makes sense and
+that s because you re not just getting a
+database you are getting backups
+included for you you re getting support
+free transfer analytics hardware costs
+and maybe some other stuff thrown in
+there but it s something where if your
+database crashes you don t have to go in
+there and handle that stuff they have a
+team that is making sure your database
+is up and running and functioning
+correctly and so that can be really nice
+but it can be really expensive so
+another option and that s similar to
+this is with Redis labs where they are
+hosting a Redis instance for you and
+here you can see it is twenty two
+dollars a month for one gigabyte and for
+five of your bytes is one hundred and
+five dollars a month so very quickly
+with not a lot of gigs it gets very
+pricey but again they are doing extra
+stuff for you and again depending on
+your plan you get more stuff and so if
+you need these extra services maybe you
+want to consider these things but not
+everybody needs all of these things and
+it s one of those things where for a lot
+of sites if your database crashes it s
+okay to have an hour of downtime where
+you go in there and you fix it yourself
+that usually isn t too problematic for
+most sites it s just the fact that you
+don t really need 99 percent uptime all
+the time it s a very rare case that your
+database crashes at least it should be
+if it isn t you may want to have to
+consider switching your database or
+changing something up so what I like to
+do instead is host the database and a
+virtual private server so for example
+digitalocean is a company that sells
+these so is a vulture and there is a ton
+like this where basically you get a
+little computer and you can install
+whatever software you want in there and
+host projects and so it s also very
+flexible so not only can I stick MongoDB
+but I can also stick Redis on there and
+so I m not limited to just hosting a
+single database on there but I can host
+multiple databases and I can also
+include my back end server so personally
+what I will do for small projects is I
+will setup a single virtual machine
+which I will stick my database and I ll
+also stick my server on
+so they re close together now again this
+may not be optimal in all cases because
+if my database crashes so does my entire
+application but a lot of cases this is
+an acceptable amount of risk and I think
+is a great option if you are doing a
+small to medium sized project and you
+see using this or building this over a
+long term because it is a cheaper price
+and if you want some of these other
+services along with just you know
+hosting your database you will need to
+set these up yourself which can be a pro
+or a con the pro is you can set up
+however you like and you get a ton of
+flexibility with it you get to choose
+the analytic tool that you use or you
+get to pick the way that you re backing
+up your database so for example backups
+were something that I really want it so
+what I do is I have a cron job which
+runs every day and it backs up the
+database and saves the database to s3 so
+on AWS on Amazon and so I have backups
+made every day and make sure I don t
+lose any data still and to give you a
+little insight into I actually like to
+use to manage everything on the virtual
+machine I like this open source software
+called dokku which works very similar to
+Heroku where you just push up your code
+and add in some database add ons and you
+just let it handle the rest for you you
+know if they touch nginx or mapping
+subdomains and it s very easy to get
+let s encrypt set up so you have htps
+and so I actually have and you can run
+several different servers from the
+single virtual machine and so I have
+Postgres running in there and Redis and
+then also my back end server and so
+being able to handle all those things in
+a single box or single server is pre
+cost efficient so how much do these
+virtual private readings actually cost
+well here is the pricing table for
+vulture so you can see it starts at 250
+a month and it goes up from there and it
+really just depends on how much memory
+and how much CPU you need or you want
+now it s not just about those two things
+though and so that s one of the things
+that I naively would compare before so
+for example we can look at the price
+table here and the price table
+Oshin and we can see they re pretty
+comparable at least with the amount of
+memory and CPUs and transferred discs
+and that sort of thing that you get
+compared to each other but that doesn t
+mean you re gonna get similar
+performance and the underlying software
+that vulture and digitalocean use could
+be totally different and so to be honest
+with you I have no idea which VPS
+provider you should choose I m
+personally trying out a couple different
+ones right now that try to figuring out
+which one I like the best I m playing
+around with this one called SSD notes
+but I have no idea if they re any good
+but here is the thing that I think is
+the true test is to just do benchmarks
+and to see which one benchmarks the best
+is probably the best way to choose
+between these and so one place that does
+this there s this Josh tronic blog that
+compares them and so it gives you a nice
+side by side of these five providers and
+they ll actually go into CPU and some
+other things memory and compare the
+speeds of them and see which one you re
+actually getting you know you may pay
+10 for each one of these which ones
+actually give you the most performance
+best memory or best CP or etc another
+place that I found that was pretty
+interesting was called VPS benchmarks
+where you could actually compare two
+different VPS and their speeds and
+whatnot so if you go to compare maybe
+providers where was I could actually
+like show suit compare VPS providers and
+so I could click vulture and I could
+click Google cloud compute or compute
+engine I mean we could actually compare
+these and get a breakdown of their both
+their pricing and also in each category
+they kind of rate them on performance
+and whatnot and you can even get into
+more fine grain things down here on the
+performance at different levels so if
+you re into this thing and you want to
+dive into this you could send you could
+consider looking at these different
+benchmarks and maybe that ll help you
+pick but in this particular category I
+have no idea which one is the best
+vulture seems to consistently be one
+that across several different benchmarks
+performs
+pretty well and I ve used it and it s
+been a positive experience so it s one I
+feel confident recommending starting
+with at least but there may be some
+better ones out there so let me know if
+you have a favorite on what you actually
+choose for this but in general
+price wise they re pretty comparative
+and they offer about the same CPU about
+the same memory so it really comes down
+to the performance of each one of what
+they re giving you okay so the VPS will
+handle your back end in your database
+now for your front end this only really
+matters if you re not doing server side
+rendering so if you re doing jam stack
+or you have a static website aka if
+you re using create react app using
+Gatsby something like that I actually
+like to host it on net liffe I if you
+are doing server side rendering aka
+you re using Django Ruby on Rails using
+next yes something like that where you
+are actually you know rendering the
+pages from your server then you can
+actually just stick it with your VPS and
+you can do it there so this is for
+static sites I like to split them off
+and not render them in the VPS because
+you can get a really nice free tier from
+net liffe I and so it will take some
+load off of your server if you can serve
+stack files here so what I ll do is I
+believe it s up to a hundred gigabytes
+of bandwidth that you get for actually
+being able to host here and so that will
+last you a very long time and static
+websites are so easy to like migrate who
+you re hosting with it s very easy to if
+you reach over the hundred gigs which
+will give you give you for free it s
+very easy to switch if you want to go
+somewhere else but you may even want to
+stick with metal if I I personally just
+really like the experience with
+deploying here it s very easy it s very
+quick and I like it a lot so this is
+where I would go just totally free for
+front end at your website if it s static
+so lastly let s talk about handling user
+uploaded images so I m not talking about
+you know you have some assets on your
+landing page I m talking about your
+Twitter your Facebook your some place
+where you want to handle the user
+uploading stuff and displaying their
+custom images and they could upload them
+anytime and so you want to be able to
+handle that so I want to first talk
+about the approach that I like the best
+and then we re talking about how you
+can t accomplish that approach so this
+is the one that I really like and that
+is to store wherever they upload store
+it at that size so if they upload an
+image that happens to be 900 by 900 you
+save it as 900 by 900 now the thing is
+your website may need it a different
+size or may need some different settings
+on the image so what you ll do is when
+you request the image you will give it
+some parameters for example the width
+and height that you need or maybe you
+need this width right and so what we ll
+do is the service will resize it get to
+the width that you want it on the fly
+then it will cache it and then it ll
+give you the image so this is something
+where the first time it may take
+slightly longer because it needs to
+dynamically create the image at the do
+size on the server and it s going to
+give you the image so the nice part of
+this approach is you have the original
+image at 900 by 900 and then you can
+resize it to whatever you want right so
+as your requirements for the website
+change or maybe you need different sizes
+in different places it s very easy to be
+able to just change the URL parameter
+you don t have to go generating a bunch
+of files ahead of time the right size
+that you want now I ve tried doing this
+approach myself in putting this logic on
+digital ocean or vulture or one of those
+places but to be honest it is just a
+headache to try to do well it s not so
+much it s a headache to actually set up
+it s more of a headache to try to get
+performant and I was never able to get
+to a speed that was quite happy with
+I even tried seeking cloud fair in front
+but even then when image is loaded it
+was just a lot slower than some of the
+other options so I would actually
+recommend in this case at least I
+haven t had much success try and do it
+myself
+this is where I actually do like using a
+service to handle dynamically resizing
+images for me so there are two places
+that I know of that can
+do this image thing for you so the first
+one is cloud nari and they are great on
+a budget at least they re free tier
+handles quite a bit of images so you pay
+nothing upfront similar to how with the
+cloud provider has a nice free tier and
+then maybe you ll be paying more later
+but the hard thing I have with this
+service is or the hard thing to tell
+from this is they give you monthly
+credits so for example the free tier you
+get 25 and just a side note I really
+hate when these companies create their
+own little currency like this it s very
+hard to try to figure out how the
+currency maps to actual spending but
+anyway you get 25 credits which then
+used to a hundred or a thousand
+transformations one Giga storage or one
+gig of net viewing bandwidth you get the
+gist so what the credits could go to
+some amount of image processing so it s
+really hard to tell when exactly you
+would hit threshold to be paying 89 a
+month to be honest I m not quite sure
+when a project you really need or how
+much usage you d have before you reach
+the threshold because it s kind of hard
+to calculate ahead of time how much your
+image usage is going to be so that s my
+main beef with clouding area I think
+it s really nice I think the service is
+good but I personally haven t used them
+a ton because I feel like their pricing
+is a little less transparent than the
+second option which is image X so with
+this company how it works is you pay 3
+per thousand images and then 8 cents per
+gigabyte of bandwidth and then you can
+transform the image with the property s
+height width and then they have a
+thousand other transformations you can
+do as me as many times as you want it
+doesn t cost extra so I have a very hard
+time trying to compare this pricing take
+Loudoun Aires and trying to figure out
+well with this many credits how much is
+it going to be on image X I m not really
+sure so if someone s done the math do
+let me know but my gut instinct says
+once you pass the free tier of cloud and
+airy I feel like image X is going to be
+less money but to be asked I haven t
+no idea but I think both of them are
+pretty good options I ve really enjoyed
+image X as a service I thought it s
+worked out really great but they don t
+have a free tier cloud Andheri does so
+maybe cloud nare just strictly wins and
+maybe it s even cheaper at the plus tier
+that was the case I probably should
+probably switch the cloud nari but I am
+personally using image X right now
+liking them but these are two really
+good options for handling your images
+but there you go in conclusion I like to
+use cloud services if I am doing a
+project where in the long term I see it
+making a lot of money but maybe in the
+short term I want to take advantage of
+the free tier otherwise I like putting
+my back end my server on a virtual
+machine for example using vulture and
+then serving my website on net low Phi
+and hosting my images on either cloud
+Neri or on image X also one thing I
+totally forgot to mention Culinaire will
+actually host your images image X you
+don t doesn t actually host your images
+I forgot that s like a huge difference
+actually so I actually have my images
+stored on Google Cloud storage and then
+image X is kind of a cache layer in
+front of it so that s big thing to know
+difference between the two but yeah I ve
+liked image X that s just a heads up so
+there you go that is how you can deploy
+
+welcome back I hope you had a good
+holiday if you celebrate Thanksgiving I
+have a pretty decent one had a weird
+sore throat problem but I m starting to
+recover from it and feel a lot better
+now so that s good
+and I actually didn t have a big turkey
+I am half 11 knees so he actually had
+some middle eastern food we had Kibby
+which is a minced meat dish mixed with
+bulgur which is actually quite good I
+enjoyed it a lot but today we re going
+to be talking about hosting your
+projects and where are some good options
+if you want to save money and deploy on
+a budget so the general way to save
+money when deploying things is to spend
+more time setting them up yourself
+rather than paying a service to set up
+stuff for you now the first thing that
+we re going to look at is cloud
+providers now they kind of break the
+rule because they do this thing where
+they have a juicy free tier so AWS has
+it where they offer a bunch of free
+stuff for their services for 12 months
+Azure has a similar thing where for 12
+months they offer you free services and
+they also throw in a two hundred dollar
+credit for 30 days now AWS I believe
+also gives you like a hundred dollar
+credit you can get somewhere and all of
+these cloud providers have random
+promotions where they re throwing money
+at you also Google cloud has one where
+you just get straight 300 for 12 months
+and then they also have some always free
+stuff so these guys are kind of cheating
+because they don t actually charge you
+anything usually until after a year of
+using them or until you pass their free
+usage which usually doesn t happen right
+away so there s this illusion of value
+that you re able to not spend anything
+and get a ton of services and so this is
+the exception to the rule where you re
+able to leverage some of this stuff
+short term and that s the key thing
+these are great options if you want to
+set up a project that you think maybe
+take a year to
+set up or something you re gonna have a
+low traffic at first and then after that
+you see yourself growing the project and
+starting to get more users and hopefully
+generating some revenue through your
+service and then you can pay for some of
+the higher prices that the cloud
+services are going to charge because
+that is the way they function they try
+to hook you in with the free services
+you get set up and using them you re
+using their services so it s harder to
+migrate away and use a different service
+it s easier to just stay where you are
+so when the free tier is up you continue
+using them and you start using their
+paid versions of whatever you re getting
+from free before and this is where it
+starts to get more expensive than some
+of the other options but with that said
+I still think this is a super legit way
+to go especially if you see yourself in
+the short term having a smaller budget
+but in the long term having a more
+flexible or larger budget to work with
+especially because it s always gonna be
+cheaper to hire Google cloud to manage
+for example your database or your
+servers than it is to hire a human to
+monitor and make sure those things are
+working and so if you want to start
+cheap and then get some of the services
+that are gonna be handled for you I
+think a cloud free tier and then paying
+later is a great option to go with now
+there s some other things to consider
+when choosing a cloud provider there s
+two things that I do not like about them
+the first is their complexity just to
+setup and use so they have gone to the
+point now where they are just supporting
+so many use cases and so many different
+services that their dashboards are
+getting very very complex and they are
+offering certificates to learn AWS or
+you get certified to show that you
+actually know how to use AWS now because
+it is that complex and you actually put
+on your resume that you are capable of
+using AWS because it is getting to that
+point where you really need to study it
+to fully understand how it works and
+make sure you re using it correctly and
+so that really ties in with the second
+thing you can really easily mess up and
+the price
+is not always super transparent it s
+very easy to spin up a lot of different
+services underneath the hood and then
+all of a sudden you have a larger bill
+than you were expecting so it s not
+always clear how much you re going to be
+spending when you actually start using
+these cloud providers so once you ve
+decided you actually want to use a cloud
+provider the next question is which one
+should you use should you go with Google
+Microsoft desert or Amazon s AWS now
+this is a video and it s owned which one
+should you choose and this is also just
+not the only options Oracle has a cloud
+these just happen to be the biggest ones
+and I would probably recommend just
+starting with AWS because this happens
+to be the one that is used the most so
+it s gonna carry over this skill set to
+know a BWS is actually getting pretty
+important and a lot of different jobs
+need it and you ll use it in a lot of
+different places but I m gonna leave an
+in depth comparison for a separate video
+okay so that is option number one go
+with a cloud and take advantage of their
+generous free tears now option number
+two is one that I personally use and
+it s where we get more into setting
+stuff up ourselves and I m gonna split
+this into four categories number one is
+hosting our database number two is
+hosting our server number three is
+hosting our front end
+so server more are back inside and then
+our front end side our website and then
+lastly what about user uploaded images
+now I m choosing that because that s a
+very common thing that you usually have
+in your application and something you
+need to think about and affects how you
+host so starting with the database this
+is what I would not recommend using if
+you re on a budget and the reason for
+that is it gets very expensive very
+quickly and that is these hosted
+database options that are getting more
+popular so one example this is M lap
+where they will host a MongoDB database
+for you and you can see here it costs
+15 per gigabyte and that is very
+expensive a gigabyte is not a lot of
+data but if you take it to the
+why this is so much it makes sense and
+that s because you re not just getting a
+database you are getting backups
+included for you you re getting support
+free transfer analytics hardware costs
+and maybe some other stuff thrown in
+there but it s something where if your
+database crashes you don t have to go in
+there and handle that stuff they have a
+team that is making sure your database
+is up and running and functioning
+correctly and so that can be really nice
+but it can be really expensive so
+another option and that s similar to
+this is with Redis labs where they are
+hosting a Redis instance for you and
+here you can see it is twenty two
+dollars a month for one gigabyte and for
+five of your bytes is one hundred and
+five dollars a month so very quickly
+with not a lot of gigs it gets very
+pricey but again they are doing extra
+stuff for you and again depending on
+your plan you get more stuff and so if
+you need these extra services maybe you
+want to consider these things but not
+everybody needs all of these things and
+it s one of those things where for a lot
+of sites if your database crashes it s
+okay to have an hour of downtime where
+you go in there and you fix it yourself
+that usually isn t too problematic for
+most sites it s just the fact that you
+don t really need 99 percent uptime all
+the time it s a very rare case that your
+database crashes at least it should be
+if it isn t you may want to have to
+consider switching your database or
+changing something up so what I like to
+do instead is host the database and a
+virtual private server so for example
+digitalocean is a company that sells
+these so is a vulture and there is a ton
+like this where basically you get a
+little computer and you can install
+whatever software you want in there and
+host projects and so it s also very
+flexible so not only can I stick MongoDB
+but I can also stick Redis on there and
+so I m not limited to just hosting a
+single database on there but I can host
+multiple databases and I can also
+include my back end server so personally
+what I will do for small projects is I
+will setup a single virtual machine
+which I will stick my database and I ll
+also stick my server on
+so they re close together now again this
+may not be optimal in all cases because
+if my database crashes so does my entire
+application but a lot of cases this is
+an acceptable amount of risk and I think
+is a great option if you are doing a
+small to medium sized project and you
+see using this or building this over a
+long term because it is a cheaper price
+and if you want some of these other
+services along with just you know
+hosting your database you will need to
+set these up yourself which can be a pro
+or a con the pro is you can set up
+however you like and you get a ton of
+flexibility with it you get to choose
+the analytic tool that you use or you
+get to pick the way that you re backing
+up your database so for example backups
+were something that I really want it so
+what I do is I have a cron job which
+runs every day and it backs up the
+database and saves the database to s3 so
+on AWS on Amazon and so I have backups
+made every day and make sure I don t
+lose any data still and to give you a
+little insight into I actually like to
+use to manage everything on the virtual
+machine I like this open source software
+called dokku which works very similar to
+Heroku where you just push up your code
+and add in some database add ons and you
+just let it handle the rest for you you
+know if they touch nginx or mapping
+subdomains and it s very easy to get
+let s encrypt set up so you have htps
+and so I actually have and you can run
+several different servers from the
+single virtual machine and so I have
+Postgres running in there and Redis and
+then also my back end server and so
+being able to handle all those things in
+a single box or single server is pre
+cost efficient so how much do these
+virtual private readings actually cost
+well here is the pricing table for
+vulture so you can see it starts at 250
+a month and it goes up from there and it
+really just depends on how much memory
+and how much CPU you need or you want
+now it s not just about those two things
+though and so that s one of the things
+that I naively would compare before so
+for example we can look at the price
+table here and the price table
+Oshin and we can see they re pretty
+comparable at least with the amount of
+memory and CPUs and transferred discs
+and that sort of thing that you get
+compared to each other but that doesn t
+mean you re gonna get similar
+performance and the underlying software
+that vulture and digitalocean use could
+be totally different and so to be honest
+with you I have no idea which VPS
+provider you should choose I m
+personally trying out a couple different
+ones right now that try to figuring out
+which one I like the best I m playing
+around with this one called SSD notes
+but I have no idea if they re any good
+but here is the thing that I think is
+the true test is to just do benchmarks
+and to see which one benchmarks the best
+is probably the best way to choose
+between these and so one place that does
+this there s this Josh tronic blog that
+compares them and so it gives you a nice
+side by side of these five providers and
+they ll actually go into CPU and some
+other things memory and compare the
+speeds of them and see which one you re
+actually getting you know you may pay
+10 for each one of these which ones
+actually give you the most performance
+best memory or best CP or etc another
+place that I found that was pretty
+interesting was called VPS benchmarks
+where you could actually compare two
+different VPS and their speeds and
+whatnot so if you go to compare maybe
+providers where was I could actually
+like show suit compare VPS providers and
+so I could click vulture and I could
+click Google cloud compute or compute
+engine I mean we could actually compare
+these and get a breakdown of their both
+their pricing and also in each category
+they kind of rate them on performance
+and whatnot and you can even get into
+more fine grain things down here on the
+performance at different levels so if
+you re into this thing and you want to
+dive into this you could send you could
+consider looking at these different
+benchmarks and maybe that ll help you
+pick but in this particular category I
+have no idea which one is the best
+vulture seems to consistently be one
+that across several different benchmarks
+performs
+pretty well and I ve used it and it s
+been a positive experience so it s one I
+feel confident recommending starting
+with at least but there may be some
+better ones out there so let me know if
+you have a favorite on what you actually
+choose for this but in general
+price wise they re pretty comparative
+and they offer about the same CPU about
+the same memory so it really comes down
+to the performance of each one of what
+they re giving you okay so the VPS will
+handle your back end in your database
+now for your front end this only really
+matters if you re not doing server side
+rendering so if you re doing jam stack
+or you have a static website aka if
+you re using create react app using
+Gatsby something like that I actually
+like to host it on net liffe I if you
+are doing server side rendering aka
+you re using Django Ruby on Rails using
+next yes something like that where you
+are actually you know rendering the
+pages from your server then you can
+actually just stick it with your VPS and
+you can do it there so this is for
+static sites I like to split them off
+and not render them in the VPS because
+you can get a really nice free tier from
+net liffe I and so it will take some
+load off of your server if you can serve
+stack files here so what I ll do is I
+believe it s up to a hundred gigabytes
+of bandwidth that you get for actually
+being able to host here and so that will
+last you a very long time and static
+websites are so easy to like migrate who
+you re hosting with it s very easy to if
+you reach over the hundred gigs which
+will give you give you for free it s
+very easy to switch if you want to go
+somewhere else but you may even want to
+stick with metal if I I personally just
+really like the experience with
+deploying here it s very easy it s very
+quick and I like it a lot so this is
+where I would go just totally free for
+front end at your website if it s static
+so lastly let s talk about handling user
+uploaded images so I m not talking about
+you know you have some assets on your
+landing page I m talking about your
+Twitter your Facebook your some place
+where you want to handle the user
+uploading stuff and displaying their
+custom images and they could upload them
+anytime and so you want to be able to
+handle that so I want to first talk
+about the approach that I like the best
+and then we re talking about how you
+can t accomplish that approach so this
+is the one that I really like and that
+is to store wherever they upload store
+it at that size so if they upload an
+image that happens to be 900 by 900 you
+save it as 900 by 900 now the thing is
+your website may need it a different
+size or may need some different settings
+on the image so what you ll do is when
+you request the image you will give it
+some parameters for example the width
+and height that you need or maybe you
+need this width right and so what we ll
+do is the service will resize it get to
+the width that you want it on the fly
+then it will cache it and then it ll
+give you the image so this is something
+where the first time it may take
+slightly longer because it needs to
+dynamically create the image at the do
+size on the server and it s going to
+give you the image so the nice part of
+this approach is you have the original
+image at 900 by 900 and then you can
+resize it to whatever you want right so
+as your requirements for the website
+change or maybe you need different sizes
+in different places it s very easy to be
+able to just change the URL parameter
+you don t have to go generating a bunch
+of files ahead of time the right size
+that you want now I ve tried doing this
+approach myself in putting this logic on
+digital ocean or vulture or one of those
+places but to be honest it is just a
+headache to try to do well it s not so
+much it s a headache to actually set up
+it s more of a headache to try to get
+performant and I was never able to get
+to a speed that was quite happy with
+I even tried seeking cloud fair in front
+but even then when image is loaded it
+was just a lot slower than some of the
+other options so I would actually
+recommend in this case at least I
+haven t had much success try and do it
+myself
+this is where I actually do like using a
+service to handle dynamically resizing
+images for me so there are two places
+that I know of that can
+do this image thing for you so the first
+one is cloud nari and they are great on
+a budget at least they re free tier
+handles quite a bit of images so you pay
+nothing upfront similar to how with the
+cloud provider has a nice free tier and
+then maybe you ll be paying more later
+but the hard thing I have with this
+service is or the hard thing to tell
+from this is they give you monthly
+credits so for example the free tier you
+get 25 and just a side note I really
+hate when these companies create their
+own little currency like this it s very
+hard to try to figure out how the
+currency maps to actual spending but
+anyway you get 25 credits which then
+used to a hundred or a thousand
+transformations one Giga storage or one
+gig of net viewing bandwidth you get the
+gist so what the credits could go to
+some amount of image processing so it s
+really hard to tell when exactly you
+would hit threshold to be paying 89 a
+month to be honest I m not quite sure
+when a project you really need or how
+much usage you d have before you reach
+the threshold because it s kind of hard
+to calculate ahead of time how much your
+image usage is going to be so that s my
+main beef with clouding area I think
+it s really nice I think the service is
+good but I personally haven t used them
+a ton because I feel like their pricing
+is a little less transparent than the
+second option which is image X so with
+this company how it works is you pay 3
+per thousand images and then 8 cents per
+gigabyte of bandwidth and then you can
+transform the image with the property s
+height width and then they have a
+thousand other transformations you can
+do as me as many times as you want it
+doesn t cost extra so I have a very hard
+time trying to compare this pricing take
+Loudoun Aires and trying to figure out
+well with this many credits how much is
+it going to be on image X I m not really
+sure so if someone s done the math do
+let me know but my gut instinct says
+once you pass the free tier of cloud and
+airy I feel like image X is going to be
+less money but to be asked I haven t
+no idea but I think both of them are
+pretty good options I ve really enjoyed
+image X as a service I thought it s
+worked out really great but they don t
+have a free tier cloud Andheri does so
+maybe cloud nare just strictly wins and
+maybe it s even cheaper at the plus tier
+that was the case I probably should
+probably switch the cloud nari but I am
+personally using image X right now
+liking them but these are two really
+good options for handling your images
+but there you go in conclusion I like to
+use cloud services if I am doing a
+project where in the long term I see it
+making a lot of money but maybe in the
+short term I want to take advantage of
+the free tier otherwise I like putting
+my back end my server on a virtual
+machine for example using vulture and
+then serving my website on net low Phi
+and hosting my images on either cloud
+Neri or on image X also one thing I
+totally forgot to mention Culinaire will
+actually host your images image X you
+don t doesn t actually host your images
+I forgot that s like a huge difference
+actually so I actually have my images
+stored on Google Cloud storage and then
+image X is kind of a cache layer in
+front of it so that s big thing to know
+difference between the two but yeah I ve
+liked image X that s just a heads up so
+there you go that is how you can deploy
+

@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://en.wikipedia.org/wiki/Memcached > $(basename https://en.wikipedia.org/wiki/Memcached).txt

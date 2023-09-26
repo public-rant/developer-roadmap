@@ -1,0 +1,1713 @@
+hello and welcome to the kubernetes
+crash course where i will teach you
+everything you need to know to get
+started with kubernetes in one hour
+i am nana and i have taught hundreds of
+thousands of people how to advance their
+devops skills through my youtube channel
+online courses and the devops
+educational program
+if you re new here be sure to subscribe
+because i upload new videos all the time
+now let s look at an overview of what
+you will learn
+first of all we ll see what is
+kubernetes and why do we need it and why
+did it become so popular
+second we will go through the kubernetes
+architecture and you will see how
+kubernetes actually works in the
+background
+after that we will cover main kubernetes
+components that you need to learn to
+work efficiently with kubernetes and
+finally we will do a hands on demo
+project to get your first practical
+experience with kubernetes now
+kubernetes is a very popular but also a
+very complex technology so this crash
+course will help you get your first
+experience to get started with
+kubernetes but if by the end of the
+video you decide to deepen your
+knowledge in kubernetes and are thinking
+about a career as a kubernetes
+administrator my new complete kubernetes
+administrator course will be a great
+resource for you where you will learn
+how to build configure and manage
+kubernetes clusters from scratch
+the course is also dedicated to help you
+pass the cka exam from linux foundation
+to become a certified kubernetes
+administrator now we have a lot to cover
+in this video so let s jump right into
+it
+so let s jump in right into the
+definition what is kubernetes
+so kubernetes is an open source
+container orchestration framework which
+was originally developed by google so on
+the foundation it manages containers be
+docker containers or from some other
+technology which basically means that
+kubernetes helps you manage applications
+that are made up of hundreds or maybe
+thousands of containers and it helps you
+manage them in different environments
+like physical machines virtual machines
+or cloud environments or even hybrid
+
+so what problems does kubernetes solve
+and what are the tasks of a container
+orchestration tool actually so to go
+through this chronologically
+the rise of microservices caused
+increased usage of container
+technologies because the containers
+actually offer the perfect host for
+small
+independent applications like
+microservices
+and the rise of containers and the micro
+service technology actually resulted in
+applications they re now comprised of
+hundreds or sometimes maybe even
+thousands of containers managing those
+loads of containers across multiple
+environments using scripts and self made
+tools can be really complex
+and sometimes even impossible so that
+specific scenario actually caused the
+need for
+having container orchestration
+
+so what those orchestration tools like
+kubernetes do is
+actually guarantee following features
+one is high availability in simple words
+high availability means that the
+application has no downtime so it s
+always accessible by the users a second
+one is scalability which means you can
+scale your applications fast when you
+have more load on it and more users are
+trying to access it and the same way you
+can easily scale it down when the load
+goes down
+so it makes your application more
+flexible to adjust to the increasing or
+decreasing load and the third one is
+disaster recovery which basically means
+that if an infrastructure has some
+problems like data is lost or the
+servers explode or something bad happens
+with the service center the
+infrastructure has to have some kind of
+mechanism to back up the data and to
+restore it to the latest state so that
+application doesn t actually lose any
+data and the containerized application
+can run from the latest state after the
+recovery
+and all of these are functionalities
+that
+container orchestration technologies
+like kubernetes offer so how does the
+kubernetes basic architecture actually
+look like
+the kubernetes cluster is made up with
+at least one master node
+and then connected to it you have
+a couple of worker nodes where each node
+has a cubelet process running on it and
+cubelet is actually a kubernetes process
+that makes it possible for the cluster
+to talk to each other to communicate to
+each other and actually execute some
+tasks on those nodes like running
+application processes
+each worker node has containers of
+different applications deployed on it so
+depending on how the workload is
+distributed you would have different
+number of docker containers running on
+worker nodes and worker nodes are where
+the actual work is happening so here is
+where your applications are running so
+the question is what is running on
+masternode
+masternode actually runs several
+kubernetes processes that are absolutely
+necessary
+to run and manage the cluster properly
+one of such processes is an api server
+which also is a container an api server
+is actually the entry point to the
+kubernetes cluster so this is the
+process
+which the different kubernetes clients
+will talk to like ui if you re using
+kubernetes dashboard an api if you re
+using some scripts and automating
+technologies and a command line tool so
+all of these will talk to the api server
+another process that is running on
+master node is a controller manager
+which basically keeps an overview of
+what s happening in the cluster whether
+something needs to be repaired or maybe
+if a container died and it needs to be
+restarted etc
+and another one is
+scheduler which is basically responsible
+for scheduling
+containers on different nodes based on
+the workload and the available server
+resources on each node so it s an
+intelligent
+process that decides on which worker
+node the next container should be
+scheduled on based on the available
+resources on those worker nodes and the
+load that that container needs and
+another very important component of the
+whole cluster is actually an etcd key
+value storage which basically holds at
+any time the current state of the
+kubernetes cluster so it has all the
+configuration data inside
+and all the status data of each node and
+each container inside of that node and
+the backup and restore that we mentioned
+previously is actually made from these
+etcd snapshots because you can recover
+the whole cluster state using that etcd
+snapshot and last but not least also a
+very important component of kubernetes
+which enables those nodes worker nodes
+masternodes talk to each other is the
+virtual network that spans all the nodes
+that are part of the cluster and in
+simple words virtual network actually
+turns
+all the nodes inside of a cluster into
+one powerful machine that has the sum of
+all the resources of individual nodes
+one thing to be noted here is that
+worker knows because they actually have
+most load because they are running the
+applications on inside of it usually are
+much bigger and have more resources
+because they will be running hundreds of
+containers inside of them whereas master
+node will be running just a handful of
+master processes like we see in this
+diagram so it doesn t need that many
+resources however as you can imagine
+masternode is much more important than
+the individual worker nodes because if
+for example you lose a masternode access
+you will not be able to access the
+cluster anymore and that means that you
+absolutely have to have a backup of your
+master at any time so in production
+environments usually you would have at
+least two masters inside of your
+kubernetes cluster but in more cases of
+course you re going to have multiple
+musters where if one muster node
+is down the cluster continues to
+function smoothly because you have other
+masters available
+in this video we re going to learn about
+the main kubernetes components that we
+as kubernetes administrators or users
+will be working with most of the time to
+make it easier to understand all these
+components i m gonna build a simple use
+case of a web application with a simple
+database and i m gonna show you step by
+step how each component in kubernetes
+helps you deploy such an application
+setup and what is the role of each of
+
+so let s start with the basic setup of a
+worker node or in kubernetes terms a
+node
+which is a simple server a physical or
+virtual machine and the basic component
+or the smallest unit of kubernetes is a
+pod so what pod is is basically an
+abstraction over a container so if
+you re familiar with docker containers
+or container images so basically what
+pod does is it creates this running
+environment or a layer on top of the
+container
+and the reason is because kubernetes
+wants to abstract away the container
+runtime or container technologies so
+that you can replace them if you want to
+and also because you don t have to
+directly work with docker or whatever
+container technology you use in a
+kubernetes so you only interact with the
+kubernetes layer so we have an
+application pod which is our own
+application and that will maybe use a
+database pod with its own container and
+this is also an important concept here
+pod is usually meant to run one
+application container inside of it you
+can run multiple containers inside one
+pod but usually it s only the case if
+you have one main application container
+and the helper container or some side
+service that has to run inside of that
+pod
+and as you see this is nothing special
+you just have one server and two
+containers running on it with a
+abstraction layer on top of it so now
+let s see how they communicate with each
+other in kubernetes world so kubernetes
+offers out of the box a virtual network
+which means that each
+pod gets its own ip address not the
+container the pod gets the ip address
+and each pod
+can communicate with each other using
+that ip address which is an internal ip
+address obviously it s not the public
+one so my application container can
+communicate with database using the ip
+address however pod components in
+kubernetes also an important concept are
+ephemeral which means that they can die
+very easily
+and when that happens for example if i
+lose a database container because the
+container crashed because the
+application crashed inside or because
+the nodes the server that i m running
+them on
+ran out resources the pod will die
+and a new one will get created in its
+place and when that happens it will get
+assigned a new ip address which
+obviously is inconvenient if you are
+communicating with the database using
+the ip address because now you have to
+adjust it every time pod restarts and
+because of that another component of
+
+so service is basically a static ip
+address or permanent ip address that can
+be attached so to say to each pod so my
+app will have its own service and
+database pod will have its own service
+and the good thing here is that the life
+cycles of service and the pod are not
+connected so even if the pod dies
+the service and its ip address will stay
+so you don t have to change that
+endpoint anymore
+so now obviously you would want your
+application to be accessible through a
+browser right and for this you would
+have to create an external service so
+external services a service that opens
+the communication from external sources
+but obviously you wouldn t want your
+database to be open to the public
+requests and for that you would create
+something called an internal service so
+this is a type of a service that you
+specify when creating one however if you
+notice the url of
+the external service is not very
+practical so basically what you have is
+an http protocol with a node ip address
+so of the node not the service and the
+port number of the service which is
+good for test purposes if you want to
+test something very fast but not for the
+end product so usually you would want
+your url to look like this if you want
+to talk to your application with a
+secure protocol and a domain name and
+for that
+there is another component of kubernetes
+called ingress so instead of service the
+request goes first to ingress and it
+does the forwarding then to the service
+so now we saw some of the very basic
+components of kubernetes and as you see
+this is a very simple setup we just have
+a one server and a couple of containers
+running and some services nothing really
+special where kubernetes advantages or
+the actual cool features really come
+forward but we re gonna get there step
+
+so as we said pods communicate with each
+other using a service so my application
+will have a database endpoint let s say
+called mongodb service that it uses to
+communicate with the database but
+whether you configure usually this
+database url or endpoint usually you
+would do it in application properties
+file or as some kind of external
+environmental variable but usually it s
+inside of the built image of the
+application so for example if the
+endpoint of the service or service name
+in this case changed to mongodb you
+would have to adjust that url in the
+application so usually you d have to
+rebuild the application with a new
+version and you have to push it to the
+repository and now you ll have to
+pull that new image in your pod and
+restart the whole thing so a little bit
+tedious for a small change like database
+url so for that purpose kubernetes has a
+component called config map so what it
+does is it s basically your external
+configuration to your application so
+config map would usually contain
+configuration data like urls of a
+database or some other services that you
+use and in kubernetes you just connect
+it to the pod so that pod actually gets
+the data that config map contains
+and now if you change the name of the
+service the endpoint of the service you
+just adjust the config map and that s it
+you don t have to build a new image and
+have to go through this whole cycle now
+part of the external configuration can
+also be database username and password
+right which may also change in the
+application deployment process but
+putting a password or other credentials
+in a config map in a plain text format
+would be insecure even though it s an
+external configuration so for this
+purpose kubernetes has another component
+called secret
+so secret is just like config map but
+the difference is that it s used to
+store secret data credentials for
+example and it s stored not in a plain
+text format but in base 64 in encoded
+format but of course basics before
+encoding a secret doesn t make it
+automatically secure
+the secret components are meant to be
+encrypted
+using third party tools in kubernetes
+because kubernetes doesn t encrypt them
+out of the box
+and there are tools for that from cloud
+providers or separate third party tools
+that you can
+deploy on kubernetes to encrypt your
+secrets and that will make secrets
+secure
+so secret would contain things like
+credentials and of course i mean
+database user you could also put in
+config map but what s important is the
+passwords certificates things that you
+don t want other people to have access
+to would go in the secret and just like
+config map you just connect it to your
+pod so that pod can actually see those
+data and read from the secret you can
+actually use the data from configmap or
+secret inside of your application pod
+using for example environmental
+variables or even as a properties file
+so now let s see another very important
+concept generally which is data storage
+and how it works in kubernetes
+so we have this database pod that our
+application uses and it has some data or
+it generates some data with this setup
+that you see now if the database
+container or the pod gets restarted
+the data would be gone and that s
+problematic and inconvenient obviously
+because you want your database data or
+log data to be persisted reliably long
+term
+and the way you can do it in kubernetes
+is using another component of kubernetes
+called volumes
+and how it works is that it basically
+attaches a physical storage on a hard
+drive to your pod and that storage could
+be either on a local machine meaning on
+the same server node where the pod is
+running or it could be on a remote
+storage meaning outside of the
+kubernetes cluster it could be a cloud
+storage or it could be your own premise
+storage which is not part of the
+kubernetes cluster so you just have an
+external reference on it so now when the
+database pod or container gets restarted
+all the data will be there persisted
+it s important to understand the
+distinction between the kubernetes
+cluster and all of its components and
+the storage
+regardless of whether it s a local or
+remote storage think of a storage as an
+external hard drive plugged in into the
+kubernetes cluster because the point is
+kubernetes cluster explicitly doesn t
+manage any data persistence which means
+that you as a kubernetes user or an
+administrator are responsible for
+backing up the data replicating and
+managing it and making sure that it s
+kept on a proper hardware etc because
+
+so now let s see everything is running
+perfectly and a user can access our
+application through a browser
+now with this setup what happens if my
+application pod dies right crashes or i
+have to restart the pod because i built
+a new container image
+basically i would have a downtime where
+a user can reach my application which is
+obviously a very bad thing
+if it happens in production and this is
+exactly the advantage of distributed
+systems and containers
+so instead of relying on just one
+application part and one database part
+etc
+we are replicating everything
+on multiple servers
+so we would have another node where a
+replica or clone of our application
+would run which will also be connected
+to the service so remember previously we
+said the service is like a persistent
+static ip address with a dns name so
+that you don t have to
+constantly adjust the end point when a
+pod dies
+but service is also a load balancer
+which means that the service will
+actually catch the request and forward
+it to whichever part is least busy so it
+has both of these functionalities
+but in order to create the the second
+replica of the my application pod you
+wouldn t create a second part but
+instead you will define a blueprint for
+a my application pod and specify how
+many replicas of that pod you would like
+to run and that component or that
+blueprint is called deployment which is
+another component of kubernetes and in
+practice you would not be working with
+pods or you would not be creating pods
+you would be creating deployments
+because there you can specify how many
+replicas and you can also scale up or
+scale down the number of replicas of
+pots that you need so with pot we said
+that pot is a layer of abstraction on
+top of containers
+and deployment is another abstraction on
+top of pots which makes it more
+convenient to interact with the pods
+replicate them and do some other
+configuration
+so in practice you would mostly work
+with deployments and not with pods so
+now if one of the replicas of your
+application pod would die the service
+will forward the requests to another one
+so your application would still be
+accessible for the user so now you re
+probably wondering what about the
+database pod because if the database
+part died your application also wouldn t
+be accessible so we need a
+database replica as well however we
+can t replicate database using a
+deployment and the reason for that is
+because database has a state which is
+its data
+meaning that if we have clones or
+replicas of the database they would all
+need to access the same
+shared
+data storage and there you would need
+some kind of mechanism that manages
+which parts are currently writing to
+that storage or which pods are reading
+from the storage in order to avoid data
+inconsistencies and that mechanism
+in addition to replicating feature is
+offered by another kubernetes component
+called statefulset so this component is
+meant specifically for applications like
+databases so mysql mongodb
+elasticsearch or any other stateful
+applications or databases
+should be created using stateful sets
+and not deployments
+it s a very important distinction
+and stateful said just like deployment
+would take care of
+replicating the pots and scaling them up
+or scaling them down but making sure the
+database reads and writes are
+synchronized so that no database
+inconsistencies are offered however i
+must mention here that deploying
+database applications using stateful
+sets
+in kubernetes cluster can be somewhat
+tedious so it s definitely more
+difficult than working with deployments
+where you don t have all these
+challenges that s why it s also a common
+practice to host database
+applications outside of the kubernetes
+cluster and just have the deployments or
+stateless applications
+that replicate and scale with no problem
+inside of the kubernetes cluster and
+communicate with the external database
+so now that we have two replicas of my
+application pod and two replicas of the
+database and they re both load balanced
+our setup is more robust which means
+that now even if node one the whole node
+server was actually rebooted or crashed
+and nothing could run on it we would
+still have a second node with
+application and database pods running on
+it and the application would still be
+accessible by the user until these two
+replicas get recreated so you can avoid
+
+so to summarize we have looked at
+the most used kubernetes components we
+start with the pods and the services in
+order to communicate between the parts
+and the ingress component which is
+used to route traffic into the cluster
+we ve also looked at external
+configuration using config maps and
+secrets and data persistence using
+volumes and finally we ve looked at pod
+blueprints with replicating mechanisms
+like deployments and stateful sets where
+stateful set is used specifically for
+stateful applications like databases
+just using these core components you can
+actually build pretty powerful
+kubernetes clusters
+before moving on i want to give a shout
+out to castin who made this video
+possible
+kessen s k10 is the data management
+platform for kubernetes
+k10 basically takes off most of the load
+of doing backup and restore in
+kubernetes from the cluster
+administrators it has a very simple ui
+so it s super easy to work with and has
+an intelligent logic which does all the
+heavy lifting for you and with my link
+you can download k10 for free and get 10
+nodes free forever to do your kubernetes
+backups so make sure to check out the
+link in the video description and now
+let s continue
+so now that we have seen the basic
+concepts of kubernetes how do we
+actually create those components like
+pods and services to configure the
+
+all the configuration in kubernetes
+cluster actually goes through a master
+node with the process called api server
+which we mentioned briefly earlier so
+kubernetes clients which could be a ui a
+kubernetes dashboard for example or an
+api which could be a script or a curl
+command
+or a command line tool like cubectl they
+all talk to the api server and they send
+their configuration requests to the api
+server which is the main entry point or
+the only entry point into the cluster
+and these requests have to be either in
+yaml format or json format and this is
+how example configuration in yaml format
+actually looks like so with this we are
+sending a request to kubernetes to
+configure a component called deployment
+which is basically a template or a
+blueprint for creating pods and in this
+specific configuration example we tell
+kubernetes to create two replica pods
+for us called my app with each pod
+replica having a container based on my
+image running inside in addition to that
+we
+configure what the environment variables
+and the port configuration of this
+container inside of the pod should be
+and as you see
+the
+configuration requests in kubernetes are
+declarative form so we declare what is
+our desired outcome from kubernetes
+and kubernetes tries to meet those
+requirements meaning for example since
+we declare we want two replica parts of
+my app deployment to be running in the
+cluster and one of those parts dies the
+controller manager will see that the
+ease and shoot states now are different
+the actual state is one part our desired
+state is 2 so it goes to work to make
+sure that this desired state is
+recovered automatically restarting the
+
+so here i have examples of a deployment
+and service configuration files side by
+side so the first thing is that every
+configuration file in kubernetes has
+three parts the first part is where the
+metadata of that component that you re
+creating resides and one of the metadata
+is obviously name of the component
+itself the second part in the
+configuration file is specification so
+each component s configuration file will
+have a specification where you basically
+put every kind of configuration that you
+want to apply for that
+component the first two lines here as
+you see is just
+declaring what you want to create here
+we are creating deployment and here
+we re creating a service
+and this is basically you have to look
+up for each component there s a
+different api version
+so now inside of the specification part
+obviously the attributes will be
+specific to the kind of a component that
+you re creating so deployment will have
+its own attributes
+that only apply for deployment and the
+service will have its own stuff but i
+said there are three parts of a
+configuration file and
+we just see metadata and the
+specification so where s the third part
+so the third part will be a status but
+it s going to be automatically generated
+and edit by kubernetes so the way it
+works is that kubernetes will always
+compare what is the desired state and
+what is the actual state or the status
+of that component and if the status and
+desired state do not match then
+kubernetes knows there s something to be
+fixed there so it s gonna try to fix it
+and this is the basis of the
+self healing feature that kubernetes
+provides for example here you specify
+you want two replicas of nginx
+deployment so when you apply this when
+you actually create the deployment using
+this configuration file that s what
+apply means kubernetes will add here the
+status of your deployment and it will
+update that state continuously so for
+example if a status at some point will
+say just one replica is running then
+kubernetes will compare that status with
+the specification and we ll know there
+is a problem there another replica needs
+to be created sap now another
+interesting question here is
+where does kubernetes actually get the
+status data to automatically add here or
+update continuously that information
+comes from the icd remember the cluster
+brain one of the master processes that
+actually stores the cluster data so it
+cd holds at any time the current status
+of any kubernetes component and that s
+
+so as you see the format of the
+configuration files is yemel
+that s why the extension here and
+generally it s pretty straightforward to
+understand it s a very simple format but
+yaml is very strict about the
+indentations so for example if you have
+something wrongly indented here your
+file will be invalid but other than that
+it s pretty simple another thing is
+where do you actually store those
+configuration files a usual practice is
+to store them with your code because
+since the deployment and service is
+going to be applied to your application
+it s a good practice to store these
+configuration files in your application
+code so usually it will be part of the
+whole infrastructure as a code concept
+or you can also have its own git
+repository just for the configuration
+files
+so in this video i m going to show you
+what mini cube and cube ctl are and how
+to set them up
+so first of all let s see what is mini
+cube usually in kubernetes world when
+you are setting up a production cluster
+it will look something like this so you
+would have multiple masters at least two
+in a production setting and you would
+have multiple worker nodes
+and master nodes and the worker nodes
+have their own separate responsibility
+so as you see on the diagram you would
+have actual separate virtual or physical
+machines that each represent a note
+now if you want to test something on
+your local environment or if you want to
+try something out very quickly for
+example deploying new application or new
+components and you want to test it on
+your local machine obviously setting up
+a cluster like this will be pretty
+difficult or maybe even impossible if
+you don t have enough resources like
+memory and cpu etc and exactly for the
+use case
+there s this open source tool that is
+called a mini cube so what a mini cube
+is is basically one node cluster where
+the master processes and the worker
+processes both run on one node and this
+node will have a docker container
+runtime pre installed so you will be
+able to run the containers or the pods
+with containers on this node
+so now that you have this virtual node
+on your local machine that represents
+mini cube you need some way to interact
+with that cluster so you need a way to
+create pods
+and other kubernetes components on the
+node and the way to do it is using
+cubectl which is a command line tool for
+kubernetes cluster so let s see how it
+actually works remember we said that
+minicube runs both master and work
+processes so one of the master processes
+called api server is actually the main
+entry point into the kubernetes cluster
+so if you want to do anything in the
+kubernetes if you want to configure
+anything create any component you first
+have to talk to the api server and the
+way to talk to the api server is through
+different clients so you can have a ui
+like a dashboard you can talk to it
+using kubernetes api
+or a command line tool which is cubectl
+and cubectl is actually the most
+powerful of all the three clients
+because with cube cdl you can basically
+do
+anything in the kubernetes that you want
+and throughout this video tutorials
+we re going to be using cube ctl mostly
+so once the cube ctl submits commands to
+the api server to create components
+delete components etc the work processes
+on minicube node will actually make it
+happen so they will be actually
+executing the commands to create the
+parts to destroy the parts to create
+services etc so this is the mini cube
+setup and this is how cubectl is used to
+interact with the cluster an important
+thing to note here is that kipctl isn t
+just for minikube cluster if you have a
+cloud cluster or a hybrid cluster
+whatever cube ctl is the tool to use to
+interact with any type of kubernetes
+cluster setup so that s important to
+note here so now that we know what mini
+cube and cube ctl are let s actually
+
+now let s see how to install and run
+mini cube there are many different ways
+depending on your operating system and
+its architecture so the best way is to
+reference the official documentation and
+here as you see minicube can run either
+as a container or a virtual machine and
+these are the resource requirements to
+run minicube on your machine so make
+sure you have enough resources for
+installation you just select the correct
+data for your machine in my case it s
+going to be mac os with a home homebrew
+installation
+and with one simple brew installed mini
+cube command i can basically install
+
+like this and as you see the latest mini
+cube version has been installed once
+minicube is installed we want to
+actually start or create a mini cube
+cluster
+which is also super easy as you see
+we simply execute a mini cube start
+command
+however as i mentioned
+minicube must start either as a
+container or a virtual machine so we
+need either a container or a virtual
+machine tool installed on our laptop to
+run mini cube and this is going to be
+the driver for mini cube and opening the
+drivers page
+you see the list of supported drivers
+for linux mac os and windows and you see
+that docker is actually the preferred
+driver for running mini cube on all
+operating systems now this may be a
+little bit confusing because as you know
+inside the kubernetes cluster we run
+docker containers and it s important to
+note here that mini cube insulation
+actually comes with docker already
+installed to run those containers but
+docker as a driver from minicube means
+that we are hosting minicube on our
+local machine as a docker container
+itself so we have two layers of docker
+mini cube running is a docker container
+and inside mini cube we have docker
+packaged in minikube to run our
+application containers and for hosting
+minicube on our machine we can use
+docker so if you have docker already
+installed on your machine you re all set
+up to start a mini cube cluster
+if not also not a problem you can easily
+install it from here
+so clicking on install docker link this
+will take me to docker hub where i have
+docker desktop installation for windows
+and mac
+so i m simply going to click in
+in my case docker desktop for mac and
+i m gonna download and install docker
+
+drag and drop into the applications
+folder
+and now we can start the docker daemon
+
+and as you see docker is starting up so
+the download and installation may take
+some time but once docker is installed
+and running we can switch back to the
+terminal and start the mini cube cluster
+using mini cube
+start command passing docker as a driver
+option
+using the driver flag with docker value
+and let s execute
+and this may also take a while when
+you re running it first time because it
+needs to actually create the cluster and
+download all the necessary images and
+components so the next time you do mini
+cube start it should actually go faster
+and as you see this command created a
+local kubernetes cluster on our machine
+with the latest kubernetes version
+1 22 and now we can check the status of
+the cluster using minicube
+status command
+and we see that all the components
+inside are running and everything is
+configured and now start to actually
+interact with our cluster using
+command line tool and cubectl actually
+gets installed as a dependency when we
+install minicube
+which you see right here installing
+dependencies for minicube and kubernetes
+cli is actually cube ctl
+and that means we already have that
+available we don t have to install it so
+now i can do cube ctl get node
+and this will display all the nodes in
+the cluster in our case we just have one
+node which is control plane and the
+worker node at the same time
+and we see information for each node
+like the status the kubernetes version
+that it s running as well as when it was
+added to the cluster so with this we now
+have an actual kubernetes cluster
+running locally on our machine and we
+can start deploying applications in it
+so from this point on we are going to be
+interacting with the mini cube cluster
+using cubectl command line tool so
+minicube is basically just for the
+startup and for deleting the cluster but
+everything else configuring we re going
+to be doing through cubectl now we have
+enough knowledge to deploy a very simple
+but realistic application setup in a
+kubernetes cluster we will deploy a
+mongodb database and a web application
+which will connect to the mongodb
+database using external configuration
+data from config map and the secret and
+finally we will make our web application
+accessible externally from the browser
+so let s get right in so i have two
+resources here we re going to reference
+the kubernetes documentation to create
+our components which is a realistic way
+of working with kubernetes and also a
+docker hub where i have
+the web application image that i created
+which is publicly accessible so you can
+also pull it directly from the docker
+hub in your kubernetes cluster so first
+let s go ahead and create
+all the kubernetes configuration files
+that we need for deploying our
+application setup and for that i m going
+to go to visual studio code where i have
+a kubernetes demo folder open and in
+this folder we re going to create four
+kubernetes configuration files that we
+need we re going to create a config map
+with mongodb
+database endpoint we re going to create
+a secret with username and password for
+mongodb and then we re going to create a
+configuration file for deploying a
+mongodb application
+and its service and then we re going to
+create kubernetes configuration file for
+deploying our simple demo app
+
+so the first file will be called
+config yml
+and creating a config map in kubernetes
+is super simple for the syntax we can
+
+so i m going to copy the first part here
+paste it in
+and that s basically the main syntax
+we re starting from
+let s call our config map
+config
+so 00 43 28 400 c we c 00 43 28 480 c have c 00 43 28 640 c the c 00 43 28 800 c metadata c 00 43 29 520 c and c 00 43 29 599 c then c 00 43 29 839 c we c 00 43 30 000 c have c
+so we have the metadata and then we have the 00 43 30 480 c actual c
+the actual contents 00 43 32 800 c of c 00 43 32 960 c this c 00 43 33 200 c config c 00 43 33 680 c map c 00 43 34 240 c within c 00 43 34 560 c the c
+contents of this config map within the data 00 43 35 040 c attribute c 00 43 35 680 c we c 00 43 35 839 c have c 00 43 36 319 c all c 00 43 36 480 c the c 00 43 36 640 c key c 00 43 36 880 c value c
+data attribute we have all the key value pairs 00 43 38 160 c that c 00 43 38 400 c we c 00 43 38 880 c define c 00 43 39 520 c as c 00 43 39 760 c external c
+pairs that we define as external configuration 00 43 41 280 c within c 00 43 41 680 c this c 00 43 41 920 c config c 00 43 42 319 c map c 00 43 42 640 c in c
+configuration within this config map in our 00 43 42 960 c case c 00 43 43 200 c we c 00 43 43 359 c just c 00 43 43 520 c have c 00 43 43 760 c one c 00 43 44 319 c which c 00 43 44 560 c we re c
+our case we just have one which we re going 00 43 44 960 c to c 00 43 45 119 c call c
+going to call url 00 43 47 520 c as c 00 43 47 839 c a c 00 43 48 000 c key c 00 43 48 640 c and c 00 43 48 880 c of c 00 43 48 960 c course c 00 43 49 200 c we c 00 43 49 359 c need c 00 43 49 599 c a c
+url as a key and of course we need a value 00 43 50 079 c for c 00 43 50 319 c the c 00 43 50 400 c mongodb c 00 43 50 960 c url c 00 43 51 760 c and c 00 43 52 400 c the c 00 43 52 640 c value c
+value for the mongodb url and the value will 00 43 53 599 c be c 00 43 54 160 c the c 00 43 54 400 c service c 00 43 55 359 c that c 00 43 55 599 c we re c 00 43 55 839 c going c 00 43 55 920 c to c
+will be the service that we re going to create 00 43 56 480 c for c 00 43 56 960 c mongodb c 00 43 58 000 c application c 00 43 58 800 c and c 00 43 58 960 c we re c
+create for mongodb application and we re going 00 43 59 280 c to c 00 43 59 359 c call c 00 43 59 599 c that c 00 43 59 839 c service c
+going to call that service service
+service and 00 44 02 960 c in c 00 44 03 119 c a c 00 44 03 200 c couple c 00 44 03 440 c of c 00 44 03 599 c minutes c 00 44 04 240 c you re c 00 44 04 480 c going c
+and in a couple of minutes you re going to 00 44 04 720 c see c 00 44 05 119 c how c 00 44 05 280 c to c 00 44 05 440 c create c 00 44 05 760 c this c 00 44 06 319 c service c
+to see how to create this service and 00 44 07 680 c that c 00 44 07 920 c will c 00 44 08 079 c be c 00 44 08 560 c basically c 00 44 09 280 c all c 00 44 09 440 c the c
+and that will be basically all the configuration 00 44 10 240 c we c 00 44 10 400 c need c 00 44 10 720 c for c 00 44 10 960 c creating c
+configuration we need for creating config 00 44 11 839 c map c
+so 00 44 15 359 c that c 00 44 15 599 c one c 00 44 15 920 c is c 00 44 16 240 c done c 00 44 16 800 c let s c 00 44 17 040 c now c 00 44 17 280 c go c 00 44 17 440 c ahead c
+so that one is done let s now go ahead and 00 44 17 760 c create c 00 44 19 200 c secret c
+and create secret dot
+dot yaml 00 44 22 319 c which c 00 44 22 560 c will c 00 44 23 040 c hold c 00 44 23 359 c the c 00 44 23 520 c username c 00 44 24 160 c and c
+yaml which will hold the username and password 00 44 25 359 c for c 00 44 25 839 c mongodb c 00 44 26 400 c application c 00 44 27 359 c again c
+password for mongodb application again to 00 44 28 240 c reference c
+to reference documentation
+i m 00 44 33 920 c going c 00 44 34 079 c to c 00 44 34 240 c take c 00 44 34 480 c this c 00 44 34 720 c one c 00 44 34 880 c and c 00 44 35 040 c let s c
+i m going to take this one and let s actually 00 44 35 680 c copy c 00 44 36 000 c the c 00 44 36 160 c whole c 00 44 36 400 c thing c
+actually copy the whole thing so 00 44 37 920 c we c 00 44 38 000 c have c 00 44 38 160 c the c 00 44 38 319 c secret c 00 44 39 119 c kind c 00 44 39 520 c instead c 00 44 39 839 c of c
+so we have the secret kind instead of config 00 44 40 400 c map c 00 44 41 040 c let s c 00 44 41 280 c call c 00 44 41 520 c this c 00 44 42 960 c secret c
+config map let s call this secret we 00 44 44 480 c have c 00 44 44 720 c type c 00 44 45 280 c opaque c 00 44 45 760 c which c 00 44 45 920 c is c 00 44 46 640 c the c 00 44 46 960 c generic c
+we have type opaque which is the generic type 00 44 48 400 c for c 00 44 48 800 c defining c 00 44 49 599 c secret c 00 44 50 000 c data c 00 44 50 400 c basically c
+type for defining secret data basically and 00 44 51 599 c we c 00 44 51 839 c have c 00 44 52 160 c the c 00 44 52 319 c same c 00 44 52 640 c data c 00 44 52 960 c attribute c 00 44 53 440 c here c
+and we have the same data attribute here and 00 44 54 079 c let s c 00 44 54 319 c actually c 00 44 54 880 c create c 00 44 55 200 c our c 00 44 55 440 c own c 00 44 55 680 c values c
+and let s actually create our own values let s 00 44 56 800 c call c 00 44 57 040 c this c
+let s call this Music
+Music user
+user and
+and password
+and 00 45 07 359 c as c 00 45 07 520 c you c 00 45 07 680 c already c 00 45 08 079 c learned c 00 45 08 560 c the c 00 45 08 720 c values c 00 45 09 200 c in c
+and as you already learned the values in secret 00 45 09 839 c are c 00 45 10 480 c base64 c 00 45 11 359 c encoded c 00 45 11 920 c so c 00 45 12 079 c we c 00 45 12 160 c can c 00 45 12 400 c just c
+secret are base64 encoded so we can just set 00 45 12 800 c the c 00 45 12 960 c values c 00 45 13 599 c plain c 00 45 13 920 c text c 00 45 14 560 c we c 00 45 14 800 c have c 00 45 14 960 c to c
+set the values plain text we have to encode 00 45 15 599 c them c 00 45 15 839 c first c 00 45 16 480 c and c 00 45 16 800 c encoding c 00 45 17 680 c values c 00 45 18 160 c is c
+encode them first and encoding values is super 00 45 18 560 c easy c 00 45 18 800 c we re c 00 45 19 040 c just c 00 45 19 200 c gonna c 00 45 19 440 c do c 00 45 19 760 c echo c
+super easy we re just gonna do echo and 00 45 22 079 c let s c 00 45 22 319 c call c 00 45 22 560 c it c 00 45 23 280 c user c
+and let s call it user and
+and base 00 45 26 240 c 64 c 00 45 27 119 c encode c 00 45 27 520 c it c
+base 64 encode it and 00 45 29 040 c the c 00 45 29 119 c same c 00 45 29 359 c way c 00 45 29 520 c let s c 00 45 29 760 c do c
+and the same way let s do password
+and
+and paste 00 45 39 440 c those c 00 45 39 839 c values c
+and 00 45 44 880 c this c 00 45 45 119 c will c 00 45 45 280 c be c 00 45 45 599 c our c 00 45 46 240 c secret c
+and this will be our secret configuration 00 45 48 000 c and c 00 45 48 240 c now c 00 45 48 640 c when c 00 45 48 800 c we c 00 45 48 960 c create c
+configuration and now when we create deployments 00 45 50 319 c for c 00 45 50 640 c our c 00 45 50 800 c applications c 00 45 51 440 c we c 00 45 51 599 c can c
+deployments for our applications we can reference
+reference any 00 45 53 200 c of c 00 45 53 440 c the c 00 45 53 599 c values c 00 45 54 079 c defined c 00 45 54 880 c in c 00 45 54 960 c the c 00 45 55 119 c secret c
+any of the values defined in the secret or 00 45 56 000 c config c 00 45 56 319 c map c 00 45 56 800 c so c 00 45 57 040 c let s c 00 45 57 200 c see c 00 45 57 520 c how c 00 45 57 760 c that c
+or config map so let s see how that works
+again 00 46 01 920 c let s c 00 46 02 160 c create c 00 46 02 480 c a c 00 46 02 560 c new c 00 46 02 880 c file c 00 46 03 440 c and c 00 46 03 520 c let s c
+again let s create a new file and let s call 00 46 04 000 c this c 00 46 05 440 c dot c 00 46 06 000 c yaml c 00 46 06 800 c this c 00 46 07 040 c is c 00 46 07 200 c going c
+call this dot yaml this is going to 00 46 07 440 c be c 00 46 07 760 c a c 00 46 07 920 c configuration c 00 46 08 640 c file c 00 46 08 960 c where c
+to be a configuration file where we re 00 46 10 000 c going c 00 46 10 079 c to c 00 46 10 240 c create c 00 46 10 800 c deployment c 00 46 12 000 c and c
+we re going to create deployment and service 00 46 13 440 c for c 00 46 13 760 c mongodb c 00 46 14 640 c you c 00 46 14 800 c can c 00 46 14 960 c have c
+service for mongodb you can have separate 00 46 15 680 c files c 00 46 15 920 c for c 00 46 16 079 c them c 00 46 16 480 c but c 00 46 16 640 c it s c 00 46 16 880 c a c 00 46 17 040 c very c
+separate files for them but it s a very common 00 46 18 000 c thing c 00 46 18 319 c to c 00 46 18 880 c put c 00 46 19 119 c them c 00 46 19 280 c together c
+common thing to put them together because 00 46 20 240 c all c 00 46 20 319 c the c 00 46 20 480 c deployments c 00 46 21 359 c need c
+because all the deployments need services 00 46 22 240 c so c 00 46 22 400 c you c 00 46 22 480 c have c 00 46 22 720 c them c 00 46 23 119 c grouped c 00 46 23 599 c in c 00 46 23 920 c one c
+services so you have them grouped in one yaml 00 46 24 640 c file c
+yaml file and 00 46 26 000 c again c
+and again let s 00 46 27 359 c reference c 00 46 28 000 c the c 00 46 28 160 c documentation c 00 46 29 280 c for c
+let s reference the documentation for the 00 46 31 440 c deployment c 00 46 32 240 c example c 00 46 32 800 c syntax c
+the deployment example syntax and 00 46 34 720 c we c 00 46 34 880 c can c 00 46 34 960 c then c 00 46 35 280 c adjust c 00 46 35 680 c the c 00 46 35 839 c values c 00 46 36 240 c as c 00 46 36 400 c we c
+and we can then adjust the values as we need
+need and 00 46 37 920 c as c 00 46 38 079 c you c 00 46 38 240 c see c 00 46 38 480 c deployment c 00 46 39 040 c configuration c
+and as you see deployment configuration file 00 46 40 000 c looks c 00 46 40 319 c a c 00 46 40 480 c little c 00 46 40 720 c bit c 00 46 41 040 c more c 00 46 41 359 c complex c
+file looks a little bit more complex than 00 46 42 800 c configmap c 00 46 43 520 c or c 00 46 43 680 c a c 00 46 43 760 c secret c 00 46 44 400 c so c 00 46 44 640 c let s c 00 46 44 800 c go c
+than configmap or a secret so let s go through 00 46 45 200 c the c 00 46 45 359 c configuration c 00 46 46 560 c and c 00 46 47 119 c understand c
+through the configuration and understand all 00 46 47 839 c these c 00 46 48 079 c attributes c 00 46 48 880 c so c 00 46 49 040 c we c 00 46 49 119 c have c 00 46 49 280 c the c
+all these attributes so we have the metadata 00 46 50 000 c section c
+metadata section and 00 46 51 280 c the c 00 46 51 440 c specification c 00 46 52 640 c and c 00 46 52 800 c these c 00 46 53 040 c are c
+and the specification and these are basically 00 46 54 319 c deployment c 00 46 55 040 c specific c
+basically deployment specific configuration 00 46 57 119 c that c 00 46 57 280 c we c 00 46 57 440 c have c 00 46 57 920 c in c 00 46 58 079 c the c
+configuration that we have in the specification 00 46 59 440 c section c 00 47 00 240 c and c 00 47 00 400 c let s c 00 47 00 640 c start c
+specification section and let s start with 00 47 01 359 c the c 00 47 01 599 c main c 00 47 01 920 c part c 00 47 02 160 c of c 00 47 02 240 c the c 00 47 02 400 c deployment c
+with the main part of the deployment which 00 47 03 200 c defines c 00 47 03 680 c the c 00 47 03 839 c blueprint c 00 47 04 800 c for c 00 47 05 040 c the c 00 47 05 280 c pots c
+which defines the blueprint for the pots and 00 47 06 240 c that c 00 47 06 560 c blueprint c 00 47 07 280 c is c 00 47 07 440 c defined c 00 47 08 240 c as c 00 47 08 560 c a c
+and that blueprint is defined as a template 00 47 09 680 c so c 00 47 10 079 c template c
+template so template basically 00 47 12 000 c is c 00 47 12 640 c a c 00 47 12 880 c configuration c 00 47 14 000 c of c 00 47 14 160 c the c 00 47 14 400 c part c
+basically is a configuration of the part within 00 47 15 599 c the c 00 47 15 839 c configuration c 00 47 16 800 c of c 00 47 17 040 c deployment c
+within the configuration of deployment and 00 47 18 160 c you c 00 47 18 400 c see c 00 47 18 560 c that c 00 47 18 960 c template c 00 47 19 920 c section c 00 47 20 400 c has c
+and you see that template section has its 00 47 20 960 c own c 00 47 21 200 c metadata c 00 47 22 240 c and c 00 47 22 559 c own c 00 47 22 960 c spec c 00 47 23 920 c or c
+its own metadata and own spec or specification 00 47 25 359 c just c 00 47 25 520 c like c 00 47 25 839 c deployment c 00 47 26 400 c has c
+specification just like deployment has its 00 47 26 880 c metadata c 00 47 27 440 c and c 00 47 27 599 c specification c 00 47 28 640 c right c 00 47 29 280 c so c
+its metadata and specification right so this 00 47 30 240 c part c 00 47 30 640 c actually c 00 47 31 040 c configures c 00 47 32 079 c the c 00 47 32 400 c pod c
+this part actually configures the pod within 00 47 33 839 c a c 00 47 33 920 c deployment c 00 47 34 800 c and c 00 47 35 040 c in c 00 47 35 119 c the c
+within a deployment and in the specification 00 47 36 319 c of c 00 47 36 480 c the c 00 47 36 640 c pod c 00 47 37 200 c we c 00 47 37 440 c have c 00 47 37 680 c the c
+specification of the pod we have the definition 00 47 38 800 c of c 00 47 39 040 c containers c 00 47 40 000 c so c 00 47 40 160 c this c 00 47 40 400 c is c 00 47 40 559 c a c
+definition of containers so this is a list 00 47 41 119 c of c 00 47 41 280 c containers c 00 47 41 920 c as c 00 47 42 079 c you c 00 47 42 240 c learned c 00 47 42 640 c you c
+list of containers as you learned you can 00 47 42 880 c have c 00 47 43 119 c multiple c 00 47 43 680 c containers c 00 47 44 319 c in c 00 47 44 640 c a c 00 47 44 800 c pot c
+can have multiple containers in a pot but 00 47 46 079 c mostly c 00 47 47 040 c one c 00 47 47 280 c main c 00 47 47 599 c application c 00 47 48 400 c per c 00 47 48 720 c pot c
+but mostly one main application per pot and 00 47 49 520 c this c 00 47 49 760 c is c 00 47 49 920 c where c 00 47 50 079 c we c 00 47 50 319 c define c 00 47 50 880 c which c 00 47 51 520 c image c
+and this is where we define which image will 00 47 52 559 c be c 00 47 52 720 c used c 00 47 53 040 c to c 00 47 53 280 c create c 00 47 53 920 c this c 00 47 54 240 c pod c 00 47 54 880 c in c 00 47 55 119 c our c
+will be used to create this pod in our case 00 47 55 520 c this c 00 47 55 760 c is c 00 47 55 839 c going c 00 47 56 079 c to c 00 47 56 240 c be c 00 47 56 720 c a c 00 47 56 880 c mongodb c 00 47 57 599 c image c
+case this is going to be a mongodb image and 00 47 59 200 c if c 00 47 59 440 c we c
+and if we search 00 48 00 640 c for c
+search for in 00 48 02 400 c docker c 00 48 02 800 c hub c
+in docker hub that s 00 48 04 880 c basically c 00 48 05 920 c the c 00 48 06 079 c image c 00 48 06 480 c name c 00 48 07 200 c and c 00 48 07 440 c you c
+that s basically the image name and you can 00 48 07 760 c find c 00 48 08 160 c all c 00 48 08 400 c the c 00 48 08 640 c text c
+can find all the text in 00 48 09 760 c the c 00 48 09 920 c text c 00 48 10 240 c section c 00 48 10 960 c and c 00 48 11 119 c we re c 00 48 11 280 c going c 00 48 11 440 c to c
+in the text section and we re going to use 00 48 11 680 c the c 00 48 11 920 c tag c 00 48 12 559 c 5 0 c
+use the tag 5 0 so 00 48 15 599 c one c 00 48 15 839 c go c
+so one go 5 0 00 48 18 400 c that s c 00 48 18 640 c where c 00 48 18 800 c we c 00 48 18 960 c define c 00 48 19 280 c the c 00 48 19 520 c image c
+5 0 that s where we define the image of 00 48 20 640 c the c 00 48 20 800 c container c 00 48 21 359 c within c 00 48 21 680 c the c 00 48 21 839 c pot c 00 48 22 240 c we c 00 48 22 400 c can c
+of the container within the pot we can name 00 48 22 880 c this c
+name this mongodb 00 48 24 880 c this c 00 48 25 119 c is c 00 48 25 280 c just c 00 48 25 440 c the c 00 48 25 599 c name c 00 48 25 920 c of c 00 48 26 000 c the c
+mongodb this is just the name of the container 00 48 26 960 c and c 00 48 27 119 c we c 00 48 27 200 c also c 00 48 27 440 c have c 00 48 27 680 c the c 00 48 28 000 c port c
+container and we also have the port where 00 48 28 559 c the c 00 48 28 720 c container c 00 48 29 359 c will c 00 48 29 599 c listen c 00 48 30 400 c and c
+where the container will listen and let s 00 48 30 960 c check c 00 48 31 440 c our c 00 48 31 680 c image c 00 48 32 240 c and c 00 48 32 400 c as c 00 48 32 480 c you c 00 48 32 640 c see c
+let s check our image and as you see mongodb 00 48 33 680 c starts c 00 48 34 079 c at c 00 48 34 240 c this c 00 48 34 640 c port c 00 48 35 040 c so c 00 48 35 200 c we c 00 48 35 280 c can c
+mongodb starts at this port so we can just 00 48 35 680 c copy c 00 48 36 000 c it c 00 48 36 400 c and c 00 48 36 559 c paste c 00 48 36 880 c it c 00 48 37 040 c in c 00 48 37 200 c here c 00 48 37 760 c so c
+just copy it and paste it in here so this 00 48 38 559 c basically c
+this basically just 00 48 40 480 c configures c 00 48 41 440 c our c 00 48 41 680 c deployment c 00 48 42 480 c to c 00 48 42 720 c create c
+just configures our deployment to create pods 00 48 43 920 c with c 00 48 44 160 c a c 00 48 44 319 c mongodb c 00 48 45 040 c image c 00 48 45 920 c version c
+pods with a mongodb image version 5 0 00 48 47 920 c so c 00 48 48 079 c that s c 00 48 48 400 c the c 00 48 48 640 c core c 00 48 48 960 c of c 00 48 49 119 c a c 00 48 49 200 c deployment c
+5 0 so that s the core of a deployment now 00 48 50 319 c let s c 00 48 50 480 c see c 00 48 50 640 c what c 00 48 50 880 c is c 00 48 51 119 c all c 00 48 51 280 c this c 00 48 51 599 c other c
+now let s see what is all this other stuff 00 48 52 160 c here c 00 48 52 720 c first c 00 48 52 960 c of c 00 48 53 040 c all c 00 48 53 200 c we c 00 48 53 359 c have c 00 48 53 920 c this c
+stuff here first of all we have this labels 00 48 54 800 c attribute c 00 48 55 680 c in c 00 48 56 240 c the c 00 48 56 480 c metadata c 00 48 57 200 c section c
+labels attribute in the metadata section and 00 48 58 480 c then c 00 48 58 800 c we c 00 48 58 960 c also c 00 48 59 359 c have c 00 49 00 000 c match c 00 49 00 319 c labels c
+and then we also have match labels attribute 00 49 01 599 c so c 00 49 01 760 c what c 00 49 02 000 c is c 00 49 02 079 c this c 00 49 02 319 c about c 00 49 03 119 c in c
+attribute so what is this about in kubernetes 00 49 04 240 c you c 00 49 04 400 c can c 00 49 04 640 c give c 00 49 05 200 c any c 00 49 05 520 c component c
+kubernetes you can give any component a 00 49 06 960 c key c 00 49 07 280 c value c 00 49 07 680 c pair c 00 49 08 319 c labels c 00 49 09 200 c so c 00 49 09 440 c you c 00 49 09 520 c can c 00 49 09 839 c label c
+a key value pair labels so you can label anything 00 49 11 280 c from c 00 49 11 680 c pod c 00 49 12 000 c to c 00 49 12 160 c deployment c 00 49 12 640 c to c
+anything from pod to deployment to configmap 00 49 13 520 c etc c 00 49 14 480 c and c 00 49 14 640 c labels c 00 49 15 040 c basically c 00 49 15 680 c are c
+configmap etc and labels basically are additional 00 49 16 800 c identifiers c 00 49 17 839 c of c 00 49 18 000 c the c 00 49 18 160 c components c
+additional identifiers of the components in 00 49 19 119 c addition c 00 49 19 599 c to c 00 49 19 839 c the c 00 49 20 079 c name c 00 49 20 400 c for c 00 49 20 559 c example c
+in addition to the name for example so 00 49 21 839 c you c 00 49 22 000 c can c
+so you can identify 00 49 23 599 c and c 00 49 23 920 c address c 00 49 24 880 c specific c 00 49 25 440 c components c
+identify and address specific components using 00 49 26 480 c their c 00 49 26 800 c labels c
+using their labels now 00 49 28 400 c why c 00 49 28 559 c do c 00 49 28 720 c we c 00 49 28 880 c need c 00 49 29 040 c them c 00 49 29 680 c first c 00 49 30 000 c of c 00 49 30 160 c all c
+now why do we need them first of all when 00 49 30 800 c we c 00 49 30 960 c have c 00 49 31 280 c multiple c 00 49 31 920 c replicas c 00 49 32 559 c of c 00 49 32 800 c the c
+when we have multiple replicas of the same 00 49 33 280 c part c
+same part each 00 49 34 800 c part c 00 49 35 119 c will c 00 49 35 280 c get c 00 49 35 440 c a c 00 49 35 599 c unique c
+each part will get a unique name 00 49 37 280 c however c
+name however they 00 49 38 559 c can c 00 49 38 960 c share c 00 49 39 359 c the c 00 49 39 599 c same c 00 49 40 000 c label c 00 49 40 559 c so c 00 49 40 720 c we c 00 49 40 880 c can c
+they can share the same label so we can identify 00 49 42 160 c all c 00 49 42 319 c the c 00 49 42 480 c part c 00 49 42 800 c replicas c 00 49 43 359 c of c 00 49 43 440 c the c
+identify all the part replicas of the same 00 49 43 839 c application c 00 49 44 960 c using c 00 49 45 760 c a c 00 49 45 920 c specific c 00 49 46 720 c label c
+same application using a specific label that 00 49 47 440 c all c 00 49 47 599 c of c 00 49 47 760 c them c 00 49 48 319 c share c 00 49 48 960 c and c 00 49 49 040 c that s c 00 49 49 359 c why c 00 49 49 599 c in c
+that all of them share and that s why in the 00 49 50 160 c metadata c 00 49 50 960 c of c 00 49 51 200 c the c 00 49 51 359 c pod c 00 49 52 079 c we c 00 49 52 319 c always c 00 49 52 640 c have c
+the metadata of the pod we always have this 00 49 53 280 c label c 00 49 53 839 c so c 00 49 54 079 c for c 00 49 54 319 c pods c 00 49 54 880 c labels c 00 49 55 440 c is c 00 49 55 680 c a c
+this label so for pods labels is a required 00 49 56 400 c field c 00 49 57 119 c for c 00 49 57 520 c other c 00 49 57 839 c components c 00 49 58 400 c like c
+required field for other components like deployment 00 49 59 599 c configmap c 00 50 00 319 c etc c 00 50 01 119 c labels c 00 50 01 520 c is c
+deployment configmap etc labels is optional 00 50 02 240 c but c 00 50 02 480 c it c 00 50 02 720 c is c 00 50 02 880 c a c 00 50 03 040 c good c 00 50 03 280 c practice c 00 50 04 079 c to c
+optional but it is a good practice to set 00 50 04 640 c them c
+set them now
+now when 00 50 06 400 c we c 00 50 06 559 c create c 00 50 07 200 c pod c 00 50 07 599 c replicas c 00 50 08 559 c how c 00 50 08 720 c does c
+when we create pod replicas how does deployment 00 50 09 680 c know c 00 50 10 079 c which c 00 50 10 640 c parts c 00 50 11 119 c actually c
+deployment know which parts actually belong 00 50 11 839 c to c 00 50 12 079 c it c 00 50 12 480 c or c 00 50 12 640 c how c 00 50 12 880 c does c 00 50 13 040 c kubernetes c 00 50 13 599 c know c
+belong to it or how does kubernetes know which 00 50 14 079 c pods c 00 50 14 400 c belong c 00 50 14 640 c to c 00 50 14 800 c which c 00 50 15 040 c deployments c
+which pods belong to which deployments and 00 50 16 480 c that c 00 50 16 800 c is c 00 50 17 359 c defined c 00 50 18 240 c using c
+and that is defined using this 00 50 19 440 c part c 00 50 19 760 c right c 00 50 20 000 c here c 00 50 20 720 c so c
+this part right here so selector 00 50 22 079 c match c 00 50 22 400 c labels c 00 50 22 960 c is c 00 50 23 200 c in c 00 50 23 280 c the c
+selector match labels is in the specification 00 50 24 240 c of c 00 50 24 319 c the c 00 50 24 480 c deployment c 00 50 25 119 c as c 00 50 25 280 c you c
+specification of the deployment as you see 00 50 26 000 c and c 00 50 26 160 c this c 00 50 26 480 c defines c
+see and this defines that 00 50 28 000 c all c 00 50 28 160 c the c 00 50 28 319 c parts c 00 50 29 200 c that c 00 50 29 599 c match c
+that all the parts that match this 00 50 30 960 c label c 00 50 31 760 c belong c 00 50 32 240 c to c
+this label belong to this 00 50 33 920 c deployment c 00 50 34 800 c so c 00 50 34 960 c that s c 00 50 35 200 c why c 00 50 35 440 c we c 00 50 35 599 c have c
+this deployment so that s why we have match 00 50 36 640 c labels c 00 50 37 040 c here c
+match labels here so 00 50 38 240 c this c
+so this selector 00 50 39 760 c will c 00 50 40 079 c match c 00 50 40 720 c the c 00 50 40 960 c pods c 00 50 41 760 c created c
+selector will match the pods created with 00 50 42 480 c this c 00 50 42 800 c configuration c
+with this configuration because 00 50 44 480 c they c 00 50 44 720 c have c 00 50 45 359 c label c 00 50 46 000 c app c 00 50 46 319 c engine c 00 50 46 640 c x c 00 50 47 040 c now c
+because they have label app engine x now are 00 50 47 440 c these c 00 50 47 599 c labels c
+are these labels given 00 50 49 200 c or c 00 50 49 359 c can c 00 50 49 520 c you c 00 50 49 680 c select c 00 50 50 240 c any c 00 50 50 559 c key c 00 50 50 720 c value c
+given or can you select any key value pairs 00 50 51 520 c well c 00 50 51 680 c these c 00 50 51 920 c are c 00 50 52 480 c totally c 00 50 53 040 c up c 00 50 53 119 c to c 00 50 53 359 c you c
+pairs well these are totally up to you you 00 50 53 839 c can c 00 50 54 079 c call c 00 50 54 319 c it c 00 50 54 480 c whatever c 00 50 54 880 c you c 00 50 55 040 c want c
+you can call it whatever you want you 00 50 56 000 c can c 00 50 56 160 c call c 00 50 56 400 c it c 00 50 56 640 c my c 00 50 56 880 c key c
+you can call it my key my 00 50 58 800 c value c 00 50 59 520 c it c 00 50 59 680 c doesn t c 00 50 59 920 c really c 00 51 00 160 c matter c
+my value it doesn t really matter however 00 51 01 200 c the c 00 51 01 440 c standard c 00 51 02 000 c and c 00 51 02 160 c a c 00 51 02 240 c common c
+however the standard and a common practice 00 51 02 960 c in c 00 51 03 119 c kubernetes c 00 51 04 160 c is c 00 51 04 559 c to c 00 51 04 800 c use c 00 51 05 280 c app c
+practice in kubernetes is to use app key 00 51 06 559 c in c 00 51 06 800 c the c 00 51 06 880 c labels c 00 51 07 599 c when c 00 51 07 839 c labeling c 00 51 08 319 c your c
+key in the labels when labeling your applications 00 51 09 920 c and c 00 51 10 079 c the c 00 51 10 240 c value c 00 51 10 559 c will c
+applications and the value will obviously 00 51 11 200 c be c 00 51 11 440 c whatever c 00 51 11 839 c application c 00 51 12 400 c you c
+obviously be whatever application you have 00 51 13 040 c so c 00 51 13 200 c let s c 00 51 13 440 c actually c 00 51 13 920 c change c 00 51 14 720 c and c 00 51 14 960 c set c
+have so let s actually change and set the 00 51 15 520 c values c
+the values to 00 51 18 160 c instead c 00 51 18 400 c of c 00 51 18 559 c nginx c
+to instead of nginx because 00 51 20 000 c that s c 00 51 20 319 c our c 00 51 20 480 c application c 00 51 21 280 c and c 00 51 21 440 c of c
+because that s our application and of course 00 51 21 839 c we c 00 51 22 079 c want c 00 51 22 319 c to c 00 51 22 640 c match c 00 51 23 359 c label c 00 51 24 160 c app c
+course we want to match label app and 00 51 25 680 c let s c 00 51 25 920 c also c 00 51 26 319 c change c
+and let s also change this 00 51 27 599 c one c 00 51 28 160 c right c 00 51 28 400 c here c
+this one right here to 00 51 29 760 c deployment c 00 51 30 640 c and c 00 51 30 960 c finally c 00 51 31 680 c last c
+to deployment and finally last attribute 00 51 32 880 c we c 00 51 33 119 c have c 00 51 33 359 c here c 00 51 33 760 c is c 00 51 34 400 c replicas c 00 51 35 200 c which c
+attribute we have here is replicas which is 00 51 35 760 c super c 00 51 36 160 c simple c 00 51 36 720 c and c 00 51 36 880 c straightforward c 00 51 37 760 c this c
+is super simple and straightforward this just 00 51 38 240 c defines c 00 51 39 040 c how c 00 51 39 200 c many c 00 51 39 520 c pods c 00 51 39 839 c you c 00 51 39 920 c want c 00 51 40 160 c to c
+just defines how many pods you want to create 00 51 41 040 c using c 00 51 41 440 c this c 00 51 42 000 c blueprint c 00 51 42 960 c in c 00 51 43 040 c our c 00 51 43 280 c case c
+create using this blueprint in our case let s 00 51 43 839 c do c 00 51 44 160 c just c 00 51 44 480 c one c 00 51 44 720 c replica c 00 51 45 599 c because c 00 51 45 920 c it s c 00 51 46 079 c a c
+let s do just one replica because it s a database 00 51 47 040 c and c 00 51 47 200 c as c 00 51 47 359 c you c 00 51 47 440 c learned c 00 51 47 680 c if c 00 51 47 839 c you c 00 51 47 920 c want c
+database and as you learned if you want to 00 51 48 240 c scale c 00 51 48 880 c databases c 00 51 49 680 c in c 00 51 49 760 c kubernetes c 00 51 50 720 c you c
+to scale databases in kubernetes you should 00 51 51 119 c use c 00 51 51 680 c stateful c 00 51 52 240 c set c 00 51 52 559 c and c 00 51 52 640 c not c 00 51 52 880 c a c
+should use stateful set and not a deployment 00 51 53 520 c to c 00 51 53 760 c keep c 00 51 54 000 c everything c 00 51 54 480 c simple c
+deployment to keep everything simple we re 00 51 55 040 c going c 00 51 55 119 c to c 00 51 55 280 c stick c 00 51 55 599 c to c 00 51 56 079 c one c 00 51 56 319 c replica c 00 51 56 960 c and c
+we re going to stick to one replica and that 00 51 57 440 c basically c 00 51 58 319 c configures c 00 51 59 200 c our c 00 51 59 440 c mongodb c
+that basically configures our mongodb deployment
+deployment and 00 52 01 839 c the c 00 52 02 079 c pod c 00 52 02 319 c blueprint c 00 52 03 200 c now c 00 52 03 359 c let s c 00 52 03 599 c add c 00 52 04 319 c a c
+and the pod blueprint now let s add a service 00 52 04 880 c configuration c 00 52 05 760 c because c 00 52 06 160 c every c
+service configuration because every application 00 52 06 960 c needs c 00 52 07 200 c a c 00 52 07 359 c service c 00 52 07 760 c in c
+application needs a service in kubernetes 00 52 08 880 c and c
+kubernetes and that s 00 52 10 640 c going c 00 52 10 800 c to c 00 52 10 880 c be c 00 52 11 200 c a c 00 52 11 440 c separate c
+that s going to be a separate yaml
+yaml unit 00 52 14 079 c or c 00 52 14 240 c yaml c 00 52 14 640 c section c 00 52 15 359 c and c 00 52 15 520 c we re c 00 52 15 680 c going c 00 52 15 839 c to c
+unit or yaml section and we re going to separate 00 52 16 400 c it c 00 52 16 720 c using c
+separate it using three 00 52 18 000 c dashes c 00 52 18 400 c which c 00 52 18 640 c is c 00 52 19 040 c basic c 00 52 19 599 c yaml c 00 52 20 000 c syntax c
+three dashes which is basic yaml syntax nothing 00 52 20 800 c specific c 00 52 21 359 c to c 00 52 21 440 c kubernetes c 00 52 22 480 c and c 00 52 22 880 c again c
+nothing specific to kubernetes and again let s
+let s grab 00 52 25 760 c a c 00 52 26 000 c service c 00 52 26 880 c example c
+and 00 52 34 640 c adjust c 00 52 35 119 c it c 00 52 35 440 c as c 00 52 35 599 c we c 00 52 35 760 c need c 00 52 36 319 c now c 00 52 36 559 c service c
+and adjust it as we need now service configuration 00 52 37 520 c is c 00 52 37 760 c much c 00 52 38 000 c easier c 00 52 38 400 c than c 00 52 38 559 c the c
+configuration is much easier than the deployment 00 52 39 280 c as c 00 52 39 359 c you c 00 52 39 520 c see c 00 52 40 240 c first c 00 52 40 480 c let s c 00 52 40 800 c change c
+deployment as you see first let s change the 00 52 41 200 c name c 00 52 41 680 c let s c 00 52 41 920 c call c 00 52 42 160 c it c 00 52 42 720 c service c 00 52 43 680 c and c
+the name let s call it service and remember 00 52 44 960 c this c 00 52 45 280 c is c 00 52 45 760 c the c 00 52 46 079 c end c 00 52 46 400 c point c
+remember this is the end point which
+which we 00 52 48 880 c will c 00 52 49 040 c use c 00 52 49 359 c to c 00 52 49 680 c access c 00 52 50 640 c and c 00 52 50 720 c that s c
+we will use to access and that s what 00 52 51 200 c we c 00 52 51 359 c defined c 00 52 52 000 c right c 00 52 52 240 c here c 00 52 52 800 c so c 00 52 53 040 c this c 00 52 53 359 c is c
+what we defined right here so this is the 00 52 54 240 c name c 00 52 54 800 c of c 00 52 54 960 c the c 00 52 55 119 c service c
+and 00 52 58 160 c in c 00 52 58 240 c the c 00 52 58 400 c specification c 00 52 59 520 c we c 00 52 59 760 c have c
+and in the specification we have service 00 53 00 880 c specific c 00 53 01 680 c attributes c 00 53 02 720 c first c 00 53 02 960 c of c 00 53 03 119 c all c
+service specific attributes first of all we 00 53 03 760 c have c 00 53 04 319 c the c 00 53 04 559 c selector c 00 53 05 200 c attribute c 00 53 05 760 c which c 00 53 05 920 c you c
+we have the selector attribute which you already 00 53 06 400 c know c 00 53 06 559 c from c 00 53 06 800 c here c 00 53 07 599 c now c 00 53 08 240 c why c 00 53 08 400 c do c 00 53 08 559 c we c
+already know from here now why do we need 00 53 08 880 c a c 00 53 09 040 c selector c 00 53 09 680 c in c 00 53 09 920 c service c 00 53 10 640 c because c 00 53 11 200 c as c
+need a selector in service because as you 00 53 11 520 c know c 00 53 12 160 c service c 00 53 13 040 c needs c 00 53 13 359 c to c 00 53 13 599 c forward c 00 53 14 000 c the c
+you know service needs to forward the request 00 53 15 040 c that c 00 53 15 280 c it c 00 53 15 440 c gets c 00 53 16 079 c to c
+request that it gets to its 00 53 17 440 c endpoint c 00 53 18 559 c pods c 00 53 19 359 c how c 00 53 19 520 c does c 00 53 19 839 c service c 00 53 20 160 c know c
+its endpoint pods how does service know which 00 53 20 960 c pods c 00 53 21 359 c belong c 00 53 21 760 c to c 00 53 22 000 c it c 00 53 22 160 c and c 00 53 22 319 c which c 00 53 22 640 c ones c
+which pods belong to it and which ones it 00 53 23 280 c should c 00 53 23 839 c forward c 00 53 24 240 c the c 00 53 24 400 c requests c 00 53 24 960 c to c 00 53 25 520 c well c
+it should forward the requests to well using 00 53 26 559 c the c 00 53 26 720 c same c 00 53 27 359 c label c 00 53 27 760 c selector c 00 53 28 480 c as c 00 53 28 640 c we c 00 53 28 800 c saw c
+using the same label selector as we saw on 00 53 29 280 c deployment c 00 53 30 319 c so c 00 53 30 960 c this c 00 53 31 200 c should c 00 53 31 520 c match c
+on deployment so this should match the 00 53 32 559 c label c
+the label of 00 53 33 680 c the c 00 53 34 079 c pods c 00 53 34 960 c that c 00 53 35 200 c will c 00 53 35 359 c belong c 00 53 35 680 c to c 00 53 35 839 c the c
+of the pods that will belong to the service 00 53 36 480 c which c 00 53 36 720 c is c
+service which is and 00 53 38 960 c that s c 00 53 39 200 c how c 00 53 39 520 c service c 00 53 40 079 c and c 00 53 40 240 c pods c
+and that s how service and pods will 00 53 41 839 c find c 00 53 42 160 c each c 00 53 42 319 c other c 00 53 42 800 c and c 00 53 42 960 c then c 00 53 43 119 c we c 00 53 43 359 c have c
+will find each other and then we have the 00 53 43 920 c ports c 00 53 44 319 c configuration c 00 53 45 359 c which c 00 53 45 599 c is c 00 53 45 760 c also c
+the ports configuration which is also super 00 53 46 480 c simple c 00 53 47 200 c service c 00 53 47 760 c is c 00 53 48 079 c accessible c
+super simple service is accessible within 00 53 49 200 c the c 00 53 49 359 c cluster c 00 53 50 240 c using c 00 53 51 119 c its c 00 53 51 440 c own c 00 53 51 680 c ip c
+within the cluster using its own ip address 00 53 52 559 c and c 00 53 52 800 c the c 00 53 53 040 c port c 00 53 53 599 c and c 00 53 53 760 c we c 00 53 53 920 c define c 00 53 54 400 c its c
+address and the port and we define its port 00 53 55 599 c right c 00 53 55 839 c here c
+port right here and 00 53 56 800 c this c 00 53 56 960 c can c 00 53 57 119 c be c 00 53 57 359 c any c 00 53 57 599 c port c 00 53 58 079 c that c 00 53 58 319 c we c 00 53 58 480 c decide c
+and this can be any port that we decide on 00 53 59 040 c this c 00 53 59 200 c could c 00 53 59 359 c be c 00 53 59 599 c 80 c 00 54 00 400 c 8080 c 00 54 01 200 c doesn t c 00 54 01 440 c really c
+on this could be 80 8080 doesn t really matter
+matter and 00 54 03 359 c we c 00 54 03 520 c have c 00 54 03 760 c the c 00 54 04 000 c target c 00 54 04 480 c port c 00 54 05 200 c which c 00 54 05 440 c is c 00 54 06 079 c the c
+and we have the target port which is the port 00 54 06 800 c of c 00 54 07 440 c the c 00 54 07 760 c pods c 00 54 08 400 c that c 00 54 08 640 c belong c 00 54 08 960 c to c 00 54 09 119 c the c
+port of the pods that belong to the service 00 54 10 000 c and c 00 54 10 720 c logically c 00 54 11 359 c enough c 00 54 12 079 c the c 00 54 12 319 c target c
+service and logically enough the target port 00 54 13 440 c should c 00 54 13 760 c always c 00 54 14 079 c be c 00 54 14 240 c the c 00 54 14 480 c same c 00 54 14 800 c as c 00 54 15 040 c the c
+port should always be the same as the container 00 54 15 680 c port c 00 54 16 160 c because c 00 54 16 480 c that s c 00 54 16 800 c where c 00 54 17 040 c the c
+container port because that s where the application 00 54 19 119 c in c 00 54 19 280 c the c 00 54 19 440 c pod c 00 54 19 760 c is c 00 54 19 920 c accessible c
+application in the pod is accessible that s 00 54 21 280 c where c 00 54 21 920 c the c 00 54 22 160 c service c 00 54 22 720 c should c 00 54 23 040 c forward c
+that s where the service should forward the 00 54 23 599 c request c 00 54 24 160 c to c 00 54 24 800 c so c 00 54 25 040 c again c 00 54 25 760 c very c 00 54 26 079 c important c
+the request to so again very important port 00 54 27 280 c attribute c 00 54 28 240 c sets c 00 54 28 559 c the c 00 54 28 800 c port c 00 54 29 200 c of c 00 54 29 599 c the c
+port attribute sets the port of the service 00 54 30 720 c and c 00 54 30 960 c target c 00 54 31 440 c port c 00 54 32 160 c tells c 00 54 32 640 c service c
+service and target port tells service to 00 54 34 079 c which c 00 54 34 800 c port c 00 54 35 440 c it c 00 54 35 680 c should c 00 54 36 000 c forward c 00 54 36 319 c the c
+to which port it should forward the request 00 54 37 440 c to c 00 54 37 599 c the c 00 54 37 760 c pods c 00 54 38 559 c and c 00 54 38 720 c this c 00 54 38 960 c should c 00 54 39 119 c be c
+request to the pods and this should be same 00 54 39 680 c as c 00 54 39 920 c the c 00 54 40 079 c container c 00 54 40 640 c port c 00 54 41 280 c port c 00 54 41 599 c and c
+same as the container port port and target 00 54 42 079 c port c 00 54 42 799 c values c 00 54 43 200 c can c 00 54 43 359 c be c 00 54 43 520 c different c 00 54 44 400 c or c
+target port values can be different or again 00 54 45 200 c it s c 00 54 45 440 c a c 00 54 45 520 c common c 00 54 45 920 c standard c
+again it s a common standard to
+to select 00 54 48 240 c the c 00 54 48 480 c same c 00 54 48 720 c port c 00 54 48 960 c for c 00 54 49 119 c the c 00 54 49 280 c service c 00 54 49 680 c as c
+select the same port for the service as well 00 54 50 240 c just c 00 54 50 480 c to c 00 54 50 640 c keep c 00 54 50 960 c things c 00 54 51 440 c simple c 00 54 52 319 c so c 00 54 52 480 c let s c
+well just to keep things simple so let s save 00 54 52 960 c this c 00 54 53 440 c and c 00 54 53 599 c that s c 00 54 54 079 c our c 00 54 54 640 c configuration c
+save this and that s our configuration for 00 54 55 839 c mongodb c 00 54 56 559 c deployment c 00 54 57 119 c and c 00 54 57 359 c service c
+now 00 55 01 119 c i m c 00 55 01 280 c going c 00 55 01 359 c to c 00 55 01 440 c copy c 00 55 01 760 c this c 00 55 02 000 c whole c 00 55 02 240 c thing c
+now i m going to copy this whole thing and
+and create
+create a 00 55 05 520 c deployment c 00 55 06 079 c in c 00 55 06 240 c service c 00 55 06 960 c for c 00 55 07 599 c web c
+a deployment in service for web application 00 55 09 040 c for c 00 55 09 440 c our c 00 55 09 920 c kubernetes c 00 55 10 640 c demo c
+application for our kubernetes demo application 00 55 12 240 c and c 00 55 12 319 c let s c 00 55 12 559 c call c 00 55 12 720 c this c 00 55 13 200 c webapp c
+application and let s call this webapp dot 00 55 14 559 c yaml c
+dot yaml paste
+paste everything 00 55 18 319 c in c
+everything in and 00 55 19 599 c we c 00 55 19 760 c can c 00 55 19 920 c just c 00 55 20 240 c adjust c 00 55 20 880 c all c 00 55 21 040 c these c
+and we can just adjust all these values
+in 00 55 30 160 c the c 00 55 30 319 c service c
+in the service and 00 55 32 000 c deployment c
+and deployment all 00 55 33 359 c the c 00 55 33 599 c labels c 00 55 34 160 c and c 00 55 34 400 c label c 00 55 34 720 c selectors c 00 55 35 280 c of c
+all the labels and label selectors of course
+course and 00 55 37 200 c right c 00 55 37 520 c here c 00 55 37 839 c we c 00 55 38 079 c of c 00 55 38 160 c course c 00 55 38 480 c need c 00 55 38 960 c the c
+and right here we of course need the correct 00 55 39 839 c image c 00 55 40 720 c of c 00 55 40 960 c our c 00 55 41 280 c web c 00 55 41 520 c application c
+correct image of our web application going 00 55 42 799 c back c 00 55 43 040 c to c 00 55 43 359 c our c 00 55 43 520 c docker c 00 55 43 839 c hub c
+going back to our docker hub this 00 55 44 960 c is c
+this is the 00 55 46 000 c name c 00 55 46 400 c of c 00 55 46 559 c my c 00 55 46 799 c image c 00 55 47 520 c and c 00 55 47 680 c again c 00 55 48 000 c this c 00 55 48 319 c is c
+the name of my image and again this is publicly 00 55 49 119 c accessible c 00 55 49 680 c so c 00 55 49 839 c you c 00 55 50 000 c can c 00 55 50 559 c use c 00 55 50 799 c it c 00 55 51 040 c as c
+publicly accessible so you can use it as well
+well and
+and the 00 55 53 599 c tag c 00 55 54 079 c is c 00 55 54 799 c v c
+the tag is v 1 0
+1 0 and 00 55 57 680 c there c 00 55 57 839 c you c 00 55 57 920 c go c 00 55 58 559 c so c 00 55 58 799 c this c 00 55 58 960 c is c 00 55 59 119 c a c 00 55 59 359 c very c
+and there you go so this is a very simple 00 56 00 480 c node js c 00 56 01 119 c application c 00 56 02 160 c which c 00 56 02 480 c starts c
+simple node js application which starts on 00 56 03 119 c port c 00 56 03 599 c 3000 c 00 56 04 559 c so c 00 56 04 799 c that s c 00 56 05 040 c why c 00 56 05 200 c we c 00 56 05 359 c need c 00 56 05 520 c to c
+on port 3000 so that s why we need to define 00 56 06 160 c container c 00 56 06 799 c port c 00 56 07 200 c on c 00 56 07 440 c 3000 c 00 56 08 400 c and c
+define container port on 3000 and container 00 56 09 119 c port c 00 56 09 520 c is c 00 56 09 680 c same c 00 56 09 920 c as c 00 56 10 160 c target c 00 56 10 640 c port c
+container port is same as target port on 00 56 11 599 c the c 00 56 11 760 c service c 00 56 12 640 c and c 00 56 12 799 c we c 00 56 12 960 c can c 00 56 13 119 c set c 00 56 13 359 c the c
+on the service and we can set the service 00 56 14 240 c port c 00 56 14 720 c to c 00 56 14 960 c the c 00 56 15 040 c same c 00 56 15 359 c value c 00 56 16 160 c and c 00 56 16 319 c this c
+service port to the same value and this will 00 56 16 720 c configure c
+will configure deployment
+deployment and
+and service 00 56 21 280 c for c 00 56 21 520 c our c 00 56 21 760 c web c 00 56 22 079 c application c
+service for our web application so 00 56 23 599 c this c 00 56 23 920 c is c
+so this is the 00 56 25 040 c basic c 00 56 25 680 c configuration c 00 56 26 799 c for c 00 56 27 200 c deployment c
+the basic configuration for deployment and 00 56 28 000 c service c 00 56 28 559 c for c 00 56 28 880 c any c 00 56 29 119 c application c 00 56 29 839 c in c
+and service for any application in kubernetes 00 56 30 559 c cluster c
+but 00 56 34 559 c we c 00 56 34 720 c have c 00 56 34 960 c one c 00 56 35 200 c more c 00 56 35 359 c thing c 00 56 35 599 c to c 00 56 36 079 c configure c
+but we have one more thing to configure in 00 56 37 440 c our c 00 56 37 680 c deployment c 00 56 38 880 c components c 00 56 39 839 c for c 00 56 40 079 c both c
+in our deployment components for both and 00 56 41 280 c web c 00 56 41 520 c app c 00 56 41 839 c which c 00 56 42 079 c is c 00 56 42 640 c we c 00 56 42 799 c need c 00 56 42 960 c to c
+and web app which is we need to pass 00 56 44 240 c the c 00 56 44 480 c data c 00 56 44 960 c defined c 00 56 45 839 c in c 00 56 46 000 c the c 00 56 46 160 c config c 00 56 46 799 c and c
+pass the data defined in the config and secret 00 56 47 680 c components c
+secret components first 00 56 49 200 c of c 00 56 49 359 c all c 00 56 49 920 c when c 00 56 50 160 c starting c 00 56 50 480 c a c 00 56 50 559 c mongodb c
+first of all when starting a mongodb application 00 56 52 240 c we c 00 56 52 400 c need c 00 56 52 559 c to c 00 56 52 799 c set c 00 56 53 440 c user c 00 56 53 760 c name c 00 56 54 079 c and c
+application we need to set user name and password 00 56 54 960 c so c 00 56 55 119 c when c 00 56 55 280 c mongodb c 00 56 55 839 c application c
+password so when mongodb application starts 00 56 56 799 c it c 00 56 56 880 c will c 00 56 57 119 c automatically c 00 56 57 760 c generate c
+starts it will automatically generate username 00 56 58 799 c and c 00 56 58 960 c password c 00 56 59 760 c for c 00 56 59 920 c mongodb c 00 57 00 640 c and c 00 57 00 720 c we c
+username and password for mongodb and we can 00 57 01 040 c then c 00 57 01 280 c use c 00 57 01 520 c that c 00 57 02 160 c to c 00 57 02 640 c access c 00 57 03 119 c it c 00 57 03 359 c in c 00 57 03 520 c our c
+can then use that to access it in our cluster
+cluster now 00 57 05 359 c how c 00 57 05 520 c do c 00 57 05 680 c we c 00 57 05 839 c know c
+now how do we know how 00 57 07 119 c username c 00 57 07 680 c and c 00 57 07 760 c password c 00 57 08 400 c can c 00 57 08 559 c be c
+how username and password can be configured 00 57 09 599 c in c 00 57 09 680 c a c 00 57 09 760 c mongodb c 00 57 10 400 c on c 00 57 10 640 c startup c 00 57 11 440 c well c
+configured in a mongodb on startup well we 00 57 12 000 c go c 00 57 12 240 c to c 00 57 12 640 c the c 00 57 12 799 c image c 00 57 13 119 c documentation c 00 57 14 400 c and c
+we go to the image documentation and right 00 57 14 880 c here c 00 57 15 119 c we c 00 57 15 280 c see c 00 57 15 839 c the c 00 57 16 160 c environment c
+right here we see the environment variable 00 57 17 599 c names c
+variable names for 00 57 18 960 c username c 00 57 19 520 c and c 00 57 19 680 c password c 00 57 20 480 c and c 00 57 20 640 c these c 00 57 20 880 c are c
+for username and password and these are actually 00 57 21 680 c required c 00 57 22 559 c fields c 00 57 23 040 c in c 00 57 23 200 c most c 00 57 23 440 c of c 00 57 23 599 c the c
+actually required fields in most of the databases 00 57 24 640 c we c 00 57 24 880 c have c 00 57 25 119 c to c 00 57 25 440 c set c 00 57 25 680 c them c 00 57 25 920 c otherwise c
+databases we have to set them otherwise we 00 57 26 480 c won t c 00 57 26 640 c be c 00 57 26 799 c able c 00 57 27 040 c to c 00 57 27 200 c access c 00 57 27 520 c them c 00 57 28 079 c so c 00 57 28 240 c the c
+we won t be able to access them so the next 00 57 28 720 c question c 00 57 29 119 c is c 00 57 29 680 c how c 00 57 29 839 c do c 00 57 30 000 c we c 00 57 30 160 c configure c
+next question is how do we configure environment 00 57 31 440 c variables c 00 57 32 319 c in c 00 57 32 720 c a c 00 57 32 880 c container c
+environment variables in a container configuration 00 57 34 960 c so c 00 57 35 200 c how c 00 57 35 359 c do c 00 57 35 440 c we c 00 57 35 599 c pass c
+configuration so how do we pass environment 00 57 36 400 c variables c 00 57 37 119 c to c 00 57 37 359 c this c
+environment variables to this application 00 57 38 799 c running c 00 57 39 200 c inside c 00 57 39 520 c the c 00 57 39 680 c container c
+application running inside the container well 00 57 41 200 c that s c 00 57 41 520 c also c 00 57 42 319 c very c 00 57 42 640 c easy c 00 57 43 280 c we c 00 57 43 520 c have c 00 57 43 839 c n c
+well that s also very easy we have n attribute 00 57 44 880 c for c 00 57 45 040 c that c
+attribute for that which 00 57 46 640 c is c 00 57 46 880 c a c 00 57 47 040 c list c 00 57 47 440 c of c 00 57 47 680 c environment c 00 57 48 160 c variables c
+which is a list of environment variables with 00 57 49 599 c names c
+with names and
+and values 00 57 53 359 c that s c 00 57 53 680 c it c
+values that s it so
+so very 00 57 55 839 c simple c 00 57 56 480 c so c 00 57 56 720 c name c 00 57 57 040 c is c 00 57 57 520 c the c 00 57 57 680 c environment c
+very simple so name is the environment variable 00 57 58 559 c name c 00 57 58 880 c and c 00 57 59 119 c value c 00 57 59 599 c is c
+variable name and value is the 00 58 00 720 c environment c 00 58 01 200 c variable c 00 58 01 920 c value c 00 58 02 720 c so c 00 58 02 880 c let s c
+the environment variable value so let s copy 00 58 03 440 c the c 00 58 03 599 c name c
+copy the name so 00 58 05 920 c this c 00 58 06 160 c is c 00 58 06 559 c the c 00 58 06 799 c environment c 00 58 07 200 c variable c 00 58 07 680 c name c
+so this is the environment variable name that 00 58 08 160 c mongodb c 00 58 09 040 c expects c 00 58 09 599 c and c 00 58 09 680 c we c 00 58 09 839 c have c 00 58 10 000 c to c 00 58 10 240 c set c
+that mongodb expects and we have to set a 00 58 10 880 c value c 00 58 11 599 c whatever c 00 58 12 000 c we c 00 58 12 160 c want c 00 58 12 400 c the c 00 58 12 480 c username c 00 58 13 040 c to c
+a value whatever we want the username to be 00 58 13 680 c now c 00 58 13 839 c we c 00 58 13 920 c can c 00 58 14 240 c directly c 00 58 14 799 c set c
+be now we can directly set the 00 58 16 240 c username c 00 58 17 040 c right c 00 58 17 280 c here c 00 58 18 000 c like c 00 58 18 240 c this c
+the username right here like this or 00 58 19 359 c in c 00 58 19 599 c our c 00 58 19 760 c case c 00 58 20 000 c we re c 00 58 20 160 c going c 00 58 20 319 c to c 00 58 20 480 c reference c
+or in our case we re going to reference them 00 58 21 680 c from c 00 58 22 160 c secret c 00 58 22 880 c and c 00 58 23 200 c config c
+them from secret and config components
+components how 00 58 26 160 c do c 00 58 26 319 c we c 00 58 26 400 c do c 00 58 26 559 c that c 00 58 27 040 c also c 00 58 27 359 c pretty c 00 58 27 680 c simple c 00 58 28 079 c we c
+how do we do that also pretty simple we do 00 58 28 640 c value c 00 58 29 040 c from c
+do value from and 00 58 31 119 c we c 00 58 31 280 c want c 00 58 31 440 c to c 00 58 31 520 c reference c 00 58 32 000 c it c
+and we want to reference it from 00 58 33 200 c the c 00 58 33 359 c secret c 00 58 34 079 c so c 00 58 34 240 c we c 00 58 34 400 c do c 00 58 34 960 c secret c
+from the secret so we do secret key
+key ref
+ref and 00 58 40 720 c under c 00 58 40 960 c that c 00 58 41 119 c we c 00 58 41 280 c have c 00 58 41 440 c the c 00 58 41 680 c name c 00 58 42 000 c of c 00 58 42 079 c the c
+and under that we have the name of the secret
+secret which 00 58 43 680 c we c 00 58 43 920 c called c 00 58 45 040 c secret c
+which we called secret and 00 58 47 200 c the c 00 58 47 520 c key c
+and the key which 00 58 50 480 c is c 00 58 51 839 c user c
+which is user so 00 58 53 680 c kubernetes c 00 58 54 319 c will c 00 58 54 480 c basically c 00 58 54 960 c find c 00 58 55 200 c a c
+so kubernetes will basically find a secret 00 58 55 680 c with c 00 58 55 839 c this c 00 58 56 079 c name c
+secret with this name and 00 58 57 520 c get c 00 58 57 760 c the c 00 58 57 920 c value c 00 58 58 559 c set c 00 58 58 960 c for c 00 58 59 200 c this c 00 58 59 440 c key c 00 58 59 680 c and c
+and get the value set for this key and substitute 00 59 00 559 c it c 00 59 00 720 c as c 00 59 00 960 c a c 00 59 01 040 c value c 00 59 01 599 c for c 00 59 02 240 c this c
+substitute it as a value for this environment 00 59 03 040 c variable c 00 59 04 079 c and c 00 59 04 240 c the c 00 59 04 400 c same c 00 59 04 640 c way c
+environment variable and the same way we re 00 59 05 119 c gonna c
+we re gonna configure
+configure a 00 59 08 559 c password c
+a password so 00 59 09 839 c let s c 00 59 10 319 c take c 00 59 10 559 c the c 00 59 10 720 c password c 00 59 11 760 c that s c 00 59 12 079 c the c
+so let s take the password that s the name 00 59 12 960 c of c 00 59 13 040 c the c 00 59 13 200 c environment c 00 59 13 599 c variable c
+name of the environment variable same 00 59 15 280 c secrets c
+same secrets component
+this 00 59 20 079 c time c 00 59 20 319 c with c 00 59 20 559 c a c 00 59 20 640 c different c 00 59 21 119 c key c
+this time with a different key and 00 59 22 559 c that s c 00 59 22 880 c it c
+and that s it so 00 59 24 079 c our c 00 59 24 319 c mongodb c 00 59 24 880 c configuration c 00 59 25 599 c file c 00 59 26 000 c is c
+so our mongodb configuration file is complete
+complete and 00 59 28 319 c when c 00 59 28 559 c it c 00 59 28 640 c starts c 00 59 29 520 c a c 00 59 29 680 c user c 00 59 30 160 c with c 00 59 30 319 c these c
+and when it starts a user with these credentials 00 59 31 440 c will c 00 59 31 680 c be c 00 59 31 920 c created c
+when 00 59 35 760 c our c 00 59 36 000 c web c 00 59 36 240 c application c 00 59 36 960 c starts c 00 59 37 760 c it c 00 59 38 000 c will c
+when our web application starts it will need 00 59 38 400 c to c 00 59 38 640 c connect c 00 59 39 119 c to c 00 59 39 520 c the c 00 59 39 680 c database c 00 59 40 559 c so c 00 59 40 799 c we c
+need to connect to the database so we need 00 59 41 119 c to c 00 59 41 440 c give c 00 59 41 680 c this c 00 59 42 160 c web c 00 59 42 400 c application c
+need to give this web application information 00 59 44 400 c about c 00 59 45 040 c the c 00 59 45 200 c database c 00 59 46 000 c endpoint c
+information about the database endpoint where 00 59 47 200 c can c 00 59 47 440 c it c 00 59 47 599 c access c 00 59 48 000 c the c 00 59 48 160 c database c
+where can it access the database and 00 59 49 680 c which c 00 59 50 000 c username c 00 59 50 640 c and c 00 59 50 880 c password c 00 59 51 359 c to c 00 59 51 599 c use c
+and which username and password to use to 00 59 52 559 c authenticate c 00 59 53 440 c with c 00 59 53 599 c the c 00 59 53 760 c database c 00 59 54 559 c and c 00 59 54 799 c i c
+to authenticate with the database and i have 00 59 55 200 c already c 00 59 55 839 c configured c 00 59 56 400 c this c 00 59 56 640 c application c
+have already configured this application inside 00 59 58 240 c to c 00 59 58 559 c expect c 00 59 59 520 c all c 00 59 59 680 c these c 00 59 59 920 c values c 01 00 00 480 c as c
+inside to expect all these values as environment 01 00 01 280 c variables c 01 00 02 160 c with c 01 00 02 480 c specific c
+environment variables with specific names 01 00 04 079 c so c 01 00 04 240 c we re c 01 00 04 400 c going c 01 00 04 559 c to c 01 00 04 880 c pass c
+names so we re going to pass these 01 00 06 079 c three c 01 00 06 319 c pieces c 01 00 06 720 c of c 01 00 06 880 c data c 01 00 07 520 c as c
+these three pieces of data as environment 01 00 08 319 c variables c
+environment variables to 01 00 10 000 c the c 01 00 10 720 c web c 01 00 11 040 c app c 01 00 11 520 c application c 01 00 12 480 c so c 01 00 12 640 c let s c 01 00 12 880 c do c
+to the web app application so let s do that
+again
+again the 01 00 17 359 c name c 01 00 17 680 c of c 01 00 17 760 c the c 01 00 17 920 c environment c 01 00 18 400 c variable c 01 00 18 799 c the c
+the name of the environment variable the first 01 00 19 280 c one c 01 00 19 520 c i c 01 00 19 839 c actually c 01 00 20 240 c called c 01 00 20 880 c username c
+first one i actually called username and 01 00 23 119 c we c 01 00 23 280 c can c 01 00 24 000 c actually c 01 00 24 480 c copy c
+and we can actually copy the 01 00 25 760 c same c 01 00 26 079 c configuration c 01 00 27 040 c and c 01 00 27 200 c paste c 01 00 27 520 c it c 01 00 27 599 c here c
+the same configuration and paste it here and 01 00 28 319 c you c 01 00 28 400 c already c 01 00 28 720 c see c 01 00 28 880 c an c 01 00 29 040 c advantage c 01 00 30 000 c of c
+and you already see an advantage of using
+using configuration 01 00 32 400 c from c 01 00 32 640 c secret c 01 00 33 040 c or c 01 00 33 200 c config c
+configuration from secret or config because 01 00 34 720 c if c 01 00 34 880 c you c 01 00 34 960 c need c 01 00 35 359 c the c 01 00 35 599 c same c 01 00 36 160 c information c
+because if you need the same information in 01 00 37 440 c 10 c 01 00 37 680 c different c 01 00 38 000 c applications c 01 00 39 200 c you c 01 00 39 359 c create c
+in 10 different applications you create it 01 00 39 920 c once c 01 00 40 559 c and c 01 00 41 040 c reference c 01 00 41 599 c it c 01 00 41 760 c 10 c 01 00 42 000 c times c
+it once and reference it 10 times the 01 00 43 680 c second c
+the second environment 01 00 45 200 c variable c 01 00 46 000 c is c 01 00 46 480 c for c 01 00 46 960 c password c
+environment variable is for password and 01 00 49 520 c i c 01 00 49 760 c called c 01 00 50 160 c this c 01 00 50 400 c one c 01 00 50 720 c user c 01 00 51 119 c pwd c
+and i called this one user pwd and 01 00 53 359 c finally c 01 00 54 319 c our c 01 00 54 559 c application c 01 00 55 599 c needs c
+and finally our application needs the 01 00 57 040 c database c 01 00 57 680 c endpoint c 01 00 58 640 c which c
+will 01 01 01 520 c be c 01 01 01 760 c db c 01 01 02 319 c url c
+will be db url and 01 01 04 720 c this c 01 01 05 359 c value c 01 01 05 920 c is c 01 01 06 160 c not c 01 01 06 400 c in c 01 01 06 480 c the c 01 01 06 640 c secret c
+and this value is not in the secret but 01 01 08 000 c in c 01 01 08 240 c configmap c 01 01 09 280 c and c 01 01 09 520 c how c 01 01 09 680 c do c 01 01 09 839 c we c 01 01 10 160 c access c
+but in configmap and how do we access value 01 01 11 760 c from c 01 01 12 000 c config c 01 01 12 480 c map c 01 01 13 200 c very c 01 01 13 520 c similar c 01 01 14 319 c as c
+value from config map very similar as the 01 01 14 720 c secret c 01 01 15 200 c so c 01 01 15 359 c we c 01 01 15 520 c have c 01 01 15 680 c the c 01 01 15 839 c same c 01 01 16 480 c value c
+the secret so we have the same value from
+from and 01 01 19 359 c instead c 01 01 19 599 c of c 01 01 19 760 c secret c 01 01 20 240 c key c 01 01 20 480 c ref c 01 01 20 799 c we c 01 01 20 960 c have c
+and instead of secret key ref we have config
+config map
+map kirev
+kirev or 01 01 26 079 c key c 01 01 26 319 c reference c
+or key reference and 01 01 27 440 c then c 01 01 27 680 c we c 01 01 27 839 c have c
+and then we have name 01 01 29 440 c which c 01 01 29 680 c we c 01 01 29 839 c called c 01 01 31 440 c config c
+name which we called config and 01 01 34 480 c key c
+and key which 01 01 36 480 c is c 01 01 36 640 c the c 01 01 36 799 c name c 01 01 37 200 c of c 01 01 37 440 c the c 01 01 37 680 c key c
+which is the name of the key and 01 01 39 680 c that s c 01 01 39 920 c it c 01 01 40 319 c so c 01 01 40 480 c we c 01 01 40 640 c don t c 01 01 40 880 c have c 01 01 41 440 c any c 01 01 41 760 c of c
+and that s it so we don t have any of the 01 01 42 000 c configuration c 01 01 42 720 c values c 01 01 43 440 c hard c 01 01 43 760 c coded c 01 01 44 319 c in c
+the configuration values hard coded in our
+our kubernetes 01 01 46 000 c configuration c 01 01 46 720 c files c 01 01 47 599 c we c 01 01 47 839 c only c
+kubernetes configuration files we only have 01 01 48 559 c references c 01 01 49 280 c which c 01 01 49 520 c makes c 01 01 49 839 c our c
+have references which makes our configuration 01 01 51 119 c way c 01 01 51 359 c cleaner c 01 01 52 079 c so c 01 01 52 240 c if c
+configuration way cleaner so if something 01 01 52 799 c changes c 01 01 53 520 c or c 01 01 53 680 c the c 01 01 53 839 c values c 01 01 54 559 c change c
+something changes or the values change here 01 01 55 440 c we c 01 01 55 599 c don t c 01 01 55 839 c have c 01 01 56 000 c to c 01 01 56 400 c adjust c 01 01 57 039 c anything c 01 01 57 599 c in c
+here we don t have to adjust anything in our 01 01 57 839 c deployments c
+so 01 02 01 920 c connectivity c 01 02 02 640 c with c 01 02 02 799 c the c 01 02 02 960 c database c 01 02 03 520 c is c
+so connectivity with the database is configured 01 02 04 559 c and c 01 02 04 720 c there c 01 02 04 880 c is c 01 02 05 119 c one c 01 02 05 440 c last c 01 02 06 079 c thing c
+configured and there is one last thing missing 01 02 06 799 c in c 01 02 06 960 c our c 01 02 07 119 c web c 01 02 07 359 c application c
+missing in our web application configuration 01 02 08 960 c before c 01 02 09 200 c we c 01 02 09 440 c deploy c 01 02 10 000 c all c 01 02 10 240 c this c
+configuration before we deploy all this which 01 02 11 119 c is c 01 02 11 599 c making c 01 02 12 000 c it c 01 02 12 240 c accessible c 01 02 13 200 c from c 01 02 13 440 c the c
+which is making it accessible from the browser 01 02 14 400 c we c 01 02 14 559 c want c 01 02 14 720 c to c 01 02 14 799 c be c 01 02 15 039 c able c 01 02 15 359 c to c 01 02 16 079 c type c 01 02 16 400 c in c
+browser we want to be able to type in some 01 02 16 720 c url c 01 02 17 440 c and c 01 02 17 760 c access c 01 02 18 240 c our c 01 02 18 480 c web c 01 02 18 720 c application c
+some url and access our web application from 01 02 19 920 c the c 01 02 20 079 c browser c 01 02 20 720 c right c 01 02 21 359 c and c 01 02 21 839 c as c 01 02 22 000 c you c
+from the browser right and as you learned 01 02 22 799 c we c 01 02 22 960 c have c 01 02 23 280 c external c 01 02 23 839 c services c 01 02 24 400 c for c
+learned we have external services for that 01 02 25 119 c so c 01 02 25 359 c we c 01 02 25 520 c will c 01 02 25 680 c need c 01 02 25 839 c to c 01 02 26 079 c adjust c
+that so we will need to adjust the 01 02 27 280 c service c 01 02 27 680 c configuration c 01 02 28 400 c a c 01 02 28 480 c little c 01 02 28 720 c bit c
+the service configuration a little bit right 01 02 29 599 c now c
+right now these 01 02 31 039 c service c 01 02 31 440 c configurations c 01 02 32 480 c both c 01 02 32 720 c of c
+these service configurations both of them 01 02 33 520 c are c 01 02 33 839 c internal c 01 02 34 400 c services c
+them are internal services so 01 02 35 839 c to c 01 02 36 000 c make c 01 02 36 319 c it c 01 02 36 640 c external c
+so to make it external all 01 02 37 920 c we c 01 02 38 079 c need c 01 02 38 240 c to c 01 02 38 400 c do c 01 02 38 799 c is c
+all we need to do is set 01 02 40 480 c a c 01 02 40 720 c type c 01 02 41 359 c which c 01 02 41 599 c is c 01 02 41 839 c by c 01 02 42 079 c default c 01 02 42 960 c cluster c
+set a type which is by default cluster ip
+ip so 01 02 45 359 c that s c 01 02 45 599 c the c 01 02 45 680 c default c 01 02 46 079 c type c 01 02 46 319 c if c 01 02 46 480 c we c 01 02 46 640 c don t c
+so that s the default type if we don t specify 01 02 47 599 c the c 01 02 47 680 c type c 01 02 48 319 c but c 01 02 48 559 c we re c 01 02 48 720 c going c 01 02 48 880 c to c 01 02 49 039 c set c
+specify the type but we re going to set it 01 02 49 440 c to c
+it to node 01 02 51 280 c port c
+node port so 01 02 52 640 c node c 01 02 52 960 c port c 01 02 53 280 c is c 01 02 53 440 c an c 01 02 53 599 c external c 01 02 54 000 c service c 01 02 54 559 c type c
+so node port is an external service type and 01 02 55 440 c it c 01 02 55 839 c requires c 01 02 56 640 c a c 01 02 56 880 c third c 01 02 57 280 c port c 01 02 57 760 c which c 01 02 58 000 c is c
+and it requires a third port which is called
+called a 01 02 59 200 c node c 01 02 59 599 c port c
+so 01 03 03 280 c what c 01 03 03 440 c is c 01 03 03 599 c a c 01 03 03 760 c node c 01 03 04 079 c port c 01 03 04 799 c port c
+so what is a node port port this 01 03 06 000 c is c 01 03 06 160 c a c 01 03 06 240 c port c 01 03 06 559 c which c 01 03 06 799 c will c 01 03 07 119 c open c 01 03 07 680 c on c 01 03 08 400 c the c
+this is a port which will open on the kubernetes 01 03 09 760 c nodes c 01 03 10 400 c on c 01 03 10 640 c which c 01 03 11 039 c the c
+kubernetes nodes on which the application 01 03 11 839 c will c 01 03 12 079 c be c 01 03 12 240 c accessible c 01 03 13 280 c so c 01 03 13 599 c on c 01 03 13 760 c the c
+application will be accessible so on the node 01 03 14 400 c ip c 01 03 14 640 c address c 01 03 15 440 c in c 01 03 15 760 c node c 01 03 16 079 c port c 01 03 16 640 c combination c
+node ip address in node port combination we 01 03 17 839 c will c 01 03 18 000 c be c 01 03 18 240 c able c 01 03 18 480 c to c 01 03 18 880 c access c
+we will be able to access this 01 03 20 799 c service c 01 03 21 520 c which c 01 03 21 760 c will c 01 03 22 000 c then c 01 03 22 640 c access c
+this service which will then access the 01 03 24 240 c pods c 01 03 24 559 c behind c 01 03 24 960 c it c 01 03 25 359 c and c 01 03 25 920 c node c 01 03 26 319 c port c 01 03 26 880 c range c
+the pods behind it and node port range is 01 03 27 440 c actually c 01 03 27 839 c defined c 01 03 28 480 c in c 01 03 28 640 c kubernetes c 01 03 29 520 c so c 01 03 29 680 c we c
+is actually defined in kubernetes so we can t 01 03 30 160 c just c 01 03 30 720 c type c 01 03 31 200 c anything c 01 03 31 599 c we c 01 03 31 760 c want c 01 03 32 079 c here c
+can t just type anything we want here like 01 03 34 319 c this c 01 03 34 799 c it c 01 03 34 960 c has c 01 03 35 200 c to c 01 03 35 280 c be c 01 03 35 440 c within c 01 03 35 839 c the c 01 03 36 000 c range c
+like this it has to be within the range of 01 03 36 799 c thirty c 01 03 37 119 c thousand c 01 03 37 839 c and c 01 03 38 079 c thirty c 01 03 38 400 c two c
+of thirty thousand and thirty two thousand 01 03 39 760 c seven c 01 03 40 079 c hundred c 01 03 40 720 c sixty c 01 03 41 200 c seven c 01 03 41 760 c so c
+thousand seven hundred sixty seven so anything 01 03 42 319 c within c 01 03 43 200 c this c 01 03 43 520 c range c 01 03 43 920 c is c 01 03 44 160 c fine c 01 03 44 559 c as c 01 03 44 720 c a c
+anything within this range is fine as a value 01 03 45 520 c so c 01 03 45 680 c we c 01 03 45 839 c can c 01 03 46 000 c do c 01 03 46 640 c 30 c 01 03 47 039 c 000 c 01 03 47 599 c or c 01 03 48 160 c 30 c
+value so we can do 30 000 or 30 100 01 03 49 599 c doesn t c 01 03 49 920 c really c 01 03 50 160 c matter c
+100 doesn t really matter so 01 03 51 599 c let s c 01 03 51 839 c set c 01 03 52 079 c this c 01 03 52 319 c as c 01 03 52 480 c a c 01 03 52 559 c value c 01 03 53 440 c and c 01 03 53 680 c this c
+so let s set this as a value and this completes 01 03 54 960 c the c 01 03 55 200 c web c 01 03 55 440 c app c 01 03 55 920 c configuration c 01 03 56 720 c file c
+now 01 04 00 079 c we c 01 04 00 240 c have c 01 04 00 480 c a c 01 04 00 880 c very c 01 04 01 200 c simple c 01 04 01 599 c but c 01 04 01 839 c also c
+now we have a very simple but also pretty 01 04 03 119 c realistic c
+pretty realistic configuration
+configuration for 01 04 06 079 c deploying c 01 04 06 480 c an c 01 04 06 640 c application c 01 04 07 359 c with c 01 04 07 680 c its c
+for deploying an application with its database
+database with 01 04 09 520 c external c 01 04 10 000 c configuration c 01 04 10 880 c in c 01 04 11 039 c the c
+with external configuration in the cluster 01 04 12 000 c so c 01 04 12 480 c as c 01 04 12 640 c a c 01 04 12 720 c final c 01 04 13 039 c step c 01 04 13 599 c we re c 01 04 13 760 c just c
+cluster so as a final step we re just gonna 01 04 14 720 c create c 01 04 15 119 c all c 01 04 15 200 c these c 01 04 15 440 c components c 01 04 16 079 c one c 01 04 16 240 c by c
+gonna create all these components one by one 01 04 16 799 c in c 01 04 16 960 c kubernetes c 01 04 17 920 c so c 01 04 18 160 c i m c 01 04 18 240 c gonna c 01 04 18 559 c open c 01 04 18 880 c a c
+one in kubernetes so i m gonna open a terminal 01 04 20 000 c and c 01 04 20 240 c we c 01 04 20 400 c already c 01 04 20 799 c have c 01 04 21 520 c a c 01 04 21 680 c mini c 01 04 22 000 c cube c
+terminal and we already have a mini cube cluster 01 04 23 119 c running c
+but 01 04 27 920 c there c 01 04 28 079 c are c 01 04 28 240 c no c 01 04 28 559 c components c 01 04 29 200 c inside c 01 04 29 920 c so c
+but there are no components inside so first 01 04 30 960 c we c 01 04 31 119 c need c 01 04 31 280 c to c 01 04 31 440 c create c 01 04 31 680 c the c 01 04 31 839 c external c
+first we need to create the external configurations 01 04 33 440 c because c
+configurations because they 01 04 34 640 c need c 01 04 34 799 c to c 01 04 34 960 c be c 01 04 35 200 c there c 01 04 35 760 c when c 01 04 36 000 c we c 01 04 36 240 c create c
+they need to be there when we create mongodb 01 04 37 359 c and c 01 04 37 520 c web c 01 04 37 760 c application c 01 04 38 839 c deployments c
+mongodb and web application deployments because 01 04 40 400 c they c 01 04 40 960 c reference c 01 04 41 520 c those c
+because they reference those configurations 01 04 42 880 c so c 01 04 43 119 c let s c 01 04 43 359 c create c
+configurations so let s create config 01 04 45 200 c and c 01 04 45 359 c secret c 01 04 46 160 c first c 01 04 46 799 c to c 01 04 46 960 c do c 01 04 47 119 c that c
+config and secret first to do that we 01 04 47 599 c have c 01 04 48 079 c cube c 01 04 48 319 c ctl c 01 04 48 799 c apply c 01 04 49 200 c command c 01 04 49 920 c with c
+we have cube ctl apply command with minus 01 04 50 960 c f c 01 04 51 359 c which c 01 04 51 599 c stands c 01 04 51 920 c for c 01 04 52 240 c file c 01 04 52 799 c which c
+minus f which stands for file which takes 01 04 53 359 c a c 01 04 53 440 c kubernetes c 01 04 54 079 c configuration c 01 04 54 799 c file c 01 04 55 119 c as c
+takes a kubernetes configuration file as an 01 04 55 520 c input c
+an input like 01 04 57 680 c this c
+like this and 01 04 59 039 c creates c 01 04 59 440 c whatever c 01 05 00 000 c is c 01 05 00 160 c defined c 01 05 00 720 c inside c
+and creates whatever is defined inside and 01 05 01 760 c as c 01 05 01 920 c you c 01 05 02 079 c see c 01 05 03 039 c config c 01 05 03 440 c was c 01 05 03 599 c created c
+and as you see config was created now 01 05 04 799 c let s c 01 05 05 039 c create c 01 05 05 760 c longer c 01 05 06 160 c secret c
+now let s create longer secret next 01 05 08 559 c we re c 01 05 08 799 c gonna c 01 05 09 039 c create c 01 05 09 359 c a c 01 05 09 520 c database c
+next we re gonna create a database because 01 05 10 960 c our c 01 05 11 200 c web c 01 05 11 440 c application c 01 05 11 920 c depends c 01 05 12 400 c on c
+because our web application depends on it
+it so 01 05 14 319 c it c 01 05 14 480 c should c 01 05 14 799 c start c 01 05 15 280 c first c
+so it should start first and 01 05 16 640 c again c 01 05 16 960 c let s c 01 05 17 200 c do c 01 05 17 520 c cube c 01 05 17 680 c ctl c 01 05 18 160 c apply c
+and again let s do cube ctl apply with 01 05 20 319 c mongo yaml c 01 05 21 520 c as c 01 05 21 760 c an c 01 05 22 079 c input c 01 05 22 640 c and c 01 05 22 799 c as c 01 05 22 960 c you c
+with mongo yaml as an input and as you see 01 05 23 599 c deployment c
+see deployment and 01 05 25 280 c service c 01 05 25 760 c were c 01 05 26 079 c created c 01 05 26 880 c and c 01 05 27 039 c finally c
+and service were created and finally let s 01 05 28 640 c deploy c 01 05 29 200 c our c 01 05 29 440 c web c 01 05 29 760 c application c 01 05 30 799 c and c
+let s deploy our web application and there 01 05 31 119 c you c 01 05 31 200 c go c 01 05 31 599 c so c 01 05 31 839 c everything c 01 05 32 319 c seems c 01 05 32 960 c fine c
+there you go so everything seems fine but 01 05 33 680 c of c 01 05 33 760 c course c 01 05 34 240 c we c 01 05 34 400 c want c 01 05 34 559 c to c 01 05 34 799 c check c 01 05 35 280 c all c 01 05 35 440 c the c
+but of course we want to check all the parts 01 05 36 160 c and c 01 05 36 400 c all c 01 05 36 559 c the c 01 05 36 720 c components c
+parts and all the components that 01 05 38 160 c were c 01 05 38 400 c created c 01 05 38 960 c in c 01 05 39 119 c the c 01 05 39 200 c cluster c
+so 01 05 42 960 c for c 01 05 43 119 c that c 01 05 43 359 c i m c 01 05 43 520 c going c 01 05 43 599 c to c 01 05 43 760 c actually c 01 05 44 160 c switch c
+so for that i m going to actually switch to 01 05 44 880 c command c 01 05 45 280 c line c 01 05 45 680 c so c 01 05 45 839 c that c 01 05 46 079 c we c 01 05 46 240 c can c 01 05 46 400 c see c 01 05 46 559 c it c
+to command line so that we can see it better
+better and 01 05 48 000 c first c 01 05 48 559 c we re c 01 05 48 799 c going c 01 05 48 880 c to c 01 05 49 039 c do c 01 05 49 440 c cube c 01 05 49 680 c ctl c 01 05 50 400 c get c
+and first we re going to do cube ctl get all
+all which 01 05 52 559 c gives c 01 05 52 880 c you c 01 05 53 359 c all c 01 05 53 520 c the c 01 05 53 680 c components c
+which gives you all the components created 01 05 55 119 c in c 01 05 55 200 c the c 01 05 55 359 c cluster c 01 05 56 160 c which c 01 05 56 400 c includes c
+created in the cluster which includes deployments
+deployments the 01 05 58 480 c pods c
+the pods behind 01 05 59 839 c the c 01 06 00 000 c deployment c 01 06 00 799 c and c 01 06 01 200 c all c 01 06 01 359 c the c
+behind the deployment and all the services 01 06 02 480 c and c 01 06 02 559 c as c 01 06 02 720 c you c 01 06 02 880 c see c 01 06 03 119 c we c 01 06 03 280 c have c
+services and as you see we have deployment 01 06 05 280 c and c 01 06 05 520 c web c 01 06 05 760 c app c 01 06 06 000 c deployment c 01 06 06 720 c parts c
+deployment and web app deployment parts each 01 06 07 760 c one c 01 06 08 000 c with c 01 06 08 319 c one c 01 06 08 559 c replica c 01 06 09 359 c running c 01 06 10 240 c and c 01 06 10 480 c we c
+each one with one replica running and we have 01 06 10 880 c the c 01 06 11 039 c services c 01 06 12 160 c for c
+have the services for mongodb 01 06 13 920 c and c 01 06 14 079 c web c 01 06 14 319 c app c
+mongodb and web app and 01 06 15 200 c web c 01 06 15 440 c app c 01 06 15 599 c service c 01 06 16 079 c is c 01 06 16 400 c of c 01 06 16 720 c node c 01 06 17 119 c port c 01 06 17 520 c type c
+and web app service is of node port type which 01 06 18 400 c means c 01 06 18 640 c we c 01 06 18 799 c can c 01 06 19 119 c access c 01 06 19 520 c it c 01 06 19 760 c externally c
+which means we can access it externally however 01 06 21 200 c we c 01 06 21 359 c don t c 01 06 21 599 c see c 01 06 22 000 c configmap c 01 06 22 720 c and c
+however we don t see configmap and secret 01 06 23 280 c here c 01 06 23 599 c we c 01 06 23 760 c can c 01 06 23 920 c get c 01 06 24 160 c them c 01 06 24 640 c using c
+secret here we can get them using kubectl 01 06 25 760 c get c 01 06 26 319 c config c 01 06 26 880 c map c
+kubectl get config map and 01 06 28 480 c cubectl c 01 06 29 520 c get c
+and cubectl get secret 01 06 30 799 c commands c 01 06 31 760 c so c 01 06 32 000 c as c 01 06 32 160 c you c 01 06 32 319 c see c 01 06 32 480 c displaying c
+secret commands so as you see displaying any 01 06 33 520 c component c 01 06 34 160 c is c 01 06 34 319 c pretty c 01 06 34 640 c easy c 01 06 35 119 c using c 01 06 35 359 c cube c
+any component is pretty easy using cube ctl 01 06 36 400 c you c 01 06 36 559 c just c 01 06 36 720 c do c 01 06 37 039 c kubectl c 01 06 37 839 c get c 01 06 38 319 c and c 01 06 38 480 c the c 01 06 38 640 c name c
+ctl you just do kubectl get and the name of 01 06 38 960 c the c 01 06 39 119 c component c 01 06 39 839 c like c 01 06 40 079 c pod c 01 06 40 880 c and c 01 06 41 039 c you c 01 06 41 200 c get c
+of the component like pod and you get a 01 06 42 160 c list c 01 06 42 640 c of c 01 06 43 280 c those c 01 06 43 599 c components c
+a list of those components with 01 06 45 039 c some c 01 06 45 359 c additional c 01 06 45 839 c data c
+with some additional data and 01 06 47 119 c cubesatl c 01 06 47 839 c is c 01 06 48 000 c actually c 01 06 48 400 c a c 01 06 48 559 c very c 01 06 48 960 c powerful c
+and cubesatl is actually a very powerful tool 01 06 49 920 c and c 01 06 50 000 c it c 01 06 50 079 c has c 01 06 50 319 c a c 01 06 50 480 c bunch c 01 06 50 720 c of c 01 06 51 039 c sub commands c
+tool and it has a bunch of sub commands so 01 06 52 799 c as c 01 06 53 039 c a c 01 06 53 200 c natural c 01 06 53 760 c documentation c 01 06 54 640 c for c
+so as a natural documentation for cubectl 01 06 56 000 c to c 01 06 56 160 c basically c 01 06 56 720 c have c 01 06 56 880 c an c 01 06 57 039 c overview c
+cubectl to basically have an overview and 01 06 57 760 c see c 01 06 58 559 c what c 01 06 58 720 c you c 01 06 58 880 c can c 01 06 59 039 c do c 01 06 59 200 c with c 01 06 59 520 c it c 01 06 59 839 c you c 01 07 00 000 c can c
+and see what you can do with it you can always 01 07 00 480 c use c 01 07 00 880 c cubectl c
+always use cubectl help 01 07 03 680 c as c 01 07 03 839 c a c 01 07 03 920 c documentation c 01 07 04 960 c which c 01 07 05 280 c lists c 01 07 06 160 c all c
+help as a documentation which lists all the 01 07 06 480 c sub commands c 01 07 07 680 c you c 01 07 07 839 c can c 01 07 08 079 c use c 01 07 08 319 c with c 01 07 08 559 c it c 01 07 08 799 c one c
+the sub commands you can use with it one of 01 07 09 119 c them c 01 07 09 280 c which c 01 07 09 520 c we c 01 07 09 680 c already c 01 07 10 079 c used c
+of them which we already used get 01 07 11 760 c and c 01 07 12 000 c for c 01 07 12 240 c each c 01 07 12 559 c sub command c
+get and for each sub command like 01 07 14 559 c cube c 01 07 14 720 c ctl c 01 07 15 200 c get c 01 07 15 760 c you c 01 07 15 920 c can c 01 07 16 240 c also c 01 07 16 640 c get c 01 07 16 799 c some c
+like cube ctl get you can also get some help
+help and 01 07 18 400 c basically c 01 07 18 960 c see c 01 07 19 359 c all c 01 07 19 520 c the c 01 07 19 680 c examples c
+and basically see all the examples plus 01 07 21 359 c all c 01 07 21 599 c the c 01 07 21 920 c available c 01 07 22 480 c options c 01 07 23 119 c so c 01 07 23 280 c you c
+plus all the available options so you can 01 07 23 520 c navigate c 01 07 24 480 c all c 01 07 24 640 c the c 01 07 24 799 c options c 01 07 25 200 c you c 01 07 25 359 c have c
+can navigate all the options you have here 01 07 26 079 c so c 01 07 26 319 c cube c 01 07 26 559 c ctl c 01 07 27 119 c get c 01 07 27 440 c is c 01 07 27 760 c obviously c 01 07 28 160 c the c
+here so cube ctl get is obviously the most 01 07 28 640 c common c 01 07 29 119 c command c 01 07 29 440 c you re c 01 07 29 680 c going c 01 07 29 839 c to c 01 07 29 920 c use c
+most common command you re going to use to 01 07 30 720 c list c 01 07 31 200 c all c 01 07 31 359 c the c 01 07 31 920 c components c
+to list all the components if 01 07 33 200 c you c 01 07 33 359 c want c 01 07 33 520 c to c 01 07 33 599 c see c 01 07 33 839 c more c 01 07 34 319 c details c 01 07 35 039 c about c 01 07 35 359 c a c
+if you want to see more details about a certain 01 07 35 839 c component c
+certain component you 01 07 37 200 c can c 01 07 37 359 c use c 01 07 38 000 c cube c 01 07 38 240 c ctl c 01 07 38 720 c describe c 01 07 39 680 c command c
+you can use cube ctl describe command for 01 07 40 480 c it c 01 07 41 039 c a c 01 07 41 200 c name c 01 07 41 520 c of c 01 07 41 599 c the c 01 07 41 839 c component c 01 07 42 480 c like c 01 07 42 720 c a c
+for it a name of the component like a service 01 07 43 200 c for c 01 07 43 440 c example c
+service for example and 01 07 45 359 c the c 01 07 45 680 c actual c 01 07 46 240 c instance c 01 07 46 960 c of c 01 07 47 119 c that c
+and the actual instance of that component 01 07 48 160 c like c 01 07 48 480 c web c 01 07 48 720 c app c 01 07 48 880 c service c 01 07 49 760 c and c 01 07 49 839 c this c
+component like web app service and this will 01 07 50 240 c give c 01 07 50 480 c you c 01 07 51 039 c more c 01 07 51 280 c detailed c 01 07 51 920 c output c 01 07 52 480 c about c
+will give you more detailed output about that 01 07 53 039 c specific c 01 07 53 599 c component c 01 07 54 319 c same c 01 07 54 559 c way c 01 07 54 799 c you c 01 07 54 880 c can c
+that specific component same way you can also 01 07 55 359 c do c 01 07 55 839 c cube c 01 07 56 079 c ctl c 01 07 56 480 c describe c 01 07 57 359 c pod c 01 07 58 079 c and c 01 07 58 240 c then c
+also do cube ctl describe pod and then name 01 07 59 359 c of c 01 07 59 520 c the c 01 07 59 680 c pod c
+like 01 08 03 119 c this c 01 08 03 359 c one c
+and 01 08 06 000 c this c 01 08 06 160 c will c 01 08 06 319 c give c 01 08 06 559 c you c 01 08 07 119 c details c 01 08 07 839 c about c
+and this will give you details about your 01 08 08 480 c pot c 01 08 09 200 c including c 01 08 10 240 c the c 01 08 10 480 c status c 01 08 11 359 c of c 01 08 11 520 c how c 01 08 11 760 c the c
+your pot including the status of how the pod 01 08 12 240 c was c 01 08 12 640 c scheduled c
+pod was scheduled the 01 08 13 920 c container c 01 08 14 480 c configuration c
+the container configuration labels 01 08 16 960 c etc c
+labels etc and 01 08 18 640 c finally c
+of 01 08 22 239 c course c 01 08 22 640 c when c 01 08 22 799 c you c 01 08 23 040 c have c 01 08 23 600 c applications c
+of course when you have applications running 01 08 25 120 c in c 01 08 25 199 c your c 01 08 25 440 c cluster c 01 08 26 239 c you c 01 08 26 480 c want c 01 08 26 640 c to c
+running in your cluster you want to check 01 08 27 120 c the c 01 08 27 359 c logs c 01 08 27 920 c to c 01 08 28 159 c troubleshoot c 01 08 28 960 c debug c 01 08 29 440 c or c
+check the logs to troubleshoot debug or just 01 08 29 839 c make c 01 08 30 000 c sure c 01 08 30 239 c that c 01 08 30 480 c everything c 01 08 30 880 c is c 01 08 31 120 c fine c
+just make sure that everything is fine within 01 08 31 759 c the c 01 08 31 920 c pod c 01 08 32 719 c and c 01 08 32 880 c you c 01 08 33 040 c can c 01 08 33 199 c do c 01 08 33 359 c that c 01 08 33 679 c very c
+within the pod and you can do that very easily 01 08 34 480 c using c 01 08 34 799 c kubectl c 01 08 35 839 c locks c 01 08 36 480 c command c
+easily using kubectl locks command and 01 08 38 159 c just c 01 08 38 400 c specifying c 01 08 39 600 c name c 01 08 40 000 c of c 01 08 40 640 c the c 01 08 40 960 c pot c 01 08 41 759 c like c
+and just specifying name of the pot like this
+this this 01 08 43 199 c gives c 01 08 43 440 c you c
+this gives you logs 01 08 44 640 c of c 01 08 44 799 c the c 01 08 45 120 c container c 01 08 45 679 c inside c
+logs of the container inside and 01 08 46 880 c you c 01 08 47 040 c can c 01 08 47 199 c even c 01 08 47 600 c stream c 01 08 48 000 c the c 01 08 48 239 c logs c 01 08 49 040 c using c
+and you can even stream the logs using minus 01 08 50 319 c f c 01 08 50 640 c option c
+so 01 08 54 239 c the c 01 08 54 400 c final c 01 08 54 799 c step c 01 08 55 120 c we c 01 08 55 279 c want c 01 08 55 520 c to c 01 08 55 679 c validate c
+so the final step we want to validate that 01 08 56 640 c our c 01 08 56 960 c application c 01 08 57 600 c is c 01 08 57 839 c also c 01 08 58 080 c accessible c
+that our application is also accessible from 01 08 59 040 c the c 01 08 59 199 c browser c 01 09 00 080 c and c 01 09 00 239 c for c 01 09 00 480 c that c 01 09 00 719 c we c
+from the browser and for that we actually 01 09 01 359 c configured c 01 09 02 000 c the c 01 09 02 159 c service c 01 09 03 040 c and c 01 09 03 199 c we c
+actually configured the service and we can 01 09 03 600 c actually c 01 09 04 000 c get c 01 09 04 159 c the c 01 09 04 319 c service c 01 09 04 799 c using c
+can actually get the service using service 01 09 06 159 c or c 01 09 06 480 c svc c
+service or svc comment 01 09 09 440 c so c 01 09 09 600 c how c 01 09 09 759 c do c 01 09 09 920 c we c 01 09 10 159 c access c 01 09 10 640 c this c 01 09 10 960 c service c
+comment so how do we access this service from 01 09 12 000 c the c 01 09 12 159 c browser c 01 09 12 719 c because c 01 09 12 960 c this c 01 09 13 199 c is c 01 09 13 279 c the c
+from the browser because this is the port 01 09 13 759 c we re c 01 09 13 920 c going c 01 09 14 080 c to c 01 09 14 159 c use c 01 09 14 400 c to c 01 09 14 560 c access c 01 09 14 960 c it c 01 09 15 120 c but c
+port we re going to use to access it but which 01 09 15 759 c ip c 01 09 16 080 c address c 01 09 16 719 c is c 01 09 16 880 c it c 01 09 17 040 c accessible c 01 09 17 600 c at c
+which ip address is it accessible at well 01 09 18 400 c the c 01 09 18 640 c node c 01 09 18 960 c port c 01 09 19 279 c service c 01 09 19 759 c is c 01 09 20 159 c always c
+well the node port service is always accessible 01 09 21 199 c at c 01 09 21 279 c the c 01 09 21 440 c ip c 01 09 21 759 c address c 01 09 22 239 c of c 01 09 22 799 c the c
+accessible at the ip address of the cluster 01 09 24 080 c node c 01 09 24 560 c so c 01 09 24 799 c all c 01 09 24 880 c the c 01 09 25 040 c work c 01 09 25 440 c nodes c 01 09 26 000 c that c
+cluster node so all the work nodes that the 01 09 26 319 c cluster c 01 09 26 799 c has c 01 09 27 359 c in c 01 09 27 520 c our c 01 09 27 679 c case c 01 09 27 920 c we c 01 09 28 080 c just c 01 09 28 239 c have c
+the cluster has in our case we just have one 01 09 28 719 c which c 01 09 28 880 c is c 01 09 29 040 c the c 01 09 29 199 c mini c 01 09 29 440 c cube c 01 09 30 159 c so c 01 09 30 480 c we c 01 09 30 640 c need c
+one which is the mini cube so we need the 01 09 31 120 c ip c 01 09 31 520 c address c 01 09 32 000 c of c 01 09 32 159 c the c 01 09 32 319 c mini c 01 09 32 560 c cube c 01 09 33 040 c to c 01 09 33 279 c get c
+the ip address of the mini cube to get that
+that we 01 09 34 560 c just c 01 09 34 799 c do c 01 09 35 279 c mini c 01 09 35 520 c cube c 01 09 36 239 c ip c
+we just do mini cube ip or 01 09 37 839 c using c 01 09 38 159 c kubernetes c 01 09 38 799 c we c 01 09 38 960 c can c 01 09 39 120 c also c 01 09 39 440 c get c
+or using kubernetes we can also get get 01 09 41 120 c node c 01 09 41 759 c which c 01 09 42 000 c gives c 01 09 42 239 c you c 01 09 42 799 c mini c 01 09 43 120 c cube c
+get node which gives you mini cube and
+and a 01 09 45 359 c white c 01 09 45 759 c output c
+a white output or 01 09 47 279 c a c 01 09 47 600 c longer c 01 09 48 080 c output c 01 09 48 719 c than c 01 09 48 960 c what c 01 09 49 120 c you c 01 09 49 279 c see c
+or a longer output than what you see here
+here which 01 09 50 719 c will c 01 09 50 960 c give c 01 09 51 120 c you c
+which will give you the 01 09 52 319 c ip c 01 09 52 719 c address c
+the ip address of 01 09 54 239 c the c 01 09 54 400 c node c 01 09 54 880 c which c 01 09 55 120 c is c 01 09 55 840 c the c 01 09 56 000 c same c 01 09 56 400 c as c 01 09 56 960 c this c
+of the node which is the same as this one 01 09 57 440 c right c 01 09 57 679 c here c 01 09 58 400 c and c 01 09 58 640 c by c 01 09 58 800 c the c 01 09 58 880 c way c 01 09 59 040 c you c 01 09 59 199 c can c
+one right here and by the way you can use 01 09 59 760 c the c 01 10 00 320 c all c 01 10 00 560 c white c 01 10 00 880 c option c 01 10 01 280 c for c 01 10 01 600 c any c 01 10 01 920 c other c
+use the all white option for any other get 01 10 03 120 c command c 01 10 04 000 c for c 01 10 04 159 c services c 01 10 04 880 c pods c 01 10 05 199 c etc c 01 10 05 760 c to c 01 10 05 920 c get c
+get command for services pods etc to get some 01 10 06 400 c additional c 01 10 06 880 c information c 01 10 07 679 c like c 01 10 07 920 c this c
+some additional information like this so 01 10 09 280 c let s c 01 10 09 520 c grab c 01 10 10 159 c the c 01 10 10 400 c mini c 01 10 10 719 c cube c 01 10 11 040 c ip c 01 10 11 280 c address c
+so let s grab the mini cube ip address and 01 10 12 800 c access c 01 10 13 199 c the c 01 10 13 280 c application c 01 10 13 920 c at c 01 10 14 080 c this c 01 10 14 400 c port c
+which 01 10 18 400 c is c 01 10 18 880 c 30 c
+which is 30 100
+100 and 01 10 23 040 c there c 01 10 23 199 c you c 01 10 23 280 c go c 01 10 23 679 c this c 01 10 23 920 c is c 01 10 24 080 c our c 01 10 24 320 c web c
+and there you go this is our web application 01 10 25 199 c which c 01 10 25 440 c is c 01 10 25 760 c connected c 01 10 26 800 c to c
+application which is connected to mongodb 01 10 27 920 c and c 01 10 28 000 c we c 01 10 28 159 c can c 01 10 28 320 c also c 01 10 28 719 c validate c 01 10 29 280 c that c 01 10 29 520 c by c
+mongodb and we can also validate that by editing 01 10 30 719 c something c
+and 01 10 37 360 c saving c 01 10 37 760 c because c 01 10 38 159 c this c 01 10 38 400 c request c 01 10 38 880 c goes c 01 10 39 120 c to c
+and saving because this request goes to database
+database and 01 10 41 040 c if c 01 10 41 199 c we c 01 10 41 440 c refresh c
+and if we refresh the 01 10 42 840 c changes c 01 10 43 920 c should c 01 10 44 159 c still c 01 10 44 400 c be c 01 10 44 560 c there c
+the changes should still be there awesome 01 10 46 080 c so c 01 10 46 239 c we c 01 10 46 400 c deployed c 01 10 46 880 c an c 01 10 47 040 c application c
+awesome so we deployed an application with 01 10 47 840 c its c 01 10 48 000 c database c 01 10 48 719 c in c 01 10 48 880 c kubernetes c 01 10 49 760 c which c 01 10 49 920 c is c
+with its database in kubernetes which is a 01 10 50 400 c blueprint c 01 10 51 120 c configuration c 01 10 52 159 c for c 01 10 52 640 c most c
+a blueprint configuration for most common 01 10 53 440 c application c
+common application setups 01 10 55 280 c you re c 01 10 55 520 c gonna c 01 10 55 760 c have c 01 10 56 320 c plus c 01 10 56 560 c you c 01 10 56 719 c also c
+setups you re gonna have plus you also learn 01 10 57 199 c a c 01 10 57 280 c couple c 01 10 57 600 c of c 01 10 57 760 c cubesitl c 01 10 58 400 c commands c 01 10 59 120 c as c
+learn a couple of cubesitl commands as well 01 10 59 600 c as c 01 11 00 080 c how c 01 11 00 239 c to c 01 11 00 480 c reference c 01 11 00 960 c the c 01 11 01 120 c kubernetes c
+well as how to reference the kubernetes official 01 11 01 920 c documentation c 01 11 03 040 c to c 01 11 03 280 c help c 01 11 03 520 c you c
+official documentation to help you configure 01 11 05 120 c and c 01 11 05 360 c create c 01 11 06 000 c all c 01 11 06 159 c the c 01 11 06 320 c components c
+configure and create all the components i 01 11 07 600 c hope c 01 11 07 840 c i c 01 11 08 000 c helped c 01 11 08 320 c you c 01 11 08 560 c learn c 01 11 08 880 c a c 01 11 09 040 c lot c 01 11 09 280 c about c
+i hope i helped you learn a lot about kubernetes 01 11 10 159 c with c 01 11 10 320 c this c 01 11 10 480 c crash c 01 11 10 880 c course c 01 11 11 440 c and c
+kubernetes with this crash course and you 01 11 11 760 c feel c 01 11 12 080 c much c 01 11 12 400 c more c 01 11 12 640 c confident c 01 11 13 199 c with c
+you feel much more confident with kubernetes 01 11 14 400 c now c 01 11 14 719 c if c 01 11 14 880 c you re c 01 11 15 199 c serious c 01 11 15 600 c about c
+kubernetes now if you re serious about learning 01 11 16 320 c kubernetes c 01 11 17 040 c in c 01 11 17 199 c depth c 01 11 17 760 c i c 01 11 17 920 c actually c
+learning kubernetes in depth i actually have 01 11 18 719 c two c 01 11 18 960 c more c 01 11 19 199 c resources c 01 11 19 760 c for c 01 11 20 000 c you c
+have two more resources for you as 01 11 20 960 c i c 01 11 21 120 c mentioned c 01 11 21 600 c at c 01 11 21 760 c the c 01 11 21 840 c beginning c 01 11 22 400 c if c 01 11 22 560 c you c
+as i mentioned at the beginning if you want 01 11 22 880 c to c 01 11 23 120 c really c 01 11 23 440 c become c 01 11 23 760 c an c 01 11 24 000 c expert c 01 11 24 480 c in c
+want to really become an expert in kubernetes 01 11 25 520 c and c 01 11 25 679 c learn c 01 11 26 080 c how c 01 11 26 239 c to c 01 11 26 480 c build c 01 11 26 880 c and c
+kubernetes and learn how to build and administer 01 11 27 920 c a c 01 11 28 080 c cluster c 01 11 28 719 c from c 01 11 29 040 c scratch c 01 11 29 840 c then c
+administer a cluster from scratch then my 01 11 30 239 c complete c 01 11 30 800 c kubernetes c 01 11 31 520 c administrator c
+my complete kubernetes administrator course 01 11 32 960 c will c 01 11 33 199 c be c 01 11 33 440 c a c 01 11 33 600 c perfect c 01 11 34 239 c resource c 01 11 34 800 c for c
+course will be a perfect resource for you 01 11 35 520 c but c 01 11 35 760 c if c 01 11 35 840 c your c 01 11 36 080 c goal c 01 11 36 400 c is c 01 11 36 640 c rather c 01 11 36 960 c to c 01 11 37 120 c become c
+you but if your goal is rather to become a 01 11 37 520 c devops c 01 11 38 000 c engineer c 01 11 38 800 c then c 01 11 39 040 c our c 01 11 39 360 c complete c
+a devops engineer then our complete devops 01 11 40 480 c educational c 01 11 41 199 c program c 01 11 42 000 c will c 01 11 42 159 c be c 01 11 42 320 c the c
+devops educational program will be the best 01 11 42 960 c fit c 01 11 43 199 c for c 01 11 43 360 c you c 01 11 43 760 c where c 01 11 44 080 c during c 01 11 44 560 c a c
+best fit for you where during a six month 01 11 45 600 c program c 01 11 46 320 c you c 01 11 46 560 c learn c 01 11 46 960 c all c 01 11 47 120 c the c
+six month program you learn all the necessary 01 11 47 920 c concepts c 01 11 48 560 c and c 01 11 48 719 c technologies c
+necessary concepts and technologies including 01 11 50 159 c kubernetes c 01 11 51 120 c which c 01 11 51 440 c you c 01 11 51 600 c need c 01 11 51 840 c to c
+including kubernetes which you need to get 01 11 52 239 c started c 01 11 52 719 c in c 01 11 52 960 c devops c 01 11 53 520 c or c 01 11 53 760 c cloud c
+get started in devops or cloud engineering
+engineering if 01 11 55 360 c you re c 01 11 55 600 c interested c 01 11 56 159 c you c 01 11 56 320 c can c 01 11 56 560 c find c 01 11 56 800 c the c
+if you re interested you can find the links 01 11 57 440 c in c 01 11 57 520 c the c 01 11 57 679 c video c 01 11 58 000 c description c 01 11 58 560 c below c 01 11 59 199 c and c
+links in the video description below and with 01 11 59 600 c that c
+with that thank 01 12 00 560 c you c 01 12 00 719 c for c 01 12 00 880 c watching c 01 12 01 520 c and c 01 12 01 679 c see c 01 12 01 920 c you c 01 12 02 159 c in c
+thank you for watching and see you in the 01 12 02 320 c next c 01 12 02 560 c video c

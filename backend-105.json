@@ -1,0 +1,122 @@
+[
+ {
+  "id": "github",
+  "tag": "h1",
+  "text": "GitHub"
+ },
+ {
+  "id": "bitbucket",
+  "tag": "h1",
+  "text": "Bitbucket"
+ },
+ {
+  "id": "repo-hosting-services",
+  "tag": "h1",
+  "text": "Repo Hosting Services"
+ },
+ {
+  "id": "gitlab",
+  "tag": "h1",
+  "text": "GitLab"
+ },
+ {
+  "href": "https://github.com",
+  "tag": "a",
+  "text": "GitHub Website"
+ },
+ {
+  "href": "https://docs.github.com/en/get-started/quickstart",
+  "tag": "a",
+  "text": "GitHub Documentation"
+ },
+ {
+  "href": "https://ooloo.io/project/github-flow",
+  "tag": "a",
+  "text": "How to Use Git in a Professional Dev Team"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+  "tag": "a",
+  "text": "What is GitHub?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=wpISo9TNjfU",
+  "tag": "a",
+  "text": "Git vs. GitHub: Whats the difference?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+  "tag": "a",
+  "text": "Git and GitHub for Beginners"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=eulnSXkhE7I",
+  "tag": "a",
+  "text": "Git and GitHub - CS50 Beyond 2019"
+ },
+ {
+  "href": "https://learngitbranching.js.org/?locale=en_us",
+  "tag": "a",
+  "text": "Learn Git Branching"
+ },
+ {
+  "href": "https://bitbucket.org/product",
+  "tag": "a",
+  "text": "Bitbucket Website"
+ },
+ {
+  "href": "https://bitbucket.org/product/guides/basics/bitbucket-interface",
+  "tag": "a",
+  "text": "Getting started with Bitbucket"
+ },
+ {
+  "href": "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud",
+  "tag": "a",
+  "text": "Using Git with Bitbucket Cloud"
+ },
+ {
+  "href": "https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket",
+  "tag": "a",
+  "text": "A brief overview of Bitbucket"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=M44nEyd_5To",
+  "tag": "a",
+  "text": "Bitbucket tutorial | How to use Bitbucket Cloud"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=i5T-DB8tb4A",
+  "tag": "a",
+  "text": "Bitbucket Tutorial | Bitbucket for Beginners"
+ },
+ {
+  "href": "https://github.com/features/",
+  "tag": "a",
+  "text": "GitHub"
+ },
+ {
+  "href": "https://about.gitlab.com/",
+  "tag": "a",
+  "text": "GitLab"
+ },
+ {
+  "href": "https://bitbucket.org/product/guides/getting-started/overview",
+  "tag": "a",
+  "text": "BitBucket"
+ },
+ {
+  "href": "https://bitbucket.org/product/code-repository",
+  "tag": "a",
+  "text": "How to choose the best source code repository"
+ },
+ {
+  "href": "https://gitlab.com/",
+  "tag": "a",
+  "text": "GitLab Website"
+ },
+ {
+  "href": "https://docs.gitlab.com/",
+  "tag": "a",
+  "text": "GitLab Documentation"
+ }
+]

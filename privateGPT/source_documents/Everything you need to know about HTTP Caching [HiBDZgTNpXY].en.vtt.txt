@@ -1,0 +1,109 @@
+As users we get frustrated when the websites are slow
+which can either be on the server side in the form of
+or it can be on the client side So when the request comes for a resource
+then the request will be sent to the server the response will be fetched from
+And in the future when the same resource is requested again
+and it will be returned from there
+response times Because the requests are not going to
+lower Secondly because the items are returned from the cache
+is going to decrease also And the third one is the less load on the server
+is also going to decrease
+caching and what the caching is
+So the cache can be in one of the three locations
+so the browser you use might cache the response from any
+And the cache in the browser is private to the specific user using the website
+cache which is the cache at the proxy level I will make a
+But for now just know that the proxies are installed either by your ISP
+might also be cached there And the last one we have is the reverse proxy
+is set up by the server administrators and the content
+benefits of the caching and the common places for the caching
+headers and how the caching works First of all
+requesting the server for some resources Then we have the
+where we find the content from And then on any location of the caching
+it is expired And then we have the fresh content which
+not expired yet And then we have some actions such as
+server to check the validity of the cached content and to get it updated if
+invalidation which is the process of removing any stale content
+let s understand how the content gets cached in any of the locations that we
+caching the content at any of the places Whenever the server
+response which are then used by the client or any
+Let s look at the caching headers and see how they work
+Expires and Pragma were there before HTTP 1 1
+being used for the backward compatibility Cache control was
+way of caching and everything that you can do with
+We also have some validator headers which are used by the client to make
+these headers in detail First of all we have the Expires header
+response can be cached Some of the things that you should note
+And if you provide the invalid value or return the wrong date format the
+possible value for that is no cache It is one of the pre HTTP 1 1
+cache control over it but you might still see it being used
+that the clients that don t support cache control they might be using this
+caching headers we have the cache control header
+HTTP 1 1 It s a multi value header so it can have multiple values or
+Let s look at the possible values for the cache control header
+it means that the content is private to the user and it will only be cached in
+directive which means that the cache is available to multiple users and it
+no store which means that the content can t be
+resource it must make the call to the server
+which means that the content can be cached but for client to reuse it it
+example which you will see in a second Then we have the max age which tells the
+number of seconds So if you get a value like this
+or the proxies for 3600 seconds or 60 minutes And having private would
+and not any other place for 60 minutes Next we have s max age The prefix
+caching duration for the shared places or the proxies
+s max age values present it will take the max age value for the client side
+caching Next we have must revalidate
+Or there is a network issue In that case the client might serve the cached
+must revalidate in the value for the cache control
+the server before serving If you look at the
+directive client might keep serving the cached content
+of 600 seconds has passed and the server is not reachable for the fresh content
+the client can only serve the cash content for 600 seconds
+reachable it won t serve the cached content
+is same as must revalidate but it applies
+mean that the client may keep serving the stale content available at the
+internet or it has network issues but if it is able
+proxy can t use the stale content and it must get it from the server
+you can mix the cache control values however you want
+For example the value that I m showing here right now
+proxies level as well as on the client with the
+to be one hour And with the s max age of 600 seconds
+and also since we have the must revalidate
+and it must fetch the fresh content from the server whenever it is expired
+cached content is to be considered fresh but we did not discuss
+one or more validation headers in the response
+First of all we have the e tags or the entity tags
+in the response which is just a unique identifier associated to the resource
+to check if the content has been changed Let s consider a scenario where the
+and the following cache control and ETag headers
+or one hour and after one hour client will make the call to the server with
+the ETag of the resource in the call The server will then match
+If it doesn t match server will respond with the new ETag and the new resource
+If it does match the existing image the server will respond with the status code
+client will renew the cash for another 3600 seconds
+Strong and the weak First example is the strong ETag
+and there is no difference between them at all Weak tags are prefixed with the
+although not strictly same but could be considered same Next we
+the content was last modified When the content gets stale client it will
+using the if modified since header which will then be used by the server to
+Now you might be asking yourself what if
+present in the response What header will then be used by the
+client will send both the parameters in the validation
+modified date in the if modified since header and the
+304 Not Modified or to return the new content
+validation headers Well in that case there will be no calls
+and the fresh content will be requested as soon as the content gets stale
+you might be asking yourself what should be your caching strategy
+application but normally it might fall into two
+with the server For example your html files where you
+server before using it This way we are making
+have it available on the server but if the HTML files have not been
+the browser For the dynamic content it depends on
+you might cache it publicly for two hours but if you have product listing
+caching headers In the response for the assets you can have aggressive
+the images for an year in the public caches
+generate a different file name for each build
+see that the links have been changed so it will load
+from the cache And lastly to debug the http headers you
+which will give you the headers from the response or you can do it from the dev tools
+any questions or comments leave them below and I will see you in

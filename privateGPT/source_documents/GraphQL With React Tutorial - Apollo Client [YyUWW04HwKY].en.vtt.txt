@@ -1,0 +1,1023 @@
+hey guys how s it going i m back here
+with another video and today i decided
+to
+basically create a beginner s video
+introducing how to work with graphql for
+a front end using react and we re going
+to be using apollo client which is a
+a way to interact with a graphql api
+and it is a really good library so in my
+opinion it s probably the easiest one to
+start with
+and i m going to show you guys exactly
+how to do that so if you didn t see my
+last video
+basically i went over how to create a
+graphql api
+it is totally not not necessary if you
+if you already have a graphql api you
+just want to know how to connect it with
+a
+front end but just to show you guys this
+is what i created not this over here
+this over here very simple api we have
+um the schemas the only schema that we
+have is a
+a user which contains an id a first name
+a last name an email and a password
+and all of this data since i wanted to
+make this video fit for everyone not
+like a specific group of people using a
+specific group of
+like a specific database i m using just
+a json
+like data you can see right here it s
+just a random
+like data set containing a bunch of
+users you can see that each user
+has a first name a last name and an
+email and a password so that s basically
+what we re going to be using
+as our fake database right so
+currently we have only two two things
+that we can do in our application
+the first one if you go here to yours to
+my schemas the first one is
+a query and the query just returns all
+the users very simple query
+it s called get all users it just
+returns every every user
+and we have a mutation and this mutation
+specifically is just to create a user
+so you basically can see that it adds to
+the user data a new user containing the
+information that we pass
+in and if you re not getting what i m
+saying like if you re if you don t
+understand
+what i m showing i m gonna link up here
+the first video which basically i go
+over how to create the graphical api
+and you can watch that and then come
+back to this because this over here is
+really important as well
+so what we re going to be doing now is
+we re going to be implementing
+everything
+into a client using react because a lot
+of people will ask me
+and it s not it s not similar to what
+people are used to do
+when you re working with the rest api
+where you just make a
+like a nexus request an api called a
+fetch request to
+to your api you need to use a little a
+library and in this case we re going to
+be using apollo client
+so to do that we re going to come over
+here and
+we re going to basically just install
+our
+our libraries right i m going to cd into
+my
+my client folder as you can see and
+in my client folder i already have a
+react application there s nothing in it
+there s only the app js and you can see
+that the app js has nothing
+inside of it just a just an empty tag
+and what you want to do is you want to
+install
+two libraries so you re an ad the first
+one is apollo
+client like this and the other one is
+graph
+ql just these two libraries and if
+you re using npm it is npm install
+apollo client
+and npm install graphql but i m using
+yarn so it s literally just this
+this right here i already installed it
+i m going to show you guys in my
+package json
+it s over here um let me come here yeah
+apollo client over here
+this is the version i m using so if it s
+like far in the future and
+for some reason the apollo client it s
+above version three so it s a bit
+different for versions two
+to less so that s important but if
+apollo client changed in the future i
+don t know
+this is the version i m using and you
+can see graphql is also installed over
+here
+so what do we actually want to do well
+first of all
+let s start creating our application
+right so in our app js
+what we want to do is we want to
+initially just
+set up our project so that it accepts
+graphql so the first thing we have to do
+is we need to
+import some packages so i m going to
+import from apollo kind so
+from at apollo client i want to import
+some stuff so the first one is apollo
+client
+why because we re going to be using that
+to create our provider
+and then we re going to be importing as
+well in memory cache because we want to
+have caching
+in our application we want to import
+apollo provider
+and obviously if you re a beginner don t
+worry about knowing what all of this to
+do does we re just going to be using
+those to set up our application
+and we re also going to import something
+called from you ll see why we need to
+build a link to connect
+to our api so from is just a uh
+it s a method from the apollo client
+library which allows us to do that
+and finally after we do this we
+we maybe we need to import a method of
+determining if there was any errors in
+our api
+uh we re gonna import it called on error
+from the packages uh at apollo client
+slash um client
+no it s not it s not client it s slash
+link right
+slash link yeah and slash error so a
+public line contains an error library
+inside of it
+which contains ways to determine if to
+catch errors right so on error is
+in my opinion the easiest way of doing
+this and i ll show you guys how to build
+this
+so basically the fundamental idea of how
+to make your api work
+in react using a polo client is you got
+to come over here
+above your app dot js in your parent
+like your initial component
+you have to create something that is the
+client the client will be just a way
+it will be a an instance of the apollo
+client and this is how we re going to
+determine if
+if we have a correct connection or not
+so let s create a variable called client
+and it s going to be a new apollo
+not a polar provider apollo client
+and inside of it we have to pass an
+object containing two things first of
+all it s a cache
+and we re gonna as i mentioned before
+we re gonna have uh
+in memory cache um this is not important
+in the beginning but
+you can worry about that later and we re
+gonna have link
+and the link will be basically the link
+to our back end to our server
+and obviously we we can just put here
+local not not obviously but we can just
+put the the actual url for the localhost
+we have to make it a diff
+in a bit like a bit of a different way
+and this is why we actually
+imported the from thing over here and
+the http link we have to build an http
+link
+over here and let s do that let s create
+a link
+equals to and we re going to use the
+from library and as i mentioned before
+don t worry if you re a beginner and
+you re confused about this i was super
+confused
+and it s not very useful to understand
+everything in the beginning
+just know that this is a good way to
+build your
+your basically you start your graphql
+api
+so we re going to use from the from
+method and we re going to pass an error
+link which we re going to create
+right right like right after this and
+then we re gonna pass a
+new http link and pass here
+um the basically the uri which is the
+url for our api which in my case it is
+running
+on you can see right here it s running
+on localhost 6969 slash graphql
+so let s come over here and say local
+http actually two slashes localhost
+let me close this localhost
+um 6969 slash graphql
+and this is the link for my uh api right
+and why do we actually need an error
+link is because if there is any error if
+graphql catches any errors we need to
+tell it
+what like how we want it to respond i m
+going to show you guys a very simple way
+to
+catch errors and very simple way to like
+build this
+error catching system but this is
+definitely going to
+be more use like in the future if you
+want to
+optimize this then definitely do it this
+is just a way to not
+like carry that much in the beginning
+but we re going to create an
+error link it s just a link that that
+tells us like a
+a function that tells us um what we want
+to do if there is any error so this is
+why we re going to use on
+error and on error we just want to
+come over here and grab two things
+graphql
+errors and network errors
+i want to emphasize that if you re if
+you re confused
+right now um just stick around because
+this i honestly recommend just copy and
+pasting this because it is definitely
+not important in the beginning but
+it is necessary to start your api work
+right
+so then we re going to basically just
+ask if graphql errors and by the way
+this is
+the sample i m getting over here for the
+aero link i actually i believe i got
+this from
+the graphql documentation so i didn t
+create this error catching system it s
+the simplest way that they
+demonstrated to us so graphql errors
+um we re just going to ask if there was
+any errors then we want to map through
+all the errors
+and then for every error we re going to
+grab the message
+the error message also maybe we want the
+location for the error
+and the path so those are the ones we
+might want
+and then what we want to do is we want
+to just
+since we re mapping we want to do
+something for each of those errors and
+for now let s just alert a message
+saying something like
+graph ql error
+and we want to show it like this let s
+just
+show the message right now so this is
+the basic idea of our error handling
+right here
+we re just showing any errors right and
+for now i think that that s it this
+should be okay um we can t even ask if
+there was any network errors if we want
+um i don t think that s totally
+necessary but
+let me just check um maybe the if
+statement
+shouldn t be here no that s correct
+yeah that s correct i think so
+actually let s just leave it like this i
+think it s fine um
+let s come over here and now we have an
+error link for our link and we actually
+started our client so this right now
+it s done for
+setting up the graphql connection and
+honestly just skip around after this
+because it s going to get a lot more
+easier
+so now that we have this we can
+basically wrap our
+whole application with an apollo
+provider
+and what will this do basically between
+this apollo provider tags
+is where you can reach all the like your
+your graphql api so it s going to be
+served through this
+two components and we obviously need to
+pass a client and the client we re going
+to pass
+is the client variable that we created
+over here and now we know that anywhere
+inside of it we can easily just make
+make requests to our api server and
+now that we have set up all of this by
+the way i need to put error here
+i accidentally wrote it wrong now that
+we did all of this let s
+create an example right let me create a
+components folder i just want to have
+two components one of them is going to
+demonstrate how to
+create a user how to run a mutation on
+react and the other one is how to
+run a query on react right so the first
+one is going to be query so let me
+create a component called
+getusers js
+and i m going to use the snippet that i
+showed you guys in the last video
+basically just to create everything just
+a simple functional component which
+we just want to use it to render all the
+users
+in our application and to do this
+in in react you got to follow us a
+simple recipe
+the recipe basically is that we need to
+create a folder
+in our application actually this is in
+the recipe but you need to create
+a file for your mutations and a file for
+a query so i like to create a folder
+called graph
+ql like this and inside of here i put
+two files one for
+mutations where i m going to store all
+of my mutations and one for all my
+queries so
+this is what i m going to do queries js
+and for the queries i want to put over
+here the query that i want to make
+and what exactly is the query so if you
+watched my last video you know that this
+is a query
+this is the query we re making in our
+graphical um
+gui to to basically get information from
+our api this is exactly what we got to
+put
+in our queries folder and a query
+queries file
+and over here the only thing we need to
+do is we need to import
+graphql from apollo client i like to
+call it gql
+from at apollo client and this variable
+right here will allow us to make a query
+and to make this query we can just say i
+want to export this query so i want to
+act
+so that i can access this query in
+whichever file i want to
+and let s call it load users it s just
+going to return all the users
+and it s going to be equal to gql
+and this gql query now we can output
+inside of here
+the whole query that we want by the way
+i know it s weird to put this
+to like back quotes i don t know if you
+guys can see clearly i ll try to zoom in
+for just a second
+it s you have to put all your query
+inside of this two quotes right here
+which are like i always forget the name
+but they re like back quotes
+and i don t know why they did it like
+this honestly it looks weird in my
+opinion but
+this is what we have to do right and
+what do we actually put inside of here
+well we put a query that we
+that we have right that i taught you
+guys in the last video so let me put
+here a query
+um this query basically says i want to
+get all users
+and for each user that i get
+in my like my my data i just want to
+show
+the id the first name and the email and
+the password so this is basic idea of
+our query
+and this is fine now that we have our
+query done what we want to do is we want
+to
+like actually use that query for
+something right so let s come here to
+our get users
+and let s start importing some stuff so
+the first thing i want to import
+is the use query hook from
+um apollo clients so let s say import
+um from up at
+apollo client and we re going to have
+some some different
+um hooks that we want to use right so
+the first one is use query
+it s going to allow us to get
+informations from a query
+and we also need the graphql to to use
+it
+in order to actually get the data right
+so
+after we did that after we did this um
+we can simply come into our function get
+users
+and we can come over here and say const
+and we can pass all the different
+information
+we want to get from that query so if i
+say use query
+and i don t want to get confusing i
+don t want it to get confusing right now
+but
+the idea is you re going to say const
+use use query pass here the query that
+you actually want so let s import the
+load users query that we just created
+um and let s put a link to our graphql
+slash queries file and over here we re
+going to import
+load query load users and what we want
+to pass is load users inside of this use
+query so the use query hook is very
+simple you pass the query that you want
+to
+basically fat right you want to run you
+want to execute and over here you can
+get some sort of information
+the information that you can get can
+range from
+any errors that occur to like if the
+data is actually just loading so it s a
+state basically you can get loading
+to represent like if it s if the data is
+being fetched but it hasn t been fetched
+yet and that could be useful sometimes
+but the most useful thing is the actual
+data so data right here will return
+the data from our query so now that we
+have this
+what we have to do is i like to simply
+create a use effect
+which is going to wait for this data to
+be done so it will be received
+and it s going to be constantly
+obviously checking to see if we actually
+have received the data so i m going to
+pass here a news effect
+and the user effect will run infinitely
+until
+we actually there like as long as there
+is a change in the data
+this basically if you have never if you
+don t get this i have a video for a full
+on video on use effect
+basically we re going to wait for this
+data to change it s going to run once
+before it
+actually loads and then when this
+variable changes it s going to run again
+so that it basically knows that we have
+new data coming in
+and now that we have this for now let s
+just console log
+data just to see how our data looks like
+um let s actually try to to make this
+work
+to do this we re going to come here to
+our apollo provider i m going to import
+the
+get users component and
+let s make this run right so this isn t
+running let me run
+yarn start it s gonna run
+okay something s already running on port
+3000
+um what exactly is running on poor 3000
+oh my actual
+project is already running okay let me
+close this
+um okay i had a different terminal sorry
+but yeah this is the terminal you can
+see that for now we have to
+not only run our we our react so it s
+running right now over here on localhost
+3000 but we also need to run our server
+so i m running here node index js it
+says server running let me run that
+coming again
+and now it s running again so let s
+check here
+um the way we build it it s it s it s
+supposed to whenever i run this over
+here
+it s gonna return some data as you can
+see right here so we re returning get
+all users it s an array of a thousand
+elements and you can see that it s
+actually an object containing a property
+called get all users
+and that contains an array of a thousand
+objects i m not gonna
+actually get all the all the all the
+elements
+should i get them um no it s too many
+it s too much data to just display it in
+my screen but you can see that we
+actually got the data from our
+um api which is awesome right so what i
+actually want to do is
+i just want to display like the first so
+let me come over here
+
+and the state will just be a list of
+users right
+const um list
+i ll just call it users and set users
+it s just a list of users
+it s going to be equal to use state and
+it s going to be an array
+and in order to make our are actually
+users appear in our screen
+we re just going to say set users equal
+to
+um the data dot get let me look at the
+console log again
+it s an object containing um
+get all users so this is what we need to
+put dot get
+all users and then
+get all users is an array containing a
+bunch of arrays
+and i actually just want to get the
+first one so let me just say
+zero and now we can come here to our
+div and we can just say something like
+users dot map
+and i want to map through every user and
+let s just grab the value
+and for each value right here let me
+just close this and this so you guys can
+clearly see it for each user i just want
+to
+return the name of the user for now
+so let me just return vol dot first name
+because that s something that we have in
+our application
+so let s see if that works let s refresh
+our page um
+cannot read get all users of undefined
+okay
+that s because we actually haven t
+received our data yet so let s ask
+if if data so that s something important
+we re going to ask if data
+only if the data has been received we
+want to set all users
+to be equal to this so we ve got to wait
+for the data to actually be received
+so let s check this and users map is not
+a function
+why is it not a function this should
+actually be a function
+
+console log
+get data dot get
+all users zero let me just check to see
+what exactly is this
+so let s see apparently it is
+yeah it s an array right oh no it s not
+actually an array
+it s just a it s just a person which is
+weird
+let me look at get all users
+um oh okay okay
+it s it s not an array of arrays it s
+like it s just that the console log
+divides it this way
+so what i m gonna do is i m just gonna
+instead of saying console
+get all user zero i m gonna just
+set users to every single user and it s
+gonna be huge but yeah
+you can see we have all of our users
+being displayed here we got that from
+our api the api is over here you can see
+that
+if i run this we get all the users so
+it s the same users
+and obviously this is a thousand
+different users being displayed in our
+screen which is
+yeah it s okay right so now that we have
+this i m actually not gonna
+not gonna be displaying this i just
+wanted to show you guys how to do this
+um i m gonna show you guys exactly how
+to actually work with mutations so
+if i were to have a form where i want to
+create a new user
+how would i actually send that data to
+our graphql api
+and actually make the run the mutation
+right so insert the data into our
+database
+or into whatever you can see that the
+last element here
+and all the users is called adrians and
+this is something that i emphasized in
+the last video because
+we re going to be adding and currently
+the last element is idea
+a thousand because we have a thousand
+users i m gonna be adding another user
+through this mutation and it s gonna be
+called pedro which is my name
+and it s gonna be of id 1001 if you
+want to see the
+the the behind the scenes of creating
+this api mutation on the backend
+again watch my last video because i
+showed exactly how to do that
+but what i m going to do right now is
+i m actually going to build a component
+here
+not another folder a component called
+form
+dot gs just going to be a a simple form
+um that is going to contain like a way
+of different inputs like first name last
+name email password and a button to send
+that data and i m going to come back
+after i just created the
+simple form because it isn t useful to
+know how to create a form for this
+the the important information is
+actually making the form
+be submitted to our api so i ll be back
+in a second okay guys so i m back right
+here
+and you can see that i created a very
+simple form as you can see
+nothing too fancy or anything i just
+created a form called
+that has like inputs first name last
+name email
+and password i created four states um
+over here one for each
+input i also need to import the state
+and
+i created one for each input and
+basically what i do is whenever you
+write
+on the input it just sets the value for
+the state
+to be the value for the input very
+simple stuff over here
+just making the form work right and
+at the bottom i have a button which when
+you click on it it says
+add user so let s actually import in our
+app js
+let s remove get users because we don t
+actually want to use that right now we
+just want to use
+form and by the way when i write form
+it s being automatically imported over
+here so you can see get users in form
+are being imported so if you go here to
+our app react like the
+the react tab you can see that the form
+appears here i don t care about it how
+it looks
+i just want to make it work i m going to
+zoom in as you can see it s a very ugly
+form but
+obviously it s very simple as i
+mentioned before
+so what do we actually want to do here
+in our form js to send this data
+to our graphql api well the first thing
+we actually want to do is
+not even inside of the form js we want
+to come to our graphql
+folder and write our whole mutation so
+what exactly i showed you guys what a
+mutation looks like in graphql
+before it s a bit different from a query
+it s a little bit more complicated
+but i m instead of just copying and
+pasting from what i did before
+i m going to show you guys how to create
+it from here because
+we i didn t save what the last mutation
+that i showed you guys
+so basically to create a mutation we re
+going to do it very simple very similar
+to what we did with the query we re
+going to
+export a variable called let s call it
+create
+create user mutation
+something like this and it s going to be
+equal to gql
+and just like before we re going gonna
+put the back quotes to
+to write the mutation inside of here and
+now with a mutation we gotta
+write the word mutation like this mute
+mutation then the name of the function
+of our mutation so if you recall in our
+api over here i m going to open up the
+server folder
+in our api in our where we defined our
+mutation
+um there s the name of the function
+right create user just like the name of
+the query has to be the same so ghetto
+users we used ghetto users for inquiry
+we need to put create users similar to
+this so let me just copy create user
+over here and the format for a mutation
+is very simple it s very
+simple basically it s almost like a
+function you put create
+user and inside of here you have to call
+create user again
+but it s a bit different and i ll show
+you guys why and then
+after the create user again you need to
+put again um
+the curly braces what happens is at the
+top here
+you have to define the arguments that
+are going to receive right and also the
+type of the arguments you re going to
+receive so for example for create user
+we want to receive a first name and for
+each variable you have to put a dollar
+sign
+or a money sign and you re going to put
+first name
+and you re going to define that it is a
+string like this
+similar to what we did in their backhand
+we re going to do it this way
+then we re going to put the next element
+which is last name right so i m gonna
+come over here and say
+last name it s also a string
+then email is also a string
+um string and then let me see oh i
+forgot to put the
+the money sign over here money sign
+then password it s also a string
+so this is basically the idea we re just
+defining the types of the variables
+and the variables itself and on the
+other create user the one down here
+we have to just grab the arguments so
+put first name
+and actually now we re saying that first
+name is of type
+first name and i know this looks super
+weird um i literally don t know why they
+do this
+this way but this is how it they
+actually do it so
+i would just recommend doing it this way
+and honestly i would do it
+i would actually put a like a space
+between stuff
+um just so that we have a better view of
+it so like this
+just put a uh and just press enter for
+each one of them
+and here for the create user we re gonna
+do the same thing so for first name
+it s gonna be like this and then for
+last name it s going to be at last name
+this is quite boring but basically this
+is what you re going to do
+an email is email and then
+password is password so i have those
+variables that we want to actually
+insert into our database
+and then down here is what happens after
+the mutation so
+after this right here right so in inside
+of this two curly braces is what happens
+after the mutation is done so we can
+actually return something for example
+i just created this user but i actually
+want to keep track of their
+first name for example so let me let me
+write first name i want to just receive
+the first name
+as a return from the mutation right or i
+can put an id
+i can put whatever i want i m going to
+put an id actually so
+this is the basic idea this is how you
+create a mutation
+in your graphql application
+in your react right so after we re done
+with this mutation
+we gotta start working in our form js
+component
+by basically start importing this actual
+mutation so let s come over here and say
+import and again from our graphql folder
+but this time it s from the mutations
+file
+we want to import create user mutation
+and we also need to import the used
+mutation hook
+which is different from the use query
+hook that we had before so use mutation
+from
+apollo client it s a hook from apollo
+client and we re going to be using that
+to actually make the mutation
+so in order to make that mutation we re
+going to come here somewhere in our
+application before we actually
+want to insert the data so up here i
+want to insert the data in this add user
+function that we created
+so up here what i want to do is i just
+want to create
+a call the user mutation hook like this
+and pass the create user mutation
+similar to what we did with the query
+again right
+but the arguments that we get from the
+query from the mutation is a bit
+different
+so the first argument we can get is the
+actual
+function that we re going to be using to
+create the user called
+create user it has to be the same as the
+one you put down here
+on your not down here on your um
+index js so create user
+so over here we re going to say create
+user and then we can maybe grab
+some error that occurred in the while
+creating the mutation
+and this is the actual standard so you
+can see clearly i don t want to confuse
+any of you guys
+it s different from the query so it s
+actually you re using square brackets
+and to get the arrow you need to put a
+curly braces
+when with a query if i come here to get
+users it s not square brackets it s
+curly braces
+and you just put the variables like this
+i have no idea why they
+made it different um but i m not gonna
+like it s just i don t know why they did
+it this way
+but now that we have the create user
+function create user is a function that
+we can just use and pass in arguments
+and it s automatically going to make the
+api call so
+let s come over here inside of our ad
+user we want to call create user
+and create user very simply you re just
+going to pass the object containing
+the variables that you want to insert
+but
+it also needs to first grab a it needs
+to have an argument called variables
+and then the variables that we want to
+insert needs to be inside of this
+variables argument so it s an object
+containing one
+one property called variables and this
+variables property contains an object
+containing all the data that we want to
+send i know that seems a bit confusing
+but as you work on it you ll definitely
+get it
+so the variables we want to send is
+first name
+and we want to give it the value for our
+input called first name and then we want
+to send
+last name which is going to be last name
+then email which is going to be email
+and password which is going to be
+password so we re just passing
+exactly the format of our create user
+variables and we re passing the
+values for our inputs which are our
+states over here that i created
+outside of the video because it s not
+important for this video so
+now that we have this we might also want
+to check to see if there was any errors
+so to check error very simply you can
+just say if
+error right if error if there was any
+errors i want to
+print out console log error i don t
+think there s going to be any errors but
+this is the idea right
+and now that we have this done we can
+actually test to see if our mutation is
+working
+so let s come over here um i m going to
+open my inspect i m going to refresh
+this
+i don t know if there s going to yeah
+there s no console log but i just want
+to open up if there is any errors we can
+check it immediately
+but you can see clearly that when i run
+the get users query
+a bunch of users appear here to the
+right and the last user is called
+adrian s of id a thousand now let s try
+to run
+and create a user here so i m gonna
+create this right here
+um my shadow and i m actually gonna put
+a random email
+at gmail com and the password is gonna
+be
+
+okay this is the information we put
+right when i click create user
+we don t get anything like immediately
+because you can obviously do that
+uh later like what you want to what you
+want it to happen when you create a user
+but if we come here to our network tab
+you can see that
+there was a graphql request made as you
+can see it says graphql
+and it was actually a mutation which
+basically just sends the data and it
+says that the status was 200 so let s
+check if that worked
+let s come here to our graphical and and
+get all users again and see
+if we actually have a new user in our
+data let s refresh this
+if i go to the last element you can see
+clearly that now there s a a user
+of idea a thousand one called pedro and
+hiki
+uh his email is adsd whatever we put and
+the password is subscribe so
+this is the idea we can add how many
+users we want we re making the request
+we didn t get any errors
+and this is the basic idea of making a
+mutation work
+so that s basically it i really hope you
+guys enjoyed this video because
+it was actually a hassle to make this
+video because i know it s pretty long
+teaching apollo client and teaching how
+to work with graphql is really hard in
+the beginning
+and i m currently in the midst of like
+so much work that s why i actually
+didn t post yesterday
+but i really hope you guys enjoyed this
+video
+if you enjoyed it please leave a like
+comment down below uh comment down below
+when you add questions you guys
+ask because if you look at my channel i
+enter every single comment i try to help
+everyone
+i have a discord where i help a lot of
+people so if you re interested in that
+the link is in the description
+subscribe because i m posting every

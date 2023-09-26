@@ -1,0 +1,199 @@
+Music
+I m sure you have used JWT many times
+but have you ever think about what it is
+even though you have not used it maybe
+you have heard about JWT and in this
+episode we are going to see what is JWT
+what it can do how it can be created
+what the structure of JWT and all these
+things that means the JWT explained so
+with that I m your host started and this
+is a channel where I talk about web
+development related things like lateral
+views ears react angular and much more
+exciting thing so if you are new to this
+channel don t for word subscribe and
+like with tombs on Facebook Twitter and
+Instagram so let s start this video to
+know more about JWT but first thing
+first what the JSON web token JWT is
+it s an open standard open a standard
+this means anyone can use it and why it
+is used it is used to securely transfer
+information between any two bodies and
+two bodies that means any two users any
+two server any two bodies okay and why
+it is used because it is digitally
+signed this means information is
+verified and trusted there is no
+alteration of data in between the
+transfer so that s why it is displace
+find and then comes the most important
+part which is compact it is so compact
+that you can just send it why I do RL as
+get requests then you can send this as a
+post request as a HTTP header and in
+that way it s supremely fast that fast
+transmission makes JWT more usable and
+that s why it is easily used it is self
+contained and what that self contained
+means it means if that token that means
+the jadibooti token itself contained the
+information about the user and this
+avoid querying the database more than
+once suppose you have logged in or
+user your user just logged in one time
+you verify the information like username
+password then you just provide a token
+so every other time the user going to
+request something from your website you
+don t have to log in you just have to
+pass that token and then GWT system will
+just verify that token and if that
+passes give the information or respond
+to that request that s the case of self
+contained a single token is having
+everything in it but why GWT is useful
+GWT is useful in case of authentication
+as I have just explained you it is used
+for exchanging information between any
+two bodies as we have discussed okay but
+what a JSON web token structure will
+look like you can see we have three
+parts the a part the B part and the C
+parts the a part is actually the header
+header part then we have concatenated
+the B part which is called payload and
+again the last one is the signature
+let s first understand header and then
+we will proceed
+so what header includes header will look
+like this it s a JSON object simple and
+it includes two fields and one is a LG
+simply algorithm algorithm like H Mac
+sha 256 RSA this means this a LG will
+tell the JWT that in which algorithm it
+is encoded then comes Eve IP that means
+the type type of web token which is
+simply JWT
+this jason and this header jason is then
+base64 encoded to form the first part we
+have seen let s see this the first part
+the a part we have here and this a part
+then encoded in the form of base64 to
+form the first part the a part okay then
+comes the payload payload again have a
+structure itself JSON object simply and
+it contains the claims
+I earn forth claims claims are the user
+detail or additional metadata like
+expiry date of the token is that admin
+or not other things then payload itself
+then base64 encoded to form the second
+part the be part of the JWT then comes
+the most important part which is
+signature five year using signature we
+told the GWT that in the header yeah we
+are going to use this kind of token and
+you have to encode this with this time
+of algorithm then we have told the GWT
+that these are the fields I am going to
+pass these are the things which you
+self contained
+but how we will ensure that this data
+will not change while transferring to
+one body to other body so here comes the
+signature signature uses base64 header
+then concatenate with base64 version of
+payload and all these things then etch
+Mac sha 256 encoded this contain base64
+header base64 payload with a secret and
+this important thing because if someone
+even changed the payload he don t know
+about the secret and then this signature
+will not exactly the same with the
+original payload and if you are confused
+I will show you this in just a moment
+this provide the signature provide more
+security
+so after combining all these three
+things we get our GWT combined with a
+dot the first one the base64 version of
+header then the second one base64
+version of payload then the third one
+base64 of header dot base64 of payload
+then secret all these things ashmac
+sha 256 encoded to form the signature
+this last one so this is actually the
+GWT and let s explain this you have a
+browser and you have a
+then from the browser you send a post
+request to the server with the
+credential like the username and
+password then server catch that verified
+that authenticate that and if everything
+good JWT
+is generated with a secret and then that
+passed back to the browser if we get a
+successful JWT then we will send the GWT
+on the header on the post request on URL
+to access some protected resources on
+our website then on the server first we
+check about the GWT if GWT signature
+matches with the signature we have
+defined then it is you the information
+that everything is good and you can
+access this protected field and respond
+to the client if signature doesn t
+matter it will just say an authenticated
+so these are the things you have to
+learn about JWT
+but let s go to this GWT dot IO website
+and let s see what will going to happen
+if we change something on this website
+so we have this GWT all these things
+this is the header part the payload and
+the secret but what if I alter this if I
+remove this mind you can see it says
+invalid signature that s good because we
+have changed and coded part but what if
+in between the transmission someone
+changed the payload and then he put that
+base encoded part of the new payload
+here so let s just copy this one from
+here go to new tab and I will say base64
+encode online go here on the encode part
+I will paste that and instead of true I
+will say false
+and let s encode it copy this encode
+part base64 and
+now let s see here signature is verified
+because everything is good this
+signature is created with admin as a
+true but if I change this payload base64
+it become false but now it says invalid
+because signature is created with admin
+as a true and new payload has admin as a
+false this means signature is not
+verified with the payload so now let s
+play with secret we have done changes in
+the payload so if I d say a true
+signature verified but what I gave wrong
+secret so if I remove T you can see even
+though payload is correct
+the signature doesn t match is this
+means this time I have changed the
+signature so if I give single till at
+last you can see signature verifies and
+this is the cool part of using GWT and
+in that way GWT simply works so let me
+know what you think about GWT whether
+you are using it whether you are not
+using it whatever thing just comment
+below on this video so that everyone s
+so so that we have a healthy discussion
+on the JWT if you have any doubt feel
+free to message me commit me on Facebook
+Twitter and Instagram you can email me
+and don t forget to subscribe like bit
+films on Facebook Twitter and Instagram

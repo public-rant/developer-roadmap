@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://docs.sentry.io/ > $(basename https://docs.sentry.io/).txt

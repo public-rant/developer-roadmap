@@ -1,0 +1,518 @@
+   #[https://www.backblaze.com/blog/feed/]Backblaze Blog | Cloud Storage &
+   Cloud Backup » Feed
+   [https://www.backblaze.com/blog/comments/feed/]Backblaze Blog | Cloud
+   Storage & Cloud Backup » Comments Feed
+   [https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-t
+   hreads/feed/]Backblaze Blog | Cloud Storage & Cloud Backup » What’s the
+   Diff: Programs, Processes, and Threads Comments Feed
+   [https://www.backblaze.com/blog/wp-json/wp/v2/posts/76462]alternate
+   [https://www.backblaze.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2
+   F%2Fwww.backblaze.com%2Fblog%2Fwhats-the-diff-programs-processes-and-th
+   reads%2F]alternate
+   [https://www.backblaze.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2
+   F%2Fwww.backblaze.com%2Fblog%2Fwhats-the-diff-programs-processes-and-th
+   reads%2F&format=xml]alternate
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-N9N283]https://www.goo
+   gletagmanager.com/ns.html?id=GTM-N9N283
+
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/#mai-toggle]Menu
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/#genesis-nav-header-right]Skip to right header
+       navigation
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/#genesis-nav-primary]Skip to primary navigation
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/#genesis-content]Skip to main content
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/#genesis-sidebar-primary]Skip to primary sidebar
+
+   [https://www.backblaze.com/]Backblaze Blog | Cloud Storage & Cloud
+   Backup
+
+   Cloud Storage & Cloud Backup
+
+     * [https://www.backblaze.com/cloud-backup.html]Personal Backup
+     * [https://www.backblaze.com/business-backup.html]Business Backup
+     * [https://www.backblaze.com/b2/cloud-storage.html]B2 Cloud Storage
+     * [https://www.backblaze.com/blog/]Blog
+     * [https://www.backblaze.com/help.html]Help
+     * [https://secure.backblaze.com/user_signin.htm]Sign In
+
+   Search the blog ____________________ Search
+     * [https://www.backblaze.com/]Backblaze Home
+     * [https://www.backblaze.com/blog/]Blog Home
+     * [https://www.backblaze.com/blog/category/cloud-storage/]Cloud
+       Storage
+     * [https://www.backblaze.com/blog/category/entrepreneurship/]Business
+       Lab
+     * [https://www.backblaze.com/blog/category/backing-up/]Backing Up
+     * [https://www.backblaze.com/blog/category/backblaze-bits/]Backblaze
+       Bits
+
+     * [https://www.backblaze.com/blog/]All
+     * [https://www.backblaze.com/blog/category/cloud-storage/]Cloud
+       Storage
+     * [https://www.backblaze.com/blog/category/entrepreneurship/]Business
+       Lab
+     * [https://www.backblaze.com/blog/category/backing-up/]Backing Up
+     * [https://www.backblaze.com/blog/category/backblaze-bits/]Backblaze
+       Bits
+     * [https://www.backblaze.com/blog/whats-the-diff-programs-processes-a
+       nd-threads/]Search
+
+What’s the Diff: Programs, Processes, and Threads
+
+   November 23, 2022 by
+   [https://www.backblaze.com/blog/author/molly/]Molly Clancy //
+   [https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-t
+   hreads/#comments]38 Comments
+
+   Editor’s Note:
+   This post has been updated since it was originally published in 2017.
+
+   You probably know that computers run programs, but what does that mean?
+   If you’ve ever opened the Task Manager in Windows to fix a problem, you
+   might have seen another term: processes. There’s a related
+   term—threads—that is commonly used as well. At this point, you might
+   wonder if understanding these terms really matters.
+
+   Here’s the deal: You likely use a computer for hours every day. If you
+   care about having a fast, efficient computer, it is worth taking the
+   time to understand the difference between programs, processes, and
+   threads. You’ll encounter variations on these terms whenever you look
+   at the Activity Monitor on a Mac, the Task Manager on Windows, or Top
+   on Linux. With a little knowledge, you can skillfully use these tools
+   to quickly diagnose computer programs and come up with solutions, like
+   knowing if you need to install more memory for better performance.
+
+   The first step is taking a few minutes to understand the three related
+   concepts: programs, processes, and threads. This post will introduce
+   you to the general concepts. Each operating system may use slightly
+   different terms to refer to each of these ideas. Don’t worry—there will
+   be screenshots to walk you through everything.
+
+Programs
+
+   A program is the code that is stored on your computer that can complete
+   a certain task. There are many types of programs, including programs
+   built into the operating system and ones to complete specific tasks.
+   Generally, task-specific programs are called applications (or apps).
+   For example, you are probably reading this post using a web browser
+   application. Other common applications include email clients, word
+   processors, and games.
+   C# example of program code.
+
+   Programs are typically stored on a disk or in nonvolatile memory in
+   executable format. Let’s break that down to understand why.
+
+   In this context, we’ll talk about your computer having two types of
+   memory: volatile and nonvolatile. Volatile memory is temporary and
+   processes in real time. It’s faster, easily accessible, and increases
+   the efficiency of your computer. However, it’s not permanent. When your
+   computer turns off, this type of memory resets.
+
+   Nonvolatile memory, on the other hand, is permanent unless deleted.
+   While it’s slower to access, it can store more information. So, that
+   makes it a better place to store programs. A file in an executable
+   format is simply one that runs a program. It can be run directly by
+   your CPU (that’s your processor). Examples of these file types are .EXE
+   in Windows and .APP in Mac.
+
+   Many programs are written in a compiled language and created using
+   programming languages like C, C++, C#. The end result is a text file of
+   code that is compiled into binary form (ones and zeros) in order to run
+   on the computer. The text file speaks directly to your computer. While
+   they’re typically fast, they are also fixed compared to interpreted
+   programs. That has positives and negatives: You have more control over
+   things like memory management, but you’re platform dependent and, if
+   you have to change something in your code, it typically takes longer to
+   build and test.
+
+   There is another kind of program called interpreted. They require an
+   additional program to take your program instructions and translate that
+   to code for your computer. Compared with compiled languages, these
+   types of programs are platform-independent (you just have to find a
+   different interpreter, instead of writing a whole new program) and they
+   typically take up less space. Some of the most common interpreted
+   programming languages are Python, PHP, JavaScript, and Ruby.
+   Perhaps you’ve heard the programmer’s joke, “There are only 10 types of
+   people in the world, those who understand binary, and those who don’t.”
+
+   Ultimately, both kinds of programs are run and loaded into memory in
+   binary form. Programs have to run in binary because your computer’s
+   central processing unit (CPU) understands only binary instructions.
+
+   Binary is the native language of computers. At their most basic level,
+   computers use only two states of electrical current–on and off. The on
+   state is represented by 1 and the off state is represented by 0. Binary
+   is different from the number system—base 10—that we use in daily life.
+   In base 10, each digit position can be anything from 0 to 9. In the
+   binary system, also known as base 2, each position is either a 0 or a
+   1.
+
+   Once a program has been loaded into memory in binary form, what happens
+   next?
+
+   Your executing program needs resources from the operating system and
+   memory to run. Without these resources, you can’t use the program. When
+   a program is loaded into memory along with all the resources it needs
+   to operate, it is called a process.
+
+   Fortunately, your operating system manages the work of allocating
+   resources to your programs automatically. Whether you use Microsoft
+   Windows, macOS, Linux, Android, or something else, your operating
+   system is always hard at work directing your computer’s resources
+   needed to turn your program into a running process.
+
+   In addition, there are a few essential resources that every process
+   needs.
+     * Register. Think of a register as a holding pen that contains data
+       that may be needed by a process like instructions, storage
+       addresses, or other data.
+     * Program counter. Also known as an instruction pointer, the program
+       counter plays an organizational role. It keeps track of where a
+       computer is in its program sequence.
+     * Stack. A stack is a data structure that stores information about
+       the active subroutines of a computer program. It is used as scratch
+       space for the process. It is distinguished from dynamically
+       allocated memory for the process that is known as the “heap.”
+
+A Computer Process
+
+   You might have multiple instances of a single program. In that
+   situation, each instance of that running program is a process. Each
+   process has a separate memory address space. That separate memory
+   address is helpful because it means that a process runs independently
+   and is isolated from other processes. However, processes cannot
+   directly access shared data in other processes. Switching from one
+   process to another requires some amount of time (relatively speaking)
+   for saving and loading registers, memory maps, and other resources.
+   The main components of a computer process.
+
+   Having independent processes matters for users because it means one
+   process won’t corrupt or wreak havoc on other processes. If a single
+   process has a problem, you can close that program and keep using your
+   computer. Practically, that means you can end a malfunctioning program
+   and keep working with minimal disruptions.
+
+How Threads Work
+
+   The final piece of the puzzle is threads. Stick with us here—you nearly
+   have the full picture of how computer programs work and how they use
+   your computer’s resources.
+
+   A thread is the unit of execution within a process. A process can have
+   anywhere from one thread to many.
+
+Process vs. Thread
+
+   The difference between process and threads.
+
+   When a process starts, it receives an assignment of memory and other
+   computing resources. Each thread in the process shares that memory and
+   resources. With single-threaded processes, the process contains one
+   thread.
+   The difference between single thread and multi-thread processes.
+
+   In multi-threaded processes, the process contains more than one thread,
+   and the process is accomplishing a number of things at the same time
+   (to be more accurate, we should say “virtually” the same time—you can
+   read more about that in the section below on concurrency).
+
+   Earlier, we talked about the stack and the heap, the two kinds of
+   memory available to a thread or process. Distinguishing between these
+   kinds of memory matters because each thread will have its own stack.
+   However, all the threads in a process will share the heap.
+
+   Some people call threads lightweight processes because they have their
+   own stack but can access shared data. Since threads share the same
+   address space as the process and other threads within the process, it
+   is easy to communicate between the threads. The disadvantage is that
+   one malfunctioning thread in a process can impact the viability of the
+   process itself.
+
+How Threads and Processes Work Step By Step
+
+   In review, here’s what we’ve learned about threads and processes.
+   Here’s what happens when you open an application on your computer.
+    1. The program starts out as a text file of programming code.
+    2. The program is compiled or interpreted into binary form.
+    3. The program is loaded into memory.
+    4. The program becomes one or more running processes. Processes are
+       typically independent of one another.
+    5. Threads exist as the subset of a process.
+    6. Threads can communicate with each other more easily than processes
+       can.
+    7. Threads are more vulnerable to problems caused by other threads in
+       the same process.
+
+Processes vs. Threads: Advantages and Disadvantages
+
+   Processes Threads
+   Processes are heavyweight operations. Threads are lighter-weight
+   operations.
+   Each process has its own memory space. Threads use the memory of the
+   process they belong to.
+   Inter-process communication is slow as processes have different memory
+   addresses. Inter-thread communication can be faster than inter-process
+   communication because threads of the same process share memory with the
+   process they belong to.
+   Context switching between processes is more expensive. Context
+   switching between threads of the same process is less expensive.
+   Processes don’t share memory with other processes. Threads share memory
+   with other threads of the same process.
+
+What About Concurrency and Parallelism?
+
+   A question you might ask is whether processes or threads can run at the
+   same time. The answer is: It depends. On a system with multiple
+   processors or CPU cores (as is common with modern processors), multiple
+   processes or threads can be executed in parallel. On a single
+   processor, though, it is not possible to have processes or threads
+   truly executing at the same time. In this case, the CPU is shared among
+   running processes or threads using a process scheduling algorithm that
+   divides the CPU’s time and yields the illusion of parallel execution.
+   The time given to each task is called a “time slice.” The switching
+   back and forth between tasks happens so fast it is usually not
+   perceptible. The terms, “parallelism” (genuine simultaneous execution)
+   and “concurrency” (interleaving of processes in time to give the
+   appearance of simultaneous execution), distinguish between the two
+   types of real or approximate simultaneous operation.
+
+How Google Chrome Uses Processes and Threads
+
+   To illustrate the impact of processes and threads, let’s consider a
+   real-world example with a program that many of us use, Google Chrome.
+   By several measures, it is one of the most popular web browsers on the
+   market today.
+
+   When Google designed the Chrome browser, they faced several important
+   decisions. For instance, how should Chrome handle the fact that many
+   different tasks often happen at the same time when using a browser?
+   Every browser window (or tab) may communicate with several servers on
+   the internet to download audio, video, text, and other resources. In
+   addition, many users have 10 to 20 browser tabs or more open most of
+   the time, and each of these tabs may perform multiple tasks.
+
+   Google had to decide how to handle all of these tasks. They chose to
+   run each browser window in Chrome as a separate process rather than a
+   thread or many threads. That approach brought several benefits.
+     * Running each window as a process protects the overall application
+       from bugs and glitches.
+     * Isolating a JavaScript program in a process prevents it from using
+       too much CPU time and memory and making the entire browser
+       unresponsive.
+
+   That said, there is a trade-off cost to Google’s design decision.
+   Starting a new process for each browser window has a higher fixed cost
+   in memory and resources compared to using threads. They were betting
+   that their approach would end up with less memory bloat overall.
+
+   Using processes instead of threads provides better memory usage when
+   memory is low. In practice, an inactive browser window is treated as a
+   lower priority. That means the operating system may swap it to disk
+   when memory is needed for other processes. If the windows were
+   threaded, it would be more difficult to allocate memory efficiency
+   which ultimately leads to lost computer performance.
+
+   For more insights on Google’s design decisions for Chrome on Google’s
+   [https://blog.chromium.org/2008/09/multi-process-architecture.html]Chro
+   mium Blog or on the
+   [https://www.google.com/googlebooks/chrome/med_00.html]Chrome
+   Introduction Comic.
+
+   The screen capture below shows the Google Chrome processes running on a
+   MacBook Air with many tabs open. You can see that some Chrome processes
+   are using a fair amount of CPU time and resources (e.g., the one at the
+   top is using 40 threads) while others are using very little (e.g., one
+   is using just five threads).
+   Mac Activity Monitor displaying Google Chrome threads.
+
+   The Activity Monitor on the Mac (or Task Manager in Windows) on your
+   system can be a valuable ally in fine-tuning your computer or
+   troubleshooting problems. If your computer is running slowly or a
+   program or browser window isn’t responding for a while, you can check
+   its status using the system monitor.
+
+   In some cases, you’ll see a process marked as “Not Responding.” Try
+   quitting that process and see if your system runs better. If an
+   application is a memory hog, you might consider choosing a different
+   application that will accomplish the same task.
+   Windows Task Manager showing unresponsive applications.
+
+Made It This Far?
+
+   We hope this [https://en.wikipedia.org/wiki/Tron]Tron-like dive into
+   the fascinating world of computer programs, processes, and threads has
+   cleared up some questions.
+
+   At the start, we promised clarity on using these terms to improve
+   performance. You can use Activity Monitor on the Mac or Task Manager on
+   Windows to close applications and processes that are malfunctioning.
+   That’s beneficial because it means you can end a malfunctioning program
+   without the hassle of turning off your computer.
+
+   Still have questions? We’d love to hear from you in the comments.
+
+   Hungry for more learning?
+
+   Now that you know how computer memory works in detail, it’s time to
+   take a closer look at storage. Let’s start with a crucial practical
+   question: How long do disk drives last? When you understand how long
+   drives last, you can make better decisions about when to upgrade or
+   replace your technology.
+   [https://www.backblaze.com/blog/how-long-do-disk-drives-last/]Read on
+   to learn more.
+   print
+
+   Category:
+   [https://www.backblaze.com/blog/category/featured-1/]Featured,
+   [https://www.backblaze.com/blog/category/backblaze-bits/whats-the-diff/
+   ]What's the Diff?Tag:
+   [https://www.backblaze.com/blog/tag/businessbackup/]BusinessBackup,
+   [https://www.backblaze.com/blog/tag/developer/]Developer
+
+   [ClancyMolly_Headshot_reduced.png]
+
+About [https://www.backblaze.com/blog/author/molly/]Molly Clancy
+
+   Molly Clancy is a content writer who specializes in explaining tech
+   concepts in an easy, approachable way. With more than 15 years of
+   experience, she has a broad background in industries ranging from B2B
+   tech to engineering to luxury travel. A deep curiosity drives her
+   repeated success explaining what terms like OS kernel and preflight
+   request mean so that anyone can understand them.
+
+Share
+
+   [https://www.addtoany.com/share]
+
+Recent Posts You Might Find of Interest
+
+   [https://www.backblaze.com/blog/backblaze-shareholders-eliminate-dual-c
+   lass-share-structure/]Backblaze Stockholders Approve Plan to Eliminate
+   Dual-Class Share Structure
+
+[https://www.backblaze.com/blog/backblaze-shareholders-eliminate-dual-class-s
+hare-structure/]Backblaze Shareholders Eliminate Dual-Class Share Structure
+
+   [https://www.backblaze.com/blog/things-might-look-a-little-different-ar
+   ound-here-technical-documentation-gets-an-upgrade/]A decorative image
+   of a computer displaying the title Introducing the New Backblaze B2
+   Cloud Storage Documentation Portal.
+
+[https://www.backblaze.com/blog/things-might-look-a-little-different-around-h
+ere-technical-documentation-gets-an-upgrade/]Things Might Look a Little
+Different Around Here: Technical Documentation Gets an Upgrade
+
+   [https://www.backblaze.com/blog/fire-works-or-does-it-how-to-destroy-yo
+   ur-drives/]A decorative image that shows a hammer smashing a hard
+   drive.
+
+[https://www.backblaze.com/blog/fire-works-or-does-it-how-to-destroy-your-dri
+ves/]Fire Works (or Does It?): How to Destroy Your Drives
+
+   [https://www.backblaze.com/blog/ai-101-how-cognitive-science-and-comput
+   er-processors-create-artificial-intelligence/]A decorative image with
+   three concentric circles. The smallest says "deep learning;" the medium
+   says "machine learning;" the largest says "artificial intelligence."
+
+[https://www.backblaze.com/blog/ai-101-how-cognitive-science-and-computer-pro
+cessors-create-artificial-intelligence/]AI 101: How Cognitive Science and
+Computer Processors Create Artificial Intelligence
+
+   [https://www.backblaze.com/blog/discover-the-secret-to-lightning-fast-b
+   ig-data-analytics-backblaze-vultr-beats-amazon-s3-ec2-by-39/]A
+   decorative image showing the Vultr and Backblaze logos on a trophy.
+
+[https://www.backblaze.com/blog/discover-the-secret-to-lightning-fast-big-dat
+a-analytics-backblaze-vultr-beats-amazon-s3-ec2-by-39/]Discover the Secret to
+Lightning-Fast Big Data Analytics: Backblaze + Vultr Beats Amazon S3/EC2 by
+39%
+
+   [https://www.backblaze.com/blog/1700-attacks-in-three-years-how-lockbit
+   -ransomware-wreaks-havoc/]A decorative image displaying the words
+   Ransomware Updates: LockBit Q2 2023.
+
+[https://www.backblaze.com/blog/1700-attacks-in-three-years-how-lockbit-ranso
+mware-wreaks-havoc/]1,700 Attacks in Three Years: How LockBit Ransomware
+Wreaks Havoc
+
+   [https://www.backblaze.com/blog/nas-raid-levels-explained-choosing-the-
+   right-level-to-protect-your-nas-data/]A decorative image showing a NAS
+   device connected to disk drives.
+
+[https://www.backblaze.com/blog/nas-raid-levels-explained-choosing-the-right-
+level-to-protect-your-nas-data/]NAS RAID Levels Explained: Choosing The Right
+Level To Protect Your NAS Data
+
+   [https://www.backblaze.com/blog/nvme-vs-m-2-drives/]What’s the Diff:
+   SSD vs. NVMe vs. M.2 Drives
+
+[https://www.backblaze.com/blog/nvme-vs-m-2-drives/]What’s the Diff: SSD vs.
+NVMe vs. M.2 Drives
+
+   [https://www.backblaze.com/blog/making-sense-of-ssd-smart-stats/]
+
+[https://www.backblaze.com/blog/making-sense-of-ssd-smart-stats/]Making Sense
+of SSD SMART Stats
+
+   [https://www.backblaze.com/blog/the-power-of-specialized-cloud-provider
+   s-a-game-changer-for-saas-companies/]A decorative image showing a cloud
+   with the Backblaze logo, then logos hanging off it it for Vultr,
+   Fastly, Equinix metal, Terraform, and rclone.
+
+[https://www.backblaze.com/blog/the-power-of-specialized-cloud-providers-a-ga
+me-changer-for-saas-companies/]The Power of Specialized Cloud Providers: A
+Game Changer for SaaS Companies
+
+   [https://www.backblaze.com/blog/how-to-choose-the-right-enterprise-nas-
+   for-your-business/]A decorative image showing a building, a storage
+   cloud, and a NAS device.
+
+[https://www.backblaze.com/blog/how-to-choose-the-right-enterprise-nas-for-yo
+ur-business/]How to Choose the Right Enterprise NAS for Your Business
+
+   [https://www.backblaze.com/blog/from-response-to-recovery-developing-a-
+   cyber-resilience-framework/]A decorative image showing a globe icon
+   surrounded by a search icon, a backup icon, a cog, a shield with a
+   checkmark, and a checklist.
+
+[https://www.backblaze.com/blog/from-response-to-recovery-developing-a-cyber-
+resilience-framework/]From Response to Recovery: Developing a Cyber
+Resilience Framework
+
+   [https://www.backblaze.com/blog/holiday-gift-guide-2022/]Previous Post:
+   « Holiday Gift Guide 2022
+   [https://www.backblaze.com/blog/happy-thanksgiving-from-backblaze/]Next
+   Post: Happy Thanksgiving from Backblaze »
+
+Primary Sidebar
+
+Related Posts
+
+   [https://www.backblaze.com/blog/how-reliable-are-ssds/]A decorative
+   image of a solid state drive with a question mark on top. A title reads
+   How Reliable Are SSDs?
+   SSD 101: How Reliable are SSDs? March 30, 2023
+   [https://www.backblaze.com/blog/discover-the-secret-to-lightning-fast-b
+   ig-data-analytics-backblaze-vultr-beats-amazon-s3-ec2-by-39/]A
+   decorative image showing the Vultr and Backblaze logos on a trophy.
+   Discover the Secret to Lightning-Fast Big Data Analytics: Backblaze +
+   Vultr Beats Amazon S3/EC2 by 39% June 27, 2023
+   [https://www.backblaze.com/blog/announcing-instant-business-recovery-a-
+   joint-solution-by-continuity-centers/]
+   Announcing Instant Business Recovery, a Joint Solution by Continuity
+   Centers May 22, 2023
+   [https://www.backblaze.com/blog/how-to-choose-the-right-enterprise-nas-
+   for-your-business/]A decorative image showing a building, a storage
+   cloud, and a NAS device.
+   How to Choose the Right Enterprise NAS for Your Business June 8, 2023
+
+   [https://www.addtoany.com/share]
+
+   [https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-t
+   hreads/]Top

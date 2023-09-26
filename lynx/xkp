@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://howhttps.works/ > $(basename https://howhttps.works/).txt

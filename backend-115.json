@@ -1,0 +1,107 @@
+[
+ {
+  "id": "twelve-factor-apps",
+  "tag": "h1",
+  "text": "Twelve-Factor Apps"
+ },
+ {
+  "id": "microservices",
+  "tag": "h1",
+  "text": "Microservices"
+ },
+ {
+  "id": "serverless",
+  "tag": "h1",
+  "text": "Serverless"
+ },
+ {
+  "id": "architectural-patterns",
+  "tag": "h1",
+  "text": "Architectural Patterns"
+ },
+ {
+  "id": "soa",
+  "tag": "h1",
+  "text": "SOA"
+ },
+ {
+  "id": "monolithic-apps",
+  "tag": "h1",
+  "text": "Monolithic Apps"
+ },
+ {
+  "id": "service-mesh",
+  "tag": "h1",
+  "text": "Service Mesh"
+ },
+ {
+  "href": "https://12factor.net/",
+  "tag": "a",
+  "text": "The Twelve-Factor App"
+ },
+ {
+  "href": "https://microservices.io/patterns/microservices.html",
+  "tag": "a",
+  "text": "Pattern: Microservice Architecture"
+ },
+ {
+  "href": "https://smartbear.com/solutions/microservices/",
+  "tag": "a",
+  "text": "What is Microservices?"
+ },
+ {
+  "href": "https://thenewstack.io/microservices-101/",
+  "tag": "a",
+  "text": "Microservices 101"
+ },
+ {
+  "href": "https://thenewstack.io/primer-microservices-explained/",
+  "tag": "a",
+  "text": "Primer: Microservices Explained"
+ },
+ {
+  "href": "https://thenewstack.io/category/microservices/",
+  "tag": "a",
+  "text": "Articles about Microservices"
+ },
+ {
+  "href": "https://www.ibm.com/cloud/learn/serverless",
+  "tag": "a",
+  "text": "Serverless"
+ },
+ {
+  "href": "https://aws.amazon.com/serverless/",
+  "tag": "a",
+  "text": "AWS Services"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=W_VV2Fx32_Y\u0026amp;ab_channel=Fireship",
+  "tag": "a",
+  "text": "Serverless Computing in 100 Seconds"
+ },
+ {
+  "href": "https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013",
+  "tag": "a",
+  "text": "Architectural Patterns in a nutshell"
+ },
+ {
+  "href": "http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/soa-ra.html",
+  "tag": "a",
+  "text": "Reference Architecture Foundation for Service Oriented Architecture"
+ },
+ {
+  "href": "https://microservices.io/patterns/monolithic.html",
+  "tag": "a",
+  "text": "Pattern: Monolithic Architecture"
+ },
+ {
+  "href": "https://datamify.medium.com/monolithic-architecture-advantages-and-disadvantages-e71a603eec89",
+  "tag": "a",
+  "text": "Monolithic Architecture - Advantages \u0026amp; Disadvantages"
+ },
+ {
+  "href": "https://www.nginx.com/blog/what-is-a-service-mesh/",
+  "tag": "a",
+  "text": "What is a Service Mesh?"
+ }
+]

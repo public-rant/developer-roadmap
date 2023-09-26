@@ -1,0 +1,227 @@
+[
+ {
+  "id": "owasp-security-risks",
+  "tag": "h1",
+  "text": "OWASP Security Risks"
+ },
+ {
+  "id": "ssltls",
+  "tag": "h1",
+  "text": "SSL/TLS"
+ },
+ {
+  "id": "content-security-policy",
+  "tag": "h1",
+  "text": "Content Security Policy"
+ },
+ {
+  "id": "https",
+  "tag": "h1",
+  "text": "HTTPS"
+ },
+ {
+  "id": "server-security",
+  "tag": "h1",
+  "text": "Server Security"
+ },
+ {
+  "id": "bcrypt",
+  "tag": "h1",
+  "text": "Bcrypt"
+ },
+ {
+  "id": "sha-family",
+  "tag": "h1",
+  "text": "SHA family"
+ },
+ {
+  "id": "web-security-knowledge",
+  "tag": "h1",
+  "text": "Web Security Knowledge"
+ },
+ {
+  "id": "md5",
+  "tag": "h1",
+  "text": "MD5"
+ },
+ {
+  "id": "scrypt",
+  "tag": "h1",
+  "text": "Scrypt"
+ },
+ {
+  "id": "cors",
+  "tag": "h1",
+  "text": "Cors"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/OWASP",
+  "tag": "a",
+  "text": "Wikipedia - OWASP"
+ },
+ {
+  "href": "https://github.com/OWASP/ASVS",
+  "tag": "a",
+  "text": "OWASP Application Security Verification Standard"
+ },
+ {
+  "href": "https://cheatsheetseries.owasp.org/IndexTopTen.html",
+  "tag": "a",
+  "text": "OWASP Top 10 Security Risks"
+ },
+ {
+  "href": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html",
+  "tag": "a",
+  "text": "OWASP Cheatsheets"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+  "tag": "a",
+  "text": "Wikipedia - SSL/TLS"
+ },
+ {
+  "href": "https://www.cloudflare.com/learning/ssl/what-is-ssl/",
+  "tag": "a",
+  "text": "Cloudflare - What is SSL?"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+  "tag": "a",
+  "text": "MDN — Content Security Policy (CSP)"
+ },
+ {
+  "href": "https://developers.google.com/web/fundamentals/security/csp",
+  "tag": "a",
+  "text": "Google Devs — Content Security Policy (CSP)"
+ },
+ {
+  "href": "https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/",
+  "tag": "a",
+  "text": "What is HTTPS?"
+ },
+ {
+  "href": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https",
+  "tag": "a",
+  "text": "Why HTTPS Matters"
+ },
+ {
+  "href": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https",
+  "tag": "a",
+  "text": "Enabling HTTPS on Your Servers"
+ },
+ {
+  "href": "https://howhttps.works/",
+  "tag": "a",
+  "text": "How HTTPS works (comic)"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=hExRDVZHhig",
+  "tag": "a",
+  "text": "SSL, TLS, HTTP, HTTPS Explained"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=GoXgl9r0Kjk",
+  "tag": "a",
+  "text": "HTTPS — Stories from the field"
+ },
+ {
+  "href": "https://baida.dev/articles/https-explained-with-carrier-pigeons",
+  "tag": "a",
+  "text": "HTTPS explained with carrier pigeons"
+ },
+ {
+  "href": "https://www.npmjs.com/package/bcrypt",
+  "tag": "a",
+  "text": "bcrypts npm package"
+ },
+ {
+  "href": "https://auth0.com/blog/hashing-in-action-understanding-bcrypt/",
+  "tag": "a",
+  "text": "Understanding bcrypt"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=O6cmuiTBZVs",
+  "tag": "a",
+  "text": "bcrypt explained"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/SHA-1",
+  "tag": "a",
+  "text": "Wikipedia - SHA-1"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/SHA-2",
+  "tag": "a",
+  "text": "Wikipedia - SHA-2"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/SHA-3",
+  "tag": "a",
+  "text": "Wikipedia - SHA-3"
+ },
+ {
+  "href": "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https",
+  "tag": "a",
+  "text": "Why HTTPS Matters"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/OWASP",
+  "tag": "a",
+  "text": "Wikipedia - OWASP"
+ },
+ {
+  "href": "https://github.com/0xRadi/OWASP-Web-Checklist",
+  "tag": "a",
+  "text": "OWASP Web Application Security Testing Checklist"
+ },
+ {
+  "href": "https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/",
+  "tag": "a",
+  "text": "OWASP Top 10 Security Risks"
+ },
+ {
+  "href": "https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html",
+  "tag": "a",
+  "text": "OWASP Cheatsheets"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+  "tag": "a",
+  "text": "Content Security Policy (CSP)"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/MD5",
+  "tag": "a",
+  "text": "Wikipedia - MD5"
+ },
+ {
+  "href": "https://www.techtarget.com/searchsecurity/definition/MD5",
+  "tag": "a",
+  "text": "What is MD5?"
+ },
+ {
+  "href": "https://infosecscout.com/why-md5-is-not-safe/",
+  "tag": "a",
+  "text": "Why is MD5 not safe?"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Scrypt",
+  "tag": "a",
+  "text": "Wikipedia - Scrypt"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+  "tag": "a",
+  "text": "Cross-Origin Resource Sharing (CORS)"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=4KHiSt0oLJ0",
+  "tag": "a",
+  "text": "CORS in 100 Seconds"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=PNtFSVU-YTI",
+  "tag": "a",
+  "text": "CORS in 6 minutes"
+ }
+]

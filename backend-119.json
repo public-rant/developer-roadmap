@@ -1,0 +1,67 @@
+[
+ {
+  "id": "graphql",
+  "tag": "h1",
+  "text": "Graphql"
+ },
+ {
+  "id": "apollo",
+  "tag": "h1",
+  "text": "Apollo"
+ },
+ {
+  "id": "relay-modern",
+  "tag": "h1",
+  "text": "Relay Modern"
+ },
+ {
+  "href": "https://graphql.org/learn/",
+  "tag": "a",
+  "text": "Introduction to GraphQL"
+ },
+ {
+  "href": "https://www.howtographql.com/",
+  "tag": "a",
+  "text": "The Fullstack Tutorial for GraphQL"
+ },
+ {
+  "href": "https://odyssey.apollographql.com/",
+  "tag": "a",
+  "text": "GraphQL Tutorials"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=ed8SzALpx1Q",
+  "tag": "a",
+  "text": "GraphQL Course for Beginners"
+ },
+ {
+  "href": "https://www.apollographql.com",
+  "tag": "a",
+  "text": "Apollo Website"
+ },
+ {
+  "href": "https://www.apollographql.com/docs/",
+  "tag": "a",
+  "text": "Official Docs"
+ },
+ {
+  "href": "https://www.youtube.com/c/ApolloGraphQL/",
+  "tag": "a",
+  "text": "Official YouTube Channel"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=YyUWW04HwKY",
+  "tag": "a",
+  "text": "GraphQL With React Tutorial - Apollo Client"
+ },
+ {
+  "href": "https://relay.dev/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://relay.dev/docs/",
+  "tag": "a",
+  "text": "Introduction to Relay modern"
+ }
+]

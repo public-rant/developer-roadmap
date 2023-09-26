@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://youtu.be/9J1nJOivdyw > $(basename https://youtu.be/9J1nJOivdyw).txt

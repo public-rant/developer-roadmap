@@ -1,0 +1,351 @@
+   #[https://www.codecademy.com/blog.rss]Codecademy Blog
+
+   [https://www.codecademy.com/learn/learn-python#course-landing-page-head
+   ing]Skip to Content
+
+     * Loading menu bar
+
+     * Loading menu bar
+     * (BUTTON) Menu Icon
+
+   Free
+   Course
+
+Learn Python 2
+
+   Learn the basics of the world’s fastest growing and most popular
+   programming language used by software engineers, analysts, data
+   scientists, and machine learning engineers alike.
+   4.2
+   (BUTTON) 9,040 ratings
+   [https://www.codecademy.com/courses/learn-python/lessons/python-syntax]
+   Start
+   1,889,127 learners enrolled
+     * Skill level
+       Beginner
+     * Time to complete
+       Approx. 25 hours
+     * Certificate of completion
+       Included with paid plans
+     * Prerequisites
+       None
+
+About this course
+
+   Python is a general-purpose, versatile and popular programming
+   language. It’s great as a first language because it is concise and easy
+   to read, and it is also a good language to have in any programmer’s
+   stack as it can be used for everything from web development to software
+   development and scientific applications.
+   (BUTTON) Read moreMini Chevron Down Icon
+
+Syllabus
+
+   20 lessons • 9 projects • 9 quizzes
+   (BUTTON) Expand all sections
+     * (BUTTON)
+       1
+
+Python Syntax
+       In this course, learn about the syntax of the Python programming
+       language!
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       2
+
+Strings and Console Output
+       This course will introduce you to strings and console output in
+       Python.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       3
+
+Conditionals and Control Flow
+       Learn how to use conditionals and control flow to create programs
+       that generate different outcomes.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       4
+
+Functions
+       Learn how to create and use functions in Python!
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       5
+
+Lists & Dictionaries
+       In this course, you will learn about the data structures lists and
+       dictionaries.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       6
+
+Student Becomes the Teacher
+       Use what you’ve learned so far to manage your own class.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       7
+
+Lists and Functions
+       Now that you’ve learned about lists, let’s turbo-charge them with
+       functions.
+       Arrow Chevron Down Icon
+
+   (BUTTON) Show all 12 modules
+   [https://www.codecademy.com/courses/learn-python/lessons/python-syntax]
+   Start
+   The platform
+
+Hands-on learning
+
+   Don’t just watch or read about someone else coding — write your own
+   code live in our online, interactive platform. You’ll even get
+   AI-driven recommendations on what you need to review to help keep you
+   on track.
+   Animated demonstration of running code in Codecademy's learning
+   environment
+
+Projects in this course
+
+     * [https://www.codecademy.com/courses/learn-python/projects/tip-calcu
+       lator-project]Project
+
+Tip Calculator
+       In this project, we're going to practice syntax in Python so you
+       can hone your skills and feel confident taking them to the real
+       world. Why? You've done a great job so far on your quest to learn
+       Python. Let's build something to solidify your newfound knowledge.
+     * [https://www.codecademy.com/courses/learn-python/projects/madlibs-1
+       ]Project
+
+Python Mad Libs
+       In this project, we're going to practice inputs and print in Python
+       so you can hone your skills and feel confident taking them to the
+       real world. Why? Being able to take inputs and print results is a
+       key part of programming.
+     * [https://www.codecademy.com/courses/learn-python/projects/area-calc
+       ulator]Project
+
+Area Calculator
+       In this project, we're going to practice functions and conditionals
+       in Python so you can hone your skills and feel confident taking
+       them to the real world. Why? Ever wanted to automate your math
+       homework? Time to build something in Python that does just that.
+
+   Learn Python 2 course ratings and reviews
+   4.2
+   9,040 ratings
+    1. 5 stars
+       51%
+    2. 4 stars
+       31%
+    3. 3 stars
+       11%
+    4. 2 stars
+       3%
+    5. 1 star
+       5%
+
+     * The progress I have made since starting to use codecademy is
+       immense! I can study for short periods or long periods at my own
+       convenience - mostly late in the evenings.
+       Chris
+       Codecademy Learner @ USA
+     * I felt like I learned months in a week. I love how Codecademy uses
+       learning by practice and gives great challenges to help the learner
+       to understand a new concept and subject.
+       Rodrigo
+       Codecademy Learner @ UK
+     * Brilliant learning experience. Very interactive. Literally a game
+       changer if you're learning on your own.
+       John-Andrew
+       Codecademy Learner @ USA
+
+Our learners work at
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Two people in conversation while learning to code with Codecademy on
+   their laptops
+
+Unlock additional features with a paid plan
+
+     *
+
+Practice Projects
+       Guided projects that help you solidify the skills and concepts
+       you're learning.
+     *
+
+Assessments
+       Auto-graded quizzes and immediate feedback help you reinforce your
+       skills as you learn.
+     *
+
+Certificate of Completion
+       Earn a document to prove you've completed a course or path that you
+       can share with your network.
+
+   [https://www.codecademy.com/pricing]See pricing and plans
+
+Join over 50 million learners and start Learn Python 2 today!
+
+   [https://www.codecademy.com/courses/learn-python/lessons/python-syntax]
+   Start
+
+Company
+
+     * [https://www.codecademy.com/about]About
+     * [https://www.codecademy.com/about/careers]Careers
+     * [https://www.codecademy.com/pages/codecademy-affiliate-program]Affi
+       liates
+     *
+          + [https://twitter.com/Codecademy]
+          + [https://codecademy.com/users/redirect?redirect_url=https://ww
+            w.facebook.com/groups/codecademy.community]
+          + [https://instagram.com/codecademy]
+          + [https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ]
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Plans
+
+     * [https://www.codecademy.com/pages/paid-plans]Paid memberships
+     * [https://www.codecademy.com/student-center]For students
+     * [https://www.codecademy.com/business]For teams
+
+Community
+
+     * [https://discuss.codecademy.com/]Forums
+     * [https://community.codecademy.com/chapters]Chapters
+     * [https://www.codecademy.com/events]Events
+     * [https://try.codecademy.com/code-crew/]Code Crew
+     * [https://www.codecademy.com/resources/blog/category/learner-stories
+       ]Learner Stories
+     *
+     * [https://discord.com/invite/codecademy]Discord
+
+Subjects
+
+     * [https://www.codecademy.com/catalog/subject/artificial-intelligence
+       ]AI
+     * [https://www.codecademy.com/catalog/subject/cloud-computing]Cloud
+       Computing
+     * [https://www.codecademy.com/catalog/subject/code-foundations]Code
+       Foundations
+     * [https://www.codecademy.com/catalog/subject/computer-science]Comput
+       er Science
+     * [https://www.codecademy.com/catalog/subject/cybersecurity]Cybersecu
+       rity
+     * [https://www.codecademy.com/catalog/subject/data-analytics]Data
+       Analytics
+     * [https://www.codecademy.com/catalog/subject/data-science]Data
+       Science
+     * [https://www.codecademy.com/catalog/subject/data-visualization]Data
+       Visualization
+     * [https://www.codecademy.com/catalog/subject/developer-tools]Develop
+       er Tools
+     * [https://www.codecademy.com/catalog/subject/devops]DevOps
+     * [https://www.codecademy.com/catalog/subject/game-development]Game
+       Development
+     * [https://www.codecademy.com/catalog/subject/information-technology]
+       IT
+     * [https://www.codecademy.com/catalog/subject/machine-learning]Machin
+       e Learning
+     * [https://www.codecademy.com/catalog/subject/math]Math
+     * [https://www.codecademy.com/catalog/subject/mobile-development]Mobi
+       le Development
+     * [https://www.codecademy.com/catalog/subject/web-design]Web Design
+     * [https://www.codecademy.com/catalog/subject/web-development]Web
+       Development
+
+Languages
+
+     * [https://www.codecademy.com/catalog/language/bash]Bash
+     * [https://www.codecademy.com/catalog/language/c]C
+     * [https://www.codecademy.com/catalog/language/c-plus-plus]C++
+     * [https://www.codecademy.com/catalog/language/c-sharp]C#
+     * [https://www.codecademy.com/catalog/language/go]Go
+     * [https://www.codecademy.com/catalog/language/html-css]HTML & CSS
+     * [https://www.codecademy.com/catalog/language/java]Java
+     * [https://www.codecademy.com/catalog/language/javascript]JavaScript
+     * [https://www.codecademy.com/catalog/language/kotlin]Kotlin
+     * [https://www.codecademy.com/catalog/language/php]PHP
+     * [https://www.codecademy.com/catalog/language/python]Python
+     * [https://www.codecademy.com/catalog/language/r]R
+     * [https://www.codecademy.com/catalog/language/ruby]Ruby
+     * [https://www.codecademy.com/catalog/language/sql]SQL
+     * [https://www.codecademy.com/catalog/language/swift]Swift
+
+Career building
+
+     * [https://www.codecademy.com/catalog/all]Career paths
+     * [https://www.codecademy.com/pages/career-services]Career services
+     * [https://www.codecademy.com/pages/interview-prep]Interview prep
+     * [https://www.codecademy.com/pages/pro-certifications]Professional
+       certification
+     * —
+     * [https://www.codecademy.com/catalog/all]Full Catalog
+     * [https://www.codecademy.com/catalog/subject/beta]Beta Content
+     * [https://trello.com/b/vAgDXtT6/codecademy-releases-roadmap]Roadmap
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+     * [https://www.codecademy.com/policy]Privacy Policy
+     * [https://www.codecademy.com/cookie-policy]Cookie Policy
+     * [https://privacy.codecademy.com/]Do Not Sell My Personal
+       Information
+     * [https://www.codecademy.com/terms]Terms
+
+   Made with ❤️in NYC © 2023 Codecademy

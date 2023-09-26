@@ -1,0 +1,4032 @@
+WEBVTT
+
+
+
+00:00:00.080 --> 00:00:02.149 align:start position:0%
+ 
+what's<00:00:00.320><c> going</c><00:00:00.560><c> on</c><00:00:00.719><c> guys</c><00:00:01.120><c> my</c><00:00:01.360><c> name</c><00:00:01.520><c> is</c><00:00:01.599><c> hussain</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+what's going on guys my name is hussain
+ 
+
+00:00:02.159 --> 00:00:04.550 align:start position:0%
+what's going on guys my name is hussain
+and<00:00:02.320><c> in</c><00:00:02.399><c> this</c><00:00:02.639><c> video</c><00:00:03.040><c> i</c><00:00:03.199><c> want</c><00:00:03.280><c> to</c><00:00:03.439><c> discuss</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+and in this video i want to discuss
+ 
+
+00:00:04.560 --> 00:00:07.430 align:start position:0%
+and in this video i want to discuss
+indexing<00:00:05.600><c> database</c><00:00:06.399><c> indexing</c><00:00:06.960><c> it's</c><00:00:07.120><c> a</c><00:00:07.200><c> very</c>
+
+00:00:07.430 --> 00:00:07.440 align:start position:0%
+indexing database indexing it's a very
+ 
+
+00:00:07.440 --> 00:00:08.870 align:start position:0%
+indexing database indexing it's a very
+interesting<00:00:07.839><c> topic</c><00:00:08.160><c> and</c><00:00:08.320><c> i</c><00:00:08.400><c> think</c><00:00:08.559><c> every</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+interesting topic and i think every
+ 
+
+00:00:08.880 --> 00:00:10.150 align:start position:0%
+interesting topic and i think every
+backend<00:00:09.280><c> engineer</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+backend engineer
+ 
+
+00:00:10.160 --> 00:00:13.270 align:start position:0%
+backend engineer
+specifically<00:00:10.719><c> if</c><00:00:10.880><c> you</c><00:00:11.440><c> are</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+specifically if you are
+ 
+
+00:00:13.280 --> 00:00:15.509 align:start position:0%
+specifically if you are
+involved<00:00:13.920><c> with</c><00:00:14.160><c> databases</c><00:00:14.880><c> and</c><00:00:15.040><c> relational</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+involved with databases and relational
+ 
+
+00:00:15.519 --> 00:00:17.510 align:start position:0%
+involved with databases and relational
+databases<00:00:16.080><c> or</c><00:00:16.320><c> any</c><00:00:16.480><c> kind</c><00:00:16.640><c> of</c><00:00:16.800><c> databases</c><00:00:17.440><c> you</c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+databases or any kind of databases you
+ 
+
+00:00:17.520 --> 00:00:19.269 align:start position:0%
+databases or any kind of databases you
+need<00:00:17.680><c> to</c><00:00:17.760><c> know</c><00:00:17.920><c> what</c><00:00:18.160><c> indexes</c><00:00:18.720><c> and</c>
+
+00:00:19.269 --> 00:00:19.279 align:start position:0%
+need to know what indexes and
+ 
+
+00:00:19.279 --> 00:00:21.510 align:start position:0%
+need to know what indexes and
+how<00:00:19.520><c> indexings</c><00:00:20.160><c> work</c><00:00:20.560><c> and</c><00:00:21.119><c> what</c><00:00:21.359><c> is</c><00:00:21.439><c> the</c>
+
+00:00:21.510 --> 00:00:21.520 align:start position:0%
+how indexings work and what is the
+ 
+
+00:00:21.520 --> 00:00:23.910 align:start position:0%
+how indexings work and what is the
+benefit<00:00:22.000><c> of</c><00:00:22.160><c> indexing</c><00:00:22.560><c> so</c><00:00:22.720><c> in</c><00:00:22.800><c> this</c><00:00:22.960><c> video</c>
+
+00:00:23.910 --> 00:00:23.920 align:start position:0%
+benefit of indexing so in this video
+ 
+
+00:00:23.920 --> 00:00:26.630 align:start position:0%
+benefit of indexing so in this video
+we'll<00:00:24.480><c> describe</c><00:00:25.439><c> what</c><00:00:25.680><c> is</c><00:00:25.840><c> indexing</c><00:00:26.480><c> we're</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+we'll describe what is indexing we're
+ 
+
+00:00:26.640 --> 00:00:27.990 align:start position:0%
+we'll describe what is indexing we're
+going<00:00:26.800><c> to</c><00:00:26.880><c> work</c><00:00:27.119><c> with</c><00:00:27.359><c> indexes</c><00:00:27.760><c> we're</c><00:00:27.920><c> going</c>
+
+00:00:27.990 --> 00:00:28.000 align:start position:0%
+going to work with indexes we're going
+ 
+
+00:00:28.000 --> 00:00:29.669 align:start position:0%
+going to work with indexes we're going
+to<00:00:28.160><c> work</c><00:00:28.400><c> without</c><00:00:28.800><c> indexing</c>
+
+00:00:29.669 --> 00:00:29.679 align:start position:0%
+to work without indexing
+ 
+
+00:00:29.679 --> 00:00:31.109 align:start position:0%
+to work without indexing
+and<00:00:29.840><c> we're</c><00:00:30.080><c> going</c><00:00:30.160><c> to</c><00:00:30.400><c> see</c><00:00:30.640><c> how</c><00:00:30.880><c> the</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+and we're going to see how the
+ 
+
+00:00:31.119 --> 00:00:32.790 align:start position:0%
+and we're going to see how the
+performance
+
+00:00:32.790 --> 00:00:32.800 align:start position:0%
+performance
+ 
+
+00:00:32.800 --> 00:00:34.950 align:start position:0%
+performance
+differ<00:00:33.360><c> whether</c><00:00:33.760><c> you</c><00:00:33.840><c> have</c><00:00:34.000><c> an</c><00:00:34.160><c> index</c><00:00:34.719><c> or</c><00:00:34.880><c> you</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+differ whether you have an index or you
+ 
+
+00:00:34.960 --> 00:00:36.790 align:start position:0%
+differ whether you have an index or you
+don't<00:00:35.120><c> have</c><00:00:35.280><c> an</c><00:00:35.440><c> index</c><00:00:35.840><c> so</c><00:00:36.079><c> first</c><00:00:36.320><c> of</c><00:00:36.480><c> all</c>
+
+00:00:36.790 --> 00:00:36.800 align:start position:0%
+don't have an index so first of all
+ 
+
+00:00:36.800 --> 00:00:40.150 align:start position:0%
+don't have an index so first of all
+what<00:00:37.040><c> is</c><00:00:37.440><c> an</c><00:00:37.680><c> index</c><00:00:38.000><c> guy</c><00:00:38.480><c> an</c><00:00:38.640><c> index</c><00:00:39.280><c> is</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+what is an index guy an index is
+ 
+
+00:00:40.160 --> 00:00:42.950 align:start position:0%
+what is an index guy an index is
+is<00:00:40.320><c> a</c><00:00:40.399><c> data</c><00:00:40.800><c> structure</c><00:00:41.600><c> that</c><00:00:41.760><c> you</c><00:00:42.079><c> build</c><00:00:42.800><c> and</c>
+
+00:00:42.950 --> 00:00:42.960 align:start position:0%
+is a data structure that you build and
+ 
+
+00:00:42.960 --> 00:00:44.069 align:start position:0%
+is a data structure that you build and
+you<00:00:43.200><c> assign</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+you assign
+ 
+
+00:00:44.079 --> 00:00:47.190 align:start position:0%
+you assign
+on<00:00:44.239><c> top</c><00:00:44.480><c> of</c><00:00:44.719><c> an</c><00:00:44.879><c> existing</c><00:00:45.440><c> table</c><00:00:46.480><c> that</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+on top of an existing table that
+ 
+
+00:00:47.200 --> 00:00:49.830 align:start position:0%
+on top of an existing table that
+basically<00:00:47.920><c> looks</c><00:00:48.160><c> through</c><00:00:48.399><c> your</c><00:00:48.640><c> table</c><00:00:49.600><c> and</c>
+
+00:00:49.830 --> 00:00:49.840 align:start position:0%
+basically looks through your table and
+ 
+
+00:00:49.840 --> 00:00:50.470 align:start position:0%
+basically looks through your table and
+then
+
+00:00:50.470 --> 00:00:50.480 align:start position:0%
+then
+ 
+
+00:00:50.480 --> 00:00:53.590 align:start position:0%
+then
+tries<00:00:51.199><c> to</c><00:00:51.600><c> analyze</c><00:00:52.160><c> it</c><00:00:52.320><c> and</c><00:00:52.559><c> summarizes</c><00:00:53.360><c> so</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+tries to analyze it and summarizes so
+ 
+
+00:00:53.600 --> 00:00:54.310 align:start position:0%
+tries to analyze it and summarizes so
+that
+
+00:00:54.310 --> 00:00:54.320 align:start position:0%
+that
+ 
+
+00:00:54.320 --> 00:00:57.670 align:start position:0%
+that
+it<00:00:54.719><c> it</c><00:00:54.960><c> can</c><00:00:55.280><c> create</c><00:00:55.760><c> kind</c><00:00:55.920><c> of</c><00:00:56.320><c> shortcuts</c><00:00:57.199><c> right</c>
+
+00:00:57.670 --> 00:00:57.680 align:start position:0%
+it it can create kind of shortcuts right
+ 
+
+00:00:57.680 --> 00:00:59.910 align:start position:0%
+it it can create kind of shortcuts right
+the<00:00:58.000><c> the</c><00:00:58.160><c> best</c><00:00:58.480><c> way</c><00:00:58.800><c> i</c><00:00:58.960><c> can</c><00:00:59.120><c> think</c><00:00:59.280><c> of</c><00:00:59.440><c> an</c><00:00:59.600><c> index</c>
+
+00:00:59.910 --> 00:00:59.920 align:start position:0%
+the the best way i can think of an index
+ 
+
+00:00:59.920 --> 00:01:01.349 align:start position:0%
+the the best way i can think of an index
+is<00:01:00.000><c> like</c><00:01:00.160><c> if</c><00:01:00.320><c> you</c><00:01:00.480><c> you</c><00:01:00.559><c> know</c><00:01:00.719><c> these</c>
+
+00:01:01.349 --> 00:01:01.359 align:start position:0%
+is like if you you know these
+ 
+
+00:01:01.359 --> 00:01:04.070 align:start position:0%
+is like if you you know these
+uh<00:01:01.920><c> uh</c><00:01:02.160><c> if</c><00:01:02.320><c> you</c><00:01:02.399><c> have</c><00:01:02.640><c> a</c><00:01:02.879><c> if</c><00:01:03.039><c> you</c><00:01:03.120><c> ever</c><00:01:03.520><c> seen</c><00:01:03.840><c> a</c>
+
+00:01:04.070 --> 00:01:04.080 align:start position:0%
+uh uh if you have a if you ever seen a
+ 
+
+00:01:04.080 --> 00:01:06.149 align:start position:0%
+uh uh if you have a if you ever seen a
+character<00:01:04.559><c> is</c><00:01:04.799><c> a</c>
+
+00:01:06.149 --> 00:01:06.159 align:start position:0%
+character is a
+ 
+
+00:01:06.159 --> 00:01:08.149 align:start position:0%
+character is a
+handbook<00:01:06.960><c> or</c><00:01:07.119><c> phone</c><00:01:07.439><c> book</c><00:01:07.760><c> where</c><00:01:07.920><c> you</c><00:01:08.000><c> have</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+handbook or phone book where you have
+ 
+
+00:01:08.159 --> 00:01:10.149 align:start position:0%
+handbook or phone book where you have
+like<00:01:08.560><c> thick</c><00:01:09.040><c> big</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+like thick big
+ 
+
+00:01:10.159 --> 00:01:12.630 align:start position:0%
+like thick big
+book<00:01:10.720><c> and</c><00:01:11.040><c> it</c><00:01:11.200><c> is</c><00:01:11.600><c> labeled</c><00:01:12.080><c> there's</c><00:01:12.320><c> like</c><00:01:12.560><c> a</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+book and it is labeled there's like a
+ 
+
+00:01:12.640 --> 00:01:14.469 align:start position:0%
+book and it is labeled there's like a
+label<00:01:13.119><c> color</c><00:01:13.439><c> with</c><00:01:13.760><c> a</c>
+
+00:01:14.469 --> 00:01:14.479 align:start position:0%
+label color with a
+ 
+
+00:01:14.479 --> 00:01:18.230 align:start position:0%
+label color with a
+b<00:01:15.040><c> c</c><00:01:15.439><c> d</c><00:01:15.759><c> until</c><00:01:16.159><c> z</c><00:01:16.479><c> right</c><00:01:17.200><c> so</c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+b c d until z right so
+ 
+
+00:01:18.240 --> 00:01:21.910 align:start position:0%
+b c d until z right so
+the<00:01:18.479><c> the</c><00:01:19.200><c> the</c><00:01:19.439><c> letter</c><00:01:19.840><c> a</c><00:01:20.240><c> starts</c><00:01:20.640><c> with</c><00:01:21.200><c> all</c><00:01:21.600><c> the</c>
+
+00:01:21.910 --> 00:01:21.920 align:start position:0%
+the the the letter a starts with all the
+ 
+
+00:01:21.920 --> 00:01:24.469 align:start position:0%
+the the the letter a starts with all the
+companies<00:01:22.560><c> phone</c><00:01:22.960><c> books</c><00:01:23.280><c> that</c><00:01:23.680><c> uh</c><00:01:24.000><c> that</c><00:01:24.240><c> start</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+companies phone books that uh that start
+ 
+
+00:01:24.479 --> 00:01:25.990 align:start position:0%
+companies phone books that uh that start
+with<00:01:24.640><c> the</c><00:01:24.720><c> letter</c><00:01:25.040><c> a</c><00:01:25.280><c> and</c><00:01:25.439><c> b</c>
+
+00:01:25.990 --> 00:01:26.000 align:start position:0%
+with the letter a and b
+ 
+
+00:01:26.000 --> 00:01:28.149 align:start position:0%
+with the letter a and b
+so<00:01:26.320><c> with</c><00:01:26.560><c> all</c><00:01:26.720><c> the</c><00:01:26.880><c> b's</c><00:01:27.280><c> right</c><00:01:27.520><c> and</c><00:01:27.680><c> c</c><00:01:27.840><c> is</c><00:01:28.000><c> all</c>
+
+00:01:28.149 --> 00:01:28.159 align:start position:0%
+so with all the b's right and c is all
+ 
+
+00:01:28.159 --> 00:01:29.590 align:start position:0%
+so with all the b's right and c is all
+the<00:01:28.320><c> c</c><00:01:28.479><c> so</c><00:01:28.640><c> if</c><00:01:28.799><c> you</c><00:01:28.880><c> want</c><00:01:29.040><c> to</c>
+
+00:01:29.590 --> 00:01:29.600 align:start position:0%
+the c so if you want to
+ 
+
+00:01:29.600 --> 00:01:33.350 align:start position:0%
+the c so if you want to
+look<00:01:29.920><c> through</c><00:01:30.640><c> uh</c><00:01:31.520><c> find</c><00:01:32.000><c> a</c><00:01:32.159><c> specific</c><00:01:32.799><c> company</c>
+
+00:01:33.350 --> 00:01:33.360 align:start position:0%
+look through uh find a specific company
+ 
+
+00:01:33.360 --> 00:01:34.550 align:start position:0%
+look through uh find a specific company
+name<00:01:33.600><c> phone</c><00:01:33.840><c> number</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+name phone number
+ 
+
+00:01:34.560 --> 00:01:36.469 align:start position:0%
+name phone number
+and<00:01:34.799><c> you</c><00:01:35.040><c> know</c><00:01:35.200><c> it's</c><00:01:35.360><c> like</c><00:01:35.439><c> oh</c><00:01:35.840><c> it's</c><00:01:36.240><c> i</c><00:01:36.320><c> don't</c>
+
+00:01:36.469 --> 00:01:36.479 align:start position:0%
+and you know it's like oh it's i don't
+ 
+
+00:01:36.479 --> 00:01:37.910 align:start position:0%
+and you know it's like oh it's i don't
+know<00:01:36.640><c> it's</c><00:01:36.799><c> called</c><00:01:37.119><c> zebra</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+know it's called zebra
+ 
+
+00:01:37.920 --> 00:01:40.390 align:start position:0%
+know it's called zebra
+so<00:01:38.079><c> you</c><00:01:38.240><c> go</c><00:01:38.560><c> immediately</c><00:01:39.119><c> you</c><00:01:39.200><c> go</c><00:01:39.360><c> to</c><00:01:39.439><c> the</c><00:01:39.680><c> z</c>
+
+00:01:40.390 --> 00:01:40.400 align:start position:0%
+so you go immediately you go to the z
+ 
+
+00:01:40.400 --> 00:01:40.950 align:start position:0%
+so you go immediately you go to the z
+right
+
+00:01:40.950 --> 00:01:40.960 align:start position:0%
+right
+ 
+
+00:01:40.960 --> 00:01:42.950 align:start position:0%
+right
+and<00:01:41.040><c> then</c><00:01:41.280><c> you</c><00:01:41.439><c> start</c><00:01:41.840><c> searching</c><00:01:42.320><c> there</c><00:01:42.720><c> it's</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+and then you start searching there it's
+ 
+
+00:01:42.960 --> 00:01:44.789 align:start position:0%
+and then you start searching there it's
+that's<00:01:43.280><c> the</c><00:01:43.520><c> simplest</c><00:01:44.000><c> thing</c><00:01:44.240><c> i</c><00:01:44.320><c> can</c><00:01:44.479><c> think</c><00:01:44.640><c> of</c>
+
+00:01:44.789 --> 00:01:44.799 align:start position:0%
+that's the simplest thing i can think of
+ 
+
+00:01:44.799 --> 00:01:45.990 align:start position:0%
+that's the simplest thing i can think of
+that<00:01:45.040><c> index</c><00:01:45.439><c> right</c>
+
+00:01:45.990 --> 00:01:46.000 align:start position:0%
+that index right
+ 
+
+00:01:46.000 --> 00:01:49.429 align:start position:0%
+that index right
+and<00:01:46.479><c> basically</c><00:01:47.040><c> the</c><00:01:47.200><c> index</c><00:01:47.600><c> guys</c><00:01:48.000><c> are</c><00:01:48.560><c> are</c>
+
+00:01:49.429 --> 00:01:49.439 align:start position:0%
+and basically the index guys are are
+ 
+
+00:01:49.439 --> 00:01:52.710 align:start position:0%
+and basically the index guys are are
+are<00:01:49.600><c> two</c><00:01:49.840><c> types</c><00:01:50.159><c> so</c><00:01:50.399><c> far</c><00:01:51.040><c> that</c><00:01:51.200><c> we</c><00:01:51.439><c> know</c><00:01:51.680><c> of</c><00:01:52.399><c> uh</c>
+
+00:01:52.710 --> 00:01:52.720 align:start position:0%
+are two types so far that we know of uh
+ 
+
+00:01:52.720 --> 00:01:53.429 align:start position:0%
+are two types so far that we know of uh
+something<00:01:53.119><c> called</c>
+
+00:01:53.429 --> 00:01:53.439 align:start position:0%
+something called
+ 
+
+00:01:53.439 --> 00:01:56.550 align:start position:0%
+something called
+b3<00:01:54.640><c> and</c><00:01:55.280><c> lsm</c><00:01:55.840><c> trees</c>
+
+00:01:56.550 --> 00:01:56.560 align:start position:0%
+b3 and lsm trees
+ 
+
+00:01:56.560 --> 00:01:59.429 align:start position:0%
+b3 and lsm trees
+and<00:01:56.799><c> i'm</c><00:01:56.960><c> not</c><00:01:57.119><c> going</c><00:01:57.200><c> to</c><00:01:57.280><c> go</c><00:01:57.520><c> through</c><00:01:57.759><c> that</c><00:01:59.200><c> the</c>
+
+00:01:59.429 --> 00:01:59.439 align:start position:0%
+and i'm not going to go through that the
+ 
+
+00:01:59.439 --> 00:01:59.990 align:start position:0%
+and i'm not going to go through that the
+depth
+
+00:01:59.990 --> 00:02:00.000 align:start position:0%
+depth
+ 
+
+00:02:00.000 --> 00:02:02.069 align:start position:0%
+depth
+of<00:02:00.479><c> how</c><00:02:00.719><c> they</c><00:02:00.960><c> are</c><00:02:01.119><c> constructed</c><00:02:01.759><c> this</c><00:02:01.920><c> is</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+of how they are constructed this is
+ 
+
+00:02:02.079 --> 00:02:04.230 align:start position:0%
+of how they are constructed this is
+outside<00:02:02.479><c> the</c><00:02:02.640><c> scope</c><00:02:03.200><c> of</c><00:02:03.360><c> this</c><00:02:03.600><c> video</c><00:02:04.000><c> but</c>
+
+00:02:04.230 --> 00:02:04.240 align:start position:0%
+outside the scope of this video but
+ 
+
+00:02:04.240 --> 00:02:06.310 align:start position:0%
+outside the scope of this video but
+essentially<00:02:04.640><c> it's</c><00:02:04.799><c> a</c><00:02:04.960><c> it's</c><00:02:05.119><c> a</c><00:02:05.200><c> data</c><00:02:05.520><c> structure</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+essentially it's a it's a data structure
+ 
+
+00:02:06.320 --> 00:02:09.430 align:start position:0%
+essentially it's a it's a data structure
+and<00:02:06.560><c> you</c><00:02:06.640><c> can</c><00:02:06.799><c> look</c><00:02:07.040><c> it</c><00:02:07.200><c> up</c><00:02:08.239><c> it's</c><00:02:08.479><c> basically</c>
+
+00:02:09.430 --> 00:02:09.440 align:start position:0%
+and you can look it up it's basically
+ 
+
+00:02:09.440 --> 00:02:11.990 align:start position:0%
+and you can look it up it's basically
+allowing<00:02:09.920><c> you</c><00:02:10.080><c> to</c><00:02:10.319><c> search</c><00:02:10.800><c> very</c><00:02:11.120><c> effectively</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+allowing you to search very effectively
+ 
+
+00:02:12.000 --> 00:02:12.790 align:start position:0%
+allowing you to search very effectively
+right
+
+00:02:12.790 --> 00:02:12.800 align:start position:0%
+right
+ 
+
+00:02:12.800 --> 00:02:16.150 align:start position:0%
+right
+and<00:02:13.920><c> you</c><00:02:14.239><c> find</c><00:02:14.879><c> quickly</c><00:02:15.440><c> what</c><00:02:15.680><c> you're</c><00:02:15.840><c> looking</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+and you find quickly what you're looking
+ 
+
+00:02:16.160 --> 00:02:16.710 align:start position:0%
+and you find quickly what you're looking
+for
+
+00:02:16.710 --> 00:02:16.720 align:start position:0%
+for
+ 
+
+00:02:16.720 --> 00:02:19.910 align:start position:0%
+for
+so<00:02:17.040><c> guys</c><00:02:17.599><c> here</c><00:02:18.000><c> i</c><00:02:18.239><c> have</c><00:02:18.800><c> a</c><00:02:19.280><c> table</c>
+
+00:02:19.910 --> 00:02:19.920 align:start position:0%
+so guys here i have a table
+ 
+
+00:02:19.920 --> 00:02:22.949 align:start position:0%
+so guys here i have a table
+called<00:02:20.239><c> employees</c><00:02:21.440><c> with</c><00:02:21.599><c> around</c><00:02:22.160><c> 11</c>
+
+00:02:22.949 --> 00:02:22.959 align:start position:0%
+called employees with around 11
+ 
+
+00:02:22.959 --> 00:02:25.990 align:start position:0%
+called employees with around 11
+million<00:02:24.319><c> uh</c><00:02:24.879><c> rows</c><00:02:25.520><c> okay</c>
+
+00:02:25.990 --> 00:02:26.000 align:start position:0%
+million uh rows okay
+ 
+
+00:02:26.000 --> 00:02:29.430 align:start position:0%
+million uh rows okay
+it's<00:02:26.480><c> a</c><00:02:26.640><c> quite</c><00:02:27.680><c> large</c><00:02:28.160><c> table</c><00:02:28.800><c> okay</c>
+
+00:02:29.430 --> 00:02:29.440 align:start position:0%
+it's a quite large table okay
+ 
+
+00:02:29.440 --> 00:02:32.790 align:start position:0%
+it's a quite large table okay
+so<00:02:29.840><c> i</c><00:02:30.000><c> have</c><00:02:30.319><c> a</c><00:02:30.720><c> an</c><00:02:30.879><c> id</c><00:02:32.000><c> field</c>
+
+00:02:32.790 --> 00:02:32.800 align:start position:0%
+so i have a an id field
+ 
+
+00:02:32.800 --> 00:02:35.670 align:start position:0%
+so i have a an id field
+is<00:02:33.040><c> integer</c><00:02:34.080><c> it's</c><00:02:34.239><c> not</c><00:02:34.560><c> null</c><00:02:35.200><c> and</c><00:02:35.440><c> it's</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+is integer it's not null and it's
+ 
+
+00:02:35.680 --> 00:02:37.750 align:start position:0%
+is integer it's not null and it's
+sequential<00:02:36.319><c> so</c><00:02:36.560><c> every</c><00:02:36.800><c> time</c><00:02:36.959><c> i</c><00:02:37.120><c> insert</c><00:02:37.360><c> a</c><00:02:37.440><c> row</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+sequential so every time i insert a row
+ 
+
+00:02:37.760 --> 00:02:39.190 align:start position:0%
+sequential so every time i insert a row
+i<00:02:37.840><c> don't</c><00:02:38.080><c> touch</c><00:02:38.319><c> this</c><00:02:38.560><c> field</c><00:02:38.879><c> it</c><00:02:39.040><c> will</c>
+
+00:02:39.190 --> 00:02:39.200 align:start position:0%
+i don't touch this field it will
+ 
+
+00:02:39.200 --> 00:02:41.110 align:start position:0%
+i don't touch this field it will
+automatically<00:02:39.840><c> insert</c><00:02:40.319><c> and</c>
+
+00:02:41.110 --> 00:02:41.120 align:start position:0%
+automatically insert and
+ 
+
+00:02:41.120 --> 00:02:43.430 align:start position:0%
+automatically insert and
+increment<00:02:41.599><c> the</c><00:02:41.680><c> value</c><00:02:42.560><c> and</c><00:02:42.720><c> it's</c><00:02:42.879><c> also</c><00:02:43.280><c> a</c>
+
+00:02:43.430 --> 00:02:43.440 align:start position:0%
+increment the value and it's also a
+ 
+
+00:02:43.440 --> 00:02:44.949 align:start position:0%
+increment the value and it's also a
+primary<00:02:43.920><c> key</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+primary key
+ 
+
+00:02:44.959 --> 00:02:48.630 align:start position:0%
+primary key
+that<00:02:45.120><c> means</c><00:02:45.440><c> unique</c><00:02:45.920><c> right</c><00:02:47.040><c> and</c><00:02:47.760><c> it</c><00:02:48.080><c> also</c>
+
+00:02:48.630 --> 00:02:48.640 align:start position:0%
+that means unique right and it also
+ 
+
+00:02:48.640 --> 00:02:51.910 align:start position:0%
+that means unique right and it also
+has<00:02:49.440><c> an</c><00:02:49.760><c> index</c><00:02:50.239><c> by</c><00:02:50.480><c> default</c><00:02:51.200><c> every</c><00:02:51.519><c> primary</c>
+
+00:02:51.910 --> 00:02:51.920 align:start position:0%
+has an index by default every primary
+ 
+
+00:02:51.920 --> 00:02:53.509 align:start position:0%
+has an index by default every primary
+key<00:02:52.080><c> has</c><00:02:52.319><c> an</c><00:02:52.480><c> index</c><00:02:52.800><c> by</c><00:02:52.959><c> default</c>
+
+00:02:53.509 --> 00:02:53.519 align:start position:0%
+key has an index by default
+ 
+
+00:02:53.519 --> 00:02:57.589 align:start position:0%
+key has an index by default
+and<00:02:53.680><c> it's</c><00:02:53.840><c> a</c><00:02:53.920><c> b3</c><00:02:54.400><c> index</c><00:02:55.120><c> right</c><00:02:56.480><c> so</c>
+
+00:02:57.589 --> 00:02:57.599 align:start position:0%
+and it's a b3 index right so
+ 
+
+00:02:57.599 --> 00:03:00.869 align:start position:0%
+and it's a b3 index right so
+that's<00:02:57.840><c> what</c><00:02:58.000><c> i</c><00:02:58.159><c> have</c><00:02:58.319><c> here</c><00:02:59.519><c> and</c><00:03:00.159><c> i</c><00:03:00.319><c> also</c><00:03:00.640><c> have</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+that's what i have here and i also have
+ 
+
+00:03:00.879 --> 00:03:01.750 align:start position:0%
+that's what i have here and i also have
+a<00:03:01.120><c> name</c>
+
+00:03:01.750 --> 00:03:01.760 align:start position:0%
+a name
+ 
+
+00:03:01.760 --> 00:03:03.750 align:start position:0%
+a name
+field<00:03:02.239><c> on</c><00:03:02.319><c> this</c><00:03:02.800><c> which</c><00:03:03.040><c> is</c><00:03:03.200><c> what</c><00:03:03.360><c> doesn't</c><00:03:03.599><c> have</c>
+
+00:03:03.750 --> 00:03:03.760 align:start position:0%
+field on this which is what doesn't have
+ 
+
+00:03:03.760 --> 00:03:06.390 align:start position:0%
+field on this which is what doesn't have
+an<00:03:03.920><c> index</c><00:03:04.239><c> it's</c><00:03:04.319><c> just</c><00:03:04.720><c> a</c><00:03:04.800><c> bunch</c><00:03:05.040><c> of</c><00:03:05.200><c> characters</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+an index it's just a bunch of characters
+ 
+
+00:03:06.400 --> 00:03:08.070 align:start position:0%
+an index it's just a bunch of characters
+nothing<00:03:06.720><c> fancy</c><00:03:07.040><c> it's</c><00:03:07.120><c> not</c><00:03:07.280><c> really</c><00:03:07.599><c> the</c><00:03:07.680><c> actual</c>
+
+00:03:08.070 --> 00:03:08.080 align:start position:0%
+nothing fancy it's not really the actual
+ 
+
+00:03:08.080 --> 00:03:09.830 align:start position:0%
+nothing fancy it's not really the actual
+name<00:03:08.319><c> i</c><00:03:08.400><c> just</c><00:03:08.640><c> spent</c><00:03:08.959><c> some</c><00:03:09.200><c> time</c>
+
+00:03:09.830 --> 00:03:09.840 align:start position:0%
+name i just spent some time
+ 
+
+00:03:09.840 --> 00:03:13.509 align:start position:0%
+name i just spent some time
+generating<00:03:10.400><c> 100</c><00:03:10.800><c> million</c><00:03:11.760><c> random</c><00:03:12.720><c> strings</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+generating 100 million random strings
+ 
+
+00:03:13.519 --> 00:03:17.430 align:start position:0%
+generating 100 million random strings
+right<00:03:14.319><c> so</c><00:03:14.879><c> so</c><00:03:15.120><c> now</c><00:03:15.519><c> if</c><00:03:15.760><c> i</c><00:03:16.000><c> for</c><00:03:16.239><c> example</c><00:03:16.640><c> do</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+right so so now if i for example do
+ 
+
+00:03:17.440 --> 00:03:20.390 align:start position:0%
+right so so now if i for example do
+let's<00:03:17.680><c> clear</c><00:03:17.920><c> this</c><00:03:18.080><c> up</c><00:03:18.239><c> and</c><00:03:18.319><c> do</c><00:03:18.560><c> select</c><00:03:19.360><c> id</c>
+
+00:03:20.390 --> 00:03:20.400 align:start position:0%
+let's clear this up and do select id
+ 
+
+00:03:20.400 --> 00:03:21.350 align:start position:0%
+let's clear this up and do select id
+from
+
+00:03:21.350 --> 00:03:21.360 align:start position:0%
+from
+ 
+
+00:03:21.360 --> 00:03:25.110 align:start position:0%
+from
+employees<00:03:23.680><c> where</c><00:03:24.000><c> id</c><00:03:24.400><c> equal</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+employees where id equal
+ 
+
+00:03:25.120 --> 00:03:28.309 align:start position:0%
+employees where id equal
+thousand<00:03:27.280><c> i</c><00:03:27.440><c> will</c>
+
+00:03:28.309 --> 00:03:28.319 align:start position:0%
+thousand i will
+ 
+
+00:03:28.319 --> 00:03:31.350 align:start position:0%
+thousand i will
+return<00:03:29.440><c> the</c><00:03:30.400><c> thousands</c><00:03:30.959><c> id</c>
+
+00:03:31.350 --> 00:03:31.360 align:start position:0%
+return the thousands id
+ 
+
+00:03:31.360 --> 00:03:33.990 align:start position:0%
+return the thousands id
+right<00:03:31.599><c> that's</c><00:03:31.920><c> that's</c><00:03:32.239><c> not</c><00:03:32.959><c> fancy</c><00:03:33.599><c> right</c><00:03:33.920><c> so</c>
+
+00:03:33.990 --> 00:03:34.000 align:start position:0%
+right that's that's not fancy right so
+ 
+
+00:03:34.000 --> 00:03:34.630 align:start position:0%
+right that's that's not fancy right so
+if<00:03:34.159><c> i</c><00:03:34.319><c> do</c>
+
+00:03:34.630 --> 00:03:34.640 align:start position:0%
+if i do
+ 
+
+00:03:34.640 --> 00:03:38.470 align:start position:0%
+if i do
+select<00:03:36.000><c> star</c><00:03:37.360><c> it</c><00:03:37.519><c> will</c><00:03:37.680><c> get</c><00:03:37.920><c> everything</c>
+
+00:03:38.470 --> 00:03:38.480 align:start position:0%
+select star it will get everything
+ 
+
+00:03:38.480 --> 00:03:41.990 align:start position:0%
+select star it will get everything
+back<00:03:39.680><c> idn</c><00:03:40.319><c> name</c><00:03:40.959><c> and</c><00:03:41.200><c> nn1</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+back idn name and nn1
+ 
+
+00:03:42.000 --> 00:03:44.149 align:start position:0%
+back idn name and nn1
+is<00:03:42.080><c> the</c><00:03:42.239><c> name</c><00:03:43.040><c> so</c><00:03:43.200><c> don't</c><00:03:43.440><c> don't</c><00:03:43.599><c> pay</c><00:03:43.840><c> attention</c>
+
+00:03:44.149 --> 00:03:44.159 align:start position:0%
+is the name so don't don't pay attention
+ 
+
+00:03:44.159 --> 00:03:45.270 align:start position:0%
+is the name so don't don't pay attention
+to<00:03:44.239><c> the</c><00:03:44.319><c> actual</c><00:03:44.640><c> name</c><00:03:44.879><c> it's</c><00:03:44.959><c> just</c><00:03:45.120><c> the</c>
+
+00:03:45.270 --> 00:03:45.280 align:start position:0%
+to the actual name it's just the
+ 
+
+00:03:45.280 --> 00:03:46.550 align:start position:0%
+to the actual name it's just the
+strength<00:03:45.599><c> and</c><00:03:45.680><c> that's</c><00:03:45.920><c> the</c><00:03:46.080><c> idea</c><00:03:46.319><c> of</c><00:03:46.400><c> the</c>
+
+00:03:46.550 --> 00:03:46.560 align:start position:0%
+strength and that's the idea of the
+ 
+
+00:03:46.560 --> 00:03:47.589 align:start position:0%
+strength and that's the idea of the
+string<00:03:46.879><c> here</c>
+
+00:03:47.589 --> 00:03:47.599 align:start position:0%
+string here
+ 
+
+00:03:47.599 --> 00:03:50.070 align:start position:0%
+string here
+so<00:03:47.760><c> guys</c><00:03:48.080><c> what</c><00:03:48.239><c> i</c><00:03:48.400><c> want</c><00:03:48.560><c> to</c><00:03:48.640><c> do</c><00:03:48.879><c> here</c><00:03:49.200><c> is</c><00:03:49.840><c> i'm</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+so guys what i want to do here is i'm
+ 
+
+00:03:50.080 --> 00:03:51.190 align:start position:0%
+so guys what i want to do here is i'm
+going<00:03:50.239><c> to</c><00:03:50.400><c> go</c><00:03:50.640><c> through</c>
+
+00:03:51.190 --> 00:03:51.200 align:start position:0%
+going to go through
+ 
+
+00:03:51.200 --> 00:03:53.270 align:start position:0%
+going to go through
+steps<00:03:51.599><c> of</c><00:03:51.840><c> different</c><00:03:52.319><c> queries</c><00:03:52.799><c> i'm</c><00:03:52.879><c> going</c><00:03:53.040><c> to</c>
+
+00:03:53.270 --> 00:03:53.280 align:start position:0%
+steps of different queries i'm going to
+ 
+
+00:03:53.280 --> 00:03:54.550 align:start position:0%
+steps of different queries i'm going to
+show<00:03:53.439><c> you</c><00:03:53.599><c> the</c><00:03:53.760><c> performance</c><00:03:54.319><c> of</c>
+
+00:03:54.550 --> 00:03:54.560 align:start position:0%
+show you the performance of
+ 
+
+00:03:54.560 --> 00:03:56.949 align:start position:0%
+show you the performance of
+each<00:03:54.799><c> of</c><00:03:55.040><c> these</c><00:03:55.360><c> queries</c><00:03:55.920><c> right</c><00:03:56.400><c> in</c><00:03:56.560><c> order</c><00:03:56.799><c> to</c>
+
+00:03:56.949 --> 00:03:56.959 align:start position:0%
+each of these queries right in order to
+ 
+
+00:03:56.959 --> 00:03:58.229 align:start position:0%
+each of these queries right in order to
+do<00:03:57.120><c> that</c><00:03:57.280><c> in</c><00:03:57.439><c> postgres</c>
+
+00:03:58.229 --> 00:03:58.239 align:start position:0%
+do that in postgres
+ 
+
+00:03:58.239 --> 00:04:00.390 align:start position:0%
+do that in postgres
+that's<00:03:58.480><c> the</c><00:03:58.560><c> database</c><00:03:59.040><c> i'm</c><00:03:59.120><c> using</c><00:03:59.439><c> by</c><00:03:59.599><c> the</c><00:03:59.680><c> way</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+that's the database i'm using by the way
+ 
+
+00:04:00.400 --> 00:04:02.550 align:start position:0%
+that's the database i'm using by the way
+uh<00:04:00.959><c> paul's</c><00:04:01.280><c> grace</c>
+
+00:04:02.550 --> 00:04:02.560 align:start position:0%
+uh paul's grace
+ 
+
+00:04:02.560 --> 00:04:06.470 align:start position:0%
+uh paul's grace
+i'm<00:04:02.720><c> gonna</c><00:04:02.959><c> do</c><00:04:03.920><c> explain</c><00:04:05.360><c> analyze</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+i'm gonna do explain analyze
+ 
+
+00:04:06.480 --> 00:04:09.190 align:start position:0%
+i'm gonna do explain analyze
+which<00:04:06.720><c> will</c><00:04:07.040><c> actually</c><00:04:07.920><c> explain</c><00:04:08.560><c> the</c><00:04:08.799><c> query</c>
+
+00:04:09.190 --> 00:04:09.200 align:start position:0%
+which will actually explain the query
+ 
+
+00:04:09.200 --> 00:04:10.149 align:start position:0%
+which will actually explain the query
+that<00:04:09.360><c> i'm</c><00:04:09.519><c> gonna</c><00:04:09.840><c> do</c>
+
+00:04:10.149 --> 00:04:10.159 align:start position:0%
+that i'm gonna do
+ 
+
+00:04:10.159 --> 00:04:12.229 align:start position:0%
+that i'm gonna do
+and<00:04:10.400><c> gonna</c><00:04:10.640><c> tell</c><00:04:10.799><c> me</c><00:04:10.959><c> how</c><00:04:11.200><c> long</c><00:04:11.439><c> it</c><00:04:11.599><c> took</c><00:04:12.080><c> right</c>
+
+00:04:12.229 --> 00:04:12.239 align:start position:0%
+and gonna tell me how long it took right
+ 
+
+00:04:12.239 --> 00:04:14.070 align:start position:0%
+and gonna tell me how long it took right
+which<00:04:12.480><c> is</c><00:04:12.640><c> which</c><00:04:12.879><c> is</c><00:04:13.120><c> really</c><00:04:13.439><c> neat</c>
+
+00:04:14.070 --> 00:04:14.080 align:start position:0%
+which is which is really neat
+ 
+
+00:04:14.080 --> 00:04:15.990 align:start position:0%
+which is which is really neat
+so<00:04:14.239><c> i'm</c><00:04:14.319><c> going</c><00:04:14.400><c> to</c><00:04:14.480><c> do</c><00:04:14.640><c> select</c><00:04:15.120><c> id</c><00:04:15.599><c> from</c>
+
+00:04:15.990 --> 00:04:16.000 align:start position:0%
+so i'm going to do select id from
+ 
+
+00:04:16.000 --> 00:04:17.749 align:start position:0%
+so i'm going to do select id from
+employees<00:04:17.040><c> where</c><00:04:17.359><c> id</c>
+
+00:04:17.749 --> 00:04:17.759 align:start position:0%
+employees where id
+ 
+
+00:04:17.759 --> 00:04:20.629 align:start position:0%
+employees where id
+equal<00:04:18.400><c> let's</c><00:04:18.639><c> say</c><00:04:18.799><c> 2</c><00:04:19.040><c> 000</c><00:04:19.680><c> because</c><00:04:20.160><c> the</c><00:04:20.320><c> first</c>
+
+00:04:20.629 --> 00:04:20.639 align:start position:0%
+equal let's say 2 000 because the first
+ 
+
+00:04:20.639 --> 00:04:21.990 align:start position:0%
+equal let's say 2 000 because the first
+one<00:04:20.799><c> is</c><00:04:20.959><c> cached</c><00:04:21.280><c> i</c><00:04:21.359><c> don't</c><00:04:21.440><c> want</c><00:04:21.600><c> to</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+one is cached i don't want to
+ 
+
+00:04:22.000 --> 00:04:24.870 align:start position:0%
+one is cached i don't want to
+mess<00:04:22.240><c> up</c><00:04:22.400><c> the</c><00:04:23.120><c> statistics</c><00:04:24.240><c> all</c><00:04:24.400><c> right</c><00:04:24.560><c> so</c><00:04:24.720><c> what</c>
+
+00:04:24.870 --> 00:04:24.880 align:start position:0%
+mess up the statistics all right so what
+ 
+
+00:04:24.880 --> 00:04:26.469 align:start position:0%
+mess up the statistics all right so what
+happened<00:04:25.280><c> here</c><00:04:25.520><c> guys</c>
+
+00:04:26.469 --> 00:04:26.479 align:start position:0%
+happened here guys
+ 
+
+00:04:26.479 --> 00:04:28.710 align:start position:0%
+happened here guys
+let's<00:04:26.720><c> let's</c><00:04:27.040><c> decipher</c><00:04:27.680><c> what</c><00:04:27.919><c> happened</c><00:04:28.560><c> it</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+let's let's decipher what happened it
+ 
+
+00:04:28.720 --> 00:04:30.230 align:start position:0%
+let's let's decipher what happened it
+says<00:04:29.440><c> okay</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+says okay
+ 
+
+00:04:30.240 --> 00:04:33.590 align:start position:0%
+says okay
+your<00:04:31.600><c> predicate</c><00:04:32.320><c> filter</c><00:04:32.800><c> you're</c><00:04:33.040><c> trying</c><00:04:33.360><c> to</c>
+
+00:04:33.590 --> 00:04:33.600 align:start position:0%
+your predicate filter you're trying to
+ 
+
+00:04:33.600 --> 00:04:34.070 align:start position:0%
+your predicate filter you're trying to
+find
+
+00:04:34.070 --> 00:04:34.080 align:start position:0%
+find
+ 
+
+00:04:34.080 --> 00:04:36.710 align:start position:0%
+find
+id<00:04:34.639><c> 2000</c><00:04:35.280><c> that's</c><00:04:35.600><c> the</c><00:04:35.680><c> employee</c><00:04:36.240><c> with</c><00:04:36.400><c> id</c>
+
+00:04:36.710 --> 00:04:36.720 align:start position:0%
+id 2000 that's the employee with id
+ 
+
+00:04:36.720 --> 00:04:37.670 align:start position:0%
+id 2000 that's the employee with id
+2000.
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+2000.
+ 
+
+00:04:37.680 --> 00:04:39.990 align:start position:0%
+2000.
+you<00:04:37.759><c> know</c><00:04:38.080><c> in</c><00:04:38.160><c> order</c><00:04:38.560><c> i</c><00:04:39.040><c> in</c><00:04:39.199><c> order</c><00:04:39.360><c> to</c><00:04:39.680><c> find</c>
+
+00:04:39.990 --> 00:04:40.000 align:start position:0%
+you know in order i in order to find
+ 
+
+00:04:40.000 --> 00:04:40.710 align:start position:0%
+you know in order i in order to find
+that
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+that
+ 
+
+00:04:40.720 --> 00:04:44.469 align:start position:0%
+that
+i<00:04:40.880><c> didn't</c><00:04:41.280><c> go</c><00:04:41.520><c> through</c><00:04:42.479><c> the</c><00:04:42.960><c> actual</c><00:04:43.440><c> table</c><00:04:43.840><c> 11</c>
+
+00:04:44.469 --> 00:04:44.479 align:start position:0%
+i didn't go through the actual table 11
+ 
+
+00:04:44.479 --> 00:04:45.110 align:start position:0%
+i didn't go through the actual table 11
+million
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+million
+ 
+
+00:04:45.120 --> 00:04:48.070 align:start position:0%
+million
+and<00:04:45.280><c> i</c><00:04:45.520><c> searched</c><00:04:45.840><c> sequentially</c><00:04:47.120><c> no</c><00:04:47.840><c> i</c>
+
+00:04:48.070 --> 00:04:48.080 align:start position:0%
+and i searched sequentially no i
+ 
+
+00:04:48.080 --> 00:04:49.189 align:start position:0%
+and i searched sequentially no i
+actually
+
+00:04:49.189 --> 00:04:49.199 align:start position:0%
+actually
+ 
+
+00:04:49.199 --> 00:04:53.030 align:start position:0%
+actually
+scanned<00:04:49.600><c> the</c><00:04:49.919><c> index</c><00:04:50.479><c> which</c><00:04:50.720><c> is</c><00:04:51.040><c> way</c><00:04:52.160><c> faster</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+scanned the index which is way faster
+ 
+
+00:04:53.040 --> 00:04:55.590 align:start position:0%
+scanned the index which is way faster
+because<00:04:53.199><c> the</c><00:04:53.360><c> index</c><00:04:53.680><c> is</c><00:04:53.919><c> always</c><00:04:54.479><c> smaller</c><00:04:55.440><c> than</c>
+
+00:04:55.590 --> 00:04:55.600 align:start position:0%
+because the index is always smaller than
+ 
+
+00:04:55.600 --> 00:04:56.390 align:start position:0%
+because the index is always smaller than
+the<00:04:55.759><c> actual</c>
+
+00:04:56.390 --> 00:04:56.400 align:start position:0%
+the actual
+ 
+
+00:04:56.400 --> 00:04:58.950 align:start position:0%
+the actual
+table<00:04:57.280><c> because</c><00:04:57.440><c> it</c><00:04:57.520><c> tells</c><00:04:57.840><c> you</c><00:04:57.919><c> that</c><00:04:58.080><c> okay</c><00:04:58.560><c> it</c>
+
+00:04:58.950 --> 00:04:58.960 align:start position:0%
+table because it tells you that okay it
+ 
+
+00:04:58.960 --> 00:05:00.629 align:start position:0%
+table because it tells you that okay it
+is<00:04:59.040><c> structured</c><00:04:59.600><c> in</c><00:04:59.680><c> a</c><00:04:59.840><c> way</c><00:05:00.000><c> so</c><00:05:00.160><c> that</c>
+
+00:05:00.629 --> 00:05:00.639 align:start position:0%
+is structured in a way so that
+ 
+
+00:05:00.639 --> 00:05:02.710 align:start position:0%
+is structured in a way so that
+if<00:05:01.199><c> you</c><00:05:01.520><c> search</c><00:05:02.000><c> and</c><00:05:02.080><c> i'm</c><00:05:02.240><c> going</c><00:05:02.320><c> to</c><00:05:02.400><c> put</c><00:05:02.560><c> an</c>
+
+00:05:02.710 --> 00:05:02.720 align:start position:0%
+if you search and i'm going to put an
+ 
+
+00:05:02.720 --> 00:05:04.150 align:start position:0%
+if you search and i'm going to put an
+animation<00:05:03.199><c> here</c><00:05:03.440><c> a</c><00:05:03.520><c> little</c><00:05:03.759><c> bit</c>
+
+00:05:04.150 --> 00:05:04.160 align:start position:0%
+animation here a little bit
+ 
+
+00:05:04.160 --> 00:05:06.790 align:start position:0%
+animation here a little bit
+so<00:05:04.320><c> you</c><00:05:04.400><c> can</c><00:05:04.560><c> see</c><00:05:04.800><c> like</c><00:05:04.960><c> if</c><00:05:05.280><c> i</c><00:05:05.360><c> want</c><00:05:05.520><c> to</c><00:05:05.680><c> find</c><00:05:06.479><c> id</c>
+
+00:05:06.790 --> 00:05:06.800 align:start position:0%
+so you can see like if i want to find id
+ 
+
+00:05:06.800 --> 00:05:07.830 align:start position:0%
+so you can see like if i want to find id
+number<00:05:07.039><c> 2000</c>
+
+00:05:07.830 --> 00:05:07.840 align:start position:0%
+number 2000
+ 
+
+00:05:07.840 --> 00:05:10.390 align:start position:0%
+number 2000
+it<00:05:08.240><c> starts</c><00:05:08.639><c> searching</c><00:05:09.039><c> okay</c><00:05:09.360><c> 2000</c><00:05:09.759><c> is</c><00:05:09.840><c> between</c>
+
+00:05:10.390 --> 00:05:10.400 align:start position:0%
+it starts searching okay 2000 is between
+ 
+
+00:05:10.400 --> 00:05:11.350 align:start position:0%
+it starts searching okay 2000 is between
+four<00:05:10.639><c> thousand</c>
+
+00:05:11.350 --> 00:05:11.360 align:start position:0%
+four thousand
+ 
+
+00:05:11.360 --> 00:05:14.390 align:start position:0%
+four thousand
+and<00:05:12.240><c> and</c><00:05:12.479><c> one</c><00:05:12.800><c> thousand</c><00:05:13.120><c> so</c><00:05:13.360><c> it</c><00:05:13.520><c> was</c><00:05:13.680><c> okay</c>
+
+00:05:14.390 --> 00:05:14.400 align:start position:0%
+and and one thousand so it was okay
+ 
+
+00:05:14.400 --> 00:05:16.950 align:start position:0%
+and and one thousand so it was okay
+uh<00:05:14.639><c> let</c><00:05:14.800><c> me</c><00:05:14.960><c> go</c><00:05:15.120><c> to</c><00:05:15.280><c> this</c><00:05:15.520><c> three</c><00:05:15.840><c> so</c><00:05:16.000><c> it</c><00:05:16.160><c> goes</c><00:05:16.800><c> it</c>
+
+00:05:16.950 --> 00:05:16.960 align:start position:0%
+uh let me go to this three so it goes it
+ 
+
+00:05:16.960 --> 00:05:18.550 align:start position:0%
+uh let me go to this three so it goes it
+goes<00:05:17.199><c> to</c><00:05:17.360><c> another</c><00:05:17.680><c> three</c><00:05:17.919><c> and</c><00:05:18.000><c> then</c><00:05:18.160><c> search</c>
+
+00:05:18.550 --> 00:05:18.560 align:start position:0%
+goes to another three and then search
+ 
+
+00:05:18.560 --> 00:05:18.950 align:start position:0%
+goes to another three and then search
+for
+
+00:05:18.950 --> 00:05:18.960 align:start position:0%
+for
+ 
+
+00:05:18.960 --> 00:05:21.029 align:start position:0%
+for
+from<00:05:19.360><c> another</c><00:05:20.160><c> between</c><00:05:20.479><c> this</c><00:05:20.639><c> number</c><00:05:20.960><c> and</c>
+
+00:05:21.029 --> 00:05:21.039 align:start position:0%
+from another between this number and
+ 
+
+00:05:21.039 --> 00:05:23.189 align:start position:0%
+from another between this number and
+this<00:05:21.280><c> number</c><00:05:21.600><c> so</c><00:05:21.919><c> until</c><00:05:22.320><c> you</c><00:05:22.479><c> actually</c><00:05:22.880><c> find</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+this number so until you actually find
+ 
+
+00:05:23.199 --> 00:05:24.469 align:start position:0%
+this number so until you actually find
+the<00:05:23.440><c> number</c><00:05:23.840><c> right</c><00:05:24.080><c> that's</c>
+
+00:05:24.469 --> 00:05:24.479 align:start position:0%
+the number right that's
+ 
+
+00:05:24.479 --> 00:05:27.749 align:start position:0%
+the number right that's
+how<00:05:24.800><c> b3s</c><00:05:25.280><c> basically</c><00:05:25.759><c> work</c><00:05:26.320><c> right</c><00:05:27.199><c> so</c><00:05:27.360><c> now</c><00:05:27.520><c> what</c>
+
+00:05:27.749 --> 00:05:27.759 align:start position:0%
+how b3s basically work right so now what
+ 
+
+00:05:27.759 --> 00:05:28.469 align:start position:0%
+how b3s basically work right so now what
+i<00:05:27.840><c> did</c><00:05:28.080><c> i</c>
+
+00:05:28.469 --> 00:05:28.479 align:start position:0%
+i did i
+ 
+
+00:05:28.479 --> 00:05:31.749 align:start position:0%
+i did i
+i<00:05:28.720><c> only</c><00:05:29.600><c> scanned</c><00:05:30.400><c> the</c><00:05:30.639><c> index</c><00:05:31.120><c> which</c><00:05:31.360><c> is</c>
+
+00:05:31.749 --> 00:05:31.759 align:start position:0%
+i only scanned the index which is
+ 
+
+00:05:31.759 --> 00:05:35.110 align:start position:0%
+i only scanned the index which is
+very<00:05:32.240><c> very</c><00:05:32.639><c> effective</c><00:05:33.199><c> right</c><00:05:34.080><c> he</c><00:05:34.320><c> pitches</c>
+
+00:05:35.110 --> 00:05:35.120 align:start position:0%
+very very effective right he pitches
+ 
+
+00:05:35.120 --> 00:05:37.430 align:start position:0%
+very very effective right he pitches
+that's<00:05:35.360><c> another</c><00:05:36.160><c> interesting</c><00:05:36.639><c> thing</c><00:05:36.880><c> so</c><00:05:37.280><c> it</c>
+
+00:05:37.430 --> 00:05:37.440 align:start position:0%
+that's another interesting thing so it
+ 
+
+00:05:37.440 --> 00:05:40.469 align:start position:0%
+that's another interesting thing so it
+says<00:05:38.080><c> the</c><00:05:38.320><c> value</c><00:05:38.720><c> that</c><00:05:38.960><c> i</c><00:05:39.199><c> actually</c><00:05:39.680><c> queried</c>
+
+00:05:40.469 --> 00:05:40.479 align:start position:0%
+says the value that i actually queried
+ 
+
+00:05:40.479 --> 00:05:43.590 align:start position:0%
+says the value that i actually queried
+which<00:05:40.720><c> is</c><00:05:40.800><c> the</c><00:05:40.960><c> id</c><00:05:41.840><c> i</c><00:05:42.080><c> did</c><00:05:42.320><c> not</c><00:05:42.639><c> have</c><00:05:42.960><c> to</c><00:05:43.120><c> go</c><00:05:43.360><c> to</c>
+
+00:05:43.590 --> 00:05:43.600 align:start position:0%
+which is the id i did not have to go to
+ 
+
+00:05:43.600 --> 00:05:45.430 align:start position:0%
+which is the id i did not have to go to
+the<00:05:43.759><c> heap</c><00:05:44.160><c> to</c><00:05:44.400><c> fetch</c><00:05:44.639><c> this</c><00:05:44.880><c> information</c>
+
+00:05:45.430 --> 00:05:45.440 align:start position:0%
+the heap to fetch this information
+ 
+
+00:05:45.440 --> 00:05:46.150 align:start position:0%
+the heap to fetch this information
+because
+
+00:05:46.150 --> 00:05:46.160 align:start position:0%
+because
+ 
+
+00:05:46.160 --> 00:05:48.230 align:start position:0%
+because
+the<00:05:46.400><c> id</c><00:05:47.120><c> since</c><00:05:47.440><c> that's</c><00:05:47.680><c> the</c><00:05:47.840><c> only</c><00:05:48.080><c> thing</c>
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+the id since that's the only thing
+ 
+
+00:05:48.240 --> 00:05:49.350 align:start position:0%
+the id since that's the only thing
+you're<00:05:48.400><c> selecting</c>
+
+00:05:49.350 --> 00:05:49.360 align:start position:0%
+you're selecting
+ 
+
+00:05:49.360 --> 00:05:51.830 align:start position:0%
+you're selecting
+is<00:05:49.600><c> in</c><00:05:49.680><c> the</c><00:05:49.919><c> index</c><00:05:50.479><c> so</c><00:05:50.639><c> i</c><00:05:50.800><c> just</c><00:05:51.120><c> pulled</c><00:05:51.440><c> it</c><00:05:51.600><c> in</c>
+
+00:05:51.830 --> 00:05:51.840 align:start position:0%
+is in the index so i just pulled it in
+ 
+
+00:05:51.840 --> 00:05:52.629 align:start position:0%
+is in the index so i just pulled it in
+line<00:05:52.080><c> that's</c><00:05:52.320><c> called</c>
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+line that's called
+ 
+
+00:05:52.639 --> 00:05:55.029 align:start position:0%
+line that's called
+inline<00:05:53.039><c> query</c><00:05:53.840><c> if</c><00:05:54.000><c> the</c><00:05:54.320><c> information</c><00:05:54.880><c> is</c>
+
+00:05:55.029 --> 00:05:55.039 align:start position:0%
+inline query if the information is
+ 
+
+00:05:55.039 --> 00:05:56.390 align:start position:0%
+inline query if the information is
+available<00:05:55.600><c> in</c><00:05:55.680><c> the</c><00:05:55.840><c> index</c>
+
+00:05:56.390 --> 00:05:56.400 align:start position:0%
+available in the index
+ 
+
+00:05:56.400 --> 00:05:59.110 align:start position:0%
+available in the index
+that<00:05:56.639><c> is</c><00:05:56.800><c> the</c><00:05:57.199><c> sweetest</c><00:05:58.000><c> query</c><00:05:58.400><c> to</c><00:05:58.479><c> a</c><00:05:58.639><c> database</c>
+
+00:05:59.110 --> 00:05:59.120 align:start position:0%
+that is the sweetest query to a database
+ 
+
+00:05:59.120 --> 00:05:59.990 align:start position:0%
+that is the sweetest query to a database
+engineer
+
+00:05:59.990 --> 00:06:00.000 align:start position:0%
+engineer
+ 
+
+00:06:00.000 --> 00:06:02.870 align:start position:0%
+engineer
+if<00:06:00.479><c> you</c><00:06:00.800><c> can</c><00:06:01.120><c> put</c><00:06:01.440><c> as</c><00:06:01.600><c> much</c><00:06:01.840><c> information</c><00:06:02.639><c> as</c>
+
+00:06:02.870 --> 00:06:02.880 align:start position:0%
+if you can put as much information as
+ 
+
+00:06:02.880 --> 00:06:04.390 align:start position:0%
+if you can put as much information as
+you<00:06:03.039><c> can</c><00:06:03.360><c> in</c><00:06:03.520><c> the</c><00:06:03.680><c> index</c>
+
+00:06:04.390 --> 00:06:04.400 align:start position:0%
+you can in the index
+ 
+
+00:06:04.400 --> 00:06:07.110 align:start position:0%
+you can in the index
+so<00:06:04.560><c> that</c><00:06:04.880><c> as</c><00:06:05.120><c> i</c><00:06:05.360><c> as</c><00:06:05.520><c> i</c><00:06:05.600><c> scan</c><00:06:05.919><c> the</c><00:06:06.080><c> index</c><00:06:06.720><c> and</c><00:06:06.880><c> you</c>
+
+00:06:07.110 --> 00:06:07.120 align:start position:0%
+so that as i as i scan the index and you
+ 
+
+00:06:07.120 --> 00:06:08.950 align:start position:0%
+so that as i as i scan the index and you
+only<00:06:07.440><c> select</c><00:06:07.759><c> the</c><00:06:07.919><c> led</c>
+
+00:06:08.950 --> 00:06:08.960 align:start position:0%
+only select the led
+ 
+
+00:06:08.960 --> 00:06:10.950 align:start position:0%
+only select the led
+that<00:06:09.199><c> is</c><00:06:09.360><c> the</c><00:06:09.520><c> sweetest</c><00:06:10.000><c> thing</c><00:06:10.160><c> you</c><00:06:10.240><c> can</c><00:06:10.400><c> do</c><00:06:10.800><c> so</c>
+
+00:06:10.950 --> 00:06:10.960 align:start position:0%
+that is the sweetest thing you can do so
+ 
+
+00:06:10.960 --> 00:06:12.150 align:start position:0%
+that is the sweetest thing you can do so
+the<00:06:11.039><c> whole</c><00:06:11.280><c> thing</c><00:06:11.520><c> took</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+the whole thing took
+ 
+
+00:06:12.160 --> 00:06:15.990 align:start position:0%
+the whole thing took
+0.6<00:06:12.960><c> millisecond</c><00:06:14.080><c> and</c><00:06:14.319><c> uh</c><00:06:14.800><c> to</c><00:06:15.039><c> plan</c><00:06:15.440><c> the</c><00:06:15.600><c> query</c>
+
+00:06:15.990 --> 00:06:16.000 align:start position:0%
+0.6 millisecond and uh to plan the query
+ 
+
+00:06:16.000 --> 00:06:16.870 align:start position:0%
+0.6 millisecond and uh to plan the query
+and<00:06:16.160><c> and</c><00:06:16.400><c> to</c>
+
+00:06:16.870 --> 00:06:16.880 align:start position:0%
+and and to
+ 
+
+00:06:16.880 --> 00:06:20.390 align:start position:0%
+and and to
+to<00:06:17.280><c> study</c><00:06:17.840><c> what</c><00:06:18.080><c> we</c><00:06:18.319><c> go</c><00:06:18.639><c> through</c><00:06:19.520><c> the</c><00:06:19.520><c> the</c><00:06:19.919><c> i</c>
+
+00:06:20.390 --> 00:06:20.400 align:start position:0%
+to study what we go through the the i
+ 
+
+00:06:20.400 --> 00:06:23.510 align:start position:0%
+to study what we go through the the i
+the<00:06:21.120><c> the</c><00:06:21.360><c> fact</c><00:06:21.840><c> of</c><00:06:22.560><c> oh</c><00:06:22.720><c> should</c><00:06:22.960><c> we</c><00:06:23.120><c> use</c><00:06:23.280><c> the</c>
+
+00:06:23.510 --> 00:06:23.520 align:start position:0%
+the the fact of oh should we use the
+ 
+
+00:06:23.520 --> 00:06:24.710 align:start position:0%
+the the fact of oh should we use the
+index<00:06:23.840><c> or</c><00:06:23.919><c> should</c><00:06:24.160><c> you</c>
+
+00:06:24.710 --> 00:06:24.720 align:start position:0%
+index or should you
+ 
+
+00:06:24.720 --> 00:06:27.590 align:start position:0%
+index or should you
+scan<00:06:25.039><c> the</c><00:06:25.199><c> table</c><00:06:25.600><c> is</c><00:06:25.840><c> a</c><00:06:25.919><c> query</c><00:06:26.639><c> is</c><00:06:26.800><c> a</c><00:06:26.880><c> decision</c>
+
+00:06:27.590 --> 00:06:27.600 align:start position:0%
+scan the table is a query is a decision
+ 
+
+00:06:27.600 --> 00:06:29.029 align:start position:0%
+scan the table is a query is a decision
+and<00:06:27.680><c> that's</c><00:06:27.919><c> called</c><00:06:28.080><c> the</c><00:06:28.240><c> planning</c><00:06:28.639><c> time</c>
+
+00:06:29.029 --> 00:06:29.039 align:start position:0%
+and that's called the planning time
+ 
+
+00:06:29.039 --> 00:06:31.670 align:start position:0%
+and that's called the planning time
+the<00:06:29.199><c> execution</c><00:06:29.680><c> is</c><00:06:30.240><c> the</c><00:06:30.400><c> actual</c><00:06:30.800><c> work</c><00:06:31.360><c> to</c><00:06:31.520><c> go</c>
+
+00:06:31.670 --> 00:06:31.680 align:start position:0%
+the execution is the actual work to go
+ 
+
+00:06:31.680 --> 00:06:34.070 align:start position:0%
+the execution is the actual work to go
+and<00:06:31.840><c> do</c><00:06:32.000><c> the</c><00:06:32.160><c> work</c><00:06:32.479><c> all</c><00:06:32.840><c> right</c>
+
+00:06:34.070 --> 00:06:34.080 align:start position:0%
+and do the work all right
+ 
+
+00:06:34.080 --> 00:06:36.230 align:start position:0%
+and do the work all right
+so<00:06:34.240><c> let's</c><00:06:34.880><c> sparse</c><00:06:35.280><c> things</c><00:06:35.520><c> a</c><00:06:35.520><c> little</c><00:06:35.680><c> bit</c><00:06:36.080><c> what</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+so let's sparse things a little bit what
+ 
+
+00:06:36.240 --> 00:06:38.390 align:start position:0%
+so let's sparse things a little bit what
+i<00:06:36.400><c> want</c><00:06:36.560><c> to</c><00:06:36.639><c> do</c><00:06:36.880><c> here</c><00:06:37.120><c> in</c><00:06:37.280><c> this</c><00:06:37.520><c> case</c>
+
+00:06:38.390 --> 00:06:38.400 align:start position:0%
+i want to do here in this case
+ 
+
+00:06:38.400 --> 00:06:43.749 align:start position:0%
+i want to do here in this case
+i<00:06:38.560><c> want</c><00:06:38.800><c> to</c><00:06:41.360><c> i</c><00:06:41.520><c> want</c><00:06:41.680><c> to</c><00:06:41.840><c> select</c>
+
+00:06:43.749 --> 00:06:43.759 align:start position:0%
+i want to i want to select
+ 
+
+00:06:43.759 --> 00:06:46.870 align:start position:0%
+i want to i want to select
+3000<00:06:45.120><c> in</c><00:06:45.199><c> this</c><00:06:45.440><c> case</c>
+
+00:06:46.870 --> 00:06:46.880 align:start position:0%
+3000 in this case
+ 
+
+00:06:46.880 --> 00:06:49.990 align:start position:0%
+3000 in this case
+and<00:06:47.039><c> you</c><00:06:47.120><c> can</c><00:06:47.280><c> see</c><00:06:47.440><c> that</c><00:06:47.600><c> took</c><00:06:48.440><c> 0.1.8</c>
+
+00:06:49.990 --> 00:06:50.000 align:start position:0%
+and you can see that took 0.1.8
+ 
+
+00:06:50.000 --> 00:06:52.230 align:start position:0%
+and you can see that took 0.1.8
+what<00:06:50.160><c> i</c><00:06:50.240><c> want</c><00:06:50.400><c> to</c><00:06:50.560><c> do</c><00:06:50.800><c> is</c><00:06:51.360><c> i'm</c><00:06:51.520><c> going</c><00:06:51.599><c> to</c><00:06:51.840><c> change</c>
+
+00:06:52.230 --> 00:06:52.240 align:start position:0%
+what i want to do is i'm going to change
+ 
+
+00:06:52.240 --> 00:06:53.350 align:start position:0%
+what i want to do is i'm going to change
+the<00:06:52.479><c> id</c>
+
+00:06:53.350 --> 00:06:53.360 align:start position:0%
+the id
+ 
+
+00:06:53.360 --> 00:06:56.550 align:start position:0%
+the id
+5000<00:06:54.960><c> and</c><00:06:55.199><c> instead</c><00:06:55.840><c> this</c><00:06:56.000><c> time</c><00:06:56.240><c> i'm</c><00:06:56.319><c> going</c><00:06:56.400><c> to</c>
+
+00:06:56.550 --> 00:06:56.560 align:start position:0%
+5000 and instead this time i'm going to
+ 
+
+00:06:56.560 --> 00:06:57.830 align:start position:0%
+5000 and instead this time i'm going to
+ask<00:06:56.800><c> for</c><00:06:56.960><c> the</c><00:06:57.120><c> name</c>
+
+00:06:57.830 --> 00:06:57.840 align:start position:0%
+ask for the name
+ 
+
+00:06:57.840 --> 00:07:01.270 align:start position:0%
+ask for the name
+and<00:06:58.080><c> compare</c><00:06:59.120><c> that</c><00:06:59.520><c> cost</c><00:07:00.080><c> here</c><00:07:00.400><c> guys</c>
+
+00:07:01.270 --> 00:07:01.280 align:start position:0%
+and compare that cost here guys
+ 
+
+00:07:01.280 --> 00:07:04.469 align:start position:0%
+and compare that cost here guys
+look<00:07:01.520><c> how</c><00:07:01.840><c> long</c><00:07:02.160><c> it</c><00:07:02.240><c> took</c><00:07:03.199><c> so</c>
+
+00:07:04.469 --> 00:07:04.479 align:start position:0%
+look how long it took so
+ 
+
+00:07:04.479 --> 00:07:07.670 align:start position:0%
+look how long it took so
+selecting<00:07:05.199><c> only</c><00:07:05.520><c> the</c><00:07:05.759><c> id</c><00:07:07.120><c> where</c><00:07:07.360><c> you</c><00:07:07.440><c> know</c><00:07:07.599><c> the</c>
+
+00:07:07.670 --> 00:07:07.680 align:start position:0%
+selecting only the id where you know the
+ 
+
+00:07:07.680 --> 00:07:09.350 align:start position:0%
+selecting only the id where you know the
+id<00:07:07.919><c> which</c><00:07:08.080><c> is</c><00:07:08.240><c> a</c><00:07:08.319><c> kasily</c><00:07:08.800><c> query</c>
+
+00:07:09.350 --> 00:07:09.360 align:start position:0%
+id which is a kasily query
+ 
+
+00:07:09.360 --> 00:07:11.270 align:start position:0%
+id which is a kasily query
+if<00:07:09.520><c> you</c><00:07:10.160><c> ask</c><00:07:10.400><c> me</c><00:07:10.560><c> right</c><00:07:10.720><c> it's</c><00:07:10.880><c> a</c><00:07:10.880><c> little</c><00:07:11.039><c> bit</c><00:07:11.199><c> of</c>
+
+00:07:11.270 --> 00:07:11.280 align:start position:0%
+if you ask me right it's a little bit of
+ 
+
+00:07:11.280 --> 00:07:12.950 align:start position:0%
+if you ask me right it's a little bit of
+silicon<00:07:11.759><c> because</c><00:07:12.000><c> you</c><00:07:12.080><c> know</c><00:07:12.240><c> the</c><00:07:12.400><c> id</c><00:07:12.639><c> why</c><00:07:12.800><c> are</c>
+
+00:07:12.950 --> 00:07:12.960 align:start position:0%
+silicon because you know the id why are
+ 
+
+00:07:12.960 --> 00:07:14.550 align:start position:0%
+silicon because you know the id why are
+you<00:07:13.039><c> just</c><00:07:13.199><c> selecting</c><00:07:13.520><c> the</c><00:07:13.599><c> id</c><00:07:13.919><c> but</c>
+
+00:07:14.550 --> 00:07:14.560 align:start position:0%
+you just selecting the id but
+ 
+
+00:07:14.560 --> 00:07:16.390 align:start position:0%
+you just selecting the id but
+it's<00:07:14.720><c> just</c><00:07:15.199><c> for</c><00:07:15.440><c> science</c><00:07:15.840><c> guys</c><00:07:16.080><c> we're</c><00:07:16.160><c> doing</c>
+
+00:07:16.390 --> 00:07:16.400 align:start position:0%
+it's just for science guys we're doing
+ 
+
+00:07:16.400 --> 00:07:17.830 align:start position:0%
+it's just for science guys we're doing
+this<00:07:16.479><c> for</c><00:07:16.639><c> science</c><00:07:17.120><c> so</c><00:07:17.280><c> it's</c>
+
+00:07:17.830 --> 00:07:17.840 align:start position:0%
+this for science so it's
+ 
+
+00:07:17.840 --> 00:07:20.070 align:start position:0%
+this for science so it's
+pretty<00:07:18.160><c> cool</c><00:07:18.479><c> right</c><00:07:18.639><c> it's</c><00:07:18.880><c> 0.1</c><00:07:19.360><c> milliseconds</c>
+
+00:07:20.070 --> 00:07:20.080 align:start position:0%
+pretty cool right it's 0.1 milliseconds
+ 
+
+00:07:20.080 --> 00:07:21.589 align:start position:0%
+pretty cool right it's 0.1 milliseconds
+less<00:07:20.319><c> than</c><00:07:20.560><c> a</c><00:07:20.639><c> millisecond</c><00:07:21.120><c> which</c><00:07:21.360><c> is</c>
+
+00:07:21.589 --> 00:07:21.599 align:start position:0%
+less than a millisecond which is
+ 
+
+00:07:21.599 --> 00:07:24.870 align:start position:0%
+less than a millisecond which is
+quite<00:07:21.919><c> fast</c><00:07:22.720><c> however</c><00:07:23.840><c> when</c><00:07:24.080><c> we</c><00:07:24.400><c> actually</c>
+
+00:07:24.870 --> 00:07:24.880 align:start position:0%
+quite fast however when we actually
+ 
+
+00:07:24.880 --> 00:07:26.710 align:start position:0%
+quite fast however when we actually
+selected<00:07:25.440><c> the</c><00:07:25.759><c> name</c>
+
+00:07:26.710 --> 00:07:26.720 align:start position:0%
+selected the name
+ 
+
+00:07:26.720 --> 00:07:30.629 align:start position:0%
+selected the name
+which<00:07:26.960><c> is</c><00:07:27.199><c> a</c><00:07:27.360><c> column</c><00:07:28.080><c> in</c><00:07:28.240><c> the</c><00:07:28.560><c> table</c><00:07:29.680><c> it</c><00:07:29.919><c> is</c><00:07:30.160><c> not</c>
+
+00:07:30.629 --> 00:07:30.639 align:start position:0%
+which is a column in the table it is not
+ 
+
+00:07:30.639 --> 00:07:32.629 align:start position:0%
+which is a column in the table it is not
+the<00:07:30.880><c> column</c><00:07:31.199><c> is</c><00:07:31.280><c> not</c><00:07:31.520><c> in</c><00:07:31.599><c> the</c><00:07:31.759><c> index</c><00:07:32.240><c> it</c><00:07:32.400><c> is</c><00:07:32.479><c> in</c>
+
+00:07:32.629 --> 00:07:32.639 align:start position:0%
+the column is not in the index it is in
+ 
+
+00:07:32.639 --> 00:07:34.710 align:start position:0%
+the column is not in the index it is in
+the<00:07:32.800><c> table</c><00:07:33.280><c> it's</c><00:07:33.440><c> in</c><00:07:33.520><c> the</c><00:07:33.680><c> heap</c><00:07:34.000><c> it's</c><00:07:34.400><c> in</c><00:07:34.560><c> a</c>
+
+00:07:34.710 --> 00:07:34.720 align:start position:0%
+the table it's in the heap it's in a
+ 
+
+00:07:34.720 --> 00:07:36.150 align:start position:0%
+the table it's in the heap it's in a
+different<00:07:35.120><c> data</c><00:07:35.520><c> structure</c>
+
+00:07:36.150 --> 00:07:36.160 align:start position:0%
+different data structure
+ 
+
+00:07:36.160 --> 00:07:39.990 align:start position:0%
+different data structure
+right<00:07:37.759><c> and</c><00:07:37.919><c> in</c><00:07:38.080><c> this</c><00:07:38.400><c> case</c>
+
+00:07:39.990 --> 00:07:40.000 align:start position:0%
+right and in this case
+ 
+
+00:07:40.000 --> 00:07:43.189 align:start position:0%
+right and in this case
+it<00:07:40.160><c> took</c><00:07:40.479><c> us</c><00:07:40.800><c> two</c><00:07:41.840><c> stinking</c><00:07:42.479><c> two</c><00:07:42.720><c> and</c><00:07:42.880><c> a</c><00:07:42.960><c> half</c>
+
+00:07:43.189 --> 00:07:43.199 align:start position:0%
+it took us two stinking two and a half
+ 
+
+00:07:43.199 --> 00:07:44.309 align:start position:0%
+it took us two stinking two and a half
+milliseconds<00:07:43.919><c> not</c>
+
+00:07:44.309 --> 00:07:44.319 align:start position:0%
+milliseconds not
+ 
+
+00:07:44.319 --> 00:07:46.629 align:start position:0%
+milliseconds not
+m<00:07:44.879><c> not</c><00:07:45.120><c> seconds</c><00:07:45.520><c> two</c><00:07:45.680><c> and</c><00:07:45.840><c> a</c><00:07:45.840><c> half</c><00:07:46.080><c> millisecond</c>
+
+00:07:46.629 --> 00:07:46.639 align:start position:0%
+m not seconds two and a half millisecond
+ 
+
+00:07:46.639 --> 00:07:47.909 align:start position:0%
+m not seconds two and a half millisecond
+which<00:07:46.879><c> is</c><00:07:47.120><c> which</c><00:07:47.360><c> is</c><00:07:47.520><c> quite</c>
+
+00:07:47.909 --> 00:07:47.919 align:start position:0%
+which is which is quite
+ 
+
+00:07:47.919 --> 00:07:50.869 align:start position:0%
+which is which is quite
+fast<00:07:48.400><c> but</c><00:07:48.639><c> still</c><00:07:49.599><c> database</c><00:07:50.240><c> speak</c><00:07:50.560><c> it's</c><00:07:50.800><c> a</c>
+
+00:07:50.869 --> 00:07:50.879 align:start position:0%
+fast but still database speak it's a
+ 
+
+00:07:50.879 --> 00:07:51.749 align:start position:0%
+fast but still database speak it's a
+little<00:07:51.039><c> bit</c><00:07:51.199><c> slow</c>
+
+00:07:51.749 --> 00:07:51.759 align:start position:0%
+little bit slow
+ 
+
+00:07:51.759 --> 00:07:54.390 align:start position:0%
+little bit slow
+this<00:07:52.000><c> is</c><00:07:52.160><c> a</c><00:07:52.639><c> slower</c><00:07:53.280><c> query</c><00:07:53.680><c> and</c><00:07:53.840><c> you</c><00:07:54.000><c> guys</c><00:07:54.240><c> need</c>
+
+00:07:54.390 --> 00:07:54.400 align:start position:0%
+this is a slower query and you guys need
+ 
+
+00:07:54.400 --> 00:07:55.990 align:start position:0%
+this is a slower query and you guys need
+to<00:07:54.560><c> understand</c><00:07:55.039><c> when</c><00:07:55.199><c> you</c><00:07:55.360><c> execute</c><00:07:55.759><c> these</c>
+
+00:07:55.990 --> 00:07:56.000 align:start position:0%
+to understand when you execute these
+ 
+
+00:07:56.000 --> 00:07:58.309 align:start position:0%
+to understand when you execute these
+queries<00:07:56.400><c> what</c><00:07:56.560><c> it</c><00:07:56.720><c> is</c><00:07:56.960><c> really</c><00:07:57.280><c> mean</c><00:07:57.840><c> because</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+queries what it is really mean because
+ 
+
+00:07:58.319 --> 00:08:01.670 align:start position:0%
+queries what it is really mean because
+i<00:07:58.560><c> found</c><00:07:58.879><c> the</c><00:07:59.120><c> id</c><00:07:59.759><c> in</c><00:07:59.919><c> the</c><00:08:00.080><c> index</c><00:08:00.800><c> but</c><00:08:00.960><c> i</c><00:08:01.120><c> had</c><00:08:01.360><c> to</c>
+
+00:08:01.670 --> 00:08:01.680 align:start position:0%
+i found the id in the index but i had to
+ 
+
+00:08:01.680 --> 00:08:05.830 align:start position:0%
+i found the id in the index but i had to
+jump<00:08:02.639><c> into</c><00:08:03.680><c> the</c><00:08:04.639><c> table</c>
+
+00:08:05.830 --> 00:08:05.840 align:start position:0%
+jump into the table
+ 
+
+00:08:05.840 --> 00:08:08.150 align:start position:0%
+jump into the table
+row<00:08:06.319><c> on</c><00:08:06.639><c> disk</c><00:08:07.280><c> which</c><00:08:07.520><c> is</c><00:08:07.680><c> a</c><00:08:07.759><c> different</c>
+
+00:08:08.150 --> 00:08:08.160 align:start position:0%
+row on disk which is a different
+ 
+
+00:08:08.160 --> 00:08:09.990 align:start position:0%
+row on disk which is a different
+structure<00:08:08.639><c> by</c><00:08:08.800><c> the</c><00:08:08.879><c> way</c><00:08:09.039><c> the</c><00:08:09.199><c> table</c><00:08:09.520><c> is</c><00:08:09.680><c> in</c>
+
+00:08:09.990 --> 00:08:10.000 align:start position:0%
+structure by the way the table is in
+ 
+
+00:08:10.000 --> 00:08:12.550 align:start position:0%
+structure by the way the table is in
+in<00:08:10.319><c> a</c><00:08:10.400><c> different</c><00:08:10.720><c> place</c><00:08:11.280><c> than</c><00:08:11.440><c> the</c><00:08:11.759><c> index</c><00:08:12.400><c> the</c>
+
+00:08:12.550 --> 00:08:12.560 align:start position:0%
+in a different place than the index the
+ 
+
+00:08:12.560 --> 00:08:13.990 align:start position:0%
+in a different place than the index the
+index<00:08:12.879><c> is</c><00:08:12.960><c> a</c><00:08:13.039><c> data</c><00:08:13.360><c> structure</c>
+
+00:08:13.990 --> 00:08:14.000 align:start position:0%
+index is a data structure
+ 
+
+00:08:14.000 --> 00:08:15.189 align:start position:0%
+index is a data structure
+and<00:08:14.080><c> the</c><00:08:14.240><c> table</c><00:08:14.479><c> is</c><00:08:14.560><c> a</c><00:08:14.639><c> different</c><00:08:14.879><c> data</c>
+
+00:08:15.189 --> 00:08:15.199 align:start position:0%
+and the table is a different data
+ 
+
+00:08:15.199 --> 00:08:17.270 align:start position:0%
+and the table is a different data
+structure<00:08:15.919><c> right</c><00:08:16.400><c> table</c><00:08:16.800><c> is</c><00:08:16.879><c> actually</c><00:08:17.120><c> the</c>
+
+00:08:17.270 --> 00:08:17.280 align:start position:0%
+structure right table is actually the
+ 
+
+00:08:17.280 --> 00:08:18.230 align:start position:0%
+structure right table is actually the
+heavier<00:08:17.840><c> thing</c>
+
+00:08:18.230 --> 00:08:18.240 align:start position:0%
+heavier thing
+ 
+
+00:08:18.240 --> 00:08:20.150 align:start position:0%
+heavier thing
+we<00:08:18.400><c> try</c><00:08:18.639><c> to</c><00:08:18.879><c> avoid</c><00:08:19.280><c> going</c><00:08:19.440><c> to</c><00:08:19.599><c> the</c><00:08:19.680><c> table</c><00:08:20.000><c> as</c>
+
+00:08:20.150 --> 00:08:20.160 align:start position:0%
+we try to avoid going to the table as
+ 
+
+00:08:20.160 --> 00:08:22.150 align:start position:0%
+we try to avoid going to the table as
+much<00:08:20.319><c> as</c><00:08:20.479><c> possible</c><00:08:20.960><c> because</c><00:08:21.360><c> it's</c><00:08:21.599><c> there's</c><00:08:21.919><c> a</c>
+
+00:08:22.150 --> 00:08:22.160 align:start position:0%
+much as possible because it's there's a
+ 
+
+00:08:22.160 --> 00:08:25.270 align:start position:0%
+much as possible because it's there's a
+11<00:08:23.120><c> stinking</c><00:08:23.840><c> million</c><00:08:24.400><c> rows</c><00:08:24.720><c> there</c>
+
+00:08:25.270 --> 00:08:25.280 align:start position:0%
+11 stinking million rows there
+ 
+
+00:08:25.280 --> 00:08:27.270 align:start position:0%
+11 stinking million rows there
+so<00:08:25.520><c> we</c><00:08:25.680><c> try</c><00:08:25.919><c> not</c><00:08:26.160><c> to</c><00:08:26.240><c> touch</c><00:08:26.479><c> it</c><00:08:26.639><c> as</c><00:08:26.720><c> much</c><00:08:26.879><c> as</c><00:08:27.039><c> pop</c>
+
+00:08:27.270 --> 00:08:27.280 align:start position:0%
+so we try not to touch it as much as pop
+ 
+
+00:08:27.280 --> 00:08:28.710 align:start position:0%
+so we try not to touch it as much as pop
+but<00:08:27.520><c> sometimes</c><00:08:27.840><c> we</c><00:08:28.000><c> do</c>
+
+00:08:28.710 --> 00:08:28.720 align:start position:0%
+but sometimes we do
+ 
+
+00:08:28.720 --> 00:08:31.110 align:start position:0%
+but sometimes we do
+so<00:08:28.879><c> what</c><00:08:29.039><c> we</c><00:08:29.199><c> did</c><00:08:29.440><c> is</c><00:08:29.840><c> we</c><00:08:30.080><c> found</c><00:08:30.479><c> the</c><00:08:30.639><c> id</c><00:08:31.039><c> and</c>
+
+00:08:31.110 --> 00:08:31.120 align:start position:0%
+so what we did is we found the id and
+ 
+
+00:08:31.120 --> 00:08:32.070 align:start position:0%
+so what we did is we found the id and
+then<00:08:31.360><c> we</c>
+
+00:08:32.070 --> 00:08:32.080 align:start position:0%
+then we
+ 
+
+00:08:32.080 --> 00:08:35.350 align:start position:0%
+then we
+actually<00:08:32.959><c> tried</c><00:08:33.440><c> to</c><00:08:33.680><c> go</c><00:08:34.240><c> and</c><00:08:34.560><c> seek</c><00:08:34.959><c> to</c><00:08:35.120><c> the</c>
+
+00:08:35.350 --> 00:08:35.360 align:start position:0%
+actually tried to go and seek to the
+ 
+
+00:08:35.360 --> 00:08:37.110 align:start position:0%
+actually tried to go and seek to the
+disk
+
+00:08:37.110 --> 00:08:37.120 align:start position:0%
+disk
+ 
+
+00:08:37.120 --> 00:08:39.190 align:start position:0%
+disk
+i<00:08:37.279><c> mean</c><00:08:37.440><c> i</c><00:08:37.519><c> have</c><00:08:37.680><c> an</c><00:08:37.919><c> ssd</c><00:08:38.320><c> so</c><00:08:38.479><c> there</c><00:08:38.640><c> is</c><00:08:38.719><c> no</c><00:08:38.880><c> seek</c>
+
+00:08:39.190 --> 00:08:39.200 align:start position:0%
+i mean i have an ssd so there is no seek
+ 
+
+00:08:39.200 --> 00:08:40.230 align:start position:0%
+i mean i have an ssd so there is no seek
+we<00:08:39.279><c> go</c><00:08:39.440><c> to</c><00:08:39.519><c> the</c><00:08:39.680><c> page</c>
+
+00:08:40.230 --> 00:08:40.240 align:start position:0%
+we go to the page
+ 
+
+00:08:40.240 --> 00:08:42.469 align:start position:0%
+we go to the page
+that<00:08:40.479><c> has</c><00:08:40.800><c> this</c><00:08:41.120><c> information</c><00:08:42.159><c> and</c><00:08:42.320><c> we</c>
+
+00:08:42.469 --> 00:08:42.479 align:start position:0%
+that has this information and we
+ 
+
+00:08:42.479 --> 00:08:44.230 align:start position:0%
+that has this information and we
+retrieve<00:08:42.880><c> it</c><00:08:43.039><c> from</c><00:08:43.279><c> disk</c>
+
+00:08:44.230 --> 00:08:44.240 align:start position:0%
+retrieve it from disk
+ 
+
+00:08:44.240 --> 00:08:46.389 align:start position:0%
+retrieve it from disk
+so<00:08:44.399><c> that's</c><00:08:44.959><c> another</c><00:08:45.360><c> read</c><00:08:45.680><c> from</c><00:08:45.839><c> this</c><00:08:46.080><c> so</c><00:08:46.240><c> it's</c>
+
+00:08:46.389 --> 00:08:46.399 align:start position:0%
+so that's another read from this so it's
+ 
+
+00:08:46.399 --> 00:08:47.670 align:start position:0%
+so that's another read from this so it's
+a<00:08:46.480><c> little</c><00:08:46.640><c> bit</c><00:08:46.800><c> slower</c><00:08:47.120><c> took</c><00:08:47.360><c> us</c><00:08:47.519><c> two</c>
+
+00:08:47.670 --> 00:08:47.680 align:start position:0%
+a little bit slower took us two
+ 
+
+00:08:47.680 --> 00:08:48.710 align:start position:0%
+a little bit slower took us two
+milliseconds
+
+00:08:48.710 --> 00:08:48.720 align:start position:0%
+milliseconds
+ 
+
+00:08:48.720 --> 00:08:50.150 align:start position:0%
+milliseconds
+and<00:08:48.959><c> obviously</c><00:08:49.279><c> if</c><00:08:49.360><c> i</c><00:08:49.440><c> execute</c><00:08:49.839><c> the</c><00:08:49.920><c> same</c>
+
+00:08:50.150 --> 00:08:50.160 align:start position:0%
+and obviously if i execute the same
+ 
+
+00:08:50.160 --> 00:08:51.910 align:start position:0%
+and obviously if i execute the same
+thing<00:08:50.720><c> again</c>
+
+00:08:51.910 --> 00:08:51.920 align:start position:0%
+thing again
+ 
+
+00:08:51.920 --> 00:08:54.150 align:start position:0%
+thing again
+it's<00:08:52.080><c> faster</c><00:08:52.560><c> why</c><00:08:52.959><c> because</c><00:08:53.360><c> caching</c><00:08:54.000><c> because</c>
+
+00:08:54.150 --> 00:08:54.160 align:start position:0%
+it's faster why because caching because
+ 
+
+00:08:54.160 --> 00:08:55.350 align:start position:0%
+it's faster why because caching because
+we<00:08:54.320><c> cache</c><00:08:54.640><c> things</c>
+
+00:08:55.350 --> 00:08:55.360 align:start position:0%
+we cache things
+ 
+
+00:08:55.360 --> 00:08:58.070 align:start position:0%
+we cache things
+cache<00:08:55.839><c> there's</c><00:08:56.560><c> so</c><00:08:56.720><c> many</c><00:08:56.959><c> cachings</c><00:08:57.440><c> going</c><00:08:57.680><c> on</c>
+
+00:08:58.070 --> 00:08:58.080 align:start position:0%
+cache there's so many cachings going on
+ 
+
+00:08:58.080 --> 00:09:00.550 align:start position:0%
+cache there's so many cachings going on
+ssd<00:08:58.640><c> caches</c><00:08:59.040><c> the</c><00:08:59.200><c> control</c><00:08:59.600><c> ssd</c>
+
+00:09:00.550 --> 00:09:00.560 align:start position:0%
+ssd caches the control ssd
+ 
+
+00:09:00.560 --> 00:09:03.110 align:start position:0%
+ssd caches the control ssd
+caches<00:09:01.279><c> the</c><00:09:01.519><c> the</c><00:09:01.680><c> database</c><00:09:02.240><c> caches</c><00:09:02.640><c> everyone</c>
+
+00:09:03.110 --> 00:09:03.120 align:start position:0%
+caches the the database caches everyone
+ 
+
+00:09:03.120 --> 00:09:03.750 align:start position:0%
+caches the the database caches everyone
+caches
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+caches
+ 
+
+00:09:03.760 --> 00:09:06.870 align:start position:0%
+caches
+so<00:09:04.399><c> god</c><00:09:04.720><c> knows</c><00:09:04.959><c> what</c><00:09:05.279><c> the</c><00:09:05.760><c> why</c><00:09:05.920><c> is</c><00:09:06.160><c> faster</c><00:09:06.640><c> now</c>
+
+00:09:06.870 --> 00:09:06.880 align:start position:0%
+so god knows what the why is faster now
+ 
+
+00:09:06.880 --> 00:09:07.509 align:start position:0%
+so god knows what the why is faster now
+right<00:09:07.120><c> but</c>
+
+00:09:07.509 --> 00:09:07.519 align:start position:0%
+right but
+ 
+
+00:09:07.519 --> 00:09:09.110 align:start position:0%
+right but
+that's<00:09:07.839><c> why</c><00:09:08.000><c> because</c><00:09:08.240><c> i'm</c><00:09:08.640><c> excluding</c><00:09:09.040><c> the</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+that's why because i'm excluding the
+ 
+
+00:09:09.120 --> 00:09:10.550 align:start position:0%
+that's why because i'm excluding the
+same<00:09:09.360><c> query</c><00:09:09.920><c> but</c><00:09:10.080><c> if</c><00:09:10.240><c> i</c>
+
+00:09:10.550 --> 00:09:10.560 align:start position:0%
+same query but if i
+ 
+
+00:09:10.560 --> 00:09:15.350 align:start position:0%
+same query but if i
+change<00:09:10.880><c> this</c><00:09:11.120><c> to</c><00:09:11.519><c> something</c><00:09:12.000><c> else</c><00:09:13.120><c> uh</c>
+
+00:09:15.350 --> 00:09:15.360 align:start position:0%
+change this to something else uh
+ 
+
+00:09:15.360 --> 00:09:17.509 align:start position:0%
+change this to something else uh
+i<00:09:15.600><c> might</c><00:09:15.839><c> not</c><00:09:16.080><c> get</c><00:09:16.240><c> it</c><00:09:16.399><c> right</c><00:09:16.720><c> but</c><00:09:17.120><c> you</c><00:09:17.279><c> get</c><00:09:17.440><c> the</c>
+
+00:09:17.509 --> 00:09:17.519 align:start position:0%
+i might not get it right but you get the
+ 
+
+00:09:17.519 --> 00:09:20.150 align:start position:0%
+i might not get it right but you get the
+idea<00:09:17.760><c> right</c><00:09:18.080><c> two</c><00:09:18.240><c> milliseconds</c><00:09:18.880><c> again</c>
+
+00:09:20.150 --> 00:09:20.160 align:start position:0%
+idea right two milliseconds again
+ 
+
+00:09:20.160 --> 00:09:22.389 align:start position:0%
+idea right two milliseconds again
+all<00:09:20.320><c> right</c><00:09:21.200><c> so</c><00:09:21.360><c> now</c><00:09:21.519><c> let's</c><00:09:21.760><c> splice</c><00:09:22.080><c> things</c><00:09:22.320><c> a</c>
+
+00:09:22.389 --> 00:09:22.399 align:start position:0%
+all right so now let's splice things a
+ 
+
+00:09:22.399 --> 00:09:23.750 align:start position:0%
+all right so now let's splice things a
+little<00:09:22.560><c> bit</c><00:09:23.040><c> i'm</c><00:09:23.200><c> going</c><00:09:23.360><c> to</c><00:09:23.440><c> do</c>
+
+00:09:23.750 --> 00:09:23.760 align:start position:0%
+little bit i'm going to do
+ 
+
+00:09:23.760 --> 00:09:27.430 align:start position:0%
+little bit i'm going to do
+explain<00:09:24.720><c> analyze</c><00:09:25.839><c> select</c>
+
+00:09:27.430 --> 00:09:27.440 align:start position:0%
+explain analyze select
+ 
+
+00:09:27.440 --> 00:09:32.710 align:start position:0%
+explain analyze select
+id<00:09:29.360><c> from</c><00:09:30.320><c> employees</c>
+
+00:09:32.710 --> 00:09:32.720 align:start position:0%
+id from employees
+ 
+
+00:09:32.720 --> 00:09:36.790 align:start position:0%
+id from employees
+where<00:09:33.120><c> name</c><00:09:33.760><c> is</c><00:09:34.000><c> equal</c><00:09:34.839><c> zs</c>
+
+00:09:36.790 --> 00:09:36.800 align:start position:0%
+where name is equal zs
+ 
+
+00:09:36.800 --> 00:09:40.310 align:start position:0%
+where name is equal zs
+let's<00:09:37.040><c> do</c><00:09:37.200><c> it</c><00:09:38.080><c> oh</c><00:09:38.880><c> guys</c><00:09:39.120><c> are</c><00:09:39.279><c> you</c><00:09:39.360><c> feeling</c><00:09:39.760><c> it</c>
+
+00:09:40.310 --> 00:09:40.320 align:start position:0%
+let's do it oh guys are you feeling it
+ 
+
+00:09:40.320 --> 00:09:43.430 align:start position:0%
+let's do it oh guys are you feeling it
+you're<00:09:40.480><c> feeling</c><00:09:40.880><c> it</c><00:09:40.959><c> right</c><00:09:42.320><c> that</c><00:09:42.880><c> was</c>
+
+00:09:43.430 --> 00:09:43.440 align:start position:0%
+you're feeling it right that was
+ 
+
+00:09:43.440 --> 00:09:46.949 align:start position:0%
+you're feeling it right that was
+slow<00:09:44.640><c> that</c><00:09:44.880><c> was</c><00:09:45.760><c> that</c><00:09:46.000><c> was</c>
+
+00:09:46.949 --> 00:09:46.959 align:start position:0%
+slow that was that was
+ 
+
+00:09:46.959 --> 00:09:50.550 align:start position:0%
+slow that was that was
+deeply<00:09:47.600><c> slow</c><00:09:48.000><c> why</c><00:09:48.959><c> because</c><00:09:49.279><c> guess</c><00:09:49.519><c> what</c>
+
+00:09:50.550 --> 00:09:50.560 align:start position:0%
+deeply slow why because guess what
+ 
+
+00:09:50.560 --> 00:09:53.670 align:start position:0%
+deeply slow why because guess what
+the<00:09:50.800><c> name</c><00:09:51.600><c> column</c><00:09:52.399><c> does</c><00:09:52.640><c> not</c><00:09:52.959><c> have</c><00:09:53.360><c> an</c>
+
+00:09:53.670 --> 00:09:53.680 align:start position:0%
+the name column does not have an
+ 
+
+00:09:53.680 --> 00:09:56.470 align:start position:0%
+the name column does not have an
+index<00:09:54.560><c> and</c><00:09:54.720><c> that</c><00:09:54.959><c> means</c><00:09:55.360><c> the</c><00:09:55.600><c> only</c><00:09:55.920><c> way</c><00:09:56.240><c> to</c>
+
+00:09:56.470 --> 00:09:56.480 align:start position:0%
+index and that means the only way to
+ 
+
+00:09:56.480 --> 00:09:58.150 align:start position:0%
+index and that means the only way to
+actually<00:09:56.959><c> search</c>
+
+00:09:58.150 --> 00:09:58.160 align:start position:0%
+actually search
+ 
+
+00:09:58.160 --> 00:10:01.670 align:start position:0%
+actually search
+through<00:09:58.480><c> the</c><00:09:58.640><c> name</c><00:09:59.519><c> the</c><00:09:59.680><c> value</c><00:10:00.240><c> zs</c>
+
+00:10:01.670 --> 00:10:01.680 align:start position:0%
+through the name the value zs
+ 
+
+00:10:01.680 --> 00:10:05.269 align:start position:0%
+through the name the value zs
+is<00:10:01.920><c> to</c><00:10:02.160><c> actually</c><00:10:02.640><c> go</c><00:10:02.959><c> one</c><00:10:03.279><c> by</c><00:10:03.600><c> one</c><00:10:04.240><c> and</c><00:10:04.560><c> do</c>
+
+00:10:05.269 --> 00:10:05.279 align:start position:0%
+is to actually go one by one and do
+ 
+
+00:10:05.279 --> 00:10:08.550 align:start position:0%
+is to actually go one by one and do
+a<00:10:05.519><c> sequential</c><00:10:06.880><c> scan</c><00:10:07.440><c> on</c><00:10:07.760><c> employees</c>
+
+00:10:08.550 --> 00:10:08.560 align:start position:0%
+a sequential scan on employees
+ 
+
+00:10:08.560 --> 00:10:10.550 align:start position:0%
+a sequential scan on employees
+table<00:10:09.120><c> that's</c><00:10:09.360><c> the</c><00:10:09.680><c> worst</c><00:10:10.000><c> thing</c><00:10:10.240><c> it's</c><00:10:10.320><c> called</c>
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+table that's the worst thing it's called
+ 
+
+00:10:10.560 --> 00:10:12.230 align:start position:0%
+table that's the worst thing it's called
+the<00:10:10.640><c> full</c><00:10:10.959><c> table</c><00:10:11.360><c> scan</c>
+
+00:10:12.230 --> 00:10:12.240 align:start position:0%
+the full table scan
+ 
+
+00:10:12.240 --> 00:10:14.069 align:start position:0%
+the full table scan
+you<00:10:12.399><c> want</c><00:10:12.560><c> to</c><00:10:12.720><c> avoid</c><00:10:13.120><c> full</c><00:10:13.279><c> table</c><00:10:13.600><c> scans</c><00:10:13.920><c> as</c>
+
+00:10:14.069 --> 00:10:14.079 align:start position:0%
+you want to avoid full table scans as
+ 
+
+00:10:14.079 --> 00:10:15.269 align:start position:0%
+you want to avoid full table scans as
+much<00:10:14.240><c> as</c><00:10:14.399><c> possible</c>
+
+00:10:15.269 --> 00:10:15.279 align:start position:0%
+much as possible
+ 
+
+00:10:15.279 --> 00:10:17.190 align:start position:0%
+much as possible
+however<00:10:15.680><c> postgres</c><00:10:16.560><c> tries</c><00:10:16.800><c> to</c><00:10:16.880><c> be</c><00:10:17.040><c> a</c><00:10:17.040><c> little</c>
+
+00:10:17.190 --> 00:10:17.200 align:start position:0%
+however postgres tries to be a little
+ 
+
+00:10:17.200 --> 00:10:18.949 align:start position:0%
+however postgres tries to be a little
+bit<00:10:17.360><c> smarter</c><00:10:17.839><c> by</c><00:10:18.000><c> executing</c>
+
+00:10:18.949 --> 00:10:18.959 align:start position:0%
+bit smarter by executing
+ 
+
+00:10:18.959 --> 00:10:21.990 align:start position:0%
+bit smarter by executing
+multiple<00:10:19.440><c> threads</c><00:10:19.920><c> worker</c><00:10:20.399><c> threads</c><00:10:21.120><c> and</c><00:10:21.519><c> does</c>
+
+00:10:21.990 --> 00:10:22.000 align:start position:0%
+multiple threads worker threads and does
+ 
+
+00:10:22.000 --> 00:10:24.710 align:start position:0%
+multiple threads worker threads and does
+does<00:10:22.240><c> the</c><00:10:22.320><c> sequential</c><00:10:23.279><c> uh</c><00:10:23.680><c> scan</c><00:10:24.000><c> on</c><00:10:24.160><c> parallel</c>
+
+00:10:24.710 --> 00:10:24.720 align:start position:0%
+does the sequential uh scan on parallel
+ 
+
+00:10:24.720 --> 00:10:25.430 align:start position:0%
+does the sequential uh scan on parallel
+which<00:10:24.880><c> is</c>
+
+00:10:25.430 --> 00:10:25.440 align:start position:0%
+which is
+ 
+
+00:10:25.440 --> 00:10:27.670 align:start position:0%
+which is
+still<00:10:25.760><c> good</c><00:10:26.240><c> right</c><00:10:26.720><c> so</c><00:10:26.959><c> the</c><00:10:27.120><c> planning</c><00:10:27.440><c> took</c>
+
+00:10:27.670 --> 00:10:27.680 align:start position:0%
+still good right so the planning took
+ 
+
+00:10:27.680 --> 00:10:29.829 align:start position:0%
+still good right so the planning took
+0.83<00:10:28.480><c> milliseconds</c><00:10:29.120><c> which</c><00:10:29.279><c> is</c><00:10:29.360><c> not</c><00:10:29.519><c> much</c>
+
+00:10:29.829 --> 00:10:29.839 align:start position:0%
+0.83 milliseconds which is not much
+ 
+
+00:10:29.839 --> 00:10:30.630 align:start position:0%
+0.83 milliseconds which is not much
+because
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+because
+ 
+
+00:10:30.640 --> 00:10:33.110 align:start position:0%
+because
+well<00:10:31.279><c> is</c><00:10:31.519><c> does</c><00:10:31.760><c> this</c><00:10:32.000><c> ha</c><00:10:32.240><c> does</c><00:10:32.480><c> this</c><00:10:32.720><c> column</c>
+
+00:10:33.110 --> 00:10:33.120 align:start position:0%
+well is does this ha does this column
+ 
+
+00:10:33.120 --> 00:10:34.790 align:start position:0%
+well is does this ha does this column
+which<00:10:33.279><c> is</c><00:10:33.360><c> the</c><00:10:33.519><c> name</c><00:10:33.839><c> equal</c>
+
+00:10:34.790 --> 00:10:34.800 align:start position:0%
+which is the name equal
+ 
+
+00:10:34.800 --> 00:10:37.190 align:start position:0%
+which is the name equal
+this<00:10:35.040><c> will</c><00:10:35.360><c> filter</c><00:10:36.000><c> does</c><00:10:36.240><c> this</c><00:10:36.480><c> have</c><00:10:36.800><c> a</c><00:10:36.959><c> where</c>
+
+00:10:37.190 --> 00:10:37.200 align:start position:0%
+this will filter does this have a where
+ 
+
+00:10:37.200 --> 00:10:38.870 align:start position:0%
+this will filter does this have a where
+clause<00:10:37.760><c> does</c><00:10:37.920><c> this</c><00:10:38.079><c> have</c><00:10:38.240><c> an</c><00:10:38.399><c> index</c>
+
+00:10:38.870 --> 00:10:38.880 align:start position:0%
+clause does this have an index
+ 
+
+00:10:38.880 --> 00:10:41.430 align:start position:0%
+clause does this have an index
+nope<00:10:39.279><c> it</c><00:10:39.360><c> does</c><00:10:39.519><c> not</c><00:10:39.680><c> have</c><00:10:39.839><c> an</c><00:10:40.000><c> index</c><00:10:40.720><c> move</c><00:10:41.040><c> on</c>
+
+00:10:41.430 --> 00:10:41.440 align:start position:0%
+nope it does not have an index move on
+ 
+
+00:10:41.440 --> 00:10:43.110 align:start position:0%
+nope it does not have an index move on
+full<00:10:41.600><c> table</c><00:10:41.839><c> score</c><00:10:42.079><c> doesn't</c><00:10:42.320><c> have</c><00:10:42.480><c> a</c><00:10:42.560><c> choice</c>
+
+00:10:43.110 --> 00:10:43.120 align:start position:0%
+full table score doesn't have a choice
+ 
+
+00:10:43.120 --> 00:10:45.350 align:start position:0%
+full table score doesn't have a choice
+all<00:10:43.200><c> right</c><00:10:43.680><c> so</c><00:10:43.920><c> it</c><00:10:44.079><c> went</c><00:10:44.320><c> through</c><00:10:44.560><c> and</c><00:10:44.800><c> scanned</c>
+
+00:10:45.350 --> 00:10:45.360 align:start position:0%
+all right so it went through and scanned
+ 
+
+00:10:45.360 --> 00:10:46.550 align:start position:0%
+all right so it went through and scanned
+11<00:10:45.760><c> million</c>
+
+00:10:46.550 --> 00:10:46.560 align:start position:0%
+11 million
+ 
+
+00:10:46.560 --> 00:10:49.829 align:start position:0%
+11 million
+rows<00:10:46.959><c> well</c><00:10:48.800><c> not</c><00:10:49.040><c> necessary</c>
+
+00:10:49.829 --> 00:10:49.839 align:start position:0%
+rows well not necessary
+ 
+
+00:10:49.839 --> 00:10:51.910 align:start position:0%
+rows well not necessary
+well<00:10:50.399><c> yeah</c><00:10:50.640><c> it</c><00:10:50.800><c> is</c><00:10:50.880><c> necessary</c><00:10:51.279><c> i</c><00:10:51.360><c> had</c><00:10:51.519><c> to</c><00:10:51.600><c> scan</c>
+
+00:10:51.910 --> 00:10:51.920 align:start position:0%
+well yeah it is necessary i had to scan
+ 
+
+00:10:51.920 --> 00:10:53.509 align:start position:0%
+well yeah it is necessary i had to scan
+the<00:10:52.000><c> whole</c><00:10:52.160><c> thing</c><00:10:52.720><c> otherwise</c><00:10:53.120><c> how</c><00:10:53.279><c> do</c><00:10:53.440><c> you</c>
+
+00:10:53.509 --> 00:10:53.519 align:start position:0%
+the whole thing otherwise how do you
+ 
+
+00:10:53.519 --> 00:10:55.110 align:start position:0%
+the whole thing otherwise how do you
+know<00:10:53.839><c> that</c>
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+know that
+ 
+
+00:10:55.120 --> 00:10:56.710 align:start position:0%
+know that
+all<00:10:55.279><c> of</c><00:10:55.360><c> them</c><00:10:55.760><c> right</c><00:10:55.920><c> you</c><00:10:56.079><c> have</c><00:10:56.160><c> to</c><00:10:56.320><c> check</c>
+
+00:10:56.710 --> 00:10:56.720 align:start position:0%
+all of them right you have to check
+ 
+
+00:10:56.720 --> 00:10:58.389 align:start position:0%
+all of them right you have to check
+every<00:10:56.880><c> single</c><00:10:57.200><c> one</c><00:10:57.360><c> of</c><00:10:57.440><c> them</c><00:10:57.839><c> which</c><00:10:58.079><c> is</c><00:10:58.240><c> the</c>
+
+00:10:58.389 --> 00:10:58.399 align:start position:0%
+every single one of them which is the
+ 
+
+00:10:58.399 --> 00:10:59.990 align:start position:0%
+every single one of them which is the
+slowest<00:10:58.839><c> thing</c>
+
+00:10:59.990 --> 00:11:00.000 align:start position:0%
+slowest thing
+ 
+
+00:11:00.000 --> 00:11:02.550 align:start position:0%
+slowest thing
+how<00:11:00.160><c> long</c><00:11:00.320><c> did</c><00:11:00.560><c> it</c><00:11:00.640><c> took</c><00:11:01.200><c> it</c><00:11:01.360><c> took</c><00:11:01.680><c> three</c>
+
+00:11:02.550 --> 00:11:02.560 align:start position:0%
+how long did it took it took three
+ 
+
+00:11:02.560 --> 00:11:03.670 align:start position:0%
+how long did it took it took three
+seconds
+
+00:11:03.670 --> 00:11:03.680 align:start position:0%
+seconds
+ 
+
+00:11:03.680 --> 00:11:07.110 align:start position:0%
+seconds
+yikesy<00:11:04.880><c> yike</c><00:11:06.160><c> c</c><00:11:06.560><c> that</c><00:11:06.800><c> is</c>
+
+00:11:07.110 --> 00:11:07.120 align:start position:0%
+yikesy yike c that is
+ 
+
+00:11:07.120 --> 00:11:11.590 align:start position:0%
+yikesy yike c that is
+so<00:11:07.600><c> slow</c><00:11:08.079><c> yeah</c><00:11:08.560><c> so</c><00:11:09.360><c> it</c><00:11:09.519><c> is</c><00:11:09.920><c> pretty</c><00:11:10.640><c> slow</c><00:11:11.040><c> guys</c>
+
+00:11:11.590 --> 00:11:11.600 align:start position:0%
+so slow yeah so it is pretty slow guys
+ 
+
+00:11:11.600 --> 00:11:14.550 align:start position:0%
+so slow yeah so it is pretty slow guys
+to<00:11:11.760><c> do</c><00:11:11.920><c> this</c><00:11:12.399><c> another</c><00:11:13.040><c> another</c><00:11:13.519><c> thing</c><00:11:13.760><c> that</c><00:11:14.000><c> we</c>
+
+00:11:14.550 --> 00:11:14.560 align:start position:0%
+to do this another another thing that we
+ 
+
+00:11:14.560 --> 00:11:15.750 align:start position:0%
+to do this another another thing that we
+notice<00:11:15.040><c> all</c><00:11:15.120><c> the</c><00:11:15.279><c> time</c>
+
+00:11:15.750 --> 00:11:15.760 align:start position:0%
+notice all the time
+ 
+
+00:11:15.760 --> 00:11:18.710 align:start position:0%
+notice all the time
+is<00:11:16.079><c> uh</c><00:11:16.720><c> i</c><00:11:16.959><c> i</c><00:11:17.440><c> used</c><00:11:17.680><c> to</c><00:11:17.760><c> do</c><00:11:17.920><c> this</c><00:11:18.160><c> all</c><00:11:18.320><c> the</c><00:11:18.480><c> time</c>
+
+00:11:18.710 --> 00:11:18.720 align:start position:0%
+is uh i i used to do this all the time
+ 
+
+00:11:18.720 --> 00:11:19.750 align:start position:0%
+is uh i i used to do this all the time
+without<00:11:19.120><c> knowing</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+without knowing
+ 
+
+00:11:19.760 --> 00:11:21.670 align:start position:0%
+without knowing
+this<00:11:20.079><c> there's</c><00:11:20.480><c> there</c><00:11:20.640><c> is</c><00:11:20.720><c> a</c><00:11:20.800><c> command</c><00:11:21.200><c> in</c><00:11:21.279><c> sql</c>
+
+00:11:21.670 --> 00:11:21.680 align:start position:0%
+this there's there is a command in sql
+ 
+
+00:11:21.680 --> 00:11:22.870 align:start position:0%
+this there's there is a command in sql
+called<00:11:21.920><c> like</c>
+
+00:11:22.870 --> 00:11:22.880 align:start position:0%
+called like
+ 
+
+00:11:22.880 --> 00:11:26.069 align:start position:0%
+called like
+like<00:11:23.120><c> if</c><00:11:23.279><c> you</c><00:11:23.360><c> don't</c><00:11:23.680><c> know</c><00:11:24.320><c> hey</c><00:11:24.720><c> is</c><00:11:25.200><c> zs</c><00:11:25.680><c> before</c>
+
+00:11:26.069 --> 00:11:26.079 align:start position:0%
+like if you don't know hey is zs before
+ 
+
+00:11:26.079 --> 00:11:27.110 align:start position:0%
+like if you don't know hey is zs before
+and<00:11:26.320><c> after</c>
+
+00:11:27.110 --> 00:11:27.120 align:start position:0%
+and after
+ 
+
+00:11:27.120 --> 00:11:30.710 align:start position:0%
+and after
+you<00:11:27.279><c> just</c><00:11:27.519><c> add</c><00:11:28.320><c> this</c><00:11:28.640><c> percentage</c><00:11:29.279><c> like</c>
+
+00:11:30.710 --> 00:11:30.720 align:start position:0%
+you just add this percentage like
+ 
+
+00:11:30.720 --> 00:11:34.310 align:start position:0%
+you just add this percentage like
+this<00:11:31.200><c> is</c><00:11:31.360><c> the</c><00:11:31.760><c> worst</c><00:11:32.560><c> query</c>
+
+00:11:34.310 --> 00:11:34.320 align:start position:0%
+this is the worst query
+ 
+
+00:11:34.320 --> 00:11:37.509 align:start position:0%
+this is the worst query
+why<00:11:34.640><c> because</c><00:11:35.440><c> it</c><00:11:35.600><c> is</c><00:11:36.160><c> literally</c>
+
+00:11:37.509 --> 00:11:37.519 align:start position:0%
+why because it is literally
+ 
+
+00:11:37.519 --> 00:11:40.310 align:start position:0%
+why because it is literally
+has<00:11:38.000><c> to</c><00:11:38.240><c> go</c><00:11:38.640><c> through</c><00:11:38.959><c> all</c><00:11:39.120><c> the</c><00:11:39.279><c> rows</c><00:11:39.920><c> and</c><00:11:40.160><c> and</c>
+
+00:11:40.310 --> 00:11:40.320 align:start position:0%
+has to go through all the rows and and
+ 
+
+00:11:40.320 --> 00:11:40.790 align:start position:0%
+has to go through all the rows and and
+and
+
+00:11:40.790 --> 00:11:40.800 align:start position:0%
+and
+ 
+
+00:11:40.800 --> 00:11:43.350 align:start position:0%
+and
+does<00:11:41.200><c> matching</c><00:11:41.839><c> in</c><00:11:41.920><c> this</c><00:11:42.160><c> case</c><00:11:42.560><c> right</c><00:11:43.200><c> it</c>
+
+00:11:43.350 --> 00:11:43.360 align:start position:0%
+does matching in this case right it
+ 
+
+00:11:43.360 --> 00:11:44.389 align:start position:0%
+does matching in this case right it
+doesn't<00:11:43.680><c> really</c><00:11:43.920><c> matter</c>
+
+00:11:44.389 --> 00:11:44.399 align:start position:0%
+doesn't really matter
+ 
+
+00:11:44.399 --> 00:11:45.670 align:start position:0%
+doesn't really matter
+because<00:11:44.640><c> we</c><00:11:44.800><c> don't</c><00:11:44.880><c> have</c><00:11:45.040><c> an</c><00:11:45.200><c> index</c><00:11:45.440><c> but</c><00:11:45.600><c> i'm</c>
+
+00:11:45.670 --> 00:11:45.680 align:start position:0%
+because we don't have an index but i'm
+ 
+
+00:11:45.680 --> 00:11:47.269 align:start position:0%
+because we don't have an index but i'm
+going<00:11:45.760><c> to</c><00:11:45.920><c> show</c><00:11:46.079><c> you</c><00:11:46.240><c> within</c><00:11:46.640><c> index</c><00:11:46.880><c> how</c><00:11:47.120><c> does</c>
+
+00:11:47.269 --> 00:11:47.279 align:start position:0%
+going to show you within index how does
+ 
+
+00:11:47.279 --> 00:11:48.630 align:start position:0%
+going to show you within index how does
+it<00:11:47.519><c> does</c><00:11:47.760><c> it</c><00:11:47.839><c> do</c><00:11:48.079><c> right</c>
+
+00:11:48.630 --> 00:11:48.640 align:start position:0%
+it does it do right
+ 
+
+00:11:48.640 --> 00:11:51.269 align:start position:0%
+it does it do right
+so<00:11:48.800><c> this</c><00:11:49.040><c> what</c><00:11:49.200><c> this</c><00:11:49.440><c> does</c><00:11:49.839><c> is</c><00:11:50.240><c> it</c><00:11:50.720><c> will</c><00:11:50.880><c> return</c>
+
+00:11:51.269 --> 00:11:51.279 align:start position:0%
+so this what this does is it will return
+ 
+
+00:11:51.279 --> 00:11:52.949 align:start position:0%
+so this what this does is it will return
+all<00:11:51.519><c> rows</c><00:11:51.920><c> that</c><00:11:52.160><c> have</c><00:11:52.480><c> anything</c><00:11:52.800><c> in</c><00:11:52.880><c> the</c>
+
+00:11:52.949 --> 00:11:52.959 align:start position:0%
+all rows that have anything in the
+ 
+
+00:11:52.959 --> 00:11:54.550 align:start position:0%
+all rows that have anything in the
+beginning<00:11:53.440><c> anything</c><00:11:53.760><c> at</c><00:11:53.839><c> the</c><00:11:54.000><c> end</c><00:11:54.160><c> but</c>
+
+00:11:54.550 --> 00:11:54.560 align:start position:0%
+beginning anything at the end but
+ 
+
+00:11:54.560 --> 00:11:57.670 align:start position:0%
+beginning anything at the end but
+has<00:11:54.800><c> to</c><00:11:54.959><c> have</c><00:11:55.200><c> zid</c><00:11:55.519><c> capital</c><00:11:56.160><c> as</c><00:11:56.560><c> small</c><00:11:57.440><c> in</c><00:11:57.519><c> the</c>
+
+00:11:57.670 --> 00:11:57.680 align:start position:0%
+has to have zid capital as small in the
+ 
+
+00:11:57.680 --> 00:11:58.150 align:start position:0%
+has to have zid capital as small in the
+middle
+
+00:11:58.150 --> 00:11:58.160 align:start position:0%
+middle
+ 
+
+00:11:58.160 --> 00:12:01.190 align:start position:0%
+middle
+slow<00:11:59.040><c> took</c><00:11:59.560><c> 1.1</c><00:12:00.639><c> second</c>
+
+00:12:01.190 --> 00:12:01.200 align:start position:0%
+slow took 1.1 second
+ 
+
+00:12:01.200 --> 00:12:03.430 align:start position:0%
+slow took 1.1 second
+to<00:12:01.360><c> do</c><00:12:01.600><c> all</c><00:12:01.680><c> that</c><00:12:02.000><c> stuff</c><00:12:02.399><c> but</c><00:12:02.560><c> yeah</c><00:12:02.800><c> still</c><00:12:03.120><c> 11</c>
+
+00:12:03.430 --> 00:12:03.440 align:start position:0%
+to do all that stuff but yeah still 11
+ 
+
+00:12:03.440 --> 00:12:04.629 align:start position:0%
+to do all that stuff but yeah still 11
+million<00:12:03.839><c> row</c><00:12:04.079><c> but</c>
+
+00:12:04.629 --> 00:12:04.639 align:start position:0%
+million row but
+ 
+
+00:12:04.639 --> 00:12:06.470 align:start position:0%
+million row but
+we<00:12:04.800><c> had</c><00:12:05.040><c> two</c><00:12:05.200><c> workers</c><00:12:05.680><c> to</c><00:12:05.760><c> do</c><00:12:05.920><c> that</c><00:12:06.000><c> work</c><00:12:06.240><c> for</c>
+
+00:12:06.470 --> 00:12:06.480 align:start position:0%
+we had two workers to do that work for
+ 
+
+00:12:06.480 --> 00:12:08.150 align:start position:0%
+we had two workers to do that work for
+us<00:12:06.720><c> all</c><00:12:06.880><c> right</c><00:12:07.040><c> guys</c><00:12:07.440><c> all</c><00:12:07.519><c> right</c><00:12:07.680><c> guys</c><00:12:07.839><c> so</c><00:12:08.000><c> what</c>
+
+00:12:08.150 --> 00:12:08.160 align:start position:0%
+us all right guys all right guys so what
+ 
+
+00:12:08.160 --> 00:12:09.670 align:start position:0%
+us all right guys all right guys so what
+i<00:12:08.320><c> want</c><00:12:08.480><c> to</c><00:12:08.560><c> do</c><00:12:08.720><c> here</c><00:12:08.959><c> is</c><00:12:09.120><c> actually</c><00:12:09.440><c> going</c><00:12:09.600><c> to</c>
+
+00:12:09.670 --> 00:12:09.680 align:start position:0%
+i want to do here is actually going to
+ 
+
+00:12:09.680 --> 00:12:10.069 align:start position:0%
+i want to do here is actually going to
+create
+
+00:12:10.069 --> 00:12:10.079 align:start position:0%
+create
+ 
+
+00:12:10.079 --> 00:12:13.430 align:start position:0%
+create
+an<00:12:10.240><c> index</c><00:12:11.440><c> on</c>
+
+00:12:13.430 --> 00:12:13.440 align:start position:0%
+an index on
+ 
+
+00:12:13.440 --> 00:12:16.870 align:start position:0%
+an index on
+i'm<00:12:13.600><c> going</c><00:12:13.680><c> to</c><00:12:13.839><c> name</c><00:12:14.079><c> it</c><00:12:14.320><c> employees</c><00:12:15.600><c> name</c>
+
+00:12:16.870 --> 00:12:16.880 align:start position:0%
+i'm going to name it employees name
+ 
+
+00:12:16.880 --> 00:12:20.870 align:start position:0%
+i'm going to name it employees name
+on<00:12:17.440><c> employees</c><00:12:18.800><c> and</c><00:12:19.360><c> it</c><00:12:19.600><c> is</c><00:12:19.760><c> on</c><00:12:19.920><c> the</c><00:12:20.160><c> name</c>
+
+00:12:20.870 --> 00:12:20.880 align:start position:0%
+on employees and it is on the name
+ 
+
+00:12:20.880 --> 00:12:23.670 align:start position:0%
+on employees and it is on the name
+column<00:12:21.600><c> so</c><00:12:21.760><c> this</c><00:12:21.920><c> was</c><00:12:22.160><c> going</c><00:12:22.320><c> to</c><00:12:22.399><c> take</c><00:12:23.360><c> some</c>
+
+00:12:23.670 --> 00:12:23.680 align:start position:0%
+column so this was going to take some
+ 
+
+00:12:23.680 --> 00:12:23.990 align:start position:0%
+column so this was going to take some
+time
+
+00:12:23.990 --> 00:12:24.000 align:start position:0%
+time
+ 
+
+00:12:24.000 --> 00:12:26.550 align:start position:0%
+time
+to<00:12:24.160><c> create</c><00:12:24.720><c> why</c><00:12:25.360><c> because</c><00:12:25.680><c> guess</c><00:12:25.920><c> what</c><00:12:26.160><c> guys</c><00:12:26.399><c> it</c>
+
+00:12:26.550 --> 00:12:26.560 align:start position:0%
+to create why because guess what guys it
+ 
+
+00:12:26.560 --> 00:12:28.150 align:start position:0%
+to create why because guess what guys it
+is<00:12:26.639><c> building</c><00:12:26.959><c> the</c><00:12:27.120><c> b3</c>
+
+00:12:28.150 --> 00:12:28.160 align:start position:0%
+is building the b3
+ 
+
+00:12:28.160 --> 00:12:31.590 align:start position:0%
+is building the b3
+bitmap<00:12:28.800><c> index</c><00:12:29.600><c> on</c><00:12:29.760><c> top</c><00:12:30.079><c> of</c><00:12:30.399><c> all</c><00:12:30.560><c> the</c><00:12:30.959><c> stuff</c>
+
+00:12:31.590 --> 00:12:31.600 align:start position:0%
+bitmap index on top of all the stuff
+ 
+
+00:12:31.600 --> 00:12:33.670 align:start position:0%
+bitmap index on top of all the stuff
+right<00:12:32.160><c> so</c><00:12:32.320><c> it</c><00:12:32.399><c> has</c><00:12:32.560><c> to</c><00:12:32.720><c> fetch</c><00:12:33.040><c> all</c><00:12:33.200><c> the</c><00:12:33.360><c> 11</c>
+
+00:12:33.670 --> 00:12:33.680 align:start position:0%
+right so it has to fetch all the 11
+ 
+
+00:12:33.680 --> 00:12:34.870 align:start position:0%
+right so it has to fetch all the 11
+million<00:12:34.079><c> rows</c><00:12:34.320><c> and</c>
+
+00:12:34.870 --> 00:12:34.880 align:start position:0%
+million rows and
+ 
+
+00:12:34.880 --> 00:12:37.509 align:start position:0%
+million rows and
+does<00:12:35.200><c> all</c><00:12:35.360><c> this</c><00:12:35.680><c> magic</c><00:12:36.079><c> to</c><00:12:36.560><c> actually</c><00:12:37.040><c> create</c>
+
+00:12:37.509 --> 00:12:37.519 align:start position:0%
+does all this magic to actually create
+ 
+
+00:12:37.519 --> 00:12:39.590 align:start position:0%
+does all this magic to actually create
+the<00:12:37.920><c> the</c><00:12:38.240><c> fancy</c>
+
+00:12:39.590 --> 00:12:39.600 align:start position:0%
+the the fancy
+ 
+
+00:12:39.600 --> 00:12:42.870 align:start position:0%
+the the fancy
+uh<00:12:41.279><c> index</c>
+
+00:12:42.870 --> 00:12:42.880 align:start position:0%
+uh index
+ 
+
+00:12:42.880 --> 00:12:46.069 align:start position:0%
+uh index
+so<00:12:43.040><c> let's</c><00:12:43.200><c> wait</c><00:12:43.440><c> for</c><00:12:43.600><c> it</c><00:12:44.959><c> all</c><00:12:45.120><c> right</c><00:12:45.360><c> guys</c><00:12:45.760><c> we</c>
+
+00:12:46.069 --> 00:12:46.079 align:start position:0%
+so let's wait for it all right guys we
+ 
+
+00:12:46.079 --> 00:12:47.030 align:start position:0%
+so let's wait for it all right guys we
+finished
+
+00:12:47.030 --> 00:12:47.040 align:start position:0%
+finished
+ 
+
+00:12:47.040 --> 00:12:49.990 align:start position:0%
+finished
+creating<00:12:47.519><c> our</c><00:12:47.839><c> index</c><00:12:48.639><c> so</c><00:12:48.800><c> now</c><00:12:49.040><c> let's</c><00:12:49.279><c> try</c><00:12:49.760><c> the</c>
+
+00:12:49.990 --> 00:12:50.000 align:start position:0%
+creating our index so now let's try the
+ 
+
+00:12:50.000 --> 00:12:50.470 align:start position:0%
+creating our index so now let's try the
+same
+
+00:12:50.470 --> 00:12:50.480 align:start position:0%
+same
+ 
+
+00:12:50.480 --> 00:12:52.870 align:start position:0%
+same
+query<00:12:50.880><c> that</c><00:12:51.120><c> we</c><00:12:51.360><c> have</c><00:12:51.680><c> done</c><00:12:52.240><c> just</c><00:12:52.399><c> without</c><00:12:52.720><c> the</c>
+
+00:12:52.870 --> 00:12:52.880 align:start position:0%
+query that we have done just without the
+ 
+
+00:12:52.880 --> 00:12:54.069 align:start position:0%
+query that we have done just without the
+like<00:12:53.200><c> just</c>
+
+00:12:54.069 --> 00:12:54.079 align:start position:0%
+like just
+ 
+
+00:12:54.079 --> 00:12:58.310 align:start position:0%
+like just
+directly<00:12:54.639><c> equal</c><00:12:56.079><c> so</c><00:12:56.320><c> now</c><00:12:56.880><c> if</c><00:12:57.040><c> i</c><00:12:57.120><c> do</c><00:12:57.360><c> this</c><00:12:57.600><c> query</c>
+
+00:12:58.310 --> 00:12:58.320 align:start position:0%
+directly equal so now if i do this query
+ 
+
+00:12:58.320 --> 00:13:00.790 align:start position:0%
+directly equal so now if i do this query
+look<00:12:58.560><c> how</c><00:12:58.880><c> fast</c><00:12:59.279><c> it</c><00:12:59.440><c> is</c><00:13:00.000><c> still</c><00:13:00.320><c> a</c><00:13:00.320><c> little</c><00:13:00.560><c> bit</c>
+
+00:13:00.790 --> 00:13:00.800 align:start position:0%
+look how fast it is still a little bit
+ 
+
+00:13:00.800 --> 00:13:01.509 align:start position:0%
+look how fast it is still a little bit
+slow
+
+00:13:01.509 --> 00:13:01.519 align:start position:0%
+slow
+ 
+
+00:13:01.519 --> 00:13:05.350 align:start position:0%
+slow
+47<00:13:02.240><c> millisecond</c><00:13:03.120><c> but</c><00:13:04.079><c> damn</c>
+
+00:13:05.350 --> 00:13:05.360 align:start position:0%
+47 millisecond but damn
+ 
+
+00:13:05.360 --> 00:13:08.389 align:start position:0%
+47 millisecond but damn
+that<00:13:05.519><c> was</c><00:13:06.240><c> quick</c><00:13:06.720><c> why</c><00:13:07.040><c> because</c><00:13:07.440><c> now</c><00:13:08.160><c> we're</c>
+
+00:13:08.389 --> 00:13:08.399 align:start position:0%
+that was quick why because now we're
+ 
+
+00:13:08.399 --> 00:13:09.990 align:start position:0%
+that was quick why because now we're
+doing<00:13:08.800><c> a</c><00:13:08.959><c> bitmap</c><00:13:09.600><c> heap</c>
+
+00:13:09.990 --> 00:13:10.000 align:start position:0%
+doing a bitmap heap
+ 
+
+00:13:10.000 --> 00:13:13.509 align:start position:0%
+doing a bitmap heap
+scan<00:13:10.720><c> on</c><00:13:11.040><c> employees</c><00:13:11.760><c> right</c><00:13:12.160><c> so</c><00:13:12.320><c> we're</c><00:13:12.639><c> using</c>
+
+00:13:13.509 --> 00:13:13.519 align:start position:0%
+scan on employees right so we're using
+ 
+
+00:13:13.519 --> 00:13:16.230 align:start position:0%
+scan on employees right so we're using
+the<00:13:13.839><c> actual</c><00:13:14.320><c> bitmap</c><00:13:14.959><c> index</c><00:13:15.440><c> scan</c><00:13:16.000><c> on</c>
+
+00:13:16.230 --> 00:13:16.240 align:start position:0%
+the actual bitmap index scan on
+ 
+
+00:13:16.240 --> 00:13:17.509 align:start position:0%
+the actual bitmap index scan on
+employee's<00:13:16.959><c> name</c>
+
+00:13:17.509 --> 00:13:17.519 align:start position:0%
+employee's name
+ 
+
+00:13:17.519 --> 00:13:19.910 align:start position:0%
+employee's name
+so<00:13:17.680><c> we're</c><00:13:17.920><c> actually</c><00:13:18.720><c> scanning</c><00:13:19.680><c> the</c>
+
+00:13:19.910 --> 00:13:19.920 align:start position:0%
+so we're actually scanning the
+ 
+
+00:13:19.920 --> 00:13:21.590 align:start position:0%
+so we're actually scanning the
+employee's<00:13:20.480><c> name</c>
+
+00:13:21.590 --> 00:13:21.600 align:start position:0%
+employee's name
+ 
+
+00:13:21.600 --> 00:13:24.550 align:start position:0%
+employee's name
+index<00:13:21.920><c> that</c><00:13:22.079><c> we</c><00:13:22.320><c> created</c><00:13:22.959><c> and</c><00:13:23.279><c> this</c><00:13:23.600><c> is</c><00:13:23.920><c> way</c>
+
+00:13:24.550 --> 00:13:24.560 align:start position:0%
+index that we created and this is way
+ 
+
+00:13:24.560 --> 00:13:25.509 align:start position:0%
+index that we created and this is way
+faster<00:13:24.959><c> because</c>
+
+00:13:25.509 --> 00:13:25.519 align:start position:0%
+faster because
+ 
+
+00:13:25.519 --> 00:13:28.230 align:start position:0%
+faster because
+we<00:13:25.680><c> have</c><00:13:26.079><c> fewer</c><00:13:26.639><c> rows</c><00:13:27.040><c> to</c><00:13:27.279><c> work</c><00:13:27.600><c> with</c><00:13:28.079><c> and</c>
+
+00:13:28.230 --> 00:13:28.240 align:start position:0%
+we have fewer rows to work with and
+ 
+
+00:13:28.240 --> 00:13:29.269 align:start position:0%
+we have fewer rows to work with and
+we're<00:13:28.399><c> gonna</c>
+
+00:13:29.269 --> 00:13:29.279 align:start position:0%
+we're gonna
+ 
+
+00:13:29.279 --> 00:13:32.949 align:start position:0%
+we're gonna
+actually<00:13:30.079><c> jump</c><00:13:30.639><c> between</c><00:13:31.519><c> few</c><00:13:31.920><c> rows</c><00:13:32.320><c> until</c><00:13:32.639><c> we</c>
+
+00:13:32.949 --> 00:13:32.959 align:start position:0%
+actually jump between few rows until we
+ 
+
+00:13:32.959 --> 00:13:34.629 align:start position:0%
+actually jump between few rows until we
+find<00:13:33.760><c> exactly</c>
+
+00:13:34.629 --> 00:13:34.639 align:start position:0%
+find exactly
+ 
+
+00:13:34.639 --> 00:13:38.150 align:start position:0%
+find exactly
+what<00:13:34.959><c> we're</c><00:13:35.440><c> looking</c><00:13:35.839><c> for</c><00:13:36.480><c> right</c><00:13:37.519><c> and</c>
+
+00:13:38.150 --> 00:13:38.160 align:start position:0%
+what we're looking for right and
+ 
+
+00:13:38.160 --> 00:13:40.949 align:start position:0%
+what we're looking for right and
+obviously<00:13:38.720><c> guys</c><00:13:39.120><c> the</c><00:13:39.360><c> same</c><00:13:39.600><c> thing</c><00:13:39.920><c> applies</c>
+
+00:13:40.949 --> 00:13:40.959 align:start position:0%
+obviously guys the same thing applies
+ 
+
+00:13:40.959 --> 00:13:41.670 align:start position:0%
+obviously guys the same thing applies
+where
+
+00:13:41.670 --> 00:13:41.680 align:start position:0%
+where
+ 
+
+00:13:41.680 --> 00:13:44.310 align:start position:0%
+where
+hey<00:13:42.079><c> if</c><00:13:42.240><c> you</c><00:13:42.399><c> only</c><00:13:42.959><c> pill</c><00:13:43.360><c> pull</c><00:13:43.600><c> the</c><00:13:43.760><c> name</c><00:13:44.079><c> which</c>
+
+00:13:44.310 --> 00:13:44.320 align:start position:0%
+hey if you only pill pull the name which
+ 
+
+00:13:44.320 --> 00:13:45.350 align:start position:0%
+hey if you only pill pull the name which
+is<00:13:44.399><c> already</c><00:13:44.720><c> in</c><00:13:44.800><c> this</c>
+
+00:13:45.350 --> 00:13:45.360 align:start position:0%
+is already in this
+ 
+
+00:13:45.360 --> 00:13:47.509 align:start position:0%
+is already in this
+index<00:13:45.680><c> is</c><00:13:45.760><c> going</c><00:13:45.920><c> to</c><00:13:46.000><c> be</c><00:13:46.160><c> faster</c><00:13:46.639><c> than</c><00:13:47.199><c> pulling</c>
+
+00:13:47.509 --> 00:13:47.519 align:start position:0%
+index is going to be faster than pulling
+ 
+
+00:13:47.519 --> 00:13:49.030 align:start position:0%
+index is going to be faster than pulling
+the<00:13:47.760><c> id</c><00:13:48.079><c> and</c><00:13:48.160><c> the</c><00:13:48.320><c> name</c>
+
+00:13:49.030 --> 00:13:49.040 align:start position:0%
+the id and the name
+ 
+
+00:13:49.040 --> 00:13:51.990 align:start position:0%
+the id and the name
+i'm<00:13:49.360><c> i'm</c><00:13:49.519><c> not</c><00:13:49.920><c> quite</c><00:13:50.240><c> sure</c><00:13:50.639><c> about</c><00:13:50.880><c> this</c><00:13:51.519><c> maybe</c>
+
+00:13:51.990 --> 00:13:52.000 align:start position:0%
+i'm i'm not quite sure about this maybe
+ 
+
+00:13:52.000 --> 00:13:53.750 align:start position:0%
+i'm i'm not quite sure about this maybe
+this<00:13:52.240><c> actually</c><00:13:52.639><c> doesn't</c><00:13:52.959><c> hit</c><00:13:53.279><c> the</c>
+
+00:13:53.750 --> 00:13:53.760 align:start position:0%
+this actually doesn't hit the
+ 
+
+00:13:53.760 --> 00:13:57.990 align:start position:0%
+this actually doesn't hit the
+heap<00:13:54.320><c> because</c><00:13:55.600><c> the</c><00:13:55.839><c> index</c><00:13:56.720><c> the</c><00:13:56.880><c> primary</c><00:13:57.440><c> key</c>
+
+00:13:57.990 --> 00:13:58.000 align:start position:0%
+heap because the index the primary key
+ 
+
+00:13:58.000 --> 00:13:59.590 align:start position:0%
+heap because the index the primary key
+i<00:13:58.079><c> know</c><00:13:58.320><c> this</c><00:13:58.480><c> is</c><00:13:58.560><c> a</c><00:13:58.720><c> mysql</c><00:13:59.199><c> i'm</c><00:13:59.279><c> not</c><00:13:59.440><c> sure</c>
+
+00:13:59.590 --> 00:13:59.600 align:start position:0%
+i know this is a mysql i'm not sure
+ 
+
+00:13:59.600 --> 00:14:01.829 align:start position:0%
+i know this is a mysql i'm not sure
+about<00:13:59.839><c> postgres</c><00:14:00.560><c> but</c><00:14:00.720><c> the</c><00:14:00.959><c> primary</c><00:14:01.440><c> key</c><00:14:01.600><c> is</c>
+
+00:14:01.829 --> 00:14:01.839 align:start position:0%
+about postgres but the primary key is
+ 
+
+00:14:01.839 --> 00:14:05.030 align:start position:0%
+about postgres but the primary key is
+usually<00:14:02.240><c> stored</c><00:14:02.720><c> with</c><00:14:03.040><c> every</c><00:14:03.360><c> single</c><00:14:03.760><c> index</c>
+
+00:14:05.030 --> 00:14:05.040 align:start position:0%
+usually stored with every single index
+ 
+
+00:14:05.040 --> 00:14:09.750 align:start position:0%
+usually stored with every single index
+in<00:14:05.360><c> uh</c><00:14:06.560><c> in</c><00:14:07.440><c> in</c><00:14:08.000><c> in</c><00:14:08.160><c> other</c><00:14:08.480><c> databases</c><00:14:09.120><c> right</c><00:14:09.279><c> so</c>
+
+00:14:09.750 --> 00:14:09.760 align:start position:0%
+in uh in in in other databases right so
+ 
+
+00:14:09.760 --> 00:14:11.990 align:start position:0%
+in uh in in in other databases right so
+the<00:14:09.920><c> name</c><00:14:10.320><c> index</c><00:14:10.720><c> here</c><00:14:11.120><c> the</c><00:14:11.279><c> primary</c><00:14:11.600><c> key</c><00:14:11.839><c> will</c>
+
+00:14:11.990 --> 00:14:12.000 align:start position:0%
+the name index here the primary key will
+ 
+
+00:14:12.000 --> 00:14:12.949 align:start position:0%
+the name index here the primary key will
+be<00:14:12.160><c> stored</c><00:14:12.480><c> so</c>
+
+00:14:12.949 --> 00:14:12.959 align:start position:0%
+be stored so
+ 
+
+00:14:12.959 --> 00:14:15.590 align:start position:0%
+be stored so
+pulling<00:14:13.279><c> the</c><00:14:13.519><c> primary</c><00:14:14.000><c> key</c><00:14:14.639><c> from</c><00:14:14.959><c> the</c><00:14:15.199><c> name</c>
+
+00:14:15.590 --> 00:14:15.600 align:start position:0%
+pulling the primary key from the name
+ 
+
+00:14:15.600 --> 00:14:16.310 align:start position:0%
+pulling the primary key from the name
+index
+
+00:14:16.310 --> 00:14:16.320 align:start position:0%
+index
+ 
+
+00:14:16.320 --> 00:14:18.470 align:start position:0%
+index
+will<00:14:16.480><c> be</c><00:14:16.720><c> fast</c><00:14:17.199><c> because</c><00:14:17.519><c> it's</c><00:14:17.839><c> it's</c><00:14:18.160><c> right</c>
+
+00:14:18.470 --> 00:14:18.480 align:start position:0%
+will be fast because it's it's right
+ 
+
+00:14:18.480 --> 00:14:19.590 align:start position:0%
+will be fast because it's it's right
+there<00:14:19.040><c> right</c>
+
+00:14:19.590 --> 00:14:19.600 align:start position:0%
+there right
+ 
+
+00:14:19.600 --> 00:14:22.150 align:start position:0%
+there right
+with<00:14:19.839><c> it</c><00:14:20.240><c> so</c><00:14:20.639><c> however</c><00:14:21.040><c> if</c><00:14:21.199><c> you're</c><00:14:21.600><c> if</c><00:14:21.760><c> you</c><00:14:21.920><c> have</c>
+
+00:14:22.150 --> 00:14:22.160 align:start position:0%
+with it so however if you're if you have
+ 
+
+00:14:22.160 --> 00:14:23.590 align:start position:0%
+with it so however if you're if you have
+more<00:14:22.399><c> than</c><00:14:22.639><c> other</c><00:14:22.959><c> tables</c>
+
+00:14:23.590 --> 00:14:23.600 align:start position:0%
+more than other tables
+ 
+
+00:14:23.600 --> 00:14:25.430 align:start position:0%
+more than other tables
+then<00:14:23.760><c> we</c><00:14:23.920><c> had</c><00:14:24.160><c> to</c><00:14:24.240><c> go</c><00:14:24.399><c> to</c><00:14:24.480><c> the</c><00:14:24.639><c> table</c><00:14:24.959><c> structure</c>
+
+00:14:25.430 --> 00:14:25.440 align:start position:0%
+then we had to go to the table structure
+ 
+
+00:14:25.440 --> 00:14:27.030 align:start position:0%
+then we had to go to the table structure
+and<00:14:25.519><c> that</c><00:14:25.680><c> will</c><00:14:25.920><c> be</c><00:14:26.000><c> a</c><00:14:26.079><c> little</c><00:14:26.240><c> bit</c><00:14:26.480><c> slow</c>
+
+00:14:27.030 --> 00:14:27.040 align:start position:0%
+and that will be a little bit slow
+ 
+
+00:14:27.040 --> 00:14:30.790 align:start position:0%
+and that will be a little bit slow
+all<00:14:27.120><c> right</c><00:14:27.360><c> guys</c><00:14:27.600><c> so</c><00:14:29.600><c> what</c><00:14:29.920><c> will</c><00:14:30.160><c> happen</c><00:14:30.480><c> if</c><00:14:30.560><c> i</c>
+
+00:14:30.790 --> 00:14:30.800 align:start position:0%
+all right guys so what will happen if i
+ 
+
+00:14:30.800 --> 00:14:31.189 align:start position:0%
+all right guys so what will happen if i
+add
+
+00:14:31.189 --> 00:14:31.199 align:start position:0%
+add
+ 
+
+00:14:31.199 --> 00:14:36.310 align:start position:0%
+add
+like<00:14:31.680><c> here</c><00:14:32.079><c> what</c><00:14:32.240><c> do</c><00:14:32.399><c> you</c><00:14:32.480><c> think</c><00:14:32.720><c> will</c><00:14:32.880><c> happen</c>
+
+00:14:36.310 --> 00:14:36.320 align:start position:0%
+ 
+ 
+
+00:14:36.320 --> 00:14:39.590 align:start position:0%
+ 
+back<00:14:36.800><c> to</c><00:14:36.959><c> the</c><00:14:37.120><c> slow</c><00:14:37.440><c> query</c><00:14:38.639><c> back</c><00:14:38.959><c> to</c><00:14:39.120><c> the</c><00:14:39.279><c> exact</c>
+
+00:14:39.590 --> 00:14:39.600 align:start position:0%
+back to the slow query back to the exact
+ 
+
+00:14:39.600 --> 00:14:41.509 align:start position:0%
+back to the slow query back to the exact
+same<00:14:39.839><c> slow</c><00:14:40.079><c> query</c><00:14:40.560><c> guys</c>
+
+00:14:41.509 --> 00:14:41.519 align:start position:0%
+same slow query guys
+ 
+
+00:14:41.519 --> 00:14:43.910 align:start position:0%
+same slow query guys
+why<00:14:42.399><c> let's</c><00:14:42.639><c> clear</c><00:14:42.959><c> this</c><00:14:43.120><c> again</c><00:14:43.360><c> let's</c><00:14:43.600><c> do</c>
+
+00:14:43.910 --> 00:14:43.920 align:start position:0%
+why let's clear this again let's do
+ 
+
+00:14:43.920 --> 00:14:45.829 align:start position:0%
+why let's clear this again let's do
+let's<00:14:44.079><c> do</c><00:14:44.240><c> something</c><00:14:44.560><c> else</c>
+
+00:14:45.829 --> 00:14:45.839 align:start position:0%
+let's do something else
+ 
+
+00:14:45.839 --> 00:14:48.389 align:start position:0%
+let's do something else
+so<00:14:46.000><c> we</c><00:14:46.160><c> don't</c><00:14:46.320><c> have</c><00:14:46.560><c> we</c><00:14:46.720><c> had</c><00:14:47.040><c> the</c><00:14:47.199><c> cache</c><00:14:48.240><c> look</c>
+
+00:14:48.389 --> 00:14:48.399 align:start position:0%
+so we don't have we had the cache look
+ 
+
+00:14:48.399 --> 00:14:49.189 align:start position:0%
+so we don't have we had the cache look
+at<00:14:48.480><c> this</c>
+
+00:14:49.189 --> 00:14:49.199 align:start position:0%
+at this
+ 
+
+00:14:49.199 --> 00:14:52.629 align:start position:0%
+at this
+back<00:14:49.440><c> to</c><00:14:49.600><c> the</c><00:14:49.839><c> same</c><00:14:50.240><c> slow</c><00:14:50.639><c> query</c><00:14:51.120><c> why</c><00:14:51.760><c> because</c>
+
+00:14:52.629 --> 00:14:52.639 align:start position:0%
+back to the same slow query why because
+ 
+
+00:14:52.639 --> 00:14:55.670 align:start position:0%
+back to the same slow query why because
+we<00:14:52.880><c> could</c><00:14:53.360><c> not</c><00:14:53.760><c> scan</c><00:14:54.240><c> the</c><00:14:54.480><c> index</c><00:14:55.040><c> why</c>
+
+00:14:55.670 --> 00:14:55.680 align:start position:0%
+we could not scan the index why
+ 
+
+00:14:55.680 --> 00:14:57.829 align:start position:0%
+we could not scan the index why
+this<00:14:55.920><c> is</c><00:14:56.160><c> this</c><00:14:56.320><c> is</c><00:14:56.720><c> a</c><00:14:56.880><c> lot</c><00:14:57.040><c> of</c><00:14:57.199><c> people</c><00:14:57.600><c> make</c>
+
+00:14:57.829 --> 00:14:57.839 align:start position:0%
+this is this is a lot of people make
+ 
+
+00:14:57.839 --> 00:14:58.949 align:start position:0%
+this is this is a lot of people make
+this<00:14:58.079><c> mistake</c>
+
+00:14:58.949 --> 00:14:58.959 align:start position:0%
+this mistake
+ 
+
+00:14:58.959 --> 00:15:02.870 align:start position:0%
+this mistake
+yeah<00:14:59.519><c> the</c><00:14:59.760><c> name</c><00:15:00.480><c> column</c><00:15:01.040><c> has</c><00:15:01.760><c> an</c><00:15:01.920><c> index</c>
+
+00:15:02.870 --> 00:15:02.880 align:start position:0%
+yeah the name column has an index
+ 
+
+00:15:02.880 --> 00:15:05.670 align:start position:0%
+yeah the name column has an index
+but<00:15:03.600><c> what</c><00:15:03.839><c> you</c><00:15:04.079><c> did</c><00:15:04.320><c> is</c><00:15:04.560><c> you're</c><00:15:04.800><c> not</c><00:15:05.120><c> actually</c>
+
+00:15:05.670 --> 00:15:05.680 align:start position:0%
+but what you did is you're not actually
+ 
+
+00:15:05.680 --> 00:15:06.790 align:start position:0%
+but what you did is you're not actually
+asking<00:15:06.160><c> for</c><00:15:06.399><c> a</c>
+
+00:15:06.790 --> 00:15:06.800 align:start position:0%
+asking for a
+ 
+
+00:15:06.800 --> 00:15:10.230 align:start position:0%
+asking for a
+for<00:15:07.199><c> literal</c><00:15:07.839><c> value</c><00:15:08.800><c> you're</c><00:15:09.279><c> asking</c><00:15:09.839><c> for</c><00:15:10.000><c> an</c>
+
+00:15:10.230 --> 00:15:10.240 align:start position:0%
+for literal value you're asking for an
+ 
+
+00:15:10.240 --> 00:15:11.590 align:start position:0%
+for literal value you're asking for an
+expression
+
+00:15:11.590 --> 00:15:11.600 align:start position:0%
+expression
+ 
+
+00:15:11.600 --> 00:15:14.629 align:start position:0%
+expression
+and<00:15:12.320><c> there</c><00:15:12.639><c> is</c><00:15:13.040><c> no</c><00:15:13.839><c> index</c>
+
+00:15:14.629 --> 00:15:14.639 align:start position:0%
+and there is no index
+ 
+
+00:15:14.639 --> 00:15:17.110 align:start position:0%
+and there is no index
+that<00:15:14.880><c> will</c><00:15:15.120><c> satisfy</c><00:15:15.839><c> this</c><00:15:16.240><c> expression</c>
+
+00:15:17.110 --> 00:15:17.120 align:start position:0%
+that will satisfy this expression
+ 
+
+00:15:17.120 --> 00:15:17.910 align:start position:0%
+that will satisfy this expression
+because
+
+00:15:17.910 --> 00:15:17.920 align:start position:0%
+because
+ 
+
+00:15:17.920 --> 00:15:19.990 align:start position:0%
+because
+we<00:15:18.079><c> cannot</c><00:15:18.560><c> search</c><00:15:18.880><c> the</c><00:15:19.040><c> index</c><00:15:19.440><c> on</c><00:15:19.600><c> this</c><00:15:19.920><c> on</c>
+
+00:15:19.990 --> 00:15:20.000 align:start position:0%
+we cannot search the index on this on
+ 
+
+00:15:20.000 --> 00:15:21.750 align:start position:0%
+we cannot search the index on this on
+this<00:15:20.320><c> expression</c><00:15:20.800><c> because</c>
+
+00:15:21.750 --> 00:15:21.760 align:start position:0%
+this expression because
+ 
+
+00:15:21.760 --> 00:15:25.189 align:start position:0%
+this expression because
+this<00:15:22.240><c> is</c><00:15:22.320><c> not</c><00:15:22.560><c> a</c><00:15:22.720><c> single</c><00:15:23.199><c> value</c><00:15:24.240><c> so</c>
+
+00:15:25.189 --> 00:15:25.199 align:start position:0%
+this is not a single value so
+ 
+
+00:15:25.199 --> 00:15:27.750 align:start position:0%
+this is not a single value so
+the<00:15:25.440><c> planner</c><00:15:26.240><c> quickly</c><00:15:26.720><c> detects</c><00:15:27.199><c> this</c><00:15:27.519><c> says</c>
+
+00:15:27.750 --> 00:15:27.760 align:start position:0%
+the planner quickly detects this says
+ 
+
+00:15:27.760 --> 00:15:28.870 align:start position:0%
+the planner quickly detects this says
+okay<00:15:28.079><c> planning</c><00:15:28.480><c> time</c>
+
+00:15:28.870 --> 00:15:28.880 align:start position:0%
+okay planning time
+ 
+
+00:15:28.880 --> 00:15:31.749 align:start position:0%
+okay planning time
+we<00:15:29.040><c> check</c><00:15:29.839><c> less</c><00:15:30.079><c> than</c><00:15:30.240><c> that</c><00:15:30.480><c> oh</c><00:15:30.880><c> sorry</c><00:15:31.519><c> the</c>
+
+00:15:31.749 --> 00:15:31.759 align:start position:0%
+we check less than that oh sorry the
+ 
+
+00:15:31.759 --> 00:15:32.230 align:start position:0%
+we check less than that oh sorry the
+filter
+
+00:15:32.230 --> 00:15:32.240 align:start position:0%
+filter
+ 
+
+00:15:32.240 --> 00:15:35.350 align:start position:0%
+filter
+sucks<00:15:33.440><c> and</c><00:15:33.680><c> that's</c><00:15:33.839><c> why</c><00:15:34.079><c> you</c><00:15:34.320><c> have</c><00:15:34.480><c> to</c><00:15:35.040><c> do</c>
+
+00:15:35.350 --> 00:15:35.360 align:start position:0%
+sucks and that's why you have to do
+ 
+
+00:15:35.360 --> 00:15:38.150 align:start position:0%
+sucks and that's why you have to do
+explain<00:15:35.920><c> on</c><00:15:36.000><c> your</c><00:15:36.240><c> queries</c><00:15:36.959><c> and</c><00:15:37.199><c> see</c><00:15:37.759><c> why</c><00:15:38.000><c> are</c>
+
+00:15:38.150 --> 00:15:38.160 align:start position:0%
+explain on your queries and see why are
+ 
+
+00:15:38.160 --> 00:15:39.990 align:start position:0%
+explain on your queries and see why are
+they<00:15:38.399><c> actually</c><00:15:38.839><c> slow</c>
+
+00:15:39.990 --> 00:15:40.000 align:start position:0%
+they actually slow
+ 
+
+00:15:40.000 --> 00:15:42.310 align:start position:0%
+they actually slow
+because<00:15:40.320><c> of</c><00:15:40.480><c> this</c><00:15:41.040><c> because</c><00:15:41.600><c> look</c><00:15:41.839><c> at</c><00:15:41.920><c> this</c><00:15:42.160><c> we</c>
+
+00:15:42.310 --> 00:15:42.320 align:start position:0%
+because of this because look at this we
+ 
+
+00:15:42.320 --> 00:15:43.430 align:start position:0%
+because of this because look at this we
+did<00:15:42.560><c> a</c><00:15:42.639><c> parallel</c>
+
+00:15:43.430 --> 00:15:43.440 align:start position:0%
+did a parallel
+ 
+
+00:15:43.440 --> 00:15:45.829 align:start position:0%
+did a parallel
+sequential<00:15:44.240><c> scan</c><00:15:44.560><c> again</c><00:15:44.880><c> parallel</c><00:15:45.440><c> not</c><00:15:45.680><c> all</c>
+
+00:15:45.829 --> 00:15:45.839 align:start position:0%
+sequential scan again parallel not all
+ 
+
+00:15:45.839 --> 00:15:47.590 align:start position:0%
+sequential scan again parallel not all
+databases<00:15:46.320><c> do</c><00:15:46.480><c> parallel</c><00:15:46.959><c> scanning</c><00:15:47.360><c> by</c><00:15:47.519><c> the</c>
+
+00:15:47.590 --> 00:15:47.600 align:start position:0%
+databases do parallel scanning by the
+ 
+
+00:15:47.600 --> 00:15:48.470 align:start position:0%
+databases do parallel scanning by the
+way<00:15:47.920><c> but</c><00:15:48.160><c> that</c>
+
+00:15:48.470 --> 00:15:48.480 align:start position:0%
+way but that
+ 
+
+00:15:48.480 --> 00:15:51.189 align:start position:0%
+way but that
+postgres<00:15:49.040><c> though</c><00:15:50.160><c> we</c><00:15:50.320><c> did</c><00:15:50.560><c> we</c><00:15:50.639><c> had</c><00:15:50.800><c> to</c><00:15:50.959><c> do</c><00:15:51.120><c> it</c>
+
+00:15:51.189 --> 00:15:51.199 align:start position:0%
+postgres though we did we had to do it
+ 
+
+00:15:51.199 --> 00:15:52.310 align:start position:0%
+postgres though we did we had to do it
+we<00:15:51.360><c> had</c><00:15:51.519><c> to</c><00:15:51.600><c> go</c><00:15:51.759><c> to</c><00:15:51.920><c> the</c>
+
+00:15:52.310 --> 00:15:52.320 align:start position:0%
+we had to go to the
+ 
+
+00:15:52.320 --> 00:15:55.350 align:start position:0%
+we had to go to the
+stinking<00:15:53.519><c> table</c><00:15:54.000><c> and</c><00:15:54.240><c> scan</c><00:15:54.560><c> my</c><00:15:54.720><c> 11</c><00:15:55.040><c> million</c>
+
+00:15:55.350 --> 00:15:55.360 align:start position:0%
+stinking table and scan my 11 million
+ 
+
+00:15:55.360 --> 00:15:56.790 align:start position:0%
+stinking table and scan my 11 million
+rows<00:15:55.680><c> if</c><00:15:55.839><c> i</c><00:15:55.920><c> have</c><00:15:56.000><c> a</c><00:15:56.079><c> billion</c><00:15:56.480><c> dollars</c><00:15:56.720><c> it's</c>
+
+00:15:56.790 --> 00:15:56.800 align:start position:0%
+rows if i have a billion dollars it's
+ 
+
+00:15:56.800 --> 00:15:58.629 align:start position:0%
+rows if i have a billion dollars it's
+going<00:15:56.880><c> to</c><00:15:56.959><c> be</c><00:15:57.120><c> even</c><00:15:57.440><c> slower</c><00:15:57.839><c> than</c><00:15:58.000><c> that</c>
+
+00:15:58.629 --> 00:15:58.639 align:start position:0%
+going to be even slower than that
+ 
+
+00:15:58.639 --> 00:16:00.870 align:start position:0%
+going to be even slower than that
+so<00:15:58.800><c> yeah</c><00:15:59.519><c> going</c><00:15:59.839><c> through</c><00:16:00.160><c> all</c><00:16:00.320><c> that</c><00:16:00.560><c> stuff</c><00:16:00.800><c> and</c>
+
+00:16:00.870 --> 00:16:00.880 align:start position:0%
+so yeah going through all that stuff and
+ 
+
+00:16:00.880 --> 00:16:02.150 align:start position:0%
+so yeah going through all that stuff and
+i'm<00:16:00.959><c> going</c><00:16:01.040><c> to</c><00:16:01.199><c> explain</c><00:16:01.519><c> all</c><00:16:01.600><c> this</c><00:16:01.759><c> number</c><00:16:02.000><c> in</c>
+
+00:16:02.150 --> 00:16:02.160 align:start position:0%
+i'm going to explain all this number in
+ 
+
+00:16:02.160 --> 00:16:03.509 align:start position:0%
+i'm going to explain all this number in
+another<00:16:02.480><c> videos</c><00:16:02.800><c> because</c><00:16:03.040><c> i</c><00:16:03.199><c> don't</c><00:16:03.360><c> want</c><00:16:03.440><c> to</c>
+
+00:16:03.509 --> 00:16:03.519 align:start position:0%
+another videos because i don't want to
+ 
+
+00:16:03.519 --> 00:16:04.870 align:start position:0%
+another videos because i don't want to
+make<00:16:03.680><c> this</c><00:16:03.839><c> video</c><00:16:04.079><c> longer</c><00:16:04.399><c> than</c><00:16:04.560><c> that</c><00:16:04.720><c> i'm</c>
+
+00:16:04.870 --> 00:16:04.880 align:start position:0%
+make this video longer than that i'm
+ 
+
+00:16:04.880 --> 00:16:06.470 align:start position:0%
+make this video longer than that i'm
+going<00:16:05.040><c> to</c><00:16:05.120><c> make</c><00:16:05.360><c> an</c><00:16:05.519><c> advanced</c><00:16:05.920><c> video</c>
+
+00:16:06.470 --> 00:16:06.480 align:start position:0%
+going to make an advanced video
+ 
+
+00:16:06.480 --> 00:16:08.389 align:start position:0%
+going to make an advanced video
+discussing<00:16:07.040><c> these</c><00:16:07.360><c> actual</c><00:16:07.759><c> numbers</c><00:16:08.079><c> what</c><00:16:08.240><c> do</c>
+
+00:16:08.389 --> 00:16:08.399 align:start position:0%
+discussing these actual numbers what do
+ 
+
+00:16:08.399 --> 00:16:09.910 align:start position:0%
+discussing these actual numbers what do
+they<00:16:08.560><c> mean</c><00:16:08.800><c> all</c><00:16:08.880><c> that</c><00:16:09.120><c> stuff</c><00:16:09.440><c> but</c>
+
+00:16:09.910 --> 00:16:09.920 align:start position:0%
+they mean all that stuff but
+ 
+
+00:16:09.920 --> 00:16:12.310 align:start position:0%
+they mean all that stuff but
+but<00:16:10.079><c> yeah</c><00:16:10.399><c> we</c><00:16:10.560><c> did</c><00:16:10.800><c> a</c><00:16:10.959><c> parallel</c><00:16:11.600><c> scan</c><00:16:12.079><c> on</c>
+
+00:16:12.310 --> 00:16:12.320 align:start position:0%
+but yeah we did a parallel scan on
+ 
+
+00:16:12.320 --> 00:16:13.990 align:start position:0%
+but yeah we did a parallel scan on
+employees<00:16:13.199><c> guys</c><00:16:13.519><c> look</c><00:16:13.759><c> at</c>
+
+00:16:13.990 --> 00:16:14.000 align:start position:0%
+employees guys look at
+ 
+
+00:16:14.000 --> 00:16:16.230 align:start position:0%
+employees guys look at
+that<00:16:14.560><c> it's</c><00:16:14.880><c> so</c><00:16:15.120><c> slow</c><00:16:15.440><c> we</c><00:16:15.519><c> couldn't</c><00:16:15.839><c> do</c><00:16:16.000><c> any</c>
+
+00:16:16.230 --> 00:16:16.240 align:start position:0%
+that it's so slow we couldn't do any
+ 
+
+00:16:16.240 --> 00:16:18.790 align:start position:0%
+that it's so slow we couldn't do any
+lining<00:16:16.720><c> we</c><00:16:16.880><c> couldn't</c><00:16:17.199><c> do</c><00:16:17.360><c> any</c><00:16:17.519><c> optimizations</c>
+
+00:16:18.790 --> 00:16:18.800 align:start position:0%
+lining we couldn't do any optimizations
+ 
+
+00:16:18.800 --> 00:16:20.470 align:start position:0%
+lining we couldn't do any optimizations
+and<00:16:18.880><c> this</c><00:16:19.040><c> is</c><00:16:19.199><c> an</c><00:16:19.360><c> expression</c><00:16:19.759><c> obviously</c><00:16:20.320><c> so</c>
+
+00:16:20.470 --> 00:16:20.480 align:start position:0%
+and this is an expression obviously so
+ 
+
+00:16:20.480 --> 00:16:21.990 align:start position:0%
+and this is an expression obviously so
+that's<00:16:20.720><c> we</c><00:16:20.880><c> had</c><00:16:21.440><c> we</c><00:16:21.600><c> had</c><00:16:21.759><c> to</c>
+
+00:16:21.990 --> 00:16:22.000 align:start position:0%
+that's we had we had to
+ 
+
+00:16:22.000 --> 00:16:24.470 align:start position:0%
+that's we had we had to
+do<00:16:22.240><c> all</c><00:16:22.399><c> that</c><00:16:22.639><c> stuff</c><00:16:22.800><c> so</c><00:16:23.279><c> we</c><00:16:23.519><c> took</c><00:16:23.759><c> a</c><00:16:23.839><c> hit</c><00:16:24.320><c> we</c>
+
+00:16:24.470 --> 00:16:24.480 align:start position:0%
+do all that stuff so we took a hit we
+ 
+
+00:16:24.480 --> 00:16:25.269 align:start position:0%
+do all that stuff so we took a hit we
+took<00:16:24.720><c> a</c><00:16:24.800><c> hit</c>
+
+00:16:25.269 --> 00:16:25.279 align:start position:0%
+took a hit
+ 
+
+00:16:25.279 --> 00:16:28.710 align:start position:0%
+took a hit
+despite<00:16:25.839><c> us</c><00:16:26.399><c> having</c><00:16:26.720><c> an</c><00:16:26.959><c> index</c><00:16:27.360><c> guys</c><00:16:28.000><c> despite</c>
+
+00:16:28.710 --> 00:16:28.720 align:start position:0%
+despite us having an index guys despite
+ 
+
+00:16:28.720 --> 00:16:29.509 align:start position:0%
+despite us having an index guys despite
+axe
+
+00:16:29.509 --> 00:16:29.519 align:start position:0%
+axe
+ 
+
+00:16:29.519 --> 00:16:32.710 align:start position:0%
+axe
+having<00:16:29.920><c> an</c><00:16:30.160><c> index</c><00:16:30.720><c> so</c><00:16:31.680><c> guys</c><00:16:32.240><c> that's</c>
+
+00:16:32.710 --> 00:16:32.720 align:start position:0%
+having an index so guys that's
+ 
+
+00:16:32.720 --> 00:16:35.350 align:start position:0%
+having an index so guys that's
+very<00:16:33.279><c> quickly</c><00:16:33.839><c> indexing</c><00:16:34.480><c> in</c><00:16:34.639><c> a</c><00:16:34.720><c> nutshell</c><00:16:35.199><c> in</c><00:16:35.279><c> a</c>
+
+00:16:35.350 --> 00:16:35.360 align:start position:0%
+very quickly indexing in a nutshell in a
+ 
+
+00:16:35.360 --> 00:16:37.110 align:start position:0%
+very quickly indexing in a nutshell in a
+very<00:16:35.600><c> very</c><00:16:35.920><c> quick</c><00:16:36.160><c> video</c><00:16:36.560><c> i</c><00:16:36.639><c> wanted</c><00:16:36.880><c> to</c>
+
+00:16:37.110 --> 00:16:37.120 align:start position:0%
+very very quick video i wanted to
+ 
+
+00:16:37.120 --> 00:16:40.069 align:start position:0%
+very very quick video i wanted to
+explain<00:16:37.519><c> of</c><00:16:37.600><c> that</c><00:16:38.160><c> yeah</c><00:16:38.720><c> having</c><00:16:39.040><c> an</c><00:16:39.279><c> index</c>
+
+00:16:40.069 --> 00:16:40.079 align:start position:0%
+explain of that yeah having an index
+ 
+
+00:16:40.079 --> 00:16:41.269 align:start position:0%
+explain of that yeah having an index
+does<00:16:40.320><c> not</c><00:16:40.639><c> mean</c><00:16:40.880><c> that</c>
+
+00:16:41.269 --> 00:16:41.279 align:start position:0%
+does not mean that
+ 
+
+00:16:41.279 --> 00:16:43.350 align:start position:0%
+does not mean that
+the<00:16:41.440><c> database</c><00:16:41.920><c> will</c><00:16:42.160><c> always</c><00:16:42.560><c> use</c><00:16:42.800><c> it</c><00:16:43.199><c> it's</c>
+
+00:16:43.350 --> 00:16:43.360 align:start position:0%
+the database will always use it it's
+ 
+
+00:16:43.360 --> 00:16:44.470 align:start position:0%
+the database will always use it it's
+gonna<00:16:43.839><c> plan</c>
+
+00:16:44.470 --> 00:16:44.480 align:start position:0%
+gonna plan
+ 
+
+00:16:44.480 --> 00:16:46.470 align:start position:0%
+gonna plan
+and<00:16:44.720><c> according</c><00:16:45.199><c> the</c><00:16:45.360><c> to</c><00:16:45.519><c> the</c><00:16:45.759><c> planner</c><00:16:46.320><c> will</c>
+
+00:16:46.470 --> 00:16:46.480 align:start position:0%
+and according the to the planner will
+ 
+
+00:16:46.480 --> 00:16:48.230 align:start position:0%
+and according the to the planner will
+decide<00:16:46.880><c> to</c><00:16:46.959><c> use</c><00:16:47.199><c> the</c><00:16:47.360><c> index</c><00:16:47.680><c> or</c><00:16:47.839><c> not</c>
+
+00:16:48.230 --> 00:16:48.240 align:start position:0%
+decide to use the index or not
+ 
+
+00:16:48.240 --> 00:16:51.430 align:start position:0%
+decide to use the index or not
+it's<00:16:48.480><c> up</c><00:16:48.639><c> to</c><00:16:48.800><c> you</c><00:16:49.120><c> as</c><00:16:49.120><c> as</c><00:16:50.000><c> the</c><00:16:50.320><c> engineer</c>
+
+00:16:51.430 --> 00:16:51.440 align:start position:0%
+it's up to you as as the engineer
+ 
+
+00:16:51.440 --> 00:16:53.829 align:start position:0%
+it's up to you as as the engineer
+uh<00:16:52.079><c> who's</c><00:16:52.399><c> executing</c><00:16:52.959><c> queries</c><00:16:53.360><c> against</c><00:16:53.680><c> the</c>
+
+00:16:53.829 --> 00:16:53.839 align:start position:0%
+uh who's executing queries against the
+ 
+
+00:16:53.839 --> 00:16:54.629 align:start position:0%
+uh who's executing queries against the
+database
+
+00:16:54.629 --> 00:16:54.639 align:start position:0%
+database
+ 
+
+00:16:54.639 --> 00:16:56.949 align:start position:0%
+database
+to<00:16:54.800><c> actually</c><00:16:55.360><c> give</c><00:16:55.680><c> hints</c><00:16:56.079><c> to</c><00:16:56.240><c> the</c><00:16:56.399><c> database</c>
+
+00:16:56.949 --> 00:16:56.959 align:start position:0%
+to actually give hints to the database
+ 
+
+00:16:56.959 --> 00:16:58.870 align:start position:0%
+to actually give hints to the database
+to<00:16:57.120><c> actually</c><00:16:57.519><c> use</c><00:16:57.759><c> the</c><00:16:57.920><c> index</c><00:16:58.320><c> or</c><00:16:58.480><c> not</c>
+
+00:16:58.870 --> 00:16:58.880 align:start position:0%
+to actually use the index or not
+ 
+
+00:16:58.880 --> 00:17:01.829 align:start position:0%
+to actually use the index or not
+right<00:16:59.519><c> this</c><00:16:59.920><c> is</c><00:17:00.079><c> a</c><00:17:00.160><c> bad</c><00:17:00.560><c> query</c><00:17:00.959><c> in</c><00:17:01.120><c> general</c>
+
+00:17:01.829 --> 00:17:01.839 align:start position:0%
+right this is a bad query in general
+ 
+
+00:17:01.839 --> 00:17:04.309 align:start position:0%
+right this is a bad query in general
+select<00:17:02.320><c> star</c><00:17:02.720><c> is</c><00:17:02.880><c> a</c><00:17:02.959><c> bad</c><00:17:03.279><c> query</c><00:17:03.759><c> in</c><00:17:03.839><c> general</c>
+
+00:17:04.309 --> 00:17:04.319 align:start position:0%
+select star is a bad query in general
+ 
+
+00:17:04.319 --> 00:17:07.189 align:start position:0%
+select star is a bad query in general
+why<00:17:04.880><c> because</c><00:17:05.520><c> if</c><00:17:05.679><c> you</c><00:17:06.319><c> because</c><00:17:06.640><c> if</c><00:17:06.799><c> you</c><00:17:06.959><c> think</c>
+
+00:17:07.189 --> 00:17:07.199 align:start position:0%
+why because if you because if you think
+ 
+
+00:17:07.199 --> 00:17:08.390 align:start position:0%
+why because if you because if you think
+about<00:17:07.439><c> the</c><00:17:07.679><c> cost</c>
+
+00:17:08.390 --> 00:17:08.400 align:start position:0%
+about the cost
+ 
+
+00:17:08.400 --> 00:17:10.949 align:start position:0%
+about the cost
+to<00:17:08.559><c> go</c><00:17:08.720><c> to</c><00:17:08.880><c> the</c><00:17:09.199><c> actual</c><00:17:09.839><c> disk</c><00:17:10.400><c> and</c><00:17:10.640><c> pull</c><00:17:10.880><c> all</c>
+
+00:17:10.949 --> 00:17:10.959 align:start position:0%
+to go to the actual disk and pull all
+ 
+
+00:17:10.959 --> 00:17:13.510 align:start position:0%
+to go to the actual disk and pull all
+the<00:17:11.280><c> information</c>
+
+00:17:13.510 --> 00:17:13.520 align:start position:0%
+the information
+ 
+
+00:17:13.520 --> 00:17:16.549 align:start position:0%
+the information
+that<00:17:13.760><c> is</c><00:17:14.000><c> expensive</c><00:17:14.959><c> right</c><00:17:15.679><c> really</c><00:17:16.240><c> really</c>
+
+00:17:16.549 --> 00:17:16.559 align:start position:0%
+that is expensive right really really
+ 
+
+00:17:16.559 --> 00:17:18.150 align:start position:0%
+that is expensive right really really
+depends<00:17:16.959><c> on</c><00:17:17.039><c> how</c><00:17:17.199><c> much</c><00:17:17.360><c> like</c><00:17:17.679><c> let's</c><00:17:17.839><c> say</c><00:17:18.000><c> you</c>
+
+00:17:18.150 --> 00:17:18.160 align:start position:0%
+depends on how much like let's say you
+ 
+
+00:17:18.160 --> 00:17:19.909 align:start position:0%
+depends on how much like let's say you
+have<00:17:18.319><c> a</c><00:17:18.480><c> blob</c>
+
+00:17:19.909 --> 00:17:19.919 align:start position:0%
+have a blob
+ 
+
+00:17:19.919 --> 00:17:23.110 align:start position:0%
+have a blob
+on<00:17:20.160><c> a</c><00:17:20.559><c> column</c><00:17:21.039><c> on</c><00:17:21.199><c> the</c><00:17:21.360><c> field</c><00:17:21.919><c> or</c><00:17:22.160><c> on</c><00:17:22.319><c> the</c><00:17:22.400><c> table</c>
+
+00:17:23.110 --> 00:17:23.120 align:start position:0%
+on a column on the field or on the table
+ 
+
+00:17:23.120 --> 00:17:25.110 align:start position:0%
+on a column on the field or on the table
+that<00:17:23.360><c> is</c><00:17:23.520><c> expensive</c><00:17:24.000><c> to</c><00:17:24.160><c> pull</c><00:17:24.400><c> up</c><00:17:24.640><c> so</c><00:17:24.880><c> if</c><00:17:25.039><c> you</c>
+
+00:17:25.110 --> 00:17:25.120 align:start position:0%
+that is expensive to pull up so if you
+ 
+
+00:17:25.120 --> 00:17:26.870 align:start position:0%
+that is expensive to pull up so if you
+don't<00:17:25.360><c> need</c><00:17:25.600><c> it</c><00:17:25.760><c> don't</c><00:17:26.000><c> ask</c><00:17:26.160><c> for</c><00:17:26.400><c> it</c>
+
+00:17:26.870 --> 00:17:26.880 align:start position:0%
+don't need it don't ask for it
+ 
+
+00:17:26.880 --> 00:17:29.029 align:start position:0%
+don't need it don't ask for it
+right<00:17:27.439><c> and</c><00:17:27.600><c> only</c><00:17:27.919><c> ask</c><00:17:28.160><c> for</c><00:17:28.480><c> things</c><00:17:28.720><c> that</c>
+
+00:17:29.029 --> 00:17:29.039 align:start position:0%
+right and only ask for things that
+ 
+
+00:17:29.039 --> 00:17:29.909 align:start position:0%
+right and only ask for things that
+absolutely
+
+00:17:29.909 --> 00:17:29.919 align:start position:0%
+absolutely
+ 
+
+00:17:29.919 --> 00:17:33.590 align:start position:0%
+absolutely
+there<00:17:30.640><c> and</c><00:17:31.120><c> if</c><00:17:31.280><c> you</c><00:17:31.520><c> can</c><00:17:32.400><c> ask</c><00:17:32.799><c> for</c><00:17:33.120><c> things</c><00:17:33.360><c> that</c>
+
+00:17:33.590 --> 00:17:33.600 align:start position:0%
+there and if you can ask for things that
+ 
+
+00:17:33.600 --> 00:17:34.950 align:start position:0%
+there and if you can ask for things that
+are<00:17:33.840><c> in</c><00:17:33.919><c> the</c><00:17:34.160><c> index</c><00:17:34.559><c> right</c>
+
+00:17:34.950 --> 00:17:34.960 align:start position:0%
+are in the index right
+ 
+
+00:17:34.960 --> 00:17:36.310 align:start position:0%
+are in the index right
+i'm<00:17:35.120><c> going</c><00:17:35.200><c> to</c><00:17:35.280><c> talk</c><00:17:35.440><c> about</c><00:17:35.679><c> that</c><00:17:35.919><c> in</c><00:17:36.000><c> another</c>
+
+00:17:36.310 --> 00:17:36.320 align:start position:0%
+i'm going to talk about that in another
+ 
+
+00:17:36.320 --> 00:17:38.310 align:start position:0%
+i'm going to talk about that in another
+video<00:17:36.559><c> where</c><00:17:36.799><c> just</c><00:17:37.039><c> like</c><00:17:37.200><c> multi-column</c><00:17:38.000><c> index</c>
+
+00:17:38.310 --> 00:17:38.320 align:start position:0%
+video where just like multi-column index
+ 
+
+00:17:38.320 --> 00:17:39.270 align:start position:0%
+video where just like multi-column index
+where<00:17:38.559><c> you</c><00:17:38.720><c> can</c>
+
+00:17:39.270 --> 00:17:39.280 align:start position:0%
+where you can
+ 
+
+00:17:39.280 --> 00:17:42.950 align:start position:0%
+where you can
+add<00:17:40.320><c> other</c><00:17:40.720><c> columns</c><00:17:41.919><c> in</c><00:17:42.240><c> the</c><00:17:42.480><c> index</c><00:17:42.799><c> that</c>
+
+00:17:42.950 --> 00:17:42.960 align:start position:0%
+add other columns in the index that
+ 
+
+00:17:42.960 --> 00:17:44.549 align:start position:0%
+add other columns in the index that
+you're<00:17:43.280><c> about</c><00:17:43.520><c> to</c><00:17:43.679><c> create</c><00:17:44.000><c> this</c><00:17:44.240><c> is</c><00:17:44.320><c> called</c>
+
+00:17:44.549 --> 00:17:44.559 align:start position:0%
+you're about to create this is called
+ 
+
+00:17:44.559 --> 00:17:46.310 align:start position:0%
+you're about to create this is called
+inlining<00:17:45.360><c> where</c><00:17:45.360><c> where</c>
+
+00:17:46.310 --> 00:17:46.320 align:start position:0%
+inlining where where
+ 
+
+00:17:46.320 --> 00:17:49.110 align:start position:0%
+inlining where where
+as<00:17:46.480><c> i</c><00:17:46.720><c> search</c><00:17:47.039><c> my</c><00:17:47.360><c> beautiful</c><00:17:47.840><c> index</c><00:17:48.160><c> my</c><00:17:48.559><c> neat</c>
+
+00:17:49.110 --> 00:17:49.120 align:start position:0%
+as i search my beautiful index my neat
+ 
+
+00:17:49.120 --> 00:17:50.549 align:start position:0%
+as i search my beautiful index my neat
+efficient<00:17:49.679><c> index</c>
+
+00:17:50.549 --> 00:17:50.559 align:start position:0%
+efficient index
+ 
+
+00:17:50.559 --> 00:17:53.350 align:start position:0%
+efficient index
+uh<00:17:50.880><c> i</c><00:17:51.120><c> want</c><00:17:51.440><c> the</c><00:17:51.919><c> name</c><00:17:52.240><c> for</c><00:17:52.400><c> example</c><00:17:53.200><c> right</c>
+
+00:17:53.350 --> 00:17:53.360 align:start position:0%
+uh i want the name for example right
+ 
+
+00:17:53.360 --> 00:17:54.710 align:start position:0%
+uh i want the name for example right
+that's<00:17:53.520><c> a</c><00:17:53.520><c> bad</c><00:17:53.760><c> example</c><00:17:54.160><c> but</c>
+
+00:17:54.710 --> 00:17:54.720 align:start position:0%
+that's a bad example but
+ 
+
+00:17:54.720 --> 00:17:56.310 align:start position:0%
+that's a bad example but
+i<00:17:54.880><c> want</c><00:17:55.039><c> the</c><00:17:55.200><c> name</c><00:17:55.440><c> i</c><00:17:55.600><c> am</c><00:17:55.679><c> searching</c><00:17:56.000><c> for</c><00:17:56.160><c> the</c>
+
+00:17:56.310 --> 00:17:56.320 align:start position:0%
+i want the name i am searching for the
+ 
+
+00:17:56.320 --> 00:17:57.990 align:start position:0%
+i want the name i am searching for the
+id<00:17:56.720><c> and</c><00:17:56.880><c> i</c><00:17:56.960><c> don't</c><00:17:57.120><c> want</c><00:17:57.200><c> the</c><00:17:57.280><c> name</c>
+
+00:17:57.990 --> 00:17:58.000 align:start position:0%
+id and i don't want the name
+ 
+
+00:17:58.000 --> 00:17:59.990 align:start position:0%
+id and i don't want the name
+oh<00:17:58.400><c> the</c><00:17:58.559><c> name</c><00:17:58.799><c> is</c><00:17:58.960><c> right</c><00:17:59.200><c> there</c><00:17:59.520><c> it's</c><00:17:59.679><c> just</c>
+
+00:17:59.990 --> 00:18:00.000 align:start position:0%
+oh the name is right there it's just
+ 
+
+00:18:00.000 --> 00:18:01.190 align:start position:0%
+oh the name is right there it's just
+literally<00:18:00.640><c> sitting</c>
+
+00:18:01.190 --> 00:18:01.200 align:start position:0%
+literally sitting
+ 
+
+00:18:01.200 --> 00:18:02.789 align:start position:0%
+literally sitting
+in<00:18:01.360><c> my</c><00:18:01.600><c> index</c><00:18:01.919><c> so</c><00:18:02.080><c> i</c><00:18:02.160><c> just</c><00:18:02.400><c> pull</c><00:18:02.559><c> it</c><00:18:02.720><c> and</c>
+
+00:18:02.789 --> 00:18:02.799 align:start position:0%
+in my index so i just pull it and
+ 
+
+00:18:02.799 --> 00:18:04.230 align:start position:0%
+in my index so i just pull it and
+retrieve<00:18:03.200><c> it</c><00:18:03.280><c> to</c><00:18:03.360><c> the</c><00:18:03.440><c> user</c><00:18:03.679><c> i</c><00:18:03.760><c> don't</c><00:18:03.919><c> have</c><00:18:04.080><c> to</c>
+
+00:18:04.230 --> 00:18:04.240 align:start position:0%
+retrieve it to the user i don't have to
+ 
+
+00:18:04.240 --> 00:18:05.110 align:start position:0%
+retrieve it to the user i don't have to
+go<00:18:04.480><c> back</c>
+
+00:18:05.110 --> 00:18:05.120 align:start position:0%
+go back
+ 
+
+00:18:05.120 --> 00:18:07.510 align:start position:0%
+go back
+on<00:18:05.360><c> disk</c><00:18:05.760><c> and</c><00:18:05.919><c> find</c><00:18:06.240><c> the</c><00:18:06.400><c> location</c><00:18:07.039><c> seek</c><00:18:07.360><c> and</c>
+
+00:18:07.510 --> 00:18:07.520 align:start position:0%
+on disk and find the location seek and
+ 
+
+00:18:07.520 --> 00:18:09.669 align:start position:0%
+on disk and find the location seek and
+disk<00:18:08.080><c> if</c><00:18:08.400><c> that's</c><00:18:08.640><c> the</c><00:18:08.799><c> mechanical</c><00:18:09.280><c> drive</c>
+
+00:18:09.669 --> 00:18:09.679 align:start position:0%
+disk if that's the mechanical drive
+ 
+
+00:18:09.679 --> 00:18:13.270 align:start position:0%
+disk if that's the mechanical drive
+or<00:18:10.320><c> pull</c><00:18:10.559><c> the</c><00:18:10.720><c> page</c><00:18:11.039><c> in</c><00:18:11.280><c> case</c><00:18:11.520><c> of</c><00:18:11.679><c> ssd</c><00:18:12.320><c> guys</c>
+
+00:18:13.270 --> 00:18:13.280 align:start position:0%
+or pull the page in case of ssd guys
+ 
+
+00:18:13.280 --> 00:18:15.350 align:start position:0%
+or pull the page in case of ssd guys
+alright<00:18:13.520><c> guys</c><00:18:14.000><c> that's</c><00:18:14.240><c> it</c><00:18:14.320><c> for</c><00:18:14.480><c> me</c><00:18:14.640><c> today</c><00:18:15.120><c> i'm</c>
+
+00:18:15.350 --> 00:18:15.360 align:start position:0%
+alright guys that's it for me today i'm
+ 
+
+00:18:15.360 --> 00:18:16.470 align:start position:0%
+alright guys that's it for me today i'm
+gonna<00:18:15.520><c> see</c><00:18:15.679><c> you</c><00:18:15.760><c> in</c><00:18:15.840><c> the</c><00:18:15.919><c> next</c><00:18:16.160><c> one</c>
+
+00:18:16.470 --> 00:18:16.480 align:start position:0%
+gonna see you in the next one
+ 
+
+00:18:16.480 --> 00:18:20.160 align:start position:0%
+gonna see you in the next one
+you<00:18:16.640><c> guys</c><00:18:16.880><c> stay</c><00:18:17.120><c> awesome</c><00:18:17.600><c> goodbye</c>
+

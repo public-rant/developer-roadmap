@@ -1,0 +1,213 @@
+
+it didn t work
+Music
+that used to be me every single time i
+ran into a
+error until i realized just how easy it
+is to fix these errors
+so in this video i m going to show you
+everything you need to know about course
+so you never have to run into these
+types of errors
+here s a quick example of a course error
+as you can see i just have a simple
+script file that s running on my client
+it s accessing our server trying to get
+some data and it s trying to print that
+data out and on our server you can see
+we have that data response
+we re just using express to set up the
+server listening on port 3000
+and as you can see when we re trying to
+fetch from localhost 5500
+to localhost 3000 it s saying that we
+cannot fetch that because of course
+and it s saying that no access control
+allow origin header is present on the
+requested resource
+and that tells you exactly what you need
+to do to fix cores
+in order to allow a request to go from
+one origin to another so for example
+localhost port 5500 to localhost 3000
+we need to tell the browser hey we allow
+requests to come from other urls
+and this is what the access control
+allow origin allows us to do it says
+where do you allow requests to come from
+so our server is telling our client
+hey these are the allowed urls that are
+able to access us
+by default the only allowed url is the
+same origin that you come from so we can
+make requests from our current origin
+but when you re trying to make requests
+from a different origin you need to
+specify the origins that are allowed
+now in order to do this setting of the
+header inside of express
+we re going to be using a library called
+cores to do that and i ll show you the
+before and after of what happens
+we go to the network tab here we can see
+that this data request is being made
+and if i just try to come in here and
+look at the different headers you can
+see that my response headers has nothing
+to do with that application
+or access control allow origins you can
+see it doesn t exist anywhere inside of
+here
+but if we install that coors library so
+we say npmi
+cores that s just going to install those
+for express there s a million different
+ways to do this depending on what
+library you re using so if you re using
+express it s going to be this course
+library
+if you re using like python or go
+there s going to be their own library or
+you can manually set the headers on your
+own
+but we can just say app use course and
+this is a function
+and the first thing we re going to pass
+to it is our origin and this is the
+origin of the client that we allow
+which we know is just localhost 5500
+so now if i just make sure that i take
+cores and require
+that cores library and i save you can
+see that
+if we go over to our console we re still
+getting that request error and that s
+because this origin has a value of
+localhost 5500
+but it s not equal to 127 0 0 1 because
+that s our actual url
+so let s say 127 0 0 1
+now when we save you can see it actually
+prints out the data instead of giving us
+a course error
+if we come in here let s just make sure
+we refresh all this open up our data and
+you can see we have an access control
+allow origin
+and it has the actual url that we re
+trying to make the request
+from so our server is saying hey you
+know what if you re coming from this
+you know origin then we allow any
+request to come up
+but let s say this is 5501 that s now a
+different origin
+so now we re getting that error because
+it s saying hey you know what you re not
+equal to the allowable origins
+also if you want to allow any origin at
+all just put a star inside of here
+and now if we save this with just a star
+you can see that the data is coming
+through just fine
+and that s because our axis allowed
+origins here we come in here our access
+control
+origin is for every single thing it s
+because we have a star here
+now this works great when it comes to
+things like git and post request this is
+going to solve all of your problems for
+cores immediately
+but if you need to do something like a
+put request so if we change this to a
+put
+and then inside of here we just make our
+method
+a put method well now we actually have
+a different problem that we re going to
+run into you ll notice we come in here
+let s just
+
+127 0 0 1 port 550
+and we click save here and we go to our
+console you notice it s printing
+everything out just fine
+if we go over to our network tab though
+and we go to this other section you re
+going to notice we also have these
+things called
+options request and options request is
+essentially a preflight request
+whenever we do something like a put or
+we do something like a delete
+we re going to need to do this options
+request to make sure we re allowed to do
+this put in this delete and if we scroll
+down to the response headers you ll see
+this access control request method
+it s saying hey i want to make a put
+request am i allowed to do that
+and if you scroll up you re going to see
+that we also respond with access control
+allowed methods and by default this is
+returning everything git head put patch
+post delete so it s saying we re allowed
+to do all these different types of
+things
+well inside of course we can actually
+change our methods so we can just say
+methods
+we can pass in an array so we could say
+you know what only allow git
+and post request no put no none of that
+now when i save and i go to the console
+we re getting a coors error and that s
+because we re trying to use the method
+put
+but it s not being allowed if we go to
+that options you can see that we only
+are allowing git
+and post and that doesn t match the put
+that we re trying to actually do a
+request
+on we can use this method to fine tune
+what different things we allow
+other urls to actually do by default
+it s allowing everything with this
+course library but we could say you know
+only do git and post and no puts are
+going to be allowed
+or we could remove that and now if this
+will actually successfully work because
+put
+is being allowed now the final thing
+that i want to talk about with course is
+going to be how you can actually send up
+cookies because by
+default cookies are blocked if we come
+into here we can just say that we want
+to pass
+in credentials and we just say include
+that s going to include our credentials
+in the request and you notice we
+immediately get
+cores issues again because we don t have
+an access control allow credentials
+header so we need to set this access
+control allow credentials header
+on the server this is as easy as just
+saying with i m sorry credentials
+and setting that to true that is going
+to set this access control allow
+credentials
+and if we go to our network and we go
+and we scroll down here you ll see
+access control allow credentials is set
+to true that s all there is to cores
+if you re interested in more security
+related videos they re going to be
+linked over here and a full written
+version of this video is also linked
+down in the description below
+thank you very much for watching and

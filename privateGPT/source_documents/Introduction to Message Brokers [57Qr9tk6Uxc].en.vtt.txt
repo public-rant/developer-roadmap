@@ -1,0 +1,337 @@
+hey everyone welcome to a quick
+introduction to message brokers
+this is gonna be first in a multi video
+series where we just look at message
+brokers
+messaging uh what it s good for what
+it s used for uh i give some pointers
+and some code demos to show you how you
+can
+kind of build message driven systems
+so to dive in i just figured we would
+take a look at the wikipedia definition
+of message brokers
+uh it s pretty detailed talks about a
+lot of different concepts
+uh talked about being an architectural
+pattern something that mediates
+communication
+uh decouples endpoints uh provides
+message queues for multiple receivers
+does reliable storage guaranteed
+messaging perhaps even transaction
+management right so it seems to be a lot
+of different concepts pretty complicated
+and so we re just going to dive in kind
+of slow and simple and
+understand basically how they work so
+the problem we re looking to solve
+is getting two computers to communicate
+so imagine we ve got application one
+running on one machine
+application two running on another
+machine and we need them to communicate
+somehow application one wants to send
+some information in some form
+to application two and so the default
+approach we would typically take
+to this is trying to open a network
+connection have application one
+uh access uh application two through
+some kind of ip address and port
+combination
+open a tcp connection maybe and then
+just push the data through
+but it can actually be a little bit more
+challenging than that when we get into
+kind of more discrete systems
+application 2 may not be running so that
+might be our number one obstacle is that
+it s actually not there to connect to
+uh but also it might be running slow or
+its network might be slow so it might
+not be able to push data through as fast
+as we would
+uh want from from application one s
+perspective uh there might be a network
+firewall in between so there may not
+actually be a network path between
+application one and application two that
+we can connect through directly
+um and the other challenge is they may
+not speak the same language right so if
+these are both our applications we ve
+written both of them but they re
+probably going to speak the same
+language
+but if these are you know if you ve got
+different teams different people
+different companies building different
+applications
+uh they may end up actually not speaking
+the same language entirely
+and so uh message brokers
+can serve as an intermediary for us they
+can sit in the middle between
+application one application two
+and solve some of these challenges for
+us
+so now application one can send the
+information to the message broker
+and then that message broker can receive
+it and forward it on to application two
+and so at first challenge that we had if
+application two is not running
+uh the good news is message brokers will
+have some form of storage
+uh so application one can send that
+information as a message to the message
+broker
+that message broker will store that up
+and then when application two comes back
+to life
+the message broker s able to forward on
+those messages
+to application 2 and this can give us
+some good reliability in our
+communication
+so even if application 2 is unavailable
+we re able application 1 is still able
+
+if the network is slow if the
+application s slow potentially again
+that storage and the message broker is
+going to come in use here
+so application 2 being slow is similar
+to it being down
+that message broker can store those
+messages that it s received but it can t
+yet send out
+and when application 2 is ready to
+receive them uh it s able to send them
+on so application one can
+push missions out real fast the message
+breaker will store them up and forward
+them on at a slower rate
+uh as fast as application 2 can actually
+
+the other challenge we had about their
+firewalls being in between
+and so the measure brokers can help us
+solve this challenge too so
+we can put our message broker somewhere
+where it s accessible by
+both of these applications we could put
+it maybe on the internet give it some
+kind of domain name or an ip address
+maybe even a public one that
+we can access from anywhere and that
+means all the applications that want to
+share information
+can connect out of their networks which
+is typically allowed through firewalls
+and out of their networks to the message
+broker and open up those kind of tcp or
+those those network channels
+and then once apple once an application
+wants to share information
+it can connect to the broker it can then
+share it to any application that s also
+connected to the broker
+so here message one can send a message
+out through its firewall and we can see
+the arrow for application two now it s
+connected the other way they re both
+getting it out into the broker
+but that message is able to still flow
+
+and the final challenge you talked about
+was what if they don t speak the same
+language
+message brokers often can can translate
+between different communication
+protocols
+uh some intelligent ones can translate
+the contents of the message
+and we ll talk about that kind of
+further down the series but for the
+protocol
+at least it s pretty common that message
+brokers can translate between
+multiple different protocols there are
+actually some protocols specifically for
+messaging
+amqp the asynchronous message crew
+protocol is a good one
+mqtt and stomp there are some
+proprietary ones like kafka
+protocol as well a lot of mesh brokers
+can communicate between
+different ones of those some will even
+speak http and other kind of non message
+specific protocols
+to enable kind of all different kinds of
+applications to talk so here we see
+application one sending something into
+http
+the mesh broker translates that and
+sends it down as amqp to application two
+which can respond in amqp
+and then the message broker can
+translate that back to an http
+uh kind of call and pass that
+
+and so in order to make good use of a
+broker for us to understand and model
+the communication that happens
+we want to have a good kind of model for
+what actually happens and so the basic
+kind of communication structure that we
+use when we use message queues
+uh or when we use message brokers sorry
+is a message queue
+um and queue like when you re in a
+grocery store like when you re doing
+programming with cues
+they are a first in first out concept
+and so if i send message one
+into a queue and then send message two
+to a queue it should deliver message one
+before it delivers message queue so the
+first one in will be the first one out
+i like to think of these in a real world
+energy as a single lane road so the
+first car that comes into our road
+uh is at the front of the line
+effectively there s no overtaking or
+anything so all the cars kind of queue
+up
+one after the other and then as we allow
+things out they get they leave that road
+in the same order they
+they entered it
+but in order for british brokers to be
+super useful for different applications
+uh we don t just have one queue message
+brokers typically have multiple cues any
+number of queues
+and so we can give our different queues
+their own unique names
+and their different applications can
+send messages to different cues
+and then we can have other receiving
+applications receive different messages
+from the different queues
+so here we ve got two cues in our
+message broker q1 and q2
+and then an application different
+application sending into them and
+different applications receiving them
+
+uh but another really useful feature
+about queues is they aren t just
+one to one we don t have to have one
+sending application
+sending data into a queue and then one
+application receiving it
+we d have multiple people sending into a
+queue and those messages just get added
+to the queue in the order they arrived
+in
+right same as that one main road they
+just queue up in that order
+and then the different receiving
+applications uh are typically referred
+to when we when we re using measurements
+we refer to them as competing consumers
+they receive the next available message
+from the queue when they ask for a
+message
+so the first application that will uh
+request a message from the cube we ll
+get the very first one that was sent to
+it
+uh that ll come off their queue and go
+to that application and then the next
+one will get the one that was behind
+that the second message effectively and
+they ll keep kind of
+taking the next one from the queue the
+important kind of guarantee here that
+the message broker provides is
+they won t get given the same message so
+we can actually if we want to like scale
+out our applications that are processing
+messages
+we can just keep running more instances
+of them and they can keep connecting to
+the cube and taking the next
+message from it and we know that they
+won t get duplicate one so we won t do
+duplicate work or
+take duplicate actions because of it so
+this is a really important concept when
+we get further down into
+the patterns that make message driven
+systems work uh
+work but for now this is just a basic
+understanding about the way competing
+consumers work and how
+how different numbers of people can turn
+to a queue and receive from a queue at
+the same time
+the next logical thing to talk about
+after message queues
+would be topics and subscriptions these
+are a really important concept when we
+build distributed systems using message
+brokers
+they are like cues in the fact that
+they re queuing up messages that get
+sent by one application before they get
+delivered to another one
+but they re also a little bit different
+they re also different between different
+message brokers so message queues all
+generally work the same on all the
+brokers
+when we get to topics and subscriptions
+different message brokers can have
+slightly different implementations
+especially when we get to different
+types of message broker
+it s like the more traditional ones like
+azure service bus
+or active mq or rabbitmq and then these
+kind of newer distributed log type ones
+like kafka and
+azure event hubs um they re very
+different those are the last two
+in in how they work and so we re going
+to talk a little bit more about topics
+and subscriptions
+in our next video so that s all for this
+quick introduction
+to message brokers we basically
+discovered what a message broker does
+how it sits in between two
+applications that want to communicate
+and then they can send information in
+the form of
+short messages it can kind of cue them
+up for them
+and deliver them it can cure them up uh
+in
+separate queues deliver them to
+different applications and we can have
+all these different name cues on our
+message broker
+uh so if you like this video if you
+found it useful hit like uh hit
+subscribe so you can see
+uh the rest of the videos in this series
+and also hit post notifications because
+i will be posting more videos
+and if you want to see me on social
+media there are my two handles there
+so thanks so much for tuning in and i ll

@@ -1,0 +1,449 @@
+   #[https://en.cppreference.com/mwiki/opensearch_desc.php]cppreference.co
+   m (en)
+   [https://en.cppreference.com/mwiki/index.php?title=Special:RecentChange
+   s&feed=atom]cppreference.com Atom feed
+
+[https://en.cppreference.com/]cppreference.com
+
+   ____________________ Search
+   [https://en.cppreference.com/mwiki/index.php?title=Special:UserLogin&re
+   turnto=Main+Page&type=signup]Create account
+     * [https://en.cppreference.com/mwiki/index.php?title=Special:UserLogi
+       n&returnto=Main+Page]Log in
+
+Namespaces
+
+     * [https://en.cppreference.com/w/Main_Page]Page
+     * [https://en.cppreference.com/w/Talk:Main_Page]Discussion
+
+Variants[https://en.cppreference.com/w/]
+
+Views
+
+     * [https://en.cppreference.com/w/Main_Page]View
+     * [https://en.cppreference.com/mwiki/index.php?title=Main_Page&action
+       =edit]View source
+     * [https://en.cppreference.com/mwiki/index.php?title=Main_Page&action
+       =history]History
+
+Actions[https://en.cppreference.com/w/]
+
+C and C++ reference
+
+   From cppreference.com
+
+   [https://en.cppreference.com/w/cpp]C++ reference
+   [https://en.cppreference.com/w/cpp/11]C++11,
+   [https://en.cppreference.com/w/cpp/14]C++14,
+   [https://en.cppreference.com/w/cpp/17]C++17,
+   [https://en.cppreference.com/w/cpp/20]C++20,
+   [https://en.cppreference.com/w/cpp/23]C++23,
+   [https://en.cppreference.com/w/cpp/26]C++26  │  [https://en.cppreferenc
+   e.com/w/cpp/compiler_support]Compiler support
+   [https://en.cppreference.com/w/cpp/compiler_support/11]C++11,
+   [https://en.cppreference.com/w/cpp/compiler_support/14]C++14,
+   [https://en.cppreference.com/w/cpp/compiler_support/17]C++17,
+   [https://en.cppreference.com/w/cpp/compiler_support/20]C++20,
+   [https://en.cppreference.com/w/cpp/compiler_support/23]C++23,
+   [https://en.cppreference.com/w/cpp/compiler_support/26]C++26
+   [https://en.cppreference.com/w/cpp/freestanding]Freestanding
+   implementations
+
+   [https://en.cppreference.com/w/cpp/language/ascii]ASCII chart
+
+   [https://en.cppreference.com/w/cpp/language]Language
+
+   [https://en.cppreference.com/w/cpp/language/basic_concepts]Basic
+   concepts
+   [https://en.cppreference.com/w/cpp/keyword]Keywords
+   [https://en.cppreference.com/w/cpp/preprocessor]Preprocessor
+   [https://en.cppreference.com/w/cpp/language/expressions]Expressions
+   [https://en.cppreference.com/w/cpp/language/declarations]Declarations
+   [https://en.cppreference.com/w/cpp/language/initialization]Initializati
+   on
+   [https://en.cppreference.com/w/cpp/language/functions]Functions
+   [https://en.cppreference.com/w/cpp/language/statements]Statements
+   [https://en.cppreference.com/w/cpp/language/classes]Classes
+   [https://en.cppreference.com/w/cpp/language/operators]Overloading
+   [https://en.cppreference.com/w/cpp/language/templates]Templates
+   [https://en.cppreference.com/w/cpp/language/exceptions]Exceptions
+
+   [https://en.cppreference.com/w/cpp/standard_library]Standard library
+   ([https://en.cppreference.com/w/cpp/header]headers)
+
+   [https://en.cppreference.com/w/cpp/named_req]Named requirements
+
+   [https://en.cppreference.com/w/cpp/feature_test]Feature test macros
+   (C++20)
+
+   [https://en.cppreference.com/w/cpp/utility#Language_support]Language
+   support library
+
+   [https://en.cppreference.com/w/cpp/utility/source_location]source_locat
+   ion (C++20)
+   [https://en.cppreference.com/w/cpp/types]Type support
+   [https://en.cppreference.com/w/cpp/utility/program]Program utilities
+   [https://en.cppreference.com/w/cpp/coroutine]Coroutine support (C++20)
+   [https://en.cppreference.com/w/cpp/utility#Three-way_comparison]Three-w
+   ay comparison (C++20)
+   [https://en.cppreference.com/w/cpp/types/numeric_limits]numeric_limits
+   − [https://en.cppreference.com/w/cpp/types/type_info]type_info
+   [https://en.cppreference.com/w/cpp/utility/initializer_list]initializer
+   _list (C++11)
+
+   [https://en.cppreference.com/w/cpp/concepts]Concepts library (C++20)
+
+   [https://en.cppreference.com/w/cpp/error]Diagnostics library
+
+   [https://en.cppreference.com/w/cpp/error/exception]exception − [https:/
+   /en.cppreference.com/w/cpp/error#System_error]System error
+   [https://en.cppreference.com/w/cpp/utility/basic_stacktrace]basic_stack
+   trace (C++23)
+
+   [https://en.cppreference.com/w/cpp/memory]Memory management library
+
+   [https://en.cppreference.com/w/cpp/memory/unique_ptr]unique_ptr (C++11)
+   [https://en.cppreference.com/w/cpp/memory/shared_ptr]shared_ptr (C++11)
+   [https://en.cppreference.com/w/cpp/memory/new]Low level management
+
+   [https://en.cppreference.com/w/cpp/meta]Metaprogramming library (C++11)
+
+   [https://en.cppreference.com/w/cpp/meta#Type_traits]Type
+   traits − [https://en.cppreference.com/w/cpp/numeric/ratio]ratio
+   [https://en.cppreference.com/w/cpp/utility/integer_sequence]integer_seq
+   uence (C++14)
+
+   [https://en.cppreference.com/w/cpp/utility#General-purpose_utilities]Ge
+   neral utilities library
+
+   [https://en.cppreference.com/w/cpp/utility/functional]Function
+   objects − [https://en.cppreference.com/w/cpp/utility/hash]hash (C++11)
+   [https://en.cppreference.com/w/cpp/utility#Swap]Swap − [https://en.cppr
+   eference.com/w/cpp/utility#Type_operations]Type operations (C++11)
+   [https://en.cppreference.com/w/cpp/utility#Integer_comparison_functions
+   ]Integer comparison (C++20)
+   [https://en.cppreference.com/w/cpp/utility/pair]pair − [https://en.cppr
+   eference.com/w/cpp/utility/tuple]tuple (C++11)
+   [https://en.cppreference.com/w/cpp/utility/optional]optional (C++17)
+   [https://en.cppreference.com/w/cpp/utility/expected]expected (C++23)
+   [https://en.cppreference.com/w/cpp/utility/variant]variant
+   (C++17) − [https://en.cppreference.com/w/cpp/utility/any]any (C++17)
+   [https://en.cppreference.com/w/cpp/utility#Elementary_string_conversion
+   s]String conversions (C++17)
+   [https://en.cppreference.com/w/cpp/utility/format]Formatting (C++20)
+   [https://en.cppreference.com/w/cpp/utility/bitset]bitset − [https://en.
+   cppreference.com/w/cpp/numeric#Bit_manipulation_.28since_C.2B.2B20.29]B
+   it manipulation (C++20)
+
+   [https://en.cppreference.com/w/cpp/string]Strings library
+
+   [https://en.cppreference.com/w/cpp/string/basic_string]basic_string − [
+   https://en.cppreference.com/w/cpp/string/char_traits]char_traits
+   [https://en.cppreference.com/w/cpp/string/basic_string_view]basic_strin
+   g_view (C++17)
+   Null-terminated strings:
+     [https://en.cppreference.com/w/cpp/string/byte]byte − [https://en.cpp
+   reference.com/w/cpp/string/multibyte]multibyte − [https://en.cppreferen
+   ce.com/w/cpp/string/wide]wide
+
+   [https://en.cppreference.com/w/cpp/container]Containers library
+
+   [https://en.cppreference.com/w/cpp/container/array]array (C++11)
+   [https://en.cppreference.com/w/cpp/container/vector]vector − [https://e
+   n.cppreference.com/w/cpp/container/deque]deque
+   [https://en.cppreference.com/w/cpp/container/list]list − [https://en.cp
+   preference.com/w/cpp/container/forward_list]forward_list (C++11)
+   [https://en.cppreference.com/w/cpp/container/set]set − [https://en.cppr
+   eference.com/w/cpp/container/multiset]multiset
+   [https://en.cppreference.com/w/cpp/container/map]map − [https://en.cppr
+   eference.com/w/cpp/container/multimap]multimap
+   [https://en.cppreference.com/w/cpp/container/unordered_map]unordered_ma
+   p (C++11)
+   [https://en.cppreference.com/w/cpp/container/unordered_multimap]unorder
+   ed_multimap (C++11)
+   [https://en.cppreference.com/w/cpp/container/unordered_set]unordered_se
+   t (C++11)
+   [https://en.cppreference.com/w/cpp/container/unordered_multiset]unorder
+   ed_multiset (C++11)
+   [https://en.cppreference.com/w/cpp/container/stack]stack − [https://en.
+   cppreference.com/w/cpp/container/queue]queue − [https://en.cppreference
+   .com/w/cpp/container/priority_queue]priority_queue
+   [https://en.cppreference.com/w/cpp/container/flat_set]flat_set (C++23)
+   [https://en.cppreference.com/w/cpp/container/flat_multiset]flat_multise
+   t (C++23)
+   [https://en.cppreference.com/w/cpp/container/flat_map]flat_map (C++23)
+   [https://en.cppreference.com/w/cpp/container/flat_multimap]flat_multima
+   p (C++23)
+   [https://en.cppreference.com/w/cpp/container/span]span
+   (C++20) − [https://en.cppreference.com/w/cpp/container/mdspan]mdspan
+   (C++23)
+
+   [https://en.cppreference.com/w/cpp/iterator]Iterators library
+
+   [https://en.cppreference.com/w/cpp/ranges]Ranges library (C++20)
+
+   [https://en.cppreference.com/w/cpp/algorithm]Algorithms library
+
+   [https://en.cppreference.com/w/cpp/algorithm#Execution_policies]Executi
+   on policies (C++17)
+   [https://en.cppreference.com/w/cpp/algorithm/ranges]Constrained
+   algorithms (C++20)
+
+   [https://en.cppreference.com/w/cpp/numeric]Numerics library
+
+   [https://en.cppreference.com/w/cpp/numeric/math]Common math functions
+   [https://en.cppreference.com/w/cpp/numeric/special_functions]Mathematic
+   al special functions (C++17)
+   [https://en.cppreference.com/w/cpp/numeric/constants]Mathematical
+   constants (C++20)
+   [https://en.cppreference.com/w/cpp/numeric#Numeric_algorithms]Numeric
+   algorithms
+   [https://en.cppreference.com/w/cpp/numeric/random]Pseudo-random number
+   generation
+   [https://en.cppreference.com/w/cpp/numeric/fenv]Floating-point
+   environment (C++11)
+   [https://en.cppreference.com/w/cpp/numeric/complex]complex − [https://e
+   n.cppreference.com/w/cpp/numeric/valarray]valarray
+
+   [https://en.cppreference.com/w/cpp/chrono]Date and time library
+
+   [https://en.cppreference.com/w/cpp/chrono#Calendar]Calendar
+   (C++20) − [https://en.cppreference.com/w/cpp/chrono#Time_zone]Time zone
+   (C++20)
+
+   [https://en.cppreference.com/w/cpp/locale]Localizations library
+
+   [https://en.cppreference.com/w/cpp/locale/locale]locale − [https://en.c
+   ppreference.com/w/cpp/locale#Character_classification_and_conversion]Ch
+   aracter classification
+
+   [https://en.cppreference.com/w/cpp/io]Input/output library
+
+   [https://en.cppreference.com/w/cpp/io#Print_functions_.28since_C.2B.2B2
+   3.29]Print functions (C++23)
+   [https://en.cppreference.com/w/cpp/io#Stream-based_I.2FO]Stream-based
+   I/O − [https://en.cppreference.com/w/cpp/io/manip]I/O manipulators
+   [https://en.cppreference.com/w/cpp/io/basic_istream]basic_istream − [ht
+   tps://en.cppreference.com/w/cpp/io/basic_ostream]basic_ostream
+   [https://en.cppreference.com/w/cpp/io#Synchronized_output]Synchronized
+   output (C++20)
+
+   [https://en.cppreference.com/w/cpp/filesystem]Filesystem library
+   (C++17)
+
+   [https://en.cppreference.com/w/cpp/filesystem/path]path
+
+   [https://en.cppreference.com/w/cpp/regex]Regular expressions library
+   (C++11)
+
+   [https://en.cppreference.com/w/cpp/regex/basic_regex]basic_regex − [htt
+   ps://en.cppreference.com/w/cpp/regex#Algorithms]algorithms
+
+   [https://en.cppreference.com/w/cpp/thread]Concurrency support library
+   (C++11)
+
+   [https://en.cppreference.com/w/cpp/thread/thread]thread − [https://en.c
+   ppreference.com/w/cpp/thread/jthread]jthread (C++20)
+   [https://en.cppreference.com/w/cpp/atomic/atomic]atomic − [https://en.c
+   ppreference.com/w/cpp/atomic/atomic_flag]atomic_flag
+   [https://en.cppreference.com/w/cpp/atomic/atomic_ref]atomic_ref (C++20)
+   [https://en.cppreference.com/w/cpp/atomic/memory_order]memory_order − [
+   https://en.cppreference.com/w/cpp/thread/condition_variable]condition_v
+   ariable
+   [https://en.cppreference.com/w/cpp/thread#Mutual_exclusion]Mutual
+   exclusion − [https://en.cppreference.com/w/cpp/thread#Semaphores]Semaph
+   ores (C++20)
+   [https://en.cppreference.com/w/cpp/thread/future]future − [https://en.c
+   ppreference.com/w/cpp/thread/promise]promise − [https://en.cppreference
+   .com/w/cpp/thread/async]async
+   [https://en.cppreference.com/w/cpp/thread/latch]latch
+   (C++20) − [https://en.cppreference.com/w/cpp/thread/barrier]barrier
+   (C++20)
+   [https://en.cppreference.com/w/cpp/experimental]Technical
+   specifications
+
+     [https://en.cppreference.com/w/cpp/experimental/lib_extensions]Standa
+   rd library extensions  (library fundamentals TS)
+
+   [https://en.cppreference.com/w/cpp/experimental/resource_adaptor]resour
+   ce_adaptor − [https://en.cppreference.com/w/cpp/experimental/invocation
+   _type]invocation_type
+
+     [https://en.cppreference.com/w/cpp/experimental/lib_extensions_2]Stan
+   dard library extensions v2  (library fundamentals TS v2)
+
+   [https://en.cppreference.com/w/cpp/experimental/propagate_const]propaga
+   te_const − [https://en.cppreference.com/w/cpp/experimental/ostream_join
+   er]ostream_joiner −
+   [https://en.cppreference.com/w/cpp/experimental/randint]randint
+   [https://en.cppreference.com/w/cpp/experimental/observer_ptr]observer_p
+   tr − [https://en.cppreference.com/w/cpp/experimental/is_detected]Detect
+   ion idiom
+
+     [https://en.cppreference.com/w/cpp/experimental/lib_extensions_3]Stan
+   dard library extensions v3  (library fundamentals TS v3)
+
+   [https://en.cppreference.com/w/cpp/experimental/scope_exit]scope_exit −
+    [https://en.cppreference.com/w/cpp/experimental/scope_fail]scope_fail
+   − [https://en.cppreference.com/w/cpp/experimental/scope_success]scope_s
+   uccess − [https://en.cppreference.com/w/cpp/experimental/unique_resourc
+   e]unique_resource
+
+     [https://en.cppreference.com/w/cpp/experimental/parallelism_2]Paralle
+   lism library extensions v2  (parallelism TS v2)
+
+   [https://en.cppreference.com/w/cpp/experimental/simd]simd
+
+     [https://en.cppreference.com/w/cpp/experimental/concurrency]Concurren
+   cy library extensions  (concurrency
+   TS) − [https://en.cppreference.com/w/cpp/language/transactional_memory]
+   Transactional Memory  (TM TS)
+     [https://en.cppreference.com/w/cpp/experimental/reflect]Reflection  (
+   reflection TS)
+   [https://en.cppreference.com/w/cpp/links]External
+   Links  −  [https://en.cppreference.com/w/cpp/links/libs]Non-ANSI/ISO
+   Libraries  −  [https://en.cppreference.com/w/cpp/index]Index  −  [https
+   ://en.cppreference.com/w/cpp/symbol_index]std Symbol Index
+
+   [https://en.cppreference.com/w/c]C reference
+   C89, [https://en.cppreference.com/w/c/95]C95,
+   [https://en.cppreference.com/w/c/99]C99,
+   [https://en.cppreference.com/w/c/11]C11,
+   [https://en.cppreference.com/w/c/17]C17,
+   [https://en.cppreference.com/w/c/23]C23
+
+   [https://en.cppreference.com/w/c/language]Language
+
+   [https://en.cppreference.com/w/c/language/basic_concepts]Basic concepts
+   [https://en.cppreference.com/w/c/keyword]Keywords
+   [https://en.cppreference.com/w/c/preprocessor]Preprocessor
+   [https://en.cppreference.com/w/c/language/expressions]Expressions
+   [https://en.cppreference.com/w/c/language/declarations]Declaration
+   [https://en.cppreference.com/w/c/language/initialization]Initialization
+   [https://en.cppreference.com/w/c/language/functions]Functions
+   [https://en.cppreference.com/w/c/language/statements]Statements
+
+   [https://en.cppreference.com/w/c/header]Headers
+
+   [https://en.cppreference.com/w/c/types]Type support
+
+   [https://en.cppreference.com/w/c/program]Program utilities
+
+   [https://en.cppreference.com/w/c/variadic]Variadic functions
+
+   [https://en.cppreference.com/w/c/error]Diagnostics library
+
+   [https://en.cppreference.com/w/c/memory]Dynamic memory management
+
+   [https://en.cppreference.com/w/c/string]Strings library
+
+   Null-terminated strings:
+      [https://en.cppreference.com/w/c/string/byte]byte  −
+   [https://en.cppreference.com/w/c/string/multibyte]multibyte  −
+   [https://en.cppreference.com/w/c/string/wide]wide
+
+   [https://en.cppreference.com/w/c/algorithm]Algorithms library
+
+   [https://en.cppreference.com/w/c/numeric]Numerics library
+
+   [https://en.cppreference.com/w/c/numeric/math]Common mathematical
+   functions
+   [https://en.cppreference.com/w/c/numeric/fenv]Floating-point
+   environment (C99)
+   [https://en.cppreference.com/w/c/numeric/random]Pseudo-random number
+   generation
+   [https://en.cppreference.com/w/c/numeric/complex]Complex number
+   arithmetic (C99)
+   [https://en.cppreference.com/w/c/numeric/tgmath]Type-generic math (C99)
+
+   [https://en.cppreference.com/w/c/chrono]Date and time library
+
+   [https://en.cppreference.com/w/c/locale]Localization library
+
+   [https://en.cppreference.com/w/c/io]Input/output library
+
+   [https://en.cppreference.com/w/c/thread]Concurrency support library
+   (C11)
+   [https://en.cppreference.com/w/c/experimental]Technical specifications
+
+      [https://en.cppreference.com/w/c/experimental/dynamic]Dynamic memory
+   extensions  (dynamic memory TR)
+      [https://en.cppreference.com/w/c/experimental/fpext1]Floating-point
+   extensions, Part 1  (FP Ext 1 TS)
+      [https://en.cppreference.com/w/c/experimental/fpext4]Floating-point
+   extensions, Part 4  (FP Ext 4 TS)
+   [https://en.cppreference.com/w/c/links]External
+   Links  −  [https://en.cppreference.com/w/c/links/libs]Non-ANSI/ISO
+   Libraries  −  [https://en.cppreference.com/w/c/index]Index  −  [https:/
+   /en.cppreference.com/w/c/symbol_index]Symbol Index
+   News
+     * 7 June 2019: New version of the
+       [https://en.cppreference.com/w/Cppreference:Archives]offline
+       archive
+
+     * 28 October 2018: New version of the
+       [https://en.cppreference.com/w/Cppreference:Archives]offline
+       archive
+
+     * 11 March 2018: New version of the
+       [https://en.cppreference.com/w/Cppreference:Archives]offline
+       archive
+
+   Retrieved from
+   "[https://en.cppreference.com/mwiki/index.php?title=Main_Page&oldid=121
+   738]https://en.cppreference.com/mwiki/index.php?title=Main_Page&oldid=1
+   21738"
+
+Navigation
+
+     * [http://www.cppreference.com/support]Support us
+     * [https://en.cppreference.com/w/Special:RecentChanges]Recent changes
+     * [https://en.cppreference.com/w/Cppreference:FAQ]FAQ
+     * [https://en.cppreference.com/w/Cppreference:Archives]Offline
+       version
+
+Toolbox[https://en.cppreference.com/w/]
+
+     * [https://en.cppreference.com/w/Special:WhatLinksHere/Main_Page]What
+       links here
+     * [https://en.cppreference.com/w/Special:RecentChangesLinked/Main_Pag
+       e]Related changes
+     * [http://upload.cppreference.com/w/Special:Upload]Upload file
+     * [https://en.cppreference.com/w/Special:SpecialPages]Special pages
+     * [https://en.cppreference.com/mwiki/index.php?title=Main_Page&printa
+       ble=yes]Printable version
+     * [https://en.cppreference.com/mwiki/index.php?title=Main_Page&oldid=
+       121738]Permanent link
+     * [https://en.cppreference.com/mwiki/index.php?title=Main_Page&action
+       =info]Page information
+
+     * In other languages
+
+     * [http://ar.cppreference.com/w/Main_Page]العربية
+     * [http://cs.cppreference.com/w/Main_Page]Česky
+     * [http://de.cppreference.com/w/Main_Page]Deutsch
+     * [http://es.cppreference.com/w/Main_Page]Español
+     * [http://fr.cppreference.com/w/Main_Page]Français
+     * [http://it.cppreference.com/w/Main_Page]Italiano
+     * [http://ja.cppreference.com/w/Main_Page]日本語
+     * [http://ko.cppreference.com/w/Main_Page]한국어
+     * [http://pl.cppreference.com/w/Main_Page]Polski
+     * [http://pt.cppreference.com/w/Main_Page]Português
+     * [http://ru.cppreference.com/w/Main_Page]Русский
+     * [http://tr.cppreference.com/w/Main_Page]Türkçe
+     * [http://zh.cppreference.com/w/Main_Page]中文
+
+     * This page was last modified on 11 August 2020, at 10:57.
+     * This page has been accessed 44,004,719 times.
+
+     * [https://en.cppreference.com/w/Cppreference:Privacy_policy]Privacy
+       policy
+     * [https://en.cppreference.com/w/Cppreference:About]About
+       cppreference.com
+     * [https://en.cppreference.com/w/Cppreference:General_disclaimer]Disc
+       laimers
+
+     * [https://www.mediawiki.org/]Powered by MediaWiki
+       [http://qbnz.com/highlighter/]Powered by GeSHi
+       [http://www.tigertech.net/referral/cppreference.com]Hosted by Tiger
+       Technologies

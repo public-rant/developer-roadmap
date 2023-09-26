@@ -1,0 +1,40 @@
+## apache
+
+ An Apache web server is a free and open source HTTP (Hypertext Transfer Protocol) server that presents websites to viewers who come across its servers so, if one wants to deploy a website for business or organization purposes they would most likely use it. There are other popular options such as IIs or Jinks but Apache serves the standard in web development which is followed by majority of people whether their on Linux machines Windows computers and Mac. NGINX also uses PHP��s built-in FastCGI Process Manager (FPM) to pair up with a lightweight, high performance Web Server such as ngiNx for serving multiple concurrent requests effectively without much memory used while virtual servers don't have enough resources left over to spare it seems like the best option.
+Visit the following resources to learn more:
+Apache is a free, open-source HTTP server, available on many operating systems, but mainly used on Linux distributions. It is one of the most popular options for web developers, as it accounts for over 30% of all the websites, as estimated by W3Techs.
+Visit the following resources to learn more:
+
+
+source_documents/backend-122.md
+so question is is what is an apache web
+server an apache web server is an HTTP
+server that presents websites to
+visitors that come to your server so if
+you want to deploy a website set for a
+business or for your organization you
+would most likely use apache in order to
+do that there are other HTTP servers out
+there such as iis or in jinks but apache
+is the standard that most people use
+whether they re on linux whether they re
+on Windows or whether they re on Mac
+
+
+source_documents/Apache Web Server - What is... [kaaenHXO4t4].en.vtt.txt
+know general website you can simply use
+Apache in order to present that to your
+visitors so that s all Apache is and
+
+
+source_documents/Apache Web Server - What is... [kaaenHXO4t4].en.vtt.txt
+PHP, via PHP’s built-in FastCGI Process Manager (FPM), pairs really
+   nicely with [https://nginx.org/]nginx, which is a lightweight,
+   high-performance web server. It uses less memory than Apache and can
+   better handle more concurrent requests. This is especially important on
+   virtual servers that don’t have much memory to spare.
+     * [https://nginx.org/]Read more on nginx
+     * [https://www.php.net/install.fpm]Read more on PHP-FPM
+
+
+source_documents/phptherightway.com.txt

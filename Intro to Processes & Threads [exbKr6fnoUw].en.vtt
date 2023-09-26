@@ -1,0 +1,2088 @@
+WEBVTT
+
+
+
+00:00:00.030 --> 00:00:02.360 align:start position:0%
+ 
+this<00:00:00.570><c> tutorial</c><00:00:00.810><c> looks</c><00:00:01.530><c> at</c><00:00:01.740><c> the</c><00:00:02.010><c> difference</c>
+
+00:00:02.360 --> 00:00:02.370 align:start position:0%
+this tutorial looks at the difference
+ 
+
+00:00:02.370 --> 00:00:04.940 align:start position:0%
+this tutorial looks at the difference
+between<00:00:02.520><c> processes</c><00:00:03.360><c> and</c><00:00:03.750><c> threads</c><00:00:04.110><c> the</c>
+
+00:00:04.940 --> 00:00:04.950 align:start position:0%
+between processes and threads the
+ 
+
+00:00:04.950 --> 00:00:07.190 align:start position:0%
+between processes and threads the
+processes<00:00:05.640><c> and</c><00:00:05.759><c> threads</c><00:00:06.120><c> are</c><00:00:06.420><c> fundamental</c>
+
+00:00:07.190 --> 00:00:07.200 align:start position:0%
+processes and threads are fundamental
+ 
+
+00:00:07.200 --> 00:00:09.410 align:start position:0%
+processes and threads are fundamental
+concepts<00:00:07.859><c> in</c><00:00:07.950><c> any</c><00:00:08.160><c> multitasking</c><00:00:09.090><c> operating</c>
+
+00:00:09.410 --> 00:00:09.420 align:start position:0%
+concepts in any multitasking operating
+ 
+
+00:00:09.420 --> 00:00:16.640 align:start position:0%
+concepts in any multitasking operating
+system<00:00:10.349><c> such</c><00:00:11.010><c> as</c><00:00:11.099><c> UNIX</c><00:00:11.809><c> OS</c><00:00:12.809><c> 10</c><00:00:13.200><c> Windows</c><00:00:15.650><c> there</c>
+
+00:00:16.640 --> 00:00:16.650 align:start position:0%
+system such as UNIX OS 10 Windows there
+ 
+
+00:00:16.650 --> 00:00:18.140 align:start position:0%
+system such as UNIX OS 10 Windows there
+are<00:00:16.710><c> many</c><00:00:16.830><c> tools</c><00:00:17.160><c> and</c><00:00:17.430><c> all</c><00:00:17.520><c> these</c><00:00:17.640><c> operating</c>
+
+00:00:18.140 --> 00:00:18.150 align:start position:0%
+are many tools and all these operating
+ 
+
+00:00:18.150 --> 00:00:19.510 align:start position:0%
+are many tools and all these operating
+systems<00:00:18.600><c> that</c><00:00:18.660><c> allow</c><00:00:19.020><c> you</c><00:00:19.080><c> to</c><00:00:19.260><c> manipulate</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+systems that allow you to manipulate
+ 
+
+00:00:19.520 --> 00:00:22.189 align:start position:0%
+systems that allow you to manipulate
+shutdown<00:00:20.520><c> process</c><00:00:20.880><c> is</c><00:00:21.420><c> to</c><00:00:21.570><c> look</c><00:00:21.689><c> at</c><00:00:21.840><c> threads</c>
+
+00:00:22.189 --> 00:00:22.199 align:start position:0%
+shutdown process is to look at threads
+ 
+
+00:00:22.199 --> 00:00:24.230 align:start position:0%
+shutdown process is to look at threads
+and<00:00:22.439><c> thread</c><00:00:22.590><c> priorities</c><00:00:23.400><c> and</c><00:00:23.640><c> try</c><00:00:23.880><c> to</c><00:00:23.939><c> see</c><00:00:24.210><c> how</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+and thread priorities and try to see how
+ 
+
+00:00:24.240 --> 00:00:27.859 align:start position:0%
+and thread priorities and try to see how
+your<00:00:24.630><c> system</c><00:00:25.050><c> is</c><00:00:25.199><c> is</c><00:00:25.800><c> functioning</c><00:00:26.519><c> but</c><00:00:27.330><c> first</c>
+
+00:00:27.859 --> 00:00:27.869 align:start position:0%
+your system is is functioning but first
+ 
+
+00:00:27.869 --> 00:00:31.730 align:start position:0%
+your system is is functioning but first
+we're<00:00:28.560><c> going</c><00:00:28.680><c> to</c><00:00:28.740><c> look</c><00:00:28.949><c> at</c><00:00:29.220><c> how</c><00:00:29.820><c> basic</c><00:00:30.740><c> CPUs</c>
+
+00:00:31.730 --> 00:00:31.740 align:start position:0%
+we're going to look at how basic CPUs
+ 
+
+00:00:31.740 --> 00:00:34.760 align:start position:0%
+we're going to look at how basic CPUs
+work<00:00:32.120><c> to</c><00:00:33.120><c> give</c><00:00:33.270><c> you</c><00:00:33.360><c> a</c><00:00:33.420><c> background</c><00:00:33.660><c> on</c><00:00:34.230><c> talking</c>
+
+00:00:34.760 --> 00:00:34.770 align:start position:0%
+work to give you a background on talking
+ 
+
+00:00:34.770 --> 00:00:39.440 align:start position:0%
+work to give you a background on talking
+about<00:00:34.860><c> processes</c><00:00:35.730><c> and</c><00:00:35.880><c> threads</c><00:00:38.090><c> so</c><00:00:39.090><c> we're</c>
+
+00:00:39.440 --> 00:00:39.450 align:start position:0%
+about processes and threads so we're
+ 
+
+00:00:39.450 --> 00:00:42.650 align:start position:0%
+about processes and threads so we're
+first<00:00:39.690><c> going</c><00:00:40.050><c> to</c><00:00:40.170><c> look</c><00:00:40.500><c> at</c><00:00:40.770><c> a</c><00:00:41.160><c> simple</c><00:00:42.059><c> program</c>
+
+00:00:42.650 --> 00:00:42.660 align:start position:0%
+first going to look at a simple program
+ 
+
+00:00:42.660 --> 00:00:44.450 align:start position:0%
+first going to look at a simple program
+so<00:00:42.870><c> let's</c><00:00:43.140><c> suppose</c><00:00:43.260><c> we</c><00:00:43.739><c> have</c><00:00:43.770><c> a</c><00:00:43.980><c> simple</c>
+
+00:00:44.450 --> 00:00:44.460 align:start position:0%
+so let's suppose we have a simple
+ 
+
+00:00:44.460 --> 00:00:47.209 align:start position:0%
+so let's suppose we have a simple
+four-step<00:00:44.820><c> program</c><00:00:45.510><c> that</c><00:00:45.899><c> gets</c><00:00:46.379><c> a</c><00:00:46.559><c> number</c><00:00:46.739><c> 3</c>
+
+00:00:47.209 --> 00:00:47.219 align:start position:0%
+four-step program that gets a number 3
+ 
+
+00:00:47.219 --> 00:00:50.270 align:start position:0%
+four-step program that gets a number 3
+get<00:00:47.789><c> to</c><00:00:47.940><c> number</c><00:00:48.239><c> 4</c><00:00:48.570><c> adds</c><00:00:49.440><c> those</c><00:00:49.770><c> numbers</c>
+
+00:00:50.270 --> 00:00:50.280 align:start position:0%
+get to number 4 adds those numbers
+ 
+
+00:00:50.280 --> 00:00:54.069 align:start position:0%
+get to number 4 adds those numbers
+together<00:00:50.489><c> and</c><00:00:50.879><c> stores</c><00:00:51.870><c> the</c><00:00:52.140><c> result</c><00:00:52.500><c> in</c><00:00:52.680><c> memory</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+together and stores the result in memory
+ 
+
+00:00:54.079 --> 00:00:58.910 align:start position:0%
+together and stores the result in memory
+every<00:00:55.079><c> program</c><00:00:56.329><c> every</c><00:00:57.329><c> step</c><00:00:57.660><c> of</c><00:00:57.809><c> a</c><00:00:57.930><c> program</c><00:00:58.440><c> is</c>
+
+00:00:58.910 --> 00:00:58.920 align:start position:0%
+every program every step of a program is
+ 
+
+00:00:58.920 --> 00:01:00.439 align:start position:0%
+every program every step of a program is
+converted<00:00:59.579><c> to</c><00:00:59.609><c> what's</c><00:01:00.059><c> called</c><00:01:00.300><c> an</c>
+
+00:01:00.439 --> 00:01:00.449 align:start position:0%
+converted to what's called an
+ 
+
+00:01:00.449 --> 00:01:07.550 align:start position:0%
+converted to what's called an
+instruction<00:01:04.189><c> now</c><00:01:05.189><c> instructions</c><00:01:06.560><c> and</c>
+
+00:01:07.550 --> 00:01:07.560 align:start position:0%
+instruction now instructions and
+ 
+
+00:01:07.560 --> 00:01:11.060 align:start position:0%
+instruction now instructions and
+computers<00:01:08.490><c> all</c><00:01:09.090><c> have</c><00:01:09.750><c> a</c><00:01:09.780><c> binary</c><00:01:10.260><c> code</c><00:01:10.650><c> so</c>
+
+00:01:11.060 --> 00:01:11.070 align:start position:0%
+computers all have a binary code so
+ 
+
+00:01:11.070 --> 00:01:12.560 align:start position:0%
+computers all have a binary code so
+here's<00:01:11.430><c> an</c><00:01:11.610><c> instruction</c><00:01:12.180><c> and</c><00:01:12.360><c> they're</c><00:01:12.479><c> all</c>
+
+00:01:12.560 --> 00:01:12.570 align:start position:0%
+here's an instruction and they're all
+ 
+
+00:01:12.570 --> 00:01:16.840 align:start position:0%
+here's an instruction and they're all
+unique<00:01:12.869><c> to</c><00:01:13.049><c> the</c><00:01:13.290><c> CPU</c><00:01:13.830><c> so</c><00:01:14.729><c> if</c><00:01:15.119><c> you</c><00:01:15.330><c> had</c><00:01:15.630><c> a</c>
+
+00:01:16.840 --> 00:01:16.850 align:start position:0%
+unique to the CPU so if you had a
+ 
+
+00:01:16.850 --> 00:01:20.810 align:start position:0%
+unique to the CPU so if you had a
+Pentium<00:01:17.850><c> CPU</c><00:01:18.450><c> I</c><00:01:19.110><c> get</c><00:01:19.979><c> three</c><00:01:20.250><c> instruction</c>
+
+00:01:20.810 --> 00:01:20.820 align:start position:0%
+Pentium CPU I get three instruction
+ 
+
+00:01:20.820 --> 00:01:23.510 align:start position:0%
+Pentium CPU I get three instruction
+would<00:01:20.939><c> have</c><00:01:21.090><c> a</c><00:01:21.119><c> certain</c><00:01:21.479><c> binary</c><00:01:22.040><c> code</c><00:01:23.040><c> if</c>
+
+00:01:23.510 --> 00:01:23.520 align:start position:0%
+would have a certain binary code if
+ 
+
+00:01:23.520 --> 00:01:25.190 align:start position:0%
+would have a certain binary code if
+you're<00:01:23.729><c> using</c><00:01:24.030><c> a</c><00:01:24.240><c> totally</c><00:01:24.659><c> different</c><00:01:24.689><c> like</c><00:01:25.080><c> an</c>
+
+00:01:25.190 --> 00:01:25.200 align:start position:0%
+you're using a totally different like an
+ 
+
+00:01:25.200 --> 00:01:27.649 align:start position:0%
+you're using a totally different like an
+arm<00:01:25.470><c> CPU</c><00:01:26.340><c> could</c><00:01:26.610><c> have</c><00:01:26.790><c> a</c><00:01:26.820><c> totally</c><00:01:27.299><c> different</c>
+
+00:01:27.649 --> 00:01:27.659 align:start position:0%
+arm CPU could have a totally different
+ 
+
+00:01:27.659 --> 00:01:30.350 align:start position:0%
+arm CPU could have a totally different
+binary<00:01:28.110><c> code</c><00:01:28.710><c> and</c><00:01:28.920><c> all</c><00:01:29.549><c> these</c><00:01:29.759><c> codes</c><00:01:30.090><c> are</c>
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+binary code and all these codes are
+ 
+
+00:01:30.360 --> 00:01:33.499 align:start position:0%
+binary code and all these codes are
+called<00:01:30.750><c> the</c><00:01:30.869><c> instruction</c><00:01:31.439><c> set</c><00:01:32.299><c> so</c><00:01:33.299><c> all</c><00:01:33.420><c> of</c>
+
+00:01:33.499 --> 00:01:33.509 align:start position:0%
+called the instruction set so all of
+ 
+
+00:01:33.509 --> 00:01:35.330 align:start position:0%
+called the instruction set so all of
+these<00:01:33.630><c> codes</c><00:01:33.840><c> are</c><00:01:34.140><c> in</c><00:01:34.170><c> binary</c><00:01:34.470><c> but</c><00:01:34.950><c> often</c>
+
+00:01:35.330 --> 00:01:35.340 align:start position:0%
+these codes are in binary but often
+ 
+
+00:01:35.340 --> 00:01:38.630 align:start position:0%
+these codes are in binary but often
+people<00:01:35.900><c> don't</c><00:01:36.900><c> work</c><00:01:37.110><c> very</c><00:01:37.470><c> well</c><00:01:37.560><c> with</c><00:01:38.009><c> zeros</c>
+
+00:01:38.630 --> 00:01:38.640 align:start position:0%
+people don't work very well with zeros
+ 
+
+00:01:38.640 --> 00:01:40.850 align:start position:0%
+people don't work very well with zeros
+and<00:01:38.820><c> ones</c><00:01:39.000><c> we</c><00:01:39.299><c> often</c><00:01:39.689><c> shorthand</c><00:01:40.320><c> this</c><00:01:40.590><c> and</c>
+
+00:01:40.850 --> 00:01:40.860 align:start position:0%
+and ones we often shorthand this and
+ 
+
+00:01:40.860 --> 00:01:44.810 align:start position:0%
+and ones we often shorthand this and
+write<00:01:42.530><c> binary</c><00:01:43.530><c> as</c><00:01:43.920><c> a</c><00:01:43.950><c> hexadecimal</c><00:01:44.430><c> number</c>
+
+00:01:44.810 --> 00:01:44.820 align:start position:0%
+write binary as a hexadecimal number
+ 
+
+00:01:44.820 --> 00:01:47.480 align:start position:0%
+write binary as a hexadecimal number
+just<00:01:45.299><c> because</c><00:01:45.600><c> it's</c><00:01:45.810><c> easier</c><00:01:46.170><c> for</c><00:01:46.200><c> us</c><00:01:46.470><c> to</c><00:01:46.770><c> to</c>
+
+00:01:47.480 --> 00:01:47.490 align:start position:0%
+just because it's easier for us to to
+ 
+
+00:01:47.490 --> 00:01:51.289 align:start position:0%
+just because it's easier for us to to
+manipulate<00:01:48.000><c> and</c><00:01:48.149><c> talk</c><00:01:48.360><c> about</c><00:01:49.729><c> now</c><00:01:50.729><c> the</c><00:01:50.790><c> basic</c>
+
+00:01:51.289 --> 00:01:51.299 align:start position:0%
+manipulate and talk about now the basic
+ 
+
+00:01:51.299 --> 00:01:54.080 align:start position:0%
+manipulate and talk about now the basic
+CPU<00:01:51.960><c> system</c><00:01:52.470><c> our</c><00:01:52.770><c> computer</c><00:01:53.369><c> system</c><00:01:53.759><c> has</c><00:01:53.909><c> the</c>
+
+00:01:54.080 --> 00:01:54.090 align:start position:0%
+CPU system our computer system has the
+ 
+
+00:01:54.090 --> 00:01:59.270 align:start position:0%
+CPU system our computer system has the
+CPU<00:01:55.369><c> at</c><00:01:56.369><c> its</c><00:01:56.700><c> center</c><00:01:57.329><c> and</c><00:01:57.740><c> system</c><00:01:58.740><c> memory</c><00:01:58.950><c> or</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+CPU at its center and system memory or
+ 
+
+00:01:59.280 --> 00:02:01.100 align:start position:0%
+CPU at its center and system memory or
+Ram<00:01:59.610><c> for</c><00:02:00.030><c> instance</c><00:02:00.390><c> in</c><00:02:00.540><c> your</c><00:02:00.630><c> personal</c>
+
+00:02:01.100 --> 00:02:01.110 align:start position:0%
+Ram for instance in your personal
+ 
+
+00:02:01.110 --> 00:02:03.080 align:start position:0%
+Ram for instance in your personal
+computer<00:02:01.290><c> you</c><00:02:01.680><c> might</c><00:02:01.860><c> have</c><00:02:02.070><c> one</c><00:02:02.310><c> gigabyte</c><00:02:02.820><c> 2</c>
+
+00:02:03.080 --> 00:02:03.090 align:start position:0%
+computer you might have one gigabyte 2
+ 
+
+00:02:03.090 --> 00:02:05.990 align:start position:0%
+computer you might have one gigabyte 2
+gigabyte<00:02:03.600><c> 4</c><00:02:03.930><c> gigabytes</c><00:02:04.469><c> of</c><00:02:04.820><c> system</c><00:02:05.820><c> memory</c>
+
+00:02:05.990 --> 00:02:06.000 align:start position:0%
+gigabyte 4 gigabytes of system memory
+ 
+
+00:02:06.000 --> 00:02:07.850 align:start position:0%
+gigabyte 4 gigabytes of system memory
+now<00:02:06.600><c> we're</c><00:02:06.750><c> not</c><00:02:06.840><c> talking</c><00:02:07.320><c> about</c><00:02:07.350><c> the</c><00:02:07.619><c> hard</c>
+
+00:02:07.850 --> 00:02:07.860 align:start position:0%
+now we're not talking about the hard
+ 
+
+00:02:07.860 --> 00:02:10.309 align:start position:0%
+now we're not talking about the hard
+disk<00:02:08.190><c> or</c><00:02:08.550><c> any</c><00:02:09.000><c> optical</c><00:02:09.360><c> disk</c><00:02:09.690><c> we're</c><00:02:09.929><c> talking</c>
+
+00:02:10.309 --> 00:02:10.319 align:start position:0%
+disk or any optical disk we're talking
+ 
+
+00:02:10.319 --> 00:02:12.570 align:start position:0%
+disk or any optical disk we're talking
+about<00:02:10.410><c> the</c><00:02:10.679><c> system</c><00:02:11.069><c> Ram</c>
+
+00:02:12.570 --> 00:02:12.580 align:start position:0%
+about the system Ram
+ 
+
+00:02:12.580 --> 00:02:14.910 align:start position:0%
+about the system Ram
+in<00:02:12.640><c> a</c><00:02:12.850><c> program</c><00:02:13.420><c> or</c><00:02:13.690><c> these</c><00:02:13.840><c> binary</c><00:02:14.200><c> codes</c><00:02:14.650><c> have</c>
+
+00:02:14.910 --> 00:02:14.920 align:start position:0%
+in a program or these binary codes have
+ 
+
+00:02:14.920 --> 00:02:17.640 align:start position:0%
+in a program or these binary codes have
+to<00:02:15.160><c> reside</c><00:02:15.520><c> in</c><00:02:15.760><c> system</c><00:02:16.600><c> memory</c><00:02:16.780><c> in</c><00:02:17.170><c> order</c><00:02:17.320><c> to</c>
+
+00:02:17.640 --> 00:02:17.650 align:start position:0%
+to reside in system memory in order to
+ 
+
+00:02:17.650 --> 00:02:19.980 align:start position:0%
+to reside in system memory in order to
+be<00:02:17.770><c> executed</c><00:02:18.550><c> so</c><00:02:18.790><c> somewhere</c><00:02:19.330><c> inner</c><00:02:19.720><c> system</c>
+
+00:02:19.980 --> 00:02:19.990 align:start position:0%
+be executed so somewhere inner system
+ 
+
+00:02:19.990 --> 00:02:24.570 align:start position:0%
+be executed so somewhere inner system
+Ram<00:02:21.180><c> will</c><00:02:22.180><c> have</c><00:02:22.510><c> this</c><00:02:23.170><c> program</c><00:02:23.830><c> that</c><00:02:24.220><c> we</c><00:02:24.400><c> want</c>
+
+00:02:24.570 --> 00:02:24.580 align:start position:0%
+Ram will have this program that we want
+ 
+
+00:02:24.580 --> 00:02:27.540 align:start position:0%
+Ram will have this program that we want
+to<00:02:24.640><c> execute</c><00:02:25.170><c> so</c><00:02:26.170><c> if</c><00:02:26.290><c> a</c><00:02:26.410><c> program</c><00:02:26.590><c> is</c><00:02:27.070><c> on</c><00:02:27.220><c> a</c><00:02:27.250><c> hard</c>
+
+00:02:27.540 --> 00:02:27.550 align:start position:0%
+to execute so if a program is on a hard
+ 
+
+00:02:27.550 --> 00:02:30.180 align:start position:0%
+to execute so if a program is on a hard
+drive<00:02:27.870><c> one</c><00:02:28.870><c> of</c><00:02:28.900><c> the</c><00:02:29.050><c> first</c><00:02:29.290><c> things</c><00:02:29.590><c> that</c><00:02:29.800><c> has</c>
+
+00:02:30.180 --> 00:02:30.190 align:start position:0%
+drive one of the first things that has
+ 
+
+00:02:30.190 --> 00:02:36.560 align:start position:0%
+drive one of the first things that has
+to<00:02:30.430><c> do</c><00:02:30.610><c> is</c><00:02:30.910><c> transfer</c><00:02:31.510><c> it</c><00:02:31.660><c> to</c><00:02:31.720><c> system</c><00:02:32.470><c> memory</c>
+
+00:02:36.560 --> 00:02:36.570 align:start position:0%
+ 
+ 
+
+00:02:36.570 --> 00:02:43.470 align:start position:0%
+ 
+now<00:02:37.570><c> that</c><00:02:38.020><c> program</c><00:02:38.970><c> is</c><00:02:39.970><c> is</c><00:02:40.570><c> then</c><00:02:42.060><c> read</c><00:02:43.060><c> by</c><00:02:43.420><c> the</c>
+
+00:02:43.470 --> 00:02:43.480 align:start position:0%
+now that program is is then read by the
+ 
+
+00:02:43.480 --> 00:02:47.400 align:start position:0%
+now that program is is then read by the
+CPU<00:02:44.140><c> is</c><00:02:44.680><c> transferred</c><00:02:45.550><c> to</c><00:02:45.790><c> the</c><00:02:46.270><c> CPU</c><00:02:46.750><c> over</c><00:02:47.260><c> one</c>
+
+00:02:47.400 --> 00:02:47.410 align:start position:0%
+CPU is transferred to the CPU over one
+ 
+
+00:02:47.410 --> 00:02:49.530 align:start position:0%
+CPU is transferred to the CPU over one
+of<00:02:47.560><c> the</c><00:02:47.650><c> computer</c><00:02:48.100><c> buses</c><00:02:48.360><c> there</c><00:02:49.360><c> are</c><00:02:49.420><c> many</c>
+
+00:02:49.530 --> 00:02:49.540 align:start position:0%
+of the computer buses there are many
+ 
+
+00:02:49.540 --> 00:02:51.270 align:start position:0%
+of the computer buses there are many
+different<00:02:49.900><c> types</c><00:02:50.050><c> of</c><00:02:50.260><c> buses</c><00:02:50.410><c> address</c><00:02:51.070><c> and</c>
+
+00:02:51.270 --> 00:02:51.280 align:start position:0%
+different types of buses address and
+ 
+
+00:02:51.280 --> 00:02:53.490 align:start position:0%
+different types of buses address and
+data<00:02:51.430><c> buses</c><00:02:51.610><c> and</c><00:02:52.150><c> control</c><00:02:52.510><c> buses</c><00:02:52.930><c> and</c><00:02:53.200><c> they</c>
+
+00:02:53.490 --> 00:02:53.500 align:start position:0%
+data buses and control buses and they
+ 
+
+00:02:53.500 --> 00:02:56.130 align:start position:0%
+data buses and control buses and they
+all<00:02:53.620><c> work</c><00:02:53.980><c> together</c><00:02:54.160><c> a</c><00:02:55.000><c> lot</c><00:02:55.480><c> of</c><00:02:55.630><c> parallel</c>
+
+00:02:56.130 --> 00:02:56.140 align:start position:0%
+all work together a lot of parallel
+ 
+
+00:02:56.140 --> 00:02:58.620 align:start position:0%
+all work together a lot of parallel
+lines<00:02:56.170><c> to</c><00:02:56.740><c> move</c><00:02:56.860><c> all</c><00:02:57.160><c> these</c><00:02:57.520><c> bits</c><00:02:57.850><c> into</c><00:02:58.510><c> the</c>
+
+00:02:58.620 --> 00:02:58.630 align:start position:0%
+lines to move all these bits into the
+ 
+
+00:02:58.630 --> 00:03:01.160 align:start position:0%
+lines to move all these bits into the
+CPU<00:02:59.140><c> at</c><00:02:59.320><c> once</c>
+
+00:03:01.160 --> 00:03:01.170 align:start position:0%
+CPU at once
+ 
+
+00:03:01.170 --> 00:03:07.920 align:start position:0%
+CPU at once
+now<00:03:02.170><c> once</c><00:03:03.130><c> the</c><00:03:03.370><c> program</c><00:03:03.820><c> goes</c><00:03:04.030><c> into</c><00:03:04.360><c> a</c><00:03:04.390><c> CPU</c><00:03:06.930><c> you</c>
+
+00:03:07.920 --> 00:03:07.930 align:start position:0%
+now once the program goes into a CPU you
+ 
+
+00:03:07.930 --> 00:03:10.500 align:start position:0%
+now once the program goes into a CPU you
+can<00:03:08.080><c> think</c><00:03:08.410><c> of</c><00:03:08.560><c> it</c><00:03:08.710><c> as</c><00:03:08.830><c> going</c><00:03:09.640><c> down</c><00:03:09.670><c> a</c><00:03:10.270><c> long</c>
+
+00:03:10.500 --> 00:03:10.510 align:start position:0%
+can think of it as going down a long
+ 
+
+00:03:10.510 --> 00:03:15.540 align:start position:0%
+can think of it as going down a long
+queue<00:03:12.870><c> to</c><00:03:13.870><c> be</c><00:03:14.020><c> processed</c><00:03:14.650><c> so</c><00:03:14.980><c> all</c><00:03:15.310><c> these</c>
+
+00:03:15.540 --> 00:03:15.550 align:start position:0%
+queue to be processed so all these
+ 
+
+00:03:15.550 --> 00:03:20.220 align:start position:0%
+queue to be processed so all these
+instructions<00:03:16.530><c> work</c><00:03:17.530><c> their</c><00:03:17.830><c> way</c><00:03:18.010><c> down</c><00:03:19.230><c> this</c>
+
+00:03:20.220 --> 00:03:20.230 align:start position:0%
+instructions work their way down this
+ 
+
+00:03:20.230 --> 00:03:23.850 align:start position:0%
+instructions work their way down this
+queue<00:03:21.480><c> so</c><00:03:22.480><c> three</c><00:03:23.050><c> C</c><00:03:23.290><c> was</c><00:03:23.500><c> the</c><00:03:23.620><c> last</c>
+
+00:03:23.850 --> 00:03:23.860 align:start position:0%
+queue so three C was the last
+ 
+
+00:03:23.860 --> 00:03:32.880 align:start position:0%
+queue so three C was the last
+instruction<00:03:30.360><c> now</c><00:03:31.360><c> this</c><00:03:31.600><c> long</c><00:03:31.870><c> queue</c><00:03:32.290><c> is</c><00:03:32.470><c> often</c>
+
+00:03:32.880 --> 00:03:32.890 align:start position:0%
+instruction now this long queue is often
+ 
+
+00:03:32.890 --> 00:03:40.420 align:start position:0%
+instruction now this long queue is often
+given<00:03:33.070><c> the</c><00:03:33.340><c> name</c><00:03:33.520><c> pipeline</c>
+
+00:03:40.420 --> 00:03:40.430 align:start position:0%
+ 
+ 
+
+00:03:40.430 --> 00:03:42.459 align:start position:0%
+ 
+and<00:03:40.519><c> the</c><00:03:40.879><c> CPU</c><00:03:41.359><c> executes</c><00:03:42.019><c> all</c><00:03:42.230><c> these</c>
+
+00:03:42.459 --> 00:03:42.469 align:start position:0%
+and the CPU executes all these
+ 
+
+00:03:42.469 --> 00:03:44.649 align:start position:0%
+and the CPU executes all these
+instructions<00:03:43.129><c> using</c><00:03:43.430><c> various</c><00:03:44.000><c> components</c>
+
+00:03:44.649 --> 00:03:44.659 align:start position:0%
+instructions using various components
+ 
+
+00:03:44.659 --> 00:03:48.130 align:start position:0%
+instructions using various components
+inside<00:03:45.469><c> the</c><00:03:45.530><c> CPU</c><00:03:45.969><c> so</c><00:03:46.969><c> for</c><00:03:47.239><c> instance</c><00:03:47.659><c> we</c><00:03:47.900><c> might</c>
+
+00:03:48.130 --> 00:03:48.140 align:start position:0%
+inside the CPU so for instance we might
+ 
+
+00:03:48.140 --> 00:03:53.470 align:start position:0%
+inside the CPU so for instance we might
+have<00:03:48.439><c> a</c><00:03:48.849><c> math</c><00:03:49.849><c> processor</c><00:03:50.689><c> which</c><00:03:51.049><c> will</c><00:03:51.290><c> do</c><00:03:52.480><c> adds</c>
+
+00:03:53.470 --> 00:03:53.480 align:start position:0%
+have a math processor which will do adds
+ 
+
+00:03:53.480 --> 00:03:58.530 align:start position:0%
+have a math processor which will do adds
+and<00:03:53.989><c> subtracts</c><00:03:55.269><c> sum</c><00:03:56.269><c> multiplies</c><00:03:56.840><c> can</c><00:03:57.260><c> even</c><00:03:57.500><c> do</c>
+
+00:03:58.530 --> 00:03:58.540 align:start position:0%
+and subtracts sum multiplies can even do
+ 
+
+00:03:58.540 --> 00:04:02.649 align:start position:0%
+and subtracts sum multiplies can even do
+scientific<00:03:59.540><c> math</c><00:04:00.370><c> and</c><00:04:01.370><c> we</c><00:04:01.909><c> have</c><00:04:02.090><c> multiple</c>
+
+00:04:02.649 --> 00:04:02.659 align:start position:0%
+scientific math and we have multiple
+ 
+
+00:04:02.659 --> 00:04:04.750 align:start position:0%
+scientific math and we have multiple
+components<00:04:03.290><c> which</c><00:04:03.469><c> do</c><00:04:03.950><c> some</c><00:04:04.159><c> other</c><00:04:04.310><c> parts</c>
+
+00:04:04.750 --> 00:04:04.760 align:start position:0%
+components which do some other parts
+ 
+
+00:04:04.760 --> 00:04:10.949 align:start position:0%
+components which do some other parts
+we'll<00:04:05.060><c> just</c><00:04:05.239><c> call</c><00:04:05.480><c> it</c><00:04:05.510><c> the</c><00:04:05.659><c> execution</c><00:04:06.439><c> engine</c>
+
+00:04:10.949 --> 00:04:10.959 align:start position:0%
+ 
+ 
+
+00:04:10.959 --> 00:04:19.150 align:start position:0%
+ 
+and<00:04:12.700><c> so</c><00:04:15.430><c> what</c><00:04:16.630><c> so</c><00:04:17.630><c> it</c><00:04:17.870><c> is</c><00:04:17.989><c> the</c><00:04:18.169><c> heartbeat</c><00:04:18.829><c> for</c>
+
+00:04:19.150 --> 00:04:19.160 align:start position:0%
+and so what so it is the heartbeat for
+ 
+
+00:04:19.160 --> 00:04:22.120 align:start position:0%
+and so what so it is the heartbeat for
+every<00:04:19.430><c> CPU</c><00:04:20.000><c> is</c><00:04:20.180><c> a</c><00:04:20.209><c> little</c><00:04:20.539><c> clock</c><00:04:20.840><c> that</c><00:04:21.620><c> runs</c><00:04:21.889><c> at</c>
+
+00:04:22.120 --> 00:04:22.130 align:start position:0%
+every CPU is a little clock that runs at
+ 
+
+00:04:22.130 --> 00:04:24.879 align:start position:0%
+every CPU is a little clock that runs at
+a<00:04:22.160><c> certain</c><00:04:22.580><c> frequency</c><00:04:22.960><c> so</c><00:04:23.960><c> for</c><00:04:24.259><c> instance</c><00:04:24.680><c> this</c>
+
+00:04:24.879 --> 00:04:24.889 align:start position:0%
+a certain frequency so for instance this
+ 
+
+00:04:24.889 --> 00:04:31.390 align:start position:0%
+a certain frequency so for instance this
+clock<00:04:25.190><c> might</c><00:04:25.460><c> run</c><00:04:25.699><c> it</c><00:04:25.880><c> to</c><00:04:26.240><c> gigahertz</c><00:04:30.070><c> and</c><00:04:31.070><c> it</c>
+
+00:04:31.390 --> 00:04:31.400 align:start position:0%
+clock might run it to gigahertz and it
+ 
+
+00:04:31.400 --> 00:04:33.850 align:start position:0%
+clock might run it to gigahertz and it
+might<00:04:31.639><c> go</c><00:04:32.210><c> to</c><00:04:32.240><c> various</c><00:04:32.990><c> stages</c><00:04:33.320><c> in</c><00:04:33.590><c> the</c>
+
+00:04:33.850 --> 00:04:33.860 align:start position:0%
+might go to various stages in the
+ 
+
+00:04:33.860 --> 00:04:36.400 align:start position:0%
+might go to various stages in the
+pipeline<00:04:34.009><c> pipeline</c><00:04:34.789><c> backs</c><00:04:35.360><c> we</c><00:04:35.599><c> have</c><00:04:35.780><c> stages</c>
+
+00:04:36.400 --> 00:04:36.410 align:start position:0%
+pipeline pipeline backs we have stages
+ 
+
+00:04:36.410 --> 00:04:39.969 align:start position:0%
+pipeline pipeline backs we have stages
+before<00:04:37.070><c> a</c><00:04:37.580><c> annex</c><00:04:38.539><c> and</c><00:04:39.229><c> instruction</c><00:04:39.830><c> gets</c>
+
+00:04:39.969 --> 00:04:39.979 align:start position:0%
+before a annex and instruction gets
+ 
+
+00:04:39.979 --> 00:04:44.010 align:start position:0%
+before a annex and instruction gets
+executed<00:04:40.370><c> but</c><00:04:40.849><c> eventually</c><00:04:41.090><c> it</c><00:04:41.660><c> gets</c><00:04:41.840><c> executed</c>
+
+00:04:44.010 --> 00:04:44.020 align:start position:0%
+executed but eventually it gets executed
+ 
+
+00:04:44.020 --> 00:04:49.560 align:start position:0%
+executed but eventually it gets executed
+so<00:04:45.020><c> that's</c><00:04:45.320><c> the</c><00:04:45.860><c> basic</c><00:04:46.539><c> operation</c><00:04:47.539><c> of</c><00:04:47.630><c> the</c><00:04:47.750><c> CPU</c>
+
+00:04:49.560 --> 00:04:49.570 align:start position:0%
+so that's the basic operation of the CPU
+ 
+
+00:04:49.570 --> 00:04:53.730 align:start position:0%
+so that's the basic operation of the CPU
+now<00:04:50.570><c> we</c><00:04:50.630><c> can</c><00:04:50.960><c> think</c><00:04:51.409><c> of</c><00:04:51.680><c> this</c><00:04:52.520><c> program</c><00:04:53.180><c> is</c>
+
+00:04:53.730 --> 00:04:53.740 align:start position:0%
+now we can think of this program is
+ 
+
+00:04:53.740 --> 00:04:59.409 align:start position:0%
+now we can think of this program is
+actually<00:04:54.740><c> a</c><00:04:55.060><c> thread</c><00:04:56.680><c> so</c><00:04:57.680><c> we</c><00:04:58.610><c> have</c><00:04:58.789><c> our</c><00:04:58.940><c> CPU</c>
+
+00:04:59.409 --> 00:04:59.419 align:start position:0%
+actually a thread so we have our CPU
+ 
+
+00:04:59.419 --> 00:05:03.899 align:start position:0%
+actually a thread so we have our CPU
+here<00:04:59.949><c> and</c><00:05:00.949><c> we</c><00:05:01.070><c> have</c><00:05:01.250><c> our</c><00:05:01.400><c> program</c><00:05:01.699><c> coming</c><00:05:02.449><c> in</c>
+
+00:05:03.899 --> 00:05:03.909 align:start position:0%
+here and we have our program coming in
+ 
+
+00:05:03.909 --> 00:05:13.999 align:start position:0%
+here and we have our program coming in
+as<00:05:05.020><c> a</c><00:05:06.020><c> bunch</c><00:05:06.349><c> of</c><00:05:06.500><c> instructions</c>
+
+00:05:13.999 --> 00:05:14.009 align:start position:0%
+ 
+ 
+
+00:05:14.009 --> 00:05:17.520 align:start position:0%
+ 
+and<00:05:15.150><c> maybe</c><00:05:16.150><c> these</c><00:05:16.389><c> instructions</c><00:05:17.050><c> are</c><00:05:17.169><c> from</c><00:05:17.379><c> an</c>
+
+00:05:17.520 --> 00:05:17.530 align:start position:0%
+and maybe these instructions are from an
+ 
+
+00:05:17.530 --> 00:05:20.219 align:start position:0%
+and maybe these instructions are from an
+application<00:05:18.360><c> and</c><00:05:19.360><c> we'll</c><00:05:19.479><c> use</c><00:05:19.720><c> maybe</c>
+
+00:05:20.219 --> 00:05:20.229 align:start position:0%
+application and we'll use maybe
+ 
+
+00:05:20.229 --> 00:05:26.670 align:start position:0%
+application and we'll use maybe
+Microsoft<00:05:20.830><c> Office</c><00:05:22.770><c> Word</c><00:05:23.770><c> application</c><00:05:25.680><c> as</c>
+
+00:05:26.670 --> 00:05:26.680 align:start position:0%
+Microsoft Office Word application as
+ 
+
+00:05:26.680 --> 00:05:30.499 align:start position:0%
+Microsoft Office Word application as
+they<00:05:26.919><c> come</c><00:05:27.219><c> in</c><00:05:27.430><c> we</c><00:05:28.030><c> can</c><00:05:28.210><c> think</c><00:05:28.419><c> of</c><00:05:28.599><c> this</c><00:05:28.870><c> as</c><00:05:29.219><c> a</c>
+
+00:05:30.499 --> 00:05:30.509 align:start position:0%
+they come in we can think of this as a
+ 
+
+00:05:30.509 --> 00:05:41.159 align:start position:0%
+they come in we can think of this as a
+unit<00:05:31.509><c> of</c><00:05:31.659><c> execution</c><00:05:39.449><c> which</c><00:05:40.449><c> means</c><00:05:40.780><c> it's</c><00:05:41.020><c> a</c>
+
+00:05:41.159 --> 00:05:41.169 align:start position:0%
+unit of execution which means it's a
+ 
+
+00:05:41.169 --> 00:05:43.140 align:start position:0%
+unit of execution which means it's a
+collection<00:05:41.949><c> of</c><00:05:42.219><c> instructions</c><00:05:42.879><c> which</c>
+
+00:05:43.140 --> 00:05:43.150 align:start position:0%
+collection of instructions which
+ 
+
+00:05:43.150 --> 00:05:46.200 align:start position:0%
+collection of instructions which
+together<00:05:43.419><c> form</c><00:05:43.870><c> some</c><00:05:44.740><c> specific</c><00:05:45.550><c> task</c><00:05:45.819><c> and</c>
+
+00:05:46.200 --> 00:05:46.210 align:start position:0%
+together form some specific task and
+ 
+
+00:05:46.210 --> 00:05:51.529 align:start position:0%
+together form some specific task and
+that's<00:05:46.840><c> called</c><00:05:47.080><c> a</c><00:05:47.169><c> thread</c><00:05:49.199><c> so</c><00:05:50.199><c> this</c><00:05:50.379><c> thread</c><00:05:50.770><c> is</c>
+
+00:05:51.529 --> 00:05:51.539 align:start position:0%
+that's called a thread so this thread is
+ 
+
+00:05:51.539 --> 00:05:54.749 align:start position:0%
+that's called a thread so this thread is
+being<00:05:52.539><c> read</c><00:05:52.810><c> into</c><00:05:53.169><c> our</c><00:05:53.289><c> CPU</c><00:05:53.740><c> so</c><00:05:54.159><c> here</c><00:05:54.430><c> we</c><00:05:54.550><c> have</c>
+
+00:05:54.749 --> 00:05:54.759 align:start position:0%
+being read into our CPU so here we have
+ 
+
+00:05:54.759 --> 00:05:59.189 align:start position:0%
+being read into our CPU so here we have
+a<00:05:54.789><c> single</c><00:05:55.659><c> threaded</c><00:05:57.000><c> application</c><00:05:58.000><c> and</c><00:05:58.389><c> that</c>
+
+00:05:59.189 --> 00:05:59.199 align:start position:0%
+a single threaded application and that
+ 
+
+00:05:59.199 --> 00:06:01.379 align:start position:0%
+a single threaded application and that
+was<00:05:59.379><c> how</c><00:05:59.979><c> things</c><00:06:00.340><c> work</c><00:06:00.580><c> in</c><00:06:00.789><c> the</c><00:06:00.909><c> days</c><00:06:01.090><c> of</c>
+
+00:06:01.379 --> 00:06:01.389 align:start position:0%
+was how things work in the days of
+ 
+
+00:06:01.389 --> 00:06:05.850 align:start position:0%
+was how things work in the days of
+ms-dos<00:06:02.080><c> and</c><00:06:03.180><c> command-line</c><00:06:04.289><c> based</c><00:06:05.289><c> operating</c>
+
+00:06:05.850 --> 00:06:05.860 align:start position:0%
+ms-dos and command-line based operating
+ 
+
+00:06:05.860 --> 00:06:09.809 align:start position:0%
+ms-dos and command-line based operating
+systems<00:06:07.500><c> very</c><00:06:08.500><c> quickly</c><00:06:08.800><c> when</c><00:06:09.099><c> Windows</c><00:06:09.580><c> came</c>
+
+00:06:09.809 --> 00:06:09.819 align:start position:0%
+systems very quickly when Windows came
+ 
+
+00:06:09.819 --> 00:06:13.399 align:start position:0%
+systems very quickly when Windows came
+in<00:06:09.969><c> in</c><00:06:10.120><c> Mac</c><00:06:10.330><c> OS</c><00:06:10.719><c> 10</c><00:06:10.750><c> we</c><00:06:11.229><c> quickly</c><00:06:11.650><c> moved</c><00:06:12.069><c> to</c><00:06:12.279><c> a</c>
+
+00:06:13.399 --> 00:06:13.409 align:start position:0%
+in in Mac OS 10 we quickly moved to a
+ 
+
+00:06:13.409 --> 00:06:16.589 align:start position:0%
+in in Mac OS 10 we quickly moved to a
+multitasking<00:06:14.409><c> operating</c><00:06:14.759><c> systems</c><00:06:15.759><c> where</c><00:06:16.389><c> we</c>
+
+00:06:16.589 --> 00:06:16.599 align:start position:0%
+multitasking operating systems where we
+ 
+
+00:06:16.599 --> 00:06:19.820 align:start position:0%
+multitasking operating systems where we
+had<00:06:16.810><c> wanted</c><00:06:17.500><c> to</c><00:06:17.650><c> have</c><00:06:17.830><c> multiple</c><00:06:18.270><c> applications</c>
+
+00:06:19.820 --> 00:06:19.830 align:start position:0%
+had wanted to have multiple applications
+ 
+
+00:06:19.830 --> 00:06:24.059 align:start position:0%
+had wanted to have multiple applications
+open<00:06:20.830><c> at</c><00:06:21.159><c> once</c><00:06:21.400><c> so</c><00:06:21.789><c> we</c><00:06:22.090><c> may</c><00:06:22.539><c> have</c><00:06:23.069><c> second</c>
+
+00:06:24.059 --> 00:06:24.069 align:start position:0%
+open at once so we may have second
+ 
+
+00:06:24.069 --> 00:06:26.939 align:start position:0%
+open at once so we may have second
+application<00:06:24.219><c> maybe</c><00:06:25.150><c> Excel</c><00:06:25.690><c> spreadsheet</c><00:06:26.319><c> and</c>
+
+00:06:26.939 --> 00:06:26.949 align:start position:0%
+application maybe Excel spreadsheet and
+ 
+
+00:06:26.949 --> 00:06:31.939 align:start position:0%
+application maybe Excel spreadsheet and
+it<00:06:27.219><c> has</c><00:06:27.400><c> its</c><00:06:28.029><c> own</c><00:06:28.560><c> set</c><00:06:29.560><c> of</c><00:06:29.710><c> instructions</c><00:06:30.370><c> that</c>
+
+00:06:31.939 --> 00:06:31.949 align:start position:0%
+it has its own set of instructions that
+ 
+
+00:06:31.949 --> 00:06:35.430 align:start position:0%
+it has its own set of instructions that
+are<00:06:32.949><c> being</c><00:06:33.219><c> executed</c><00:06:33.639><c> to</c><00:06:34.120><c> carry</c><00:06:34.750><c> out</c><00:06:34.930><c> its</c><00:06:35.110><c> task</c>
+
+00:06:35.430 --> 00:06:35.440 align:start position:0%
+are being executed to carry out its task
+ 
+
+00:06:35.440 --> 00:06:37.920 align:start position:0%
+are being executed to carry out its task
+maybe<00:06:35.830><c> it's</c><00:06:36.069><c> generating</c><00:06:36.879><c> a</c><00:06:36.969><c> recalculate</c><00:06:37.750><c> on</c><00:06:37.900><c> a</c>
+
+00:06:37.920 --> 00:06:37.930 align:start position:0%
+maybe it's generating a recalculate on a
+ 
+
+00:06:37.930 --> 00:06:44.790 align:start position:0%
+maybe it's generating a recalculate on a
+spreadsheet<00:06:40.169><c> and</c><00:06:41.639><c> so</c><00:06:42.639><c> now</c><00:06:42.930><c> we</c><00:06:43.930><c> have</c><00:06:44.139><c> a</c><00:06:44.169><c> second</c>
+
+00:06:44.790 --> 00:06:44.800 align:start position:0%
+spreadsheet and so now we have a second
+ 
+
+00:06:44.800 --> 00:06:47.670 align:start position:0%
+spreadsheet and so now we have a second
+thread<00:06:45.099><c> that</c><00:06:46.089><c> we</c><00:06:46.240><c> want</c><00:06:46.479><c> to</c><00:06:46.569><c> execute</c><00:06:46.870><c> and</c><00:06:47.349><c> we</c>
+
+00:06:47.670 --> 00:06:47.680 align:start position:0%
+thread that we want to execute and we
+ 
+
+00:06:47.680 --> 00:06:50.399 align:start position:0%
+thread that we want to execute and we
+wanted<00:06:47.979><c> to</c><00:06:48.039><c> appear</c><00:06:48.819><c> to</c><00:06:49.659><c> the</c><00:06:49.779><c> user</c><00:06:49.810><c> that's</c>
+
+00:06:50.399 --> 00:06:50.409 align:start position:0%
+wanted to appear to the user that's
+ 
+
+00:06:50.409 --> 00:06:57.749 align:start position:0%
+wanted to appear to the user that's
+being<00:06:50.680><c> executed</c><00:06:51.099><c> at</c><00:06:51.550><c> the</c><00:06:51.879><c> same</c><00:06:52.120><c> time</c><00:06:56.580><c> so</c><00:06:57.580><c> in</c>
+
+00:06:57.749 --> 00:06:57.759 align:start position:0%
+being executed at the same time so in
+ 
+
+00:06:57.759 --> 00:07:01.950 align:start position:0%
+being executed at the same time so in
+all<00:06:58.830><c> operating</c><00:06:59.830><c> systems</c><00:07:00.550><c> were</c><00:07:00.940><c> modified</c><00:07:01.569><c> to</c>
+
+00:07:01.950 --> 00:07:01.960 align:start position:0%
+all operating systems were modified to
+ 
+
+00:07:01.960 --> 00:07:06.600 align:start position:0%
+all operating systems were modified to
+introduce<00:07:02.889><c> a</c><00:07:03.190><c> new</c><00:07:03.520><c> component</c><00:07:03.940><c> in</c><00:07:04.300><c> here</c><00:07:05.610><c> and</c>
+
+00:07:06.600 --> 00:07:06.610 align:start position:0%
+introduce a new component in here and
+ 
+
+00:07:06.610 --> 00:07:12.690 align:start position:0%
+introduce a new component in here and
+this<00:07:07.089><c> component</c><00:07:07.240><c> is</c><00:07:07.839><c> called</c><00:07:08.110><c> the</c><00:07:08.229><c> scheduler</c>
+
+00:07:12.690 --> 00:07:12.700 align:start position:0%
+ 
+ 
+
+00:07:12.700 --> 00:07:17.760 align:start position:0%
+ 
+and<00:07:13.380><c> it</c><00:07:14.380><c> was</c><00:07:14.680><c> a</c><00:07:14.920><c> software</c><00:07:15.670><c> component</c><00:07:16.770><c> that</c>
+
+00:07:17.760 --> 00:07:17.770 align:start position:0%
+and it was a software component that
+ 
+
+00:07:17.770 --> 00:07:21.210 align:start position:0%
+and it was a software component that
+basically<00:07:18.450><c> controls</c><00:07:19.450><c> these</c><00:07:20.410><c> instructions</c>
+
+00:07:21.210 --> 00:07:21.220 align:start position:0%
+basically controls these instructions
+ 
+
+00:07:21.220 --> 00:07:25.140 align:start position:0%
+basically controls these instructions
+getting<00:07:21.970><c> to</c><00:07:22.290><c> the</c><00:07:23.290><c> cpu</c><00:07:23.820><c> pipeline</c><00:07:24.820><c> to</c><00:07:25.030><c> be</c>
+
+00:07:25.140 --> 00:07:25.150 align:start position:0%
+getting to the cpu pipeline to be
+ 
+
+00:07:25.150 --> 00:07:31.770 align:start position:0%
+getting to the cpu pipeline to be
+executed<00:07:27.930><c> so</c><00:07:28.930><c> you</c><00:07:28.990><c> can</c><00:07:29.230><c> think</c><00:07:29.470><c> of</c><00:07:29.590><c> it</c><00:07:29.880><c> in</c><00:07:30.880><c> this</c>
+
+00:07:31.770 --> 00:07:31.780 align:start position:0%
+executed so you can think of it in this
+ 
+
+00:07:31.780 --> 00:07:35.640 align:start position:0%
+executed so you can think of it in this
+case<00:07:32.020><c> as</c><00:07:32.380><c> having</c><00:07:33.750><c> being</c><00:07:34.750><c> able</c><00:07:34.900><c> to</c><00:07:35.170><c> handle</c><00:07:35.500><c> the</c>
+
+00:07:35.640 --> 00:07:35.650 align:start position:0%
+case as having being able to handle the
+ 
+
+00:07:35.650 --> 00:07:38.160 align:start position:0%
+case as having being able to handle the
+two<00:07:35.830><c> threads</c><00:07:36.220><c> and</c><00:07:36.490><c> it</c><00:07:37.060><c> really</c><00:07:37.540><c> being</c><00:07:37.810><c> just</c>
+
+00:07:38.160 --> 00:07:38.170 align:start position:0%
+two threads and it really being just
+ 
+
+00:07:38.170 --> 00:07:41.670 align:start position:0%
+two threads and it really being just
+like<00:07:38.350><c> a</c><00:07:38.380><c> switch</c><00:07:38.890><c> that</c><00:07:39.250><c> can</c><00:07:40.030><c> change</c><00:07:40.960><c> positions</c>
+
+00:07:41.670 --> 00:07:41.680 align:start position:0%
+like a switch that can change positions
+ 
+
+00:07:41.680 --> 00:07:46.290 align:start position:0%
+like a switch that can change positions
+from<00:07:41.890><c> here</c><00:07:42.660><c> to</c><00:07:43.660><c> here</c><00:07:43.930><c> and</c><00:07:44.760><c> depending</c><00:07:45.760><c> on</c><00:07:46.150><c> the</c>
+
+00:07:46.290 --> 00:07:46.300 align:start position:0%
+from here to here and depending on the
+ 
+
+00:07:46.300 --> 00:07:47.880 align:start position:0%
+from here to here and depending on the
+position<00:07:46.690><c> of</c><00:07:46.780><c> the</c><00:07:46.930><c> switch</c><00:07:47.080><c> if</c><00:07:47.380><c> the</c><00:07:47.470><c> switches</c>
+
+00:07:47.880 --> 00:07:47.890 align:start position:0%
+position of the switch if the switches
+ 
+
+00:07:47.890 --> 00:07:50.040 align:start position:0%
+position of the switch if the switches
+up<00:07:48.070><c> here</c><00:07:48.370><c> this</c><00:07:49.030><c> thread</c><00:07:49.480><c> or</c><00:07:49.750><c> these</c>
+
+00:07:50.040 --> 00:07:50.050 align:start position:0%
+up here this thread or these
+ 
+
+00:07:50.050 --> 00:07:52.170 align:start position:0%
+up here this thread or these
+instructions<00:07:50.830><c> go</c><00:07:51.070><c> to</c><00:07:51.100><c> the</c><00:07:51.400><c> CPU</c><00:07:51.880><c> to</c><00:07:52.060><c> be</c>
+
+00:07:52.170 --> 00:07:52.180 align:start position:0%
+instructions go to the CPU to be
+ 
+
+00:07:52.180 --> 00:07:56.160 align:start position:0%
+instructions go to the CPU to be
+executed<00:07:52.870><c> and</c><00:07:53.670><c> this</c><00:07:54.670><c> switch</c><00:07:54.940><c> can</c><00:07:55.270><c> change</c><00:07:55.690><c> to</c>
+
+00:07:56.160 --> 00:07:56.170 align:start position:0%
+executed and this switch can change to
+ 
+
+00:07:56.170 --> 00:07:58.500 align:start position:0%
+executed and this switch can change to
+the<00:07:56.350><c> bottom</c><00:07:56.740><c> position</c><00:07:57.280><c> and</c><00:07:57.460><c> then</c><00:07:57.910><c> this</c><00:07:58.150><c> thread</c>
+
+00:07:58.500 --> 00:07:58.510 align:start position:0%
+the bottom position and then this thread
+ 
+
+00:07:58.510 --> 00:08:01.290 align:start position:0%
+the bottom position and then this thread
+goes<00:07:58.990><c> in</c><00:07:59.260><c> to</c><00:07:59.470><c> be</c><00:07:59.590><c> executed</c><00:08:00.250><c> and</c><00:08:00.430><c> this</c><00:08:00.940><c> is</c><00:08:01.090><c> what</c>
+
+00:08:01.290 --> 00:08:01.300 align:start position:0%
+goes in to be executed and this is what
+ 
+
+00:08:01.300 --> 00:08:03.470 align:start position:0%
+goes in to be executed and this is what
+happens<00:08:01.780><c> in</c><00:08:02.050><c> today's</c><00:08:02.430><c> multitasking</c>
+
+00:08:03.470 --> 00:08:03.480 align:start position:0%
+happens in today's multitasking
+ 
+
+00:08:03.480 --> 00:08:12.990 align:start position:0%
+happens in today's multitasking
+operating<00:08:04.480><c> system</c><00:08:10.740><c> now</c><00:08:11.740><c> when</c><00:08:12.220><c> this</c><00:08:12.430><c> switches</c>
+
+00:08:12.990 --> 00:08:13.000 align:start position:0%
+operating system now when this switches
+ 
+
+00:08:13.000 --> 00:08:17.040 align:start position:0%
+operating system now when this switches
+back<00:08:13.630><c> and</c><00:08:13.690><c> forth</c><00:08:13.990><c> it</c><00:08:14.530><c> actually</c><00:08:15.280><c> does</c><00:08:15.520><c> so</c><00:08:16.120><c> on</c><00:08:16.990><c> a</c>
+
+00:08:17.040 --> 00:08:17.050 align:start position:0%
+back and forth it actually does so on a
+ 
+
+00:08:17.050 --> 00:08:19.650 align:start position:0%
+back and forth it actually does so on a
+regular<00:08:17.260><c> basis</c><00:08:17.980><c> and</c><00:08:18.370><c> that</c><00:08:18.460><c> regular</c><00:08:18.970><c> basis</c><00:08:19.450><c> is</c>
+
+00:08:19.650 --> 00:08:19.660 align:start position:0%
+regular basis and that regular basis is
+ 
+
+00:08:19.660 --> 00:08:25.020 align:start position:0%
+regular basis and that regular basis is
+called<00:08:19.690><c> a</c><00:08:20.080><c> time</c><00:08:20.350><c> slice</c><00:08:23.250><c> so</c><00:08:24.250><c> for</c><00:08:24.580><c> instance</c>
+
+00:08:25.020 --> 00:08:25.030 align:start position:0%
+called a time slice so for instance
+ 
+
+00:08:25.030 --> 00:08:29.090 align:start position:0%
+called a time slice so for instance
+maybe<00:08:25.810><c> the</c><00:08:26.560><c> time</c><00:08:26.800><c> slice</c><00:08:27.130><c> is</c><00:08:27.370><c> one</c><00:08:27.580><c> millisecond</c>
+
+00:08:29.090 --> 00:08:29.100 align:start position:0%
+maybe the time slice is one millisecond
+ 
+
+00:08:29.100 --> 00:08:31.860 align:start position:0%
+maybe the time slice is one millisecond
+so<00:08:30.100><c> in</c><00:08:30.220><c> one</c><00:08:30.400><c> millisecond</c><00:08:31.150><c> we</c><00:08:31.510><c> could</c><00:08:31.660><c> actually</c>
+
+00:08:31.860 --> 00:08:31.870 align:start position:0%
+so in one millisecond we could actually
+ 
+
+00:08:31.870 --> 00:08:34.020 align:start position:0%
+so in one millisecond we could actually
+execute<00:08:32.350><c> thousands</c><00:08:33.070><c> of</c><00:08:33.190><c> instructions</c><00:08:33.790><c> on</c>
+
+00:08:34.020 --> 00:08:34.030 align:start position:0%
+execute thousands of instructions on
+ 
+
+00:08:34.030 --> 00:08:35.670 align:start position:0%
+execute thousands of instructions on
+words<00:08:34.270><c> and</c><00:08:34.510><c> then</c><00:08:35.050><c> we're</c><00:08:35.170><c> going</c><00:08:35.290><c> to</c><00:08:35.410><c> switch</c>
+
+00:08:35.670 --> 00:08:35.680 align:start position:0%
+words and then we're going to switch
+ 
+
+00:08:35.680 --> 00:08:37.380 align:start position:0%
+words and then we're going to switch
+over<00:08:35.920><c> and</c><00:08:36.220><c> we're</c><00:08:36.760><c> going</c><00:08:36.910><c> to</c><00:08:37.000><c> execute</c>
+
+00:08:37.380 --> 00:08:37.390 align:start position:0%
+over and we're going to execute
+ 
+
+00:08:37.390 --> 00:08:39.660 align:start position:0%
+over and we're going to execute
+thousands<00:08:38.350><c> of</c><00:08:38.440><c> instructions</c><00:08:38.979><c> from</c><00:08:39.130><c> excel</c><00:08:39.520><c> and</c>
+
+00:08:39.660 --> 00:08:39.670 align:start position:0%
+thousands of instructions from excel and
+ 
+
+00:08:39.670 --> 00:08:40.830 align:start position:0%
+thousands of instructions from excel and
+we're<00:08:39.790><c> going</c><00:08:39.940><c> to</c><00:08:40.000><c> switch</c><00:08:40.210><c> back</c><00:08:40.240><c> and</c><00:08:40.540><c> forth</c>
+
+00:08:40.830 --> 00:08:40.840 align:start position:0%
+we're going to switch back and forth
+ 
+
+00:08:40.840 --> 00:08:44.550 align:start position:0%
+we're going to switch back and forth
+every<00:08:41.290><c> one</c><00:08:41.770><c> millisecond</c><00:08:42.640><c> now</c><00:08:43.630><c> it's</c><00:08:43.810><c> humans</c><00:08:44.320><c> to</c>
+
+00:08:44.550 --> 00:08:44.560 align:start position:0%
+every one millisecond now it's humans to
+ 
+
+00:08:44.560 --> 00:08:46.620 align:start position:0%
+every one millisecond now it's humans to
+us<00:08:44.710><c> this</c><00:08:44.980><c> is</c><00:08:45.130><c> going</c><00:08:45.280><c> to</c><00:08:45.340><c> happen</c><00:08:45.730><c> so</c><00:08:45.970><c> fast</c><00:08:46.270><c> it</c>
+
+00:08:46.620 --> 00:08:46.630 align:start position:0%
+us this is going to happen so fast it
+ 
+
+00:08:46.630 --> 00:08:50.850 align:start position:0%
+us this is going to happen so fast it
+appears<00:08:47.260><c> that</c><00:08:48.690><c> everything</c><00:08:49.690><c> is</c><00:08:49.990><c> happening</c><00:08:50.740><c> at</c>
+
+00:08:50.850 --> 00:08:50.860 align:start position:0%
+appears that everything is happening at
+ 
+
+00:08:50.860 --> 00:09:00.250 align:start position:0%
+appears that everything is happening at
+the<00:08:51.010><c> same</c><00:08:51.040><c> time</c><00:08:52.590><c> or</c><00:08:54.090><c> simultaneously</c><00:08:55.090><c> just</c>
+
+00:09:00.250 --> 00:09:00.260 align:start position:0%
+ 
+ 
+
+00:09:00.260 --> 00:09:06.300 align:start position:0%
+ 
+of<00:09:00.350><c> multitasking</c><00:09:01.190><c> is</c><00:09:01.340><c> called</c><00:09:01.580><c> pre-emptive</c>
+
+00:09:06.300 --> 00:09:06.310 align:start position:0%
+ 
+ 
+
+00:09:06.310 --> 00:09:09.640 align:start position:0%
+ 
+pre-emptive<00:09:07.310><c> multitasking</c><00:09:07.570><c> because</c><00:09:08.650><c> it</c>
+
+00:09:09.640 --> 00:09:09.650 align:start position:0%
+pre-emptive multitasking because it
+ 
+
+00:09:09.650 --> 00:09:11.350 align:start position:0%
+pre-emptive multitasking because it
+doesn't<00:09:10.160><c> rely</c><00:09:10.430><c> on</c><00:09:10.460><c> any</c><00:09:11.120><c> of</c><00:09:11.240><c> these</c>
+
+00:09:11.350 --> 00:09:11.360 align:start position:0%
+doesn't rely on any of these
+ 
+
+00:09:11.360 --> 00:09:14.230 align:start position:0%
+doesn't rely on any of these
+applications<00:09:12.320><c> to</c><00:09:12.620><c> give</c><00:09:13.100><c> up</c><00:09:13.220><c> control</c><00:09:13.460><c> this</c>
+
+00:09:14.230 --> 00:09:14.240 align:start position:0%
+applications to give up control this
+ 
+
+00:09:14.240 --> 00:09:16.480 align:start position:0%
+applications to give up control this
+scheduler<00:09:15.020><c> is</c><00:09:15.140><c> simply</c><00:09:15.950><c> going</c><00:09:16.130><c> to</c><00:09:16.220><c> take</c>
+
+00:09:16.480 --> 00:09:16.490 align:start position:0%
+scheduler is simply going to take
+ 
+
+00:09:16.490 --> 00:09:18.580 align:start position:0%
+scheduler is simply going to take
+control<00:09:16.880><c> away</c><00:09:17.120><c> from</c><00:09:17.270><c> one</c><00:09:17.690><c> application</c><00:09:17.870><c> and</c>
+
+00:09:18.580 --> 00:09:18.590 align:start position:0%
+control away from one application and
+ 
+
+00:09:18.590 --> 00:09:20.680 align:start position:0%
+control away from one application and
+give<00:09:18.710><c> it</c><00:09:18.830><c> to</c><00:09:18.950><c> another</c><00:09:19.100><c> and</c><00:09:19.550><c> work</c><00:09:20.270><c> it</c><00:09:20.450><c> back</c><00:09:20.660><c> and</c>
+
+00:09:20.680 --> 00:09:20.690 align:start position:0%
+give it to another and work it back and
+ 
+
+00:09:20.690 --> 00:09:24.270 align:start position:0%
+give it to another and work it back and
+forth<00:09:21.370><c> what's</c><00:09:22.370><c> nice</c><00:09:22.610><c> about</c><00:09:22.640><c> that</c><00:09:23.000><c> if</c><00:09:23.450><c> somehow</c>
+
+00:09:24.270 --> 00:09:24.280 align:start position:0%
+forth what's nice about that if somehow
+ 
+
+00:09:24.280 --> 00:09:27.430 align:start position:0%
+forth what's nice about that if somehow
+Excel<00:09:25.280><c> crashes</c><00:09:25.970><c> it's</c><00:09:26.780><c> not</c><00:09:26.960><c> going</c><00:09:27.170><c> to</c><00:09:27.230><c> crash</c>
+
+00:09:27.430 --> 00:09:27.440 align:start position:0%
+Excel crashes it's not going to crash
+ 
+
+00:09:27.440 --> 00:09:29.650 align:start position:0%
+Excel crashes it's not going to crash
+your<00:09:27.680><c> operating</c><00:09:28.220><c> system</c><00:09:28.640><c> yes</c><00:09:29.090><c> you</c><00:09:29.300><c> may</c><00:09:29.450><c> lose</c><00:09:29.630><c> a</c>
+
+00:09:29.650 --> 00:09:29.660 align:start position:0%
+your operating system yes you may lose a
+ 
+
+00:09:29.660 --> 00:09:31.540 align:start position:0%
+your operating system yes you may lose a
+time<00:09:30.050><c> slice</c><00:09:30.410><c> but</c><00:09:30.710><c> when</c><00:09:30.830><c> you</c><00:09:30.920><c> go</c><00:09:31.070><c> back</c><00:09:31.280><c> here</c>
+
+00:09:31.540 --> 00:09:31.550 align:start position:0%
+time slice but when you go back here
+ 
+
+00:09:31.550 --> 00:09:33.250 align:start position:0%
+time slice but when you go back here
+your<00:09:31.730><c> word</c><00:09:31.940><c> program</c><00:09:32.270><c> is</c><00:09:32.540><c> going</c><00:09:32.660><c> to</c><00:09:32.780><c> work</c><00:09:32.930><c> fine</c>
+
+00:09:33.250 --> 00:09:33.260 align:start position:0%
+your word program is going to work fine
+ 
+
+00:09:33.260 --> 00:09:35.860 align:start position:0%
+your word program is going to work fine
+and<00:09:33.680><c> when</c><00:09:34.250><c> you</c><00:09:34.370><c> notice</c><00:09:34.640><c> this</c><00:09:34.940><c> is</c><00:09:35.000><c> hung</c><00:09:35.360><c> you</c><00:09:35.690><c> can</c>
+
+00:09:35.860 --> 00:09:35.870 align:start position:0%
+and when you notice this is hung you can
+ 
+
+00:09:35.870 --> 00:09:38.230 align:start position:0%
+and when you notice this is hung you can
+actually<00:09:36.080><c> just</c><00:09:36.530><c> close</c><00:09:36.830><c> it</c><00:09:37.070><c> down</c><00:09:37.250><c> by</c><00:09:37.580><c> hitting</c>
+
+00:09:38.230 --> 00:09:38.240 align:start position:0%
+actually just close it down by hitting
+ 
+
+00:09:38.240 --> 00:09:45.130 align:start position:0%
+actually just close it down by hitting
+the<00:09:38.450><c> close</c><00:09:38.690><c> button</c><00:09:39.380><c> on</c><00:09:39.560><c> your</c><00:09:39.920><c> GUI</c><00:09:43.570><c> now</c><00:09:44.570><c> threads</c>
+
+00:09:45.130 --> 00:09:45.140 align:start position:0%
+the close button on your GUI now threads
+ 
+
+00:09:45.140 --> 00:09:47.560 align:start position:0%
+the close button on your GUI now threads
+have<00:09:45.440><c> other</c><00:09:45.650><c> unique</c><00:09:46.430><c> characteristics</c><00:09:47.390><c> as</c>
+
+00:09:47.560 --> 00:09:47.570 align:start position:0%
+have other unique characteristics as
+ 
+
+00:09:47.570 --> 00:09:50.470 align:start position:0%
+have other unique characteristics as
+well<00:09:47.810><c> they</c><00:09:48.800><c> also</c><00:09:49.010><c> have</c><00:09:49.370><c> something</c><00:09:49.880><c> associated</c>
+
+00:09:50.470 --> 00:09:50.480 align:start position:0%
+well they also have something associated
+ 
+
+00:09:50.480 --> 00:09:57.580 align:start position:0%
+well they also have something associated
+with<00:09:50.960><c> them</c><00:09:51.140><c> called</c><00:09:51.440><c> a</c><00:09:51.530><c> priority</c><00:09:56.320><c> and</c><00:09:57.320><c> a</c>
+
+00:09:57.580 --> 00:09:57.590 align:start position:0%
+with them called a priority and a
+ 
+
+00:09:57.590 --> 00:10:00.160 align:start position:0%
+with them called a priority and a
+priority<00:09:58.220><c> is</c><00:09:58.280><c> simply</c><00:09:58.640><c> a</c><00:09:58.670><c> number</c><00:09:58.910><c> some</c><00:09:59.720><c> systems</c>
+
+00:10:00.160 --> 00:10:00.170 align:start position:0%
+priority is simply a number some systems
+ 
+
+00:10:00.170 --> 00:10:03.970 align:start position:0%
+priority is simply a number some systems
+use<00:10:00.440><c> 1</c><00:10:00.710><c> to</c><00:10:00.860><c> 32</c><00:10:01.250><c> 1</c><00:10:01.880><c> to</c><00:10:02.030><c> 99</c><00:10:02.450><c> so</c><00:10:02.930><c> we'll</c><00:10:03.500><c> say</c><00:10:03.740><c> this</c>
+
+00:10:03.970 --> 00:10:03.980 align:start position:0%
+use 1 to 32 1 to 99 so we'll say this
+ 
+
+00:10:03.980 --> 00:10:07.020 align:start position:0%
+use 1 to 32 1 to 99 so we'll say this
+has<00:10:04.220><c> a</c><00:10:04.250><c> priority</c><00:10:05.030><c> of</c><00:10:05.120><c> 10</c><00:10:05.420><c> and</c><00:10:05.740><c> this</c><00:10:06.740><c> has</c><00:10:06.980><c> a</c>
+
+00:10:07.020 --> 00:10:07.030 align:start position:0%
+has a priority of 10 and this has a
+ 
+
+00:10:07.030 --> 00:10:11.350 align:start position:0%
+has a priority of 10 and this has a
+priority<00:10:08.030><c> of</c><00:10:08.060><c> 2</c><00:10:09.430><c> now</c><00:10:10.430><c> built</c><00:10:10.880><c> into</c><00:10:11.240><c> the</c>
+
+00:10:11.350 --> 00:10:11.360 align:start position:0%
+priority of 2 now built into the
+ 
+
+00:10:11.360 --> 00:10:14.080 align:start position:0%
+priority of 2 now built into the
+scheduler<00:10:12.080><c> usually</c><00:10:12.800><c> most</c><00:10:12.950><c> schedulers</c><00:10:13.670><c> simply</c>
+
+00:10:14.080 --> 00:10:14.090 align:start position:0%
+scheduler usually most schedulers simply
+ 
+
+00:10:14.090 --> 00:10:17.080 align:start position:0%
+scheduler usually most schedulers simply
+give<00:10:14.390><c> the</c><00:10:14.810><c> highest</c><00:10:15.260><c> priority</c><00:10:15.830><c> thread</c><00:10:16.190><c> a</c>
+
+00:10:17.080 --> 00:10:17.090 align:start position:0%
+give the highest priority thread a
+ 
+
+00:10:17.090 --> 00:10:20.230 align:start position:0%
+give the highest priority thread a
+passage<00:10:17.900><c> to</c><00:10:18.110><c> the</c><00:10:18.230><c> CPU</c><00:10:18.730><c> so</c><00:10:19.730><c> what</c><00:10:19.910><c> would</c><00:10:20.030><c> happen</c>
+
+00:10:20.230 --> 00:10:20.240 align:start position:0%
+passage to the CPU so what would happen
+ 
+
+00:10:20.240 --> 00:10:22.510 align:start position:0%
+passage to the CPU so what would happen
+here<00:10:20.660><c> is</c><00:10:20.780><c> this</c><00:10:20.960><c> thread</c><00:10:21.290><c> would</c><00:10:21.500><c> get</c><00:10:21.710><c> executed</c>
+
+00:10:22.510 --> 00:10:22.520 align:start position:0%
+here is this thread would get executed
+ 
+
+00:10:22.520 --> 00:10:24.160 align:start position:0%
+here is this thread would get executed
+and<00:10:22.700><c> it</c><00:10:23.030><c> would</c><00:10:23.150><c> just</c><00:10:23.360><c> stay</c><00:10:23.570><c> on</c><00:10:23.600><c> this</c><00:10:23.840><c> thread</c>
+
+00:10:24.160 --> 00:10:24.170 align:start position:0%
+and it would just stay on this thread
+ 
+
+00:10:24.170 --> 00:10:26.860 align:start position:0%
+and it would just stay on this thread
+because<00:10:24.470><c> this</c><00:10:24.620><c> is</c><00:10:24.800><c> lower</c><00:10:24.980><c> priority</c><00:10:25.870><c> there's</c>
+
+00:10:26.860 --> 00:10:26.870 align:start position:0%
+because this is lower priority there's
+ 
+
+00:10:26.870 --> 00:10:29.740 align:start position:0%
+because this is lower priority there's
+usually<00:10:27.310><c> multiple</c><00:10:28.310><c> parts</c><00:10:28.850><c> to</c><00:10:28.970><c> a</c><00:10:29.120><c> scheduler</c>
+
+00:10:29.740 --> 00:10:29.750 align:start position:0%
+usually multiple parts to a scheduler
+ 
+
+00:10:29.750 --> 00:10:32.680 align:start position:0%
+usually multiple parts to a scheduler
+and<00:10:29.960><c> part</c><00:10:30.650><c> of</c><00:10:30.920><c> the</c><00:10:31.040><c> schedulers</c><00:10:31.670><c> duty</c><00:10:32.120><c> is</c><00:10:32.300><c> to</c>
+
+00:10:32.680 --> 00:10:32.690 align:start position:0%
+and part of the schedulers duty is to
+ 
+
+00:10:32.690 --> 00:10:34.990 align:start position:0%
+and part of the schedulers duty is to
+boost<00:10:33.080><c> priorities</c><00:10:34.040><c> of</c><00:10:34.220><c> threads</c><00:10:34.520><c> which</c><00:10:34.730><c> don't</c>
+
+00:10:34.990 --> 00:10:35.000 align:start position:0%
+boost priorities of threads which don't
+ 
+
+00:10:35.000 --> 00:10:37.330 align:start position:0%
+boost priorities of threads which don't
+get<00:10:35.120><c> executed</c><00:10:35.780><c> so</c><00:10:36.020><c> we'll</c><00:10:36.650><c> go</c><00:10:36.770><c> down</c><00:10:36.980><c> here</c><00:10:37.310><c> and</c>
+
+00:10:37.330 --> 00:10:37.340 align:start position:0%
+get executed so we'll go down here and
+ 
+
+00:10:37.340 --> 00:10:39.940 align:start position:0%
+get executed so we'll go down here and
+we'll<00:10:37.970><c> execute</c><00:10:38.510><c> this</c><00:10:38.690><c> thread</c><00:10:39.080><c> for</c><00:10:39.470><c> one</c><00:10:39.800><c> or</c><00:10:39.920><c> two</c>
+
+00:10:39.940 --> 00:10:39.950 align:start position:0%
+we'll execute this thread for one or two
+ 
+
+00:10:39.950 --> 00:10:43.830 align:start position:0%
+we'll execute this thread for one or two
+time<00:10:40.340><c> slices</c><00:10:40.940><c> and</c><00:10:41.090><c> then</c><00:10:41.210><c> we'll</c><00:10:41.390><c> boost</c><00:10:41.660><c> this</c>
+
+00:10:43.830 --> 00:10:43.840 align:start position:0%
+time slices and then we'll boost this
+ 
+
+00:10:43.840 --> 00:10:47.620 align:start position:0%
+time slices and then we'll boost this
+execute<00:10:44.840><c> boost</c><00:10:45.800><c> and</c><00:10:46.100><c> eventually</c><00:10:47.060><c> this</c><00:10:47.240><c> thread</c>
+
+00:10:47.620 --> 00:10:47.630 align:start position:0%
+execute boost and eventually this thread
+ 
+
+00:10:47.630 --> 00:10:50.830 align:start position:0%
+execute boost and eventually this thread
+will<00:10:47.930><c> get</c><00:10:48.320><c> up</c><00:10:48.470><c> to</c><00:10:48.500><c> the</c><00:10:49.370><c> same</c><00:10:49.640><c> level</c><00:10:50.090><c> and</c><00:10:50.240><c> then</c>
+
+00:10:50.830 --> 00:10:50.840 align:start position:0%
+will get up to the same level and then
+ 
+
+00:10:50.840 --> 00:10:53.440 align:start position:0%
+will get up to the same level and then
+both<00:10:51.320><c> threads</c><00:10:51.800><c> will</c><00:10:52.700><c> then</c><00:10:52.880><c> what's</c><00:10:53.180><c> called</c>
+
+00:10:53.440 --> 00:10:53.450 align:start position:0%
+both threads will then what's called
+ 
+
+00:10:53.450 --> 00:10:55.600 align:start position:0%
+both threads will then what's called
+round-robin<00:10:53.960><c> they'll</c><00:10:54.470><c> both</c><00:10:54.650><c> be</c><00:10:54.680><c> executed</c><00:10:55.490><c> two</c>
+
+00:10:55.600 --> 00:10:55.610 align:start position:0%
+round-robin they'll both be executed two
+ 
+
+00:10:55.610 --> 00:10:57.610 align:start position:0%
+round-robin they'll both be executed two
+time<00:10:55.850><c> slice</c><00:10:56.210><c> until</c><00:10:56.780><c> the</c><00:10:56.960><c> threads</c><00:10:57.230><c> finish</c>
+
+00:10:57.610 --> 00:10:57.620 align:start position:0%
+time slice until the threads finish
+ 
+
+00:10:57.620 --> 00:11:03.180 align:start position:0%
+time slice until the threads finish
+being<00:10:57.920><c> executed</c><00:11:01.090><c> so</c><00:11:02.090><c> this</c><00:11:02.330><c> is</c><00:11:02.510><c> how</c><00:11:02.750><c> a</c>
+
+00:11:03.180 --> 00:11:03.190 align:start position:0%
+being executed so this is how a
+ 
+
+00:11:03.190 --> 00:11:09.370 align:start position:0%
+being executed so this is how a
+multitasking<00:11:04.190><c> operating</c><00:11:04.490><c> system</c><00:11:05.420><c> works</c><00:11:08.380><c> now</c>
+
+00:11:09.370 --> 00:11:09.380 align:start position:0%
+multitasking operating system works now
+ 
+
+00:11:09.380 --> 00:11:11.830 align:start position:0%
+multitasking operating system works now
+we<00:11:09.800><c> talked</c><00:11:10.040><c> here</c><00:11:10.370><c> about</c><00:11:10.840><c> multi-threaded</c>
+
+00:11:11.830 --> 00:11:11.840 align:start position:0%
+we talked here about multi-threaded
+ 
+
+00:11:11.840 --> 00:11:12.940 align:start position:0%
+we talked here about multi-threaded
+application
+
+00:11:12.940 --> 00:11:12.950 align:start position:0%
+application
+ 
+
+00:11:12.950 --> 00:11:16.720 align:start position:0%
+application
+because<00:11:13.399><c> most</c><00:11:13.899><c> programs</c><00:11:14.899><c> today</c><00:11:15.290><c> and</c><00:11:15.740><c> so</c><00:11:16.279><c> we're</c>
+
+00:11:16.720 --> 00:11:16.730 align:start position:0%
+because most programs today and so we're
+ 
+
+00:11:16.730 --> 00:11:18.430 align:start position:0%
+because most programs today and so we're
+going<00:11:16.850><c> to</c><00:11:16.910><c> look</c><00:11:17.060><c> at</c><00:11:17.180><c> a</c><00:11:17.209><c> program</c><00:11:17.750><c> called</c><00:11:18.050><c> word</c>
+
+00:11:18.430 --> 00:11:18.440 align:start position:0%
+going to look at a program called word
+ 
+
+00:11:18.440 --> 00:11:20.740 align:start position:0%
+going to look at a program called word
+and<00:11:18.800><c> now</c><00:11:19.730><c> we're</c><00:11:19.970><c> going</c><00:11:20.060><c> to</c><00:11:20.120><c> call</c><00:11:20.450><c> this</c><00:11:20.690><c> a</c>
+
+00:11:20.740 --> 00:11:20.750 align:start position:0%
+and now we're going to call this a
+ 
+
+00:11:20.750 --> 00:11:24.100 align:start position:0%
+and now we're going to call this a
+process<00:11:21.130><c> so</c><00:11:22.130><c> a</c><00:11:22.160><c> process</c><00:11:22.850><c> is</c><00:11:23.029><c> really</c><00:11:23.209><c> a</c><00:11:23.540><c> name</c>
+
+00:11:24.100 --> 00:11:24.110 align:start position:0%
+process so a process is really a name
+ 
+
+00:11:24.110 --> 00:11:28.930 align:start position:0%
+process so a process is really a name
+for<00:11:24.440><c> a</c><00:11:24.850><c> program</c><00:11:26.800><c> but</c><00:11:27.800><c> most</c><00:11:28.100><c> programs</c><00:11:28.639><c> today</c>
+
+00:11:28.930 --> 00:11:28.940 align:start position:0%
+for a program but most programs today
+ 
+
+00:11:28.940 --> 00:11:33.639 align:start position:0%
+for a program but most programs today
+are<00:11:29.680><c> multi-threaded</c><00:11:31.360><c> so</c><00:11:32.360><c> for</c><00:11:32.959><c> instance</c><00:11:33.380><c> you</c>
+
+00:11:33.639 --> 00:11:33.649 align:start position:0%
+are multi-threaded so for instance you
+ 
+
+00:11:33.649 --> 00:11:36.250 align:start position:0%
+are multi-threaded so for instance you
+may<00:11:33.829><c> have</c><00:11:34.040><c> one</c><00:11:34.490><c> thread</c><00:11:34.820><c> or</c><00:11:35.089><c> unit</c><00:11:35.420><c> of</c><00:11:35.540><c> execution</c>
+
+00:11:36.250 --> 00:11:36.260 align:start position:0%
+may have one thread or unit of execution
+ 
+
+00:11:36.260 --> 00:11:38.790 align:start position:0%
+may have one thread or unit of execution
+which<00:11:36.440><c> is</c><00:11:36.649><c> just</c><00:11:36.920><c> looking</c><00:11:37.279><c> for</c><00:11:37.550><c> keyboard</c><00:11:38.029><c> input</c>
+
+00:11:38.790 --> 00:11:38.800 align:start position:0%
+which is just looking for keyboard input
+ 
+
+00:11:38.800 --> 00:11:41.050 align:start position:0%
+which is just looking for keyboard input
+waiting<00:11:39.800><c> for</c><00:11:39.980><c> the</c><00:11:40.070><c> user</c><00:11:40.220><c> to</c><00:11:40.550><c> type</c><00:11:40.699><c> something</c>
+
+00:11:41.050 --> 00:11:41.060 align:start position:0%
+waiting for the user to type something
+ 
+
+00:11:41.060 --> 00:11:42.780 align:start position:0%
+waiting for the user to type something
+and<00:11:41.389><c> then</c><00:11:41.480><c> putting</c><00:11:41.779><c> it</c><00:11:41.959><c> on</c><00:11:42.079><c> a</c><00:11:42.110><c> screen</c>
+
+00:11:42.780 --> 00:11:42.790 align:start position:0%
+and then putting it on a screen
+ 
+
+00:11:42.790 --> 00:11:47.230 align:start position:0%
+and then putting it on a screen
+maybe<00:11:43.790><c> you've</c><00:11:44.089><c> hit</c><00:11:44.300><c> the</c><00:11:44.449><c> print</c><00:11:44.750><c> key</c><00:11:45.490><c> plot</c><00:11:46.490><c> or</c>
+
+00:11:47.230 --> 00:11:47.240 align:start position:0%
+maybe you've hit the print key plot or
+ 
+
+00:11:47.240 --> 00:11:50.290 align:start position:0%
+maybe you've hit the print key plot or
+the<00:11:47.570><c> print</c><00:11:47.889><c> function</c><00:11:48.889><c> or</c><00:11:49.730><c> when</c><00:11:49.910><c> the</c><00:11:50.029><c> print</c>
+
+00:11:50.290 --> 00:11:50.300 align:start position:0%
+the print function or when the print
+ 
+
+00:11:50.300 --> 00:11:53.050 align:start position:0%
+the print function or when the print
+function<00:11:50.510><c> happens</c><00:11:51.370><c> you</c><00:11:52.370><c> don't</c><00:11:52.490><c> want</c><00:11:52.730><c> to</c><00:11:52.850><c> wait</c>
+
+00:11:53.050 --> 00:11:53.060 align:start position:0%
+function happens you don't want to wait
+ 
+
+00:11:53.060 --> 00:11:54.670 align:start position:0%
+function happens you don't want to wait
+for<00:11:53.300><c> that</c><00:11:53.389><c> print</c><00:11:53.720><c> to</c><00:11:53.839><c> be</c><00:11:53.959><c> completed</c><00:11:54.529><c> you're</c>
+
+00:11:54.670 --> 00:11:54.680 align:start position:0%
+for that print to be completed you're
+ 
+
+00:11:54.680 --> 00:11:57.009 align:start position:0%
+for that print to be completed you're
+going<00:11:54.920><c> to</c><00:11:55.010><c> get</c><00:11:55.130><c> control</c><00:11:55.339><c> back</c><00:11:55.880><c> to</c><00:11:56.209><c> your</c><00:11:56.839><c> word</c>
+
+00:11:57.009 --> 00:11:57.019 align:start position:0%
+going to get control back to your word
+ 
+
+00:11:57.019 --> 00:11:59.740 align:start position:0%
+going to get control back to your word
+processing<00:11:57.649><c> program</c><00:11:58.190><c> so</c><00:11:58.430><c> another</c><00:11:58.820><c> thread</c><00:11:59.420><c> is</c>
+
+00:11:59.740 --> 00:11:59.750 align:start position:0%
+processing program so another thread is
+ 
+
+00:11:59.750 --> 00:12:03.210 align:start position:0%
+processing program so another thread is
+spawned<00:12:00.139><c> another</c><00:12:00.970><c> bunch</c><00:12:01.970><c> of</c><00:12:02.180><c> instructions</c>
+
+00:12:03.210 --> 00:12:03.220 align:start position:0%
+spawned another bunch of instructions
+ 
+
+00:12:03.220 --> 00:12:08.410 align:start position:0%
+spawned another bunch of instructions
+are<00:12:04.220><c> sent</c><00:12:04.899><c> or</c><00:12:05.899><c> created</c><00:12:06.769><c> and</c><00:12:06.949><c> sent</c><00:12:07.699><c> to</c><00:12:07.850><c> the</c><00:12:07.970><c> CPU</c>
+
+00:12:08.410 --> 00:12:08.420 align:start position:0%
+are sent or created and sent to the CPU
+ 
+
+00:12:08.420 --> 00:12:10.210 align:start position:0%
+are sent or created and sent to the CPU
+which<00:12:08.660><c> take</c><00:12:09.230><c> care</c><00:12:09.500><c> of</c><00:12:09.680><c> printing</c><00:12:10.070><c> in</c><00:12:10.190><c> the</c>
+
+00:12:10.210 --> 00:12:10.220 align:start position:0%
+which take care of printing in the
+ 
+
+00:12:10.220 --> 00:12:17.400 align:start position:0%
+which take care of printing in the
+background<00:12:13.060><c> you</c><00:12:14.060><c> may</c><00:12:14.329><c> want</c><00:12:14.779><c> to</c><00:12:14.870><c> save</c><00:12:15.079><c> a</c><00:12:15.110><c> file</c>
+
+00:12:17.400 --> 00:12:17.410 align:start position:0%
+background you may want to save a file
+ 
+
+00:12:17.410 --> 00:12:22.000 align:start position:0%
+background you may want to save a file
+that<00:12:18.410><c> can</c><00:12:18.589><c> spawn</c><00:12:19.029><c> another</c><00:12:20.029><c> thread</c><00:12:20.480><c> so</c><00:12:21.010><c> most</c>
+
+00:12:22.000 --> 00:12:22.010 align:start position:0%
+that can spawn another thread so most
+ 
+
+00:12:22.010 --> 00:12:42.880 align:start position:0%
+that can spawn another thread so most
+applications<00:12:22.940><c> today</c><00:12:23.240><c> are</c><00:12:24.250><c> multi-threaded</c>
+
+00:12:42.880 --> 00:12:42.890 align:start position:0%
+ 
+ 
+
+00:12:42.890 --> 00:12:46.660 align:start position:0%
+ 
+today's<00:12:43.190><c> CPUs</c><00:12:44.920><c> need</c><00:12:45.920><c> to</c><00:12:46.070><c> be</c><00:12:46.190><c> different</c><00:12:46.490><c> than</c>
+
+00:12:46.660 --> 00:12:46.670 align:start position:0%
+today's CPUs need to be different than
+ 
+
+00:12:46.670 --> 00:12:49.420 align:start position:0%
+today's CPUs need to be different than
+they<00:12:46.820><c> were</c><00:12:46.850><c> twenty</c><00:12:47.600><c> years</c><00:12:47.630><c> ago</c><00:12:48.040><c> because</c><00:12:49.040><c> we</c>
+
+00:12:49.420 --> 00:12:49.430 align:start position:0%
+they were twenty years ago because we
+ 
+
+00:12:49.430 --> 00:12:53.850 align:start position:0%
+they were twenty years ago because we
+have<00:12:49.610><c> these</c><00:12:49.790><c> multi-threaded</c><00:12:50.600><c> ol</c><00:12:50.720><c> asus</c><00:12:52.150><c> multi</c>
+
+00:12:53.850 --> 00:12:53.860 align:start position:0%
+have these multi-threaded ol asus multi
+ 
+
+00:12:53.860 --> 00:13:01.110 align:start position:0%
+have these multi-threaded ol asus multi
+tasking<00:12:55.750><c> OS</c><00:12:56.750><c> and</c><00:12:57.260><c> we</c><00:12:57.350><c> have</c><00:12:57.530><c> multi-threaded</c>
+
+00:13:01.110 --> 00:13:01.120 align:start position:0%
+ 
+ 
+
+00:13:01.120 --> 00:13:06.120 align:start position:0%
+ 
+applications
+
+00:13:06.120 --> 00:13:06.130 align:start position:0%
+ 
+ 
+
+00:13:06.130 --> 00:13:11.530 align:start position:0%
+ 
+so<00:13:08.530><c> today</c><00:13:09.530><c> CPUs</c><00:13:10.100><c> are</c><00:13:10.370><c> designed</c><00:13:10.790><c> to</c><00:13:11.030><c> be</c><00:13:11.270><c> able</c><00:13:11.450><c> to</c>
+
+00:13:11.530 --> 00:13:11.540 align:start position:0%
+so today CPUs are designed to be able to
+ 
+
+00:13:11.540 --> 00:13:14.560 align:start position:0%
+so today CPUs are designed to be able to
+handle<00:13:12.020><c> multiple</c><00:13:12.620><c> threads</c><00:13:13.370><c> more</c><00:13:13.880><c> easily</c><00:13:14.300><c> and</c>
+
+00:13:14.560 --> 00:13:14.570 align:start position:0%
+handle multiple threads more easily and
+ 
+
+00:13:14.570 --> 00:13:19.840 align:start position:0%
+handle multiple threads more easily and
+one<00:13:14.720><c> of</c><00:13:14.840><c> the</c><00:13:14.960><c> first</c><00:13:16.750><c> systems</c><00:13:17.750><c> was</c><00:13:18.350><c> on</c><00:13:19.310><c> a</c><00:13:19.370><c> single</c>
+
+00:13:19.840 --> 00:13:19.850 align:start position:0%
+one of the first systems was on a single
+ 
+
+00:13:19.850 --> 00:13:22.540 align:start position:0%
+one of the first systems was on a single
+CPU<00:13:20.060><c> was</c><00:13:20.780><c> something</c><00:13:21.650><c> called</c><00:13:21.770><c> hyper</c><00:13:22.040><c> threading</c>
+
+00:13:22.540 --> 00:13:22.550 align:start position:0%
+CPU was something called hyper threading
+ 
+
+00:13:22.550 --> 00:13:26.740 align:start position:0%
+CPU was something called hyper threading
+and<00:13:24.340><c> we</c><00:13:25.340><c> talked</c><00:13:25.610><c> about</c><00:13:25.760><c> this</c><00:13:26.090><c> thing</c><00:13:26.360><c> called</c><00:13:26.390><c> a</c>
+
+00:13:26.740 --> 00:13:26.750 align:start position:0%
+and we talked about this thing called a
+ 
+
+00:13:26.750 --> 00:13:35.950 align:start position:0%
+and we talked about this thing called a
+pipeline<00:13:27.290><c> inside</c><00:13:28.160><c> the</c><00:13:28.340><c> CPU</c><00:13:33.190><c> and</c><00:13:34.630><c> what</c><00:13:35.630><c> hyper</c>
+
+00:13:35.950 --> 00:13:35.960 align:start position:0%
+pipeline inside the CPU and what hyper
+ 
+
+00:13:35.960 --> 00:13:39.220 align:start position:0%
+pipeline inside the CPU and what hyper
+threading<00:13:36.530><c> did</c><00:13:36.770><c> was</c><00:13:37.340><c> it</c><00:13:37.610><c> duplicated</c><00:13:38.300><c> a</c><00:13:38.630><c> part</c>
+
+00:13:39.220 --> 00:13:39.230 align:start position:0%
+threading did was it duplicated a part
+ 
+
+00:13:39.230 --> 00:13:43.990 align:start position:0%
+threading did was it duplicated a part
+of<00:13:39.500><c> this</c><00:13:39.890><c> pipeline</c><00:13:40.520><c> so</c><00:13:40.880><c> at</c><00:13:41.060><c> least</c><00:13:42.760><c> it</c><00:13:43.760><c> could</c>
+
+00:13:43.990 --> 00:13:44.000 align:start position:0%
+of this pipeline so at least it could
+ 
+
+00:13:44.000 --> 00:13:45.810 align:start position:0%
+of this pipeline so at least it could
+accept<00:13:44.480><c> two</c><00:13:44.840><c> threads</c>
+
+00:13:45.810 --> 00:13:45.820 align:start position:0%
+accept two threads
+ 
+
+00:13:45.820 --> 00:13:48.970 align:start position:0%
+accept two threads
+it<00:13:46.820><c> didn't</c><00:13:47.300><c> duplicate</c><00:13:48.020><c> some</c><00:13:48.770><c> of</c><00:13:48.890><c> the</c>
+
+00:13:48.970 --> 00:13:48.980 align:start position:0%
+it didn't duplicate some of the
+ 
+
+00:13:48.980 --> 00:13:51.040 align:start position:0%
+it didn't duplicate some of the
+execution<00:13:49.850><c> engine</c><00:13:50.270><c> or</c><00:13:50.420><c> the</c><00:13:50.450><c> math</c><00:13:50.750><c> coprocessor</c>
+
+00:13:51.040 --> 00:13:51.050 align:start position:0%
+execution engine or the math coprocessor
+ 
+
+00:13:51.050 --> 00:13:53.410 align:start position:0%
+execution engine or the math coprocessor
+so<00:13:51.860><c> sometimes</c><00:13:52.310><c> you</c><00:13:52.550><c> would</c><00:13:52.670><c> have</c><00:13:52.820><c> threads</c><00:13:53.210><c> that</c>
+
+00:13:53.410 --> 00:13:53.420 align:start position:0%
+so sometimes you would have threads that
+ 
+
+00:13:53.420 --> 00:13:55.930 align:start position:0%
+so sometimes you would have threads that
+would<00:13:53.540><c> start</c><00:13:53.990><c> into</c><00:13:54.650><c> these</c><00:13:54.860><c> two</c><00:13:55.100><c> pipelines</c><00:13:55.400><c> but</c>
+
+00:13:55.930 --> 00:13:55.940 align:start position:0%
+would start into these two pipelines but
+ 
+
+00:13:55.940 --> 00:13:57.310 align:start position:0%
+would start into these two pipelines but
+would<00:13:56.060><c> have</c><00:13:56.210><c> to</c><00:13:56.390><c> be</c><00:13:56.510><c> put</c><00:13:56.720><c> on</c><00:13:56.750><c> hold</c>
+
+00:13:57.310 --> 00:13:57.320 align:start position:0%
+would have to be put on hold
+ 
+
+00:13:57.320 --> 00:13:59.950 align:start position:0%
+would have to be put on hold
+while<00:13:57.860><c> they</c><00:13:58.040><c> waited</c><00:13:58.310><c> for</c><00:13:58.490><c> maybe</c><00:13:59.090><c> the</c><00:13:59.720><c> math</c>
+
+00:13:59.950 --> 00:13:59.960 align:start position:0%
+while they waited for maybe the math
+ 
+
+00:13:59.960 --> 00:14:02.320 align:start position:0%
+while they waited for maybe the math
+processor<00:14:00.770><c> if</c><00:14:01.160><c> they</c><00:14:01.310><c> both</c><00:14:01.490><c> had</c><00:14:01.760><c> to</c><00:14:01.940><c> do</c><00:14:02.090><c> some</c>
+
+00:14:02.320 --> 00:14:02.330 align:start position:0%
+processor if they both had to do some
+ 
+
+00:14:02.330 --> 00:14:06.010 align:start position:0%
+processor if they both had to do some
+math<00:14:03.340><c> but</c><00:14:04.340><c> it</c><00:14:04.490><c> did</c><00:14:04.820><c> allow</c><00:14:05.090><c> multi-threaded</c>
+
+00:14:06.010 --> 00:14:06.020 align:start position:0%
+math but it did allow multi-threaded
+ 
+
+00:14:06.020 --> 00:14:10.560 align:start position:0%
+math but it did allow multi-threaded
+applications<00:14:06.980><c> to</c><00:14:07.130><c> work</c><00:14:07.280><c> a</c><00:14:07.460><c> little</c><00:14:07.580><c> quicker</c><00:14:07.910><c> a</c>
+
+00:14:10.560 --> 00:14:10.570 align:start position:0%
+ 
+ 
+
+00:14:10.570 --> 00:14:15.040 align:start position:0%
+ 
+better<00:14:11.570><c> and</c><00:14:11.930><c> generally</c><00:14:13.840><c> faster</c><00:14:14.840><c> way</c><00:14:14.990><c> to</c>
+
+00:14:15.040 --> 00:14:15.050 align:start position:0%
+better and generally faster way to
+ 
+
+00:14:15.050 --> 00:14:17.260 align:start position:0%
+better and generally faster way to
+handle<00:14:15.440><c> multi-threaded</c><00:14:16.280><c> applications</c><00:14:17.030><c> are</c>
+
+00:14:17.260 --> 00:14:17.270 align:start position:0%
+handle multi-threaded applications are
+ 
+
+00:14:17.270 --> 00:14:20.260 align:start position:0%
+handle multi-threaded applications are
+the<00:14:17.510><c> today's</c><00:14:17.960><c> multi-core</c><00:14:18.820><c> CPUs</c><00:14:19.820><c> where</c><00:14:20.150><c> we</c>
+
+00:14:20.260 --> 00:14:20.270 align:start position:0%
+the today's multi-core CPUs where we
+ 
+
+00:14:20.270 --> 00:14:25.720 align:start position:0%
+the today's multi-core CPUs where we
+have<00:14:20.450><c> a</c><00:14:20.480><c> single</c><00:14:20.960><c> CPU</c><00:14:22.510><c> and</c><00:14:23.800><c> we</c><00:14:24.800><c> have</c><00:14:24.980><c> more</c><00:14:25.400><c> the</c>
+
+00:14:25.720 --> 00:14:25.730 align:start position:0%
+have a single CPU and we have more the
+ 
+
+00:14:25.730 --> 00:14:28.390 align:start position:0%
+have a single CPU and we have more the
+pipeline<00:14:26.300><c> and</c><00:14:26.630><c> the</c><00:14:27.050><c> execution</c><00:14:27.740><c> engine</c><00:14:28.160><c> being</c>
+
+00:14:28.390 --> 00:14:28.400 align:start position:0%
+pipeline and the execution engine being
+ 
+
+00:14:28.400 --> 00:14:32.320 align:start position:0%
+pipeline and the execution engine being
+duplicated<00:14:28.820><c> so</c><00:14:29.360><c> we</c><00:14:29.480><c> would</c><00:14:29.660><c> have</c><00:14:29.810><c> a</c><00:14:31.330><c> pipeline</c>
+
+00:14:32.320 --> 00:14:32.330 align:start position:0%
+duplicated so we would have a pipeline
+ 
+
+00:14:32.330 --> 00:14:36.550 align:start position:0%
+duplicated so we would have a pipeline
+and<00:14:34.030><c> we</c><00:14:35.030><c> would</c><00:14:35.180><c> have</c><00:14:35.360><c> its</c><00:14:35.570><c> own</c><00:14:35.660><c> execution</c>
+
+00:14:36.550 --> 00:14:36.560 align:start position:0%
+and we would have its own execution
+ 
+
+00:14:36.560 --> 00:14:39.790 align:start position:0%
+and we would have its own execution
+engine<00:14:36.860><c> we</c><00:14:36.980><c> spirally</c><00:14:37.690><c> the</c><00:14:38.690><c> best</c><00:14:38.990><c> solution</c><00:14:39.620><c> is</c>
+
+00:14:39.790 --> 00:14:39.800 align:start position:0%
+engine we spirally the best solution is
+ 
+
+00:14:39.800 --> 00:14:47.020 align:start position:0%
+engine we spirally the best solution is
+actually<00:14:40.430><c> to</c><00:14:40.580><c> have</c><00:14:40.790><c> multi</c><00:14:41.540><c> CPUs</c><00:14:45.520><c> two</c><00:14:46.520><c> separate</c>
+
+00:14:47.020 --> 00:14:47.030 align:start position:0%
+actually to have multi CPUs two separate
+ 
+
+00:14:47.030 --> 00:14:49.980 align:start position:0%
+actually to have multi CPUs two separate
+CPUs<00:14:47.480><c> on</c><00:14:47.750><c> a</c><00:14:47.780><c> motherboard</c><00:14:48.110><c> and</c><00:14:48.470><c> many</c><00:14:48.650><c> servers</c>
+
+00:14:49.980 --> 00:14:49.990 align:start position:0%
+CPUs on a motherboard and many servers
+ 
+
+00:14:49.990 --> 00:14:52.540 align:start position:0%
+CPUs on a motherboard and many servers
+have<00:14:50.990><c> this</c><00:14:51.260><c> type</c><00:14:51.470><c> of</c><00:14:51.500><c> setup</c><00:14:51.890><c> and</c><00:14:52.160><c> this</c><00:14:52.400><c> is</c>
+
+00:14:52.540 --> 00:14:52.550 align:start position:0%
+have this type of setup and this is
+ 
+
+00:14:52.550 --> 00:14:55.759 align:start position:0%
+have this type of setup and this is
+called<00:14:52.820><c> symmetric</c><00:14:54.010><c> multiprocessing</c>
+
+00:14:55.759 --> 00:14:55.769 align:start position:0%
+called symmetric multiprocessing
+ 
+
+00:14:55.769 --> 00:14:59.929 align:start position:0%
+called symmetric multiprocessing
+most<00:14:55.949><c> expensive</c><00:14:57.619><c> multi-core</c><00:14:58.619><c> seems</c><00:14:59.579><c> to</c><00:14:59.790><c> be</c>
+
+00:14:59.929 --> 00:14:59.939 align:start position:0%
+most expensive multi-core seems to be
+ 
+
+00:14:59.939 --> 00:15:01.879 align:start position:0%
+most expensive multi-core seems to be
+where<00:15:00.149><c> most</c><00:15:00.420><c> of</c><00:15:00.660><c> the</c><00:15:00.779><c> energy</c><00:15:01.170><c> is</c><00:15:01.199><c> going</c><00:15:01.529><c> for</c>
+
+00:15:01.879 --> 00:15:01.889 align:start position:0%
+where most of the energy is going for
+ 
+
+00:15:01.889 --> 00:15:03.979 align:start position:0%
+where most of the energy is going for
+the<00:15:01.980><c> designs</c><00:15:02.339><c> these</c><00:15:02.639><c> days</c><00:15:02.879><c> you</c><00:15:03.209><c> had</c><00:15:03.389><c> four</c><00:15:03.660><c> core</c>
+
+00:15:03.979 --> 00:15:03.989 align:start position:0%
+the designs these days you had four core
+ 
+
+00:15:03.989 --> 00:15:07.239 align:start position:0%
+the designs these days you had four core
+or<00:15:04.170><c> eight</c><00:15:04.350><c> core</c><00:15:04.679><c> of</c><00:15:04.920><c> CPUs</c><00:15:05.879><c> that</c><00:15:06.389><c> handled</c>
+
+00:15:07.239 --> 00:15:07.249 align:start position:0%
+or eight core of CPUs that handled
+ 
+
+00:15:07.249 --> 00:15:12.049 align:start position:0%
+or eight core of CPUs that handled
+multi-threaded<00:15:08.249><c> applications</c><00:15:10.670><c> so</c><00:15:11.670><c> this</c><00:15:11.850><c> was</c>
+
+00:15:12.049 --> 00:15:12.059 align:start position:0%
+multi-threaded applications so this was
+ 
+
+00:15:12.059 --> 00:15:13.669 align:start position:0%
+multi-threaded applications so this was
+designed<00:15:12.269><c> as</c><00:15:12.689><c> a</c><00:15:12.720><c> limiter</c><00:15:13.139><c> little</c>
+
+00:15:13.669 --> 00:15:13.679 align:start position:0%
+designed as a limiter little
+ 
+
+00:15:13.679 --> 00:15:15.699 align:start position:0%
+designed as a limiter little
+introduction<00:15:14.129><c> to</c><00:15:14.369><c> the</c><00:15:14.999><c> difference</c><00:15:15.329><c> between</c>
+
+00:15:15.699 --> 00:15:15.709 align:start position:0%
+introduction to the difference between
+ 
+
+00:15:15.709 --> 00:15:20.379 align:start position:0%
+introduction to the difference between
+processes<00:15:16.709><c> and</c><00:15:16.920><c> threads</c><00:15:17.639><c> so</c><00:15:18.420><c> the</c><00:15:19.290><c> process</c><00:15:19.980><c> is</c>
+
+00:15:20.379 --> 00:15:20.389 align:start position:0%
+processes and threads so the process is
+ 
+
+00:15:20.389 --> 00:15:23.239 align:start position:0%
+processes and threads so the process is
+really<00:15:21.389><c> the</c><00:15:21.509><c> program</c><00:15:21.749><c> or</c><00:15:22.319><c> application</c><00:15:22.529><c> that's</c>
+
+00:15:23.239 --> 00:15:23.249 align:start position:0%
+really the program or application that's
+ 
+
+00:15:23.249 --> 00:15:27.889 align:start position:0%
+really the program or application that's
+running<00:15:23.809><c> these</c><00:15:24.809><c> programs</c><00:15:24.980><c> have</c><00:15:26.449><c> many</c><00:15:27.449><c> threads</c>
+
+00:15:27.889 --> 00:15:27.899 align:start position:0%
+running these programs have many threads
+ 
+
+00:15:27.899 --> 00:15:30.499 align:start position:0%
+running these programs have many threads
+that<00:15:28.199><c> can</c><00:15:28.379><c> be</c><00:15:28.529><c> spawned</c><00:15:28.920><c> as</c><00:15:29.279><c> they're</c><00:15:29.790><c> executing</c>
+
+00:15:30.499 --> 00:15:30.509 align:start position:0%
+that can be spawned as they're executing
+ 
+
+00:15:30.509 --> 00:15:32.900 align:start position:0%
+that can be spawned as they're executing
+and<00:15:30.660><c> each</c><00:15:31.350><c> of</c><00:15:31.559><c> these</c><00:15:31.709><c> threads</c><00:15:32.069><c> have</c><00:15:32.579><c> different</c>
+
+00:15:32.900 --> 00:15:32.910 align:start position:0%
+and each of these threads have different
+ 
+
+00:15:32.910 --> 00:15:35.269 align:start position:0%
+and each of these threads have different
+priorities<00:15:33.119><c> and</c><00:15:33.860><c> as</c><00:15:34.860><c> we're</c><00:15:35.040><c> going</c><00:15:35.160><c> to</c><00:15:35.220><c> see</c>
+
+00:15:35.269 --> 00:15:35.279 align:start position:0%
+priorities and as we're going to see
+ 
+
+00:15:35.279 --> 00:15:37.639 align:start position:0%
+priorities and as we're going to see
+later<00:15:35.759><c> there</c><00:15:36.600><c> are</c><00:15:36.660><c> many</c><00:15:36.899><c> tools</c><00:15:37.259><c> for</c>
+
+00:15:37.639 --> 00:15:37.649 align:start position:0%
+later there are many tools for
+ 
+
+00:15:37.649 --> 00:15:40.160 align:start position:0%
+later there are many tools for
+manipulating<00:15:38.329><c> the</c><00:15:39.329><c> shutting</c><00:15:39.720><c> down</c><00:15:39.899><c> or</c>
+
+00:15:40.160 --> 00:15:40.170 align:start position:0%
+manipulating the shutting down or
+ 
+
+00:15:40.170 --> 00:15:44.480 align:start position:0%
+manipulating the shutting down or
+viewing<00:15:40.439><c> of</c><00:15:40.769><c> threads</c><00:15:41.129><c> and</c><00:15:41.339><c> thread</c><00:15:41.790><c> priorities</c>
+

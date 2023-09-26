@@ -1,0 +1,17 @@
+in this series we are going to go very basic step by step and we re going to learn karate
+we will learn what is Karate what are the features of karate and then we will see the
+easy and very interesting let us start with what is karate karate is open source tool
+it is written in Java and we can do API mocking UI testing and performance testing of the
+driven development Syntax and we are going to use the feature files and the scenarios
+what is bdd from scratch you can go on my website that is automation step by step dotcom
+my YouTube playlist where you will see all the beginners video for BD frequency hear
+it starts in an organisation and a complete workflow of BD so you can watch that and this
+in 2017 so with this very basic knowledge that is see some awesome features of karate
+we are going to use Beat It is Intex using Jharkhand language which is which is very
+easy even if you have no program in background it is written in Java but implemented using
+new to coding or you do not have any programming background you can still work with Karate
+when we can run multiple test cases at once in parallel and distributed testing is when
+testing we can set up multiple environments and then do our testing and then we can also
+of debugging and multiple reporting features in Karate and we can do cross browser web
+the setup of power project in case you have any questions any doubts related to this session
+on to the next topic so I hope this was useful and now we will move to the prerequisites

@@ -1,0 +1,164 @@
+   #[https://www.ruby-lang.org/en/feeds/news.rss]Recent News (RSS)
+
+   [https://www.ruby-lang.org/en/]
+
+Ruby
+
+A Programmer's Best Friend
+
+   [https://www.ruby-lang.org/en/]Home
+   [https://www.ruby-lang.org/en/downloads/]Downloads
+   [https://www.ruby-lang.org/en/documentation/]Documentation
+   [https://www.ruby-lang.org/en/libraries/]Libraries
+   [https://www.ruby-lang.org/en/community/]Community
+   [https://www.ruby-lang.org/en/news/]News
+   [https://www.ruby-lang.org/en/security/]Security
+   [https://www.ruby-lang.org/en/about/]About Ruby
+   [https://www.ruby-lang.org/en/]Menu
+   _______________________________ Search
+
+Ruby is...
+
+   A dynamic, open source programming language with a focus on simplicity
+   and productivity. It has an elegant syntax that is natural to read and
+   easy to write.
+   [https://www.ruby-lang.org/en/downloads/]Download Ruby or
+   [https://www.ruby-lang.org/en/about/]Read More...
+    # The famous Hello World
+    # Program is trivial in
+    # Ruby. Superfluous:
+    #
+    # * A "main" method
+    # * Newline
+    # * Semicolons
+    #
+    # Here is the Code:
+
+    puts "Hello World!"
+
+[https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/]CV
+E-2023-36617: ReDoS vulnerability in URI
+
+   We have released the uri gem version 0.12.2, 0.10.3 that has a security
+   fix for a ReDoS vulnerability. This vulnerability has been assigned the
+   CVE identifier
+   [https://www.cve.org/CVERecord?id=CVE-2023-36617]CVE-2023-36617.
+
+   [https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-366
+   17/]Continue Reading...
+
+   Posted by hsbt on 29 Jun 2023
+
+[https://www.ruby-lang.org/en/news/2023/05/12/ruby-3-3-0-preview1-released/]R
+uby 3.3.0-preview1 Released
+
+   [https://www.ruby-lang.org/en/news/2023/05/12/ruby-3-3-0-preview1-relea
+   sed/]Continue Reading...
+
+   Posted by naruse on 12 May 2023
+
+[https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/]Ruby 3.2.2
+Released
+
+   Ruby 3.2.2 has been released.
+
+   [https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/]Cont
+   inue Reading...
+
+   Posted by naruse on 30 Mar 2023
+
+[https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/]Ruby 3.1.4
+Released
+
+   Ruby 3.1.4 has been released.
+
+   [https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released/]Cont
+   inue Reading...
+
+   Posted by nagachika on 30 Mar 2023
+
+Other News
+
+     * [https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-0-6-released/]
+       Ruby 3.0.6 Released
+       Posted by usa on 30 Mar 2023
+     * [https://www.ruby-lang.org/en/news/2023/03/30/ruby-2-7-8-released/]
+       Ruby 2.7.8 Released
+       Posted by usa on 30 Mar 2023
+     * [https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-202
+       3-28756/]CVE-2023-28756: ReDoS vulnerability in Time
+       Posted by hsbt on 30 Mar 2023
+     * [https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023
+       -28755/]CVE-2023-28755: ReDoS vulnerability in URI
+       Posted by hsbt on 28 Mar 2023
+     * [https://www.ruby-lang.org/en/news/2023/02/08/ruby-3-2-1-released/]
+       Ruby 3.2.1 Released
+       Posted by naruse on 8 Feb 2023
+     * [https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/]
+       Ruby 3.2.0 Released
+       Posted by naruse on 25 Dec 2022
+
+   [https://www.ruby-lang.org/en/news/]More News...
+     __________________________________________________________________
+
+Get Started, it's easy!
+
+     * [https://try.ruby-lang.org/]Try Ruby! (in your browser)
+     * [https://www.ruby-lang.org/en/documentation/quickstart/]Ruby in
+       Twenty Minutes
+     * [https://www.ruby-lang.org/en/documentation/ruby-from-other-languag
+       es/]Ruby from Other Languages
+
+Explore a new world…
+
+     * [https://www.ruby-lang.org/en/documentation/]Documentation
+     * [https://rubybib.org/]Academic Research
+     * [https://www.ruby-lang.org/en/libraries/]Libraries
+     * [https://www.ruby-lang.org/en/documentation/success-stories/]Succes
+       s Stories
+
+Participate in a friendly and growing community.
+
+     * [https://www.ruby-lang.org/en/community/mailing-lists/]Mailing
+       Lists: Talk about Ruby with programmers from all around the world.
+     * [https://www.ruby-lang.org/en/community/user-groups/]User Groups:
+       Get in contact with Rubyists in your area.
+     * [https://www.ruby-lang.org/en/community/weblogs/]Blogs: Read about
+       what’s happening right now in the Ruby community.
+     * [https://www.ruby-lang.org/en/community/ruby-core/]Ruby Core: Help
+       polish the rough edges of the latest Ruby.
+     * [https://bugs.ruby-lang.org/]Issue Tracking: Report or help solve
+       issues in Ruby.
+
+Syndicate
+
+   [https://www.ruby-lang.org/en/feeds/news.rss]Recent News (RSS)
+     __________________________________________________________________
+
+   [https://www.ruby-lang.org/en/]Home
+   [https://www.ruby-lang.org/en/downloads/]Downloads
+   [https://www.ruby-lang.org/en/documentation/]Documentation
+   [https://www.ruby-lang.org/en/libraries/]Libraries
+   [https://www.ruby-lang.org/en/community/]Community
+   [https://www.ruby-lang.org/en/news/]News
+   [https://www.ruby-lang.org/en/security/]Security
+   [https://www.ruby-lang.org/en/about/]About Ruby
+
+   This site in other languages: [https://www.ruby-lang.org/bg/]Български,
+   [https://www.ruby-lang.org/de/]Deutsch,
+   [https://www.ruby-lang.org/en/]English,
+   [https://www.ruby-lang.org/es/]Español,
+   [https://www.ruby-lang.org/fr/]Français,
+   [https://www.ruby-lang.org/id/]Bahasa Indonesia,
+   [https://www.ruby-lang.org/it/]Italiano,
+   [https://www.ruby-lang.org/ja/]日本語, [https://www.ruby-lang.org/ko/]한국어,
+   [https://www.ruby-lang.org/pl/]polski,
+   [https://www.ruby-lang.org/pt/]Português,
+   [https://www.ruby-lang.org/ru/]Русский,
+   [https://www.ruby-lang.org/tr/]Türkçe,
+   [https://www.ruby-lang.org/vi/]Tiếng Việt,
+   [https://www.ruby-lang.org/zh_cn/]简体中文,
+   [https://www.ruby-lang.org/zh_tw/]繁體中文.
+
+   [https://www.ruby-lang.org/en/about/website/]This website is proudly
+   maintained by members of the Ruby community.

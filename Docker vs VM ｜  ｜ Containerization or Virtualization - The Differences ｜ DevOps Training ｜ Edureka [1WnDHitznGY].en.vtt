@@ -1,0 +1,2896 @@
+WEBVTT
+
+
+
+00:00:00.500 --> 00:00:06.550 align:start position:0%
+ 
+[Music]
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+[Music]
+ 
+
+00:00:06.560 --> 00:00:08.990 align:start position:0%
+[Music]
+when<00:00:07.560><c> it</c><00:00:07.710><c> comes</c><00:00:07.950><c> to</c><00:00:08.130><c> cloud</c><00:00:08.340><c> infrastructure</c>
+
+00:00:08.990 --> 00:00:09.000 align:start position:0%
+when it comes to cloud infrastructure
+ 
+
+00:00:09.000 --> 00:00:11.000 align:start position:0%
+when it comes to cloud infrastructure
+virtual<00:00:09.809><c> machine</c><00:00:10.170><c> has</c><00:00:10.469><c> been</c><00:00:10.650><c> the</c><00:00:10.769><c> go-to</c>
+
+00:00:11.000 --> 00:00:11.010 align:start position:0%
+virtual machine has been the go-to
+ 
+
+00:00:11.010 --> 00:00:13.249 align:start position:0%
+virtual machine has been the go-to
+standard<00:00:11.700><c> for</c><00:00:11.880><c> many</c><00:00:12.120><c> of</c><00:00:12.360><c> its</c><00:00:12.480><c> advantages</c>
+
+00:00:13.249 --> 00:00:13.259 align:start position:0%
+standard for many of its advantages
+ 
+
+00:00:13.259 --> 00:00:15.890 align:start position:0%
+standard for many of its advantages
+however<00:00:14.009><c> what</c><00:00:14.820><c> if</c><00:00:14.969><c> you</c><00:00:15.089><c> had</c><00:00:15.269><c> an</c><00:00:15.450><c> alternative</c>
+
+00:00:15.890 --> 00:00:15.900 align:start position:0%
+however what if you had an alternative
+ 
+
+00:00:15.900 --> 00:00:17.570 align:start position:0%
+however what if you had an alternative
+to<00:00:16.170><c> virtual</c><00:00:16.529><c> machine</c><00:00:16.920><c> that</c><00:00:17.220><c> was</c><00:00:17.400><c> more</c>
+
+00:00:17.570 --> 00:00:17.580 align:start position:0%
+to virtual machine that was more
+ 
+
+00:00:17.580 --> 00:00:19.790 align:start position:0%
+to virtual machine that was more
+lightweight<00:00:17.960><c> economical</c><00:00:18.960><c> and</c><00:00:19.109><c> more</c><00:00:19.500><c> scalable</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+lightweight economical and more scalable
+ 
+
+00:00:19.800 --> 00:00:23.150 align:start position:0%
+lightweight economical and more scalable
+that's<00:00:20.699><c> exactly</c><00:00:21.330><c> what</c><00:00:21.510><c> tourists</c><00:00:22.199><c> so</c><00:00:22.830><c> docker</c>
+
+00:00:23.150 --> 00:00:23.160 align:start position:0%
+that's exactly what tourists so docker
+ 
+
+00:00:23.160 --> 00:00:25.099 align:start position:0%
+that's exactly what tourists so docker
+is<00:00:23.430><c> a</c><00:00:23.460><c> container</c><00:00:23.939><c> based</c><00:00:24.119><c> technology</c><00:00:24.869><c> that</c>
+
+00:00:25.099 --> 00:00:25.109 align:start position:0%
+is a container based technology that
+ 
+
+00:00:25.109 --> 00:00:26.960 align:start position:0%
+is a container based technology that
+lets<00:00:25.320><c> users</c><00:00:25.680><c> develop</c><00:00:26.369><c> distributed</c>
+
+00:00:26.960 --> 00:00:26.970 align:start position:0%
+lets users develop distributed
+ 
+
+00:00:26.970 --> 00:00:29.089 align:start position:0%
+lets users develop distributed
+applications<00:00:27.779><c> now</c><00:00:28.410><c> how</c><00:00:28.710><c> are</c><00:00:28.920><c> these</c><00:00:29.039><c> two</c>
+
+00:00:29.089 --> 00:00:29.099 align:start position:0%
+applications now how are these two
+ 
+
+00:00:29.099 --> 00:00:30.980 align:start position:0%
+applications now how are these two
+different<00:00:29.760><c> how</c><00:00:30.000><c> do</c><00:00:30.060><c> they</c><00:00:30.269><c> complement</c><00:00:30.869><c> each</c>
+
+00:00:30.980 --> 00:00:30.990 align:start position:0%
+different how do they complement each
+ 
+
+00:00:30.990 --> 00:00:33.740 align:start position:0%
+different how do they complement each
+other<00:00:31.230><c> so</c><00:00:32.009><c> this</c><00:00:32.279><c> introduces</c><00:00:32.730><c> the</c><00:00:33.180><c> topic</c><00:00:33.420><c> for</c>
+
+00:00:33.740 --> 00:00:33.750 align:start position:0%
+other so this introduces the topic for
+ 
+
+00:00:33.750 --> 00:00:35.900 align:start position:0%
+other so this introduces the topic for
+today's<00:00:34.020><c> session</c><00:00:34.320><c> that</c><00:00:34.800><c> the</c><00:00:34.980><c> stalker</c><00:00:35.309><c> versus</c>
+
+00:00:35.900 --> 00:00:35.910 align:start position:0%
+today's session that the stalker versus
+ 
+
+00:00:35.910 --> 00:00:38.420 align:start position:0%
+today's session that the stalker versus
+virtual<00:00:36.329><c> machine</c><00:00:36.719><c> so</c><00:00:37.290><c> hello</c><00:00:37.649><c> everyone</c><00:00:38.100><c> the</c>
+
+00:00:38.420 --> 00:00:38.430 align:start position:0%
+virtual machine so hello everyone the
+ 
+
+00:00:38.430 --> 00:00:40.490 align:start position:0%
+virtual machine so hello everyone the
+society<00:00:39.000><c> on</c><00:00:39.149><c> behalf</c><00:00:39.450><c> of</c><00:00:39.629><c> Freddy</c><00:00:39.870><c> Rekha</c><00:00:40.350><c> and</c>
+
+00:00:40.490 --> 00:00:40.500 align:start position:0%
+society on behalf of Freddy Rekha and
+ 
+
+00:00:40.500 --> 00:00:42.290 align:start position:0%
+society on behalf of Freddy Rekha and
+I'll<00:00:40.860><c> be</c><00:00:41.010><c> walking</c><00:00:41.129><c> you</c><00:00:41.340><c> to</c><00:00:41.489><c> the</c><00:00:41.640><c> session</c><00:00:42.000><c> on</c>
+
+00:00:42.290 --> 00:00:42.300 align:start position:0%
+I'll be walking you to the session on
+ 
+
+00:00:42.300 --> 00:00:43.970 align:start position:0%
+I'll be walking you to the session on
+docker<00:00:42.660><c> versus</c><00:00:43.110><c> virtual</c><00:00:43.469><c> machine</c>
+
+00:00:43.970 --> 00:00:43.980 align:start position:0%
+docker versus virtual machine
+ 
+
+00:00:43.980 --> 00:00:45.770 align:start position:0%
+docker versus virtual machine
+so<00:00:44.309><c> thank</c><00:00:44.579><c> you</c><00:00:44.760><c> all</c><00:00:44.940><c> the</c><00:00:45.059><c> attendees</c><00:00:45.539><c> for</c>
+
+00:00:45.770 --> 00:00:45.780 align:start position:0%
+so thank you all the attendees for
+ 
+
+00:00:45.780 --> 00:00:47.840 align:start position:0%
+so thank you all the attendees for
+joining<00:00:45.840><c> in</c><00:00:46.289><c> today's</c><00:00:46.559><c> session</c><00:00:47.039><c> so</c><00:00:47.190><c> without</c>
+
+00:00:47.840 --> 00:00:47.850 align:start position:0%
+joining in today's session so without
+ 
+
+00:00:47.850 --> 00:00:49.970 align:start position:0%
+joining in today's session so without
+wasting<00:00:48.420><c> any</c><00:00:48.539><c> further</c><00:00:48.840><c> time</c><00:00:49.140><c> let's</c><00:00:49.620><c> look</c><00:00:49.739><c> into</c>
+
+00:00:49.970 --> 00:00:49.980 align:start position:0%
+wasting any further time let's look into
+ 
+
+00:00:49.980 --> 00:00:52.549 align:start position:0%
+wasting any further time let's look into
+the<00:00:50.100><c> topics</c><00:00:50.550><c> for</c><00:00:50.640><c> today's</c><00:00:50.969><c> session</c><00:00:51.379><c> so</c><00:00:52.379><c> we'll</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+the topics for today's session so we'll
+ 
+
+00:00:52.559 --> 00:00:54.049 align:start position:0%
+the topics for today's session so we'll
+start<00:00:52.829><c> today's</c><00:00:53.160><c> session</c><00:00:53.190><c> by</c><00:00:53.670><c> understanding</c>
+
+00:00:54.049 --> 00:00:54.059 align:start position:0%
+start today's session by understanding
+ 
+
+00:00:54.059 --> 00:00:56.240 align:start position:0%
+start today's session by understanding
+what<00:00:54.600><c> is</c><00:00:54.809><c> a</c><00:00:54.840><c> virtual</c><00:00:55.230><c> machine</c><00:00:55.410><c> and</c><00:00:55.739><c> then</c><00:00:56.070><c> I'll</c>
+
+00:00:56.240 --> 00:00:56.250 align:start position:0%
+what is a virtual machine and then I'll
+ 
+
+00:00:56.250 --> 00:00:58.160 align:start position:0%
+what is a virtual machine and then I'll
+tell<00:00:56.489><c> you</c><00:00:56.550><c> the</c><00:00:56.670><c> benefits</c><00:00:57.300><c> of</c><00:00:57.420><c> virtual</c><00:00:57.809><c> machine</c>
+
+00:00:58.160 --> 00:00:58.170 align:start position:0%
+tell you the benefits of virtual machine
+ 
+
+00:00:58.170 --> 00:01:00.470 align:start position:0%
+tell you the benefits of virtual machine
+after<00:00:58.980><c> understanding</c><00:00:59.219><c> that</c><00:00:59.699><c> I'll</c><00:01:00.210><c> tell</c><00:01:00.420><c> you</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+after understanding that I'll tell you
+ 
+
+00:01:00.480 --> 00:01:02.510 align:start position:0%
+after understanding that I'll tell you
+what<00:01:00.780><c> I'll</c><00:01:00.930><c> talk</c><00:01:01.079><c> are</c><00:01:01.260><c> containers</c><00:01:01.859><c> and</c><00:01:02.039><c> then</c>
+
+00:01:02.510 --> 00:01:02.520 align:start position:0%
+what I'll talk are containers and then
+ 
+
+00:01:02.520 --> 00:01:04.070 align:start position:0%
+what I'll talk are containers and then
+I'll<00:01:02.730><c> tell</c><00:01:02.969><c> you</c><00:01:03.090><c> the</c><00:01:03.210><c> benefits</c><00:01:03.420><c> of</c><00:01:03.809><c> docker</c>
+
+00:01:04.070 --> 00:01:04.080 align:start position:0%
+I'll tell you the benefits of docker
+ 
+
+00:01:04.080 --> 00:01:06.500 align:start position:0%
+I'll tell you the benefits of docker
+containers<00:01:04.739><c> after</c><00:01:05.700><c> an</c><00:01:05.820><c> introduction</c><00:01:06.270><c> of</c>
+
+00:01:06.500 --> 00:01:06.510 align:start position:0%
+containers after an introduction of
+ 
+
+00:01:06.510 --> 00:01:08.149 align:start position:0%
+containers after an introduction of
+virtual<00:01:06.869><c> machine</c><00:01:07.170><c> and</c><00:01:07.320><c> docker</c><00:01:07.500><c> containers</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+virtual machine and docker containers
+ 
+
+00:01:08.159 --> 00:01:09.260 align:start position:0%
+virtual machine and docker containers
+I'll<00:01:08.310><c> tell</c><00:01:08.610><c> you</c><00:01:08.700><c> the</c><00:01:08.820><c> difference</c><00:01:09.210><c> between</c>
+
+00:01:09.260 --> 00:01:09.270 align:start position:0%
+I'll tell you the difference between
+ 
+
+00:01:09.270 --> 00:01:11.149 align:start position:0%
+I'll tell you the difference between
+docker<00:01:09.780><c> containers</c><00:01:10.320><c> and</c><00:01:10.500><c> virtual</c><00:01:10.530><c> machine</c>
+
+00:01:11.149 --> 00:01:11.159 align:start position:0%
+docker containers and virtual machine
+ 
+
+00:01:11.159 --> 00:01:13.820 align:start position:0%
+docker containers and virtual machine
+and<00:01:11.310><c> then</c><00:01:11.939><c> the</c><00:01:12.060><c> uses</c><00:01:12.479><c> of</c><00:01:12.630><c> them</c><00:01:12.840><c> alright</c><00:01:13.590><c> guys</c>
+
+00:01:13.820 --> 00:01:13.830 align:start position:0%
+and then the uses of them alright guys
+ 
+
+00:01:13.830 --> 00:01:17.179 align:start position:0%
+and then the uses of them alright guys
+so<00:01:14.430><c> is</c><00:01:14.549><c> the</c><00:01:14.700><c> agenda</c><00:01:14.939><c> to</c><00:01:15.390><c> everyone</c><00:01:15.860><c> okay</c><00:01:16.860><c> so</c>
+
+00:01:17.179 --> 00:01:17.189 align:start position:0%
+so is the agenda to everyone okay so
+ 
+
+00:01:17.189 --> 00:01:24.320 align:start position:0%
+so is the agenda to everyone okay so
+that's<00:01:17.520><c> great</c><00:01:17.729><c> so</c><00:01:22.729><c> now</c><00:01:23.729><c> let's</c><00:01:24.000><c> get</c><00:01:24.180><c> started</c>
+
+00:01:24.320 --> 00:01:24.330 align:start position:0%
+that's great so now let's get started
+ 
+
+00:01:24.330 --> 00:01:26.090 align:start position:0%
+that's great so now let's get started
+with<00:01:24.689><c> the</c><00:01:24.840><c> first</c><00:01:25.080><c> topic</c><00:01:25.290><c> for</c><00:01:25.619><c> today's</c><00:01:25.860><c> session</c>
+
+00:01:26.090 --> 00:01:26.100 align:start position:0%
+with the first topic for today's session
+ 
+
+00:01:26.100 --> 00:01:28.510 align:start position:0%
+with the first topic for today's session
+that<00:01:26.640><c> is</c><00:01:26.670><c> what</c><00:01:27.150><c> is</c><00:01:27.360><c> virtual</c><00:01:27.900><c> machine</c><00:01:28.290><c> a</c>
+
+00:01:28.510 --> 00:01:28.520 align:start position:0%
+that is what is virtual machine a
+ 
+
+00:01:28.520 --> 00:01:31.160 align:start position:0%
+that is what is virtual machine a
+virtual<00:01:29.520><c> machine</c><00:01:29.729><c> is</c><00:01:30.119><c> an</c><00:01:30.390><c> emulation</c><00:01:30.780><c> of</c><00:01:30.810><c> a</c>
+
+00:01:31.160 --> 00:01:31.170 align:start position:0%
+virtual machine is an emulation of a
+ 
+
+00:01:31.170 --> 00:01:34.219 align:start position:0%
+virtual machine is an emulation of a
+computer<00:01:31.619><c> system</c><00:01:32.009><c> in</c><00:01:32.159><c> simple</c><00:01:33.119><c> terms</c><00:01:33.360><c> it</c><00:01:33.600><c> makes</c>
+
+00:01:34.219 --> 00:01:34.229 align:start position:0%
+computer system in simple terms it makes
+ 
+
+00:01:34.229 --> 00:01:36.230 align:start position:0%
+computer system in simple terms it makes
+it<00:01:34.409><c> possible</c><00:01:34.619><c> to</c><00:01:34.890><c> run</c><00:01:35.100><c> what</c><00:01:35.369><c> appears</c><00:01:35.790><c> to</c><00:01:35.820><c> be</c><00:01:36.090><c> on</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+it possible to run what appears to be on
+ 
+
+00:01:36.240 --> 00:01:38.390 align:start position:0%
+it possible to run what appears to be on
+many<00:01:36.509><c> separate</c><00:01:36.930><c> computers</c><00:01:37.500><c> on</c><00:01:37.710><c> hardware</c><00:01:38.220><c> that</c>
+
+00:01:38.390 --> 00:01:38.400 align:start position:0%
+many separate computers on hardware that
+ 
+
+00:01:38.400 --> 00:01:41.420 align:start position:0%
+many separate computers on hardware that
+is<00:01:38.579><c> actually</c><00:01:39.180><c> one</c><00:01:39.509><c> computer</c><00:01:40.170><c> the</c><00:01:40.860><c> operating</c>
+
+00:01:41.420 --> 00:01:41.430 align:start position:0%
+is actually one computer the operating
+ 
+
+00:01:41.430 --> 00:01:43.370 align:start position:0%
+is actually one computer the operating
+systems<00:01:41.909><c> and</c><00:01:42.030><c> their</c><00:01:42.329><c> applications</c><00:01:43.079><c> share</c>
+
+00:01:43.370 --> 00:01:43.380 align:start position:0%
+systems and their applications share
+ 
+
+00:01:43.380 --> 00:01:45.200 align:start position:0%
+systems and their applications share
+hardware<00:01:43.920><c> resources</c><00:01:44.310><c> from</c><00:01:44.670><c> a</c><00:01:44.759><c> single</c><00:01:45.180><c> host</c>
+
+00:01:45.200 --> 00:01:45.210 align:start position:0%
+hardware resources from a single host
+ 
+
+00:01:45.210 --> 00:01:47.539 align:start position:0%
+hardware resources from a single host
+server<00:01:45.750><c> or</c><00:01:46.020><c> from</c><00:01:46.320><c> a</c><00:01:46.409><c> pod</c><00:01:46.680><c> of</c><00:01:46.710><c> host</c><00:01:47.100><c> servers</c>
+
+00:01:47.539 --> 00:01:47.549 align:start position:0%
+server or from a pod of host servers
+ 
+
+00:01:47.549 --> 00:01:49.940 align:start position:0%
+server or from a pod of host servers
+each<00:01:48.299><c> virtual</c><00:01:48.689><c> machine</c><00:01:48.899><c> requires</c><00:01:49.530><c> its</c><00:01:49.890><c> own</c>
+
+00:01:49.940 --> 00:01:49.950 align:start position:0%
+each virtual machine requires its own
+ 
+
+00:01:49.950 --> 00:01:52.639 align:start position:0%
+each virtual machine requires its own
+underlying<00:01:50.790><c> operating</c><00:01:51.210><c> system</c><00:01:51.329><c> and</c><00:01:51.899><c> then</c><00:01:52.290><c> the</c>
+
+00:01:52.639 --> 00:01:52.649 align:start position:0%
+underlying operating system and then the
+ 
+
+00:01:52.649 --> 00:01:55.340 align:start position:0%
+underlying operating system and then the
+hardware<00:01:53.100><c> is</c><00:01:53.250><c> virtualized</c><00:01:53.880><c> not</c><00:01:54.869><c> only</c><00:01:55.140><c> this</c>
+
+00:01:55.340 --> 00:01:55.350 align:start position:0%
+hardware is virtualized not only this
+ 
+
+00:01:55.350 --> 00:01:57.649 align:start position:0%
+hardware is virtualized not only this
+but<00:01:55.920><c> a</c><00:01:55.950><c> hypervisor</c><00:01:56.549><c> or</c><00:01:56.909><c> a</c><00:01:57.000><c> virtual</c><00:01:57.479><c> machine</c>
+
+00:01:57.649 --> 00:01:57.659 align:start position:0%
+but a hypervisor or a virtual machine
+ 
+
+00:01:57.659 --> 00:02:00.109 align:start position:0%
+but a hypervisor or a virtual machine
+monitor<00:01:58.320><c> is</c><00:01:58.469><c> a</c><00:01:58.530><c> software</c><00:01:59.189><c> firmware</c><00:01:59.729><c> or</c><00:02:00.060><c> a</c>
+
+00:02:00.109 --> 00:02:00.119 align:start position:0%
+monitor is a software firmware or a
+ 
+
+00:02:00.119 --> 00:02:02.780 align:start position:0%
+monitor is a software firmware or a
+hardware<00:02:00.570><c> that</c><00:02:01.259><c> creates</c><00:02:01.740><c> and</c><00:02:01.890><c> runs</c><00:02:02.280><c> virtual</c>
+
+00:02:02.780 --> 00:02:02.790 align:start position:0%
+hardware that creates and runs virtual
+ 
+
+00:02:02.790 --> 00:02:05.120 align:start position:0%
+hardware that creates and runs virtual
+machines<00:02:03.180><c> it</c><00:02:03.420><c> sits</c><00:02:04.229><c> between</c><00:02:04.469><c> the</c><00:02:04.680><c> hardware</c>
+
+00:02:05.120 --> 00:02:05.130 align:start position:0%
+machines it sits between the hardware
+ 
+
+00:02:05.130 --> 00:02:07.100 align:start position:0%
+machines it sits between the hardware
+and<00:02:05.430><c> the</c><00:02:05.610><c> virtual</c><00:02:05.969><c> machine</c><00:02:06.360><c> and</c><00:02:06.570><c> is</c><00:02:06.810><c> necessary</c>
+
+00:02:07.100 --> 00:02:07.110 align:start position:0%
+and the virtual machine and is necessary
+ 
+
+00:02:07.110 --> 00:02:09.710 align:start position:0%
+and the virtual machine and is necessary
+to<00:02:07.619><c> virtualize</c><00:02:08.039><c> the</c><00:02:08.099><c> server</c><00:02:08.550><c> since</c><00:02:09.509><c> the</c>
+
+00:02:09.710 --> 00:02:09.720 align:start position:0%
+to virtualize the server since the
+ 
+
+00:02:09.720 --> 00:02:11.690 align:start position:0%
+to virtualize the server since the
+advent<00:02:09.899><c> of</c><00:02:10.319><c> affordable</c><00:02:10.700><c> virtualization</c>
+
+00:02:11.690 --> 00:02:11.700 align:start position:0%
+advent of affordable virtualization
+ 
+
+00:02:11.700 --> 00:02:13.210 align:start position:0%
+advent of affordable virtualization
+technology<00:02:12.390><c> I</c>
+
+00:02:13.210 --> 00:02:13.220 align:start position:0%
+technology I
+ 
+
+00:02:13.220 --> 00:02:15.070 align:start position:0%
+technology I
+departments<00:02:13.940><c> have</c><00:02:14.060><c> embraced</c><00:02:14.630><c> virtual</c>
+
+00:02:15.070 --> 00:02:15.080 align:start position:0%
+departments have embraced virtual
+ 
+
+00:02:15.080 --> 00:02:17.320 align:start position:0%
+departments have embraced virtual
+machines<00:02:15.500><c> as</c><00:02:15.680><c> the</c><00:02:15.950><c> way</c><00:02:16.130><c> to</c><00:02:16.190><c> lower</c><00:02:16.550><c> cost</c><00:02:17.000><c> and</c>
+
+00:02:17.320 --> 00:02:17.330 align:start position:0%
+machines as the way to lower cost and
+ 
+
+00:02:17.330 --> 00:02:20.590 align:start position:0%
+machines as the way to lower cost and
+increase<00:02:17.660><c> efficiencies</c><00:02:18.700><c> now</c><00:02:19.700><c> with</c><00:02:20.240><c> the</c><00:02:20.390><c> note</c>
+
+00:02:20.590 --> 00:02:20.600 align:start position:0%
+increase efficiencies now with the note
+ 
+
+00:02:20.600 --> 00:02:22.810 align:start position:0%
+increase efficiencies now with the note
+of<00:02:20.780><c> this</c><00:02:20.990><c> let</c><00:02:21.500><c> me</c><00:02:21.680><c> tell</c><00:02:21.860><c> you</c><00:02:21.950><c> the</c><00:02:22.100><c> benefits</c><00:02:22.340><c> of</c>
+
+00:02:22.810 --> 00:02:22.820 align:start position:0%
+of this let me tell you the benefits of
+ 
+
+00:02:22.820 --> 00:02:25.930 align:start position:0%
+of this let me tell you the benefits of
+virtual<00:02:23.210><c> machines</c><00:02:23.800><c> so</c><00:02:24.800><c> the</c><00:02:25.280><c> benefits</c><00:02:25.790><c> of</c>
+
+00:02:25.930 --> 00:02:25.940 align:start position:0%
+virtual machines so the benefits of
+ 
+
+00:02:25.940 --> 00:02:28.030 align:start position:0%
+virtual machines so the benefits of
+virtual<00:02:26.300><c> machines</c><00:02:26.690><c> are</c><00:02:26.900><c> mainly</c><00:02:27.440><c> all</c><00:02:27.710><c> the</c>
+
+00:02:28.030 --> 00:02:28.040 align:start position:0%
+virtual machines are mainly all the
+ 
+
+00:02:28.040 --> 00:02:30.040 align:start position:0%
+virtual machines are mainly all the
+operating<00:02:28.580><c> system</c><00:02:28.940><c> resources</c><00:02:29.090><c> are</c><00:02:29.750><c> available</c>
+
+00:02:30.040 --> 00:02:30.050 align:start position:0%
+operating system resources are available
+ 
+
+00:02:30.050 --> 00:02:32.260 align:start position:0%
+operating system resources are available
+to<00:02:30.560><c> all</c><00:02:30.740><c> the</c><00:02:30.770><c> applications</c><00:02:31.240><c> they</c><00:02:32.240><c> have</c>
+
+00:02:32.260 --> 00:02:32.270 align:start position:0%
+to all the applications they have
+ 
+
+00:02:32.270 --> 00:02:34.420 align:start position:0%
+to all the applications they have
+established<00:02:32.710><c> management</c><00:02:33.710><c> and</c><00:02:33.860><c> security</c>
+
+00:02:34.420 --> 00:02:34.430 align:start position:0%
+established management and security
+ 
+
+00:02:34.430 --> 00:02:36.310 align:start position:0%
+established management and security
+tools<00:02:34.670><c> and</c><00:02:35.210><c> not</c><00:02:35.420><c> only</c><00:02:35.540><c> this</c><00:02:35.840><c> but</c><00:02:35.900><c> they're</c>
+
+00:02:36.310 --> 00:02:36.320 align:start position:0%
+tools and not only this but they're
+ 
+
+00:02:36.320 --> 00:02:39.250 align:start position:0%
+tools and not only this but they're
+better<00:02:36.590><c> known</c><00:02:36.890><c> for</c><00:02:37.160><c> security</c><00:02:37.790><c> controls</c><00:02:38.260><c> now</c>
+
+00:02:39.250 --> 00:02:39.260 align:start position:0%
+better known for security controls now
+ 
+
+00:02:39.260 --> 00:02:41.410 align:start position:0%
+better known for security controls now
+who<00:02:39.980><c> are</c><00:02:40.130><c> the</c><00:02:40.250><c> popular</c><00:02:40.760><c> virtual</c><00:02:41.150><c> machine</c>
+
+00:02:41.410 --> 00:02:41.420 align:start position:0%
+who are the popular virtual machine
+ 
+
+00:02:41.420 --> 00:02:42.190 align:start position:0%
+who are the popular virtual machine
+providers
+
+00:02:42.190 --> 00:02:42.200 align:start position:0%
+providers
+ 
+
+00:02:42.200 --> 00:02:43.810 align:start position:0%
+providers
+well<00:02:42.590><c> the</c><00:02:42.740><c> popular</c><00:02:43.160><c> virtual</c><00:02:43.520><c> machine</c>
+
+00:02:43.810 --> 00:02:43.820 align:start position:0%
+well the popular virtual machine
+ 
+
+00:02:43.820 --> 00:02:47.740 align:start position:0%
+well the popular virtual machine
+providers<00:02:44.390><c> are</c><00:02:44.570><c> vmware</c><00:02:45.380><c> k</c><00:02:45.860><c> vm</c><00:02:46.130><c> virtualbox</c><00:02:46.750><c> Xen</c>
+
+00:02:47.740 --> 00:02:47.750 align:start position:0%
+providers are vmware k vm virtualbox Xen
+ 
+
+00:02:47.750 --> 00:02:54.820 align:start position:0%
+providers are vmware k vm virtualbox Xen
+and<00:02:47.990><c> hyper-v</c><00:02:53.290><c> so</c><00:02:54.290><c> now</c><00:02:54.440><c> that</c><00:02:54.500><c> you've</c>
+
+00:02:54.820 --> 00:02:54.830 align:start position:0%
+and hyper-v so now that you've
+ 
+
+00:02:54.830 --> 00:02:56.470 align:start position:0%
+and hyper-v so now that you've
+understood<00:02:55.070><c> what</c><00:02:55.580><c> is</c><00:02:55.700><c> the</c><00:02:55.790><c> virtual</c><00:02:56.090><c> machine</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+understood what is the virtual machine
+ 
+
+00:02:56.480 --> 00:02:58.750 align:start position:0%
+understood what is the virtual machine
+let<00:02:56.900><c> me</c><00:02:57.080><c> tell</c><00:02:57.320><c> you</c><00:02:57.470><c> what</c><00:02:57.709><c> docker</c><00:02:58.100><c> containers</c>
+
+00:02:58.750 --> 00:02:58.760 align:start position:0%
+let me tell you what docker containers
+ 
+
+00:02:58.760 --> 00:03:01.720 align:start position:0%
+let me tell you what docker containers
+are<00:02:58.970><c> so</c><00:02:59.840><c> as</c><00:02:59.990><c> we</c><00:03:00.200><c> all</c><00:03:00.380><c> know</c><00:03:00.680><c> that</c><00:03:01.010><c> docker</c><00:03:01.340><c> is</c><00:03:01.580><c> the</c>
+
+00:03:01.720 --> 00:03:01.730 align:start position:0%
+are so as we all know that docker is the
+ 
+
+00:03:01.730 --> 00:03:03.760 align:start position:0%
+are so as we all know that docker is the
+company<00:03:02.209><c> driving</c><00:03:02.690><c> the</c><00:03:02.840><c> container</c><00:03:03.260><c> movement</c>
+
+00:03:03.760 --> 00:03:03.770 align:start position:0%
+company driving the container movement
+ 
+
+00:03:03.770 --> 00:03:06.220 align:start position:0%
+company driving the container movement
+and<00:03:03.890><c> the</c><00:03:04.340><c> only</c><00:03:04.580><c> container</c><00:03:05.150><c> platform</c><00:03:05.750><c> provided</c>
+
+00:03:06.220 --> 00:03:06.230 align:start position:0%
+and the only container platform provided
+ 
+
+00:03:06.230 --> 00:03:08.410 align:start position:0%
+and the only container platform provided
+to<00:03:06.350><c> address</c><00:03:06.740><c> every</c><00:03:07.190><c> application</c><00:03:07.880><c> across</c><00:03:08.150><c> the</c>
+
+00:03:08.410 --> 00:03:08.420 align:start position:0%
+to address every application across the
+ 
+
+00:03:08.420 --> 00:03:10.870 align:start position:0%
+to address every application across the
+hybrid<00:03:08.780><c> cloud</c><00:03:08.990><c> with</c><00:03:09.740><c> containers</c><00:03:10.370><c> instead</c><00:03:10.730><c> of</c>
+
+00:03:10.870 --> 00:03:10.880 align:start position:0%
+hybrid cloud with containers instead of
+ 
+
+00:03:10.880 --> 00:03:12.580 align:start position:0%
+hybrid cloud with containers instead of
+virtualizing<00:03:11.540><c> the</c><00:03:11.570><c> underlying</c><00:03:12.110><c> computer</c>
+
+00:03:12.580 --> 00:03:12.590 align:start position:0%
+virtualizing the underlying computer
+ 
+
+00:03:12.590 --> 00:03:14.710 align:start position:0%
+virtualizing the underlying computer
+like<00:03:12.800><c> a</c><00:03:12.830><c> virtual</c><00:03:13.130><c> machine</c><00:03:13.520><c> only</c><00:03:14.510><c> the</c>
+
+00:03:14.710 --> 00:03:14.720 align:start position:0%
+like a virtual machine only the
+ 
+
+00:03:14.720 --> 00:03:16.650 align:start position:0%
+like a virtual machine only the
+operating<00:03:15.320><c> system</c><00:03:15.740><c> is</c><00:03:15.890><c> virtualized</c>
+
+00:03:16.650 --> 00:03:16.660 align:start position:0%
+operating system is virtualized
+ 
+
+00:03:16.660 --> 00:03:19.120 align:start position:0%
+operating system is virtualized
+container<00:03:17.660><c> sit</c><00:03:17.930><c> on</c><00:03:18.050><c> the</c><00:03:18.170><c> top</c><00:03:18.440><c> of</c><00:03:18.590><c> a</c><00:03:18.680><c> physical</c>
+
+00:03:19.120 --> 00:03:19.130 align:start position:0%
+container sit on the top of a physical
+ 
+
+00:03:19.130 --> 00:03:21.580 align:start position:0%
+container sit on the top of a physical
+server<00:03:19.400><c> and</c><00:03:19.760><c> each</c><00:03:20.180><c> container</c><00:03:20.750><c> shares</c><00:03:21.380><c> the</c>
+
+00:03:21.580 --> 00:03:21.590 align:start position:0%
+server and each container shares the
+ 
+
+00:03:21.590 --> 00:03:23.710 align:start position:0%
+server and each container shares the
+host<00:03:21.830><c> operating</c><00:03:22.070><c> system</c><00:03:22.340><c> kernel</c><00:03:23.060><c> and</c><00:03:23.180><c> usually</c>
+
+00:03:23.710 --> 00:03:23.720 align:start position:0%
+host operating system kernel and usually
+ 
+
+00:03:23.720 --> 00:03:26.710 align:start position:0%
+host operating system kernel and usually
+the<00:03:23.840><c> binaries</c><00:03:24.380><c> and</c><00:03:24.650><c> libraries</c><00:03:25.190><c> to</c><00:03:25.720><c> now</c>
+
+00:03:26.710 --> 00:03:26.720 align:start position:0%
+the binaries and libraries to now
+ 
+
+00:03:26.720 --> 00:03:28.690 align:start position:0%
+the binaries and libraries to now
+sharing<00:03:27.709><c> the</c><00:03:27.830><c> operating</c><00:03:28.250><c> system</c><00:03:28.580><c> resources</c>
+
+00:03:28.690 --> 00:03:28.700 align:start position:0%
+sharing the operating system resources
+ 
+
+00:03:28.700 --> 00:03:31.870 align:start position:0%
+sharing the operating system resources
+such<00:03:29.300><c> as</c><00:03:29.330><c> libraries</c><00:03:30.280><c> significantly</c><00:03:31.280><c> reduces</c>
+
+00:03:31.870 --> 00:03:31.880 align:start position:0%
+such as libraries significantly reduces
+ 
+
+00:03:31.880 --> 00:03:33.699 align:start position:0%
+such as libraries significantly reduces
+the<00:03:31.940><c> need</c><00:03:32.239><c> to</c><00:03:32.480><c> reproduce</c><00:03:32.840><c> the</c><00:03:33.200><c> operating</c>
+
+00:03:33.699 --> 00:03:33.709 align:start position:0%
+the need to reproduce the operating
+ 
+
+00:03:33.709 --> 00:03:35.920 align:start position:0%
+the need to reproduce the operating
+system<00:03:34.040><c> code</c><00:03:34.250><c> and</c><00:03:34.519><c> means</c><00:03:35.150><c> that</c><00:03:35.300><c> the</c><00:03:35.570><c> server</c>
+
+00:03:35.920 --> 00:03:35.930 align:start position:0%
+system code and means that the server
+ 
+
+00:03:35.930 --> 00:03:38.770 align:start position:0%
+system code and means that the server
+can<00:03:36.140><c> run</c><00:03:36.380><c> multiple</c><00:03:36.709><c> workloads</c><00:03:37.340><c> with</c><00:03:38.209><c> a</c><00:03:38.239><c> single</c>
+
+00:03:38.770 --> 00:03:38.780 align:start position:0%
+can run multiple workloads with a single
+ 
+
+00:03:38.780 --> 00:03:41.620 align:start position:0%
+can run multiple workloads with a single
+operating<00:03:39.260><c> system</c><00:03:39.680><c> installation</c><00:03:40.630><c> containers</c>
+
+00:03:41.620 --> 00:03:41.630 align:start position:0%
+operating system installation containers
+ 
+
+00:03:41.630 --> 00:03:44.020 align:start position:0%
+operating system installation containers
+are<00:03:41.870><c> thus</c><00:03:42.110><c> exceptionally</c><00:03:42.920><c> light</c><00:03:43.280><c> and</c><00:03:43.549><c> they're</c>
+
+00:03:44.020 --> 00:03:44.030 align:start position:0%
+are thus exceptionally light and they're
+ 
+
+00:03:44.030 --> 00:03:46.449 align:start position:0%
+are thus exceptionally light and they're
+only<00:03:44.269><c> megabytes</c><00:03:45.049><c> in</c><00:03:45.290><c> size</c><00:03:45.320><c> and</c><00:03:45.799><c> they</c><00:03:46.250><c> just</c>
+
+00:03:46.449 --> 00:03:46.459 align:start position:0%
+only megabytes in size and they just
+ 
+
+00:03:46.459 --> 00:03:48.880 align:start position:0%
+only megabytes in size and they just
+take<00:03:46.700><c> few</c><00:03:47.000><c> seconds</c><00:03:47.390><c> to</c><00:03:47.510><c> start</c><00:03:47.810><c> and</c><00:03:48.080><c> contrast</c>
+
+00:03:48.880 --> 00:03:48.890 align:start position:0%
+take few seconds to start and contrast
+ 
+
+00:03:48.890 --> 00:03:51.190 align:start position:0%
+take few seconds to start and contrast
+with<00:03:49.070><c> that</c><00:03:49.130><c> virtual</c><00:03:50.090><c> machines</c><00:03:50.450><c> take</c><00:03:50.750><c> minutes</c>
+
+00:03:51.190 --> 00:03:51.200 align:start position:0%
+with that virtual machines take minutes
+ 
+
+00:03:51.200 --> 00:03:52.870 align:start position:0%
+with that virtual machines take minutes
+to<00:03:51.440><c> run</c><00:03:51.620><c> and</c><00:03:51.830><c> are</c><00:03:52.130><c> an</c><00:03:52.310><c> order</c><00:03:52.549><c> of</c><00:03:52.700><c> magnitude</c>
+
+00:03:52.870 --> 00:03:52.880 align:start position:0%
+to run and are an order of magnitude
+ 
+
+00:03:52.880 --> 00:03:55.810 align:start position:0%
+to run and are an order of magnitude
+larger<00:03:53.480><c> than</c><00:03:53.690><c> the</c><00:03:53.840><c> equivalent</c><00:03:54.410><c> container</c><00:03:54.830><c> all</c>
+
+00:03:55.810 --> 00:03:55.820 align:start position:0%
+larger than the equivalent container all
+ 
+
+00:03:55.820 --> 00:03:57.729 align:start position:0%
+larger than the equivalent container all
+that<00:03:56.120><c> the</c><00:03:56.239><c> container</c><00:03:56.630><c> requires</c><00:03:57.080><c> is</c><00:03:57.290><c> enough</c><00:03:57.650><c> of</c>
+
+00:03:57.729 --> 00:03:57.739 align:start position:0%
+that the container requires is enough of
+ 
+
+00:03:57.739 --> 00:03:59.830 align:start position:0%
+that the container requires is enough of
+an<00:03:57.890><c> operating</c><00:03:58.340><c> system</c><00:03:58.549><c> supporting</c><00:03:59.360><c> programs</c>
+
+00:03:59.830 --> 00:03:59.840 align:start position:0%
+an operating system supporting programs
+ 
+
+00:03:59.840 --> 00:04:01.960 align:start position:0%
+an operating system supporting programs
+and<00:04:00.110><c> libraries</c><00:04:00.590><c> and</c><00:04:00.739><c> a</c><00:04:00.980><c> system</c><00:04:01.370><c> resource</c><00:04:01.790><c> to</c>
+
+00:04:01.960 --> 00:04:01.970 align:start position:0%
+and libraries and a system resource to
+ 
+
+00:04:01.970 --> 00:04:04.750 align:start position:0%
+and libraries and a system resource to
+run<00:04:02.180><c> a</c><00:04:02.209><c> specific</c><00:04:02.420><c> program</c><00:04:03.280><c> what</c><00:04:04.280><c> this</c><00:04:04.489><c> means</c>
+
+00:04:04.750 --> 00:04:04.760 align:start position:0%
+run a specific program what this means
+ 
+
+00:04:04.760 --> 00:04:07.240 align:start position:0%
+run a specific program what this means
+is<00:04:05.000><c> that</c><00:04:05.030><c> in</c><00:04:05.450><c> practice</c><00:04:06.290><c> you</c><00:04:06.470><c> can</c><00:04:06.650><c> put</c><00:04:06.799><c> two</c><00:04:07.040><c> to</c>
+
+00:04:07.240 --> 00:04:07.250 align:start position:0%
+is that in practice you can put two to
+ 
+
+00:04:07.250 --> 00:04:09.190 align:start position:0%
+is that in practice you can put two to
+three<00:04:07.489><c> as</c><00:04:07.700><c> many</c><00:04:08.000><c> as</c><00:04:08.150><c> applications</c><00:04:08.959><c> in</c><00:04:09.110><c> a</c>
+
+00:04:09.190 --> 00:04:09.200 align:start position:0%
+three as many as applications in a
+ 
+
+00:04:09.200 --> 00:04:11.410 align:start position:0%
+three as many as applications in a
+single<00:04:09.620><c> server</c><00:04:09.950><c> with</c><00:04:10.580><c> containers</c><00:04:11.060><c> that</c><00:04:11.360><c> you</c>
+
+00:04:11.410 --> 00:04:11.420 align:start position:0%
+single server with containers that you
+ 
+
+00:04:11.420 --> 00:04:13.840 align:start position:0%
+single server with containers that you
+can<00:04:11.780><c> with</c><00:04:12.019><c> a</c><00:04:12.049><c> virtual</c><00:04:12.470><c> machine</c><00:04:12.650><c> in</c><00:04:13.010><c> addition</c>
+
+00:04:13.840 --> 00:04:13.850 align:start position:0%
+can with a virtual machine in addition
+ 
+
+00:04:13.850 --> 00:04:15.880 align:start position:0%
+can with a virtual machine in addition
+to<00:04:13.970><c> this</c><00:04:14.180><c> with</c><00:04:14.660><c> containers</c><00:04:15.110><c> you</c><00:04:15.410><c> can</c><00:04:15.560><c> create</c><00:04:15.799><c> a</c>
+
+00:04:15.880 --> 00:04:15.890 align:start position:0%
+to this with containers you can create a
+ 
+
+00:04:15.890 --> 00:04:17.469 align:start position:0%
+to this with containers you can create a
+portable<00:04:16.400><c> consistent</c><00:04:17.060><c> operating</c>
+
+00:04:17.469 --> 00:04:17.479 align:start position:0%
+portable consistent operating
+ 
+
+00:04:17.479 --> 00:04:19.599 align:start position:0%
+portable consistent operating
+environments<00:04:18.169><c> for</c><00:04:18.320><c> development</c><00:04:18.979><c> testing</c><00:04:19.400><c> and</c>
+
+00:04:19.599 --> 00:04:19.609 align:start position:0%
+environments for development testing and
+ 
+
+00:04:19.609 --> 00:04:21.519 align:start position:0%
+environments for development testing and
+deployment
+
+00:04:21.519 --> 00:04:21.529 align:start position:0%
+deployment
+ 
+
+00:04:21.529 --> 00:04:24.899 align:start position:0%
+deployment
+[Music]
+
+00:04:24.899 --> 00:04:24.909 align:start position:0%
+ 
+ 
+
+00:04:24.909 --> 00:04:26.980 align:start position:0%
+ 
+so<00:04:25.909><c> now</c><00:04:26.060><c> that</c><00:04:26.120><c> I've</c><00:04:26.389><c> told</c><00:04:26.569><c> you</c><00:04:26.780><c> about</c>
+
+00:04:26.980 --> 00:04:26.990 align:start position:0%
+so now that I've told you about
+ 
+
+00:04:26.990 --> 00:04:29.559 align:start position:0%
+so now that I've told you about
+containers<00:04:27.830><c> let</c><00:04:28.550><c> me</c><00:04:28.699><c> tell</c><00:04:28.849><c> you</c><00:04:28.939><c> the</c><00:04:29.090><c> types</c><00:04:29.360><c> of</c>
+
+00:04:29.559 --> 00:04:29.569 align:start position:0%
+containers let me tell you the types of
+ 
+
+00:04:29.569 --> 00:04:31.839 align:start position:0%
+containers let me tell you the types of
+containers<00:04:29.960><c> so</c><00:04:30.860><c> mainly</c><00:04:31.280><c> there</c><00:04:31.520><c> are</c><00:04:31.610><c> two</c>
+
+00:04:31.839 --> 00:04:31.849 align:start position:0%
+containers so mainly there are two
+ 
+
+00:04:31.849 --> 00:04:33.730 align:start position:0%
+containers so mainly there are two
+different<00:04:32.240><c> types</c><00:04:32.449><c> of</c><00:04:32.599><c> containers</c><00:04:32.990><c> that</c><00:04:33.590><c> is</c>
+
+00:04:33.730 --> 00:04:33.740 align:start position:0%
+different types of containers that is
+ 
+
+00:04:33.740 --> 00:04:35.439 align:start position:0%
+different types of containers that is
+the<00:04:33.860><c> Linux</c><00:04:34.219><c> container</c><00:04:34.639><c> and</c><00:04:34.939><c> the</c><00:04:35.150><c> docker</c>
+
+00:04:35.439 --> 00:04:35.449 align:start position:0%
+the Linux container and the docker
+ 
+
+00:04:35.449 --> 00:04:38.020 align:start position:0%
+the Linux container and the docker
+containers<00:04:36.110><c> so</c><00:04:36.770><c> the</c><00:04:36.889><c> Linux</c><00:04:37.250><c> container</c><00:04:37.729><c> is</c><00:04:37.969><c> a</c>
+
+00:04:38.020 --> 00:04:38.030 align:start position:0%
+containers so the Linux container is a
+ 
+
+00:04:38.030 --> 00:04:39.580 align:start position:0%
+containers so the Linux container is a
+Linux<00:04:38.509><c> operating</c><00:04:38.689><c> system</c><00:04:39.409><c> level</c>
+
+00:04:39.580 --> 00:04:39.590 align:start position:0%
+Linux operating system level
+ 
+
+00:04:39.590 --> 00:04:41.770 align:start position:0%
+Linux operating system level
+virtualization<00:04:40.250><c> method</c><00:04:40.939><c> for</c><00:04:41.479><c> running</c>
+
+00:04:41.770 --> 00:04:41.780 align:start position:0%
+virtualization method for running
+ 
+
+00:04:41.780 --> 00:04:44.080 align:start position:0%
+virtualization method for running
+multiple<00:04:42.469><c> isolated</c><00:04:42.710><c> Linux</c><00:04:43.400><c> systems</c><00:04:43.849><c> on</c><00:04:44.030><c> a</c>
+
+00:04:44.080 --> 00:04:44.090 align:start position:0%
+multiple isolated Linux systems on a
+ 
+
+00:04:44.090 --> 00:04:47.170 align:start position:0%
+multiple isolated Linux systems on a
+single<00:04:44.599><c> host</c><00:04:44.780><c> where</c><00:04:45.710><c> ask</c><00:04:45.889><c> doc</c><00:04:46.520><c> has</c><00:04:46.729><c> started</c><00:04:47.030><c> as</c>
+
+00:04:47.170 --> 00:04:47.180 align:start position:0%
+single host where ask doc has started as
+ 
+
+00:04:47.180 --> 00:04:48.939 align:start position:0%
+single host where ask doc has started as
+a<00:04:47.210><c> project</c><00:04:47.509><c> to</c><00:04:47.810><c> build</c><00:04:47.960><c> single</c><00:04:48.409><c> application</c>
+
+00:04:48.939 --> 00:04:48.949 align:start position:0%
+a project to build single application
+ 
+
+00:04:48.949 --> 00:04:51.429 align:start position:0%
+a project to build single application
+Linux<00:04:49.490><c> containers</c><00:04:50.090><c> introducing</c><00:04:51.050><c> several</c>
+
+00:04:51.429 --> 00:04:51.439 align:start position:0%
+Linux containers introducing several
+ 
+
+00:04:51.439 --> 00:04:53.320 align:start position:0%
+Linux containers introducing several
+changes<00:04:51.740><c> to</c><00:04:51.919><c> the</c><00:04:52.039><c> Linux</c><00:04:52.430><c> containers</c><00:04:53.030><c> that</c>
+
+00:04:53.320 --> 00:04:53.330 align:start position:0%
+changes to the Linux containers that
+ 
+
+00:04:53.330 --> 00:04:55.089 align:start position:0%
+changes to the Linux containers that
+make<00:04:53.539><c> containers</c><00:04:54.110><c> more</c><00:04:54.319><c> portable</c><00:04:54.919><c> and</c>
+
+00:04:55.089 --> 00:04:55.099 align:start position:0%
+make containers more portable and
+ 
+
+00:04:55.099 --> 00:04:58.390 align:start position:0%
+make containers more portable and
+flexible<00:04:55.699><c> to</c><00:04:55.849><c> use</c><00:04:56.080><c> at</c><00:04:57.080><c> a</c><00:04:57.139><c> high</c><00:04:57.440><c> level</c><00:04:57.469><c> we</c><00:04:58.219><c> can</c>
+
+00:04:58.390 --> 00:04:58.400 align:start position:0%
+flexible to use at a high level we can
+ 
+
+00:04:58.400 --> 00:05:00.850 align:start position:0%
+flexible to use at a high level we can
+say<00:04:58.610><c> that</c><00:04:58.879><c> docker</c><00:04:59.270><c> is</c><00:04:59.539><c> a</c><00:04:59.569><c> Linux</c><00:04:59.990><c> utility</c><00:05:00.560><c> that</c>
+
+00:05:00.850 --> 00:05:00.860 align:start position:0%
+say that docker is a Linux utility that
+ 
+
+00:05:00.860 --> 00:05:03.219 align:start position:0%
+say that docker is a Linux utility that
+can<00:05:01.039><c> efficiently</c><00:05:01.669><c> create</c><00:05:02.090><c> ship</c><00:05:02.659><c> and</c><00:05:02.900><c> run</c>
+
+00:05:03.219 --> 00:05:03.229 align:start position:0%
+can efficiently create ship and run
+ 
+
+00:05:03.229 --> 00:05:06.279 align:start position:0%
+can efficiently create ship and run
+containers<00:05:04.030><c> so</c><00:05:05.030><c> now</c><00:05:05.419><c> that</c><00:05:05.479><c> I've</c><00:05:05.780><c> told</c><00:05:05.990><c> you</c><00:05:06.169><c> the</c>
+
+00:05:06.279 --> 00:05:06.289 align:start position:0%
+containers so now that I've told you the
+ 
+
+00:05:06.289 --> 00:05:08.140 align:start position:0%
+containers so now that I've told you the
+different<00:05:06.620><c> types</c><00:05:06.740><c> of</c><00:05:06.949><c> containers</c><00:05:07.580><c> let</c><00:05:07.969><c> me</c>
+
+00:05:08.140 --> 00:05:08.150 align:start position:0%
+different types of containers let me
+ 
+
+00:05:08.150 --> 00:05:10.839 align:start position:0%
+different types of containers let me
+tell<00:05:08.300><c> you</c><00:05:08.419><c> the</c><00:05:08.569><c> benefits</c><00:05:08.810><c> of</c><00:05:09.229><c> containers</c><00:05:09.849><c> so</c>
+
+00:05:10.839 --> 00:05:10.849 align:start position:0%
+tell you the benefits of containers so
+ 
+
+00:05:10.849 --> 00:05:13.480 align:start position:0%
+tell you the benefits of containers so
+containers<00:05:11.780><c> offer</c><00:05:12.020><c> reduced</c><00:05:12.469><c> IT</c><00:05:13.009><c> management</c>
+
+00:05:13.480 --> 00:05:13.490 align:start position:0%
+containers offer reduced IT management
+ 
+
+00:05:13.490 --> 00:05:15.850 align:start position:0%
+containers offer reduced IT management
+resources<00:05:14.120><c> they</c><00:05:14.750><c> reduce</c><00:05:15.139><c> the</c><00:05:15.349><c> size</c><00:05:15.590><c> of</c><00:05:15.770><c> the</c>
+
+00:05:15.850 --> 00:05:15.860 align:start position:0%
+resources they reduce the size of the
+ 
+
+00:05:15.860 --> 00:05:17.890 align:start position:0%
+resources they reduce the size of the
+snapshots<00:05:16.460><c> they</c><00:05:16.969><c> are</c><00:05:17.029><c> used</c><00:05:17.300><c> in</c><00:05:17.569><c> quicker</c>
+
+00:05:17.890 --> 00:05:17.900 align:start position:0%
+snapshots they are used in quicker
+ 
+
+00:05:17.900 --> 00:05:20.080 align:start position:0%
+snapshots they are used in quicker
+spinning<00:05:18.379><c> of</c><00:05:18.500><c> apps</c><00:05:18.770><c> and</c><00:05:19.159><c> they</c><00:05:19.520><c> also</c><00:05:19.729><c> make</c><00:05:20.060><c> sure</c>
+
+00:05:20.080 --> 00:05:20.090 align:start position:0%
+spinning of apps and they also make sure
+ 
+
+00:05:20.090 --> 00:05:22.390 align:start position:0%
+spinning of apps and they also make sure
+that<00:05:20.569><c> the</c><00:05:20.689><c> security</c><00:05:20.870><c> updates</c><00:05:21.710><c> are</c><00:05:21.919><c> reduced</c>
+
+00:05:22.390 --> 00:05:22.400 align:start position:0%
+that the security updates are reduced
+ 
+
+00:05:22.400 --> 00:05:24.790 align:start position:0%
+that the security updates are reduced
+and<00:05:22.580><c> simplified</c><00:05:22.759><c> and</c><00:05:23.330><c> they</c><00:05:23.870><c> also</c><00:05:24.139><c> make</c><00:05:24.500><c> sure</c>
+
+00:05:24.790 --> 00:05:24.800 align:start position:0%
+and simplified and they also make sure
+ 
+
+00:05:24.800 --> 00:05:26.649 align:start position:0%
+and simplified and they also make sure
+that<00:05:25.069><c> there's</c><00:05:25.279><c> less</c><00:05:25.580><c> code</c><00:05:25.909><c> to</c><00:05:26.120><c> transfer</c>
+
+00:05:26.649 --> 00:05:26.659 align:start position:0%
+that there's less code to transfer
+ 
+
+00:05:26.659 --> 00:05:30.189 align:start position:0%
+that there's less code to transfer
+migrate<00:05:27.289><c> and</c><00:05:27.500><c> upload</c><00:05:27.949><c> workloads</c><00:05:28.520><c> now</c><00:05:29.509><c> who</c><00:05:30.050><c> are</c>
+
+00:05:30.189 --> 00:05:30.199 align:start position:0%
+migrate and upload workloads now who are
+ 
+
+00:05:30.199 --> 00:05:31.990 align:start position:0%
+migrate and upload workloads now who are
+the<00:05:30.319><c> popular</c><00:05:30.770><c> container</c><00:05:31.190><c> providers</c>
+
+00:05:31.990 --> 00:05:32.000 align:start position:0%
+the popular container providers
+ 
+
+00:05:32.000 --> 00:05:34.689 align:start position:0%
+the popular container providers
+well<00:05:32.629><c> the</c><00:05:33.050><c> popular</c><00:05:33.500><c> container</c><00:05:33.889><c> providers</c><00:05:34.520><c> are</c>
+
+00:05:34.689 --> 00:05:34.699 align:start position:0%
+well the popular container providers are
+ 
+
+00:05:34.699 --> 00:05:36.820 align:start position:0%
+well the popular container providers are
+the<00:05:34.969><c> lyrics</c><00:05:35.180><c> containers</c><00:05:35.900><c> the</c><00:05:36.169><c> docker</c><00:05:36.469><c> and</c>
+
+00:05:36.820 --> 00:05:36.830 align:start position:0%
+the lyrics containers the docker and
+ 
+
+00:05:36.830 --> 00:05:40.390 align:start position:0%
+the lyrics containers the docker and
+Windows<00:05:37.490><c> Server</c><00:05:38.440><c> so</c><00:05:39.440><c> now</c><00:05:39.650><c> that</c><00:05:39.889><c> I've</c><00:05:40.009><c> told</c><00:05:40.219><c> you</c>
+
+00:05:40.390 --> 00:05:40.400 align:start position:0%
+Windows Server so now that I've told you
+ 
+
+00:05:40.400 --> 00:05:42.700 align:start position:0%
+Windows Server so now that I've told you
+individually<00:05:41.240><c> what</c><00:05:41.449><c> a</c><00:05:41.479><c> container</c><00:05:41.960><c> is</c><00:05:42.259><c> what</c><00:05:42.680><c> a</c>
+
+00:05:42.700 --> 00:05:42.710 align:start position:0%
+individually what a container is what a
+ 
+
+00:05:42.710 --> 00:05:44.890 align:start position:0%
+individually what a container is what a
+virtual<00:05:42.979><c> machine</c><00:05:43.339><c> is</c><00:05:43.759><c> and</c><00:05:43.940><c> how</c><00:05:44.300><c> do</c><00:05:44.360><c> these</c><00:05:44.599><c> to</c>
+
+00:05:44.890 --> 00:05:44.900 align:start position:0%
+virtual machine is and how do these to
+ 
+
+00:05:44.900 --> 00:05:46.300 align:start position:0%
+virtual machine is and how do these to
+work
+
+00:05:46.300 --> 00:05:46.310 align:start position:0%
+work
+ 
+
+00:05:46.310 --> 00:05:49.080 align:start position:0%
+work
+[Music]
+
+00:05:49.080 --> 00:05:49.090 align:start position:0%
+[Music]
+ 
+
+00:05:49.090 --> 00:05:51.460 align:start position:0%
+[Music]
+now<00:05:50.090><c> let</c><00:05:50.570><c> me</c><00:05:50.720><c> show</c><00:05:50.960><c> you</c><00:05:51.020><c> the</c><00:05:51.230><c> major</c>
+
+00:05:51.460 --> 00:05:51.470 align:start position:0%
+now let me show you the major
+ 
+
+00:05:51.470 --> 00:05:53.680 align:start position:0%
+now let me show you the major
+differences<00:05:52.250><c> between</c><00:05:52.310><c> docker</c><00:05:53.030><c> containers</c>
+
+00:05:53.680 --> 00:05:53.690 align:start position:0%
+differences between docker containers
+ 
+
+00:05:53.690 --> 00:05:55.870 align:start position:0%
+differences between docker containers
+and<00:05:53.900><c> virtual</c><00:05:54.410><c> machines</c><00:05:54.550><c> well</c><00:05:55.550><c> the</c><00:05:55.700><c> major</c>
+
+00:05:55.870 --> 00:05:55.880 align:start position:0%
+and virtual machines well the major
+ 
+
+00:05:55.880 --> 00:05:58.180 align:start position:0%
+and virtual machines well the major
+differences<00:05:56.600><c> come</c><00:05:56.930><c> with</c><00:05:57.170><c> operating</c><00:05:57.650><c> support</c>
+
+00:05:58.180 --> 00:05:58.190 align:start position:0%
+differences come with operating support
+ 
+
+00:05:58.190 --> 00:06:01.570 align:start position:0%
+differences come with operating support
+security<00:05:58.960><c> portability</c><00:05:59.960><c> and</c><00:06:00.140><c> performance</c><00:06:00.580><c> so</c>
+
+00:06:01.570 --> 00:06:01.580 align:start position:0%
+security portability and performance so
+ 
+
+00:06:01.580 --> 00:06:03.640 align:start position:0%
+security portability and performance so
+let's<00:06:02.000><c> discuss</c><00:06:02.390><c> each</c><00:06:02.600><c> one</c><00:06:02.690><c> of</c><00:06:03.140><c> these</c><00:06:03.290><c> terms</c>
+
+00:06:03.640 --> 00:06:03.650 align:start position:0%
+let's discuss each one of these terms
+ 
+
+00:06:03.650 --> 00:06:05.200 align:start position:0%
+let's discuss each one of these terms
+one<00:06:04.070><c> by</c><00:06:04.250><c> one</c><00:06:04.520><c> and</c><00:06:04.670><c> let's</c><00:06:05.000><c> know</c><00:06:05.180><c> the</c>
+
+00:06:05.200 --> 00:06:05.210 align:start position:0%
+one by one and let's know the
+ 
+
+00:06:05.210 --> 00:06:07.450 align:start position:0%
+one by one and let's know the
+differences<00:06:05.780><c> between</c><00:06:05.960><c> both</c><00:06:06.380><c> of</c><00:06:06.440><c> them</c><00:06:06.800><c> so</c>
+
+00:06:07.450 --> 00:06:07.460 align:start position:0%
+differences between both of them so
+ 
+
+00:06:07.460 --> 00:06:09.160 align:start position:0%
+differences between both of them so
+let's<00:06:07.640><c> start</c><00:06:07.970><c> with</c><00:06:08.180><c> the</c><00:06:08.270><c> operating</c><00:06:08.810><c> system</c>
+
+00:06:09.160 --> 00:06:09.170 align:start position:0%
+let's start with the operating system
+ 
+
+00:06:09.170 --> 00:06:12.010 align:start position:0%
+let's start with the operating system
+support<00:06:09.560><c> the</c><00:06:10.220><c> basic</c><00:06:10.700><c> architecture</c><00:06:10.970><c> of</c><00:06:11.660><c> docker</c>
+
+00:06:12.010 --> 00:06:12.020 align:start position:0%
+support the basic architecture of docker
+ 
+
+00:06:12.020 --> 00:06:14.410 align:start position:0%
+support the basic architecture of docker
+containers<00:06:12.770><c> and</c><00:06:12.950><c> virtual</c><00:06:12.980><c> machines</c><00:06:13.850><c> differ</c>
+
+00:06:14.410 --> 00:06:14.420 align:start position:0%
+containers and virtual machines differ
+ 
+
+00:06:14.420 --> 00:06:16.500 align:start position:0%
+containers and virtual machines differ
+in<00:06:14.720><c> their</c><00:06:14.960><c> operating</c><00:06:15.440><c> system</c><00:06:15.890><c> supports</c>
+
+00:06:16.500 --> 00:06:16.510 align:start position:0%
+in their operating system supports
+ 
+
+00:06:16.510 --> 00:06:18.790 align:start position:0%
+in their operating system supports
+containers<00:06:17.510><c> are</c><00:06:17.690><c> hosted</c><00:06:18.230><c> in</c><00:06:18.320><c> a</c><00:06:18.410><c> single</c>
+
+00:06:18.790 --> 00:06:18.800 align:start position:0%
+containers are hosted in a single
+ 
+
+00:06:18.800 --> 00:06:20.470 align:start position:0%
+containers are hosted in a single
+physical<00:06:18.950><c> server</c><00:06:19.490><c> with</c><00:06:19.760><c> the</c><00:06:19.790><c> host</c><00:06:20.210><c> operating</c>
+
+00:06:20.470 --> 00:06:20.480 align:start position:0%
+physical server with the host operating
+ 
+
+00:06:20.480 --> 00:06:23.200 align:start position:0%
+physical server with the host operating
+system<00:06:20.780><c> which</c><00:06:21.530><c> is</c><00:06:21.680><c> shared</c><00:06:21.980><c> among</c><00:06:22.280><c> them</c><00:06:22.520><c> but</c>
+
+00:06:23.200 --> 00:06:23.210 align:start position:0%
+system which is shared among them but
+ 
+
+00:06:23.210 --> 00:06:25.510 align:start position:0%
+system which is shared among them but
+the<00:06:23.780><c> virtual</c><00:06:24.170><c> machines</c><00:06:24.620><c> on</c><00:06:24.830><c> the</c><00:06:25.010><c> other</c><00:06:25.160><c> hand</c>
+
+00:06:25.510 --> 00:06:25.520 align:start position:0%
+the virtual machines on the other hand
+ 
+
+00:06:25.520 --> 00:06:27.580 align:start position:0%
+the virtual machines on the other hand
+have<00:06:25.850><c> a</c><00:06:25.880><c> host</c><00:06:26.240><c> operating</c><00:06:26.630><c> system</c><00:06:26.810><c> and</c><00:06:27.440><c> an</c>
+
+00:06:27.580 --> 00:06:27.590 align:start position:0%
+have a host operating system and an
+ 
+
+00:06:27.590 --> 00:06:29.740 align:start position:0%
+have a host operating system and an
+individual<00:06:28.130><c> guest</c><00:06:28.460><c> operating</c><00:06:28.910><c> system</c><00:06:29.330><c> inside</c>
+
+00:06:29.740 --> 00:06:29.750 align:start position:0%
+individual guest operating system inside
+ 
+
+00:06:29.750 --> 00:06:32.800 align:start position:0%
+individual guest operating system inside
+each<00:06:30.050><c> virtual</c><00:06:30.530><c> machine</c><00:06:31.570><c> irrespective</c><00:06:32.570><c> of</c><00:06:32.660><c> the</c>
+
+00:06:32.800 --> 00:06:32.810 align:start position:0%
+each virtual machine irrespective of the
+ 
+
+00:06:32.810 --> 00:06:34.690 align:start position:0%
+each virtual machine irrespective of the
+host<00:06:33.050><c> operating</c><00:06:33.260><c> system</c><00:06:33.590><c> the</c><00:06:34.430><c> guest</c>
+
+00:06:34.690 --> 00:06:34.700 align:start position:0%
+host operating system the guest
+ 
+
+00:06:34.700 --> 00:06:36.790 align:start position:0%
+host operating system the guest
+operating<00:06:35.210><c> system</c><00:06:35.600><c> can</c><00:06:35.810><c> be</c><00:06:35.930><c> anything</c><00:06:36.350><c> like</c><00:06:36.650><c> it</c>
+
+00:06:36.790 --> 00:06:36.800 align:start position:0%
+operating system can be anything like it
+ 
+
+00:06:36.800 --> 00:06:38.890 align:start position:0%
+operating system can be anything like it
+can<00:06:36.980><c> be</c><00:06:37.010><c> Linux</c><00:06:37.670><c> Windows</c><00:06:38.060><c> or</c><00:06:38.330><c> any</c><00:06:38.570><c> other</c>
+
+00:06:38.890 --> 00:06:38.900 align:start position:0%
+can be Linux Windows or any other
+ 
+
+00:06:38.900 --> 00:06:41.500 align:start position:0%
+can be Linux Windows or any other
+operating<00:06:39.110><c> system</c><00:06:39.830><c> now</c><00:06:40.700><c> the</c><00:06:41.270><c> docker</c>
+
+00:06:41.500 --> 00:06:41.510 align:start position:0%
+operating system now the docker
+ 
+
+00:06:41.510 --> 00:06:43.840 align:start position:0%
+operating system now the docker
+containers<00:06:42.260><c> are</c><00:06:42.440><c> suited</c><00:06:43.010><c> for</c><00:06:43.130><c> situations</c>
+
+00:06:43.840 --> 00:06:43.850 align:start position:0%
+containers are suited for situations
+ 
+
+00:06:43.850 --> 00:06:45.330 align:start position:0%
+containers are suited for situations
+where<00:06:44.090><c> you</c><00:06:44.180><c> want</c><00:06:44.450><c> to</c><00:06:44.540><c> run</c><00:06:44.750><c> multiple</c>
+
+00:06:45.330 --> 00:06:45.340 align:start position:0%
+where you want to run multiple
+ 
+
+00:06:45.340 --> 00:06:47.590 align:start position:0%
+where you want to run multiple
+applications<00:06:46.340><c> over</c><00:06:46.640><c> a</c><00:06:46.669><c> single</c><00:06:47.210><c> operating</c>
+
+00:06:47.590 --> 00:06:47.600 align:start position:0%
+applications over a single operating
+ 
+
+00:06:47.600 --> 00:06:49.870 align:start position:0%
+applications over a single operating
+system<00:06:48.020><c> kernel</c><00:06:48.470><c> but</c><00:06:49.130><c> if</c><00:06:49.340><c> you</c><00:06:49.700><c> have</c>
+
+00:06:49.870 --> 00:06:49.880 align:start position:0%
+system kernel but if you have
+ 
+
+00:06:49.880 --> 00:06:51.940 align:start position:0%
+system kernel but if you have
+applications<00:06:50.090><c> or</c><00:06:50.810><c> servers</c><00:06:51.200><c> that</c><00:06:51.410><c> need</c><00:06:51.590><c> to</c><00:06:51.770><c> run</c>
+
+00:06:51.940 --> 00:06:51.950 align:start position:0%
+applications or servers that need to run
+ 
+
+00:06:51.950 --> 00:06:53.770 align:start position:0%
+applications or servers that need to run
+on<00:06:52.100><c> different</c><00:06:52.610><c> operating</c><00:06:52.970><c> system</c><00:06:53.360><c> flavors</c>
+
+00:06:53.770 --> 00:06:53.780 align:start position:0%
+on different operating system flavors
+ 
+
+00:06:53.780 --> 00:06:56.310 align:start position:0%
+on different operating system flavors
+then<00:06:54.350><c> virtual</c><00:06:55.010><c> machines</c><00:06:55.340><c> are</c><00:06:55.550><c> required</c>
+
+00:06:56.310 --> 00:06:56.320 align:start position:0%
+then virtual machines are required
+ 
+
+00:06:56.320 --> 00:06:58.300 align:start position:0%
+then virtual machines are required
+sharing<00:06:57.320><c> the</c><00:06:57.440><c> host</c><00:06:57.740><c> operating</c><00:06:58.010><c> system</c>
+
+00:06:58.300 --> 00:06:58.310 align:start position:0%
+sharing the host operating system
+ 
+
+00:06:58.310 --> 00:07:00.460 align:start position:0%
+sharing the host operating system
+between<00:06:59.000><c> the</c><00:06:59.150><c> containers</c><00:06:59.540><c> make</c><00:07:00.050><c> them</c><00:07:00.260><c> very</c>
+
+00:07:00.460 --> 00:07:00.470 align:start position:0%
+between the containers make them very
+ 
+
+00:07:00.470 --> 00:07:02.680 align:start position:0%
+between the containers make them very
+light<00:07:00.890><c> and</c><00:07:01.130><c> helps</c><00:07:01.550><c> them</c><00:07:01.700><c> to</c><00:07:01.880><c> boot</c><00:07:02.120><c> up</c><00:07:02.150><c> in</c><00:07:02.390><c> just</c>
+
+00:07:02.680 --> 00:07:02.690 align:start position:0%
+light and helps them to boot up in just
+ 
+
+00:07:02.690 --> 00:07:05.590 align:start position:0%
+light and helps them to boot up in just
+a<00:07:02.780><c> few</c><00:07:02.930><c> seconds</c><00:07:03.500><c> hence</c><00:07:04.400><c> the</c><00:07:04.880><c> overhead</c><00:07:05.419><c> to</c>
+
+00:07:05.590 --> 00:07:05.600 align:start position:0%
+a few seconds hence the overhead to
+ 
+
+00:07:05.600 --> 00:07:07.780 align:start position:0%
+a few seconds hence the overhead to
+manage<00:07:05.930><c> the</c><00:07:06.080><c> container</c><00:07:06.470><c> system</c><00:07:06.680><c> is</c><00:07:07.040><c> very</c><00:07:07.430><c> low</c>
+
+00:07:07.780 --> 00:07:07.790 align:start position:0%
+manage the container system is very low
+ 
+
+00:07:07.790 --> 00:07:11.020 align:start position:0%
+manage the container system is very low
+compared<00:07:08.390><c> to</c><00:07:08.450><c> that</c><00:07:08.720><c> of</c><00:07:08.960><c> virtual</c><00:07:09.410><c> machines</c><00:07:10.030><c> now</c>
+
+00:07:11.020 --> 00:07:11.030 align:start position:0%
+compared to that of virtual machines now
+ 
+
+00:07:11.030 --> 00:07:12.730 align:start position:0%
+compared to that of virtual machines now
+let's<00:07:11.419><c> move</c><00:07:11.660><c> to</c><00:07:11.840><c> the</c><00:07:11.930><c> second</c><00:07:12.380><c> difference</c>
+
+00:07:12.730 --> 00:07:12.740 align:start position:0%
+let's move to the second difference
+ 
+
+00:07:12.740 --> 00:07:16.000 align:start position:0%
+let's move to the second difference
+status<00:07:13.220><c> security</c><00:07:13.430><c> in</c><00:07:14.090><c> docker</c><00:07:14.870><c> since</c><00:07:15.560><c> the</c><00:07:15.740><c> host</c>
+
+00:07:16.000 --> 00:07:16.010 align:start position:0%
+status security in docker since the host
+ 
+
+00:07:16.010 --> 00:07:18.040 align:start position:0%
+status security in docker since the host
+kernel<00:07:16.550><c> is</c><00:07:16.700><c> shared</c><00:07:17.030><c> among</c><00:07:17.300><c> the</c><00:07:17.450><c> containers</c>
+
+00:07:18.040 --> 00:07:18.050 align:start position:0%
+kernel is shared among the containers
+ 
+
+00:07:18.050 --> 00:07:20.440 align:start position:0%
+kernel is shared among the containers
+the<00:07:18.500><c> container</c><00:07:18.950><c> technology</c><00:07:19.700><c> has</c><00:07:19.880><c> access</c><00:07:20.419><c> to</c>
+
+00:07:20.440 --> 00:07:20.450 align:start position:0%
+the container technology has access to
+ 
+
+00:07:20.450 --> 00:07:22.960 align:start position:0%
+the container technology has access to
+the<00:07:20.660><c> kernel</c><00:07:21.080><c> subsystems</c><00:07:21.710><c> as</c><00:07:21.919><c> a</c><00:07:22.340><c> result</c><00:07:22.820><c> of</c>
+
+00:07:22.960 --> 00:07:22.970 align:start position:0%
+the kernel subsystems as a result of
+ 
+
+00:07:22.970 --> 00:07:25.030 align:start position:0%
+the kernel subsystems as a result of
+which<00:07:23.180><c> a</c><00:07:23.390><c> single</c><00:07:23.810><c> vulnerable</c><00:07:24.380><c> application</c>
+
+00:07:25.030 --> 00:07:25.040 align:start position:0%
+which a single vulnerable application
+ 
+
+00:07:25.040 --> 00:07:27.330 align:start position:0%
+which a single vulnerable application
+can<00:07:25.280><c> hack</c><00:07:25.580><c> the</c><00:07:25.820><c> entire</c><00:07:26.390><c> host</c><00:07:26.870><c> server</c>
+
+00:07:27.330 --> 00:07:27.340 align:start position:0%
+can hack the entire host server
+ 
+
+00:07:27.340 --> 00:07:29.170 align:start position:0%
+can hack the entire host server
+providing<00:07:28.340><c> root</c><00:07:28.520><c> access</c><00:07:28.970><c> to</c><00:07:29.090><c> the</c>
+
+00:07:29.170 --> 00:07:29.180 align:start position:0%
+providing root access to the
+ 
+
+00:07:29.180 --> 00:07:31.150 align:start position:0%
+providing root access to the
+applications<00:07:29.960><c> and</c><00:07:30.110><c> running</c><00:07:30.800><c> them</c><00:07:30.979><c> with</c><00:07:31.130><c> a</c>
+
+00:07:31.150 --> 00:07:31.160 align:start position:0%
+applications and running them with a
+ 
+
+00:07:31.160 --> 00:07:33.610 align:start position:0%
+applications and running them with a
+super<00:07:31.580><c> user</c><00:07:31.729><c> privileges</c><00:07:32.360><c> is</c><00:07:32.690><c> therefore</c><00:07:33.290><c> not</c>
+
+00:07:33.610 --> 00:07:33.620 align:start position:0%
+super user privileges is therefore not
+ 
+
+00:07:33.620 --> 00:07:35.830 align:start position:0%
+super user privileges is therefore not
+recommended<00:07:34.250><c> in</c><00:07:34.400><c> docker</c><00:07:34.669><c> containers</c><00:07:35.330><c> because</c>
+
+00:07:35.830 --> 00:07:35.840 align:start position:0%
+recommended in docker containers because
+ 
+
+00:07:35.840 --> 00:07:38.440 align:start position:0%
+recommended in docker containers because
+of<00:07:36.080><c> these</c><00:07:36.290><c> security</c><00:07:36.979><c> issues</c><00:07:37.400><c> on</c><00:07:37.610><c> the</c><00:07:38.330><c> other</c>
+
+00:07:38.440 --> 00:07:38.450 align:start position:0%
+of these security issues on the other
+ 
+
+00:07:38.450 --> 00:07:40.540 align:start position:0%
+of these security issues on the other
+hand<00:07:38.780><c> virtual</c><00:07:39.530><c> machines</c><00:07:39.890><c> are</c><00:07:40.130><c> unique</c>
+
+00:07:40.540 --> 00:07:40.550 align:start position:0%
+hand virtual machines are unique
+ 
+
+00:07:40.550 --> 00:07:42.700 align:start position:0%
+hand virtual machines are unique
+instances<00:07:41.210><c> with</c><00:07:41.450><c> their</c><00:07:41.630><c> own</c><00:07:41.810><c> kernel</c><00:07:42.350><c> and</c>
+
+00:07:42.700 --> 00:07:42.710 align:start position:0%
+instances with their own kernel and
+ 
+
+00:07:42.710 --> 00:07:45.159 align:start position:0%
+instances with their own kernel and
+security<00:07:43.370><c> features</c><00:07:43.760><c> they</c><00:07:44.390><c> can</c><00:07:44.570><c> therefore</c><00:07:44.810><c> run</c>
+
+00:07:45.159 --> 00:07:45.169 align:start position:0%
+security features they can therefore run
+ 
+
+00:07:45.169 --> 00:07:47.260 align:start position:0%
+security features they can therefore run
+applications<00:07:46.040><c> that</c><00:07:46.280><c> need</c><00:07:46.520><c> more</c><00:07:46.760><c> privilege</c>
+
+00:07:47.260 --> 00:07:47.270 align:start position:0%
+applications that need more privilege
+ 
+
+00:07:47.270 --> 00:07:50.440 align:start position:0%
+applications that need more privilege
+and<00:07:47.540><c> security</c><00:07:48.290><c> now</c><00:07:49.280><c> moving</c><00:07:49.880><c> on</c><00:07:50.180><c> to</c><00:07:50.330><c> the</c><00:07:50.419><c> third</c>
+
+00:07:50.440 --> 00:07:50.450 align:start position:0%
+and security now moving on to the third
+ 
+
+00:07:50.450 --> 00:07:53.290 align:start position:0%
+and security now moving on to the third
+difference<00:07:50.930><c> that</c><00:07:51.560><c> is</c><00:07:51.770><c> portability</c><00:07:52.460><c> docker</c>
+
+00:07:53.290 --> 00:07:53.300 align:start position:0%
+difference that is portability docker
+ 
+
+00:07:53.300 --> 00:07:55.659 align:start position:0%
+difference that is portability docker
+containers<00:07:54.020><c> are</c><00:07:54.200><c> self-contained</c><00:07:54.860><c> packages</c>
+
+00:07:55.659 --> 00:07:55.669 align:start position:0%
+containers are self-contained packages
+ 
+
+00:07:55.669 --> 00:07:57.480 align:start position:0%
+containers are self-contained packages
+that<00:07:55.880><c> can</c><00:07:56.120><c> run</c><00:07:56.330><c> the</c><00:07:56.539><c> required</c><00:07:56.930><c> application</c>
+
+00:07:57.480 --> 00:07:57.490 align:start position:0%
+that can run the required application
+ 
+
+00:07:57.490 --> 00:08:00.159 align:start position:0%
+that can run the required application
+since<00:07:58.490><c> they</c><00:07:58.940><c> do</c><00:07:59.090><c> not</c><00:07:59.270><c> have</c><00:07:59.510><c> a</c><00:07:59.539><c> separate</c><00:07:59.960><c> guest</c>
+
+00:08:00.159 --> 00:08:00.169 align:start position:0%
+since they do not have a separate guest
+ 
+
+00:08:00.169 --> 00:08:01.870 align:start position:0%
+since they do not have a separate guest
+operating<00:08:00.740><c> system</c><00:08:01.190><c> they</c><00:08:01.610><c> can</c>
+
+00:08:01.870 --> 00:08:01.880 align:start position:0%
+operating system they can
+ 
+
+00:08:01.880 --> 00:08:04.570 align:start position:0%
+operating system they can
+easily<00:08:02.510><c> ported</c><00:08:02.960><c> across</c><00:08:03.050><c> different</c><00:08:03.950><c> platforms</c>
+
+00:08:04.570 --> 00:08:04.580 align:start position:0%
+easily ported across different platforms
+ 
+
+00:08:04.580 --> 00:08:06.760 align:start position:0%
+easily ported across different platforms
+the<00:08:05.270><c> containers</c><00:08:05.840><c> can</c><00:08:06.020><c> be</c><00:08:06.170><c> started</c><00:08:06.500><c> and</c>
+
+00:08:06.760 --> 00:08:06.770 align:start position:0%
+the containers can be started and
+ 
+
+00:08:06.770 --> 00:08:08.410 align:start position:0%
+the containers can be started and
+stopped<00:08:07.100><c> in</c><00:08:07.280><c> the</c><00:08:07.370><c> matter</c><00:08:07.610><c> of</c><00:08:07.760><c> a</c><00:08:07.820><c> few</c><00:08:07.970><c> seconds</c>
+
+00:08:08.410 --> 00:08:08.420 align:start position:0%
+stopped in the matter of a few seconds
+ 
+
+00:08:08.420 --> 00:08:10.030 align:start position:0%
+stopped in the matter of a few seconds
+compared<00:08:08.930><c> to</c><00:08:09.110><c> that</c><00:08:09.260><c> of</c><00:08:09.320><c> vm's</c>
+
+00:08:10.030 --> 00:08:10.040 align:start position:0%
+compared to that of vm's
+ 
+
+00:08:10.040 --> 00:08:12.820 align:start position:0%
+compared to that of vm's
+due<00:08:10.640><c> to</c><00:08:10.790><c> the</c><00:08:10.910><c> lightweight</c><00:08:11.390><c> architecture</c><00:08:12.140><c> this</c>
+
+00:08:12.820 --> 00:08:12.830 align:start position:0%
+due to the lightweight architecture this
+ 
+
+00:08:12.830 --> 00:08:14.560 align:start position:0%
+due to the lightweight architecture this
+makes<00:08:13.130><c> it</c><00:08:13.340><c> easy</c><00:08:13.640><c> to</c><00:08:13.790><c> deploy</c><00:08:14.120><c> docker</c>
+
+00:08:14.560 --> 00:08:14.570 align:start position:0%
+makes it easy to deploy docker
+ 
+
+00:08:14.570 --> 00:08:17.500 align:start position:0%
+makes it easy to deploy docker
+containers<00:08:15.260><c> quickly</c><00:08:15.800><c> in</c><00:08:15.890><c> service</c><00:08:16.400><c> on</c><00:08:16.730><c> the</c>
+
+00:08:17.500 --> 00:08:17.510 align:start position:0%
+containers quickly in service on the
+ 
+
+00:08:17.510 --> 00:08:19.990 align:start position:0%
+containers quickly in service on the
+other<00:08:17.630><c> hand</c><00:08:17.960><c> virtual</c><00:08:18.710><c> machines</c><00:08:19.100><c> are</c><00:08:19.310><c> isolated</c>
+
+00:08:19.990 --> 00:08:20.000 align:start position:0%
+other hand virtual machines are isolated
+ 
+
+00:08:20.000 --> 00:08:21.670 align:start position:0%
+other hand virtual machines are isolated
+server<00:08:20.330><c> instances</c><00:08:21.020><c> with</c><00:08:21.350><c> their</c><00:08:21.500><c> own</c>
+
+00:08:21.670 --> 00:08:21.680 align:start position:0%
+server instances with their own
+ 
+
+00:08:21.680 --> 00:08:24.340 align:start position:0%
+server instances with their own
+operating<00:08:22.430><c> system</c><00:08:22.850><c> they</c><00:08:23.360><c> cannot</c><00:08:23.720><c> be</c><00:08:23.930><c> ported</c>
+
+00:08:24.340 --> 00:08:24.350 align:start position:0%
+operating system they cannot be ported
+ 
+
+00:08:24.350 --> 00:08:26.140 align:start position:0%
+operating system they cannot be ported
+across<00:08:24.620><c> multiple</c><00:08:25.010><c> platforms</c><00:08:25.760><c> without</c>
+
+00:08:26.140 --> 00:08:26.150 align:start position:0%
+across multiple platforms without
+ 
+
+00:08:26.150 --> 00:08:28.960 align:start position:0%
+across multiple platforms without
+incurring<00:08:26.900><c> compatibility</c><00:08:27.740><c> issues</c><00:08:28.190><c> for</c>
+
+00:08:28.960 --> 00:08:28.970 align:start position:0%
+incurring compatibility issues for
+ 
+
+00:08:28.970 --> 00:08:30.520 align:start position:0%
+incurring compatibility issues for
+development<00:08:29.390><c> purposes</c><00:08:29.690><c> where</c><00:08:30.410><c> the</c>
+
+00:08:30.520 --> 00:08:30.530 align:start position:0%
+development purposes where the
+ 
+
+00:08:30.530 --> 00:08:32.200 align:start position:0%
+development purposes where the
+applications<00:08:31.250><c> have</c><00:08:31.400><c> to</c><00:08:31.430><c> be</c><00:08:31.580><c> developed</c><00:08:31.940><c> and</c>
+
+00:08:32.200 --> 00:08:32.210 align:start position:0%
+applications have to be developed and
+ 
+
+00:08:32.210 --> 00:08:34.540 align:start position:0%
+applications have to be developed and
+tested<00:08:32.450><c> in</c><00:08:32.780><c> different</c><00:08:32.810><c> platforms</c><00:08:33.550><c> docker</c>
+
+00:08:34.540 --> 00:08:34.550 align:start position:0%
+tested in different platforms docker
+ 
+
+00:08:34.550 --> 00:08:37.480 align:start position:0%
+tested in different platforms docker
+containers<00:08:35.270><c> are</c><00:08:35.450><c> the</c><00:08:35.780><c> ideal</c><00:08:36.169><c> choice</c><00:08:36.490><c> now</c>
+
+00:08:37.480 --> 00:08:37.490 align:start position:0%
+containers are the ideal choice now
+ 
+
+00:08:37.490 --> 00:08:39.400 align:start position:0%
+containers are the ideal choice now
+let's<00:08:38.090><c> move</c><00:08:38.330><c> on</c><00:08:38.539><c> to</c><00:08:38.570><c> the</c><00:08:38.780><c> final</c><00:08:39.169><c> difference</c>
+
+00:08:39.400 --> 00:08:39.410 align:start position:0%
+let's move on to the final difference
+ 
+
+00:08:39.410 --> 00:08:42.250 align:start position:0%
+let's move on to the final difference
+that<00:08:39.950><c> is</c><00:08:40.130><c> performance</c><00:08:40.700><c> docker</c><00:08:41.630><c> and</c><00:08:41.870><c> virtual</c>
+
+00:08:42.250 --> 00:08:42.260 align:start position:0%
+that is performance docker and virtual
+ 
+
+00:08:42.260 --> 00:08:44.170 align:start position:0%
+that is performance docker and virtual
+machines<00:08:42.650><c> are</c><00:08:42.890><c> intended</c><00:08:43.550><c> for</c><00:08:43.580><c> different</c>
+
+00:08:44.170 --> 00:08:44.180 align:start position:0%
+machines are intended for different
+ 
+
+00:08:44.180 --> 00:08:47.290 align:start position:0%
+machines are intended for different
+purposes<00:08:44.750><c> so</c><00:08:44.930><c> it's</c><00:08:45.800><c> not</c><00:08:46.250><c> fair</c><00:08:46.580><c> to</c><00:08:46.760><c> measure</c><00:08:47.000><c> the</c>
+
+00:08:47.290 --> 00:08:47.300 align:start position:0%
+purposes so it's not fair to measure the
+ 
+
+00:08:47.300 --> 00:08:49.930 align:start position:0%
+purposes so it's not fair to measure the
+performance<00:08:47.510><c> equally</c><00:08:48.410><c> but</c><00:08:48.980><c> the</c><00:08:49.490><c> lightweight</c>
+
+00:08:49.930 --> 00:08:49.940 align:start position:0%
+performance equally but the lightweight
+ 
+
+00:08:49.940 --> 00:08:52.150 align:start position:0%
+performance equally but the lightweight
+architecture<00:08:50.750><c> makes</c><00:08:51.020><c> docker</c><00:08:51.440><c> containers</c>
+
+00:08:52.150 --> 00:08:52.160 align:start position:0%
+architecture makes docker containers
+ 
+
+00:08:52.160 --> 00:08:54.490 align:start position:0%
+architecture makes docker containers
+less<00:08:52.580><c> resource</c><00:08:53.000><c> intensive</c><00:08:53.630><c> than</c><00:08:53.900><c> the</c><00:08:54.110><c> virtual</c>
+
+00:08:54.490 --> 00:08:54.500 align:start position:0%
+less resource intensive than the virtual
+ 
+
+00:08:54.500 --> 00:08:57.520 align:start position:0%
+less resource intensive than the virtual
+machines<00:08:54.890><c> as</c><00:08:55.100><c> a</c><00:08:55.160><c> result</c><00:08:56.150><c> of</c><00:08:56.300><c> which</c><00:08:56.540><c> containers</c>
+
+00:08:57.520 --> 00:08:57.530 align:start position:0%
+machines as a result of which containers
+ 
+
+00:08:57.530 --> 00:08:59.560 align:start position:0%
+machines as a result of which containers
+can<00:08:57.710><c> start</c><00:08:58.040><c> up</c><00:08:58.220><c> very</c><00:08:58.490><c> fast</c><00:08:58.760><c> compared</c><00:08:59.270><c> to</c><00:08:59.390><c> that</c>
+
+00:08:59.560 --> 00:08:59.570 align:start position:0%
+can start up very fast compared to that
+ 
+
+00:08:59.570 --> 00:09:01.630 align:start position:0%
+can start up very fast compared to that
+of<00:08:59.630><c> virtual</c><00:09:00.110><c> machines</c><00:09:00.500><c> and</c><00:09:00.740><c> also</c><00:09:01.430><c> the</c>
+
+00:09:01.630 --> 00:09:01.640 align:start position:0%
+of virtual machines and also the
+ 
+
+00:09:01.640 --> 00:09:03.720 align:start position:0%
+of virtual machines and also the
+resource<00:09:01.970><c> usage</c><00:09:02.240><c> varies</c><00:09:02.660><c> among</c><00:09:03.110><c> the</c><00:09:03.290><c> tube</c><00:09:03.500><c> in</c>
+
+00:09:03.720 --> 00:09:03.730 align:start position:0%
+resource usage varies among the tube in
+ 
+
+00:09:03.730 --> 00:09:06.430 align:start position:0%
+resource usage varies among the tube in
+containers<00:09:04.730><c> the</c><00:09:05.090><c> resource</c><00:09:05.450><c> usage</c><00:09:05.750><c> such</c><00:09:06.260><c> as</c>
+
+00:09:06.430 --> 00:09:06.440 align:start position:0%
+containers the resource usage such as
+ 
+
+00:09:06.440 --> 00:09:09.130 align:start position:0%
+containers the resource usage such as
+CPU<00:09:06.920><c> memory</c><00:09:07.450><c> input/output</c><00:09:08.450><c> varies</c><00:09:08.900><c> with</c><00:09:09.110><c> the</c>
+
+00:09:09.130 --> 00:09:09.140 align:start position:0%
+CPU memory input/output varies with the
+ 
+
+00:09:09.140 --> 00:09:11.860 align:start position:0%
+CPU memory input/output varies with the
+load<00:09:09.500><c> or</c><00:09:09.680><c> traffic</c><00:09:10.100><c> in</c><00:09:10.220><c> it</c><00:09:10.400><c> I</c><00:09:10.550><c> like</c><00:09:11.330><c> the</c><00:09:11.510><c> case</c><00:09:11.690><c> of</c>
+
+00:09:11.860 --> 00:09:11.870 align:start position:0%
+load or traffic in it I like the case of
+ 
+
+00:09:11.870 --> 00:09:13.720 align:start position:0%
+load or traffic in it I like the case of
+virtual<00:09:12.050><c> machines</c><00:09:12.590><c> there</c><00:09:13.070><c> is</c><00:09:13.100><c> no</c><00:09:13.460><c> need</c><00:09:13.700><c> to</c>
+
+00:09:13.720 --> 00:09:13.730 align:start position:0%
+virtual machines there is no need to
+ 
+
+00:09:13.730 --> 00:09:15.730 align:start position:0%
+virtual machines there is no need to
+allocate<00:09:14.330><c> resources</c><00:09:14.590><c> permanently</c><00:09:15.590><c> to</c>
+
+00:09:15.730 --> 00:09:15.740 align:start position:0%
+allocate resources permanently to
+ 
+
+00:09:15.740 --> 00:09:18.280 align:start position:0%
+allocate resources permanently to
+containers<00:09:16.390><c> scaling</c><00:09:17.390><c> up</c><00:09:17.570><c> and</c><00:09:17.690><c> duplicating</c>
+
+00:09:18.280 --> 00:09:18.290 align:start position:0%
+containers scaling up and duplicating
+ 
+
+00:09:18.290 --> 00:09:20.470 align:start position:0%
+containers scaling up and duplicating
+the<00:09:18.410><c> containers</c><00:09:19.010><c> is</c><00:09:19.190><c> also</c><00:09:19.790><c> an</c><00:09:19.910><c> easy</c><00:09:20.060><c> task</c>
+
+00:09:20.470 --> 00:09:20.480 align:start position:0%
+the containers is also an easy task
+ 
+
+00:09:20.480 --> 00:09:22.420 align:start position:0%
+the containers is also an easy task
+compared<00:09:21.020><c> to</c><00:09:21.140><c> that</c><00:09:21.290><c> of</c><00:09:21.350><c> virtual</c><00:09:21.860><c> machines</c><00:09:22.250><c> as</c>
+
+00:09:22.420 --> 00:09:22.430 align:start position:0%
+compared to that of virtual machines as
+ 
+
+00:09:22.430 --> 00:09:24.610 align:start position:0%
+compared to that of virtual machines as
+there<00:09:22.820><c> is</c><00:09:22.940><c> no</c><00:09:23.180><c> need</c><00:09:23.420><c> to</c><00:09:23.450><c> install</c><00:09:24.020><c> an</c><00:09:24.200><c> operating</c>
+
+00:09:24.610 --> 00:09:24.620 align:start position:0%
+there is no need to install an operating
+ 
+
+00:09:24.620 --> 00:09:26.490 align:start position:0%
+there is no need to install an operating
+system<00:09:24.800><c> in</c><00:09:25.190><c> them</c>
+
+00:09:26.490 --> 00:09:26.500 align:start position:0%
+system in them
+ 
+
+00:09:26.500 --> 00:09:29.799 align:start position:0%
+system in them
+[Music]
+
+00:09:29.799 --> 00:09:29.809 align:start position:0%
+ 
+ 
+
+00:09:29.809 --> 00:09:31.850 align:start position:0%
+ 
+so<00:09:30.809><c> now</c><00:09:30.989><c> that</c><00:09:31.050><c> I've</c><00:09:31.350><c> told</c><00:09:31.529><c> you</c><00:09:31.739><c> the</c>
+
+00:09:31.850 --> 00:09:31.860 align:start position:0%
+so now that I've told you the
+ 
+
+00:09:31.860 --> 00:09:33.739 align:start position:0%
+so now that I've told you the
+differences<00:09:32.369><c> between</c><00:09:32.429><c> docker</c><00:09:33.089><c> containers</c>
+
+00:09:33.739 --> 00:09:33.749 align:start position:0%
+differences between docker containers
+ 
+
+00:09:33.749 --> 00:09:35.869 align:start position:0%
+differences between docker containers
+and<00:09:33.959><c> virtual</c><00:09:33.989><c> machines</c><00:09:34.379><c> let</c><00:09:35.369><c> me</c><00:09:35.519><c> show</c><00:09:35.730><c> you</c><00:09:35.790><c> a</c>
+
+00:09:35.869 --> 00:09:35.879 align:start position:0%
+and virtual machines let me show you a
+ 
+
+00:09:35.879 --> 00:09:37.999 align:start position:0%
+and virtual machines let me show you a
+real-life<00:09:36.239><c> case</c><00:09:36.660><c> study</c><00:09:36.989><c> of</c><00:09:37.110><c> how</c><00:09:37.290><c> docker</c>
+
+00:09:37.999 --> 00:09:38.009 align:start position:0%
+real-life case study of how docker
+ 
+
+00:09:38.009 --> 00:09:40.009 align:start position:0%
+real-life case study of how docker
+containers<00:09:38.699><c> and</c><00:09:38.879><c> virtual</c><00:09:38.910><c> machines</c><00:09:39.660><c> can</c>
+
+00:09:40.009 --> 00:09:40.019 align:start position:0%
+containers and virtual machines can
+ 
+
+00:09:40.019 --> 00:09:42.739 align:start position:0%
+containers and virtual machines can
+complement<00:09:40.589><c> each</c><00:09:40.769><c> other</c><00:09:41.029><c> so</c><00:09:42.029><c> all</c><00:09:42.269><c> of</c><00:09:42.420><c> us</c><00:09:42.540><c> know</c>
+
+00:09:42.739 --> 00:09:42.749 align:start position:0%
+complement each other so all of us know
+ 
+
+00:09:42.749 --> 00:09:45.590 align:start position:0%
+complement each other so all of us know
+PayPal<00:09:43.199><c> right</c><00:09:43.230><c> so</c><00:09:44.160><c> PayPal</c><00:09:44.610><c> provides</c><00:09:45.059><c> online</c>
+
+00:09:45.590 --> 00:09:45.600 align:start position:0%
+PayPal right so PayPal provides online
+ 
+
+00:09:45.600 --> 00:09:47.419 align:start position:0%
+PayPal right so PayPal provides online
+payment<00:09:46.019><c> solutions</c><00:09:46.559><c> through</c><00:09:46.860><c> their</c><00:09:47.040><c> account</c>
+
+00:09:47.419 --> 00:09:47.429 align:start position:0%
+payment solutions through their account
+ 
+
+00:09:47.429 --> 00:09:50.030 align:start position:0%
+payment solutions through their account
+balances<00:09:48.029><c> bank</c><00:09:48.509><c> accounts</c><00:09:49.079><c> credit</c><00:09:49.290><c> cards</c><00:09:49.920><c> or</c>
+
+00:09:50.030 --> 00:09:50.040 align:start position:0%
+balances bank accounts credit cards or
+ 
+
+00:09:50.040 --> 00:09:52.400 align:start position:0%
+balances bank accounts credit cards or
+promotional<00:09:50.730><c> financing</c><00:09:51.389><c> without</c><00:09:51.839><c> sharing</c>
+
+00:09:52.400 --> 00:09:52.410 align:start position:0%
+promotional financing without sharing
+ 
+
+00:09:52.410 --> 00:09:55.220 align:start position:0%
+promotional financing without sharing
+the<00:09:52.619><c> financial</c><00:09:53.129><c> information</c><00:09:53.459><c> today</c><00:09:54.329><c> PayPal</c>
+
+00:09:55.220 --> 00:09:55.230 align:start position:0%
+the financial information today PayPal
+ 
+
+00:09:55.230 --> 00:09:57.410 align:start position:0%
+the financial information today PayPal
+is<00:09:55.410><c> leveraging</c><00:09:55.860><c> OpenStack</c><00:09:56.639><c> for</c><00:09:56.910><c> the</c><00:09:57.029><c> private</c>
+
+00:09:57.410 --> 00:09:57.420 align:start position:0%
+is leveraging OpenStack for the private
+ 
+
+00:09:57.420 --> 00:09:59.539 align:start position:0%
+is leveraging OpenStack for the private
+clouds<00:09:57.720><c> and</c><00:09:57.959><c> runs</c><00:09:58.350><c> more</c><00:09:58.679><c> than</c><00:09:58.739><c> one</c><00:09:59.309><c> lakh</c>
+
+00:09:59.539 --> 00:09:59.549 align:start position:0%
+clouds and runs more than one lakh
+ 
+
+00:09:59.549 --> 00:10:02.509 align:start position:0%
+clouds and runs more than one lakh
+virtual<00:10:00.029><c> machines</c><00:10:00.420><c> now</c><00:10:01.350><c> one</c><00:10:02.040><c> of</c><00:10:02.069><c> the</c><00:10:02.309><c> biggest</c>
+
+00:10:02.509 --> 00:10:02.519 align:start position:0%
+virtual machines now one of the biggest
+ 
+
+00:10:02.519 --> 00:10:04.819 align:start position:0%
+virtual machines now one of the biggest
+desire<00:10:03.059><c> of</c><00:10:03.299><c> PayPal's</c><00:10:03.720><c> business</c><00:10:04.259><c> was</c><00:10:04.649><c> to</c>
+
+00:10:04.819 --> 00:10:04.829 align:start position:0%
+desire of PayPal's business was to
+ 
+
+00:10:04.829 --> 00:10:06.949 align:start position:0%
+desire of PayPal's business was to
+modernize<00:10:05.369><c> the</c><00:10:05.639><c> data</c><00:10:05.879><c> center</c><00:10:06.329><c> infrastructure</c>
+
+00:10:06.949 --> 00:10:06.959 align:start position:0%
+modernize the data center infrastructure
+ 
+
+00:10:06.959 --> 00:10:09.889 align:start position:0%
+modernize the data center infrastructure
+making<00:10:07.920><c> it</c><00:10:08.040><c> more</c><00:10:08.369><c> on</c><00:10:08.579><c> demand</c><00:10:08.970><c> improving</c><00:10:09.660><c> its</c>
+
+00:10:09.889 --> 00:10:09.899 align:start position:0%
+making it more on demand improving its
+ 
+
+00:10:09.899 --> 00:10:12.619 align:start position:0%
+making it more on demand improving its
+security<00:10:10.619><c> meeting</c><00:10:11.220><c> compliance</c><00:10:11.850><c> regulations</c>
+
+00:10:12.619 --> 00:10:12.629 align:start position:0%
+security meeting compliance regulations
+ 
+
+00:10:12.629 --> 00:10:14.470 align:start position:0%
+security meeting compliance regulations
+and<00:10:12.779><c> also</c><00:10:13.589><c> making</c><00:10:14.009><c> everything</c>
+
+00:10:14.470 --> 00:10:14.480 align:start position:0%
+and also making everything
+ 
+
+00:10:14.480 --> 00:10:17.269 align:start position:0%
+and also making everything
+cost-efficient<00:10:15.569><c> so</c><00:10:16.230><c> they</c><00:10:16.709><c> wanted</c><00:10:17.129><c> to</c>
+
+00:10:17.269 --> 00:10:17.279 align:start position:0%
+cost-efficient so they wanted to
+ 
+
+00:10:17.279 --> 00:10:19.280 align:start position:0%
+cost-efficient so they wanted to
+refactor<00:10:17.670><c> the</c><00:10:17.970><c> existing</c><00:10:18.540><c> Java</c><00:10:18.989><c> and</c><00:10:19.110><c> C++</c>
+
+00:10:19.280 --> 00:10:19.290 align:start position:0%
+refactor the existing Java and C++
+ 
+
+00:10:19.290 --> 00:10:22.249 align:start position:0%
+refactor the existing Java and C++
+legacy<00:10:20.160><c> applications</c><00:10:20.939><c> by</c><00:10:21.209><c> dog</c><00:10:21.540><c> arising</c><00:10:22.019><c> them</c>
+
+00:10:22.249 --> 00:10:22.259 align:start position:0%
+legacy applications by dog arising them
+ 
+
+00:10:22.259 --> 00:10:24.650 align:start position:0%
+legacy applications by dog arising them
+and<00:10:22.470><c> deploying</c><00:10:22.920><c> them</c><00:10:23.220><c> as</c><00:10:23.369><c> containers</c><00:10:23.819><c> this</c>
+
+00:10:24.650 --> 00:10:24.660 align:start position:0%
+and deploying them as containers this
+ 
+
+00:10:24.660 --> 00:10:26.720 align:start position:0%
+and deploying them as containers this
+called<00:10:25.019><c> for</c><00:10:25.139><c> a</c><00:10:25.259><c> technology</c><00:10:25.920><c> that</c><00:10:26.189><c> provides</c><00:10:26.399><c> a</c>
+
+00:10:26.720 --> 00:10:26.730 align:start position:0%
+called for a technology that provides a
+ 
+
+00:10:26.730 --> 00:10:28.609 align:start position:0%
+called for a technology that provides a
+distributed<00:10:27.449><c> application</c><00:10:27.629><c> deployment</c>
+
+00:10:28.609 --> 00:10:28.619 align:start position:0%
+distributed application deployment
+ 
+
+00:10:28.619 --> 00:10:30.829 align:start position:0%
+distributed application deployment
+architecture<00:10:28.799><c> and</c><00:10:29.519><c> can</c><00:10:29.850><c> manage</c><00:10:30.089><c> workloads</c>
+
+00:10:30.829 --> 00:10:30.839 align:start position:0%
+architecture and can manage workloads
+ 
+
+00:10:30.839 --> 00:10:33.499 align:start position:0%
+architecture and can manage workloads
+but<00:10:31.499><c> must</c><00:10:32.069><c> also</c><00:10:32.339><c> be</c><00:10:32.699><c> deployed</c><00:10:33.119><c> in</c><00:10:33.299><c> both</c>
+
+00:10:33.499 --> 00:10:33.509 align:start position:0%
+but must also be deployed in both
+ 
+
+00:10:33.509 --> 00:10:36.530 align:start position:0%
+but must also be deployed in both
+private<00:10:34.110><c> and</c><00:10:34.139><c> public</c><00:10:34.559><c> cloud</c><00:10:34.980><c> environments</c><00:10:35.670><c> so</c>
+
+00:10:36.530 --> 00:10:36.540 align:start position:0%
+private and public cloud environments so
+ 
+
+00:10:36.540 --> 00:10:39.439 align:start position:0%
+private and public cloud environments so
+PayPal<00:10:37.350><c> uses</c><00:10:37.769><c> taka</c><00:10:38.069><c> commercial</c><00:10:38.670><c> solutions</c><00:10:39.269><c> to</c>
+
+00:10:39.439 --> 00:10:39.449 align:start position:0%
+PayPal uses taka commercial solutions to
+ 
+
+00:10:39.449 --> 00:10:41.629 align:start position:0%
+PayPal uses taka commercial solutions to
+enable<00:10:39.689><c> them</c><00:10:40.199><c> to</c><00:10:40.379><c> not</c><00:10:40.649><c> only</c><00:10:40.860><c> provide</c><00:10:41.279><c> gains</c>
+
+00:10:41.629 --> 00:10:41.639 align:start position:0%
+enable them to not only provide gains
+ 
+
+00:10:41.639 --> 00:10:43.309 align:start position:0%
+enable them to not only provide gains
+for<00:10:41.910><c> the</c><00:10:42.029><c> developers</c><00:10:42.629><c> in</c><00:10:42.809><c> terms</c><00:10:43.049><c> of</c>
+
+00:10:43.309 --> 00:10:43.319 align:start position:0%
+for the developers in terms of
+ 
+
+00:10:43.319 --> 00:10:46.129 align:start position:0%
+for the developers in terms of
+productivity<00:10:43.829><c> and</c><00:10:44.160><c> agility</c><00:10:44.790><c> but</c><00:10:45.389><c> also</c><00:10:45.689><c> for</c>
+
+00:10:46.129 --> 00:10:46.139 align:start position:0%
+productivity and agility but also for
+ 
+
+00:10:46.139 --> 00:10:48.049 align:start position:0%
+productivity and agility but also for
+the<00:10:46.230><c> infrastructure</c><00:10:46.889><c> teams</c><00:10:47.249><c> in</c><00:10:47.490><c> the</c><00:10:47.670><c> form</c><00:10:47.910><c> of</c>
+
+00:10:48.049 --> 00:10:48.059 align:start position:0%
+the infrastructure teams in the form of
+ 
+
+00:10:48.059 --> 00:10:49.819 align:start position:0%
+the infrastructure teams in the form of
+cost<00:10:48.360><c> efficiency</c><00:10:49.019><c> and</c><00:10:49.049><c> enterprise-grade</c>
+
+00:10:49.819 --> 00:10:49.829 align:start position:0%
+cost efficiency and enterprise-grade
+ 
+
+00:10:49.829 --> 00:10:52.369 align:start position:0%
+cost efficiency and enterprise-grade
+security<00:10:50.299><c> the</c><00:10:51.299><c> tools</c><00:10:51.569><c> being</c><00:10:51.899><c> used</c><00:10:51.990><c> in</c>
+
+00:10:52.369 --> 00:10:52.379 align:start position:0%
+security the tools being used in
+ 
+
+00:10:52.379 --> 00:10:53.929 align:start position:0%
+security the tools being used in
+production<00:10:52.649><c> today</c><00:10:53.129><c> include</c><00:10:53.610><c> docker</c>
+
+00:10:53.929 --> 00:10:53.939 align:start position:0%
+production today include docker
+ 
+
+00:10:53.939 --> 00:10:56.030 align:start position:0%
+production today include docker
+commercially<00:10:54.629><c> supported</c><00:10:54.839><c> engines</c><00:10:55.589><c> docker</c>
+
+00:10:56.030 --> 00:10:56.040 align:start position:0%
+commercially supported engines docker
+ 
+
+00:10:56.040 --> 00:10:58.160 align:start position:0%
+commercially supported engines docker
+trusted<00:10:56.549><c> registry</c><00:10:57.029><c> and</c><00:10:57.209><c> as</c><00:10:57.449><c> well</c><00:10:57.720><c> as</c><00:10:57.839><c> talk</c><00:10:58.139><c> a</c>
+
+00:10:58.160 --> 00:10:58.170 align:start position:0%
+trusted registry and as well as talk a
+ 
+
+00:10:58.170 --> 00:11:00.650 align:start position:0%
+trusted registry and as well as talk a
+compose<00:10:58.679><c> the</c><00:10:59.549><c> company</c><00:11:00.029><c> believes</c><00:11:00.389><c> that</c>
+
+00:11:00.650 --> 00:11:00.660 align:start position:0%
+compose the company believes that
+ 
+
+00:11:00.660 --> 00:11:02.509 align:start position:0%
+compose the company believes that
+containers<00:11:01.319><c> and</c><00:11:01.499><c> virtual</c><00:11:01.949><c> machines</c><00:11:02.339><c> can</c>
+
+00:11:02.509 --> 00:11:02.519 align:start position:0%
+containers and virtual machines can
+ 
+
+00:11:02.519 --> 00:11:05.539 align:start position:0%
+containers and virtual machines can
+coexist<00:11:03.179><c> and</c><00:11:03.540><c> thus</c><00:11:04.170><c> they</c><00:11:04.589><c> combine</c><00:11:05.040><c> these</c><00:11:05.309><c> two</c>
+
+00:11:05.539 --> 00:11:05.549 align:start position:0%
+coexist and thus they combine these two
+ 
+
+00:11:05.549 --> 00:11:07.789 align:start position:0%
+coexist and thus they combine these two
+technologies<00:11:06.559><c> leveraging</c><00:11:07.559><c> docker</c>
+
+00:11:07.789 --> 00:11:07.799 align:start position:0%
+technologies leveraging docker
+ 
+
+00:11:07.799 --> 00:11:09.980 align:start position:0%
+technologies leveraging docker
+containers<00:11:08.490><c> and</c><00:11:08.670><c> virtual</c><00:11:09.119><c> machines</c><00:11:09.149><c> together</c>
+
+00:11:09.980 --> 00:11:09.990 align:start position:0%
+containers and virtual machines together
+ 
+
+00:11:09.990 --> 00:11:12.619 align:start position:0%
+containers and virtual machines together
+gave<00:11:10.709><c> PayPal</c><00:11:11.279><c> the</c><00:11:11.459><c> ability</c><00:11:11.999><c> to</c><00:11:12.029><c> run</c><00:11:12.329><c> more</c>
+
+00:11:12.619 --> 00:11:12.629 align:start position:0%
+gave PayPal the ability to run more
+ 
+
+00:11:12.629 --> 00:11:14.749 align:start position:0%
+gave PayPal the ability to run more
+applications<00:11:13.529><c> while</c><00:11:13.769><c> reducing</c><00:11:14.369><c> the</c><00:11:14.459><c> number</c>
+
+00:11:14.749 --> 00:11:14.759 align:start position:0%
+applications while reducing the number
+ 
+
+00:11:14.759 --> 00:11:16.879 align:start position:0%
+applications while reducing the number
+of<00:11:14.790><c> total</c><00:11:15.269><c> virtual</c><00:11:15.480><c> machines</c><00:11:16.139><c> and</c><00:11:16.319><c> also</c>
+
+00:11:16.879 --> 00:11:16.889 align:start position:0%
+of total virtual machines and also
+ 
+
+00:11:16.889 --> 00:11:19.579 align:start position:0%
+of total virtual machines and also
+optimizing<00:11:17.699><c> their</c><00:11:17.850><c> infrastructure</c><00:11:18.660><c> this</c>
+
+00:11:19.579 --> 00:11:19.589 align:start position:0%
+optimizing their infrastructure this
+ 
+
+00:11:19.589 --> 00:11:21.889 align:start position:0%
+optimizing their infrastructure this
+also<00:11:20.160><c> allowed</c><00:11:20.519><c> PayPal</c><00:11:21.029><c> to</c><00:11:21.240><c> spin</c><00:11:21.480><c> up</c><00:11:21.629><c> new</c>
+
+00:11:21.889 --> 00:11:21.899 align:start position:0%
+also allowed PayPal to spin up new
+ 
+
+00:11:21.899 --> 00:11:24.619 align:start position:0%
+also allowed PayPal to spin up new
+applications<00:11:22.709><c> much</c><00:11:22.980><c> more</c><00:11:23.249><c> quickly</c><00:11:23.579><c> and</c><00:11:23.970><c> also</c>
+
+00:11:24.619 --> 00:11:24.629 align:start position:0%
+applications much more quickly and also
+ 
+
+00:11:24.629 --> 00:11:28.039 align:start position:0%
+applications much more quickly and also
+on<00:11:24.929><c> as</c><00:11:25.139><c> needed</c><00:11:25.769><c> basis</c><00:11:26.249><c> since</c><00:11:27.209><c> containers</c><00:11:27.869><c> are</c>
+
+00:11:28.039 --> 00:11:28.049 align:start position:0%
+on as needed basis since containers are
+ 
+
+00:11:28.049 --> 00:11:30.139 align:start position:0%
+on as needed basis since containers are
+more<00:11:28.319><c> lightweight</c><00:11:28.559><c> and</c><00:11:29.100><c> instantiate</c><00:11:29.579><c> in</c><00:11:30.059><c> a</c>
+
+00:11:30.139 --> 00:11:30.149 align:start position:0%
+more lightweight and instantiate in a
+ 
+
+00:11:30.149 --> 00:11:31.759 align:start position:0%
+more lightweight and instantiate in a
+fraction<00:11:30.540><c> of</c><00:11:30.600><c> second</c><00:11:31.079><c> while</c><00:11:31.499><c> watching</c>
+
+00:11:31.759 --> 00:11:31.769 align:start position:0%
+fraction of second while watching
+ 
+
+00:11:31.769 --> 00:11:34.400 align:start position:0%
+fraction of second while watching
+machines<00:11:32.369><c> take</c><00:11:32.699><c> minutes</c><00:11:33.209><c> they</c><00:11:33.839><c> can</c><00:11:33.899><c> roll</c><00:11:34.230><c> out</c>
+
+00:11:34.400 --> 00:11:34.410 align:start position:0%
+machines take minutes they can roll out
+ 
+
+00:11:34.410 --> 00:11:37.280 align:start position:0%
+machines take minutes they can roll out
+a<00:11:34.589><c> new</c><00:11:34.649><c> application</c><00:11:35.489><c> instance</c><00:11:36.149><c> quickly</c><00:11:36.720><c> patch</c>
+
+00:11:37.280 --> 00:11:37.290 align:start position:0%
+a new application instance quickly patch
+ 
+
+00:11:37.290 --> 00:11:39.859 align:start position:0%
+a new application instance quickly patch
+up<00:11:37.529><c> an</c><00:11:37.649><c> existing</c><00:11:38.160><c> application</c><00:11:38.369><c> or</c><00:11:39.119><c> even</c><00:11:39.720><c> add</c>
+
+00:11:39.859 --> 00:11:39.869 align:start position:0%
+up an existing application or even add
+ 
+
+00:11:39.869 --> 00:11:41.809 align:start position:0%
+up an existing application or even add
+the<00:11:40.049><c> capacity</c><00:11:40.230><c> to</c><00:11:40.860><c> compensate</c><00:11:41.399><c> for</c><00:11:41.579><c> peak</c>
+
+00:11:41.809 --> 00:11:41.819 align:start position:0%
+the capacity to compensate for peak
+ 
+
+00:11:41.819 --> 00:11:42.470 align:start position:0%
+the capacity to compensate for peak
+times
+
+00:11:42.470 --> 00:11:42.480 align:start position:0%
+times
+ 
+
+00:11:42.480 --> 00:11:45.079 align:start position:0%
+times
+in<00:11:42.540><c> the</c><00:11:42.720><c> year</c><00:11:42.870><c> so</c><00:11:43.709><c> this</c><00:11:43.889><c> helped</c><00:11:44.279><c> paypal</c><00:11:44.850><c> to</c>
+
+00:11:45.079 --> 00:11:45.089 align:start position:0%
+in the year so this helped paypal to
+ 
+
+00:11:45.089 --> 00:11:47.540 align:start position:0%
+in the year so this helped paypal to
+drive<00:11:45.329><c> innovation</c><00:11:45.630><c> and</c><00:11:46.230><c> also</c><00:11:46.889><c> outpaced</c><00:11:47.430><c> the</c>
+
+00:11:47.540 --> 00:11:47.550 align:start position:0%
+drive innovation and also outpaced the
+ 
+
+00:11:47.550 --> 00:11:50.180 align:start position:0%
+drive innovation and also outpaced the
+competition's<00:11:48.380><c> so</c><00:11:49.380><c> guys</c><00:11:49.560><c> that's</c><00:11:49.829><c> how</c><00:11:50.130><c> the</c>
+
+00:11:50.180 --> 00:11:50.190 align:start position:0%
+competition's so guys that's how the
+ 
+
+00:11:50.190 --> 00:11:52.340 align:start position:0%
+competition's so guys that's how the
+company<00:11:50.519><c> gained</c><00:11:51.060><c> the</c><00:11:51.180><c> ability</c><00:11:51.810><c> to</c><00:11:51.839><c> scale</c>
+
+00:11:52.340 --> 00:11:52.350 align:start position:0%
+company gained the ability to scale
+ 
+
+00:11:52.350 --> 00:11:54.889 align:start position:0%
+company gained the ability to scale
+quickly<00:11:52.680><c> and</c><00:11:53.070><c> deploy</c><00:11:53.399><c> faster</c><00:11:54.029><c> with</c><00:11:54.570><c> the</c><00:11:54.690><c> help</c>
+
+00:11:54.889 --> 00:11:54.899 align:start position:0%
+quickly and deploy faster with the help
+ 
+
+00:11:54.899 --> 00:11:56.300 align:start position:0%
+quickly and deploy faster with the help
+of<00:11:55.079><c> docker</c><00:11:55.410><c> containers</c><00:11:56.100><c> and</c><00:11:56.279><c> virtual</c>
+
+00:11:56.300 --> 00:11:56.310 align:start position:0%
+of docker containers and virtual
+ 
+
+00:11:56.310 --> 00:11:59.870 align:start position:0%
+of docker containers and virtual
+machines<00:11:57.290><c> so</c><00:11:58.290><c> now</c><00:11:58.500><c> let</c><00:11:59.040><c> me</c><00:11:59.190><c> summarize</c><00:11:59.430><c> the</c>
+
+00:11:59.870 --> 00:11:59.880 align:start position:0%
+machines so now let me summarize the
+ 
+
+00:11:59.880 --> 00:12:02.420 align:start position:0%
+machines so now let me summarize the
+complete<00:12:00.360><c> session</c><00:12:00.899><c> in</c><00:12:01.079><c> a</c><00:12:01.170><c> minute</c><00:12:01.529><c> for</c><00:12:01.680><c> you</c><00:12:01.829><c> so</c>
+
+00:12:02.420 --> 00:12:02.430 align:start position:0%
+complete session in a minute for you so
+ 
+
+00:12:02.430 --> 00:12:04.699 align:start position:0%
+complete session in a minute for you so
+daughter<00:12:02.699><c> is</c><00:12:03.000><c> a</c><00:12:03.110><c> containerization</c><00:12:04.110><c> app</c><00:12:04.260><c> that</c>
+
+00:12:04.699 --> 00:12:04.709 align:start position:0%
+daughter is a containerization app that
+ 
+
+00:12:04.709 --> 00:12:06.949 align:start position:0%
+daughter is a containerization app that
+isolates<00:12:05.279><c> applications</c><00:12:06.120><c> at</c><00:12:06.300><c> the</c><00:12:06.360><c> software</c>
+
+00:12:06.949 --> 00:12:06.959 align:start position:0%
+isolates applications at the software
+ 
+
+00:12:06.959 --> 00:12:09.439 align:start position:0%
+isolates applications at the software
+level<00:12:07.199><c> if</c><00:12:07.500><c> a</c><00:12:08.160><c> virtual</c><00:12:08.550><c> machine</c><00:12:08.940><c> is</c><00:12:09.089><c> a</c><00:12:09.120><c> house</c>
+
+00:12:09.439 --> 00:12:09.449 align:start position:0%
+level if a virtual machine is a house
+ 
+
+00:12:09.449 --> 00:12:11.780 align:start position:0%
+level if a virtual machine is a house
+then<00:12:10.050><c> the</c><00:12:10.170><c> docker</c><00:12:10.440><c> container</c><00:12:10.980><c> is</c><00:12:11.250><c> a</c><00:12:11.310><c> hotel</c>
+
+00:12:11.780 --> 00:12:11.790 align:start position:0%
+then the docker container is a hotel
+ 
+
+00:12:11.790 --> 00:12:14.000 align:start position:0%
+then the docker container is a hotel
+room<00:12:11.970><c> if</c><00:12:12.209><c> you</c><00:12:12.720><c> do</c><00:12:12.839><c> not</c><00:12:12.990><c> like</c><00:12:13.230><c> the</c><00:12:13.380><c> setup</c><00:12:13.620><c> then</c>
+
+00:12:14.000 --> 00:12:14.010 align:start position:0%
+room if you do not like the setup then
+ 
+
+00:12:14.010 --> 00:12:16.100 align:start position:0%
+room if you do not like the setup then
+you<00:12:14.130><c> can</c><00:12:14.279><c> always</c><00:12:14.550><c> change</c><00:12:15.180><c> the</c><00:12:15.360><c> hotel</c><00:12:15.720><c> room</c><00:12:15.899><c> as</c>
+
+00:12:16.100 --> 00:12:16.110 align:start position:0%
+you can always change the hotel room as
+ 
+
+00:12:16.110 --> 00:12:18.259 align:start position:0%
+you can always change the hotel room as
+it<00:12:16.410><c> is</c><00:12:16.529><c> much</c><00:12:16.800><c> easier</c><00:12:17.010><c> than</c><00:12:17.399><c> changing</c><00:12:17.760><c> a</c><00:12:18.060><c> house</c>
+
+00:12:18.259 --> 00:12:18.269 align:start position:0%
+it is much easier than changing a house
+ 
+
+00:12:18.269 --> 00:12:21.800 align:start position:0%
+it is much easier than changing a house
+isn't<00:12:19.110><c> it</c><00:12:19.260><c> so</c><00:12:19.980><c> similarly</c><00:12:20.699><c> as</c><00:12:20.970><c> a</c><00:12:21.029><c> hotel</c><00:12:21.600><c> has</c>
+
+00:12:21.800 --> 00:12:21.810 align:start position:0%
+isn't it so similarly as a hotel has
+ 
+
+00:12:21.810 --> 00:12:23.569 align:start position:0%
+isn't it so similarly as a hotel has
+multiple<00:12:22.440><c> rooms</c><00:12:22.680><c> sharing</c><00:12:23.190><c> the</c><00:12:23.310><c> same</c>
+
+00:12:23.569 --> 00:12:23.579 align:start position:0%
+multiple rooms sharing the same
+ 
+
+00:12:23.579 --> 00:12:26.269 align:start position:0%
+multiple rooms sharing the same
+underlying<00:12:24.180><c> infrastructure</c><00:12:24.899><c> docker</c><00:12:25.829><c> offers</c>
+
+00:12:26.269 --> 00:12:26.279 align:start position:0%
+underlying infrastructure docker offers
+ 
+
+00:12:26.279 --> 00:12:28.100 align:start position:0%
+underlying infrastructure docker offers
+the<00:12:26.399><c> ability</c><00:12:26.579><c> to</c><00:12:26.940><c> run</c><00:12:27.269><c> multiple</c><00:12:27.600><c> applications</c>
+
+00:12:28.100 --> 00:12:28.110 align:start position:0%
+the ability to run multiple applications
+ 
+
+00:12:28.110 --> 00:12:30.920 align:start position:0%
+the ability to run multiple applications
+with<00:12:28.889><c> the</c><00:12:29.040><c> same</c><00:12:29.339><c> host</c><00:12:29.699><c> operating</c><00:12:30.120><c> system</c><00:12:30.779><c> and</c>
+
+00:12:30.920 --> 00:12:30.930 align:start position:0%
+with the same host operating system and
+ 
+
+00:12:30.930 --> 00:12:34.310 align:start position:0%
+with the same host operating system and
+sharing<00:12:31.470><c> underlying</c><00:12:31.949><c> resources</c><00:12:32.600><c> now</c><00:12:33.600><c> it</c><00:12:34.139><c> is</c>
+
+00:12:34.310 --> 00:12:34.320 align:start position:0%
+sharing underlying resources now it is
+ 
+
+00:12:34.320 --> 00:12:36.650 align:start position:0%
+sharing underlying resources now it is
+often<00:12:34.620><c> observed</c><00:12:35.070><c> that</c><00:12:35.639><c> some</c><00:12:36.000><c> of</c><00:12:36.120><c> them</c><00:12:36.300><c> believe</c>
+
+00:12:36.650 --> 00:12:36.660 align:start position:0%
+often observed that some of them believe
+ 
+
+00:12:36.660 --> 00:12:38.629 align:start position:0%
+often observed that some of them believe
+that<00:12:36.959><c> docker</c><00:12:37.290><c> is</c><00:12:37.589><c> better</c><00:12:37.860><c> than</c><00:12:38.130><c> a</c><00:12:38.160><c> virtual</c>
+
+00:12:38.629 --> 00:12:38.639 align:start position:0%
+that docker is better than a virtual
+ 
+
+00:12:38.639 --> 00:12:41.449 align:start position:0%
+that docker is better than a virtual
+machine<00:12:39.000><c> but</c><00:12:39.690><c> we</c><00:12:40.230><c> need</c><00:12:40.410><c> to</c><00:12:40.589><c> understand</c><00:12:41.250><c> that</c>
+
+00:12:41.449 --> 00:12:41.459 align:start position:0%
+machine but we need to understand that
+ 
+
+00:12:41.459 --> 00:12:43.400 align:start position:0%
+machine but we need to understand that
+while<00:12:41.670><c> having</c><00:12:42.060><c> a</c><00:12:42.180><c> lot</c><00:12:42.449><c> of</c><00:12:42.600><c> functionality</c><00:12:43.050><c> and</c>
+
+00:12:43.400 --> 00:12:43.410 align:start position:0%
+while having a lot of functionality and
+ 
+
+00:12:43.410 --> 00:12:44.960 align:start position:0%
+while having a lot of functionality and
+being<00:12:43.709><c> more</c><00:12:43.920><c> efficient</c><00:12:44.519><c> in</c><00:12:44.639><c> running</c>
+
+00:12:44.960 --> 00:12:44.970 align:start position:0%
+being more efficient in running
+ 
+
+00:12:44.970 --> 00:12:47.750 align:start position:0%
+being more efficient in running
+applications<00:12:45.839><c> docker</c><00:12:46.620><c> cannot</c><00:12:47.250><c> replace</c>
+
+00:12:47.750 --> 00:12:47.760 align:start position:0%
+applications docker cannot replace
+ 
+
+00:12:47.760 --> 00:12:50.509 align:start position:0%
+applications docker cannot replace
+virtual<00:12:48.329><c> machines</c><00:12:48.750><c> both</c><00:12:49.500><c> containers</c><00:12:50.160><c> and</c>
+
+00:12:50.509 --> 00:12:50.519 align:start position:0%
+virtual machines both containers and
+ 
+
+00:12:50.519 --> 00:12:52.879 align:start position:0%
+virtual machines both containers and
+virtual<00:12:50.550><c> machines</c><00:12:51.000><c> have</c><00:12:51.720><c> their</c><00:12:51.930><c> own</c><00:12:52.139><c> benefits</c>
+
+00:12:52.879 --> 00:12:52.889 align:start position:0%
+virtual machines have their own benefits
+ 
+
+00:12:52.889 --> 00:12:55.189 align:start position:0%
+virtual machines have their own benefits
+and<00:12:53.010><c> drawback</c><00:12:53.550><c> and</c><00:12:53.730><c> the</c><00:12:54.060><c> ultimate</c><00:12:54.630><c> decision</c>
+
+00:12:55.189 --> 00:12:55.199 align:start position:0%
+and drawback and the ultimate decision
+ 
+
+00:12:55.199 --> 00:12:57.800 align:start position:0%
+and drawback and the ultimate decision
+will<00:12:55.440><c> depend</c><00:12:55.860><c> on</c><00:12:55.949><c> your</c><00:12:56.130><c> specific</c><00:12:56.190><c> needs</c><00:12:56.970><c> but</c>
+
+00:12:57.800 --> 00:12:57.810 align:start position:0%
+will depend on your specific needs but
+ 
+
+00:12:57.810 --> 00:12:59.720 align:start position:0%
+will depend on your specific needs but
+let<00:12:58.170><c> me</c><00:12:58.319><c> also</c><00:12:58.500><c> tell</c><00:12:59.040><c> you</c><00:12:59.220><c> that</c><00:12:59.399><c> there's</c><00:12:59.610><c> some</c>
+
+00:12:59.720 --> 00:12:59.730 align:start position:0%
+let me also tell you that there's some
+ 
+
+00:12:59.730 --> 00:13:02.360 align:start position:0%
+let me also tell you that there's some
+general<00:13:00.180><c> rules</c><00:13:00.360><c> of</c><00:13:00.569><c> thumb</c><00:13:00.630><c> that</c><00:13:01.410><c> is</c><00:13:01.620><c> what</c><00:13:02.190><c> your</c>
+
+00:13:02.360 --> 00:13:02.370 align:start position:0%
+general rules of thumb that is what your
+ 
+
+00:13:02.370 --> 00:13:04.250 align:start position:0%
+general rules of thumb that is what your
+machines<00:13:02.760><c> are</c><00:13:02.940><c> a</c><00:13:03.000><c> better</c><00:13:03.329><c> choice</c><00:13:03.690><c> for</c><00:13:03.720><c> running</c>
+
+00:13:04.250 --> 00:13:04.260 align:start position:0%
+machines are a better choice for running
+ 
+
+00:13:04.260 --> 00:13:06.290 align:start position:0%
+machines are a better choice for running
+applications<00:13:04.410><c> that</c><00:13:05.250><c> require</c><00:13:05.459><c> all</c><00:13:05.850><c> of</c><00:13:06.180><c> the</c>
+
+00:13:06.290 --> 00:13:06.300 align:start position:0%
+applications that require all of the
+ 
+
+00:13:06.300 --> 00:13:07.879 align:start position:0%
+applications that require all of the
+operating<00:13:06.810><c> system</c><00:13:07.170><c> resources</c><00:13:07.290><c> and</c>
+
+00:13:07.879 --> 00:13:07.889 align:start position:0%
+operating system resources and
+ 
+
+00:13:07.889 --> 00:13:09.829 align:start position:0%
+operating system resources and
+functionalities<00:13:08.699><c> well</c><00:13:09.240><c> you</c><00:13:09.389><c> need</c><00:13:09.540><c> to</c><00:13:09.569><c> run</c>
+
+00:13:09.829 --> 00:13:09.839 align:start position:0%
+functionalities well you need to run
+ 
+
+00:13:09.839 --> 00:13:12.530 align:start position:0%
+functionalities well you need to run
+multiple<00:13:10.220><c> applications</c><00:13:11.220><c> on</c><00:13:11.370><c> servers</c><00:13:11.850><c> or</c><00:13:12.240><c> have</c>
+
+00:13:12.530 --> 00:13:12.540 align:start position:0%
+multiple applications on servers or have
+ 
+
+00:13:12.540 --> 00:13:14.629 align:start position:0%
+multiple applications on servers or have
+a<00:13:12.569><c> wide</c><00:13:12.930><c> variety</c><00:13:13.170><c> of</c><00:13:13.529><c> operating</c><00:13:13.980><c> systems</c><00:13:14.490><c> to</c>
+
+00:13:14.629 --> 00:13:14.639 align:start position:0%
+a wide variety of operating systems to
+ 
+
+00:13:14.639 --> 00:13:17.269 align:start position:0%
+a wide variety of operating systems to
+manage<00:13:15.050><c> whereas</c><00:13:16.079><c> the</c><00:13:16.470><c> containers</c><00:13:17.069><c> are</c><00:13:17.220><c> a</c>
+
+00:13:17.269 --> 00:13:17.279 align:start position:0%
+manage whereas the containers are a
+ 
+
+00:13:17.279 --> 00:13:19.430 align:start position:0%
+manage whereas the containers are a
+better<00:13:17.579><c> choice</c><00:13:17.880><c> when</c><00:13:18.209><c> your</c><00:13:18.360><c> biggest</c><00:13:18.839><c> priority</c>
+
+00:13:19.430 --> 00:13:19.440 align:start position:0%
+better choice when your biggest priority
+ 
+
+00:13:19.440 --> 00:13:20.930 align:start position:0%
+better choice when your biggest priority
+is<00:13:19.589><c> to</c><00:13:19.829><c> maximize</c><00:13:20.490><c> the</c><00:13:20.670><c> number</c><00:13:20.699><c> of</c>
+
+00:13:20.930 --> 00:13:20.940 align:start position:0%
+is to maximize the number of
+ 
+
+00:13:20.940 --> 00:13:23.269 align:start position:0%
+is to maximize the number of
+applications<00:13:21.839><c> running</c><00:13:22.230><c> on</c><00:13:22.380><c> a</c><00:13:22.440><c> minimal</c><00:13:22.920><c> number</c>
+
+00:13:23.269 --> 00:13:23.279 align:start position:0%
+applications running on a minimal number
+ 
+
+00:13:23.279 --> 00:13:26.720 align:start position:0%
+applications running on a minimal number
+of<00:13:23.399><c> servers</c><00:13:23.959><c> but</c><00:13:24.959><c> in</c><00:13:25.170><c> many</c><00:13:25.589><c> situations</c><00:13:25.920><c> the</c>
+
+00:13:26.720 --> 00:13:26.730 align:start position:0%
+of servers but in many situations the
+ 
+
+00:13:26.730 --> 00:13:29.300 align:start position:0%
+of servers but in many situations the
+ideal<00:13:27.180><c> setup</c><00:13:27.660><c> is</c><00:13:27.810><c> to</c><00:13:27.870><c> likely</c><00:13:28.500><c> include</c><00:13:28.980><c> both</c>
+
+00:13:29.300 --> 00:13:29.310 align:start position:0%
+ideal setup is to likely include both
+ 
+
+00:13:29.310 --> 00:13:31.370 align:start position:0%
+ideal setup is to likely include both
+with<00:13:30.000><c> the</c><00:13:30.120><c> current</c><00:13:30.480><c> state</c><00:13:30.720><c> of</c><00:13:30.750><c> virtualization</c>
+
+00:13:31.370 --> 00:13:31.380 align:start position:0%
+with the current state of virtualization
+ 
+
+00:13:31.380 --> 00:13:33.860 align:start position:0%
+with the current state of virtualization
+technology<00:13:32.339><c> the</c><00:13:32.670><c> flexibility</c><00:13:33.360><c> of</c><00:13:33.389><c> virtual</c>
+
+00:13:33.860 --> 00:13:33.870 align:start position:0%
+technology the flexibility of virtual
+ 
+
+00:13:33.870 --> 00:13:35.509 align:start position:0%
+technology the flexibility of virtual
+machines<00:13:34.230><c> and</c><00:13:34.440><c> the</c><00:13:34.680><c> minimal</c><00:13:35.130><c> resource</c>
+
+00:13:35.509 --> 00:13:35.519 align:start position:0%
+machines and the minimal resource
+ 
+
+00:13:35.519 --> 00:13:37.579 align:start position:0%
+machines and the minimal resource
+requirements<00:13:36.149><c> of</c><00:13:36.240><c> containers</c><00:13:36.899><c> work</c><00:13:37.319><c> together</c>
+
+00:13:37.579 --> 00:13:37.589 align:start position:0%
+requirements of containers work together
+ 
+
+00:13:37.589 --> 00:13:39.949 align:start position:0%
+requirements of containers work together
+to<00:13:38.040><c> provide</c><00:13:38.370><c> environments</c><00:13:39.120><c> with</c><00:13:39.300><c> the</c><00:13:39.420><c> maximum</c>
+
+00:13:39.949 --> 00:13:39.959 align:start position:0%
+to provide environments with the maximum
+ 
+
+00:13:39.959 --> 00:13:42.530 align:start position:0%
+to provide environments with the maximum
+functionality<00:13:40.889><c> so</c><00:13:41.670><c> guys</c><00:13:41.880><c> that's</c><00:13:42.209><c> all</c><00:13:42.510><c> for</c>
+
+00:13:42.530 --> 00:13:42.540 align:start position:0%
+functionality so guys that's all for
+ 
+
+00:13:42.540 --> 00:13:44.540 align:start position:0%
+functionality so guys that's all for
+today's<00:13:43.019><c> session</c><00:13:43.350><c> I</c><00:13:43.649><c> hope</c><00:13:43.920><c> you</c><00:13:44.160><c> found</c><00:13:44.339><c> the</c>
+
+00:13:44.540 --> 00:13:44.550 align:start position:0%
+today's session I hope you found the
+ 
+
+00:13:44.550 --> 00:13:47.180 align:start position:0%
+today's session I hope you found the
+session<00:13:44.940><c> informated</c><00:13:45.630><c> thank</c><00:13:46.319><c> you</c><00:13:46.560><c> and</c><00:13:46.769><c> have</c><00:13:47.160><c> a</c>
+
+00:13:47.180 --> 00:13:47.190 align:start position:0%
+session informated thank you and have a
+ 
+
+00:13:47.190 --> 00:13:48.590 align:start position:0%
+session informated thank you and have a
+great<00:13:47.399><c> day</c>
+
+00:13:48.590 --> 00:13:48.600 align:start position:0%
+great day
+ 
+
+00:13:48.600 --> 00:13:50.240 align:start position:0%
+great day
+I<00:13:48.660><c> hope</c><00:13:49.079><c> you</c><00:13:49.259><c> have</c><00:13:49.350><c> enjoyed</c><00:13:49.440><c> listening</c><00:13:50.040><c> to</c>
+
+00:13:50.240 --> 00:13:50.250 align:start position:0%
+I hope you have enjoyed listening to
+ 
+
+00:13:50.250 --> 00:13:52.730 align:start position:0%
+I hope you have enjoyed listening to
+this<00:13:50.459><c> video</c><00:13:50.850><c> please</c><00:13:51.480><c> be</c><00:13:51.509><c> kind</c><00:13:51.990><c> enough</c><00:13:52.170><c> to</c><00:13:52.350><c> like</c>
+
+00:13:52.730 --> 00:13:52.740 align:start position:0%
+this video please be kind enough to like
+ 
+
+00:13:52.740 --> 00:13:55.009 align:start position:0%
+this video please be kind enough to like
+it<00:13:52.980><c> and</c><00:13:53.130><c> you</c><00:13:53.610><c> can</c><00:13:53.819><c> comment</c><00:13:54.089><c> any</c><00:13:54.509><c> of</c><00:13:54.839><c> your</c>
+
+00:13:55.009 --> 00:13:55.019 align:start position:0%
+it and you can comment any of your
+ 
+
+00:13:55.019 --> 00:13:57.559 align:start position:0%
+it and you can comment any of your
+doubts<00:13:55.259><c> and</c><00:13:55.589><c> queries</c><00:13:55.920><c> and</c><00:13:56.310><c> we</c><00:13:56.940><c> will</c><00:13:57.120><c> reply</c>
+
+00:13:57.559 --> 00:13:57.569 align:start position:0%
+doubts and queries and we will reply
+ 
+
+00:13:57.569 --> 00:13:59.930 align:start position:0%
+doubts and queries and we will reply
+them<00:13:57.839><c> at</c><00:13:58.019><c> the</c><00:13:58.319><c> earliest</c><00:13:58.740><c> do</c><00:13:59.399><c> look</c><00:13:59.610><c> out</c><00:13:59.759><c> for</c>
+
+00:13:59.930 --> 00:13:59.940 align:start position:0%
+them at the earliest do look out for
+ 
+
+00:13:59.940 --> 00:14:01.670 align:start position:0%
+them at the earliest do look out for
+more<00:14:00.180><c> videos</c><00:14:00.540><c> in</c><00:14:00.569><c> our</c><00:14:00.930><c> playlist</c><00:14:01.500><c> and</c>
+
+00:14:01.670 --> 00:14:01.680 align:start position:0%
+more videos in our playlist and
+ 
+
+00:14:01.680 --> 00:14:04.370 align:start position:0%
+more videos in our playlist and
+subscribe<00:14:02.670><c> to</c><00:14:02.940><c> any</c><00:14:03.149><c> Rekha</c><00:14:03.420><c> channel</c><00:14:03.959><c> to</c><00:14:04.199><c> learn</c>
+
+00:14:04.370 --> 00:14:04.380 align:start position:0%
+subscribe to any Rekha channel to learn
+ 
+
+00:14:04.380 --> 00:14:07.730 align:start position:0%
+subscribe to any Rekha channel to learn
+more<00:14:04.680><c> happy</c><00:14:05.550><c> learning</c>
+

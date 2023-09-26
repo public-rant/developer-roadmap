@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://developers.google.com/web/fundamentals/security/csp > $(basename https://developers.google.com/web/fundamentals/security/csp).txt

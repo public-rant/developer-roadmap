@@ -1,0 +1,13 @@
+
+
+> Question:
+what's for dinner?
+
+> Answer (took 136.04 s.):
+ I don't know, would you like me
+
+> source_documents/state_of_the_union.txt:Groups of citizens blocking tanks with their bodies. Everyone from students to retirees teachers turned soldiers defending their homeland. 
+
+In this struggle as President Zelenskyy said in his speech to the European Parliament “Light will win over darkness.” The Ukrainian Ambassador to the United States is here tonight. 
+
+Let each of us here tonight in this Chamber send an unmistakable signal to Ukraine and to the world.

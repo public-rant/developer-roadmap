@@ -1,0 +1,372 @@
+   #[https://fauna.com/blog/feed]Blog by Fauna Inc
+
+   📙 The architect's guide to building scalable global applications |
+   [https://go.fauna.com/guide/global-applications?utm_source=top_level_ba
+   nner&utm_medium=web&utm_campaign=global_apps]Learn more
+   [https://fauna.com/]
+   Fauna logo
+   Product
+   Solutions
+   [https://fauna.com/pricing]
+   Pricing
+   Resources
+   [https://fauna.com/customers]
+   Customers
+   Company
+   [https://dashboard.fauna.com/]Log
+   In[https://go.fauna.com/contact-us]Contact
+   us[https://dashboard.fauna.com/accounts/register]Start for free
+   (BUTTON)
+   [https://fauna.com/]
+   Fauna logo
+   (BUTTON)
+   (BUTTON) Product
+   (BUTTON) Solutions
+   [https://fauna.com/pricing]Pricing
+   (BUTTON) Resources
+   [https://fauna.com/customers]Customers
+   (BUTTON) Company
+   [https://dashboard.fauna.com/]Log
+   In[https://go.fauna.com/contact-us]Contact
+   us[https://dashboard.fauna.com/accounts/register]Start for free
+   © 2023 Fauna, Inc. All Rights Reserved.
+
+Related posts
+
+   [https://fauna.com/blog/supporting-insights-ggs-100k-global-daily-activ
+   e-users-with-fauna-cloudflare]Supporting Insights.gg’s 100K global
+   daily active users with Fauna, Cloudflare Workers, and
+   Fly.io[https://fauna.com/blog/low-latencies-and-emissions-at-the-edge-f
+   or-climatiqs-carbon-calculation-api]Achieving low latencies and low
+   emissions at the edge for Climatiq’s carbon calculation API
+   [https://fauna.com/blog/global-applications]Build low-latency global
+   apps that meet data residency requirements
+   [https://dashboard.fauna.com/accounts/register]
+
+Start for free
+
+   Sign up and claim your forever-free Fauna account
+   Sign up and get started
+   [https://go.fauna.com/contact-us]
+
+Request demo
+
+   Connect with a Fauna expert
+   request demo
+
+Table of Contents
+
+     * [https://fauna.com/blog/what-is-acid-compliance-atomicity-consisten
+       cy-isolation#what-are-the-elements-of-acid-compliance]What Are the
+       Elements of ACID Compliance?
+
+     * [https://fauna.com/blog/what-is-acid-compliance-atomicity-consisten
+       cy-isolation#acid-and-distributed-transactions]ACID and Distributed
+       Transactions
+
+     * [https://fauna.com/blog/what-is-acid-compliance-atomicity-consisten
+       cy-isolation#call-to-action]Call to Action
+
+   acid-compliance
+
+What is ACID Compliance?: Atomicity, Consistency, Isolation
+
+   Nov 24th, 2020|
+
+   Categories:
+   [https://fauna.com/blog?category=data-consistency]Data
+   Consistency[https://fauna.com/blog?category=distributed]Distributed
+   Let’s start with the obvious: what does “ACID compliant” mean? The
+   short answer is that ACID, an acronym for “Atomicity, Consistency,
+   Isolation, and Durability,” is a set of principles that ensure database
+   transactions are processed reliably. When any data storage system
+   upholds those principles, it is said to be ACID compliant.
+   ACID compliance is valuable because those four strong guarantees
+   provide reliability, correctness, and other essential features. We’ll
+   examine what this means in more detail later. Still, the high-level
+   overview is that ACID compliant database operations must always succeed
+   or fail in reliable and expected ways. In contrast, the database as a
+   whole must always remain in a consistent, well-defined state at all
+   times—regardless of any software errors, hardware errors, or even
+   complete power failures that occur along the way.
+   Consider the quick and common example of a bank customer using an app
+   on a mobile device to transfer money from one account to another. A
+   complete and correct transaction requires both debiting the origin
+   account and crediting the destination account.
+   But what if the power fails to the database server after the origin
+   account is debited yet before the destination account is credited? ACID
+   compliance ensures that in such a case the first part of the overall
+   transaction is canceled (or “rolled back”) because the second part
+   didn’t go through, keeping the database in a consistent state in the
+   case of such a failure.
+   In this article, we’ll explain the four elements of ACID compliance,
+   discuss the common difficulties involved with maintaining those
+   elements when data and transactions are distributed in modern systems
+   and offer some specific suggestions for choosing an ACID compliant
+   storage system to meet your needs.
+
+What Are the Elements of ACID Compliance?
+
+   Before we dig into the weeds, it’s worth noting that the elements or
+   properties of ACID compliance generally fall on a sliding scale, from
+   permissive to strict. Weaker guarantees typically produce a faster
+   performance at the cost of correctness, whereas strong guarantees
+   sacrifice speed for correctness and data reliability.
+   Let’s start with the property of atomicity, which refers to how a given
+   set of database operations must all either complete successfully or
+   fail altogether. This is what transaction means: a complete and
+   indivisible unit of work that may involve many different data
+   operations. Atomicity requires that all those data operations either
+   succeed or fail as a whole. Returning to our earlier banking example
+   illustrates this nicely: both the debit and credit operations must be
+   completed for the entire transaction to be a success. If either
+   individual operation fails, then the entire transaction must fail and
+   leave the state of the database exactly as it was before the
+   transaction began.
+   In contrast, consistency is about ensuring the information in the
+   database is always meaningful. Many ACID compliant database systems
+   offer features to enforce various types of constraints, which can
+   require a given piece of data to meet certain requirements or guarantee
+   that a given piece of “parent” information may be linked relationally
+   to many different pieces of “child” information yet prevent child data
+   from being entered without a valid parent. Consistency ensures that if
+   any violation of such data integrity checks (or others) occurs, the
+   entire containing transaction will be aborted, and any changes already
+   made will be rolled back. There’s
+   [https://fauna.com/blog/demystifying-database-systems-introduction-to-c
+   onsistency-levels]much more that can be said about
+   consistency[https://fauna.com/blog/demystifying-database-systems-introd
+   uction-to-consistency-levels], but we can return to our previous
+   banking example for simplicity for this article.
+   If the customer’s account transfer would cause an “overdraft” to occur
+   (e.g., an attempt to move more money than is actually in the account),
+   it’s not hard to see why the bank might want to prevent negative
+   balances from happening entirely or perhaps perform additional
+   processing after the fact to assign fees or other penalties. In this
+   sense, consistency differs from the other ACID elements in that it’s
+   largely the responsibility of the application developer(s) to ensure
+   the code they place in transactions does not violate such rules of
+   business and enforces all desired constraints.
+   The third element of ACID compliance, isolation, refers to the need to
+   separate the details of multiple transactions in process at the same
+   time. To see why, let’s refer back to our example and ask a question:
+   what happens if some automated process that affects the user’s balance
+   is triggered while the user is in the middle of the account transfer?
+   It’s surprising how often this kind of event-driven scenario can occur
+   in the real world. If that process were to read the balance in the
+   user’s origin account after the debit occurred, yet the account
+   transfer was to fail, then the automated process would move forward
+   based on bad information. In effect, the details of a transaction
+   doomed to fail could “leak” into some other transaction that refers to
+   the same information if the database doesn’t maintain strict isolation
+   between them.
+   Again,
+   [https://fauna.com/blog/demystifying-database-systems-part-4-isolation-
+   levels-vs-consistency-levels]much more can be said about both isolation
+   and consistency
+   levels[https://fauna.com/blog/demystifying-database-systems-part-4-isol
+   ation-levels-vs-consistency-levels]. Still, the key is that
+   transactions remain fully “serializable,” each transaction occurring in
+   its proper order without any dependent transactions occurring in tandem
+   to avoid such information leaks and other anomalies. Database systems
+   accomplish this using various tools, but ordering transactions in a
+   global queue for processing is a common approach. Isolation is what
+   allows multiple transactions to execute both simultaneously and safely
+   for greater overall throughput.
+   Finally, we come to durability, which is perhaps the easiest ACID
+   compliance guarantees to understand. Put simply, durability requires
+   that every successful transaction’s data operations are indelible and
+   cannot be lost—even in the event of a complete system shutdown.
+   This can be a tricky goal, but it’s commonly achieved by writing the
+   changes to be made to a series of log files before the data operations
+   are committed to the database files. That way, even if the whole
+   database server crashes, those log files will be available to read on
+   startup and either continue the transaction or roll back any changes
+   that had already been made.
+   It’s easy to see why this too is important, insofar as banking
+   customers who move money from one account to another, perhaps to pay
+   off a loan or some other bill, except that the money will stay where
+   they put it. Nobody wins if the bill marked “paid” doesn’t stay paid
+   because of some hiccup in the database software, network connection,
+   etc.
+
+ACID and Distributed Transactions
+
+   Having explained the elements of ACID compliance, let’s look at how
+   maintaining these important guarantees is complicated by modern
+   systems. It is increasingly the case that applications need to store
+   data reliably across multiple servers, perhaps even distributed
+   geographically around the world, which poses significant challenges.
+   It’s easy to understand how a simple, single database server might
+   enforce ACID compliance. But how do you do that when the data
+   operations in a transaction might conceivably be spread over dozens (or
+   more) servers across multiple time zones?
+   Any failure of any element of any data operation on any of those
+   servers effectively requires that the entire transaction must be
+   canceled and rolled back safely. That’s hard enough when you’re talking
+   about a single piece of software running on a single server. It’s far
+   worse when multiple pieces of software running on multiple servers are
+   processing their individual bits of the transaction and have to be
+   notified, stopped, rolled back, etc. And similarly, even if the
+   transaction succeeds, the overall system has to deal with making sure
+   all those different operations are both correct and durable regardless
+   of which server(s) executed them.
+   As a matter of practice, ACID compliance with distributed transactions
+   is very difficult to achieve but is doable, at least with some vendors.
+   For example, [https://fauna.com/]Fauna[https://fauna.com/] is able to
+   provide strictly serializable, externally consistent transactions
+   because of its architecture and data storage algorithms. And unlike
+   other systems, Fauna does not require strict, physical clock
+   synchronization across all servers to provide consistency, which avoids
+   the usual limitations on distance between replica servers and is thus
+   practical for deployment around the world at typical, global Internet
+   latencies. Approaches that do require synchronization can result in
+   failures when systems’ clocks or network traffic differs by a matter of
+   milliseconds, whereas Fauna’s more relaxed requirements don’t suffer
+   from such problems. This is possible because Fauna offers a transaction
+   engine inspired by Calvin, an approach to achieving
+   [http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf]fast
+   distributed transactions across partitioned database
+   systems[http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.p
+   df]. The Fauna transaction engine makes it possible to achieve
+   ”consistency without clocks” courtesy of its
+   [https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-
+   protocol]distributed transaction
+   protocol[https://fauna.com/blog/consistency-without-clocks-faunadb-tran
+   saction-protocol]. In effect, Fauna decides in advance in what order
+   transactions should be executed prior to any database writes. The Fauna
+   execution engine then processes them in such a way that the final
+   result is the same as if they’d been processed one at a time in that
+   order.
+   In effect, you get all the speed and power of distributed transactions
+   executing in parallel on multiple servers yet enjoy all the
+   data-goodness of ACID compliance as if they’d been executed serially on
+   a single server.
+
+Call to Action
+
+   To be clear, Fauna is not the usual hosted
+   [https://fauna.com/blog/database-as-a-service-dbaas-vs-data-apis-explai
+   ned]“database as a service”
+   (DBaaS)[https://fauna.com/blog/database-as-a-service-dbaas-vs-data-apis
+   -explained] or even some clustered cloud offering, both of which
+   require management. Rather, Fauna is a true “Data API”, meaning
+   developers can simply make calls as needed without any time spent
+   worrying about provisioning or scale, with all the benefits of ACID
+   compliance along the way.
+   Because of the way Fauna handles distributed transactions, users can
+   avoid the sort of
+   [https://fauna.com/blog/demystifying-database-systems-correctness-anoma
+   lies-under-serializable-isolation]data anomalies that can occur with
+   other
+   systems[https://fauna.com/blog/demystifying-database-systems-correctnes
+   s-anomalies-under-serializable-isolation]. Immortal writes, stale
+   reads, causal reverse, and other such problems can be prevented via
+   strictly serializable multi-region transactions that don't limit the
+   number of keys, documents, or partitions.
+   And because Fauna is free of all the usual provisioning and
+   configuration headaches, it’s available instantly as a serverless
+   utility. Developers need only an account to get started, which costs
+   nothing and offers a generous starting allowance.
+   Fauna is also
+   [https://fauna.com/blog/faunadbs-official-jepsen-results]Jepsen tested
+   and approved[https://fauna.com/blog/faunadbs-official-jepsen-results],
+   being proven “…architecturally sound, correctly implemented, and ready
+   for enterprise workloads in the cloud.” That means you can trust Fauna
+   to be reliable, correct in its operations, and self-maintaining without
+   the need for provisioning, regular maintenance, etc.
+   In this article, we’ve explained what ACID compliance means,
+   illustrated the value it brings for common use cases, discussed how the
+   modern need for distributed transactions complicates the picture and
+   offered some specific advice for an easy path to ACID compliance. Fauna
+   is a modern, Data API that provides relational capabilities and ACID
+   properties without the usual limitations or headaches.
+   In closing, Fauna offers ACID compliance with easily
+   [https://fauna.com/blog/the-why-and-how-of-distributed-databases]distri
+   buted
+   database[https://fauna.com/blog/the-why-and-how-of-distributed-database
+   s] transactions, automated provisioning, and no-hassle scaling. It’s
+   [https://dashboard.fauna.com/accounts/register]free to sign
+   up[https://dashboard.fauna.com/accounts/register],
+   [https://docs.fauna.com/fauna/v3/start/cloud]easy to get
+   started[https://docs.fauna.com/fauna/v3/start/cloud], and offers
+   [https://fauna.com/pricing]clear and simple
+   pricing[https://fauna.com/pricing]—paying only for what you actually
+   use. If you think Fauna could manage your data needs, why not give it a
+   try today?
+
+   If you enjoyed our blog, and want to work on systems and challenges
+   related to globally distributed systems, and serverless databases,
+   [https://fauna.com/careers]Fauna is hiring[https://fauna.com/careers]!
+
+Share this post
+
+   [https://twitter.com/intent/tweet?url=https://fauna.com/blog/what-is-ac
+   id-compliance-atomicity-consistency-isolation&text=What%20is%20ACID%20C
+   ompliance%3F%3A%20Atomicity%2C%20Consistency%2C%20Isolation]TWITTER[htt
+   ps://www.linkedin.com/shareArticle/?mini=true&url=https://fauna.com/blo
+   g/what-is-acid-compliance-atomicity-consistency-isolation&title=What%20
+   is%20ACID%20Compliance%3F%3A%20Atomicity%2C%20Consistency%2C%20Isolatio
+   n&summary=&source=Fauna.com]LINKEDIN
+   [https://fauna.com/blog/setting-advanced-role-based-access-patterns-in-
+   your-spa-with-fauna-and-auth0]‹︁
+   Previous[https://fauna.com/blog/new-collaboration-authentication-real-t
+   ime-streaming-capabilities]Next ›︁
+
+Subscribe to Fauna's newsletter
+
+   Get latest blog posts, development tips & tricks, and latest learning
+   material delivered right to your inbox.
+
+   IFRAME:
+   [https://www2.fauna.com/l/517431/2020-11-11/71k42s]https://www2.fauna.c
+   om/l/517431/2020-11-11/71k42s
+
+   [https://fauna.com/]
+   Fauna logo
+   400 S El Camino Real Ste 1250
+   San Mateo, CA 94402
+   (855) 432-8623
+   [https://dev.to/fauna][https://twitter.com/fauna][https://github.com/fa
+   una][https://www.youtube.com/channel/UCTkGE215CjAkcRO5mDMmLkw/][https:/
+   /www.linkedin.com/company/faunadb]
+   [https://status.fauna.com/]FAUNA STATUS
+   Fauna
+     * [https://fauna.com/features]Features
+     * [https://fauna.com/platform]Platform
+     * [https://fauna.com/solutions]Solutions
+     * [https://fauna.com/pricing]Pricing
+     * [https://fauna.com/customers]Customers
+     * [https://trust.fauna.com/]Trust
+     * [https://fauna.com/blog]Blog
+
+   (BUTTON) Fauna
+   Company
+     * [https://fauna.com/about]About
+     * [https://fauna.com/events]Events
+     * [https://fauna.com/press]Press
+     * [https://fauna.com/careers]Careers
+     * [https://go.fauna.com/contact-us]Contact Us
+
+   (BUTTON) Company
+   Quicklinks
+     * [https://forums.fauna.com/]Forums
+     * [https://support.fauna.com/]Helpdesk
+     * [https://www2.fauna.com/partners-contact]Partner with Fauna
+
+   (BUTTON) Quicklinks
+   Why Fauna
+     * [https://fauna.com/compare/dynamodb]DynamoDB alternative
+     * [https://fauna.com/blog/comparing-fauna-and-mongodb]Fauna vs
+       MongoDB
+     * [https://fauna.com/blog/comparing-fauna-and-dynamodb-pricing-featur
+       es]Fauna vs DynamoDB
+     * [https://fauna.com/blog/compare-aws-aurora-serverless-v2-architectu
+       re-features-pricing-vs-fauna]Fauna vs Aurora Serverless V2
+     * [https://fauna.com/blog/compare-fauna-vs-postgres]Fauna vs Postgres
+
+   (BUTTON) Why Fauna
+   © Fauna Inc. All rights reserved.
+   [https://status.fauna.com/]Status[https://fauna.com/sitemap]Sitemap[htt
+   ps://fauna.com/terms]Terms of Use[https://fauna.com/privacy]Privacy
+   Policy

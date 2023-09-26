@@ -1,0 +1,204 @@
+   #[https://about.gitlab.com/atom.xml]Blog
+   [https://about.gitlab.com/all-releases.xml]All Releases
+   [https://about.gitlab.com/security-releases.xml]Security Releases
+   [https://about.gitlab.com/releases.xml]Major Releases
+
+   GitLab named a Leader in the Gartner® Magic Quadrant™ for DevOps
+   Platforms [https://about.gitlab.com/gartner-magic-quadrant/]Read the
+   report
+
+   [https://about.gitlab.com/gitlab-duo/]Meet GitLab Duo: AI-powered
+   workflows →
+
+Software. Faster.
+
+GitLab is the most comprehensive
+AI-powered DevSecOps Platform.
+
+   [https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.c
+   om&glm_content=default-saas-trial]Get free trial (BUTTON) What is
+   GitLab?
+   Brand image of GitLab boards
+   Brand image of GitLab product
+   Brand image of GitLab roadmap
+
+   DevSecOps platform
+
+   (BUTTON)
+
+   IFRAME:
+   [https://player.vimeo.com/video/799236905?h=4eee39a447&amp;badge=0&amp;
+   autopause=0&amp;player_id=0&amp;app_id=58479]https://player.vimeo.com/v
+   ideo/799236905?h=4eee39a447&amp;badge=0&amp;autopause=0&amp;player_id=0
+   &amp;app_id=58479
+
+[https://about.gitlab.com/customers/]Trusted By
+
+   [https://learn.gitlab.com/c/learn-how-t-mobile-i?x=04KSqy]T-Mobile logo
+   [https://about.gitlab.com/customers/goldman-sachs/]Goldman Sachs logo
+   [https://about.gitlab.com/customers/airbus/]Airbus logo
+   [https://about.gitlab.com/customers/lockheed-martin/]Lockheed martin
+   logo [https://about.gitlab.com/customers/nvidia/]Nvidia logo
+   [https://about.gitlab.com/blog/2021/08/04/ubs-gitlab-devops-platform/]U
+   BS logo
+   [https://about.gitlab.com/get-started/]
+
+Get started with GitLab
+
+   New to GitLab and not sure where to start? We’ll walk you through the
+   basics so you know what to expect along the way.
+   (BUTTON) Explore resources
+   [https://page.gitlab.com/forrester-wave-integrated-software-delivery-pl
+   atforms-2023.html]
+
+The Forrester Wave™: Integrated Software Delivery Platforms, Q2 2023
+
+   GitLab is the only leader in the report that compares 13 vendors over
+   26 criteria.
+   (BUTTON) Read the report
+   [https://about.gitlab.com/solutions/code-suggestions/]
+
+GitLab's AI-assisted Code Suggestions
+
+   Reduce cognitive load and boost efficiency with the help of generative
+   AI that suggests code as you type.
+   (BUTTON) Learn more
+
+   (BUTTON)
+   (BUTTON)
+
+The way DevSecOps should be
+
+Accelerate your digital transformation
+
+   Reach your digital transformation objectives faster with a DevSecOps
+   platform for your entire organization.
+   [https://about.gitlab.com/solutions/digital-transformation/]Learn more
+   Text bubbles of communicating teams
+
+Deliver software faster
+
+   Automate your software delivery process so you can deliver value faster
+   and quality code more often.
+   [https://about.gitlab.com/solutions/delivery-automation/]Learn more
+
+Ensure compliance
+
+   Simplify continuous software compliance by defining, enforcing and
+   reporting on compliance in one platform.
+   [https://about.gitlab.com/solutions/continuous-software-compliance/]Lea
+   rn more
+
+Build in security
+
+   Adopt DevSecOps practices with continuous software security assurance
+   across every stage.
+   [https://about.gitlab.com/solutions/continuous-software-security-assura
+   nce/]Learn more
+
+Improve collaboration and visibility
+
+   Give everyone one platform to collaborate and see everything from
+   planning to production.
+   [https://about.gitlab.com/solutions/devops-platform/]Learn more
+
+GitLab is The DevSecOps Platform
+
+   (BUTTON) Leaders in DevSecOps (BUTTON) Industry Analyst Research
+
+   Our users have spoken.
+   GitLab ranks as a G2 Leader across DevSecOps categories
+   [https://about.gitlab.com/analysts/]Learn more
+   G2 Enterprise Leader - Fall 2022 G2 Mid-Market Leader - Fall 2022 G2
+   Small Business Leader - Fall 2022 G2 Best Results - Fall 2022 G2 Best
+   Relationship Enterprise - Fall 2022 G2 Best Relationship Mid-Market -
+   Fall 2022 G2 Easiest To Do Business With Mid-Market - Fall 2022 G2 Best
+   Usability - Fall 2022
+   [https://about.gitlab.com/analysts/]Learn more
+
+   What Industry Analysts are saying about GitLab
+   [https://about.gitlab.com/analysts/]Learn more
+   [https://page.gitlab.com/forrester-wave-integrated-software-delivery-pl
+   atforms-2023][23c291.svg]
+
+   GitLab is the only Leader in The Forrester Wave™: Integrated Software
+   Delivery Platforms, Q2 2023
+   [https://about.gitlab.com/gartner-magic-quadrant/][428dff.svg]
+
+   GitLab is a Leader in the 2023 Gartner® Magic Quadrant™ for DevOps
+   Platforms
+   [https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast-20
+   23.html][428dff.svg]
+
+   GitLab is a Challenger in the 2023 Gartner® Magic Quadrant™ for
+   Application Security Testing
+   [https://about.gitlab.com/analysts/]Learn more
+
+Resources
+
+   [https://about.gitlab.com/resources/]View all resources
+   [https://page.gitlab.com/resources-ebook-beginners-guide-devops.html]
+
+   Ebook
+   Winding path
+
+Beginner's Guide to DevOps
+
+   Read more
+   [https://about.gitlab.com/topics/ci-cd/]
+
+   Topics
+   Text reading CI/CD on a gradient
+
+What is CI/CD?
+
+   Read more
+   [https://about.gitlab.com/developer-survey/]
+
+   Report
+   A globe outlined with the DevSecOps loop with the text What's next in
+   DevSecOps
+
+2023 Global DevSecOps Report Series
+
+   Read more
+   [https://about.gitlab.com/blog/2023/04/24/ai-ml-in-devsecops-series/]
+
+   Blog post
+   ai-experiment-stars
+
+AI/ML in DevSecOps Series
+
+   Read more
+   [https://about.gitlab.com/partners/technology-partners/aws/]
+
+   Partners
+   Text reading AWS on a gradient
+
+Discover the benefits of GitLab on AWS
+
+   Read more
+   [https://about.gitlab.com/releases/2023/06/22/gitlab-16-1-released/]
+
+   Release
+   GitLab version number on a gradient
+
+GitLab 16.1 released with all new navigation
+
+   Read more
+
+Take GitLab for a spin
+
+   See what your team could do with The DevSecOps Platform.
+   [https://gitlab.com/-/trials/new?glm_content=default-saas-trial&glm_sou
+   rce=about.gitlab.com]Get free trial
+   Headshots of three people
+
+   Have a question? We're here to help.
+   [https://about.gitlab.com/sales/]Talk to an expert
+
+   ®
+     * [https://twitter.com/gitlab]
+     * [https://www.facebook.com/gitlab]
+     * [https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg]
+     * [https://www.linkedin.com/company/gitlab-com]

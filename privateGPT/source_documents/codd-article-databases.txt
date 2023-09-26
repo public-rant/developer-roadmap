@@ -1,0 +1,363 @@
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-T9F33V3]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-T9F33V3
+
+   [https://learnsql.com/]
+   (BUTTON) Skip navigation
+     * [https://learnsql.com/course-explorer]Courses
+     * [https://learnsql.com/pricing]Pricing
+     * [https://learnsql.com/for-students]For Students
+     * (BUTTON) SQL Library
+       [https://learnsql.com/blog/]Articles
+       [https://learnsql.com/cookbook/]Cookbook
+       [https://learnsql.com/tags/cheat-sheet/]Cheat Sheets
+     * [https://learnsql.com/log-in]Log in
+     * [https://learnsql.com/sign-up]Create free account
+       fullName
+       Open user profile menu avatar
+       avatar
+       fullName
+       [https://learnsql.com/dashboard]Dashboard
+       [https://learnsql.com/dashboard/my-profile]My Profile
+       [https://learnsql.com/dashboard/payment-billing]Payment & Billing
+       Log out
+
+   MENU CLOSE
+     * [https://learnsql.com/course-explorer]Courses
+     * [https://learnsql.com/pricing]Pricing
+     * [https://learnsql.com/for-students]For Students
+     * [https://learnsql.com/blog/]Articles
+     * [https://learnsql.com/cookbook/]Cookbook
+     * [https://learnsql.com/tags/cheat-sheet/]Cheat Sheets
+     * [https://learnsql.com/dashboard]Dashboard
+     * [https://learnsql.com/dashboard/my-profile]My Profile
+     * [https://learnsql.com/dashboard/payment-billing]Payment & Billing
+
+     * [https://learnsql.com/log-in]Log in
+     * [https://learnsql.com/sign-up]Create free account
+
+     * Log out
+
+   [https://learnsql.com/blog]Back to articles list
+   [https://learnsql.com/blog/]Articles
+   [https://learnsql.com/cookbook/]Cookbook
+
+   26th Jun 2023 8 minutes read
+
+53 Years of Relational Databases
+
+   [https://learnsql.com/authors/learnsql]Author's photo
+   [https://learnsql.com/authors/learnsql]
+   LearnSQL.com Team
+     * [https://learnsql.com/tags/relational-databases]relational
+       databases
+     * [https://learnsql.com/tags/edgar-codd]edgar codd
+     * [https://learnsql.com/tags/codds-article]codd's article
+
+   If it weren't for him, there would be no modern databases. It is the
+   53st anniversary of the publication of his article that changed the
+   rules of the game. Edgar Frank Codd is one of the fathers of SQL, and
+   his name is one of the first to be mentioned in the history of
+   databases. Or maybe even the history of computer development in
+   general? See what we owe to Dr. Codd and why his work is still
+   important.
+
+   Pssst! At the bottom of this article, you will find an interesting
+   promotion for our SQL courses!
+
+   It was June 1970. Things happened then. The world looked at two brave
+   Russian astronauts who spent 18 days aboard the Soyuz 9, while The
+   Beatles and Ray Stevens reigned in the charts.
+
+   An issue of the Communications of the ACM, a noble journal of the
+   Association for Computing Machinery, had been handed over to
+   mathematicians and scientists. What could they read about? Among the
+   excellent articles on mathematics, statistics, and computer science in
+   vol. 13 no. 6, one could learn about using graphs for scheduling
+   meetings to reduce conflicts (Joseph E. Grimes), methods for accurate
+   floating-point summation (Peter Linz), or even interesting thoughts on
+   automatic parsing for content analysis (Frederick J. Damerau).
+
+   On page 377, "[https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf]A
+   Relational Model of Data for Large Shared Data Banks" appeared. It was
+   a collection of bold and innovative theses. The author of this new
+   approach, which consequently changed the world of databases, was Edgar
+   F. Codd of IBM Research Laboratory in San Jose, California.
+
+   Let’s find out what was groundbreaking about Codd’s article and why we
+   still consider it important 53 years later.
+   ACM article Source:
+   [https://learnsql.com/blog/codd-article-databases/seas.upenn.edu]seas.u
+   penn.edu
+
+Who Was Edgar Frank Codd?
+
+   Edgar Frank (Ted) Codd was an English mathematician and computer
+   scientist. During World War II, he was a pilot in the Royal Air Force.
+   After the fighting ended, he returned to Oxford, where he finished
+   studying mathematics at the prestigious university.
+
+   Interestingly, he first tried his hand at chemistry. Had he remained
+   true to his original dreams, the IT world would look completely
+   different today.
+
+   Codd came to the US in 1959 and settled in New York, where he worked as
+   a programmer at IBM. He participated, among others, in the work on the
+   Selective Sequence Electronic Calculator, the world's first
+   electromechanical computer from IBM.
+
+   After a few minor projects, the STRETCH project brought him more
+   success. It was the foundation of the IBM 7090 mainframe technology. As
+   a programmer, Codd wanted more. He received a PhD in computer science
+   from the University of Michigan.
+
+   In 1967, Codd transferred to the IBM Research Laboratory in San Jose,
+   California. There, he got serious about the concept of relational
+   databases. Fun fact: not everyone in his company supported his thesis.
+   His thinking was so different from what was then dominant in IBM, so
+   much so that the first company to use his model was ... Oracle!
+   Codd article IBM
+
+   Codd won many awards for his work. The most important was the Turing
+   Award, which he received in 1981. This prize, often called the Nobel
+   Prize for Computing, is the highest distinction and recognition in the
+   world of computer science.
+
+   But let's go back to SQL, databases, and the article.
+
+Databases in the 1960s
+
+   To understand why Codd’s article was so influential, it’s important to
+   see what databases looked like at that time. The dominant database
+   models in the 1960s were the network database model and the
+   hierarchical database model.
+
+   In a network database, the records are linked to one another forming a
+   graph. In a hierarchical database, the records are linked forming a
+   tree.
+   Codd Article Hierar
+
+   To retrieve data from a network or hierarchical database, the whole
+   graph or tree needs to be traversed starting from the root node. To get
+   data out of this database, you need to write a program that traverses
+   the network of records on the disk.
+
+   Essentially, you need to be a programmer to work with network and
+   hierarchical databases and navigate down the tree/graph of records to
+   find the data needed. This navigation metaphor was very common in the
+   1960s. Charles Bachman, a pioneer of the network model, even gave a
+   speech titled
+   "[https://pdfs.semanticscholar.org/f371/d196bf0e7b43df6dcbbc44de461925a
+   21709.pdf]The Programmer as Navigator" when he received a Turing Award
+   for his work in 1973.
+
+   The problem with the network and hierarchical models was that they were
+   very inflexible. Any change in the structure of data required changes
+   in the programs that got the data out. Yet these databases were
+   incredibly successful in the 1960s.
+
+The Road to Relational Databases
+
+   Codd saw this inflexibility as a problem. He proposed a new database
+   model called relational model, based on the mathematical notion of
+   relation.
+
+   In today’s terminology, Codd’s relations are called tables. A table has
+   a name and a set of named columns holding data of the same type. The
+   data in tables are stored in rows, with a value for each column of the
+   table. It is relatively easy to modify a database in this model, be it
+   adding a new table, adding a new column to a table, removing a table,
+   or removing a column.
+   Codd article relational
+
+   An important idea proposed in Codd’s model was the query language
+   suggested in his article, which is now called relational algebra. He
+   came up with a set of operations on tables that would extract data out
+   of a relational database. These operations could be composed to build
+   more complex expressions and do more complex computations. This was not
+   SQL that we use today; however, if you read Codd’s paper, you will see
+   that all the operations we have in SQL are already there, just using a
+   different syntax.
+
+   If you want to know even more about the mathematical foundations of
+   Codd’s model, check out
+   "[https://vertabelo.com/blog/why-are-relational-databases-relational/]T
+   heory and History: Why are Relational Databases ‘Relational’?"
+
+   What had been pages of code in a network or hierarchical database
+   became a simple expression in Codd’s query language. Donald Chamberlin,
+   one of the creators of SQL recalls:
+
+     [...] exposure to the relational data model at Codd’s research
+     symposium was a revelation. For the first time, we could see how a
+     query that would require a complex program in the DBTG language
+     could be reduced to a few simple lines using one of Codd’s
+     relational languages.
+
+   As we mentioned before, Codd’s ideas were not immediately successful.
+   His paper circulated internally within IBM for a few months before he
+   finally published it in June 1970. Even then, IBM wasn’t immediately
+   interested in working on Codd’s ideas. At the time, they had IMS, a
+   very successful hierarchical database. They didn't want to undermine
+   their revenue from IMS by building a competing product. IMS is still in
+   use today, which shows how successful it was back then.
+
+   In 1974, IBM started System R, a research project to explore Codd’s
+   ideas in practice. For some reason, Codd himself was not on the System
+   R team. Many design decisions for System R, such as transaction design
+   and certain algorithm choices, influenced many relational databases
+   down the road. [https://learnsql.com/blog/history-of-sql/]The project
+   also created SQL, a query language loosely based on Codd’s ideas and
+   with the syntax we know today. The two people responsible for creating
+   SQL were Don Chamberlin and Ray Boyce.
+
+Relational Databases in the Following Years
+
+   Relational databases quickly became a commercial success. DB2 became
+   the flagship database product for IBM. Oracle database was released in
+   1979 by Relational Software, now Oracle Corporation. Ingres, the
+   predecessor of the PostgreSQL database, followed.
+
+   Along with the development of databases, SQL (Structured Query
+   Language) also gained importance. Engineers and computer scientists
+   needed a simple language to deal with databases – something that would
+   help you extract data, process it, change it, and perform other
+   operations.
+
+   The commercial success of databases meant that their users were not
+   only engineers but also those who were less advanced. The query
+   language had to be simple. And it has remained so until today.
+
+   SQL became the
+   [https://learnsql.com/blog/history-of-sql-standards/]standard query
+   language for relational databases and the ISO/ANSI standard in late
+   1980s. Many years have passed since then, and yet it is still the
+   language for working with databases. As most of the market research
+   shows, SQL has a dominant position and is not going anywhere!
+
+   Even the most modern and technologically advanced companies in the IT
+   industry still use SQL. It is a language worth learning and having on
+   your resume. Why? It just pays off. Here, you will find
+   [https://learnsql.com/blog/types-of-database-jobs/]Types of Database
+   Jobs. Choose one and start a new, better, and better-paid career. Not
+   sure if SQL is for you? Find out in
+   [https://learnsql.com/blog/who-should-learn-sql/]Who Should Learn SQL?
+
+   Relational databases dominated the world in the 1980s and the 1990s and
+   continue to be an important data technology today. This would not have
+   been possible had it not been for the foundations set by Codd and his
+   article.
+
+   It is safe to say that if it were not for him, there would be no
+   [https://learnsql.com/blog/history-of-postgresql/]PostgreSQL,
+   [https://learnsql.com/blog/history-ms-sql-server/]MS SQL Server, or
+   other SQL dialects today. There would be no relational databases and
+   thus a huge part of the modern IT and business.
+
+Codd's Anniversary Promotion
+
+   Codd's article is just 11 pages long. What's more, it's written in
+   plain language that is understandable even if you are not a
+   mathematician or computer scientist. Read
+   [https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf]his paper and
+   see how to change the world with words.
+
+   This article you are reading right now probably will not change the
+   face of modern IT. But we really have wise experts and scientists at
+   [http://LearnSQL.com/]LearnSQL.com. And this article can change your
+   life, if we can convince you to learn SQL!
+
+   It is a chance for a better job and higher earnings. Just browse the
+   job offers and see if there is
+   [https://learnsql.com/blog/most-popular-databases-2023/%E2%80%9D]any
+   demand for people who know SQL. Spoiler alert: it's huge!
+
+   How can you get our Codd’s Anniversary Promotion?
+    1. Create a free [http://learnsql.com/]LearnSQL.com account or log in
+       if you already have one.
+    2. Save $410 on our [http://learnsql.com/all-forever-sql-package]All
+       Forever Package.
+    3. The promotion will be valid until July 6.
+
+   Celebrate 53 years of relational databases with us! Join the world of
+   SQL today!
+
+   Tags:
+     * [https://learnsql.com/tags/relational-databases]relational
+       databases
+     * [https://learnsql.com/tags/edgar-codd]edgar codd
+     * [https://learnsql.com/tags/codds-article]codd's article
+
+You may also like
+
+   [https://learnsql.com/blog/sql-join-interview-questions-with-answers/]
+   The Top 10 SQL JOIN Interview Questions and How to Answer Them
+   Do you have an SQL interview coming up? This article will help you
+   prepare. Learn how to answer the most common SQL JOIN interview
+   questions.
+   Read more
+   [https://learnsql.com/blog/popular-sql-interview-questions-business-ana
+   lysts/]
+   Most Popular SQL Interview Questions for Business Analysts
+   Finance, Banking – professions related to those industries more often
+   require basic knowledge of SQL. Get to know the interview questions for
+   a BA job.
+   Read more
+   [https://learnsql.com/blog/common-sql-job-interview-questions/]
+   Complete SQL Practice for Interviews
+   Go through this article if you’re looking for SQL practice for
+   interviews—those related to data science and other professions!
+   Read more
+   [https://learnsql.com/blog/sql-developer-entry-level-interview-question
+   s/]
+   Common Entry Level SQL Developer Interview Questions
+   Learn about the eight interview questions usually asked for an
+   entry-level SQL position and how to answer them well to make a good
+   impression
+   Read more
+   [https://learnsql.com/blog/advanced-sql-interview-questions-with-answer
+   s/]
+   Advanced SQL Interview Questions (and Answers)
+   Here are ten common questions you might hear during an advanced SQL
+   interview. We also have the answers for you.
+   Read more
+   Subscribe to our newsletter Join our monthly newsletter to be notified
+   about the latest posts.
+   ____________________ Email address
+   ____________________
+   Subscribe
+
+   How Do You Write a SELECT Statement in SQL?
+
+   What Is a Foreign Key in SQL?
+
+   Enumerate and Explain All the Basic Elements of an SQL Query
+
+Quick links
+
+     * [https://learnsql.com/course-explorer]Courses
+     * [https://learnsql.com/pricing]Pricing
+     * [https://learnsql.com/for-students]For Students
+     * [https://learnsql.com/affiliate-program]Affiliate Program
+     * [https://learnsql.com/blog/]Blog
+     * [https://learnsql.com/cookbook/]Cookbook
+     * [https://learnpython.com/]LearnPython.com
+     * [https://vertabelo.com/]Vertabelo.com
+
+Assistance
+
+   Need assistance? Drop us a line at contact@learnsql.com
+   [mailto:contact@learnsql.com]Write to us
+
+Follow us
+
+   [https://www.facebook.com/LearnSQL/][https://www.facebook.com/groups/we
+   learnsql/][https://www.linkedin.com/company/learnsql-com/][https://www.
+   youtube.com/channel/UCMbqEtWNIz5mEqrblj_axBA?view_as=subscriber]
+   [https://learnsql.com/blog/codd-article-databases/#top]go to top
+   Copyright ©2016-2018 [https://www.vertabelo.com/]Vertabelo SA All
+   rights reserved
+   Vertabelo
+     * [https://learnsql.com/files/terms-of-service]Terms of service
+     * [https://learnsql.com/files/privacy-policy]Privacy policy
+     * [https://learnsql.com/imprint]Imprint

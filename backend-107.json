@@ -1,0 +1,107 @@
+[
+ {
+  "id": "key-value-databases",
+  "tag": "h1",
+  "text": "Key-Value Databases"
+ },
+ {
+  "id": "document-databases",
+  "tag": "h1",
+  "text": "Document databases"
+ },
+ {
+  "id": "timeseries-databases",
+  "tag": "h1",
+  "text": "Timeseries databases"
+ },
+ {
+  "id": "nosql-databases",
+  "tag": "h1",
+  "text": "NoSQL databases"
+ },
+ {
+  "id": "column-databases",
+  "tag": "h1",
+  "text": "Column Databases"
+ },
+ {
+  "id": "realtime-databases",
+  "tag": "h1",
+  "text": "Realtime databases"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Key-value_database",
+  "tag": "a",
+  "text": "Key-Value Databases - Wikipedia"
+ },
+ {
+  "href": "https://www.mongodb.com/",
+  "tag": "a",
+  "text": "MongoDB Website"
+ },
+ {
+  "href": "https://docs.mongodb.com/",
+  "tag": "a",
+  "text": "MongoDB Documentation"
+ },
+ {
+  "href": "https://mongoplayground.net/",
+  "tag": "a",
+  "text": "MongoDB Online Sandbox"
+ },
+ {
+  "href": "https://learn.mongodb.com/catalog",
+  "tag": "a",
+  "text": "Learning Path for MongoDB Developers"
+ },
+ {
+  "href": "https://docs.aws.amazon.com/dynamodb/index.html",
+  "tag": "a",
+  "text": "Dynamo DB Docs"
+ },
+ {
+  "href": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+  "tag": "a",
+  "text": "Official Developers Guide"
+ },
+ {
+  "href": "https://www.influxdata.com/",
+  "tag": "a",
+  "text": "InfluxDB Website"
+ },
+ {
+  "href": "https://www.influxdata.com/time-series-database/",
+  "tag": "a",
+  "text": "Time series database"
+ },
+ {
+  "href": "https://www.mongodb.com/nosql-explained",
+  "tag": "a",
+  "text": "NoSQL Explained"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=0buKQHokLK8",
+  "tag": "a",
+  "text": "How do NoSQL Databases work"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=ruz-vK8IesE",
+  "tag": "a",
+  "text": "SQL vs NoSQL Explained"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Wide-column_store#Wide-column_stores_versus_columnar_databases",
+  "tag": "a",
+  "text": "note that a “columnar database” and a “column database” are two different terms!"
+ },
+ {
+  "href": "https://cassandra.apache.org/_/index.html",
+  "tag": "a",
+  "text": "Apache Cassandra"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+  "tag": "a",
+  "text": "Apache Cassandra Database - Full Course for Beginners"
+ }
+]

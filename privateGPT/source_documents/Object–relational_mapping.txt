@@ -1,0 +1,672 @@
+   #[https://en.m.wikipedia.org/wiki/Object%E2%80%93relational_mapping]alt
+   ernate
+   [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relational_m
+   apping&action=edit]Edit this page
+   [https://en.wikipedia.org/w/opensearch_desc.php]Wikipedia (en)
+   [https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=
+   atom]Wikipedia Atom feed
+
+   [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#bodyCo
+   ntent]Jump to content
+
+   [ ] Main menu
+   Main menu
+   (BUTTON) move to sidebar (BUTTON) hide
+   Navigation
+     * [https://en.wikipedia.org/wiki/Main_Page]Main page
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contents]Contents
+     * [https://en.wikipedia.org/wiki/Portal:Current_events]Current events
+     * [https://en.wikipedia.org/wiki/Special:Random]Random article
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact us
+     * [https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm
+       _source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org
+       &uselang=en]Donate
+
+   Contribute
+     * [https://en.wikipedia.org/wiki/Help:Contents]Help
+     * [https://en.wikipedia.org/wiki/Help:Introduction]Learn to edit
+     * [https://en.wikipedia.org/wiki/Wikipedia:Community_portal]Community
+       portal
+     * [https://en.wikipedia.org/wiki/Special:RecentChanges]Recent changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard]Upload
+       file
+
+   Languages
+   Language links are at the top of the page across from the title.
+   [https://en.wikipedia.org/wiki/Main_Page]Wikipedia The Free
+   Encyclopedia
+   [https://en.wikipedia.org/wiki/Special:Search]Search
+   ____________________
+   (BUTTON) Search
+
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Object%E2%80%93relational+mapping]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Object%E2%80%93relational+mapping]Log in
+
+   [ ] Personal tools
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Object%E2%80%93relational+mapping]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Object%E2%80%93relational+mapping]Log in
+
+   Pages for logged out editors
+   [https://en.wikipedia.org/wiki/Help:Introduction]learn more
+     * [https://en.wikipedia.org/wiki/Special:MyContributions]Contribution
+       s
+     * [https://en.wikipedia.org/wiki/Special:MyTalk]Talk
+
+   [ ]
+
+Contents
+
+   (BUTTON) move to sidebar (BUTTON) hide
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping](T
+       op)
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Ov
+       erview]1Overview
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Co
+       mparison_with_traditional_data_access_techniques]2Comparison with
+       traditional data access techniques
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Ob
+       ject-oriented_databases]3Object-oriented databases
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Ch
+       allenges]4Challenges
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Se
+       e_also]5See also
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Re
+       ferences]6References
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#Ex
+       ternal_links]7External links
+
+   Toggle the table of contents
+
+   [ ] Toggle the table of contents
+
+Object–relational mapping
+
+   [ ] 26 languages
+     * [https://ca.wikipedia.org/wiki/Mapatge_d%27objectes_relacional]Cata
+       là
+     * [https://cs.wikipedia.org/wiki/Objektov%C4%9B_rela%C4%8Dn%C3%AD_map
+       ov%C3%A1n%C3%AD]Čeština
+     * [https://da.wikipedia.org/wiki/ORM]Dansk
+     * [https://de.wikipedia.org/wiki/Objektrelationale_Abbildung]Deutsch
+     * [https://es.wikipedia.org/wiki/Asignaci%C3%B3n_objeto-relacional]Es
+       pañol
+     * [https://eu.wikipedia.org/wiki/Mapaketa_objektu-erlazional]Euskara
+     * [https://fa.wikipedia.org/wiki/%D8%A7%D9%88_%D8%A2%D8%B1_%D8%A7%D9%
+       85]فارسی
+     * [https://fr.wikipedia.org/wiki/Mapping_objet-relationnel]Français
+     * [https://ko.wikipedia.org/wiki/%EA%B0%9D%EC%B2%B4_%EA%B4%80%EA%B3%8
+       4_%EB%A7%A4%ED%95%91]한국어
+     * [https://id.wikipedia.org/wiki/Pemetaan_objek-relasional]Bahasa
+       Indonesia
+     * [https://it.wikipedia.org/wiki/Object-relational_mapping]Italiano
+     * [https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%A4%D7%95%D7%99_%D7%9
+       0%D7%95%D7%91%D7%99%D7%99%D7%A7%D7%98%D7%99-%D7%A8%D7%9C%D7%A6%D7%9
+       9%D7%95%D7%A0%D7%99]עברית
+     * [https://kk.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82
+       -%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F%D0%BB%D1%8B%D2%9B_%D1%8
+       2%D0%B5%D2%A3%D0%B5%D1%81%D1%82%D1%96%D1%80%D1%83]Қазақша
+     * [https://lv.wikipedia.org/wiki/Objektrel%C4%81ciju_kart%C4%93%C5%A1
+       ana]Latviešu
+     * [https://hu.wikipedia.org/wiki/Objektum-rel%C3%A1ci%C3%B3s_lek%C3%A
+       9pz%C3%A9s]Magyar
+     * [https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7
+       %E3%82%AF%E3%83%88%E9%96%A2%E4%BF%82%E3%83%9E%E3%83%83%E3%83%94%E3%
+       83%B3%E3%82%B0]日本語
+     * [https://pl.wikipedia.org/wiki/Mapowanie_obiektowo-relacyjne]Polski
+     * [https://pt.wikipedia.org/wiki/Mapeamento_objeto-relacional]Portugu
+       ês
+     * [https://ru.wikipedia.org/wiki/ORM]Русский
+     * [https://sl.wikipedia.org/wiki/Objektno-relacijsko_preslikavanje]Sl
+       ovenščina
+     * [https://fi.wikipedia.org/wiki/Objekti-relaatiokartoitus]Suomi
+     * [https://sv.wikipedia.org/wiki/ORM]Svenska
+     * [https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88
+       %E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%8A%E0%
+       B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B9%82%E0%B8%A2%E0%B8%87%E0%B8%A
+       3%E0%B8%B0%E0%B8%AB%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%82%E0
+       %B8%A1%E0%B9%80%E0%B8%94%E0%B8%A5%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%
+       87%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8%E0%B9%81%E0%B8%A5%E
+       0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8
+       %A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C]ไทย
+     * [https://tr.wikipedia.org/wiki/Nesne-%C4%B0li%C5%9Fkisel_E%C5%9Flem
+       e]Türkçe
+     * [https://uk.wikipedia.org/wiki/%D0%9E%D0%B1%27%D1%94%D0%BA%D1%82%D0
+       %BD%D0%BE-%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D1%96%D0%B9%D0%BD%D0%B5_%D
+       0%B2%D1%96%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1
+       %8F]Українська
+     * [https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%85%B3%E7%B3%BB
+       %E6%98%A0%E5%B0%84]中文
+
+   [https://www.wikidata.org/wiki/Special:EntityPage/Q58748#sitelinks-wiki
+   pedia]Edit links
+
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping]Ar
+       ticle
+     * [https://en.wikipedia.org/wiki/Talk:Object%E2%80%93relational_mappi
+       ng]Talk
+
+   [ ] English
+
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping]Re
+       ad
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&action=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&action=history]View history
+
+   [ ] Tools
+   Tools
+   (BUTTON) move to sidebar (BUTTON) hide
+   Actions
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping]Re
+       ad
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&action=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&action=history]View history
+
+   General
+     * [https://en.wikipedia.org/wiki/Special:WhatLinksHere/Object%E2%80%9
+       3relational_mapping]What links here
+     * [https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Object%E
+       2%80%93relational_mapping]Related changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard]Upload
+       file
+     * [https://en.wikipedia.org/wiki/Special:SpecialPages]Special pages
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&oldid=1155887423]Permanent link
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&action=info]Page information
+     * [https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&pa
+       ge=Object%E2%80%93relational_mapping&id=1155887423&wpFormIdentifier
+       =titleform]Cite this page
+     * [https://www.wikidata.org/wiki/Special:EntityPage/Q58748]Wikidata
+       item
+
+   Print/export
+     * [https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&p
+       age=Object%E2%80%93relational_mapping&action=show-download-screen]D
+       ownload as PDF
+     * [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+       al_mapping&printable=yes]Printable version
+
+   From Wikipedia, the free encyclopedia
+   Not to be confused with
+   [https://en.wikipedia.org/wiki/Object-role_modeling]Object-role
+   modeling.
+
+   [https://en.wikipedia.org/wiki/File:Question_book-new.svg]This article
+   needs additional citations for
+   [https://en.wikipedia.org/wiki/Wikipedia:Verifiability]verification.
+   Please help
+   [https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relational_m
+   apping&action=edit]improve this article by
+   [https://en.wikipedia.org/wiki/Help:Referencing_for_beginners]adding
+   citations to reliable sources. Unsourced material may be challenged and
+   removed.
+   Find
+   sources: [https://www.google.com/search?as_eq=wikipedia&q=%22Object%E2%
+   80%93relational+mapping%22]"Object–relational
+   mapping" – [https://www.google.com/search?tbm=nws&q=%22Object%E2%80%93r
+   elational+mapping%22+-wikipedia&tbs=ar:1]news ·
+   [https://www.google.com/search?&q=%22Object%E2%80%93relational+mapping%
+   22&tbs=bkt:s&tbm=bks]newspapers ·
+   [https://www.google.com/search?tbs=bks:1&q=%22Object%E2%80%93relational
+   +mapping%22+-wikipedia]books ·
+   [https://scholar.google.com/scholar?q=%22Object%E2%80%93relational+mapp
+   ing%22]scholar ·
+   [https://www.jstor.org/action/doBasicSearch?Query=%22Object%E2%80%93rel
+   ational+mapping%22&acc=on&wc=on]JSTOR (May 2009)
+   ([https://en.wikipedia.org/wiki/Help:Maintenance_template_removal]Learn
+   how and when to remove this template message)
+   Programming technique
+
+   Object–relational mapping (ORM, O/RM, and O/R mapping tool) in
+   [https://en.wikipedia.org/wiki/Computer_science]computer science is a
+   [https://en.wikipedia.org/wiki/Computer_programming]programming
+   technique for converting data between a relational database and the
+   [https://en.wikipedia.org/wiki/Heap_(data_structure)]heap of an
+   [https://en.wikipedia.org/wiki/Object-oriented]object-oriented
+   programming language. This creates, in effect, a virtual
+   [https://en.wikipedia.org/wiki/Object_database]object database that can
+   be used from within the programming language.
+
+   In
+   [https://en.wikipedia.org/wiki/Object-oriented_programming]object-orien
+   ted programming,
+   [https://en.wikipedia.org/wiki/Data_management]data-management tasks
+   act on [https://en.wikipedia.org/wiki/Object_(computer_science)]objects
+   that combine [https://en.wikipedia.org/wiki/Scalar_(computing)]scalar
+   values into objects. For example, consider an address book entry that
+   represents a single person along with zero or more phone numbers and
+   zero or more addresses. This could be modeled in an object-oriented
+   implementation by a "Person
+   [https://en.wikipedia.org/wiki/Object_(computer_science)]object" with
+   an [https://en.wikipedia.org/wiki/Attribute_(computing)]attribute/field
+   to hold each data item that the entry comprises: the person's name, a
+   list of phone numbers, and a list of addresses. The list of phone
+   numbers would itself contain "PhoneNumber objects" and so on. Each such
+   address-book entry is treated as a single object by the programming
+   language (it can be referenced by a single variable containing a
+   pointer to the object, for instance). Various
+   [https://en.wikipedia.org/wiki/Method_(computer_programming)]methods
+   can be associated with the object, such as methods to return the
+   preferred phone number, the home address, and so on.
+
+   By contrast, relational databases, such as
+   [https://en.wikipedia.org/wiki/SQL]SQL, group scalars into
+   [https://en.wikipedia.org/wiki/Tuples]tuples, which are then enumerated
+   in [https://en.wikipedia.org/wiki/Table_(database)]tables. Tuples and
+   objects have some general similarity, in that they are both ways to
+   collect values into named fields such that the whole collection can be
+   manipulated as a single compound entity. They have many differences,
+   though, in particular: lifecycle management (row insertion and
+   deletion, versus
+   [https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)]ga
+   rbage collection or
+   [https://en.wikipedia.org/wiki/Reference_counting]reference counting),
+   references to other entities (object references, versus foreign key
+   references), and inheritance (non-existent in relational databases). As
+   well, objects are managed on-heap and are under full control of a
+   single process, while database tuples are shared and must incorporate
+   locking, merging, and retry. Object–relational mapping provides
+   automated support for mapping tuples to objects and back, while
+   accounting for all of these
+   differences.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_m
+   apping#cite_note-hibernate-orm-overview-1][1]
+
+   The heart of the problem involves translating the logical
+   representation of the objects into an atomized form that is capable of
+   being stored in the database while preserving the properties of the
+   objects and their relationships so that they can be reloaded as objects
+   when needed. If this storage and retrieval functionality is
+   implemented, the objects are said to be
+   [https://en.wikipedia.org/wiki/Persistence_(computer_science)]persisten
+   t.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#cit
+   e_note-hibernate-orm-overview-1][1]
+
+Overview[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relationa
+l_mapping&action=edit&section=1]edit]
+
+   Implementation-specific details of storage drivers are generally
+   wrapped in an API in the programming language in use, exposing methods
+   to interact with the storage medium in a way which is simpler and more
+   in line with the paradigms of surrounding code.
+
+   The following is a simple example, written in
+   [https://en.wikipedia.org/wiki/C_Sharp_(programming_language)]C# code,
+   to execute a query written in [https://en.wikipedia.org/wiki/SQL]SQL
+   using a database engine.
+var sql = "SELECT id, first_name, last_name, phone, birth_date, sex, age FROM pe
+rsons WHERE id = 10";
+var result = context.Persons.FromSqlRaw(sql).ToList();
+var name = result[0]["first_name"];
+
+   In contrast, the following makes use of an ORM-job API which makes it
+   possible to write code that naturally makes use of the features of the
+   language.
+var person = repository.GetPerson(10);
+var firstName = person.GetFirstName();
+
+   The case above makes use of an object representing the storage
+   repository and methods of that object. Other frameworks might provide
+   code as static methods, as in the example below, and yet other methods
+   may not implement an object-oriented system at all. Often the choice of
+   paradigm is made for the best fit of the ORM into the surrounding
+   language's design principles.
+var person = Person.Get(10);
+
+Comparison with traditional data access
+techniques[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relatio
+nal_mapping&action=edit&section=2]edit]
+
+   Compared to traditional techniques of exchange between an
+   object-oriented language and a relational database, ORM often reduces
+   the amount of code that needs to be
+   written.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_mappi
+   ng#cite_note-2][2]
+
+   Disadvantages of ORM tools generally stem from the high level of
+   [https://en.wikipedia.org/wiki/Database_abstraction_layer]abstraction
+   obscuring what is actually happening in the implementation code. Also,
+   heavy reliance on ORM software has been cited as a major factor in
+   producing poorly designed
+   databases.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_map
+   ping#cite_note-3][3]
+
+Object-oriented
+databases[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relation
+al_mapping&action=edit&section=3]edit]
+
+   Another approach is to use an
+   [https://en.wikipedia.org/wiki/Object_database]object-oriented database
+   management system (OODBMS) or
+   [https://en.wikipedia.org/wiki/Document-oriented_database]document-orie
+   nted databases such as native
+   [https://en.wikipedia.org/wiki/XML_database]XML databases that provide
+   more flexibility in data modeling. OODBMSs are databases designed
+   specifically for working with object-oriented values. Using an OODBMS
+   eliminates the need for converting data to and from its SQL form, as
+   the data is stored in its original object representation and
+   relationships are directly represented, rather than requiring
+   [https://en.wikipedia.org/wiki/Junction_table]join tables/operations.
+   The equivalent of ORMs for
+   [https://en.wikipedia.org/wiki/Document-oriented_database]document-orie
+   nted databases are called object-document mappers (ODMs).
+
+   Document-oriented databases also prevent the user from having to
+   "shred" objects into table rows. Many of these systems also support the
+   [https://en.wikipedia.org/wiki/XQuery]XQuery query language to retrieve
+   datasets.
+
+   Object-oriented databases tend to be used in complex, niche
+   applications. One of the arguments against using an OODBMS is that it
+   may not be able to execute ad-hoc, application-independent
+   queries.^[[https://en.wikipedia.org/wiki/Wikipedia:Citation_needed]cita
+   tion needed] For this reason, many programmers find themselves more at
+   home with an object-SQL mapping system, even though most
+   object-oriented databases are able to process SQL queries to a limited
+   extent. Other OODBMS provide replication to SQL databases, as a means
+   of addressing the need for ad-hoc queries, while preserving well-known
+   query
+   patterns.^[[https://en.wikipedia.org/wiki/Wikipedia:Citation_needed]cit
+   ation needed]
+
+Challenges[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relatio
+nal_mapping&action=edit&section=4]edit]
+
+   A variety of difficulties arise when considering how to match an object
+   system to a relational database. These difficulties are referred to as
+   the
+   [https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mism
+   atch]object–relational impedance
+   mismatch.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapp
+   ing#cite_note-4][4]
+
+   An alternative to implementing ORM is use of the native procedural
+   languages provided with every major database. These can be called from
+   the client using SQL statements. The
+   [https://en.wikipedia.org/wiki/Data_access_object]Data Access Object
+   (DAO) design pattern is used to abstract these statements and offer a
+   lightweight object-oriented interface to the rest of the
+   application.^[https://en.wikipedia.org/wiki/Object%E2%80%93relational_m
+   apping#cite_note-5][5]
+
+See
+also[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relational_ma
+pping&action=edit&section=5]edit]
+
+     * [https://en.wikipedia.org/wiki/List_of_object%E2%80%93relational_ma
+       pping_software]List of object–relational mapping software
+     * [https://en.wikipedia.org/wiki/Comparison_of_object%E2%80%93relatio
+       nal_mapping_software]Comparison of object–relational mapping
+       software
+     * [https://en.wikipedia.org/wiki/AutoFetch]AutoFetch – automatic
+       query tuning
+     * [https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Archite
+       cture]Common Object Request Broker Architecture (CORBA)
+     * [https://en.wikipedia.org/wiki/Object_database]Object database
+     * [https://en.wikipedia.org/wiki/Object_persistence]Object
+       persistence
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_database]O
+       bject–relational database
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_
+       mismatch]Object–relational impedance mismatch
+     * [https://en.wikipedia.org/wiki/Relational_model]Relational model
+          + [https://en.wikipedia.org/wiki/SQL]SQL (Structured Query
+            Language)
+     * [https://en.wikipedia.org/wiki/Java_Data_Objects]Java Data Objects
+     * [https://en.wikipedia.org/wiki/Service_Data_Objects]Service Data
+       Objects
+     * [https://en.wikipedia.org/wiki/Entity_Framework]Entity Framework
+     * [https://en.wikipedia.org/wiki/Active_record_pattern]Active record
+       pattern
+     * [https://en.wikipedia.org/wiki/Data_mapper_pattern]Data mapper
+       pattern
+     * [https://en.wikipedia.org/wiki/Single_Table_Inheritance]Single
+       Table Inheritance
+
+References[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relatio
+nal_mapping&action=edit&section=6]edit]
+
+    1. ^
+       [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-hibernate-orm-overview_1-0]^a
+       [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-hibernate-orm-overview_1-1]^b
+       [http://www.hibernate.org/about/orm]"What is Object/Relational
+       Mapping?". Hibernate Overview. JBOSS Hibernate. Retrieved 27
+       January
+       2022.{{[https://en.wikipedia.org/wiki/Template:Cite_web]cite web}}:
+       CS1 maint: url-status
+       ([https://en.wikipedia.org/wiki/Category:CS1_maint:_url-status]link
+       )
+    2. [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-2]^ Douglas Barry, Torsten Stanienda, "Solving the Java
+       Object Storage Problem," Computer, vol. 31, no. 11, pp. 33-40, Nov.
+       1998,
+       [[https://www.computer.org/csdl/magazine/co/1998/11/ry033/13rRUxC0S
+       RY]https://www.computer.org/csdl/magazine/co/1998/11/ry033/13rRUxC0
+       SRY. Excerpt at
+       [https://www.service-architecture.com/articles/object-relational-ma
+       pping/transparent-persistence-vs-jdbc-call-level-interface.html]htt
+       ps://www.service-architecture.com/articles/object-relational-mappin
+       g/transparent-persistence-vs-jdbc-call-level-interface.html Lines
+       of code using O/R are only a fraction of those needed for a
+       call-level interface (1:4). For this exercise, 496 lines of code
+       were needed using the ODMG Java Binding compared to 1,923 lines of
+       code using JDBC.
+    3. [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-3]^ Josh Berkus, "Wrecking Your Database", Computer, Aug.
+       2009,
+       [https://www.toolbox.com/tech/data-management/blogs/wrecking-your-d
+       atabase-080509/]https://www.toolbox.com/tech/data-management/blogs/
+       wrecking-your-database-080509/
+    4. [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-4]^
+       [https://www.semanticscholar.org/paper/Object-Relational-Mapping-Re
+       visited-A-Quantitative-Lorenz-Rudolph/708ac5e798b7e45b949d42e2f8725
+       49a3612e1e2]Object–Relational Mapping Revisited - A Quantitative
+       Study on the Impact of Database Technology on O/R Mapping
+       Strategies. M Lorenz, JP Rudolph, G Hesse, M Uflacker, H Plattner.
+       Hawaii International Conference on System Sciences (HICSS),
+       4877-4886 (DOI:10.24251/hicss.2017.592)
+    5. [https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping#ci
+       te_ref-5]^ Feuerstein, Steven; Bill Pribyl (September 1997).
+       [http://docstore.mik.ua/orelly/oracle/prog2/ch18_05.htm]"Oracle
+       PL/SQL Programming". 18.5 Modifying Persistent Objects. Retrieved
+       23 August
+       2011.{{[https://en.wikipedia.org/wiki/Template:Cite_web]cite web}}:
+       CS1 maint: location
+       ([https://en.wikipedia.org/wiki/Category:CS1_maint:_location]link)
+       CS1 maint: url-status
+       ([https://en.wikipedia.org/wiki/Category:CS1_maint:_url-status]link
+       )
+
+External
+links[[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relational_m
+apping&action=edit&section=7]edit]
+
+     * [http://www.artima.com/intv/abstract3.html]About ORM by
+       [https://en.wikipedia.org/wiki/Anders_Hejlsberg]Anders Hejlsberg
+     * [http://www.agiledata.org/essays/mappingObjects.html]Mapping
+       Objects to Relational Databases: O/R Mapping In Detail by
+       [https://en.wikipedia.org/wiki/Scott_W._Ambler]Scott W. Ambler
+
+     * [https://en.wikipedia.org/wiki/Template:Database]v
+     * [https://en.wikipedia.org/wiki/Template_talk:Database]t
+     * [https://en.wikipedia.org/w/index.php?title=Template:Database&actio
+       n=edit]e
+
+   [https://en.wikipedia.org/wiki/Database]Database
+   Main
+     * [https://en.wikipedia.org/wiki/Database#Major_database_usage_requir
+       ements]Requirements
+     * [https://en.wikipedia.org/wiki/Database_theory]Theory
+     * [https://en.wikipedia.org/wiki/Database_model]Models
+     * [https://en.wikipedia.org/wiki/Database_management_system]Database
+       management system
+     * [https://en.wikipedia.org/wiki/Database_machine]Machine
+     * [https://en.wikipedia.org/wiki/Database_server]Server
+     * [https://en.wikipedia.org/wiki/Database_application]Application
+     * [https://en.wikipedia.org/wiki/Database_connection]Connection
+          + [https://en.wikipedia.org/wiki/Datasource]datasource
+          + [https://en.wikipedia.org/wiki/Data_Source_Name]DSN
+     * [https://en.wikipedia.org/wiki/Database_administrator]Administrator
+     * [https://en.wikipedia.org/wiki/Lock_(database)]Lock
+     * [https://en.wikipedia.org/wiki/Category:Types_of_databases]Types
+     * [https://en.wikipedia.org/wiki/Comparison_of_database_tools]Tools
+
+   [https://en.wikipedia.org/wiki/Database#Database_languages]Languages
+     * [https://en.wikipedia.org/wiki/Data_definition_language]Data
+       definition
+     * [https://en.wikipedia.org/wiki/Data_manipulation_language]Data
+       manipulation
+     * [https://en.wikipedia.org/wiki/Query_language]Query
+          + [https://en.wikipedia.org/wiki/Information_retrieval_query_lan
+            guage]information retrieval
+
+   [https://en.wikipedia.org/wiki/Database_security]Security
+     * [https://en.wikipedia.org/wiki/Database_activity_monitoring]Activit
+       y monitoring
+     * [https://en.wikipedia.org/wiki/Database_audit]Audit
+     * [https://en.wikipedia.org/wiki/Database_forensics]Forensics
+     * [https://en.wikipedia.org/wiki/Negative_database]Negative database
+
+   [https://en.wikipedia.org/wiki/Database_design]Design
+     * [https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model]En
+       tities and relationships (and
+       [https://en.wikipedia.org/wiki/Enhanced_entity%E2%80%93relationship
+       _model]Enhanced notation)
+     * [https://en.wikipedia.org/wiki/Database_normalization]Normalization
+     * [https://en.wikipedia.org/wiki/Database_schema]Schema
+     * [https://en.wikipedia.org/wiki/Database_refactoring]Refactoring
+     * [https://en.wikipedia.org/wiki/Cardinality_(data_modeling)]Cardinal
+       ity
+
+   Programming
+
+     * [https://en.wikipedia.org/wiki/Database_abstraction_layer]Abstracti
+       on layer
+     * Object–relational mapping
+
+   Management
+
+     * [https://en.wikipedia.org/wiki/Database_virtualization]Virtualizati
+       on
+     * [https://en.wikipedia.org/wiki/Database_tuning]Tuning
+          + [https://en.wikipedia.org/wiki/Database_caching]caching
+     * [https://en.wikipedia.org/wiki/Data_migration#Database_migration]Mi
+       gration
+     * [https://en.wikipedia.org/wiki/Database_preservation]Preservation
+     * [https://en.wikipedia.org/wiki/Database_integrity]Integrity
+
+   [https://en.wikipedia.org/wiki/Lists_of_databases]Lists
+
+     * [https://en.wikipedia.org/wiki/List_of_academic_databases_and_searc
+       h_engines]Academic databases
+     * [https://en.wikipedia.org/wiki/List_of_biological_databases]Biologi
+       cal databases
+     * [https://en.wikipedia.org/wiki/List_of_biodiversity_databases]Biodi
+       versity databases
+     * [https://en.wikipedia.org/wiki/List_of_facial_expression_databases]
+       Facial expression databases
+     * [https://en.wikipedia.org/wiki/List_of_online_databases]Online
+       databases
+     * [https://en.wikipedia.org/wiki/List_of_online_music_databases]Onlin
+       e music databases
+     * [https://en.wikipedia.org/wiki/List_of_online_real_estate_databases
+       ]Online real estate databases
+
+   See also
+
+     * [https://en.wikipedia.org/wiki/Database-centric_architecture]Databa
+       se-centric architecture
+     * [https://en.wikipedia.org/wiki/Intelligent_database]Intelligent
+       database
+     * [https://en.wikipedia.org/wiki/Two-phase_locking]Two-phase locking
+     * [https://en.wikipedia.org/wiki/Locks_with_ordered_sharing]Locks
+       with ordered sharing
+     * [https://en.wikipedia.org/wiki/Load_file]Load file
+     * [https://en.wikipedia.org/wiki/Database_publishing]Publishing
+     * [https://en.wikipedia.org/wiki/Halloween_Problem]Halloween Problem
+     * [https://en.wikipedia.org/wiki/Log_shipping]Log shipping
+
+     * [https://en.wikipedia.org/wiki/Category:Databases]Category
+     * [https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Databases]Wiki
+       Project
+
+   Retrieved from
+   "[https://en.wikipedia.org/w/index.php?title=Object%E2%80%93relational_
+   mapping&oldid=1155887423]https://en.wikipedia.org/w/index.php?title=Obj
+   ect–relational_mapping&oldid=1155887423"
+
+   [https://en.wikipedia.org/wiki/Help:Category]Categories:
+     * [https://en.wikipedia.org/wiki/Category:Object-relational_mapping]O
+       bject-relational mapping
+     * [https://en.wikipedia.org/wiki/Category:Data_mapping]Data mapping
+
+   Hidden categories:
+     * [https://en.wikipedia.org/wiki/Category:CS1_maint:_url-status]CS1
+       maint: url-status
+     * [https://en.wikipedia.org/wiki/Category:CS1_maint:_location]CS1
+       maint: location
+     * [https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_June_201
+       9]Use dmy dates from June 2019
+     * [https://en.wikipedia.org/wiki/Category:Articles_needing_additional
+       _references_from_May_2009]Articles needing additional references
+       from May 2009
+     * [https://en.wikipedia.org/wiki/Category:All_articles_needing_additi
+       onal_references]All articles needing additional references
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_short_descrip
+       tion]Articles with short description
+     * [https://en.wikipedia.org/wiki/Category:Short_description_matches_W
+       ikidata]Short description matches Wikidata
+     * [https://en.wikipedia.org/wiki/Category:All_articles_with_unsourced
+       _statements]All articles with unsourced statements
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_sta
+       tements_from_September_2013]Articles with unsourced statements from
+       September 2013
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_sta
+       tements_from_September_2018]Articles with unsourced statements from
+       September 2018
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_example_C_Sha
+       rp_code]Articles with example C Sharp code
+
+     * This page was last edited on 20 May 2023, at 05:37 (UTC).
+     * Text is available under the
+       [https://creativecommons.org/licenses/by-sa/4.0/]Creative Commons
+       Attribution-ShareAlike License
+       4.0[https://creativecommons.org/licenses/by-sa/4.0/]; additional
+       terms may apply. By using this site, you agree to the
+       [https://foundation.wikimedia.org/wiki/Terms_of_Use]Terms of Use
+       and [https://foundation.wikimedia.org/wiki/Privacy_policy]Privacy
+       Policy. Wikipedia® is a registered trademark of the
+       [https://www.wikimediafoundation.org/]Wikimedia Foundation, Inc., a
+       non-profit organization.
+
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Pr
+       ivacy_policy]Privacy policy
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer]Disclai
+       mers
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact
+       Wikipedia
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal
+       _Code_of_Conduct]Code of Conduct
+     * [https://en.m.wikipedia.org/w/index.php?title=Object%E2%80%93relati
+       onal_mapping&mobileaction=toggle_view_mobile]Mobile view
+     * [https://developer.wikimedia.org/]Developers
+     * [https://stats.wikimedia.org/#/en.wikipedia.org]Statistics
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Co
+       okie_statement]Cookie statement
+
+     * [https://wikimediafoundation.org/]Wikimedia Foundation
+     * [https://www.mediawiki.org/]Powered by MediaWiki
+
+   (BUTTON) Toggle limited content width

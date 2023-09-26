@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://middleware.io/blog/containerization-vs-virtualization/ > $(basename https://middleware.io/blog/containerization-vs-virtualization/).txt

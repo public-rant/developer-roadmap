@@ -1,0 +1,44 @@
+   #[https://howdns.works/feed.xml]RSS
+
+   [https://howdns.works/]This is how DNS works
+
+   [https://howdns.works/video/]Video
+   [https://howdns.works/episodes/]Episodes
+   [https://howdns.works/meet-dnsimple/]About
+
+   [https://howdns.works/]🇺🇸 English [https://howdns.works/es/]🇪🇸 Español
+   [https://howdns.works/de/]🇩🇪 Deutsch [https://howdns.works/fr/]🇫🇷
+   Français [https://howdns.works/pt-br/]🇧🇷 Portuguese (BR)
+   [https://howdns.works/ru/]🇷🇺 Russian [https://howdns.works/uk/]🇺🇦
+   Ukrainian
+
+How DNS Works.
+
+   [https://howdns.works/ep1/]
+
+   A fun and colorful explanation of how DNS works.
+
+   Hey there! We made this comic to explain what happens when you type a
+   website address in your browser.
+
+   Enjoy! No jetpacks required.
+   [https://howdns.works/ep1/]Start reading now
+
+     * Handmade by
+       [https://dnsimple.com/?utm_source=howdnsworks][https://howdns.works
+       /translate/]Want to translate?
+     * Episodes
+       [https://howdns.works/ep1/]1. The website is unknown
+       [https://howdns.works/ep2/]2. Road trip
+       [https://howdns.works/ep3/]3. Top of the hierarchy
+       [https://howdns.works/ep4/]4. .HOT .PIZZA .COM
+       [https://howdns.works/ep5/]5. Respect my authority!
+       [https://howdns.works/ep6/]6. It's getting late
+       [https://howdns.works/ep7/]Bonus: Glue records
+     * Be a social cat
+       [http://twitter.com/share?text=OMG,+an+explanation+of+how+DNS+works
+       +...+in+a+comic!+%F0%9F%99%8C&url=https://howdns.works/&via=dnsimpl
+       e]Share this on Twitter
+       [http://www.facebook.com/sharer.php?u=http://howdns.works/]Share
+       this on Facebook
+     * [https://dnsimple.com/comics]↗️ Read more comics 🤓

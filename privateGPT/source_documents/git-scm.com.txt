@@ -1,0 +1,79 @@
+   [https://git-scm.com/]Git ____________________
+
+   Git is a [https://git-scm.com/about/free-and-open-source]free and open
+   source distributed version control system designed to handle everything
+   from small to very large projects with speed and efficiency.
+
+   Git is [https://git-scm.com/doc]easy to learn and has a
+   [https://git-scm.com/about/small-and-fast]tiny footprint with lightning
+   fast performance. It outclasses SCM tools like Subversion, CVS,
+   Perforce, and ClearCase with features like
+   [https://git-scm.com/about/branching-and-merging]cheap local branching,
+   convenient [https://git-scm.com/about/staging-area]staging areas, and
+   [https://git-scm.com/about/distributed]multiple workflows.
+   [branching-illustration@2x.png]
+
+     * [https://git-scm.com/about][nav-about@2x.png]
+
+About
+       The advantages of Git compared to other source control systems.
+     * [https://git-scm.com/doc][nav-documentation@2x.png]
+
+Documentation
+       Command reference pages, Pro Git book content, videos and other
+       material.
+     * [https://git-scm.com/downloads][nav-downloads@2x.png]
+
+Downloads
+       GUI clients and binary releases for all major platforms.
+     * [https://git-scm.com/community][nav-community@2x.png]
+
+Community
+       Get involved! Bug reporting, mailing list, chat, development and
+       more.
+
+   [progit2.png]
+
+   [https://git-scm.com/book]Pro Git by Scott Chacon and Ben Straub is
+   available to [https://git-scm.com/book]read online for free. Dead tree
+   versions are available on
+   [https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp
+   =1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfcons
+   ervancy-20]Amazon.com.
+
+Latest source Release
+
+   2.41.0
+   [https://raw.github.com/git/git/master/Documentation/RelNotes/2.41.0.tx
+   t]Release Notes (2023-06-01)
+   [https://www.kernel.org/pub/software/scm/git/]Download Source Code
+   [https://git-scm.com/downloads/guis]Graphical UIs
+   [https://www.kernel.org/pub/software/scm/git/]Tarballs
+   [https://git-scm.com/download/win]Windows Build
+   [https://github.com/git/git]Source Code
+
+Companies & Projects Using Git
+
+     * [https://github.com/google]Google
+     * [https://github.com/Microsoft]Microsoft
+     * [https://github.com/twitter]Twitter
+     * [https://github.com/linkedin]LinkedIn
+     * [https://github.com/netflix]Netflix
+     * [https://perl5.git.perl.org/perl.git]Perl
+     * [https://git.postgresql.org/gitweb/]PostgreSQL
+     * [https://android-review.googlesource.com/#/q/status:open,n,z]Androi
+       d
+     * [https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git]Li
+       nux
+     * [https://github.com/rails/rails]Ruby on Rails
+     * [https://code.qt.io/cgit/]Qt
+     * [https://gitlab.gnome.org/GNOME]Gnome
+     * [https://git.eclipse.org/c/]Eclipse
+     * [https://invent.kde.org/explore/groups]KDE
+     * [https://cgit.freedesktop.org/xorg/xserver/]X
+
+   [https://git-scm.com/site]About this site
+   Patches, suggestions, and comments are welcome.
+   Git is a member of [https://git-scm.com/sfc]Software Freedom
+   Conservancy
+   [https://git-scm.com/#top]scroll-to-top

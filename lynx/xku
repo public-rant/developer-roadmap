@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://en.wikipedia.org/wiki/SHA-2 > $(basename https://en.wikipedia.org/wiki/SHA-2).txt

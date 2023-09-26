@@ -1,0 +1,96 @@
+what is json api
+well json api is a specification that
+pretty much defines two things
+how the client can ask for a resource to
+be fetched or modified and how the
+server should respond to set requests
+well okay but what does it really mean
+well let s just jump right into examples
+let s see fetching a resource
+so let s say we have a list of articles
+that we want to get so we just send a
+get request for articles and we see that
+this is the response we see that the
+type is
+is articles that s the type of our
+resource we we have its id and we also
+have the attributes title body and
+created a timestamp
+now let s take a look at this
+relationships field here it specifies
+that articles is tied to author and what
+is author well author is just of type
+people and we get the id of the specific
+author that created this article
+okay but now let s say i wanted to also
+know the name of the author does it mean
+that i have to send a separate request
+for the author just to get their name
+well no that s the power of json api
+because if i only add this query param
+called inc include
+equals author
+i ll say that in my response there is a
+new field called included
+and this field has the author s name
+age and gender so i don t have to set
+send a separate response request
+now
+doesn t mean that every single time i
+want to get more information about the
+name i also have
+have to get its age and gender
+fields i don t really care about
+no because i can also specify which
+exact fields can i get from my author
+so if i just add this param here fields
+people equals name you ll see in my
+response that i only got the author s
+name
+let s also take a look at creating a new
+resource
+so if i wanted to create a new article
+all i have to do here is just send this
+body
+for post slash articles i have to
+specify the type of my new resource or
+articles and the attributes title does
+jack sparrow need a rehab and the body
+the answer is obvious if you watch the
+movies and i also have to include the
+author so i specify the relationships
+author and i provide the type which is
+people and the id of the author and in
+response i get my newly created resource
+which is articles i get its database id
+which is two i get the attributes that i
+provide and i get a link to it so now i
+know where can i find my newly created
+resource
+well what about updating a new
+a resource because i obviously made a
+mistake i have to name the article
+that s captain jack sparrow need a rehab
+again all i have to do is just send a
+patch request
+with
+type
+id and what exactly i want to change
+and after i successfully send
+this request and then i just want to
+verify that everything went okay
+and i send a get for my article
+i ll i ll see that the title is change
+does captain jack sparrow need a rehab
+now what if i wanted to delete that
+article all i have to do here
+is just send a delete
+for my article and i don t even have to
+
+so this was the basic overview of json
+api
+leave a like if you like this video and
+also check out the description for more
+i will leave like link to the official
+documentation as well as other videos
+that will definitely will that will be

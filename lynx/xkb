@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://redis.io/topics/transactions > $(basename https://redis.io/topics/transactions).txt

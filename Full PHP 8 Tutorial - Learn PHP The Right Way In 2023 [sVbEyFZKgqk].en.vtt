@@ -1,0 +1,1672 @@
+WEBVTT
+
+
+
+00:00:00.080 --> 00:00:02.230 align:start position:0%
+ 
+hello<00:00:00.480><c> and</c><00:00:00.640><c> welcome</c><00:00:01.040><c> to</c><00:00:01.280><c> my</c><00:00:01.520><c> first</c><00:00:01.839><c> course</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+hello and welcome to my first course
+ 
+
+00:00:02.240 --> 00:00:04.150 align:start position:0%
+hello and welcome to my first course
+learn<00:00:02.560><c> php</c><00:00:03.040><c> the</c><00:00:03.199><c> right</c><00:00:03.439><c> way</c>
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+learn php the right way
+ 
+
+00:00:04.160 --> 00:00:05.910 align:start position:0%
+learn php the right way
+learning<00:00:04.480><c> the</c><00:00:04.640><c> right</c><00:00:04.960><c> way</c><00:00:05.200><c> means</c><00:00:05.520><c> learning</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+learning the right way means learning
+ 
+
+00:00:05.920 --> 00:00:07.590 align:start position:0%
+learning the right way means learning
+php<00:00:06.560><c> from</c><00:00:06.720><c> the</c><00:00:06.879><c> ground</c><00:00:07.279><c> up</c>
+
+00:00:07.590 --> 00:00:07.600 align:start position:0%
+php from the ground up
+ 
+
+00:00:07.600 --> 00:00:09.669 align:start position:0%
+php from the ground up
+from<00:00:07.759><c> the</c><00:00:07.919><c> beginner's</c><00:00:08.480><c> level</c><00:00:08.880><c> all</c><00:00:09.040><c> the</c><00:00:09.200><c> way</c><00:00:09.440><c> to</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+from the beginner's level all the way to
+ 
+
+00:00:09.679 --> 00:00:11.589 align:start position:0%
+from the beginner's level all the way to
+advanced<00:00:10.240><c> in</c><00:00:10.400><c> a</c><00:00:10.480><c> single</c><00:00:10.880><c> course</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+advanced in a single course
+ 
+
+00:00:11.599 --> 00:00:13.430 align:start position:0%
+advanced in a single course
+i<00:00:11.759><c> have</c><00:00:11.920><c> seen</c><00:00:12.160><c> many</c><00:00:12.480><c> courses</c><00:00:12.960><c> that</c><00:00:13.120><c> teach</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+i have seen many courses that teach
+ 
+
+00:00:13.440 --> 00:00:14.789 align:start position:0%
+i have seen many courses that teach
+basic<00:00:13.840><c> stuff</c><00:00:14.160><c> really</c><00:00:14.480><c> well</c>
+
+00:00:14.789 --> 00:00:14.799 align:start position:0%
+basic stuff really well
+ 
+
+00:00:14.799 --> 00:00:16.870 align:start position:0%
+basic stuff really well
+and<00:00:14.880><c> they</c><00:00:15.120><c> do</c><00:00:15.280><c> an</c><00:00:15.440><c> amazing</c><00:00:15.920><c> job</c><00:00:16.240><c> but</c><00:00:16.480><c> not</c><00:00:16.720><c> all</c>
+
+00:00:16.870 --> 00:00:16.880 align:start position:0%
+and they do an amazing job but not all
+ 
+
+00:00:16.880 --> 00:00:18.870 align:start position:0%
+and they do an amazing job but not all
+of<00:00:16.960><c> them</c><00:00:17.199><c> go</c><00:00:17.359><c> into</c><00:00:17.600><c> more</c><00:00:17.840><c> detail</c><00:00:18.320><c> or</c><00:00:18.560><c> cover</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+of them go into more detail or cover
+ 
+
+00:00:18.880 --> 00:00:20.710 align:start position:0%
+of them go into more detail or cover
+some<00:00:19.119><c> of</c><00:00:19.199><c> the</c><00:00:19.359><c> advanced</c><00:00:19.840><c> topics</c><00:00:20.320><c> that</c><00:00:20.480><c> it</c><00:00:20.560><c> will</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+some of the advanced topics that it will
+ 
+
+00:00:20.720 --> 00:00:21.750 align:start position:0%
+some of the advanced topics that it will
+definitely<00:00:21.359><c> need</c>
+
+00:00:21.750 --> 00:00:21.760 align:start position:0%
+definitely need
+ 
+
+00:00:21.760 --> 00:00:23.750 align:start position:0%
+definitely need
+if<00:00:21.920><c> you</c><00:00:22.160><c> want</c><00:00:22.320><c> to</c><00:00:22.560><c> create</c><00:00:22.960><c> and</c><00:00:23.039><c> maintain</c><00:00:23.519><c> web</c>
+
+00:00:23.750 --> 00:00:23.760 align:start position:0%
+if you want to create and maintain web
+ 
+
+00:00:23.760 --> 00:00:25.990 align:start position:0%
+if you want to create and maintain web
+applications<00:00:24.560><c> or</c><00:00:24.720><c> jump</c><00:00:25.039><c> into</c><00:00:25.279><c> frameworks</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+applications or jump into frameworks
+ 
+
+00:00:26.000 --> 00:00:27.910 align:start position:0%
+applications or jump into frameworks
+knowing<00:00:26.320><c> these</c><00:00:26.560><c> topics</c><00:00:27.039><c> beyond</c><00:00:27.359><c> the</c><00:00:27.519><c> basics</c>
+
+00:00:27.910 --> 00:00:27.920 align:start position:0%
+knowing these topics beyond the basics
+ 
+
+00:00:27.920 --> 00:00:29.589 align:start position:0%
+knowing these topics beyond the basics
+will<00:00:28.080><c> help</c><00:00:28.320><c> you</c><00:00:28.400><c> better</c><00:00:28.800><c> understand</c><00:00:29.359><c> how</c>
+
+00:00:29.589 --> 00:00:29.599 align:start position:0%
+will help you better understand how
+ 
+
+00:00:29.599 --> 00:00:29.990 align:start position:0%
+will help you better understand how
+certain
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+certain
+ 
+
+00:00:30.000 --> 00:00:31.990 align:start position:0%
+certain
+things<00:00:30.320><c> work</c><00:00:30.640><c> in</c><00:00:30.720><c> the</c><00:00:30.880><c> frameworks</c><00:00:31.439><c> later</c><00:00:31.840><c> and</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+things work in the frameworks later and
+ 
+
+00:00:32.000 --> 00:00:33.990 align:start position:0%
+things work in the frameworks later and
+it<00:00:32.079><c> will</c><00:00:32.239><c> help</c><00:00:32.559><c> set</c><00:00:32.800><c> the</c><00:00:32.880><c> proper</c><00:00:33.280><c> foundation</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+it will help set the proper foundation
+ 
+
+00:00:34.000 --> 00:00:35.750 align:start position:0%
+it will help set the proper foundation
+it<00:00:34.160><c> will</c><00:00:34.399><c> also</c><00:00:34.640><c> help</c><00:00:34.880><c> you</c><00:00:35.120><c> write</c><00:00:35.360><c> clean</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+it will also help you write clean
+ 
+
+00:00:35.760 --> 00:00:37.670 align:start position:0%
+it will also help you write clean
+efficient<00:00:36.239><c> and</c><00:00:36.399><c> secure</c><00:00:36.880><c> code</c><00:00:37.200><c> as</c><00:00:37.360><c> well</c><00:00:37.520><c> as</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+efficient and secure code as well as
+ 
+
+00:00:37.680 --> 00:00:39.910 align:start position:0%
+efficient and secure code as well as
+help<00:00:37.920><c> you</c><00:00:38.160><c> dive</c><00:00:38.480><c> into</c><00:00:38.800><c> existing</c><00:00:39.360><c> code</c><00:00:39.600><c> base</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+help you dive into existing code base
+ 
+
+00:00:39.920 --> 00:00:41.590 align:start position:0%
+help you dive into existing code base
+and<00:00:40.079><c> understand</c><00:00:40.640><c> how</c><00:00:40.879><c> it</c><00:00:41.040><c> works</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+and understand how it works
+ 
+
+00:00:41.600 --> 00:00:43.750 align:start position:0%
+and understand how it works
+this<00:00:41.840><c> course</c><00:00:42.160><c> is</c><00:00:42.320><c> for</c><00:00:42.559><c> both</c><00:00:42.960><c> beginners</c><00:00:43.600><c> and</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+this course is for both beginners and
+ 
+
+00:00:43.760 --> 00:00:45.750 align:start position:0%
+this course is for both beginners and
+experienced<00:00:44.480><c> php</c><00:00:44.960><c> developers</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+experienced php developers
+ 
+
+00:00:45.760 --> 00:00:47.830 align:start position:0%
+experienced php developers
+my<00:00:46.000><c> goal</c><00:00:46.320><c> is</c><00:00:46.399><c> to</c><00:00:46.559><c> have</c><00:00:46.800><c> enough</c><00:00:47.039><c> content</c><00:00:47.520><c> within</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+my goal is to have enough content within
+ 
+
+00:00:47.840 --> 00:00:49.590 align:start position:0%
+my goal is to have enough content within
+this<00:00:48.079><c> one</c><00:00:48.399><c> course</c><00:00:48.719><c> that</c><00:00:48.879><c> even</c><00:00:49.120><c> if</c><00:00:49.280><c> you</c><00:00:49.440><c> have</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+this one course that even if you have
+ 
+
+00:00:49.600 --> 00:00:51.670 align:start position:0%
+this one course that even if you have
+experience<00:00:50.239><c> with</c><00:00:50.399><c> php</c><00:00:51.039><c> you</c><00:00:51.199><c> could</c><00:00:51.360><c> still</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+experience with php you could still
+ 
+
+00:00:51.680 --> 00:00:52.869 align:start position:0%
+experience with php you could still
+learn<00:00:52.000><c> something</c><00:00:52.399><c> new</c>
+
+00:00:52.869 --> 00:00:52.879 align:start position:0%
+learn something new
+ 
+
+00:00:52.879 --> 00:00:54.630 align:start position:0%
+learn something new
+we're<00:00:53.199><c> going</c><00:00:53.440><c> to</c><00:00:53.600><c> start</c><00:00:53.920><c> with</c><00:00:54.079><c> the</c><00:00:54.239><c> basic</c>
+
+00:00:54.630 --> 00:00:54.640 align:start position:0%
+we're going to start with the basic
+ 
+
+00:00:54.640 --> 00:00:56.790 align:start position:0%
+we're going to start with the basic
+material<00:00:55.360><c> and</c><00:00:55.520><c> quickly</c><00:00:55.840><c> advance</c><00:00:56.399><c> into</c><00:00:56.640><c> the</c>
+
+00:00:56.790 --> 00:00:56.800 align:start position:0%
+material and quickly advance into the
+ 
+
+00:00:56.800 --> 00:00:59.110 align:start position:0%
+material and quickly advance into the
+more<00:00:57.039><c> advanced</c><00:00:57.600><c> topics</c><00:00:58.079><c> as</c><00:00:58.239><c> we</c><00:00:58.399><c> go</c><00:00:58.640><c> on</c><00:00:58.879><c> so</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+more advanced topics as we go on so
+ 
+
+00:00:59.120 --> 00:01:00.390 align:start position:0%
+more advanced topics as we go on so
+let's<00:00:59.359><c> get</c><00:00:59.520><c> started</c>
+
+00:01:00.390 --> 00:01:00.400 align:start position:0%
+let's get started
+ 
+
+00:01:00.400 --> 00:01:09.830 align:start position:0%
+let's get started
+[Music]
+
+00:01:09.830 --> 00:01:09.840 align:start position:0%
+ 
+ 
+
+00:01:09.840 --> 00:01:13.030 align:start position:0%
+ 
+so<00:01:10.000><c> what</c><00:01:10.240><c> is</c><00:01:10.320><c> php</c><00:01:11.119><c> php</c><00:01:11.760><c> stands</c><00:01:12.080><c> for</c><00:01:12.320><c> hypertext</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+so what is php php stands for hypertext
+ 
+
+00:01:13.040 --> 00:01:15.030 align:start position:0%
+so what is php php stands for hypertext
+preprocessor<00:01:13.840><c> which</c><00:01:14.080><c> is</c><00:01:14.240><c> an</c><00:01:14.400><c> open</c><00:01:14.720><c> source</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+preprocessor which is an open source
+ 
+
+00:01:15.040 --> 00:01:16.950 align:start position:0%
+preprocessor which is an open source
+scripting<00:01:15.520><c> language</c><00:01:15.920><c> that</c><00:01:16.159><c> is</c><00:01:16.320><c> mainly</c><00:01:16.720><c> used</c>
+
+00:01:16.950 --> 00:01:16.960 align:start position:0%
+scripting language that is mainly used
+ 
+
+00:01:16.960 --> 00:01:19.109 align:start position:0%
+scripting language that is mainly used
+for<00:01:17.200><c> web</c><00:01:17.439><c> development</c><00:01:18.080><c> scripting</c><00:01:18.560><c> languages</c>
+
+00:01:19.109 --> 00:01:19.119 align:start position:0%
+for web development scripting languages
+ 
+
+00:01:19.119 --> 00:01:21.030 align:start position:0%
+for web development scripting languages
+are<00:01:19.280><c> also</c><00:01:19.600><c> programming</c><00:01:20.080><c> languages</c><00:01:20.640><c> the</c><00:01:20.799><c> main</c>
+
+00:01:21.030 --> 00:01:21.040 align:start position:0%
+are also programming languages the main
+ 
+
+00:01:21.040 --> 00:01:22.630 align:start position:0%
+are also programming languages the main
+difference<00:01:21.520><c> between</c><00:01:21.920><c> the</c><00:01:22.080><c> scripting</c><00:01:22.560><c> and</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+difference between the scripting and
+ 
+
+00:01:22.640 --> 00:01:24.469 align:start position:0%
+difference between the scripting and
+programming<00:01:23.119><c> languages</c><00:01:23.680><c> lies</c><00:01:24.000><c> within</c><00:01:24.240><c> their</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+programming languages lies within their
+ 
+
+00:01:24.479 --> 00:01:25.270 align:start position:0%
+programming languages lies within their
+execution
+
+00:01:25.270 --> 00:01:25.280 align:start position:0%
+execution
+ 
+
+00:01:25.280 --> 00:01:26.870 align:start position:0%
+execution
+while<00:01:25.600><c> programming</c><00:01:26.000><c> languages</c><00:01:26.479><c> need</c><00:01:26.640><c> to</c><00:01:26.799><c> be</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+while programming languages need to be
+ 
+
+00:01:26.880 --> 00:01:28.710 align:start position:0%
+while programming languages need to be
+compiled<00:01:27.439><c> into</c><00:01:27.759><c> machine</c><00:01:28.080><c> language</c><00:01:28.560><c> the</c>
+
+00:01:28.710 --> 00:01:28.720 align:start position:0%
+compiled into machine language the
+ 
+
+00:01:28.720 --> 00:01:30.069 align:start position:0%
+compiled into machine language the
+script<00:01:29.040><c> and</c><00:01:29.119><c> languages</c><00:01:29.680><c> need</c><00:01:29.840><c> to</c><00:01:29.920><c> be</c>
+
+00:01:30.069 --> 00:01:30.079 align:start position:0%
+script and languages need to be
+ 
+
+00:01:30.079 --> 00:01:31.670 align:start position:0%
+script and languages need to be
+interpreted<00:01:30.799><c> for</c><00:01:31.040><c> example</c>
+
+00:01:31.670 --> 00:01:31.680 align:start position:0%
+interpreted for example
+ 
+
+00:01:31.680 --> 00:01:34.069 align:start position:0%
+interpreted for example
+java<00:01:32.079><c> c</c><00:01:32.400><c> or</c><00:01:32.560><c> c</c><00:01:32.799><c> plus</c><00:01:33.040><c> plus</c><00:01:33.439><c> are</c><00:01:33.600><c> programming</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+java c or c plus plus are programming
+ 
+
+00:01:34.079 --> 00:01:35.910 align:start position:0%
+java c or c plus plus are programming
+languages<00:01:34.560><c> that</c><00:01:34.720><c> need</c><00:01:34.880><c> to</c><00:01:34.960><c> be</c><00:01:35.119><c> compiled</c><00:01:35.840><c> in</c>
+
+00:01:35.910 --> 00:01:35.920 align:start position:0%
+languages that need to be compiled in
+ 
+
+00:01:35.920 --> 00:01:36.870 align:start position:0%
+languages that need to be compiled in
+order<00:01:36.240><c> to</c><00:01:36.479><c> run</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+order to run
+ 
+
+00:01:36.880 --> 00:01:38.710 align:start position:0%
+order to run
+where<00:01:37.200><c> php</c><00:01:37.680><c> and</c><00:01:37.840><c> javascript</c><00:01:38.400><c> need</c><00:01:38.560><c> an</c>
+
+00:01:38.710 --> 00:01:38.720 align:start position:0%
+where php and javascript need an
+ 
+
+00:01:38.720 --> 00:01:41.109 align:start position:0%
+where php and javascript need an
+interpreter<00:01:39.520><c> unlike</c><00:01:39.920><c> javascript</c><00:01:40.560><c> which</c><00:01:40.880><c> runs</c>
+
+00:01:41.109 --> 00:01:41.119 align:start position:0%
+interpreter unlike javascript which runs
+ 
+
+00:01:41.119 --> 00:01:43.429 align:start position:0%
+interpreter unlike javascript which runs
+on<00:01:41.280><c> the</c><00:01:41.439><c> client</c><00:01:41.840><c> within</c><00:01:42.159><c> the</c><00:01:42.320><c> browser</c><00:01:42.880><c> php</c>
+
+00:01:43.429 --> 00:01:43.439 align:start position:0%
+on the client within the browser php
+ 
+
+00:01:43.439 --> 00:01:45.749 align:start position:0%
+on the client within the browser php
+requires<00:01:44.000><c> a</c><00:01:44.159><c> server</c><00:01:44.560><c> to</c><00:01:44.720><c> run</c><00:01:45.040><c> this</c><00:01:45.280><c> is</c><00:01:45.439><c> a</c><00:01:45.520><c> very</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+requires a server to run this is a very
+ 
+
+00:01:45.759 --> 00:01:48.310 align:start position:0%
+requires a server to run this is a very
+simple<00:01:46.079><c> representation</c><00:01:46.880><c> of</c><00:01:47.040><c> how</c><00:01:47.280><c> php</c><00:01:47.840><c> runs</c>
+
+00:01:48.310 --> 00:01:48.320 align:start position:0%
+simple representation of how php runs
+ 
+
+00:01:48.320 --> 00:01:50.469 align:start position:0%
+simple representation of how php runs
+client<00:01:48.799><c> or</c><00:01:48.960><c> the</c><00:01:49.119><c> browser</c><00:01:49.600><c> makes</c><00:01:49.920><c> requests</c><00:01:50.320><c> to</c>
+
+00:01:50.469 --> 00:01:50.479 align:start position:0%
+client or the browser makes requests to
+ 
+
+00:01:50.479 --> 00:01:52.389 align:start position:0%
+client or the browser makes requests to
+the<00:01:50.720><c> server</c><00:01:51.119><c> which</c><00:01:51.360><c> then</c><00:01:51.600><c> interprets</c><00:01:52.240><c> and</c>
+
+00:01:52.389 --> 00:01:52.399 align:start position:0%
+the server which then interprets and
+ 
+
+00:01:52.399 --> 00:01:54.950 align:start position:0%
+the server which then interprets and
+processes<00:01:52.960><c> php</c><00:01:53.680><c> it</c><00:01:53.840><c> can</c><00:01:54.079><c> also</c><00:01:54.399><c> do</c><00:01:54.640><c> other</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+processes php it can also do other
+ 
+
+00:01:54.960 --> 00:01:56.550 align:start position:0%
+processes php it can also do other
+things<00:01:55.280><c> there</c><00:01:55.600><c> like</c><00:01:55.920><c> connect</c><00:01:56.240><c> to</c><00:01:56.399><c> the</c>
+
+00:01:56.550 --> 00:01:56.560 align:start position:0%
+things there like connect to the
+ 
+
+00:01:56.560 --> 00:01:59.350 align:start position:0%
+things there like connect to the
+database<00:01:57.119><c> or</c><00:01:57.280><c> third-party</c><00:01:57.920><c> apis</c><00:01:58.560><c> and</c><00:01:58.719><c> so</c><00:01:58.960><c> on</c>
+
+00:01:59.350 --> 00:01:59.360 align:start position:0%
+database or third-party apis and so on
+ 
+
+00:01:59.360 --> 00:02:01.830 align:start position:0%
+database or third-party apis and so on
+and<00:01:59.600><c> finally</c><00:02:00.079><c> it</c><00:02:00.320><c> sends</c><00:02:00.560><c> the</c><00:02:00.719><c> response</c><00:02:01.360><c> back</c>
+
+00:02:01.830 --> 00:02:01.840 align:start position:0%
+and finally it sends the response back
+ 
+
+00:02:01.840 --> 00:02:03.749 align:start position:0%
+and finally it sends the response back
+let's<00:02:02.079><c> talk</c><00:02:02.320><c> about</c><00:02:02.719><c> why</c><00:02:02.960><c> you</c><00:02:03.200><c> should</c><00:02:03.439><c> learn</c>
+
+00:02:03.749 --> 00:02:03.759 align:start position:0%
+let's talk about why you should learn
+ 
+
+00:02:03.759 --> 00:02:05.910 align:start position:0%
+let's talk about why you should learn
+php<00:02:04.399><c> first</c><00:02:04.719><c> of</c><00:02:04.880><c> all</c><00:02:05.040><c> it's</c><00:02:05.280><c> easier</c><00:02:05.840><c> and</c>
+
+00:02:05.910 --> 00:02:05.920 align:start position:0%
+php first of all it's easier and
+ 
+
+00:02:05.920 --> 00:02:07.990 align:start position:0%
+php first of all it's easier and
+beginner<00:02:06.479><c> friendly</c><00:02:06.880><c> which</c><00:02:07.200><c> attracts</c><00:02:07.680><c> a</c><00:02:07.759><c> lot</c>
+
+00:02:07.990 --> 00:02:08.000 align:start position:0%
+beginner friendly which attracts a lot
+ 
+
+00:02:08.000 --> 00:02:10.150 align:start position:0%
+beginner friendly which attracts a lot
+of<00:02:08.160><c> developers</c><00:02:08.879><c> this</c><00:02:09.039><c> is</c><00:02:09.200><c> one</c><00:02:09.360><c> of</c><00:02:09.520><c> php's</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+of developers this is one of php's
+ 
+
+00:02:10.160 --> 00:02:12.150 align:start position:0%
+of developers this is one of php's
+strengths<00:02:10.640><c> but</c><00:02:10.800><c> it</c><00:02:10.959><c> can</c><00:02:11.120><c> also</c><00:02:11.360><c> be</c><00:02:11.599><c> considered</c>
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+strengths but it can also be considered
+ 
+
+00:02:12.160 --> 00:02:13.510 align:start position:0%
+strengths but it can also be considered
+as<00:02:12.319><c> one</c><00:02:12.480><c> of</c><00:02:12.640><c> its</c><00:02:12.800><c> weaknesses</c>
+
+00:02:13.510 --> 00:02:13.520 align:start position:0%
+as one of its weaknesses
+ 
+
+00:02:13.520 --> 00:02:15.270 align:start position:0%
+as one of its weaknesses
+because<00:02:13.840><c> of</c><00:02:13.920><c> this</c><00:02:14.160><c> simplicity</c><00:02:14.879><c> you</c><00:02:15.040><c> could</c>
+
+00:02:15.270 --> 00:02:15.280 align:start position:0%
+because of this simplicity you could
+ 
+
+00:02:15.280 --> 00:02:17.510 align:start position:0%
+because of this simplicity you could
+essentially<00:02:15.840><c> write</c><00:02:16.160><c> a</c><00:02:16.319><c> pretty</c><00:02:16.640><c> bad</c><00:02:16.959><c> code</c><00:02:17.360><c> and</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+essentially write a pretty bad code and
+ 
+
+00:02:17.520 --> 00:02:19.750 align:start position:0%
+essentially write a pretty bad code and
+it<00:02:17.599><c> will</c><00:02:17.840><c> still</c><00:02:18.080><c> run</c><00:02:18.400><c> and</c><00:02:18.560><c> work</c><00:02:18.879><c> just</c><00:02:19.200><c> fine</c><00:02:19.520><c> in</c>
+
+00:02:19.750 --> 00:02:19.760 align:start position:0%
+it will still run and work just fine in
+ 
+
+00:02:19.760 --> 00:02:20.309 align:start position:0%
+it will still run and work just fine in
+browser
+
+00:02:20.309 --> 00:02:20.319 align:start position:0%
+browser
+ 
+
+00:02:20.319 --> 00:02:22.390 align:start position:0%
+browser
+and<00:02:20.480><c> because</c><00:02:20.800><c> of</c><00:02:20.879><c> this</c><00:02:21.120><c> sometimes</c><00:02:21.599><c> php</c><00:02:22.160><c> gets</c>
+
+00:02:22.390 --> 00:02:22.400 align:start position:0%
+and because of this sometimes php gets
+ 
+
+00:02:22.400 --> 00:02:24.390 align:start position:0%
+and because of this sometimes php gets
+the<00:02:22.480><c> bad</c><00:02:22.720><c> reputation</c><00:02:23.440><c> but</c><00:02:23.680><c> don't</c><00:02:23.920><c> let</c><00:02:24.160><c> that</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+the bad reputation but don't let that
+ 
+
+00:02:24.400 --> 00:02:26.710 align:start position:0%
+the bad reputation but don't let that
+discourage<00:02:24.959><c> you</c><00:02:25.200><c> from</c><00:02:25.440><c> learning</c><00:02:25.840><c> php</c><00:02:26.480><c> because</c>
+
+00:02:26.710 --> 00:02:26.720 align:start position:0%
+discourage you from learning php because
+ 
+
+00:02:26.720 --> 00:02:29.270 align:start position:0%
+discourage you from learning php because
+we're<00:02:27.040><c> here</c><00:02:27.360><c> to</c><00:02:27.520><c> learn</c><00:02:27.840><c> php</c><00:02:28.400><c> the</c><00:02:28.560><c> right</c><00:02:28.800><c> way</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+we're here to learn php the right way
+ 
+
+00:02:29.280 --> 00:02:31.910 align:start position:0%
+we're here to learn php the right way
+also<00:02:29.680><c> php</c><00:02:30.319><c> is</c><00:02:30.400><c> very</c><00:02:30.640><c> powerful</c><00:02:31.360><c> not</c><00:02:31.599><c> only</c><00:02:31.840><c> you</c>
+
+00:02:31.910 --> 00:02:31.920 align:start position:0%
+also php is very powerful not only you
+ 
+
+00:02:31.920 --> 00:02:32.630 align:start position:0%
+also php is very powerful not only you
+could<00:02:32.160><c> build</c>
+
+00:02:32.630 --> 00:02:32.640 align:start position:0%
+could build
+ 
+
+00:02:32.640 --> 00:02:34.790 align:start position:0%
+could build
+simple<00:02:33.040><c> websites</c><00:02:33.519><c> but</c><00:02:33.760><c> it</c><00:02:33.840><c> could</c><00:02:34.160><c> also</c><00:02:34.480><c> build</c>
+
+00:02:34.790 --> 00:02:34.800 align:start position:0%
+simple websites but it could also build
+ 
+
+00:02:34.800 --> 00:02:37.190 align:start position:0%
+simple websites but it could also build
+very<00:02:35.040><c> complex</c><00:02:35.599><c> web</c><00:02:35.920><c> applications</c><00:02:36.720><c> even</c><00:02:37.040><c> at</c>
+
+00:02:37.190 --> 00:02:37.200 align:start position:0%
+very complex web applications even at
+ 
+
+00:02:37.200 --> 00:02:39.750 align:start position:0%
+very complex web applications even at
+enterprise<00:02:37.840><c> level</c><00:02:38.160><c> it</c><00:02:38.400><c> also</c><00:02:38.720><c> has</c><00:02:38.959><c> amazing</c><00:02:39.599><c> and</c>
+
+00:02:39.750 --> 00:02:39.760 align:start position:0%
+enterprise level it also has amazing and
+ 
+
+00:02:39.760 --> 00:02:41.030 align:start position:0%
+enterprise level it also has amazing and
+huge<00:02:40.160><c> ecosystem</c>
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+huge ecosystem
+ 
+
+00:02:41.040 --> 00:02:42.790 align:start position:0%
+huge ecosystem
+and<00:02:41.200><c> some</c><00:02:41.440><c> of</c><00:02:41.519><c> the</c><00:02:41.680><c> best</c><00:02:42.000><c> frameworks</c><00:02:42.640><c> you</c>
+
+00:02:42.790 --> 00:02:42.800 align:start position:0%
+and some of the best frameworks you
+ 
+
+00:02:42.800 --> 00:02:44.869 align:start position:0%
+and some of the best frameworks you
+could<00:02:43.040><c> build</c><00:02:43.440><c> e-commerce</c><00:02:43.920><c> web</c><00:02:44.160><c> applications</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+could build e-commerce web applications
+ 
+
+00:02:44.879 --> 00:02:45.350 align:start position:0%
+could build e-commerce web applications
+connect
+
+00:02:45.350 --> 00:02:45.360 align:start position:0%
+connect
+ 
+
+00:02:45.360 --> 00:02:47.430 align:start position:0%
+connect
+countless<00:02:45.840><c> other</c><00:02:46.080><c> third-party</c><00:02:46.720><c> services</c>
+
+00:02:47.430 --> 00:02:47.440 align:start position:0%
+countless other third-party services
+ 
+
+00:02:47.440 --> 00:02:50.309 align:start position:0%
+countless other third-party services
+build<00:02:47.760><c> company</c><00:02:48.239><c> websites</c><00:02:48.879><c> build</c><00:02:49.200><c> crm</c><00:02:49.680><c> systems</c>
+
+00:02:50.309 --> 00:02:50.319 align:start position:0%
+build company websites build crm systems
+ 
+
+00:02:50.319 --> 00:02:52.550 align:start position:0%
+build company websites build crm systems
+blogs<00:02:50.879><c> billing</c><00:02:51.360><c> invoicing</c><00:02:52.000><c> warehouse</c>
+
+00:02:52.550 --> 00:02:52.560 align:start position:0%
+blogs billing invoicing warehouse
+ 
+
+00:02:52.560 --> 00:02:54.790 align:start position:0%
+blogs billing invoicing warehouse
+management<00:02:53.040><c> the</c><00:02:53.200><c> possibilities</c><00:02:54.000><c> are</c><00:02:54.160><c> endless</c>
+
+00:02:54.790 --> 00:02:54.800 align:start position:0%
+management the possibilities are endless
+ 
+
+00:02:54.800 --> 00:02:57.509 align:start position:0%
+management the possibilities are endless
+though<00:02:55.040><c> you</c><00:02:55.200><c> will</c><00:02:55.440><c> still</c><00:02:55.760><c> hear</c><00:02:56.239><c> php</c><00:02:56.879><c> is</c><00:02:57.120><c> dead</c>
+
+00:02:57.509 --> 00:02:57.519 align:start position:0%
+though you will still hear php is dead
+ 
+
+00:02:57.519 --> 00:02:58.630 align:start position:0%
+though you will still hear php is dead
+from<00:02:57.760><c> time</c><00:02:58.000><c> to</c><00:02:58.239><c> time</c>
+
+00:02:58.630 --> 00:02:58.640 align:start position:0%
+from time to time
+ 
+
+00:02:58.640 --> 00:03:00.470 align:start position:0%
+from time to time
+if<00:02:58.800><c> you</c><00:02:58.879><c> go</c><00:02:59.040><c> on</c><00:02:59.200><c> social</c><00:02:59.599><c> media</c><00:03:00.000><c> you</c><00:03:00.159><c> probably</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+if you go on social media you probably
+ 
+
+00:03:00.480 --> 00:03:03.030 align:start position:0%
+if you go on social media you probably
+will<00:03:00.720><c> encounter</c><00:03:01.280><c> a</c><00:03:01.440><c> question</c><00:03:01.840><c> is</c><00:03:02.000><c> php</c><00:03:02.640><c> dead</c>
+
+00:03:03.030 --> 00:03:03.040 align:start position:0%
+will encounter a question is php dead
+ 
+
+00:03:03.040 --> 00:03:05.430 align:start position:0%
+will encounter a question is php dead
+pretty<00:03:03.440><c> often</c><00:03:03.920><c> but</c><00:03:04.159><c> is</c><00:03:04.319><c> it</c><00:03:04.480><c> actually</c><00:03:04.879><c> dead</c>
+
+00:03:05.430 --> 00:03:05.440 align:start position:0%
+pretty often but is it actually dead
+ 
+
+00:03:05.440 --> 00:03:08.229 align:start position:0%
+pretty often but is it actually dead
+well<00:03:05.680><c> first</c><00:03:05.920><c> of</c><00:03:06.080><c> all</c><00:03:06.239><c> php</c><00:03:06.800><c> powers</c><00:03:07.200><c> over</c><00:03:07.519><c> 75</c>
+
+00:03:08.229 --> 00:03:08.239 align:start position:0%
+well first of all php powers over 75
+ 
+
+00:03:08.239 --> 00:03:10.149 align:start position:0%
+well first of all php powers over 75
+percent<00:03:08.640><c> of</c><00:03:08.800><c> websites</c><00:03:09.360><c> whose</c><00:03:09.599><c> server</c><00:03:09.920><c> side</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+percent of websites whose server side
+ 
+
+00:03:10.159 --> 00:03:11.190 align:start position:0%
+percent of websites whose server side
+language<00:03:10.560><c> is</c><00:03:10.720><c> known</c>
+
+00:03:11.190 --> 00:03:11.200 align:start position:0%
+language is known
+ 
+
+00:03:11.200 --> 00:03:13.750 align:start position:0%
+language is known
+so<00:03:11.440><c> no</c><00:03:11.760><c> php</c><00:03:12.319><c> is</c><00:03:12.480><c> not</c><00:03:12.720><c> that</c><00:03:13.040><c> and</c><00:03:13.200><c> it</c><00:03:13.440><c> is</c><00:03:13.519><c> not</c>
+
+00:03:13.750 --> 00:03:13.760 align:start position:0%
+so no php is not that and it is not
+ 
+
+00:03:13.760 --> 00:03:14.550 align:start position:0%
+so no php is not that and it is not
+going<00:03:14.000><c> to</c><00:03:14.239><c> die</c>
+
+00:03:14.550 --> 00:03:14.560 align:start position:0%
+going to die
+ 
+
+00:03:14.560 --> 00:03:17.030 align:start position:0%
+going to die
+anytime<00:03:15.040><c> soon</c><00:03:15.360><c> because</c><00:03:15.680><c> if</c><00:03:15.920><c> it</c><00:03:16.000><c> does</c><00:03:16.480><c> somehow</c>
+
+00:03:17.030 --> 00:03:17.040 align:start position:0%
+anytime soon because if it does somehow
+ 
+
+00:03:17.040 --> 00:03:19.190 align:start position:0%
+anytime soon because if it does somehow
+75<00:03:17.680><c> percent</c><00:03:18.000><c> of</c><00:03:18.159><c> websites</c><00:03:18.640><c> need</c><00:03:18.800><c> to</c>
+
+00:03:19.190 --> 00:03:19.200 align:start position:0%
+75 percent of websites need to
+ 
+
+00:03:19.200 --> 00:03:21.270 align:start position:0%
+75 percent of websites need to
+switch<00:03:19.680><c> from</c><00:03:19.840><c> php</c><00:03:20.400><c> to</c><00:03:20.560><c> something</c><00:03:20.879><c> else</c>
+
+00:03:21.270 --> 00:03:21.280 align:start position:0%
+switch from php to something else
+ 
+
+00:03:21.280 --> 00:03:23.750 align:start position:0%
+switch from php to something else
+secondly<00:03:21.840><c> yes</c><00:03:22.159><c> php</c><00:03:22.720><c> code</c><00:03:22.959><c> can</c><00:03:23.200><c> be</c><00:03:23.360><c> bad</c>
+
+00:03:23.750 --> 00:03:23.760 align:start position:0%
+secondly yes php code can be bad
+ 
+
+00:03:23.760 --> 00:03:25.750 align:start position:0%
+secondly yes php code can be bad
+but<00:03:24.000><c> again</c><00:03:24.239><c> you</c><00:03:24.400><c> could</c><00:03:24.640><c> write</c><00:03:25.040><c> garbage</c><00:03:25.519><c> code</c>
+
+00:03:25.750 --> 00:03:25.760 align:start position:0%
+but again you could write garbage code
+ 
+
+00:03:25.760 --> 00:03:27.589 align:start position:0%
+but again you could write garbage code
+in<00:03:25.920><c> any</c><00:03:26.159><c> programming</c><00:03:26.640><c> language</c><00:03:27.040><c> whether</c><00:03:27.360><c> it's</c>
+
+00:03:27.589 --> 00:03:27.599 align:start position:0%
+in any programming language whether it's
+ 
+
+00:03:27.599 --> 00:03:29.750 align:start position:0%
+in any programming language whether it's
+java<00:03:28.000><c> python</c><00:03:28.480><c> or</c><00:03:28.560><c> c</c><00:03:28.799><c> plus</c><00:03:29.040><c> plus</c><00:03:29.360><c> it</c><00:03:29.519><c> doesn't</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+java python or c plus plus it doesn't
+ 
+
+00:03:29.760 --> 00:03:31.270 align:start position:0%
+java python or c plus plus it doesn't
+have<00:03:29.920><c> to</c><00:03:30.080><c> be</c><00:03:30.239><c> just</c><00:03:30.480><c> php</c>
+
+00:03:31.270 --> 00:03:31.280 align:start position:0%
+have to be just php
+ 
+
+00:03:31.280 --> 00:03:34.789 align:start position:0%
+have to be just php
+also<00:03:31.760><c> php</c><00:03:32.319><c> has</c><00:03:32.560><c> evolved</c><00:03:33.200><c> a</c><00:03:33.360><c> lot</c><00:03:33.680><c> since</c><00:03:34.000><c> php4</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+also php has evolved a lot since php4
+ 
+
+00:03:34.799 --> 00:03:35.990 align:start position:0%
+also php has evolved a lot since php4
+and<00:03:34.959><c> php5</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+and php5
+ 
+
+00:03:36.000 --> 00:03:38.309 align:start position:0%
+and php5
+it<00:03:36.159><c> was</c><00:03:36.400><c> mostly</c><00:03:36.879><c> procedural</c><00:03:37.599><c> back</c><00:03:37.840><c> then</c><00:03:38.159><c> but</c>
+
+00:03:38.309 --> 00:03:38.319 align:start position:0%
+it was mostly procedural back then but
+ 
+
+00:03:38.319 --> 00:03:40.390 align:start position:0%
+it was mostly procedural back then but
+it<00:03:38.480><c> has</c><00:03:38.720><c> become</c><00:03:39.120><c> more</c><00:03:39.360><c> object</c><00:03:39.760><c> oriented</c><00:03:40.319><c> and</c>
+
+00:03:40.390 --> 00:03:40.400 align:start position:0%
+it has become more object oriented and
+ 
+
+00:03:40.400 --> 00:03:42.869 align:start position:0%
+it has become more object oriented and
+has<00:03:40.640><c> introduced</c><00:03:41.360><c> great</c><00:03:41.680><c> support</c><00:03:42.159><c> for</c><00:03:42.400><c> strict</c>
+
+00:03:42.869 --> 00:03:42.879 align:start position:0%
+has introduced great support for strict
+ 
+
+00:03:42.879 --> 00:03:43.430 align:start position:0%
+has introduced great support for strict
+types
+
+00:03:43.430 --> 00:03:43.440 align:start position:0%
+types
+ 
+
+00:03:43.440 --> 00:03:45.030 align:start position:0%
+types
+a<00:03:43.519><c> lot</c><00:03:43.680><c> of</c><00:03:43.840><c> times</c><00:03:44.159><c> they've</c><00:03:44.480><c> skipped</c><00:03:44.799><c> some</c><00:03:44.959><c> of</c>
+
+00:03:45.030 --> 00:03:45.040 align:start position:0%
+a lot of times they've skipped some of
+ 
+
+00:03:45.040 --> 00:03:47.190 align:start position:0%
+a lot of times they've skipped some of
+the<00:03:45.200><c> advanced</c><00:03:45.680><c> topics</c><00:03:46.159><c> like</c><00:03:46.400><c> security</c><00:03:47.040><c> for</c>
+
+00:03:47.190 --> 00:03:47.200 align:start position:0%
+the advanced topics like security for
+ 
+
+00:03:47.200 --> 00:03:47.750 align:start position:0%
+the advanced topics like security for
+example
+
+00:03:47.750 --> 00:03:47.760 align:start position:0%
+example
+ 
+
+00:03:47.760 --> 00:03:49.990 align:start position:0%
+example
+and<00:03:47.920><c> jump</c><00:03:48.239><c> straight</c><00:03:48.640><c> into</c><00:03:48.959><c> building</c><00:03:49.440><c> websites</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+and jump straight into building websites
+ 
+
+00:03:50.000 --> 00:03:52.149 align:start position:0%
+and jump straight into building websites
+because<00:03:50.239><c> as</c><00:03:50.400><c> i</c><00:03:50.560><c> mentioned</c><00:03:51.040><c> before</c><00:03:51.440><c> php</c><00:03:52.000><c> is</c>
+
+00:03:52.149 --> 00:03:52.159 align:start position:0%
+because as i mentioned before php is
+ 
+
+00:03:52.159 --> 00:03:53.030 align:start position:0%
+because as i mentioned before php is
+pretty<00:03:52.560><c> simple</c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+pretty simple
+ 
+
+00:03:53.040 --> 00:03:55.110 align:start position:0%
+pretty simple
+and<00:03:53.120><c> beginner</c><00:03:53.599><c> friendly</c><00:03:54.159><c> this</c><00:03:54.400><c> is</c><00:03:54.560><c> why</c><00:03:54.799><c> it's</c>
+
+00:03:55.110 --> 00:03:55.120 align:start position:0%
+and beginner friendly this is why it's
+ 
+
+00:03:55.120 --> 00:03:57.190 align:start position:0%
+and beginner friendly this is why it's
+important<00:03:55.599><c> to</c><00:03:55.840><c> learn</c><00:03:56.159><c> php</c><00:03:56.720><c> beyond</c><00:03:57.120><c> the</c>
+
+00:03:57.190 --> 00:03:57.200 align:start position:0%
+important to learn php beyond the
+ 
+
+00:03:57.200 --> 00:03:58.949 align:start position:0%
+important to learn php beyond the
+beginner's<00:03:57.760><c> level</c><00:03:58.159><c> and</c><00:03:58.400><c> learn</c><00:03:58.640><c> those</c>
+
+00:03:58.949 --> 00:03:58.959 align:start position:0%
+beginner's level and learn those
+ 
+
+00:03:58.959 --> 00:04:01.110 align:start position:0%
+beginner's level and learn those
+necessary<00:03:59.599><c> and</c><00:03:59.760><c> advanced</c><00:04:00.319><c> topics</c><00:04:00.799><c> which</c><00:04:00.959><c> will</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+necessary and advanced topics which will
+ 
+
+00:04:01.120 --> 00:04:03.270 align:start position:0%
+necessary and advanced topics which will
+be<00:04:01.280><c> covered</c><00:04:01.760><c> in</c><00:04:01.840><c> this</c><00:04:02.159><c> course</c><00:04:02.560><c> so</c><00:04:02.799><c> let's</c><00:04:03.040><c> talk</c>
+
+00:04:03.270 --> 00:04:03.280 align:start position:0%
+be covered in this course so let's talk
+ 
+
+00:04:03.280 --> 00:04:04.550 align:start position:0%
+be covered in this course so let's talk
+more<00:04:03.519><c> about</c><00:04:03.840><c> this</c><00:04:04.080><c> course</c>
+
+00:04:04.550 --> 00:04:04.560 align:start position:0%
+more about this course
+ 
+
+00:04:04.560 --> 00:04:06.630 align:start position:0%
+more about this course
+this<00:04:04.879><c> course</c><00:04:05.200><c> will</c><00:04:05.360><c> be</c><00:04:05.519><c> split</c><00:04:05.920><c> into</c><00:04:06.319><c> three</c>
+
+00:04:06.630 --> 00:04:06.640 align:start position:0%
+this course will be split into three
+ 
+
+00:04:06.640 --> 00:04:08.710 align:start position:0%
+this course will be split into three
+sections<00:04:07.280><c> the</c><00:04:07.360><c> first</c><00:04:07.680><c> section</c><00:04:08.000><c> will</c><00:04:08.159><c> be</c><00:04:08.319><c> basic</c>
+
+00:04:08.710 --> 00:04:08.720 align:start position:0%
+sections the first section will be basic
+ 
+
+00:04:08.720 --> 00:04:11.190 align:start position:0%
+sections the first section will be basic
+php<00:04:09.280><c> which</c><00:04:09.519><c> will</c><00:04:09.680><c> be</c><00:04:09.840><c> mostly</c><00:04:10.239><c> procedural</c><00:04:10.959><c> then</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+php which will be mostly procedural then
+ 
+
+00:04:11.200 --> 00:04:13.589 align:start position:0%
+php which will be mostly procedural then
+we're<00:04:11.360><c> gonna</c><00:04:11.680><c> have</c><00:04:12.000><c> intermediate</c><00:04:12.799><c> php</c><00:04:13.360><c> where</c>
+
+00:04:13.589 --> 00:04:13.599 align:start position:0%
+we're gonna have intermediate php where
+ 
+
+00:04:13.599 --> 00:04:15.910 align:start position:0%
+we're gonna have intermediate php where
+we'll<00:04:13.920><c> transition</c><00:04:14.640><c> into</c><00:04:14.959><c> object-oriented</c>
+
+00:04:15.910 --> 00:04:15.920 align:start position:0%
+we'll transition into object-oriented
+ 
+
+00:04:15.920 --> 00:04:18.150 align:start position:0%
+we'll transition into object-oriented
+programming<00:04:16.479><c> and</c><00:04:16.639><c> advanced</c><00:04:17.199><c> php</c><00:04:17.680><c> where</c><00:04:17.919><c> we'll</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+programming and advanced php where we'll
+ 
+
+00:04:18.160 --> 00:04:18.469 align:start position:0%
+programming and advanced php where we'll
+learn
+
+00:04:18.469 --> 00:04:18.479 align:start position:0%
+learn
+ 
+
+00:04:18.479 --> 00:04:20.550 align:start position:0%
+learn
+some<00:04:18.720><c> advanced</c><00:04:19.199><c> topics</c><00:04:19.680><c> and</c><00:04:19.759><c> techniques</c><00:04:20.400><c> the</c>
+
+00:04:20.550 --> 00:04:20.560 align:start position:0%
+some advanced topics and techniques the
+ 
+
+00:04:20.560 --> 00:04:23.030 align:start position:0%
+some advanced topics and techniques the
+basic<00:04:20.959><c> php</c><00:04:21.519><c> section</c><00:04:21.840><c> will</c><00:04:22.079><c> cover</c><00:04:22.400><c> things</c><00:04:22.720><c> like</c>
+
+00:04:23.030 --> 00:04:23.040 align:start position:0%
+basic php section will cover things like
+ 
+
+00:04:23.040 --> 00:04:24.710 align:start position:0%
+basic php section will cover things like
+getting<00:04:23.360><c> php</c><00:04:23.919><c> up</c><00:04:24.080><c> and</c><00:04:24.240><c> running</c>
+
+00:04:24.710 --> 00:04:24.720 align:start position:0%
+getting php up and running
+ 
+
+00:04:24.720 --> 00:04:27.350 align:start position:0%
+getting php up and running
+syntax<00:04:25.440><c> operators</c><00:04:26.240><c> variables</c><00:04:26.800><c> and</c><00:04:27.040><c> data</c>
+
+00:04:27.350 --> 00:04:27.360 align:start position:0%
+syntax operators variables and data
+ 
+
+00:04:27.360 --> 00:04:29.590 align:start position:0%
+syntax operators variables and data
+types<00:04:27.759><c> control</c><00:04:28.240><c> structures</c><00:04:28.960><c> functions</c>
+
+00:04:29.590 --> 00:04:29.600 align:start position:0%
+types control structures functions
+ 
+
+00:04:29.600 --> 00:04:31.350 align:start position:0%
+types control structures functions
+typecasting<00:04:30.400><c> and</c><00:04:30.560><c> error</c><00:04:30.720><c> handling</c>
+
+00:04:31.350 --> 00:04:31.360 align:start position:0%
+typecasting and error handling
+ 
+
+00:04:31.360 --> 00:04:33.990 align:start position:0%
+typecasting and error handling
+working<00:04:31.759><c> with</c><00:04:32.000><c> php</c><00:04:32.479><c> ionize</c><00:04:33.040><c> and</c><00:04:33.199><c> web</c><00:04:33.440><c> server</c>
+
+00:04:33.990 --> 00:04:34.000 align:start position:0%
+working with php ionize and web server
+ 
+
+00:04:34.000 --> 00:04:35.749 align:start position:0%
+working with php ionize and web server
+working<00:04:34.320><c> with</c><00:04:34.560><c> arrays</c><00:04:35.040><c> and</c><00:04:35.280><c> dates</c>
+
+00:04:35.749 --> 00:04:35.759 align:start position:0%
+working with arrays and dates
+ 
+
+00:04:35.759 --> 00:04:37.830 align:start position:0%
+working with arrays and dates
+and<00:04:35.919><c> more</c><00:04:36.320><c> in</c><00:04:36.400><c> my</c><00:04:36.639><c> opinion</c><00:04:37.199><c> you</c><00:04:37.360><c> should</c><00:04:37.600><c> know</c>
+
+00:04:37.830 --> 00:04:37.840 align:start position:0%
+and more in my opinion you should know
+ 
+
+00:04:37.840 --> 00:04:39.430 align:start position:0%
+and more in my opinion you should know
+how<00:04:38.080><c> to</c><00:04:38.240><c> work</c><00:04:38.560><c> with</c><00:04:38.720><c> your</c><00:04:38.960><c> server's</c>
+
+00:04:39.430 --> 00:04:39.440 align:start position:0%
+how to work with your server's
+ 
+
+00:04:39.440 --> 00:04:41.990 align:start position:0%
+how to work with your server's
+configuration<00:04:40.320><c> files</c><00:04:40.800><c> as</c><00:04:40.960><c> well</c><00:04:41.120><c> as</c><00:04:41.280><c> your</c><00:04:41.520><c> php</c>
+
+00:04:41.990 --> 00:04:42.000 align:start position:0%
+configuration files as well as your php
+ 
+
+00:04:42.000 --> 00:04:44.310 align:start position:0%
+configuration files as well as your php
+configuration<00:04:42.800><c> files</c><00:04:43.280><c> before</c><00:04:43.600><c> you</c><00:04:43.759><c> even</c><00:04:44.000><c> move</c>
+
+00:04:44.310 --> 00:04:44.320 align:start position:0%
+configuration files before you even move
+ 
+
+00:04:44.320 --> 00:04:46.310 align:start position:0%
+configuration files before you even move
+into<00:04:44.560><c> databases</c><00:04:45.199><c> or</c><00:04:45.440><c> object-oriented</c>
+
+00:04:46.310 --> 00:04:46.320 align:start position:0%
+into databases or object-oriented
+ 
+
+00:04:46.320 --> 00:04:48.550 align:start position:0%
+into databases or object-oriented
+programming<00:04:46.800><c> the</c><00:04:46.960><c> intermediate</c><00:04:47.600><c> php</c><00:04:48.160><c> section</c>
+
+00:04:48.550 --> 00:04:48.560 align:start position:0%
+programming the intermediate php section
+ 
+
+00:04:48.560 --> 00:04:50.629 align:start position:0%
+programming the intermediate php section
+will<00:04:48.720><c> be</c><00:04:48.960><c> object</c><00:04:49.360><c> oriented</c><00:04:49.840><c> focused</c><00:04:50.320><c> and</c><00:04:50.479><c> will</c>
+
+00:04:50.629 --> 00:04:50.639 align:start position:0%
+will be object oriented focused and will
+ 
+
+00:04:50.639 --> 00:04:52.710 align:start position:0%
+will be object oriented focused and will
+cover<00:04:51.040><c> things</c><00:04:51.360><c> like</c><00:04:51.600><c> classes</c><00:04:52.080><c> and</c><00:04:52.240><c> methods</c>
+
+00:04:52.710 --> 00:04:52.720 align:start position:0%
+cover things like classes and methods
+ 
+
+00:04:52.720 --> 00:04:55.030 align:start position:0%
+cover things like classes and methods
+object-oriented<00:04:53.759><c> programming</c><00:04:54.320><c> code</c><00:04:54.639><c> style</c>
+
+00:04:55.030 --> 00:04:55.040 align:start position:0%
+object-oriented programming code style
+ 
+
+00:04:55.040 --> 00:04:55.990 align:start position:0%
+object-oriented programming code style
+and<00:04:55.199><c> psr</c>
+
+00:04:55.990 --> 00:04:56.000 align:start position:0%
+and psr
+ 
+
+00:04:56.000 --> 00:04:58.469 align:start position:0%
+and psr
+namespaces<00:04:56.800><c> and</c><00:04:56.960><c> autoloading</c><00:04:57.759><c> dependency</c>
+
+00:04:58.469 --> 00:04:58.479 align:start position:0%
+namespaces and autoloading dependency
+ 
+
+00:04:58.479 --> 00:04:59.110 align:start position:0%
+namespaces and autoloading dependency
+management
+
+00:04:59.110 --> 00:04:59.120 align:start position:0%
+management
+ 
+
+00:04:59.120 --> 00:05:01.189 align:start position:0%
+management
+super<00:04:59.440><c> global</c><00:05:00.080><c> sessions</c><00:05:00.560><c> and</c><00:05:00.720><c> cookies</c>
+
+00:05:01.189 --> 00:05:01.199 align:start position:0%
+super global sessions and cookies
+ 
+
+00:05:01.199 --> 00:05:03.590 align:start position:0%
+super global sessions and cookies
+databases<00:05:02.000><c> and</c><00:05:02.240><c> more</c><00:05:02.560><c> you</c><00:05:02.720><c> might</c><00:05:02.960><c> be</c><00:05:03.120><c> asking</c>
+
+00:05:03.590 --> 00:05:03.600 align:start position:0%
+databases and more you might be asking
+ 
+
+00:05:03.600 --> 00:05:04.950 align:start position:0%
+databases and more you might be asking
+why<00:05:03.919><c> i</c><00:05:04.000><c> did</c><00:05:04.240><c> not</c><00:05:04.479><c> include</c>
+
+00:05:04.950 --> 00:05:04.960 align:start position:0%
+why i did not include
+ 
+
+00:05:04.960 --> 00:05:06.950 align:start position:0%
+why i did not include
+things<00:05:05.280><c> like</c><00:05:05.520><c> super</c><00:05:05.840><c> globals</c><00:05:06.400><c> or</c><00:05:06.560><c> sessions</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+things like super globals or sessions
+ 
+
+00:05:06.960 --> 00:05:09.189 align:start position:0%
+things like super globals or sessions
+and<00:05:07.120><c> cookies</c><00:05:07.600><c> within</c><00:05:07.919><c> the</c><00:05:08.000><c> basic</c><00:05:08.479><c> php</c><00:05:09.120><c> the</c>
+
+00:05:09.189 --> 00:05:09.199 align:start position:0%
+and cookies within the basic php the
+ 
+
+00:05:09.199 --> 00:05:10.550 align:start position:0%
+and cookies within the basic php the
+simple<00:05:09.600><c> answer</c><00:05:09.919><c> to</c><00:05:10.160><c> that</c>
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+simple answer to that
+ 
+
+00:05:10.560 --> 00:05:12.870 align:start position:0%
+simple answer to that
+is<00:05:10.720><c> because</c><00:05:11.199><c> it's</c><00:05:11.440><c> not</c><00:05:11.759><c> basic</c><00:05:12.320><c> yes</c><00:05:12.560><c> i</c><00:05:12.639><c> could</c>
+
+00:05:12.870 --> 00:05:12.880 align:start position:0%
+is because it's not basic yes i could
+ 
+
+00:05:12.880 --> 00:05:14.629 align:start position:0%
+is because it's not basic yes i could
+teach<00:05:13.120><c> you</c><00:05:13.280><c> the</c><00:05:13.440><c> very</c><00:05:13.759><c> basics</c><00:05:14.240><c> of</c><00:05:14.400><c> it</c><00:05:14.479><c> but</c>
+
+00:05:14.629 --> 00:05:14.639 align:start position:0%
+teach you the very basics of it but
+ 
+
+00:05:14.639 --> 00:05:16.150 align:start position:0%
+teach you the very basics of it but
+there<00:05:14.800><c> are</c><00:05:14.960><c> more</c><00:05:15.280><c> things</c><00:05:15.520><c> that</c><00:05:15.759><c> you</c><00:05:15.919><c> should</c>
+
+00:05:16.150 --> 00:05:16.160 align:start position:0%
+there are more things that you should
+ 
+
+00:05:16.160 --> 00:05:18.310 align:start position:0%
+there are more things that you should
+know<00:05:16.400><c> and</c><00:05:16.639><c> how</c><00:05:16.800><c> it</c><00:05:17.039><c> ties</c><00:05:17.360><c> in</c><00:05:17.520><c> nicely</c><00:05:18.000><c> with</c><00:05:18.160><c> the</c>
+
+00:05:18.310 --> 00:05:18.320 align:start position:0%
+know and how it ties in nicely with the
+ 
+
+00:05:18.320 --> 00:05:19.909 align:start position:0%
+know and how it ties in nicely with the
+object<00:05:18.800><c> oriented</c><00:05:19.280><c> programming</c>
+
+00:05:19.909 --> 00:05:19.919 align:start position:0%
+object oriented programming
+ 
+
+00:05:19.919 --> 00:05:22.230 align:start position:0%
+object oriented programming
+advanced<00:05:20.320><c> php</c><00:05:20.880><c> section</c><00:05:21.280><c> will</c><00:05:21.440><c> cover</c><00:05:21.759><c> topics</c>
+
+00:05:22.230 --> 00:05:22.240 align:start position:0%
+advanced php section will cover topics
+ 
+
+00:05:22.240 --> 00:05:24.070 align:start position:0%
+advanced php section will cover topics
+about<00:05:22.560><c> testing</c><00:05:22.960><c> and</c><00:05:23.120><c> php</c><00:05:23.680><c> unit</c>
+
+00:05:24.070 --> 00:05:24.080 align:start position:0%
+about testing and php unit
+ 
+
+00:05:24.080 --> 00:05:26.390 align:start position:0%
+about testing and php unit
+introduction<00:05:24.720><c> to</c><00:05:24.960><c> mvc</c><00:05:25.680><c> and</c><00:05:25.919><c> routing</c>
+
+00:05:26.390 --> 00:05:26.400 align:start position:0%
+introduction to mvc and routing
+ 
+
+00:05:26.400 --> 00:05:28.390 align:start position:0%
+introduction to mvc and routing
+dependency<00:05:27.120><c> injection</c><00:05:27.680><c> container</c>
+
+00:05:28.390 --> 00:05:28.400 align:start position:0%
+dependency injection container
+ 
+
+00:05:28.400 --> 00:05:31.350 align:start position:0%
+dependency injection container
+caching<00:05:28.880><c> and</c><00:05:29.039><c> security</c><00:05:29.919><c> frameworks</c><00:05:30.560><c> and</c><00:05:30.639><c> php</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+caching and security frameworks and php
+ 
+
+00:05:31.360 --> 00:05:32.629 align:start position:0%
+caching and security frameworks and php
+8<00:05:31.600><c> best</c><00:05:31.919><c> practices</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+8 best practices
+ 
+
+00:05:32.639 --> 00:05:34.870 align:start position:0%
+8 best practices
+hosting<00:05:33.120><c> and</c><00:05:33.280><c> deployments</c><00:05:34.080><c> and</c><00:05:34.240><c> more</c><00:05:34.560><c> so</c><00:05:34.720><c> as</c>
+
+00:05:34.870 --> 00:05:34.880 align:start position:0%
+hosting and deployments and more so as
+ 
+
+00:05:34.880 --> 00:05:37.029 align:start position:0%
+hosting and deployments and more so as
+you<00:05:35.039><c> can</c><00:05:35.280><c> see</c><00:05:35.600><c> there</c><00:05:35.759><c> is</c><00:05:36.000><c> a</c><00:05:36.080><c> lot</c><00:05:36.240><c> of</c><00:05:36.400><c> content</c>
+
+00:05:37.029 --> 00:05:37.039 align:start position:0%
+you can see there is a lot of content
+ 
+
+00:05:37.039 --> 00:05:38.950 align:start position:0%
+you can see there is a lot of content
+and<00:05:37.199><c> i</c><00:05:37.280><c> have</c><00:05:37.520><c> not</c><00:05:37.759><c> mentioned</c><00:05:38.320><c> all</c><00:05:38.479><c> the</c><00:05:38.639><c> things</c>
+
+00:05:38.950 --> 00:05:38.960 align:start position:0%
+and i have not mentioned all the things
+ 
+
+00:05:38.960 --> 00:05:40.550 align:start position:0%
+and i have not mentioned all the things
+that<00:05:39.120><c> are</c><00:05:39.280><c> going</c><00:05:39.520><c> to</c><00:05:39.680><c> be</c><00:05:39.840><c> in</c><00:05:40.000><c> the</c><00:05:40.160><c> course</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+that are going to be in the course
+ 
+
+00:05:40.560 --> 00:05:42.310 align:start position:0%
+that are going to be in the course
+these<00:05:40.800><c> are</c><00:05:40.960><c> just</c><00:05:41.120><c> the</c><00:05:41.280><c> main</c><00:05:41.600><c> topics</c><00:05:42.000><c> that</c><00:05:42.160><c> will</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+these are just the main topics that will
+ 
+
+00:05:42.320 --> 00:05:44.150 align:start position:0%
+these are just the main topics that will
+be<00:05:42.479><c> there</c><00:05:42.720><c> and</c><00:05:42.960><c> basically</c><00:05:43.520><c> after</c><00:05:43.840><c> going</c>
+
+00:05:44.150 --> 00:05:44.160 align:start position:0%
+be there and basically after going
+ 
+
+00:05:44.160 --> 00:05:45.990 align:start position:0%
+be there and basically after going
+through<00:05:44.400><c> this</c><00:05:44.639><c> course</c><00:05:45.039><c> i'm</c><00:05:45.280><c> hoping</c><00:05:45.680><c> that</c><00:05:45.840><c> he</c>
+
+00:05:45.990 --> 00:05:46.000 align:start position:0%
+through this course i'm hoping that he
+ 
+
+00:05:46.000 --> 00:05:47.670 align:start position:0%
+through this course i'm hoping that he
+will<00:05:46.160><c> have</c><00:05:46.400><c> enough</c><00:05:46.800><c> knowledge</c><00:05:47.199><c> to</c><00:05:47.360><c> build</c>
+
+00:05:47.670 --> 00:05:47.680 align:start position:0%
+will have enough knowledge to build
+ 
+
+00:05:47.680 --> 00:05:49.830 align:start position:0%
+will have enough knowledge to build
+something<00:05:48.160><c> amazing</c><00:05:48.720><c> whether</c><00:05:49.039><c> it's</c><00:05:49.280><c> just</c><00:05:49.600><c> with</c>
+
+00:05:49.830 --> 00:05:49.840 align:start position:0%
+something amazing whether it's just with
+ 
+
+00:05:49.840 --> 00:05:51.990 align:start position:0%
+something amazing whether it's just with
+vanilla<00:05:50.320><c> php</c><00:05:50.880><c> or</c><00:05:51.120><c> with</c><00:05:51.280><c> a</c><00:05:51.440><c> framework</c>
+
+00:05:51.990 --> 00:05:52.000 align:start position:0%
+vanilla php or with a framework
+ 
+
+00:05:52.000 --> 00:05:53.749 align:start position:0%
+vanilla php or with a framework
+it<00:05:52.160><c> does</c><00:05:52.400><c> not</c><00:05:52.639><c> matter</c><00:05:53.039><c> the</c><00:05:53.199><c> goal</c><00:05:53.440><c> of</c><00:05:53.600><c> this</c>
+
+00:05:53.749 --> 00:05:53.759 align:start position:0%
+it does not matter the goal of this
+ 
+
+00:05:53.759 --> 00:05:55.110 align:start position:0%
+it does not matter the goal of this
+course<00:05:54.080><c> is</c><00:05:54.240><c> for</c><00:05:54.479><c> you</c><00:05:54.639><c> to</c><00:05:54.800><c> know</c>
+
+00:05:55.110 --> 00:05:55.120 align:start position:0%
+course is for you to know
+ 
+
+00:05:55.120 --> 00:05:57.270 align:start position:0%
+course is for you to know
+things<00:05:55.440><c> in</c><00:05:55.600><c> php</c><00:05:56.240><c> beyond</c><00:05:56.639><c> the</c><00:05:56.720><c> beginner's</c>
+
+00:05:57.270 --> 00:05:57.280 align:start position:0%
+things in php beyond the beginner's
+ 
+
+00:05:57.280 --> 00:05:59.749 align:start position:0%
+things in php beyond the beginner's
+level<00:05:57.600><c> and</c><00:05:57.759><c> beyond</c><00:05:58.080><c> the</c><00:05:58.240><c> procedural</c><00:05:58.880><c> php</c><00:05:59.600><c> so</c>
+
+00:05:59.749 --> 00:05:59.759 align:start position:0%
+level and beyond the procedural php so
+ 
+
+00:05:59.759 --> 00:06:01.590 align:start position:0%
+level and beyond the procedural php so
+as<00:05:59.919><c> far</c><00:06:00.080><c> as</c><00:06:00.240><c> the</c><00:06:00.400><c> requirements</c><00:06:01.120><c> goes</c>
+
+00:06:01.590 --> 00:06:01.600 align:start position:0%
+as far as the requirements goes
+ 
+
+00:06:01.600 --> 00:06:04.070 align:start position:0%
+as far as the requirements goes
+you<00:06:01.759><c> just</c><00:06:02.000><c> need</c><00:06:02.160><c> to</c><00:06:02.319><c> know</c><00:06:02.639><c> basic</c><00:06:03.039><c> html</c><00:06:03.680><c> to</c><00:06:03.840><c> get</c>
+
+00:06:04.070 --> 00:06:04.080 align:start position:0%
+you just need to know basic html to get
+ 
+
+00:06:04.080 --> 00:06:05.189 align:start position:0%
+you just need to know basic html to get
+started<00:06:04.400><c> with</c><00:06:04.560><c> this</c><00:06:04.800><c> course</c>
+
+00:06:05.189 --> 00:06:05.199 align:start position:0%
+started with this course
+ 
+
+00:06:05.199 --> 00:06:07.909 align:start position:0%
+started with this course
+no<00:06:05.440><c> javascript</c><00:06:06.080><c> or</c><00:06:06.240><c> css</c><00:06:06.800><c> is</c><00:06:06.960><c> necessary</c><00:06:07.680><c> though</c>
+
+00:06:07.909 --> 00:06:07.919 align:start position:0%
+no javascript or css is necessary though
+ 
+
+00:06:07.919 --> 00:06:10.469 align:start position:0%
+no javascript or css is necessary though
+i<00:06:08.160><c> might</c><00:06:08.479><c> use</c><00:06:08.720><c> some</c><00:06:08.960><c> basic</c><00:06:09.360><c> css</c><00:06:09.919><c> to</c><00:06:10.080><c> style</c>
+
+00:06:10.469 --> 00:06:10.479 align:start position:0%
+i might use some basic css to style
+ 
+
+00:06:10.479 --> 00:06:12.150 align:start position:0%
+i might use some basic css to style
+things<00:06:10.800><c> here</c><00:06:11.039><c> and</c><00:06:11.199><c> there</c><00:06:11.520><c> but</c><00:06:11.759><c> it's</c><00:06:11.919><c> not</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+things here and there but it's not
+ 
+
+00:06:12.160 --> 00:06:13.909 align:start position:0%
+things here and there but it's not
+necessary<00:06:12.800><c> if</c><00:06:12.960><c> you</c><00:06:13.039><c> have</c><00:06:13.280><c> any</c><00:06:13.520><c> previous</c>
+
+00:06:13.909 --> 00:06:13.919 align:start position:0%
+necessary if you have any previous
+ 
+
+00:06:13.919 --> 00:06:15.590 align:start position:0%
+necessary if you have any previous
+programming<00:06:14.479><c> experience</c><00:06:15.120><c> or</c><00:06:15.280><c> know</c>
+
+00:06:15.590 --> 00:06:15.600 align:start position:0%
+programming experience or know
+ 
+
+00:06:15.600 --> 00:06:17.430 align:start position:0%
+programming experience or know
+another<00:06:16.000><c> language</c><00:06:16.400><c> like</c><00:06:16.639><c> javascript</c><00:06:17.199><c> for</c>
+
+00:06:17.430 --> 00:06:17.440 align:start position:0%
+another language like javascript for
+ 
+
+00:06:17.440 --> 00:06:19.350 align:start position:0%
+another language like javascript for
+example<00:06:17.919><c> then</c><00:06:18.080><c> this</c><00:06:18.400><c> course</c><00:06:18.720><c> will</c><00:06:18.880><c> be</c><00:06:19.039><c> a</c><00:06:19.120><c> bit</c>
+
+00:06:19.350 --> 00:06:19.360 align:start position:0%
+example then this course will be a bit
+ 
+
+00:06:19.360 --> 00:06:21.510 align:start position:0%
+example then this course will be a bit
+easier<00:06:19.919><c> if</c><00:06:20.080><c> you</c><00:06:20.240><c> are</c><00:06:20.400><c> new</c><00:06:20.639><c> to</c><00:06:20.800><c> programming</c><00:06:21.360><c> and</c>
+
+00:06:21.510 --> 00:06:21.520 align:start position:0%
+easier if you are new to programming and
+ 
+
+00:06:21.520 --> 00:06:23.189 align:start position:0%
+easier if you are new to programming and
+php<00:06:22.080><c> is</c><00:06:22.160><c> the</c><00:06:22.319><c> first</c><00:06:22.560><c> language</c><00:06:22.960><c> you're</c>
+
+00:06:23.189 --> 00:06:23.199 align:start position:0%
+php is the first language you're
+ 
+
+00:06:23.199 --> 00:06:24.870 align:start position:0%
+php is the first language you're
+starting<00:06:23.520><c> with</c><00:06:23.759><c> then</c><00:06:24.000><c> it</c><00:06:24.160><c> might</c><00:06:24.400><c> be</c><00:06:24.560><c> a</c><00:06:24.639><c> bit</c>
+
+00:06:24.870 --> 00:06:24.880 align:start position:0%
+starting with then it might be a bit
+ 
+
+00:06:24.880 --> 00:06:26.870 align:start position:0%
+starting with then it might be a bit
+harder<00:06:25.360><c> but</c><00:06:25.520><c> don't</c><00:06:25.759><c> worry</c><00:06:26.080><c> about</c><00:06:26.400><c> it</c><00:06:26.560><c> section</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+harder but don't worry about it section
+ 
+
+00:06:26.880 --> 00:06:28.790 align:start position:0%
+harder but don't worry about it section
+1<00:06:27.120><c> of</c><00:06:27.199><c> this</c><00:06:27.440><c> course</c><00:06:27.759><c> is</c><00:06:27.840><c> for</c><00:06:28.000><c> beginners</c><00:06:28.560><c> and</c><00:06:28.720><c> it</c>
+
+00:06:28.790 --> 00:06:28.800 align:start position:0%
+1 of this course is for beginners and it
+ 
+
+00:06:28.800 --> 00:06:30.390 align:start position:0%
+1 of this course is for beginners and it
+should<00:06:29.039><c> prepare</c><00:06:29.440><c> you</c><00:06:29.759><c> for</c><00:06:29.919><c> the</c><00:06:30.080><c> other</c>
+
+00:06:30.390 --> 00:06:30.400 align:start position:0%
+should prepare you for the other
+ 
+
+00:06:30.400 --> 00:06:32.230 align:start position:0%
+should prepare you for the other
+sections<00:06:30.880><c> this</c><00:06:31.120><c> is</c><00:06:31.280><c> it</c><00:06:31.440><c> for</c><00:06:31.600><c> this</c><00:06:31.759><c> video</c><00:06:32.160><c> and</c>
+
+00:06:32.230 --> 00:06:32.240 align:start position:0%
+sections this is it for this video and
+ 
+
+00:06:32.240 --> 00:06:34.070 align:start position:0%
+sections this is it for this video and
+the<00:06:32.400><c> introduction</c><00:06:33.039><c> of</c><00:06:33.120><c> the</c><00:06:33.280><c> course</c><00:06:33.680><c> thank</c><00:06:33.919><c> you</c>
+
+00:06:34.070 --> 00:06:34.080 align:start position:0%
+the introduction of the course thank you
+ 
+
+00:06:34.080 --> 00:06:36.230 align:start position:0%
+the introduction of the course thank you
+so<00:06:34.240><c> much</c><00:06:34.479><c> for</c><00:06:34.720><c> watching</c><00:06:35.199><c> i'm</c><00:06:35.440><c> really</c><00:06:35.680><c> excited</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+so much for watching i'm really excited
+ 
+
+00:06:36.240 --> 00:06:37.510 align:start position:0%
+so much for watching i'm really excited
+to<00:06:36.319><c> be</c><00:06:36.479><c> working</c><00:06:36.880><c> on</c><00:06:36.960><c> this</c><00:06:37.120><c> course</c>
+
+00:06:37.510 --> 00:06:37.520 align:start position:0%
+to be working on this course
+ 
+
+00:06:37.520 --> 00:06:39.189 align:start position:0%
+to be working on this course
+if<00:06:37.600><c> you</c><00:06:37.759><c> have</c><00:06:37.919><c> any</c><00:06:38.160><c> feedback</c><00:06:38.639><c> comments</c><00:06:39.039><c> or</c>
+
+00:06:39.189 --> 00:06:39.199 align:start position:0%
+if you have any feedback comments or
+ 
+
+00:06:39.199 --> 00:06:41.189 align:start position:0%
+if you have any feedback comments or
+concerns<00:06:39.759><c> please</c><00:06:40.000><c> don't</c><00:06:40.240><c> hesitate</c><00:06:40.800><c> and</c><00:06:40.880><c> post</c>
+
+00:06:41.189 --> 00:06:41.199 align:start position:0%
+concerns please don't hesitate and post
+ 
+
+00:06:41.199 --> 00:06:43.189 align:start position:0%
+concerns please don't hesitate and post
+it<00:06:41.360><c> down</c><00:06:41.600><c> below</c><00:06:42.000><c> or</c><00:06:42.240><c> send</c><00:06:42.400><c> me</c><00:06:42.560><c> a</c><00:06:42.639><c> message</c><00:06:43.039><c> on</c>
+
+00:06:43.189 --> 00:06:43.199 align:start position:0%
+it down below or send me a message on
+ 
+
+00:06:43.199 --> 00:06:43.670 align:start position:0%
+it down below or send me a message on
+twitter
+
+00:06:43.670 --> 00:06:43.680 align:start position:0%
+twitter
+ 
+
+00:06:43.680 --> 00:06:45.350 align:start position:0%
+twitter
+if<00:06:43.759><c> you're</c><00:06:44.000><c> looking</c><00:06:44.319><c> forward</c><00:06:44.720><c> to</c><00:06:44.880><c> this</c><00:06:45.039><c> course</c>
+
+00:06:45.350 --> 00:06:45.360 align:start position:0%
+if you're looking forward to this course
+ 
+
+00:06:45.360 --> 00:06:47.350 align:start position:0%
+if you're looking forward to this course
+please<00:06:45.600><c> give</c><00:06:45.840><c> this</c><00:06:46.000><c> video</c><00:06:46.319><c> a</c><00:06:46.479><c> thumbs</c><00:06:46.800><c> up</c><00:06:47.039><c> share</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+please give this video a thumbs up share
+ 
+
+00:06:47.360 --> 00:06:48.150 align:start position:0%
+please give this video a thumbs up share
+and<00:06:47.520><c> subscribe</c>
+
+00:06:48.150 --> 00:06:48.160 align:start position:0%
+and subscribe
+ 
+
+00:06:48.160 --> 00:07:01.599 align:start position:0%
+and subscribe
+and<00:06:48.319><c> i</c><00:06:48.400><c> will</c><00:06:48.639><c> see</c><00:06:48.800><c> you</c><00:06:48.960><c> on</c><00:06:49.039><c> the</c><00:06:49.120><c> next</c><00:06:58.599><c> video</c>
+

@@ -1,0 +1,2376 @@
+WEBVTT
+
+
+
+00:00:00.000 --> 00:00:06.550 align:start position:0%
+ 
+[Music]
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+[Music]
+ 
+
+00:00:06.560 --> 00:00:09.049 align:start position:0%
+[Music]
+Cyprus<00:00:07.560><c> is</c><00:00:07.680><c> an</c><00:00:07.859><c> end</c><00:00:08.040><c> end</c><00:00:08.250><c> testing</c><00:00:08.670><c> library</c>
+
+00:00:09.049 --> 00:00:09.059 align:start position:0%
+Cyprus is an end end testing library
+ 
+
+00:00:09.059 --> 00:00:10.400 align:start position:0%
+Cyprus is an end end testing library
+that<00:00:09.300><c> will</c><00:00:09.510><c> change</c><00:00:09.870><c> your</c><00:00:10.019><c> life</c><00:00:10.170><c> as</c><00:00:10.380><c> a</c>
+
+00:00:10.400 --> 00:00:10.410 align:start position:0%
+that will change your life as a
+ 
+
+00:00:10.410 --> 00:00:11.930 align:start position:0%
+that will change your life as a
+developer<00:00:10.950><c> I</c><00:00:11.099><c> say</c><00:00:11.400><c> that</c><00:00:11.550><c> because</c><00:00:11.790><c> it</c><00:00:11.880><c> allows</c>
+
+00:00:11.930 --> 00:00:11.940 align:start position:0%
+developer I say that because it allows
+ 
+
+00:00:11.940 --> 00:00:14.030 align:start position:0%
+developer I say that because it allows
+you<00:00:12.269><c> to</c><00:00:12.450><c> speed</c><00:00:12.750><c> up</c><00:00:12.780><c> the</c><00:00:12.990><c> testing</c><00:00:13.410><c> process</c><00:00:13.620><c> of</c>
+
+00:00:14.030 --> 00:00:14.040 align:start position:0%
+you to speed up the testing process of
+ 
+
+00:00:14.040 --> 00:00:15.890 align:start position:0%
+you to speed up the testing process of
+the<00:00:14.190><c> user</c><00:00:14.370><c> experience</c><00:00:15.030><c> and</c><00:00:15.269><c> it</c><00:00:15.540><c> will</c><00:00:15.630><c> help</c><00:00:15.809><c> you</c>
+
+00:00:15.890 --> 00:00:15.900 align:start position:0%
+the user experience and it will help you
+ 
+
+00:00:15.900 --> 00:00:17.300 align:start position:0%
+the user experience and it will help you
+catch<00:00:16.080><c> bugs</c><00:00:16.379><c> that</c><00:00:16.650><c> you</c><00:00:16.710><c> didn't</c><00:00:17.100><c> even</c><00:00:17.190><c> know</c>
+
+00:00:17.300 --> 00:00:17.310 align:start position:0%
+catch bugs that you didn't even know
+ 
+
+00:00:17.310 --> 00:00:19.429 align:start position:0%
+catch bugs that you didn't even know
+existed<00:00:17.490><c> it's</c><00:00:18.240><c> super</c><00:00:18.570><c> easy</c><00:00:18.600><c> to</c><00:00:18.810><c> set</c><00:00:19.050><c> up</c><00:00:19.080><c> and</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+existed it's super easy to set up and
+ 
+
+00:00:19.439 --> 00:00:21.140 align:start position:0%
+existed it's super easy to set up and
+the<00:00:19.650><c> learning</c><00:00:19.920><c> curve</c><00:00:20.100><c> is</c><00:00:20.250><c> very</c><00:00:20.430><c> minimal</c><00:00:20.609><c> so</c><00:00:21.060><c> if</c>
+
+00:00:21.140 --> 00:00:21.150 align:start position:0%
+the learning curve is very minimal so if
+ 
+
+00:00:21.150 --> 00:00:22.519 align:start position:0%
+the learning curve is very minimal so if
+you<00:00:21.240><c> have</c><00:00:21.330><c> an</c><00:00:21.420><c> existing</c><00:00:21.810><c> app</c><00:00:21.930><c> I</c><00:00:22.109><c> recommend</c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+you have an existing app I recommend
+ 
+
+00:00:22.529 --> 00:00:23.720 align:start position:0%
+you have an existing app I recommend
+that<00:00:22.619><c> you</c><00:00:22.769><c> follow</c><00:00:22.949><c> along</c><00:00:23.189><c> with</c><00:00:23.310><c> this</c><00:00:23.460><c> episode</c>
+
+00:00:23.720 --> 00:00:23.730 align:start position:0%
+that you follow along with this episode
+ 
+
+00:00:23.730 --> 00:00:25.700 align:start position:0%
+that you follow along with this episode
+in<00:00:24.090><c> your</c><00:00:24.300><c> own</c><00:00:24.420><c> project</c><00:00:24.930><c> to</c><00:00:25.109><c> see</c><00:00:25.350><c> what</c><00:00:25.380><c> I</c><00:00:25.529><c> mean</c>
+
+00:00:25.700 --> 00:00:25.710 align:start position:0%
+in your own project to see what I mean
+ 
+
+00:00:25.710 --> 00:00:27.650 align:start position:0%
+in your own project to see what I mean
+first<00:00:25.980><c> hand</c><00:00:26.340><c> if</c><00:00:26.849><c> you're</c><00:00:27.090><c> new</c><00:00:27.180><c> to</c><00:00:27.269><c> the</c><00:00:27.359><c> channel</c>
+
+00:00:27.650 --> 00:00:27.660 align:start position:0%
+first hand if you're new to the channel
+ 
+
+00:00:27.660 --> 00:00:29.300 align:start position:0%
+first hand if you're new to the channel
+make<00:00:27.689><c> sure</c><00:00:27.840><c> to</c><00:00:28.050><c> LIKE</c><00:00:28.199><c> and</c><00:00:28.230><c> subscribe</c><00:00:28.470><c> and</c><00:00:29.099><c> you</c>
+
+00:00:29.300 --> 00:00:29.310 align:start position:0%
+make sure to LIKE and subscribe and you
+ 
+
+00:00:29.310 --> 00:00:30.740 align:start position:0%
+make sure to LIKE and subscribe and you
+can<00:00:29.340><c> find</c><00:00:29.609><c> the</c><00:00:29.699><c> source</c><00:00:29.910><c> code</c><00:00:30.150><c> at</c><00:00:30.390><c> angular</c>
+
+00:00:30.740 --> 00:00:30.750 align:start position:0%
+can find the source code at angular
+ 
+
+00:00:30.750 --> 00:00:33.020 align:start position:0%
+can find the source code at angular
+firebase<00:00:31.230><c> com</c><00:00:31.740><c> in</c><00:00:32.489><c> case</c><00:00:32.759><c> you're</c><00:00:32.880><c> not</c><00:00:32.940><c> familiar</c>
+
+00:00:33.020 --> 00:00:33.030 align:start position:0%
+firebase com in case you're not familiar
+ 
+
+00:00:33.030 --> 00:00:35.870 align:start position:0%
+firebase com in case you're not familiar
+and<00:00:33.660><c> testing</c><00:00:34.350><c> is</c><00:00:34.530><c> the</c><00:00:34.710><c> process</c><00:00:35.130><c> of</c><00:00:35.340><c> loading</c><00:00:35.610><c> up</c>
+
+00:00:35.870 --> 00:00:35.880 align:start position:0%
+and testing is the process of loading up
+ 
+
+00:00:35.880 --> 00:00:37.729 align:start position:0%
+and testing is the process of loading up
+your<00:00:36.030><c> web</c><00:00:36.210><c> application</c><00:00:36.809><c> in</c><00:00:36.960><c> the</c><00:00:37.079><c> browser</c><00:00:37.110><c> and</c>
+
+00:00:37.729 --> 00:00:37.739 align:start position:0%
+your web application in the browser and
+ 
+
+00:00:37.739 --> 00:00:40.100 align:start position:0%
+your web application in the browser and
+testing<00:00:38.430><c> things</c><00:00:38.610><c> as</c><00:00:38.910><c> if</c><00:00:39.120><c> it</c><00:00:39.270><c> was</c><00:00:39.420><c> a</c><00:00:39.450><c> real</c><00:00:39.809><c> user</c>
+
+00:00:40.100 --> 00:00:40.110 align:start position:0%
+testing things as if it was a real user
+ 
+
+00:00:40.110 --> 00:00:41.540 align:start position:0%
+testing things as if it was a real user
+performing<00:00:40.770><c> these</c><00:00:40.860><c> actions</c><00:00:41.100><c> such</c><00:00:41.520><c> as</c>
+
+00:00:41.540 --> 00:00:41.550 align:start position:0%
+performing these actions such as
+ 
+
+00:00:41.550 --> 00:00:43.549 align:start position:0%
+performing these actions such as
+clicking<00:00:42.090><c> buttons</c><00:00:42.420><c> filling</c><00:00:42.840><c> out</c><00:00:42.960><c> forms</c><00:00:43.350><c> and</c>
+
+00:00:43.549 --> 00:00:43.559 align:start position:0%
+clicking buttons filling out forms and
+ 
+
+00:00:43.559 --> 00:00:44.330 align:start position:0%
+clicking buttons filling out forms and
+things<00:00:43.710><c> like</c><00:00:43.890><c> that</c>
+
+00:00:44.330 --> 00:00:44.340 align:start position:0%
+things like that
+ 
+
+00:00:44.340 --> 00:00:45.979 align:start position:0%
+things like that
+so<00:00:44.789><c> if</c><00:00:44.910><c> you're</c><00:00:45.059><c> an</c><00:00:45.149><c> angular</c><00:00:45.450><c> developer</c><00:00:45.570><c> you</c>
+
+00:00:45.979 --> 00:00:45.989 align:start position:0%
+so if you're an angular developer you
+ 
+
+00:00:45.989 --> 00:00:47.420 align:start position:0%
+so if you're an angular developer you
+might<00:00:46.110><c> already</c><00:00:46.320><c> know</c><00:00:46.530><c> that</c><00:00:46.559><c> angular</c><00:00:47.100><c> ships</c>
+
+00:00:47.420 --> 00:00:47.430 align:start position:0%
+might already know that angular ships
+ 
+
+00:00:47.430 --> 00:00:49.190 align:start position:0%
+might already know that angular ships
+with<00:00:47.550><c> its</c><00:00:47.700><c> own</c><00:00:47.910><c> and</c><00:00:48.180><c> and</c><00:00:48.390><c> testing</c><00:00:48.780><c> library</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+with its own and and testing library
+ 
+
+00:00:49.200 --> 00:00:51.110 align:start position:0%
+with its own and and testing library
+called<00:00:49.469><c> protractor</c><00:00:50.190><c> so</c><00:00:50.550><c> why</c><00:00:50.820><c> do</c><00:00:50.879><c> we</c><00:00:51.000><c> need</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+called protractor so why do we need
+ 
+
+00:00:51.120 --> 00:00:53.389 align:start position:0%
+called protractor so why do we need
+Cypress<00:00:51.629><c> the</c><00:00:52.170><c> short</c><00:00:52.440><c> answer</c><00:00:52.710><c> is</c><00:00:52.739><c> that</c><00:00:53.010><c> Cypress</c>
+
+00:00:53.389 --> 00:00:53.399 align:start position:0%
+Cypress the short answer is that Cypress
+ 
+
+00:00:53.399 --> 00:00:54.680 align:start position:0%
+Cypress the short answer is that Cypress
+just<00:00:53.610><c> provides</c><00:00:53.910><c> a</c><00:00:54.059><c> better</c><00:00:54.270><c> developer</c>
+
+00:00:54.680 --> 00:00:54.690 align:start position:0%
+just provides a better developer
+ 
+
+00:00:54.690 --> 00:00:57.049 align:start position:0%
+just provides a better developer
+experience<00:00:55.230><c> but</c><00:00:55.829><c> the</c><00:00:55.949><c> longer</c><00:00:56.250><c> answer</c><00:00:56.579><c> is</c><00:00:56.610><c> that</c>
+
+00:00:57.049 --> 00:00:57.059 align:start position:0%
+experience but the longer answer is that
+ 
+
+00:00:57.059 --> 00:00:58.639 align:start position:0%
+experience but the longer answer is that
+protractor<00:00:57.719><c> was</c><00:00:57.840><c> originally</c><00:00:58.260><c> developed</c><00:00:58.440><c> for</c>
+
+00:00:58.639 --> 00:00:58.649 align:start position:0%
+protractor was originally developed for
+ 
+
+00:00:58.649 --> 00:01:01.010 align:start position:0%
+protractor was originally developed for
+angularjs<00:00:59.550><c> and</c><00:01:00.059><c> it</c><00:01:00.239><c> just</c><00:01:00.390><c> hasn't</c><00:01:00.539><c> evolved</c><00:01:00.960><c> the</c>
+
+00:01:01.010 --> 00:01:01.020 align:start position:0%
+angularjs and it just hasn't evolved the
+ 
+
+00:01:01.020 --> 00:01:03.170 align:start position:0%
+angularjs and it just hasn't evolved the
+way<00:01:01.050><c> Cypress</c><00:01:01.559><c> has</c><00:01:01.739><c> first</c><00:01:02.460><c> of</c><00:01:02.579><c> all</c><00:01:02.699><c> Cypress</c>
+
+00:01:03.170 --> 00:01:03.180 align:start position:0%
+way Cypress has first of all Cypress
+ 
+
+00:01:03.180 --> 00:01:05.210 align:start position:0%
+way Cypress has first of all Cypress
+provides<00:01:03.480><c> a</c><00:01:03.629><c> really</c><00:01:03.870><c> nice</c><00:01:04.019><c> DSL</c><00:01:04.619><c> for</c><00:01:04.949><c> writing</c>
+
+00:01:05.210 --> 00:01:05.220 align:start position:0%
+provides a really nice DSL for writing
+ 
+
+00:01:05.220 --> 00:01:07.340 align:start position:0%
+provides a really nice DSL for writing
+expressive<00:01:05.820><c> and</c><00:01:06.030><c> and</c><00:01:06.270><c> tests</c><00:01:06.630><c> which</c><00:01:06.930><c> we'll</c><00:01:07.170><c> see</c>
+
+00:01:07.340 --> 00:01:07.350 align:start position:0%
+expressive and and tests which we'll see
+ 
+
+00:01:07.350 --> 00:01:09.080 align:start position:0%
+expressive and and tests which we'll see
+in<00:01:07.380><c> the</c><00:01:07.560><c> code</c><00:01:07.710><c> here</c><00:01:07.979><c> coming</c><00:01:08.280><c> up</c><00:01:08.369><c> then</c><00:01:09.000><c> it</c>
+
+00:01:09.080 --> 00:01:09.090 align:start position:0%
+in the code here coming up then it
+ 
+
+00:01:09.090 --> 00:01:10.520 align:start position:0%
+in the code here coming up then it
+provides<00:01:09.240><c> this</c><00:01:09.540><c> really</c><00:01:09.840><c> nice</c><00:01:09.960><c> test</c><00:01:10.290><c> Runner</c>
+
+00:01:10.520 --> 00:01:10.530 align:start position:0%
+provides this really nice test Runner
+ 
+
+00:01:10.530 --> 00:01:12.350 align:start position:0%
+provides this really nice test Runner
+which<00:01:10.740><c> is</c><00:01:10.890><c> an</c><00:01:10.979><c> electron</c><00:01:11.460><c> app</c><00:01:11.640><c> that</c><00:01:11.939><c> will</c><00:01:12.119><c> run</c>
+
+00:01:12.350 --> 00:01:12.360 align:start position:0%
+which is an electron app that will run
+ 
+
+00:01:12.360 --> 00:01:13.310 align:start position:0%
+which is an electron app that will run
+your<00:01:12.450><c> app</c><00:01:12.600><c> in</c><00:01:12.750><c> the</c><00:01:12.810><c> browser</c>
+
+00:01:13.310 --> 00:01:13.320 align:start position:0%
+your app in the browser
+ 
+
+00:01:13.320 --> 00:01:15.289 align:start position:0%
+your app in the browser
+and<00:01:13.530><c> then</c><00:01:13.860><c> give</c><00:01:14.010><c> you</c><00:01:14.130><c> time</c><00:01:14.430><c> travel</c><00:01:14.610><c> debugging</c>
+
+00:01:15.289 --> 00:01:15.299 align:start position:0%
+and then give you time travel debugging
+ 
+
+00:01:15.299 --> 00:01:17.719 align:start position:0%
+and then give you time travel debugging
+capabilities<00:01:15.420><c> for</c><00:01:16.229><c> each</c><00:01:16.500><c> spec</c><00:01:16.860><c> so</c><00:01:17.310><c> for</c><00:01:17.520><c> every</c>
+
+00:01:17.719 --> 00:01:17.729 align:start position:0%
+capabilities for each spec so for every
+ 
+
+00:01:17.729 --> 00:01:19.160 align:start position:0%
+capabilities for each spec so for every
+action<00:01:18.060><c> that</c><00:01:18.150><c> takes</c><00:01:18.240><c> place</c><00:01:18.390><c> in</c><00:01:18.659><c> the</c><00:01:18.750><c> app</c><00:01:18.869><c> it</c>
+
+00:01:19.160 --> 00:01:19.170 align:start position:0%
+action that takes place in the app it
+ 
+
+00:01:19.170 --> 00:01:20.990 align:start position:0%
+action that takes place in the app it
+will<00:01:19.290><c> save</c><00:01:19.470><c> a</c><00:01:19.590><c> snapshot</c><00:01:19.650><c> of</c><00:01:20.340><c> the</c><00:01:20.520><c> state</c><00:01:20.759><c> as</c>
+
+00:01:20.990 --> 00:01:21.000 align:start position:0%
+will save a snapshot of the state as
+ 
+
+00:01:21.000 --> 00:01:22.910 align:start position:0%
+will save a snapshot of the state as
+well<00:01:21.270><c> as</c><00:01:21.390><c> an</c><00:01:21.509><c> image</c><00:01:21.810><c> of</c><00:01:21.960><c> the</c><00:01:22.049><c> UI</c><00:01:22.259><c> so</c><00:01:22.740><c> you</c><00:01:22.799><c> know</c>
+
+00:01:22.910 --> 00:01:22.920 align:start position:0%
+well as an image of the UI so you know
+ 
+
+00:01:22.920 --> 00:01:24.620 align:start position:0%
+well as an image of the UI so you know
+how<00:01:23.009><c> things</c><00:01:23.250><c> change</c><00:01:23.580><c> before</c><00:01:23.970><c> and</c><00:01:24.119><c> after</c><00:01:24.420><c> some</c>
+
+00:01:24.620 --> 00:01:24.630 align:start position:0%
+how things change before and after some
+ 
+
+00:01:24.630 --> 00:01:26.330 align:start position:0%
+how things change before and after some
+action<00:01:25.140><c> took</c><00:01:25.290><c> place</c><00:01:25.500><c> and</c><00:01:26.009><c> in</c><00:01:26.159><c> my</c><00:01:26.250><c> experience</c>
+
+00:01:26.330 --> 00:01:26.340 align:start position:0%
+action took place and in my experience
+ 
+
+00:01:26.340 --> 00:01:28.460 align:start position:0%
+action took place and in my experience
+writing<00:01:26.970><c> a</c><00:01:27.150><c> really</c><00:01:27.420><c> good</c><00:01:27.540><c> test</c><00:01:27.750><c> suite</c><00:01:28.020><c> is</c><00:01:28.200><c> much</c>
+
+00:01:28.460 --> 00:01:28.470 align:start position:0%
+writing a really good test suite is much
+ 
+
+00:01:28.470 --> 00:01:30.109 align:start position:0%
+writing a really good test suite is much
+more<00:01:28.650><c> effective</c><00:01:29.009><c> at</c><00:01:29.100><c> preventing</c><00:01:29.340><c> bugs</c><00:01:29.729><c> than</c>
+
+00:01:30.109 --> 00:01:30.119 align:start position:0%
+more effective at preventing bugs than
+ 
+
+00:01:30.119 --> 00:01:31.700 align:start position:0%
+more effective at preventing bugs than
+using<00:01:30.420><c> a</c><00:01:30.509><c> state</c><00:01:30.750><c> management</c><00:01:31.110><c> library</c><00:01:31.530><c> like</c>
+
+00:01:31.700 --> 00:01:31.710 align:start position:0%
+using a state management library like
+ 
+
+00:01:31.710 --> 00:01:33.740 align:start position:0%
+using a state management library like
+redux<00:01:32.100><c> or</c><00:01:32.369><c> something</c><00:01:32.850><c> along</c><00:01:33.030><c> those</c><00:01:33.090><c> lines</c><00:01:33.479><c> for</c>
+
+00:01:33.740 --> 00:01:33.750 align:start position:0%
+redux or something along those lines for
+ 
+
+00:01:33.750 --> 00:01:35.450 align:start position:0%
+redux or something along those lines for
+this<00:01:34.259><c> project</c><00:01:34.470><c> I'm</c><00:01:34.770><c> going</c><00:01:34.920><c> to</c><00:01:34.979><c> be</c><00:01:35.130><c> starting</c>
+
+00:01:35.450 --> 00:01:35.460 align:start position:0%
+this project I'm going to be starting
+ 
+
+00:01:35.460 --> 00:01:37.039 align:start position:0%
+this project I'm going to be starting
+from<00:01:35.610><c> the</c><00:01:35.790><c> firestarter</c><00:01:36.210><c> demo</c><00:01:36.600><c> app</c><00:01:36.750><c> which</c>
+
+00:01:37.039 --> 00:01:37.049 align:start position:0%
+from the firestarter demo app which
+ 
+
+00:01:37.049 --> 00:01:39.080 align:start position:0%
+from the firestarter demo app which
+already<00:01:37.229><c> has</c><00:01:37.470><c> user</c><00:01:37.740><c> authentication</c><00:01:38.340><c> and</c><00:01:38.820><c> a</c>
+
+00:01:39.080 --> 00:01:39.090 align:start position:0%
+already has user authentication and a
+ 
+
+00:01:39.090 --> 00:01:40.969 align:start position:0%
+already has user authentication and a
+buyer<00:01:39.270><c> store</c><00:01:39.630><c> database</c><00:01:39.869><c> feature</c><00:01:40.350><c> implemented</c>
+
+00:01:40.969 --> 00:01:40.979 align:start position:0%
+buyer store database feature implemented
+ 
+
+00:01:40.979 --> 00:01:42.740 align:start position:0%
+buyer store database feature implemented
+in<00:01:41.100><c> it</c><00:01:41.250><c> over</c><00:01:41.880><c> the</c><00:01:41.939><c> next</c><00:01:42.150><c> few</c><00:01:42.299><c> minutes</c><00:01:42.420><c> we'll</c>
+
+00:01:42.740 --> 00:01:42.750 align:start position:0%
+in it over the next few minutes we'll
+ 
+
+00:01:42.750 --> 00:01:45.050 align:start position:0%
+in it over the next few minutes we'll
+test<00:01:43.020><c> that</c><00:01:43.229><c> the</c><00:01:43.350><c> user</c><00:01:43.560><c> can</c><00:01:43.829><c> sign</c><00:01:44.130><c> up</c><00:01:44.159><c> log</c><00:01:44.820><c> out</c>
+
+00:01:45.050 --> 00:01:45.060 align:start position:0%
+test that the user can sign up log out
+ 
+
+00:01:45.060 --> 00:01:47.120 align:start position:0%
+test that the user can sign up log out
+log<00:01:45.540><c> back</c><00:01:45.810><c> in</c><00:01:46.049><c> create</c><00:01:46.560><c> some</c><00:01:46.710><c> items</c><00:01:46.979><c> in</c><00:01:47.070><c> the</c>
+
+00:01:47.120 --> 00:01:47.130 align:start position:0%
+log back in create some items in the
+ 
+
+00:01:47.130 --> 00:01:49.039 align:start position:0%
+log back in create some items in the
+database<00:01:47.250><c> and</c><00:01:47.939><c> do</c><00:01:48.270><c> a</c><00:01:48.299><c> few</c><00:01:48.509><c> other</c><00:01:48.659><c> things</c><00:01:48.869><c> in</c>
+
+00:01:49.039 --> 00:01:49.049 align:start position:0%
+database and do a few other things in
+ 
+
+00:01:49.049 --> 00:01:51.020 align:start position:0%
+database and do a few other things in
+between<00:01:49.110><c> the</c><00:01:50.070><c> first</c><00:01:50.340><c> thing</c><00:01:50.460><c> we</c><00:01:50.549><c> need</c><00:01:50.700><c> to</c><00:01:50.729><c> do</c><00:01:50.909><c> is</c>
+
+00:01:51.020 --> 00:01:51.030 align:start position:0%
+between the first thing we need to do is
+ 
+
+00:01:51.030 --> 00:01:53.569 align:start position:0%
+between the first thing we need to do is
+install<00:01:51.360><c> it</c><00:01:51.420><c> with</c><00:01:51.780><c> NPM</c><00:01:52.350><c> install</c><00:01:52.439><c> Cypress</c><00:01:53.340><c> save</c>
+
+00:01:53.569 --> 00:01:53.579 align:start position:0%
+install it with NPM install Cypress save
+ 
+
+00:01:53.579 --> 00:01:55.520 align:start position:0%
+install it with NPM install Cypress save
+dev<00:01:53.850><c> then</c><00:01:54.390><c> I'm</c><00:01:54.479><c> also</c><00:01:54.659><c> installing</c><00:01:55.079><c> a</c><00:01:55.200><c> library</c>
+
+00:01:55.520 --> 00:01:55.530 align:start position:0%
+dev then I'm also installing a library
+ 
+
+00:01:55.530 --> 00:01:56.959 align:start position:0%
+dev then I'm also installing a library
+called<00:01:55.680><c> chance</c><00:01:56.130><c> which</c><00:01:56.490><c> we'll</c><00:01:56.700><c> use</c><00:01:56.729><c> to</c>
+
+00:01:56.959 --> 00:01:56.969 align:start position:0%
+called chance which we'll use to
+ 
+
+00:01:56.969 --> 00:01:59.569 align:start position:0%
+called chance which we'll use to
+generate<00:01:57.689><c> random</c><00:01:57.930><c> fixtures</c><00:01:58.560><c> for</c><00:01:58.829><c> our</c><00:01:58.950><c> specs</c><00:01:59.280><c> I</c>
+
+00:01:59.569 --> 00:01:59.579 align:start position:0%
+generate random fixtures for our specs I
+ 
+
+00:01:59.579 --> 00:02:01.459 align:start position:0%
+generate random fixtures for our specs I
+have<00:02:00.030><c> completely</c><00:02:00.360><c> removed</c><00:02:00.750><c> protractor</c><00:02:01.290><c> from</c>
+
+00:02:01.459 --> 00:02:01.469 align:start position:0%
+have completely removed protractor from
+ 
+
+00:02:01.469 --> 00:02:03.230 align:start position:0%
+have completely removed protractor from
+this<00:02:01.590><c> project</c><00:02:01.829><c> and</c><00:02:02.340><c> I'm</c><00:02:02.670><c> going</c><00:02:02.880><c> into</c><00:02:02.969><c> the</c>
+
+00:02:03.230 --> 00:02:03.240 align:start position:0%
+this project and I'm going into the
+ 
+
+00:02:03.240 --> 00:02:05.719 align:start position:0%
+this project and I'm going into the
+package.json<00:02:03.899><c> and</c><00:02:04.439><c> changing</c><00:02:05.130><c> the</c><00:02:05.250><c> end-to-end</c>
+
+00:02:05.719 --> 00:02:05.729 align:start position:0%
+package.json and changing the end-to-end
+ 
+
+00:02:05.729 --> 00:02:09.020 align:start position:0%
+package.json and changing the end-to-end
+script<00:02:06.240><c> to</c><00:02:06.509><c> say</c><00:02:06.750><c> Cypress</c><00:02:07.320><c> open</c><00:02:07.799><c> now</c><00:02:08.759><c> you</c><00:02:08.819><c> can</c>
+
+00:02:09.020 --> 00:02:09.030 align:start position:0%
+script to say Cypress open now you can
+ 
+
+00:02:09.030 --> 00:02:10.490 align:start position:0%
+script to say Cypress open now you can
+run<00:02:09.149><c> the</c><00:02:09.209><c> script</c><00:02:09.450><c> from</c><00:02:09.599><c> the</c><00:02:09.690><c> command</c><00:02:09.780><c> line</c><00:02:10.200><c> and</c>
+
+00:02:10.490 --> 00:02:10.500 align:start position:0%
+run the script from the command line and
+ 
+
+00:02:10.500 --> 00:02:11.630 align:start position:0%
+run the script from the command line and
+it<00:02:10.679><c> will</c><00:02:10.770><c> take</c><00:02:10.979><c> you</c><00:02:11.099><c> through</c><00:02:11.129><c> a</c><00:02:11.310><c> series</c><00:02:11.489><c> of</c>
+
+00:02:11.630 --> 00:02:11.640 align:start position:0%
+it will take you through a series of
+ 
+
+00:02:11.640 --> 00:02:13.740 align:start position:0%
+it will take you through a series of
+steps<00:02:11.940><c> to</c><00:02:12.120><c> set</c><00:02:12.510><c> up</c><00:02:12.629><c> Cypress</c><00:02:13.050><c> and</c><00:02:13.080><c> your</c><00:02:13.290><c> project</c>
+
+00:02:13.740 --> 00:02:13.750 align:start position:0%
+steps to set up Cypress and your project
+ 
+
+00:02:13.750 --> 00:02:15.900 align:start position:0%
+steps to set up Cypress and your project
+I<00:02:14.080><c> also</c><00:02:14.560><c> highly</c><00:02:14.950><c> recommend</c><00:02:15.340><c> that</c><00:02:15.430><c> you</c><00:02:15.520><c> link</c>
+
+00:02:15.900 --> 00:02:15.910 align:start position:0%
+I also highly recommend that you link
+ 
+
+00:02:15.910 --> 00:02:17.670 align:start position:0%
+I also highly recommend that you link
+your<00:02:16.030><c> github</c><00:02:16.420><c> project</c><00:02:16.870><c> to</c><00:02:16.990><c> it</c><00:02:17.110><c> because</c><00:02:17.530><c> you</c>
+
+00:02:17.670 --> 00:02:17.680 align:start position:0%
+your github project to it because you
+ 
+
+00:02:17.680 --> 00:02:19.470 align:start position:0%
+your github project to it because you
+can<00:02:17.830><c> actually</c><00:02:17.860><c> record</c><00:02:18.550><c> your</c><00:02:18.610><c> test</c><00:02:18.970><c> and</c><00:02:19.270><c> then</c>
+
+00:02:19.470 --> 00:02:19.480 align:start position:0%
+can actually record your test and then
+ 
+
+00:02:19.480 --> 00:02:21.270 align:start position:0%
+can actually record your test and then
+save<00:02:19.750><c> them</c><00:02:19.930><c> in</c><00:02:20.080><c> the</c><00:02:20.140><c> cloud</c><00:02:20.380><c> recordings</c><00:02:21.190><c> are</c>
+
+00:02:21.270 --> 00:02:21.280 align:start position:0%
+save them in the cloud recordings are
+ 
+
+00:02:21.280 --> 00:02:22.530 align:start position:0%
+save them in the cloud recordings are
+great<00:02:21.430><c> for</c><00:02:21.580><c> your</c><00:02:21.640><c> own</c><00:02:21.790><c> reference</c><00:02:21.970><c> but</c><00:02:22.420><c> they're</c>
+
+00:02:22.530 --> 00:02:22.540 align:start position:0%
+great for your own reference but they're
+ 
+
+00:02:22.540 --> 00:02:23.820 align:start position:0%
+great for your own reference but they're
+even<00:02:22.660><c> better</c><00:02:22.900><c> if</c><00:02:23.110><c> you</c><00:02:23.200><c> have</c><00:02:23.320><c> clients</c><00:02:23.560><c> that</c>
+
+00:02:23.820 --> 00:02:23.830 align:start position:0%
+even better if you have clients that
+ 
+
+00:02:23.830 --> 00:02:25.560 align:start position:0%
+even better if you have clients that
+want<00:02:24.190><c> to</c><00:02:24.280><c> see</c><00:02:24.370><c> the</c><00:02:24.490><c> user</c><00:02:24.700><c> experience</c><00:02:25.060><c> happen</c>
+
+00:02:25.560 --> 00:02:25.570 align:start position:0%
+want to see the user experience happen
+ 
+
+00:02:25.570 --> 00:02:28.320 align:start position:0%
+want to see the user experience happen
+step<00:02:25.840><c> by</c><00:02:26.020><c> step</c><00:02:26.670><c> when</c><00:02:27.670><c> you</c><00:02:27.790><c> finish</c><00:02:28.000><c> the</c><00:02:28.150><c> setup</c>
+
+00:02:28.320 --> 00:02:28.330 align:start position:0%
+step by step when you finish the setup
+ 
+
+00:02:28.330 --> 00:02:29.580 align:start position:0%
+step by step when you finish the setup
+you'll<00:02:28.600><c> see</c><00:02:28.780><c> a</c><00:02:28.810><c> few</c><00:02:29.050><c> new</c><00:02:29.080><c> things</c><00:02:29.350><c> in</c><00:02:29.500><c> your</c>
+
+00:02:29.580 --> 00:02:29.590 align:start position:0%
+you'll see a few new things in your
+ 
+
+00:02:29.590 --> 00:02:32.160 align:start position:0%
+you'll see a few new things in your
+project<00:02:30.040><c> Cypress</c><00:02:30.670><c> JSON</c><00:02:31.120><c> holds</c><00:02:31.510><c> your</c><00:02:31.720><c> global</c>
+
+00:02:32.160 --> 00:02:32.170 align:start position:0%
+project Cypress JSON holds your global
+ 
+
+00:02:32.170 --> 00:02:34.920 align:start position:0%
+project Cypress JSON holds your global
+configuration<00:02:32.890><c> options</c><00:02:33.510><c> then</c><00:02:34.510><c> all</c><00:02:34.690><c> of</c><00:02:34.810><c> your</c>
+
+00:02:34.920 --> 00:02:34.930 align:start position:0%
+configuration options then all of your
+ 
+
+00:02:34.930 --> 00:02:36.900 align:start position:0%
+configuration options then all of your
+testing<00:02:35.290><c> code</c><00:02:35.470><c> is</c><00:02:35.620><c> in</c><00:02:35.770><c> the</c><00:02:35.890><c> Cypress</c><00:02:36.160><c> directory</c>
+
+00:02:36.900 --> 00:02:36.910 align:start position:0%
+testing code is in the Cypress directory
+ 
+
+00:02:36.910 --> 00:02:39.090 align:start position:0%
+testing code is in the Cypress directory
+you<00:02:37.900><c> can</c><00:02:37.960><c> set</c><00:02:38.230><c> up</c><00:02:38.320><c> your</c><00:02:38.350><c> specs</c><00:02:38.680><c> to</c><00:02:38.830><c> run</c><00:02:38.980><c> on</c>
+
+00:02:39.090 --> 00:02:39.100 align:start position:0%
+you can set up your specs to run on
+ 
+
+00:02:39.100 --> 00:02:41.190 align:start position:0%
+you can set up your specs to run on
+typescript<00:02:39.790><c> but</c><00:02:40.150><c> I</c><00:02:40.180><c> don't</c><00:02:40.480><c> see</c><00:02:40.630><c> much</c><00:02:40.810><c> benefit</c>
+
+00:02:41.190 --> 00:02:41.200 align:start position:0%
+typescript but I don't see much benefit
+ 
+
+00:02:41.200 --> 00:02:42.540 align:start position:0%
+typescript but I don't see much benefit
+in<00:02:41.290><c> doing</c><00:02:41.320><c> that</c><00:02:41.590><c> because</c><00:02:41.950><c> you</c><00:02:42.100><c> can</c><00:02:42.250><c> pull</c><00:02:42.460><c> in</c>
+
+00:02:42.540 --> 00:02:42.550 align:start position:0%
+in doing that because you can pull in
+ 
+
+00:02:42.550 --> 00:02:43.980 align:start position:0%
+in doing that because you can pull in
+the<00:02:42.640><c> types</c><00:02:42.850><c> in</c><00:02:43.090><c> just</c><00:02:43.270><c> a</c><00:02:43.390><c> plain</c><00:02:43.660><c> JavaScript</c>
+
+00:02:43.980 --> 00:02:43.990 align:start position:0%
+the types in just a plain JavaScript
+ 
+
+00:02:43.990 --> 00:02:46.050 align:start position:0%
+the types in just a plain JavaScript
+file<00:02:44.380><c> as</c><00:02:44.590><c> well</c><00:02:44.740><c> you'll</c><00:02:45.580><c> notice</c><00:02:45.640><c> four</c>
+
+00:02:46.050 --> 00:02:46.060 align:start position:0%
+file as well you'll notice four
+ 
+
+00:02:46.060 --> 00:02:47.880 align:start position:0%
+file as well you'll notice four
+different<00:02:46.360><c> files</c><00:02:46.540><c> here</c><00:02:46.870><c> fixtures</c><00:02:47.650><c> hold</c>
+
+00:02:47.880 --> 00:02:47.890 align:start position:0%
+different files here fixtures hold
+ 
+
+00:02:47.890 --> 00:02:49.350 align:start position:0%
+different files here fixtures hold
+default<00:02:48.280><c> data</c><00:02:48.460><c> that</c><00:02:48.670><c> you</c><00:02:48.760><c> want</c><00:02:48.940><c> to</c><00:02:49.090><c> reuse</c>
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+default data that you want to reuse
+ 
+
+00:02:49.360 --> 00:02:51.780 align:start position:0%
+default data that you want to reuse
+throughout<00:02:49.720><c> your</c><00:02:50.020><c> tests</c><00:02:50.440><c> then</c><00:02:51.040><c> integration</c>
+
+00:02:51.780 --> 00:02:51.790 align:start position:0%
+throughout your tests then integration
+ 
+
+00:02:51.790 --> 00:02:53.370 align:start position:0%
+throughout your tests then integration
+is<00:02:52.030><c> where</c><00:02:52.300><c> you</c><00:02:52.420><c> write</c><00:02:52.660><c> your</c><00:02:52.870><c> main</c><00:02:53.020><c> specs</c>
+
+00:02:53.370 --> 00:02:53.380 align:start position:0%
+is where you write your main specs
+ 
+
+00:02:53.380 --> 00:02:54.600 align:start position:0%
+is where you write your main specs
+that's<00:02:53.680><c> where</c><00:02:53.830><c> we'll</c><00:02:53.980><c> spend</c><00:02:54.040><c> most</c><00:02:54.340><c> of</c><00:02:54.550><c> the</c>
+
+00:02:54.600 --> 00:02:54.610 align:start position:0%
+that's where we'll spend most of the
+ 
+
+00:02:54.610 --> 00:02:56.430 align:start position:0%
+that's where we'll spend most of the
+time<00:02:54.790><c> here</c><00:02:55.090><c> you</c><00:02:55.600><c> can</c><00:02:55.750><c> also</c><00:02:55.900><c> write</c><00:02:56.140><c> plug-ins</c>
+
+00:02:56.430 --> 00:02:56.440 align:start position:0%
+time here you can also write plug-ins
+ 
+
+00:02:56.440 --> 00:02:58.290 align:start position:0%
+time here you can also write plug-ins
+that<00:02:56.710><c> hook</c><00:02:57.070><c> into</c><00:02:57.250><c> different</c><00:02:57.760><c> life</c><00:02:57.940><c> cycle</c>
+
+00:02:58.290 --> 00:02:58.300 align:start position:0%
+that hook into different life cycle
+ 
+
+00:02:58.300 --> 00:03:00.330 align:start position:0%
+that hook into different life cycle
+events<00:02:58.420><c> in</c><00:02:58.810><c> the</c><00:02:58.960><c> testing</c><00:02:59.320><c> process</c><00:02:59.500><c> one</c>
+
+00:03:00.330 --> 00:03:00.340 align:start position:0%
+events in the testing process one
+ 
+
+00:03:00.340 --> 00:03:01.890 align:start position:0%
+events in the testing process one
+example<00:03:00.640><c> would</c><00:03:00.820><c> be</c><00:03:00.880><c> transpiling</c><00:03:01.540><c> your</c><00:03:01.780><c> code</c>
+
+00:03:01.890 --> 00:03:01.900 align:start position:0%
+example would be transpiling your code
+ 
+
+00:03:01.900 --> 00:03:03.810 align:start position:0%
+example would be transpiling your code
+to<00:03:01.930><c> typescript</c><00:03:02.530><c> if</c><00:03:02.680><c> you</c><00:03:02.890><c> decide</c><00:03:03.190><c> to</c><00:03:03.340><c> use</c><00:03:03.490><c> TS</c>
+
+00:03:03.810 --> 00:03:03.820 align:start position:0%
+to typescript if you decide to use TS
+ 
+
+00:03:03.820 --> 00:03:05.700 align:start position:0%
+to typescript if you decide to use TS
+and<00:03:04.150><c> then</c><00:03:04.690><c> you</c><00:03:04.750><c> have</c><00:03:04.870><c> a</c><00:03:04.900><c> support</c><00:03:05.290><c> directory</c>
+
+00:03:05.700 --> 00:03:05.710 align:start position:0%
+and then you have a support directory
+ 
+
+00:03:05.710 --> 00:03:07.050 align:start position:0%
+and then you have a support directory
+where<00:03:05.920><c> you</c><00:03:06.010><c> can</c><00:03:06.160><c> write</c><00:03:06.370><c> your</c><00:03:06.550><c> own</c><00:03:06.610><c> custom</c>
+
+00:03:07.050 --> 00:03:07.060 align:start position:0%
+where you can write your own custom
+ 
+
+00:03:07.060 --> 00:03:09.210 align:start position:0%
+where you can write your own custom
+commands<00:03:07.600><c> for</c><00:03:07.930><c> Cypress</c><00:03:08.440><c> or</c><00:03:08.650><c> overwrite</c>
+
+00:03:09.210 --> 00:03:09.220 align:start position:0%
+commands for Cypress or overwrite
+ 
+
+00:03:09.220 --> 00:03:11.160 align:start position:0%
+commands for Cypress or overwrite
+existing<00:03:09.310><c> commands</c><00:03:10.090><c> we'll</c><00:03:10.390><c> do</c><00:03:10.570><c> this</c><00:03:10.690><c> later</c><00:03:10.990><c> in</c>
+
+00:03:11.160 --> 00:03:11.170 align:start position:0%
+existing commands we'll do this later in
+ 
+
+00:03:11.170 --> 00:03:13.560 align:start position:0%
+existing commands we'll do this later in
+the<00:03:11.200><c> video</c><00:03:11.670><c> at</c><00:03:12.670><c> this</c><00:03:12.820><c> point</c><00:03:12.880><c> I</c><00:03:13.090><c> just</c><00:03:13.270><c> want</c><00:03:13.420><c> to</c>
+
+00:03:13.560 --> 00:03:13.570 align:start position:0%
+the video at this point I just want to
+ 
+
+00:03:13.570 --> 00:03:15.210 align:start position:0%
+the video at this point I just want to
+jump<00:03:13.870><c> into</c><00:03:13.990><c> writing</c><00:03:14.230><c> our</c><00:03:14.410><c> first</c><00:03:14.590><c> test</c><00:03:14.830><c> because</c>
+
+00:03:15.210 --> 00:03:15.220 align:start position:0%
+jump into writing our first test because
+ 
+
+00:03:15.220 --> 00:03:17.460 align:start position:0%
+jump into writing our first test because
+it's<00:03:15.490><c> really</c><00:03:15.640><c> easy</c><00:03:15.880><c> to</c><00:03:16.060><c> do</c><00:03:16.210><c> I</c><00:03:16.420><c> have</c><00:03:17.110><c> created</c><00:03:17.290><c> a</c>
+
+00:03:17.460 --> 00:03:17.470 align:start position:0%
+it's really easy to do I have created a
+ 
+
+00:03:17.470 --> 00:03:19.770 align:start position:0%
+it's really easy to do I have created a
+file<00:03:17.620><c> called</c><00:03:17.860><c> sample</c><00:03:18.370><c> spec</c><00:03:18.670><c> j/s</c><00:03:19.270><c> in</c><00:03:19.570><c> the</c>
+
+00:03:19.770 --> 00:03:19.780 align:start position:0%
+file called sample spec j/s in the
+ 
+
+00:03:19.780 --> 00:03:21.780 align:start position:0%
+file called sample spec j/s in the
+integration<00:03:20.290><c> folder</c><00:03:20.770><c> then</c><00:03:21.340><c> I'll</c><00:03:21.489><c> reference</c>
+
+00:03:21.780 --> 00:03:21.790 align:start position:0%
+integration folder then I'll reference
+ 
+
+00:03:21.790 --> 00:03:23.220 align:start position:0%
+integration folder then I'll reference
+the<00:03:21.940><c> types</c><00:03:22.180><c> so</c><00:03:22.510><c> we</c><00:03:22.630><c> can</c><00:03:22.750><c> get</c><00:03:22.840><c> really</c><00:03:23.110><c> good</c>
+
+00:03:23.220 --> 00:03:23.230 align:start position:0%
+the types so we can get really good
+ 
+
+00:03:23.230 --> 00:03:25.110 align:start position:0%
+the types so we can get really good
+tooling<00:03:23.680><c> and</c><00:03:23.890><c> autocomplete</c><00:03:24.310><c> in</c><00:03:24.760><c> our</c><00:03:24.880><c> plain</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+tooling and autocomplete in our plain
+ 
+
+00:03:25.120 --> 00:03:27.930 align:start position:0%
+tooling and autocomplete in our plain
+JavaScript<00:03:25.720><c> file</c><00:03:25.900><c> and</c><00:03:26.430><c> I'll</c><00:03:27.430><c> also</c><00:03:27.550><c> bring</c><00:03:27.790><c> in</c>
+
+00:03:27.930 --> 00:03:27.940 align:start position:0%
+JavaScript file and I'll also bring in
+ 
+
+00:03:27.940 --> 00:03:29.250 align:start position:0%
+JavaScript file and I'll also bring in
+chance<00:03:28.209><c> so</c><00:03:28.390><c> we</c><00:03:28.510><c> can</c><00:03:28.630><c> automatically</c><00:03:29.140><c> generate</c>
+
+00:03:29.250 --> 00:03:29.260 align:start position:0%
+chance so we can automatically generate
+ 
+
+00:03:29.260 --> 00:03:31.740 align:start position:0%
+chance so we can automatically generate
+email<00:03:29.980><c> addresses</c><00:03:30.489><c> and</c><00:03:30.820><c> text</c><00:03:31.300><c> and</c><00:03:31.450><c> things</c><00:03:31.600><c> like</c>
+
+00:03:31.740 --> 00:03:31.750 align:start position:0%
+email addresses and text and things like
+ 
+
+00:03:31.750 --> 00:03:33.330 align:start position:0%
+email addresses and text and things like
+that<00:03:31.810><c> at</c><00:03:32.380><c> this</c><00:03:32.650><c> point</c><00:03:32.860><c> it's</c><00:03:32.980><c> important</c><00:03:33.250><c> to</c>
+
+00:03:33.330 --> 00:03:33.340 align:start position:0%
+that at this point it's important to
+ 
+
+00:03:33.340 --> 00:03:35.310 align:start position:0%
+that at this point it's important to
+point<00:03:33.459><c> out</c><00:03:33.610><c> that</c><00:03:33.940><c> Cypress</c><00:03:34.540><c> uses</c><00:03:34.870><c> mocha</c><00:03:35.110><c> and</c>
+
+00:03:35.310 --> 00:03:35.320 align:start position:0%
+point out that Cypress uses mocha and
+ 
+
+00:03:35.320 --> 00:03:38.250 align:start position:0%
+point out that Cypress uses mocha and
+chai<00:03:35.560><c> as</c><00:03:35.860><c> its</c><00:03:36.100><c> underlying</c><00:03:36.430><c> test</c><00:03:36.910><c> libraries</c><00:03:37.480><c> so</c>
+
+00:03:38.250 --> 00:03:38.260 align:start position:0%
+chai as its underlying test libraries so
+ 
+
+00:03:38.260 --> 00:03:40.170 align:start position:0%
+chai as its underlying test libraries so
+you<00:03:38.290><c> can't</c><00:03:38.620><c> really</c><00:03:38.770><c> use</c><00:03:38.950><c> just</c><00:03:39.340><c> or</c><00:03:39.610><c> Jasmine</c><00:03:40.060><c> as</c>
+
+00:03:40.170 --> 00:03:40.180 align:start position:0%
+you can't really use just or Jasmine as
+ 
+
+00:03:40.180 --> 00:03:41.760 align:start position:0%
+you can't really use just or Jasmine as
+far<00:03:40.330><c> as</c><00:03:40.450><c> I</c><00:03:40.510><c> know</c><00:03:40.570><c> but</c><00:03:41.200><c> this</c><00:03:41.380><c> doesn't</c><00:03:41.560><c> really</c>
+
+00:03:41.760 --> 00:03:41.770 align:start position:0%
+far as I know but this doesn't really
+ 
+
+00:03:41.770 --> 00:03:43.199 align:start position:0%
+far as I know but this doesn't really
+matter<00:03:41.980><c> because</c><00:03:42.160><c> you'll</c><00:03:42.459><c> mostly</c><00:03:42.760><c> be</c><00:03:42.910><c> using</c>
+
+00:03:43.199 --> 00:03:43.209 align:start position:0%
+matter because you'll mostly be using
+ 
+
+00:03:43.209 --> 00:03:46.350 align:start position:0%
+matter because you'll mostly be using
+the<00:03:43.330><c> Cypress</c><00:03:43.690><c> API</c><00:03:44.019><c> to</c><00:03:44.170><c> write</c><00:03:44.709><c> your</c><00:03:44.860><c> specs</c><00:03:45.360><c> the</c>
+
+00:03:46.350 --> 00:03:46.360 align:start position:0%
+the Cypress API to write your specs the
+ 
+
+00:03:46.360 --> 00:03:47.970 align:start position:0%
+the Cypress API to write your specs the
+first<00:03:46.660><c> step</c><00:03:46.810><c> is</c><00:03:46.959><c> to</c><00:03:47.170><c> describe</c><00:03:47.470><c> the</c><00:03:47.530><c> test</c><00:03:47.860><c> suite</c>
+
+00:03:47.970 --> 00:03:47.980 align:start position:0%
+first step is to describe the test suite
+ 
+
+00:03:47.980 --> 00:03:50.040 align:start position:0%
+first step is to describe the test suite
+which<00:03:48.400><c> we'll</c><00:03:48.550><c> call</c><00:03:48.670><c> fire</c><00:03:48.910><c> starter</c><00:03:49.420><c> and</c><00:03:49.600><c> then</c>
+
+00:03:50.040 --> 00:03:50.050 align:start position:0%
+which we'll call fire starter and then
+ 
+
+00:03:50.050 --> 00:03:51.630 align:start position:0%
+which we'll call fire starter and then
+I'll<00:03:50.140><c> set</c><00:03:50.290><c> a</c><00:03:50.320><c> couple</c><00:03:50.500><c> global</c><00:03:51.010><c> variables</c><00:03:51.430><c> here</c>
+
+00:03:51.630 --> 00:03:51.640 align:start position:0%
+I'll set a couple global variables here
+ 
+
+00:03:51.640 --> 00:03:53.970 align:start position:0%
+I'll set a couple global variables here
+one<00:03:52.030><c> is</c><00:03:52.180><c> for</c><00:03:52.420><c> an</c><00:03:52.690><c> email</c><00:03:53.110><c> address</c><00:03:53.260><c> that</c><00:03:53.709><c> will</c><00:03:53.890><c> be</c>
+
+00:03:53.970 --> 00:03:53.980 align:start position:0%
+one is for an email address that will be
+ 
+
+00:03:53.980 --> 00:03:56.070 align:start position:0%
+one is for an email address that will be
+randomly<00:03:54.400><c> generated</c><00:03:55.000><c> for</c><00:03:55.269><c> each</c><00:03:55.570><c> time</c><00:03:55.900><c> this</c>
+
+00:03:56.070 --> 00:03:56.080 align:start position:0%
+randomly generated for each time this
+ 
+
+00:03:56.080 --> 00:03:58.259 align:start position:0%
+randomly generated for each time this
+test<00:03:56.260><c> runs</c><00:03:56.560><c> and</c><00:03:56.800><c> then</c><00:03:57.459><c> another</c><00:03:57.700><c> one</c><00:03:57.880><c> for</c><00:03:58.120><c> the</c>
+
+00:03:58.259 --> 00:03:58.269 align:start position:0%
+test runs and then another one for the
+ 
+
+00:03:58.269 --> 00:04:01.050 align:start position:0%
+test runs and then another one for the
+password<00:03:58.739><c> the</c><00:03:59.739><c> state</c><00:04:00.070><c> does</c><00:04:00.280><c> not</c><00:04:00.430><c> get</c><00:04:00.610><c> reset</c>
+
+00:04:01.050 --> 00:04:01.060 align:start position:0%
+password the state does not get reset
+ 
+
+00:04:01.060 --> 00:04:03.270 align:start position:0%
+password the state does not get reset
+between<00:04:01.239><c> each</c><00:04:01.540><c> test</c><00:04:01.810><c> so</c><00:04:02.320><c> if</c><00:04:02.530><c> you</c><00:04:02.620><c> want</c><00:04:02.800><c> to</c><00:04:02.890><c> go</c>
+
+00:04:03.270 --> 00:04:03.280 align:start position:0%
+between each test so if you want to go
+ 
+
+00:04:03.280 --> 00:04:04.860 align:start position:0%
+between each test so if you want to go
+back<00:04:03.459><c> to</c><00:04:03.640><c> the</c><00:04:03.760><c> home</c><00:04:03.940><c> page</c><00:04:03.970><c> for</c><00:04:04.150><c> example</c><00:04:04.390><c> you</c>
+
+00:04:04.860 --> 00:04:04.870 align:start position:0%
+back to the home page for example you
+ 
+
+00:04:04.870 --> 00:04:06.930 align:start position:0%
+back to the home page for example you
+can<00:04:04.989><c> set</c><00:04:05.110><c> up</c><00:04:05.170><c> a</c><00:04:05.470><c> before</c><00:04:05.830><c> each</c><00:04:06.040><c> callback</c><00:04:06.519><c> to</c>
+
+00:04:06.930 --> 00:04:06.940 align:start position:0%
+can set up a before each callback to
+ 
+
+00:04:06.940 --> 00:04:08.759 align:start position:0%
+can set up a before each callback to
+redirect<00:04:07.450><c> the</c><00:04:07.600><c> user</c><00:04:07.810><c> back</c><00:04:07.900><c> to</c><00:04:08.200><c> the</c><00:04:08.350><c> home</c><00:04:08.560><c> page</c>
+
+00:04:08.759 --> 00:04:08.769 align:start position:0%
+redirect the user back to the home page
+ 
+
+00:04:08.769 --> 00:04:11.220 align:start position:0%
+redirect the user back to the home page
+which<00:04:09.280><c> we</c><00:04:09.430><c> can</c><00:04:09.580><c> do</c><00:04:09.670><c> with</c><00:04:09.820><c> side</c><00:04:10.120><c> visit</c><00:04:10.780><c> and</c><00:04:10.989><c> the</c>
+
+00:04:11.220 --> 00:04:11.230 align:start position:0%
+which we can do with side visit and the
+ 
+
+00:04:11.230 --> 00:04:13.140 align:start position:0%
+which we can do with side visit and the
+URL<00:04:11.500><c> before</c><00:04:12.190><c> we</c><00:04:12.400><c> get</c><00:04:12.489><c> started</c><00:04:12.700><c> testing</c>
+
+00:04:13.140 --> 00:04:13.150 align:start position:0%
+URL before we get started testing
+ 
+
+00:04:13.150 --> 00:04:15.060 align:start position:0%
+URL before we get started testing
+anything<00:04:13.330><c> complex</c><00:04:13.930><c> let's</c><00:04:14.350><c> just</c><00:04:14.590><c> make</c><00:04:14.739><c> sure</c><00:04:14.769><c> we</c>
+
+00:04:15.060 --> 00:04:15.070 align:start position:0%
+anything complex let's just make sure we
+ 
+
+00:04:15.070 --> 00:04:16.710 align:start position:0%
+anything complex let's just make sure we
+can<00:04:15.220><c> find</c><00:04:15.489><c> some</c><00:04:15.700><c> text</c><00:04:16.060><c> within</c><00:04:16.209><c> the</c><00:04:16.390><c> rendered</c>
+
+00:04:16.710 --> 00:04:16.720 align:start position:0%
+can find some text within the rendered
+ 
+
+00:04:16.720 --> 00:04:17.220 align:start position:0%
+can find some text within the rendered
+page
+
+00:04:17.220 --> 00:04:17.230 align:start position:0%
+page
+ 
+
+00:04:17.230 --> 00:04:19.590 align:start position:0%
+page
+kollene<00:04:17.799><c> cy</c><00:04:18.220><c> contains</c><00:04:18.700><c> we'll</c><00:04:19.150><c> look</c><00:04:19.330><c> for</c><00:04:19.510><c> that</c>
+
+00:04:19.590 --> 00:04:19.600 align:start position:0%
+kollene cy contains we'll look for that
+ 
+
+00:04:19.600 --> 00:04:21.719 align:start position:0%
+kollene cy contains we'll look for that
+text<00:04:19.959><c> in</c><00:04:20.109><c> the</c><00:04:20.200><c> page</c><00:04:20.440><c> and</c><00:04:20.799><c> that's</c><00:04:21.400><c> all</c><00:04:21.519><c> you</c><00:04:21.609><c> need</c>
+
+00:04:21.719 --> 00:04:21.729 align:start position:0%
+text in the page and that's all you need
+ 
+
+00:04:21.729 --> 00:04:23.550 align:start position:0%
+text in the page and that's all you need
+to<00:04:21.820><c> write</c><00:04:22.000><c> to</c><00:04:22.240><c> test</c><00:04:22.600><c> that</c><00:04:22.750><c> that</c><00:04:22.840><c> content</c><00:04:23.289><c> is</c><00:04:23.410><c> in</c>
+
+00:04:23.550 --> 00:04:23.560 align:start position:0%
+to write to test that that content is in
+ 
+
+00:04:23.560 --> 00:04:25.230 align:start position:0%
+to write to test that that content is in
+the<00:04:23.650><c> page</c><00:04:23.860><c> but</c><00:04:24.430><c> you</c><00:04:24.460><c> can</c><00:04:24.580><c> also</c><00:04:24.729><c> write</c><00:04:25.030><c> more</c>
+
+00:04:25.230 --> 00:04:25.240 align:start position:0%
+the page but you can also write more
+ 
+
+00:04:25.240 --> 00:04:27.240 align:start position:0%
+the page but you can also write more
+traditional<00:04:25.690><c> test</c><00:04:25.930><c> code</c><00:04:26.169><c> where</c><00:04:26.410><c> you</c><00:04:26.530><c> explicit</c>
+
+00:04:27.240 --> 00:04:27.250 align:start position:0%
+traditional test code where you explicit
+ 
+
+00:04:27.250 --> 00:04:29.070 align:start position:0%
+traditional test code where you explicit
+we<00:04:27.340><c> declare</c><00:04:27.520><c> your</c><00:04:27.820><c> subject</c><00:04:28.270><c> for</c><00:04:28.600><c> example</c><00:04:28.690><c> if</c>
+
+00:04:29.070 --> 00:04:29.080 align:start position:0%
+we declare your subject for example if
+ 
+
+00:04:29.080 --> 00:04:31.800 align:start position:0%
+we declare your subject for example if
+we<00:04:29.200><c> expect</c><00:04:29.560><c> two</c><00:04:29.770><c> to</c><00:04:29.800><c> equal</c><00:04:30.670><c> two</c><00:04:30.910><c> I</c><00:04:31.120><c> have</c><00:04:31.630><c> very</c>
+
+00:04:31.800 --> 00:04:31.810 align:start position:0%
+we expect two to equal two I have very
+ 
+
+00:04:31.810 --> 00:04:33.600 align:start position:0%
+we expect two to equal two I have very
+rarely<00:04:32.110><c> write</c><00:04:32.410><c> tests</c><00:04:32.650><c> like</c><00:04:32.800><c> this</c><00:04:32.980><c> in</c><00:04:33.160><c> Cyprus</c>
+
+00:04:33.600 --> 00:04:33.610 align:start position:0%
+rarely write tests like this in Cyprus
+ 
+
+00:04:33.610 --> 00:04:34.920 align:start position:0%
+rarely write tests like this in Cyprus
+but<00:04:33.850><c> I</c><00:04:33.910><c> just</c><00:04:34.180><c> want</c><00:04:34.360><c> you</c><00:04:34.420><c> to</c><00:04:34.510><c> know</c><00:04:34.660><c> that</c><00:04:34.810><c> it's</c>
+
+00:04:34.920 --> 00:04:34.930 align:start position:0%
+but I just want you to know that it's
+ 
+
+00:04:34.930 --> 00:04:37.020 align:start position:0%
+but I just want you to know that it's
+possible<00:04:35.380><c> so</c><00:04:36.100><c> if</c><00:04:36.190><c> we</c><00:04:36.280><c> look</c><00:04:36.430><c> at</c><00:04:36.520><c> the</c><00:04:36.640><c> spec</c><00:04:36.880><c> you</c>
+
+00:04:37.020 --> 00:04:37.030 align:start position:0%
+possible so if we look at the spec you
+ 
+
+00:04:37.030 --> 00:04:38.760 align:start position:0%
+possible so if we look at the spec you
+can<00:04:37.150><c> see</c><00:04:37.330><c> it</c><00:04:37.420><c> first</c><00:04:37.660><c> ran</c><00:04:37.930><c> R</c><00:04:38.170><c> before</c><00:04:38.410><c> each</c>
+
+00:04:38.760 --> 00:04:38.770 align:start position:0%
+can see it first ran R before each
+ 
+
+00:04:38.770 --> 00:04:40.500 align:start position:0%
+can see it first ran R before each
+callback<00:04:39.190><c> then</c><00:04:39.760><c> it</c><00:04:39.850><c> lets</c><00:04:40.030><c> us</c><00:04:40.150><c> know</c><00:04:40.210><c> whether</c>
+
+00:04:40.500 --> 00:04:40.510 align:start position:0%
+callback then it lets us know whether
+ 
+
+00:04:40.510 --> 00:04:42.360 align:start position:0%
+callback then it lets us know whether
+our<00:04:40.720><c> tests</c><00:04:40.960><c> passed</c><00:04:41.230><c> or</c><00:04:41.440><c> failed</c><00:04:41.470><c> and</c><00:04:41.980><c> if</c><00:04:42.220><c> we</c>
+
+00:04:42.360 --> 00:04:42.370 align:start position:0%
+our tests passed or failed and if we
+ 
+
+00:04:42.370 --> 00:04:44.070 align:start position:0%
+our tests passed or failed and if we
+hover<00:04:42.550><c> over</c><00:04:42.670><c> that</c><00:04:43.090><c> contains</c><00:04:43.480><c> it</c><00:04:43.780><c> will</c>
+
+00:04:44.070 --> 00:04:44.080 align:start position:0%
+hover over that contains it will
+ 
+
+00:04:44.080 --> 00:04:45.690 align:start position:0%
+hover over that contains it will
+highlight<00:04:44.320><c> where</c><00:04:44.710><c> it</c><00:04:44.830><c> found</c><00:04:44.980><c> that</c><00:04:45.130><c> text</c><00:04:45.520><c> in</c>
+
+00:04:45.690 --> 00:04:45.700 align:start position:0%
+highlight where it found that text in
+ 
+
+00:04:45.700 --> 00:04:48.120 align:start position:0%
+highlight where it found that text in
+the<00:04:45.790><c> page</c><00:04:46.000><c> in</c><00:04:46.360><c> this</c><00:04:47.140><c> particular</c><00:04:47.620><c> app</c><00:04:47.800><c> I</c><00:04:48.040><c> have</c>
+
+00:04:48.120 --> 00:04:48.130 align:start position:0%
+the page in this particular app I have
+ 
+
+00:04:48.130 --> 00:04:49.950 align:start position:0%
+the page in this particular app I have
+router<00:04:48.460><c> guard</c><00:04:48.730><c> setup</c><00:04:49.120><c> to</c><00:04:49.360><c> block</c><00:04:49.720><c> certain</c>
+
+00:04:49.950 --> 00:04:49.960 align:start position:0%
+router guard setup to block certain
+ 
+
+00:04:49.960 --> 00:04:52.110 align:start position:0%
+router guard setup to block certain
+routes<00:04:50.320><c> if</c><00:04:50.650><c> an</c><00:04:50.860><c> unauthenticated</c><00:04:51.280><c> user</c><00:04:51.820><c> tries</c>
+
+00:04:52.110 --> 00:04:52.120 align:start position:0%
+routes if an unauthenticated user tries
+ 
+
+00:04:52.120 --> 00:04:54.930 align:start position:0%
+routes if an unauthenticated user tries
+to<00:04:52.270><c> access</c><00:04:52.450><c> them</c><00:04:52.900><c> in</c><00:04:53.350><c> this</c><00:04:54.310><c> next</c><00:04:54.550><c> spec</c><00:04:54.760><c> i'll</c>
+
+00:04:54.930 --> 00:04:54.940 align:start position:0%
+to access them in this next spec i'll
+ 
+
+00:04:54.940 --> 00:04:56.400 align:start position:0%
+to access them in this next spec i'll
+show<00:04:55.090><c> you</c><00:04:55.150><c> how</c><00:04:55.330><c> to</c><00:04:55.360><c> navigate</c><00:04:55.960><c> around</c><00:04:56.050><c> the</c><00:04:56.290><c> app</c>
+
+00:04:56.400 --> 00:04:56.410 align:start position:0%
+show you how to navigate around the app
+ 
+
+00:04:56.410 --> 00:04:58.140 align:start position:0%
+show you how to navigate around the app
+and<00:04:56.680><c> then</c><00:04:56.830><c> verify</c><00:04:57.130><c> that</c><00:04:57.430><c> that</c><00:04:57.610><c> particular</c>
+
+00:04:58.140 --> 00:04:58.150 align:start position:0%
+and then verify that that particular
+ 
+
+00:04:58.150 --> 00:05:00.090 align:start position:0%
+and then verify that that particular
+route<00:04:58.360><c> gets</c><00:04:58.570><c> blocked</c><00:04:58.960><c> this</c><00:04:59.620><c> app</c><00:04:59.800><c> has</c><00:04:59.980><c> a</c>
+
+00:05:00.090 --> 00:05:00.100 align:start position:0%
+route gets blocked this app has a
+ 
+
+00:05:00.100 --> 00:05:02.220 align:start position:0%
+route gets blocked this app has a
+drop-down<00:05:00.580><c> on</c><00:05:00.820><c> mobile</c><00:05:01.210><c> layouts</c><00:05:01.540><c> so</c><00:05:01.960><c> we</c><00:05:02.080><c> need</c>
+
+00:05:02.220 --> 00:05:02.230 align:start position:0%
+drop-down on mobile layouts so we need
+ 
+
+00:05:02.230 --> 00:05:03.659 align:start position:0%
+drop-down on mobile layouts so we need
+to<00:05:02.290><c> make</c><00:05:02.440><c> sure</c><00:05:02.470><c> the</c><00:05:02.830><c> actual</c><00:05:02.980><c> link</c><00:05:03.460><c> that</c><00:05:03.580><c> we</c>
+
+00:05:03.659 --> 00:05:03.669 align:start position:0%
+to make sure the actual link that we
+ 
+
+00:05:03.669 --> 00:05:05.280 align:start position:0%
+to make sure the actual link that we
+want<00:05:03.820><c> to</c><00:05:03.880><c> click</c><00:05:04.090><c> is</c><00:05:04.330><c> visible</c><00:05:04.900><c> on</c><00:05:05.020><c> the</c><00:05:05.080><c> page</c>
+
+00:05:05.280 --> 00:05:05.290 align:start position:0%
+want to click is visible on the page
+ 
+
+00:05:05.290 --> 00:05:07.380 align:start position:0%
+want to click is visible on the page
+before<00:05:05.830><c> we</c><00:05:05.980><c> try</c><00:05:06.220><c> to</c><00:05:06.280><c> click</c><00:05:06.550><c> it</c><00:05:06.700><c> with</c><00:05:06.880><c> cyprus</c>
+
+00:05:07.380 --> 00:05:07.390 align:start position:0%
+before we try to click it with cyprus
+ 
+
+00:05:07.390 --> 00:05:08.790 align:start position:0%
+before we try to click it with cyprus
+which<00:05:07.690><c> in</c><00:05:07.840><c> this</c><00:05:07.930><c> case</c><00:05:08.110><c> means</c><00:05:08.169><c> clicking</c><00:05:08.710><c> the</c>
+
+00:05:08.790 --> 00:05:08.800 align:start position:0%
+which in this case means clicking the
+ 
+
+00:05:08.800 --> 00:05:11.550 align:start position:0%
+which in this case means clicking the
+element<00:05:09.190><c> that</c><00:05:09.220><c> has</c><00:05:09.430><c> an</c><00:05:09.460><c> ID</c><00:05:09.730><c> of</c><00:05:10.150><c> nav</c><00:05:10.510><c> toggle</c><00:05:11.140><c> to</c>
+
+00:05:11.550 --> 00:05:11.560 align:start position:0%
+element that has an ID of nav toggle to
+ 
+
+00:05:11.560 --> 00:05:13.409 align:start position:0%
+element that has an ID of nav toggle to
+do<00:05:11.770><c> that</c><00:05:11.890><c> we</c><00:05:12.010><c> can</c><00:05:12.160><c> call</c><00:05:12.280><c> Cyprus</c><00:05:12.700><c> get</c><00:05:13.000><c> along</c>
+
+00:05:13.409 --> 00:05:13.419 align:start position:0%
+do that we can call Cyprus get along
+ 
+
+00:05:13.419 --> 00:05:15.659 align:start position:0%
+do that we can call Cyprus get along
+with<00:05:13.570><c> a</c><00:05:13.600><c> selector</c><00:05:14.260><c> which</c><00:05:14.770><c> works</c><00:05:15.040><c> very</c><00:05:15.280><c> similar</c>
+
+00:05:15.659 --> 00:05:15.669 align:start position:0%
+with a selector which works very similar
+ 
+
+00:05:15.669 --> 00:05:17.940 align:start position:0%
+with a selector which works very similar
+to<00:05:15.880><c> jQuery</c><00:05:16.450><c> the</c><00:05:17.200><c> get</c><00:05:17.470><c> method</c><00:05:17.740><c> is</c><00:05:17.830><c> very</c>
+
+00:05:17.940 --> 00:05:17.950 align:start position:0%
+to jQuery the get method is very
+ 
+
+00:05:17.950 --> 00:05:19.470 align:start position:0%
+to jQuery the get method is very
+powerful<00:05:18.340><c> and</c><00:05:18.760><c> you'll</c><00:05:18.940><c> be</c><00:05:19.090><c> using</c><00:05:19.270><c> it</c>
+
+00:05:19.470 --> 00:05:19.480 align:start position:0%
+powerful and you'll be using it
+ 
+
+00:05:19.480 --> 00:05:21.810 align:start position:0%
+powerful and you'll be using it
+frequently<00:05:19.870><c> in</c><00:05:20.080><c> Cyprus</c><00:05:20.560><c> so</c><00:05:21.250><c> once</c><00:05:21.460><c> we</c><00:05:21.610><c> click</c>
+
+00:05:21.810 --> 00:05:21.820 align:start position:0%
+frequently in Cyprus so once we click
+ 
+
+00:05:21.820 --> 00:05:23.820 align:start position:0%
+frequently in Cyprus so once we click
+that<00:05:22.060><c> button</c><00:05:22.240><c> the</c><00:05:22.750><c> page</c><00:05:22.960><c> then</c><00:05:23.260><c> should</c><00:05:23.500><c> contain</c>
+
+00:05:23.820 --> 00:05:23.830 align:start position:0%
+that button the page then should contain
+ 
+
+00:05:23.830 --> 00:05:25.770 align:start position:0%
+that button the page then should contain
+the<00:05:23.890><c> words</c><00:05:24.190><c> firestorm</c><00:05:24.910><c> and</c><00:05:25.060><c> then</c><00:05:25.570><c> we'll</c><00:05:25.690><c> go</c>
+
+00:05:25.770 --> 00:05:25.780 align:start position:0%
+the words firestorm and then we'll go
+ 
+
+00:05:25.780 --> 00:05:27.090 align:start position:0%
+the words firestorm and then we'll go
+ahead<00:05:25.840><c> and</c><00:05:26.050><c> click</c><00:05:26.290><c> on</c><00:05:26.380><c> that</c><00:05:26.440><c> link</c><00:05:26.620><c> which</c>
+
+00:05:27.090 --> 00:05:27.100 align:start position:0%
+ahead and click on that link which
+ 
+
+00:05:27.100 --> 00:05:28.470 align:start position:0%
+ahead and click on that link which
+should<00:05:27.370><c> normally</c><00:05:27.550><c> bring</c><00:05:27.910><c> us</c><00:05:28.030><c> to</c><00:05:28.300><c> the</c>
+
+00:05:28.470 --> 00:05:28.480 align:start position:0%
+should normally bring us to the
+ 
+
+00:05:28.480 --> 00:05:30.390 align:start position:0%
+should normally bring us to the
+firestore<00:05:28.960><c> page</c><00:05:29.230><c> however</c><00:05:29.770><c> it's</c><00:05:30.070><c> currently</c>
+
+00:05:30.390 --> 00:05:30.400 align:start position:0%
+firestore page however it's currently
+ 
+
+00:05:30.400 --> 00:05:32.130 align:start position:0%
+firestore page however it's currently
+blocked<00:05:30.730><c> by</c><00:05:30.910><c> a</c><00:05:30.940><c> router</c><00:05:31.210><c> guard</c><00:05:31.479><c> so</c><00:05:31.840><c> it</c><00:05:31.960><c> should</c>
+
+00:05:32.130 --> 00:05:32.140 align:start position:0%
+blocked by a router guard so it should
+ 
+
+00:05:32.140 --> 00:05:33.630 align:start position:0%
+blocked by a router guard so it should
+show<00:05:32.290><c> a</c><00:05:32.320><c> notification</c><00:05:32.530><c> message</c><00:05:33.070><c> that</c><00:05:33.610><c> that</c>
+
+00:05:33.630 --> 00:05:33.640 align:start position:0%
+show a notification message that that
+ 
+
+00:05:33.640 --> 00:05:35.820 align:start position:0%
+show a notification message that that
+user<00:05:34.090><c> is</c><00:05:34.330><c> not</c><00:05:34.510><c> authorized</c><00:05:35.080><c> to</c><00:05:35.229><c> visit</c><00:05:35.680><c> that</c>
+
+00:05:35.820 --> 00:05:35.830 align:start position:0%
+user is not authorized to visit that
+ 
+
+00:05:35.830 --> 00:05:37.890 align:start position:0%
+user is not authorized to visit that
+page<00:05:36.040><c> in</c><00:05:36.370><c> this</c><00:05:36.970><c> app</c><00:05:37.150><c> I</c><00:05:37.270><c> have</c><00:05:37.390><c> a</c><00:05:37.450><c> notification</c>
+
+00:05:37.890 --> 00:05:37.900 align:start position:0%
+page in this app I have a notification
+ 
+
+00:05:37.900 --> 00:05:40.170 align:start position:0%
+page in this app I have a notification
+message<00:05:38.229><c> component</c><00:05:39.010><c> which</c><00:05:39.220><c> I</c><00:05:39.370><c> can</c><00:05:39.520><c> grab</c><00:05:39.790><c> and</c>
+
+00:05:40.170 --> 00:05:40.180 align:start position:0%
+message component which I can grab and
+ 
+
+00:05:40.180 --> 00:05:41.820 align:start position:0%
+message component which I can grab and
+then<00:05:40.360><c> I'll</c><00:05:40.479><c> get</c><00:05:40.600><c> the</c><00:05:40.750><c> children</c><00:05:40.990><c> elements</c><00:05:41.620><c> from</c>
+
+00:05:41.820 --> 00:05:41.830 align:start position:0%
+then I'll get the children elements from
+ 
+
+00:05:41.830 --> 00:05:43.830 align:start position:0%
+then I'll get the children elements from
+that<00:05:42.100><c> component</c><00:05:42.430><c> and</c><00:05:42.850><c> somewhere</c><00:05:43.690><c> inside</c>
+
+00:05:43.830 --> 00:05:43.840 align:start position:0%
+that component and somewhere inside
+ 
+
+00:05:43.840 --> 00:05:45.510 align:start position:0%
+that component and somewhere inside
+those<00:05:44.169><c> Dom</c><00:05:44.380><c> elements</c><00:05:44.860><c> we</c><00:05:45.070><c> should</c><00:05:45.250><c> have</c><00:05:45.400><c> the</c>
+
+00:05:45.510 --> 00:05:45.520 align:start position:0%
+those Dom elements we should have the
+ 
+
+00:05:45.520 --> 00:05:48.240 align:start position:0%
+those Dom elements we should have the
+text<00:05:45.880><c> you</c><00:05:46.150><c> must</c><00:05:46.300><c> be</c><00:05:46.570><c> logged</c><00:05:46.810><c> in</c><00:05:47.050><c> this</c><00:05:47.979><c> should</c>
+
+00:05:48.240 --> 00:05:48.250 align:start position:0%
+text you must be logged in this should
+ 
+
+00:05:48.250 --> 00:05:50.430 align:start position:0%
+text you must be logged in this should
+method<00:05:48.550><c> is</c><00:05:48.760><c> super</c><00:05:49.150><c> powerful</c><00:05:49.419><c> in</c><00:05:49.630><c> Cyprus</c><00:05:50.080><c> you</c>
+
+00:05:50.430 --> 00:05:50.440 align:start position:0%
+method is super powerful in Cyprus you
+ 
+
+00:05:50.440 --> 00:05:52.080 align:start position:0%
+method is super powerful in Cyprus you
+can<00:05:50.590><c> chain</c><00:05:50.800><c> it</c><00:05:50.919><c> on</c><00:05:51.070><c> to</c><00:05:51.310><c> any</c><00:05:51.520><c> element</c><00:05:52.000><c> that</c>
+
+00:05:52.080 --> 00:05:52.090 align:start position:0%
+can chain it on to any element that
+ 
+
+00:05:52.090 --> 00:05:53.670 align:start position:0%
+can chain it on to any element that
+you've<00:05:52.210><c> grabbed</c><00:05:52.540><c> to</c><00:05:52.870><c> make</c><00:05:53.050><c> assertions</c><00:05:53.530><c> about</c>
+
+00:05:53.670 --> 00:05:53.680 align:start position:0%
+you've grabbed to make assertions about
+ 
+
+00:05:53.680 --> 00:05:55.800 align:start position:0%
+you've grabbed to make assertions about
+it<00:05:53.950><c> for</c><00:05:54.580><c> the</c><00:05:54.729><c> first</c><00:05:54.910><c> argument</c><00:05:55.090><c> you</c><00:05:55.419><c> can</c><00:05:55.600><c> chain</c>
+
+00:05:55.800 --> 00:05:55.810 align:start position:0%
+it for the first argument you can chain
+ 
+
+00:05:55.810 --> 00:05:57.630 align:start position:0%
+it for the first argument you can chain
+assertions<00:05:56.320><c> together</c><00:05:56.590><c> then</c><00:05:57.220><c> the</c><00:05:57.370><c> second</c>
+
+00:05:57.630 --> 00:05:57.640 align:start position:0%
+assertions together then the second
+ 
+
+00:05:57.640 --> 00:05:59.280 align:start position:0%
+assertions together then the second
+argument<00:05:57.760><c> is</c><00:05:58.000><c> optional</c><00:05:58.419><c> and</c><00:05:58.720><c> is</c><00:05:58.840><c> the</c><00:05:59.020><c> value</c>
+
+00:05:59.280 --> 00:05:59.290 align:start position:0%
+argument is optional and is the value
+ 
+
+00:05:59.290 --> 00:06:01.110 align:start position:0%
+argument is optional and is the value
+that<00:05:59.410><c> you</c><00:05:59.560><c> want</c><00:05:59.740><c> to</c><00:05:59.860><c> compare</c><00:06:00.220><c> what's</c><00:06:00.850><c> really</c>
+
+00:06:01.110 --> 00:06:01.120 align:start position:0%
+that you want to compare what's really
+ 
+
+00:06:01.120 --> 00:06:02.280 align:start position:0%
+that you want to compare what's really
+nice<00:06:01.270><c> is</c><00:06:01.330><c> that</c><00:06:01.600><c> we</c><00:06:01.720><c> can</c><00:06:01.870><c> chain</c><00:06:02.080><c> multiple</c>
+
+00:06:02.280 --> 00:06:02.290 align:start position:0%
+nice is that we can chain multiple
+ 
+
+00:06:02.290 --> 00:06:04.890 align:start position:0%
+nice is that we can chain multiple
+assertions<00:06:02.919><c> together</c><00:06:03.220><c> by</c><00:06:03.490><c> using</c><00:06:03.550><c> and</c><00:06:04.150><c> for</c>
+
+00:06:04.890 --> 00:06:04.900 align:start position:0%
+assertions together by using and for
+ 
+
+00:06:04.900 --> 00:06:06.630 align:start position:0%
+assertions together by using and for
+example<00:06:05.169><c> this</c><00:06:05.530><c> text</c><00:06:05.919><c> might</c><00:06:06.100><c> be</c><00:06:06.220><c> contained</c><00:06:06.550><c> in</c>
+
+00:06:06.630 --> 00:06:06.640 align:start position:0%
+example this text might be contained in
+ 
+
+00:06:06.640 --> 00:06:08.100 align:start position:0%
+example this text might be contained in
+the<00:06:06.729><c> Dom</c><00:06:06.910><c> but</c><00:06:07.360><c> we</c><00:06:07.510><c> also</c><00:06:07.690><c> want</c><00:06:07.930><c> to</c><00:06:07.960><c> make</c><00:06:08.080><c> sure</c>
+
+00:06:08.100 --> 00:06:08.110 align:start position:0%
+the Dom but we also want to make sure
+ 
+
+00:06:08.110 --> 00:06:10.170 align:start position:0%
+the Dom but we also want to make sure
+that<00:06:08.410><c> it's</c><00:06:08.560><c> visible</c><00:06:08.919><c> to</c><00:06:09.040><c> the</c><00:06:09.220><c> user</c><00:06:09.490><c> which</c><00:06:10.060><c> we</c>
+
+00:06:10.170 --> 00:06:10.180 align:start position:0%
+that it's visible to the user which we
+ 
+
+00:06:10.180 --> 00:06:11.190 align:start position:0%
+that it's visible to the user which we
+can<00:06:10.330><c> do</c><00:06:10.419><c> by</c><00:06:10.600><c> asserting</c><00:06:10.840><c> that</c><00:06:11.020><c> the</c>
+
+00:06:11.190 --> 00:06:11.200 align:start position:0%
+can do by asserting that the
+ 
+
+00:06:11.200 --> 00:06:12.780 align:start position:0%
+can do by asserting that the
+notification<00:06:11.770><c> message</c><00:06:12.100><c> should</c><00:06:12.370><c> be</c><00:06:12.430><c> visible</c>
+
+00:06:12.780 --> 00:06:12.790 align:start position:0%
+notification message should be visible
+ 
+
+00:06:12.790 --> 00:06:15.719 align:start position:0%
+notification message should be visible
+if<00:06:13.540><c> you</c><00:06:13.720><c> uncomment</c><00:06:14.320><c> the</c><00:06:14.470><c> CY</c><00:06:14.800><c> dot</c><00:06:14.860><c> paws</c><00:06:15.310><c> line</c><00:06:15.580><c> of</c>
+
+00:06:15.719 --> 00:06:15.729 align:start position:0%
+if you uncomment the CY dot paws line of
+ 
+
+00:06:15.729 --> 00:06:17.280 align:start position:0%
+if you uncomment the CY dot paws line of
+code<00:06:15.880><c> that</c><00:06:16.030><c> I</c><00:06:16.090><c> have</c><00:06:16.240><c> at</c><00:06:16.479><c> the</c><00:06:16.600><c> top</c><00:06:16.810><c> of</c><00:06:16.960><c> the</c><00:06:17.020><c> spec</c>
+
+00:06:17.280 --> 00:06:17.290 align:start position:0%
+code that I have at the top of the spec
+ 
+
+00:06:17.290 --> 00:06:18.930 align:start position:0%
+code that I have at the top of the spec
+it'll<00:06:17.800><c> allow</c><00:06:17.919><c> us</c><00:06:17.950><c> to</c><00:06:18.100><c> go</c><00:06:18.280><c> through</c><00:06:18.460><c> each</c><00:06:18.700><c> item</c>
+
+00:06:18.930 --> 00:06:18.940 align:start position:0%
+it'll allow us to go through each item
+ 
+
+00:06:18.940 --> 00:06:21.090 align:start position:0%
+it'll allow us to go through each item
+step<00:06:19.390><c> by</c><00:06:19.540><c> step</c><00:06:19.840><c> so</c><00:06:20.320><c> with</c><00:06:20.530><c> that</c><00:06:20.650><c> one</c><00:06:20.830><c> line</c><00:06:20.979><c> of</c>
+
+00:06:21.090 --> 00:06:21.100 align:start position:0%
+step by step so with that one line of
+ 
+
+00:06:21.100 --> 00:06:22.500 align:start position:0%
+step by step so with that one line of
+code<00:06:21.130><c> we</c><00:06:21.490><c> can</c><00:06:21.610><c> just</c><00:06:21.820><c> click</c><00:06:22.030><c> the</c><00:06:22.150><c> next</c><00:06:22.330><c> button</c>
+
+00:06:22.500 --> 00:06:22.510 align:start position:0%
+code we can just click the next button
+ 
+
+00:06:22.510 --> 00:06:24.210 align:start position:0%
+code we can just click the next button
+up<00:06:22.870><c> here</c><00:06:23.050><c> at</c><00:06:23.110><c> the</c><00:06:23.229><c> top</c><00:06:23.410><c> and</c><00:06:23.740><c> it</c><00:06:23.919><c> will</c><00:06:24.010><c> take</c><00:06:24.190><c> us</c>
+
+00:06:24.210 --> 00:06:24.220 align:start position:0%
+up here at the top and it will take us
+ 
+
+00:06:24.220 --> 00:06:26.130 align:start position:0%
+up here at the top and it will take us
+through<00:06:24.520><c> each</c><00:06:24.700><c> step</c><00:06:24.970><c> and</c><00:06:25.210><c> show</c><00:06:25.570><c> us</c><00:06:25.720><c> where</c><00:06:25.960><c> the</c>
+
+00:06:26.130 --> 00:06:26.140 align:start position:0%
+through each step and show us where the
+ 
+
+00:06:26.140 --> 00:06:27.900 align:start position:0%
+through each step and show us where the
+UI<00:06:26.380><c> is</c><00:06:26.530><c> being</c><00:06:26.860><c> clicked</c><00:06:27.190><c> and</c><00:06:27.460><c> what</c><00:06:27.790><c> is</c>
+
+00:06:27.900 --> 00:06:27.910 align:start position:0%
+UI is being clicked and what is
+ 
+
+00:06:27.910 --> 00:06:30.810 align:start position:0%
+UI is being clicked and what is
+happening<00:06:28.360><c> in</c><00:06:28.540><c> response</c><00:06:29.310><c> when</c><00:06:30.310><c> it</c><00:06:30.460><c> clicks</c><00:06:30.669><c> the</c>
+
+00:06:30.810 --> 00:06:30.820 align:start position:0%
+happening in response when it clicks the
+ 
+
+00:06:30.820 --> 00:06:32.850 align:start position:0%
+happening in response when it clicks the
+button<00:06:31.060><c> it</c><00:06:31.210><c> will</c><00:06:31.330><c> navigate</c><00:06:31.510><c> to</c><00:06:31.750><c> a</c><00:06:31.900><c> new</c><00:06:32.110><c> URL</c><00:06:32.290><c> and</c>
+
+00:06:32.850 --> 00:06:32.860 align:start position:0%
+button it will navigate to a new URL and
+ 
+
+00:06:32.860 --> 00:06:34.409 align:start position:0%
+button it will navigate to a new URL and
+then<00:06:33.070><c> you'll</c><00:06:33.190><c> see</c><00:06:33.370><c> at</c><00:06:33.640><c> asserts</c><00:06:34.030><c> that</c><00:06:34.270><c> that</c>
+
+00:06:34.409 --> 00:06:34.419 align:start position:0%
+then you'll see at asserts that that
+ 
+
+00:06:34.419 --> 00:06:35.850 align:start position:0%
+then you'll see at asserts that that
+notification<00:06:35.050><c> message</c><00:06:35.320><c> has</c><00:06:35.560><c> the</c>
+
+00:06:35.850 --> 00:06:35.860 align:start position:0%
+notification message has the
+ 
+
+00:06:35.860 --> 00:06:38.370 align:start position:0%
+notification message has the
+corresponding<00:06:36.550><c> text</c><00:06:36.760><c> so</c><00:06:37.660><c> now</c><00:06:37.900><c> let's</c><00:06:38.110><c> go</c><00:06:38.229><c> ahead</c>
+
+00:06:38.370 --> 00:06:38.380 align:start position:0%
+corresponding text so now let's go ahead
+ 
+
+00:06:38.380 --> 00:06:40.710 align:start position:0%
+corresponding text so now let's go ahead
+and<00:06:38.560><c> sign</c><00:06:38.800><c> up</c><00:06:38.950><c> a</c><00:06:39.039><c> new</c><00:06:39.160><c> user</c><00:06:39.400><c> and</c><00:06:39.760><c> we'll</c><00:06:40.479><c> do</c><00:06:40.599><c> this</c>
+
+00:06:40.710 --> 00:06:40.720 align:start position:0%
+and sign up a new user and we'll do this
+ 
+
+00:06:40.720 --> 00:06:41.370 align:start position:0%
+and sign up a new user and we'll do this
+with<00:06:40.900><c> email</c>
+
+00:06:41.370 --> 00:06:41.380 align:start position:0%
+with email
+ 
+
+00:06:41.380 --> 00:06:42.990 align:start position:0%
+with email
+passwords<00:06:41.740><c> so</c><00:06:41.920><c> we</c><00:06:42.040><c> actually</c><00:06:42.220><c> have</c><00:06:42.520><c> to</c><00:06:42.730><c> type</c>
+
+00:06:42.990 --> 00:06:43.000 align:start position:0%
+passwords so we actually have to type
+ 
+
+00:06:43.000 --> 00:06:45.690 align:start position:0%
+passwords so we actually have to type
+into<00:06:43.180><c> a</c><00:06:43.270><c> form</c><00:06:44.040><c> the</c><00:06:45.040><c> first</c><00:06:45.310><c> thing</c><00:06:45.430><c> we'll</c><00:06:45.550><c> do</c><00:06:45.670><c> is</c>
+
+00:06:45.690 --> 00:06:45.700 align:start position:0%
+into a form the first thing we'll do is
+ 
+
+00:06:45.700 --> 00:06:47.820 align:start position:0%
+into a form the first thing we'll do is
+click<00:06:46.300><c> the</c><00:06:46.420><c> toggle</c><00:06:46.600><c> button</c><00:06:46.870><c> and</c><00:06:47.260><c> then</c><00:06:47.470><c> click</c>
+
+00:06:47.820 --> 00:06:47.830 align:start position:0%
+click the toggle button and then click
+ 
+
+00:06:47.830 --> 00:06:49.920 align:start position:0%
+click the toggle button and then click
+the<00:06:48.040><c> log</c><00:06:48.340><c> in</c><00:06:48.370><c> link</c><00:06:48.550><c> then</c><00:06:49.480><c> we'll</c><00:06:49.660><c> make</c><00:06:49.780><c> sure</c>
+
+00:06:49.920 --> 00:06:49.930 align:start position:0%
+the log in link then we'll make sure
+ 
+
+00:06:49.930 --> 00:06:51.840 align:start position:0%
+the log in link then we'll make sure
+that<00:06:50.080><c> that</c><00:06:50.200><c> takes</c><00:06:50.440><c> the</c><00:06:50.590><c> user</c><00:06:50.800><c> back</c><00:06:51.100><c> to</c><00:06:51.160><c> the</c><00:06:51.370><c> URL</c>
+
+00:06:51.840 --> 00:06:51.850 align:start position:0%
+that that takes the user back to the URL
+ 
+
+00:06:51.850 --> 00:06:53.970 align:start position:0%
+that that takes the user back to the URL
+page<00:06:52.090><c> which</c><00:06:52.480><c> we</c><00:06:52.600><c> can</c><00:06:52.750><c> do</c><00:06:52.870><c> with</c><00:06:53.050><c> Cypress</c><00:06:53.560><c> URL</c>
+
+00:06:53.970 --> 00:06:53.980 align:start position:0%
+page which we can do with Cypress URL
+ 
+
+00:06:53.980 --> 00:06:57.270 align:start position:0%
+page which we can do with Cypress URL
+and<00:06:54.280><c> then</c><00:06:54.640><c> a</c><00:06:54.670><c> should</c><00:06:54.850><c> assertion</c><00:06:55.800><c> now</c><00:06:56.800><c> a</c><00:06:56.830><c> best</c>
+
+00:06:57.270 --> 00:06:57.280 align:start position:0%
+and then a should assertion now a best
+ 
+
+00:06:57.280 --> 00:06:58.590 align:start position:0%
+and then a should assertion now a best
+practice<00:06:57.640><c> I'd</c><00:06:57.760><c> like</c><00:06:57.880><c> to</c><00:06:57.970><c> point</c><00:06:58.120><c> out</c><00:06:58.300><c> is</c><00:06:58.540><c> that</c>
+
+00:06:58.590 --> 00:06:58.600 align:start position:0%
+practice I'd like to point out is that
+ 
+
+00:06:58.600 --> 00:07:00.960 align:start position:0%
+practice I'd like to point out is that
+you<00:06:58.900><c> should</c><00:06:59.080><c> generally</c><00:06:59.410><c> avoid</c><00:06:59.680><c> using</c><00:07:00.100><c> IDs</c><00:07:00.550><c> or</c>
+
+00:07:00.960 --> 00:07:00.970 align:start position:0%
+you should generally avoid using IDs or
+ 
+
+00:07:00.970 --> 00:07:03.270 align:start position:0%
+you should generally avoid using IDs or
+CSS<00:07:01.510><c> classes</c><00:07:01.780><c> to</c><00:07:02.200><c> select</c><00:07:02.590><c> elements</c><00:07:03.040><c> from</c><00:07:03.190><c> the</c>
+
+00:07:03.270 --> 00:07:03.280 align:start position:0%
+CSS classes to select elements from the
+ 
+
+00:07:03.280 --> 00:07:05.010 align:start position:0%
+CSS classes to select elements from the
+Dom<00:07:03.460><c> that'll</c><00:07:04.180><c> make</c><00:07:04.300><c> your</c><00:07:04.450><c> test</c><00:07:04.630><c> brittle</c>
+
+00:07:05.010 --> 00:07:05.020 align:start position:0%
+Dom that'll make your test brittle
+ 
+
+00:07:05.020 --> 00:07:06.420 align:start position:0%
+Dom that'll make your test brittle
+because<00:07:05.350><c> those</c><00:07:05.530><c> things</c><00:07:05.770><c> are</c><00:07:05.950><c> likely</c><00:07:06.190><c> to</c>
+
+00:07:06.420 --> 00:07:06.430 align:start position:0%
+because those things are likely to
+ 
+
+00:07:06.430 --> 00:07:08.520 align:start position:0%
+because those things are likely to
+change<00:07:06.700><c> a</c><00:07:07.000><c> better</c><00:07:07.330><c> approach</c><00:07:07.630><c> is</c><00:07:07.660><c> to</c><00:07:07.870><c> use</c><00:07:08.230><c> a</c>
+
+00:07:08.520 --> 00:07:08.530 align:start position:0%
+change a better approach is to use a
+ 
+
+00:07:08.530 --> 00:07:11.040 align:start position:0%
+change a better approach is to use a
+data<00:07:08.920><c> attribute</c><00:07:09.550><c> or</c><00:07:09.850><c> the</c><00:07:10.240><c> actual</c><00:07:10.510><c> component</c>
+
+00:07:11.040 --> 00:07:11.050 align:start position:0%
+data attribute or the actual component
+ 
+
+00:07:11.050 --> 00:07:12.930 align:start position:0%
+data attribute or the actual component
+name<00:07:11.170><c> itself</c><00:07:11.530><c> in</c><00:07:12.040><c> this</c><00:07:12.190><c> case</c><00:07:12.400><c> I'm</c><00:07:12.550><c> using</c><00:07:12.580><c> the</c>
+
+00:07:12.930 --> 00:07:12.940 align:start position:0%
+name itself in this case I'm using the
+ 
+
+00:07:12.940 --> 00:07:15.000 align:start position:0%
+name itself in this case I'm using the
+name<00:07:13.210><c> attribute</c><00:07:13.390><c> on</c><00:07:13.900><c> an</c><00:07:14.020><c> input</c><00:07:14.380><c> element</c><00:07:14.740><c> which</c>
+
+00:07:15.000 --> 00:07:15.010 align:start position:0%
+name attribute on an input element which
+ 
+
+00:07:15.010 --> 00:07:17.300 align:start position:0%
+name attribute on an input element which
+is<00:07:15.220><c> very</c><00:07:15.520><c> unlikely</c><00:07:15.880><c> to</c><00:07:16.000><c> change</c><00:07:16.090><c> in</c><00:07:16.480><c> most</c><00:07:16.660><c> cases</c>
+
+00:07:17.300 --> 00:07:17.310 align:start position:0%
+is very unlikely to change in most cases
+ 
+
+00:07:17.310 --> 00:07:19.650 align:start position:0%
+is very unlikely to change in most cases
+then<00:07:18.310><c> if</c><00:07:18.400><c> you</c><00:07:18.490><c> remember</c><00:07:18.790><c> earlier</c><00:07:18.820><c> we</c><00:07:19.240><c> set</c><00:07:19.420><c> up</c><00:07:19.450><c> a</c>
+
+00:07:19.650 --> 00:07:19.660 align:start position:0%
+then if you remember earlier we set up a
+ 
+
+00:07:19.660 --> 00:07:21.900 align:start position:0%
+then if you remember earlier we set up a
+global<00:07:19.990><c> email</c><00:07:20.500><c> address</c><00:07:20.860><c> so</c><00:07:21.280><c> I</c><00:07:21.310><c> can</c><00:07:21.520><c> simply</c>
+
+00:07:21.900 --> 00:07:21.910 align:start position:0%
+global email address so I can simply
+ 
+
+00:07:21.910 --> 00:07:23.490 align:start position:0%
+global email address so I can simply
+type<00:07:22.120><c> that</c><00:07:22.360><c> email</c><00:07:22.660><c> address</c><00:07:22.960><c> into</c><00:07:23.170><c> the</c><00:07:23.260><c> form</c>
+
+00:07:23.490 --> 00:07:23.500 align:start position:0%
+type that email address into the form
+ 
+
+00:07:23.500 --> 00:07:25.620 align:start position:0%
+type that email address into the form
+with<00:07:23.830><c> the</c><00:07:24.040><c> type</c><00:07:24.250><c> operator</c><00:07:24.730><c> I'll</c><00:07:25.150><c> do</c><00:07:25.360><c> the</c><00:07:25.480><c> same</c>
+
+00:07:25.620 --> 00:07:25.630 align:start position:0%
+with the type operator I'll do the same
+ 
+
+00:07:25.630 --> 00:07:27.390 align:start position:0%
+with the type operator I'll do the same
+thing<00:07:25.840><c> for</c><00:07:25.990><c> the</c><00:07:26.050><c> password</c><00:07:26.260><c> then</c><00:07:27.010><c> find</c><00:07:27.310><c> the</c>
+
+00:07:27.390 --> 00:07:27.400 align:start position:0%
+thing for the password then find the
+ 
+
+00:07:27.400 --> 00:07:29.880 align:start position:0%
+thing for the password then find the
+submit<00:07:27.700><c> button</c><00:07:27.730><c> and</c><00:07:28.210><c> click</c><00:07:28.660><c> it</c><00:07:28.840><c> then</c><00:07:29.590><c> we</c><00:07:29.770><c> can</c>
+
+00:07:29.880 --> 00:07:29.890 align:start position:0%
+submit button and click it then we can
+ 
+
+00:07:29.890 --> 00:07:31.680 align:start position:0%
+submit button and click it then we can
+verify<00:07:30.070><c> that</c><00:07:30.310><c> we</c><00:07:30.430><c> have</c><00:07:30.580><c> this</c><00:07:30.730><c> new</c><00:07:30.910><c> user</c><00:07:31.150><c> and</c><00:07:31.510><c> we</c>
+
+00:07:31.680 --> 00:07:31.690 align:start position:0%
+verify that we have this new user and we
+ 
+
+00:07:31.690 --> 00:07:33.150 align:start position:0%
+verify that we have this new user and we
+could<00:07:31.810><c> even</c><00:07:31.900><c> verify</c><00:07:32.170><c> things</c><00:07:32.380><c> and</c><00:07:32.830><c> local</c>
+
+00:07:33.150 --> 00:07:33.160 align:start position:0%
+could even verify things and local
+ 
+
+00:07:33.160 --> 00:07:34.800 align:start position:0%
+could even verify things and local
+storage<00:07:33.550><c> but</c><00:07:34.060><c> for</c><00:07:34.240><c> now</c><00:07:34.330><c> we'll</c><00:07:34.480><c> just</c><00:07:34.510><c> make</c><00:07:34.780><c> sure</c>
+
+00:07:34.800 --> 00:07:34.810 align:start position:0%
+storage but for now we'll just make sure
+ 
+
+00:07:34.810 --> 00:07:36.090 align:start position:0%
+storage but for now we'll just make sure
+that<00:07:34.930><c> it</c><00:07:35.140><c> has</c><00:07:35.260><c> the</c><00:07:35.410><c> right</c><00:07:35.560><c> message</c><00:07:35.920><c> in</c><00:07:36.040><c> the</c>
+
+00:07:36.090 --> 00:07:36.100 align:start position:0%
+that it has the right message in the
+ 
+
+00:07:36.100 --> 00:07:37.770 align:start position:0%
+that it has the right message in the
+page<00:07:36.280><c> and</c><00:07:36.550><c> then</c><00:07:37.150><c> from</c><00:07:37.330><c> there</c><00:07:37.450><c> we'll</c><00:07:37.570><c> go</c><00:07:37.690><c> ahead</c>
+
+00:07:37.770 --> 00:07:37.780 align:start position:0%
+page and then from there we'll go ahead
+ 
+
+00:07:37.780 --> 00:07:39.750 align:start position:0%
+page and then from there we'll go ahead
+and<00:07:37.870><c> log</c><00:07:38.110><c> the</c><00:07:38.230><c> user</c><00:07:38.260><c> out</c><00:07:38.530><c> so</c><00:07:39.040><c> we</c><00:07:39.160><c> can</c><00:07:39.310><c> log</c><00:07:39.550><c> them</c>
+
+00:07:39.750 --> 00:07:39.760 align:start position:0%
+and log the user out so we can log them
+ 
+
+00:07:39.760 --> 00:07:41.880 align:start position:0%
+and log the user out so we can log them
+back<00:07:39.910><c> in</c><00:07:40.120><c> in</c><00:07:40.270><c> the</c><00:07:40.360><c> next</c><00:07:40.480><c> step</c><00:07:40.780><c> when</c><00:07:41.530><c> we</c><00:07:41.680><c> time</c>
+
+00:07:41.880 --> 00:07:41.890 align:start position:0%
+back in in the next step when we time
+ 
+
+00:07:41.890 --> 00:07:43.560 align:start position:0%
+back in in the next step when we time
+travel<00:07:42.190><c> through</c><00:07:42.340><c> the</c><00:07:42.430><c> spec</c><00:07:42.730><c> you</c><00:07:43.000><c> can</c><00:07:43.090><c> see</c><00:07:43.420><c> that</c>
+
+00:07:43.560 --> 00:07:43.570 align:start position:0%
+travel through the spec you can see that
+ 
+
+00:07:43.570 --> 00:07:45.180 align:start position:0%
+travel through the spec you can see that
+it's<00:07:43.720><c> actually</c><00:07:43.930><c> typing</c><00:07:44.500><c> in</c><00:07:44.650><c> the</c><00:07:44.830><c> randomly</c>
+
+00:07:45.180 --> 00:07:45.190 align:start position:0%
+it's actually typing in the randomly
+ 
+
+00:07:45.190 --> 00:07:47.040 align:start position:0%
+it's actually typing in the randomly
+generated<00:07:45.730><c> email</c><00:07:46.030><c> address</c><00:07:46.360><c> into</c><00:07:46.600><c> the</c><00:07:46.810><c> form</c>
+
+00:07:47.040 --> 00:07:47.050 align:start position:0%
+generated email address into the form
+ 
+
+00:07:47.050 --> 00:07:49.560 align:start position:0%
+generated email address into the form
+input<00:07:47.440><c> and</c><00:07:47.680><c> then</c><00:07:48.430><c> it</c><00:07:48.550><c> highlights</c><00:07:48.970><c> the</c><00:07:49.240><c> submit</c>
+
+00:07:49.560 --> 00:07:49.570 align:start position:0%
+input and then it highlights the submit
+ 
+
+00:07:49.570 --> 00:07:51.180 align:start position:0%
+input and then it highlights the submit
+button<00:07:49.600><c> with</c><00:07:49.930><c> the</c><00:07:50.020><c> red</c><00:07:50.170><c> dot</c><00:07:50.410><c> shows</c><00:07:50.950><c> you</c><00:07:51.070><c> that</c>
+
+00:07:51.180 --> 00:07:51.190 align:start position:0%
+button with the red dot shows you that
+ 
+
+00:07:51.190 --> 00:07:52.890 align:start position:0%
+button with the red dot shows you that
+it<00:07:51.310><c> gets</c><00:07:51.460><c> clicked</c><00:07:51.820><c> and</c><00:07:52.090><c> then</c><00:07:52.330><c> it</c><00:07:52.420><c> navigates</c>
+
+00:07:52.890 --> 00:07:52.900 align:start position:0%
+it gets clicked and then it navigates
+ 
+
+00:07:52.900 --> 00:07:54.870 align:start position:0%
+it gets clicked and then it navigates
+back<00:07:53.170><c> to</c><00:07:53.350><c> the</c><00:07:53.440><c> new</c><00:07:53.560><c> page</c><00:07:53.770><c> with</c><00:07:54.220><c> the</c><00:07:54.460><c> proper</c>
+
+00:07:54.870 --> 00:07:54.880 align:start position:0%
+back to the new page with the proper
+ 
+
+00:07:54.880 --> 00:07:57.120 align:start position:0%
+back to the new page with the proper
+message<00:07:55.030><c> displayed</c><00:07:55.630><c> then</c><00:07:56.530><c> you'll</c><00:07:56.680><c> also</c><00:07:56.860><c> see</c>
+
+00:07:57.120 --> 00:07:57.130 align:start position:0%
+message displayed then you'll also see
+ 
+
+00:07:57.130 --> 00:07:59.280 align:start position:0%
+message displayed then you'll also see
+all<00:07:57.340><c> of</c><00:07:57.370><c> the</c><00:07:57.580><c> a</c><00:07:57.610><c> synchronous</c><00:07:58.330><c> xhr</c><00:07:58.420><c> requests</c>
+
+00:07:59.280 --> 00:07:59.290 align:start position:0%
+all of the a synchronous xhr requests
+ 
+
+00:07:59.290 --> 00:08:00.930 align:start position:0%
+all of the a synchronous xhr requests
+that<00:07:59.560><c> firebase</c><00:08:00.010><c> is</c><00:08:00.220><c> making</c><00:08:00.580><c> with</c><00:08:00.760><c> the</c>
+
+00:08:00.930 --> 00:08:00.940 align:start position:0%
+that firebase is making with the
+ 
+
+00:08:00.940 --> 00:08:03.600 align:start position:0%
+that firebase is making with the
+identity<00:08:01.300><c> toolkit</c><00:08:01.780><c> to</c><00:08:01.990><c> login</c><00:08:02.380><c> the</c><00:08:02.470><c> user</c><00:08:02.610><c> the</c>
+
+00:08:03.600 --> 00:08:03.610 align:start position:0%
+identity toolkit to login the user the
+ 
+
+00:08:03.610 --> 00:08:04.740 align:start position:0%
+identity toolkit to login the user the
+next<00:08:03.880><c> thing</c><00:08:03.970><c> I</c><00:08:04.030><c> want</c><00:08:04.180><c> to</c><00:08:04.210><c> do</c><00:08:04.330><c> is</c><00:08:04.450><c> show</c><00:08:04.600><c> you</c><00:08:04.660><c> how</c>
+
+00:08:04.740 --> 00:08:04.750 align:start position:0%
+next thing I want to do is show you how
+ 
+
+00:08:04.750 --> 00:08:07.080 align:start position:0%
+next thing I want to do is show you how
+to<00:08:04.930><c> extend</c><00:08:05.410><c> Cyprus</c><00:08:05.950><c> with</c><00:08:06.220><c> your</c><00:08:06.430><c> own</c><00:08:06.640><c> custom</c>
+
+00:08:07.080 --> 00:08:07.090 align:start position:0%
+to extend Cyprus with your own custom
+ 
+
+00:08:07.090 --> 00:08:09.540 align:start position:0%
+to extend Cyprus with your own custom
+method<00:08:07.450><c> so</c><00:08:07.960><c> let's</c><00:08:07.990><c> imagine</c><00:08:08.320><c> we</c><00:08:08.680><c> often</c><00:08:09.220><c> need</c><00:08:09.340><c> to</c>
+
+00:08:09.540 --> 00:08:09.550 align:start position:0%
+method so let's imagine we often need to
+ 
+
+00:08:09.550 --> 00:08:11.460 align:start position:0%
+method so let's imagine we often need to
+login<00:08:09.910><c> the</c><00:08:10.060><c> user</c><00:08:10.150><c> to</c><00:08:10.660><c> do</c><00:08:10.930><c> something</c><00:08:11.290><c> in</c><00:08:11.380><c> our</c>
+
+00:08:11.460 --> 00:08:11.470 align:start position:0%
+login the user to do something in our
+ 
+
+00:08:11.470 --> 00:08:14.220 align:start position:0%
+login the user to do something in our
+app<00:08:12.090><c> instead</c><00:08:13.090><c> of</c><00:08:13.210><c> repeating</c><00:08:13.630><c> our</c><00:08:13.750><c> test</c><00:08:13.990><c> code</c>
+
+00:08:14.220 --> 00:08:14.230 align:start position:0%
+app instead of repeating our test code
+ 
+
+00:08:14.230 --> 00:08:15.960 align:start position:0%
+app instead of repeating our test code
+over<00:08:14.560><c> and</c><00:08:14.590><c> over</c><00:08:14.740><c> again</c><00:08:14.950><c> I'm</c><00:08:15.280><c> going</c><00:08:15.610><c> to</c><00:08:15.730><c> create</c>
+
+00:08:15.960 --> 00:08:15.970 align:start position:0%
+over and over again I'm going to create
+ 
+
+00:08:15.970 --> 00:08:18.060 align:start position:0%
+over and over again I'm going to create
+a<00:08:16.180><c> login</c><00:08:16.690><c> method</c><00:08:16.840><c> that</c><00:08:17.380><c> we</c><00:08:17.500><c> can</c><00:08:17.680><c> reuse</c>
+
+00:08:18.060 --> 00:08:18.070 align:start position:0%
+a login method that we can reuse
+ 
+
+00:08:18.070 --> 00:08:21.180 align:start position:0%
+a login method that we can reuse
+throughout<00:08:18.250><c> our</c><00:08:18.610><c> test</c><00:08:18.940><c> Suites</c><00:08:19.770><c> we</c><00:08:20.770><c> will</c><00:08:21.010><c> go</c>
+
+00:08:21.180 --> 00:08:21.190 align:start position:0%
+throughout our test Suites we will go
+ 
+
+00:08:21.190 --> 00:08:23.340 align:start position:0%
+throughout our test Suites we will go
+into<00:08:21.370><c> the</c><00:08:21.610><c> support</c><00:08:22.180><c> folder</c><00:08:22.570><c> and</c><00:08:22.780><c> then</c><00:08:23.140><c> in</c>
+
+00:08:23.340 --> 00:08:23.350 align:start position:0%
+into the support folder and then in
+ 
+
+00:08:23.350 --> 00:08:25.830 align:start position:0%
+into the support folder and then in
+commands<00:08:24.220><c> and</c><00:08:24.400><c> then</c><00:08:24.700><c> call</c><00:08:24.910><c> Cyprus</c><00:08:25.390><c> commands</c>
+
+00:08:25.830 --> 00:08:25.840 align:start position:0%
+commands and then call Cyprus commands
+ 
+
+00:08:25.840 --> 00:08:28.470 align:start position:0%
+commands and then call Cyprus commands
+add<00:08:26.200><c> the</c><00:08:27.190><c> second</c><00:08:27.640><c> argument</c><00:08:27.760><c> is</c><00:08:28.090><c> just</c><00:08:28.390><c> a</c>
+
+00:08:28.470 --> 00:08:28.480 align:start position:0%
+add the second argument is just a
+ 
+
+00:08:28.480 --> 00:08:30.360 align:start position:0%
+add the second argument is just a
+function<00:08:28.960><c> that</c><00:08:29.170><c> will</c><00:08:29.530><c> run</c><00:08:29.770><c> the</c><00:08:29.800><c> steps</c><00:08:30.130><c> needed</c>
+
+00:08:30.360 --> 00:08:30.370 align:start position:0%
+function that will run the steps needed
+ 
+
+00:08:30.370 --> 00:08:32.760 align:start position:0%
+function that will run the steps needed
+to<00:08:30.520><c> execute</c><00:08:31.120><c> this</c><00:08:31.360><c> command</c><00:08:31.540><c> in</c><00:08:31.990><c> most</c><00:08:32.560><c> cases</c>
+
+00:08:32.760 --> 00:08:32.770 align:start position:0%
+to execute this command in most cases
+ 
+
+00:08:32.770 --> 00:08:34.380 align:start position:0%
+to execute this command in most cases
+you'd<00:08:33.010><c> probably</c><00:08:33.190><c> want</c><00:08:33.460><c> to</c><00:08:33.640><c> log</c><00:08:33.880><c> the</c><00:08:34.030><c> user</c><00:08:34.060><c> in</c>
+
+00:08:34.380 --> 00:08:34.390 align:start position:0%
+you'd probably want to log the user in
+ 
+
+00:08:34.390 --> 00:08:36.360 align:start position:0%
+you'd probably want to log the user in
+programmatically<00:08:35.080><c> but</c><00:08:35.560><c> in</c><00:08:35.770><c> this</c><00:08:35.890><c> case</c><00:08:36.070><c> we'll</c>
+
+00:08:36.360 --> 00:08:36.370 align:start position:0%
+programmatically but in this case we'll
+ 
+
+00:08:36.370 --> 00:08:37.740 align:start position:0%
+programmatically but in this case we'll
+just<00:08:36.400><c> go</c><00:08:36.669><c> ahead</c><00:08:36.760><c> and</c><00:08:37.030><c> have</c><00:08:37.120><c> the</c><00:08:37.240><c> user</c><00:08:37.419><c> click</c>
+
+00:08:37.740 --> 00:08:37.750 align:start position:0%
+just go ahead and have the user click
+ 
+
+00:08:37.750 --> 00:08:39.270 align:start position:0%
+just go ahead and have the user click
+different<00:08:38.110><c> UI</c><00:08:38.289><c> elements</c><00:08:38.860><c> until</c><00:08:39.099><c> they're</c>
+
+00:08:39.270 --> 00:08:39.280 align:start position:0%
+different UI elements until they're
+ 
+
+00:08:39.280 --> 00:08:41.400 align:start position:0%
+different UI elements until they're
+logged<00:08:39.520><c> into</c><00:08:39.729><c> their</c><00:08:39.940><c> account</c><00:08:40.300><c> so</c><00:08:40.570><c> what</c><00:08:41.260><c> we've</c>
+
+00:08:41.400 --> 00:08:41.410 align:start position:0%
+logged into their account so what we've
+ 
+
+00:08:41.410 --> 00:08:42.719 align:start position:0%
+logged into their account so what we've
+really<00:08:41.440><c> done</c><00:08:41.650><c> is</c><00:08:41.800><c> just</c><00:08:41.919><c> created</c><00:08:42.370><c> a</c><00:08:42.430><c> helper</c>
+
+00:08:42.719 --> 00:08:42.729 align:start position:0%
+really done is just created a helper
+ 
+
+00:08:42.729 --> 00:08:44.340 align:start position:0%
+really done is just created a helper
+method<00:08:43.030><c> that</c><00:08:43.240><c> we</c><00:08:43.360><c> can</c><00:08:43.390><c> use</c><00:08:43.539><c> in</c><00:08:43.780><c> our</c><00:08:43.840><c> specs</c><00:08:44.169><c> to</c>
+
+00:08:44.340 --> 00:08:44.350 align:start position:0%
+method that we can use in our specs to
+ 
+
+00:08:44.350 --> 00:08:46.530 align:start position:0%
+method that we can use in our specs to
+keep<00:08:44.530><c> them</c><00:08:44.710><c> concise</c><00:08:45.160><c> and</c><00:08:45.490><c> readable</c><00:08:45.820><c> so</c>
+
+00:08:46.530 --> 00:08:46.540 align:start position:0%
+keep them concise and readable so
+ 
+
+00:08:46.540 --> 00:08:48.540 align:start position:0%
+keep them concise and readable so
+getting<00:08:46.810><c> back</c><00:08:46.960><c> to</c><00:08:47.020><c> our</c><00:08:47.170><c> main</c><00:08:47.410><c> spec</c><00:08:47.710><c> now</c><00:08:47.740><c> we</c><00:08:48.370><c> can</c>
+
+00:08:48.540 --> 00:08:48.550 align:start position:0%
+getting back to our main spec now we can
+ 
+
+00:08:48.550 --> 00:08:50.220 align:start position:0%
+getting back to our main spec now we can
+log<00:08:48.760><c> the</c><00:08:48.910><c> user</c><00:08:49.090><c> in</c><00:08:49.300><c> that</c><00:08:49.330><c> we</c><00:08:49.540><c> just</c><00:08:49.570><c> logged</c><00:08:50.020><c> out</c>
+
+00:08:50.220 --> 00:08:50.230 align:start position:0%
+log the user in that we just logged out
+ 
+
+00:08:50.230 --> 00:08:51.930 align:start position:0%
+log the user in that we just logged out
+in<00:08:50.380><c> the</c><00:08:50.440><c> previous</c><00:08:50.800><c> spec</c><00:08:51.040><c> and</c><00:08:51.280><c> then</c><00:08:51.730><c> do</c>
+
+00:08:51.930 --> 00:08:51.940 align:start position:0%
+in the previous spec and then do
+ 
+
+00:08:51.940 --> 00:08:53.220 align:start position:0%
+in the previous spec and then do
+whatever<00:08:52.089><c> else</c><00:08:52.330><c> we</c><00:08:52.480><c> need</c><00:08:52.510><c> to</c><00:08:52.690><c> do</c><00:08:52.870><c> with</c><00:08:53.080><c> the</c>
+
+00:08:53.220 --> 00:08:53.230 align:start position:0%
+whatever else we need to do with the
+ 
+
+00:08:53.230 --> 00:08:54.010 align:start position:0%
+whatever else we need to do with the
+logged<00:08:53.410><c> in</c><00:08:53.589><c> user</c>
+
+00:08:54.010 --> 00:08:54.020 align:start position:0%
+logged in user
+ 
+
+00:08:54.020 --> 00:08:56.050 align:start position:0%
+logged in user
+the<00:08:54.589><c> bottom</c><00:08:54.890><c> line</c><00:08:55.040><c> is</c><00:08:55.220><c> it's</c><00:08:55.399><c> just</c><00:08:55.459><c> a</c><00:08:55.760><c> really</c>
+
+00:08:56.050 --> 00:08:56.060 align:start position:0%
+the bottom line is it's just a really
+ 
+
+00:08:56.060 --> 00:08:57.790 align:start position:0%
+the bottom line is it's just a really
+convenient<00:08:56.390><c> way</c><00:08:56.570><c> to</c><00:08:56.690><c> share</c><00:08:57.230><c> code</c><00:08:57.500><c> throughout</c>
+
+00:08:57.790 --> 00:08:57.800 align:start position:0%
+convenient way to share code throughout
+ 
+
+00:08:57.800 --> 00:08:59.949 align:start position:0%
+convenient way to share code throughout
+your<00:08:58.040><c> tests</c><00:08:58.430><c> there's</c><00:08:59.270><c> so</c><00:08:59.480><c> much</c><00:08:59.570><c> more</c><00:08:59.750><c> you</c><00:08:59.810><c> can</c>
+
+00:08:59.949 --> 00:08:59.959 align:start position:0%
+your tests there's so much more you can
+ 
+
+00:08:59.959 --> 00:09:01.420 align:start position:0%
+your tests there's so much more you can
+do<00:09:00.110><c> with</c><00:09:00.260><c> Cypress</c><00:09:00.649><c> that</c><00:09:00.860><c> I'll</c><00:09:01.040><c> have</c><00:09:01.190><c> to</c><00:09:01.279><c> make</c><00:09:01.370><c> a</c>
+
+00:09:01.420 --> 00:09:01.430 align:start position:0%
+do with Cypress that I'll have to make a
+ 
+
+00:09:01.430 --> 00:09:03.010 align:start position:0%
+do with Cypress that I'll have to make a
+whole<00:09:01.640><c> nother</c><00:09:01.760><c> video</c><00:09:01.940><c> about</c><00:09:02.510><c> more</c><00:09:02.750><c> advanced</c>
+
+00:09:03.010 --> 00:09:03.020 align:start position:0%
+whole nother video about more advanced
+ 
+
+00:09:03.020 --> 00:09:05.470 align:start position:0%
+whole nother video about more advanced
+concepts<00:09:03.589><c> again</c><00:09:04.279><c> the</c><00:09:04.459><c> API</c><00:09:04.850><c> is</c><00:09:04.970><c> really</c><00:09:05.330><c> well</c>
+
+00:09:05.470 --> 00:09:05.480 align:start position:0%
+concepts again the API is really well
+ 
+
+00:09:05.480 --> 00:09:07.360 align:start position:0%
+concepts again the API is really well
+documented<00:09:05.810><c> and</c><00:09:06.170><c> intuitive</c><00:09:06.649><c> so</c><00:09:06.890><c> I</c><00:09:06.920><c> recommend</c>
+
+00:09:07.360 --> 00:09:07.370 align:start position:0%
+documented and intuitive so I recommend
+ 
+
+00:09:07.370 --> 00:09:08.530 align:start position:0%
+documented and intuitive so I recommend
+that<00:09:07.459><c> you</c><00:09:07.640><c> give</c><00:09:07.820><c> it</c><00:09:07.910><c> a</c><00:09:07.970><c> try</c>
+
+00:09:08.530 --> 00:09:08.540 align:start position:0%
+that you give it a try
+ 
+
+00:09:08.540 --> 00:09:09.730 align:start position:0%
+that you give it a try
+I've<00:09:08.779><c> been</c><00:09:08.930><c> using</c><00:09:09.080><c> it</c><00:09:09.230><c> for</c><00:09:09.260><c> the</c><00:09:09.380><c> last</c><00:09:09.589><c> few</c>
+
+00:09:09.730 --> 00:09:09.740 align:start position:0%
+I've been using it for the last few
+ 
+
+00:09:09.740 --> 00:09:11.320 align:start position:0%
+I've been using it for the last few
+weeks<00:09:09.830><c> and</c><00:09:10.250><c> it's</c><00:09:10.490><c> completely</c><00:09:10.850><c> changed</c><00:09:11.240><c> the</c>
+
+00:09:11.320 --> 00:09:11.330 align:start position:0%
+weeks and it's completely changed the
+ 
+
+00:09:11.330 --> 00:09:12.880 align:start position:0%
+weeks and it's completely changed the
+way<00:09:11.360><c> that</c><00:09:11.600><c> I</c><00:09:11.660><c> do</c><00:09:11.779><c> and</c><00:09:11.959><c> and</c><00:09:12.350><c> testing</c><00:09:12.770><c> and</c>
+
+00:09:12.880 --> 00:09:12.890 align:start position:0%
+way that I do and and testing and
+ 
+
+00:09:12.890 --> 00:09:14.199 align:start position:0%
+way that I do and and testing and
+angular<00:09:13.160><c> I'm</c><00:09:13.640><c> gonna</c><00:09:13.820><c> go</c><00:09:13.880><c> ahead</c><00:09:13.940><c> and</c><00:09:14.029><c> wrap</c>
+
+00:09:14.199 --> 00:09:14.209 align:start position:0%
+angular I'm gonna go ahead and wrap
+ 
+
+00:09:14.209 --> 00:09:15.820 align:start position:0%
+angular I'm gonna go ahead and wrap
+things<00:09:14.420><c> up</c><00:09:14.540><c> there</c><00:09:14.779><c> if</c><00:09:15.080><c> this</c><00:09:15.260><c> video</c><00:09:15.500><c> helped</c><00:09:15.770><c> you</c>
+
+00:09:15.820 --> 00:09:15.830 align:start position:0%
+things up there if this video helped you
+ 
+
+00:09:15.830 --> 00:09:17.650 align:start position:0%
+things up there if this video helped you
+please<00:09:15.920><c> like</c><00:09:16.250><c> and</c><00:09:16.430><c> subscribe</c><00:09:16.520><c> and</c><00:09:17.120><c> if</c><00:09:17.540><c> you're</c>
+
+00:09:17.650 --> 00:09:17.660 align:start position:0%
+please like and subscribe and if you're
+ 
+
+00:09:17.660 --> 00:09:19.060 align:start position:0%
+please like and subscribe and if you're
+ready<00:09:17.810><c> to</c><00:09:17.930><c> start</c><00:09:18.110><c> building</c><00:09:18.290><c> a</c><00:09:18.529><c> serious</c><00:09:18.830><c> app</c>
+
+00:09:19.060 --> 00:09:19.070 align:start position:0%
+ready to start building a serious app
+ 
+
+00:09:19.070 --> 00:09:20.710 align:start position:0%
+ready to start building a serious app
+consider<00:09:19.580><c> becoming</c><00:09:19.850><c> a</c><00:09:20.000><c> pro</c><00:09:20.240><c> member</c><00:09:20.510><c> at</c>
+
+00:09:20.710 --> 00:09:20.720 align:start position:0%
+consider becoming a pro member at
+ 
+
+00:09:20.720 --> 00:09:22.810 align:start position:0%
+consider becoming a pro member at
+angular<00:09:21.020><c> firebase</c><00:09:21.529><c> com</c><00:09:21.980><c> you'll</c><00:09:22.399><c> get</c><00:09:22.520><c> access</c>
+
+00:09:22.810 --> 00:09:22.820 align:start position:0%
+angular firebase com you'll get access
+ 
+
+00:09:22.820 --> 00:09:24.040 align:start position:0%
+angular firebase com you'll get access
+to<00:09:23.000><c> all</c><00:09:23.180><c> kinds</c><00:09:23.330><c> of</c><00:09:23.450><c> exclusive</c><00:09:23.899><c> content</c>
+
+00:09:24.040 --> 00:09:24.050 align:start position:0%
+to all kinds of exclusive content
+ 
+
+00:09:24.050 --> 00:09:25.960 align:start position:0%
+to all kinds of exclusive content
+designed<00:09:24.740><c> to</c><00:09:24.980><c> get</c><00:09:25.190><c> your</c><00:09:25.310><c> app</c><00:09:25.430><c> into</c><00:09:25.670><c> production</c>
+
+00:09:25.960 --> 00:09:25.970 align:start position:0%
+designed to get your app into production
+ 
+
+00:09:25.970 --> 00:09:28.240 align:start position:0%
+designed to get your app into production
+faster<00:09:26.600><c> thanks</c><00:09:27.230><c> for</c><00:09:27.350><c> watching</c><00:09:27.740><c> and</c><00:09:28.010><c> I'll</c><00:09:28.220><c> talk</c>
+
+00:09:28.240 --> 00:09:28.250 align:start position:0%
+faster thanks for watching and I'll talk
+ 
+
+00:09:28.250 --> 00:09:30.850 align:start position:0%
+faster thanks for watching and I'll talk
+to<00:09:28.490><c> you</c><00:09:28.640><c> soon</c>
+

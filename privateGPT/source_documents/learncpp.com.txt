@@ -1,0 +1,1061 @@
+   #[https://www.learncpp.com/wp-json/wp/v2/pages/8]alternate
+   [https://www.learncpp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fww
+   w.learncpp.com%2F]alternate
+   [https://www.learncpp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fww
+   w.learncpp.com%2F&format=xml]alternate
+
+     * [https://www.learncpp.com/learn-cpp-site-index/]Site Index
+     * [https://www.learncpp.com/latest-changes/]Latest Changes
+     * [https://www.learncpp.com/about/]About
+          + [https://www.learncpp.com/cpp-tutorial/introduction-to-these-t
+            utorials#FAQ]Site FAQ
+          + [https://www.learncpp.com/leave-feedback-report-issue/]Leave
+            feedback
+          + [https://www.learncpp.com/leave-feedback-report-issue/]Report
+            an issue
+          + [https://www.learncpp.com/about/]Contact / Support
+     * [https://darkreader.org/]
+     * [https://www.learncpp.com/]SearchSearch for: ____________________
+       (BUTTON) Search
+
+   [https://www.learncpp.com/]Learn C++
+
+[https://www.learncpp.com/]Learn C++
+
+   Skill up with our free tutorials
+
+   [https://www.learncpp.com/#main]Skip to content
+     * [https://www.learncpp.com/learn-cpp-site-index/]Site Index
+     * [https://www.learncpp.com/latest-changes/]Latest Changes
+     * [https://www.learncpp.com/about/]About
+          + [https://www.learncpp.com/cpp-tutorial/introduction-to-these-t
+            utorials#FAQ]Site FAQ
+          + [https://www.learncpp.com/leave-feedback-report-issue/]Leave
+            feedback
+          + [https://www.learncpp.com/leave-feedback-report-issue/]Report
+            an issue
+          + [https://www.learncpp.com/about/]Contact / Support
+     * [https://darkreader.org/]
+     * [https://www.learncpp.com/]SearchSearch for: ____________________
+       (BUTTON) Search
+
+   Learn C++
+
+The C++ Tutorial
+
+   LearnCpp.com is a free website devoted to teaching you how to program
+   in C++. Whether you’ve had any prior programming experience or not, the
+   tutorials on this site will walk you through all the steps to write,
+   compile, and debug your C++ programs, all with plenty of examples.
+
+   Becoming an expert won’t happen overnight, but with a little patience,
+   you’ll get there. And LearnCpp.com will show you the way.
+     __________________________________________________________________
+
+   Chapter 0
+   Introduction / Getting Started
+   0.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/
+   ]Introduction to these tutorials
+   0.2
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-programming-lang
+   uages/]Introduction to programming languages
+   0.3
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-cplusplus/]Intro
+   duction to C/C++
+   0.4
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-cpp-development/
+   ]Introduction to C++ development
+   0.5
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-the-compiler-lin
+   ker-and-libraries/]Introduction to the compiler, linker, and libraries
+   0.6
+   [https://www.learncpp.com/cpp-tutorial/installing-an-integrated-develop
+   ment-environment-ide/]Installing an Integrated Development Environment
+   (IDE)
+   0.7
+   [https://www.learncpp.com/cpp-tutorial/compiling-your-first-program/]Co
+   mpiling your first program
+   0.8
+   [https://www.learncpp.com/cpp-tutorial/a-few-common-cpp-problems/]A few
+   common C++ problems
+   0.9
+   [https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-build-
+   configurations/]Configuring your compiler: Build configurations
+   0.10
+   [https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-compil
+   er-extensions/]Configuring your compiler: Compiler extensions
+   0.11
+   [https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-warnin
+   g-and-error-levels/]Configuring your compiler: Warning and error levels
+   0.12
+   [https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-choosi
+   ng-a-language-standard/]Configuring your compiler: Choosing a language
+   standard
+   Chapter 1
+   C++ Basics
+   1.1
+   [https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-
+   a-program/]Statements and the structure of a program
+   1.2
+   [https://www.learncpp.com/cpp-tutorial/comments/]Comments
+   1.3
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-objects-and-vari
+   ables/]Introduction to objects and variables
+   1.4
+   [https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initiali
+   zation/]Variable assignment and initialization
+   1.5
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-iostream-cout-ci
+   n-and-endl/]Introduction to iostream: cout, cin, and endl
+   1.6
+   [https://www.learncpp.com/cpp-tutorial/uninitialized-variables-and-unde
+   fined-behavior/]Uninitialized variables and undefined behavior
+   1.7
+   [https://www.learncpp.com/cpp-tutorial/keywords-and-naming-identifiers/
+   ]Keywords and naming identifiers
+   1.8
+   [https://www.learncpp.com/cpp-tutorial/whitespace-and-basic-formatting/
+   ]Whitespace and basic formatting
+   1.9
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-literals-and-ope
+   rators/]Introduction to literals and operators
+   1.10
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-expressions/]Int
+   roduction to expressions
+   1.11
+   [https://www.learncpp.com/cpp-tutorial/developing-your-first-program/]D
+   eveloping your first program
+   1.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-1-summary-and-quiz/]Chap
+   ter 1 summary and quiz
+
+   Chapter 2
+   C++ Basics: Functions and Files
+   2.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-functions/]Intro
+   duction to functions
+   2.2
+   [https://www.learncpp.com/cpp-tutorial/function-return-values-value-ret
+   urning-functions/]Function return values (value-returning functions)
+   2.3
+   [https://www.learncpp.com/cpp-tutorial/void-functions-non-value-returni
+   ng-functions/]Void functions (non-value returning functions)
+   2.4
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-function-paramet
+   ers-and-arguments/]Introduction to function parameters and arguments
+   2.5
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-local-scope/]Int
+   roduction to local scope
+   2.6
+   [https://www.learncpp.com/cpp-tutorial/why-functions-are-useful-and-how
+   -to-use-them-effectively/]Why functions are useful, and how to use them
+   effectively
+   2.7
+   [https://www.learncpp.com/cpp-tutorial/forward-declarations/]Forward
+   declarations and definitions
+   2.8
+   [https://www.learncpp.com/cpp-tutorial/programs-with-multiple-code-file
+   s/]Programs with multiple code files
+   2.9
+   [https://www.learncpp.com/cpp-tutorial/naming-collisions-and-an-introdu
+   ction-to-namespaces/]Naming collisions and an introduction to
+   namespaces
+   2.10
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-the-preprocessor
+   /]Introduction to the preprocessor
+   2.11
+   [https://www.learncpp.com/cpp-tutorial/header-files/]Header files
+   2.12
+   [https://www.learncpp.com/cpp-tutorial/header-guards/]Header guards
+   2.13
+   [https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-program
+   s/]How to design your first programs
+   2.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-2-summary-and-quiz/]Chap
+   ter 2 summary and quiz
+   Chapter 3
+   Debugging C++ Programs
+   3.1
+   [https://www.learncpp.com/cpp-tutorial/syntax-and-semantic-errors/]Synt
+   ax and semantic errors
+   3.2
+   [https://www.learncpp.com/cpp-tutorial/the-debugging-process/]The
+   debugging process
+   3.3
+   [https://www.learncpp.com/cpp-tutorial/a-strategy-for-debugging/]A
+   strategy for debugging
+   3.4
+   [https://www.learncpp.com/cpp-tutorial/basic-debugging-tactics/]Basic
+   debugging tactics
+   3.5
+   [https://www.learncpp.com/cpp-tutorial/more-debugging-tactics/]More
+   debugging tactics
+   3.6
+   [https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-ste
+   pping/]Using an integrated debugger: Stepping
+   3.7
+   [https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-run
+   ning-and-breakpoints/]Using an integrated debugger: Running and
+   breakpoints
+   3.8
+   [https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-wat
+   ching-variables/]Using an integrated debugger: Watching variables
+   3.9
+   [https://www.learncpp.com/cpp-tutorial/using-an-integrated-debugger-the
+   -call-stack/]Using an integrated debugger: The call stack
+   3.10
+   [https://www.learncpp.com/cpp-tutorial/finding-issues-before-they-becom
+   e-problems/]Finding issues before they become problems
+   3.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-3-summary-and-quiz/]Chap
+   ter 3 summary and quiz
+   Chapter 4
+   Fundamental Data Types
+   4.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data
+   -types/]Introduction to fundamental data types
+   4.2
+   [https://www.learncpp.com/cpp-tutorial/void/]Void
+   4.3
+   [https://www.learncpp.com/cpp-tutorial/object-sizes-and-the-sizeof-oper
+   ator/]Object sizes and the sizeof operator
+   4.4
+   [https://www.learncpp.com/cpp-tutorial/signed-integers/]Signed integers
+   4.5
+   [https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avo
+   id-them/]Unsigned integers, and why to avoid them
+   4.6
+   [https://www.learncpp.com/cpp-tutorial/fixed-width-integers-and-size-t/
+   ]Fixed-width integers and size_t
+   4.7
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-scientific-notat
+   ion/]Introduction to scientific notation
+   4.8
+   [https://www.learncpp.com/cpp-tutorial/floating-point-numbers/]Floating
+   point numbers
+   4.9
+   [https://www.learncpp.com/cpp-tutorial/boolean-values/]Boolean values
+   4.10
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-if-statements/]I
+   ntroduction to if statements
+   4.11
+   [https://www.learncpp.com/cpp-tutorial/chars/]Chars
+   4.12
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-type-conversion-
+   and-static_cast/]Introduction to type conversion and static_cast
+   4.13
+   [https://www.learncpp.com/cpp-tutorial/const-variables-and-symbolic-con
+   stants/]Const variables and symbolic constants
+   4.14
+   [https://www.learncpp.com/cpp-tutorial/compile-time-constants-constant-
+   expressions-and-constexpr/]Compile-time constants, constant
+   expressions, and constexpr
+   4.15
+   [https://www.learncpp.com/cpp-tutorial/literals/]Literals
+   4.16
+   [https://www.learncpp.com/cpp-tutorial/numeral-systems-decimal-binary-h
+   exadecimal-and-octal/]Numeral systems (decimal, binary, hexadecimal,
+   and octal)
+   4.17
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring/]Intro
+   duction to std::string
+   4.18
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring_view/]
+   Introduction to std::string_view
+   4.19
+   [https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/]std::stri
+   ng_view (part 2)
+   4.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-4-summary-and-quiz/]Chap
+   ter 4 summary and quiz
+   Chapter 5
+   Operators
+   5.1
+   [https://www.learncpp.com/cpp-tutorial/operator-precedence-and-associat
+   ivity/]Operator precedence and associativity
+   5.2
+   [https://www.learncpp.com/cpp-tutorial/arithmetic-operators/]Arithmetic
+   operators
+   5.3
+   [https://www.learncpp.com/cpp-tutorial/remainder-and-exponentiation/]Re
+   mainder and Exponentiation
+   5.4
+   [https://www.learncpp.com/cpp-tutorial/increment-decrement-operators-an
+   d-side-effects/]Increment/decrement operators, and side effects
+   5.5
+   [https://www.learncpp.com/cpp-tutorial/comma-and-conditional-operators/
+   ]Comma and conditional operators
+   5.6
+   [https://www.learncpp.com/cpp-tutorial/relational-operators-and-floatin
+   g-point-comparisons/]Relational operators and floating point
+   comparisons
+   5.7
+   [https://www.learncpp.com/cpp-tutorial/logical-operators/]Logical
+   operators
+   5.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-5-summary-and-quiz/]Chap
+   ter 5 summary and quiz
+   Chapter O
+   Bit Manipulation (optional chapter)
+   O.1
+   [https://www.learncpp.com/cpp-tutorial/bit-flags-and-bit-manipulation-v
+   ia-stdbitset/]Bit flags and bit manipulation via std::bitset
+   O.2
+   [https://www.learncpp.com/cpp-tutorial/bitwise-operators/]Bitwise
+   operators
+   O.3
+   [https://www.learncpp.com/cpp-tutorial/bit-manipulation-with-bitwise-op
+   erators-and-bit-masks/]Bit manipulation with bitwise operators and bit
+   masks
+   O.4
+   [https://www.learncpp.com/cpp-tutorial/converting-integers-between-bina
+   ry-and-decimal-representation/]Converting integers between binary and
+   decimal representation
+   Chapter 6
+   Scope, Duration, and Linkage
+   6.1
+   [https://www.learncpp.com/cpp-tutorial/compound-statements-blocks/]Comp
+   ound statements (blocks)
+   6.2
+   [https://www.learncpp.com/cpp-tutorial/user-defined-namespaces-and-the-
+   scope-resolution-operator/]User-defined namespaces and the scope
+   resolution operator
+   6.3
+   [https://www.learncpp.com/cpp-tutorial/local-variables/]Local variables
+   6.4
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-global-variables
+   /]Introduction to global variables
+   6.5
+   [https://www.learncpp.com/cpp-tutorial/variable-shadowing-name-hiding/]
+   Variable shadowing (name hiding)
+   6.6
+   [https://www.learncpp.com/cpp-tutorial/internal-linkage/]Internal
+   linkage
+   6.7
+   [https://www.learncpp.com/cpp-tutorial/external-linkage-and-variable-fo
+   rward-declarations/]External linkage and variable forward declarations
+   6.8
+   [https://www.learncpp.com/cpp-tutorial/why-non-const-global-variables-a
+   re-evil/]Why (non-const) global variables are evil
+   6.9
+   [https://www.learncpp.com/cpp-tutorial/sharing-global-constants-across-
+   multiple-files-using-inline-variables/]Sharing global constants across
+   multiple files (using inline variables)
+   6.10
+   [https://www.learncpp.com/cpp-tutorial/static-local-variables/]Static
+   local variables
+   6.11
+   [https://www.learncpp.com/cpp-tutorial/scope-duration-and-linkage-summa
+   ry/]Scope, duration, and linkage summary
+   6.12
+   [https://www.learncpp.com/cpp-tutorial/using-declarations-and-using-dir
+   ectives/]Using declarations and using directives
+   6.13
+   [https://www.learncpp.com/cpp-tutorial/inline-functions/]Inline
+   functions
+   6.14
+   [https://www.learncpp.com/cpp-tutorial/constexpr-and-consteval-function
+   s/]Constexpr and consteval functions
+   6.15
+   [https://www.learncpp.com/cpp-tutorial/unnamed-and-inline-namespaces/]U
+   nnamed and inline namespaces
+   6.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-6-summary-and-quiz/]Chap
+   ter 6 summary and quiz
+   Chapter 7
+   Control Flow and Error Handling
+   7.1
+   [https://www.learncpp.com/cpp-tutorial/control-flow-introduction/]Contr
+   ol flow introduction
+   7.2
+   [https://www.learncpp.com/cpp-tutorial/if-statements-and-blocks/]If
+   statements and blocks
+   7.3
+   [https://www.learncpp.com/cpp-tutorial/common-if-statement-problems/]Co
+   mmon if statement problems
+   7.4
+   [https://www.learncpp.com/cpp-tutorial/constexpr-if-statements/]Constex
+   pr if statements
+   7.5
+   [https://www.learncpp.com/cpp-tutorial/switch-statement-basics/]Switch
+   statement basics
+   7.6
+   [https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/]
+   Switch fallthrough and scoping
+   7.7
+   [https://www.learncpp.com/cpp-tutorial/goto-statements/]Goto statements
+   7.8
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-loops-and-while-
+   statements/]Introduction to loops and while statements
+   7.9
+   [https://www.learncpp.com/cpp-tutorial/do-while-statements/]Do while
+   statements
+   7.10
+   [https://www.learncpp.com/cpp-tutorial/for-statements/]For statements
+   7.11
+   [https://www.learncpp.com/cpp-tutorial/break-and-continue/]Break and
+   continue
+   7.12
+   [https://www.learncpp.com/cpp-tutorial/halts-exiting-your-program-early
+   /]Halts (exiting your program early)
+   7.13
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-testing-your-cod
+   e/]Introduction to testing your code
+   7.14
+   [https://www.learncpp.com/cpp-tutorial/code-coverage/]Code coverage
+   7.15
+   [https://www.learncpp.com/cpp-tutorial/common-semantic-errors-in-c/]Com
+   mon semantic errors in C++
+   7.16
+   [https://www.learncpp.com/cpp-tutorial/detecting-and-handling-errors/]D
+   etecting and handling errors
+   7.17
+   [https://www.learncpp.com/cpp-tutorial/stdcin-and-handling-invalid-inpu
+   t/]std::cin and handling invalid input
+   7.18
+   [https://www.learncpp.com/cpp-tutorial/assert-and-static_assert/]Assert
+   and static_assert
+   7.19
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-random-number-ge
+   neration/]Introduction to random number generation
+   7.20
+   [https://www.learncpp.com/cpp-tutorial/generating-random-numbers-using-
+   mersenne-twister/]Generating random numbers using Mersenne Twister
+   7.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-7-comprehensive-quiz/]Ch
+   apter 7 summary and quiz
+   Chapter 8
+   Type Conversion and Function Overloading
+   8.1
+   [https://www.learncpp.com/cpp-tutorial/implicit-type-conversion-coercio
+   n/]Implicit type conversion (coercion)
+   8.2
+   [https://www.learncpp.com/cpp-tutorial/floating-point-and-integral-prom
+   otion/]Floating-point and integral promotion
+   8.3
+   [https://www.learncpp.com/cpp-tutorial/numeric-conversions/]Numeric
+   conversions
+   8.4
+   [https://www.learncpp.com/cpp-tutorial/narrowing-conversions-list-initi
+   alization-and-constexpr-initializers/]Narrowing conversions, list
+   initialization, and constexpr initializers
+   8.5
+   [https://www.learncpp.com/cpp-tutorial/arithmetic-conversions/]Arithmet
+   ic conversions
+   8.6
+   [https://www.learncpp.com/cpp-tutorial/explicit-type-conversion-casting
+   -and-static-cast/]Explicit type conversion (casting) and static_cast
+   8.7
+   [https://www.learncpp.com/cpp-tutorial/typedefs-and-type-aliases/]Typed
+   efs and type aliases
+   8.8
+   [https://www.learncpp.com/cpp-tutorial/type-deduction-for-objects-using
+   -the-auto-keyword/]Type deduction for objects using the auto keyword
+   8.9
+   [https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/]Ty
+   pe deduction for functions
+   8.10
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-function-overloa
+   ding/]Introduction to function overloading
+   8.11
+   [https://www.learncpp.com/cpp-tutorial/function-overload-differentiatio
+   n/]Function overload differentiation
+   8.12
+   [https://www.learncpp.com/cpp-tutorial/function-overload-resolution-and
+   -ambiguous-matches/]Function overload resolution and ambiguous matches
+   8.13
+   [https://www.learncpp.com/cpp-tutorial/default-arguments/]Default
+   arguments
+   8.14
+   [https://www.learncpp.com/cpp-tutorial/function-templates/]Function
+   templates
+   8.15
+   [https://www.learncpp.com/cpp-tutorial/function-template-instantiation/
+   ]Function template instantiation
+   8.16
+   [https://www.learncpp.com/cpp-tutorial/function-templates-with-multiple
+   -template-types/]Function templates with multiple template types
+   8.17
+   [https://www.learncpp.com/cpp-tutorial/non-type-template-parameters/]No
+   n-type template parameters
+   8.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-8-summary-and-quiz/]Chap
+   ter 8 summary and quiz
+   Chapter 9
+   Compound Types: References and Pointers
+   9.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-compound-data-ty
+   pes/]Introduction to compound data types
+   9.2
+   [https://www.learncpp.com/cpp-tutorial/value-categories-lvalues-and-rva
+   lues/]Value categories (lvalues and rvalues)
+   9.3
+   [https://www.learncpp.com/cpp-tutorial/lvalue-references/]Lvalue
+   references
+   9.4
+   [https://www.learncpp.com/cpp-tutorial/lvalue-references-to-const/]Lval
+   ue references to const
+   9.5
+   [https://www.learncpp.com/cpp-tutorial/pass-by-lvalue-reference/]Pass
+   by lvalue reference
+   9.6
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-pointers/]Introd
+   uction to pointers
+   9.7
+   [https://www.learncpp.com/cpp-tutorial/null-pointers/]Null pointers
+   9.8
+   [https://www.learncpp.com/cpp-tutorial/pointers-and-const/]Pointers and
+   const
+   9.9
+   [https://www.learncpp.com/cpp-tutorial/pass-by-address/]Pass by address
+   9.10
+   [https://www.learncpp.com/cpp-tutorial/pass-by-address-part-2/]Pass by
+   address (part 2)
+   9.11
+   [https://www.learncpp.com/cpp-tutorial/return-by-reference-and-return-b
+   y-address/]Return by reference and return by address
+   9.12
+   [https://www.learncpp.com/cpp-tutorial/type-deduction-with-pointers-ref
+   erences-and-const/]Type deduction with pointers, references, and const
+   9.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-9-summary-and-quiz/]Chap
+   ter 9 summary and quiz
+   Chapter 10
+   Compound Types: Enums and Structs
+   10.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-program-defined-
+   user-defined-types/]Introduction to program-defined (user-defined)
+   types
+   10.2
+   [https://www.learncpp.com/cpp-tutorial/unscoped-enumerations/]Unscoped
+   enumerations
+   10.3
+   [https://www.learncpp.com/cpp-tutorial/unscoped-enumeration-input-and-o
+   utput/]Unscoped enumeration input and output
+   10.4
+   [https://www.learncpp.com/cpp-tutorial/scoped-enumerations-enum-classes
+   /]Scoped enumerations (enum classes)
+   10.5
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-structs-members-
+   and-member-selection/]Introduction to structs, members, and member
+   selection
+   10.6
+   [https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/
+   ]Struct aggregate initialization
+   10.7
+   [https://www.learncpp.com/cpp-tutorial/default-member-initialization/]D
+   efault member initialization
+   10.8
+   [https://www.learncpp.com/cpp-tutorial/struct-passing-and-miscellany/]S
+   truct passing and miscellany
+   10.9
+   [https://www.learncpp.com/cpp-tutorial/member-selection-with-pointers-a
+   nd-references/]Member selection with pointers and references
+   10.10
+   [https://www.learncpp.com/cpp-tutorial/class-templates/]Class templates
+   10.11
+   [https://www.learncpp.com/cpp-tutorial/class-template-argument-deductio
+   n-ctad-and-deduction-guides/]Class template argument deduction (CTAD)
+   and deduction guides
+   10.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-10-summary-and-quiz/]Cha
+   pter 10 summary and quiz
+   10.y
+   [https://www.learncpp.com/cpp-tutorial/using-a-language-reference/]Usin
+   g a language reference
+   Chapter 11
+   Arrays, Strings, and Dynamic Allocation
+   11.1
+   [https://www.learncpp.com/cpp-tutorial/arrays-part-i/]Arrays (Part I)
+   11.2
+   [https://www.learncpp.com/cpp-tutorial/arrays-part-ii/]Arrays (Part II)
+   11.3
+   [https://www.learncpp.com/cpp-tutorial/arrays-and-loops/]Arrays and
+   loops
+   11.4
+   [https://www.learncpp.com/cpp-tutorial/sorting-an-array-using-selection
+   -sort/]Sorting an array using selection sort
+   11.5
+   [https://www.learncpp.com/cpp-tutorial/multidimensional-arrays/]Multidi
+   mensional Arrays
+   11.6
+   [https://www.learncpp.com/cpp-tutorial/c-style-strings/]C-style strings
+   11.7
+   [https://www.learncpp.com/cpp-tutorial/pointers-and-arrays/]Pointers
+   and arrays
+   11.8
+   [https://www.learncpp.com/cpp-tutorial/pointer-arithmetic-and-array-ind
+   exing/]Pointer arithmetic and array indexing
+   11.9
+   [https://www.learncpp.com/cpp-tutorial/c-style-string-symbolic-constant
+   s/]C-style string symbolic constants
+   11.10
+   [https://www.learncpp.com/cpp-tutorial/dynamic-memory-allocation-with-n
+   ew-and-delete/]Dynamic memory allocation with new and delete
+   11.11
+   [https://www.learncpp.com/cpp-tutorial/dynamically-allocating-arrays/]D
+   ynamically allocating arrays
+   11.12
+   [https://www.learncpp.com/cpp-tutorial/for-each-loops/]For-each loops
+   11.13
+   [https://www.learncpp.com/cpp-tutorial/void-pointers/]Void pointers
+   11.14
+   [https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/]Pointers
+   to pointers and dynamic multidimensional arrays
+   11.15
+   [https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdarray/]An
+   introduction to std::array
+   11.16
+   [https://www.learncpp.com/cpp-tutorial/an-introduction-to-stdvector/]An
+   introduction to std::vector
+   11.17
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-iterators/]Intro
+   duction to iterators
+   11.18
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-standard-library
+   -algorithms/]Introduction to standard library algorithms
+   11.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-11-comprehensive-quiz/]C
+   hapter 11 comprehensive quiz
+   Chapter 12
+   Functions
+   12.1
+   [https://www.learncpp.com/cpp-tutorial/function-pointers/]Function
+   Pointers
+   12.2
+   [https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/]The
+   stack and the heap
+   12.3
+   [https://www.learncpp.com/cpp-tutorial/stdvector-capacity-and-stack-beh
+   avior/]std::vector capacity and stack behavior
+   12.4
+   [https://www.learncpp.com/cpp-tutorial/recursion/]Recursion
+   12.5
+   [https://www.learncpp.com/cpp-tutorial/command-line-arguments/]Command
+   line arguments
+   12.6
+   [https://www.learncpp.com/cpp-tutorial/ellipsis-and-why-to-avoid-them/]
+   Ellipsis (and why to avoid them)
+   12.7
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-lambdas-anonymou
+   s-functions/]Introduction to lambdas (anonymous functions)
+   12.8
+   [https://www.learncpp.com/cpp-tutorial/lambda-captures/]Lambda captures
+   12.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-12-comprehensive-quiz/]C
+   hapter 12 comprehensive quiz
+   Chapter 13
+   Basic Object-oriented Programming
+   13.1
+   [https://www.learncpp.com/cpp-tutorial/welcome-to-object-oriented-progr
+   amming/]Welcome to object-oriented programming
+   13.2
+   [https://www.learncpp.com/cpp-tutorial/classes-and-class-members/]Class
+   es and class members
+   13.3
+   [https://www.learncpp.com/cpp-tutorial/public-vs-private-access-specifi
+   ers/]Public vs private access specifiers
+   13.4
+   [https://www.learncpp.com/cpp-tutorial/access-functions-and-encapsulati
+   on/]Access functions and encapsulation
+   13.5
+   [https://www.learncpp.com/cpp-tutorial/constructors/]Constructors
+   13.6
+   [https://www.learncpp.com/cpp-tutorial/constructor-member-initializer-l
+   ists/]Constructor member initializer lists
+   13.7
+   [https://www.learncpp.com/cpp-tutorial/non-static-member-initialization
+   /]Non-static member initialization
+   13.8
+   [https://www.learncpp.com/cpp-tutorial/overlapping-and-delegating-const
+   ructors/]Overlapping and delegating constructors
+   13.9
+   [https://www.learncpp.com/cpp-tutorial/destructors/]Destructors
+   13.10
+   [https://www.learncpp.com/cpp-tutorial/the-hidden-this-pointer/]The
+   hidden “this” pointer
+   13.11
+   [https://www.learncpp.com/cpp-tutorial/class-code-and-header-files/]Cla
+   ss code and header files
+   13.12
+   [https://www.learncpp.com/cpp-tutorial/const-class-objects-and-member-f
+   unctions/]Const class objects and member functions
+   13.13
+   [https://www.learncpp.com/cpp-tutorial/static-member-variables/]Static
+   member variables
+   13.14
+   [https://www.learncpp.com/cpp-tutorial/static-member-functions/]Static
+   member functions
+   13.15
+   [https://www.learncpp.com/cpp-tutorial/friend-functions-and-classes/]Fr
+   iend functions and classes
+   13.16
+   [https://www.learncpp.com/cpp-tutorial/anonymous-objects/]Anonymous
+   objects
+   13.17
+   [https://www.learncpp.com/cpp-tutorial/nested-types-in-classes/]Nested
+   types in classes
+   13.18
+   [https://www.learncpp.com/cpp-tutorial/timing-your-code/]Timing your
+   code
+   13.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-13-comprehensive-quiz/]C
+   hapter 13 comprehensive quiz
+   Chapter 14
+   Operator overloading
+   14.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-operator-overloa
+   ding/]Introduction to operator overloading
+   14.2
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-arithmetic-opera
+   tors-using-friend-functions/]Overloading the arithmetic operators using
+   friend functions
+   14.3
+   [https://www.learncpp.com/cpp-tutorial/overloading-operators-using-norm
+   al-functions/]Overloading operators using normal functions
+   14.4
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-io-operators/]Ov
+   erloading the I/O operators
+   14.5
+   [https://www.learncpp.com/cpp-tutorial/overloading-operators-using-memb
+   er-functions/]Overloading operators using member functions
+   14.6
+   [https://www.learncpp.com/cpp-tutorial/overloading-unary-operators/]Ove
+   rloading unary operators +, -, and !
+   14.7
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-comparison-opera
+   tors/]Overloading the comparison operators
+   14.8
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-increment-and-de
+   crement-operators/]Overloading the increment and decrement operators
+   14.9
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-subscript-operat
+   or/]Overloading the subscript operator
+   14.10
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-parenthesis-oper
+   ator/]Overloading the parenthesis operator
+   14.11
+   [https://www.learncpp.com/cpp-tutorial/overloading-typecasts/]Overloadi
+   ng typecasts
+   14.12
+   [https://www.learncpp.com/cpp-tutorial/the-copy-constructor/]The copy
+   constructor
+   14.13
+   [https://www.learncpp.com/cpp-tutorial/copy-initialization/]Copy
+   initialization
+   14.14
+   [https://www.learncpp.com/cpp-tutorial/converting-constructors-explicit
+   -and-delete/]Converting constructors, explicit, and delete
+   14.15
+   [https://www.learncpp.com/cpp-tutorial/overloading-the-assignment-opera
+   tor/]Overloading the assignment operator
+   14.16
+   [https://www.learncpp.com/cpp-tutorial/shallow-vs-deep-copying/]Shallow
+   vs. deep copying
+   14.17
+   [https://www.learncpp.com/cpp-tutorial/overloading-operators-and-functi
+   on-templates/]Overloading operators and function templates
+   14.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-14-comprehensive-quiz/]C
+   hapter 14 comprehensive quiz
+   14.y
+   [https://www.learncpp.com/cpp-tutorial/chapter-14-project/]Chapter 14
+   project
+   Chapter 15
+   Reserved for Future Reorganization
+   Chapter 16
+   An Introduction to Object Relationships
+   16.1
+   [https://www.learncpp.com/cpp-tutorial/object-relationships/]Object
+   relationships
+   16.2
+   [https://www.learncpp.com/cpp-tutorial/composition/]Composition
+   16.3
+   [https://www.learncpp.com/cpp-tutorial/aggregation/]Aggregation
+   16.4
+   [https://www.learncpp.com/cpp-tutorial/association/]Association
+   16.5
+   [https://www.learncpp.com/cpp-tutorial/dependencies/]Dependencies
+   16.6
+   [https://www.learncpp.com/cpp-tutorial/container-classes/]Container
+   classes
+   16.7
+   [https://www.learncpp.com/cpp-tutorial/stdinitializer_list/]std::initia
+   lizer_list
+   16.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-16-comprehensive-quiz/]C
+   hapter 16 comprehensive quiz
+   Chapter 17
+   Inheritance
+   17.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-inheritance/]Int
+   roduction to inheritance
+   17.2
+   [https://www.learncpp.com/cpp-tutorial/basic-inheritance-in-c/]Basic
+   inheritance in C++
+   17.3
+   [https://www.learncpp.com/cpp-tutorial/order-of-construction-of-derived
+   -classes/]Order of construction of derived classes
+   17.4
+   [https://www.learncpp.com/cpp-tutorial/constructors-and-initialization-
+   of-derived-classes/]Constructors and initialization of derived classes
+   17.5
+   [https://www.learncpp.com/cpp-tutorial/inheritance-and-access-specifier
+   s/]Inheritance and access specifiers
+   17.6
+   [https://www.learncpp.com/cpp-tutorial/adding-new-functionality-to-a-de
+   rived-class/]Adding new functionality to a derived class
+   17.7
+   [https://www.learncpp.com/cpp-tutorial/calling-inherited-functions-and-
+   overriding-behavior/]Calling inherited functions and overriding
+   behavior
+   17.8
+   [https://www.learncpp.com/cpp-tutorial/hiding-inherited-functionality/]
+   Hiding inherited functionality
+   17.9
+   [https://www.learncpp.com/cpp-tutorial/multiple-inheritance/]Multiple
+   inheritance
+   17.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-17-comprehensive-quiz/]C
+   hapter 17 comprehensive quiz
+   Chapter 18
+   Virtual Functions
+   18.1
+   [https://www.learncpp.com/cpp-tutorial/pointers-and-references-to-the-b
+   ase-class-of-derived-objects/]Pointers and references to the base class
+   of derived objects
+   18.2
+   [https://www.learncpp.com/cpp-tutorial/virtual-functions/]Virtual
+   functions and polymorphism
+   18.3
+   [https://www.learncpp.com/cpp-tutorial/the-override-and-final-specifier
+   s-and-covariant-return-types/]The override and final specifiers, and
+   covariant return types
+   18.4
+   [https://www.learncpp.com/cpp-tutorial/virtual-destructors-virtual-assi
+   gnment-and-overriding-virtualization/]Virtual destructors, virtual
+   assignment, and overriding virtualization
+   18.5
+   [https://www.learncpp.com/cpp-tutorial/early-binding-and-late-binding/]
+   Early binding and late binding
+   18.6
+   [https://www.learncpp.com/cpp-tutorial/the-virtual-table/]The virtual
+   table
+   18.7
+   [https://www.learncpp.com/cpp-tutorial/pure-virtual-functions-abstract-
+   base-classes-and-interface-classes/]Pure virtual functions, abstract
+   base classes, and interface classes
+   18.8
+   [https://www.learncpp.com/cpp-tutorial/virtual-base-classes/]Virtual
+   base classes
+   18.9
+   [https://www.learncpp.com/cpp-tutorial/object-slicing/]Object slicing
+   18.10
+   [https://www.learncpp.com/cpp-tutorial/dynamic-casting/]Dynamic casting
+   18.11
+   [https://www.learncpp.com/cpp-tutorial/printing-inherited-classes-using
+   -operator/]Printing inherited classes using operator<<
+   18.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-18-comprehensive-quiz/]C
+   hapter 18 comprehensive quiz
+   Chapter 19
+   Templates and Classes
+   19.1
+   [https://www.learncpp.com/cpp-tutorial/template-classes/]Template
+   classes
+   19.2
+   [https://www.learncpp.com/cpp-tutorial/template-non-type-parameters/]Te
+   mplate non-type parameters
+   19.3
+   [https://www.learncpp.com/cpp-tutorial/function-template-specialization
+   /]Function template specialization
+   19.4
+   [https://www.learncpp.com/cpp-tutorial/class-template-specialization/]C
+   lass template specialization
+   19.5
+   [https://www.learncpp.com/cpp-tutorial/partial-template-specialization/
+   ]Partial template specialization
+   19.6
+   [https://www.learncpp.com/cpp-tutorial/partial-template-specialization-
+   for-pointers/]Partial template specialization for pointers
+   19.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-19-comprehensive-quiz/]C
+   hapter 19 comprehensive quiz
+   Chapter 20
+   Exceptions
+   20.1
+   [https://www.learncpp.com/cpp-tutorial/the-need-for-exceptions/]The
+   need for exceptions
+   20.2
+   [https://www.learncpp.com/cpp-tutorial/basic-exception-handling/]Basic
+   exception handling
+   20.3
+   [https://www.learncpp.com/cpp-tutorial/exceptions-functions-and-stack-u
+   nwinding/]Exceptions, functions, and stack unwinding
+   20.4
+   [https://www.learncpp.com/cpp-tutorial/uncaught-exceptions-catch-all-ha
+   ndlers/]Uncaught exceptions and catch-all handlers
+   20.5
+   [https://www.learncpp.com/cpp-tutorial/exceptions-classes-and-inheritan
+   ce/]Exceptions, classes, and inheritance
+   20.6
+   [https://www.learncpp.com/cpp-tutorial/rethrowing-exceptions/]Rethrowin
+   g exceptions
+   20.7
+   [https://www.learncpp.com/cpp-tutorial/function-try-blocks/]Function
+   try blocks
+   20.8
+   [https://www.learncpp.com/cpp-tutorial/exception-dangers-and-downsides/
+   ]Exception dangers and downsides
+   20.9
+   [https://www.learncpp.com/cpp-tutorial/exception-specifications-and-noe
+   xcept/]Exception specifications and noexcept
+   20.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-20-comprehensive-quiz/]C
+   hapter 20 comprehensive quiz
+
+   Chapter M
+   Move Semantics and Smart Pointers
+   M.1
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-smart-pointers-m
+   ove-semantics/]Introduction to smart pointers and move semantics
+   M.2
+   [https://www.learncpp.com/cpp-tutorial/rvalue-references/]R-value
+   references
+   M.3
+   [https://www.learncpp.com/cpp-tutorial/move-constructors-and-move-assig
+   nment/]Move constructors and move assignment
+   M.4
+   [https://www.learncpp.com/cpp-tutorial/stdmove/]std::move
+   M.5
+   [https://www.learncpp.com/cpp-tutorial/stdmove_if_noexcept/]std::move_i
+   f_noexcept
+   M.6
+   [https://www.learncpp.com/cpp-tutorial/stdunique_ptr/]std::unique_ptr
+   M.7
+   [https://www.learncpp.com/cpp-tutorial/stdshared_ptr/]std::shared_ptr
+   M.8
+   [https://www.learncpp.com/cpp-tutorial/circular-dependency-issues-with-
+   stdshared_ptr-and-stdweak_ptr/]Circular dependency issues with
+   std::shared_ptr, and std::weak_ptr
+   M.x
+   [https://www.learncpp.com/cpp-tutorial/chapter-m-comprehensive-review/]
+   Chapter M comprehensive review
+   Chapter 21
+   The Standard Template Library
+   21.1
+   [https://www.learncpp.com/cpp-tutorial/the-standard-library/]The
+   Standard Library
+   21.2
+   [https://www.learncpp.com/cpp-tutorial/stl-containers-overview/]STL
+   containers overview
+   21.3
+   [https://www.learncpp.com/cpp-tutorial/stl-iterators-overview/]STL
+   iterators overview
+   21.4
+   [https://www.learncpp.com/cpp-tutorial/stl-algorithms-overview/]STL
+   algorithms overview
+   Chapter 22
+   std::string
+   22.1
+   [https://www.learncpp.com/cpp-tutorial/stdstring-and-stdwstring/]std::s
+   tring and std::wstring
+   22.2
+   [https://www.learncpp.com/cpp-tutorial/stdstring-construction-and-destr
+   uction/]std::string construction and destruction
+   22.3
+   [https://www.learncpp.com/cpp-tutorial/stdstring-length-and-capacity/]s
+   td::string length and capacity
+   22.4
+   [https://www.learncpp.com/cpp-tutorial/stdstring-character-access-and-c
+   onversion-to-c-style-arrays/]std::string character access and
+   conversion to C-style arrays
+   22.5
+   [https://www.learncpp.com/cpp-tutorial/stdstring-assignment-and-swappin
+   g/]std::string assignment and swapping
+   22.6
+   [https://www.learncpp.com/cpp-tutorial/stdstring-appending/]std::string
+   appending
+   22.7
+   [https://www.learncpp.com/cpp-tutorial/stdstring-inserting/]std::string
+   inserting
+   Chapter 23
+   Input and Output (I/O)
+   23.1
+   [https://www.learncpp.com/cpp-tutorial/input-and-output-io-streams/]Inp
+   ut and output (I/O) streams
+   23.2
+   [https://www.learncpp.com/cpp-tutorial/input-with-istream/]Input with
+   istream
+   23.3
+   [https://www.learncpp.com/cpp-tutorial/output-with-ostream-and-ios/]Out
+   put with ostream and ios
+   23.4
+   [https://www.learncpp.com/cpp-tutorial/stream-classes-for-strings/]Stre
+   am classes for strings
+   23.5
+   [https://www.learncpp.com/cpp-tutorial/stream-states-and-input-validati
+   on/]Stream states and input validation
+   23.6
+   [https://www.learncpp.com/cpp-tutorial/basic-file-io/]Basic file I/O
+   23.7
+   [https://www.learncpp.com/cpp-tutorial/random-file-io/]Random file I/O
+   Appendix A
+   Miscellaneous Subjects
+   A.1
+   [https://www.learncpp.com/cpp-tutorial/a1-static-and-dynamic-libraries/
+   ]Static and dynamic libraries
+   A.2
+   [https://www.learncpp.com/cpp-tutorial/a2-using-libraries-with-visual-s
+   tudio-2005-express/]Using libraries with Visual Studio
+   A.3
+   [https://www.learncpp.com/cpp-tutorial/a3-using-libraries-with-codebloc
+   ks/]Using libraries with Code::Blocks
+   A.4
+   [https://www.learncpp.com/cpp-tutorial/cpp-faq/]C++ FAQ
+   Appendix B
+   C++ Updates
+   B.1
+   [https://www.learncpp.com/cpp-tutorial/b-1-introduction-to-c11/]Introdu
+   ction to C++11
+   B.2
+   [https://www.learncpp.com/cpp-tutorial/b-2-introduction-to-c14/]Introdu
+   ction to C++14
+   B.3
+   [https://www.learncpp.com/cpp-tutorial/b-3-introduction-to-c17/]Introdu
+   ction to C++17
+   B.4
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-c20/]Introductio
+   n to C++20
+   Appendix C
+   The End
+   C.1
+   [https://www.learncpp.com/cpp-tutorial/appendix-c-the-end/]The end?
+
+   [https://www.ezoic.com/what-is-ezoic/]Ezoic report this ad
+
+  Latest Changes
+
+   2023 Jun 29Revision
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-objects-and-vari
+   ables/]1.3 -- Introduction to objects and variables
+   2023 Jun 28Revision
+   [https://www.learncpp.com/cpp-tutorial/internal-linkage/]6.6 --
+   Internal linkage
+   2023 Jun 28Revision
+   [https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/]4.19 --
+   std::string_view (part 2)
+   2023 Jun 28Revision
+   [https://www.learncpp.com/cpp-tutorial/introduction-to-stdstring_view/]
+   4.18 -- Introduction to std::string_view
+   2023 Jun 24Revision
+   [https://www.learncpp.com/cpp-tutorial/header-files/]2.11 -- Header
+   files
+   [https://www.learncpp.com/latest-changes]See all changes
+
+   [https://www.ezoic.com/what-is-ezoic/]Ezoic report this ad
+
+   ©2022 Learn C++
+
+   x

@@ -1,0 +1,359 @@
+   #[https://retool.com/blog/rss/]Retool Blog
+
+   [https://retool.com/]Retool Blog
+
+     * [https://retool.com/customers/]Customers
+     * [https://retool.com/integrations/]Integrations
+     * [https://retool.com/templates/]Templates
+     * [https://retool.com/pricing/]Pricing
+
+   [https://docs.retool.com/docs]Docs
+   [https://retool.com/demo/?utm_source=blog&utm_medium=navbar&utm_campaig
+   n=globalnavbar&meeting_page_source=navbarcta]Book a demo
+   [https://login.retool.com/auth/login]Sign in
+   [https://login.retool.com/auth/signup]Start for free Try Retool for
+   free
+   (BUTTON) Menu
+
+What's an ACID compliant database?
+
+   Justin G. [https://retool.com/blog/author/justin/]Justin G.
+
+   4 February 2020
+
+   •
+
+   6 min read
+
+   When you’re building and maintaining an application, the last thing you
+   want to worry about is data integrity; Charging a customer the wrong
+   amount or losing their data can be catastrophic. Thankfully, the
+   databases you’re using — like MySQL and Postgres — take special
+   measures to make sure that doesn’t happen. But what’s going on behind
+   the hood? Most modern SQL DBs use transactional standards like ACID to
+   ensure data integrity and keep your users from seeing wrong or stale
+   data, and this post explores how they work.
+
+All the things that can go wrong with your transactions
+     __________________________________________________________________
+
+   Data Scientists worry about long analytical queries and warehousing,
+   but for developers, databases are all about transactions. A database
+   transaction is a series of logically grouped database operations:
+   insert a row here, update a record there, and more stuff like that.
+   Your application code is constantly making transactions every time you
+   sign up a new user or that user updates their account information.
+
+   The thing about transactions, though, is that they can go very wrong.
+   Any number of things can happen when you’re trying to write to your
+   database: you can lose connection to a remote instance, you can
+   encounter value errors, or anything else under the sun. You’ve seen it,
+   you’ve dealt with it, and it can mean disaster for your underlying
+   data. Let’s take a look at a quick example that a company like Amazon
+   might run into:
+- User updates order quantity and clicks “order now” →
+- Update order quantity in the pending orders table
+- Add row to orders table
+- Apply the purchase to user’s balance / charge credit card
+
+   If something goes wrong in the middle of this group of operations but
+   the system continues executing them, the user will get charged the
+   wrong amount. And if the charge doesn’t work, they’ll get their order
+   for free. It turns out that
+   [https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transa
+   ctions/?ref=retool.com]these kinds of data errors have names, and there
+   are a bunch of them. A few examples:
+
+Dirty Reads
+
+   If a transaction is in the middle of updating some data and hasn’t
+   committed yet, and another transaction is allowed to read that
+   uncommitted data, that’s dirty, and could lead to your app showing
+   incorrect data that got rolled back.
+
+   An example of a dirty read could be a transaction that invalidates
+   login tokens when a user changes their password. If as the first
+   transaction loads the token, a second one reads that token before the
+   first invalidates it, you’d have yourself a dirty read.
+
+   In terms of actual SQL, here's what a dirty read might look like:
+### Transaction 1 ###
+
+SELECT user_login_token_id
+FROM tokens
+
+UPDATE tokens
+SET token_status = "INVALID"
+WHERE token_id = user_login_token_id
+
+### Transaction 2 ###
+
+SELECT user_login_token_id
+FROM tokens
+
+Non-Repeatable Reads
+
+   If you’ve got two consecutive reads in one transaction with a
+   concurrent update in between, those reads are going to show different
+   results even though they’re part of the same transaction.
+
+   An example might be two writers working on a blog. Our first user
+   starts a transaction that reads a post’s title, writes to the post, and
+   then reads that post’s title again. If a second user changes that
+   post’s title in the middle of the first user’s transaction, the first
+   user is going to see different values for the title across the two
+   reads; or in other words, a non-repeatable read.
+
+   Here's what a non-repeatable read might look like in SQL:
+### Transaction 1 ###
+
+SELECT post_title
+FROM posts
+
+SELECT
+    post_title,
+    post_content
+FROM posts
+
+### Transaction 2 ###
+
+UPDATE posts
+SET post_title = "something_new"
+WHERE post_title = post_title
+
+Phantom Reads
+
+   If a transaction reads data and then a concurrent transaction inserts
+   data that would have been read in the original transaction, that’s a
+   phantom read.
+
+   Let’s use the same example as a non-repeatable read: if our second user
+   adds content in between our first user’s two reads, the first read will
+   be missing data that appears in the second read (this is actually
+   really similar to a non-repeatable read, which is why the same example
+   works).
+
+   In SQL, a phantom read might look like this:
+### Transaction 1 ###
+
+SELECT post_title
+FROM posts
+
+SELECT
+    post_title,
+    post_content
+FROM posts
+
+### Transaction 2 ###
+
+INSERT INTO posts
+VALUES "something_new", ...
+
+   These are the 3 transactional errors
+   [https://en.wikipedia.org/wiki/Isolation_(database_systems)?ref=retool.
+   com#Read_phenomena]as defined by the SQL standard — the big three, you
+   might say. A lot of these errors sound like one another and tend to
+   overlap in practice, so don’t sweat the details. For more detailed
+   information, check out
+   [https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transa
+   ctions/?ref=retool.com]Vlad Mihalcea’s blog series on the topic.
+
+   Now, the important question: how do we avoid these?
+
+ACID, but the good kind
+     __________________________________________________________________
+
+   Popular relational databases like MySQL avoid these kinds of data
+   integrity issues by following a few core principles that govern how
+   transactions work. They conform to a transactional standard called
+   ACID. ACID is an acronym for four different words, but it really breaks
+   down into two core principles: completeness and concurrency. First,
+   here’s what ACID stands for:
+     * Atomicity: the “all or nothing” rule — the transaction either
+       happens completely or doesn’t happen at all
+     * Consistency: data is consistent before and after a transaction
+       without any missing steps
+     * Isolation: multiple transactions can happen concurrently without
+       reading the wrong data
+     * Durability: transactional success is robust to system failure
+
+   These overlap a lot, so just remember: the point of any ACID compliant
+   DB is to make sure that
+     * Transactions can fail without hurting data integrity
+     * Multiple transactions can occur concurrently without reading and
+       writing the wrong data
+
+   ACID is a set of properties, but it’s not a process: how do the SQL
+   databases we use actually achieve ACID compliance? They use a system
+   called locking to keep the database on hold while transactions happen.
+   Locking works like you’d imagine it would: when a transaction begins,
+   the database engine locks the data that it’s working with until the
+   transaction is completed (and sometimes, beyond that). That way,
+   concurrent transactions can’t work with the data that’s being changed
+   by the first transaction.
+
+   Once a transaction begins and acquires a lock, it can either finish
+   successfully and commit, or run into an error and abort. It’s sort of
+   like writing in an Excel spreadsheet before saving your work — things
+   are changed, but only softly, until you save them (commit) or revert
+   them (abort). Back to our Amazon example: if our database runs into an
+   error right after updating a user’s order quantity, the transaction
+   will abort, and it’s as if that update never happened. And if the error
+   happened during the update, the credit card will never get charged.
+   Either everything happens or nothing happens, and that’s ACID.
+
+   The intricacies of commiting and locks are pretty hairy, but a good
+   start is
+   [https://www.methodsandtools.com/archive/archive.php?id=83&ref=retool.c
+   om]Methods and Tools’ excellent paper on the topic.
+
+ACID concepts in NoSQL and distributed systems
+     __________________________________________________________________
+
+   ACID was a building block of the reliable relational DBs we’re familiar
+   with today, but NoSQL has changed the game: many NoSQL DBs are built as
+   distributed systems, and they can’t always ensure complete
+   transactional consistency. There’s actually a theory that governs this
+   — called
+   [https://towardsdatascience.com/cap-theorem-and-distributed-database-ma
+   nagement-systems-5c2be977950e?ref=retool.com]CAP theorem — that in
+   distributed systems, you can’t never have full consistency and full
+   availability; you need to choose one. So what does ACID look like for
+   something like MongoDB or Cassandra?
+
+   A new quasi-standard has emerged for NoSQL databases called BASE (a
+   rare overlap between SQL and chemistry jokes), and it’s a weak or soft
+   consistency model that
+   [https://neo4j.com/blog/acid-vs-base-consistency-models-explained/?ref=
+   retool.com]relaxes some of the assumptions of ACID in order to achieve
+   scalability:
+     * Basic Availability: the database basically works most of the time,
+       even though it’s not perfect
+     * Soft-State: nodes of the database aren’t necessarily consistent
+       with each other all the time
+     * Eventual Consistency: data will be consistent across nodes
+       eventually, like by read time
+
+   In a lot of ways, this is the exact opposite of ACID, and prioritizes
+   availability over perfect consistency; but that’s kind of the point of
+   NoSQL in the first place. As NoSQL becomes a more established part of
+   app development
+   ([https://insights.stackoverflow.com/survey/2019?ref=retool.com]more
+   than 25% of developers are using MongoDB already), expect more
+   advancements on this front.
+
+   Today, we’re dealing with more data than we ever have, and we’re
+   building database systems that can scale and handle that load. ACID
+   might not be the exact transactional standard for the future, but its
+   building blocks will certainly make their way in there. And if you’re
+   building with a database and want a quick and easy way to add
+   functionality on top, check out Retool.
+
+Build on top of your SQL and NoSQL data
+
+   [https://login.retool.com/auth/signup?ref=retool.com](BUTTON) Sign up
+   for Retool
+     __________________________________________________________________
+
+   [https://retool.com/blog/how-to-build-great-internal-tools-chad-rosen-t
+   witter-wealthfront/][https://retool.com/blog/how-to-build-great-interna
+   l-tools-chad-rosen-twitter-wealthfront/]
+
+   interview
+
+How to build great internal tools: Chad Rosen (Twitter, Wealthfront)
+
+   Chad Rosen has been working as a software engineer and engineering
+   manager in the Bay Area since 2001. He has helped contribute to both
+   the product and internal tools at companies like Good Technology,
+   ClickShift, Twitter, and Wealthfront.
+
+     * Justin G.
+       [https://retool.com/blog/author/justin/]Justin G.
+
+   5 min read
+
+   [https://retool.com/blog/erp-for-engineers/]
+   [https://retool.com/blog/erp-for-engineers/]
+
+   tools
+
+What’s SAP?
+
+   What's SAP? And why is it worth $163B?
+
+     * Adam Louie
+       [https://retool.com/blog/author/adam-louie/]Adam Louie
+
+   9 min read
+   Retool is the fast way to build internal tools.
+   Connect to your databases and APIs, and build your own tools in
+   minutes.
+   [https://login.retool.com/auth/signup]
+   Start for free
+   [https://retool.com/]
+   Learn More
+
+   [https://retool.com/]Retool Blog
+     *
+
+Use Cases
+     * [https://retool.com/use-case/admin-panels]Admin panels
+     * [https://retool.com/use-case/firebase-gui]Firebase GUI
+     * [https://retool.com/use-case/mongodb-gui]MongoDB GUI
+     * [https://retool.com/use-case/graphql-gui]GraphQL GUI
+     * [https://retool.com/use-case/dashboards-and-reporting]Dashboards
+     * [https://retool.com/use-case/sql-gui]SQL GUI
+     * [https://retool.com/use-case/react-components]React components
+     * [https://retool.com/use-case/google-sheets]Google Sheets GUI
+
+     *
+
+Integrations
+     * [https://retool.com/integrations/postgresql]PostgreSQL
+     * [https://retool.com/integrations/mysql]MySQL
+     * [https://retool.com/integrations/aws-dynamodb]DynamoDB
+     * [https://retool.com/integrations/firebase]Firebase
+     * [https://retool.com/integrations/graphql]GraphQL
+     * [https://retool.com/integrations/aws-s3]Amazon S3
+     * [https://retool.com/integrations/google-sheets]Google Sheets
+     * [https://retool.com/integrations/mongodb]MongoDB
+
+     *
+
+Developers
+     * [https://updates.retool.com/en]Changelog
+     * [https://docs.retool.com/docs]Documentation
+     * [https://retool.statuspage.io/]Status
+     * [https://retool.com/self-hosted]On-prem deployment
+     * [https://retool.com/api-generator]API Generator
+     * [https://retool.com/utilities]Developer Utilities
+
+     *
+
+Community
+     * [https://retool.com/community]Community home
+     * [https://community.retool.com/c/support/5]Support forum
+     * [https://community.retool.com/c/show-and-tell/6]Show & tell
+     * [https://retool.com/startups]Retool for Startups
+     * [https://retool.com/reports/state-of-internal-tools-2022]Internal
+       Tools Report
+     * [https://retool.com/reports/state-of-engineering-time-2022]Engineer
+       ing Time Report
+
+     *
+
+Company
+     * [https://retool.com/about/]About
+     * [https://retool.com/customers/]Customers
+     * [https://retool.com/careers/]Careers
+     * [https://retool.com/team/]Team
+     * [https://retool.com/]Blog
+
+   © Retool, Inc.
+     * [https://docs.retool.com/docs/privacy-policy]Privacy
+     * [https://retool.com/tos.pdf]Terms
+     * [https://docs.retool.com/docs/security]Security
+
+   [https://www.linkedin.com/company/tryretool][https://twitter.com/retool
+   ]

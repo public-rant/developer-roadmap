@@ -1,0 +1,110 @@
+   [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Education
+   alcsharp-c9-scottha#main]Skip to main content
+
+   This browser is no longer supported.
+
+   Upgrade to Microsoft Edge to take advantage of the latest features,
+   security updates, and technical support.
+   [https://go.microsoft.com/fwlink/p/?LinkID=2092881]Download Microsoft
+   Edge
+   [https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-micr
+   osoft-edge]More info about Internet Explorer and Microsoft Edge
+   [https://www.microsoft.com/]
+   (BUTTON) Table of contents (BUTTON) Exit focus mode
+
+   Read in English (BUTTON) Save
+   Read in English (BUTTON) Save
+   (BUTTON) Table of contents
+
+   Series
+
+C# 101
+
+     *
+     * English
+
+   In this first video of a full Intro to C# video series, Scott Hanselman
+   and Kendra Havens review the basics of C# from building a simple Hello
+   World application to knowing about Object Oriented Programming with
+   Microsoft experts!
+
+   Download Visual Studio
+   2019 [https://aka.ms/VisualStudio-dotnetconf19]here
+   Download .NET Core 3.0 [https://aka.ms/Dotnet3]here
+   [https://aka.ms/dotnet3-csharp]Watch the Enti...
+
+   In this first video of a full Intro to C# video series, Scott Hanselman
+   and Kendra Havens review the basics of C# from building a simple Hello
+   World application to knowing about Object Oriented Programming with
+   Microsoft experts!
+
+   Download Visual Studio
+   2019 [https://aka.ms/VisualStudio-dotnetconf19]here
+   Download .NET Core 3.0 [https://aka.ms/Dotnet3]here
+   [https://aka.ms/dotnet3-csharp]Watch the Entire Series here
+   (BUTTON) Show more
+     __________________________________________________________________
+
+Episodes
+
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+     * [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha][]
+       [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Educa
+       tionalcsharp-c9-scottha]
+
+   [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Education
+   alcsharp-c9-scottha](BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023
+
+   [https://learn.microsoft.com/en-us/shows/CSharp-101/?WT.mc_id=Education
+   alcsharp-c9-scottha]
+   (BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023

@@ -1,0 +1,770 @@
+   #[https://www.oracle.com/ae/database/]alternate
+   [https://www.oracle.com/ae-ar/database/]alternate
+   [https://www.oracle.com/ar/database/]alternate
+   [https://www.oracle.com/au/database/]alternate
+   [https://www.oracle.com/be/database/]alternate
+   [https://www.oracle.com/bh/database/]alternate
+   [https://www.oracle.com/bh-ar/database/]alternate
+   [https://www.oracle.com/br/database/]alternate
+   [https://www.oracle.com/ca-en/database/]alternate
+   [https://www.oracle.com/ca-fr/database/]alternate
+   [https://www.oracle.com/ch-de/database/]alternate
+   [https://www.oracle.com/ch-fr/database/]alternate
+   [https://www.oracle.com/cis/database/]alternate
+   [https://www.oracle.com/cl/database/]alternate
+   [https://www.oracle.com/cn/database/]alternate
+   [https://www.oracle.com/co/database/]alternate
+   [https://www.oracle.com/cz/database/]alternate
+   [https://www.oracle.com/de/database/]alternate
+   [https://www.oracle.com/database/]alternate
+   [https://www.oracle.com/eg/database/]alternate
+   [https://www.oracle.com/eg-ar/database/]alternate
+   [https://www.oracle.com/es/database/]alternate
+   [https://www.oracle.com/fr/database/]alternate
+   [https://www.oracle.com/hk/database/]alternate
+   [https://www.oracle.com/id/database/]alternate
+   [https://www.oracle.com/ie/database/]alternate
+   [https://www.oracle.com/il/database/]alternate
+   [https://www.oracle.com/il-en/database/]alternate
+   [https://www.oracle.com/in/database/]alternate
+   [https://www.oracle.com/it/database/]alternate
+   [https://www.oracle.com/jo/database/]alternate
+   [https://www.oracle.com/jo-ar/database/]alternate
+   [https://www.oracle.com/jp/database/]alternate
+   [https://www.oracle.com/ke/database/]alternate
+   [https://www.oracle.com/kr/database/]alternate
+   [https://www.oracle.com/kw/database/]alternate
+   [https://www.oracle.com/kw-ar/database/]alternate
+   [https://www.oracle.com/mx/database/]alternate
+   [https://www.oracle.com/my/database/]alternate
+   [https://www.oracle.com/ng/database/]alternate
+   [https://www.oracle.com/nl/database/]alternate
+   [https://www.oracle.com/nz/database/]alternate
+   [https://www.oracle.com/pe/database/]alternate
+   [https://www.oracle.com/ph/database/]alternate
+   [https://www.oracle.com/pk/database/]alternate
+   [https://www.oracle.com/pl/database/]alternate
+   [https://www.oracle.com/pt/database/]alternate
+   [https://www.oracle.com/qa/database/]alternate
+   [https://www.oracle.com/qa-ar/database/]alternate
+   [https://www.oracle.com/ro/database/]alternate
+   [https://www.oracle.com/sa/database/]alternate
+   [https://www.oracle.com/sa-ar/database/]alternate
+   [https://www.oracle.com/se/database/]alternate
+   [https://www.oracle.com/sg/database/]alternate
+   [https://www.oracle.com/sk/database/]alternate
+   [https://www.oracle.com/tr/database/]alternate
+   [https://www.oracle.com/tw/database/]alternate
+   [https://www.oracle.com/uk/database/]alternate
+   [https://www.oracle.com/za/database/]alternate
+
+     * [https://www.oracle.com/corporate/accessibility/]Accessibility
+       Policy
+     * [https://www.oracle.com/database/#maincontent]Skip to content
+
+   [https://www.oracle.com/]
+   [https://www.oracle.com/cloud/]
+
+   (BUTTON) About (BUTTON) Services (BUTTON) Solutions (BUTTON) Pricing
+   (BUTTON) Partners (BUTTON) Resources
+   (BUTTON) Close Search
+   ____________________
+
+   (BUTTON) Close
+   We’re sorry. We could not find a match for your search.
+
+   We suggest you try the following to help find what you're looking for:
+     * Check the spelling of your keyword search.
+     * Use synonyms for the keyword you typed, for example, try
+       “application” instead of “software.”
+     * Start a new search.
+
+   Submit Search (BUTTON) Clear Search
+   (BUTTON) Search
+   [https://www.oracle.com/oci-menu-v3/]Menu
+   [https://www.oracle.com/corporate/contact/]Contact Sales
+   [https://www.oracle.com/cloud/sign-in.html]Sign in to Oracle Cloud
+
+   [https://www.oracle.com/autonomous-database/free-trial/]Try Oracle
+   Autonomous Database for free
+
+Database
+
+   Oracle database services and products offer customers cost-optimized
+   and high-performance versions of Oracle Database, the world's leading
+   converged, multi-model database management system, as well as
+   in-memory, [https://www.oracle.com/database/nosql/]NoSQL and MySQL
+   databases. [https://www.oracle.com/autonomous-database/]Oracle
+   Autonomous Database, available on premises via Oracle Cloud@Customer or
+   in the Oracle Cloud Infrastructure, enables customers to simplify
+   relational database environments and reduce management workloads.
+   [https://www.oracle.com/autonomous-database/]Autonomously managed
+   Oracle Databases
+   Oracle's Converged Database
+
+   Discover the benefits of a converged database (2:49)
+
+Announcing Oracle Database 23c
+
+   The "greatest innovation in information science in the past 20 years"
+   is ready for the cloud and on-premises with JSON Relational Duality and
+   other next-gen features.
+   [https://www.oracle.com/database/23c/]Learn more about Oracle Database
+   23c
+   [https://www.oracle.com/database/free/]Try it for free
+
+     * [https://www.oracle.com/cloudworld/register/]Oracle Database at
+       CloudWorld, September 18–21, 2023
+       Learn the latest techniques to maximize the value of your data,
+       with more than 200 sessions and hands-on labs covering Oracle
+       Database 23c, the latest emerging tech, and how to simplify AppDev,
+       add analytics, and prepare for upgrades/migrations.
+       [https://www.oracle.com/cloudworld/register/]Register now
+     * [https://blogs.oracle.com/database/post/announcing-oracle-database-
+       19c-support-for-arm]Oracle Database 19c now available on Arm
+       processors
+       Oracle Database 19c customers can now benefit from cost-effective,
+       energy-efficient Arm processor-based server platforms.
+       [https://blogs.oracle.com/database/post/announcing-oracle-database-
+       19c-support-for-arm]Read the blog
+     * [https://www.oracle.com/corporate/analyst-reports/cloud/#data-manag
+       ement]Oracle is a Leader in the Gartner 2022 Magic Quadrant™ for
+       Cloud Database Management Systems
+       Oracle was named a Leader in the “2022 Magic Quadrant™ for Cloud
+       Database Management Systems” and scored highest in the 2022 Gartner
+       "Critical Capabilities for Cloud Database Management Systems for
+       Operational Use Cases."
+       [https://www.oracle.com/corporate/analyst-reports/cloud/#data-manag
+       ement]Read the analyst reports
+     * [https://www.oracle.com/data-platform/translytical-data-platform-le
+       ader/]Oracle is named a Leader in The Forrester Wave™: Translytical
+       Data Platforms, Q4 2022
+       See why Oracle received the highest scores in both the Current
+       Offering and Strategy categories and received the highest possible
+       score in the Market Presence category when evaluated alongside the
+       other 14 most significant providers.
+       [https://www.oracle.com/data-platform/translytical-data-platform-le
+       ader/]Access the Forrester report
+
+Why choose Oracle Database for all your data needs?
+
+     *
+
+IDC: Oracle Autonomous Database provides 417% ROI
+       Independent analyst study shows how Oracle Autonomous Database
+       offers significant savings and 417% ROI over five years, with only
+       5 months to payback.
+       [https://www.oracle.com/a/ocom/docs/database/value-oracle-autonomou
+       s-data-warehouse-wp.pdf]Read the IDC report (PDF)
+     *
+
+Guard against data breaches
+       Assess, detect, and prevent data security threats with Oracle
+       database security solutions for encryption, key management, data
+       masking, privileged user access controls, activity monitoring, and
+       auditing. Reduce the risk of a data breach and simplify and
+       accelerate compliance.
+          + [https://www.oracle.com/a/ocom/docs/corporate/analystrelations
+            /idc-oracle-autonomous-database.pdf]IDC: Security benefits of
+            Oracle Autonomous Database (PDF)
+          + [https://www.oracle.com/a/ocom/docs/corporate/analystrelations
+            /kuppingercole-leadership-compass-data-security-platforms.pdf]
+            KuppingerCole: Oracle leads in Database and Big Data Security
+            (PDF)
+          + [https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-wor
+            kshop?wid=698]Try it—Database Security Basics Workshop
+     *
+
+Use a single database for all data types and workloads
+       Free application developers from complex transformations and
+       redundant data with Oracle’s converged database.
+          + [https://www.oracle.com/database/?ytid=yBWgb_oh39U]Watch the
+            video (2:49)
+          + [https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-wor
+            kshop?wid=613&session=107910356061576]Try it—Develop Apps
+            Using JSON, XML, Spatial and Graph Workshop
+     *
+
+Deploy where you need to
+       Deploy Oracle Database wherever required—in your data center,
+       public cloud, or private cloud. This offers the flexibility between
+       deployment in your data center when residency or latency are
+       critical, or in the cloud when you want to take advantage of
+       scalability and the broadest set of capabilities.
+          + [https://www.oracle.com/a/ocom/docs/engineered-systems/exadata
+            /idc-adb-on-exac-at-cloud.pdf]Oracle brings the Oracle Cloud
+            to you (PDF)
+          + [https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-wor
+            kshop?wid=714]Try it—Containerized Development with Docker on
+            Autonomous Database Workshop
+          + [https://www.oracle.com/database/what-is-database/deployment-o
+            ptions/]Cloud deployment options
+     *
+
+Simplify application development
+       Make development and deployment of enterprise applications simpler
+       with the most comprehensive database platform with both application
+       and data services. Build SaaS apps with CI/CD, Multitenant
+       database, Kubernetes, cloud native, and low-code technologies.
+       [https://www.oracle.com/database/technologies/application-developme
+       nt.html]See what’s possible
+     *
+
+Achieve data sovereignty and horizontal scalability
+       Enable globally distributed, linearly scalable, multi-model
+       databases which meet data sovereignty requirements and support
+       applications that require low latency and high availability. Oracle
+       Sharding automatically places data on the desired shard, saving
+       time and eliminating manual data preparation. Developers can treat
+       a sharded database as a single logical database, simplifying
+       application development.
+          + [https://www.oracle.com/database/sharding/]Learn more about
+            Oracle Sharding
+          + [https://www.oracle.com/customers/munich-re-healthtech/]Munich
+            Re HealthTech addresses data residency regulations with Oracle
+            Sharding
+          + [https://www.oracle.com/database/?ytid=q2mrub603EY]How Oracle
+            builds internet scale applications (43:48)
+
+Which database is right for you?
+
+   [Autonomously managed Oracle databases_________________]
+
+Less time spent managing databases
+
+   Oracle Autonomous Database eliminates the complexity of operating and
+   securing Oracle Database, while giving customers the highest levels of
+   performance, scalability, and availability.
+   [https://www.oracle.com/autonomous-database/]Learn more about
+   Autonomous Database
+
+Products
+
+     * [https://www.oracle.com/autonomous-database/autonomous-data-warehou
+       se/]Autonomous Data Warehouse
+     * [https://www.oracle.com/autonomous-database/autonomous-transaction-
+       processing/]Autonomous Transaction Processing
+     * [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/]Autonomous JSON Database
+     * [https://www.oracle.com/application-development/apex/]Oracle APEX
+       Application Development
+
+Run up to 3X faster than any other solution
+
+   Running Oracle Database on Exadata, the fastest platform for Oracle
+   Database, enables customers to increase transaction rates, accelerate
+   business analytic, and simplify IT management. Exadata is available in
+   customer data centers and in the Oracle Cloud Infrastructure, enabling
+   customers to achieve the highest levels of performance for
+   customer-managed and Oracle Autonomous Database.
+   [https://blogs.oracle.com/exadata/post/ten-tips-for-database-performanc
+   e-tuning]Ten tips for database performance tuning
+
+Products
+
+     * [https://www.oracle.com/autonomous-database/]Autonomous Database
+     * [https://www.oracle.com/engineered-systems/exadata/database-service
+       /]Exadata Database Service
+     * [https://www.oracle.com/engineered-systems/exadata/cloud-at-custome
+       r/]Exadata Cloud@Customer
+     * [https://www.oracle.com/engineered-systems/exadata/]Exadata X9M
+
+Industry-leading Oracle Database technology in customer data centers
+
+   Oracle Database can be deployed on premises when customers have data
+   residency and network latency concerns. Cloud@Customer deployments
+   allow the latest Oracle Cloud technology, including Exadata and
+   Autonomous Database, to be hosted inside the customer data center.
+   [https://www.oracle.com/a/ocom/docs/database/wintercorp-managed-cloud-d
+   eployment-options.pdf]Growing cloud database deployment options (PDF)
+
+Products
+
+     * [https://www.oracle.com/engineered-systems/exadata/cloud-at-custome
+       r/]Exadata Cloud@Customer
+     * [https://www.oracle.com/autonomous-database/autonomous-database-on-
+       exadata-cloud-at-customer/]Autonomous Database on Exadata
+       Cloud@Customer
+     * [https://www.oracle.com/engineered-systems/exadata/database-machine
+       /]Exadata X9M
+     * [https://www.oracle.com/database/technologies/]Oracle Database 19c
+
+Coordinate database and application upgrades
+
+   Customers with applications that are dependent on specific Oracle
+   database versions, have complete control over the versions they run and
+   when those versions change.
+   [https://www.oracle.com/database/upgrades/]Upgrade or migrate your
+   Oracle Database
+
+Products
+
+     * [https://www.oracle.com/engineered-systems/exadata/database-service
+       /]Exadata Database Service
+     * [https://www.oracle.com/database/base-database-service/]Oracle Base
+       Database Service
+
+Accelerate development of JSON-centric applications
+
+   Oracle Database fully supports schemaless application development using
+   the JSON data model to increase developer productivity. Use Oracle
+   Database API for MongoDB to develop and run MongoDB applications with
+   Oracle Database—on-premises and in the cloud.
+   [https://www.oracle.com/a/ocom/docs/database/constellation-research-aut
+   onomous-json-database.pdf]Oracle boosts developer velocity with JSON
+   (PDF)
+
+Products
+
+     * [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/]Autonomous JSON Database
+     * [https://www.oracle.com/autonomous-database/autonomous-transaction-
+       processing/]Autonomous Transaction Processing
+     * [https://www.oracle.com/database/technologies/]Oracle Database 19c
+     * [https://www.oracle.com/database/nosql/]Oracle NoSQL Database
+
+The world’s #1 open source database in Oracle Cloud
+
+   MySQL HeatWave is a fully managed database service, powered by the
+   integrated HeatWave in-memory query accelerator. It’s the only cloud
+   database service that combines transactions, analytics, and machine
+   learning services into one MySQL Database, delivering real-time, secure
+   analytics without the complexity, latency, and cost of ETL duplication.
+   It’s available on OCI and AWS.
+   [https://www.oracle.com/a/ocom/docs/heatwave-analysis-report.pdf]MySQL
+   with HeatWave vaporizes AWS Redshift AQUA, Snowflake (PDF)
+
+Products
+
+     * [https://www.oracle.com/mysql/]Oracle MySQL HeatWave
+
+Low latency response and elastic scaling
+
+   Oracle NoSQL help developers increase their productivity by using a
+   managed cloud service supporting document and key value data models.
+   [https://www.oracle.com/a/ocom/docs/database/deploying-nosql-database-o
+   n-oracle-cloud-infrastructure.pdf]Oracle NoSQL on Oracle Cloud
+   Infrastructure (PDF)
+
+Products
+
+     * [https://www.oracle.com/database/nosql/]Oracle NoSQL Database
+
+Oracle Cloud Database
+
+   [Oracle Autonomous Database_______]
+
+A truly automated database solution
+
+   Oracle Autonomous Database is an all-in-one cloud database solution for
+   data marts, data lakes, operational reporting, and batch data
+   processing. Oracle uses machine learning to completely automate all
+   routine database tasks—ensuring higher performance, reliability,
+   security, and operational efficiency.
+   [https://www.oracle.com/autonomous-database/]Explore Autonomous
+   Database
+
+Products
+
+     * [https://www.oracle.com/autonomous-database/autonomous-data-warehou
+       se/]Autonomous Data Warehouse
+     * [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/]Autonomous JSON Database
+     * [https://www.oracle.com/autonomous-database/autonomous-transaction-
+       processing/]Autonomous Transaction Processing
+     * [https://www.oracle.com/application-development/apex/]Oracle APEX
+       Application Development
+
+Oracle Database
+
+   Oracle Database offers market-leading performance, scalability,
+   reliability, and security both on premises and in the cloud.
+   [https://www.oracle.com/database/technologies/]Explore Oracle Database
+
+Products
+
+     * [https://www.oracle.com/database/technologies/]Oracle Database 19c
+     * [https://docs.oracle.com/en/database/oracle/oracle-database/21/]Ora
+       cle Database 21c
+
+Build, scale, and secure databases in the cloud
+
+   Oracle Base Database Service allows organizations to create and manage
+   full-featured Oracle Database instances in Oracle Cloud Infrastructure
+   (OCI). IT teams provision databases on virtual machines with block
+   storage volumes providing cost-efficient cloud database services with a
+   choice of Oracle Database editions.
+
+Products
+
+     * [https://www.oracle.com/database/base-database-service/]Oracle Base
+       Database Service
+
+The best on-premises Oracle Database system
+
+   Oracle Exadata is a full-stack solution that improves the performance,
+   scale, security, and availability of an enterprise’s Oracle Databases.
+   It incorporates more than 60 unique features, such as Smart Scan SQL
+   offload, that are coengineered with Oracle Database to accelerate OLTP,
+   analytics and machine-learning applications. Exadata also reduces
+   capital costs and management expenses by enabling IT departments to
+   consolidate hundreds of databases onto a single system. Companies can
+   deploy Exadata on-premises, in Oracle Cloud Infrastructure, or as a
+   Cloud@Customer solution, and use Autonomous Database to simplify and
+   accelerate digital transformations.
+
+Products
+
+     * [https://www.oracle.com/engineered-systems/exadata/]Exadata X8M
+
+The power of Exadata Cloud in customer data centers
+
+   Oracle Exadata Cloud@Customer combines the performance of Oracle
+   Exadata with the simplicity, flexibility, and affordability of a
+   managed database service in customer data centers. It’s the simplest
+   way to move existing Oracle databases to the cloud because it provides
+   full compatibility with existing Exadata systems and Exadata Cloud
+   Service. Exadata Cloud@Customer also meets customer requirements for
+   data sovereignty and low-latency connectivity to existing data center
+   resources while enabling them to achieve higher database consolidation
+   than is possible with other on-premises database cloud services.
+   [https://www.oracle.com/a/ocom/docs/database/idc-oracle-adb-cloud-at-cu
+   stomer-report.pdf]Bringing Oracle Autonomous Database into the data
+   center with Oracle Exadata Cloud@Customer (PDF)
+
+Products
+
+     * [https://www.oracle.com/engineered-systems/exadata/cloud-at-custome
+       r/]Exadata Cloud@Customer
+
+Robust data management with minimal complexity
+
+   Oracle Exadata is highly available and highly performant; it’s the most
+   secure architecture for running Oracle Database. Exadata can reduce
+   your data center footprint and accelerate time to market for
+   mission-critical workloads.
+   [https://www.oracle.com/a/ocom/docs/engineered-systems/exadata/oracle-e
+   xadata-cloud-service-x8m-soars-past-rivals.pdf]Highest performance and
+   lowest cost for enterprise Oracle Database workloads (PDF)
+
+Products
+
+     * [https://www.oracle.com/engineered-systems/exadata/database-service
+       /]Exadata Database Service
+
+Multicloud database with OCI and Azure
+
+   Oracle Database Service for Microsoft Azure is an Oracle-managed
+   service for Azure customers to easily provision, access, and operate
+   enterprise-grade Oracle Database services in Oracle Cloud
+   Infrastructure (OCI) with a familiar Azure-like experience. Users can
+   seamlessly build Azure applications with the high performance, high
+   availability, and automated management of Oracle Database services—such
+   as Autonomous Database—running on OCI.
+   [https://www.oracle.com/cloud/azure/oracle-database-for-azure/]Oracle
+   Database Service for Azure
+
+Single MySQL database for OLTP and OLAP
+
+   MySQL HeatWave is the only service that enables database admins and app
+   developers to run OLTP and OLAP workloads directly from their MySQL
+   database. This eliminates the need for complex, time-consuming, and
+   expensive data movement and integration with a separate analytics
+   database.
+   [https://www.oracle.com/a/ocom/docs/oracle-mysql-heatWave-overview-repo
+   rt.pdf]HeatWave enables the holy grail of insight to action (PDF)
+
+Products
+
+     * [https://www.oracle.com/mysql/]Oracle MySQL HeatWave
+
+High availability, data model flexibility, elastic scalability
+
+   Oracle NoSQL Database Cloud Service provides on-demand throughput and
+   storage-based provisioning that supports document, columnar, and
+   key-value data models, all with flexible transaction guarantees.
+   [https://www.oracle.com/database/?ytid=zNKxJjkq0Pw]Watch the Oracle
+   NoSQL Database Cloud Service overview (2:24)
+
+Products
+
+     * [https://www.oracle.com/database/nosql/]Oracle NoSQL Database
+       Service
+
+Flexible database deployment options to fit your business strategy
+
+     * Oracle Database 19c and 21c
+       Explore Oracle Database, which offers you the security,
+       flexibility, performance, and reliability to support the most
+       demanding operational and analytical workloads on-premises or in
+       the cloud.
+       [https://www.oracle.com/database/technologies/]Learn more about
+       Oracle Database
+     * Oracle Exadata
+       Oracle Exadata is a full-stack solution that improves the
+       performance, scale, security, and availability of an enterprise’s
+       Oracle Databases. It incorporates more than 60 unique features,
+       such as Smart Scan SQL offload, that are coengineered with Oracle
+       Database to accelerate OLTP, analytics and machine-learning
+       applications.
+       [https://www.oracle.com/engineered-systems/exadata/]Learn more
+       about Oracle Exadata
+
+Move your database to Oracle Cloud
+
+   Seamlessly move your on-premises relational database to Oracle Cloud.
+   We offer a cost-effective, fully automated, highly available, and
+   scalable solution to move database workloads to the cloud.
+   [https://www.oracle.com/cloud/migrate-data-and-databases-to-oci/]Learn
+   how to move your database
+
+   April 3, 2023
+
+Introducing Oracle Database 23c Free—Developer Release
+
+   Gerald Venzl, Senior Director, Oracle
+
+   Oracle Database 23c Free—Developer Release is a new, free, downloadable
+   offering of industry-leading Oracle Database that enterprises worldwide
+   rely on every day. It’s packaged for ease of use and a full-featured
+   experience, making it the perfect database for anyone who wants to
+   build and run data-driven apps. Experience the world’s only converged
+   database that supports all data models and workload types.
+   [https://blogs.oracle.com/database/post/oracle-database-23c-free]Read
+   the complete post |
+   [https://go.oracle.com/LP=25600?elqCampaignId=38358&bn=db]Subscribe to
+   the blog
+
+Featured Database blogs
+
+   [https://blogs.oracle.com/database/]View all
+
+Database reference architectures
+
+   [https://docs.oracle.com/solutions/?q=&cType=reference-architectures%2C
+   solution-playbook%2Cbuilt-deployed&technologies=Database%2CIaaS&sort=da
+   te-desc&lang=en]See all reference architectures
+
+Oracle Database customer successes
+
+   Oracle Database solutions support customers’ most business-critical
+   apps and keep their data safe.
+     * [https://www.oracle.com/customers/infrastructure/11880-solutions-ag
+       /]11880
+     * [https://www.oracle.com/customers/infrastructure/kingold/]kingold
+     * [https://www.oracle.com/customers/infrastructure/mestec/]Mestec
+     * [https://www.oracle.com/customers/infrastructure/national-pharmacie
+       s/]National Pharmacies
+     * [https://www.oracle.com/customers/infrastructure/outfront-media/]Ou
+       tfront
+     * [https://www.oracle.com/customers/infrastructure/sky-brasil/]Sky
+     * [https://www.oracle.com/customers/taylormade/]Taylormade
+
+Oracle Database customer success story
+
+   Oracle's Converged Database
+   Oracle Autonomous Data Warehouse helps Sejong Hospital fight heart
+   disease
+
+   Sejong Hospital uses Oracle Autonomous Data Warehouse and Oracle
+   Analytics Cloud to make more informed care choices for its patients,
+   including children with congenital heart disease.
+   [https://www.oracle.com/customers/infrastructure/sejong-hospital/]View
+   the story on Sejong Hospital
+
+Database resources
+
+   [Documentation_______]
+   Documentation
+
+Access database documentation
+
+   Oracle Help Center provides detailed information about our products and
+   services with targeted solutions, getting started guides, and content
+   for advanced use cases.
+   [https://docs.oracle.com/]Learn more
+   Cloud learning
+
+Develop your Oracle Database skills
+
+   Oracle University provides learning solutions to help build cloud
+   skills, validate expertise, and accelerate adoption. Learn more about
+   training and certification you can rely on to ensure your
+   organization's success.
+   [https://education.oracle.com/database/oracle-database/pFamily_32]Brows
+   e Oracle Database training
+
+Learning resources
+
+     * [https://education.oracle.com/oracle-database-learning-subscription
+       /ls_38560]Oracle Database Learning Subscription
+     * [https://education.oracle.com/oracle-certification-path/pFamily_32]
+       Oracle Database Certification
+     * [https://education.oracle.com/learning-explorer]Free Oracle
+       Database training
+
+   support
+
+Support
+
+     * [https://support.oracle.com/portal/?search=database&lang=en&context
+       =na]My Oracle Support
+     * [https://www.oracle.com/support/policies.html]Support Policies and
+       Practices
+     * [https://www.oracle.com/support/advanced-customer-services/]Advance
+       d Customer Services
+
+Services
+
+     * [https://www.oracle.com/consulting/]Consulting
+     * [https://www.oracle.com/partner/]Find a Partner
+
+   Related content
+
+Learn more
+
+     * [https://www.oracle.com/database/migrate-database-to-cloud/]How to
+       migrate a database to the cloud
+     * [https://www.oracle.com/database/what-is-database/]What is a
+       database?
+     * [https://www.oracle.com/database/what-is-a-cloud-database/]What is
+       a cloud database?
+     * [https://www.oracle.com/database/what-is-a-relational-database/]Wha
+       t is a relational database?
+     * [https://www.oracle.com/database/what-is-data-management/]What is
+       data management?
+
+Trending
+
+     * [https://www.oracle.com/corporate/analyst-reports/#platform-tab]Ora
+       cle Database industry reviews
+
+Newsletters
+
+   Discover the latest technical news, how-to articles, and best practices
+   on Oracle Database, Autonomous Database, OCI services, and more.
+     * [https://www.oracle.com/database/newsletters/]View the newsletters
+
+Find out what our customers are saying about Oracle Database
+
+     * Gartner logo
+       Reviews from your enterprise peers — verified by Gartner
+       [https://www.gartner.com/reviews/market/cloud-database-management-s
+       ystems/vendor/oracle/product/oracle-database]Read Gartner reviews
+     * TrustRadius logo
+       Top rated software and services based on in-depth reviews from
+       verified users.
+       [https://www.trustradius.com/products/oracle-database/reviews]Read
+       TrustRadius reviews
+     * G2 logo
+       Business software and services based on user ratings and social
+       data.
+       [https://www.g2.com/products/oracle-database/reviews]Read G2
+       reviews
+
+   Plan, Adopt, Innovate logo Plan, Adopt, Innovate
+
+   Oracle provides both the technology and the guidance you need to
+   succeed at every step of your journey, from planning and adoption
+   through to continuous innovation.
+   [https://www.oracle.com/plan-adopt-innovate/]Learn more about Plan,
+   Adopt, Innovate
+
+Get started with Oracle Database
+
+Try Oracle Cloud Free Tier
+
+   Build, test, and deploy applications on Oracle Cloud for free.
+   [https://www.oracle.com/cloud/free/]Try it for free
+
+Run a workshop
+
+   Run a wide variety of labs and workshops and experience our best
+   technology live.
+   [https://apexapps.oracle.com/pls/apex/f?p=133:1]Learn more
+
+Get certified
+
+   Access online training and certifications for Oracle Database cloud
+   services.
+   [https://education.oracle.com/database/oracle-database/pFamily_32]Get
+   training and certification
+
+Contact sales
+
+   Interested in learning more? Contact one of our industry-leading
+   experts.
+   [https://www.oracle.com/database/database-cloud-services-contact-form.h
+   tml]Get in touch
+
+   1 The GARTNER PEER INSIGHTS Logo is a trademark and service mark of
+   Gartner Inc., and/or its affiliates, and is used herein with
+   permission. All rights reserved. Gartner Peer Insights reviews
+   constitute the subjective opinions of individual end-user reviews,
+   ratings, and data applied against a documented methodology; they
+   neither represent the views of, nor constitute an endorsement by,
+   Gartner or its affiliates.
+
+   Resources for
+     * [https://www.oracle.com/corporate/careers/]Careers
+     * [https://developer.oracle.com/]Developers
+     * [https://investor.oracle.com/home/default.aspx]Investors
+     * [https://www.oracle.com/partner/]Partners
+     * [https://www.oracle.com/cloud/oracle-for-startups/]Startups
+     * [https://academy.oracle.com/en/oa-web-overview.html]Students and
+       Educators
+
+   Why Oracle
+     * [https://www.oracle.com/corporate/analyst-reports/]Analyst Reports
+     * [https://www.oracle.com/cloud/economics/]Cloud Economics
+     * [https://www.oracle.com/cloud/azure/]with Microsoft Azure
+     * [https://www.oracle.com/cloud/oci-vs-aws/]vs. AWS
+     * [https://www.oracle.com/cloud/oci-vs-google-cloud/]vs. Google Cloud
+     * [https://www.oracle.com/autonomous-database/autonomous-json-databas
+       e/oracle-json-vs-mongodb-atlas/]vs. MongoDB
+
+   Learn
+     * [https://www.oracle.com/artificial-intelligence/what-is-ai/]What is
+       AI?
+     * [https://www.oracle.com/cloud/what-is-cloud-computing/]What is
+       Cloud Computing?
+     * [https://www.oracle.com/cloud/storage/what-is-cloud-storage/]What
+       is Cloud Storage?
+     * [https://www.oracle.com/cloud/hpc/what-is-hpc/]What is HPC?
+     * [https://www.oracle.com/cloud/what-is-iaas/]What is IaaS?
+     * [https://www.oracle.com/cloud/what-is-paas/]What is PaaS?
+
+   What’s new
+     * [https://www.oracle.com/corporate/conflict-in-ukraine/]Oracle
+       Supports Ukraine
+     * [https://www.oracle.com/cloud/free/]Oracle Cloud Free Tier
+     * [https://www.oracle.com/cloud/architecture-center/]Cloud
+       Architecture Center
+     * [https://www.oracle.com/cloud/cloud-lift/]Cloud Lift
+     * [https://www.oracle.com/cloud/rewards/]Oracle Support Rewards
+     * [https://www.oracle.com/redbullracing/]Oracle Red Bull Racing
+
+   Contact us
+     * [tel:18006330738]US Sales: +1.800.633.0738
+     * [https://www.oracle.com/corporate/contact/]How can we help?
+     * [https://go.oracle.com/subscriptions]Subscribe to emails
+     * [https://www.oracle.com/cloud/events/]Events
+     * [https://www.oracle.com/news/]News
+     * [https://blogs.oracle.com/cloud-infrastructure/]OCI Blog
+     __________________________________________________________________
+
+     * [https://www.oracle.com/universal-menu/#u10countrymenu]Country/Regi
+       on
+
+     * [https://www.oracle.com/legal/copyright.html]© 2023 Oracle
+     * [https://www.oracle.com/legal/privacy/]Privacy/[https://www.oracle.
+       com/legal/privacy/privacy-choices.html]Do Not Sell My Info
+     *
+     * [https://www.oracle.com/legal/privacy/advertising-privacy-policy.ht
+       ml#adchoices]Ad Choices
+     * [https://www.oracle.com/corporate/careers/]Careers
+
+     * [https://www.facebook.com/Oracle/]Facebook
+     * [https://twitter.com/oracle]Twitter
+     * [https://www.linkedin.com/company/oracle/]LinkedIn
+     * [https://www.youtube.com/oracle/]YouTube

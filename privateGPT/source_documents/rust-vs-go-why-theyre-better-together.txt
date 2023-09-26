@@ -1,0 +1,1045 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/14935360]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Frust-vs-go-why-theyre-better-together%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Frust-vs-go-why-theyre-better-together%2F&format=xml]altern
+   ate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/rust-vs-go-why-theyre-better-together/]ARCHITEC
+   TURE
+   [https://thenewstack.io/rust-vs-go-why-theyre-better-together/]ENGINEER
+   ING
+   [https://thenewstack.io/rust-vs-go-why-theyre-better-together/]OPERATIO
+   NS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2021-03-12 11:54:07
+   Rust vs. Go: Why They’re Better Together
+   contributed,
+   [https://thenewstack.io/category/rust/]Rust /
+   [https://thenewstack.io/category/software-development/]Software
+   Development
+
+Rust vs. Go: Why They’re Better Together
+
+   For most companies and users, Go is the right default option. Its
+   performance is strong, Go is easy to adopt, and Go’s highly modular
+   nature makes it particularly good for situations where requirements are
+   changing or evolving.As your product matures, and requirements
+   stabilize, there may be opportunities to have large wins from marginal
+   increases in performance. In these cases, using Rust to maximize
+   performance may well be worth the initial investment.
+   Mar 12th, 2021 11:54am by
+   [https://thenewstack.io/author/jonathanturner/]Jonathan Turner and
+   [https://thenewstack.io/author/stevefrancia/]Steve Francia
+   Featued image for: Rust vs. Go: Why They’re Better Together
+
+   Feature image
+   [https://pixabay.com/photos/vehicle-wheel-chain-drive-metal-2275456/]vi
+   a Pixabay.
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   [https://github.com/spf13][84ce064f-image.png]
+   Steve Francia
+   Over the past 25 years Steve Francia has built some of the most
+   innovative and successful technologies and companies which have become
+   the foundation of cloud computing, embraced by enterprises and
+   developers all over the world. He is currently product and strategy
+   lead for the Go Programming Language at Google. He is the creator of
+   Hugo, Cobra, Viper, spf13-vim and many additional open source projects,
+   having the unique distinction of leading five of the world's largest
+   open source projects.
+
+   While others may see [https://www.rust-lang.org/]Rust and
+   [https://go.dev/]Go as competitive programming languages, neither the
+   Rust nor the Go teams do. Quite the contrary, our teams have deep
+   respect for what the others are doing, and see the languages as
+   complimentary with a shared vision of modernizing the state of software
+   development industry-wide.
+
+   In this article, we will discuss the pros and cons of Rust and Go and
+   how they supplement and support each other, and our recommendations for
+   when each language is most appropriate.
+
+   Companies are finding value in adopting both languages and in their
+   complimentary value. To shift from our opinions to hands-on user
+   experience, we spoke with three such companies,
+   [https://www.dropbox.com/]Dropbox, [https://www.fastly.com/]Fastly, and
+   [https://www.cloudflare.com/]Cloudflare, about their experience in
+   using Go and Rust together. There will be quotes from them throughout
+   this article to give further perspective.
+
+Language Comparison
+
+   Language Go Rust
+   Creation Date 2009 2010
+   Created at Google Mozilla
+   Notable software written in language Kubernetes, Docker, Github CLI,
+   Hugo, Caddy, Drone, Ethereum, Syncthing, Terraform Firefox, ripgrep,
+   alacritty, deno, Habitat
+   Key workloads APIs, Web Apps, CLI apps, DevOps, Networking, Data
+   Processing, cloud apps IoT, processing engines, security-sensitive
+   apps, system components, cloud apps
+   Developer adoption 8.8% (#12) 5.1% (#19)
+   Most loved 62.3% (#5) 86.1% (#1)
+   Most wanted 17.9% (#3) 14.6% (#5)
+
+Similarities
+
+   [https://www.jonathanturner.org/]
+   [82608378-jonathan_turner_photo.jpg]
+   Jonathan Turner
+   Jonathan Turner has worked in open source for more than 20 years, from
+   small projects to large ones, including helping Microsoft transition to
+   open source. He was part of the team that created TypeScript and helped
+   it to grow as program manager and leader of the design team. He also
+   worked on Rust both as a Rust community member and as part of the
+   Mozilla Rust team, which included co-designing Rust's error messages
+   and IDE support.
+
+   Go and Rust have a lot in common. Both are modern software languages
+   born out of a need to provide a safe and scalable solution to the
+   problems impacting software development. Both were created as reactions
+   to shortcomings the creators were experiencing with existing languages
+   in the industry, particularly shortcomings of developer productivity,
+   scalability, safety and concurrency.
+
+   Most of today’s popular languages were designed over 30 years ago. When
+   those languages were designed there were five key differences from
+   today:
+    1. Moore’s law was thought to be eternally true.
+    2. Most software projects were written by small teams, often working
+       in person together.
+    3. Most software had a relatively small number of dependencies, mostly
+       proprietary.
+    4. Safety was a secondary concern… or not a concern at all.
+    5. Software was typically written for a single platform.
+
+   In contrast, both Rust and Go were written for today’s world and
+   generally took similar approaches to design a language for today’s
+   development needs.
+
+1. Performance and Concurrency
+
+   Go and Rust are both compiled languages focused on producing efficient
+   code. They also provide easy access to the multiple processors of
+   today’s machines, making them ideal languages for writing efficient
+   parallel code.
+
+   “Using Go allowed MercadoLibre to cut the number of servers they use
+   for this service to one-eighth the original number (from 32 servers
+   down to four), plus each server can operate with less power (originally
+   four CPU cores, now down to two CPU cores). With Go, the company
+   obviated 88 percent of their servers and cut CPU on the remaining ones
+   in half—producing a tremendous cost-savings.”—
+   “[https://go.dev/solutions/mercadolibre/]MercadoLibre Grows with Go”
+
+   “In our tightly managed environments where we run Go code, we have seen
+   a CPU reduction of approximately ten percent [vs C++] with cleaner and
+   maintainable code.” — [https://go.dev/solutions/paypal/]Bala Natarajan,
+   Paypal
+
+   “Here at AWS, we love Rust, too, because it helps AWS write highly
+   performant, safe infrastructure-level networking and other systems
+   software. Amazon’s first notable product built with Rust, Firecracker,
+   launched publicly in 2018 and provides the open source virtualization
+   technology that powers AWS Lambda and other serverless offerings. But
+   we also use Rust to deliver services such as Amazon Simple Storage
+   Service (Amazon S3), Amazon Elastic Compute Cloud (Amazon EC2), Amazon
+   CloudFront, Amazon Route 53, and more. Recently we launched
+   Bottlerocket, a Linux-based container operating system written in
+   Rust.” —
+   [https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed
+   -like-to-help/]Matt Asay, Amazon Web Services
+
+   We “saw an extraordinary 1200-1500% increase in our speed! We went from
+   300-450ms in release mode with Scala with fewer parsing rules
+   implemented, to 25-30ms in Rust with more parsing rules implemented!” —
+   [https://developer.ibm.com/technologies/web-development/articles/why-we
+   bassembly-and-rust-together-improve-nodejs-performance/]Josh Hannaford,
+   IBM
+
+2. Team Scalable — Reviewable
+
+   Software development today is built by teams that grow and expand,
+   often collaborating in a distributed way using source control. Go and
+   Rust are both designed for how teams work, improving code reviews by
+   removing unnecessary concerns like formatting, security, and complex
+   organization. Both languages require relatively little context to
+   understand what the code is doing, allowing reviewers to more quickly
+   work with code written by other people and review code by both team
+   members and code contributed by open source developers outside of your
+   team.
+
+   “Building Go and Rust code, having come from a Java and Ruby background
+   in my early career, felt like an impossible weight off my shoulders.
+   When I was at Google, it was a relief to come across a service that was
+   written in Go, because I knew it would be easy to build and run. This
+   has also been true of Rust, though I’ve only worked on that at a much
+   smaller scale. I’m hoping that the days of infinitely configurable
+   build systems are dead, and languages all ship with their own
+   purpose-built build tools that just work out of the box.”—
+   [https://bitfieldconsulting.com/golang/rust-vs-go]Sam Rose, CV Partner
+
+   “I tend to breathe a sigh of relief when writing a service in Go since
+   it has a very simple, easy to reason about, static type system compared
+   to dynamic languages, concurrency is a first-class citizen, and Go’s
+   standard library is both unbelievably polished and powerful, yet also
+   to the point. Take a standard Go install, throw in a grpc library and a
+   database connector, and you need very little else to build anything on
+   the server-side, and every engineer will be able to read the code and
+   understand the libraries. When writing a module in Rust, Dropbox
+   engineers felt Rust’s growing pains on the server-side before
+   Async-await stabilized in 2019, but since then, crates are converging
+   to use it and we get the benefit of async patterns coupled with
+   fearless concurrency.” — Daniel Reiter Horn, Dropbox
+
+3. Open Source-aware
+
+   The number of dependencies used by the average software project today
+   is staggering. The decades-long goal of software reuse has been
+   achieved in modern development, where today’s software is built using
+   100s of projects. To do so, developers use software repositories, which
+   increasingly has become a staple of software development across a
+   broadening range of applications. Each of the packages a developer
+   includes, in turn, has its own dependencies. Languages for today’s
+   programming environments need to handle this complexity effortlessly.
+
+   Both Go and Rust have package-management systems that allow developers
+   to make a simple list of the packages they’d like to build on, and the
+   language tools automatically fetch and maintain those packages for
+   them, so that developers can focus more on their own code and less on
+   the management of others.
+
+4. Safety
+
+   The security concerns of today’s applications are well-addressed by
+   both Go and Rust, which ensure that code built in the languages run
+   without exposing the user to a variety of classic security
+   vulnerabilities like buffer overflows, use-after-free, etc. By removing
+   these concerns, developers can focus on the problems at hand and build
+   applications that are more secure by default.
+
+   “The [Rust] compiler really holds your hand when working through the
+   errors that you do get. This lets you focus on your business objectives
+   rather than bug hunting or deciphering cryptic messages.” —
+   [https://developer.ibm.com/technologies/web-development/articles/why-we
+   bassembly-and-rust-together-improve-nodejs-performance/]Josh Hannaford,
+   IBM
+
+   “In short, the flexibility, safety, and security of Rust outweighs any
+   inconvenience of having to follow strict lifetime, borrowing, and other
+   compiler rules or even the lack of a garbage collector. These features
+   are a much-needed addition to cloud software projects and will help
+   avoid many bugs commonly found in them.” —
+   [https://msrc-blog.microsoft.com/2020/04/29/the-safety-boat-kubernetes-
+   and-rust/]Taylor Thomas, Sr., Microsoft.
+
+   “Go is strongly and statically typed with no implicit conversions, but
+   the syntactic overhead is still surprisingly small. This is achieved by
+   simple type inference in assignments together with untyped numeric
+   constants. This gives Go stronger type safety than Java (which has
+   implicit conversions), but the code reads more like Python (which has
+   untyped variables).” —
+   [https://yourbasic.org/golang/advantages-over-java-python/]Stefan
+   Nilsson, computer science professor.
+
+   “When building our Brotli compression library for storing block data at
+   Dropbox, we limited ourselves to the safe subset of Rust and, further,
+   to the core library (no-stdlib) as well, with the allocator specified
+   as a generic. Using the subset of Rust this way made it very easy to
+   call the Rust-Brotli library from Rust on the client-side and using the
+   C FFI from both Python and Go on the Server. This compilation mode also
+   provided[https://dropbox.tech/infrastructure/lossless-compression-with-
+   brotli] substantial security guarantees. After some tuning, the Rust
+   Brotli implementation, despite being 100% safe, array-bounds-checked
+   code, was still faster than the corresponding native Brotli code in C.”
+   — Daniel Reiter Horn, Dropbox
+
+5. Truly Portable
+
+   It is trivial in both Go and Rust to write one piece of software that
+   runs on many different operating systems and architectures. “Write
+   once, compile anywhere.” In addition, both Go and Rust natively support
+   cross-compilation eliminating the need for “build farms” commonly
+   associated with older compiled languages.
+
+   “Golang possesses great qualities for production optimization such as
+   having a small memory footprint, which supports its capability for
+   being building blocks in large-scale projects, as well as easy
+   cross-compilation to other architectures out of the box. Since Go code
+   is compiled into a single static binary, it allows easy
+   containerization and, by extension, makes it almost trivial to deploy
+   Go into any highly available environment such as Kubernetes.” —
+   [https://jaxenter.com/golang-curve-163187.html]Dewet Diener, Curve.
+
+   “When you look at a cloud-based infrastructure, often you’re using
+   something like a Docker container to deploy your workloads. With a
+   static binary that you build in Go, you could have a Docker file that’s
+   10, 11, 12 megabytes instead of bringing in the entire Node.js
+   ecosystem, or Python, or Java, where you’ve got these hundreds of
+   megabyte-sized Docker files. So, shipping that tiny binary is amazing.”
+   —
+   [https://cloudblogs.microsoft.com/opensource/2018/02/21/go-lang-brian-k
+   etelsen-explains-fast-growth/]Brian Ketelsen, Microsoft.
+
+   “With Rust, we’ll have a high-performance and portable platform that we
+   can easily run on Mac, iOS, Linux, Android, and Windows.” —
+   [https://blog.astropad.com/why-rust/]Matt Ronge, Astropad.
+
+Differences
+
+   In design, there are always trade-offs that must be made. While Go and
+   Rust emerged around the same time with similar goals, as they faced
+   decisions at times they chose different trade-offs that separated the
+   languages in key ways.
+
+1. Performance
+
+   Go has excellent performance right out of the box. By design, there are
+   no knobs or levers that you can use to squeeze more performance out of
+   Go. Rust is designed to enable you to squeeze every last drop of
+   performance out of the code; in this regard, you really can’t find a
+   faster language than Rust today. However, Rust’s increased performance
+   comes at the cost of additional complexity.
+
+   “Remarkably, we had only put very basic thought into optimization as
+   the Rust version was written. Even with just basic optimization, Rust
+   was able to outperform the hyper-hand-tuned Go version. This is a huge
+   testament to how easy it is to write efficient programs with Rust
+   compared to the deep dive we had to do with Go.” —
+   [https://blog.discord.com/why-discord-is-switching-from-go-to-rust-a190
+   bbca2b1f]Jesse Howarth, Discord.
+
+   “Dropbox engineers often see 5x performance and latency improvements by
+   porting line-for-line Python code into Go, and memory usage often drops
+   dramatically as compared with Python as there is no GIL and the process
+   count may be reduced. However, when we are memory constrained, as on
+   desktop client software or in certain server processes, we move over to
+   Rust as the manual memory management in Rust is substantially more
+   efficient than the Go GC.” — Daniel Reiter Horn, Dropbox
+
+2. Adaptability/Interability
+
+   Go’s strength of quick iteration allows developers to try ideas quickly
+   and hone in on working code that solves the task at hand. Often, this
+   is sufficient and frees the developer to move onto other tasks. Rust,
+   on the other hand, has longer compiles compared with Go, leading to
+   slower iteration times. This leads Go to work better in scenarios where
+   faster turnaround time allows developers to adapt to changing
+   requirements, while Rust thrives in scenarios where more time can be
+   given to making a more refined and performant implementation.
+
+   “The genius of the Go type system is that callers can define the
+   Interfaces, allowing libraries to return expansive structs but require
+   narrow interfaces. The genius of the Rust type system is the
+   combination of match syntax with Result<>, where you can be statically
+   certain every eventuality is handled and never have to invent null
+   values to satisfy unused return parameters.” — Daniel Reiter Horn,
+   Dropbox
+
+   “(I)f your use case is closer to customers, it’s more vulnerable to
+   shifting requirements, then Go is a lot nicer because the cost of
+   continuous refactor is a lot cheaper. It’s how fast you can express the
+   new requirements and try them out.” — Peter Bourgon, Fastly
+
+3. Learnability
+
+   Simply put, there really isn’t a more approachable language than Go.
+   There are many stories of teams who were able to adopt Go and put Go
+   services/applications into production in a few weeks. Additionally, Go
+   is relatively unique among languages in that its language design and
+   practices are quite consistent over it’s 10+ year lifetime. So time
+   invested in learning Go maintains its value for a long time. By
+   comparison, Rust is considered a difficult language to learn due to its
+   complexity. It generally takes several months of learning Rust to feel
+   comfortable with it, but with this extra complexity comes precise
+   control and increased performance.
+
+   “At the time, no single team member knew Go, but within a month,
+   everyone was writing in Go” –
+   [https://medium.com/capital-one-tech/a-serverless-and-go-journey-credit
+   -offers-api-74ef1f9fde7f]Jaime Garcia, Capital One
+
+   “What makes Go different from other programming languages is cognitive
+   load. You can do more with less code, which makes it easier to reason
+   about and understand the code that you do end up writing. The majority
+   of Go code ends up looking quite similar, so, even if you’re working
+   with a completely new codebase, you can get up and running pretty
+   quickly.” — Glen Balliet Engineering Director of loyalty platforms at
+   American Express [https://go.dev/solutions/americanexpress/]American
+   Express Uses Go for Payments & Rewards
+
+   “However, unlike other programming languages, Go was created for
+   maximum user efficiency. Therefore developers and engineers with Java
+   or PHP backgrounds can be upskilled and trained in using Go within a
+   few weeks — and in our experience, many of them end up preferring it.”
+   — [https://jaxenter.com/golang-curve-163187.html]Dewet Diener, Curve
+
+4. Precise Control
+
+   Perhaps one of Rust’s greatest strengths is the amount of control the
+   developer has over how memory is managed, how to use the available
+   resources of the machine, how code is optimized, and how problem
+   solutions are crafted. This is not without a large complexity cost when
+   compared to Go, which is designed less for this type of precise
+   crafting and more for faster exploration times and quicker turnaround
+   times.
+
+   “As our experience with Rust grew, it showed advantages on two other
+   axes: as a language with strong memory safety it was a good choice for
+   processing at the edge and as a language that had tremendous enthusiasm
+   it became one that became popular for de novo components.”  — John
+   Graham-Cumming, Cloudflare
+
+Summary/Key Takeaways
+
+   Go’s simplicity, performance, and developer productivity make Go an
+   ideal language for creating user-facing applications and services. The
+   fast iteration allows teams to quickly pivot to meet the changing needs
+   of users, giving teams a way to focus their energies on flexibility.
+
+   Rust’s finer control allows for more precision, making Rust an ideal
+   language for low-level operations that are less likely to change and
+   that would benefit from the marginally improved performance over Go,
+   especially if deployed at very large scales.
+
+   Rust’s strengths are at the most advantageous closest to the metal.
+   Go’s strengths are at their most advantageous closer to the user. This
+   isn’t to say that either can’t work in the other’s space, but it would
+   have increased friction to doing so. As your requirements shift from
+   flexibility to efficiency it makes a stronger case to rewrite libraries
+   in Rust.
+
+   While the designs of Go and Rust differ significantly, their designs
+   play to a compatible set of strengths, and — when used together — allow
+   both great flexibility and performance.
+
+Recommendations
+
+   For most companies and users, Go is the right default option. Its
+   performance is strong, Go is easy to adopt, and Go’s highly modular
+   nature makes it particularly good for situations where requirements are
+   changing or evolving.
+
+   As your product matures, and requirements stabilize, there may be
+   opportunities to have large wins from marginal increases in
+   performance. In these cases, using Rust to maximize performance may
+   well be worth the initial investment.
+   Created with Sketch.
+   [https://thenewstack.io/author/stevefrancia/]
+   [8a23c093-stevefrancia.jpg]
+   Leader responsible for 5 of the “Top 100” open source projects (Go,
+   Docker, Hugo, MongoDB, Drupal). Creator of many open source projects
+   with broad adoption and vibrant contributor & user communities.
+   Read more from Steve Francia
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Frust-vs-g
+   o-why-theyre-better-together%2F&text=Rust+vs.+Go%3A+Why+They%E2%80%99re
+   +Better+Together:%20&via=thenewstack][https://news.ycombinator.com/subm
+   itlink?u=https%3A%2F%2Fthenewstack.io%2Frust-vs-go-why-theyre-better-to
+   gether%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A
+   %2F%2Fthenewstack.io%2Frust-vs-go-why-theyre-better-together%2F][https:
+   //reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Frust-vs-go-why-t
+   heyre-better-together%2F&title=Rust+vs.+Go%3A+Why+They%E2%80%99re+Bette
+   r+Together][https://www.facebook.com/sharer/sharer.php?u=https://thenew
+   stack.io/rust-vs-go-why-theyre-better-together/]
+   RELATED STORIES
+   [https://thenewstack.io/rust-and-the-os-the-web-database-and-other-lang
+   uages/]Rust and the OS, the Web, Database and Other Languages
+   [https://thenewstack.io/using-rust-to-build-a-100-scylladb-shard-aware-
+   application/]Using Rust to Build a 100% ScyllaDB Shard-Aware
+   Application
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   [https://thenewstack.io/rust-project-reveals-new-constitution-in-wake-o
+   f-crisis/]Rust Project Reveals New ‘Constitution’ in Wake of Crisis
+   [https://thenewstack.io/rust-in-the-linux-kernel/]Rust in the Linux
+   Kernel
+
+   [https://aws.amazon.com/?utm_content=sponsor-disclosure]Amazon Web
+   Services is a sponsor of The New Stack.
+   TNS owner Insight Partners is an investor in: Docker, Simply.
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Frust-vs-g
+   o-why-theyre-better-together%2F&text=Rust+vs.+Go%3A+Why+They%E2%80%99re
+   +Better+Together:%20&via=thenewstack][https://news.ycombinator.com/subm
+   itlink?u=https%3A%2F%2Fthenewstack.io%2Frust-vs-go-why-theyre-better-to
+   gether%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A
+   %2F%2Fthenewstack.io%2Frust-vs-go-why-theyre-better-together%2F][https:
+   //reddit.com/submit?url=https%3A%2F%2Fthenewstack.io%2Frust-vs-go-why-t
+   heyre-better-together%2F&title=Rust+vs.+Go%3A+Why+They%E2%80%99re+Bette
+   r+Together][https://www.facebook.com/sharer/sharer.php?u=https://thenew
+   stack.io/rust-vs-go-why-theyre-better-together/]
+   RELATED STORIES
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   [https://thenewstack.io/dev-news-web-push-nuxts-new-devtools-and-a-boon
+   -for-rust/]Dev News: Web Push, Nuxt’s New DevTools and a Boon for Rust
+   [https://thenewstack.io/using-rust-to-build-a-100-scylladb-shard-aware-
+   application/]Using Rust to Build a 100% ScyllaDB Shard-Aware
+   Application
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

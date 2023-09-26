@@ -1,0 +1,1766 @@
+Music
+this video is sponsored by dev Mountain
+if you re interested in learning web
+development iOS or UX design dev
+Mountain is a 12 week design and
+development boot camp intended to get
+you a full time position in the industry
+to learn more visit dev mountain comm or
+click the link in the description below
+hey guys welcome to my no js crash
+course so in this video we re gonna be
+talking about what note is and we ll
+jump in and take a look at some of the
+fundamental modules some of the
+functionality that nodejs includes we re
+gonna build a web server with just note
+itself it s important to know that we re
+not going to be using Express or any
+other framework or anything like that
+this course will be followed with an
+express crash course but far too many
+tutorials on node include Express and
+it s important to know that they re
+there they re different note is a
+runtime expresses a framework that s
+often used with node so I want to touch
+on some of the core node modules at the
+end I ll even show you how to deploy no
+to Heroku which is an app hosting
+platform so we ll look at some slides
+and then we ll jump in and we ll start
+exploring nodejs
+alright so first off what is node it s a
+JavaScript runtime as I mentioned it s
+not a language it s not a framework or a
+library or anything like that the
+language is JavaScript
+only instead of JavaScript running in a
+browser environment as it has run
+traditionally it s actually running on
+your machine as a service or a runtime
+it does this by using the v8 JavaScript
+engine which is the same engine that the
+Google Chrome browser uses it s very
+powerful it s very fast node and v8 is
+they re mostly written in C which is
+an extremely powerful and fast low level
+language so essentially what all this
+means is we can use JavaScript as a
+server side language just like we could
+Python PHP C shop or any other
+programming language so what should you
+know before learning node I would
+definitely recommend that you learn at
+least the the basics of JavaScript
+objects arrays conditionals all that
+good stuff I would also suggest learning
+some of the newer fee
+teachers es6 plus like arrow functions
+promises etc now since you re dealing
+with server side you re gonna be dealing
+with HTTP quite a bit as you ll be
+getting requests from the client to your
+server and then sending back a response
+and of course frameworks like Express
+make this much easier but nevertheless
+you should sue should still understand
+for instance some of the important HTTP
+codes like what is a status 200 a 404 or
+500 etc maybe even learn about HTTP
+headers things like that so note is also
+used a lot for REST API in micro
+services which 99 of the time they re
+gonna be serving Jason as the content
+type or the data type so I would suggest
+learning Jason which is actually very
+simple you could probably learn it in a
+couple days if you don t already know it
+and that s that s pretty much it maybe
+the MVC pattern the Model View
+controller pattern which is used pretty
+commonly with node but again it s it s
+just a plus you know it s not something
+you have to know before you start
+learning node alright so why use node
+why is it a good choice for server side
+technology over let s say PHP or Python
+so node is extremely fast efficient and
+it s also highly scalable and one of the
+reasons for that is it s event driven
+and it runs on a single loop and it s
+non blocking okay so it has a
+non blocking i o model and if that
+sounds like gibberish i m gonna go over
+the over what that means a little bit
+more in the next couple slides so note
+is also very popular in the industry
+especially in startups there s a lot of
+full stack jobs out there looking for
+people that no node I m sure many of you
+have heard of the mean stack or the myrn
+stack note is often used with front end
+frameworks like react view and angular
+because it allows you to use the same
+language on both sides so rather than
+having a JavaScript front end and then
+like a c sharp or Python back end you
+have the same language on both the front
+end and back end which can be an
+advantage all right so as I mentioned
+nodejs is non blocking and it s
+asynchronous okay it works on a single
+thread and it used
+is non blocking i o or input output
+calls so something like PHP is usually
+synchronous and it runs on multiple
+threads so every time a request is made
+it spawns a new thread and these threads
+they take up system memory and can
+eventually max out okay can max out
+whatever the the memory load handles so
+since these languages are synchronous
+and asked to essentially sit and wait
+for one process to complete before
+starting the next now nodejs on the
+other hand works in an asynchronous way
+and it s non blocking on a single thread
+and this thick single thread can
+literally support tens of thousands
+connect of connections which are held in
+what s called an event loop and this
+optimizes throughput and scalability in
+applications with many i o operations
+where you don t want to use node is with
+CPU intensive apps so long running
+calculations things like that all right
+so here is a diagram of the event loop
+and how it works so it runs on a single
+thread and events are run asynchronously
+basically when an event is triggered a
+callback fires so this way the system
+doesn t have to run a process sit and
+wait for it to end and then run the next
+like it does in many other synchronous
+languages it simply fires an event or a
+process and moves on
+and once that event is fulfilled it runs
+in the loop and you don t have to
+understand this completely to be to be
+able to start to work with node and
+write node js applications I just wanted
+to kind of summarize a little bit how
+this works in because it s the reason
+that note is so fast and efficient all
+right so let s talk a little bit about
+what types of projects node is good for
+so I mean the short answer is anything
+that s not CPU intensive right so IO
+operations are asynchronous and usually
+that is for instance making a request to
+a server sending data to a server
+getting a response things like that
+those are i o operations however running
+you know CPU calculations that that can
+block the whole server and can make care
+that application very slow so it s not
+really good
+for those types of things so like rest
+AP is and micro services note is great
+for a lot of times you ll be building a
+back end API with node where you won t
+even be serving for instance HTML pages
+you ll be serving Jason you ll do all
+your database interaction and stuff like
+that within nodejs
+and obviously it works with any database
+you can use relational databases however
+it s very popular MongoDB is very
+popular to use with node because it s
+very fast it s also very scalable so
+node and actually make a really
+good team real time services so things
+like chat applications note is great for
+crud apps so blogs shopping cards social
+networks basically any application where
+you re just fetching stuff from the
+database displaying it you re updating
+the database things like that note is
+great for as well also tools and
+utilities as long as they re not CPU
+intensive so these are all things that
+note is fantastic for all right so when
+you download and install node JSU you
+get something called NPM which is the
+node package manager and it s used to
+install third party packages or modules
+such as frameworks libraries and smaller
+tools and when you install a package it
+gets stored in a folder called node
+underscore modules which will R will be
+created automatically when you install
+something and then any package or
+dependency you install will get listed
+in a file called package jason which
+every node project should include it
+holds info about your app like the name
+the version and it also lists all the
+dependencies which are packages that
+your app needs to be able to run ok you
+can also create NPM scripts to run
+certain tasks such as web servers and
+we re going to be looking into all of
+this stuff a little later
+I do have an entire crash course on NPM
+where I go deep into all the commands
+and stuff like that if you re interested
+some common commands we have NPM init
+which generates the package JSON file
+and then if we want to install something
+we simply do NPM install and then
+whatever it is
+we want to install in this case it s
+Express which is a very popular web
+framework now this will install it
+locally in your application in your
+application folder however you can also
+install things globally on your system
+by just adding the G flag ok so
+that ll put it on your system so that
+you can run the commands or whatever it
+includes you can run and run that
+anywhere in your system alright so
+modules are a huge part of node node has
+a large set of core modules that it
+comes with we re going to be looking at
+a bunch of the common ones
+you also have modules or packages that
+you install with NPM and then you can
+also create your own modules which are
+simply files that have an export ok this
+way you can include variables functions
+classes or anything else from one file
+you can include that in another and
+we re gonna do this we re gonna look at
+the syntax basically you create a
+variable you set it to require whatever
+module you want in this case it s the
+path module which is a node core module
+and then if you want to create your own
+file and bring it in you can simply add
+it to a create a variable require and
+then set the path of the file so in this
+case dot slash just means that this
+there s a my file yes file in the same
+folder ok so I think that s enough for
+the talk and the slides let s go ahead
+and jump in and let s start working with
+node js alright so the very first thing
+that you need to do obviously is install
+nodejs so you need to go to node js org
+and either download the long term
+support version or the current which is
+the latest version with the latest
+features i usually download the current
+but it doesn t matter whichever one you
+want to use should be fine so i m just
+going to open up a terminal real quick
+or if you re on Windows you can open up
+your command line your command prompt
+and I just want to show you before we
+jump into a text editor when you start
+creating files I want to show you that
+node comes with something called a
+repple which is a read eval print loop
+and it basically allows us to run
+JavaScript directly in the console so if
+we just type in first of all just make
+sure you have installed with no
+version and you can see you ll also have
+NPM as well all right but if we go ahead
+and we just say node and that s it we
+hit enter
+it ll bring us into the rebel and from
+here we can actually type in JavaScript
+so for instance we can say 1 plus 1 and
+it ll give us 2 we can create variables
+so I ll say Kant s name equals a string
+of Brad and it ll give me back undefined
+just because that that statement doesn t
+return anything but if I go ahead and
+type in name you ll see it gives me Brad
+I can also do a console dot log name and
+you ll see it will just log Brad all
+right we can also create functions so if
+I say like function hello and let s just
+have it actually we ll just say return
+Music
+hello and then we ll just concatenate on
+name so we ll create that function and
+now if I say hello I can run that
+function alright so I just wanted to
+show you that we can in fact run
+JavaScript from the console if we have
+no installed however this is not this
+isn t something that at least I use
+pretty much ever but it is possible so
+let s just control C or command C just
+to get out of that alright so I m going
+to close up the terminal and head into
+vs code and for now on I m going to be
+using my integrated terminal down here
+and I have a folder open which is empty
+it s called node crash course and this
+is where I ll be creating all my files
+so the first thing that you re going to
+want to do usually when you re creating
+anything with node is create a
+package json file and you don t have to
+create it manually you can simply run
+npm in it and it s gonna by default just
+ask us some questions like the package
+name so I ll keep the folder name as the
+default the version hit enter that s
+good description let s say ode crash
+course entry point is basically your
+main file by default it s index J s but
+I ve also seen app J s server J s those
+are some other common file names test
+command we don t need that git
+repository author you put your name and
+then license default is ISC that s fine
+and then we ll hit enter
+and it will create a package json with
+all that stuff in it all right now the
+the the biggest purpose of package J
+well I shouldn t say the biggest purpose
+but one of the main purposes is to store
+all your dependencies if your
+application uses something you install
+from NPM then it needs to be listed here
+because if you move to another computer
+another server whatever it may be where
+you want to run your app you re gonna
+run npm install and that s gonna install
+all the packages that are listed
+all right so later on i m gonna be using
+a very small module called UUID
+just to generate random IDs so i ll
+install that now just to show you if i
+do npm install UUID so as you can see
+over here it created a node modules
+folder and it was put inside of there
+and if I reload my package Jason you can
+see it gets added as a dependency okay
+now you can also have dev dependencies
+which are dependencies that you just
+need for development so we re gonna be
+using something called node Mon which
+will make it so that we don t have to
+keep restarting our server and I want to
+install that as a dev dependency so I
+could say npm install and i could either
+do save dev and then the name of
+the module which is node 1 but what i
+like to do is just upper case D which
+is a shorter way of doing it so if we go
+ahead and run that it should get added
+as a dev dependency all right so now
+right here you can see dev dependencies
+and we have node Mon so when you re
+ready to deploy or move this app
+somewhere else you don t include them
+node modules you can delete that and
+then just run npm install actually i ll
+show you that real quick if I were to
+delete this whole and this has a lot of
+stuff in it now because it has all the
+dependencies of these modules and then
+any dependencies that those have so this
+this folder gets huge so you never want
+to deploy this to a host if I delete
+this and I have these listed in my
+package Jason I can simply
+npm install and it s going to then
+recreate the node modules folder with
+all that stuff in it okay so hopefully
+that makes sense and we ll use those
+modules later I just wanted to show you
+that so let s create our main file which
+is index dot JSP a Jason this just
+tracks all of our dependencies with the
+versions and by the way everything that
+we install comes from the NPM j s org
+repository or website that s where
+everything is stored there in that
+registry
+all right so in index J s I m just gonna
+simply do a console dot log and let s
+just say hello from nodejs and save now
+I can run this file by simply saying
+node index dot j s and it prints it out
+in the terminal in the console and when
+we run a file we don t actually have to
+put dot J s so just node index that ll
+do the same thing all right so we can
+run any JavaScript we want from the
+terminal or any JavaScript file now most
+of the time you re going to have
+multiple files and these these other
+files are basically modules you re gonna
+create whether it s a class or a
+function or an object or something that
+you re going to export to bring in to
+another file so I want to touch on that
+so let s create a new file we ll just
+call this person dot J s and inside here
+let s go ahead and create create an
+object called person and we ll set this
+object to have a name of John Doe and
+let s say age 30 now if I want to use
+this this person object somewhere else I
+can simply say module dot exports equals
+person ok and if I save that and I go
+back to index j s and I want to bring
+that in I can simply create a variable
+call it person and set it to
+wire and then since it s a file and not
+an actual module that we installed or a
+core node module we want to put the path
+which is dot slash meaning the current
+folder and then person and then I ll go
+ahead and console dot log person all
+right and then we re gonna run node
+index and you ll see that it ll give us
+that object obviously if I wanted just
+the name I could do person dot name and
+we get John Doe okay now a lot of times
+you ll have a class you could even you
+could have a function that you could
+explore it but let s say we wanted a
+class in this file called person and
+we ll create a constructor and this is
+just a JavaScript class and he has six
+class I m not gonna go over JavaScript
+syntax it s not what this video is about
+it s about nodes specifically so I m not
+gonna explain every little bit of
+JavaScript but let s say this takes in a
+name and an age and we set this dot name
+to name and this dot age to the age
+that s passed in and we ll create a
+method called greeting and let s go
+ahead and just let s do a console log
+we ll put some backticks in here and
+we ll say my name is put our variable
+syntax and we can save this dot name and
+I am this start age okay and then we ll
+go down here and let s make sure we
+change this to an uppercase P we re
+exporting the whole class and we ll save
+that and let s bring in person uppercase
+P and now we can instantiate a person
+from it a person object so we ll say
+person 1 equals new person pass in John
+Doe and 30 and let s go ahead and run
+person 1 dot greeting so now if I run
+this node index file you ll see my name
+is John Doe and I am 30 okay so we
+exported the person class and we brought
+it in and we call we instantiated a
+person and then called the
+reading method now it might seem like
+this file here is just getting run
+directly like this but actually when you
+include a module like this it it s
+wrapped in what s called a module
+wrapper function and I m just gonna
+paste this in just to show you we don t
+want to run this code this is actually
+wrapped around all of this
+so we have access to module require
+exports also the file name and Dern aim
+okay double underscore file name and
+Dern aim we re using module dot exports
+down here we can also use required to
+bring things in and we also have access
+to these two and just to prove that to
+you I ll go ahead and say console dot
+log let s do well do dur name and file
+name okay I m just going to comment that
+out cuz that ll give us an error and if
+we run node index you ll see before we
+get the output of the greeting we get
+this which is the dur name okay it s
+just the full directory of this file and
+then the file name includes the full
+directory as well as the name of the
+file which is person G is okay not index
+because we didn t run this in index we
+ran it in person J s okay so just wanted
+to show you that those are available
+because we ll be using this dur name and
+file name later on and that s where it
+comes from alright so let s go ahead and
+close that up I think that s that s
+pretty much it as far as exporting and
+in requiring now you might be wondering
+why we re not doing like import person
+from person like we would in like let s
+say react or anything es6 and that s
+because node hasn t implemented this yet
+if you want to be able to use the syntax
+for now you have to actually you have to
+implement babel to to compile it to
+compile to es6 this is the last feature
+really of es6 that isn t perfected in
+node yet and I m hoping that that this
+cut that this is available soon that we
+can do this
+but just to show you if we try this and
+we run note index it s gonna give us an
+error unexpected identifier okay so yeah
+we can t do that just yet but hopefully
+soon so and by the way this is called
+common J s this this method of use this
+method of module is common J s the other
+way that I just showed you is es6 okay
+so now let s take a look at some of
+nodes core modules now if we go back to
+the nodejs website we go to docs and
+we re using version 11 this will give us
+all the core modules as you can see on
+the left here as well as documentation
+on some other stuff but let s take a
+look at the path module which is used
+quite often it s basically used to work
+with file directories files in directory
+paths as you can see and the
+documentation for these modules is
+really good because it has all the
+different methods that are available so
+for instance basename shows you the
+parameters that it takes shows you what
+it returns it shows you an example so
+this is very helpful and I m just going
+to go over some of these okay I m not
+going to go over every single method of
+all of these these modules but just some
+stuff that you might run into so let s
+jump back into vs code and these are
+basically gonna be for reference so I m
+gonna create a new folder called
+reference because I want you guys to be
+able to have this if you want to go back
+and look at some of these methods so I m
+gonna create a file in here called path
+underscore demo dot j s and we re gonna
+want to run this file so I m gonna CD
+into reference and then to run this we
+can say node path demo which obviously
+right now isn t going to do anything
+because there s nothing in it
+so let s bring in the path module so we
+can say require path and it s it s a
+core module so we don t have to include
+like a file path or anything we don t
+have to npm install path because it s
+already included with node
+so let s take a look at some of the
+methods so first one is base name
+actually I ll put what it does so it
+gets the base file name and remember if
+we do a console log of double underscore
+file name what that gives us is the
+entire path and the file name at the end
+so what Basin what path dot base name
+does is it ll just give us the file name
+
+and we go ahead and run this you ll see
+we just get path demo Jas so they ll be
+you know if you re working with files
+they ll you ll probably have cases where
+you re gonna have to dissect parts of it
+and this will get you the base name now
+if you want just the the directory name
+we can do that as well so we can say
+console log path dot dur name and then
+let s pass in the file name which
+includes the the path and the filename
+and that will give us just the directory
+which in this case dur name double
+underscore dur name will give us the
+same thing but this way we re using the
+path module to get this okay so we can
+also get the extension and we ll
+actually be using will actually be using
+quite a bit of this stuff later when we
+create our HTTP server but let s say
+file extension so if we do path dot txt
+and you ll see with envious code as soon
+as I put a dot it shows us all the
+available methods so we ll do X name and
+let s pass in our file name and now if
+we run this you can see that it gives us
+a dot J s okay so it s just going to
+give you whatever the extension is you
+can also create an object with different
+parts of the path so let s say create
+path object and we do this with the
+parse method so let s do console log
+path dot parse and pass in our filename
+and see what that gives us and it gives
+us this object with the root directory
+base extension and name which is the
+file name without the extension and we
+can access any part since this is an
+object we can access any property like
+let s say we want the base we could say
+dot vase and it just gives us just that
+base right here just that value alright
+and then the last thing I want to show
+you is join so this will can t talk
+while I spell concatenate so concatenate
+paths and we use join for this so let s
+say we want to create like the current
+directory slash test slash hello dot
+HTML let s say we wanted that so we
+could say path dot join and it s just
+going to put together each parameter we
+pass in so we ll take the the der name
+which gives us the current directory and
+let s say we want to then do test ok so
+a folder called test and then a file
+called hello dot HTML ok so let s get
+rid of this and let s see what this does
+what this gives us
+so we ll clear this up and run the file
+and you ll see we get the directory name
+so that s the first part and then slash
+test which is this part and then hello
+HTML now this works really well when you
+have issues with with delimiter x
+basically with windows you have you have
+different delimiters sometimes you ll
+have this for the back slash and then on
+Mac and Linux you ll have the forward
+slash and this will put the correct
+delimiter in which usually resolves
+itself book itself but I have written
+some system cases where it doesn t so
+it s good to use this path join and
+we ll be using this later on now there
+are a lot of other methods that you can
+use with the path module here but I m
+not going to go over all of them I don t
+want to waste too much time here so the
+next thing I want to look at is the file
+system module or the fs module so in
+reference I m going to create a full
+file called FS underscore demo dot J S
+and we re gonna bring in here FS so
+require FS and we re also going to bring
+in path again because we re going to be
+using that as well alright and first
+thing I m going to show you is how to
+create a folder okay so this will create
+a folder on our system and we re gonna
+say FS dot make dur now by default these
+are asynchronous and let me just show
+you what I mean so if we go to C file
+system and this shows us all the
+different methods and if we go to make
+dur you ll see that there is make dur
+which is the one we re using which is
+asynchronous which means that it takes
+in a callback okay so anything you want
+to do after you put in your callback
+however there is a synchronous version
+of most of these methods so as you can
+see there s make tear sync which does
+not take in a callback so basically if
+you use a synchronous version you ll
+wait until the process is complete until
+it moves on with the asynchronous you
+can call it and then and then just you
+know keep going and it ll finish in the
+callback so it s asynchronous so in most
+cases you re going to want to use the
+asynchronous version however I wanted to
+show you there is a synchronous version
+so like I said this takes in the folder
+you want to create so I m actually gonna
+create a folder called test inside our
+current directory so I m gonna take the
+path module and use join and let s join
+the current directory name and then
+let s
+add a folder called test ok so that s
+what we want to create the second
+parameter of make dar is options and we
+don t have any so I m just going to put
+an empty object and then a callback so
+we can say like function and this will
+take in a possible error and we can
+check for that error and if there is one
+then we can throw that error in the
+console and then we ll just do a console
+dot log and we ll say folder created all
+right now you can do it this way with
+function but I like to use arrow
+functions so I m going to get rid of
+that the function text and then just put
+an arrow and since I only have one
+parameter of error I don t actually need
+to use parentheses here so I m gonna
+save this and let s go ahead and run
+node FS underscore demo so we get folder
+created and if we look in our reference
+folder we now have a folder called test
+ok so that will create a folder now we
+can also create files and there s
+there s a method called open that you
+can use to create a file however if you
+want to write to it right away you can
+use write file and that will create it
+and write to it so let s go ahead and
+say create and write to file so let s
+actually copy this because all of these
+are pretty similar they re all
+asynchronous so instead of make
+directory or make derp we re gonna use
+write file and for the path let s do
+same thing current directory test and
+let s do we ll create a file called
+hello dot txt ok so it just takes in a
+path to a file that you want to create
+not txt txt and then the second
+parameter is gonna be the content that
+you want to write so let s just say
+hello world
+and then this will give us back and
+possible error we ll check for it if
+nothing goes wrong then we ll just say
+file written all right so save that I
+do have the prettier extension in vs
+code so it just formatted it a little
+bit so let s go ahead and run this
+whoops
+do hear file already exists oh because I
+we re trying to create a folder here
+that already exists so I m gonna comment
+that out however it did run this and it
+did create the hello dot txt and if we
+look inside actually I guess you know
+
+all right so let s look in hello text
+and now we get hello world all right now
+let s say we wanted to add to it like
+hello world and then we ll say I love
+nodejs now if I were to copy this and
+put this down here and change this to
+space I love nodejs
+let s see what happens so we re gonna
+run both of these right files okay you
+can see it was file written 2 is here
+twice but if we look inside it just says
+I love nodejs because what right file
+does is it over writes whatever is
+already in there if you want to append
+to it then you want to use a pend file
+so let s change this to a pend file and
+then since I want to run both of these
+together and this is asynchronous we re
+gonna take this whole thing and put this
+inside the callback
+ok so we ll put that right here and
+let s say file pend and save and now
+what I ll do is just delete the hello
+text all together so it recreates it
+okay so right file should recreate it it
+should add hello world and then in the
+callback we re running a pend file which
+should add I love nodejs so let s try it
+let s make sure that s saved we ll run
+it creates the file and if we take a
+look it says hello world space I love
+nodejs alright so that s right file on a
+pen file now if we want to read file we
+can do that as well let s just comment
+this stuff oh and let s say read file
+
+okay so read file and the file we want
+to read is gonna be the hello text so
+I m just gonna add in here hello dot txt
+and let s see for the sec second
+parameter of read file you re going to
+want to put the character encoding which
+is going to be utf 8 if you don t put
+this and you want to get the data that s
+in the file it s just going to give you
+a raw buffer it s not going to give you
+the actual data since we put the
+encoding we can actually put after the
+possible error the data that s in the
+file and let s go ahead and console log
+that data and of course you could do
+whatever you want with the data so let s
+see that should work let s save this and
+run the file and we get hello world i
+love nodejs so it s reading what it what
+is in this text file okay and then if we
+want to rename a file we can do that as
+well so let s change this to rename
+comment that out so rename the second
+parameter is gonna be the fot the path
+and the new file name so I m gonna copy
+this whole path dot join and put that as
+a second parameter and let s change the
+name of the file to it ll just say hello
+world I guess okay and it ll give us a
+possible error and then it s just
+console log file renamed up Sweeney
+
+all right so let s save that run it file
+renamed and now you ll see we have hello
+world dot txt all right so those are
+just some of the things you can do with
+files with the FS module again there s
+there s many more methods if you want to
+look at the documentation and feel free
+to have the repository in the
+description if you want to add more
+examples and then make a pull request
+feel free to do that just for it to help
+other people so let s see in reference
+let s now look at let s look at the OS
+module which is pretty simple so it s a
+new file OS underscore demo dot j s and
+what this does is it gives us
+information about our environment about
+our operating system so let s do const
+OS equals require OS so let s say we
+want to get the platform meaning Windows
+Mac whatever so let s do console log OS
+
+so it s save this and let s run node oh
+s demo and you can see Darwin so Darwin
+is the the platform for Mac ok meaning
+I m on a Mac if you re on Windows you
+get win32 on Linux you get what do you
+get on Linux I forget I forget but it s
+it s something different
+so that will get us the platform we can
+also get the CPU architecture so if we
+do a console log OS dot Arc actually
+it s a method so we need parentheses
+we ll run that x64 the chances are
+you ll get the same thing next we can
+get CPU core info so we can get that
+with OS dot CPUs
+if I run that it ll actually give us an
+object with information for every core
+of the CPU and you can see I have quite
+a few here this is an iMac Pro which has
+a bunch of cores I forget it was like 12
+cores or something like that
+it s an Intel Xeon and it just shows you
+all the different analytics all right so
+that s CPU core info we can also get
+stuff with them information about the
+memory so like the free memory so
+console and this is really cool because
+you can you can build apps that that
+have to do with with your system you
+know so let s do free mem oops I m sorry
+Oh s dot free mem and if we run that
+you ll see right here it gives us the
+amount of free memory and we can also
+get the total memory with total mem run
+that so is the free memory is the total
+memory of my system yours will be
+different we can also get for instance
+the home directory so we can say OS
+
+and run that you ll see that my home
+directory is user slash Brad Travis II
+and then last thing I m going to show
+you is the uptime which is the amount of
+time your system has been up so it s two
+OS start up time and it gives you the
+number of seconds that your system has
+been up so I mean you can be creative
+and create some cool applications with
+this stuff so I m going to close that up
+and the next thing I want to look at is
+the URL module so in reference I m going
+to create a file called URL underscore
+demo dot Jas so obviously this this
+works with URLs so let s do const URL
+equals require URL now used to use URL
+dot parse which is now deprecated i
+believe now you want to just instantiate
+a new URL object so I m going to say
+constant my URL equals new URL and then
+let s pass in here it s a HTTP my
+website com
+let s do slash hello dot HTML let s put
+some parameters in here whoops spelt a
+little wrong so let s put some
+parameters in here like ID equals 100
+and status equals active because a lot
+of times you re going to work with URLs
+that have parameters like this so first
+thing I want to show you how to do is
+get the serialized URL so basically get
+the straight up URL and we can use the
+object we created dot href ok so we can
+use the a that property so we ll run
+node URL underscore demo we re running
+the file and it just gives us the entire
+thing you can also use the two string
+method which will give you the same
+thing
+so if we do to string like that you ll
+see we get the same thing all right now
+let s say you want to just get the host
+or the root domain which in our case
+would be my website comm so we could do
+my URL dots host run that and you ll see
+we get my website comm now you can also
+get the host name by doing my URL dot
+host name and if I run that notice of
+the same thing the difference between
+this is that host name doesn t include
+the port so if we have like port 8000
+like that and we run it notice that host
+name doesn t get the port host does okay
+so that s the difference there in fact
+we ll just say does not get poor all
+right so next let s look at the path
+name so it s console log my URL dot path
+name take a look at that it shows slash
+hello dot HTML so it just gives us the
+actual path the actual file let s see
+next we re going to look at the
+serialized query so basically the
+straight up query parameters so we ll do
+console log search if we take a look at
+that search whoops my URL dot search and
+it gives us this
+so basically everything after the
+question mark okay now if we want to
+actually create an object from this we
+can use search params so let s say
+params
+objects
+for that we just do my URL dot search
+params okay so if you run that now you
+can see we get an actual object with the
+ID value and the status and the value
+now we can actually add parameters
+dynamically as well so if we want to add
+per am we could say my URL dot search
+params
+append and let s append let s say ABC
+and then the value one two three okay so
+if we do that and then again we log the
+search params let s see what that gives
+us okay so you can see that now we ve
+added on an extra set of parameters so
+ABC and one two three we can also loop
+through these if we wanted to so this is
+the last thing I ll show you guys so to
+loop through the params we could take my
+URL dot search params we could do a for
+each and whoops alright so this takes in
+a function I ll use an arrow I ll say
+value and name and let s just do a
+console log and let s put in some back
+ticks and we ll put the name colon and
+then the value all right so let s run
+that and you can see it s gonna loop
+through and it s gonna give us each
+parameter each key value pair
+all right so that s the the URL
+parameter I m sorry the URL module so
+next thing I want to look at is events
+okay so using the event emitter so if we
+go to the documentation and we go to
+events let s see so much of the node
+core API is built around idiomatic
+asynchronous event driven architecture
+in which certain kinds of objects called
+emitters
+named events that cause function objects
+or listeners to be called so essentially
+we can create an event emitter okay an
+event emitter class and then we can emit
+events and have listeners that listen
+for those events and then do something
+when they re fired off so it s it s kind
+of hard to explain so let me give you
+some examples I m gonna go ahead and
+create in reference a new file called
+event underscore demo dot Jas alright so
+first thing we re gonna do is bring in
+the event emitter and we re gonna set
+that to require events alright and then
+we want to create any middle class so
+let s say class my emitter extends event
+emitter which we just brought in all
+right I m not gonna put anything in here
+but I m gonna go ahead and init class or
+in it I should say an it object so I can
+say consulates call this my he met her
+actually want to do yeah lower case not
+the same as the class lower case so my
+emitter and we ll set that to a new my
+emitter object alright and then what we
+
+so we ll say my he MIT our dot on so we
+want to say on event then let s put a
+callback
+he s an arrow function and we ll just
+console log event fired all right now
+any time ie MIT this whatever I put in
+here event this is gonna run so if I go
+down here let s say an it event and I
+say my
+he met our dot omit event and we run
+node event demo we get event fired and
+if I can just run this a bunch of times
+and every time I run it it s gonna run
+whatever is right here alright so what I
+want to do is is give you a bit of a
+more practical example using event
+emitter by creating a logger alright so
+let s go ahead and close this up and
+then in the root not in the reference
+but in the root I m gonna create logger
+dot J s and let s let s do the same
+thing by bringing in event emitter set
+that to require events and I m also
+gonna bring in that UUID module remember
+I installed that back in the beginning
+I m gonna say require UUID and all UUID
+does is create some random Univ was it
+Universal I forget what it s called it
+stands for it s a certain format of of
+an ID and just to show you what it gives
+us let s do console log UUID
+and there s different versions so what
+we want to do is dot version four and
+that will generate just a random ID and
+i can show that to you if we CD dot dot
+back into the root and I run node logger
+you ll see that this is what that
+generated for us and we can generate as
+many as we want so if I run that you can
+see it just generates different ones now
+I want to create a class here called
+logger and I want to extend
+event emitter okay and then we ll have a
+method in here called log that takes in
+a message okay and then when this is
+called we want to call a vent a raise an
+event so we re gonna take I m gonna say
+this this pertains to the class right
+and we re extending event emitter which
+includes the omit okay and our reference
+file here we called my emitter I m sorry
+we called yeah my emitter dot emit
+however this method is gonna call this
+dot he meant since we re extending event
+emitter and let s emits an event called
+message and let s add in here an ID
+which will set to UUID
+dot version four and then let s also add
+the MSG that we pass in okay and this is
+the same as doing this like that so
+every time we call log it should show a
+new ID with the message that sent now
+I m gonna export this module dot exports
+logger and then in the index J ass let s
+clear all this out and let s bring in
+logger from require whoops am i doing
+I m mixing es6 in common j s so Consta
+equals require dot slash logger cuz
+remember it s a file and then let s go
+ahead and create or instantiate a logger
+because remember logger is a class so we
+need to instantiate it and then let s
+
+message okay
+now this is gonna give us a call back
+with some data so for this data let s
+
+
+listener and let s put in the dater as
+
+and then we ll put data okay and then we
+actually have to call the log method so
+under here let s just say log r dot log
+and let s send a message we ll just say
+hello world
+so now let s call the index file alright
+so this is wrong I don t know why I did
+this because this is an object this data
+object should be the ID in the message
+so let s actually let s put quotes
+around call listener and then just put a
+comma here and then we ll show the data
+like that okay so now let s run this
+again and we get called listener and it
+shows ID which is a generated ID from
+from the UUID module and then the
+message that we passed in and we can
+call this as many times as we want with
+different messages hi hello and we ll go
+ahead and run that and you ll see that
+each time it s the listener is gonna get
+called and it s gonna show a new ID with
+a new message and this may not be the
+most practical example but you can just
+see how this works you can even omit an
+event it s gonna call whatever whatever
+we put in here and you could use your
+imagination and maybe even bring in the
+FS module the file system module and log
+the ID and the message to a file okay so
+that you can just use a pen file and you
+could have a file that has all your logs
+alright and maybe you can use that have
+that use that as your homework
+assignment for this course alright so I
+want to move on because we re really
+running out of time here and I want to
+get to the HTTP module so we re gonna
+create a whole server here a very basic
+server but nevertheless it is still
+gonna be a web server but before we do
+that I just want to end the reference
+folder create a file called HTTP
+underscore demo dot jsut can see that
+the bear of the bare minimum just to get
+a server running and then we ll create
+the the main server in our index file so
+let s clear this up and let s CD back
+into reference and let s go ahead and
+bring in HTTP so we want to require HTTP
+all right now we want to create a server
+object and we do that by taking HTTP and
+calling create server ok now this takes
+in a function however I m going to use
+an arrow function so I m gonna put our
+parameters that we need which is request
+and response put an arrow function and
+when we get a request we want to then
+write a response
+so we ll do res dot write okay as a
+method call right which basically just
+outputs to the browser and let s say
+hello world and then we want to end so
+res dot end all right now in order for
+this to run it needs to take in it needs
+to listen on a port so we re going to
+tack on to this dot listen and then this
+takes in a port number I m gonna put in
+5 000 and then I m just gonna put a call
+back here to console log and we ll just
+say server running just so just so it
+shows something in the console so server
+running alright so we ll save that and
+then let s run node HTTP underscore demo
+and you can see server running and it s
+in we can t type anymore so now let s go
+to our
+browser and let s go to localhost port
+so colon 5 000 and we get hello world
+okay so that s that s the the the most
+simple web server you re ever going to
+see in your life
+now I want to create something useful
+where we can actually load HTML pages we
+can load you know CSS files things like
+that
+so we re gonna create an actual web
+server and we re gonna just close this
+file and to stop the server from running
+you just want to do a ctrl C okay and
+let s CD dot dot to get back into the
+root alright so we re done with the
+reference folder so let s open up index
+
+actually you know what let me just take
+this and put this in the log or J s so
+you guys have this as a reference so
+instead of exporting it I m just running
+it in here ok so it s important to know
+that if you use a framework like Express
+it makes this stuff a lot easier with
+Express you can specifically you can say
+like you know I want my app to receive a
+get request to the page slash abouts and
+then you can have a callback function
+you can do what you want so it makes it
+much easier however I think it s it s a
+good thing to understand how to do this
+without express at least just load basic
+web pages of different content types and
+so on so we re gonna be using all all
+
+and let s also bring in path and let s
+bring in FS okay so now we re kind of
+putting everything together that we ve
+learned so we want to create a new
+server object however I m gonna put it
+in a variable called server so HTTP dot
+create server and then this is going to
+
+now remember we have to listen on the
+ports
+however instead of tacking it on we can
+now take that server object or variable
+and we can say dot listen all right now
+we want to put a port in here however
+I m gonna put the port inside of a
+variable alright now I could just set
+this to like five thousand however when
+we deploy this it s not always gonna run
+on five thousand it s gonna run on
+whatever you know whatever our our host
+is going to decide which is going to be
+in what s called an environment variable
+so it s going to be in process dot e NV
+dot port okay but we want to do or five
+thousand so basically it s gonna first
+look for this it s gonna look for the
+environment variable and then if that s
+not found then it s gonna run it on five
+thousand okay now in here we just want
+to put port okay and then let s put a
+call back with a console log and we ll
+put in some back ticks and we ll say
+server running on port and then we ll
+just put in the port number okay
+so inside here let s um I showed you how
+we could just you know we can write
+write something out to the browser but
+that s not what we want to do we want to
+load a file so I m going to test
+let s test to see what the URL is now
+request object we have actually you know
+what we ll do is let s just console log
+the request URL okay just so we can see
+what that is now if I run my server if I
+say node index you can see server
+running on five thousand if I go to four
+five thousand and reload it s gonna hang
+because we didn t send any response
+however if we look and look if we look
+in the console you can see slash okay so
+that s the request URL now if I were to
+go to let s say slash about and go back
+you ll see that we get slash about so we
+can see what URL is getting is getting
+called so let s do an if statement here
+and we re gonna make this more efficient
+after I m just doing this for an example
+so let s say if requests dot u RL is
+equal to slash then we know that s
+that s the index page and instead of
+just writing out something like I could
+do you know Raz dot and you don t even
+have to do dot right and then end you
+could simply do res dot and and put your
+content in here and you can even put
+HTML in here like let s say home alright
+so if I save that and let s do control c
+and restart the server and then go to
+localhost 5 000 we get home alright I m
+actually going to make this smaller so
+that we can see both at the same time
+now if I were to change this to let s
+say homepage and save and reload notice
+it doesn t change because I have to go
+down here and manually restart the
+server now it says home page this is
+where a node Mon comes in and very
+useful and remember we installed that
+back in the beginning as a dev
+dependency so this node mon here we
+could use let s go down here and we
+could say no
+maaan and then index so instead of node
+node Mon I m sorry we can t do that
+because we didn t install it globally so
+what we want to do is create an NPM
+script okay if we did install node
+mont n globally we would we be able to
+do that however that s not the best
+practice it s not what what I would
+suggest what we can do is go to scripts
+okay and we don t need this test script
+so we can replace this and I m gonna
+just do start all right now for start I
+just wanted to run the standard node
+index just like we were before however
+that s not going to update unless we
+keep restarting the server but the
+reason I m putting it here is because
+once we deploy it s gonna call this
+start and that s what we want we don t
+want to use node Mon in deployment so
+I m going to add another script of dev
+and I m gonna set that to node Mon index
+so instead of just running with with
+node it s gonna use node Mon which
+constantly watches it so we don t have
+to update so let s save this clear this
+up and let s say npm run dev okay so
+we re using NPM to run this script right
+here which will run node Mon okay and
+now you can see that it s running on
+five thousand now if I go back to index
+and they change this back to home and
+save node Mon is continuously watching
+it so if I reload it changes I don t
+have to manually control C and restart
+it okay so node Mon is an excellent tool
+so back to our code here instead of
+doing this I mean this if I do a you
+know control U or whatever what is it
+control option you and look at our
+source code we have no doctype we have
+nothing we don t even have a content
+type if I were to open my dev tools and
+go to network and take a look at so
+let s make this bigger for a second and
+take a look at the
+content type which I don t even think it
+will say yeah it doesn t even say but we
+want this type to be HTML so we can add
+a content type by saying R as dots right
+head so basically right to the headers
+and we want this to be a 200 response
+which means everything is okay and then
+pass along the content type and we want
+to set the content type to text slash
+HTML all right so let s save that and
+now when we reload you can see that we
+get status 200 and if we take a look
+down here we have content type text HTML
+okay so that you definitely want to have
+that in there now I don t want to just
+just output the HTML here I want to load
+a file so I m going to create a folder
+called public and basically this is
+where I want all of the public HTML
+files CSS anything like that so I m
+going to create an index dot HTML and
+let s also create in about dot HTML okay
+so an index I m just going to generate
+some boilerplate and just put home page
+put an h1 we ll say welcome to the home
+page and then we ll copy this we ll go
+to about change the title to about and
+we ll just change this to about all
+right so we have two HTML pages in the
+public folder which right now that
+they re not getting loaded in any way
+they re just there so what I want to do
+is if the request URL is slash I want to
+load the home page so I could use the FS
+module I m just going to go right above
+this for now so use the FS module dot
+read file
+and let s do let s look at actually
+let s use path dot joined and will do
+double underscored our name and then
+public and then we want to load the
+index html okay and then second
+parameter will be our callback and
+inside here is where we want to put this
+stuff however remember when we read a
+file we get first possible error and
+then we also get the data which I m
+actually going to call content okay and
+then we ll paste that in okay now when
+we end we don t want to oh we don t want
+to output this this h1 we want to output
+the content of the file okay and we also
+want to make sure it s a status 200 and
+its type HTML so I think I have
+everything here we should probably check
+for the error as well but let s save
+that and reload and we get welcome to
+the home page okay so to reiterate we re
+checking the URL if it s slash which it
+is we re gonna read the file index html
+that s in the public folder and we re
+gonna then check for an error we re
+gonna set the status and the content
+type and then we re gonna simply serve
+the the HTML page okay so hopefully that
+makes sense and then of course we could
+check for the request URL being slash
+boats and we could load the about page
+so if we reload we go slash about there
+we go
+actually I d probably well that s good
+now let s say we wanted to we wanted
+this to be like like a REST API so we
+wouldn t be serving HTML we d be serving
+Jason so let s actually add in let s
+change this let s change this to if
+slash API slash users let s let s get
+rid of this stuff so normally what we
+would do is fetch data from a database
+and serve that however I m gonna just
+gonna hard code in it say users equals
+an array so name I ll say Bob Smith age
+40 and we ll do one more John Doe
+alright so we have this users array and
+then we would want this to be a 200
+response however this is Jason content
+so we wouldn t do text HTML we would do
+applications slash Jason alright and
+then we d need to turn this object
+JavaScript array of objects into Jason
+so we ll do res dot end and we would do
+jason dot stringify users okay so let s
+save that and now if I were to go to
+localhost 5 000 slash API slash
+users there we go we get our jason okay
+so if you were to build some kind of
+Micra service some kind of rest api you
+could do this but you probably use
+Express or something like that I m just
+showing you how to do it with just node
+okay so this really isn t very efficient
+like we re gonna stick to we re gonna
+stick to just serving HTML files and so
+on however this isn t efficient because
+every single page we want to add we
+would have to do you know if this or
+whatever and also we need to be able to
+handle for instance CSS okay if we want
+to include a CSS file or images or
+anything like that so this isn t this
+isn t gonna work
+so let s comment this out because I
+still want you guys
+you have this but let s start over so
+we re gonna go under all that stuff we
+just did now I want to make the file
+path dynamic so let me show you what I
+mean I m gonna say build file path and
+we re going to create a variable here
+called file path and set it to path dot
+join the current directory name and then
+public and then let s say basically I
+will I want to set this to the request
+URL so for instance if if we go to slash
+about HTML then I wanted to load about
+dot HTML if we go to slash contact HTML
+I want it to look for contact HTML
+however the route is a little different
+because it s just slash so I m going to
+use a ternary operator here I m going to
+say for request dot URL if that is equal
+to slash then I want to load index dot
+HTML in the public folder else
+okay colon is else that I want request
+dot URL whatever that is all right so
+let s actually do let s just do res dot
+and just so we can see what this path is
+gonna be so let s do a console log of
+file path alright and we re gonna just
+go to the root and you ll see the PI
+it s going to show anything that sense
+so even the favicon but you can see the
+index html because this is the root if I
+go to slash about HTML it shows you
+public slash about HTML so so this file
+path is correct in terms of what we want
+to load now we re also going to want to
+set the content type
+okay like HTML as a content type of text
+slash HTML CSS is text slash CSS Jason
+is application slash Jason and so on so
+what I m gonna do next just get rid of
+that for now is I want to get the
+extension of the file and you guys
+remember how to do that right we do
+let s create extension aim as a variable
+and set it to our path module ext name
+method and pass in our file path so
+that ll give us the the extension of the
+file that s that s being loaded okay are
+being sent now we ll set a content type
+let s set the initial content type
+so let s content type is gonna be by
+default text slash HTML because that s
+what we mostly expect however we want to
+check the extension and then set the
+content type and we ll use a switch
+statement for that okay so let s say
+switch and we want to check the
+extension name all right now I m just
+going to paste these in because it s
+just going to take too long for me to
+type out so we re basically gonna check
+each case so if it s j s we want text
+javascript if it s CSS we want text CSS
+jason if it s an image that should have
+that content type or i m sorry a PNG it
+should have that if it s a jpg it should
+have that okay so that s basically all
+the file types that i want a handle for
+this server alright so that takes care
+of setting the file path and setting the
+content type now we need to actually
+load a file so let s go down here let s
+say read file so we re gonna do FS dot
+read file
+and we want to pass in the file path
+whatever that is and then it s going to
+give us our possible error and then
+let s say content alright now we didn t
+really go over errors the error codes
+however we want to check for a specific
+type of error and this error will be
+it ll be an object that ll have a
+property called code so I want to say in
+here if the error dot code is equal to e
+and o ENT okay II know net and o net and
+what this means is the page isn t found
+okay and in most cases that s what it s
+going to mean so let s say page not
+found so the way that I want to handle
+this you could handle it however you
+want but I want to load an error page so
+in my public folder I m going to create
+a file called 404 dot HTML and I m just
+going to copy one of these HTML pages
+and simply say and the title not found
+will say 404 not fun obviously you would
+have this be much more stylish it would
+be an actual website but I m just trying
+to show you how to create the server so
+if the page isn t found let s do FS dot
+read file again and you can see the
+reason that I went over all those
+modules there you guys wouldn t know
+what this was if I didn t go over the
+the boring stuff earlier so read file we
+want to pass in path join so we want the
+directory name public and then we want
+to load that 404 page so 404 dot HTML
+okay and then the second parameter will
+be the callback with the error and the
+content it s actually close this up so
+we have the error and the content and
+then here
+we want to first of all send a 200
+response so I m gonna just copy that
+
+text slash HTML and then we want to send
+the content so let s say res dot end and
+let s say content and let s specify that
+we want it to be utf 8 all right so if
+it s not if it s not found it should
+load that now let s go to the end of
+this if right here and let s put in else
+so basically if it s a different error
+so still in within the error but if it s
+not this code then it s gonna be some
+server error so most likely a 500
+alright so for that I ll just we ll do a
+res dot right head and we ll send a
+status of 500 and then let s just do a
+res dot and and I m just gonna put in
+here server error and then the code so
+error dot code not really an elegant way
+to handle it but whatever it s fine so
+now if there s no error so at the end of
+this if right here let s say else if
+there s no error then that s a success
+successful response so again we ll write
+a 200 response and it s going to be an
+HTML file and then we just want to load
+the content ok and the content is gonna
+be this alright so hopefully that makes
+sense I ll reiterate real quick so let s
+start at the top which is straight you
+know actually the top is up here who are
+creating a server that gets a request in
+response ok every time a file is sent
+then we re gonna we re basically going
+to look in the public folder and we re
+going to value
+whatever this is request dot URL if it s
+slash we re gonna load the index if not
+we re gonna load whatever that file is
+called about HTML contact whatever okay
+then we re gonna get the extension and
+we re gonna evaluate the extension and
+set the content type based on that okay
+the initial being HTML and then we re
+gonna read the file if there s an error
+we re gonna check for this error code
+which means that it s not found then
+we ll load the 404 some other error then
+we re just gonna send a 500 if it s
+successful send a 200 response and we re
+gonna send the HTML file and we re gonna
+oh I m sorry we did this wrong it should
+not always be HTML it should be whatever
+the content type is good thing I did
+that okay I think that yeah that should
+be right and then we re gonna finally
+just send the content of the file okay
+so let s go ahead and save this and I
+think we should it should work hopefully
+let s go back let s reload about okay
+and let s go to the home page and that
+was about dot HTML and then we get
+welcome to the home page now we should
+be able to also include CSS files so in
+public if I say new folder CSS and new
+files style dot CSS and let s just do
+body will say background dark color
+white and let s reload oh we get include
+it so back in index html let s say link
+to dot slash CSS slash style dot CSS and
+we want this on all pages so let s save
+this go to about paste that in save it
+go to 404 paste that and save it reload
+and you can see the CSS is working so if
+I go to about dot HTML that works now if
+I go to something that does
+and exist like whatever we get our 404
+page okay so it s working nicely and if
+we if I open up the network tab and
+reload you ll see that the document is
+we get a 200 response it s a text HTML
+and if we want to look at the CSS it s a
+2 under response and the content type is
+text CSS so you want to make sure you re
+giving the right status codes you re
+giving the right content types because
+now you re working server side okay if
+you ve been working as a front end
+developer with you know react or view
+and so on you probably have been just on
+the side that is making the request but
+now you re actually serving the response
+ok so learning about HTTP is essential
+all right so I think that s pretty much
+it obviously this isn t really like a
+project or anything like a website or
+application but I wanted to just get
+into the specifics of node and some of
+the core modules and so on so the last
+thing I d like to do is just a simple
+deployment to Heroku and the main thing
+to remember as far as the code that
+we ve written is the port you want to
+use this process in the port ok you also
+want to make sure that you have your
+start script as node and then index or
+whatever your main file name is okay
+because Heroku is going to look at those
+things now in order to push to Heroku
+you need to sign up for an account let s
+go to Heroku comm and you just want to
+sign up I already have an account so I m
+just going to log in and you know if you
+just create an account you won t see
+anything here but all your apps will
+show up as these weird names here unless
+you rename them but you re gonna need
+the CLI tools so if you search for
+Heroku CLI just Heroku CLI and click the
+first link download and install and if
+you re on Mac you can download the
+Installer or use homebrew Windows use
+the Installer
+ubuntu and then other installation
+methods as well but you want to get that
+installed okay once you have it let s go
+ahead and stop our server with ctrl C
+okay once you have it you should be able
+to say Heroku version I believe I
+have it installed yep so if you haven t
+installed it ll show and then you re
+gonna want to log in through the
+terminal so let s say Heroku login so
+I m gonna use my email and password
+which I believe that s it okay so now
+I m logged in now the way that we the
+way that we pushed Oroku is with git so
+you need get installed if you don t have
+git installed just go to get SCM comm
+go ahead and download and install it
+make sure you have it okay and then we
+want to initialize the git repository
+now I don t want to push my node modules
+folder in fact I don t want to push my
+reference or anything like that either
+so I m gonna create a new file here
+called dot git ignore and this is not a
+hold on get ignore this is not a get
+tutorial so I m not going to you know go
+over everything about git I do have a
+crash course if you re interested
+however we can put node modules in here
+to prevent it from getting pushed also
+reference I don t want that getting
+pushed or log or J s or person dot JSP
+don t need those we just want the the
+main site the main server we created ok
+so now let s do get an it to initialize
+the repository let s do get add all
+let s make a commit so get commit M
+and say initial commit ok so once we
+have that done we can then say let s
+
+create okay so with our account it s
+going to create a new new app and it s
+going to give us some weird domain name
+and if I go back to my dashboard and
+reload you ll see that limitless meadow
+that s what it created so next thing we
+want to do is click on that and go to
+deploy and just grab the command to add
+this as our remote repository so this
+right here we want to copy that and then
+paste that in our terminal okay so now
+that s added as a repository we already
+did the add and the commit now all we
+have to do is push to Heroku master to
+the master branch so let s say git push
+Heroku master okay and this is going to
+push our application to Heroku sets any
+
+okay so build succeeded all right so now
+you can go to the URL or you can just do
+Heroku open and that will open it in
+your browser and there it is so as you
+can see this is now deployed to the
+Internet our nodejs app so if I go to
+slash about HTML there s our boat page
+if I go to something that doesn t exist
+404 not found all right guys so I know
+this was a long video if you stayed till
+the end I I genuinely really appreciate
+that I really do if you if you can spend
+an hour and a half watching a video of
+mine I really appreciate that
+so thank you and hopefully you got
+something from this even if you ve used
+note in the past hopefully picked up a
+couple things at least but thanks for
+watching again I appreciate it and I ll

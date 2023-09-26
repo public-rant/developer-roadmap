@@ -1,0 +1,72 @@
+## observability
+
+
+Observability refers to how well we can understand what happens under the hood in software systems. It involves collecting metrics, logs and traces that allow us to identify issues or bottlenecks faster so our system becomes more observable over time with a focus on making it better overall for both developers as customers of those products/services. 
+Observability is an important practice when building next-generation applications like Lambda architecture where we need visibility into what the code actually does in response to active requests, rather than just relying solely upon traditional virtual machines or modern serverless functions with their own separate architectures that are easier on development teams but often more difficult for customers using those new systems. 
+Overall observability is a crucial practice and should be built-in when designing any application as it can help us better understand our system's behavior over time, identifying issues early in the process to improve performance overall while also aiding both developers working with their clients on these products/services who need visibility into what they are doing.
+
+
+source_documents/backend-123.md
+Visit the following resources to learn more:
+In software development, observability is the measure of how well we can understand a system from the work it does, and how to make it better.
+So what makes a system to be “observable”? It is its ability of producing and collecting metrics, logs and traces in order for us to understand what happens under the hood and identify issues and bottlenecks faster.
+
+Observability refers to how well we can understand what happens under the hood in software systems. It involves collecting metrics, logs and traces that allow us to identify issues or bottlenecks faster so our system becomes more observable over time with a focus on making it better overall for both developers as customers of those products/services. 
+Observability is an important practice when building next-generation applications like Lambda architecture where we need visibility into what the code actually does in response to active requests, rather than just relying solely upon traditional virtual machines or modern serverless functions with their own separate architectures that are easier on development teams but often more difficult for customers using those new systems. 
+Overall observability is a crucial practice and should be built-in when designing any application as it can help us better understand our system's behavior over time, identifying issues early in the process to improve performance overall while also aiding both developers working with their clients on these products/services who need visibility into what they are doing.
+
+
+source_documents/AWS re：Invent 2017： Improving Microservice and Serverless Observability with Monitor (SRV210) [Wx0SHRb2xcI].en.vtt.txt
+and how good is that and can we make it
+better to ultimately make the systems we
+build a design better as well and so
+observability whether you like the term
+or not or just want to call it
+monitoring that s not necessarily the
+the key point or takeaway but I think
+it s a really important discussion
+especially as we look
+these new software architectures like
+lambda or consider or try and build some
+sort of next generation system so
+observability I think is really nice for
+
+Observability refers to how well we can understand what happens under the hood in software systems. It involves collecting metrics, logs and traces that allow us to identify issues or bottlenecks faster so our system becomes more observable over time with a focus on making it better overall for both developers as customers of those products/services. 
+Observability is an important practice when building next-generation applications like Lambda architecture where we need visibility into what the code actually does in response to active requests, rather than just relying solely upon traditional virtual machines or modern serverless functions with their own separate architectures that are easier on development teams but often more difficult for customers using those new systems. 
+Overall observability is a crucial practice and should be built-in when designing any application as it can help us better understand our system's behavior over time, identifying issues early in the process to improve performance overall while also aiding both developers working with their clients on these products/services who need visibility into what they are doing.
+
+
+source_documents/AWS re：Invent 2017： Improving Microservice and Serverless Observability with Monitor (SRV210) [Wx0SHRb2xcI].en.vtt.txt
+observability I think is really nice for
+at least starting the conversation
+around how well do you understand what s
+actually going on in these environments
+related and I think also really
+important is this idea of
+instrumentation so we have workloads
+running in some service whether it s a
+traditional VM or something
+next generation like far gate how do we
+understand what that code is actually
+doing when it s actually responding to
+an active request and instrumentation
+
+Observability refers to how well we can understand what happens under the hood in software systems. It involves collecting metrics, logs and traces that allow us to identify issues or bottlenecks faster so our system becomes more observable over time with a focus on making it better overall for both developers as customers of those products/services. 
+Observability is an important practice when building next-generation applications like Lambda architecture where we need visibility into what the code actually does in response to active requests, rather than just relying solely upon traditional virtual machines or modern serverless functions with their own separate architectures that are easier on development teams but often more difficult for customers using those new systems. 
+Overall observability is a crucial practice and should be built-in when designing any application as it can help us better understand our system's behavior over time, identifying issues early in the process to improve performance overall while also aiding both developers working with their clients on these products/services who need visibility into what they are doing.
+
+
+source_documents/AWS re：Invent 2017： Improving Microservice and Serverless Observability with Monitor (SRV210) [Wx0SHRb2xcI].en.vtt.txt
+would like visibility into no longer
+works in the company or has moved on or
+been promoted to a new project we do
+hear that a lot so there s this idea I
+think this has related this this
+practice of observability that s
+instrumentation should be built in to
+everything you run and build and some of
+our largest customers in the relative
+actually started experiment with this
+idea and created dedicated observability
+engineering teams which is an
+interesting way to kind of make this a

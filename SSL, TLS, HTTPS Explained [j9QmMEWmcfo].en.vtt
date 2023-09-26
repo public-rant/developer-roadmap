@@ -1,0 +1,1120 @@
+WEBVTT
+
+
+
+00:00:01.680 --> 00:00:07.930 align:start position:0%
+ 
+foreign
+
+00:00:07.930 --> 00:00:07.940 align:start position:0%
+ 
+ 
+
+00:00:07.940 --> 00:00:11.089 align:start position:0%
+ 
+about<00:00:08.940><c> https</c><00:00:09.660><c> that</c><00:00:10.080><c> these</c><00:00:10.440><c> days</c><00:00:10.620><c> most</c>
+
+00:00:11.089 --> 00:00:11.099 align:start position:0%
+about https that these days most
+ 
+
+00:00:11.099 --> 00:00:14.150 align:start position:0%
+about https that these days most
+websites<00:00:11.580><c> require</c><00:00:11.880><c> it</c><00:00:12.240><c> how</c><00:00:12.900><c> does</c><00:00:13.080><c> https</c><00:00:13.679><c> work</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+websites require it how does https work
+ 
+
+00:00:14.160 --> 00:00:16.369 align:start position:0%
+websites require it how does https work
+we'll<00:00:14.940><c> answer</c><00:00:15.179><c> this</c><00:00:15.480><c> question</c><00:00:15.719><c> in</c><00:00:16.020><c> this</c><00:00:16.199><c> video</c>
+
+00:00:16.369 --> 00:00:16.379 align:start position:0%
+we'll answer this question in this video
+ 
+
+00:00:16.379 --> 00:00:18.529 align:start position:0%
+we'll answer this question in this video
+Let's<00:00:16.980><c> Dive</c><00:00:17.220><c> Right</c><00:00:17.460><c> In</c>
+
+00:00:18.529 --> 00:00:18.539 align:start position:0%
+Let's Dive Right In
+ 
+
+00:00:18.539 --> 00:00:21.170 align:start position:0%
+Let's Dive Right In
+without<00:00:18.900><c> https</c><00:00:19.619><c> the</c><00:00:20.160><c> communication</c><00:00:20.760><c> between</c>
+
+00:00:21.170 --> 00:00:21.180 align:start position:0%
+without https the communication between
+ 
+
+00:00:21.180 --> 00:00:23.510 align:start position:0%
+without https the communication between
+the<00:00:21.480><c> browser</c><00:00:21.900><c> and</c><00:00:22.140><c> the</c><00:00:22.320><c> server</c><00:00:22.619><c> is</c><00:00:22.920><c> in</c><00:00:23.160><c> plain</c>
+
+00:00:23.510 --> 00:00:23.520 align:start position:0%
+the browser and the server is in plain
+ 
+
+00:00:23.520 --> 00:00:25.849 align:start position:0%
+the browser and the server is in plain
+text<00:00:23.699><c> this</c><00:00:24.539><c> means</c><00:00:24.779><c> that</c><00:00:24.960><c> the</c><00:00:25.199><c> password</c><00:00:25.380><c> you</c>
+
+00:00:25.849 --> 00:00:25.859 align:start position:0%
+text this means that the password you
+ 
+
+00:00:25.859 --> 00:00:28.550 align:start position:0%
+text this means that the password you
+enter<00:00:26.100><c> or</c><00:00:26.760><c> the</c><00:00:26.939><c> credit</c><00:00:27.119><c> card</c><00:00:27.359><c> number</c><00:00:28.019><c> you</c><00:00:28.380><c> send</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+enter or the credit card number you send
+ 
+
+00:00:28.560 --> 00:00:30.890 align:start position:0%
+enter or the credit card number you send
+over<00:00:28.800><c> the</c><00:00:28.980><c> internet</c><00:00:29.099><c> can</c><00:00:29.820><c> be</c><00:00:30.000><c> read</c><00:00:30.180><c> by</c><00:00:30.480><c> anyone</c>
+
+00:00:30.890 --> 00:00:30.900 align:start position:0%
+over the internet can be read by anyone
+ 
+
+00:00:30.900 --> 00:00:33.850 align:start position:0%
+over the internet can be read by anyone
+who<00:00:31.439><c> has</c><00:00:31.560><c> the</c><00:00:31.800><c> ability</c><00:00:32.040><c> to</c><00:00:32.340><c> intercept</c><00:00:32.820><c> it</c>
+
+00:00:33.850 --> 00:00:33.860 align:start position:0%
+who has the ability to intercept it
+ 
+
+00:00:33.860 --> 00:00:36.470 align:start position:0%
+who has the ability to intercept it
+https<00:00:34.860><c> is</c><00:00:35.219><c> designed</c><00:00:35.579><c> to</c><00:00:35.760><c> solve</c><00:00:36.120><c> this</c><00:00:36.300><c> problem</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+https is designed to solve this problem
+ 
+
+00:00:36.480 --> 00:00:38.510 align:start position:0%
+https is designed to solve this problem
+to<00:00:37.200><c> make</c><00:00:37.320><c> the</c><00:00:37.500><c> data</c><00:00:37.800><c> sent</c><00:00:37.980><c> over</c><00:00:38.219><c> the</c><00:00:38.399><c> Internet</c>
+
+00:00:38.510 --> 00:00:38.520 align:start position:0%
+to make the data sent over the Internet
+ 
+
+00:00:38.520 --> 00:00:41.090 align:start position:0%
+to make the data sent over the Internet
+unreadable<00:00:39.360><c> by</c><00:00:39.660><c> anyone</c><00:00:40.079><c> other</c><00:00:40.620><c> than</c><00:00:40.920><c> the</c>
+
+00:00:41.090 --> 00:00:41.100 align:start position:0%
+unreadable by anyone other than the
+ 
+
+00:00:41.100 --> 00:00:43.069 align:start position:0%
+unreadable by anyone other than the
+sender<00:00:41.460><c> and</c><00:00:41.760><c> the</c><00:00:41.940><c> receiver</c>
+
+00:00:43.069 --> 00:00:43.079 align:start position:0%
+sender and the receiver
+ 
+
+00:00:43.079 --> 00:00:45.889 align:start position:0%
+sender and the receiver
+https<00:00:43.980><c> is</c><00:00:44.340><c> an</c><00:00:44.579><c> extension</c><00:00:45.000><c> of</c><00:00:45.180><c> the</c><00:00:45.239><c> HTTP</c>
+
+00:00:45.889 --> 00:00:45.899 align:start position:0%
+https is an extension of the HTTP
+ 
+
+00:00:45.899 --> 00:00:48.889 align:start position:0%
+https is an extension of the HTTP
+protocol<00:00:46.320><c> we</c><00:00:47.100><c> discussed</c><00:00:47.460><c> HTTP</c><00:00:48.120><c> in</c><00:00:48.360><c> an</c><00:00:48.539><c> earlier</c>
+
+00:00:48.889 --> 00:00:48.899 align:start position:0%
+protocol we discussed HTTP in an earlier
+ 
+
+00:00:48.899 --> 00:00:50.990 align:start position:0%
+protocol we discussed HTTP in an earlier
+video<00:00:49.200><c> check</c><00:00:49.980><c> the</c><00:00:50.160><c> description</c><00:00:50.520><c> it</c><00:00:50.879><c> would</c>
+
+00:00:50.990 --> 00:00:51.000 align:start position:0%
+video check the description it would
+ 
+
+00:00:51.000 --> 00:00:53.750 align:start position:0%
+video check the description it would
+like<00:00:51.180><c> to</c><00:00:51.360><c> learn</c><00:00:51.539><c> more</c><00:00:51.780><c> about</c><00:00:51.960><c> it</c><00:00:52.680><c> with</c><00:00:53.100><c> https</c>
+
+00:00:53.750 --> 00:00:53.760 align:start position:0%
+like to learn more about it with https
+ 
+
+00:00:53.760 --> 00:00:56.450 align:start position:0%
+like to learn more about it with https
+data<00:00:54.539><c> is</c><00:00:54.660><c> sending</c><00:00:54.960><c> an</c><00:00:55.140><c> encrypted</c><00:00:55.680><c> form</c><00:00:55.860><c> using</c>
+
+00:00:56.450 --> 00:00:56.460 align:start position:0%
+data is sending an encrypted form using
+ 
+
+00:00:56.460 --> 00:00:59.090 align:start position:0%
+data is sending an encrypted form using
+something<00:00:56.640><c> called</c><00:00:56.879><c> TLS</c><00:00:57.620><c> TLS</c><00:00:58.620><c> stands</c><00:00:58.980><c> for</c>
+
+00:00:59.090 --> 00:00:59.100 align:start position:0%
+something called TLS TLS stands for
+ 
+
+00:00:59.100 --> 00:01:01.250 align:start position:0%
+something called TLS TLS stands for
+transport<00:00:59.579><c> layer</c><00:01:00.059><c> security</c>
+
+00:01:01.250 --> 00:01:01.260 align:start position:0%
+transport layer security
+ 
+
+00:01:01.260 --> 00:01:03.650 align:start position:0%
+transport layer security
+if<00:01:01.860><c> the</c><00:01:02.039><c> encrypted</c><00:01:02.520><c> data</c><00:01:02.820><c> gets</c><00:01:03.059><c> intercepted</c>
+
+00:01:03.650 --> 00:01:03.660 align:start position:0%
+if the encrypted data gets intercepted
+ 
+
+00:01:03.660 --> 00:01:06.289 align:start position:0%
+if the encrypted data gets intercepted
+by<00:01:03.899><c> a</c><00:01:04.019><c> hacker</c><00:01:04.440><c> all</c><00:01:04.979><c> they</c><00:01:05.159><c> could</c><00:01:05.339><c> see</c><00:01:05.519><c> is</c><00:01:05.820><c> jumbo</c>
+
+00:01:06.289 --> 00:01:06.299 align:start position:0%
+by a hacker all they could see is jumbo
+ 
+
+00:01:06.299 --> 00:01:07.250 align:start position:0%
+by a hacker all they could see is jumbo
+data
+
+00:01:07.250 --> 00:01:07.260 align:start position:0%
+data
+ 
+
+00:01:07.260 --> 00:01:09.170 align:start position:0%
+data
+let's<00:01:07.799><c> take</c><00:01:07.979><c> a</c><00:01:08.100><c> look</c><00:01:08.220><c> at</c><00:01:08.400><c> how</c><00:01:08.580><c> the</c><00:01:08.760><c> TLs</c>
+
+00:01:09.170 --> 00:01:09.180 align:start position:0%
+let's take a look at how the TLs
+ 
+
+00:01:09.180 --> 00:01:11.990 align:start position:0%
+let's take a look at how the TLs
+handshake<00:01:09.659><c> works</c><00:01:10.140><c> there</c><00:01:10.680><c> are</c><00:01:10.860><c> several</c><00:01:11.100><c> steps</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+handshake works there are several steps
+ 
+
+00:01:12.000 --> 00:01:15.050 align:start position:0%
+handshake works there are several steps
+step<00:01:12.540><c> one</c><00:01:12.840><c> just</c><00:01:13.500><c> like</c><00:01:13.680><c> in</c><00:01:13.860><c> the</c><00:01:13.979><c> case</c><00:01:14.100><c> for</c><00:01:14.340><c> HTTP</c>
+
+00:01:15.050 --> 00:01:15.060 align:start position:0%
+step one just like in the case for HTTP
+ 
+
+00:01:15.060 --> 00:01:17.630 align:start position:0%
+step one just like in the case for HTTP
+the<00:01:15.720><c> browser</c><00:01:16.140><c> establishes</c><00:01:16.680><c> a</c><00:01:16.920><c> TCP</c><00:01:17.400><c> connection</c>
+
+00:01:17.630 --> 00:01:17.640 align:start position:0%
+the browser establishes a TCP connection
+ 
+
+00:01:17.640 --> 00:01:19.250 align:start position:0%
+the browser establishes a TCP connection
+with<00:01:18.119><c> the</c><00:01:18.299><c> server</c>
+
+00:01:19.250 --> 00:01:19.260 align:start position:0%
+with the server
+ 
+
+00:01:19.260 --> 00:01:22.130 align:start position:0%
+with the server
+step<00:01:19.799><c> two</c><00:01:20.100><c> this</c><00:01:20.820><c> is</c><00:01:20.939><c> where</c><00:01:21.180><c> the</c><00:01:21.299><c> TLs</c><00:01:21.659><c> handshake</c>
+
+00:01:22.130 --> 00:01:22.140 align:start position:0%
+step two this is where the TLs handshake
+ 
+
+00:01:22.140 --> 00:01:24.770 align:start position:0%
+step two this is where the TLs handshake
+begins<00:01:22.560><c> the</c><00:01:23.340><c> process</c><00:01:23.640><c> sends</c><00:01:24.180><c> a</c><00:01:24.240><c> client</c><00:01:24.540><c> hello</c>
+
+00:01:24.770 --> 00:01:24.780 align:start position:0%
+begins the process sends a client hello
+ 
+
+00:01:24.780 --> 00:01:27.590 align:start position:0%
+begins the process sends a client hello
+to<00:01:25.200><c> the</c><00:01:25.380><c> server</c><00:01:25.680><c> in</c><00:01:26.520><c> this</c><00:01:26.640><c> Hello</c><00:01:26.759><c> message</c><00:01:27.180><c> the</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+to the server in this Hello message the
+ 
+
+00:01:27.600 --> 00:01:29.390 align:start position:0%
+to the server in this Hello message the
+browser<00:01:28.020><c> tells</c><00:01:28.380><c> the</c><00:01:28.439><c> server</c><00:01:28.799><c> the</c><00:01:29.040><c> following</c>
+
+00:01:29.390 --> 00:01:29.400 align:start position:0%
+browser tells the server the following
+ 
+
+00:01:29.400 --> 00:01:30.350 align:start position:0%
+browser tells the server the following
+things
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+things
+ 
+
+00:01:30.360 --> 00:01:34.070 align:start position:0%
+things
+one<00:01:30.960><c> what</c><00:01:31.680><c> TLS</c><00:01:32.280><c> version</c><00:01:32.820><c> it</c><00:01:33.299><c> can</c><00:01:33.420><c> support</c><00:01:33.659><c> it</c>
+
+00:01:34.070 --> 00:01:34.080 align:start position:0%
+one what TLS version it can support it
+ 
+
+00:01:34.080 --> 00:01:38.149 align:start position:0%
+one what TLS version it can support it
+could<00:01:34.200><c> be</c><00:01:34.320><c> TLS</c><00:01:34.860><c> 1.2</c><00:01:35.520><c> TLS</c><00:01:36.119><c> 1.3</c><00:01:37.140><c> Etc</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+could be TLS 1.2 TLS 1.3 Etc
+ 
+
+00:01:38.159 --> 00:01:42.410 align:start position:0%
+could be TLS 1.2 TLS 1.3 Etc
+two<00:01:39.000><c> what</c><00:01:39.600><c> cyber</c><00:01:40.079><c> Suite</c><00:01:40.439><c> he</c><00:01:40.979><c> supports</c><00:01:41.460><c> a</c><00:01:42.000><c> cyber</c>
+
+00:01:42.410 --> 00:01:42.420 align:start position:0%
+two what cyber Suite he supports a cyber
+ 
+
+00:01:42.420 --> 00:01:44.810 align:start position:0%
+two what cyber Suite he supports a cyber
+Suite<00:01:42.720><c> is</c><00:01:43.020><c> a</c><00:01:43.200><c> set</c><00:01:43.439><c> of</c><00:01:43.619><c> encryption</c><00:01:44.159><c> algorithms</c>
+
+00:01:44.810 --> 00:01:44.820 align:start position:0%
+Suite is a set of encryption algorithms
+ 
+
+00:01:44.820 --> 00:01:47.149 align:start position:0%
+Suite is a set of encryption algorithms
+to<00:01:45.299><c> use</c><00:01:45.479><c> to</c><00:01:45.659><c> encrypt</c><00:01:46.079><c> data</c>
+
+00:01:47.149 --> 00:01:47.159 align:start position:0%
+to use to encrypt data
+ 
+
+00:01:47.159 --> 00:01:49.490 align:start position:0%
+to use to encrypt data
+they're<00:01:47.520><c> receiving</c><00:01:47.880><c> the</c><00:01:48.119><c> client</c><00:01:48.420><c> hello</c><00:01:48.720><c> the</c>
+
+00:01:49.490 --> 00:01:49.500 align:start position:0%
+they're receiving the client hello the
+ 
+
+00:01:49.500 --> 00:01:51.469 align:start position:0%
+they're receiving the client hello the
+server<00:01:49.740><c> gets</c><00:01:50.159><c> to</c><00:01:50.280><c> choose</c><00:01:50.579><c> the</c><00:01:50.759><c> Cyber</c><00:01:51.119><c> suite</c>
+
+00:01:51.469 --> 00:01:51.479 align:start position:0%
+server gets to choose the Cyber suite
+ 
+
+00:01:51.479 --> 00:01:54.050 align:start position:0%
+server gets to choose the Cyber suite
+and<00:01:51.720><c> the</c><00:01:51.840><c> TLs</c><00:01:52.259><c> version</c><00:01:52.500><c> to</c><00:01:52.799><c> use</c><00:01:53.040><c> based</c><00:01:53.820><c> on</c><00:01:53.880><c> the</c>
+
+00:01:54.050 --> 00:01:54.060 align:start position:0%
+and the TLs version to use based on the
+ 
+
+00:01:54.060 --> 00:01:56.870 align:start position:0%
+and the TLs version to use based on the
+options<00:01:54.420><c> it</c><00:01:54.720><c> got</c><00:01:54.960><c> from</c><00:01:55.140><c> the</c><00:01:55.380><c> client</c><00:01:55.680><c> it</c><00:01:56.460><c> sends</c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+options it got from the client it sends
+ 
+
+00:01:56.880 --> 00:01:58.609 align:start position:0%
+options it got from the client it sends
+those<00:01:57.000><c> in</c><00:01:57.240><c> the</c><00:01:57.420><c> server</c><00:01:57.720><c> Hollow</c><00:01:58.079><c> message</c><00:01:58.259><c> back</c>
+
+00:01:58.609 --> 00:01:58.619 align:start position:0%
+those in the server Hollow message back
+ 
+
+00:01:58.619 --> 00:02:00.050 align:start position:0%
+those in the server Hollow message back
+to<00:01:58.799><c> the</c><00:01:58.979><c> client</c>
+
+00:02:00.050 --> 00:02:00.060 align:start position:0%
+to the client
+ 
+
+00:02:00.060 --> 00:02:02.210 align:start position:0%
+to the client
+the<00:02:00.479><c> server</c><00:02:00.780><c> then</c><00:02:00.960><c> sends</c><00:02:01.380><c> the</c><00:02:01.439><c> certificate</c><00:02:01.979><c> to</c>
+
+00:02:02.210 --> 00:02:02.220 align:start position:0%
+the server then sends the certificate to
+ 
+
+00:02:02.220 --> 00:02:04.609 align:start position:0%
+the server then sends the certificate to
+the<00:02:02.399><c> client</c><00:02:02.700><c> the</c><00:02:03.420><c> certificate</c><00:02:03.899><c> includes</c><00:02:04.439><c> a</c>
+
+00:02:04.609 --> 00:02:04.619 align:start position:0%
+the client the certificate includes a
+ 
+
+00:02:04.619 --> 00:02:06.770 align:start position:0%
+the client the certificate includes a
+lot<00:02:04.740><c> of</c><00:02:04.920><c> different</c><00:02:05.159><c> things</c><00:02:05.460><c> one</c><00:02:06.299><c> of</c><00:02:06.479><c> the</c><00:02:06.540><c> key</c>
+
+00:02:06.770 --> 00:02:06.780 align:start position:0%
+lot of different things one of the key
+ 
+
+00:02:06.780 --> 00:02:09.290 align:start position:0%
+lot of different things one of the key
+things<00:02:07.020><c> is</c><00:02:07.619><c> the</c><00:02:07.860><c> public</c><00:02:07.979><c> key</c><00:02:08.340><c> for</c><00:02:08.819><c> the</c><00:02:09.000><c> server</c>
+
+00:02:09.290 --> 00:02:09.300 align:start position:0%
+things is the public key for the server
+ 
+
+00:02:09.300 --> 00:02:11.809 align:start position:0%
+things is the public key for the server
+the<00:02:10.080><c> client</c><00:02:10.319><c> uses</c><00:02:10.679><c> the</c><00:02:10.920><c> public</c><00:02:11.099><c> key</c><00:02:11.400><c> in</c>
+
+00:02:11.809 --> 00:02:11.819 align:start position:0%
+the client uses the public key in
+ 
+
+00:02:11.819 --> 00:02:13.970 align:start position:0%
+the client uses the public key in
+something<00:02:12.060><c> called</c><00:02:12.420><c> asymmetric</c><00:02:13.379><c> encryption</c>
+
+00:02:13.970 --> 00:02:13.980 align:start position:0%
+something called asymmetric encryption
+ 
+
+00:02:13.980 --> 00:02:16.790 align:start position:0%
+something called asymmetric encryption
+in<00:02:14.879><c> a</c><00:02:15.060><c> symmetric</c><00:02:15.540><c> encryption</c><00:02:16.020><c> a</c><00:02:16.500><c> piece</c><00:02:16.739><c> of</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+in a symmetric encryption a piece of
+ 
+
+00:02:16.800 --> 00:02:18.890 align:start position:0%
+in a symmetric encryption a piece of
+data<00:02:17.160><c> that</c><00:02:17.340><c> is</c><00:02:17.520><c> encrypted</c><00:02:18.000><c> by</c><00:02:18.239><c> a</c><00:02:18.420><c> public</c><00:02:18.599><c> key</c>
+
+00:02:18.890 --> 00:02:18.900 align:start position:0%
+data that is encrypted by a public key
+ 
+
+00:02:18.900 --> 00:02:21.290 align:start position:0%
+data that is encrypted by a public key
+can<00:02:19.560><c> only</c><00:02:19.680><c> be</c><00:02:19.920><c> decrypted</c><00:02:20.459><c> by</c><00:02:20.640><c> the</c><00:02:20.819><c> private</c><00:02:21.180><c> key</c>
+
+00:02:21.290 --> 00:02:21.300 align:start position:0%
+can only be decrypted by the private key
+ 
+
+00:02:21.300 --> 00:02:24.650 align:start position:0%
+can only be decrypted by the private key
+we'll<00:02:22.020><c> discuss</c><00:02:22.440><c> how</c><00:02:22.800><c> this</c><00:02:22.980><c> is</c><00:02:23.160><c> used</c><00:02:23.340><c> in</c><00:02:23.700><c> a</c><00:02:23.819><c> bit</c>
+
+00:02:24.650 --> 00:02:24.660 align:start position:0%
+we'll discuss how this is used in a bit
+ 
+
+00:02:24.660 --> 00:02:28.010 align:start position:0%
+we'll discuss how this is used in a bit
+this<00:02:25.319><c> concludes</c><00:02:25.739><c> step</c><00:02:26.040><c> two</c><00:02:26.580><c> the</c><00:02:27.480><c> hollow</c><00:02:27.840><c> phase</c>
+
+00:02:28.010 --> 00:02:28.020 align:start position:0%
+this concludes step two the hollow phase
+ 
+
+00:02:28.020 --> 00:02:30.530 align:start position:0%
+this concludes step two the hollow phase
+of<00:02:28.260><c> the</c><00:02:28.379><c> TLs</c><00:02:28.800><c> handshake</c><00:02:29.280><c> at</c><00:02:30.000><c> this</c><00:02:30.120><c> point</c><00:02:30.239><c> the</c>
+
+00:02:30.530 --> 00:02:30.540 align:start position:0%
+of the TLs handshake at this point the
+ 
+
+00:02:30.540 --> 00:02:32.630 align:start position:0%
+of the TLs handshake at this point the
+client<00:02:30.780><c> has</c><00:02:31.020><c> a</c><00:02:31.200><c> service</c><00:02:31.379><c> certificate</c>
+
+00:02:32.630 --> 00:02:32.640 align:start position:0%
+client has a service certificate
+ 
+
+00:02:32.640 --> 00:02:34.910 align:start position:0%
+client has a service certificate
+and<00:02:33.180><c> the</c><00:02:33.360><c> client</c><00:02:33.599><c> and</c><00:02:33.780><c> server</c><00:02:34.080><c> have</c><00:02:34.260><c> agreed</c><00:02:34.739><c> on</c>
+
+00:02:34.910 --> 00:02:34.920 align:start position:0%
+and the client and server have agreed on
+ 
+
+00:02:34.920 --> 00:02:37.430 align:start position:0%
+and the client and server have agreed on
+the<00:02:35.099><c> TLs</c><00:02:35.520><c> version</c><00:02:35.819><c> and</c><00:02:36.540><c> the</c><00:02:36.660><c> Cyber</c><00:02:37.020><c> Suite</c><00:02:37.319><c> to</c>
+
+00:02:37.430 --> 00:02:37.440 align:start position:0%
+the TLs version and the Cyber Suite to
+ 
+
+00:02:37.440 --> 00:02:38.390 align:start position:0%
+the TLs version and the Cyber Suite to
+use
+
+00:02:38.390 --> 00:02:38.400 align:start position:0%
+use
+ 
+
+00:02:38.400 --> 00:02:41.030 align:start position:0%
+use
+now<00:02:38.760><c> to</c><00:02:38.940><c> step</c><00:02:39.239><c> three</c><00:02:39.540><c> this</c><00:02:40.319><c> is</c><00:02:40.440><c> the</c><00:02:40.560><c> step</c><00:02:40.800><c> where</c>
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+now to step three this is the step where
+ 
+
+00:02:41.040 --> 00:02:43.250 align:start position:0%
+now to step three this is the step where
+the<00:02:41.280><c> client</c><00:02:41.580><c> and</c><00:02:41.819><c> the</c><00:02:42.000><c> server</c><00:02:42.300><c> come</c><00:02:42.599><c> up</c><00:02:42.720><c> with</c><00:02:43.080><c> a</c>
+
+00:02:43.250 --> 00:02:43.260 align:start position:0%
+the client and the server come up with a
+ 
+
+00:02:43.260 --> 00:02:45.410 align:start position:0%
+the client and the server come up with a
+share<00:02:43.560><c> encryption</c><00:02:43.980><c> key</c><00:02:44.220><c> to</c><00:02:44.459><c> use</c><00:02:44.640><c> to</c><00:02:44.940><c> encrypt</c>
+
+00:02:45.410 --> 00:02:45.420 align:start position:0%
+share encryption key to use to encrypt
+ 
+
+00:02:45.420 --> 00:02:46.550 align:start position:0%
+share encryption key to use to encrypt
+data
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+data
+ 
+
+00:02:46.560 --> 00:02:48.110 align:start position:0%
+data
+and<00:02:46.920><c> this</c><00:02:47.040><c> is</c><00:02:47.160><c> where</c><00:02:47.340><c> the</c><00:02:47.580><c> asymmetric</c>
+
+00:02:48.110 --> 00:02:48.120 align:start position:0%
+and this is where the asymmetric
+ 
+
+00:02:48.120 --> 00:02:50.509 align:start position:0%
+and this is where the asymmetric
+encryption<00:02:48.540><c> come</c><00:02:48.780><c> into</c><00:02:48.959><c> the</c><00:02:49.200><c> picture</c><00:02:49.519><c> again</c>
+
+00:02:50.509 --> 00:02:50.519 align:start position:0%
+encryption come into the picture again
+ 
+
+00:02:50.519 --> 00:02:53.030 align:start position:0%
+encryption come into the picture again
+with<00:02:50.879><c> a</c><00:02:51.120><c> symmetric</c><00:02:51.599><c> encryption</c><00:02:52.140><c> the</c><00:02:52.680><c> data</c>
+
+00:02:53.030 --> 00:02:53.040 align:start position:0%
+with a symmetric encryption the data
+ 
+
+00:02:53.040 --> 00:02:55.250 align:start position:0%
+with a symmetric encryption the data
+encrypted<00:02:53.519><c> on</c><00:02:53.819><c> the</c><00:02:54.000><c> client</c><00:02:54.239><c> side</c><00:02:54.480><c> using</c><00:02:55.080><c> the</c>
+
+00:02:55.250 --> 00:02:55.260 align:start position:0%
+encrypted on the client side using the
+ 
+
+00:02:55.260 --> 00:02:57.650 align:start position:0%
+encrypted on the client side using the
+public<00:02:55.379><c> key</c><00:02:55.680><c> from</c><00:02:55.920><c> the</c><00:02:56.099><c> server</c><00:02:56.459><c> can</c><00:02:57.239><c> only</c><00:02:57.420><c> be</c>
+
+00:02:57.650 --> 00:02:57.660 align:start position:0%
+public key from the server can only be
+ 
+
+00:02:57.660 --> 00:03:00.350 align:start position:0%
+public key from the server can only be
+decrypted<00:02:58.200><c> by</c><00:02:58.440><c> the</c><00:02:58.620><c> server</c><00:02:59.340><c> this</c><00:02:59.879><c> is</c><00:03:00.060><c> how</c><00:03:00.239><c> the</c>
+
+00:03:00.350 --> 00:03:00.360 align:start position:0%
+decrypted by the server this is how the
+ 
+
+00:03:00.360 --> 00:03:02.690 align:start position:0%
+decrypted by the server this is how the
+client<00:03:00.599><c> sends</c><00:03:01.080><c> an</c><00:03:01.260><c> encryption</c><00:03:01.800><c> key</c><00:03:01.980><c> safely</c><00:03:02.459><c> to</c>
+
+00:03:02.690 --> 00:03:02.700 align:start position:0%
+client sends an encryption key safely to
+ 
+
+00:03:02.700 --> 00:03:05.030 align:start position:0%
+client sends an encryption key safely to
+the<00:03:02.879><c> server</c><00:03:03.120><c> over</c><00:03:03.360><c> the</c><00:03:03.599><c> wide</c><00:03:03.840><c> open</c><00:03:04.019><c> internet</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+the server over the wide open internet
+ 
+
+00:03:05.040 --> 00:03:06.830 align:start position:0%
+the server over the wide open internet
+all<00:03:05.519><c> this</c><00:03:05.640><c> is</c><00:03:05.819><c> done</c><00:03:06.000><c> in</c><00:03:06.180><c> the</c><00:03:06.360><c> client</c><00:03:06.599><c> key</c>
+
+00:03:06.830 --> 00:03:06.840 align:start position:0%
+all this is done in the client key
+ 
+
+00:03:06.840 --> 00:03:09.650 align:start position:0%
+all this is done in the client key
+exchange<00:03:07.260><c> message</c><00:03:07.580><c> the</c><00:03:08.580><c> exact</c><00:03:08.819><c> detail</c><00:03:09.180><c> varies</c>
+
+00:03:09.650 --> 00:03:09.660 align:start position:0%
+exchange message the exact detail varies
+ 
+
+00:03:09.660 --> 00:03:12.229 align:start position:0%
+exchange message the exact detail varies
+depending<00:03:10.080><c> on</c><00:03:10.260><c> the</c><00:03:10.500><c> Cyber</c><00:03:10.800><c> Suite</c><00:03:11.159><c> used</c><00:03:11.400><c> here</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+depending on the Cyber Suite used here
+ 
+
+00:03:12.239 --> 00:03:14.930 align:start position:0%
+depending on the Cyber Suite used here
+we<00:03:12.480><c> use</c><00:03:12.659><c> RSA</c><00:03:13.200><c> as</c><00:03:13.440><c> an</c><00:03:13.620><c> example</c><00:03:13.980><c> since</c><00:03:14.340><c> it</c><00:03:14.580><c> is</c><00:03:14.760><c> the</c>
+
+00:03:14.930 --> 00:03:14.940 align:start position:0%
+we use RSA as an example since it is the
+ 
+
+00:03:14.940 --> 00:03:16.610 align:start position:0%
+we use RSA as an example since it is the
+easiest<00:03:15.239><c> to</c><00:03:15.480><c> understand</c>
+
+00:03:16.610 --> 00:03:16.620 align:start position:0%
+easiest to understand
+ 
+
+00:03:16.620 --> 00:03:19.130 align:start position:0%
+easiest to understand
+with<00:03:17.040><c> RSA</c><00:03:17.580><c> the</c><00:03:18.180><c> client</c><00:03:18.420><c> generates</c><00:03:18.900><c> an</c>
+
+00:03:19.130 --> 00:03:19.140 align:start position:0%
+with RSA the client generates an
+ 
+
+00:03:19.140 --> 00:03:21.729 align:start position:0%
+with RSA the client generates an
+encryption<00:03:19.739><c> key</c><00:03:19.980><c> also</c><00:03:20.640><c> called</c><00:03:20.819><c> a</c><00:03:21.120><c> session</c><00:03:21.360><c> key</c>
+
+00:03:21.729 --> 00:03:21.739 align:start position:0%
+encryption key also called a session key
+ 
+
+00:03:21.739 --> 00:03:24.050 align:start position:0%
+encryption key also called a session key
+encrypts<00:03:22.739><c> it</c><00:03:22.860><c> with</c><00:03:23.040><c> the</c><00:03:23.220><c> server</c><00:03:23.519><c> public</c><00:03:23.700><c> key</c>
+
+00:03:24.050 --> 00:03:24.060 align:start position:0%
+encrypts it with the server public key
+ 
+
+00:03:24.060 --> 00:03:26.930 align:start position:0%
+encrypts it with the server public key
+and<00:03:24.659><c> sensor</c><00:03:25.080><c> encrypted</c><00:03:25.739><c> session</c><00:03:26.040><c> key</c><00:03:26.340><c> to</c><00:03:26.819><c> the</c>
+
+00:03:26.930 --> 00:03:26.940 align:start position:0%
+and sensor encrypted session key to the
+ 
+
+00:03:26.940 --> 00:03:28.910 align:start position:0%
+and sensor encrypted session key to the
+server<00:03:27.239><c> over</c><00:03:27.420><c> the</c><00:03:27.659><c> Internet</c><00:03:27.780><c> the</c><00:03:28.620><c> server</c>
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+server over the Internet the server
+ 
+
+00:03:28.920 --> 00:03:31.070 align:start position:0%
+server over the Internet the server
+receives<00:03:29.280><c> the</c><00:03:29.519><c> encrypted</c><00:03:30.000><c> session</c><00:03:30.239><c> key</c><00:03:30.540><c> and</c>
+
+00:03:31.070 --> 00:03:31.080 align:start position:0%
+receives the encrypted session key and
+ 
+
+00:03:31.080 --> 00:03:33.410 align:start position:0%
+receives the encrypted session key and
+decrypts<00:03:31.560><c> it</c><00:03:31.680><c> with</c><00:03:31.920><c> its</c><00:03:32.220><c> private</c><00:03:32.519><c> key</c><00:03:32.640><c> now</c>
+
+00:03:33.410 --> 00:03:33.420 align:start position:0%
+decrypts it with its private key now
+ 
+
+00:03:33.420 --> 00:03:35.809 align:start position:0%
+decrypts it with its private key now
+both<00:03:33.720><c> sides</c><00:03:34.080><c> hold</c><00:03:34.319><c> the</c><00:03:34.500><c> session</c><00:03:34.739><c> key</c><00:03:35.040><c> and</c><00:03:35.640><c> this</c>
+
+00:03:35.809 --> 00:03:35.819 align:start position:0%
+both sides hold the session key and this
+ 
+
+00:03:35.819 --> 00:03:38.030 align:start position:0%
+both sides hold the session key and this
+is<00:03:35.940><c> where</c><00:03:36.180><c> they</c><00:03:36.420><c> enter</c><00:03:36.599><c> step</c><00:03:36.959><c> 4</c><00:03:37.200><c> of</c><00:03:37.440><c> the</c><00:03:37.560><c> TLs</c>
+
+00:03:38.030 --> 00:03:38.040 align:start position:0%
+is where they enter step 4 of the TLs
+ 
+
+00:03:38.040 --> 00:03:40.070 align:start position:0%
+is where they enter step 4 of the TLs
+handshake<00:03:38.459><c> where</c><00:03:39.060><c> they</c><00:03:39.300><c> use</c><00:03:39.420><c> the</c><00:03:39.599><c> session</c><00:03:39.840><c> key</c>
+
+00:03:40.070 --> 00:03:40.080 align:start position:0%
+handshake where they use the session key
+ 
+
+00:03:40.080 --> 00:03:42.949 align:start position:0%
+handshake where they use the session key
+and<00:03:40.739><c> agree</c><00:03:41.099><c> upon</c><00:03:41.459><c> cyber</c><00:03:41.879><c> Suite</c><00:03:42.180><c> to</c><00:03:42.780><c> send</c>
+
+00:03:42.949 --> 00:03:42.959 align:start position:0%
+and agree upon cyber Suite to send
+ 
+
+00:03:42.959 --> 00:03:45.170 align:start position:0%
+and agree upon cyber Suite to send
+encrypted<00:03:43.620><c> data</c><00:03:43.920><c> back</c><00:03:44.159><c> and</c><00:03:44.340><c> forth</c><00:03:44.640><c> in</c><00:03:44.940><c> a</c>
+
+00:03:45.170 --> 00:03:45.180 align:start position:0%
+encrypted data back and forth in a
+ 
+
+00:03:45.180 --> 00:03:47.630 align:start position:0%
+encrypted data back and forth in a
+secure<00:03:45.540><c> bi-directional</c><00:03:46.440><c> Channel</c>
+
+00:03:47.630 --> 00:03:47.640 align:start position:0%
+secure bi-directional Channel
+ 
+
+00:03:47.640 --> 00:03:50.390 align:start position:0%
+secure bi-directional Channel
+now<00:03:48.239><c> you</c><00:03:48.480><c> may</c><00:03:48.599><c> ask</c><00:03:48.780><c> why</c><00:03:49.440><c> don't</c><00:03:49.560><c> we</c><00:03:49.739><c> just</c><00:03:49.920><c> use</c><00:03:50.159><c> a</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+now you may ask why don't we just use a
+ 
+
+00:03:50.400 --> 00:03:52.490 align:start position:0%
+now you may ask why don't we just use a
+symmetric<00:03:50.879><c> encryption</c><00:03:51.360><c> for</c><00:03:51.599><c> everything</c><00:03:51.780><c> why</c>
+
+00:03:52.490 --> 00:03:52.500 align:start position:0%
+symmetric encryption for everything why
+ 
+
+00:03:52.500 --> 00:03:54.770 align:start position:0%
+symmetric encryption for everything why
+switch<00:03:52.799><c> to</c><00:03:53.040><c> symmetric</c><00:03:53.519><c> encryption</c><00:03:54.000><c> at</c><00:03:54.239><c> all</c>
+
+00:03:54.770 --> 00:03:54.780 align:start position:0%
+switch to symmetric encryption at all
+ 
+
+00:03:54.780 --> 00:03:56.930 align:start position:0%
+switch to symmetric encryption at all
+the<00:03:55.319><c> main</c><00:03:55.440><c> reason</c><00:03:55.620><c> is</c><00:03:55.980><c> that</c><00:03:56.159><c> asymmetric</c>
+
+00:03:56.930 --> 00:03:56.940 align:start position:0%
+the main reason is that asymmetric
+ 
+
+00:03:56.940 --> 00:03:59.149 align:start position:0%
+the main reason is that asymmetric
+encryption<00:03:57.420><c> is</c><00:03:57.659><c> computationally</c><00:03:58.440><c> expensive</c>
+
+00:03:59.149 --> 00:03:59.159 align:start position:0%
+encryption is computationally expensive
+ 
+
+00:03:59.159 --> 00:04:01.850 align:start position:0%
+encryption is computationally expensive
+it<00:03:59.879><c> is</c><00:04:00.060><c> not</c><00:04:00.239><c> really</c><00:04:00.420><c> suitable</c><00:04:00.840><c> for</c><00:04:01.140><c> bulk</c><00:04:01.500><c> data</c>
+
+00:04:01.850 --> 00:04:01.860 align:start position:0%
+it is not really suitable for bulk data
+ 
+
+00:04:01.860 --> 00:04:03.170 align:start position:0%
+it is not really suitable for bulk data
+transmission
+
+00:04:03.170 --> 00:04:03.180 align:start position:0%
+transmission
+ 
+
+00:04:03.180 --> 00:04:05.449 align:start position:0%
+transmission
+before<00:04:03.599><c> we</c><00:04:03.840><c> close</c><00:04:04.140><c> there</c><00:04:04.920><c> are</c><00:04:05.099><c> two</c><00:04:05.220><c> final</c>
+
+00:04:05.449 --> 00:04:05.459 align:start position:0%
+before we close there are two final
+ 
+
+00:04:05.459 --> 00:04:08.509 align:start position:0%
+before we close there are two final
+points<00:04:05.879><c> I</c><00:04:06.000><c> would</c><00:04:06.180><c> like</c><00:04:06.299><c> to</c><00:04:06.480><c> discuss</c><00:04:06.780><c> first</c><00:04:07.739><c> the</c>
+
+00:04:08.509 --> 00:04:08.519 align:start position:0%
+points I would like to discuss first the
+ 
+
+00:04:08.519 --> 00:04:10.550 align:start position:0%
+points I would like to discuss first the
+handshake<00:04:08.879><c> we</c><00:04:09.120><c> talked</c><00:04:09.299><c> about</c><00:04:09.360><c> applied</c><00:04:09.900><c> to</c><00:04:10.080><c> TLS</c>
+
+00:04:10.550 --> 00:04:10.560 align:start position:0%
+handshake we talked about applied to TLS
+ 
+
+00:04:10.560 --> 00:04:14.449 align:start position:0%
+handshake we talked about applied to TLS
+1.2<00:04:11.220><c> while</c><00:04:12.120><c> the</c><00:04:12.420><c> latest</c><00:04:12.599><c> version</c><00:04:12.959><c> is</c><00:04:13.260><c> TLS</c><00:04:13.739><c> 1.3</c>
+
+00:04:14.449 --> 00:04:14.459 align:start position:0%
+1.2 while the latest version is TLS 1.3
+ 
+
+00:04:14.459 --> 00:04:17.629 align:start position:0%
+1.2 while the latest version is TLS 1.3
+and<00:04:15.239><c> TLS</c><00:04:15.659><c> 1.3</c><00:04:16.320><c> is</c><00:04:16.500><c> supported</c><00:04:16.979><c> on</c><00:04:17.220><c> all</c><00:04:17.459><c> major</c>
+
+00:04:17.629 --> 00:04:17.639 align:start position:0%
+and TLS 1.3 is supported on all major
+ 
+
+00:04:17.639 --> 00:04:19.969 align:start position:0%
+and TLS 1.3 is supported on all major
+browsers<00:04:18.299><c> as</c><00:04:19.199><c> we</c><00:04:19.380><c> can</c><00:04:19.500><c> see</c><00:04:19.620><c> in</c><00:04:19.799><c> our</c>
+
+00:04:19.969 --> 00:04:19.979 align:start position:0%
+browsers as we can see in our
+ 
+
+00:04:19.979 --> 00:04:22.969 align:start position:0%
+browsers as we can see in our
+illustration<00:04:20.600><c> TRS</c><00:04:21.600><c> 1.2</c><00:04:22.079><c> takes</c><00:04:22.500><c> two</c><00:04:22.740><c> network</c>
+
+00:04:22.969 --> 00:04:22.979 align:start position:0%
+illustration TRS 1.2 takes two network
+ 
+
+00:04:22.979 --> 00:04:25.430 align:start position:0%
+illustration TRS 1.2 takes two network
+round<00:04:23.340><c> trips</c><00:04:23.759><c> to</c><00:04:23.880><c> complete</c><00:04:24.360><c> this</c><00:04:24.960><c> is</c><00:04:25.080><c> one</c><00:04:25.320><c> of</c>
+
+00:04:25.430 --> 00:04:25.440 align:start position:0%
+round trips to complete this is one of
+ 
+
+00:04:25.440 --> 00:04:28.969 align:start position:0%
+round trips to complete this is one of
+the<00:04:25.560><c> major</c><00:04:25.740><c> improvements</c><00:04:26.460><c> of</c><00:04:27.000><c> TLS</c><00:04:27.479><c> 1.3</c><00:04:28.139><c> it</c>
+
+00:04:28.969 --> 00:04:28.979 align:start position:0%
+the major improvements of TLS 1.3 it
+ 
+
+00:04:28.979 --> 00:04:31.310 align:start position:0%
+the major improvements of TLS 1.3 it
+optimizes<00:04:29.699><c> the</c><00:04:30.180><c> handshake</c><00:04:30.600><c> to</c><00:04:30.840><c> reduce</c><00:04:31.020><c> the</c>
+
+00:04:31.310 --> 00:04:31.320 align:start position:0%
+optimizes the handshake to reduce the
+ 
+
+00:04:31.320 --> 00:04:34.370 align:start position:0%
+optimizes the handshake to reduce the
+number<00:04:31.560><c> of</c><00:04:31.680><c> network</c><00:04:31.979><c> round</c><00:04:32.400><c> trips</c><00:04:32.759><c> to</c><00:04:33.180><c> one</c>
+
+00:04:34.370 --> 00:04:34.380 align:start position:0%
+number of network round trips to one
+ 
+
+00:04:34.380 --> 00:04:37.550 align:start position:0%
+number of network round trips to one
+we<00:04:34.919><c> decided</c><00:04:35.340><c> to</c><00:04:35.460><c> talk</c><00:04:35.580><c> about</c><00:04:35.759><c> TLS</c><00:04:36.300><c> 1.2</c><00:04:36.900><c> because</c>
+
+00:04:37.550 --> 00:04:37.560 align:start position:0%
+we decided to talk about TLS 1.2 because
+ 
+
+00:04:37.560 --> 00:04:40.370 align:start position:0%
+we decided to talk about TLS 1.2 because
+we<00:04:37.860><c> reviewed</c><00:04:38.220><c> TRS</c><00:04:38.699><c> 1.3</c><00:04:39.240><c> as</c><00:04:39.479><c> in</c><00:04:39.720><c> optimization</c>
+
+00:04:40.370 --> 00:04:40.380 align:start position:0%
+we reviewed TRS 1.3 as in optimization
+ 
+
+00:04:40.380 --> 00:04:43.790 align:start position:0%
+we reviewed TRS 1.3 as in optimization
+as<00:04:41.340><c> with</c><00:04:41.580><c> most</c><00:04:41.820><c> optimizations</c><00:04:42.600><c> it</c><00:04:43.440><c> is</c><00:04:43.560><c> a</c><00:04:43.680><c> bit</c>
+
+00:04:43.790 --> 00:04:43.800 align:start position:0%
+as with most optimizations it is a bit
+ 
+
+00:04:43.800 --> 00:04:45.890 align:start position:0%
+as with most optimizations it is a bit
+harder<00:04:44.160><c> to</c><00:04:44.280><c> explain</c><00:04:44.460><c> that's</c><00:04:45.300><c> why</c><00:04:45.540><c> we</c><00:04:45.720><c> chose</c>
+
+00:04:45.890 --> 00:04:45.900 align:start position:0%
+harder to explain that's why we chose
+ 
+
+00:04:45.900 --> 00:04:49.550 align:start position:0%
+harder to explain that's why we chose
+TRS<00:04:46.500><c> 1.2</c><00:04:47.040><c> Instead</c><00:04:47.520><c> The</c><00:04:48.180><c> Core</c><00:04:48.360><c> Concepts</c><00:04:48.960><c> in</c><00:04:49.080><c> TLS</c>
+
+00:04:49.550 --> 00:04:49.560 align:start position:0%
+TRS 1.2 Instead The Core Concepts in TLS
+ 
+
+00:04:49.560 --> 00:04:53.810 align:start position:0%
+TRS 1.2 Instead The Core Concepts in TLS
+1.2<00:04:50.220><c> still</c><00:04:51.000><c> applies</c><00:04:51.419><c> to</c><00:04:51.660><c> TLS</c><00:04:52.199><c> 1.3</c>
+
+00:04:53.810 --> 00:04:53.820 align:start position:0%
+1.2 still applies to TLS 1.3
+ 
+
+00:04:53.820 --> 00:04:55.490 align:start position:0%
+1.2 still applies to TLS 1.3
+the<00:04:54.240><c> second</c><00:04:54.419><c> final</c><00:04:54.600><c> Point</c><00:04:54.960><c> we'd</c><00:04:55.199><c> like</c><00:04:55.320><c> to</c>
+
+00:04:55.490 --> 00:04:55.500 align:start position:0%
+the second final Point we'd like to
+ 
+
+00:04:55.500 --> 00:04:57.890 align:start position:0%
+the second final Point we'd like to
+discuss<00:04:55.740><c> is</c><00:04:56.040><c> that</c><00:04:56.280><c> in</c><00:04:56.759><c> the</c><00:04:56.940><c> explanation</c><00:04:57.360><c> above</c>
+
+00:04:57.890 --> 00:04:57.900 align:start position:0%
+discuss is that in the explanation above
+ 
+
+00:04:57.900 --> 00:05:01.070 align:start position:0%
+discuss is that in the explanation above
+we<00:04:58.199><c> use</c><00:04:58.380><c> RSA</c><00:04:58.979><c> for</c><00:04:59.160><c> asymmetric</c><00:04:59.880><c> encryption</c><00:05:00.479><c> to</c>
+
+00:05:01.070 --> 00:05:01.080 align:start position:0%
+we use RSA for asymmetric encryption to
+ 
+
+00:05:01.080 --> 00:05:03.350 align:start position:0%
+we use RSA for asymmetric encryption to
+securely<00:05:01.560><c> exchange</c><00:05:01.979><c> the</c><00:05:02.220><c> symmetric</c><00:05:02.880><c> session</c>
+
+00:05:03.350 --> 00:05:03.360 align:start position:0%
+securely exchange the symmetric session
+ 
+
+00:05:03.360 --> 00:05:06.409 align:start position:0%
+securely exchange the symmetric session
+key<00:05:03.600><c> again</c><00:05:04.440><c> we</c><00:05:04.740><c> chose</c><00:05:04.919><c> to</c><00:05:05.160><c> RSA</c><00:05:05.699><c> because</c><00:05:06.000><c> it</c><00:05:06.300><c> is</c>
+
+00:05:06.409 --> 00:05:06.419 align:start position:0%
+key again we chose to RSA because it is
+ 
+
+00:05:06.419 --> 00:05:09.290 align:start position:0%
+key again we chose to RSA because it is
+easy<00:05:06.660><c> to</c><00:05:07.020><c> understand</c><00:05:07.400><c> however</c><00:05:08.400><c> asymmetric</c>
+
+00:05:09.290 --> 00:05:09.300 align:start position:0%
+easy to understand however asymmetric
+ 
+
+00:05:09.300 --> 00:05:11.270 align:start position:0%
+easy to understand however asymmetric
+encryption<00:05:09.840><c> is</c><00:05:10.020><c> not</c><00:05:10.199><c> the</c><00:05:10.380><c> only</c><00:05:10.500><c> way</c><00:05:10.740><c> to</c><00:05:11.040><c> share</c>
+
+00:05:11.270 --> 00:05:11.280 align:start position:0%
+encryption is not the only way to share
+ 
+
+00:05:11.280 --> 00:05:13.490 align:start position:0%
+encryption is not the only way to share
+the<00:05:11.460><c> session</c><00:05:11.759><c> key</c><00:05:12.060><c> between</c><00:05:12.720><c> the</c><00:05:13.020><c> client</c><00:05:13.320><c> and</c>
+
+00:05:13.490 --> 00:05:13.500 align:start position:0%
+the session key between the client and
+ 
+
+00:05:13.500 --> 00:05:18.290 align:start position:0%
+the session key between the client and
+the<00:05:13.680><c> server</c><00:05:14.460><c> in</c><00:05:15.120><c> fact</c><00:05:15.360><c> in</c><00:05:15.660><c> TLS</c><00:05:16.080><c> 1.3</c><00:05:16.880><c> RSA</c><00:05:17.880><c> is</c><00:05:18.060><c> no</c>
+
+00:05:18.290 --> 00:05:18.300 align:start position:0%
+the server in fact in TLS 1.3 RSA is no
+ 
+
+00:05:18.300 --> 00:05:20.930 align:start position:0%
+the server in fact in TLS 1.3 RSA is no
+longer<00:05:18.600><c> supported</c><00:05:19.139><c> as</c><00:05:19.620><c> the</c><00:05:19.919><c> a</c><00:05:20.220><c> method</c><00:05:20.520><c> for</c><00:05:20.699><c> key</c>
+
+00:05:20.930 --> 00:05:20.940 align:start position:0%
+longer supported as the a method for key
+ 
+
+00:05:20.940 --> 00:05:23.870 align:start position:0%
+longer supported as the a method for key
+exchange<00:05:21.800><c> diffie-hellman</c><00:05:22.800><c> is</c><00:05:23.340><c> a</c><00:05:23.520><c> more</c><00:05:23.699><c> common</c>
+
+00:05:23.870 --> 00:05:23.880 align:start position:0%
+exchange diffie-hellman is a more common
+ 
+
+00:05:23.880 --> 00:05:27.050 align:start position:0%
+exchange diffie-hellman is a more common
+way<00:05:24.240><c> nowadays</c><00:05:24.840><c> for</c><00:05:25.080><c> exchanging</c><00:05:25.680><c> session</c><00:05:25.919><c> keys</c>
+
+00:05:27.050 --> 00:05:27.060 align:start position:0%
+way nowadays for exchanging session keys
+ 
+
+00:05:27.060 --> 00:05:29.330 align:start position:0%
+way nowadays for exchanging session keys
+Tiffy<00:05:27.660><c> helmet</c><00:05:27.900><c> is</c><00:05:28.080><c> complicated</c><00:05:28.500><c> but</c><00:05:29.039><c> in</c><00:05:29.220><c> a</c>
+
+00:05:29.330 --> 00:05:29.340 align:start position:0%
+Tiffy helmet is complicated but in a
+ 
+
+00:05:29.340 --> 00:05:31.790 align:start position:0%
+Tiffy helmet is complicated but in a
+nutshell<00:05:29.699><c> it</c><00:05:30.240><c> uses</c><00:05:30.600><c> some</c><00:05:31.080><c> advanced</c><00:05:31.620><c> math</c>
+
+00:05:31.790 --> 00:05:31.800 align:start position:0%
+nutshell it uses some advanced math
+ 
+
+00:05:31.800 --> 00:05:34.730 align:start position:0%
+nutshell it uses some advanced math
+involving<00:05:32.460><c> large</c><00:05:32.820><c> prime</c><00:05:33.120><c> numbers</c><00:05:33.479><c> to</c><00:05:34.380><c> derive</c>
+
+00:05:34.730 --> 00:05:34.740 align:start position:0%
+involving large prime numbers to derive
+ 
+
+00:05:34.740 --> 00:05:36.650 align:start position:0%
+involving large prime numbers to derive
+a<00:05:35.100><c> share</c><00:05:35.400><c> session</c><00:05:35.699><c> key</c><00:05:35.880><c> without</c><00:05:36.240><c> ever</c>
+
+00:05:36.650 --> 00:05:36.660 align:start position:0%
+a share session key without ever
+ 
+
+00:05:36.660 --> 00:05:39.110 align:start position:0%
+a share session key without ever
+transmitting<00:05:37.440><c> a</c><00:05:38.220><c> public</c><00:05:38.460><c> key</c><00:05:38.699><c> over</c><00:05:38.940><c> the</c>
+
+00:05:39.110 --> 00:05:39.120 align:start position:0%
+transmitting a public key over the
+ 
+
+00:05:39.120 --> 00:05:40.189 align:start position:0%
+transmitting a public key over the
+network
+
+00:05:40.189 --> 00:05:40.199 align:start position:0%
+network
+ 
+
+00:05:40.199 --> 00:05:42.650 align:start position:0%
+network
+this<00:05:40.740><c> is</c><00:05:40.860><c> it</c><00:05:40.979><c> for</c><00:05:41.280><c> https</c>
+
+00:05:42.650 --> 00:05:42.660 align:start position:0%
+this is it for https
+ 
+
+00:05:42.660 --> 00:05:44.090 align:start position:0%
+this is it for https
+you<00:05:43.080><c> would</c><00:05:43.259><c> like</c><00:05:43.380><c> to</c><00:05:43.500><c> learn</c><00:05:43.620><c> more</c><00:05:43.860><c> about</c>
+
+00:05:44.090 --> 00:05:44.100 align:start position:0%
+you would like to learn more about
+ 
+
+00:05:44.100 --> 00:05:46.610 align:start position:0%
+you would like to learn more about
+system<00:05:44.460><c> design</c><00:05:44.820><c> check</c><00:05:45.419><c> out</c><00:05:45.600><c> our</c><00:05:45.780><c> books</c><00:05:46.259><c> and</c>
+
+00:05:46.610 --> 00:05:46.620 align:start position:0%
+system design check out our books and
+ 
+
+00:05:46.620 --> 00:05:49.189 align:start position:0%
+system design check out our books and
+free<00:05:46.800><c> Weekly</c><00:05:47.220><c> Newsletter</c><00:05:48.240><c> Please</c><00:05:48.780><c> Subscribe</c>
+
+00:05:49.189 --> 00:05:49.199 align:start position:0%
+free Weekly Newsletter Please Subscribe
+ 
+
+00:05:49.199 --> 00:05:51.110 align:start position:0%
+free Weekly Newsletter Please Subscribe
+you<00:05:49.380><c> learn</c><00:05:49.620><c> something</c><00:05:49.860><c> new</c><00:05:50.220><c> thank</c><00:05:50.820><c> you</c><00:05:50.940><c> so</c>
+
+00:05:51.110 --> 00:05:51.120 align:start position:0%
+you learn something new thank you so
+ 
+
+00:05:51.120 --> 00:05:54.680 align:start position:0%
+you learn something new thank you so
+much<00:05:51.300><c> and</c><00:05:51.720><c> we'll</c><00:05:51.900><c> see</c><00:05:52.139><c> you</c><00:05:52.259><c> next</c><00:05:52.440><c> time</c>
+

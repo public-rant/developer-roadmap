@@ -1,0 +1,312 @@
+in this lecture we ll be studying about
+inter process communication so inter
+process communication means the way in
+which processes communicate with each
+other so we know that there are
+different processes running in our
+systems and this processes may need to
+communicate with each other
+so the way the processes communicate
+with each other is known as inter
+process communication now processes
+executing concurrently in the operating
+system may be either independent
+processes or cooperating processes now
+in the operating system we have two or
+more processes that are executing
+concurrently which means they are
+executing at the same time so when two
+or more processes are executing at the
+same time in the operating system this
+processes may either be independent
+processes or cooperating processes so
+first let us see what is the meaning of
+independent processes and what is the
+meaning of cooperating processes so
+independent processes are those
+processes which cannot affect or be
+affected by the other processes
+executing in the system so if we say
+that the processes are independent that
+means that these processes cannot affect
+or cannot be affected by other processes
+executing in the system so all the
+processes may execute in their own ways
+and these independent processes are not
+affected by other processes and also
+they cannot affect other processes in
+the system and then we have cooperating
+processes these processes are the
+processes that can affect or be affected
+by the other processes executing in the
+system so cooperating processes are
+those processes which can affect the
+other processes in the system and also
+they can be affected by other processes
+executing in the system so an example of
+this cooperating processes are any
+process that shares data with other
+process so if one process is sharing
+data with another process then we can
+say for sure that that process can
+affect the other process with which it
+is sharing the data so if two processes
+are sharing data then those two
+processes will be a
+affected by each other so those kind of
+processes are known as cooperating
+processes so if they re independent
+processes they are not sharing anything
+and they are executing in their own ways
+and they are not affected by each other
+so there is what we mean by independent
+processes and cooperating processes now
+if you look at this we can see that
+inter process communication will be
+required in cooperating processes
+because incorporating processes they are
+going to be affected by each other and
+they may need to communicate with each
+other so mostly in the case of
+cooperating processes we are going to
+need this inter process communication
+now there are several reasons for
+providing an environment that allows
+process cooperation so we may have
+several reasons why we need to allow
+processes to cooperate with each other
+and let s see what are those so the
+first one is information sharing
+so in this information sharing what we
+mean is that several users may be
+interested in a single piece of
+information for example a shared file
+which we just saw before so when several
+users are interested in a single piece
+of information we will have to provide
+an environment in which the information
+can be accessed concurrently that means
+both the users or several users will be
+able to access that information at the
+same time so that is one reason why we
+need to provide an environment that
+allows process cooperation because the
+two users or the several users may be
+trying to access via different processes
+so this processes will need to
+communicate or cooperate with each other
+in order to provide this information
+sharing now the next point is
+computational speed up now in order to
+achieve computational speed up what we
+can do is if we are having a task we
+will have to divide that task into
+several sub tasks and all this sub task
+will be made to run concurrently in that
+way we can speed up our system so
+instead of taking one task and waiting
+for it to complete from the beginning
+till the end what we can do is we can
+break it down into sub tasks and OH
+this sub task will be running
+concurrently and hence we can achieve
+more speed in our system now when we do
+that when the tasks are broken down into
+several different tasks they are
+assigned to several different processes
+they become several different processes
+now since all these processes belongs to
+one single task or to one main task so
+those processes will need to communicate
+with each other so this is another
+reason why we need to allow the
+processes to cooperate with each other
+so that we can achieve this
+computational speed up by breaking down
+the task into several different tasks
+and making them to run concurrently now
+the next point is modularity so
+modularity means we want to design the
+system by dividing it in two separate
+modules so when we are designing a
+system one person is not designing the
+entire system we divide the system into
+different modules and these modules will
+later be put together to work to achieve
+a single goal so when we want to achieve
+modularity we are dividing the system
+into several different modules and also
+these modules will need to communicate
+or cooperate with each other so this is
+another reason why we need to provide an
+environment that allows process
+cooperation in order to achieve
+modularity in our system and then the
+next point is convenience so if we allow
+the processes to cooperate with each
+other or if we provide an environment in
+which the processors can cooperate with
+each other then that becomes very
+convenient for the user for example a
+user may be using his system and he may
+be doing several different tasks at the
+same time he may be listening to music
+he may be typing a document or he may be
+printing a document at the same time so
+when he is doing all these things at the
+same time there are different processes
+running at the same time so these
+processes are running concurrently and
+they need to cooperate with each other
+so that all the tasks can run smoothly
+without clashing with each other so
+convenience is another reason why we
+need to provide an environment that
+allows process cooperation all right so
+these are the reasons why we need to
+provide
+environment that allows process
+cooperation now let us see in what ways
+can we provide an environment that
+allows process cooperation or in what
+ways can we let the processes to
+cooperate or communicate with each other
+how does the inter process communication
+actually takes place so that is what we
+are going to see now so as I already
+told you cooperating processes require
+an inter process communication which is
+abbreviated as IPC mechanism that will
+allow them to exchange data and
+information so when the processes need
+to cooperate with each other they need
+to communicate with each other so for
+that we require something known as inter
+process communication or IPC which will
+allow the processes to exchange data and
+information and hence they can have the
+communication between each other and
+there are two fundamental models of
+inter process communication the first
+one is called shared memory and the
+second one is called message passing now
+let us see what are these two models of
+inter process communications and how do
+they differ from each other and what do
+they actually mean so first of all
+talking about shared memory system in
+the shared memory model a region of
+memory that is shared by cooperating
+processes is established and processes
+can then exchange information by reading
+and writing data to the shared region so
+in this shared memory model what happens
+is that we established a region of
+memory that will be shared by the
+cooperating processes so there will be a
+portion of memory that can be shared by
+all the processes that are cooperating
+with each other and what will happen
+they will exchange information by
+reading and writing data to the shared
+region so whenever one process wants to
+communicate to another process what it
+will do is it will write the information
+or the thing that it wants to share or
+communicate to the other process into
+that shared memory region and in the
+other process what it can do is it can
+read that data that which was written by
+the first process from
+the shared memory region and then it
+will understand what it actually was
+trying to communicate so that is what
+happens in the shared memory models and
+then the second one is message passing
+so in message passing model
+communication takes place by means of
+messages exchanged between the
+cooperating processes so in this message
+passing model what happens is that the
+communication between the processes they
+takes place via messages which the
+processes exchanged between each other
+so there are messages which will help
+them in communicating with each other so
+these messages are exchanged between
+processes and that is how the
+communication takes place in the message
+passing model so these are the two
+fundamental models of inter process
+communication now I will take a diagram
+in order to explain this in a better way
+so that you can visualize how it
+actually happens so here we have two
+figures a and B and the first figure it
+represents the shared memory
+communication model and in the second
+figure B it represents the message
+passing communication model so if you
+look at this in the first figure A which
+is the shared memory system we have two
+processes process a and process B which
+will be cooperating to each other and
+which are trying to communicate to each
+other and here in between we have the
+shared region of memory so when process
+a wants to communicate to process B what
+it will do is it will write the
+information that it wants to communicate
+to the shared memory region and what
+process B will do is it will read the
+information that was written to the
+shared memory region by process a and it
+will understand what communication was
+air trying to make so by the help of the
+shared memory region process a was able
+to communicate to process B so whatever
+information process a put here process B
+will be able to read it so process a
+writes here and process B reads from
+here and it is possible because this is
+a shared memory region and it is
+accessible to both process a and process
+B so
+that will be the case even when there
+are more processes like this so this is
+the example of a shared memory
+communication model now the next one
+that we have in Figure B is a message
+passing communication model so in the
+same way here we have two processes
+process a and process B which are trying
+to communicate to each other and here we
+have the kernel and this M they stand
+for the messages so when process a wants
+to communicate to process B it will send
+the message to process B and how will it
+send it will create the message and the
+message will go to the kernel so the
+kernel will get the message and it knows
+that this message is for process B so
+the kernel will send this message to
+process B and process B gets the message
+so that is how the message flows in this
+message passing model the process a
+sends the message to the colonel and the
+colonel sent a message to process B so
+that is the flow and in that way process
+a is able to communicate to process B
+via this message passing so that is how
+communication takes place in case of a
+message passing model so these are the
+two most common models of inter process
+communication or IPC first is the shared
+memory and another one is the message
+passing so these are very important
+topics in this operating system under
+the subtopic of inter process
+communication so I hope this was clear
+to you thank you for watching and see
+you in the next one
+Applause

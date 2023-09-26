@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.iis.net/ > $(basename https://www.iis.net/).txt

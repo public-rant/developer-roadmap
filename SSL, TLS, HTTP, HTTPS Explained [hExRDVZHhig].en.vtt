@@ -1,0 +1,1368 @@
+WEBVTT
+
+
+
+00:00:00.240 --> 00:00:02.550 align:start position:0%
+ 
+hello<00:00:00.640><c> everyone</c><00:00:01.439><c> in</c><00:00:01.599><c> this</c><00:00:01.839><c> video</c><00:00:02.240><c> we're</c><00:00:02.399><c> going</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+hello everyone in this video we're going
+ 
+
+00:00:02.560 --> 00:00:03.270 align:start position:0%
+hello everyone in this video we're going
+to<00:00:02.639><c> talk</c><00:00:02.879><c> about</c>
+
+00:00:03.270 --> 00:00:03.280 align:start position:0%
+to talk about
+ 
+
+00:00:03.280 --> 00:00:06.550 align:start position:0%
+to talk about
+http<00:00:04.640><c> secure</c><00:00:05.200><c> http</c><00:00:06.160><c> and</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+http secure http and
+ 
+
+00:00:06.560 --> 00:00:11.030 align:start position:0%
+http secure http and
+ssl<00:00:08.240><c> now</c><00:00:08.559><c> http</c><00:00:09.519><c> stands</c><00:00:09.840><c> for</c><00:00:10.080><c> hypertext</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+ssl now http stands for hypertext
+ 
+
+00:00:11.040 --> 00:00:13.589 align:start position:0%
+ssl now http stands for hypertext
+transfer<00:00:11.679><c> protocol</c><00:00:12.559><c> now</c><00:00:12.719><c> this</c><00:00:12.960><c> is</c><00:00:13.120><c> probably</c>
+
+00:00:13.589 --> 00:00:13.599 align:start position:0%
+transfer protocol now this is probably
+ 
+
+00:00:13.599 --> 00:00:15.829 align:start position:0%
+transfer protocol now this is probably
+the<00:00:13.759><c> most</c><00:00:14.080><c> widely</c><00:00:14.639><c> used</c><00:00:15.040><c> protocol</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+the most widely used protocol
+ 
+
+00:00:15.839 --> 00:00:19.269 align:start position:0%
+the most widely used protocol
+in<00:00:15.920><c> the</c><00:00:16.080><c> world</c><00:00:16.400><c> today</c><00:00:17.279><c> http</c><00:00:18.320><c> is</c><00:00:18.480><c> the</c><00:00:18.720><c> protocol</c>
+
+00:00:19.269 --> 00:00:19.279 align:start position:0%
+in the world today http is the protocol
+ 
+
+00:00:19.279 --> 00:00:20.150 align:start position:0%
+in the world today http is the protocol
+that<00:00:19.520><c> is</c><00:00:19.680><c> used</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+that is used
+ 
+
+00:00:20.160 --> 00:00:23.189 align:start position:0%
+that is used
+for<00:00:20.400><c> viewing</c><00:00:20.880><c> web</c><00:00:21.119><c> pages</c><00:00:21.760><c> on</c><00:00:21.920><c> the</c><00:00:22.160><c> internet</c><00:00:23.039><c> so</c>
+
+00:00:23.189 --> 00:00:23.199 align:start position:0%
+for viewing web pages on the internet so
+ 
+
+00:00:23.199 --> 00:00:25.429 align:start position:0%
+for viewing web pages on the internet so
+when<00:00:23.359><c> you</c><00:00:23.600><c> type</c><00:00:23.840><c> in</c><00:00:24.080><c> a</c><00:00:24.320><c> web</c><00:00:24.640><c> address</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+when you type in a web address
+ 
+
+00:00:25.439 --> 00:00:29.109 align:start position:0%
+when you type in a web address
+like<00:00:25.760><c> google.com</c><00:00:27.119><c> you'll</c><00:00:27.359><c> notice</c><00:00:27.760><c> that</c><00:00:28.080><c> http</c>
+
+00:00:29.109 --> 00:00:29.119 align:start position:0%
+like google.com you'll notice that http
+ 
+
+00:00:29.119 --> 00:00:30.790 align:start position:0%
+like google.com you'll notice that http
+is<00:00:29.359><c> automatically</c><00:00:30.240><c> added</c>
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+is automatically added
+ 
+
+00:00:30.800 --> 00:00:33.350 align:start position:0%
+is automatically added
+at<00:00:30.960><c> the</c><00:00:31.119><c> beginning</c><00:00:31.840><c> of</c><00:00:31.920><c> the</c><00:00:32.079><c> web</c><00:00:32.399><c> address</c><00:00:33.200><c> and</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+at the beginning of the web address and
+ 
+
+00:00:33.360 --> 00:00:34.950 align:start position:0%
+at the beginning of the web address and
+this<00:00:33.600><c> indicates</c><00:00:34.079><c> that</c><00:00:34.239><c> you</c><00:00:34.480><c> are</c><00:00:34.640><c> now</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+this indicates that you are now
+ 
+
+00:00:34.960 --> 00:00:38.950 align:start position:0%
+this indicates that you are now
+using<00:00:35.440><c> http</c><00:00:36.559><c> to</c><00:00:36.800><c> retrieve</c><00:00:37.520><c> this</c><00:00:37.760><c> web</c><00:00:38.000><c> page</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+using http to retrieve this web page
+ 
+
+00:00:38.960 --> 00:00:42.229 align:start position:0%
+using http to retrieve this web page
+now<00:00:39.200><c> in</c><00:00:39.360><c> standard</c><00:00:39.840><c> http</c><00:00:40.960><c> all</c><00:00:41.200><c> the</c><00:00:41.440><c> information</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+now in standard http all the information
+ 
+
+00:00:42.239 --> 00:00:45.029 align:start position:0%
+now in standard http all the information
+is<00:00:42.480><c> sent</c><00:00:42.879><c> in</c><00:00:43.120><c> clear</c><00:00:43.440><c> text</c><00:00:44.239><c> so</c><00:00:44.640><c> all</c><00:00:44.800><c> the</c>
+
+00:00:45.029 --> 00:00:45.039 align:start position:0%
+is sent in clear text so all the
+ 
+
+00:00:45.039 --> 00:00:47.110 align:start position:0%
+is sent in clear text so all the
+information<00:00:45.600><c> that</c><00:00:45.760><c> is</c><00:00:45.920><c> exchanged</c><00:00:46.640><c> between</c>
+
+00:00:47.110 --> 00:00:47.120 align:start position:0%
+information that is exchanged between
+ 
+
+00:00:47.120 --> 00:00:48.229 align:start position:0%
+information that is exchanged between
+your<00:00:47.440><c> computer</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+your computer
+ 
+
+00:00:48.239 --> 00:00:51.029 align:start position:0%
+your computer
+and<00:00:48.399><c> that</c><00:00:48.800><c> web</c><00:00:49.039><c> server</c><00:00:49.760><c> which</c><00:00:50.079><c> includes</c><00:00:50.719><c> any</c>
+
+00:00:51.029 --> 00:00:51.039 align:start position:0%
+and that web server which includes any
+ 
+
+00:00:51.039 --> 00:00:52.310 align:start position:0%
+and that web server which includes any
+text<00:00:51.360><c> that</c><00:00:51.600><c> you</c><00:00:51.840><c> type</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+text that you type
+ 
+
+00:00:52.320 --> 00:00:54.709 align:start position:0%
+text that you type
+on<00:00:52.480><c> that</c><00:00:52.719><c> website</c><00:00:53.680><c> that</c><00:00:53.920><c> information</c><00:00:54.559><c> is</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+on that website that information is
+ 
+
+00:00:54.719 --> 00:00:55.510 align:start position:0%
+on that website that information is
+transferred
+
+00:00:55.510 --> 00:00:55.520 align:start position:0%
+transferred
+ 
+
+00:00:55.520 --> 00:00:58.069 align:start position:0%
+transferred
+over<00:00:55.840><c> the</c><00:00:56.079><c> public</c><00:00:56.640><c> internet</c><00:00:57.520><c> and</c><00:00:57.600><c> because</c>
+
+00:00:58.069 --> 00:00:58.079 align:start position:0%
+over the public internet and because
+ 
+
+00:00:58.079 --> 00:01:00.310 align:start position:0%
+over the public internet and because
+it's<00:00:58.399><c> transferred</c><00:00:59.120><c> in</c><00:00:59.359><c> clear</c><00:00:59.760><c> text</c>
+
+00:01:00.310 --> 00:01:00.320 align:start position:0%
+it's transferred in clear text
+ 
+
+00:01:00.320 --> 00:01:03.110 align:start position:0%
+it's transferred in clear text
+it's<00:01:00.640><c> vulnerable</c><00:01:01.359><c> to</c><00:01:01.600><c> anybody</c><00:01:02.079><c> who</c><00:01:02.320><c> wants</c><00:01:02.719><c> it</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+it's vulnerable to anybody who wants it
+ 
+
+00:01:03.120 --> 00:01:04.549 align:start position:0%
+it's vulnerable to anybody who wants it
+such<00:01:03.440><c> as</c><00:01:03.600><c> hackers</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+such as hackers
+ 
+
+00:01:04.559 --> 00:01:06.310 align:start position:0%
+such as hackers
+now<00:01:04.799><c> normally</c><00:01:05.199><c> this</c><00:01:05.439><c> would</c><00:01:05.600><c> not</c><00:01:05.760><c> be</c><00:01:06.000><c> a</c><00:01:06.080><c> big</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+now normally this would not be a big
+ 
+
+00:01:06.320 --> 00:01:08.630 align:start position:0%
+now normally this would not be a big
+deal<00:01:06.880><c> if</c><00:01:07.040><c> you</c><00:01:07.200><c> were</c><00:01:07.360><c> just</c><00:01:07.600><c> browsing</c><00:01:08.159><c> regular</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+deal if you were just browsing regular
+ 
+
+00:01:08.640 --> 00:01:09.429 align:start position:0%
+deal if you were just browsing regular
+websites
+
+00:01:09.429 --> 00:01:09.439 align:start position:0%
+websites
+ 
+
+00:01:09.439 --> 00:01:12.070 align:start position:0%
+websites
+and<00:01:09.600><c> no</c><00:01:09.920><c> sensitive</c><00:01:10.479><c> data</c><00:01:10.880><c> such</c><00:01:11.119><c> as</c><00:01:11.360><c> passwords</c>
+
+00:01:12.070 --> 00:01:12.080 align:start position:0%
+and no sensitive data such as passwords
+ 
+
+00:01:12.080 --> 00:01:13.750 align:start position:0%
+and no sensitive data such as passwords
+or<00:01:12.400><c> credit</c><00:01:12.720><c> card</c><00:01:13.040><c> information</c>
+
+00:01:13.750 --> 00:01:13.760 align:start position:0%
+or credit card information
+ 
+
+00:01:13.760 --> 00:01:16.310 align:start position:0%
+or credit card information
+are<00:01:14.000><c> being</c><00:01:14.400><c> used</c><00:01:15.200><c> but</c><00:01:15.360><c> if</c><00:01:15.520><c> you</c><00:01:15.680><c> were</c><00:01:15.840><c> to</c><00:01:16.000><c> type</c>
+
+00:01:16.310 --> 00:01:16.320 align:start position:0%
+are being used but if you were to type
+ 
+
+00:01:16.320 --> 00:01:18.469 align:start position:0%
+are being used but if you were to type
+in<00:01:16.560><c> personal</c><00:01:17.200><c> sensitive</c><00:01:17.759><c> data</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+in personal sensitive data
+ 
+
+00:01:18.479 --> 00:01:21.270 align:start position:0%
+in personal sensitive data
+like<00:01:18.720><c> your</c><00:01:18.960><c> name</c><00:01:19.600><c> address</c><00:01:20.400><c> phone</c><00:01:20.720><c> number</c>
+
+00:01:21.270 --> 00:01:21.280 align:start position:0%
+like your name address phone number
+ 
+
+00:01:21.280 --> 00:01:22.310 align:start position:0%
+like your name address phone number
+passwords<00:01:22.000><c> or</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+passwords or
+ 
+
+00:01:22.320 --> 00:01:24.630 align:start position:0%
+passwords or
+credit<00:01:22.560><c> card</c><00:01:22.880><c> information</c><00:01:23.920><c> that</c><00:01:24.159><c> sensitive</c>
+
+00:01:24.630 --> 00:01:24.640 align:start position:0%
+credit card information that sensitive
+ 
+
+00:01:24.640 --> 00:01:25.990 align:start position:0%
+credit card information that sensitive
+data<00:01:25.119><c> goes</c><00:01:25.439><c> from</c><00:01:25.680><c> your</c>
+
+00:01:25.990 --> 00:01:26.000 align:start position:0%
+data goes from your
+ 
+
+00:01:26.000 --> 00:01:28.149 align:start position:0%
+data goes from your
+computer<00:01:26.880><c> and</c><00:01:27.040><c> then</c><00:01:27.280><c> it</c><00:01:27.360><c> has</c><00:01:27.520><c> to</c><00:01:27.759><c> travel</c>
+
+00:01:28.149 --> 00:01:28.159 align:start position:0%
+computer and then it has to travel
+ 
+
+00:01:28.159 --> 00:01:30.149 align:start position:0%
+computer and then it has to travel
+across<00:01:28.640><c> the</c><00:01:28.960><c> public</c><00:01:29.439><c> internet</c>
+
+00:01:30.149 --> 00:01:30.159 align:start position:0%
+across the public internet
+ 
+
+00:01:30.159 --> 00:01:32.870 align:start position:0%
+across the public internet
+to<00:01:30.400><c> get</c><00:01:30.640><c> to</c><00:01:30.799><c> that</c><00:01:31.119><c> web</c><00:01:31.360><c> server</c><00:01:32.159><c> and</c><00:01:32.320><c> this</c><00:01:32.560><c> makes</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+to get to that web server and this makes
+ 
+
+00:01:32.880 --> 00:01:33.670 align:start position:0%
+to get to that web server and this makes
+your<00:01:33.200><c> data</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+your data
+ 
+
+00:01:33.680 --> 00:01:35.749 align:start position:0%
+your data
+vulnerable<00:01:34.640><c> because</c><00:01:34.960><c> a</c><00:01:35.040><c> hacker</c><00:01:35.520><c> that's</c>
+
+00:01:35.749 --> 00:01:35.759 align:start position:0%
+vulnerable because a hacker that's
+ 
+
+00:01:35.759 --> 00:01:37.350 align:start position:0%
+vulnerable because a hacker that's
+somewhere<00:01:36.320><c> on</c><00:01:36.400><c> the</c><00:01:36.640><c> internet</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+somewhere on the internet
+ 
+
+00:01:37.360 --> 00:01:39.670 align:start position:0%
+somewhere on the internet
+can<00:01:37.600><c> listen</c><00:01:38.000><c> in</c><00:01:38.320><c> as</c><00:01:38.560><c> that</c><00:01:38.799><c> data</c><00:01:39.119><c> is</c><00:01:39.280><c> being</c>
+
+00:01:39.670 --> 00:01:39.680 align:start position:0%
+can listen in as that data is being
+ 
+
+00:01:39.680 --> 00:01:40.550 align:start position:0%
+can listen in as that data is being
+transferred
+
+00:01:40.550 --> 00:01:40.560 align:start position:0%
+transferred
+ 
+
+00:01:40.560 --> 00:01:43.109 align:start position:0%
+transferred
+and<00:01:40.720><c> steal</c><00:01:41.119><c> your</c><00:01:41.360><c> information</c><00:01:42.479><c> so</c><00:01:42.640><c> as</c><00:01:42.799><c> you</c><00:01:42.960><c> can</c>
+
+00:01:43.109 --> 00:01:43.119 align:start position:0%
+and steal your information so as you can
+ 
+
+00:01:43.119 --> 00:01:44.950 align:start position:0%
+and steal your information so as you can
+see<00:01:43.439><c> this</c><00:01:43.759><c> hacker</c><00:01:44.159><c> is</c><00:01:44.320><c> stealing</c>
+
+00:01:44.950 --> 00:01:44.960 align:start position:0%
+see this hacker is stealing
+ 
+
+00:01:44.960 --> 00:01:47.510 align:start position:0%
+see this hacker is stealing
+personal<00:01:45.520><c> information</c><00:01:46.399><c> as</c><00:01:46.640><c> it's</c><00:01:46.880><c> traveling</c>
+
+00:01:47.510 --> 00:01:47.520 align:start position:0%
+personal information as it's traveling
+ 
+
+00:01:47.520 --> 00:01:48.789 align:start position:0%
+personal information as it's traveling
+over<00:01:47.759><c> the</c><00:01:48.000><c> internet</c>
+
+00:01:48.789 --> 00:01:48.799 align:start position:0%
+over the internet
+ 
+
+00:01:48.799 --> 00:01:51.830 align:start position:0%
+over the internet
+so<00:01:49.040><c> he</c><00:01:49.280><c> has</c><00:01:49.600><c> a</c><00:01:49.759><c> name</c><00:01:50.640><c> phone</c><00:01:50.960><c> number</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+so he has a name phone number
+ 
+
+00:01:51.840 --> 00:01:54.950 align:start position:0%
+so he has a name phone number
+address<00:01:52.799><c> credit</c><00:01:53.119><c> card</c><00:01:53.360><c> numbers</c><00:01:53.840><c> and</c><00:01:54.000><c> so</c><00:01:54.240><c> on</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+address credit card numbers and so on
+ 
+
+00:01:54.960 --> 00:01:58.389 align:start position:0%
+address credit card numbers and so on
+so<00:01:55.200><c> this</c><00:01:55.600><c> is</c><00:01:55.759><c> a</c><00:01:56.000><c> problem</c><00:01:56.640><c> as</c><00:01:56.880><c> far</c><00:01:57.040><c> as</c><00:01:57.200><c> security</c>
+
+00:01:58.389 --> 00:01:58.399 align:start position:0%
+so this is a problem as far as security
+ 
+
+00:01:58.399 --> 00:02:02.030 align:start position:0%
+so this is a problem as far as security
+and<00:01:58.560><c> this</c><00:01:58.799><c> is</c><00:01:58.960><c> why</c><00:01:59.640><c> https</c><00:02:00.640><c> was</c><00:02:00.880><c> developed</c>
+
+00:02:02.030 --> 00:02:02.040 align:start position:0%
+and this is why https was developed
+ 
+
+00:02:02.040 --> 00:02:05.190 align:start position:0%
+and this is why https was developed
+https<00:02:03.200><c> stands</c><00:02:03.520><c> for</c><00:02:03.759><c> secure</c><00:02:04.479><c> hypertext</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+https stands for secure hypertext
+ 
+
+00:02:05.200 --> 00:02:06.630 align:start position:0%
+https stands for secure hypertext
+transfer<00:02:05.759><c> protocol</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+transfer protocol
+ 
+
+00:02:06.640 --> 00:02:10.150 align:start position:0%
+transfer protocol
+and<00:02:06.799><c> this</c><00:02:07.040><c> is</c><00:02:07.280><c> http</c><00:02:08.319><c> with</c><00:02:08.560><c> a</c><00:02:08.720><c> security</c><00:02:09.360><c> feature</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+and this is http with a security feature
+ 
+
+00:02:10.160 --> 00:02:13.350 align:start position:0%
+and this is http with a security feature
+secure<00:02:10.720><c> http</c><00:02:11.840><c> encrypts</c><00:02:12.319><c> the</c><00:02:12.560><c> data</c><00:02:12.959><c> that</c><00:02:13.200><c> is</c>
+
+00:02:13.350 --> 00:02:13.360 align:start position:0%
+secure http encrypts the data that is
+ 
+
+00:02:13.360 --> 00:02:14.550 align:start position:0%
+secure http encrypts the data that is
+being<00:02:13.680><c> retrieved</c>
+
+00:02:14.550 --> 00:02:14.560 align:start position:0%
+being retrieved
+ 
+
+00:02:14.560 --> 00:02:17.910 align:start position:0%
+being retrieved
+by<00:02:14.879><c> http</c><00:02:16.239><c> it</c><00:02:16.480><c> ensures</c><00:02:16.959><c> that</c><00:02:17.280><c> all</c><00:02:17.440><c> the</c><00:02:17.680><c> data</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+by http it ensures that all the data
+ 
+
+00:02:17.920 --> 00:02:19.430 align:start position:0%
+by http it ensures that all the data
+that's<00:02:18.239><c> being</c><00:02:18.640><c> transferred</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+that's being transferred
+ 
+
+00:02:19.440 --> 00:02:22.150 align:start position:0%
+that's being transferred
+over<00:02:19.760><c> the</c><00:02:20.000><c> internet</c><00:02:20.720><c> between</c><00:02:21.200><c> computers</c><00:02:21.920><c> and</c>
+
+00:02:22.150 --> 00:02:22.160 align:start position:0%
+over the internet between computers and
+ 
+
+00:02:22.160 --> 00:02:22.949 align:start position:0%
+over the internet between computers and
+servers
+
+00:02:22.949 --> 00:02:22.959 align:start position:0%
+servers
+ 
+
+00:02:22.959 --> 00:02:26.309 align:start position:0%
+servers
+is<00:02:23.120><c> secure</c><00:02:24.080><c> by</c><00:02:24.319><c> making</c><00:02:24.640><c> the</c><00:02:24.879><c> data</c><00:02:25.440><c> impossible</c>
+
+00:02:26.309 --> 00:02:26.319 align:start position:0%
+is secure by making the data impossible
+ 
+
+00:02:26.319 --> 00:02:27.190 align:start position:0%
+is secure by making the data impossible
+to<00:02:26.560><c> read</c>
+
+00:02:27.190 --> 00:02:27.200 align:start position:0%
+to read
+ 
+
+00:02:27.200 --> 00:02:29.430 align:start position:0%
+to read
+and<00:02:27.440><c> it</c><00:02:27.520><c> does</c><00:02:27.760><c> this</c><00:02:28.000><c> by</c><00:02:28.239><c> using</c><00:02:28.640><c> encryption</c>
+
+00:02:29.430 --> 00:02:29.440 align:start position:0%
+and it does this by using encryption
+ 
+
+00:02:29.440 --> 00:02:30.309 align:start position:0%
+and it does this by using encryption
+algorithms
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+algorithms
+ 
+
+00:02:30.319 --> 00:02:32.550 align:start position:0%
+algorithms
+to<00:02:30.480><c> scramble</c><00:02:30.959><c> the</c><00:02:31.200><c> data</c><00:02:31.680><c> that's</c><00:02:32.080><c> being</c>
+
+00:02:32.550 --> 00:02:32.560 align:start position:0%
+to scramble the data that's being
+ 
+
+00:02:32.560 --> 00:02:33.910 align:start position:0%
+to scramble the data that's being
+transferred
+
+00:02:33.910 --> 00:02:33.920 align:start position:0%
+transferred
+ 
+
+00:02:33.920 --> 00:02:35.750 align:start position:0%
+transferred
+so<00:02:34.160><c> for</c><00:02:34.319><c> example</c><00:02:34.720><c> if</c><00:02:34.879><c> you</c><00:02:34.959><c> were</c><00:02:35.120><c> to</c><00:02:35.280><c> go</c><00:02:35.440><c> to</c><00:02:35.599><c> a</c>
+
+00:02:35.750 --> 00:02:35.760 align:start position:0%
+so for example if you were to go to a
+ 
+
+00:02:35.760 --> 00:02:38.150 align:start position:0%
+so for example if you were to go to a
+website<00:02:36.480><c> that</c><00:02:36.640><c> requires</c><00:02:37.280><c> you</c><00:02:37.440><c> to</c><00:02:37.680><c> enter</c>
+
+00:02:38.150 --> 00:02:38.160 align:start position:0%
+website that requires you to enter
+ 
+
+00:02:38.160 --> 00:02:41.030 align:start position:0%
+website that requires you to enter
+personal<00:02:38.800><c> information</c><00:02:39.840><c> such</c><00:02:40.080><c> as</c><00:02:40.319><c> passwords</c>
+
+00:02:41.030 --> 00:02:41.040 align:start position:0%
+personal information such as passwords
+ 
+
+00:02:41.040 --> 00:02:41.350 align:start position:0%
+personal information such as passwords
+or
+
+00:02:41.350 --> 00:02:41.360 align:start position:0%
+or
+ 
+
+00:02:41.360 --> 00:02:43.589 align:start position:0%
+or
+credit<00:02:41.599><c> card</c><00:02:41.920><c> numbers</c><00:02:42.560><c> you</c><00:02:42.800><c> will</c><00:02:42.959><c> notice</c><00:02:43.280><c> that</c>
+
+00:02:43.589 --> 00:02:43.599 align:start position:0%
+credit card numbers you will notice that
+ 
+
+00:02:43.599 --> 00:02:46.550 align:start position:0%
+credit card numbers you will notice that
+an<00:02:43.840><c> s</c><00:02:44.239><c> will</c><00:02:44.480><c> be</c><00:02:44.720><c> added</c><00:02:45.040><c> to</c><00:02:45.200><c> the</c><00:02:45.440><c> http</c>
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+an s will be added to the http
+ 
+
+00:02:46.560 --> 00:02:49.670 align:start position:0%
+an s will be added to the http
+in<00:02:46.720><c> the</c><00:02:46.879><c> web</c><00:02:47.280><c> address</c><00:02:48.160><c> and</c><00:02:48.400><c> this</c><00:02:48.720><c> s</c><00:02:49.120><c> indicates</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+in the web address and this s indicates
+ 
+
+00:02:49.680 --> 00:02:50.630 align:start position:0%
+in the web address and this s indicates
+that<00:02:49.920><c> you</c><00:02:50.160><c> are</c><00:02:50.319><c> now</c>
+
+00:02:50.630 --> 00:02:50.640 align:start position:0%
+that you are now
+ 
+
+00:02:50.640 --> 00:02:54.070 align:start position:0%
+that you are now
+using<00:02:51.120><c> secure</c><00:02:51.840><c> http</c><00:02:52.959><c> and</c><00:02:53.200><c> have</c><00:02:53.519><c> entered</c><00:02:53.920><c> a</c>
+
+00:02:54.070 --> 00:02:54.080 align:start position:0%
+using secure http and have entered a
+ 
+
+00:02:54.080 --> 00:02:55.430 align:start position:0%
+using secure http and have entered a
+secure<00:02:54.640><c> website</c>
+
+00:02:55.430 --> 00:02:55.440 align:start position:0%
+secure website
+ 
+
+00:02:55.440 --> 00:02:57.509 align:start position:0%
+secure website
+where<00:02:55.680><c> sensitive</c><00:02:56.239><c> data</c><00:02:56.640><c> is</c><00:02:56.879><c> going</c><00:02:57.120><c> to</c><00:02:57.280><c> be</c>
+
+00:02:57.509 --> 00:02:57.519 align:start position:0%
+where sensitive data is going to be
+ 
+
+00:02:57.519 --> 00:02:59.110 align:start position:0%
+where sensitive data is going to be
+passed<00:02:58.159><c> and</c><00:02:58.319><c> that</c><00:02:58.640><c> data</c>
+
+00:02:59.110 --> 00:02:59.120 align:start position:0%
+passed and that data
+ 
+
+00:02:59.120 --> 00:03:01.830 align:start position:0%
+passed and that data
+is<00:02:59.280><c> going</c><00:02:59.599><c> to</c><00:02:59.760><c> be</c><00:03:00.000><c> protected</c><00:03:01.040><c> and</c><00:03:01.280><c> in</c><00:03:01.440><c> addition</c>
+
+00:03:01.830 --> 00:03:01.840 align:start position:0%
+is going to be protected and in addition
+ 
+
+00:03:01.840 --> 00:03:02.550 align:start position:0%
+is going to be protected and in addition
+to<00:03:02.000><c> the</c><00:03:02.239><c> s</c>
+
+00:03:02.550 --> 00:03:02.560 align:start position:0%
+to the s
+ 
+
+00:03:02.560 --> 00:03:05.270 align:start position:0%
+to the s
+being<00:03:03.040><c> added</c><00:03:03.680><c> a</c><00:03:03.840><c> lot</c><00:03:04.080><c> of</c><00:03:04.239><c> web</c><00:03:04.480><c> browsers</c><00:03:04.959><c> will</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+being added a lot of web browsers will
+ 
+
+00:03:05.280 --> 00:03:05.750 align:start position:0%
+being added a lot of web browsers will
+also
+
+00:03:05.750 --> 00:03:05.760 align:start position:0%
+also
+ 
+
+00:03:05.760 --> 00:03:08.710 align:start position:0%
+also
+show<00:03:06.080><c> a</c><00:03:06.400><c> padlock</c><00:03:07.040><c> symbol</c><00:03:07.599><c> in</c><00:03:07.760><c> the</c><00:03:07.920><c> address</c><00:03:08.400><c> bar</c>
+
+00:03:08.710 --> 00:03:08.720 align:start position:0%
+show a padlock symbol in the address bar
+ 
+
+00:03:08.720 --> 00:03:10.390 align:start position:0%
+show a padlock symbol in the address bar
+to<00:03:08.959><c> indicate</c><00:03:09.519><c> that</c><00:03:09.760><c> secure</c>
+
+00:03:10.390 --> 00:03:10.400 align:start position:0%
+to indicate that secure
+ 
+
+00:03:10.400 --> 00:03:13.430 align:start position:0%
+to indicate that secure
+http<00:03:11.519><c> is</c><00:03:11.680><c> being</c><00:03:12.080><c> used</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+http is being used
+ 
+
+00:03:13.440 --> 00:03:17.110 align:start position:0%
+http is being used
+so<00:03:13.680><c> by</c><00:03:13.920><c> using</c><00:03:14.319><c> secure</c><00:03:14.959><c> http</c><00:03:16.239><c> all</c><00:03:16.480><c> the</c><00:03:16.640><c> data</c>
+
+00:03:17.110 --> 00:03:17.120 align:start position:0%
+so by using secure http all the data
+ 
+
+00:03:17.120 --> 00:03:19.670 align:start position:0%
+so by using secure http all the data
+which<00:03:17.360><c> includes</c><00:03:18.080><c> anything</c><00:03:18.480><c> that</c><00:03:18.640><c> you</c><00:03:18.879><c> type</c><00:03:19.440><c> is</c>
+
+00:03:19.670 --> 00:03:19.680 align:start position:0%
+which includes anything that you type is
+ 
+
+00:03:19.680 --> 00:03:20.470 align:start position:0%
+which includes anything that you type is
+no<00:03:19.920><c> longer</c>
+
+00:03:20.470 --> 00:03:20.480 align:start position:0%
+no longer
+ 
+
+00:03:20.480 --> 00:03:23.430 align:start position:0%
+no longer
+sent<00:03:20.800><c> in</c><00:03:21.040><c> clear</c><00:03:21.360><c> text</c><00:03:22.080><c> it's</c><00:03:22.319><c> scrambled</c><00:03:23.040><c> in</c><00:03:23.200><c> an</c>
+
+00:03:23.430 --> 00:03:23.440 align:start position:0%
+sent in clear text it's scrambled in an
+ 
+
+00:03:23.440 --> 00:03:24.630 align:start position:0%
+sent in clear text it's scrambled in an
+unreadable<00:03:24.159><c> form</c>
+
+00:03:24.630 --> 00:03:24.640 align:start position:0%
+unreadable form
+ 
+
+00:03:24.640 --> 00:03:27.589 align:start position:0%
+unreadable form
+as<00:03:24.879><c> it</c><00:03:25.040><c> travels</c><00:03:25.680><c> across</c><00:03:26.159><c> the</c><00:03:26.400><c> internet</c><00:03:27.200><c> so</c><00:03:27.440><c> if</c>
+
+00:03:27.589 --> 00:03:27.599 align:start position:0%
+as it travels across the internet so if
+ 
+
+00:03:27.599 --> 00:03:29.350 align:start position:0%
+as it travels across the internet so if
+a<00:03:27.680><c> hacker</c><00:03:28.000><c> were</c><00:03:28.159><c> to</c><00:03:28.319><c> try</c><00:03:28.560><c> and</c><00:03:28.720><c> steal</c><00:03:29.120><c> your</c>
+
+00:03:29.350 --> 00:03:29.360 align:start position:0%
+a hacker were to try and steal your
+ 
+
+00:03:29.360 --> 00:03:30.229 align:start position:0%
+a hacker were to try and steal your
+information
+
+00:03:30.229 --> 00:03:30.239 align:start position:0%
+information
+ 
+
+00:03:30.239 --> 00:03:32.949 align:start position:0%
+information
+he<00:03:30.400><c> would</c><00:03:30.560><c> get</c><00:03:30.799><c> a</c><00:03:30.959><c> bunch</c><00:03:31.280><c> of</c><00:03:31.519><c> meaningless</c><00:03:32.239><c> data</c>
+
+00:03:32.949 --> 00:03:32.959 align:start position:0%
+he would get a bunch of meaningless data
+ 
+
+00:03:32.959 --> 00:03:34.789 align:start position:0%
+he would get a bunch of meaningless data
+because<00:03:33.280><c> the</c><00:03:33.440><c> data</c><00:03:33.840><c> is</c><00:03:34.000><c> encrypted</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+because the data is encrypted
+ 
+
+00:03:34.799 --> 00:03:36.390 align:start position:0%
+because the data is encrypted
+and<00:03:34.879><c> the</c><00:03:35.040><c> hacker</c><00:03:35.440><c> would</c><00:03:35.599><c> not</c><00:03:35.760><c> be</c><00:03:36.000><c> able</c><00:03:36.239><c> to</c>
+
+00:03:36.390 --> 00:03:36.400 align:start position:0%
+and the hacker would not be able to
+ 
+
+00:03:36.400 --> 00:03:39.190 align:start position:0%
+and the hacker would not be able to
+crack<00:03:36.720><c> the</c><00:03:36.959><c> encryption</c><00:03:37.680><c> to</c><00:03:38.000><c> unscramble</c><00:03:38.959><c> the</c>
+
+00:03:39.190 --> 00:03:39.200 align:start position:0%
+crack the encryption to unscramble the
+ 
+
+00:03:39.200 --> 00:03:42.149 align:start position:0%
+crack the encryption to unscramble the
+data
+
+00:03:42.149 --> 00:03:42.159 align:start position:0%
+ 
+ 
+
+00:03:42.159 --> 00:03:45.190 align:start position:0%
+ 
+now<00:03:42.400><c> secure</c><00:03:42.959><c> http</c><00:03:44.000><c> protects</c><00:03:44.400><c> the</c><00:03:44.560><c> data</c><00:03:44.959><c> by</c>
+
+00:03:45.190 --> 00:03:45.200 align:start position:0%
+now secure http protects the data by
+ 
+
+00:03:45.200 --> 00:03:45.990 align:start position:0%
+now secure http protects the data by
+using<00:03:45.599><c> one</c>
+
+00:03:45.990 --> 00:03:46.000 align:start position:0%
+using one
+ 
+
+00:03:46.000 --> 00:03:48.229 align:start position:0%
+using one
+of<00:03:46.239><c> two</c><00:03:46.640><c> protocols</c><00:03:47.599><c> and</c><00:03:47.760><c> one</c><00:03:48.000><c> of</c><00:03:48.080><c> these</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+of two protocols and one of these
+ 
+
+00:03:48.239 --> 00:03:49.030 align:start position:0%
+of two protocols and one of these
+protocols
+
+00:03:49.030 --> 00:03:49.040 align:start position:0%
+protocols
+ 
+
+00:03:49.040 --> 00:03:53.190 align:start position:0%
+protocols
+is<00:03:49.360><c> ssl</c><00:03:50.400><c> ssl</c><00:03:51.200><c> or</c><00:03:51.440><c> secure</c><00:03:52.080><c> sockets</c><00:03:52.640><c> layer</c>
+
+00:03:53.190 --> 00:03:53.200 align:start position:0%
+is ssl ssl or secure sockets layer
+ 
+
+00:03:53.200 --> 00:03:55.429 align:start position:0%
+is ssl ssl or secure sockets layer
+is<00:03:53.360><c> a</c><00:03:53.519><c> protocol</c><00:03:54.000><c> that's</c><00:03:54.319><c> used</c><00:03:54.799><c> to</c><00:03:55.040><c> ensure</c>
+
+00:03:55.429 --> 00:03:55.439 align:start position:0%
+is a protocol that's used to ensure
+ 
+
+00:03:55.439 --> 00:03:56.309 align:start position:0%
+is a protocol that's used to ensure
+security
+
+00:03:56.309 --> 00:03:56.319 align:start position:0%
+security
+ 
+
+00:03:56.319 --> 00:03:59.030 align:start position:0%
+security
+on<00:03:56.480><c> the</c><00:03:56.720><c> internet</c><00:03:57.519><c> it</c><00:03:57.760><c> uses</c><00:03:58.239><c> public</c><00:03:58.720><c> key</c>
+
+00:03:59.030 --> 00:03:59.040 align:start position:0%
+on the internet it uses public key
+ 
+
+00:03:59.040 --> 00:03:59.990 align:start position:0%
+on the internet it uses public key
+encryption<00:03:59.760><c> to</c>
+
+00:03:59.990 --> 00:04:00.000 align:start position:0%
+encryption to
+ 
+
+00:04:00.000 --> 00:04:03.589 align:start position:0%
+encryption to
+secure<00:04:00.560><c> data</c><00:04:01.439><c> so</c><00:04:01.680><c> basically</c><00:04:02.239><c> this</c><00:04:02.480><c> is</c><00:04:02.640><c> how</c><00:04:02.959><c> ssl</c>
+
+00:04:03.589 --> 00:04:03.599 align:start position:0%
+secure data so basically this is how ssl
+ 
+
+00:04:03.599 --> 00:04:04.470 align:start position:0%
+secure data so basically this is how ssl
+works
+
+00:04:04.470 --> 00:04:04.480 align:start position:0%
+works
+ 
+
+00:04:04.480 --> 00:04:06.949 align:start position:0%
+works
+so<00:04:04.640><c> when</c><00:04:04.879><c> a</c><00:04:04.959><c> computer</c><00:04:05.439><c> connects</c><00:04:05.840><c> to</c><00:04:06.080><c> a</c><00:04:06.239><c> website</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+so when a computer connects to a website
+ 
+
+00:04:06.959 --> 00:04:07.750 align:start position:0%
+so when a computer connects to a website
+that's<00:04:07.280><c> using</c>
+
+00:04:07.750 --> 00:04:07.760 align:start position:0%
+that's using
+ 
+
+00:04:07.760 --> 00:04:11.110 align:start position:0%
+that's using
+ssl<00:04:08.799><c> the</c><00:04:08.959><c> computer's</c><00:04:09.599><c> web</c><00:04:09.840><c> browser</c><00:04:10.400><c> will</c><00:04:10.720><c> ask</c>
+
+00:04:11.110 --> 00:04:11.120 align:start position:0%
+ssl the computer's web browser will ask
+ 
+
+00:04:11.120 --> 00:04:14.229 align:start position:0%
+ssl the computer's web browser will ask
+the<00:04:11.360><c> website</c><00:04:12.000><c> to</c><00:04:12.239><c> identify</c><00:04:12.879><c> itself</c><00:04:13.840><c> then</c><00:04:14.080><c> the</c>
+
+00:04:14.229 --> 00:04:14.239 align:start position:0%
+the website to identify itself then the
+ 
+
+00:04:14.239 --> 00:04:16.229 align:start position:0%
+the website to identify itself then the
+web<00:04:14.480><c> server</c><00:04:14.879><c> will</c><00:04:15.040><c> send</c><00:04:15.360><c> the</c><00:04:15.519><c> computer</c>
+
+00:04:16.229 --> 00:04:16.239 align:start position:0%
+web server will send the computer
+ 
+
+00:04:16.239 --> 00:04:19.270 align:start position:0%
+web server will send the computer
+a<00:04:16.479><c> copy</c><00:04:17.120><c> of</c><00:04:17.359><c> its</c><00:04:17.680><c> ssl</c><00:04:18.320><c> certificate</c>
+
+00:04:19.270 --> 00:04:19.280 align:start position:0%
+a copy of its ssl certificate
+ 
+
+00:04:19.280 --> 00:04:22.550 align:start position:0%
+a copy of its ssl certificate
+an<00:04:19.519><c> ssl</c><00:04:20.239><c> certificate</c><00:04:21.040><c> is</c><00:04:21.199><c> a</c><00:04:21.440><c> small</c><00:04:22.079><c> digital</c>
+
+00:04:22.550 --> 00:04:22.560 align:start position:0%
+an ssl certificate is a small digital
+ 
+
+00:04:22.560 --> 00:04:23.430 align:start position:0%
+an ssl certificate is a small digital
+certificate
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+certificate
+ 
+
+00:04:23.440 --> 00:04:25.510 align:start position:0%
+certificate
+that<00:04:23.680><c> is</c><00:04:23.840><c> used</c><00:04:24.160><c> to</c><00:04:24.479><c> authenticate</c><00:04:25.280><c> the</c>
+
+00:04:25.510 --> 00:04:25.520 align:start position:0%
+that is used to authenticate the
+ 
+
+00:04:25.520 --> 00:04:27.510 align:start position:0%
+that is used to authenticate the
+identity<00:04:26.320><c> of</c><00:04:26.479><c> a</c><00:04:26.560><c> website</c>
+
+00:04:27.510 --> 00:04:27.520 align:start position:0%
+identity of a website
+ 
+
+00:04:27.520 --> 00:04:29.909 align:start position:0%
+identity of a website
+basically<00:04:28.160><c> it's</c><00:04:28.400><c> used</c><00:04:28.800><c> to</c><00:04:28.960><c> let</c><00:04:29.199><c> your</c><00:04:29.360><c> computer</c>
+
+00:04:29.909 --> 00:04:29.919 align:start position:0%
+basically it's used to let your computer
+ 
+
+00:04:29.919 --> 00:04:32.230 align:start position:0%
+basically it's used to let your computer
+know<00:04:30.320><c> that</c><00:04:30.479><c> the</c><00:04:30.720><c> website</c><00:04:31.199><c> you're</c><00:04:31.520><c> visiting</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+know that the website you're visiting
+ 
+
+00:04:32.240 --> 00:04:34.710 align:start position:0%
+know that the website you're visiting
+is<00:04:32.479><c> trustworthy</c><00:04:33.600><c> so</c><00:04:33.759><c> then</c><00:04:34.000><c> the</c><00:04:34.160><c> computer's</c>
+
+00:04:34.710 --> 00:04:34.720 align:start position:0%
+is trustworthy so then the computer's
+ 
+
+00:04:34.720 --> 00:04:36.790 align:start position:0%
+is trustworthy so then the computer's
+browser<00:04:35.280><c> will</c><00:04:35.600><c> check</c><00:04:35.840><c> to</c><00:04:36.000><c> make</c><00:04:36.240><c> sure</c>
+
+00:04:36.790 --> 00:04:36.800 align:start position:0%
+browser will check to make sure
+ 
+
+00:04:36.800 --> 00:04:39.189 align:start position:0%
+browser will check to make sure
+that<00:04:37.040><c> it</c><00:04:37.280><c> trusts</c><00:04:37.600><c> the</c><00:04:37.759><c> certificate</c><00:04:38.720><c> and</c><00:04:38.880><c> if</c><00:04:39.040><c> it</c>
+
+00:04:39.189 --> 00:04:39.199 align:start position:0%
+that it trusts the certificate and if it
+ 
+
+00:04:39.199 --> 00:04:39.990 align:start position:0%
+that it trusts the certificate and if it
+does<00:04:39.520><c> it</c><00:04:39.680><c> will</c>
+
+00:04:39.990 --> 00:04:40.000 align:start position:0%
+does it will
+ 
+
+00:04:40.000 --> 00:04:42.629 align:start position:0%
+does it will
+send<00:04:40.240><c> a</c><00:04:40.400><c> message</c><00:04:40.880><c> to</c><00:04:41.040><c> the</c><00:04:41.199><c> web</c><00:04:41.440><c> server</c><00:04:42.320><c> then</c>
+
+00:04:42.629 --> 00:04:42.639 align:start position:0%
+send a message to the web server then
+ 
+
+00:04:42.639 --> 00:04:45.110 align:start position:0%
+send a message to the web server then
+after<00:04:42.960><c> the</c><00:04:43.199><c> web</c><00:04:43.440><c> server</c><00:04:43.759><c> will</c><00:04:44.000><c> respond</c><00:04:44.639><c> back</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+after the web server will respond back
+ 
+
+00:04:45.120 --> 00:04:47.830 align:start position:0%
+after the web server will respond back
+with<00:04:45.360><c> an</c><00:04:45.520><c> acknowledgement</c><00:04:46.639><c> so</c><00:04:46.960><c> an</c><00:04:47.120><c> ssl</c>
+
+00:04:47.830 --> 00:04:47.840 align:start position:0%
+with an acknowledgement so an ssl
+ 
+
+00:04:47.840 --> 00:04:48.469 align:start position:0%
+with an acknowledgement so an ssl
+session
+
+00:04:48.469 --> 00:04:48.479 align:start position:0%
+session
+ 
+
+00:04:48.479 --> 00:04:51.189 align:start position:0%
+session
+can<00:04:48.720><c> proceed</c><00:04:49.759><c> then</c><00:04:50.080><c> after</c><00:04:50.400><c> all</c><00:04:50.639><c> these</c><00:04:50.800><c> steps</c>
+
+00:04:51.189 --> 00:04:51.199 align:start position:0%
+can proceed then after all these steps
+ 
+
+00:04:51.199 --> 00:04:52.070 align:start position:0%
+can proceed then after all these steps
+are<00:04:51.360><c> complete</c>
+
+00:04:52.070 --> 00:04:52.080 align:start position:0%
+are complete
+ 
+
+00:04:52.080 --> 00:04:54.710 align:start position:0%
+are complete
+encrypted<00:04:52.720><c> data</c><00:04:53.120><c> can</c><00:04:53.280><c> now</c><00:04:53.600><c> be</c><00:04:53.919><c> exchanged</c>
+
+00:04:54.710 --> 00:04:54.720 align:start position:0%
+encrypted data can now be exchanged
+ 
+
+00:04:54.720 --> 00:04:56.230 align:start position:0%
+encrypted data can now be exchanged
+between<00:04:55.199><c> your</c><00:04:55.520><c> computer</c>
+
+00:04:56.230 --> 00:04:56.240 align:start position:0%
+between your computer
+ 
+
+00:04:56.240 --> 00:04:59.270 align:start position:0%
+between your computer
+and<00:04:56.560><c> the</c><00:04:56.720><c> web</c><00:04:57.040><c> server</c><00:04:58.639><c> and</c><00:04:58.800><c> the</c><00:04:58.960><c> other</c>
+
+00:04:59.270 --> 00:04:59.280 align:start position:0%
+and the web server and the other
+ 
+
+00:04:59.280 --> 00:05:00.550 align:start position:0%
+and the web server and the other
+protocol<00:04:59.759><c> that</c><00:05:00.000><c> secure</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+protocol that secure
+ 
+
+00:05:00.560 --> 00:05:03.909 align:start position:0%
+protocol that secure
+http<00:05:01.440><c> can</c><00:05:01.680><c> use</c><00:05:02.160><c> is</c><00:05:02.400><c> called</c><00:05:02.720><c> tls</c>
+
+00:05:03.909 --> 00:05:03.919 align:start position:0%
+http can use is called tls
+ 
+
+00:05:03.919 --> 00:05:06.950 align:start position:0%
+http can use is called tls
+tls<00:05:04.720><c> or</c><00:05:05.120><c> transport</c><00:05:05.759><c> layer</c><00:05:06.080><c> security</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+tls or transport layer security
+ 
+
+00:05:06.960 --> 00:05:09.029 align:start position:0%
+tls or transport layer security
+is<00:05:07.120><c> the</c><00:05:07.280><c> latest</c><00:05:07.840><c> industry</c><00:05:08.320><c> standard</c>
+
+00:05:09.029 --> 00:05:09.039 align:start position:0%
+is the latest industry standard
+ 
+
+00:05:09.039 --> 00:05:10.870 align:start position:0%
+is the latest industry standard
+cryptographic<00:05:09.919><c> protocol</c>
+
+00:05:10.870 --> 00:05:10.880 align:start position:0%
+cryptographic protocol
+ 
+
+00:05:10.880 --> 00:05:13.749 align:start position:0%
+cryptographic protocol
+it<00:05:11.120><c> is</c><00:05:11.199><c> the</c><00:05:11.440><c> successor</c><00:05:12.080><c> to</c><00:05:12.320><c> ssl</c><00:05:13.120><c> and</c><00:05:13.440><c> it's</c>
+
+00:05:13.749 --> 00:05:13.759 align:start position:0%
+it is the successor to ssl and it's
+ 
+
+00:05:13.759 --> 00:05:16.150 align:start position:0%
+it is the successor to ssl and it's
+based<00:05:14.160><c> on</c><00:05:14.320><c> the</c><00:05:14.479><c> same</c><00:05:14.800><c> specifications</c>
+
+00:05:16.150 --> 00:05:16.160 align:start position:0%
+based on the same specifications
+ 
+
+00:05:16.160 --> 00:05:19.110 align:start position:0%
+based on the same specifications
+and<00:05:16.479><c> like</c><00:05:16.800><c> ssl</c><00:05:17.520><c> it</c><00:05:17.759><c> also</c><00:05:18.160><c> authenticates</c><00:05:18.880><c> the</c>
+
+00:05:19.110 --> 00:05:19.120 align:start position:0%
+and like ssl it also authenticates the
+ 
+
+00:05:19.120 --> 00:05:19.909 align:start position:0%
+and like ssl it also authenticates the
+server
+
+00:05:19.909 --> 00:05:19.919 align:start position:0%
+server
+ 
+
+00:05:19.919 --> 00:05:24.070 align:start position:0%
+server
+client<00:05:20.720><c> and</c><00:05:20.960><c> encrypts</c><00:05:21.600><c> the</c><00:05:22.840><c> data</c>
+
+00:05:24.070 --> 00:05:24.080 align:start position:0%
+client and encrypts the data
+ 
+
+00:05:24.080 --> 00:05:26.469 align:start position:0%
+client and encrypts the data
+it's<00:05:24.320><c> also</c><00:05:24.639><c> important</c><00:05:25.039><c> to</c><00:05:25.199><c> point</c><00:05:25.520><c> out</c><00:05:26.080><c> that</c><00:05:26.400><c> a</c>
+
+00:05:26.469 --> 00:05:26.479 align:start position:0%
+it's also important to point out that a
+ 
+
+00:05:26.479 --> 00:05:29.029 align:start position:0%
+it's also important to point out that a
+lot<00:05:26.639><c> of</c><00:05:26.800><c> websites</c><00:05:27.360><c> are</c><00:05:27.520><c> now</c><00:05:27.840><c> using</c><00:05:28.320><c> secure</c>
+
+00:05:29.029 --> 00:05:29.039 align:start position:0%
+lot of websites are now using secure
+ 
+
+00:05:29.039 --> 00:05:32.150 align:start position:0%
+lot of websites are now using secure
+http<00:05:30.000><c> by</c><00:05:30.160><c> default</c><00:05:30.800><c> on</c><00:05:30.960><c> their</c><00:05:31.199><c> websites</c>
+
+00:05:32.150 --> 00:05:32.160 align:start position:0%
+http by default on their websites
+ 
+
+00:05:32.160 --> 00:05:34.469 align:start position:0%
+http by default on their websites
+regardless<00:05:32.880><c> if</c><00:05:33.120><c> sensitive</c><00:05:33.600><c> data</c><00:05:34.000><c> is</c><00:05:34.160><c> going</c><00:05:34.400><c> to</c>
+
+00:05:34.469 --> 00:05:34.479 align:start position:0%
+regardless if sensitive data is going to
+ 
+
+00:05:34.479 --> 00:05:36.150 align:start position:0%
+regardless if sensitive data is going to
+be<00:05:34.720><c> exchanged</c><00:05:35.440><c> or</c><00:05:35.600><c> not</c>
+
+00:05:36.150 --> 00:05:36.160 align:start position:0%
+be exchanged or not
+ 
+
+00:05:36.160 --> 00:05:38.550 align:start position:0%
+be exchanged or not
+and<00:05:36.320><c> a</c><00:05:36.400><c> lot</c><00:05:36.560><c> of</c><00:05:36.720><c> this</c><00:05:36.960><c> has</c><00:05:37.199><c> to</c><00:05:37.360><c> do</c><00:05:37.520><c> with</c><00:05:37.840><c> google</c>
+
+00:05:38.550 --> 00:05:38.560 align:start position:0%
+and a lot of this has to do with google
+ 
+
+00:05:38.560 --> 00:05:39.830 align:start position:0%
+and a lot of this has to do with google
+because<00:05:38.880><c> google</c><00:05:39.280><c> is</c><00:05:39.440><c> now</c>
+
+00:05:39.830 --> 00:05:39.840 align:start position:0%
+because google is now
+ 
+
+00:05:39.840 --> 00:05:43.189 align:start position:0%
+because google is now
+flagging<00:05:40.400><c> websites</c><00:05:41.120><c> as</c><00:05:41.600><c> not</c><00:05:41.919><c> secure</c><00:05:42.800><c> if</c><00:05:42.960><c> they</c>
+
+00:05:43.189 --> 00:05:43.199 align:start position:0%
+flagging websites as not secure if they
+ 
+
+00:05:43.199 --> 00:05:45.270 align:start position:0%
+flagging websites as not secure if they
+are<00:05:43.280><c> not</c><00:05:43.520><c> protected</c><00:05:44.080><c> with</c><00:05:44.320><c> ssl</c>
+
+00:05:45.270 --> 00:05:45.280 align:start position:0%
+are not protected with ssl
+ 
+
+00:05:45.280 --> 00:05:48.230 align:start position:0%
+are not protected with ssl
+and<00:05:45.440><c> if</c><00:05:45.600><c> a</c><00:05:45.680><c> website</c><00:05:46.240><c> is</c><00:05:46.400><c> not</c><00:05:46.720><c> ssl</c><00:05:47.280><c> protected</c>
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+and if a website is not ssl protected
+ 
+
+00:05:48.240 --> 00:05:49.749 align:start position:0%
+and if a website is not ssl protected
+google<00:05:48.639><c> will</c><00:05:48.960><c> penalize</c>
+
+00:05:49.749 --> 00:05:49.759 align:start position:0%
+google will penalize
+ 
+
+00:05:49.759 --> 00:05:52.469 align:start position:0%
+google will penalize
+that<00:05:50.000><c> website</c><00:05:50.720><c> in</c><00:05:50.880><c> their</c><00:05:51.120><c> search</c><00:05:51.440><c> rankings</c><00:05:52.320><c> so</c>
+
+00:05:52.469 --> 00:05:52.479 align:start position:0%
+that website in their search rankings so
+ 
+
+00:05:52.479 --> 00:05:53.430 align:start position:0%
+that website in their search rankings so
+that's<00:05:52.800><c> why</c><00:05:53.039><c> now</c>
+
+00:05:53.430 --> 00:05:53.440 align:start position:0%
+that's why now
+ 
+
+00:05:53.440 --> 00:05:55.909 align:start position:0%
+that's why now
+if<00:05:53.520><c> you</c><00:05:53.680><c> go</c><00:05:53.840><c> to</c><00:05:54.160><c> any</c><00:05:54.400><c> major</c><00:05:54.880><c> website</c><00:05:55.680><c> you'll</c>
+
+00:05:55.909 --> 00:05:55.919 align:start position:0%
+if you go to any major website you'll
+ 
+
+00:05:55.919 --> 00:05:57.270 align:start position:0%
+if you go to any major website you'll
+notice<00:05:56.319><c> that</c><00:05:56.639><c> secure</c>
+
+00:05:57.270 --> 00:05:57.280 align:start position:0%
+notice that secure
+ 
+
+00:05:57.280 --> 00:06:00.950 align:start position:0%
+notice that secure
+http<00:05:58.240><c> is</c><00:05:58.400><c> being</c><00:05:58.800><c> used</c><00:05:59.600><c> rather</c><00:06:00.000><c> than</c><00:06:00.319><c> standard</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+http is being used rather than standard
+ 
+
+00:06:00.960 --> 00:06:02.309 align:start position:0%
+http is being used rather than standard
+http
+
+00:06:02.309 --> 00:06:02.319 align:start position:0%
+http
+ 
+
+00:06:02.319 --> 00:06:04.070 align:start position:0%
+http
+and<00:06:02.560><c> if</c><00:06:02.639><c> you're</c><00:06:02.880><c> interested</c><00:06:03.280><c> in</c><00:06:03.440><c> getting</c><00:06:03.840><c> an</c>
+
+00:06:04.070 --> 00:06:04.080 align:start position:0%
+and if you're interested in getting an
+ 
+
+00:06:04.080 --> 00:06:06.550 align:start position:0%
+and if you're interested in getting an
+ssl<00:06:04.720><c> certificate</c><00:06:05.360><c> for</c><00:06:05.520><c> your</c><00:06:05.759><c> website</c>
+
+00:06:06.550 --> 00:06:06.560 align:start position:0%
+ssl certificate for your website
+ 
+
+00:06:06.560 --> 00:06:08.469 align:start position:0%
+ssl certificate for your website
+i<00:06:06.720><c> do</c><00:06:06.960><c> have</c><00:06:07.120><c> a</c><00:06:07.280><c> link</c><00:06:07.680><c> in</c><00:06:07.759><c> the</c><00:06:07.840><c> description</c>
+
+00:06:08.469 --> 00:06:08.479 align:start position:0%
+i do have a link in the description
+ 
+
+00:06:08.479 --> 00:06:11.270 align:start position:0%
+i do have a link in the description
+below<00:06:09.199><c> for</c><00:06:09.440><c> an</c><00:06:09.600><c> up</c><00:06:09.680><c> to</c><00:06:09.919><c> 30</c><00:06:10.240><c> percent</c><00:06:10.639><c> discount</c>
+
+00:06:11.270 --> 00:06:11.280 align:start position:0%
+below for an up to 30 percent discount
+ 
+
+00:06:11.280 --> 00:06:13.029 align:start position:0%
+below for an up to 30 percent discount
+on<00:06:11.520><c> ssl</c><00:06:12.160><c> certificates</c>
+
+00:06:13.029 --> 00:06:13.039 align:start position:0%
+on ssl certificates
+ 
+
+00:06:13.039 --> 00:06:30.309 align:start position:0%
+on ssl certificates
+domain<00:06:13.520><c> names</c><00:06:14.080><c> or</c><00:06:18.840><c> websites</c>
+
+00:06:30.309 --> 00:06:30.319 align:start position:0%
+ 
+ 
+
+00:06:30.319 --> 00:06:32.400 align:start position:0%
+ 
+you
+

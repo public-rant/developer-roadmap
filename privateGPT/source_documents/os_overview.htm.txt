@@ -1,0 +1,414 @@
+     * [https://www.tutorialspoint.com/index.htm]Home
+     * [https://www.tutorialspoint.com/codingground.htm]Coding Ground
+     * [https://www.tutorialspoint.com/about/about_careers.htm]Jobs
+     * [https://www.tutorialspoint.com/whiteboard.htm]Whiteboard
+     * [https://www.tutorialspoint.com/online_dev_tools.htm]Tools
+     * [https://www.tutorialspoint.com/business/index.asp]Corporate
+       Training
+
+   [https://www.tutorialspoint.com/market/teach_with_us.jsp]Teach with us
+     * [https://www.facebook.com/tutorialspointindia]
+     * [https://www.instagram.com/tutorialspoint_/]
+     * [https://twitter.com/tutorialspoint]
+     * [https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg]
+     * [https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkqX2eckF__gAAA
+       X-wMwEYvrsjBVbEtWQd4pgEdVSzkL22Nik1KEpY_ECWLKDGc41z8IOZWr2Bb0fvJplT
+       60NPBtSw87J6QCpc7wD4qQ3iU13n6xJtBxME5o05Wmpg5JPm5YY=&originalRefere
+       r=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftutor
+       ialspoint]
+
+   [https://www.tutorialspoint.com/index.htm]logo logo (BUTTON) (BUTTON)
+     * Login
+     * [javascript:void(0);]Category
+          + [https://www.tutorialspoint.com/academic_tutorials.htm]Academi
+            c Tutorials
+          + [https://www.tutorialspoint.com/big_data_tutorials.htm]Big
+            Data & Analytics
+          + [https://www.tutorialspoint.com/computer_programming_tutorials
+            .htm]Computer Programming
+          + [https://www.tutorialspoint.com/computer_science_tutorials.htm
+            ]Computer Science
+          + [https://www.tutorialspoint.com/database_tutorials.htm]Databas
+            es
+          + [https://www.tutorialspoint.com/devops_tutorials.htm]DevOps
+          + [https://www.tutorialspoint.com/digital_marketing_tutorials.ht
+            m]Digital Marketing
+          + [https://www.tutorialspoint.com/engineering_tutorials.htm]Engi
+            neering Tutorials
+          + [https://www.tutorialspoint.com/upsc_ias_exams.htm]Exams
+            Syllabus
+          + [https://www.tutorialspoint.com/famous_monuments.htm]Famous
+            Monuments
+          + [https://www.tutorialspoint.com/gate_exams_tutorials.htm]GATE
+            Exams
+          + [https://www.tutorialspoint.com/latest_technologies.htm]Latest
+            Technologies
+          + [https://www.tutorialspoint.com/machine_learning_tutorials.htm
+            ]Machine Learning
+          + [https://www.tutorialspoint.com/mainframe_tutorials.htm]Mainfr
+            ame Development
+          + [https://www.tutorialspoint.com/management_tutorials.htm]Manag
+            ement Tutorials
+          + [https://www.tutorialspoint.com/maths_tutorials.htm]Mathematic
+            s Tutorials
+          + [https://www.tutorialspoint.com/microsoft_technologies_tutoria
+            ls.htm]Microsoft Technologies
+          + [https://www.tutorialspoint.com/misc_tutorials.htm]Misc
+            tutorials
+          + [https://www.tutorialspoint.com/mobile_development_tutorials.h
+            tm]Mobile Development
+          + [https://www.tutorialspoint.com/java_technology_tutorials.htm]
+            Java Technologies
+          + [https://www.tutorialspoint.com/python_technologies_tutorials.
+            htm]Python Technologies
+          + [https://www.tutorialspoint.com/sap_tutorials.htm]SAP
+            Tutorials
+          + [https://www.tutorialspoint.com/scripting_lnaguage_tutorials.h
+            tm]Programming Scripts
+          + [https://www.tutorialspoint.com/selected_reading.htm]Selected
+            Reading
+          + [https://www.tutorialspoint.com/software_quality_tutorials.htm
+            ]Software Quality
+          + [https://www.tutorialspoint.com/soft_skill_tutorials.htm]Soft
+            Skills
+          + [https://www.tutorialspoint.com/telecom_tutorials.htm]Telecom
+            Tutorials
+          + [https://www.tutorialspoint.com/upsc_ias_exams.htm]UPSC IAS
+            Exams
+          + [https://www.tutorialspoint.com/web_development_tutorials.htm]
+            Web Development
+          + [https://www.tutorialspoint.com/sports_tutorials.htm]Sports
+            Tutorials
+          + [https://www.tutorialspoint.com/xml_technologies_tutorials.htm
+            ]XML Technologies
+          + [https://www.tutorialspoint.com/multi_language_tutorials.htm]M
+            ulti-Language
+          + [https://www.tutorialspoint.com/questions_and_answers.htm]Inte
+            rview Questions
+
+   ____________________ (BUTTON)
+     * [https://www.tutorialspoint.com/latest/prime-packs]Prime Packs
+     * [https://www.tutorialspoint.com/market/index.asp]Courses
+     * [https://www.tutorialspoint.com/latest/ebooks]eBooks
+     * [https://www.tutorialspoint.com/tutorialslibrary.htm]Library
+     * [https://www.tutorialspoint.com/articles/index.php]Articles
+
+   [https://www.tutorialspoint.com/market/login.asp]Login
+
+   Operating System Tutorial
+     * [https://www.tutorialspoint.com/operating_system/index.asp]Operatin
+       g System Video Tutorials
+
+     * Operating System Tutorial
+     * [https://www.tutorialspoint.com/operating_system/index.htm]OS -
+       Home
+     * [https://www.tutorialspoint.com/operating_system/os_overview.htm]OS
+       - Overview
+     * [https://www.tutorialspoint.com/operating_system/os_components.htm]
+       OS - Components
+     * [https://www.tutorialspoint.com/operating_system/os_types.htm]OS -
+       Types
+     * [https://www.tutorialspoint.com/operating_system/os_services.htm]OS
+       - Services
+     * [https://www.tutorialspoint.com/operating_system/os_properties.htm]
+       OS - Properties
+     * [https://www.tutorialspoint.com/operating_system/os_processes.htm]O
+       S - Processes
+     * [https://www.tutorialspoint.com/operating_system/os_process_schedul
+       ing.htm]OS - Process Scheduling
+     * [https://www.tutorialspoint.com/operating_system/os_process_schedul
+       ing_algorithms.htm]OS - Scheduling algorithms
+     * [https://www.tutorialspoint.com/operating_system/os_multi_threading
+       .htm]OS - Multi-threading
+     * [https://www.tutorialspoint.com/operating_system/os_memory_manageme
+       nt.htm]OS - Memory Management
+     * [https://www.tutorialspoint.com/operating_system/os_virtual_memory.
+       htm]OS - Virtual Memory
+     * [https://www.tutorialspoint.com/operating_system/os_io_hardware.htm
+       ]OS - I/O Hardware
+     * [https://www.tutorialspoint.com/operating_system/os_io_software.htm
+       ]OS - I/O Software
+     * [https://www.tutorialspoint.com/operating_system/os_file_system.htm
+       ]OS - File System
+     * [https://www.tutorialspoint.com/operating_system/os_security.htm]OS
+       - Security
+     * [https://www.tutorialspoint.com/operating_system/os_linux.htm]OS -
+       Linux
+
+     * OS - Exams Questions with Answers
+     * [https://www.tutorialspoint.com/operating_system/os_exams_questions
+       _answers.htm]OS - Exams Questions with Answers
+
+     * Operating System Useful Resources
+     * [https://www.tutorialspoint.com/operating_system/os_quick_guide.htm
+       ]OS - Quick Guide
+     * [https://www.tutorialspoint.com/operating_system/os_useful_resource
+       s.htm]OS - Useful Resources
+     * [https://www.tutorialspoint.com/operating_system/os_discussion.htm]
+       OS - Discussion
+
+     * Selected Reading
+     * [https://www.tutorialspoint.com/upsc_ias_exams.htm]UPSC IAS Exams
+       Notes
+     * [https://www.tutorialspoint.com/developers_best_practices/index.htm
+       ]Developer's Best Practices
+     * [https://www.tutorialspoint.com/questions_and_answers.htm]Questions
+       and Answers
+     * [https://www.tutorialspoint.com/effective_resume_writing.htm]Effect
+       ive Resume Writing
+     * [https://www.tutorialspoint.com/hr_interview_questions/index.htm]HR
+       Interview Questions
+     * [https://www.tutorialspoint.com/computer_glossary.htm]Computer
+       Glossary
+     * [https://www.tutorialspoint.com/computer_whoiswho.htm]Who is Who
+
+Operating System - Overview
+     __________________________________________________________________
+
+   [https://www.tutorialspoint.com/operating_system/index.htm]Previous
+   Page
+   [https://www.tutorialspoint.com/operating_system/os_components.htm]Next
+   Page
+
+   An Operating System (OS) is an interface between a computer user and
+   computer hardware. An operating system is a software which performs all
+   the basic tasks like file management, memory management, process
+   management, handling input and output, and controlling peripheral
+   devices such as disk drives and printers.
+
+   An operating system is software that enables applications to interact
+   with a computer's hardware. The software that contains the core
+   components of the operating system is called the kernel.
+
+   The primary purposes of an Operating System are to enable applications
+   (spftwares) to interact with a computer's hardware and to manage a
+   system's hardware and software resources.
+
+   Some popular Operating Systems include Linux Operating System, Windows
+   Operating System, VMS, OS/400, AIX, z/OS, etc. Today, Operating systems
+   is found almost in every device like mobile phones, personal computers,
+   mainframe computers, automobiles, TV, Toys etc.
+
+Definitions
+
+   We can have a number of definitions of an Operating System. Let's go
+   through few of them:
+
+     An Operting System is the low-level software that supports a
+     computer's basic functions, such as scheduling tasks and controlling
+     peripherals.
+
+   We can refine this definition as follows:
+
+     An operating system is a program that acts as an interface between
+     the user and the computer hardware and controls the execution of all
+     kinds of programs.
+
+   Following is another definition taken from Wikipedia:
+
+     An operating system (OS) is system software that manages computer
+     hardware, software resources, and provides common services for
+     computer programs.
+
+Architecture
+
+   We can draw a generic architecture diagram of an Operating System which
+   is as follows:
+   Conceptual view of an Operating System
+
+Operating System Generations
+
+   Operating systems have been evolving over the years. We can categorise
+   this evaluation based on different generations which is briefed below:
+
+0^th Generation
+
+   The term 0^th generation is used to refer to the period of development
+   of computing when Charles Babbage invented the Analytical Engine and
+   later John Atanasoff created a computer in 1940. The hardware component
+   technology of this period was electronic vacuum tubes. There was no
+   Operating System available for this generation computer and computer
+   programs were written in machine language. This computers in this
+   generation were inefficient and dependent on the varying competencies
+   of the individual programmer as operators.
+
+First Generation (1951-1956)
+
+   The first generation marked the beginning of commercial computing
+   including the introduction of Eckert and Mauchly’s UNIVAC I in early
+   1951, and a bit later, the IBM 701.
+
+   System operation was performed with the help of expert operators and
+   without the benefit of an operating system for a time though programs
+   began to be written in higher level, procedure-oriented languages, and
+   thus the operator’s routine expanded. Later mono-programmed operating
+   system was developed, which eliminated some of the human intervention
+   in running job and provided programmers with a number of desirable
+   functions. These systems still continued to operate under the control
+   of a human operator who used to follow a number of steps to execute a
+   program. Programming language like FORTRAN was developed by John W.
+   Backus in 1956.
+
+Second Generation (1956-1964)
+
+   The second generation of computer hardware was most notably
+   characterised by transistors replacing vacuum tubes as the hardware
+   component technology. The first operating system GMOS was developed by
+   the IBM computer. GMOS was based on single stream batch processing
+   system, because it collects all similar jobs in groups or batches and
+   then submits the jobs to the operating system using a punch card to
+   complete all jobs in a machine. Operating system is cleaned after
+   completing one job and then continues to read and initiates the next
+   job in punch card.
+
+   Researchers began to experiment with multiprogramming and
+   multiprocessing in their computing services called the time-sharing
+   system. A noteworthy example is the Compatible Time Sharing System
+   (CTSS), developed at MIT during the early 1960s.
+
+Third Generation (1964-1979)
+
+   The third generation officially began in April 1964 with IBM’s
+   announcement of its System/360 family of computers. Hardware technology
+   began to use integrated circuits (ICs) which yielded significant
+   advantages in both speed and economy.
+
+   Operating system development continued with the introduction and
+   widespread adoption of multiprogramming. The idea of taking fuller
+   advantage of the computer’s data channel I/O capabilities continued to
+   develop.
+
+   Another progress which leads to developing of personal computers in
+   fourth generation is a new development of minicomputers with DEC PDP-1.
+   The third generation was an exciting time, indeed, for the development
+   of both computer hardware and the accompanying operating system.
+
+Fourth Generation (1979 – Present)
+
+   The fourth generation is characterised by the appearance of the
+   personal computer and the workstation. The component technology of the
+   third generation, was replaced by very large scale integration (VLSI).
+   Many Operating Systems which we are using today like Windows, Linux,
+   MacOS etc developed in the fourth generation.
+
+   Following are some of important functions of an operating System.
+     * Memory Management
+     * Processor Management
+     * Device Management
+     * File Management
+     * Network Management
+     * Security
+     * Control over system performance
+     * Job accounting
+     * Error detecting aids
+     * Coordination between other software and users
+
+Memory Management
+
+   Memory management refers to management of Primary Memory or Main
+   Memory. Main memory is a large array of words or bytes where each word
+   or byte has its own address.
+
+   Main memory provides a fast storage that can be accessed directly by
+   the CPU. For a program to be executed, it must in the main memory. An
+   Operating System does the following activities for memory management −
+     * Keeps tracks of primary memory, i.e., what part of it are in use by
+       whom, what part are not in use.
+     * In multiprogramming, the OS decides which process will get memory
+       when and how much.
+     * Allocates the memory when a process requests it to do so.
+     * De-allocates the memory when a process no longer needs it or has
+       been terminated.
+
+Processor Management
+
+   In multiprogramming environment, the OS decides which process gets the
+   processor when and for how much time. This function is called process
+   scheduling. An Operating System does the following activities for
+   processor management −
+     * Keeps tracks of processor and status of process. The program
+       responsible for this task is known as traffic controller.
+     * Allocates the processor (CPU) to a process.
+     * De-allocates processor when a process is no longer required.
+
+Device Management
+
+   An Operating System manages device communication via their respective
+   drivers. It does the following activities for device management −
+     * Keeps tracks of all devices. Program responsible for this task is
+       known as the I/O controller.
+     * Decides which process gets the device when and for how much time.
+     * Allocates the device in the efficient way.
+     * De-allocates devices.
+
+File Management
+
+   A file system is normally organized into directories for easy
+   navigation and usage. These directories may contain files and other
+   directions.
+
+   An Operating System does the following activities for file management −
+     * Keeps track of information, location, uses, status etc. The
+       collective facilities are often known as file system.
+     * Decides who gets the resources.
+     * Allocates the resources.
+     * De-allocates the resources.
+
+Other Important Activities
+
+   Following are some of the important activities that an Operating System
+   performs −
+     * Security − By means of password and similar other techniques, it
+       prevents unauthorized access to programs and data.
+     * Control over system performance − Recording delays between request
+       for a service and response from the system.
+     * Job accounting − Keeping track of time and resources used by
+       various jobs and users.
+     * Error detecting aids − Production of dumps, traces, error messages,
+       and other debugging and error detecting aids.
+     * Coordination between other softwares and users − Coordination and
+       assignment of compilers, interpreters, assemblers and other
+       software to the various users of the computer systems.
+
+   [https://www.tutorialspoint.com/operating_system/index.htm]Previous
+   Page
+   [https://www.tutorialspoint.com/operating_system/os_overview.htm]Print
+   Page
+   [https://www.tutorialspoint.com/operating_system/os_components.htm]Next
+   Page
+   Advertisements
+
+   [https://www.tutorialspoint.com/market/business/subscription.jsp]
+   Annual Membership
+
+Annual Membership
+
+   Enjoy unlimited access on 5500+ Hand Picked Quality Video Courses
+   Subscribe Now
+   [https://www.tutorialspoint.com/business/index.asp#demoRequest]
+   Training for a Team
+
+Training for a Team
+
+   Affordable solution to train a team and make them project ready.
+   Request a Demo
+
+   [https://www.tutorialspoint.com/index.htm]Tutorials Point Tutorials
+   Point
+     * [https://www.tutorialspoint.com/about/index.htm]About us
+     * [https://www.tutorialspoint.com/about/return_refund_policy.htm]Refu
+       nd Policy
+     * [https://www.tutorialspoint.com/about/about_terms_of_use.htm]Terms
+       of use
+     * [https://www.tutorialspoint.com/about/about_privacy.htm]Privacy
+       Policy
+     * [https://www.tutorialspoint.com/about/faq.htm]FAQ's
+     * [https://www.tutorialspoint.com/about/contact_us.htm]Contact
+
+   Copyright © Tutorials Point (India) Private Limited. All Rights
+   Reserved.
+
+   We make use of First and third party cookies to improve our user
+   experience. By using this website, you agree with our Cookies Policy.
+   [https://www.tutorialspoint.com/operating_system/os_overview.htm]Agree
+   [https://www.tutorialspoint.com/about/about_cookies.htm]Learn more

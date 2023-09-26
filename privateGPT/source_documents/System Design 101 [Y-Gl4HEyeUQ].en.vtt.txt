@@ -1,0 +1,238 @@
+hey everyone this is come on and today s
+video is about system design basics
+we re not going to go into the depth of
+each of the items that we ll be covering
+but this is to give you a high level
+overview of
+all the bits and pieces of the system
+design and how they fit together to make
+the application work when a user opens a
+website the first thing that they
+interact with
+is the browser let s say that a user
+wants to open the website google com for
+browser to open the website it needs to
+know where this website is located to
+find out where it is located it uses
+something called the dns
+which stands for domain name system and
+it is responsible for telling us where
+the website is located there s much more
+details about how it works and how the
+website is found on the internet
+but we re not going to cover in this
+video we ll do that in the future videos
+for now just know that the browser sends
+it the name of the website
+and it gives us back the ip address of
+the website where the website is located
+now that the browser has got the ip
+address of the website it knows where
+the
+application servers are so it can make a
+call to the server
+and get back the web page of the website
+now that the browser has received the
+website it can start rendering the web
+page the web page might have different
+kinds of static assets
+such as the style sheets images and the
+javascript files
+now all these files can either be served
+from the single server
+the original server where our website is
+or people normally put them on the cdn
+so cdn stands for content delivery
+networks and these are special kinds of
+servers which are located
+all across the globe and serving the
+assets from there is much faster than
+serving from the single server
+let s understand the reason for that by
+taking an example so here i have an
+example
+server which doesn t use the cdn to
+serve its static assets so as you can
+see here our server is sitting on one
+corner of the word and our users are on
+the other side of the word now since the
+distance between our users and servers
+is much higher
+the request will be slow because the
+request has to go through several hops
+to reach us
+and getting the static assets from the
+server is time consuming also we are
+putting all the load on our server
+because we are hosting all the static
+assets now let s look at the same
+example with the use of cdn as you can
+see here the
+request instead of coming to our servers
+are going to the black dots which are
+the cdns and whatever the closest
+server is to the user the request will
+be served from there
+and also the static assets will be
+cached here so the response times will
+be much lower than
+coming from the server and getting the
+assets from there also apart from the
+faster response times
+the load on our server is going to be
+much lower because we are not serving
+all the assets they are coming from the
+cdns and again we are just scratching
+the surface of the cdn we are going to
+cover this in much more detail in the
+future videos
+now let s talk about the server so on
+the server side if we start getting a
+high load of traffic
+our resources on the server might
+exhaust and you might have to increase
+the resources to support the high load
+of traffic so let s say that if we had
+500 mb of ram
+and it s not able to keep up with the
+load of traffic that we are getting
+we might increase it to 2gb let s say to
+support the traffic that we are getting
+this process of
+increasing the capacity of the existing
+resources such as the cpu
+ram or memory is called vertical scaling
+vertical scaling although works and it
+might be a suitable option for some time
+it is not always a viable option and the
+reason for that is because
+there is a limit to the capacity that
+you can increase on the server and also
+because having one server
+gives us one point of failure so if our
+one server goes down our application
+will go down the other option is to
+go with the horizontal scaling which
+means to add more
+resources to serve the requests which
+means that we have more servers which
+are handling our requests
+instead of having just one server but we
+can t just add servers and it will work
+we need to divide the traffic among
+these servers
+equally so to do that we implement
+something called a load balancer
+so load balancer is responsible for
+identifying the servers which are
+available
+and distributing the traffic among them
+equally next in the modern application
+architecture such as microservices or
+soa
+there might be several services that
+these servers will be talking to for
+example there might be a service for
+registration and authentication there
+might be a separate api for
+sending emails and so on communication
+between these apis is normally done with
+the help of
+restful apis or grpc or with the help of
+the message queues
+we will be covering these architectural
+styles in much more depth
+in the future videos but i just wanted
+to highlight the different architectural
+styles here
+with which these apis might be set up
+next we have storage
+there might be different kinds of
+storages that an application might be
+using first of all we have database that
+you probably already know that is to
+store the application data in there
+there are different kinds of databases
+such as sql
+nosql and graph databases for example
+there is postgre mysql mariadb
+mongodb neo4j and so on we ll be
+covering when to use what and the
+databases in much more detail in the
+future when we talk about the databases
+next we have caching which is the place
+where we store the results of
+expensive computations to save time and
+the resources
+so for example if you had a qre or some
+calculation which takes around 5 seconds
+you might do it once and then cache it
+for some time in the caching layer
+and return from there to make your
+subsequent requests faster
+for the caching you can use something
+like redis or memcache or
+there are several other options which
+you can go with and then we have cloud
+storage
+such as s3 where we store the
+application content such as
+any kind of pdf files or database
+backups and so on
+and next we have the data warehouse
+which is the place where we dump
+loads and loads of data to perform the
+analysis on that there are different
+services available which you can use for
+that for example i have used snowplow in
+the past or there is also aws fire hose
+and so on and next most of the
+application have some kind of logging
+service which is used to monitor
+and check the logs to make sure that
+everything is working properly
+the most famous one is elk stack which
+is where all the logs are dumped and
+then
+it can be visualized or searched through
+next we have messaging and cues which
+are used to perform
+background or asynchronous operations so
+for example when a user registers if you
+want to trigger them an email or to
+notify the customer support
+you can do this stuff with the help of
+messaging and queues there is revitamq
+there s nets and there are multiple
+other services which can be used to
+implement the messaging and queues
+there are multiple different ways and
+patterns of using the messaging and
+queues
+and i have written an article in the
+past on how we were using it in my last
+company
+and we ll be learning more about them in
+the future videos and the last one we
+have today is the search engine
+which are used to implement the full
+text search capabilities in our
+application so for example if you have
+used amazon com you might have seen that
+when you search for a book
+it shows you all the books matching the
+specific criteria that you gave
+this has not been implemented using the
+search engines so for example there are
+tools such as
+sphinx elasticsearch or solar which can
+be used to implement the
+full text search capabilities and with
+that our lesson comes to an end i ll be
+doing a series of videos in the coming
+weeks
+governing each of the topics that we
+covered in this video in much more
+detail
+and giving you the practical tips on
+using them thank you for watching and i

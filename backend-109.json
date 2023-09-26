@@ -1,0 +1,452 @@
+[
+ {
+  "id": "database-indexes",
+  "tag": "h1",
+  "text": "Database Indexes"
+ },
+ {
+  "id": "cap-theorem",
+  "tag": "h1",
+  "text": "CAP Theorem"
+ },
+ {
+  "id": "databases",
+  "tag": "h1",
+  "text": "Databases"
+ },
+ {
+  "id": "data-replication",
+  "tag": "h1",
+  "text": "Data Replication"
+ },
+ {
+  "id": "sharding-strategies",
+  "tag": "h1",
+  "text": "Sharding strategies"
+ },
+ {
+  "id": "basic-authentication",
+  "tag": "h1",
+  "text": "Basic authentication"
+ },
+ {
+  "id": "token-authentication",
+  "tag": "h1",
+  "text": "Token authentication"
+ },
+ {
+  "id": "cookie-based-authentication",
+  "tag": "h1",
+  "text": "Cookie-Based Authentication"
+ },
+ {
+  "id": "authentication",
+  "tag": "h1",
+  "text": "Authentication"
+ },
+ {
+  "id": "openid",
+  "tag": "h1",
+  "text": "OpenID"
+ },
+ {
+  "id": "oauth",
+  "tag": "h1",
+  "text": "OAuth"
+ },
+ {
+  "id": "jwt",
+  "tag": "h1",
+  "text": "JWT"
+ },
+ {
+  "id": "rest",
+  "tag": "h1",
+  "text": "REST"
+ },
+ {
+  "id": "json-apis",
+  "tag": "h1",
+  "text": "JSON APIs"
+ },
+ {
+  "id": "grpc",
+  "tag": "h1",
+  "text": "gRPC"
+ },
+ {
+  "id": "soap",
+  "tag": "h1",
+  "text": "SOAP"
+ },
+ {
+  "id": "apis",
+  "tag": "h1",
+  "text": "APIs"
+ },
+ {
+  "id": "hateoas",
+  "tag": "h1",
+  "text": "Hateoas"
+ },
+ {
+  "id": "graphql",
+  "tag": "h1",
+  "text": "GraphQL"
+ },
+ {
+  "id": "open-api-spec",
+  "tag": "h1",
+  "text": "Open api spec"
+ },
+ {
+  "id": "graphql-yoga",
+  "tag": "h1",
+  "text": "GraphQL Yoga"
+ },
+ {
+  "id": "mercurius",
+  "tag": "h1",
+  "text": "Mercurius"
+ },
+ {
+  "id": "backend-implementations",
+  "tag": "h1",
+  "text": "Backend Implementations"
+ },
+ {
+  "id": "graphql-http",
+  "tag": "h1",
+  "text": "GraphQL HTTP"
+ },
+ {
+  "id": "apollo-server",
+  "tag": "h1",
+  "text": "Apollo Server"
+ },
+ {
+  "href": "https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/",
+  "tag": "a",
+  "text": "An in-depth look at Database Indexing"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=-qNSXK7s7_w",
+  "tag": "a",
+  "text": "Database Indexing Explained"
+ },
+ {
+  "href": "https://www.bmc.com/blogs/cap-theorem/",
+  "tag": "a",
+  "text": "What is CAP Theorem?"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/CAP_theorem",
+  "tag": "a",
+  "text": "CAP Theorem - Wikipedia"
+ },
+ {
+  "href": "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/",
+  "tag": "a",
+  "text": "An Illustrated Proof of the CAP Theorem"
+ },
+ {
+  "href": "https://www.ibm.com/uk-en/cloud/learn/cap-theorem",
+  "tag": "a",
+  "text": "CAP Theorem and its applications in NoSQL Databases"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=_RbsFXWRZ10",
+  "tag": "a",
+  "text": "What is CAP Theorem?"
+ },
+ {
+  "href": "https://www.oracle.com/database/what-is-database/",
+  "tag": "a",
+  "text": "Oracle: What is a Database?"
+ },
+ {
+  "href": "https://www.prisma.io/dataguide/intro/what-are-databases",
+  "tag": "a",
+  "text": "Prisma.io: What are Databases?"
+ },
+ {
+  "href": "https://youtu.be/fUrKt-AQYtE",
+  "tag": "a",
+  "text": "What is Data Replication?"
+ },
+ {
+  "href": "https://www.geeksforgeeks.org/database-sharding-a-system-design-concept/",
+  "tag": "a",
+  "text": "Database Sharding – System Design Interview Concept"
+ },
+ {
+  "href": "https://en.wikipedia.org/wiki/Shard_(database_architecture)",
+  "tag": "a",
+  "text": "Wikipedia - Sharding in Datbase Architectures"
+ },
+ {
+  "href": "https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/",
+  "tag": "a",
+  "text": "How sharding a database can make it faster"
+ },
+ {
+  "href": "https://www.rfc-editor.org/rfc/rfc7617.html",
+  "tag": "a",
+  "text": "found in the RFC7617"
+ },
+ {
+  "href": "https://roadmap.sh/guides/http-basic-authentication",
+  "tag": "a",
+  "text": "HTTP Basic Authentication"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=mwccHwUn7Gc",
+  "tag": "a",
+  "text": "Illustrated HTTP Basic Authentication"
+ },
+ {
+  "href": "https://www.okta.com/identity-101/what-is-token-based-authentication/",
+  "tag": "a",
+  "text": "What Is Token-Based Authentication?"
+ },
+ {
+  "href": "https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work",
+  "tag": "a",
+  "text": "How does cookie based authentication work?"
+ },
+ {
+  "href": "https://swoopnow.com/user-authentication/",
+  "tag": "a",
+  "text": "User Authentication: Understanding the Basics \u0026amp; Top Tips"
+ },
+ {
+  "href": "https://betterprogramming.pub/how-do-you-authenticate-mate-f2b70904cc3a",
+  "tag": "a",
+  "text": "An overview about authentication methods"
+ },
+ {
+  "href": "https://roadmap.sh/guides/sso",
+  "tag": "a",
+  "text": "SSO - Single Sign On"
+ },
+ {
+  "href": "https://roadmap.sh/guides/oauth",
+  "tag": "a",
+  "text": "OAuth - Open Authorization"
+ },
+ {
+  "href": "https://roadmap.sh/guides/jwt-authentication",
+  "tag": "a",
+  "text": "JWT Authentication"
+ },
+ {
+  "href": "https://roadmap.sh/guides/token-authentication",
+  "tag": "a",
+  "text": "Token Based Authentication"
+ },
+ {
+  "href": "https://roadmap.sh/guides/session-authentication",
+  "tag": "a",
+  "text": "Session Based Authentication"
+ },
+ {
+  "href": "https://roadmap.sh/guides/basic-authentication",
+  "tag": "a",
+  "text": "Basic Authentication"
+ },
+ {
+  "href": "https://openid.net/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://openid.net/connect/",
+  "tag": "a",
+  "text": "What is OpenID"
+ },
+ {
+  "href": "https://securew2.com/blog/oauth-vs-openid-which-is-better",
+  "tag": "a",
+  "text": "OAuth vs OpenID"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=t18YB3xDfXI",
+  "tag": "a",
+  "text": "An Illustrated Guide to OAuth and OpenID Connect"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=996oiexhze0",
+  "tag": "a",
+  "text": "OAuth 2.0 and OpenID Connect (in plain English)"
+ },
+ {
+  "href": "https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth",
+  "tag": "a",
+  "text": "Okta - What the Heck is OAuth"
+ },
+ {
+  "href": "https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2",
+  "tag": "a",
+  "text": "DigitalOcean - An Introduction to OAuth 2"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=t4-416mg6iU",
+  "tag": "a",
+  "text": "What is OAuth really all about"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=CPbvxxslDTU",
+  "tag": "a",
+  "text": "OAuth 2.0: An Overview"
+ },
+ {
+  "href": "https://jwt.io/",
+  "tag": "a",
+  "text": "jwt.io Website"
+ },
+ {
+  "href": "https://jwt.io/introduction",
+  "tag": "a",
+  "text": "Introduction to JSON Web Tokens"
+ },
+ {
+  "href": "https://www.akana.com/blog/what-is-jwt",
+  "tag": "a",
+  "text": "What is JWT?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+  "tag": "a",
+  "text": "What Is JWT and Why Should You Use JWT"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=926mknSW9Lo",
+  "tag": "a",
+  "text": "What is JWT? JSON Web Token Explained"
+ },
+ {
+  "href": "https://www.codecademy.com/article/what-is-rest",
+  "tag": "a",
+  "text": "What is REST?"
+ },
+ {
+  "href": "https://www.redhat.com/en/topics/api/what-is-a-rest-api",
+  "tag": "a",
+  "text": "What is a REST API?"
+ },
+ {
+  "href": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+  "tag": "a",
+  "text": "Roy Fieldings dissertation chapter, Representational State Transfer (REST)"
+ },
+ {
+  "href": "https://restapitutorial.com/",
+  "tag": "a",
+  "text": "Learn REST: A RESTful Tutorial"
+ },
+ {
+  "href": "https://jsonapi.org/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://jsonapi.org/implementations/",
+  "tag": "a",
+  "text": "Official Docs"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=N-4prIh7t38",
+  "tag": "a",
+  "text": "JSON API: Explained in 4 minutes"
+ },
+ {
+  "href": "https://grpc.io/",
+  "tag": "a",
+  "text": "gRPC Website"
+ },
+ {
+  "href": "https://grpc.io/docs/",
+  "tag": "a",
+  "text": "gRPC Docs"
+ },
+ {
+  "href": "https://www.wallarm.com/what/the-concept-of-grpc",
+  "tag": "a",
+  "text": "What Is GRPC?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=hVrwuMnCtok",
+  "tag": "a",
+  "text": "What Is GRPC?"
+ },
+ {
+  "href": "https://www.w3schools.com/xml/xml_soap.asp",
+  "tag": "a",
+  "text": "w3school SOAP explanation"
+ },
+ {
+  "href": "https://aws.amazon.com/what-is/api/",
+  "tag": "a",
+  "text": "What is an API?"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=s7wmiS2mSXY",
+  "tag": "a",
+  "text": "What is an API?"
+ },
+ {
+  "href": "https://youtu.be/MiOSzpfP1Ww?t=236",
+  "tag": "a",
+  "text": "Oktane17: Designing Beautiful REST + JSON APIs (3:56 - 5:57)"
+ },
+ {
+  "href": "https://graphql.org/",
+  "tag": "a",
+  "text": "GraphQL Official Website"
+ },
+ {
+  "href": "https://swagger.io/specification/",
+  "tag": "a",
+  "text": "OpenAPI Specification Website"
+ },
+ {
+  "href": "https://swagger.io/tools/swagger-editor/",
+  "tag": "a",
+  "text": "Open API Live Editor"
+ },
+ {
+  "href": "https://swagger.io/docs/specification/about/",
+  "tag": "a",
+  "text": "Official training guide"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=6kwmW_p_Tig",
+  "tag": "a",
+  "text": "OpenAPI 3.0: How to Design and Document APIs with the Latest OpenAPI Specification 3.0"
+ },
+ {
+  "href": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2",
+  "tag": "a",
+  "text": "GraphQL Armor - for Yoga Server 2"
+ },
+ {
+  "href": "https://www.howtographql.com/typescript-apollo/0-introduction/",
+  "tag": "a",
+  "text": "How to use GraphQL to build Backend?"
+ },
+ {
+  "href": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp",
+  "tag": "a",
+  "text": "Overview of GraphQL HTTP"
+ },
+ {
+  "href": "https://graphql.org/learn/serving-over-http/",
+  "tag": "a",
+  "text": "Get Started with GraphQL HTTP"
+ },
+ {
+  "href": "https://www.howtographql.com/react-apollo/0-introduction/",
+  "tag": "a",
+  "text": "Apollo Tutorial - Introduction"
+ }
+]

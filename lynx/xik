@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 > $(basename https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).txt

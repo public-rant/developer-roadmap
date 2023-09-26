@@ -1,0 +1,421 @@
+hello everyone and welcome to the first
+lecture in the course operating system
+so operating system is a course that is
+very important as far as computer
+science is concerned and also electronic
+students you may have this subject in
+your course so it is equally important
+and this subject it consists mainly of
+theory as well as problems so we will
+first see the theory and also we will be
+solving the problems related to this
+subject and we will see what this
+subject means and what we can learn from
+this subject so first of all this is
+just an introduction to operating system
+and we will see what this operating
+system actually means and what are the
+functions of this operating system what
+are the types of operating systems that
+we have and we will just try to get a
+brief idea of this subject all right so
+let s get started so here it says that
+an operating system also abbreviated as
+OS is a program that manages the
+computer hardware and it also says it
+also provides a basis for application
+programs and acts as an intermediary
+between computer user and computer
+hardware so before we understand these
+two lines I will be explaining it to you
+with a diagram so before we go into this
+diagram here are some examples of some
+operating systems that we widely use
+these days first is your windows so you
+may be using Windows in your desktop or
+your laptops so it is one of the famous
+operating systems used by many people
+and also we have Linux and Ubuntu which
+are also two open source operating
+systems that are widely used in your
+desktops laptops and other devices and
+then we have the Mac OS which is the
+operating system from Apple so in their
+laptops or in their mac books they used
+Mac OS X and then in iPhones we find iOS
+operating systems and then we have the
+very famous Android which you must be
+having in your phones so Android is one
+of the famous operating systems that is
+used for your mobile devices all right
+so now before we try to understand these
+two lines that we have written here let
+us take a diagram to understand the
+basic structure of
+computer system so that we can
+understand what is an operating system
+and what does an operating system
+actually do so here I have a diagram
+which represents the basic structure or
+the basic components of a computer
+system so first of all in the lowermost
+level we have the computer hardware and
+what are computer hardware computer
+hardware it consists of resources like
+CPU which is a central processing unit
+and then memory and then the i o devices
+which means input output devices so your
+resources like the processing units your
+CPU and also your memory memory consists
+of primary memory like your ramps and
+your secondary memory like your roams so
+these things also I will be explaining
+it in a detail way in another lecture
+so let s first know that our memory as
+well as the i o devices IO devices means
+the input output devices these are the
+devices that you use for either giving
+input to your system or for getting
+output out of your system so examples of
+input devices will include your devices
+like your keyboards mouse your
+microphones these are devices that you
+use for giving input into the system and
+then output devices would be that
+devices that you use for getting output
+out of your systems that would be your
+devices like monitors or speakers which
+gives you output or which shows you or
+makes you hear the output those are your
+output devices so all these things they
+fall under computer hardware so we
+generally refer them to as resources
+alright and then on top of this we have
+the operating system but for now let us
+just forget this operating system for a
+while just let s just assume that it is
+not there and then on top of this
+operating system we have the system or
+the application programs now there are
+two kinds of software s we have which is
+system software and application software
+and system software s are the software s
+that are used to directly modify or
+directly give some command to that
+computer hardware and operating system
+is also a kind of system software but
+let s not think about that and just not
+get confused hearing
+that butters mainly try to understand
+water application programs application
+programs are the programs or software s
+that are used to perform a specific task
+and that can be directly used by the
+user and these are some examples that we
+have here versus a word processor word
+processors are like your Microsoft
+Office Word which are software s used
+for making document files I have
+believed that we have all used Microsoft
+Word and then we have spreadsheets
+spreadsheets are like your Microsoft
+Excel ok that is used for making tabular
+data or for making some calculations in
+your table or data and then we have
+compilers so if you are a computer
+science student you may be knowing what
+compilers are so compilers are the
+software s that we use for writing our
+computer code like your codes like C C
+or Java these are written into your
+compilers and then we have the text
+editors text editors are editors useful
+modifying or writing text like your
+notepad WordPad etc and then we have web
+browsers web browsers are the software s
+that enable you to browse the web even
+as you are watching this video in
+YouTube you may be using some web
+browser to view this and examples of
+this are Google Chrome Mozilla Firefox
+Internet Explorer and so on so this is
+not the only application program that we
+have we have many many application
+programs and these are just few examples
+I took to make you understand so these
+are the application programs we have and
+on top of that we have the users that is
+like users like you and me
+who are trying to use this softwares for
+performing specific tasks so let us take
+a simple example that this user one he
+wants to use the word processor let s
+say it is Microsoft Office Word so we
+want to use Word for typing some
+documents and he wants to save it to his
+system so let s see how he does it so we
+imagine that there is no operating
+system over here we just have this user
+and the application programs and then
+the computer hardware so if you wants to
+write a document or if you want to type
+something into Microsoft Word then he
+have to tell the computer how
+where that he wants to do it now how can
+he do it since there is no operating
+system he have to explicitly tell the
+computer hardware what he wants to do in
+the form of code so he have to first
+open the Microsoft Word and he have to
+tell the computer hardware that I want
+to load Microsoft Word so please load it
+into the main memory and then after it
+is loaded he has to type something and
+when he typed something whatever he
+types it has to be displayed on the
+monitor he have to tell the computer
+hardware to do even that you have to
+tell please display the things that I am
+typing on the computer screen or on the
+monitor and then after doing all that he
+have to save it and even for saving it
+you have to tell the computer hardware
+that yeah I am done with all my typing
+and now please save this file with a
+particular file name to my hard disk so
+for each and every small on my new task
+you have to perform you have to
+explicitly tell the computer hardware
+what to do and how do you communicate to
+it in the form of codes you have to
+write source code you have to write
+codes for each and everything that you
+have to perform so we see that it is a
+very tedious task or it is a very
+difficult task to do this if there is no
+operating system you have to manually
+tell the computer hardware each and
+everything that you have to do so if it
+was like this then nobody would actually
+use a computer system or at least common
+people would not use the computer system
+because it is such a tedious thing and
+it is very difficult to perform even the
+simplest of tasks so in order to avoid
+this or to overcome this problem what we
+have is an operating system so the
+operating system resides between the
+computer hardware and the users so it is
+a intermediary that acts between the
+computer hardware and user so let us
+take our first example that we have
+taken suppose the user one wants to type
+something and save it into his Microsoft
+Word so what he does he just double
+click on the Microsoft Word and then the
+rest of the things the operating system
+takes care of it it just opens it for
+him and then it makes the screen ready
+for him for typing and whatever he types
+it
+the operating system tells the hardware
+what to do so that it will be typed and
+displayed on the screen and everything
+that otherwise would have to be done
+manually by the user is now taken care
+of by the operating system and after
+typing it he has to save it when he
+saves it the operating system tells the
+computer Hardware where to save it and
+how to save it and how much memory to
+allocate or saving it and everything is
+done by the operating system so all
+those my new things which we otherwise
+had to do in the absence of operating
+system is now done by the operating
+system and it becomes very easy for the
+user to use the computer system so the
+user just opens the computer he just
+takes or opens what he wants to use it
+and he just uses it and all the
+underlying things that has to happen all
+the communication that has to happen
+between the computer hardware and the
+user is taken care of by the operating
+system it does all for the user and does
+the computing or the usage of computer
+becomes very easy for the users because
+of the presence of the operating system
+so that is the main task of an operating
+system now if we look back at these two
+lines that we have written now it will
+make sense and now you would understand
+what it actually means so let s read it
+once again an operating system is a
+program that manages the computer
+hardware yes we saw that the computer
+hardware how with resources like CPU
+memory i o devices everything is managed
+by the operating system now and then it
+also provides a basis for application
+programs and acts as intermediary
+between the computer user and the
+computer hardware so it provides a basis
+for the application programs so here we
+have our application programs and it is
+installed on the operating system it
+provides a base for the application
+programs and also it acts as an
+intermediary between the computer user
+and the computer hardware so here we
+have the users and here we have the
+hardware and in the operating system it
+acts like an intermediary between the
+user and the hardware thus making the
+process of computation and the usage of
+computers seamless and very easy for the
+users so that is the main fun
+of an operating system and I hope that
+made you understand what an operating
+system actually does now we will be
+seeing some of the types of operating
+systems that we have and also the
+functions of operating system and what
+are the goals that an operating system
+needs to achieve so here I have some
+types of operating system personas badge
+operating system then time sharing
+operating system distributed operating
+system network operating system a
+real time operating system multi
+programming multi processing and
+multitasking operating systems so it is
+not limited to just this but these are
+some main types of operating systems
+that we have and don t worry even if you
+don t understand them I will be doing
+another lecture where I will explain all
+the types of this operating system in a
+clear manner I am just introducing this
+to you so that you just get used to the
+terms that we have here so all this
+types of operating system they perform
+in a different way based on the need
+that we have so just remember that much
+and you can keep this few points in mind
+and then let s see what are the
+functions of OS so the main functions of
+OS are number one is it is an interface
+between the user and the hardware yes we
+just saw that right now we have users
+here and we have the hardware here and
+it acts like an interface between the
+user and hardware and then the second
+point is allocation of resources so I
+already told you what I mean by
+resources here what we mean by resources
+are the hardware that we have like the
+central processing unit the memory and
+the input output devices so when I user
+or when different users wants to use the
+different resources so they have to be
+allocated our resources are not
+unlimited we have a limited resources
+that means we have limited hardware so
+how this resources should be allocated
+to users in such a way that everybody
+gets their share and it performs in an
+efficient manner all this is done by the
+operating system so it allocates
+resources to different users or
+different processes in a good manner
+that is the function of the operating
+system and then it does the management
+of memory secure
+etc so I told you even when we were
+typing this word processor we have to
+first load it into the main memory then
+after typing it it has to be saved into
+the secondary memory or the hard disk so
+don t worry if you don t understand what
+is main memory secondary memory and all
+this I will be explaining all this to
+you in a clearer way in the coming
+lectures so just want you to understand
+that how the memory is managed
+so how things are stored or where they
+are stored everything is managed by the
+operating system and how securely it is
+done that is also managed light
+operating systems so these are some of
+the main functions of operating system
+and now let us see what are the goals of
+an operating system so we have studied
+this much now we must be knowing just by
+studying all these functions of
+operating system and what it does we can
+just assume what its goals will be
+number one is convenience so I told you
+in that example if we were not having an
+operating system how tedious or how
+tough it would be to execute even the
+smallest of tasks by the user but having
+an operating system on top of our
+computer hardware makes it very easy for
+the user to communicate to the computer
+hardware so it becomes a very convenient
+thing for the user to have this
+operating system so the first goal of
+operating system is to provide
+convenience and then the second point is
+efficiency now what do we mean by
+efficiency if you were not having the
+operating system and let s say we have
+different users trying to access these
+resources and how would you efficiently
+manage the resources that you should get
+this much resources or the other users
+should get this much resources so if you
+do it manually it is going to be very
+tough and that is very less chance that
+you can efficiently manage it so
+operating system by taking care of all
+these allocations of resources and
+management of memory and everything it
+provides you an efficient usage of your
+system so the first point is a
+convenience and then the second point is
+efficiency so many operating systems are
+designed mainly for convenience some are
+design designed for efficiency but
+mostly most or we can say many of the
+operating system are designed for both
+for both convenience as well as
+efficiency so these are the goals of
+operating system which we achieve by the
+functions of this operating system so in
+this lecture we have seen that types of
+OS we have seen the functions of OS and
+we have seen what is the basic structure
+and the basic components we have in our
+computer system and we see what the
+operating system actually does
+in order to make computation very easy
+for us and we have also seen some
+examples of the operating systems that
+we widely use so I hope this was clear
+to you this was just an introduction to
+just get you started so that you can
+know what an operating system actually
+is and now you must be understanding how
+complex tasks the operating system must
+be performing so all the design of
+operating system and each and everything
+that we need to know about this
+operating system we will be studying
+step by step in this lecture series so I
+hope this introduction was clear to you
+thank you for watching and see you in
+the next one
+
+you

@@ -1,0 +1,147 @@
+hey everyone this is kamran and today
+we re going to talk about acid which are
+the four properties of any database
+system that help in making sure that
+we re able to perform the transactions
+in a reliable manner
+yes it is an acronym which stands for
+atomicity consistency isolation and
+durability
+first of all we have atomicity by
+atomicity we mean that the database is
+able to perform the transactions in an
+atomic manner so what do we mean by that
+before we discuss this let s make sure
+that we know what is a transaction
+so transaction is just a single unit of
+work which can either be one query or it
+can be multiple queries let s say that
+we have two accounts and we need to
+transfer some amount from account one to
+account two
+now this transfer is just one
+transaction but it is going to consist
+of three different steps
+the first is checking if the account one
+does have hundred dollars
+the second would be updating the amount
+of account one to be nine hundred
+dollars
+and the third would be taking this
+hundred dollar and making the
+balance in account two be two hundred
+dollar
+now if the database does support atomic
+transactions
+if one of these three steps fail the
+whole transaction should fail and the
+database should not result in a corrupt
+state so what do we mean by that
+let s revert the amounts to be one
+thousand dollar and one hundred dollars
+and let s run through this again
+the first step would be checking if the
+account one has hundred dollar available
+the second would be removing hundred
+dollar from account one
+so we made it nine hundred dollar and
+now let s say that the third step failed
+and we were not able to transfer the
+amount to account two or update the
+value in the account two bonus now one
+of these three steps failed so the whole
+transaction should fail and the database
+should be able to revert the amount in
+account one to be one thousand dollar
+again
+now let s run through this again so
+let s say that the first step passed and
+the second step also passed
+and the third step also passed and we
+were able to update the amount in
+account too
+now all these three steps passed so the
+whole transaction passed now this state
+should be pergisted in database
+so this is what atomicity is the
+database should support the atomic
+transactions which means either the
+whole transaction must finish
+or we should be able to revert the
+database to the old state so that we
+don t have that corrupt data
+alright so next we have consistency
+consistency just means that the database
+should help in achieving the correct
+data state
+how does database do that it helps by
+making sure that the constraints that we
+have set for our data they must be
+followed so let s say that we have a
+constraint on the amount column that it
+can never be negative the database must
+make sure that the constraint must
+always be followed and it can never
+allow the negative values inside the
+amount column
+next we have isolation which is mainly
+about the concurrency control so how the
+database should perform when there are
+concurrent executions so let s say that
+we have an account which has around one
+thousand dollars and there are two
+persons a and b
+trying to get the money out of this
+account so one thousand dollars and one
+hundred dollars
+if we let both of these transactions
+happen at the same time so this would
+result in the deduction of 1100
+so the balance would result in the
+negative 100
+isolation helps in preventing that so it
+means that the database should perform
+that concurrent transaction in the same
+manner that it would perform the
+sequential transactions
+so let s say both a and b are trying to
+get the money at the same time from the
+same account
+now the database should make sure that
+it picks up one of these persons either
+a or b it doesn t really matter
+and perform the transaction once
+and update the
+balance in the account
+so that when the next one comes in it
+should make sure that it has the correct
+state already available in the database
+there is more to isolation and
+concurrency control in the databases
+but we ll be discussing more about it in
+the future videos i will also be
+discussing what is optimistic currency
+control and also what is the difference
+from pessimistic concurrency control
+all right so the final one we have today
+is durability durability just means that
+once that transactions have been
+committed the data must be written to
+the non volatile memory or the storage
+so that even if the crash happens or
+something wrong happens with the
+database the data must be there and not
+be corrupted
+all right so that is all what asset is
+all the major relational databases are
+asset compliant however most of the
+nosql databases are not
+they re mostly designed to be highly
+available which means that they have to
+sacrifice on either the consistency or
+maybe the durability
+mongodb also supports transactions since
+version 4 and is also asset compliant to
+some extent
+and that is all for this one thank you
+for watching and i will see you in the

@@ -1,0 +1,1184 @@
+WEBVTT
+
+
+
+00:00:00.240 --> 00:00:02.230 align:start position:0%
+ 
+hey<00:00:00.399><c> everyone</c><00:00:00.799><c> this</c><00:00:00.960><c> is</c><00:00:01.120><c> kamran</c><00:00:01.839><c> and</c><00:00:01.920><c> today</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+hey everyone this is kamran and today
+ 
+
+00:00:02.240 --> 00:00:04.390 align:start position:0%
+hey everyone this is kamran and today
+we're<00:00:02.480><c> going</c><00:00:02.639><c> to</c><00:00:02.800><c> talk</c><00:00:03.040><c> about</c><00:00:03.439><c> acid</c><00:00:04.080><c> which</c><00:00:04.319><c> are</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+we're going to talk about acid which are
+ 
+
+00:00:04.400 --> 00:00:06.470 align:start position:0%
+we're going to talk about acid which are
+the<00:00:04.640><c> four</c><00:00:04.880><c> properties</c><00:00:05.440><c> of</c><00:00:05.600><c> any</c><00:00:05.839><c> database</c>
+
+00:00:06.470 --> 00:00:06.480 align:start position:0%
+the four properties of any database
+ 
+
+00:00:06.480 --> 00:00:09.110 align:start position:0%
+the four properties of any database
+system<00:00:07.279><c> that</c><00:00:07.600><c> help</c><00:00:08.000><c> in</c><00:00:08.320><c> making</c><00:00:08.720><c> sure</c><00:00:08.960><c> that</c>
+
+00:00:09.110 --> 00:00:09.120 align:start position:0%
+system that help in making sure that
+ 
+
+00:00:09.120 --> 00:00:11.270 align:start position:0%
+system that help in making sure that
+we're<00:00:09.440><c> able</c><00:00:09.599><c> to</c><00:00:09.760><c> perform</c><00:00:10.240><c> the</c><00:00:10.400><c> transactions</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+we're able to perform the transactions
+ 
+
+00:00:11.280 --> 00:00:13.430 align:start position:0%
+we're able to perform the transactions
+in<00:00:11.440><c> a</c><00:00:11.519><c> reliable</c><00:00:12.080><c> manner</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+in a reliable manner
+ 
+
+00:00:13.440 --> 00:00:15.829 align:start position:0%
+in a reliable manner
+yes<00:00:13.679><c> it</c><00:00:13.840><c> is</c><00:00:13.920><c> an</c><00:00:14.080><c> acronym</c><00:00:14.559><c> which</c><00:00:14.799><c> stands</c><00:00:15.280><c> for</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+yes it is an acronym which stands for
+ 
+
+00:00:15.839 --> 00:00:19.029 align:start position:0%
+yes it is an acronym which stands for
+atomicity<00:00:16.800><c> consistency</c><00:00:18.000><c> isolation</c><00:00:18.880><c> and</c>
+
+00:00:19.029 --> 00:00:19.039 align:start position:0%
+atomicity consistency isolation and
+ 
+
+00:00:19.039 --> 00:00:20.630 align:start position:0%
+atomicity consistency isolation and
+durability
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+durability
+ 
+
+00:00:20.640 --> 00:00:22.870 align:start position:0%
+durability
+first<00:00:20.960><c> of</c><00:00:21.119><c> all</c><00:00:21.279><c> we</c><00:00:21.359><c> have</c><00:00:21.520><c> atomicity</c><00:00:22.640><c> by</c>
+
+00:00:22.870 --> 00:00:22.880 align:start position:0%
+first of all we have atomicity by
+ 
+
+00:00:22.880 --> 00:00:25.029 align:start position:0%
+first of all we have atomicity by
+atomicity<00:00:23.519><c> we</c><00:00:23.680><c> mean</c><00:00:23.920><c> that</c><00:00:24.160><c> the</c><00:00:24.320><c> database</c><00:00:24.880><c> is</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+atomicity we mean that the database is
+ 
+
+00:00:25.039 --> 00:00:27.509 align:start position:0%
+atomicity we mean that the database is
+able<00:00:25.279><c> to</c><00:00:25.519><c> perform</c><00:00:26.080><c> the</c><00:00:26.240><c> transactions</c><00:00:27.199><c> in</c><00:00:27.359><c> an</c>
+
+00:00:27.509 --> 00:00:27.519 align:start position:0%
+able to perform the transactions in an
+ 
+
+00:00:27.519 --> 00:00:30.950 align:start position:0%
+able to perform the transactions in an
+atomic<00:00:28.000><c> manner</c><00:00:28.800><c> so</c><00:00:29.039><c> what</c><00:00:29.119><c> do</c><00:00:29.279><c> we</c><00:00:29.439><c> mean</c><00:00:29.599><c> by</c><00:00:29.840><c> that</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+atomic manner so what do we mean by that
+ 
+
+00:00:30.960 --> 00:00:32.790 align:start position:0%
+atomic manner so what do we mean by that
+before<00:00:31.279><c> we</c><00:00:31.519><c> discuss</c><00:00:31.920><c> this</c><00:00:32.160><c> let's</c><00:00:32.399><c> make</c><00:00:32.640><c> sure</c>
+
+00:00:32.790 --> 00:00:32.800 align:start position:0%
+before we discuss this let's make sure
+ 
+
+00:00:32.800 --> 00:00:35.190 align:start position:0%
+before we discuss this let's make sure
+that<00:00:32.960><c> we</c><00:00:33.120><c> know</c><00:00:33.280><c> what</c><00:00:33.440><c> is</c><00:00:33.600><c> a</c><00:00:33.760><c> transaction</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+that we know what is a transaction
+ 
+
+00:00:35.200 --> 00:00:37.350 align:start position:0%
+that we know what is a transaction
+so<00:00:35.440><c> transaction</c><00:00:36.000><c> is</c><00:00:36.079><c> just</c><00:00:36.320><c> a</c><00:00:36.399><c> single</c><00:00:36.800><c> unit</c><00:00:37.120><c> of</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+so transaction is just a single unit of
+ 
+
+00:00:37.360 --> 00:00:39.910 align:start position:0%
+so transaction is just a single unit of
+work<00:00:37.840><c> which</c><00:00:38.000><c> can</c><00:00:38.160><c> either</c><00:00:38.480><c> be</c><00:00:38.640><c> one</c><00:00:38.879><c> query</c><00:00:39.600><c> or</c><00:00:39.760><c> it</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+work which can either be one query or it
+ 
+
+00:00:39.920 --> 00:00:42.150 align:start position:0%
+work which can either be one query or it
+can<00:00:40.079><c> be</c><00:00:40.239><c> multiple</c><00:00:40.719><c> queries</c><00:00:41.680><c> let's</c><00:00:41.840><c> say</c><00:00:42.000><c> that</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+can be multiple queries let's say that
+ 
+
+00:00:42.160 --> 00:00:43.910 align:start position:0%
+can be multiple queries let's say that
+we<00:00:42.239><c> have</c><00:00:42.480><c> two</c><00:00:42.719><c> accounts</c><00:00:43.280><c> and</c><00:00:43.440><c> we</c><00:00:43.600><c> need</c><00:00:43.680><c> to</c>
+
+00:00:43.910 --> 00:00:43.920 align:start position:0%
+we have two accounts and we need to
+ 
+
+00:00:43.920 --> 00:00:46.229 align:start position:0%
+we have two accounts and we need to
+transfer<00:00:44.399><c> some</c><00:00:44.559><c> amount</c><00:00:44.960><c> from</c><00:00:45.200><c> account</c><00:00:45.680><c> one</c><00:00:46.079><c> to</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+transfer some amount from account one to
+ 
+
+00:00:46.239 --> 00:00:47.590 align:start position:0%
+transfer some amount from account one to
+account<00:00:46.640><c> two</c>
+
+00:00:47.590 --> 00:00:47.600 align:start position:0%
+account two
+ 
+
+00:00:47.600 --> 00:00:49.190 align:start position:0%
+account two
+now<00:00:47.840><c> this</c><00:00:48.079><c> transfer</c><00:00:48.559><c> is</c><00:00:48.640><c> just</c><00:00:48.960><c> one</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+now this transfer is just one
+ 
+
+00:00:49.200 --> 00:00:51.350 align:start position:0%
+now this transfer is just one
+transaction<00:00:50.079><c> but</c><00:00:50.239><c> it</c><00:00:50.399><c> is</c><00:00:50.480><c> going</c><00:00:50.719><c> to</c><00:00:50.800><c> consist</c>
+
+00:00:51.350 --> 00:00:51.360 align:start position:0%
+transaction but it is going to consist
+ 
+
+00:00:51.360 --> 00:00:53.590 align:start position:0%
+transaction but it is going to consist
+of<00:00:51.840><c> three</c><00:00:52.079><c> different</c><00:00:52.480><c> steps</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+of three different steps
+ 
+
+00:00:53.600 --> 00:00:55.750 align:start position:0%
+of three different steps
+the<00:00:53.840><c> first</c><00:00:54.160><c> is</c><00:00:54.320><c> checking</c><00:00:54.800><c> if</c><00:00:54.960><c> the</c><00:00:55.120><c> account</c><00:00:55.520><c> one</c>
+
+00:00:55.750 --> 00:00:55.760 align:start position:0%
+the first is checking if the account one
+ 
+
+00:00:55.760 --> 00:00:57.750 align:start position:0%
+the first is checking if the account one
+does<00:00:56.000><c> have</c><00:00:56.239><c> hundred</c><00:00:56.559><c> dollars</c>
+
+00:00:57.750 --> 00:00:57.760 align:start position:0%
+does have hundred dollars
+ 
+
+00:00:57.760 --> 00:01:00.790 align:start position:0%
+does have hundred dollars
+the<00:00:58.000><c> second</c><00:00:58.320><c> would</c><00:00:58.480><c> be</c><00:00:59.039><c> updating</c><00:00:59.840><c> the</c><00:01:00.480><c> amount</c>
+
+00:01:00.790 --> 00:01:00.800 align:start position:0%
+the second would be updating the amount
+ 
+
+00:01:00.800 --> 00:01:02.389 align:start position:0%
+the second would be updating the amount
+of<00:01:00.960><c> account</c><00:01:01.359><c> one</c><00:01:01.600><c> to</c><00:01:01.680><c> be</c><00:01:01.920><c> nine</c><00:01:02.079><c> hundred</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+of account one to be nine hundred
+ 
+
+00:01:02.399 --> 00:01:03.750 align:start position:0%
+of account one to be nine hundred
+dollars
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+dollars
+ 
+
+00:01:03.760 --> 00:01:05.509 align:start position:0%
+dollars
+and<00:01:03.920><c> the</c><00:01:04.159><c> third</c><00:01:04.479><c> would</c><00:01:04.720><c> be</c><00:01:04.960><c> taking</c><00:01:05.280><c> this</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+and the third would be taking this
+ 
+
+00:01:05.519 --> 00:01:07.750 align:start position:0%
+and the third would be taking this
+hundred<00:01:05.840><c> dollar</c><00:01:06.400><c> and</c><00:01:06.560><c> making</c><00:01:06.880><c> the</c>
+
+00:01:07.750 --> 00:01:07.760 align:start position:0%
+hundred dollar and making the
+ 
+
+00:01:07.760 --> 00:01:09.510 align:start position:0%
+hundred dollar and making the
+balance<00:01:08.159><c> in</c><00:01:08.240><c> account</c><00:01:08.640><c> two</c><00:01:08.880><c> be</c><00:01:09.040><c> two</c><00:01:09.200><c> hundred</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+balance in account two be two hundred
+ 
+
+00:01:09.520 --> 00:01:11.109 align:start position:0%
+balance in account two be two hundred
+dollar
+
+00:01:11.109 --> 00:01:11.119 align:start position:0%
+dollar
+ 
+
+00:01:11.119 --> 00:01:13.750 align:start position:0%
+dollar
+now<00:01:11.520><c> if</c><00:01:11.680><c> the</c><00:01:11.840><c> database</c><00:01:12.400><c> does</c><00:01:12.720><c> support</c><00:01:13.280><c> atomic</c>
+
+00:01:13.750 --> 00:01:13.760 align:start position:0%
+now if the database does support atomic
+ 
+
+00:01:13.760 --> 00:01:15.190 align:start position:0%
+now if the database does support atomic
+transactions
+
+00:01:15.190 --> 00:01:15.200 align:start position:0%
+transactions
+ 
+
+00:01:15.200 --> 00:01:17.749 align:start position:0%
+transactions
+if<00:01:15.520><c> one</c><00:01:15.680><c> of</c><00:01:15.840><c> these</c><00:01:16.159><c> three</c><00:01:16.400><c> steps</c><00:01:16.880><c> fail</c><00:01:17.600><c> the</c>
+
+00:01:17.749 --> 00:01:17.759 align:start position:0%
+if one of these three steps fail the
+ 
+
+00:01:17.759 --> 00:01:19.749 align:start position:0%
+if one of these three steps fail the
+whole<00:01:18.000><c> transaction</c><00:01:18.640><c> should</c><00:01:18.880><c> fail</c><00:01:19.439><c> and</c><00:01:19.600><c> the</c>
+
+00:01:19.749 --> 00:01:19.759 align:start position:0%
+whole transaction should fail and the
+ 
+
+00:01:19.759 --> 00:01:22.390 align:start position:0%
+whole transaction should fail and the
+database<00:01:20.320><c> should</c><00:01:20.560><c> not</c><00:01:20.880><c> result</c><00:01:21.520><c> in</c><00:01:21.680><c> a</c><00:01:21.840><c> corrupt</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+database should not result in a corrupt
+ 
+
+00:01:22.400 --> 00:01:25.030 align:start position:0%
+database should not result in a corrupt
+state<00:01:23.280><c> so</c><00:01:23.439><c> what</c><00:01:23.600><c> do</c><00:01:23.680><c> we</c><00:01:23.840><c> mean</c><00:01:24.000><c> by</c><00:01:24.159><c> that</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+state so what do we mean by that
+ 
+
+00:01:25.040 --> 00:01:26.630 align:start position:0%
+state so what do we mean by that
+let's<00:01:25.200><c> revert</c><00:01:25.600><c> the</c><00:01:25.759><c> amounts</c><00:01:26.159><c> to</c><00:01:26.240><c> be</c><00:01:26.400><c> one</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+let's revert the amounts to be one
+ 
+
+00:01:26.640 --> 00:01:28.469 align:start position:0%
+let's revert the amounts to be one
+thousand<00:01:26.880><c> dollar</c><00:01:27.280><c> and</c><00:01:27.439><c> one</c><00:01:27.680><c> hundred</c><00:01:27.920><c> dollars</c>
+
+00:01:28.469 --> 00:01:28.479 align:start position:0%
+thousand dollar and one hundred dollars
+ 
+
+00:01:28.479 --> 00:01:30.630 align:start position:0%
+thousand dollar and one hundred dollars
+and<00:01:28.720><c> let's</c><00:01:28.960><c> run</c><00:01:29.200><c> through</c><00:01:29.439><c> this</c><00:01:29.600><c> again</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+and let's run through this again
+ 
+
+00:01:30.640 --> 00:01:32.230 align:start position:0%
+and let's run through this again
+the<00:01:30.799><c> first</c><00:01:31.040><c> step</c><00:01:31.280><c> would</c><00:01:31.360><c> be</c><00:01:31.600><c> checking</c><00:01:31.920><c> if</c><00:01:32.079><c> the</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+the first step would be checking if the
+ 
+
+00:01:32.240 --> 00:01:34.710 align:start position:0%
+the first step would be checking if the
+account<00:01:32.560><c> one</c><00:01:32.799><c> has</c><00:01:32.960><c> hundred</c><00:01:33.200><c> dollar</c><00:01:33.520><c> available</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+account one has hundred dollar available
+ 
+
+00:01:34.720 --> 00:01:36.550 align:start position:0%
+account one has hundred dollar available
+the<00:01:34.880><c> second</c><00:01:35.200><c> would</c><00:01:35.360><c> be</c><00:01:35.759><c> removing</c><00:01:36.240><c> hundred</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+the second would be removing hundred
+ 
+
+00:01:36.560 --> 00:01:38.230 align:start position:0%
+the second would be removing hundred
+dollar<00:01:36.799><c> from</c><00:01:37.040><c> account</c><00:01:37.439><c> one</c>
+
+00:01:38.230 --> 00:01:38.240 align:start position:0%
+dollar from account one
+ 
+
+00:01:38.240 --> 00:01:40.390 align:start position:0%
+dollar from account one
+so<00:01:38.400><c> we</c><00:01:38.560><c> made</c><00:01:38.799><c> it</c><00:01:38.960><c> nine</c><00:01:39.119><c> hundred</c><00:01:39.439><c> dollar</c><00:01:40.320><c> and</c>
+
+00:01:40.390 --> 00:01:40.400 align:start position:0%
+so we made it nine hundred dollar and
+ 
+
+00:01:40.400 --> 00:01:42.550 align:start position:0%
+so we made it nine hundred dollar and
+now<00:01:40.640><c> let's</c><00:01:40.799><c> say</c><00:01:40.960><c> that</c><00:01:41.119><c> the</c><00:01:41.280><c> third</c><00:01:41.600><c> step</c><00:01:42.000><c> failed</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+now let's say that the third step failed
+ 
+
+00:01:42.560 --> 00:01:44.230 align:start position:0%
+now let's say that the third step failed
+and<00:01:42.720><c> we</c><00:01:42.880><c> were</c><00:01:43.040><c> not</c><00:01:43.200><c> able</c><00:01:43.439><c> to</c><00:01:43.600><c> transfer</c><00:01:44.079><c> the</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+and we were not able to transfer the
+ 
+
+00:01:44.240 --> 00:01:46.870 align:start position:0%
+and we were not able to transfer the
+amount<00:01:44.640><c> to</c><00:01:44.799><c> account</c><00:01:45.200><c> two</c><00:01:45.920><c> or</c><00:01:46.240><c> update</c><00:01:46.560><c> the</c>
+
+00:01:46.870 --> 00:01:46.880 align:start position:0%
+amount to account two or update the
+ 
+
+00:01:46.880 --> 00:01:49.670 align:start position:0%
+amount to account two or update the
+value<00:01:47.439><c> in</c><00:01:47.600><c> the</c><00:01:47.759><c> account</c><00:01:48.159><c> two</c><00:01:48.399><c> bonus</c><00:01:49.280><c> now</c><00:01:49.439><c> one</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+value in the account two bonus now one
+ 
+
+00:01:49.680 --> 00:01:51.590 align:start position:0%
+value in the account two bonus now one
+of<00:01:49.759><c> these</c><00:01:50.000><c> three</c><00:01:50.240><c> steps</c><00:01:50.640><c> failed</c><00:01:51.040><c> so</c><00:01:51.200><c> the</c><00:01:51.360><c> whole</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+of these three steps failed so the whole
+ 
+
+00:01:51.600 --> 00:01:53.749 align:start position:0%
+of these three steps failed so the whole
+transaction<00:01:52.079><c> should</c><00:01:52.399><c> fail</c><00:01:53.040><c> and</c><00:01:53.200><c> the</c><00:01:53.360><c> database</c>
+
+00:01:53.749 --> 00:01:53.759 align:start position:0%
+transaction should fail and the database
+ 
+
+00:01:53.759 --> 00:01:56.550 align:start position:0%
+transaction should fail and the database
+should<00:01:54.000><c> be</c><00:01:54.159><c> able</c><00:01:54.320><c> to</c><00:01:54.479><c> revert</c><00:01:55.439><c> the</c><00:01:55.920><c> amount</c><00:01:56.399><c> in</c>
+
+00:01:56.550 --> 00:01:56.560 align:start position:0%
+should be able to revert the amount in
+ 
+
+00:01:56.560 --> 00:01:58.230 align:start position:0%
+should be able to revert the amount in
+account<00:01:56.880><c> one</c><00:01:57.119><c> to</c><00:01:57.200><c> be</c><00:01:57.360><c> one</c><00:01:57.600><c> thousand</c><00:01:57.920><c> dollar</c>
+
+00:01:58.230 --> 00:01:58.240 align:start position:0%
+account one to be one thousand dollar
+ 
+
+00:01:58.240 --> 00:01:59.270 align:start position:0%
+account one to be one thousand dollar
+again
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+again
+ 
+
+00:01:59.280 --> 00:02:00.950 align:start position:0%
+again
+now<00:01:59.439><c> let's</c><00:01:59.680><c> run</c><00:01:59.920><c> through</c><00:02:00.079><c> this</c><00:02:00.320><c> again</c><00:02:00.799><c> so</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+now let's run through this again so
+ 
+
+00:02:00.960 --> 00:02:03.190 align:start position:0%
+now let's run through this again so
+let's<00:02:01.119><c> say</c><00:02:01.280><c> that</c><00:02:01.680><c> the</c><00:02:01.840><c> first</c><00:02:02.079><c> step</c><00:02:02.479><c> passed</c><00:02:03.040><c> and</c>
+
+00:02:03.190 --> 00:02:03.200 align:start position:0%
+let's say that the first step passed and
+ 
+
+00:02:03.200 --> 00:02:05.510 align:start position:0%
+let's say that the first step passed and
+the<00:02:03.439><c> second</c><00:02:03.759><c> step</c><00:02:04.159><c> also</c><00:02:04.479><c> passed</c>
+
+00:02:05.510 --> 00:02:05.520 align:start position:0%
+the second step also passed
+ 
+
+00:02:05.520 --> 00:02:07.990 align:start position:0%
+the second step also passed
+and<00:02:05.680><c> the</c><00:02:05.840><c> third</c><00:02:06.159><c> step</c><00:02:06.560><c> also</c><00:02:07.280><c> passed</c><00:02:07.680><c> and</c><00:02:07.759><c> we</c>
+
+00:02:07.990 --> 00:02:08.000 align:start position:0%
+and the third step also passed and we
+ 
+
+00:02:08.000 --> 00:02:09.830 align:start position:0%
+and the third step also passed and we
+were<00:02:08.160><c> able</c><00:02:08.399><c> to</c><00:02:08.879><c> update</c><00:02:09.200><c> the</c><00:02:09.360><c> amount</c><00:02:09.759><c> in</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+were able to update the amount in
+ 
+
+00:02:09.840 --> 00:02:11.190 align:start position:0%
+were able to update the amount in
+account<00:02:10.239><c> too</c>
+
+00:02:11.190 --> 00:02:11.200 align:start position:0%
+account too
+ 
+
+00:02:11.200 --> 00:02:13.910 align:start position:0%
+account too
+now<00:02:11.440><c> all</c><00:02:11.680><c> these</c><00:02:12.000><c> three</c><00:02:12.239><c> steps</c><00:02:12.720><c> passed</c><00:02:13.360><c> so</c><00:02:13.599><c> the</c>
+
+00:02:13.910 --> 00:02:13.920 align:start position:0%
+now all these three steps passed so the
+ 
+
+00:02:13.920 --> 00:02:16.150 align:start position:0%
+now all these three steps passed so the
+whole<00:02:14.160><c> transaction</c><00:02:14.879><c> passed</c><00:02:15.440><c> now</c><00:02:15.680><c> this</c><00:02:15.840><c> state</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+whole transaction passed now this state
+ 
+
+00:02:16.160 --> 00:02:18.550 align:start position:0%
+whole transaction passed now this state
+should<00:02:16.400><c> be</c><00:02:16.560><c> pergisted</c><00:02:17.120><c> in</c><00:02:17.200><c> database</c>
+
+00:02:18.550 --> 00:02:18.560 align:start position:0%
+should be pergisted in database
+ 
+
+00:02:18.560 --> 00:02:20.790 align:start position:0%
+should be pergisted in database
+so<00:02:18.720><c> this</c><00:02:18.959><c> is</c><00:02:19.040><c> what</c><00:02:19.280><c> atomicity</c><00:02:20.080><c> is</c><00:02:20.640><c> the</c>
+
+00:02:20.790 --> 00:02:20.800 align:start position:0%
+so this is what atomicity is the
+ 
+
+00:02:20.800 --> 00:02:22.470 align:start position:0%
+so this is what atomicity is the
+database<00:02:21.280><c> should</c><00:02:21.520><c> support</c><00:02:21.920><c> the</c><00:02:22.080><c> atomic</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+database should support the atomic
+ 
+
+00:02:22.480 --> 00:02:25.190 align:start position:0%
+database should support the atomic
+transactions<00:02:23.520><c> which</c><00:02:23.840><c> means</c><00:02:24.640><c> either</c><00:02:25.040><c> the</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+transactions which means either the
+ 
+
+00:02:25.200 --> 00:02:27.350 align:start position:0%
+transactions which means either the
+whole<00:02:25.440><c> transaction</c><00:02:26.000><c> must</c><00:02:26.319><c> finish</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+whole transaction must finish
+ 
+
+00:02:27.360 --> 00:02:29.270 align:start position:0%
+whole transaction must finish
+or<00:02:27.840><c> we</c><00:02:28.000><c> should</c><00:02:28.239><c> be</c><00:02:28.400><c> able</c><00:02:28.560><c> to</c><00:02:28.720><c> revert</c><00:02:29.120><c> the</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+or we should be able to revert the
+ 
+
+00:02:29.280 --> 00:02:31.830 align:start position:0%
+or we should be able to revert the
+database<00:02:29.760><c> to</c><00:02:29.920><c> the</c><00:02:30.080><c> old</c><00:02:30.400><c> state</c><00:02:31.280><c> so</c><00:02:31.440><c> that</c><00:02:31.599><c> we</c>
+
+00:02:31.830 --> 00:02:31.840 align:start position:0%
+database to the old state so that we
+ 
+
+00:02:31.840 --> 00:02:34.390 align:start position:0%
+database to the old state so that we
+don't<00:02:32.080><c> have</c><00:02:32.239><c> that</c><00:02:32.560><c> corrupt</c><00:02:33.040><c> data</c>
+
+00:02:34.390 --> 00:02:34.400 align:start position:0%
+don't have that corrupt data
+ 
+
+00:02:34.400 --> 00:02:37.110 align:start position:0%
+don't have that corrupt data
+alright<00:02:34.800><c> so</c><00:02:35.040><c> next</c><00:02:35.280><c> we</c><00:02:35.440><c> have</c><00:02:35.680><c> consistency</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+alright so next we have consistency
+ 
+
+00:02:37.120 --> 00:02:39.350 align:start position:0%
+alright so next we have consistency
+consistency<00:02:37.760><c> just</c><00:02:38.080><c> means</c><00:02:38.400><c> that</c><00:02:38.560><c> the</c><00:02:38.720><c> database</c>
+
+00:02:39.350 --> 00:02:39.360 align:start position:0%
+consistency just means that the database
+ 
+
+00:02:39.360 --> 00:02:41.910 align:start position:0%
+consistency just means that the database
+should<00:02:39.680><c> help</c><00:02:40.160><c> in</c><00:02:40.640><c> achieving</c><00:02:41.120><c> the</c><00:02:41.360><c> correct</c>
+
+00:02:41.910 --> 00:02:41.920 align:start position:0%
+should help in achieving the correct
+ 
+
+00:02:41.920 --> 00:02:43.350 align:start position:0%
+should help in achieving the correct
+data<00:02:42.239><c> state</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+data state
+ 
+
+00:02:43.360 --> 00:02:45.750 align:start position:0%
+data state
+how<00:02:43.599><c> does</c><00:02:43.760><c> database</c><00:02:44.239><c> do</c><00:02:44.400><c> that</c><00:02:44.959><c> it</c><00:02:45.200><c> helps</c><00:02:45.519><c> by</c>
+
+00:02:45.750 --> 00:02:45.760 align:start position:0%
+how does database do that it helps by
+ 
+
+00:02:45.760 --> 00:02:48.390 align:start position:0%
+how does database do that it helps by
+making<00:02:46.080><c> sure</c><00:02:46.319><c> that</c><00:02:46.560><c> the</c><00:02:46.879><c> constraints</c><00:02:48.000><c> that</c><00:02:48.239><c> we</c>
+
+00:02:48.390 --> 00:02:48.400 align:start position:0%
+making sure that the constraints that we
+ 
+
+00:02:48.400 --> 00:02:50.550 align:start position:0%
+making sure that the constraints that we
+have<00:02:48.640><c> set</c><00:02:48.879><c> for</c><00:02:49.120><c> our</c><00:02:49.440><c> data</c><00:02:50.000><c> they</c><00:02:50.239><c> must</c><00:02:50.400><c> be</c>
+
+00:02:50.550 --> 00:02:50.560 align:start position:0%
+have set for our data they must be
+ 
+
+00:02:50.560 --> 00:02:52.470 align:start position:0%
+have set for our data they must be
+followed<00:02:51.280><c> so</c><00:02:51.519><c> let's</c><00:02:51.680><c> say</c><00:02:51.840><c> that</c><00:02:52.000><c> we</c><00:02:52.160><c> have</c><00:02:52.319><c> a</c>
+
+00:02:52.470 --> 00:02:52.480 align:start position:0%
+followed so let's say that we have a
+ 
+
+00:02:52.480 --> 00:02:55.110 align:start position:0%
+followed so let's say that we have a
+constraint<00:02:53.360><c> on</c><00:02:53.519><c> the</c><00:02:53.680><c> amount</c><00:02:54.160><c> column</c><00:02:54.800><c> that</c><00:02:55.040><c> it</c>
+
+00:02:55.110 --> 00:02:55.120 align:start position:0%
+constraint on the amount column that it
+ 
+
+00:02:55.120 --> 00:02:57.589 align:start position:0%
+constraint on the amount column that it
+can<00:02:55.360><c> never</c><00:02:55.680><c> be</c><00:02:55.840><c> negative</c><00:02:56.480><c> the</c><00:02:56.640><c> database</c><00:02:57.280><c> must</c>
+
+00:02:57.589 --> 00:02:57.599 align:start position:0%
+can never be negative the database must
+ 
+
+00:02:57.599 --> 00:02:59.830 align:start position:0%
+can never be negative the database must
+make<00:02:57.840><c> sure</c><00:02:58.159><c> that</c><00:02:58.319><c> the</c><00:02:58.879><c> constraint</c><00:02:59.519><c> must</c>
+
+00:02:59.830 --> 00:02:59.840 align:start position:0%
+make sure that the constraint must
+ 
+
+00:02:59.840 --> 00:03:02.070 align:start position:0%
+make sure that the constraint must
+always<00:03:00.239><c> be</c><00:03:00.480><c> followed</c><00:03:01.280><c> and</c><00:03:01.440><c> it</c><00:03:01.599><c> can</c><00:03:01.760><c> never</c>
+
+00:03:02.070 --> 00:03:02.080 align:start position:0%
+always be followed and it can never
+ 
+
+00:03:02.080 --> 00:03:03.990 align:start position:0%
+always be followed and it can never
+allow<00:03:02.400><c> the</c><00:03:02.560><c> negative</c><00:03:02.959><c> values</c><00:03:03.519><c> inside</c><00:03:03.840><c> the</c>
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+allow the negative values inside the
+ 
+
+00:03:04.000 --> 00:03:05.589 align:start position:0%
+allow the negative values inside the
+amount<00:03:04.400><c> column</c>
+
+00:03:05.589 --> 00:03:05.599 align:start position:0%
+amount column
+ 
+
+00:03:05.599 --> 00:03:08.070 align:start position:0%
+amount column
+next<00:03:05.840><c> we</c><00:03:05.920><c> have</c><00:03:06.159><c> isolation</c><00:03:07.040><c> which</c><00:03:07.280><c> is</c><00:03:07.680><c> mainly</c>
+
+00:03:08.070 --> 00:03:08.080 align:start position:0%
+next we have isolation which is mainly
+ 
+
+00:03:08.080 --> 00:03:10.710 align:start position:0%
+next we have isolation which is mainly
+about<00:03:08.400><c> the</c><00:03:08.560><c> concurrency</c><00:03:09.519><c> control</c><00:03:10.239><c> so</c><00:03:10.400><c> how</c><00:03:10.640><c> the</c>
+
+00:03:10.710 --> 00:03:10.720 align:start position:0%
+about the concurrency control so how the
+ 
+
+00:03:10.720 --> 00:03:13.509 align:start position:0%
+about the concurrency control so how the
+database<00:03:11.200><c> should</c><00:03:11.440><c> perform</c><00:03:12.400><c> when</c><00:03:12.640><c> there</c><00:03:12.879><c> are</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+database should perform when there are
+ 
+
+00:03:13.519 --> 00:03:16.390 align:start position:0%
+database should perform when there are
+concurrent<00:03:14.480><c> executions</c><00:03:15.760><c> so</c><00:03:15.920><c> let's</c><00:03:16.080><c> say</c><00:03:16.239><c> that</c>
+
+00:03:16.390 --> 00:03:16.400 align:start position:0%
+concurrent executions so let's say that
+ 
+
+00:03:16.400 --> 00:03:18.229 align:start position:0%
+concurrent executions so let's say that
+we<00:03:16.560><c> have</c><00:03:16.720><c> an</c><00:03:16.879><c> account</c><00:03:17.280><c> which</c><00:03:17.519><c> has</c><00:03:17.680><c> around</c><00:03:18.080><c> one</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+we have an account which has around one
+ 
+
+00:03:18.239 --> 00:03:19.990 align:start position:0%
+we have an account which has around one
+thousand<00:03:18.640><c> dollars</c><00:03:19.200><c> and</c><00:03:19.360><c> there</c><00:03:19.519><c> are</c><00:03:19.760><c> two</c>
+
+00:03:19.990 --> 00:03:20.000 align:start position:0%
+thousand dollars and there are two
+ 
+
+00:03:20.000 --> 00:03:21.670 align:start position:0%
+thousand dollars and there are two
+persons<00:03:20.640><c> a</c><00:03:20.879><c> and</c><00:03:21.040><c> b</c>
+
+00:03:21.670 --> 00:03:21.680 align:start position:0%
+persons a and b
+ 
+
+00:03:21.680 --> 00:03:23.670 align:start position:0%
+persons a and b
+trying<00:03:22.000><c> to</c><00:03:22.400><c> get</c><00:03:22.640><c> the</c><00:03:22.720><c> money</c><00:03:23.120><c> out</c><00:03:23.360><c> of</c><00:03:23.440><c> this</c>
+
+00:03:23.670 --> 00:03:23.680 align:start position:0%
+trying to get the money out of this
+ 
+
+00:03:23.680 --> 00:03:25.830 align:start position:0%
+trying to get the money out of this
+account<00:03:24.400><c> so</c><00:03:24.560><c> one</c><00:03:24.799><c> thousand</c><00:03:25.040><c> dollars</c><00:03:25.519><c> and</c><00:03:25.680><c> one</c>
+
+00:03:25.830 --> 00:03:25.840 align:start position:0%
+account so one thousand dollars and one
+ 
+
+00:03:25.840 --> 00:03:27.350 align:start position:0%
+account so one thousand dollars and one
+hundred<00:03:26.159><c> dollars</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+hundred dollars
+ 
+
+00:03:27.360 --> 00:03:29.350 align:start position:0%
+hundred dollars
+if<00:03:27.680><c> we</c><00:03:27.920><c> let</c><00:03:28.239><c> both</c><00:03:28.480><c> of</c><00:03:28.560><c> these</c><00:03:28.799><c> transactions</c>
+
+00:03:29.350 --> 00:03:29.360 align:start position:0%
+if we let both of these transactions
+ 
+
+00:03:29.360 --> 00:03:31.509 align:start position:0%
+if we let both of these transactions
+happen<00:03:29.680><c> at</c><00:03:29.840><c> the</c><00:03:29.920><c> same</c><00:03:30.239><c> time</c><00:03:30.959><c> so</c><00:03:31.120><c> this</c><00:03:31.280><c> would</c>
+
+00:03:31.509 --> 00:03:31.519 align:start position:0%
+happen at the same time so this would
+ 
+
+00:03:31.519 --> 00:03:34.710 align:start position:0%
+happen at the same time so this would
+result<00:03:32.000><c> in</c><00:03:32.080><c> the</c><00:03:32.239><c> deduction</c><00:03:32.799><c> of</c><00:03:33.120><c> 1100</c>
+
+00:03:34.710 --> 00:03:34.720 align:start position:0%
+result in the deduction of 1100
+ 
+
+00:03:34.720 --> 00:03:36.309 align:start position:0%
+result in the deduction of 1100
+so<00:03:34.879><c> the</c><00:03:35.120><c> balance</c><00:03:35.440><c> would</c><00:03:35.680><c> result</c><00:03:36.080><c> in</c><00:03:36.159><c> the</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+so the balance would result in the
+ 
+
+00:03:36.319 --> 00:03:38.630 align:start position:0%
+so the balance would result in the
+negative<00:03:37.120><c> 100</c>
+
+00:03:38.630 --> 00:03:38.640 align:start position:0%
+negative 100
+ 
+
+00:03:38.640 --> 00:03:41.030 align:start position:0%
+negative 100
+isolation<00:03:39.200><c> helps</c><00:03:39.519><c> in</c><00:03:39.680><c> preventing</c><00:03:40.159><c> that</c><00:03:40.640><c> so</c><00:03:40.879><c> it</c>
+
+00:03:41.030 --> 00:03:41.040 align:start position:0%
+isolation helps in preventing that so it
+ 
+
+00:03:41.040 --> 00:03:43.270 align:start position:0%
+isolation helps in preventing that so it
+means<00:03:41.280><c> that</c><00:03:41.519><c> the</c><00:03:41.760><c> database</c><00:03:42.319><c> should</c><00:03:42.640><c> perform</c>
+
+00:03:43.270 --> 00:03:43.280 align:start position:0%
+means that the database should perform
+ 
+
+00:03:43.280 --> 00:03:45.670 align:start position:0%
+means that the database should perform
+that<00:03:43.840><c> concurrent</c><00:03:44.400><c> transaction</c><00:03:45.120><c> in</c><00:03:45.200><c> the</c><00:03:45.360><c> same</c>
+
+00:03:45.670 --> 00:03:45.680 align:start position:0%
+that concurrent transaction in the same
+ 
+
+00:03:45.680 --> 00:03:48.229 align:start position:0%
+that concurrent transaction in the same
+manner<00:03:46.239><c> that</c><00:03:46.480><c> it</c><00:03:46.640><c> would</c><00:03:46.879><c> perform</c><00:03:47.360><c> the</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+manner that it would perform the
+ 
+
+00:03:48.239 --> 00:03:50.390 align:start position:0%
+manner that it would perform the
+sequential<00:03:48.799><c> transactions</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+sequential transactions
+ 
+
+00:03:50.400 --> 00:03:52.710 align:start position:0%
+sequential transactions
+so<00:03:50.560><c> let's</c><00:03:50.799><c> say</c><00:03:51.120><c> both</c><00:03:51.440><c> a</c><00:03:51.680><c> and</c><00:03:51.840><c> b</c><00:03:52.080><c> are</c><00:03:52.239><c> trying</c><00:03:52.560><c> to</c>
+
+00:03:52.710 --> 00:03:52.720 align:start position:0%
+so let's say both a and b are trying to
+ 
+
+00:03:52.720 --> 00:03:54.630 align:start position:0%
+so let's say both a and b are trying to
+get<00:03:52.959><c> the</c><00:03:53.120><c> money</c><00:03:53.439><c> at</c><00:03:53.599><c> the</c><00:03:53.760><c> same</c><00:03:54.080><c> time</c><00:03:54.319><c> from</c><00:03:54.560><c> the</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+get the money at the same time from the
+ 
+
+00:03:54.640 --> 00:03:56.070 align:start position:0%
+get the money at the same time from the
+same<00:03:54.959><c> account</c>
+
+00:03:56.070 --> 00:03:56.080 align:start position:0%
+same account
+ 
+
+00:03:56.080 --> 00:03:57.990 align:start position:0%
+same account
+now<00:03:56.239><c> the</c><00:03:56.400><c> database</c><00:03:57.040><c> should</c><00:03:57.360><c> make</c><00:03:57.599><c> sure</c><00:03:57.840><c> that</c>
+
+00:03:57.990 --> 00:03:58.000 align:start position:0%
+now the database should make sure that
+ 
+
+00:03:58.000 --> 00:04:01.030 align:start position:0%
+now the database should make sure that
+it<00:03:58.159><c> picks</c><00:03:58.560><c> up</c><00:03:59.200><c> one</c><00:03:59.439><c> of</c><00:03:59.599><c> these</c><00:04:00.000><c> persons</c><00:04:00.640><c> either</c>
+
+00:04:01.030 --> 00:04:01.040 align:start position:0%
+it picks up one of these persons either
+ 
+
+00:04:01.040 --> 00:04:03.429 align:start position:0%
+it picks up one of these persons either
+a<00:04:01.280><c> or</c><00:04:01.439><c> b</c><00:04:01.760><c> it</c><00:04:01.920><c> doesn't</c><00:04:02.159><c> really</c><00:04:02.400><c> matter</c>
+
+00:04:03.429 --> 00:04:03.439 align:start position:0%
+a or b it doesn't really matter
+ 
+
+00:04:03.439 --> 00:04:05.670 align:start position:0%
+a or b it doesn't really matter
+and<00:04:03.680><c> perform</c><00:04:04.080><c> the</c><00:04:04.159><c> transaction</c><00:04:04.799><c> once</c>
+
+00:04:05.670 --> 00:04:05.680 align:start position:0%
+and perform the transaction once
+ 
+
+00:04:05.680 --> 00:04:07.030 align:start position:0%
+and perform the transaction once
+and<00:04:05.920><c> update</c><00:04:06.319><c> the</c>
+
+00:04:07.030 --> 00:04:07.040 align:start position:0%
+and update the
+ 
+
+00:04:07.040 --> 00:04:08.869 align:start position:0%
+and update the
+balance<00:04:07.439><c> in</c><00:04:07.519><c> the</c><00:04:07.680><c> account</c>
+
+00:04:08.869 --> 00:04:08.879 align:start position:0%
+balance in the account
+ 
+
+00:04:08.879 --> 00:04:11.190 align:start position:0%
+balance in the account
+so<00:04:09.040><c> that</c><00:04:09.280><c> when</c><00:04:09.439><c> the</c><00:04:09.599><c> next</c><00:04:09.920><c> one</c><00:04:10.159><c> comes</c><00:04:10.480><c> in</c><00:04:11.040><c> it</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+so that when the next one comes in it
+ 
+
+00:04:11.200 --> 00:04:13.270 align:start position:0%
+so that when the next one comes in it
+should<00:04:11.439><c> make</c><00:04:11.599><c> sure</c><00:04:11.840><c> that</c><00:04:12.080><c> it</c><00:04:12.400><c> has</c><00:04:12.640><c> the</c><00:04:12.879><c> correct</c>
+
+00:04:13.270 --> 00:04:13.280 align:start position:0%
+should make sure that it has the correct
+ 
+
+00:04:13.280 --> 00:04:16.789 align:start position:0%
+should make sure that it has the correct
+state<00:04:14.159><c> already</c><00:04:14.560><c> available</c><00:04:14.959><c> in</c><00:04:15.120><c> the</c><00:04:15.200><c> database</c>
+
+00:04:16.789 --> 00:04:16.799 align:start position:0%
+state already available in the database
+ 
+
+00:04:16.799 --> 00:04:18.310 align:start position:0%
+state already available in the database
+there<00:04:17.040><c> is</c><00:04:17.199><c> more</c><00:04:17.359><c> to</c><00:04:17.600><c> isolation</c><00:04:18.160><c> and</c>
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+there is more to isolation and
+ 
+
+00:04:18.320 --> 00:04:21.110 align:start position:0%
+there is more to isolation and
+concurrency<00:04:18.959><c> control</c><00:04:19.519><c> in</c><00:04:19.600><c> the</c><00:04:19.680><c> databases</c>
+
+00:04:21.110 --> 00:04:21.120 align:start position:0%
+concurrency control in the databases
+ 
+
+00:04:21.120 --> 00:04:22.950 align:start position:0%
+concurrency control in the databases
+but<00:04:21.359><c> we'll</c><00:04:21.519><c> be</c><00:04:21.680><c> discussing</c><00:04:22.160><c> more</c><00:04:22.400><c> about</c><00:04:22.720><c> it</c><00:04:22.800><c> in</c>
+
+00:04:22.950 --> 00:04:22.960 align:start position:0%
+but we'll be discussing more about it in
+ 
+
+00:04:22.960 --> 00:04:24.790 align:start position:0%
+but we'll be discussing more about it in
+the<00:04:23.040><c> future</c><00:04:23.440><c> videos</c><00:04:24.160><c> i</c><00:04:24.320><c> will</c><00:04:24.479><c> also</c><00:04:24.639><c> be</c>
+
+00:04:24.790 --> 00:04:24.800 align:start position:0%
+the future videos i will also be
+ 
+
+00:04:24.800 --> 00:04:27.430 align:start position:0%
+the future videos i will also be
+discussing<00:04:25.759><c> what</c><00:04:26.000><c> is</c><00:04:26.160><c> optimistic</c><00:04:27.040><c> currency</c>
+
+00:04:27.430 --> 00:04:27.440 align:start position:0%
+discussing what is optimistic currency
+ 
+
+00:04:27.440 --> 00:04:29.270 align:start position:0%
+discussing what is optimistic currency
+control<00:04:28.080><c> and</c><00:04:28.240><c> also</c><00:04:28.479><c> what</c><00:04:28.720><c> is</c><00:04:28.800><c> the</c><00:04:28.960><c> difference</c>
+
+00:04:29.270 --> 00:04:29.280 align:start position:0%
+control and also what is the difference
+ 
+
+00:04:29.280 --> 00:04:32.070 align:start position:0%
+control and also what is the difference
+from<00:04:29.520><c> pessimistic</c><00:04:30.160><c> concurrency</c><00:04:30.800><c> control</c>
+
+00:04:32.070 --> 00:04:32.080 align:start position:0%
+from pessimistic concurrency control
+ 
+
+00:04:32.080 --> 00:04:33.990 align:start position:0%
+from pessimistic concurrency control
+all<00:04:32.240><c> right</c><00:04:32.400><c> so</c><00:04:32.560><c> the</c><00:04:32.720><c> final</c><00:04:33.040><c> one</c><00:04:33.280><c> we</c><00:04:33.440><c> have</c><00:04:33.680><c> today</c>
+
+00:04:33.990 --> 00:04:34.000 align:start position:0%
+all right so the final one we have today
+ 
+
+00:04:34.000 --> 00:04:36.790 align:start position:0%
+all right so the final one we have today
+is<00:04:34.160><c> durability</c><00:04:35.360><c> durability</c><00:04:36.000><c> just</c><00:04:36.240><c> means</c><00:04:36.560><c> that</c>
+
+00:04:36.790 --> 00:04:36.800 align:start position:0%
+is durability durability just means that
+ 
+
+00:04:36.800 --> 00:04:38.310 align:start position:0%
+is durability durability just means that
+once<00:04:37.040><c> that</c><00:04:37.280><c> transactions</c><00:04:38.000><c> have</c><00:04:38.160><c> been</c>
+
+00:04:38.310 --> 00:04:38.320 align:start position:0%
+once that transactions have been
+ 
+
+00:04:38.320 --> 00:04:40.710 align:start position:0%
+once that transactions have been
+committed<00:04:39.199><c> the</c><00:04:39.360><c> data</c><00:04:39.680><c> must</c><00:04:39.919><c> be</c><00:04:40.160><c> written</c><00:04:40.560><c> to</c>
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+committed the data must be written to
+ 
+
+00:04:40.720 --> 00:04:44.150 align:start position:0%
+committed the data must be written to
+the<00:04:41.199><c> non-volatile</c><00:04:42.080><c> memory</c><00:04:42.560><c> or</c><00:04:42.720><c> the</c><00:04:42.880><c> storage</c>
+
+00:04:44.150 --> 00:04:44.160 align:start position:0%
+the non-volatile memory or the storage
+ 
+
+00:04:44.160 --> 00:04:46.230 align:start position:0%
+the non-volatile memory or the storage
+so<00:04:44.400><c> that</c><00:04:44.560><c> even</c><00:04:44.880><c> if</c><00:04:44.960><c> the</c><00:04:45.199><c> crash</c><00:04:45.600><c> happens</c><00:04:46.080><c> or</c>
+
+00:04:46.230 --> 00:04:46.240 align:start position:0%
+so that even if the crash happens or
+ 
+
+00:04:46.240 --> 00:04:47.510 align:start position:0%
+so that even if the crash happens or
+something<00:04:46.639><c> wrong</c><00:04:46.880><c> happens</c><00:04:47.280><c> with</c><00:04:47.440><c> the</c>
+
+00:04:47.510 --> 00:04:47.520 align:start position:0%
+something wrong happens with the
+ 
+
+00:04:47.520 --> 00:04:50.230 align:start position:0%
+something wrong happens with the
+database<00:04:48.080><c> the</c><00:04:48.240><c> data</c><00:04:48.639><c> must</c><00:04:48.960><c> be</c><00:04:49.120><c> there</c><00:04:49.840><c> and</c><00:04:50.000><c> not</c>
+
+00:04:50.230 --> 00:04:50.240 align:start position:0%
+database the data must be there and not
+ 
+
+00:04:50.240 --> 00:04:51.749 align:start position:0%
+database the data must be there and not
+be<00:04:50.400><c> corrupted</c>
+
+00:04:51.749 --> 00:04:51.759 align:start position:0%
+be corrupted
+ 
+
+00:04:51.759 --> 00:04:54.790 align:start position:0%
+be corrupted
+all<00:04:52.000><c> right</c><00:04:52.160><c> so</c><00:04:52.320><c> that</c><00:04:52.560><c> is</c><00:04:52.720><c> all</c><00:04:53.120><c> what</c><00:04:53.360><c> asset</c><00:04:53.840><c> is</c>
+
+00:04:54.790 --> 00:04:54.800 align:start position:0%
+all right so that is all what asset is
+ 
+
+00:04:54.800 --> 00:04:56.790 align:start position:0%
+all right so that is all what asset is
+all<00:04:55.040><c> the</c><00:04:55.120><c> major</c><00:04:55.440><c> relational</c><00:04:55.919><c> databases</c><00:04:56.560><c> are</c>
+
+00:04:56.790 --> 00:04:56.800 align:start position:0%
+all the major relational databases are
+ 
+
+00:04:56.800 --> 00:04:59.350 align:start position:0%
+all the major relational databases are
+asset<00:04:57.120><c> compliant</c><00:04:58.160><c> however</c><00:04:58.880><c> most</c><00:04:59.120><c> of</c><00:04:59.199><c> the</c>
+
+00:04:59.350 --> 00:04:59.360 align:start position:0%
+asset compliant however most of the
+ 
+
+00:04:59.360 --> 00:05:02.070 align:start position:0%
+asset compliant however most of the
+nosql<00:05:00.240><c> databases</c><00:05:01.039><c> are</c><00:05:01.280><c> not</c>
+
+00:05:02.070 --> 00:05:02.080 align:start position:0%
+nosql databases are not
+ 
+
+00:05:02.080 --> 00:05:03.749 align:start position:0%
+nosql databases are not
+they're<00:05:02.240><c> mostly</c><00:05:02.639><c> designed</c><00:05:03.039><c> to</c><00:05:03.120><c> be</c><00:05:03.360><c> highly</c>
+
+00:05:03.749 --> 00:05:03.759 align:start position:0%
+they're mostly designed to be highly
+ 
+
+00:05:03.759 --> 00:05:06.310 align:start position:0%
+they're mostly designed to be highly
+available<00:05:04.720><c> which</c><00:05:04.960><c> means</c><00:05:05.199><c> that</c><00:05:05.360><c> they</c><00:05:05.919><c> have</c><00:05:06.080><c> to</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+available which means that they have to
+ 
+
+00:05:06.320 --> 00:05:09.270 align:start position:0%
+available which means that they have to
+sacrifice<00:05:07.039><c> on</c><00:05:07.520><c> either</c><00:05:07.840><c> the</c><00:05:08.080><c> consistency</c><00:05:09.120><c> or</c>
+
+00:05:09.270 --> 00:05:09.280 align:start position:0%
+sacrifice on either the consistency or
+ 
+
+00:05:09.280 --> 00:05:11.029 align:start position:0%
+sacrifice on either the consistency or
+maybe<00:05:09.600><c> the</c><00:05:09.759><c> durability</c>
+
+00:05:11.029 --> 00:05:11.039 align:start position:0%
+maybe the durability
+ 
+
+00:05:11.039 --> 00:05:13.670 align:start position:0%
+maybe the durability
+mongodb<00:05:11.600><c> also</c><00:05:11.919><c> supports</c><00:05:12.560><c> transactions</c><00:05:13.280><c> since</c>
+
+00:05:13.670 --> 00:05:13.680 align:start position:0%
+mongodb also supports transactions since
+ 
+
+00:05:13.680 --> 00:05:16.870 align:start position:0%
+mongodb also supports transactions since
+version<00:05:14.080><c> 4</c><00:05:14.639><c> and</c><00:05:14.880><c> is</c><00:05:15.039><c> also</c><00:05:15.840><c> asset</c><00:05:16.160><c> compliant</c><00:05:16.720><c> to</c>
+
+00:05:16.870 --> 00:05:16.880 align:start position:0%
+version 4 and is also asset compliant to
+ 
+
+00:05:16.880 --> 00:05:18.150 align:start position:0%
+version 4 and is also asset compliant to
+some<00:05:17.120><c> extent</c>
+
+00:05:18.150 --> 00:05:18.160 align:start position:0%
+some extent
+ 
+
+00:05:18.160 --> 00:05:20.070 align:start position:0%
+some extent
+and<00:05:18.400><c> that</c><00:05:18.639><c> is</c><00:05:18.800><c> all</c><00:05:18.960><c> for</c><00:05:19.120><c> this</c><00:05:19.360><c> one</c><00:05:19.759><c> thank</c><00:05:19.919><c> you</c>
+
+00:05:20.070 --> 00:05:20.080 align:start position:0%
+and that is all for this one thank you
+ 
+
+00:05:20.080 --> 00:05:21.990 align:start position:0%
+and that is all for this one thank you
+for<00:05:20.240><c> watching</c><00:05:20.880><c> and</c><00:05:21.039><c> i</c><00:05:21.120><c> will</c><00:05:21.360><c> see</c><00:05:21.600><c> you</c><00:05:21.759><c> in</c><00:05:21.919><c> the</c>
+
+00:05:21.990 --> 00:05:22.000 align:start position:0%
+for watching and i will see you in the
+ 
+
+00:05:22.000 --> 00:05:25.240 align:start position:0%
+for watching and i will see you in the
+next<00:05:22.240><c> one</c>
+

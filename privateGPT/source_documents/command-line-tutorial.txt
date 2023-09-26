@@ -1,0 +1,381 @@
+   [tr?id=120259081996654&ev=PageView&noscript=1]
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-WG4J29S]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-WG4J29S
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-TRZX7BZ]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-TRZX7BZ
+
+   [javascript:///]
+
+Create Account (or
+[https://www.learnenough.com/login?after=%2Fcommand-line-tutorial%23cart-chec
+kout]log in )
+
+   Email ____________________
+   Public Username ____________________
+   Password ____________________
+   Password Confirmation ____________________
+   You have to make a choice. Choose...wisely.
+   (*) receive announcement and update emails?
+
+   Get occasional notifications about things like product discounts, blog
+   posts, and new or updated tutorials. Unsubscribe at any time.
+   ( ) No thanks.
+   [ ] Is this a gift?
+
+Gift Delivery Options
+
+   (*) Send Gift by Email (We’ll email the recipient for you)
+   ( ) Print Gift Yourself (Give the gift in a card/envelope)
+   From Name ____________________
+   Recipient Name ____________________
+   Recipient Email ____________________
+   Personalized Gift Message (optional)
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Delivery Date (MM/DD/YYYY - Optional) ____________________
+
+Quick Checkout
+
+   Using PayPal Account:
+   ( )
+   [javascript:///]Change
+
+or Pay by Credit Card
+
+   Card Info
+
+Error processing your payment
+
+     * You didn't choose whether or not to be added to the mailing list
+
+Confirm
+
+   Total Today
+   $0.00
+   (7 day free trial - Payment will be charged after trial ends)
+   (BUTTON) Complete Checkout
+   [payment-d6532f21f3d0117c7b88578c5666d2abf8598dc306db1198909969d73efb9d
+   e6.webp]
+
+   Payments and credit card details are securely managed and protected by
+   Learn Enough's payment processor, Stripe. More information on their
+   site:
+   [https://www.stripe.com/][stripe-697e04c779dd1f74593ce93803987137493cff
+   c44c593b5a73399025cf64820a.webp]
+   [javascript:///]
+
+CART
+
+Total
+
+   Total Today $0.00
+   (7 day free trial - Payment will be charged after trial ends)
+   [javascript:///](BUTTON) Checkout Now
+   [cart_empty-d05104a77de6d5b902a3be3569c6c7ba841d8bcc2530593da0f69dd3764
+   cdb43.webp]
+
+Your Cart is Empty
+
+   [https://www.learnenough.com/courses](BUTTON) See the Tutorials
+   [javascript:///]
+   Current $ /mo
+   $30
+   New $ /
+   mo
+   $300
+   Change
+   $300
+   [javascript:///](BUTTON) Checkout Now / Update Subscription
+   [javascript:///](BUTTON) Cancel
+   Just to confirm, new $ /
+   mo
+   $XY
+   Cost Today
+   $XY
+   On card ending
+   1234
+   [javascript:///](BUTTON) Confirm Change [javascript:///](BUTTON) Cancel
+   [javascript:///][javascript:///]
+   [https://www.learnenough.com/]
+   LEARN ENOUGH
+     * [http://www.learnenough.com/courses]Courses
+     * [http://www.learnenough.com/plans]Plans
+     * [http://www.learnenough.com/gifting]Gifting
+     * [http://www.learnenough.com/ruby-on-rails-7th-edition]The Rails
+       Tutorial
+     * [http://www.learnenough.com/for-teams]For Teams
+     * [http://www.learnenough.com/blog]Blog
+     * [http://www.learnenough.com/login]Log In
+     * [javascript:///]Cart
+     * [javascript:///]____________________
+
+   [https://www.learnenough.com/command-line-tutorial]Mailing List
+   [http://www.learnenough.com/command-line]Tutorial Features
+   [http://www.learnenough.com/command-line#landing-pricing]Subscribe to
+   Course [https://www.learnenough.com/all-access]All Access Subscription
+   Follow author to receive email updates about new content
+   ____________________ Follow Author
+
+     * [https://www.learnenough.com/command-line-tutorial]1. Basics
+          + [https://www.learnenough.com/command-line-tutorial#sec-introdu
+            ction]1.1 Introduction
+          + [https://www.learnenough.com/command-line-tutorial#sec-running
+            _a_terminal]1.2 Running a terminal
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_terminal]1.2.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial#sec-our_fir
+            st_command]1.3 Our first command
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_first_command]1.3.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial#sec-man_pag
+            es]1.4 Man pages
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_man]1.4.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial#sec-editing
+            _the_line]1.5 Editing the line
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_editing_the_line]1.5.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial#sec-cleanin
+            g_up]1.6 Cleaning up
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_cleaning]1.6.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial#sec-summary
+            _cleaning]1.7 Summary
+               o [https://www.learnenough.com/command-line-tutorial#sec-ex
+                 ercises_summary_basics]1.7.1 Exercises
+     * [https://www.learnenough.com/command-line-tutorial/manipulating_fil
+       es]2. Manipulating files
+          + [https://www.learnenough.com/command-line-tutorial/manipulatin
+            g_files#sec-redirecting_and_appending]2.1 Redirecting and
+            appending
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-exercises_redirecting_appending]2.1.1
+                 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/manipulatin
+            g_files#sec-listing]2.2 Listing
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-hidden_files]2.2.1 Hidden files
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-exercises_listing]2.2.2 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/manipulatin
+            g_files#sec-renaming_copying_deleting]2.3 Renaming, copying,
+            deleting
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-unix_terseness]2.3.1 Unix terseness
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-exercises_manipulating]2.3.2 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/manipulatin
+            g_files#sec-summary_manipulating]2.4 Summary
+               o [https://www.learnenough.com/command-line-tutorial/manipu
+                 lating_files#sec-exercises_summary_manipulating]2.4.1
+                 Exercises
+     * [https://www.learnenough.com/command-line-tutorial/inspecting_files
+       ]3. Inspecting files
+          + [https://www.learnenough.com/command-line-tutorial/inspecting_
+            files#sec-downloading_a_file]3.1 Downloading a file
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-exercises_downloading]3.1.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/inspecting_
+            files#sec-making_heads_and_tails]3.2 Making heads and tails of
+            it
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-wordcount_and_pipes]3.2.1 Wordcount and
+                 pipes
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-exercises_head_tails]3.2.2 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/inspecting_
+            files#sec-less_is_more]3.3 Less is more
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-exercises_summary_less]3.3.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/inspecting_
+            files#sec-grepping]3.4 Grepping
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-exercises_grep]3.4.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/inspecting_
+            files#sec-summary_inspecting]3.5 Summary
+               o [https://www.learnenough.com/command-line-tutorial/inspec
+                 ting_files#sec-exercises_inspecting]3.5.1 Exercises
+     * [https://www.learnenough.com/command-line-tutorial/directories]4.
+       Directories
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-structure]4.1 Directory structure
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-exercises_structure]4.1.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-making_directories]4.2 Making directories
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-exercises_making_dirctories]4.2.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-navigating_directories]4.3 Navigating directories
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-exercises_navigating_directories]4.3.1
+                 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-removing_directories]4.4 Renaming, copying, and deleting
+            directories
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-grep_redux]4.4.1 Grep redux
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-exercises_mv_cp_rmdir]4.4.2 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-summary_directories]4.5 Summary
+               o [https://www.learnenough.com/command-line-tutorial/direct
+                 ories#sec-exercises_summary_directories]4.5.1 Exercises
+          + [https://www.learnenough.com/command-line-tutorial/directories
+            #sec-conclusion]4.6 Conclusion
+
+   [javascript:///][javascript:///]
+
+Get Single Tutorial [http://www.learnenough.com/command-line]
+
+   MORE INFO
+
+   Learn Enough Command Line to Be Dangerous is available as an ebook, an
+   offline video series, and as a structured, self-paced online course.
+   The course includes full online access to the book content, streaming
+   videos, progress tracking, exercises, and community exercise answers.
+   [http://www.learnenough.com/command-line#landing-pricing](BUTTON) Check
+   out Plans
+
+All Access Subscription [http://www.learnenough.com/all-access]
+
+   MORE INFO
+
+   The Learn Enough All Access Subscription includes the entire Learn
+   Enough introductory sequence and the full Ruby on Rails Tutorial. More
+   than 2500 pages of book content and 53 hours of video that teach you to
+   code from total beginner up to professional-grade web development.
+   [javascript:///](BUTTON) Add to Cart : ^$ 49.0 [/mo]
+   Sign up for the course and get access to the full tutorial and
+   streaming screencasts!
+   [cover-web.png]
+
+Learn Enough Command Line to Be Dangerous Michael Hartl
+
+   A tutorial introduction to the Unix command line
+
+   {{: answer_text}}___________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   Share with other members {{if make_public}} [X] {{else}} [ ] {{/if}}
+   [javascript:void(0)](BUTTON) Cancel save
+   Formatting:
+   [https://help.github.com/articles/basic-writing-and-formatting-syntax/]
+   Basic Help
+   [https://help.github.com/articles/creating-and-highlighting-code-blocks
+   /]Advanced
+
+Your Answer
+
+   {{: answer_html}}
+   {{if make_public}} PUBLIC {{/if}} [javascript:///]Edit Answer
+   [https://www.learnenough.com/exercise_answers/{{:%20token}}]Link
+   [https://www.learnenough.com/exercise_answers?book_id=164&label={{:exer
+   cise_id}}]View all  ( {{: public_count}} ) [javascript:///]Add Answer
+   [https://www.learnenough.com/command-line-tutorial/manipulating_files]C
+   ONTINUE READING
+
+Join the Mailing List
+
+   Get occasional notifications about things like product discounts, blog
+   posts, and new or updated tutorials. Unsubscribe at any time.
+
+   Success! Thanks for joining the list.
+
+   There was an error submitting your subscription. Please try again.
+   Email Address ____________________ (BUTTON) Subscribe
+   [https://www.learnenough.com/]
+   LEARN ENOUGH
+     * [http://www.learnenough.com/courses]Courses
+     * [http://www.learnenough.com/plans]Plans
+     * [http://www.learnenough.com/scholarship]Scholarship
+     * [https://www.learnenough.com/for-teams]For Teams
+     * [http://www.learnenough.com/login]Log In
+
+     * [http://www.learnenough.com/all-access]All Access
+     * [http://www.learnenough.com/ruby-on-rails-7th-edition]The Rails
+       Tutorial
+     * [http://www.learnenough.com/our-philosophy]Our Philosophy
+     * [http://www.learnenough.com/about]About
+     * [https://news.learnenough.com/]News
+
+     * [http://www.learnenough.com/why-rails]Why Use Ruby on Rails?
+     * [http://www.learnenough.com/why-ruby]Why Use the Ruby Language?
+     * [http://www.learnenough.com/why-program]Why Program?
+     * [http://www.learnenough.com/understand-devs]Why Understand Devs?
+     * [http://www.learnenough.com/for-beginners]For Beginners
+
+     * [http://www.learnenough.com/legal]Legal
+     * [https://www.learnenough.com/cdn-cgi/l/email-protection#394a4c49495
+       64b4d79555c584b575c57564c5e51175a5654]Contact
+
+     * Learn Enough [https://www.youtube.com/c/LearnEnough]
+     * [https://twitter.com/learnenough]
+     * Rails Tutorial [https://twitter.com/railstutorial]
+
+   [javascript:///]
+
+All Access Subscription
+
+   Get free access to all 10 Learn Enough courses (including the Ruby on
+   Rails Tutorial) for 7 days!
+
+Free 7 Day trial details
+
+   We require a credit card for security purposes, but it will not be
+   charged during the trial period. After 7 days, you will be enrolled
+   automatically in the monthly All Access subscription.
+
+   BUT you can cancel any time and still get the rest of the 7 days for
+   free!
+
+   All Learn Enough tutorials come with a 60-day 100% money-back
+   guarantee.
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   [cover-web.png]
+   Billed Yearly
+   Save up to 20%
+   Billed Monthly
+
+   Monthly Cost: $49
+   [https://www.learnenough.com/command-line-tutorial#add.bundle.to.cart](
+   BUTTON) Add to Cart : Free Trial
+
+   [https://www.learnenough.com/all-access](BUTTON) MORE INFO
+
+   Monthly Cost: $39
+   Billed $ 468.0 Anually
+   [https://www.learnenough.com/command-line-tutorial#add.bundle.to.cart](
+   BUTTON) Add to Cart : Free Trial
+
+   [https://www.learnenough.com/all-access](BUTTON) MORE INFO
+   [javascript:///]
+
+   IFRAME: [http:///]http://
+
+   [javascript:///]
+
+   A quick guide to
+   Your Courses
+   Welcome to Learn Enough!
+   [yourcourses_guide_subscribed-compressed-958e0facdb4d53ea70798819653ff9
+   a690857f34a4c607a56c5ddc2057e178a3.jpg]

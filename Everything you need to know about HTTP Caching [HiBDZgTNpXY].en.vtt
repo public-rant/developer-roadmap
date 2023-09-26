@@ -1,0 +1,794 @@
+WEBVTT
+
+
+
+00:00:00.160 --> 00:00:04.799
+Today's topic is Web Cache or the HTTP
+Caching Headers.
+
+00:00:04.799 --> 00:00:08.000
+As users we get frustrated when the
+websites are slow.
+
+00:00:08.000 --> 00:00:11.920
+And to improve the performance, we
+normally use some kind of caching,
+
+00:00:11.920 --> 00:00:15.200
+which can either be on the server-side
+in the form of
+
+00:00:15.200 --> 00:00:20.000
+application level caching, for example
+using Redis or Memcached
+
+00:00:20.000 --> 00:00:24.480
+or it can be on the client-side. So when
+the request comes for a resource,
+
+00:00:24.480 --> 00:00:28.160
+it will be checked in the cache. If it is
+not found in the cache,
+
+00:00:28.160 --> 00:00:32.719
+then the request will be sent to the
+server, the response will be fetched from
+
+00:00:32.719 --> 00:00:35.280
+there and then it will be cached.
+
+00:00:35.280 --> 00:00:38.140
+And in the future when the same
+resource is requested again,
+
+00:00:38.320 --> 00:00:41.920
+there will be no more calls to the
+server, the item will be found in the cache
+
+00:00:41.920 --> 00:00:44.559
+and it will be returned from there.
+
+00:00:44.559 --> 00:00:48.640
+This brings us a couple of benefits.
+So, first of all we have the faster
+
+00:00:48.640 --> 00:00:51.600
+response times.
+Because the requests are not going to
+
+00:00:51.600 --> 00:00:55.120
+the server, so our response times are
+going to be much
+
+00:00:55.120 --> 00:00:59.440
+lower. Secondly, because the items are
+returned from the cache
+
+00:00:59.440 --> 00:01:03.039
+and not the server, so our server
+bandwidth usage
+
+00:01:03.039 --> 00:01:07.360
+is going to decrease also. And the third
+one is the less load on the server.
+
+00:01:07.360 --> 00:01:11.200
+Because not all the requests are going
+to the server, the load on the server
+
+00:01:11.200 --> 00:01:12.500
+is also going to decrease.
+
+00:01:12.500 --> 00:01:15.600
+Alright so now that we know the benefits of the
+
+00:01:15.600 --> 00:01:17.820
+caching and what the caching is,
+
+00:01:18.180 --> 00:01:20.321
+let's look at the caching locations.
+
+00:01:20.321 --> 00:01:22.640
+So the cache can be in one of the three locations.
+
+00:01:22.640 --> 00:01:25.680
+First of all we have the browser cache
+
+00:01:25.700 --> 00:01:29.680
+so the browser you use
+might cache the  response from any
+
+00:01:29.680 --> 00:01:33.820
+previous visits, it depends on the
+caching headers which we will see in a minute.
+
+00:01:34.000 --> 00:01:37.700
+And the cache in the browser is private to the specific user using the website.
+
+00:01:37.880 --> 00:01:40.079
+Next we have the proxy
+
+00:01:40.079 --> 00:01:43.360
+cache which is the cache
+at the proxy level. I will make a
+
+00:01:43.360 --> 00:01:47.360
+detailed video on what the proxies and
+the reverse proxies are.
+
+00:01:47.360 --> 00:01:52.079
+But for now just know that the proxies
+are installed either by your ISP
+
+00:01:52.079 --> 00:01:55.439
+or by the organization you work at. And
+the content
+
+00:01:55.439 --> 00:01:59.759
+might also be cached there. And the last
+one we have is the reverse proxy,
+
+00:01:59.759 --> 00:02:03.119
+which is the proxy that is closer to our
+server,
+
+00:02:03.119 --> 00:02:06.799
+is set up by the server administrators
+and the content
+
+00:02:06.799 --> 00:02:10.879
+might also be cached there. Okay, now that
+we know what the caching is what are the
+
+00:02:10.879 --> 00:02:14.800
+benefits of the caching
+and the common places for the caching,
+
+00:02:14.800 --> 00:02:19.200
+let's look at some terminology
+before we jump on to discuss the caching
+
+00:02:19.200 --> 00:02:22.319
+headers and how the caching works. First of all
+
+00:02:22.319 --> 00:02:25.599
+we have the client
+which is your browser or any application
+
+00:02:25.599 --> 00:02:29.120
+requesting the server
+for some resources. Then we have the
+
+00:02:29.120 --> 00:02:32.879
+origin server,
+which is the source of truth, the place
+
+00:02:32.879 --> 00:02:37.519
+where we find the content from.
+And then on any location of the caching,
+
+00:02:37.519 --> 00:02:41.760
+we might have stale content,
+which is the content which is cached but
+
+00:02:41.760 --> 00:02:45.360
+it is expired.
+And then we have the fresh content, which
+
+00:02:45.360 --> 00:02:48.000
+is cached and it is still usable because it has
+
+00:02:48.000 --> 00:02:51.599
+not expired yet. And then we have some actions such as
+
+00:02:51.599 --> 00:02:55.040
+content validation:
+which is a process of contacting the
+
+00:02:55.040 --> 00:03:00.159
+server to check the validity of the
+cached content and to get it updated if
+
+00:03:00.159 --> 00:03:02.800
+it is expired.
+And lastly we have the cache
+
+00:03:02.800 --> 00:03:06.480
+invalidation, which is the process of
+removing any stale content
+
+00:03:06.480 --> 00:03:09.920
+which is available in the cache. With
+that out of the way,
+
+00:03:09.920 --> 00:03:13.920
+let's understand how the content gets
+cached in any of the locations that we
+
+00:03:13.920 --> 00:03:17.920
+have discussed above.
+HTTP headers play the key role in
+
+00:03:17.920 --> 00:03:21.599
+caching the content
+at any of the places. Whenever the server
+
+00:03:21.599 --> 00:03:25.599
+sends the response to the client,
+it sends the HTTP headers in the
+
+00:03:25.599 --> 00:03:28.640
+response,
+which are then used by the client or any
+
+00:03:28.640 --> 00:03:31.599
+other intermediate places to cache the
+content.
+
+00:03:31.599 --> 00:03:34.799
+Let's look at the caching headers and
+see how they work.
+
+00:03:34.799 --> 00:03:39.200
+We have mainly expires pragma and the
+cache-control.
+
+00:03:39.200 --> 00:03:42.959
+Expires and Pragma were there before
+HTTP 1.1,
+
+00:03:42.959 --> 00:03:46.000
+and they aren't used as much. But you
+might see them
+
+00:03:46.000 --> 00:03:49.760
+being used for the backward
+compatibility. Cache-control was
+
+00:03:49.760 --> 00:03:53.760
+introduced in the HTTP 1.1 and it is the preferred
+
+00:03:53.760 --> 00:03:56.400
+way of caching and everything that you can do with
+
+00:03:56.400 --> 00:04:00.560
+expires and pragma, it's also possible
+with the cache-control.
+
+00:04:00.560 --> 00:04:04.480
+We also have some validator headers
+which are used by the client to make
+
+00:04:04.480 --> 00:04:08.480
+sure that the cached content
+is still usable. Let's look at each of
+
+00:04:08.480 --> 00:04:12.560
+these headers in detail.
+First of all we have the Expires header.
+
+00:04:12.560 --> 00:04:17.120
+The value for expires header is the
+absolute expiry date till which the
+
+00:04:17.120 --> 00:04:20.560
+response can be cached.
+Some of the things that you should note
+
+00:04:20.560 --> 00:04:25.360
+about the expired headers are:
+the value can't be more than one year.
+
+00:04:25.360 --> 00:04:30.000
+And if you provide the invalid value
+or return the wrong date format, the
+
+00:04:30.000 --> 00:04:34.240
+response will be considered stale.
+Next we have the pragma header. The only
+
+00:04:34.240 --> 00:04:38.639
+possible value for that
+is no cache. It is one of the pre-HTTP/1.1
+
+00:04:38.639 --> 00:04:43.280
+headers and it was used to prevent
+the caching. You should prefer to use the
+
+00:04:43.280 --> 00:04:46.560
+cache-control over it, but you might
+still see it being used.
+
+00:04:46.560 --> 00:04:49.759
+And the reason for that is the backward
+compatibility. So
+
+00:04:49.759 --> 00:04:53.360
+that the clients that don't support
+cache control, they might be using this
+
+00:04:53.360 --> 00:04:56.479
+header to avoid the caching. And finally, in the
+
+00:04:56.479 --> 00:04:59.120
+caching headers we have the cache-control header,
+
+00:04:59.120 --> 00:05:03.199
+which is the preferred caching header
+and it was introduced in
+
+00:05:03.199 --> 00:05:08.320
+HTTP/1.1. It's a multi-value header, so it
+can have multiple values or
+
+00:05:08.320 --> 00:05:11.520
+directives, and they determine the
+caching behavior.
+
+00:05:11.520 --> 00:05:14.880
+Let's look at the possible values for
+the cache-control header.
+
+00:05:14.880 --> 00:05:18.639
+First of all we have the private
+directive. If the cache is set to private,
+
+00:05:18.639 --> 00:05:23.039
+it means that the content is private to
+the user, and it will only be cached in
+
+00:05:23.039 --> 00:05:26.560
+the client or the browser. Next we have the public
+
+00:05:26.560 --> 00:05:31.039
+directive, which means that the cache
+is available to multiple users and it
+
+00:05:31.039 --> 00:05:35.120
+can be cached publicly at any of the proxies.
+Next we have the
+
+00:05:35.120 --> 00:05:37.919
+no-store, which means that the content can't be
+
+00:05:37.919 --> 00:05:40.720
+cached anywhere. So every time the client needs the
+
+00:05:40.720 --> 00:05:43.520
+resource, it must make the call to the server
+
+00:05:43.520 --> 00:05:46.639
+for the fresh copy. Next we have the no-cache value,
+
+00:05:46.639 --> 00:05:50.880
+which means that the content can be
+cached, but for client to reuse it, it
+
+00:05:50.880 --> 00:05:55.199
+must first validate it from the server.
+This is done using ETag header, for
+
+00:05:55.199 --> 00:05:59.680
+example, which you will see in a second.
+Then, we have the max-age which tells the
+
+00:05:59.680 --> 00:06:02.639
+client that the content can be cached for the given
+
+00:06:02.639 --> 00:06:06.000
+number of seconds. So if you get a value like this
+
+00:06:06.000 --> 00:06:09.840
+it would mean that the content can be
+cached at any public places
+
+00:06:09.840 --> 00:06:16.319
+or the proxies for 3600 seconds,
+or 60 minutes. And having private would
+
+00:06:16.319 --> 00:06:19.520
+mean that the content can only be cached at the client
+
+00:06:19.520 --> 00:06:25.919
+and not any other place for 60 minutes.
+Next we have s-max age. The prefix
+
+00:06:25.919 --> 00:06:30.160
+`-s` stands for the shared. It is same as
+max-age but gives the
+
+00:06:30.160 --> 00:06:34.319
+caching duration for the shared places
+or the proxies.
+
+00:06:34.319 --> 00:06:37.680
+And in the cases when you have both the
+max-age and the
+
+00:06:37.680 --> 00:06:42.319
+s-max age values present, it will take
+the max-age value for the client-side
+
+00:06:42.319 --> 00:06:45.120
+caching and s-max age value for the shared
+
+00:06:45.120 --> 00:06:49.120
+caching. Next we have must-revalidate.
+
+00:06:49.120 --> 00:06:51.759
+Sometimes, it might happen that the server is not reachable.
+
+00:06:51.759 --> 00:06:56.400
+Or there is a network issue. In that case,
+the client might serve the cached
+
+00:06:56.400 --> 00:06:59.440
+content, even if it is stale. If you have
+
+00:06:59.440 --> 00:07:02.160
+must-revalidate in the value for the cache-control
+
+00:07:02.160 --> 00:07:06.639
+it won't allow using the stale content
+and the content must be revalidated from
+
+00:07:06.639 --> 00:07:09.360
+the server before serving. If you look at the
+
+00:07:09.360 --> 00:07:13.280
+example value that I have here, if you don't have the must re-validate
+
+00:07:13.280 --> 00:07:16.639
+directive, client might keep serving the cached content
+
+00:07:16.639 --> 00:07:19.919
+even after it has expired i.e. after the max-age
+
+00:07:19.919 --> 00:07:24.400
+of 600 seconds has passed and the
+server is not reachable for the fresh content
+
+00:07:24.400 --> 00:07:27.360
+But if you have the must-revalidate present,
+
+00:07:27.360 --> 00:07:31.199
+the client can only serve the cash content for 600 seconds.
+
+00:07:31.199 --> 00:07:35.120
+And after that, it must fetch it from the
+server. And if the server is not
+
+00:07:35.120 --> 00:07:37.759
+reachable, it won't serve the cached content
+
+00:07:37.759 --> 00:07:41.440
+because it is stale.
+Next we have the proxy-revalidate, which
+
+00:07:41.440 --> 00:07:44.000
+is same as must revalidate but it applies
+
+00:07:44.000 --> 00:07:48.319
+to the proxies, or the shared caching. So
+if the given header is present, it would
+
+00:07:48.319 --> 00:07:51.680
+mean that the client may keep serving
+the stale content available at the
+
+00:07:51.680 --> 00:07:54.319
+client if let's say it is not connected to the
+
+00:07:54.319 --> 00:07:57.280
+internet or it has network issues but if it is able
+
+00:07:57.280 --> 00:08:00.960
+to connect to the proxy and there is stale content at the proxy,
+
+00:08:00.960 --> 00:08:05.039
+proxy can't use the stale content and it must get it from the server.
+
+00:08:05.039 --> 00:08:08.080
+A note about mixing the values for the cache-control:
+
+00:08:08.080 --> 00:08:11.280
+you can mix the cache control values however you want
+
+00:08:11.280 --> 00:08:14.479
+to achieve the caching behavior you
+require for your application.
+
+00:08:14.479 --> 00:08:17.520
+For example, the value that I'm showing here right now,
+
+00:08:17.520 --> 00:08:21.680
+it means that the cache is going to be
+public, so it can be stored at the
+
+00:08:21.680 --> 00:08:25.199
+proxies level as well as on the client with the
+
+00:08:25.199 --> 00:08:29.280
+max-age of 3600 seconds.
+We are setting the client level caching
+
+00:08:29.280 --> 00:08:33.680
+to be one hour. And with the s-max-age of 600 seconds,
+
+00:08:33.680 --> 00:08:37.599
+we are setting the proxy level caching to be 600 seconds.
+
+00:08:37.599 --> 00:08:40.479
+and also, since we have the must-revalidate
+
+00:08:40.479 --> 00:08:43.760
+present, the client will never serve the stale content,
+
+00:08:43.760 --> 00:08:48.399
+and it must fetch the fresh content from
+the server whenever it is expired.
+
+00:08:48.399 --> 00:08:52.160
+Up until now, we only discussed how the
+content is cached and how long the
+
+00:08:52.160 --> 00:08:56.000
+cached content is to be considered fresh
+but we did not discuss
+
+00:08:56.000 --> 00:09:00.320
+how the client does the validation from
+the server. For that, server might send
+
+00:09:00.320 --> 00:09:03.360
+one or more validation headers in the response,
+
+00:09:03.360 --> 00:09:07.279
+which are used by the client to make a
+conditional request to the server.
+
+00:09:07.279 --> 00:09:10.959
+First of all we have the e-tags or the entity tags.
+
+00:09:10.959 --> 00:09:14.880
+When serving the content, server normally sends an e-tag header
+
+00:09:14.880 --> 00:09:19.360
+in the response which is just a unique
+identifier associated to the resource.
+
+00:09:19.360 --> 00:09:23.040
+Client then uses this ETag to make a
+request to the server,
+
+00:09:23.040 --> 00:09:27.279
+to check if the content has been changed.
+Let's consider a scenario where the
+
+00:09:27.279 --> 00:09:30.800
+client requested an image,
+and the server responded with the image
+
+00:09:30.800 --> 00:09:33.839
+and the following cache control and ETag headers.
+
+00:09:33.839 --> 00:09:38.160
+Now the client will keep using the image
+from the cache for 3600 seconds
+
+00:09:38.160 --> 00:09:42.160
+or one hour and after one hour, client
+will make the call to the server with
+
+00:09:42.160 --> 00:09:44.959
+the if-none-match header and it will send
+
+00:09:44.959 --> 00:09:48.640
+the ETag of the resource
+in the call. The server will then match
+
+00:09:48.640 --> 00:09:51.839
+the ETag of the resource with the newly
+available resource.
+
+00:09:51.839 --> 00:09:56.240
+If it doesn't match, server will respond
+with the new ETag and the new resource
+
+00:09:56.240 --> 00:09:59.279
+which will then be used to replace the
+current image.
+
+00:09:59.279 --> 00:10:03.760
+If it does match the existing image, the
+server will respond with the status code
+
+00:10:03.760 --> 00:10:07.200
+of 304 which means "Not modified". And the
+
+00:10:07.200 --> 00:10:10.880
+client will renew the cash for another 3600 seconds.
+
+00:10:10.880 --> 00:10:14.000
+Before we move on there are two types of ETags.
+
+00:10:14.000 --> 00:10:18.000
+Strong and the weak. First example is the strong ETag.
+
+00:10:18.000 --> 00:10:21.519
+and it means that the two resources are exactly same.
+
+00:10:21.519 --> 00:10:25.760
+and there is no difference between them
+at all. Weak tags are prefixed with the
+
+00:10:25.760 --> 00:10:28.640
+"W/" and they mean that the two resources are
+
+00:10:28.640 --> 00:10:32.160
+although not strictly same,
+but could be considered same. Next we
+
+00:10:32.160 --> 00:10:36.000
+have last-modified, which indicates the date and time when
+
+00:10:36.000 --> 00:10:40.320
+the content was last modified.
+When the content gets stale client, it will
+
+00:10:40.320 --> 00:10:43.440
+make the conditional request with the last modified date
+
+00:10:43.440 --> 00:10:47.760
+using the if-modified-since header, which
+will then be used by the server to
+
+00:10:47.760 --> 00:10:52.160
+either return 304 — Not modified, or to return the new response.
+
+00:10:52.160 --> 00:10:55.600
+Now you might be asking yourself, what if
+
+00:10:55.600 --> 00:10:58.800
+both the ETag and the last-modified headers are
+
+00:10:58.800 --> 00:11:02.079
+present in the response. What header will then be used by the
+
+00:11:02.079 --> 00:11:06.959
+client to make the validation request
+to the server? Well in that case, the
+
+00:11:06.959 --> 00:11:09.760
+client will send both the parameters in the validation
+
+00:11:09.760 --> 00:11:14.160
+request. The ETag in the if-none-match header and the
+
+00:11:14.160 --> 00:11:18.160
+modified date in the if-modified-since header and the
+
+00:11:18.160 --> 00:11:22.480
+server checks both the values to either return
+
+00:11:22.480 --> 00:11:25.600
+304 Not Modified or to return the new content.
+
+00:11:25.600 --> 00:11:29.440
+Okay, so what about the case when the
+server did not send any of these
+
+00:11:29.440 --> 00:11:32.880
+validation headers?
+Well in that case, there will be no calls
+
+00:11:32.880 --> 00:11:35.519
+to validate and refresh the existing cache
+
+00:11:35.519 --> 00:11:39.760
+and the fresh content will be requested
+as soon as the content gets stale.
+
+00:11:39.760 --> 00:11:43.120
+Alright, now that we know the caching
+headers and the validation,
+
+00:11:43.120 --> 00:11:46.560
+you might be asking yourself what should
+be your caching strategy?
+
+00:11:46.560 --> 00:11:51.200
+There is no global answer to that. It
+varies and depends on the nature of your
+
+00:11:51.200 --> 00:11:54.000
+application but normally it might fall into two
+
+00:11:54.000 --> 00:11:58.399
+categories: light caching for the items
+where you need the client to validate
+
+00:11:58.399 --> 00:12:01.680
+with the server. For example your html files where you
+
+00:12:01.680 --> 00:12:05.519
+can make the client cache it but it must validate it with the
+
+00:12:05.519 --> 00:12:08.399
+server before using it. This way we are making
+
+00:12:08.399 --> 00:12:12.639
+sure that the client always gets the latest html whenever we
+
+00:12:12.639 --> 00:12:16.639
+have it available on the server
+but if the HTML files have not been
+
+00:12:16.639 --> 00:12:21.360
+updated, it can avoid the download
+and serve the one that it has cached in
+
+00:12:21.360 --> 00:12:24.000
+the browser. For the dynamic content, it depends on
+
+00:12:24.000 --> 00:12:27.519
+your needs. So, for example, if you have
+RSS feed for your blog,
+
+00:12:27.519 --> 00:12:31.920
+you might cache it publicly for two
+hours but if you have product listing
+
+00:12:31.920 --> 00:12:35.760
+let's say JSON for an E-Commerce website,
+you might have a different kind of
+
+00:12:35.760 --> 00:12:39.200
+caching headers. In the response
+for the assets, you can have aggressive
+
+00:12:39.200 --> 00:12:43.519
+caching. So for example, here I am caching my CSS, JavaScript and
+
+00:12:43.519 --> 00:12:46.880
+the images for an year in the public caches
+
+00:12:46.880 --> 00:12:51.279
+and I might use the fingerprinted file names.
+So for example my build system will
+
+00:12:51.279 --> 00:12:53.920
+generate a different file name for each build
+
+00:12:53.920 --> 00:12:59.200
+and inject them into my HTML. So whenever
+the client will request the HTML, it will
+
+00:12:59.200 --> 00:13:02.000
+see that the links have been changed, so it will load
+
+00:13:02.000 --> 00:13:06.399
+the new assets from the original server, instead of serving them
+
+00:13:06.399 --> 00:13:10.560
+from the cache.
+And lastly, to debug the http headers, you
+
+00:13:10.560 --> 00:13:13.920
+can either do it with the curl command
+with the option `-I`
+
+00:13:13.920 --> 00:13:18.320
+which will give you the headers from the
+response, or you can do it from the dev tools
+
+00:13:18.320 --> 00:13:23.360
+in the network tab.
+I hope you enjoyed the video, if you have
+
+00:13:23.360 --> 00:13:26.959
+any questions or comments leave them below and I will see you in
+
+00:13:26.959 --> 00:13:34.399
+the next one.
+

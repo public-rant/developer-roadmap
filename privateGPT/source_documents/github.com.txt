@@ -1,0 +1,477 @@
+   #[https://github.com/opensearch.xml]GitHub
+
+   [https://github.com/#start-of-content]Skip to content
+
+   (BUTTON) Toggle navigation
+   [https://github.com/]
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F&source=header-home]Sign up
+   (BUTTON)
+
+     * (BUTTON) Product
+          + [https://github.com/features/actions]Actions
+            Automate any workflow
+          + [https://github.com/features/packages]Packages
+            Host and manage packages
+          + [https://github.com/features/security]Security
+            Find and fix vulnerabilities
+          + [https://github.com/features/codespaces]Codespaces
+            Instant dev environments
+          + [https://github.com/features/copilot]Copilot
+            Write better code with AI
+          + [https://github.com/features/code-review]Code review
+            Manage code changes
+          + [https://github.com/features/issues]Issues
+            Plan and track work
+          + [https://github.com/features/discussions]Discussions
+            Collaborate outside of code
+       Explore
+          + [https://github.com/features]All features
+          + [https://docs.github.com/]Documentation
+          + [https://skills.github.com/]GitHub Skills
+          + [https://github.blog/]Blog
+     * (BUTTON) Solutions
+       For
+          + [https://github.com/enterprise]Enterprise
+          + [https://github.com/team]Teams
+          + [https://github.com/enterprise/startups]Startups
+          + [https://education.github.com/]Education
+       By Solution
+          + [https://github.com/solutions/ci-cd/]CI/CD & Automation
+          + [https://resources.github.com/devops/]DevOps
+          + [https://resources.github.com/devops/fundamentals/devsecops/]D
+            evSecOps
+       Case Studies
+          + [https://github.com/customer-stories]Customer Stories
+          + [https://resources.github.com/]Resources
+     * (BUTTON) Open Source
+          + [https://github.com/sponsors]GitHub Sponsors
+            Fund open source developers
+          + [https://github.com/readme]The ReadME Project
+            GitHub community articles
+       Repositories
+          + [https://github.com/topics]Topics
+          + [https://github.com/trending]Trending
+          + [https://github.com/collections]Collections
+     * [https://github.com/pricing]Pricing
+
+   (BUTTON)
+   Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+   Search
+   ____________________
+   Clear (BUTTON)
+
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]Search syntax tips
+
+Provide feedback
+
+   (BUTTON)
+
+   We read every piece of feedback, and take your input very seriously.
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   [ ] Include my email address so I can be contacted
+   (BUTTON) Cancel (BUTTON) Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+   (BUTTON)
+   Name ____________________
+   Query ____________________
+
+   To see all available qualifiers, see our
+   [https://docs.github.com/en/search-github/github-code-search/understand
+   ing-github-code-search-syntax]documentation.
+   (BUTTON) Cancel (BUTTON) Create saved search
+   [https://github.com/login]Sign in
+   [https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&re
+   f_page=%2F&source=header-home]Sign up
+
+   You signed in with another tab or window. [https://github.com/]Reload
+   to refresh your session. You signed out in another tab or window.
+   [https://github.com/]Reload to refresh your session. You switched
+   accounts on another tab or window. [https://github.com/]Reload to
+   refresh your session. (BUTTON)
+
+   (BUTTON)
+   {{ message }}
+
+   [https://github.com/features/preview/copilot-x]
+   Introducing GitHub Copilot X
+   Your AI pair programmer is leveling up
+
+Let’s build from here
+
+   Harnessed for productivity. Designed for collaboration. Celebrated for
+   built-in security. Welcome to the platform developers love.
+
+   Email address
+          ____________________
+
+   (BUTTON) Sign up for GitHub
+   [https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+
+   enterprise+trial&ref_loc=Home+campaign+hero&ref_page=%2F]Start a free
+   enterprise trial
+
+   Trusted by the world’s leading organizations ↘︎
+   Stripe logo Pinterest logo
+   KPMG logo
+   Mercedes-Benz logo
+   P&G logo Telus logo
+   (BUTTON)
+   [https://github.com/#productivity]Productivity
+   [https://github.com/#collaboration]Collaboration
+   [https://github.com/#security]Security
+   [https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+
+   enterprise+trial&ref_loc=homepage+sticky+nav&ref_page=%2F]Start a free
+   enterprise trial
+   [https://github.com/join?ref_cta=Sign+up+for+GitHub&ref_loc=homepage+st
+   icky+nav&ref_page=%2F&source=homepage-sticky-nav]Sign up for GitHub
+
+Productivity
+
+Accelerate high-quality software development. Our AI-powered platform drives
+innovation with tools that boost developer velocity.
+
+   mona-github-github-g59jpq2w5w7.github.dev
+     * index.html
+     * script.js
+     * package.json
+
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+<div class="position-absolute width-full color-bg-default" style="bottom: -4rem;
+">
+  <div class="container-xl p-responsive">
+    <div class="d-flex flex-justify-center flex-lg-justify-end color-bg-default"
+>
+      <div class="col-8 col-sm-7 col-md-6 col-lg-5 position-relative z-2 right-l
+g-n12 events-none">
+        <picture>
+          <source srcset="astro-mona.webp" type="image/webp">
+          <img src="astro-mona.svg" width="960" height="967" class="home-astro-m
+ona width-full position-absolute bottom-0 height-auto" alt="Mona looking at GitH
+ub activity across the globe">
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+
+     * Terminal
+     * Output
+     * Problems
+     * Debug Console
+
+   [09:43:36] Starting 'watch-extension:vscode-api-tests' ...
+   [09:43:36] Finished 'clean-extension:typescript-language-features'
+   after 248 ms
+   [09:43:36] Starting 'watch-extension:typescript-language-features' ...
+   [09:43:36] Finished 'clean-extension:php-language-features' after 384
+   ms
+   [09:43:36] Starting 'watch-extension:php-language-features' ...
+   [09:43:40] Finished 'clean-extension:html-language-features-server'
+   after 4.66 s
+   [09:43:40] Starting 'watch-extension:html-language-features-server' ...
+   [09:43:43] Finished 'clean-client' after 7.33 s
+   [09:43:43] Starting 'watch-client' ...
+   Planet earth with visualization of GitHub activity crossing the globe
+
+GitHub Codespaces offers a complete dev environment in seconds, so you can
+code, build, test, and open pull requests from any repo anywhere.
+
+   [https://github.com/features/codespaces]Check out GitHub Codespaces
+   Did you know?
+
+22% increase
+
+   in developer productivity
+   after three years with GitHub^1
+
+   GitHub Copilot is your AI pair programmer that empowers you to complete
+   tasks 55% faster by turning natural language prompts into coding
+   suggestions.
+   [https://github.com/features/copilot]Meet GitHub Copilot
+
+   (button) Python draw_scatterplot.py (button) JavaScript time.js
+   (button) Go memoize.go
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+import matplotlib.pyplot as plt
+
+def draw_scatterplot(x_values, y_values):
+    plt.scatter(x_values, y_values, s=20)
+    plt.title("Scatter Plot")
+    plt.xlabel("x values")
+    plt.ylabel("y values")
+    plt.show()
+
+   Copilot
+   (BUTTON) Replay
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+const seconds = 3600
+const minutes = seconds / 60
+const hours = minutes / 60
+const days = hours / 24
+const weeks = days / 7
+const months = days / 30
+const years = months / 12
+
+   Copilot
+   (BUTTON) Replay
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+package main
+  func Memoize(fn func(int) int) func(int) int {
+      cache := make(map[int]int)
+      return func(n int) int {
+          if v, ok := cache[n]; ok {
+              return v
+          }
+          cache[n] = fn(n)
+          return cache[n]
+      }
+  }
+
+   Copilot
+   (BUTTON) Replay
+
+   GitHub Actions automates your build, test, and deployment workflow with
+   simple and secure CI/CD.
+   [https://github.com/features/actions]Discover GitHub Actions
+
+   GitHub Mobile fits your projects in your pocket, so you never miss a
+   beat while on the go.
+   [https://github.com/mobile]Get GitHub Mobile
+
+Collaboration
+
+Supercharge collaboration. We provide unlimited repositories, best-in-class
+version control, and the world’s most powerful open source community—so your
+team can work more efficiently together.
+
+   Illustration of project table view with cards grouped by 'Feature
+   planning' phase.
+
+GitHub Issues and GitHub Projects supply flexible project management tools
+that adapt to your team alongside your code.
+
+   [https://github.com/features/issues]Explore GitHub Issues
+   Did you know?
+
+80% reduction
+
+   in onboarding time with GitHub^1
+
+   GitHub Discussions create space to ask questions and have open-ended
+   conversations.
+   [https://github.com/features/discussions]Enable GitHub Discussions
+
+   Pull requests allow real-time communication and collaboration about
+   code changes.
+   [https://github.com/features/code-review]Check out pull requests
+
+   GitHub Sponsors lets you support your favorite open source maintainers
+   and projects.
+   [https://github.com/sponsors]Invest with GitHub Sponsors
+   [https://github.com/curl]curl avatar
+   curl
+   (BUTTON) Sponsor
+   [https://github.com/dayhaysoos]Nick DeJesus avatar
+   Nick DeJesus
+   (BUTTON) Sponsor
+   [https://github.com/directus]Directus avatar
+   Directus
+   (BUTTON) Sponsor
+   [https://github.com/imolorhe]Samuel avatar
+   Samuel
+   (BUTTON) Sponsor
+   [https://github.com/commandpost]CommandPost avatar
+   CommandPost
+   (BUTTON) Sponsor
+   [https://github.com/kazupon]kazuya kawaguchi avatar
+   kazuya kawaguchi
+   (BUTTON) Sponsor
+   [https://github.com/homebrew]Homebrew avatar
+   Homebrew
+   (BUTTON) Sponsor
+   [https://github.com/prophen]Nikema avatar
+   Nikema
+   (BUTTON) Sponsor
+   [https://github.com/sindresorhus]sindresorhus avatar
+   sindresorhus
+   (BUTTON) Sponsor
+
+Security
+
+Embed security into the developer workflow. With GitHub, developers can
+secure their code in minutes and organizations can automatically comply with
+regulations.
+
+   cmake.yml
+   on: push
+     * Build
+       1m 21s
+
+   Steps
+     * Initialize CodeQL
+       1m 42s
+     * Autobuild
+       1m 24s
+     * Perform CodeQL Analyses
+       1m 36s
+
+GitHub Advanced Security lets you gain visibility into your security posture,
+respond to threats proactively, and ship secure applications quickly.
+
+   [https://github.com/features/security]Get GitHub Advanced Security
+   Did you know?
+
+56 million projects
+
+   fixed vulnerabilities with GitHub^2
+
+   Secret scanning automatically looks for partner patterns and prevents
+   fraudulent use of accidentally committed secrets.
+   [https://github.com/features/security/code]Read about secret scanning
+
+   Dependabot makes it easy to find and fix vulnerable dependencies in
+   your supply chain.
+   [https://github.com/features/security/software-supply-chain]Explore
+   Dependabot
+
+   Code scanning is GitHub’s static code analysis tool that helps you
+   remediate issues in your code.
+   [https://resources.github.com/security/sast/]Download the latest SAST
+   ebook
+
+The place for anyone from anywhere to build anything
+
+   Whether you’re scaling your startup or just learning how to code,
+   GitHub is your home. Join the world’s largest developer platform to
+   build the innovations that empower humanity. Let’s build from here.
+   [https://github.com/signup?ref_cta=Sign+up+for+GitHub&ref_loc=Home+camp
+   aign+footer&ref_page=%2F]Sign up for GitHub
+   [https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+
+   enterprise+trial&ref_loc=Home+campaign+footer&ref_page=%2F]Start a free
+   enterprise trial
+   Planet earth with visualization of GitHub activity crossing the globe
+   Mona looking at the galaxy
+
+     * ^1 The Total Economic Impact™ Of GitHub Enterprise Cloud and
+       Advanced Security, a commissioned study conducted by Forrester
+       Consulting, 2022. Results are for a composite organization based on
+       interviewed customers.
+     * ^2 GitHub, Octoverse 2022 The state of open source software.
+
+   [https://github.com/]
+
+Subscribe to our newsletter
+
+   Get product updates, company news, and more.
+   [https://resources.github.com/newsletter/]Subscribe
+
+Product
+
+     * [https://github.com/features]Features
+     * [https://github.com/security]Security
+     * [https://github.com/team]Team
+     * [https://github.com/enterprise]Enterprise
+     * [https://github.com/customer-stories?type=enterprise]Customer
+       stories
+     * [https://github.com/readme]The ReadME Project
+     * [https://github.com/pricing]Pricing
+     * [https://resources.github.com/]Resources
+     * [https://github.com/github/roadmap]Roadmap
+     * [https://resources.github.com/devops/tools/compare/]Compare GitHub
+
+Platform
+
+     * [https://docs.github.com/get-started/exploring-integrations/about-b
+       uilding-integrations]Developer API
+     * [https://partner.github.com/]Partners
+     * [https://www.electronjs.org/]Electron
+     * [https://desktop.github.com/]GitHub Desktop
+
+Support
+
+     * [https://docs.github.com/]Docs
+     * [https://github.community/]Community Forum
+     * [https://services.github.com/]Professional Services
+     * [https://github.com/premium-support]Premium Support
+     * [https://skills.github.com/]Skills
+     * [https://www.githubstatus.com/]Status
+     * [https://support.github.com/?tags=dotcom-footer]Contact GitHub
+
+Company
+
+     * [https://github.com/about]About
+     * [https://github.blog/]Blog
+     * [https://github.com/about/careers]Careers
+     * [https://github.com/about/press]Press
+     * [https://github.com/about/diversity]Inclusion
+     * [https://socialimpact.github.com/]Social Impact
+     * [https://shop.github.com/]Shop
+
+     * [https://twitter.com/github]Twitter icon GitHub on Twitter
+     * [https://www.facebook.com/GitHub]Facebook icon GitHub on Facebook
+     * [https://www.linkedin.com/company/github]Linkedin icon GitHub on
+       LinkedIn
+     * [https://www.youtube.com/github]YouTube icon GitHub on YouTube
+     * [https://www.twitch.tv/github]Twitch icon GitHub on Twitch
+     * [https://www.tiktok.com/@github]TikTok icon GitHub on TikTok
+     * [https://github.com/github]GitHub mark GitHub’s organization on
+       GitHub
+
+     * © 2023 GitHub, Inc.
+     * [https://docs.github.com/site-policy/github-terms/github-terms-of-s
+       ervice]Terms
+     * [https://docs.github.com/site-policy/privacy-policies/github-privac
+       y-statement]Privacy
+       ([https://github.com/github/site-policy/pull/582]Updated 08/2022)
+     * [https://github.com/sitemap]Sitemap
+     * [https://github.com/git-guides]What is Git?
+
+   (BUTTON) You can’t perform that action at this time.
+
+   (BUTTON)

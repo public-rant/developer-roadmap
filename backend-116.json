@@ -1,0 +1,37 @@
+[
+ {
+  "id": "elasticsearch",
+  "tag": "h1",
+  "text": "Elasticsearch"
+ },
+ {
+  "id": "search-engines",
+  "tag": "h1",
+  "text": "Search Engines"
+ },
+ {
+  "id": "solr",
+  "tag": "h1",
+  "text": "Solr"
+ },
+ {
+  "href": "https://www.elastic.co/elasticsearch/",
+  "tag": "a",
+  "text": "Elasticsearch Website"
+ },
+ {
+  "href": "https://www.elastic.co/guide/index.html",
+  "tag": "a",
+  "text": "Elasticsearch Documentation"
+ },
+ {
+  "href": "https://solr.apache.org/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://solr.apache.org/resources.html#documentation",
+  "tag": "a",
+  "text": "Official Documentation"
+ }
+]

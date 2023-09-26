@@ -1,0 +1,1066 @@
+all right welcome to the micro service
+and service observability talk everybody
+thanks for showing up my name is clay
+Smith I m a developer advocate in New
+Relic and really excited to be talking
+about this especially with the
+announcements this morning around
+faregates and cabrillo days for ECS a
+new relic if you don t know us we have a
+number of different solutions for
+monitoring and having Analects around
+solutions that run on the cloud or on
+prim and because of that we ve been
+talking to a lot of our customers the
+past year and a half and we ve seen a
+massive amount of interest in serverless
+compute technology specifically AWS
+lambda and the the purpose or the
+inspiration behind this talk was we ve
+seen this pattern over and over again
+that as people move to service computing
+architectures the focus for this talk
+later will be specifically lambda but
+just in general a lot of the assumptions
+and best practices in playbooks
+for monitoring those workloads in those
+serverless compute environments it does
+change and with that in mind this talk
+really tries get into that a bit and
+we ll wrap up with the lambda case study
+we were running headless chrome and a
+Miss lambda and learned some interesting
+performance things around that and then
+Marcus Ervin will join us the end for
+Q amp A on a recent recent project his team
+just launched in production sort of jump
+right in observability has been
+discussed a lot especially if you follow
+the monitoring people on twitter the
+clearest definition and I and why I
+think it is important is that it gets to
+an idea that s not necessarily
+monitoring but it s a good conversation
+starter and specifically it has this
+focus on how well do we understand the
+workloads that we re running in the
+cloud or on prim from the work they do
+and how good is that and can we make it
+better to ultimately make the systems we
+build a design better as well and so
+observability whether you like the term
+or not or just want to call it
+monitoring that s not necessarily the
+the key point or takeaway but I think
+it s a really important discussion
+especially as we look
+these new software architectures like
+lambda or consider or try and build some
+sort of next generation system so
+observability I think is really nice for
+at least starting the conversation
+around how well do you understand what s
+actually going on in these environments
+related and I think also really
+important is this idea of
+instrumentation so we have workloads
+running in some service whether it s a
+traditional VM or something
+next generation like far gate how do we
+understand what that code is actually
+doing when it s actually responding to
+an active request and instrumentation
+not a new idea at all but it just gets
+this idea of what events we want to
+measure in code to understand what that
+code is actually doing in production
+responding to a real request and so
+these this idea of observability and
+instrumentation I think it s coming up a
+lot more especially when we talk about
+lambda and have container orchestration
+systems because it gets two really
+important ideas of actually
+understanding what s going on in the
+first place the agenda for this talk and
+where we ll go where we re gonna go here
+the first bit is really a discussion of
+a lot of the architectures we see
+different customers moving to since this
+is a server list track talk a lot of
+that should be familiar
+we will go then into kind of the role
+different data types play in
+understanding new architectures and
+potentially how that s different from
+older legacy architectures we ll end up
+with some just kind of higher level
+requirements and then from there and
+this is kind of the more fun part we re
+actually going to try and put some of
+those in practice looking at a large
+lambda function and then lastly we ll be
+talking with with Marcus with a QA and
+there ll be time for audience questions
+at the end too so stay tuned at the this
+talk the AWS reinvent talks of get
+prepared for all speakers pretty long in
+advance so in the spring of this year
+there was a little bit of a side project
+of trying to understand the history of
+monitoring are kind of where we came
+from and it turns out that all of the
+IBM system 360 manuals have actually
+been
+and or online and so the really
+interesting question was well how has
+monitoring changed from the late 60s
+when you were wearing a lab coat looking
+at a mainframe and surprisingly two
+things stuck out that are mostly the
+same at least kind of in practice one
+you want to have visibility into in the
+different execution paths so the
+mainframe does something you want to
+know what happens along different paths
+that s still true today and then in the
+event of a failure IBM system 360 would
+actually print out the entire contents
+of memory for debugging and so this idea
+of a stack trace or understanding the
+state of the program when it failed
+that s also true too
+there was some patch card stuff that we
+obviously no longer use though so yes
+the workplace has changed we don t to
+wear lab coats anymore but the
+architectures themselves have obviously
+evolved very quickly we re looking at
+things on mobile edge computing IOT
+the keynotes announcements today but I
+think that same desire or that same
+necessity as an operator or developer to
+know what the state of the program is
+during its execution that still is the
+same many years later one of the most
+common patterns we ve seen our customers
+migrates here the past few years is it s
+not a surprising one for anyone here
+it s this idea of taking a very large
+monolithic application we see a lot of
+these written in Java and you re gonna
+break into parts and in different ways
+into either SOA or micro services what
+gets really interesting though
+especially with the growth and different
+AWS managed services is that as you
+decompose a monolith into different
+micro services a lot of those components
+might just be fully managed AWS services
+different AI tools things like in
+Candido and I think that s really
+interesting because even though you
+might be running your own code that code
+is now interacting with AWS managed
+services and the monitoring or
+visibility requirements are slightly
+different when you re looking at those
+
+the other the other thing that s pretty
+interesting too is that we see more
+customers deploying to more than one
+80 s region not necessarily a super
+surprising trends but we recently did
+just last week a study of everyone using
+our alias lambda integration and we
+found that generally people that were
+using lambda different accounts that
+we re using lambda functions that were
+monitored with new relic were deployed
+in a single AWS region but there was a
+really interesting percentage of
+accounts that were deployed in many many
+regions slightly less than 1 a single
+account
+we re running lambdas in around nine
+different AWS regions so it s really I
+think opening up some really fascinating
+use cases around people running code and
+multiple regions around the world for
+different reasons and lastly with the
+improvements we ve seen recently to
+lambda at edge we can now run more
+complex workloads directly on the edge
+in lambda functions the compute is it
+getting physically closer to customers
+and obviously IOT is kind of an
+extension of that as well so globally
+distributed it s getting closer to
+customers and we re having more
+components to play with the switch to
+SOA or micro services on top of all that
+the compute workloads themselves are
+fairly short lived we new relic monitors
+docker containers and we did a study in
+early spring of this year of what s the
+lifetime of those containers so how long
+does the docker container actually stick
+around this is the distribution sorry
+for the lack of labels on the graph but
+it s from one to 100 minutes in 1 minute
+buckets and you can see here from this
+this heavy the distribution is is very
+short lived so the median is around a
+couple of minutes and that s really
+interesting because as people move to
+these new environments they re not
+necessarily doing this not necessarily
+lifting and shifting in the existing
+application architecture and do a large
+container it s scaling up and down and
+those containers are very short lived
+so kind of interesting there all in all
+more people tell us or say something
+along the lines that they re running
+something that resembles or looks a lot
+like a very complex distributed system
+this is just the service map service
+maps or diagrams of relationships
+between services are always good for
+defending how complex your distributed
+system is Netflix probably has the most
+famous one I think they call it the
+Deathstar diagram this is a much simpler
+one but I guess is the same idea that we
+have a simple web application here that
+has a database and as a mobile web app
+but the number of components continues
+to grow I think the good news here and
+historically we tend to get better at
+operating in these kinds of environments
+it s not a hopeless situation people
+there there certainly challenges in
+building and designing and operating
+software that s globally distributed in
+ephemeral components using hybrid
+architectures but generally we know that
+we do get better at it over time and I
+think a really key part of that and one
+thing that helps a lot is having data to
+actually help through that process and
+the technical reasons aren t necessarily
+all that s surprising obviously having
+good data and visibility helps with
+debugging and troubleshooting just like
+IBM system 360 knowing the state of the
+program when it fails pretty useful much
+earlier in the process before you re
+even writing a line of code having data
+to validate designs so based on previous
+systems using that operational data to
+inform the design of next generation or
+new systems what actually works what
+should we build reducing defects caching
+the issues before they become a serious
+problem and ultimately for the business
+using all that to move faster and that s
+moving faster gets in this idea of
+cultural shifts and that s some how can
+the data actually help people work
+together on a team and the one thing we
+hear a lot about and this is very
+related to DevOps there s this idea of
+building transparency across teams
+having that shared reference points
+especially when the components are
+fairly complex
+and moving to this model where decisions
+are data informed and not necessarily
+driven by guessing or kind of picking
+the newest trendy framework one thing
+that s really important I think for
+people in practitioner roles is the
+ability to have freedom to experiment
+try new architectures try new ways of
+doing things
+but not necessarily being prevented from
+doing that because there s some you know
+white paper that s it insists that there
+must be there must be a single process
+for doing it correctly and lastly we get
+to the kind of more of the post mortem
+situations where when things do break
+that s it s not necessarily the fault of
+one individual or one change it s a
+complex system there s there s really no
+no blame that can be associated with one
+person so between all that I think we
+get to this idea in order to get to that
+good data in order to actually
+understand what these workloads are
+doing regardless of whether they run in
+lambda or kubernetes cluster how do we
+actually understand what it s doing and
+I think instrumentation is a really key
+part of that the the really interesting
+question and and the thing that I ve
+been working on especially with a double
+slam de the past years so is you know
+assuming we believe that data is
+important I think that s that s a good
+place to start
+and that instrumentation that helps us
+get better visibility into workloads as
+they run in new things specifically in
+the Animas lambda environments or with
+different emerging micro service
+architectures Fargate obviously is the
+newest one as of this morning
+how do we actually make that code
+observer bill observable how do we
+actually know what it does and and how
+it works we ve kind of broken it down
+into three different requirements and
+the first one of course is that s there
+are different data types available for
+these different systems and logging is
+great metrics are great traces are
+useful but over reliance on one we find
+typically misses some opportunities and
+actually understanding how the system
+works
+a good example would be metrics so if
+you want to answer the question is my
+response time slower this week or last
+week metrics are great for answering
+that question you have a Vince with the
+measurements over some time series and
+you can answer that pretty easily if
+you re measuring response time in the
+first place
+logs of course the raw human readable
+machine data useful for debugging so if
+the database won t start on a server
+you ll inevitably be looking at logs and
+traces and traces I think are especially
+interesting with lambda and different
+micro service architectures because
+they re actually establishing a
+relationship between events on different
+systems so it can answer things like
+what are the dependencies or even for a
+single request for a single service
+what s the breakdown in time between
+different methods and different external
+calls and I think the combination of all
+three of those some people have called
+these the the three golden data types
+observer ability I think using all three
+in deciding which what the balance is
+between the three can be really useful
+in understanding what s actually
+happening the difficulty of course is
+that if you have a new modern micro
+service you built from scratch with this
+mindset in mind with this mindset you
+might have really good observability
+into a single service but obviously it s
+more than just back in components
+especially as we look at things like
+edge computing and eventually IOT so you
+have mobile and browser applications
+talking to multiple applications they
+might be running in different containers
+or different operating systems inside an
+ec2 instance and in that intern is
+probably interacting with lots of
+different AWS managed services so having
+visibility into only one of these
+components doesn t really tell the
+entire story so it s having full
+coverage of all of those different
+components together and the last thing
+and this is this is kind of interesting
+too because there s this perception that
+that s instrumentation manual
+instrumentation especially getting full
+coverage across a large team in
+different offices around the world is
+very slow process and it s hard to get
+there and it requires a lot of tedious
+work and in some say in some cases if
+the service is old enough
+perhaps the expert on that service you
+would like visibility into no longer
+works in the company or has moved on or
+been promoted to a new project we do
+hear that a lot so there s this idea I
+think this has related this this
+practice of observability that s
+instrumentation should be built in to
+everything you run and build and some of
+our largest customers in the relative
+actually started experiment with this
+idea and created dedicated observability
+engineering teams which is an
+interesting way to kind of make this a
+practice company wide so across those
+three things I think it s it s a good
+it s a good point to kind of pivot to a
+nub use lambda itself so I ve talked a
+lot about a lot at this point around you
+know metrics logs traces observability
+of how that works why that matters I
+think it s important to actually back
+that up with with an example here and a
+team is lambda is a specifically
+interesting one because of the
+constraints of the runtime environment
+and because abs manages the
+infrastructure the lambda runs on a lot
+of the practices we have for servers
+don t necessarily apply directly to
+lambda we can t really look at host CPU
+percentage for a lambda function running
+of on the internal lambda service for
+example so what does that actually look
+like Amazon provides some observability
+automatically obviously a set of cloud
+watch metrics and logs if you log it to
+a lambda function it ll appear in cloud
+watch and the metrics specifically there
+there s a different sets depending on
+the service we ve got invitations and
+duration and throttles the one we ll be
+focusing on for this case study
+specifically is duration the lambda
+function is a fairly large a fairly
+large one it s it s running headless
+Chrome as I said earlier so what we re
+really interested in is making sure the
+duration is
+is fast the function is very fast and it
+runs quickly obviously for billing
+reasons the other thing and I guess this
+week at reinvent it would be celebrating
+it s it s your anniversary is of course
+a WS s a Tobias x ray which is which is
+a service provided by a POS that allows
+you to trace requests between different
+a Tobias magnetic components the really
+interesting thing about x ray and the
+really useful thing if you re going down
+the path of debugging a Tobias lamda
+performance is x ray when enabled for
+lamda actually exposes some really
+interesting internal details that you
+can t actually observe from the
+perspective of your application code
+running in lamda and the really big one
+and the really interesting one is this
+idea of cold starts in a Tobias lambda
+functions so we talk about Amos lamda
+performance there s been a lot written
+about this if you go to server list
+conferences there s always a cold start
+talk but the really nice thing is if you
+enable x ray for lambda function you
+actually see how much time is spent in
+the internal lamda service so when the
+internal amber service actually receives
+the request and then when your function
+actually starts executing and so if you
+look at these this table there s the a
+torus lamda and a nativist lambda
+function if you compare the difference
+between the two you can actually measure
+a cold start time and by that I mean the
+latency between when the internal aw
+lambdas service receives the request to
+invoke your function and then when your
+code actually starts running and so
+there s some internal setup obviously
+the has to be done to create the
+environment to run your function code
+really interesting and available
+visually in v8 of your slammed sorry in
+the AWS x ray UI if we run this same
+function again it looks slightly
+different you notice there s no large
+difference between the internal lamda
+service and your function and that s
+because it s a warm start so there s no
+set up time and your function
+initialization code doesn t have to run
+either so it was essentially looking at
+this x ray trace data
+they wanted to ask a lot of questions
+around performance of this lambda
+function and specifically we know that
+we have different numbers in a trace and
+a trace happens at a particular time so
+if we aggregate the traces and we know
+what time the numbers in those traces
+happened we can ultimately turn those
+traces into metrics and we can answer a
+couple of really interesting performance
+questions that before the x ray
+integration existed you really put an
+answer very easily at all and
+specifically the really big one and the
+important one is where s time actually
+being spending the function but more
+importantly especially if you re
+wondering if cold starts are impacting
+your performance is that an issue at all
+our cold starts actually impacting the
+way people interact with the function
+and of course understanding that over
+time not surprisingly to actually pull
+data out of x ray there s an API and
+like almost every very service this code
+is on github there s a Atos Amazon Cloud
+watch scheduled event it pulls data from
+the x ray API every few minutes and it
+sends it to new relics events event
+database insights for further analytics
+and so after we ve pulled in the trace
+data over a 24 hour period for our
+lambda function that s running headless
+chrome we re actually gonna be able to
+see what that looks like and actually
+kind of answer some of these questions
+we had around performance and if we
+actually look at the data and we write a
+few queries around it we see a couple of
+interesting things right off the bat
+first of all the lambda function itself
+the the first graph here it s on a scale
+of zero to five seconds so our lambda
+function is obviously much much slower
+than the internal lambda service it s
+not surprisingly you know kudos to the
+lambda engineering team the lander
+service is frequently very very fast in
+this case most the time is spent in your
+function itself or in this function
+from there we can answer that we can ask
+the question we know how often cold
+starts happen whenever this functions
+vocht over of 24 hour period does that
+happen very frequently are we actually
+hitting performance issues with the
+lambda function and if we look at the
+number of initializations that are
+nonzero so this is the number of finish
+from traces that actually have a cold
+start happening it s very very low so
+for this lambda function thousands of
+invitations cold starts only happened
+around one and a half percent of all all
+requests we can then look into the
+timing information so for those one and
+a half percent of functioning vacations
+that actually did have a cold start how
+long did it take to actually initialize
+my code so my my code that I m
+responsible for and the lambda function
+and if we graph that over the same time
+period we see two peaks one around 200
+milliseconds and one around 500
+milliseconds but the interesting thing
+about that and why we ve gone so deep
+into how long that takes
+is we wanted to answer the question you
+know in some cases this lambda function
+my code takes up to five seconds and
+it to actually run is that five second
+duration actually being significantly
+impacted by say Mike s my code slowly
+initializing and because it s only
+taking 200 or 500 milliseconds in the
+worst case we can say it s it s fairly
+
+so looking at that and kind of looking
+at that analysis like well if we want to
+optimize the performance of the code
+running the lambda function it s not
+cold starts it s not the internal lambda
+service it s it s our function code
+itself and because it s the Chrome
+binary so an application that was
+ultimately written to run on desktops
+the question was well maybe it s under
+provisioned with memory and it turns out
+if we run the same analysis again so we
+look at the distribution of duration for
+for the function code it does not
+surprisingly get faster if we give it
+more memory so just over a gigabyte of
+memory from 768 megabytes it does get
+faster you see the the distribution
+shift to the the left there this gets to
+a really counterintuitive and really
+interesting point though by increasing
+the memory the lambda function this
+actually decreased our bill so because
+an abuse lambdas build in 100
+millisecond increments we made the
+function faster by giving it more memory
+but we made the function fast basically
+the function got so much faster that it
+lowered the bill because it was just
+executing work more quickly so it s it s
+this kind of counterintuitive point that
+wasn t
+it all clear to me when I was first kind
+of working with lambda that more
+resources more memory it doesn t
+necessarily mean your bill will get
+higher if your code actually executes
+much faster it s likely your bill will
+go down so a really really interesting
+point around performance tuning and
+because it impacts your bill I think it
+also underscores for for complex
+functions that run a lot potentially a
+lot of cost savings there as well to
+kind of do this tuning in the first
+place um I want to kind of wrap that up
+with a few just a few high level lessons
+and then we ll jump into Q amp A with Marcus
+but I think you know from this case
+study we were able to at least explore
+some of these ideas with real data that
+instrumentation whether it was custom
+instrumentation we built with our server
+list stuff that pulled in x ray traces
+and then data analytics or what s built
+in with x ray it was looking at
+different metrics different trace data
+and also logs during development to
+figure out what was actually happening
+and then once all that was in place we
+put it into a solution that allowed us
+to really explore that we did not know
+going in or putting the data in what
+exactly we wanted to know from the data
+it was only after we explored it that
+this kind of insight came out in the
+first place so it s that it s that um
+that s tradition of going from
+observability to having the
+instrumentation to actually being able
+to answer and explore interesting
+questions and from there I think well
+we ll invite Marcus Irvin up from
+Scripps Networks and we ll be discussing
+his recent endeavor Solyndra project
+
+yeah thanks Fergus yeah absolutely so
+Marcus I know you just recently been
+successfully deployed to production a
+fairly large Avery slammed her projects
+I was curious though just what what are
+you currently working on and you know
+what do you do with scripts yeah sure so
+like I said I work at Scripps Networks
+might not be familiar with Scripps
+Networks be I m sure you re familiar
+with our brains we own Food Network HGTV
+Travel Channel juniors kitchen and a few
+other things I m an architect and I
+manage a team that builds focused on
+KPIs for a long time that was really
+focused on building and api s for our
+mobile applications the last couple of
+years we ve sort of branched out we were
+Music
+boys and facebook Messenger BOTS and etc
+etc and from there we started to
+leverage the work that we did on mobile
+and kind of started building more of a
+micro service architecture to some to be
+able to share some of some you know what
+we do that s great that s so how long
+have you been using Amazon Web Services
+scripts we ve been using him for Pella
+about five or six years and I ve been
+using it for a little bit longer than
+that all right and so tell me about like
+your your very first lambda project I
+know you just implemented a fairly large
+system but kind of how did you get
+started yeah the first time I use lambda
+was a couple years ago we were we were
+building a new version of our food
+network what will happen and we were
+using API gateway and we needed to do
+some custom authorization and EPA
+gateway supports using lambda 2 to do
+authorization every request and I was
+though the first time over use land
+it was super successful all right and
+it s kind of fast forward to the past
+several months you ve been working on a
+fairly new service can you kind of
+describe what it does and what were some
+of the reasons you decided to kind of
+use server lists for this new service
+sure so it s it s it s actually an old
+service called called rusty box it s
+been around for I think going on ten
+years or so it was it was built and
+maintained by a third party vendor for a
+long time and it s the service that
+reduced on cross for mobile apps but
+also across the websites for saving and
+allowing users to view their saved
+recipes so pretty simple in concept but
+we decided that we want to bring this
+in house it was a service it was really
+important to us
+it was maintained by a third party
+vendor so it was hard for us to get
+changes made sure we had a lot of
+enhancements that we wanted to make it
+is we re exploring new platforms who
+wanted to to show to be able to enhance
+it so we we thought this could be a good
+candidate for first server listens you
+know and his course it s relatively
+simple and so we started doing some
+PLC s around it the recipe box service
+you know how d you decide to build this
+and what did the initial architecture
+look like yeah sure so we uh like I said
+there was an existing restaurant service
+so we wanted to stand up the new recipe
+box in parallel and rather than do a
+sort of a big bang migration we wanted
+to move over apps gradually from the old
+service to the new service so we it s
+running in parallel and then they would
+keep it in sync which has a lot of
+complexity to us so at the core it s
+your fuel and as an API gateway and some
+dynamodb tables but the parts that are
+keeping on sync at a little bit of
+complexity so we have asked us queues we
+have
+lambdas processing messages from the ask
+you ask you is we have a step function
+that we use to do the migration it s
+really interesting about step functions
+for the migration and a mission they
+were running in parallel to so I mean
+what was the process like and we were
+talking earlier it s now fully in
+production is that is that correct it s
+folding production I think we haven t
+moved all of our consumers over to it
+yet so we have a sort of a mix of
+consumers using the old service and the
+new service
+yeah and so that s I think that rollouts
+pretty interesting so how d you how
+did you verify that things working and
+make sure that it was kind of ready to
+go yes so we decided to do it this way
+for a few diversions one is we didn t
+want to have to do a sort of a big vein
+release and Kortney amongst a bunch of
+different teams and then and then the
+other thing is this is why we must to do
+migration sort of on demand so as users
+access the nude new rusty bolts were
+able to run that step function to
+migrate users over as they re seen so we
+don t have to kind of take on the big
+migration that s great how long did the
+rollout take yeah so we really built
+this service and got it into production
+for mobile apps in about six months all
+right so a lot of people have discussed
+different strategies around local for
+lambda and you know there s been a lot
+of chatter about this I was kind of
+really curious you know how your team
+managed local development of these
+functions especially because you re
+talking about sqs who use step functions
+lambda functions those are necessarily
+available for you on your local
+environment
+yeah no it s it s just tricky I think as
+an industry we re still we re still
+figuring this out but for us we found
+that that most of our JavaScript we had
+as kind of separate packages that
+weren t necessarily in lambda then our
+lambdas were fair
+small as far as just coming out that
+calling out to the JavaScript so we were
+able to execute then the JavaScript
+that s this is the database or maybe put
+messages and queues kind of actually
+keep that locally just against services
+and as far as lambdas go and we use all
+of our lambdas are written in JavaScript
+and as far as just a function that you
+can technically run locally whether it s
+AWS services or not and then also with
+lambda it s really easy and quick to do
+deploy so it doesn t take to one person
+tested in the cloud that s great um you
+know part of getting to production two
+is obviously testing as well so you know
+you mentioned it s it s easy to kind of
+run the function locally because just a
+JavaScript function but how do you test
+before you actually do those frequent
+deploys yeah so we you know we do a lot
+of unit testing with just the standard
+JavaScript unit testing frameworks but I
+found with with lambda and with
+serverless that there s so much
+integration worked at that really you
+end up with a lot more or you should end
+up with a lot more integration tests
+than maybe a traditional apps so I think
+that s what we really focused on is
+writing tests that not only just kind of
+mock out all the wait a bit services but
+one against either this
+that s great are you using the function
+tacky or versioning we are not using
+function technical version well we are
+we are tagging tell unary functions we
+tagged all of our functions are deployed
+using confirmation and we tagged all of
+our cloud formations with the
+application with the environment that s
+this and you know you mentioned
+deploying using cloud formation is that
+something that s done manually or using
+a CI CD pipeline yeah so we ve been
+using confirmation for all of our
+applications for for at least a few
+years and yes we have a lot of
+automation already around CloudFormation
+mostly mostly wood what else is the
+Jenkins pipeline responsible for so yeah
+every time we we deploy our code to
+master or really any branch Jenkins
+picks it up runs the tests and then for
+master it ll go ahead and and when the
+integration tests and deployed in the
+production that s great so now that
+we re in production the obvious question
+is how do you monitor it yeah yeah great
+question give this as I think it s still
+another area that the industry is still
+figuring out that Julius maybe it may be
+lagging it will be on but beginning
+there and you talked about all the
+interesting things thinks just now
+probably the the thing that s been most
+useful to us is we have our application
+has about I think around 15 years or so
+lambdas and each of those lambdas is
+riding along stick to cloud watch logs
+and how do we how do we get to those
+logs to do doing sort of diagnosing so
+probably the most important thing for us
+is to get those logs into a log
+aggregation service we use scalar but he
+use zoom logic or even a relic stack so
+that s probably the main thing we also
+use these new relic new relics
+infrastructure service up holes on all
+the
+I ve watched metrics and wasn t to know
+reliquary kids uni dashboards and dual
+ordered me there or whether you can used
+to used to doing later on with x ray a
+little bit but we haven t done a whole
+lot these are my experience that still
+has a little bit a little bit to go but
+it s definitely a promising promising
+service and alerting as well so um you
+know how do you configure alerts or what
+ultimately wakes you up when it comes to
+lamda you know luckily we ve been lucky
+that we haven t had any major major
+production issues since what since we
+launched but we do have of course the
+morning set up we have learning in a few
+different places still we have I
+mentioned over let s go to scaler so we
+do have some learning therefore when our
+log starts showing a lot of errors which
+triggered inside you relic where we
+already have a lot of our other
+applications configured how we do that s
+great well I was kind of curious um
+especially since it s reinvent there s a
+big focus on kind of the future of
+server lists I think we can all look
+forward to foreigners keynote tomorrow
+but I m curious are you evaluating
+server list now for other systems to and
+kind of why or why not yeah I mean I
+think I think my team is definitely bit
+by this by the serverless bug I think
+the question for us now will be not
+rather like weather service is a good
+fits like whether it s not a good fit
+fit for us so we ve already started a
+couple of other small services that were
+that we re doing that s great what s
+your high level process for determining
+something was depending whether
+something is a good fit or not a good
+fit I think for us you know it would be
+if if we needed to use a lot of them
+just sort of existing code for some
+reason
+that wouldn t be necessary remember on
+our land our team has a lot of a lot of
+
+supported on lambda so there could be
+some some use cases there but yeah well
+I mean that s I think that brings up an
+interesting question too if any database
+lambda PMS or the roof what s what would
+what would you like to see or what s on
+your kind of lambda wish list for the
+next few years
+yeah well I mentioned I d love to see
+some some some other language support uh
+I love JavaScript and that s a that s a
+it s a good language we have a lot of a
+lot of history with Ruby that would be a
+great language I think go is a an
+obvious obvious choice there I mentioned
+earlier that we we do a lot with with
+sqs rescue s and lambda integrations a
+little a little wonky there s not a good
+
+that s great I think at this point we
+have a few minutes left for just general
+audience Q amp A we ve got two people with
+microphones that are they re happy to
+run around if you raise your hand if you
+have any questions for Marcus about
+lambda or or about service what we re
+happy to answer you see if anyone has
+any questions we re not what are you
+looking for next year in service what
+are your predictions for 2018 well I
+think I think we re gonna see a lot more
+more tooling a lot of vendors adding
+more and more support I think because I
+think we re still sort of lagging behind
+there other things I m excited to see
+what gets announced tomorrow so we
+probably see some cool stuff that comes
+
+that s great any any other questions oh
+I think I see ends here I was wondering
+you talked about the distributors
+architecture but what if you had build
+your big application without serverless
+what would you expect to have been a
+difficulty for this service or maybe in
+costs the difference what is the
+difference do you think if you had built
+your big surface without serverless yeah
+I think we re definitely seeing you know
+it s kind of hard to compare but I think
+we re definitely seeing cost savings I
+mean our lambda costs are way cheaper
+than you know you see two instances
+would have been you know we re using
+DynamoDB which can be expensive do you
+think there s there s cost savings that
+we re seeing also I think there s a one
+thing I noticed what services you have a
+lot less code I m always kind of
+surprised like sometimes how little code
+we have making use of setting the AWS
+services to do yeah I was curious I ve
+got quite a bit of experience writing
+land of functions and service
+applications and one of the things that
+we ve run into quite a bit is kind of
+what what logging framework to use we
+use JavaScript to and you know there s a
+plethora of different logging SDKs that
+you can use but the concern has always
+been even with you know tree shaking and
+stuff like that getting some code bloat
+into your functions so we ve kind of
+stripped that stuff out and and just use
+a vanilla you know logging pattern so
+I m just curious to know if on your team
+you ve established any sort of like best
+practices or standards around how you
+log and instrument your code yeah so so
+we re using
+I don t remember the package is a fairly
+lightweight package that basically does
+your logging in the which is a simple
+JSON log but then you could also set up
+sort of beginning some metadata that you
+want attached to each log message so
+that s kind of nice at the beginning of
+you know at the event we could say that
+this is a user ID an invocation idea
+then add those to the Jeanette so that
+it s not quite bulleted with all of your
+log messages your log messages can be
+just Pacific four doors no is it okay to
+ask you a question claim sure okay so
+I m just the observability that we have
+now with x ray and your relic and other
+tools it seems a little well I don t it
+seems a little basic to me sorry to say
+that it feels like needs a lot more
+features and a lot more depth and I m
+just wondering is that gonna come from
+new relic or maybe from AWS and what are
+some of the key features that you think
+are gonna come down the pipe yeah no
+that s that s an excellent question
+and I think my my initial response is
+this is a this is a conversation we re
+deeply interested in having with
+customers like yourself we think you
+know we agree that we re early on this
+kind of journey to serverless
+and we want to get greater observability
+I think everyone agrees on that
+but we re really curious and actually
+we re currently interviewing a lot of
+our customers to essentially discover
+what s what s on everyone s wish list
+and so it s it s a conversation we d
+like to have and in terms of you relic
+it s it s something we definitely wanna
+be a part of do you think yeah the I
+think tooling is definitely kind of
+lagging or not where it needs to be but
+I do think with server lists there s so
+many more metrics that are available
+through college even though they re hard
+to consume under the juice work well
+right now but as far as food
+observability standpoint serverless i
+think it s really really had us like
+sort of traditional applications some
+what s what s possible all right I think
+I think that s it in terms of questions
+or it s everyone uh alright well hey
+thank you very much and thanks again for
+mark yes

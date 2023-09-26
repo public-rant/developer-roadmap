@@ -1,0 +1,152 @@
+hey everyone this is kamran and today
+we re going to talk about the dns
+or the domain name system dns is one of
+those topics that anyone who develops
+for the web
+should know about it is a broad topic so
+i m going to divide this lesson into two
+videos
+in this lesson we re going to talk about
+what is dns and how does it work
+and the next one is going to be about
+the dns records and how to debug the
+issues with the help of dig
+traced out and nslookup so what is dns
+before we learn about the dns we need to
+know what is internet
+and before we learn about the internet
+we need to know what is a network
+network is just a group of computers and
+other devices that are connected to each
+other so for example if at your home you
+have a printer you have a laptop and a
+desktop
+and all of these are connected to each
+other these are all forming a network
+moving on we have internet which is a
+global network of networks
+so for example if you at your home have
+a home network and then your friend has
+a home network of his own
+and then he has another friend which has
+a home network and all these networks
+are grouped together to form a bigger
+network
+so internet is similar to that just a
+global network of all the networks
+now on the internet if you have to
+communicate with some other device you
+need to know how to find it
+to find the device on the internet we
+use something called the ip address
+so each device on the internet has an ip
+address which has a numeric
+format and it looks like this and it is
+used to locate that device on the
+internet
+and same goes for the websites that you
+visit on the internet
+the ip address of the server where that
+website is hosted
+is used to load the website in the
+browser but how does it work because we
+normally put the domain name in the
+browser
+how is the browser able to find the ip
+address of the server
+the answer to that is the browser uses
+something called a dns
+which helps us get the ip address from
+the domain name so
+the browser sends the dns the domain
+name
+and it gets back the ip address and once
+it has the ip address it can go on the
+network
+and hop from different routers till it
+reaches the
+server and then it loads the website
+
+okay now that we ve got the high level
+understanding of the internet
+and how it works let s look at the dns
+and see how it works internally
+so first of all we have the browser so
+the user enters the website in the
+browser
+and tries to open it as we know that the
+first step is dns resolution so the
+browser needs to find the ip address
+of the website first of all the browser
+will look at the cache
+and see if it has the ip address of the
+website from any previous visits if it
+doesn t find it there then it will look
+at the dns cache and see if we have the
+ip address there and if it is also not
+there then it will look at the host file
+to see if we have a mapping from the
+domain name to the ip address
+defined there if it is able to find the
+ip address in any of these places
+it will load the website from there and
+it will not do any of the next steps
+that we will mention now if it is not
+able to find the ip address in any of
+these caches
+or the host file the next step is the
+recursive dns servers this is normally
+your isp
+or internet services provider which
+provides you the internet now it doesn t
+know anything about the
+domain name but it has the caches from
+any previous visits
+so it is possible that some other user
+might have visited the same website
+and might have the cached ip address if
+it is able to find the cache type
+address it will just return the ip
+address from here and it does not have
+to go to the next step
+and if the ip address is not found here
+then the next step is the root dns
+servers
+now root dns servers also do not have
+the ip address information for the
+domain name
+but they have the information about the
+tld or the top level domain
+so for example if you re looking for
+google com so the tld
+or the top level domain is dot com so it
+knows
+who might have the information about all
+the dot com domains so it will just
+return the information about the
+tld server now the tld server also
+doesn t know where the domain
+is but it knows the final place where
+might
+the domain information be which is the
+authoritative name server
+so it will just return the information
+about the authoritative name server and
+the request will go to the authoritative
+name server
+get the ip address of the domain name
+from there
+the ip address will then come to the
+recursive dns servers
+where it might be cached and then it
+will be sent to the user s computer
+and then to the browser and then the
+browser will request the website
+servers and get the website from there
+and this is how the
+ip address of the website is found on
+the internet with the help of dns
+and that s it for our lesson i hope you
+enjoyed it if you have any questions or
+comments
+leave them below and i will see you in

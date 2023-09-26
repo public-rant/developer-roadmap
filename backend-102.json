@@ -1,0 +1,222 @@
+[
+ {
+  "id": "threads-and-concurrency",
+  "tag": "h1",
+  "text": "Threads and Concurrency"
+ },
+ {
+  "id": "operating-systems",
+  "tag": "h1",
+  "text": "Operating Systems"
+ },
+ {
+  "id": "posix-basics",
+  "tag": "h1",
+  "text": "POSIX Basics"
+ },
+ {
+  "id": "basic-terminal-commands",
+  "tag": "h1",
+  "text": "Basic Terminal Commands"
+ },
+ {
+  "id": "interprocess-communication",
+  "tag": "h1",
+  "text": "Interprocess Communication"
+ },
+ {
+  "id": "io-management",
+  "tag": "h1",
+  "text": "I/O Management"
+ },
+ {
+  "id": "general-knowledge",
+  "tag": "h1",
+  "text": "General Knowledge"
+ },
+ {
+  "id": "memory-management",
+  "tag": "h1",
+  "text": "Memory Management"
+ },
+ {
+  "id": "terminal-usage",
+  "tag": "h1",
+  "text": "Terminal usage"
+ },
+ {
+  "id": "basic-networking-concepts",
+  "tag": "h1",
+  "text": "Basic Networking Concepts"
+ },
+ {
+  "id": "process-management",
+  "tag": "h1",
+  "text": "Process Management"
+ },
+ {
+  "href": "https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/",
+  "tag": "a",
+  "text": "What’s the Diff: Programs, Processes and Threads"
+ },
+ {
+  "href": "https://www.javatpoint.com/concurrency-in-operating-system",
+  "tag": "a",
+  "text": "Concurrency in Operating System"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=exbKr6fnoUw",
+  "tag": "a",
+  "text": "Intro to Processes \u0026amp; Threads"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=iKtvNJQoCNw",
+  "tag": "a",
+  "text": "Introduction to Concurrency"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=olYdb0DdGtM",
+  "tag": "a",
+  "text": "Concurrency, Threading and Parallelism Explained"
+ },
+ {
+  "href": "https://www.tutorialspoint.com/operating_system/os_overview.htm",
+  "tag": "a",
+  "text": "Operating System - Overview"
+ },
+ {
+  "href": "https://codex.cs.yale.edu/avi/os-book/OS10/index.html",
+  "tag": "a",
+  "text": "Operating System Concepts"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=9GDX-IyZ_C8",
+  "tag": "a",
+  "text": "Operating System Basics"
+ },
+ {
+  "href": "https://pubs.opengroup.org/onlinepubs/9699919799/",
+  "tag": "a",
+  "text": "POSIX standard by IEEE"
+ },
+ {
+  "href": "https://unix.stackexchange.com/a/220877",
+  "tag": "a",
+  "text": "Summary of some POSIX implementations"
+ },
+ {
+  "href": "https://www.baeldung.com/linux/posix",
+  "tag": "a",
+  "text": "A guide to POSIX"
+ },
+ {
+  "href": "https://www.hostinger.com/tutorials/linux-commands",
+  "tag": "a",
+  "text": "40 Basic Linux Commands"
+ },
+ {
+  "href": "https://github.com/ibraheemdev/modern-unix",
+  "tag": "a",
+  "text": "A collection of modern/faster/saner alternatives to common unix commands"
+ },
+ {
+  "href": "https://www.learnenough.com/command-line-tutorial",
+  "tag": "a",
+  "text": "Command Line Tutorial"
+ },
+ {
+  "href": "https://cmdchallenge.com/",
+  "tag": "a",
+  "text": "Commandline Challenge"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+  "tag": "a",
+  "text": "The 50 Most Popular Linux \u0026amp; Terminal Commands (with timestamps)"
+ },
+ {
+  "href": "https://www.geeksforgeeks.org/inter-process-communication-ipc/",
+  "tag": "a",
+  "text": "Interprocess Communication"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=dJuYKfR8vec",
+  "tag": "a",
+  "text": "Interprocess Communication - Neso Academy"
+ },
+ {
+  "href": "https://www.tutorialspoint.com/operating_system/os_io_hardware.htm",
+  "tag": "a",
+  "text": "Operating System - I/O Hardware"
+ },
+ {
+  "href": "https://www.omscs-notes.com/operating-systems/io-management/",
+  "tag": "a",
+  "text": "IO Management"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=F18RiREDkwE",
+  "tag": "a",
+  "text": "Basics of OS (I/O Structure)"
+ },
+ {
+  "href": "https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/",
+  "tag": "a",
+  "text": "What is an operating system?"
+ },
+ {
+  "href": "https://www.guru99.com/os-tutorial.html",
+  "tag": "a",
+  "text": "Operating System summary"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=26QPDBe-NB8\u0026amp;ab_channel=CrashCourse",
+  "tag": "a",
+  "text": "Operating Systems: Crash Course Computer Science #18"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=vBURTt97EkA\u0026amp;list=PL9hkZBQk8d1zEGbY7ShWCZ2n1gtxqkRrS\u0026amp;index=1",
+  "tag": "a",
+  "text": "Introduction to Operating System"
+ },
+ {
+  "href": "https://dev.to/deepu105/demystifying-memory-management-in-modern-programming-languages-ddd",
+  "tag": "a",
+  "text": "Demystifying memory management in modern programming languages"
+ },
+ {
+  "href": "https://www.geeksforgeeks.org/memory-management-in-operating-system/",
+  "tag": "a",
+  "text": "Memory Management in Operating System"
+ },
+ {
+  "href": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line",
+  "tag": "a",
+  "text": "Command line crash course"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=jDINUSK7rXE",
+  "tag": "a",
+  "text": "Basic Terminal Usage - Cheat Sheet to make the command line EASY"
+ },
+ {
+  "href": "https://www.digitalocean.com/community/tutorials/linux-commands",
+  "tag": "a",
+  "text": "50+ Linux Commands You Must Know"
+ },
+ {
+  "href": "https://aws.amazon.com/what-is/computer-networking/",
+  "tag": "a",
+  "text": "What is Computer Networking?"
+ },
+ {
+  "href": "https://medium.com/@akhandmishra/operating-system-process-and-process-management-108d83e8ce60",
+  "tag": "a",
+  "text": "Operating System: Process and Process Management"
+ },
+ {
+  "href": "https://www.guru99.com/process-management-pcb.html",
+  "tag": "a",
+  "text": "Process Management in OS: PCB in Operating System"
+ }
+]

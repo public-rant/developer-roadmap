@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.guru99.com/functional-testing.html > $(basename https://www.guru99.com/functional-testing.html).txt

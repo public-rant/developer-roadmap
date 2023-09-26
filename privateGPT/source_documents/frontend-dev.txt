@@ -1,0 +1,833 @@
+   #[https://thenewstack.io/frontend-development/page/2/]next
+   [https://thenewstack.io/frontend-development/feed/]The New Stack »
+   Frontend Development Category Feed
+   [https://thenewstack.io/wp-json/wp/v2/categories/12406]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/frontend-development/]ARCHITECTURE
+   [https://thenewstack.io/frontend-development/]ENGINEERING
+   [https://thenewstack.io/frontend-development/]OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/there-is-a-bright-future-for-ai-driven-integrat
+   ion/]There is a Bright Future for AI-Driven Integration
+   Jul 7th 2023 7:42am, by
+   [https://thenewstack.io/author/anant-jhingran/]Anant Jhingran and
+   [https://thenewstack.io/author/matt-roberts/]Matt Roberts
+   [https://thenewstack.io/catch-performance-regressions-evolving-ebpf-pro
+   gram/]Catch Performance Regressions: Evolving eBPF Program
+   Jul 7th 2023 7:00am, by
+   [https://thenewstack.io/author/everett-pompeii/]Everett Pompeii
+   [https://thenewstack.io/why-clickhouse-should-be-your-next-database/]Wh
+   y Clickhouse Should Be Your Next Database
+   Jul 6th 2023 7:20am, by
+   [https://thenewstack.io/author/joe-karlsson/]Joe Karlsson
+   [https://thenewstack.io/llamaindex-and-the-new-world-of-llm-orchestrati
+   on-frameworks/]LlamaIndex and the New World of LLM Orchestration
+   Frameworks
+   Jul 6th 2023 6:47am, by [https://thenewstack.io/author/richard/]Richard
+   MacManus
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/grounding-transformer-large-language-models-wit
+   h-vector-databases/]Grounding Transformer Large Language Models with
+   Vector Databases
+   Jul 7th 2023 3:00am, by
+   [https://thenewstack.io/author/simonbisson/]Simon Bisson
+   [https://thenewstack.io/why-clickhouse-should-be-your-next-database/]Wh
+   y Clickhouse Should Be Your Next Database
+   Jul 6th 2023 7:20am, by
+   [https://thenewstack.io/author/joe-karlsson/]Joe Karlsson
+   [https://thenewstack.io/llamaindex-and-the-new-world-of-llm-orchestrati
+   on-frameworks/]LlamaIndex and the New World of LLM Orchestration
+   Frameworks
+   Jul 6th 2023 6:47am, by [https://thenewstack.io/author/richard/]Richard
+   MacManus
+   [https://thenewstack.io/a-look-at-datastaxs-ai-and-push-cache-for-data-
+   access-at-scale/]A Look at DataStax's AI and Push Cache for Data Access
+   at Scale
+   Jul 6th 2023 4:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/grounding-transformer-large-language-models-wit
+   h-vector-databases/]Grounding Transformer Large Language Models with
+   Vector Databases
+   Jul 7th 2023 3:00am, by Simon Bisson
+   [https://thenewstack.io/causal-ai-a-solution-to-limitations-of-correlat
+   ion-based-ml/]Causal AI: A Solution to Limitations of Correlation-Based
+   ML
+   Jul 6th 2023 6:13am, by Bipin Singh
+   [https://thenewstack.io/a-look-at-datastaxs-ai-and-push-cache-for-data-
+   access-at-scale/]A Look at DataStax's AI and Push Cache for Data Access
+   at Scale
+   Jul 6th 2023 4:00am, by B. Cameron Gain
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+Frontend Development
+
+
+   Frontend Development
+   [https://thenewstack.io/frontend-development/]Overview
+   [https://thenewstack.io/frontend-development/]Essential Reading
+   [https://thenewstack.io/frontend-development/page/2/]Full Archive
+   OVERVIEW
+
+   Frontend development requires much more than writing code. Like other
+   aspects of technology, the goals of frontend development have changed
+   over the last decade. Under this topic, we discuss frontend development
+   and its benefits, challenges faced by developers, and new trends The
+   New Stack watches out for in software development.
+
+   Frontend development requires much more than writing code. Like other
+   aspects of technology, the goals of frontend development have changed
+   over the last decade. Under this topic, we discuss frontend development
+   and its benefits, challenges faced by developers, and new trends The
+   New Stack watches out for in software development.
+
+   What Is Frontend Development?
+
+   Frontend development, also known as client-side development, is the
+   implementation of the vision and design concept of web pages or
+   applications through code.
+
+   A fascinating aspect of frontend development is the emergence of new
+   architectures in the early 2020s. We track closely two of them:
+     * Web3 (blockchain combined with web architecture)
+     * Metaverse (a yet-to-be built 3D version of the internet, supported
+       by Meta, Microsoft, Nvidia and others)
+
+   There are increasing opportunities for frontend developers to make an
+   impact in both Web3 and the metaverse.
+
+   What Does a Frontend Developer Do?
+
+   All developers must know how to wrangle data. We cover everything from
+   APIs and databases to the new paradigm of decentralized storage in
+   Web3. Machine learning is also increasingly important to developers, in
+   particular with the programming language Python.
+
+   A frontend developer is in charge of executing design and content
+   directions through code. These developers enable interfaces to look
+   pleasing on all devices — phones, tablets, and computers. Frontend
+   developers aim to provide the best user experience for customers and
+   ensure that the overall software layout is consistent.
+
+   Programming Languages for Frontend Developers
+
+   To develop client-facing sections of the software, a developer needs to
+   be familiar with these three main languages:
+     * HTML
+     * CSS
+     * JavaScript
+
+   Knowledge of libraries, frameworks, and other relevant tools can come
+   after mastery of the core programming languages.
+
+   The Rise of Low-Code Solutions
+
+   Low-code is quickly becoming a viable method of creating applications
+   for enterprises and governments. We track the impact of low-code and
+   visual programming in general on the wider frontend development
+   industry.
+
+   The frontend development world is dominated by JavaScript, including
+   popular frameworks such as React, Vue, and Angular. We cover all the
+   latest developments in JS frameworks, including ways to potentially
+   route around them — for example, with Web Components, an HTML-native
+   alternative to using JavaScript.
+
+   Frontend vs. Backend vs. Full Stack Development
+
+   Software development is the process of creating, deploying, and
+   delivering computer code. There are different aspects of software
+   development, each with its own approach.
+
+   Frontend development, as stated earlier, is the codification of design
+   concepts to create a satisfactory user experience.
+
+   Backend development, also known as server-side development, deals with
+   the more technical aspects of creating software. Backend development
+   revolves around databases, APIs, backend logic, and servers.
+
+   A backend developer aids communication between browsers and databases
+   and writes code to store, update, retrieve, and delete data depending
+   on the user’s desired action.
+
+   Full stack development is the combination of both client-facing and
+   server-side development activities. Full stack developers work on both
+   frontend and backend to design complete web applications.
+
+   Why Frontend Development Is Important
+
+   As more businesses compete for customers’ attention, the ability to
+   stand out among similar organizations is essential to a company’s
+   success. Frontend development activities result in the first
+   touchpoints for many clients or customers and can be the determining
+   factor in organizational performance.
+
+   Here are some of the reasons why frontend development is vital:
+
+   Successful Branding
+
+   The execution of a good frontend development plan results in powerful
+   branding. When all logos, colors, and elements reflect an
+   organization’s beliefs and values, customers are able to associate the
+   software with the brand easily. This prevents a disconnection in sales
+   processes and increases conversions.
+
+   Brand Confidence
+
+   A web application with a clean layout and clear focus portrays a brand
+   as competent and capable of delivering quality products and services.
+   Proper design implementation through software development also builds
+   customers’ confidence in an organization.
+
+   Optimized Navigation
+
+   Frontend development makes navigation around a website or application
+   easy. Users are able to find what they are looking for easily, leading
+   to a better experience and visitor retention.
+
+   Frontend Development Challenges
+
+   Frontend development is advancing at a pace that is difficult to keep
+   up with. However, there are certain recurring challenges that surface
+   in spite of the new direction of frontend development.
+
+   Some challenges faced by software engineers and other specialists in
+   the frontend development space are:
+
+   Balancing long-term and short-term design decisions. As design
+   preferences change throughout the years within organizations,
+   maintaining a balance between core design principles and new trends may
+   be slightly challenging.
+
+   Understanding and communicating search engine optimization (SEO)
+   concepts. Asides from providing a great user experience, getting web
+   pages seen is a priority for organizations. Ensuring that frontend
+   development activities follow best SEO practices can be challenging.
+   especially when other teams are not aware of its importance.
+
+   Coding JavaScript in a robust way. In the past, JavaScript wasn’t a
+   dominant programming language, and many solutions were not JavaScript
+   intensive. Now, many web applications require that JavaScript is
+   working and be maintained on all browsers.
+
+   Selecting the right tools. Given the many libraries, frameworks, and
+   programming languages existing today, it can be a challenge to choose
+   the right tools for your project. Each tool has its perks and
+   drawbacks.
+
+   Ensuring that all user interface (UI) elements work as intended. As
+   frontend developers implement design directions, ensuring that all
+   flips, movements, and other elements appear as intended may be
+   difficult to achieve.
+
+   Explore Software Development News on The New Stack
+
+   At The New Stack, we keep tabs on emerging frontend development
+   languages and tools such as Svelte. We also monitor the incorporation
+   of web animation, motion designs, APIs, and CSS animations in frontend
+   development. As part of our coverage, we explore the technical
+   foundations of emerging platforms such as Web3.
+
+   Tracking technical progress on the web platform is also a key part of
+   our coverage — browser technology, web standards, and cross-platform
+   mobile technologies such as Flutter and React Native. We occasionally
+   look into mobile internet development, too, but we have a keen interest
+   in reporting on open web technologies.
+   MORE
+   ESSENTIAL READING
+   [https://thenewstack.io/svelte-and-the-future-of-front-end-development/
+   ]
+   Thumnail image for: Svelte and the Future of Frontend Development
+   Svelte and the Future of Frontend Development
+   May 11th, 2022 6:36am
+   BY Joab Jackson
+   Svelte creator Rich Harris delves into the history of Svelte, the
+   current landscape of Web frameworks, the Web's Document Object Model,
+   the importance of SvelteKit an more.
+   [https://thenewstack.io/how-database-as-a-service-boosts-frontend-devel
+   opment/]
+   Thumnail image for: How Database as a Service Boosts Frontend
+   Development
+   How Database as a Service Boosts Frontend Development
+   Oct 5th, 2022 6:34am
+   BY Loraine Lawson
+   MongoDB’s goal with its Database as a Service offering is to provide a
+   streamlined experience that helps frontend developers.
+   [https://thenewstack.io/what-net-maui-can-do-for-frontend-and-web-devel
+   opers/]
+   Thumnail image for: What .NET MAUI Can Do for Frontend and Web
+   Developers
+   What .NET MAUI Can Do for Frontend and Web Developers
+   Sep 20th, 2022 8:36am
+   BY Loraine Lawson
+   .NET MAUI is the latest tool to promise one code base for
+   cross-platform deployment on desktop and mobile.
+   [https://thenewstack.io/developer-nation-survey-will-also-tell-youre-dr
+   agon-slayer/]
+   Thumnail image for: ‘Developer Nation’ Survey Will Reveal if You’re a
+   Dragon Slayer
+   'Developer Nation' Survey Will Reveal if You're a Dragon Slayer
+   Dec 18th, 2016 8:26am
+   BY David Cassel
+   [https://thenewstack.io/6-overlooked-yet-important-kubernetes-features-
+   to-secure/]
+   Thumnail image for: 6 Overlooked Yet Important Kubernetes Features to
+   Secure
+   6 Overlooked Yet Important Kubernetes Features to Secure
+   Oct 13th, 2022 9:44am
+   BY Travis Rodgers
+   Learn a few initial strategies that teams can make from the outset of
+   the cluster deployment that will greatly increase their security
+   posture.
+   SHARE
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Ffrontend-
+   development%2F&text=Beyond+Browsers%3A+The+Longterm+Future+of+JavaScrip
+   t+Standards:%20&via=thenewstack][https://news.ycombinator.com/submitlin
+   k?u=https%3A%2F%2Fthenewstack.io%2Ffrontend-development%2F][https://www
+   .linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthenewstack.io%2
+   Ffrontend-development%2F][https://reddit.com/submit?url=https%3A%2F%2Ft
+   henewstack.io%2Ffrontend-development%2F&title=Beyond+Browsers%3A+The+Lo
+   ngterm+Future+of+JavaScript+Standards][https://www.facebook.com/sharer/
+   sharer.php?u=https://thenewstack.io/frontend-development/]
+   Frontend Roadmap
+
+   Level up your Frontend skills with our sister site
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Category]roadmap.sh, a community-built resource to
+   guide your learning.
+   Latest Frontend Development Stories
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]
+   Beyond Browsers: The Longterm Future of JavaScript Standards
+   Jul 3rd, 2023 11:51am
+   BY Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]
+   The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd, 2023 10:08am
+   BY Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]
+   Dev News: Netlify’s New Tool, JupyterLab 4.0 and MDN Gets AI
+   Jul 1st, 2023 5:00am
+   BY Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]
+   Penpot Woos Developers, Takes on Figma with Open Source Tool
+   Jun 29th, 2023 5:00am
+   BY Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]
+   State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th, 2023 8:55am
+   BY Loraine Lawson
+   [https://thenewstack.io/whats-next-for-javascript-new-features-to-look-
+   forward-to/]
+   What’s Next for JavaScript: New Features to Look Forward to
+   Jun 27th, 2023 8:26am
+   BY Mary Branscombe
+   [https://thenewstack.io/dev-news-svelte-4-deno-update-aws-ai-fund-figma
+   -dev-mode/]
+   Dev News: Svelte 4, Deno Update, AWS AI Fund, Figma Dev Mode
+   Jun 24th, 2023 4:00am
+   BY Loraine Lawson
+   [https://thenewstack.io/how-ddev-can-help-solve-local-web-development-c
+   hallenges/]
+   How DDEV Can Help Solve Local Web Development Challenges
+   Jun 22nd, 2023 10:00am
+   BY Randy Fay
+   [https://thenewstack.io/frontend-development/page/2/]FULL FRONTEND
+   DEVELOPMENT ARCHIVE
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

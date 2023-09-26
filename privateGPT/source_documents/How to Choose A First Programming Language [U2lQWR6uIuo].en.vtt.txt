@@ -1,0 +1,29 @@
+how exactly do you choose the first
+programming language to learn why PHP
+and not Ruby or JavaScript or python I
+mean how can you be expected to make
+such a large decision without having the
+expertise to differentiate between all
+of the available choices it s a good
+question now we could look at usage
+stats or developer happiness reviews but
+the truth is it largely depends on your
+environments there s no one correct
+answer just as there s no correct spoken
+language to learn it just depends
+now if you re hoping to in turn add a
+WordPress or a layerable shop then
+you re surely going to one PHP on the
+other hand you might have a friend who
+works at Shopify who is offered to show
+you the ropes in that case you ll likely
+be working with Ruby and that s cool too
+the point is it doesn t really matter
+right now you re interested in the
+fundamentals of programming whether you
+choose PHP or Ruby or something else it
+doesn t really matter you ll be happy to
+hear that these Concepts cross over and
+once you ve learned one language the
+next one is significantly easier to pick
+up

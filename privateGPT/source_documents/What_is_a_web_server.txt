@@ -1,0 +1,493 @@
+   #[https://developer.mozilla.org/opensearch.xml]MDN Web Docs
+   [https://developer.mozilla.org/es/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_web_server]Que es un servidor WEB?
+   [https://developer.mozilla.org/fr/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_web_server]Quʼest-ce quʼun serveur web ?
+   [https://developer.mozilla.org/ja/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_web_server]ウェブサーバーとは？
+   [https://developer.mozilla.org/ko/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_web_server]웹 서버란 무엇일까?
+   [https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_web_server]O que é um servidor web (web server)?
+   [https://developer.mozilla.org/ru/docs/Learn/Common_questions/Web_mecha
+   nics/What_is_a_web_server]Что такое веб-сервер
+   [https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_web_server]什么是 web 服务器？
+   [https://developer.mozilla.org/zh-TW/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_web_server]何謂網路伺服器？
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_web_server]What is a web server?
+   [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#content]Skip to main content
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#top-nav-search-input]Skip to
+       search
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#languages-switcher-button]Skip to
+       select language
+
+   [https://developer.mozilla.org/en-US/](BUTTON) Open main menu
+
+     * (BUTTON)
+       References[https://developer.mozilla.org/en-US/docs/Web]References
+          + [https://developer.mozilla.org/en-US/docs/Web]Overview / Web
+            Technology
+            Web technology reference for developers
+          + [https://developer.mozilla.org/en-US/docs/Web/HTML]HTML
+            Structure of content on the web
+          + [https://developer.mozilla.org/en-US/docs/Web/CSS]CSS
+            Code used to describe document style
+          + [https://developer.mozilla.org/en-US/docs/Web/JavaScript]JavaS
+            cript
+            General-purpose scripting language
+          + [https://developer.mozilla.org/en-US/docs/Web/HTTP]HTTP
+            Protocol for transmitting web resources
+          + [https://developer.mozilla.org/en-US/docs/Web/API]Web APIs
+            Interfaces for building web applications
+          + [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebE
+            xtensions]Web Extensions
+            Developing extensions for web browsers
+          + [https://developer.mozilla.org/en-US/docs/Web]Web Technology
+            Web technology reference for developers
+     * (BUTTON)
+       Guides[https://developer.mozilla.org/en-US/docs/Learn]Guides
+          + [https://developer.mozilla.org/en-US/docs/Learn]Overview / MDN
+            Learning Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn]MDN Learning
+            Area
+            Learn web development
+          + [https://developer.mozilla.org/en-US/docs/Learn/HTML]HTML
+            Learn to structure web content with HTML
+          + [https://developer.mozilla.org/en-US/docs/Learn/CSS]CSS
+            Learn to style content using CSS
+          + [https://developer.mozilla.org/en-US/docs/Learn/JavaScript]Jav
+            aScript
+            Learn to run scripts in the browser
+          + [https://developer.mozilla.org/en-US/docs/Web/Accessibility]Ac
+            cessibility
+            Learn to make the web accessible to all
+     * (BUTTON) Plus[https://developer.mozilla.org/en-US/plus]Plus
+          + [https://developer.mozilla.org/en-US/plus]Overview
+            A customized MDN experience
+          + [https://developer.mozilla.org/en-US/plus/ai-help]AI Help
+            (beta)
+            Get real-time assistance and support
+          + [https://developer.mozilla.org/en-US/plus/updates]Updates
+            All browser compatibility updates at a glance
+          + [https://developer.mozilla.org/en-US/plus/docs/features/overvi
+            ew]Documentation
+            Learn how to use MDN Plus
+          + [https://developer.mozilla.org/en-US/plus/docs/faq]FAQ
+            Frequently asked questions about MDN Plus
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://developer.mozilla.org/en-US/play]Play ^New
+     * [https://developer.mozilla.org/en-US/plus/ai-help/]AI Help ^Beta
+
+   Search MDN ____________________ (BUTTON) Clear search input (BUTTON)
+   Search
+   (BUTTON) Theme
+     * [https://developer.mozilla.org/users/fxa/login/authenticate/?next=%
+       2Fen-US%2Fdocs%2FLearn%2FCommon_questions%2FWeb_mechanics%2FWhat_is
+       _a_web_server]Log in
+     * [https://developer.mozilla.org/en-US/plus]Get MDN Plus
+
+   (BUTTON)
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn]Guides
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions]Comm
+   on questions
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics]Web mechanics
+
+     [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_
+   mechanics/What_is_a_web_server]What is a web server?
+
+   (BUTTON) Article Actions
+     * (BUTTON) English (US)
+
+   (BUTTON)
+
+   Filter sidebar ____________________ (BUTTON) Clear filter input
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#deeper_dive]Deeper dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#next_steps]Next steps
+
+    1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/De
+       sign_and_accessibility]Design and accessibility
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility]Design and accessibility
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Common_web_layouts]What do common
+            web layouts contain?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Design_for_all_types_of_users]How
+            can we design for all types of users?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/HTML_features_for_accessibility]Wh
+            at HTML features promote accessibility?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/Thinking_before_coding]How do I
+            start to design my website?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Design_and_accessibility/What_is_accessibility]What is
+            accessibility?
+    2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup]Tools and setup
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup]Tools and setup
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Available_text_editors]What text editors
+            are available?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Checking_that_your_web_site_is_working_prop
+            erly]How do you make sure your website works properly?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_do_you_host_your_website_on_Google_App_
+            Engine]How do you host your website on Google App Engine?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/How_much_does_it_cost]How much does it cost
+            to do something on the Web?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/set_up_a_local_testing_server]How do you
+            set up a local testing server?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Upload_files_to_a_web_server]How do you
+            upload your files to a web server?
+         8. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/Using_GitHub_pages]How do I use GitHub
+            Pages?
+         9. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_are_browser_developer_tools]What are
+            browser developer tools?
+        10. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Tools_and_setup/What_software_do_I_need]What software do I
+            need to build a website?
+    3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics]Web mechanics
+         1. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics]Web mechanics
+         2. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/How_does_the_Internet_work]How does the
+            Internet work?
+         3. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/Pages_sites_servers_and_search_engines]What
+            is the difference between webpage, website, web server, and
+            search engine?
+         4. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_are_hyperlinks]What are hyperlinks?
+         5. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_domain_name]What is a Domain Name?
+         6. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_URL]What is a URL?
+         7. [https://developer.mozilla.org/en-US/docs/Learn/Common_questio
+            ns/Web_mechanics/What_is_a_web_server]What is a web server?
+
+In this article
+
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#summary]Summary
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#deeper_dive]Deeper dive
+     * [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#next_steps]Next steps
+
+What is a web server?
+
+   In this article, we explain what web servers are, how web servers work,
+   and why they are important.
+   Prerequisites: You should already know
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/How_does_the_Internet_work]how the Internet works, and
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/Pages_sites_servers_and_search_engines]understand the
+   difference between a web page, a website, a web server, and a search
+   engine.
+   Objective: You will learn what a web server is and gain a general
+   understanding of how it works.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#summary]Summary
+
+   The term web server can refer to hardware or software, or both of them
+   working together.
+    1. On the hardware side, a web server is a computer that stores web
+       server software and a website's component files (for example, HTML
+       documents, images, CSS stylesheets, and JavaScript files). A web
+       server connects to the Internet and supports physical data
+       interchange with other devices connected to the web.
+    2. On the software side, a web server includes several parts that
+       control how web users access hosted files. At a minimum, this is an
+       HTTP server. An HTTP server is software that understands
+       [https://developer.mozilla.org/en-US/docs/Glossary/URL]URLs (web
+       addresses) and
+       [https://developer.mozilla.org/en-US/docs/Glossary/HTTP]HTTP (the
+       protocol your browser uses to view webpages). An HTTP server can be
+       accessed through the domain names of the websites it stores, and it
+       delivers the content of these hosted websites to the end user's
+       device.
+
+   At the most basic level, whenever a browser needs a file that is hosted
+   on a web server, the browser requests the file via HTTP. When the
+   request reaches the correct (hardware) web server, the (software) HTTP
+   server accepts the request, finds the requested document, and sends it
+   back to the browser, also through HTTP. (If the server doesn't find the
+   requested document, it returns a
+   [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404]404
+   response instead.)
+
+   Basic representation of a client/server connection through HTTP
+
+   To publish a website, you need either a static or a dynamic web server.
+
+   A static web server, or stack, consists of a computer (hardware) with
+   an HTTP server (software). We call it "static" because the server sends
+   its hosted files as-is to your browser.
+
+   A dynamic web server consists of a static web server plus extra
+   software, most commonly an application server and a database. We call
+   it "dynamic" because the application server updates the hosted files
+   before sending content to your browser via the HTTP server.
+
+   For example, to produce the final webpages you see in the browser, the
+   application server might fill an HTML template with content from a
+   database. Sites like MDN or Wikipedia have thousands of webpages.
+   Typically, these kinds of sites are composed of only a few HTML
+   templates and a giant database, rather than thousands of static HTML
+   documents. This setup makes it easier to maintain and deliver the
+   content.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#deeper_dive]Deeper dive
+
+   To review: to fetch a webpage, your browser sends a request to the web
+   server, which searches for the requested file in its own storage space.
+   Upon finding the file, the server reads it, processes it as needed, and
+   sends it to the browser. Let's look at those steps in more detail.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#hosting_files]Hosting files
+
+   First, a web server has to store the website's files, namely all HTML
+   documents and their related assets, including images, CSS stylesheets,
+   JavaScript files, fonts, and video.
+
+   Technically, you could host all those files on your own computer, but
+   it's far more convenient to store files all on a dedicated web server
+   because:
+     * A dedicated web server is typically more available (up and
+       running).
+     * Excluding downtime and system troubles, a dedicated web server is
+       always connected to the Internet.
+     * A dedicated web server can have the same IP address all the time.
+       This is known as a dedicated IP address. (Not all
+       [https://developer.mozilla.org/en-US/docs/Glossary/ISP]ISPs provide
+       a fixed IP address for home lines.)
+     * A dedicated web server is typically maintained by a third party.
+
+   For all these reasons, finding a good hosting provider is a key part of
+   building your website. Examine the various services companies offer.
+   Choose one that fits your needs and budget. (Services range from free
+   to thousands of dollars per month.) You can find more details
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_
+   and_setup/How_much_does_it_cost#hosting]in this article.
+
+   Once you have web hosting service, you must
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_
+   and_setup/Upload_files_to_a_web_server]upload your files to your web
+   server.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#communicating_through_http]Communicating through HTTP
+
+   Second, a web server provides support for
+   [https://developer.mozilla.org/en-US/docs/Glossary/HTTP]HTTP (Hypertext
+   Transfer Protocol). As its name implies, HTTP specifies how to transfer
+   hypertext (linked web documents) between two computers.
+
+   A [https://developer.mozilla.org/en-US/docs/Glossary/Protocol]Protocol
+   is a set of rules for communication between two computers. HTTP is a
+   textual, stateless protocol.
+
+   Textual
+          All commands are plain-text and human-readable.
+
+   Stateless
+          Neither the server nor the client remember previous
+          communications. For example, relying on HTTP alone, a server
+          can't remember a password you typed or remember your progress on
+          an incomplete transaction. You need an application server for
+          tasks like that. (We'll cover that sort of technology in other
+          articles.)
+
+   HTTP provides clear rules for how a client and server communicate.
+   We'll cover HTTP itself in a
+   [https://developer.mozilla.org/en-US/docs/Web/HTTP]technical article
+   later. For now, just be aware of these things:
+     * Usually only clients make HTTP requests, and only to servers.
+       Servers respond to a client's HTTP request. A server can also
+       populate data into a client cache, in advance of it being
+       requested, through a mechanism called
+       [https://en.wikipedia.org/wiki/HTTP/2_Server_Push]server push.
+     * When requesting a file via HTTP, clients must provide the file's
+       [https://developer.mozilla.org/en-US/docs/Glossary/URL]URL.
+     * The web server must answer every HTTP request, at least with an
+       error message.
+
+   On a web server, the HTTP server is responsible for processing and
+   answering incoming requests.
+    1. Upon receiving a request, an HTTP server checks if the requested
+       URL matches an existing file.
+    2. If so, the web server sends the file content back to the browser.
+       If not, the server will check if it should generate a file
+       dynamically for the request (see
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/We
+       b_mechanics/What_is_a_web_server#static_vs._dynamic_content]Static
+       vs. dynamic content).
+    3. If neither of these options are possible, the web server returns an
+       error message to the browser, most commonly
+       [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404]404
+       Not Found. The 404 error is so common that some web designers
+       devote considerable time and effort to designing 404 error pages.
+       [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404]The
+       MDN 404 page as an example of such error page
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#static_vs._dynamic_content]Static vs. dynamic content
+
+   Roughly speaking, a server can serve either static or dynamic content.
+   Remember that the term static means "served as-is". Static websites are
+   the easiest to set up, so we suggest you make your first site a static
+   site.
+
+   The term dynamic means that the server processes the content or even
+   generates it on the fly from a database. This approach provides more
+   flexibility, but the technical stack is more complex, making it
+   dramatically more challenging to build a website.
+
+   It is impossible to suggest a single off-the-shelf application server
+   that will be the right solution for every possible use case. Some
+   application servers are designed to host and manage blogs, wikis, or
+   e-commerce solutions, while others are more generic. If you're building
+   a dynamic website, take the time to research your requirements and find
+   the technology that best fits your needs.
+
+   Most website developers won't need to create an application server from
+   scratch, because there are so many off-the-shelf solutions, many of
+   which are highly configurable. But if you do need to create your own
+   server, then you will probably want to use a server framework,
+   leveraging its existing code and libraries, and extending just the
+   parts that you need in order to meet your use case. Only a relatively
+   small number of developers should need to develop a server completely
+   from scratch: for example, in order to meet tight resource constraints
+   on an embedded system. If you'd like to experiment with building a
+   server, take a look through the resources in the
+   [https://developer.mozilla.org/en-US/docs/Learn/Server-side]Server-side
+   website programming learning pathway.
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanic
+s/What_is_a_web_server#next_steps]Next steps
+
+   Now that you are familiar with web servers, you could:
+     * read up on
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup/How_much_does_it_cost]how much it costs to do
+       something on the web
+     * learn more about
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup/What_software_do_I_need]various software you need to
+       create a website
+     * move on to something practical like
+       [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/To
+       ols_and_setup/Upload_files_to_a_web_server]how to upload files on a
+       web server.
+
+Found a content problem with this page?
+
+     * [https://github.com/mdn/content/edit/main/files/en-us/learn/common_
+       questions/web_mechanics/what_is_a_web_server/index.md]Edit the page
+       on GitHub.
+     * [https://github.com/mdn/content/issues/new?template=page-report.yml
+       &mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FLearn
+       %2FCommon_questions%2FWeb_mechanics%2FWhat_is_a_web_server&metadata
+       =%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E
+       %0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3
+       A+%60en-us%2Flearn%2Fcommon_questions%2Fweb_mechanics%2Fwhat_is_a_w
+       eb_server%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fe
+       n-US%2Fdocs%2FLearn%2FCommon_questions%2FWeb_mechanics%2FWhat_is_a_
+       web_server%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fconte
+       nt%2Fblob%2Fmain%2Ffiles%2Fen-us%2Flearn%2Fcommon_questions%2Fweb_m
+       echanics%2Fwhat_is_a_web_server%2Findex.md%0A*+Last+commit%3A+https
+       %3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fbb026bcb88b7f45374d6
+       02301b7b0db5a49ff303%0A*+Document+last+modified%3A+2023-07-03T10%3A
+       12%3A35.000Z%0A%0A%3C%2Fdetails%3E]Report the content issue.
+     * [https://github.com/mdn/content/blob/main/files/en-us/learn/common_
+       questions/web_mechanics/what_is_a_web_server/index.md?plain=1]View
+       the source on GitHub.
+
+   Want to get more involved?
+   [https://github.com/mdn/content/blob/main/CONTRIBUTING.md]Learn how to
+   contribute.
+
+   This page was last modified on Jul 3, 2023 by
+   [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_me
+   chanics/What_is_a_web_server/contributors.txt]MDN contributors.
+
+   [https://developer.mozilla.org/]
+
+   Your blueprint for a better internet.
+     * [https://twitter.com/mozdevnet]MDN on Twitter
+     * [https://github.com/mdn/]MDN on GitHub
+     * [https://developer.mozilla.org/en-US/blog/rss.xml]MDN Blog RSS Feed
+
+MDN
+
+     * [https://developer.mozilla.org/en-US/about]About
+     * [https://developer.mozilla.org/en-US/blog/]Blog
+     * [https://www.mozilla.org/en-US/careers/listings/?team=Marketing]Car
+       eers
+     * [https://developer.mozilla.org/en-US/advertising]Advertise with us
+
+Support
+
+     * [https://support.mozilla.org/products/mdn-plus]Product help
+     * [https://developer.mozilla.org/en-US/docs/MDN/Community/Issues]Repo
+       rt an issue
+
+Our communities
+
+     * [https://developer.mozilla.org/en-US/community]MDN Community
+     * [https://discourse.mozilla.org/c/mdn/236]MDN Forum
+     * [https://wiki.mozilla.org/Matrix]MDN Chat
+
+Developers
+
+     * [https://developer.mozilla.org/en-US/docs/Web]Web Technologies
+     * [https://developer.mozilla.org/en-US/docs/Learn]Learn Web
+       Development
+     * [https://developer.mozilla.org/en-US/plus]MDN Plus
+     * [https://hacks.mozilla.org/]Hacks Blog
+
+   [https://www.mozilla.org/]
+     * [https://www.mozilla.org/privacy/websites/]Website Privacy Notice
+     * [https://www.mozilla.org/privacy/websites/#cookies]Cookies
+     * [https://www.mozilla.org/about/legal/terms/mozilla]Legal
+     * [https://www.mozilla.org/about/governance/policies/participation/]C
+       ommunity Participation Guidelines
+
+   Visit [https://www.mozilla.org/]Mozilla Corporation’s not-for-profit
+   parent, the [https://foundation.mozilla.org/]Mozilla Foundation.
+   Portions of this content are ©1998–2023 by individual mozilla.org
+   contributors. Content available under
+   [https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib
+   _copyright_license]a Creative Commons license.

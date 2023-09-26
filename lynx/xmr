@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.elastic.co/guide/index.html > $(basename https://www.elastic.co/guide/index.html).txt

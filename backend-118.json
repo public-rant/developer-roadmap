@@ -1,0 +1,117 @@
+[
+ {
+  "id": "kubernetes",
+  "tag": "h1",
+  "text": "Kubernetes"
+ },
+ {
+  "id": "docker",
+  "tag": "h1",
+  "text": "Docker"
+ },
+ {
+  "id": "lxc",
+  "tag": "h1",
+  "text": "LXC"
+ },
+ {
+  "id": "containerization-vs.-virtualization",
+  "tag": "h1",
+  "text": "Containerization vs. Virtualization"
+ },
+ {
+  "id": "backends-for-frontend",
+  "tag": "h1",
+  "text": "Backends for Frontend"
+ },
+ {
+  "href": "https://github.com/kubernetes/kubernetes",
+  "tag": "a",
+  "text": "open source"
+ },
+ {
+  "href": "https://kubernetes.io/",
+  "tag": "a",
+  "text": "Kubernetes Website"
+ },
+ {
+  "href": "https://kubernetes.io/docs/home/",
+  "tag": "a",
+  "text": "Kubernetes Documentation"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=s_o8dwzRlu4",
+  "tag": "a",
+  "text": "Kubernetes Crash Course for Absolute Beginners"
+ },
+ {
+  "href": "https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/",
+  "tag": "a",
+  "text": "Primer: How Kubernetes Came to Be, What It Is, and Why You Should Care"
+ },
+ {
+  "href": "https://thenewstack.io/kubernetes-an-overview/",
+  "tag": "a",
+  "text": "Kubernetes: An Overview"
+ },
+ {
+  "href": "https://docs.docker.com/",
+  "tag": "a",
+  "text": "Docker Documentation"
+ },
+ {
+  "href": "https://aws.amazon.com/docker/",
+  "tag": "a",
+  "text": "What is Docker | AWS"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+  "tag": "a",
+  "text": "Complete Docker Course - From BEGINNER to PRO!"
+ },
+ {
+  "href": "https://youtu.be/3c-iBn73dDE",
+  "tag": "a",
+  "text": "Docker Tutorial"
+ },
+ {
+  "href": "https://youtu.be/vP_4DlOH1G4",
+  "tag": "a",
+  "text": "Docker simplified in 55 seconds"
+ },
+ {
+  "href": "https://linuxcontainers.org/lxc/documentation/",
+  "tag": "a",
+  "text": "LXC Documentation"
+ },
+ {
+  "href": "https://linuxcontainers.org/lxc/introduction/",
+  "tag": "a",
+  "text": "What is LXC?"
+ },
+ {
+  "href": "https://youtu.be/_KnmRdK69qM",
+  "tag": "a",
+  "text": "Linux Container (LXC) Introduction"
+ },
+ {
+  "href": "https://youtu.be/CWmkSj_B-wo",
+  "tag": "a",
+  "text": "Getting started with LXC containers"
+ },
+ {
+  "href": "https://middleware.io/blog/containerization-vs-virtualization/",
+  "tag": "a",
+  "text": "Containerization vs. Virtualization: Everything you need to know"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=1WnDHitznGY",
+  "tag": "a",
+  "text": "Containerization or Virtualization - The Differences"
+ },
+ {
+  "href": "https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends",
+  "tag": "a",
+  "text": "Backends for Frontends pattern"
+ }
+]

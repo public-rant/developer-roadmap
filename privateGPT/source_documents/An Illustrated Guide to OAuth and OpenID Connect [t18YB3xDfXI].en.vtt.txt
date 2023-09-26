@@ -1,0 +1,309 @@
+hey have you ever tried to learn about
+OAuth and open ID connect but became
+overwhelmed by all the strange
+terminology and jargon there s also a
+lot of conflicting information out there
+which can be really frustrating the goal
+for this video is to explain how these
+standards work using simplified easy to
+understand illustrations and I hope we
+
+the stone age days of the Internet
+sharing information between services was
+easy you simply gave your username and
+password for one service to another so
+they could log into your account and
+grab whatever information they wanted
+hikes you should never be required to
+share your username and password your
+credentials to another service there s
+no guarantee than our organization will
+keep your credential safe or guarantee
+their service won t access more of your
+personal information than necessary it
+might sound crazy but some applications
+still try to get away with this today we
+have agreed upon standards to securely
+allow one service to access data from
+another the first standard we need to
+cover is oo oo oo auth 2 0 is a security
+standard where you give one application
+permission to access your data in
+another application instead of giving
+them your username and password you can
+essentially give one app a key that
+gives them specific permission to access
+your data or do things on your behalf in
+another application the steps to grant
+permission or consent are often referred
+to as authorization or even delegated
+authorization you authorize one
+application to access your data or use
+features in another application on your
+behalf without giving them your password
+what s more
+you can take back that key whenever you
+wish awesome as an example let s say
+you ve discovered a website named
+terrible pun of the day and create an
+account to have it send an awful pun
+joke as a text message every day to your
+phone you love it so much you want to
+share this site with everyone you ve
+ever met online
+who wouldn t want to read a bad pun
+every day am i right however writing an
+email to every person in your contacts
+list sounds like a lot of work and if
+you re like me you ll go to great
+lengths to avoid anything that smells
+like work so here s you everyone needs
+bad puns a good thing terrible pun of
+the day has a feature to invite your
+friends the first step is to choose your
+email provider and when you click on
+your email provider you are redirected
+to your email service your email service
+then checks to see if you are currently
+logged in if not you get a prompt to log
+in after you log in or if you already
+have an active login session you ll be
+presented with a question similar to do
+you want to give terrible pun of the day
+access to your contacts assuming you
+haven t changed your mind you click
+allow you are redirected back to the
+terrible pun of the day and the
+application can now read your contacts
+and that s the only thing it can do
+terrible pun of the day can now send
+emails to everyone you know and you ll
+be the most popular person forever
+ooofff for the win you ve just stepped
+through what is commonly referred to as
+an OAuth flow the OAuth flow in this
+example is made of visible steps to
+grant consent as well as some invisible
+state
+we re the two services agree on a secure
+way of exchanging information the
+previous terrible pun of the day example
+uses the most common 2 0 flow known as
+the authorization code flow now before
+we dive into more details on what oh ah
+this doing let s map some of the oauth
+terminologies resource owner that s you
+you are the owner of your identity your
+data and any actions that can be
+performed with your accounts the client
+is the application in our example
+terrible pun of the day that wants to
+access data or perform actions on behalf
+of you the resource owner the
+authorization server is the application
+that knows the resource owner where the
+resource owner already has an account
+the resource server is the application
+programming interface or API or service
+the client wants to use on behalf of the
+resource owner sometimes the
+authorization server and the resource
+server are the same server however there
+are cases where they will not be the
+same server or even part of the same
+organization for example the
+authorization server might be a third
+party service the resource server trusts
+the redirect URI this is the URL the
+authorization server will redirect the
+resource owner back to after granting
+permission to the client this is
+sometimes referred to as the callback
+URL response type the type of
+information the client expects to
+receive the most common response type is
+code where the client expects to receive
+an authorization code scope these are
+the granular permissions the client
+wants such as access
+to data or to perform actions consent
+the authorization server takes the
+Scopes the client is requesting and
+verifies with the resource owner whether
+or not they want to give the client
+permission client ID this ID is used to
+identify the client with the
+authorization server there s also a
+client secret this is a secret password
+that only the client and the
+authorization server know this allows
+them to securely share information
+
+authorization code this is a short lived
+temporary code the authorization server
+sends back to the client the client then
+privately sends the authorization code
+back to the authorization server along
+with the client secret in exchange for
+an access token an access token is the
+key the client will use from that point
+forward to communicate with the resource
+server this is like a key or a key card
+that gives the client permission to
+request data or perform actions with the
+resource server on your behalf now that
+we have some of the OAuth 2 0 vocabulary
+handy let s revisit our example with a
+closer look at what s going on
+throughout the OAuth flow you the
+resource owner want to allow a terrible
+pun of the day the client to access your
+contacts so that they can send
+invitations to all your friends the
+client redirects your browser to the
+authorization server and includes with
+the request the client ID redirect URI
+response type and one or more scopes it
+needs the authorization server verifies
+who you are and if necessary prompts for
+a login the authorization server then
+presents you with a
+form based on the Scopes requested by
+the client and you have the opportunity
+to grant or deny permission the
+authorization server redirects back to
+the client using the redirect URI along
+with a temporary authorization code the
+client then contacts the authorization
+server directly it does not use the
+resource owners browser and securely
+sends its client ID client secret and
+the authorization code the authorization
+server verifies the data and responds
+with an access token the access token is
+a value the client doesn t understand as
+far as the client is concerned the
+access token is just a string of
+gibberish
+however the client can use the access
+token to send requests to the resource
+server the client is like here s an
+access token I would like the contacts
+associated with the resource owner of
+this token the resource server verifies
+the access token and if valid responds
+with the contacts requested it s also
+important to note that long before you
+gave terrible pun of the day permission
+to access your contacts the client and
+the authorization server established a
+working relationship the authorization
+server generated a client ID and client
+secret sometimes called the app ID and
+app secret and gave them to the client
+to use for all future
+exchanges as the name implies the client
+secret must be kept secret so that only
+the client and the authorization server
+know what it is this is how the
+authorization server can verify the
+client now let s talk about open ID
+Connect
+ooofff 2 0 is designed only for
+authorization
+for granting access to data and features
+from one application to another o auth
+is like giving an application the client
+a key that key is useful but it doesn t
+tell the client who you are or anything
+about you open ID Connect sometimes
+referred to as oh I DC is a thin layer
+that sits on top of OAuth 2 0 that adds
+functionality around login and profile
+information about the person who is
+logged in instead of a key o IDC is like
+giving the client application a badge
+the badge not only gives the client
+specific permissions it also provides
+some basic information about who you are
+where worth
+enables authorization from one app to
+another o IDC enables a client to
+establish a login session often referred
+to as authentication as well as to gain
+information about the person logged in
+the resource owner which is often called
+identity when an authorization server
+supports oh I DC it is sometimes called
+an identity provider since it provides
+information about the resource owner
+back to the client open ID Connect
+enables scenarios where one login can be
+used across multiple applications also
+known as single sign on or SSO for
+example an application could support SSO
+with social networking services such as
+Facebook or Twitter so that users can
+choose to leverage a login they already
+have and are comfortable using one way
+you might think of oh I D C is kind of
+like using an ATM the ATM machine is the
+client it s job is to access data such
+as your bank balance
+and perform banking transactions such as
+withdraw money from an account or
+deposit money into an account your bank
+card is the token that s issued by the
+bank it not only gives the ATM access to
+your account the authorization it also
+has some basic information about who you
+are your identity such as your name and
+authentication information such as when
+the card expires who issued the card and
+the bank s phone number an ATM can t
+work without the underlying bank
+infrastructure similarly oh I DC sits on
+top of OAuth and cannot work without the
+underlying oo auth framework let s
+revisit our terrible pun of the day
+example the open ID connect flow looks
+the same as ooofff
+the only differences are is in the
+initial request a specific scope of open
+ID is used this lets the authorization
+server know this will be an open ID
+Connect exchange the authorization
+server goes through all the same steps
+as before and issues an authorization
+code back to the client using the
+resource owners browser the key
+difference in OID C is when the client
+exchanges the authorization code for an
+access token the client receives both an
+access token and an ID token as before
+the access token is a value the client
+doesn t understand the ID token however
+is very different the ID token is a
+specifically formatted string of
+characters known as a JSON web token or
+JWT JWT s are sometimes pronounced shots
+a JWT may look like gibberish to you and
+me but the client can extract
+information embedded in the JWT such as
+your ID
+name when you logged in the ID tokens
+expiration and it can tell if anyone has
+tried to tamper with the JWT the data
+inside the ID token are called claims
+with oh I D C there s also a standard
+way the client can request additional
+identity information from the
+authorization server such as your email
+address using the access token well
+that s it folks that is oo oo oo ID c in
+a nutshell if you d like to dig deeper
+there are some additional resources
+linked in the description below I hope
+you found this video helpful please like
+subscribe and leave me comments down
+below I d love to hear from you until

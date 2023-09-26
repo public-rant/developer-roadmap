@@ -1,0 +1,1569 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/170323]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fruby-a-programmers-best-friend%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fruby-a-programmers-best-friend%2F&format=xml]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/ai/]AI
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/ruby-a-programmers-best-friend/]ARCHITECTURE
+   [https://thenewstack.io/ruby-a-programmers-best-friend/]ENGINEERING
+   [https://thenewstack.io/ruby-a-programmers-best-friend/]OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/ai/]AI
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/there-is-a-bright-future-for-ai-driven-integrat
+   ion/]There is a Bright Future for AI-Driven Integration
+   Jul 7th 2023 7:42am, by
+   [https://thenewstack.io/author/anant-jhingran/]Anant Jhingran and
+   [https://thenewstack.io/author/matt-roberts/]Matt Roberts
+   [https://thenewstack.io/causal-ai-a-solution-to-limitations-of-correlat
+   ion-based-ml/]Causal AI: A Solution to Limitations of Correlation-Based
+   ML
+   Jul 6th 2023 6:13am, by
+   [https://thenewstack.io/author/bipin-singh/]Bipin Singh
+   [https://thenewstack.io/a-look-at-datastaxs-ai-and-push-cache-for-data-
+   access-at-scale/]A Look at DataStax's AI and Push Cache for Data Access
+   at Scale
+   Jul 6th 2023 4:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by
+   [https://thenewstack.io/author/matt-weinberger/]Matt Weinberger
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/there-is-a-bright-future-for-ai-driven-integrat
+   ion/]There is a Bright Future for AI-Driven Integration
+   Jul 7th 2023 7:42am, by
+   [https://thenewstack.io/author/anant-jhingran/]Anant Jhingran and
+   [https://thenewstack.io/author/matt-roberts/]Matt Roberts
+   [https://thenewstack.io/catch-performance-regressions-evolving-ebpf-pro
+   gram/]Catch Performance Regressions: Evolving eBPF Program
+   Jul 7th 2023 7:00am, by
+   [https://thenewstack.io/author/everett-pompeii/]Everett Pompeii
+   [https://thenewstack.io/why-clickhouse-should-be-your-next-database/]Wh
+   y Clickhouse Should Be Your Next Database
+   Jul 6th 2023 7:20am, by
+   [https://thenewstack.io/author/joe-karlsson/]Joe Karlsson
+   [https://thenewstack.io/llamaindex-and-the-new-world-of-llm-orchestrati
+   on-frameworks/]LlamaIndex and the New World of LLM Orchestration
+   Frameworks
+   Jul 6th 2023 6:47am, by [https://thenewstack.io/author/richard/]Richard
+   MacManus
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/grounding-transformer-large-language-models-wit
+   h-vector-databases/]Grounding Transformer Large Language Models with
+   Vector Databases
+   Jul 7th 2023 3:00am, by
+   [https://thenewstack.io/author/simonbisson/]Simon Bisson
+   [https://thenewstack.io/why-clickhouse-should-be-your-next-database/]Wh
+   y Clickhouse Should Be Your Next Database
+   Jul 6th 2023 7:20am, by
+   [https://thenewstack.io/author/joe-karlsson/]Joe Karlsson
+   [https://thenewstack.io/llamaindex-and-the-new-world-of-llm-orchestrati
+   on-frameworks/]LlamaIndex and the New World of LLM Orchestration
+   Frameworks
+   Jul 6th 2023 6:47am, by [https://thenewstack.io/author/richard/]Richard
+   MacManus
+   [https://thenewstack.io/a-look-at-datastaxs-ai-and-push-cache-for-data-
+   access-at-scale/]A Look at DataStax's AI and Push Cache for Data Access
+   at Scale
+   Jul 6th 2023 4:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/grounding-transformer-large-language-models-wit
+   h-vector-databases/]Grounding Transformer Large Language Models with
+   Vector Databases
+   Jul 7th 2023 3:00am, by Simon Bisson
+   [https://thenewstack.io/causal-ai-a-solution-to-limitations-of-correlat
+   ion-based-ml/]Causal AI: A Solution to Limitations of Correlation-Based
+   ML
+   Jul 6th 2023 6:13am, by Bipin Singh
+   [https://thenewstack.io/a-look-at-datastaxs-ai-and-push-cache-for-data-
+   access-at-scale/]A Look at DataStax's AI and Push Cache for Data Access
+   at Scale
+   Jul 6th 2023 4:00am, by B. Cameron Gain
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/5-ways-to-build-out-an-sre-function-and-why-it-
+   matters/]5 Ways to Build out an SRE Function and Why It Matters
+   Jul 7th 2023 9:00am, by Mandi Walls
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2014-12-11 01:54:48
+   Ruby, An Introduction to a Programmer’s Best Friend
+   tutorial,
+
+Ruby, An Introduction to a Programmer’s Best Friend
+
+   Dec 11th, 2014 1:54am by
+   [https://thenewstack.io/author/darshanrai/]darshan rai
+   Featued image for: Ruby, An Introduction to a Programmer’s Best Friend
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+   Editor’s Note: The New Stack is a sponsor for
+   [http://rubyconfindia.org/2015/]RubyConf India. Leading up to the
+   conference, The New Stack will feature posts by the speakers on topics
+   about Ruby on Rails. We try to do this for all the conferences we
+   sponsor. For example, we have been featuring posts by speakers from
+   [https://thenewstack.io/events/]GopherCon, scheduled for February in
+   Bangalore.
+
+   When I was first introduced to Ruby, I asked, “Why Ruby?”  I got two
+   common replies:
+     * It makes you think about programming differently (especially if you
+       come from a non-OOP background).
+     * It makes you happy.
+
+   Ruby was designed from a programmer’s point-of-view for productivity.
+   Its syntax is elegant and it’s truly object-oriented.
+
+   Ruby is a dynamic, reflective, object-oriented, general-purpose
+   programming language. It was designed and developed in the mid-1990s by
+   Yukihiro “Matz” Matsumoto in Japan.
+
+   Matz’s idea for Ruby is clear from the below statement:
+
+   I was talking with my colleague about the possibility of an
+   object-oriented scripting language. I knew Perl (Perl4, not Perl5), but
+   I didn’t like it really, because it had the smell of a toy language (it
+   still has). The object-oriented language seemed very promising. I knew
+   Python then. But I didn’t like it, because I didn’t think it was a true
+   object-oriented language — OO features appeared to be add-on to the
+   language. As a language maniac and OO fan for 15 years, I really wanted
+   a genuine object-oriented, easy-to-use scripting language. I looked for
+   but couldn’t find one. So I decided to make it.
+
+   Here, I’ll walk you through an introduction to Ruby.
+
+   Let’s start off with the basics.
+   Strings:
+
+   2.1.2 :001 &gt; name = "Matz"_______________________________
+   =&gt; "Matz"________________________________________________
+   2.1.2 :002 &gt; puts "Hello, #{name}"_______________________
+   Hello, Matz_________________________________________________
+   =&gt; nil___________________________________________________
+   2.1.2 :003 &gt; puts "Hello, " + "#{name}"__________________
+   Hello, Matz_________________________________________________
+   =&gt; nil___________________________________________________
+   2.1.2 :004 &gt; "I l" + "o" * 5 + "ve Ruby!"________________
+   =&gt; "I looooove Ruby!"____________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   2.1.2 :001 &gt; name = "Matz"
+   =&gt; "Matz"
+   2.1.2 :002 &gt; puts "Hello, #{name}"
+   Hello, Matz
+   =&gt; nil
+   2.1.2 :003 &gt; puts "Hello, " + "#{name}"
+   Hello, Matz
+   =&gt; nil
+   2.1.2 :004 &gt; "I l" + "o" * 5 + "ve Ruby!"
+   =&gt; "I looooove Ruby!"
+
+   There are some nice things happening here. The basic String
+   interpolations work as you’d expect. You can concatenate Strings
+   together with the + method. You can even “multiply” Strings.
+
+   So what’s the cool stuff? The way that it is implemented. For instance,
+   the + method acts on  the String object “Hello, “”. The meaning of +
+   depends on the object receiving that method. Here, it is an object of
+   type String, where it means “add String ‘Matz’ to String ‘Hello, ‘“”.
+   Conventionally, methods with a ? at the end return boolean values. And
+   methods with a ! perform some “dangerous” operation like mutating the
+   String.
+
+   Everything is an object, including integers and floating point numbers.
+   We’ll come back to this in a bit. For people familiar with object
+   oriented programming, it’s nice to see that everything is object
+   oriented, even basic operations like the addition of numbers.
+
+   Also notice that for every statement, the Ruby interpreter returns
+   something, even if that something is nil. In Ruby, every statement is
+   an expression and will result in a value.
+   Identifiers with their first character in the uppercase are constants.
+
+   Coming back to our String example, if we had an integer on the left
+   hand side of a +, the + would result in addition of that and whatever
+   was on the right hand side. Since Ruby allows you to reopen classes,
+   you could open up the Fixnum class and redefine the + method to mean…
+   subtraction! Although you might get fired, I’m sure it’d be fun for
+   your entire team. Lol.
+
+   Greet_______________________________________________________
+   2.1.2 :001 &gt; class Greet_________________________________
+   2.1.2 :002?&gt;   attr_accessor :name_______________________
+   2.1.2 :003?&gt;_____________________________________________
+   2.1.2 :004 &gt;   def initialize(name="Nobody")_____________
+   2.1.2 :005?&gt;     @name = name____________________________
+   2.1.2 :006?&gt;   end_______________________________________
+   2.1.2 :007?&gt;_____________________________________________
+   2.1.2 :011?&gt;_____________________________________________
+   2.1.2 :012 &gt;   def say_goodbye(another)__________________
+   2.1.2 :013?&gt;     "Goodbye, #{another}"___________________
+   2.1.2 :014?&gt;   end_______________________________________
+   2.1.2 :015?&gt;_____________________________________________
+   2.1.2 :023?&gt;   def say_hello(another)____________________
+   2.1.2 :024?&gt;     "Hey %s! I'm %s" % [ another, @name ____
+   2.1.2 :025?&gt;     end_____________________________________
+   2.1.2 :019?&gt;   end_______________________________________
+   =&gt; :say_hello____________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   Greet
+   2.1.2 :001 &gt; class Greet
+   2.1.2 :002?&gt;   attr_accessor :name
+   2.1.2 :003?&gt;
+   2.1.2 :004 &gt;   def initialize(name="Nobody")
+   2.1.2 :005?&gt;     @name = name
+   2.1.2 :006?&gt;   end
+   2.1.2 :007?&gt;
+   2.1.2 :011?&gt;
+   2.1.2 :012 &gt;   def say_goodbye(another)
+   2.1.2 :013?&gt;     "Goodbye, #{another}"
+   2.1.2 :014?&gt;   end
+   2.1.2 :015?&gt;
+   2.1.2 :023?&gt;   def say_hello(another)
+   2.1.2 :024?&gt;     "Hey %s! I'm %s" % [ another, @name ]
+   2.1.2 :025?&gt;     end
+   2.1.2 :019?&gt;   end
+   =&gt; :say_hello
+
+   Greet is a simple class with a bunch of methods in it.
+
+Variable Scope
+
+   There are four variable scopes:
+   – Global ($)
+   Global variables are available for use throughout your program.
+   – Class (@@)
+   Class variables are available to all instances (objects) of a class.
+   – Instance (@)
+   Instance variables are available only inside the current instance, ie.,
+   each instance has its own copy.
+   – Local
+   Local variables are limited in scope to within a method or a block.
+
+   The attr_accessor method sets up getter and setter methods for a list
+   of variables. Simple things, but it saves you the time you’d spend
+   doing something like:
+
+   def foo_____________________________________________________
+   @foo________________________________________________________
+   end_________________________________________________________
+   ____________________________________________________________
+   def foo=(new_value)_________________________________________
+   @foo = new_value____________________________________________
+   end_________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   def foo
+   @foo
+   end
+
+   def foo=(new_value)
+   @foo = new_value
+   end
+
+   ‘… for every damn variable.
+
+   Did you notice how the attr_accessor accepted :name. That’s a symbol.
+   It’s like a String, but it’s used like an identifier. They’re different
+   from Strings and all symbols with the same name share the same memory.
+
+   the initialize method in a class is run on instantiation, ie., when the
+   object is created. Objects are created with the .new method defined on
+   the class constant.
+   You can omit the return keyword in Ruby. The last line executed in a
+   block of code is the value that is returned.
+
+   Hold on, you can use methods on classes?! Remember I told you that
+   everything was an object? Well, your class definition happens to be an
+   object of type Class with the constant Greet pointing to it. Don’t
+   believe me? Try it out for yourself.
+
+   2.1.2 :041 &gt; Greet.class_________________________________
+   =&gt; Class_________________________________________________
+   2.1.2 :043 &gt; Greet.methods.sort__________________________
+   =&gt; [:!, :!=, :!~, :&lt;, :&lt;=, :&lt;=&gt;, :==, :===, :
+   1
+   2
+   3
+   4
+   2.1.2 :041 &gt; Greet.class
+   =&gt; Class
+   2.1.2 :043 &gt; Greet.methods.sort
+   =&gt; [:!, :!=, :!~, :&lt;, :&lt;=, :&lt;=&gt;, :==, :===, :=~, :&gt;,
+   :&gt;=, :__id__, :__send__, :allocate, :ancestors, :autoload,
+   :autoload?, :class, :class_eval, :class_exec, :class_variable_defined?,
+   :class_variable_get, :class_variable_set, :class_variables, :clone,
+   :const_defined?, :const_get, :const_missing, :const_set, :constants,
+   :define_singleton_method, :display, :dup, :enum_for, :eql?, :equal?,
+   :extend, :freeze, :frozen?, :hash, :include, :include?,
+   :included_modules, :inspect, :instance_eval, :instance_exec,
+   :instance_method, :instance_methods, :instance_of?,
+   :instance_variable_defined?, :instance_variable_get,
+   :instance_variable_set, :instance_variables, :is_a?, :kind_of?,
+   :method, :method_defined?, :methods, :module_eval, :module_exec, :name,
+   :new, :nil?, :object_id, :prepend, :private_class_method,
+   :private_constant, :private_instance_methods, :private_method_defined?,
+   :private_methods, :protected_instance_methods,
+   :protected_method_defined?, :protected_methods, :public_class_method,
+   :public_constant, :public_instance_method, :public_instance_methods,
+   :public_method, :public_method_defined?, :public_methods, :public_send,
+   :remove_class_variable, :remove_instance_variable, :respond_to?, :send,
+   :singleton_class, :singleton_class?, :singleton_method,
+   :singleton_methods, :superclass, :taint, :tainted?, :tap, :to_enum,
+   :to_s, :trust, :untaint, :untrust, :untrusted?]
+
+   The new method takes arguments which are supplied to the initialize
+   method. Default values for method parameters can be specified using
+   param=default_value in the method definition.
+
+   g is an instance of Greet.
+
+   2.1.2 :020 &gt; g = Greet.new_______________________________
+   =&gt; #&lt;Greet:0x00000001992e50 @name="Nobody"&gt;________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   2.1.2 :020 &gt; g = Greet.new
+   =&gt; #&lt;Greet:0x00000001992e50 @name="Nobody"&gt;
+
+   Our getter and setter methods in action:
+
+   2.1.2 :032 &gt; g.name = "Tom"______________________________
+   =&gt; "Tom"_________________________________________________
+   ____________________________________________________________
+   2.1.2 :033 &gt; g.name______________________________________
+   =&gt; "Tom"_________________________________________________
+   ____________________________________________________________
+   2.1.2 :034 &gt; g.say_hello("Jim")__________________________
+   =&gt; "Hey Jim! I'm Tom"____________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   2.1.2 :032 &gt; g.name = "Tom"
+   =&gt; "Tom"
+
+   2.1.2 :033 &gt; g.name
+   =&gt; "Tom"
+
+   2.1.2 :034 &gt; g.say_hello("Jim")
+   =&gt; "Hey Jim! I'm Tom"
+
+   The last method show how you can use format specifiers and an Array of
+   values to make up a String.
+
+Arrays and Hashes
+
+   Arrays and hashes are used to store related data in Ruby. You can
+   create a new Array or a Hash with:
+
+   i_am_an_array = Array.new___________________________________
+   i_am_a_hash = Hash.new______________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   i_am_an_array = Array.new
+   i_am_a_hash = Hash.new
+
+   Of course, they’re used quite often and can be created literally like
+   this:
+
+   new_array = [] # an empty array.____________________________
+   new_hash = {} # an empty hash_______________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   new_array = [] # an empty array.
+   new_hash = {} # an empty hash
+
+
+   2.1.2 :013 &gt; foo = "hex"_________________________________
+   =&gt; "hex"_________________________________________________
+   2.1.2 :014 &gt; bar = [10, 3.14, foo, ["I'm", "a", "nested",
+   =&gt; [10, 3.14, "hex", ["I'm", "a", "nested", "array"]]____
+   1
+   2
+   3
+   4
+   2.1.2 :013 &gt; foo = "hex"
+   =&gt; "hex"
+   2.1.2 :014 &gt; bar = [10, 3.14, foo, ["I'm", "a", "nested", "array"]]
+   =&gt; [10, 3.14, "hex", ["I'm", "a", "nested", "array"]]
+
+   Arrays are nothing but a collection of references to objects. So they
+   can store anything you’d like, including other arrays.
+
+   2.1.2 :015 &gt; foo.reverse!________________________________
+   =&gt; "xeh"_________________________________________________
+   2.1.2 :016 &gt; bar_________________________________________
+   =&gt; [10, 3.14, <b>"xeh"</b>, ["I'm", "a", "nested", "array
+   1
+   2
+   3
+   4
+   2.1.2 :015 &gt; foo.reverse!
+   =&gt; "xeh"
+   2.1.2 :016 &gt; bar
+   =&gt; [10, 3.14, <b>"xeh"</b>, ["I'm", "a", "nested", "array"]]
+
+   Just references to objects.
+   You can slice an Array any way you like:
+
+   2.1.2 :030 &gt; bar[0]______________________________________
+   =&gt; 10____________________________________________________
+   2.1.2 :031 &gt; bar[-1]_____________________________________
+   =&gt; ["I'm", "a", "nested", "array"]_______________________
+   2.1.2 :032 &gt; bar[2..-1] # This is a range. More on this l
+   =&gt; ["xeh", ["I'm", "a", "nested", "array"]]______________
+   1
+   2
+   3
+   4
+   5
+   6
+   2.1.2 :030 &gt; bar[0]
+   =&gt; 10
+   2.1.2 :031 &gt; bar[-1]
+   =&gt; ["I'm", "a", "nested", "array"]
+   2.1.2 :032 &gt; bar[2..-1] # This is a range. More on this later
+   =&gt; ["xeh", ["I'm", "a", "nested", "array"]]
+
+   Hashes are associative Arrays (like dictionaries) and hold key-value
+   pairs. The keys and values can be an object of any type.
+
+   2.1.2 :028 &gt; a_hash = {:name =&gt; "NASA", 4 =&gt; "four"
+   =&gt; {:name=&gt;"NASA", 4=&gt;"four", "array"=&gt;[10, 3.14
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   2.1.2 :028 &gt; a_hash = {:name =&gt; "NASA", 4 =&gt; "four", "array"
+   =&gt; bar }
+   =&gt; {:name=&gt;"NASA", 4=&gt;"four", "array"=&gt;[10, 3.14, "xeh",
+   ["I'm", "a", "nested", "array"]]}
+
+   Usually though, they’re used with symbols as keys, so much so that they
+   have their own shorthand syntax:
+
+   2.1.2 :029 &gt; another_hash = { organization: "NASA", count
+   =&gt; {:organization=&gt;"NASA", :country=&gt;"USA"}________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   2.1.2 :029 &gt; another_hash = { organization: "NASA", country: "USA" }
+   =&gt; {:organization=&gt;"NASA", :country=&gt;"USA"}
+
+   Values can be accessed like this:
+
+   2.1.2 :037 &gt; a_hash[:name]_______________________________
+   =&gt; "NASA"________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   2
+   2.1.2 :037 &gt; a_hash[:name]
+   =&gt; "NASA"
+
+Printing Objects
+
+   What if I want to print an instance of Greet? How does Ruby know what
+   to print? Remember numbers are just objects as well, so I can do puts
+   23 and it outputs the String “23”. How does Ruby know how to convert an
+   object of Fixnum and make a String out of it? If you look at all the
+   methods in the Fixnum class, there’s a to_s method. puts simply calls
+   the to_s method on the number 23.
+
+   Therefore, all we need to make instances of Greet printable is to
+   define a to_s method. Let’s reopen Greet and add a to_s method.
+
+   2.1.2 :054 &gt; class Greet_________________________________
+   2.1.2 :055?&gt;   def to_s__________________________________
+   2.1.2 :056?&gt;     "My name is #{@name}"___________________
+   2.1.2 :057?&gt;   end_______________________________________
+   2.1.2 :058?&gt; end_________________________________________
+   =&gt; :to_s_________________________________________________
+   2.1.2 :059 &gt; puts g______________________________________
+   My name is Tom______________________________________________
+   =&gt; nil___________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   2.1.2 :054 &gt; class Greet
+   2.1.2 :055?&gt;   def to_s
+   2.1.2 :056?&gt;     "My name is #{@name}"
+   2.1.2 :057?&gt;   end
+   2.1.2 :058?&gt; end
+   =&gt; :to_s
+   2.1.2 :059 &gt; puts g
+   My name is Tom
+   =&gt; nil
+
+if, unless, while, until, for
+
+
+   if condition________________________________________________
+   # do something______________________________________________
+   elsif_______________________________________________________
+   # do another________________________________________________
+   else________________________________________________________
+   # do something else_________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   if condition
+   # do something
+   elsif
+   # do another
+   else
+   # do something else
+
+   You can do this as well:
+
+   puts "I'm true today" if condition__________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   1
+   puts "I'm true today" if condition
+
+   You can use the unless keyword in place of if when you do not want to
+   perform an action if the condition is true.
+
+   Looping in Ruby is usually done using iterators, but the language does
+   provide the while and for loops.
+
+   i = 0_______________________________________________________
+   while i &lt; 5______________________________________________
+   print "#{i}, "______________________________________________
+   i += 1______________________________________________________
+   end_________________________________________________________
+   ____________________________________________________________
+   0, 1, 2, 3, 4,______________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   i = 0
+   while i &lt; 5
+   print "#{i}, "
+   i += 1
+   end
+
+   0, 1, 2, 3, 4,
+
+   You can use until to loop while the condition is false, similar to a
+   while loop.
+
+   For loops:
+
+   fruits = ["apples", "grapes", "pineapples", "oranges"]______
+   for fruit in fruits_________________________________________
+   puts fruit__________________________________________________
+   end_________________________________________________________
+   1
+   2
+   3
+   4
+   fruits = ["apples", "grapes", "pineapples", "oranges"]
+   for fruit in fruits
+   puts fruit
+   end
+
+Range
+
+   Ranges in Ruby are used to define a set of values with a starting and
+   an end. So if I wanted to loop over values from 0 to 5 I’d do this:
+
+   2.1.2 :035 &gt; for i in (0..5)_____________________________
+   2.1.2 :036?&gt;   print "#{i}, "____________________________
+   2.1.2 :037?&gt; end_________________________________________
+   0, 1, 2, 3, 4, 5,  =&gt; 0..5_______________________________
+   1
+   2
+   3
+   4
+   2.1.2 :035 &gt; for i in (0..5)
+   2.1.2 :036?&gt;   print "#{i}, "
+   2.1.2 :037?&gt; end
+   0, 1, 2, 3, 4, 5,  =&gt; 0..5
+
+   You can have character ranges as well.
+
+   2.1.2 :039 &gt; ('a'..'e').to_a_____________________________
+   =&gt; ["a", "b", "c", "d", "e"]_____________________________
+   2.1.2 :040 &gt; ('a'...'e').to_a____________________________
+   =&gt; ["a", "b", "c", "d"]__________________________________
+   1
+   2
+   3
+   4
+   2.1.2 :039 &gt; ('a'..'e').to_a
+   =&gt; ["a", "b", "c", "d", "e"]
+   2.1.2 :040 &gt; ('a'...'e').to_a
+   =&gt; ["a", "b", "c", "d"]
+
+   Two dots: Inclusive of last value.
+   Three dots: Exclusive of last value.
+
+Blocks and Iterators
+
+   Shouldn’t an object know how to iterate over itself? Just like a String
+   should know how long it is.
+
+   “I am thirty-one characters long”.length
+   You can just as simply use .size for the length. Ruby, in some places,
+   where it makes sense, has multiple methods that do the same thing. Use
+   what feels natural.
+
+   Blocks and iterators in Ruby are really powerful and really useful.
+   Most times you really aren’t interested in maintaining an Array index
+   externally. You just want to loop over the damn thing! Here’s how you’d
+   do it in Ruby:
+
+   2.1.2 :009 &gt; fruits = ["apples", "grapes", "pineapples", 
+   =&gt; ["apples", "grapes", "pineapples", "oranges"]_________
+   2.1.2 :010 &gt; fruits.each do |fruit|______________________
+   2.1.2 :011 &gt;   puts "I like #{fruit}"____________________
+   2.1.2 :012?&gt; end_________________________________________
+   I like apples_______________________________________________
+   I like grapes_______________________________________________
+   I like pineapples___________________________________________
+   I like oranges______________________________________________
+   =&gt; ["apples", "grapes", "pineapples", "oranges"]_________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   2.1.2 :009 &gt; fruits = ["apples", "grapes", "pineapples", "oranges"]
+   =&gt; ["apples", "grapes", "pineapples", "oranges"]
+   2.1.2 :010 &gt; fruits.each do |fruit|
+   2.1.2 :011 &gt;   puts "I like #{fruit}"
+   2.1.2 :012?&gt; end
+   I like apples
+   I like grapes
+   I like pineapples
+   I like oranges
+   =&gt; ["apples", "grapes", "pineapples", "oranges"]
+
+   It basically takes every element in the Array fruits and provides it as
+   fruit to the block of code between the do … end. This is a block.
+
+   A block is basically a chunk of code that you pass to a method, not
+   different from how you’d pass data as arguments. Let’s have a look at
+   how you’d make your own iterator to give you a better understanding.
+
+   Let’s make an iterator that processes only every other element.
+
+   2.1.2 :001 &gt; class Array_________________________________
+   2.1.2 :002?&gt;   def every_other___________________________
+   2.1.2 :003?&gt;     current_index = 0_______________________
+   2.1.2 :004?&gt;     new_array = []__________________________
+   2.1.2 :005?&gt;     while current_index &lt; self.size______
+   2.1.2 :006?&gt;       new_array &lt;&lt; <b>yield</b>(______
+   2.1.2 :007?&gt;       current_index += 2____________________
+   2.1.2 :008?&gt;     end_____________________________________
+   2.1.2 :009?&gt;     return new_array________________________
+   2.1.2 :010?&gt;  end________________________________________
+   2.1.2 :011?&gt; end_________________________________________
+   =&gt; :every_other__________________________________________
+   2.1.2 :012 &gt; [1, 2, 3, 4, 5].every_other { |i| i ** 2 }__
+   =&gt; [1, 9, 25]____________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   2.1.2 :001 &gt; class Array
+   2.1.2 :002?&gt;   def every_other
+   2.1.2 :003?&gt;     current_index = 0
+   2.1.2 :004?&gt;     new_array = []
+   2.1.2 :005?&gt;     while current_index &lt; self.size
+   2.1.2 :006?&gt;       new_array &lt;&lt;
+   <b>yield</b>(self[current_index])
+   2.1.2 :007?&gt;       current_index += 2
+   2.1.2 :008?&gt;     end
+   2.1.2 :009?&gt;     return new_array
+   2.1.2 :010?&gt;  end
+   2.1.2 :011?&gt; end
+   =&gt; :every_other
+   2.1.2 :012 &gt; [1, 2, 3, 4, 5].every_other { |i| i ** 2 }
+   =&gt; [1, 9, 25]
+
+   That might have been a bit overwhelming, so let’s break it down.
+
+   We reopen the Array class and on line 5 we create a while loop. It
+   loops as long as current_index is smaller than the size of the original
+   Array.
+
+   Line 6 is where the magic happens. We can call the block we passed to
+   every_other with yield along with any arguments. Here, we pass an
+   alternate element on each loop. Again, the elements are passed through
+   the block of code that we passed  and we append the value returned by
+   the block to new_array.
+
+   We then return the new_array once we are done.
+   { |var1, var2| statements }
+   is the same as
+   do |var1, var2|
+   statement
+   end
+
+   On line 12, we call every_other on the Array [1, 2, 3, 4, 5] and pass
+   it a block that takes one argument. That’s the argument we provide to
+   yield in the method definition.
+
+   Basically, we took every alternate element and ran each of them through
+   the block i ** 2.
+
+   For a more in-depth look at blocks, procs and lambdas, have a look at
+   this brilliant article on Ruby Blocks, Procs, and Lambdas.
+
+Comparable
+
+   Let’s say you define a new class and you want to sort an Array of those
+   objects. Imagine the amount of work that you’d have to do. Ruby has an
+   elegant solution.
+
+   2.1.2 :024 &gt; class Person________________________________
+   2.1.2 :025?&gt;   attr_accessor :name, :age_________________
+   2.1.2 :026?&gt;_____________________________________________
+   2.1.2 :027 &gt;   include Comparable________________________
+   2.1.2 :028?&gt;   def initialize(name, age)_________________
+   2.1.2 :029?&gt;     @name, @age = name, age_________________
+   2.1.2 :030?&gt;   end_______________________________________
+   2.1.2 :031?&gt;_____________________________________________
+   2.1.2 :032 &gt;   def &lt;=&gt; other_______________________
+   2.1.2 :033?&gt;     self.age &lt;=&gt; other.age____________
+   2.1.2 :034?&gt;   end_______________________________________
+   2.1.2 :035?&gt; end_________________________________________
+   =&gt; :&lt;=&gt;____________________________________________
+   2.1.2 :036 &gt; people = []_________________________________
+   =&gt; []____________________________________________________
+   2.1.2 :037 &gt; people.push(Person.new("Ram", 30), Person.ne
+   =&gt; [#&lt;Person:0x0000000122de30 @name="Ram", @age=30&gt;
+   ____________________________________________________________
+   2.1.2 :038 &gt; people.sort_________________________________
+   =&gt; [#&lt;Person:0x0000000121fb78 @name="Angela", @age=28&
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   12
+   13
+   14
+   15
+   16
+   17
+   18
+   19
+   20
+   2.1.2 :024 &gt; class Person
+   2.1.2 :025?&gt;   attr_accessor :name, :age
+   2.1.2 :026?&gt;
+   2.1.2 :027 &gt;   include Comparable
+   2.1.2 :028?&gt;   def initialize(name, age)
+   2.1.2 :029?&gt;     @name, @age = name, age
+   2.1.2 :030?&gt;   end
+   2.1.2 :031?&gt;
+   2.1.2 :032 &gt;   def &lt;=&gt; other
+   2.1.2 :033?&gt;     self.age &lt;=&gt; other.age
+   2.1.2 :034?&gt;   end
+   2.1.2 :035?&gt; end
+   =&gt; :&lt;=&gt;
+   2.1.2 :036 &gt; people = []
+   =&gt; []
+   2.1.2 :037 &gt; people.push(Person.new("Ram", 30), Person.new("James",
+   40), Person.new("Angela", 28))
+   =&gt; [#&lt;Person:0x0000000122de30 @name="Ram", @age=30&gt;,
+   #&lt;Person:0x0000000121ff38 @name="James", @age=40&gt;,
+   #&lt;Person:0x0000000121fb78 @name="Angela", @age=28&gt;]
+
+   2.1.2 :038 &gt; people.sort
+   =&gt; [#&lt;Person:0x0000000121fb78 @name="Angela", @age=28&gt;,
+   #&lt;Person:0x0000000122de30 @name="Ram", @age=30&gt;,
+   #&lt;Person:0x0000000121ff38 @name="James", @age=40&gt;]
+
+   Okay, so we have a person class. Each person has a name and an age. You
+   include the Comparable module which comes with a whole suite of
+   goodness. All it requires you to do is define a method, ⇔, that returns
+   -1, 0, or +1 for less than, equal to or greater than cases.
+
+   On line 32, we do just that. Other is another object that has an age
+   attribute. We compare the age values of this person and the other
+   person. Since the ⇔ method has already been defined for numbers, we
+   need not bother ourselves with anything else.
+
+   We create a list of people and call sort on it. And voila! All the
+   persons are sorted by their ages.
+
+   Similarly, you can make your class enumerable, but we’ll leave that for
+   another time.
+   Check out this page for more information
+
+Composition vs Inheritance
+
+   Zed Shaw has a
+   [http://ruby.learncodethehardway.org/book/ex44.html]brilliant section
+   devoted to this. While inheritance is a useful, composition is usually
+   a better way to achieve the same sort of functionality without having
+   two classes that are tightly coupled and probably hard to test.
+
+   Ruby has only single inheritance, so even if you go with inheritance,
+   you won’t end up with the diamond problems.
+
+   You saw how Ruby uses composition is the previous section when we
+   included the comparable module into our class.
+
+   module Foo__________________________________________________
+   # a bunch of methods________________________________________
+   end_________________________________________________________
+   ____________________________________________________________
+   module Bar__________________________________________________
+   # some more methods_________________________________________
+   end_________________________________________________________
+   ____________________________________________________________
+   class Baz___________________________________________________
+   include Foo_________________________________________________
+   end_________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   11
+   module Foo
+   # a bunch of methods
+   end
+
+   module Bar
+   # some more methods
+   end
+
+   class Baz
+   include Foo
+   end
+
+   an_object = Baz.new # an_object now comes with all the methods in Foo.
+
+   an_object.extend(Bar)   # an_object now has the methods in Bar, but all
+   other instances of Baz are unaffected
+   Ruby supports a lot of advanced metaprogramming features. It allows
+   things like evaluating a String to define a new method during runtime.
+
+   You can use the method respond_to? to check if an object responds to a
+   particular method.
+
+Regular Expressions
+
+   Ruby has a Perl-like regex syntax, with regular expression literals
+   written using the /…/ syntax.
+
+   A lot of programming involves dealing with Strings of text, so regular
+   expressions are extremely useful
+
+   if filename =~ /.+\.rb$/____________________________________
+   puts "This is a Ruby file."_________________________________
+   else________________________________________________________
+   puts "This isn't a Ruby file."______________________________
+   end_________________________________________________________
+   1
+   2
+   3
+   4
+   5
+   if filename =~ /.+\.rb$/
+   puts "This is a Ruby file."
+   else
+   puts "This isn't a Ruby file."
+   end
+
+   Ruby comes with a neat command-line debugger, quite similar to GDB, so
+   if you’re ever stuck, you can always run your program with the debug
+   flag.
+
+   The Ruby documentation is brilliantly written, so if you want to learn
+   more about a particular part of Ruby, that should be where you first
+   look.
+
+Gems
+
+   Ruby comes with its own package manager. The Gemfile in your project
+   maintains a list of gems (packages) that your code depends on, and a
+   single command will install all the necessary packages that your
+   program needs to run. Version numbers may be included
+
+   You can even have groups of gems different for development and
+   production, too!
+
+Rails and DSLs
+
+   Rails was Ruby’s killer app and what made it the cool kid on the block
+   back around 2006. Since then Ruby has matured as a language and Rails
+   as a framework. Rails wouldn’t be what it is without Ruby. Ruby allowed
+   Rails to make elegant uses of its syntax and structure. If you are a
+   web developer, you have got to go try out Rails for yourself. ‘Nuff
+   said.
+
+   Rails and other applications make use of Domain Specific Languages when
+   it’s better to take the programming language to the background. Ruby,
+   with its strong support for metaprogramming, allows you to transform
+   what would otherwise be a mess.
+
+   Here’s more on how to create your own internal DSL.
+
+Conclusion
+
+   Ruby is a brilliant language…
+
+   At the end of the day, even if you don’t use Ruby in your day-to-day
+   life, learning it will open your mind up to some brilliant concepts and
+   will definitely change how you think about programming.
+
+   “A language that doesn’t affect the way you think about programming is
+   not worth knowing” — Alan Perlis
+
+   Ruby lives up to its name of being a language for the programmer. It
+   doesn’t make you want to pull your hair out. You will just want to
+   write more Ruby code.
+
+   For some very interesting articles for people who are already familiar
+   with Ruby, you should see
+   [http://www.rubyinside.com/7-ruby-articles-to-read-over-the-holiday-sea
+   son-1420.html]this page.
+
+   Darshan is a engineering student and web developer with a passion for
+   computers, flying and hacking.
+   Created with Sketch.
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fruby-a-pr
+   ogrammers-best-friend%2F&text=Ruby%2C+An+Introduction+to+a+Programmer%E
+   2%80%99s+Best+Friend:%20&via=thenewstack][https://news.ycombinator.com/
+   submitlink?u=https%3A%2F%2Fthenewstack.io%2Fruby-a-programmers-best-fri
+   end%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F
+   %2Fthenewstack.io%2Fruby-a-programmers-best-friend%2F][https://reddit.c
+   om/submit?url=https%3A%2F%2Fthenewstack.io%2Fruby-a-programmers-best-fr
+   iend%2F&title=Ruby%2C+An+Introduction+to+a+Programmer%E2%80%99s+Best+Fr
+   iend][https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.
+   io/ruby-a-programmers-best-friend/]
+   RELATED STORIES
+   [https://thenewstack.io/chainguard-unveils-speranza-a-novel-software-si
+   gning-system/]Chainguard Unveils Speranza: A Novel Software Signing
+   System
+   [https://thenewstack.io/red-hat-has-finally-given-centos-7-a-cloud-upgr
+   ade-plan/]Red Hat Has Finally Given CentOS 7 a Cloud Upgrade Plan
+   [https://thenewstack.io/alternative-to-visual-studio-marketplace-gains-
+   momentum/]Alternative to Visual Studio Marketplace Gains Momentum
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   [https://thenewstack.io/challenger-to-x86-rises-to-solve-the-software-p
+   roblem/]Challenger to x86 RISEs to Solve the Software Problem
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fruby-a-pr
+   ogrammers-best-friend%2F&text=Ruby%2C+An+Introduction+to+a+Programmer%E
+   2%80%99s+Best+Friend:%20&via=thenewstack][https://news.ycombinator.com/
+   submitlink?u=https%3A%2F%2Fthenewstack.io%2Fruby-a-programmers-best-fri
+   end%2F][https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F
+   %2Fthenewstack.io%2Fruby-a-programmers-best-friend%2F][https://reddit.c
+   om/submit?url=https%3A%2F%2Fthenewstack.io%2Fruby-a-programmers-best-fr
+   iend%2F&title=Ruby%2C+An+Introduction+to+a+Programmer%E2%80%99s+Best+Fr
+   iend][https://www.facebook.com/sharer/sharer.php?u=https://thenewstack.
+   io/ruby-a-programmers-best-friend/]
+   RELATED STORIES
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   [https://thenewstack.io/pega-infinity-23-advances-low-code-application-
+   development/]Pega Infinity ’23 Advances Low-Code Application
+   Development
+   [https://thenewstack.io/a-review-of-warp-another-rust-based-terminal/]A
+   Review of Warp, Another Rust-Based Terminal
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/ai/]AI
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

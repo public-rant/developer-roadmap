@@ -1,0 +1,575 @@
+   #[https://medium.com/osd.xml]Medium
+   [android-app://com.medium.reader/https/medium.com/p/30623109fe89]altern
+   ate
+
+   [https://medium.com/?source=---two_column_layout_nav-------------------
+   ---------------]
+   ____________________
+
+   (BUTTON)
+
+   Member-only story
+
+Understanding and fixing N+1 query
+
+   [https://medium.com/@bankair?source=post_page-----30623109fe89---------
+   -----------------------]
+   Alexandre Ignjatovic
+   [https://medium.com/doctolib?source=post_page-----30623109fe89---------
+   -----------------------]
+   Doctolib
+
+   [https://medium.com/@bankair?source=post_page-----30623109fe89---------
+   -----------------------]Alexandre Ignjatovic
+   ·
+
+   [https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fs
+   ubscribe%2Fuser%2F36ec3bc7bbf2&operation=register&redirect=https%3A%2F%
+   2Fmedium.com%2Fdoctolib%2Funderstanding-and-fixing-n-1-query-30623109fe
+   89&user=Alexandre+Ignjatovic&userId=36ec3bc7bbf2&source=post_page-36ec3
+   bc7bbf2----30623109fe89---------------------post_header-----------]Foll
+   ow
+   Published in
+   [https://medium.com/doctolib?source=post_page-----30623109fe89---------
+   -----------------------]
+
+   Doctolib
+   ·
+   5 min read
+   ·
+   Jul 10, 2020
+
+   --
+   (BUTTON)
+
+   4
+   (BUTTON)
+
+   Share
+
+   In this article, you’ll learn about the famous N+1 query that everybody
+   is talking about, and how to fix and prevent them.
+
+   Regarding backend performance, there is a performance issue that
+   everybody has heard about at least once: N+1 query. What you’ll hear
+   less often is that baking a chocolate cake is a perfect analogy to
+   explain it.
+
+What’s a N+1 query?
+
+   --
+
+   --
+   (BUTTON)
+
+   4
+   (BUTTON)
+   [https://medium.com/@bankair?source=post_page-----30623109fe89---------
+   -----------------------]
+   Alexandre Ignjatovic
+   [https://medium.com/doctolib?source=post_page-----30623109fe89---------
+   -----------------------]
+   Doctolib
+   (BUTTON) Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2Fb5e70ce3edeb&operation=register&redirect=https%3A%2F%2Fmediu
+   m.com%2Fdoctolib%2Funderstanding-and-fixing-n-1-query-30623109fe89&news
+   letterV3=36ec3bc7bbf2&newsletterV3Id=b5e70ce3edeb&user=Alexandre+Ignjat
+   ovic&userId=36ec3bc7bbf2&source=-----30623109fe89---------------------s
+   ubscribe_user-----------](BUTTON)
+   [https://medium.com/@bankair?source=post_page-----30623109fe89---------
+   -----------------------]
+
+Written by Alexandre Ignjatovic
+
+   [https://medium.com/@bankair/followers?source=post_page-----30623109fe8
+   9--------------------------------]147 Followers
+   ·Writer for
+   [https://medium.com/doctolib?source=post_page-----30623109fe89---------
+   -----------------------]
+
+   Doctolib
+
+   CTO of Simundia, maker, ex-Doctolib
+   (BUTTON) Follow
+   [https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnew
+   sletters%2Fb5e70ce3edeb&operation=register&redirect=https%3A%2F%2Fmediu
+   m.com%2Fdoctolib%2Funderstanding-and-fixing-n-1-query-30623109fe89&news
+   letterV3=36ec3bc7bbf2&newsletterV3Id=b5e70ce3edeb&user=Alexandre+Ignjat
+   ovic&userId=36ec3bc7bbf2&source=-----30623109fe89---------------------s
+   ubscribe_user-----------](BUTTON)
+
+More from Alexandre Ignjatovic and Doctolib
+
+   [https://medium.com/doctolib/so-whats-the-fuss-about-those-fresh-eyes-r
+   eports-doctolib-8e31db885ea5?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   So, what’s the fuss about those “Fresh eyes reports”, Doctolib?
+   [https://medium.com/@bankair?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   Alexandre Ignjatovic
+   [https://medium.com/@bankair?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Alexandre Ignjatovic
+
+   in
+   [https://medium.com/doctolib?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Doctolib
+   [https://medium.com/doctolib/so-whats-the-fuss-about-those-fresh-eyes-r
+   eports-doctolib-8e31db885ea5?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+So, what’s the fuss about those “Fresh eyes reports”, Doctolib?
+
+When joining most companies, it can be difficult to make a difference in the
+beginning: you have the product to discover, the stack to…
+
+   [https://medium.com/doctolib/so-whats-the-fuss-about-those-fresh-eyes-r
+   eports-doctolib-8e31db885ea5?source=author_recirc-----30623109fe89----0
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   3 min read·Feb 7, 2020
+
+   --
+   [https://medium.com/doctolib/so-whats-the-fuss-about-those-fresh-eyes-r
+   eports-doctolib-8e31db885ea5?responsesOpen=true&sortBy=REVERSE_CHRON&so
+   urce=author_recirc-----30623109fe89----0---------------------718020bf_f
+   c93_4175_bbcb_7638086fe1af-------]
+
+   [https://medium.com/doctolib/react-query-cachetime-vs-staletime-ec74def
+   c483e?source=author_recirc-----30623109fe89----1---------------------71
+   8020bf_fc93_4175_bbcb_7638086fe1af-------]React Query: cacheTime vs
+   staleTime
+   [https://medium.com/@fwuensche?source=author_recirc-----30623109fe89---
+   -1---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   Flavio Wuensche
+   [https://medium.com/@fwuensche?source=author_recirc-----30623109fe89---
+   -1---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Flavio Wuensche
+
+   in
+   [https://medium.com/doctolib?source=author_recirc-----30623109fe89----1
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Doctolib
+   [https://medium.com/doctolib/react-query-cachetime-vs-staletime-ec74def
+   c483e?source=author_recirc-----30623109fe89----1---------------------71
+   8020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+React Query: cacheTime vs staleTime
+
+If you ran upon this thread, you're probably struggling with setting up a
+great caching strategy using React Query (very recently renamed…
+
+   [https://medium.com/doctolib/react-query-cachetime-vs-staletime-ec74def
+   c483e?source=author_recirc-----30623109fe89----1---------------------71
+   8020bf_fc93_4175_bbcb_7638086fe1af-------]
+   (BUTTON)
+   ·6 min read·Aug 9, 2022
+
+   --
+   [https://medium.com/doctolib/react-query-cachetime-vs-staletime-ec74def
+   c483e?responsesOpen=true&sortBy=REVERSE_CHRON&source=author_recirc-----
+   30623109fe89----1---------------------718020bf_fc93_4175_bbcb_7638086fe
+   1af-------]
+
+   3
+
+   [https://medium.com/doctolib/maintain-a-high-level-of-creativity-as-a-p
+   roduct-designer-in-a-large-organization-c8fead312d1d?source=author_reci
+   rc-----30623109fe89----2---------------------718020bf_fc93_4175_bbcb_76
+   38086fe1af-------]Maintain a high-level of creativity as a Product
+   Designer in a large organization.
+   [https://medium.com/@jeanmvs?source=author_recirc-----30623109fe89----2
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   Jean Mauvais
+   [https://medium.com/@jeanmvs?source=author_recirc-----30623109fe89----2
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Jean Mauvais
+
+   in
+   [https://medium.com/doctolib?source=author_recirc-----30623109fe89----2
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Doctolib
+   [https://medium.com/doctolib/maintain-a-high-level-of-creativity-as-a-p
+   roduct-designer-in-a-large-organization-c8fead312d1d?source=author_reci
+   rc-----30623109fe89----2---------------------718020bf_fc93_4175_bbcb_76
+   38086fe1af-------]
+
+Maintain a high-level of creativity as a Product Designer in a large
+organization.
+
+Before joining Doctolib as a Product Designer, I’ve worked as a Creative
+Director & Art Director in agencies. Having to work for different…
+
+   [https://medium.com/doctolib/maintain-a-high-level-of-creativity-as-a-p
+   roduct-designer-in-a-large-organization-c8fead312d1d?source=author_reci
+   rc-----30623109fe89----2---------------------718020bf_fc93_4175_bbcb_76
+   38086fe1af-------]
+   6 min read·Jun 14
+
+   --
+   [https://medium.com/doctolib/maintain-a-high-level-of-creativity-as-a-p
+   roduct-designer-in-a-large-organization-c8fead312d1d?responsesOpen=true
+   &sortBy=REVERSE_CHRON&source=author_recirc-----30623109fe89----2-------
+   --------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   1
+
+   [https://medium.com/doctolib/one-to-three-deployments-per-day-push-wher
+   e-it-hurts-a1f465593237?source=author_recirc-----30623109fe89----3-----
+   ----------------718020bf_fc93_4175_bbcb_7638086fe1af-------]One to
+   three deployments per day: push where it hurts
+   [https://medium.com/@bankair?source=author_recirc-----30623109fe89----3
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   Alexandre Ignjatovic
+   [https://medium.com/@bankair?source=author_recirc-----30623109fe89----3
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Alexandre Ignjatovic
+
+   in
+   [https://medium.com/doctolib?source=author_recirc-----30623109fe89----3
+   ---------------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+   Doctolib
+   [https://medium.com/doctolib/one-to-three-deployments-per-day-push-wher
+   e-it-hurts-a1f465593237?source=author_recirc-----30623109fe89----3-----
+   ----------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+
+One to three deployments per day: push where it hurts
+
+Doctolib is well known for its monolithic Ruby on Rails web application. We
+are happy to argue why we chose that with you for hours…
+
+   [https://medium.com/doctolib/one-to-three-deployments-per-day-push-wher
+   e-it-hurts-a1f465593237?source=author_recirc-----30623109fe89----3-----
+   ----------------718020bf_fc93_4175_bbcb_7638086fe1af-------]
+   5 min read·Apr 16, 2020
+
+   --
+   [https://medium.com/doctolib/one-to-three-deployments-per-day-push-wher
+   e-it-hurts-a1f465593237?responsesOpen=true&sortBy=REVERSE_CHRON&source=
+   author_recirc-----30623109fe89----3---------------------718020bf_fc93_4
+   175_bbcb_7638086fe1af-------][https://medium.com/@bankair?source=post_p
+   age-----30623109fe89--------------------------------]See all from
+   Alexandre Ignjatovic
+   [https://medium.com/doctolib?source=post_page-----30623109fe89---------
+   -----------------------]
+   See all from Doctolib
+
+Recommended from Medium
+
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----30623109fe89----0----------
+   -----------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   System Design Blueprint: The Ultimate Guide
+   [https://medium.com/@zonito?source=read_next_recirc-----30623109fe89---
+   -0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   Love Sharma
+   [https://medium.com/@zonito?source=read_next_recirc-----30623109fe89---
+   -0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Love Sharma
+
+   in
+   [https://medium.com/dev-genius?source=read_next_recirc-----30623109fe89
+   ----0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Dev Genius
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----30623109fe89----0----------
+   -----------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+System Design Blueprint: The Ultimate Guide
+
+Developing a robust, scalable, and efficient system can be daunting. However,
+understanding the key concepts and components can make the…
+
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?source=read_next_recirc-----30623109fe89----0----------
+   -----------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   (BUTTON)
+   ·9 min read·Apr 20
+
+   --
+   [https://medium.com/dev-genius/system-design-blueprint-the-ultimate-gui
+   de-e27b914bf8f1?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_nex
+   t_recirc-----30623109fe89----0---------------------737ac8a8_57e9_48a0_8
+   72d_630b46ddff9b-------]
+
+   45
+
+   [https://medium.com/doctolib/how-to-find-fix-and-prevent-n-1-queries-on
+   -rails-6b30d9cfbbaf?source=read_next_recirc-----30623109fe89----1------
+   ---------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]How To Find,
+   Fix, and Prevent, N+1 Queries on Rails
+   [https://medium.com/@fwuensche?source=read_next_recirc-----30623109fe89
+   ----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   Flavio Wuensche
+   [https://medium.com/@fwuensche?source=read_next_recirc-----30623109fe89
+   ----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Flavio Wuensche
+
+   in
+   [https://medium.com/doctolib?source=read_next_recirc-----30623109fe89--
+   --1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Doctolib
+   [https://medium.com/doctolib/how-to-find-fix-and-prevent-n-1-queries-on
+   -rails-6b30d9cfbbaf?source=read_next_recirc-----30623109fe89----1------
+   ---------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+How To Find, Fix, and Prevent, N+1 Queries on Rails
+
+A shortlist of actionable advice on how to get rid of N+1 Queries in a Rails
+application
+
+   [https://medium.com/doctolib/how-to-find-fix-and-prevent-n-1-queries-on
+   -rails-6b30d9cfbbaf?source=read_next_recirc-----30623109fe89----1------
+   ---------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   (BUTTON)
+   ·7 min read·Jan 10
+
+   --
+   [https://medium.com/doctolib/how-to-find-fix-and-prevent-n-1-queries-on
+   -rails-6b30d9cfbbaf?responsesOpen=true&sortBy=REVERSE_CHRON&source=read
+   _next_recirc-----30623109fe89----1---------------------737ac8a8_57e9_48
+   a0_872d_630b46ddff9b-------]
+
+   1
+
+Lists
+
+   [https://medium.com/@eddiebarth/list/general-coding-knowledge-f2d429d4f
+   0cd?source=read_next_recirc-----30623109fe89---------------------------
+   -----]
+
+General Coding Knowledge
+
+   20 stories·58 saves
+   [https://medium.com/@nicholas.michael.janulewicz/list/chatgpt-prompts-b
+   4c47b8e12ee?source=read_next_recirc-----30623109fe89-------------------
+   -------------]
+
+ChatGPT prompts
+
+   17 stories·69 saves
+   [https://medium.com/@MediumStaff/list/ai-regulation-dfa78dfd2438?source
+   =read_next_recirc-----30623109fe89--------------------------------]
+   A phone with a tweet on it describing a deepfake video of the Ukrainian
+   president, with a labeled fake image in the background
+
+AI Regulation
+
+   6 stories·20 saves
+   [https://medium.com/@jscribes/list/coding-development-e360d380bb82?sour
+   ce=read_next_recirc-----30623109fe89--------------------------------]
+
+Coding & Development
+
+   11 stories·37 saves
+
+   [https://medium.com/geekculture/designing-a-database-to-handle-millions
+   -of-data-3cb6fe226a7c?source=read_next_recirc-----30623109fe89----0----
+   -----------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   Designing a Database to Handle Millions of Data
+   [https://medium.com/@hafiqiqmal93?source=read_next_recirc-----30623109f
+   e89----0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b------
+   -]
+   Hafiq Iqmal
+   [https://medium.com/@hafiqiqmal93?source=read_next_recirc-----30623109f
+   e89----0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b------
+   -]
+
+   Hafiq Iqmal
+
+   in
+   [https://medium.com/geekculture?source=read_next_recirc-----30623109fe8
+   9----0---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Geek Culture
+   [https://medium.com/geekculture/designing-a-database-to-handle-millions
+   -of-data-3cb6fe226a7c?source=read_next_recirc-----30623109fe89----0----
+   -----------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+Designing a Database to Handle Millions of Data
+
+As we navigate through the ever-evolving technological landscape of our
+data-driven world, it has become increasingly evident that…
+
+   [https://medium.com/geekculture/designing-a-database-to-handle-millions
+   -of-data-3cb6fe226a7c?source=read_next_recirc-----30623109fe89----0----
+   -----------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   (BUTTON)
+   ·14 min read·Feb 26
+
+   --
+   [https://medium.com/geekculture/designing-a-database-to-handle-millions
+   -of-data-3cb6fe226a7c?responsesOpen=true&sortBy=REVERSE_CHRON&source=re
+   ad_next_recirc-----30623109fe89----0---------------------737ac8a8_57e9_
+   48a0_872d_630b46ddff9b-------]
+
+   2
+
+   [https://medium.com/gitconnected/two-phase-commit-2pc-for-data-consiste
+   ncy-in-microservices-670165f9ad31?source=read_next_recirc-----30623109f
+   e89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b------
+   -]Two-Phase Commit (2PC) for data consistency in microservices
+   [https://medium.com/@pandaquests?source=read_next_recirc-----30623109fe
+   89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------
+   ]
+   pandaquests
+   [https://medium.com/@pandaquests?source=read_next_recirc-----30623109fe
+   89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------
+   ]
+
+   pandaquests
+
+   in
+   [https://medium.com/gitconnected?source=read_next_recirc-----30623109fe
+   89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------
+   ]
+
+   Level Up Coding
+   [https://medium.com/gitconnected/two-phase-commit-2pc-for-data-consiste
+   ncy-in-microservices-670165f9ad31?source=read_next_recirc-----30623109f
+   e89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b------
+   -]
+
+Two-Phase Commit (2PC) for data consistency in microservices
+
+Two-Phase Commit (2PC) is a protocol that provides a mechanism for
+coordinating transactions across multiple participants in a distributed…
+
+   [https://medium.com/gitconnected/two-phase-commit-2pc-for-data-consiste
+   ncy-in-microservices-670165f9ad31?source=read_next_recirc-----30623109f
+   e89----1---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b------
+   -]
+   (BUTTON)
+   ·7 min read·Feb 13
+
+   --
+   [https://medium.com/gitconnected/two-phase-commit-2pc-for-data-consiste
+   ncy-in-microservices-670165f9ad31?responsesOpen=true&sortBy=REVERSE_CHR
+   ON&source=read_next_recirc-----30623109fe89----1---------------------73
+   7ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   [https://medium.com/c-sharp-progarmming/long-polling-vs-redis-pub-sub-a
+   155a591836?source=read_next_recirc-----30623109fe89----2---------------
+   ------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]Long Polling vs Redis
+   Pub/Sub
+   [https://medium.com/@singhsukhpinder?source=read_next_recirc-----306231
+   09fe89----2---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b---
+   ----]
+   Sukhpinder Singh
+   [https://medium.com/@singhsukhpinder?source=read_next_recirc-----306231
+   09fe89----2---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b---
+   ----]
+
+   Sukhpinder Singh
+
+   in
+   [https://medium.com/c-sharp-progarmming?source=read_next_recirc-----306
+   23109fe89----2---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b
+   -------]
+
+   C# Programming
+   [https://medium.com/c-sharp-progarmming/long-polling-vs-redis-pub-sub-a
+   155a591836?source=read_next_recirc-----30623109fe89----2---------------
+   ------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+Long Polling vs Redis Pub/Sub
+
+Choosing the Right Real-Time Communication Approach
+
+   [https://medium.com/c-sharp-progarmming/long-polling-vs-redis-pub-sub-a
+   155a591836?source=read_next_recirc-----30623109fe89----2---------------
+   ------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   (BUTTON)
+   ·5 min read·Mar 16
+
+   --
+   [https://medium.com/c-sharp-progarmming/long-polling-vs-redis-pub-sub-a
+   155a591836?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_next_rec
+   irc-----30623109fe89----2---------------------737ac8a8_57e9_48a0_872d_6
+   30b46ddff9b-------]
+
+   [https://medium.com/@ismatbabir/can-i-use-redis-as-a-message-queue-c58d
+   e6dffc7d?source=read_next_recirc-----30623109fe89----3-----------------
+   ----737ac8a8_57e9_48a0_872d_630b46ddff9b-------]Can I use Redis as a
+   Message Queue?
+   [https://medium.com/@ismatbabir?source=read_next_recirc-----30623109fe8
+   9----3---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   Ismat Babirli
+   [https://medium.com/@ismatbabir?source=read_next_recirc-----30623109fe8
+   9----3---------------------737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+   Ismat Babirli
+   [https://medium.com/@ismatbabir/can-i-use-redis-as-a-message-queue-c58d
+   e6dffc7d?source=read_next_recirc-----30623109fe89----3-----------------
+   ----737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+
+Can I use Redis as a Message Queue?
+
+Redis is an in-memory data structure store that can be used as a database,
+cache, and message broker. One of Redis' most common…
+
+   [https://medium.com/@ismatbabir/can-i-use-redis-as-a-message-queue-c58d
+   e6dffc7d?source=read_next_recirc-----30623109fe89----3-----------------
+   ----737ac8a8_57e9_48a0_872d_630b46ddff9b-------]
+   (BUTTON)
+   ·4 min read·Jan 31
+
+   --
+   [https://medium.com/@ismatbabir/can-i-use-redis-as-a-message-queue-c58d
+   e6dffc7d?responsesOpen=true&sortBy=REVERSE_CHRON&source=read_next_recir
+   c-----30623109fe89----3---------------------737ac8a8_57e9_48a0_872d_630
+   b46ddff9b-------][https://medium.com/?source=post_page-----30623109fe89
+   --------------------------------]See more recommendations
+   [https://help.medium.com/hc/en-us?source=post_page-----30623109fe89----
+   ----------------------------]
+
+   Help
+   [https://medium.statuspage.io/?source=post_page-----30623109fe89-------
+   -------------------------]
+
+   Status
+   [https://about.medium.com/creators/?source=post_page-----30623109fe89--
+   ------------------------------]
+
+   Writers
+   [https://blog.medium.com/?source=post_page-----30623109fe89------------
+   --------------------]
+
+   Blog
+   [https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=p
+   ost_page-----30623109fe89--------------------------------]
+
+   Careers
+   [https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=po
+   st_page-----30623109fe89--------------------------------]
+
+   Privacy
+   [https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=
+   post_page-----30623109fe89--------------------------------]
+
+   Terms
+   [https://medium.com/about?autoplay=1&source=post_page-----30623109fe89-
+   -------------------------------]
+
+   About
+   [https://speechify.com/medium?source=post_page-----30623109fe89--------
+   ------------------------]
+
+   Text to speech
+   [https://medium.com/business?source=post_page-----30623109fe89---------
+   -----------------------]
+
+   Teams

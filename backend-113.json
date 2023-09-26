@@ -1,0 +1,37 @@
+[
+ {
+  "id": "cicd",
+  "tag": "h1",
+  "text": "CI/CD"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=scEDHsr3APg",
+  "tag": "a",
+  "text": "DevOps CI/CD Explained in 100 Seconds by Fireship"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=nyKZTKQS_EQ",
+  "tag": "a",
+  "text": "Automate your Workflows with GitHub Actions"
+ },
+ {
+  "href": "https://about.gitlab.com/topics/ci-cd/",
+  "tag": "a",
+  "text": "What is CI/CD?"
+ },
+ {
+  "href": "https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/",
+  "tag": "a",
+  "text": "A Primer: Continuous Integration and Continuous Delivery (CI/CD)"
+ },
+ {
+  "href": "https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/",
+  "tag": "a",
+  "text": "3 Ways to Use Automation in CI/CD Pipelines"
+ },
+ {
+  "href": "https://thenewstack.io/category/ci-cd/",
+  "tag": "a",
+  "text": "Articles about CI/CD"
+ }
+]

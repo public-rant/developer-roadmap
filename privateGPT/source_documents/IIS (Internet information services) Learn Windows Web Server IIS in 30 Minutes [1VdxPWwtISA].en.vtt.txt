@@ -1,0 +1,642 @@
+
+hi everyone I am Haase from a a decade
+and you re watching learn web server is
+in 30 minutes in this video or lecture
+we will learn the basics of is we will
+go over what s is how it works we re
+going to install it on on both windows
+10 client and windows server will go and
+host our websites we will see how to
+work with binding application pools and
+much much more when you finish this
+video you will be able to start working
+with is and start hosting your own
+websites if you are ready let s start
+together but before please don t forget
+subscribe to our Channel and like the
+videos so you can get all the updates
+when I release new lectures and videos
+thank you and let s start so what is is
+or Internet Information Services let s
+make things simple by looking over this
+example let s say we have a web
+application or a website it can be
+static or dynamic like asp net or PHP
+and now we need to make it available all
+over the world on the Internet
+so now to bring the website online
+obviously we have to host it in a web
+server and whenever a user requests the
+website by trying to type its name in a
+web browser address the requests will be
+resolved by the worldwide DNS servers in
+order to acquire the server IP address
+and then it will route the user request
+to the target web server then the
+observer is responsible for processing
+the request and replying back to the
+user
+on a fall of HTML pages using HTTPS or
+HTTP protocol wait a little bit was the
+relation between is and what I am
+talking about simply is is a Windows
+component that works as a web server and
+it s responsible for hosting both web
+and active
+sites on your server very nice now let s
+install is on both understand and
+Windows Server 2012 r2 let s start with
+Windows 10 it s very simple let s open
+the control panel open programs then
+click on turn Windows Features on or off
+and here just check entered information
+
+
+let s wait a little bit for is to be
+installed
+now click close very nice let s open the
+Start menu now and search for iOS here
+it is open it and this is the Iast
+management console this where most our
+work will be in now let s install iOS or
+Windows Server 2012 r2 it s very simple
+just open server manager by clicking on
+the shuttle icon and taskbar or just
+open the Start menu and click on the
+server manager now click on manage add
+roles and features to add a role select
+role based or feature based installation
+and click Next here is my server I am
+installing on if you are managing a
+remote server then we should select the
+appropriate server now in the roles list
+go down and check web server I scroll it
+will ask you to add some features later
+I asked just click add features now just
+continue to the role servers tab and
+here we have a list of all services
+related to is role I m going to install
+just some of the main features to work
+with the core of is just check asp net
+
+also I will select the management
+service that allows you to manage this
+server remotely and I think this is
+enough later on we will install each
+service as needed now click Next and the
+Hedra a small thing I want to mention
+which is related to Windows Server 2012
+and Windows 8 when you try to add dotnet
+framework 3 5 the installation will ask
+you for the installation directory which
+is located on the Windows installation
+disk or ISO file so now just click on
+specify an author source path and open
+your installation disk or ISO file then
+go to the sources folder then sxs and
+copy this directly to the installation
+
+let s click install and begin the
+
+all right awesome here we are the
+installation finished let s close it and
+as you can see now we have an eye a
+stroll is alt or main server manager
+dashboard in the left now we can click
+on tools open and that information
+services manager here and here we are
+this is the main console and here is a
+slight section we had a default website
+that is add automatically let s click on
+browse test it very nice this is the
+default website is working and
+everything is fine hi friends here i am
+again just i want to mention something
+it this video is a part or a small part
+of my web server is master course on
+udemy if you are interested in learning
+more about is about advanced options
+about securing ideas about high
+availability about three case scenarios
+are much much much more then you can
+find my course link in the description
+below if you want thank you and let s
+continue our course before going deep in
+the course and when i talk about a small
+tool from microsoft that s very
+important when it comes to managing is
+web server it is the web platform
+installer to let s go directly into the
+topic and start by installing the tool
+to see how it works
+just open your web browser and search
+for web platform installer you ll find
+the first thing on google from Microsoft
+just open the link and here in my case
+it s very 5 0 the latest version click
+on free download and save the file and
+continue your installation it s very
+basic once the file run and here we are
+this is the tool installed are ready to
+be used as you can see we have products
+we have applications in the products we
+have server products frameworks we have
+the bases and tools and so on basically
+what this tool does it allows you to
+install some components and models
+related to iOS and facilitate the work
+with these components and updating
+installing and so on
+so as you can see we have in
+applications PHP we have Python we have
+Windows SDKs ready to Azure also we have
+WordPress Joomla Moodle and so on we
+have a lot a lot of applications and
+models that we can use simply with our
+is server let s do an example I will
+search for URL rewrite which is a very
+important tool you know I asked totally
+about it now just I m testing there were
+platform installer tool just select it I
+click install it will show you the
+prerequisites and what will happen just
+click accept and the installation will
+begin and everything will be done by the
+web platform tool you don t worry about
+anything
+everything will be configured and
+installed using the tool and this is
+what it makes it very powerful all right
+now let s start by creating our first
+website and see how to host it and I
+asked manager let s open I ass simply
+click on the server manager icon and
+click on Tools then intent of formation
+services manager if you remember here we
+so we have a default website in the side
+section and we open that using the
+browser it s localhost just write
+localhost in your browser address and
+this is our default website so now let s
+create our own custom website just try
+click on sites and click add a website
+alright as you can see we have to set
+the site name the site name is the name
+that will appear in the eyes manager as
+a best practice set this site name as
+your domain name so it will be easier
+for management especially if you have
+multiple websites on your server so
+setup website name I will set website
+one calm and the next thing we have to
+do is to set the physical path
+simply the physical path is where your
+website files are located here I will
+select my sample website and iron pop
+folder directory and the C Drive which
+is a default path that comes with the
+website manager select my path web
+server one let s see where this is
+located up in the C Drive iron pub and
+here we have website 1 and here is their
+website
+let s open the index page it s a sample
+HTML static website let s operate and
+here we are this is my sample website
+now the second option we have to set is
+the bindings bindings are very very
+important I will explain it a little bit
+but for now bindings is the method that
+the is uses to identify web sites upon
+requests so when I user requests a
+certain website using its hostname or
+its IP address the binding is
+responsible for identifying and getting
+the appropriate website upon that
+request in the bindings we have 4 things
+to set the first one is the protocol
+type we can set between HTTP and HTTPS
+if you are using SSL certificate for
+securing your website we will talk about
+this later the second thing that set is
+the IP address you can set your website
+to a pin using a specific IP address or
+using any IP address on your server I
+will keep it as all outside now and
+third thing you have to set as the port
+number as you know HTTP by default works
+on port 80 so it s not recommended to
+change this port
+except if you are using a private
+application that you want to secure with
+a certain port number it s up to you and
+now we have the hostname simply it is
+the domain name of your website or your
+subdomain in my case I will be using
+localhost since I am working with a lab
+environment just to test now our website
+and here we are so here we are we create
+our new website website
+komm let s open it click on browse and
+oops we have up in the local host and
+the default website open and not our new
+website what happened
+simply this happens because both
+websites have the same bindings
+we have localhost as a domain name or as
+a host name for both websites so to fix
+this we have to edit the bindings so
+edit the bindings of our website and we
+have to change the host name to a
+certain chemical name for us since this
+air lab and you don t have a public
+domain name to use I will do a simple
+trick using the hosts file alright to do
+this let s open notepad as administrator
+so open the Start menu go to notepad and
+be sure to right click and run as
+administrator
+now click file and let s open the hosts
+file navigate to see windows system32
+drivers
+ET cie folder then click on show all
+files and here is the host file open it
+and here we are now let s add a record
+and this host file I will say 127 0 0 1
+which is a local address let s map it
+our domain name website 1 com simply
+what this file is it somehow acts as a
+local DNS for your Windows server so it
+can map an IP address to your domain
+name in this way when we map our domain
+to the local address when the browser
+tries to access this domain name it
+thinks that this domain is hosted
+locally so it navigates to your local
+server to open it
+I hope ideas simple now just save the
+file and that s close it
+right website one calm in the in the
+bindings hostname and let s now try to
+
+and very very nice as you can see we
+opened website 1 com in our browser and
+everything is fine so now we have two
+websites our default website with local
+host host name binding and our hosted
+website website 1 com you can simply
+right click on the website and click
+explode up in the physical directory and
+see your files so this is it at hat and
+this is how you can create your website
+your own website and host it inside the
+is server mange alright everyone I hope
+you are enjoying my course and
+everything is fine
+okay let s consider we have a user
+requesting a certain website code that
+we WW web 1 com so whenever i use a
+request a website the worldwide dns
+servers will get the request and you
+targeted to the appropriate server on
+the Internet and this is done using the
+server s IP so now we have selected the
+appropriate server which is hosting the
+website very nice now inside this web
+server we may have multiple web sites
+hosted so how the server will know which
+website the user is requesting very
+simple this is done using the websites
+bindings so here it comes the roles of
+bindings as I showed you before we can
+use multiple parameters to identify or
+differentiate between websites on the
+same server this can be by the domain
+name or the host name like in our case
+where we are using web 1 com as the host
+name or may be using the IP address or
+even the port number we will see this in
+a little bit also is we ll know the
+connection is secured using HTTP as
+protocol by looking at the configuration
+of the bindings for this website I hope
+you got the point and how the bindings
+works in general let s now go back to
+our server to show you how to use these
+bindings and to show the fanciness
+so first let s delete the default
+website since we are not going to use it
+again our course will work with our
+custom websites now we have website
+1 com it s tested up in the browser
+website 1 com very very nice everything
+is fine now let s write a click on the
+website and click on edit bindings
+select our binding and click Edit here
+we have set the website to bind to a
+certain hostname let s remove it now and
+select an IP address this is the default
+IP in our server and click OK and close
+this dialog now up in the browser and
+let s type the IP address in the address
+bar as you can see now our website is
+working but using the IP address and not
+the hostname okay let s now do another
+thing open the bindings again and now I
+will change the port number and cell to
+81
+now let s refresh our website using the
+same ip address but the website will
+fail to load why is that simply because
+we change the port to 81 in the binding
+and by default the web browser is using
+port 80 to work with the HTTP protocol
+so obviously it will fail to load the
+website so now if want to fix this let s
+open the website but now just add a
+colon after the IP address and add a t1
+is a port number and awesome that s it
+now our website is working under port 81
+I hope you get the point and everything
+is clear when we create a new website
+and I is as you can see here in the
+wizard automatically is will create an
+application pool for the website to work
+with so what is an application pool to
+make things simple
+whenever you has a website on your web
+server the website processing and
+execution we
+be done using a worker processor which
+is a part of the application pool so for
+that the application pool will
+automatically be created when you create
+a website you can think of it as a
+logical container where the website will
+work inside now each website can have
+its own application pool or you can
+create multiple websites that use the
+same application pool alright so here we
+are again our server we can find the
+list of application pools here by
+clicking on the application pools icon
+on the left and here is the list of
+application pools on your server here as
+you can see we have website one website
+two application pools each associated
+with its own website now to add a new
+application pool simply gotta click here
+and click on add application pool now
+set the name of the application pool you
+want and here we have two option the
+framework and the pipeline mode in
+general if your application is using
+dotnet then select the appropriate
+framework from the list if it s a PHP
+website or a website that is not using
+dotnet then you can use non managed code
+and the pipeline mode for now set it to
+integrated and go for it the classic
+mode is used an is 6 for all the
+websites now we can go to the Advanced
+Settings of any website and change the
+application pool you want to run your
+
+now let s see this up in web browser and
+let s open my website website 1 com now
+open task manager and go to the details
+section and here if we go down you will
+see the WPW process this is the process
+of the worker processor that is
+associated with this website application
+pool you can see the user name is
+website 1 com which is the identity of
+the website the application port is
+running with let s now again open
+website to calm and as you can see we
+have other process created for this
+website with website to calm identity so
+this what I am talking about is the
+processor or the worker processor that
+is associated with a certain website now
+if these two websites were working with
+the same application pool then we have
+one process only for both if you want to
+monitor and see the worker processes
+that are working inside your is manager
+just click on the server node and click
+on worker processes and he will find all
+the worker processes running on the
+server we can see the CPU usage the
+process ID the state the private and the
+virtual memory and so on alright now
+what is the main reasons for using
+application pools as I mentioned before
+we can create multiple websites for the
+same application pool and we can create
+multiple application pools on the same
+server this architecture will provide
+isolation for our websites so isolation
+is the main reason for using application
+pools so now we can use different
+frameworks like framework two in the
+first application pool and framework for
+for the other one
+or we can implement different security
+aspects or maybe apply different
+settings that corresponds to each group
+of websites so we can have for isolation
+between websites so at application pool
+as an example recycles the other
+application pool websites will not be
+
+other thing you have to know let s take
+this example we have a website which
+have two folders containing two sections
+of our pages of your website let s say
+the services pages and the card pages
+what you have to know is that we can
+divide a certain website into multiple
+application pools like moving the
+services folder to an application pool
+and the card other application pool like
+application pool one and application
+pool two in her this example in this way
+if you have a part of your website that
+has some bugs or maybe you are testing
+something new that may contain some bugs
+or may cause the application pool to
+reboot then in this way the second part
+of your website will not be affected and
+this is very important if you are
+testing something as I mentioned all
+right now I wanna show you how to
+install and configure FTP server on your
+web server in order to access your files
+and websites using FTP first thing you
+have to do is navigate the seven manager
+and be sure to install the FTP server
+feature or role click on manage add
+roles and features navigate to the
+server roles and navigate down to
+observer and check FTP server expand it
+and check FTP accessibility also click
+on next next install just wait a moment
+now it s finished
+let s open again what server manager
+click on the server node now in the
+sides just try to click and now we can
+have the capability to an FTP site let s
+add one let s name it web one FTP is an
+example select the physical path I will
+say see oneth pub website one as an
+example and click OK
+now click on next here you can select
+the binding as in the web site you can
+select any IP address and the port would
+be wonderful 21 that is used
+f2p so if you are using FTP on your
+server please be sure to allow all
+support 21 and you in your firewall we
+can select the SSL to be used also then
+it will be SFTP now I will use no SSL
+and I will start the FTP site let s
+click on next here you guys like the
+authentication you can set animals of
+course you don t want to use an
+authentication with FTP so anyone can
+access your data so I ve just use the
+basic authentication and select the
+users you want you can select specified
+users and let s say as an example admin
+and you select the permission tree and
+write or maybe all only read it s up to
+your architecture and click finish now
+you have this woops web FTP can be
+accessed remotely using an FTP client
+alright let s test our FTP now just open
+your browser and search for FTP client
+and you ll have a list of the big lines
+you can download I am working with
+FileZilla just now download FileZilla
+client click on download and download
+the software and install it it s very
+simple after installing the software
+this FileZilla client just open it and
+now I will say localhost since I m
+working locally here of course here you
+set the IP of the server or the name of
+the server your domain name just enter
+the username which is admin and set the
+password which is the Windows
+administrator password and we use port
+21 and let s click on Quick Connect as
+you can see this website here is listed
+and this as our files FTP will help you
+if you want to update your data your
+files or your website from directly
+synchronized from your local machine
+which is the developer machine to the
+target website you can synchronize
+directly by uploading downloading file
+as you can see upload files and
+downloading files and so on so this is
+how you can configure FTP service on
+your web server to access your website
+remotely using FTP clients okay before I
+end this video I want to show you how to
+install WordPress on your is server and
+I will show you the power of the web
+platform installer tool just open your
+server node and click on web platform
+installer that we installed in the last
+lectures just double click to open it
+and wait a little bit for it to load
+alright now simply search for WordPress
+and here it is this is the WordPress
+application click on add and simply
+click install now it will ask you for
+the prerequisites it says with my sequel
+and it s not installed just select the
+password of the root and everything will
+be configured automatically this is the
+root password of my sequel just put it
+here and click continue and it will show
+you that it will install WordPress with
+my sequel for Windows just click I
+accept and now just wait for the
+installation to finish it s very simple
+as you can see this is the power of the
+web platform installer if you want to do
+this manually you have to download the
+my sequel connectors my sequel SDKs my
+sequel for Windows and sold them and get
+the WordPress from its website install
+them and configure them and so on this
+will be done automatically using the web
+platform installer for that it s very
+important to install it on your is
+server now just wait a little bit for
+the installation to finish wonderful the
+installation is finished and now run in
+the configuration section just select a
+new website and give it a website name
+let s say my wordpress and this top site
+name let s say wordpress let s name it
+WP and let s set the physical path to my
+computer c drive on it pop make a new
+folder here and let s say wordpress and
+now let s click OK
+and said the bindings here the IP
+address is what assigned and port 80 and
+let s name the hostname as www my WP
+dot com so this is my hostname I will
+put this in the host file as I showed
+you in the lecture where we installed
+our first website now just open notepad
+run as administrator and let s open the
+hosts file it s in the C Drive windows
+system 32 drivers et Cie click all files
+and he s the host file and now I will
+get this host name and paste it down
+here one two seven zero zero dot one and
+here we are let s save it I can close
+this I click continue and he we have to
+set some authentication keys that
+WordPress uses you can use any phrases
+for now let s say I will put this phrase
+1 3 just corrupt or press and that s
+copy it copy this here and here just
+copy the security keys salt and click on
+continue and the configuration will now
+start as you can see the installation is
+very simple using the web platform
+installer let s wait a little bit now
+and awesome as you can see it shows you
+the password of your database the
+username and the password you can save
+these so you can use them later
+just put them somewhere else on your
+notepad or any file and click on finish
+very nice as you can see the browser
+will open automatically and this is my
+website my WP com is opened
+automatically and this is the WordPress
+installation click continue and either
+side tight
+the username and so on you can continue
+the installation and start using
+WordPress using your is server welcome
+again I hope you enjoyed this mini
+course and you got some benefit and you
+can now start working with web server or
+is as I mentioned before if you are
+interested in learning more about is and
+go more in details please refer to the
+link in the description and I will be
+with you in the mastery course thank you
+for following if you like the video
+don t forget subscribe to our channel to
+like the video and to press on the bell
+for notifications you can also view our
+other lectures thank you and see other

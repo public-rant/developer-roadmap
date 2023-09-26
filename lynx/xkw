@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https > $(basename https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https).txt

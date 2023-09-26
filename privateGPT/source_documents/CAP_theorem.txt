@@ -1,0 +1,568 @@
+   #[https://en.m.wikipedia.org/wiki/CAP_theorem]alternate
+   [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit]Edi
+   t this page [https://en.wikipedia.org/w/opensearch_desc.php]Wikipedia
+   (en)
+   [https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=
+   atom]Wikipedia Atom feed
+
+   [https://en.wikipedia.org/wiki/CAP_theorem#bodyContent]Jump to content
+
+   [ ] Main menu
+   Main menu
+   (BUTTON) move to sidebar (BUTTON) hide
+   Navigation
+     * [https://en.wikipedia.org/wiki/Main_Page]Main page
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contents]Contents
+     * [https://en.wikipedia.org/wiki/Portal:Current_events]Current events
+     * [https://en.wikipedia.org/wiki/Special:Random]Random article
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact us
+     * [https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm
+       _source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org
+       &uselang=en]Donate
+
+   Contribute
+     * [https://en.wikipedia.org/wiki/Help:Contents]Help
+     * [https://en.wikipedia.org/wiki/Help:Introduction]Learn to edit
+     * [https://en.wikipedia.org/wiki/Wikipedia:Community_portal]Community
+       portal
+     * [https://en.wikipedia.org/wiki/Special:RecentChanges]Recent changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard]Upload
+       file
+
+   Languages
+   Language links are at the top of the page across from the title.
+   [https://en.wikipedia.org/wiki/Main_Page]Wikipedia The Free
+   Encyclopedia
+   [https://en.wikipedia.org/wiki/Special:Search]Search
+   ____________________
+   (BUTTON) Search
+
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=CAP+theorem]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=CAP+theorem]Log in
+
+   [ ] Personal tools
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=CAP+theorem]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=CAP+theorem]Log in
+
+   Pages for logged out editors
+   [https://en.wikipedia.org/wiki/Help:Introduction]learn more
+     * [https://en.wikipedia.org/wiki/Special:MyContributions]Contribution
+       s
+     * [https://en.wikipedia.org/wiki/Special:MyTalk]Talk
+
+   [ ]
+
+Contents
+
+   (BUTTON) move to sidebar (BUTTON) hide
+     * [https://en.wikipedia.org/wiki/CAP_theorem](Top)
+     * [https://en.wikipedia.org/wiki/CAP_theorem#Explanation]1Explanation
+     * [https://en.wikipedia.org/wiki/CAP_theorem#History]2History
+     * [https://en.wikipedia.org/wiki/CAP_theorem#See_also]3See also
+     * [https://en.wikipedia.org/wiki/CAP_theorem#References]4References
+     * [https://en.wikipedia.org/wiki/CAP_theorem#External_links]5External
+       links
+
+   Toggle the table of contents
+
+   [ ] Toggle the table of contents
+
+CAP theorem
+
+   [ ] 17 languages
+     * [https://ca.wikipedia.org/wiki/Teorema_CAP]Català
+     * [https://cs.wikipedia.org/wiki/CAP_teor%C3%A9m]Čeština
+     * [https://de.wikipedia.org/wiki/CAP-Theorem]Deutsch
+     * [https://es.wikipedia.org/wiki/Teorema_CAP]Español
+     * [https://fa.wikipedia.org/wiki/%D8%AA%D8%A6%D9%88%D8%B1%DB%8C_%D8%B
+       3%DB%8C%E2%80%8C%D8%A7%DB%8C%E2%80%8C%D9%BE%DB%8C]فارسی
+     * [https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_CAP]Français
+     * [https://ko.wikipedia.org/wiki/CAP_%EC%A0%95%EB%A6%AC]한국어
+     * [https://it.wikipedia.org/wiki/Teorema_CAP]Italiano
+     * [https://he.wikipedia.org/wiki/CAP_theorem]עברית
+     * [https://hu.wikipedia.org/wiki/CAP-t%C3%A9tel]Magyar
+     * [https://nl.wikipedia.org/wiki/CAP_theorema]Nederlands
+     * [https://ja.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86]日本語
+     * [https://pt.wikipedia.org/wiki/Teorema_CAP]Português
+     * [https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC
+       %D0%B0_CAP]Русский
+     * [https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC
+       %D0%B0_CAP]Українська
+     * [https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_CAP]Tiếng
+       Việt
+     * [https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86]中文
+
+   [https://www.wikidata.org/wiki/Special:EntityPage/Q856032#sitelinks-wik
+   ipedia]Edit links
+
+     * [https://en.wikipedia.org/wiki/CAP_theorem]Article
+     * [https://en.wikipedia.org/wiki/Talk:CAP_theorem]Talk
+
+   [ ] English
+
+     * [https://en.wikipedia.org/wiki/CAP_theorem]Read
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit
+       ]Edit
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=hist
+       ory]View history
+
+   [ ] Tools
+   Tools
+   (BUTTON) move to sidebar (BUTTON) hide
+   Actions
+     * [https://en.wikipedia.org/wiki/CAP_theorem]Read
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit
+       ]Edit
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=hist
+       ory]View history
+
+   General
+     * [https://en.wikipedia.org/wiki/Special:WhatLinksHere/CAP_theorem]Wh
+       at links here
+     * [https://en.wikipedia.org/wiki/Special:RecentChangesLinked/CAP_theo
+       rem]Related changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard]Upload
+       file
+     * [https://en.wikipedia.org/wiki/Special:SpecialPages]Special pages
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&oldid=11609
+       35962]Permanent link
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=info
+       ]Page information
+     * [https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&pa
+       ge=CAP_theorem&id=1160935962&wpFormIdentifier=titleform]Cite this
+       page
+     * [https://www.wikidata.org/wiki/Special:EntityPage/Q856032]Wikidata
+       item
+
+   Print/export
+     * [https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&p
+       age=CAP_theorem&action=show-download-screen]Download as PDF
+     * [https://en.wikipedia.org/w/index.php?title=CAP_theorem&printable=y
+       es]Printable version
+
+   From Wikipedia, the free encyclopedia
+   Need to sacrifice consistency or availability in the presence of
+   network partitions
+
+   In
+   [https://en.wikipedia.org/wiki/Theoretical_computer_science]theoretical
+   computer science, the CAP theorem, also named Brewer's theorem after
+   computer scientist
+   [https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)]Eric Brewer,
+   states that any
+   [https://en.wikipedia.org/wiki/Distributed_data_store]distributed data
+   store can provide only [https://en.wikipedia.org/wiki/Trilemma]two of
+   the following three
+   guarantees:^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Gilber
+   t_Lynch-1][1]^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-2][2
+   ]^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-3][3]
+
+   [https://en.wikipedia.org/wiki/Consistency_model]Consistency
+          Every read receives the most recent write or an error.
+
+   [https://en.wikipedia.org/wiki/Availability]Availability
+          Every request receives a (non-error) response, without the
+          guarantee that it contains the most recent write.
+
+   [https://en.wikipedia.org/wiki/Network_partitioning]Partition tolerance
+          The system continues to operate despite an arbitrary number of
+          messages being dropped (or delayed) by the network between
+          nodes.
+
+   When a [https://en.wikipedia.org/wiki/Network_partition]network
+   partition failure happens, it must be decided whether to do one of the
+   following:
+     * cancel the operation and thus decrease the availability but ensure
+       consistency
+     * proceed with the operation and thus provide availability but risk
+       inconsistency.
+
+   [https://en.wikipedia.org/wiki/File:CAP_Theorem_Venn_Diagram.png][220px
+   -CAP_Theorem_Venn_Diagram.png]
+   [https://en.wikipedia.org/wiki/File:CAP_Theorem_Venn_Diagram.png]
+   CAP Theorem Venn Diagram
+
+   Thus, if there is a network partition, one has to choose between
+   consistency or availability. Note that consistency as defined in the
+   CAP theorem is quite different from the consistency guaranteed in
+   [https://en.wikipedia.org/wiki/ACID]ACID
+   [https://en.wikipedia.org/wiki/Database_transaction]database
+   transactions.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-4][4
+   ]
+
+Explanation[[https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=ed
+it&section=1]edit]
+
+   No distributed system is safe from network failures, thus network
+   partitioning generally has to be
+   tolerated.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-5][5]^[
+   https://en.wikipedia.org/wiki/CAP_theorem#cite_note-6][6] In the
+   presence of a partition, one is then left with two options: consistency
+   or [https://en.wikipedia.org/wiki/Availability]availability. When
+   choosing consistency over availability, the system will return an error
+   or a time out if particular information cannot be guaranteed to be up
+   to date due to network partitioning. When choosing availability over
+   consistency, the system will always process the query and try to return
+   the most recent available version of the information, even if it cannot
+   guarantee it is up to date due to network partitioning.
+
+   In the absence of a partition, both availability and consistency can be
+   satisfied.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-paclec-
+   7][7]
+
+   Database systems designed with traditional
+   [https://en.wikipedia.org/wiki/ACID]ACID guarantees in mind such as
+   [https://en.wikipedia.org/wiki/Relational_database_management_system]RD
+   BMS choose
+   [https://en.wikipedia.org/wiki/Consistency_(database_systems)]consisten
+   cy over availability, whereas systems designed around the
+   [https://en.wikipedia.org/wiki/Eventual_consistency]BASE philosophy,
+   common in the [https://en.wikipedia.org/wiki/NoSQL]NoSQL movement for
+   example, choose availability over
+   consistency.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewe
+   r2012-8][8]
+
+History[[https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit&s
+ection=2]edit]
+
+   According to
+   [https://en.wikipedia.org/wiki/University_of_California,_Berkeley]Unive
+   rsity of California, Berkeley computer scientist
+   [https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)]Eric Brewer, the
+   theorem first appeared in autumn
+   1998.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2012-8
+   ][8] It was published as the CAP principle in
+   1999^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer1999-9]
+   [9] and presented as a
+   [https://en.wikipedia.org/wiki/Conjecture]conjecture by Brewer at the
+   2000
+   [https://en.wikipedia.org/wiki/Symposium_on_Principles_of_Distributed_C
+   omputing]Symposium on Principles of Distributed Computing
+   (PODC).^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2000
+   -10][10] In 2002,
+   [https://en.wikipedia.org/w/index.php?title=Seth_Gilbert&action=edit&re
+   dlink=1]Seth Gilbert and
+   [https://en.wikipedia.org/wiki/Nancy_Lynch]Nancy Lynch of
+   [https://en.wikipedia.org/wiki/MIT]MIT published a formal proof of
+   Brewer's conjecture, rendering it a
+   [https://en.wikipedia.org/wiki/Theorem]theorem.^[https://en.wikipedia.o
+   rg/wiki/CAP_theorem#cite_note-Gilbert_Lynch-1][1]
+
+   In 2012, Brewer clarified some of his positions, including why the
+   often-used "two out of three" concept can be somewhat misleading
+   because system designers only need to sacrifice consistency or
+   availability in the presence of partitions; partition management and
+   recovery techniques exist. Brewer also noted the different definition
+   of consistency used in the CAP theorem relative to the definition used
+   in
+   [https://en.wikipedia.org/wiki/ACID]ACID.^[https://en.wikipedia.org/wik
+   i/CAP_theorem#cite_note-Brewer2012-8][8]^[https://en.wikipedia.org/wiki
+   /CAP_theorem#cite_note-:0-11][11]
+
+   A similar theorem stating the trade-off between consistency and
+   availability in distributed systems was published by Birman and
+   Friedman in
+   1996.^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-12][12]
+   Birman and Friedman's result restricted this lower bound to
+   non-commuting operations.
+
+   The [https://en.wikipedia.org/wiki/PACELC_theorem]PACELC theorem,
+   introduced in
+   2010,^[https://en.wikipedia.org/wiki/CAP_theorem#cite_note-paclec-7][7]
+   builds on CAP by stating that even in the absence of partitioning,
+   there is another trade-off between latency and consistency. PACELC
+   means, if partition (P) happens, the trade-off is between availability
+   (A) and consistency (C); Else (E), the trade-off is between latency (L)
+   and consistency (C).
+
+See
+also[[https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit&sect
+ion=3]edit]
+
+     * [https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing]F
+       allacies of distributed computing
+     * [https://en.wikipedia.org/wiki/PACELC_theorem]PACELC theorem
+     * [https://en.wikipedia.org/wiki/Paxos_(computer_science)]Paxos
+       (computer science)
+     * [https://en.wikipedia.org/wiki/Raft_(computer_science)]Raft
+       (computer science)
+     * [https://en.wikipedia.org/wiki/Zooko%27s_triangle]Zooko's triangle
+
+References[[https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edi
+t&section=4]edit]
+
+    1. ^
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Gilbert_Lynch_1
+       -0]^a
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Gilbert_Lynch_1
+       -1]^b Gilbert, Seth; Lynch, Nancy (2002). "Brewer's conjecture and
+       the feasibility of consistent, available, partition-tolerant web
+       services". ACM SIGACT News. Association for Computing Machinery
+       (ACM). 33 (2): 51–59.
+       [https://en.wikipedia.org/wiki/Doi_(identifier)]doi:[https://doi.or
+       g/10.1145%2F564585.564601]10.1145/564585.564601.
+       [https://en.wikipedia.org/wiki/ISSN_(identifier)]ISSN [https://www.
+       worldcat.org/issn/0163-5700]0163-5700.
+    2. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-2]^
+       [https://www.julianbrowne.com/article/brewers-cap-theorem/]"Brewer'
+       s CAP Theorem". julianbrowne.com. 2009-01-11.
+    3. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-3]^
+       [https://www.royans.net/2010/02/brewers-cap-theorem-on-distributed.
+       html]"Brewers CAP Theorem on distributed systems". royans.net.
+       2010-02-14.
+    4. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-4]^ Liochon,
+       Nicolas.
+       [http://blog.thislongrun.com/2015/03/the-confusing-cap-and-acid-wor
+       ding.html]"The confusing CAP and ACID wording". This long run.
+       Retrieved 1 February 2019.
+    5. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-5]^ Kleppmann,
+       Martin (2015-09-18).
+       [https://www.repository.cam.ac.uk/handle/1810/267054]A Critique of
+       the CAP Theorem (Report). Apollo - University of Cambridge
+       Repository.
+       [https://en.wikipedia.org/wiki/ArXiv_(identifier)]arXiv:[https://ar
+       xiv.org/abs/1509.05393]1509.05393.
+       [https://en.wikipedia.org/wiki/Bibcode_(identifier)]Bibcode:[https:
+       //ui.adsabs.harvard.edu/abs/2015arXiv150905393K]2015arXiv150905393K
+       .
+       [https://en.wikipedia.org/wiki/Doi_(identifier)]doi:[https://doi.or
+       g/10.17863%2FCAM.13083]10.17863/CAM.13083.
+       [https://en.wikipedia.org/wiki/S2CID_(identifier)]S2CID [https://ap
+       i.semanticscholar.org/CorpusID:1991487]1991487. Retrieved 24
+       November 2019.
+    6. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-6]^ Martin,
+       Kleppmann.
+       [https://martin.kleppmann.com/2015/05/11/please-stop-calling-databa
+       ses-cp-or-ap.html]"Please stop calling databases CP or AP". Martin
+       Kleppmann's Blog. Retrieved 24 November 2019.
+    7. ^ [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-paclec_7-0]^a
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-paclec_7-1]^b
+       Abadi, Daniel (2010-04-23).
+       [http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yaho
+       os-little.html]"DBMS Musings: Problems with CAP, and Yahoo's little
+       known NoSQL system". DBMS Musings. Retrieved 2018-01-23.
+    8. ^
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Brewer2012_8-0]
+       ^a
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Brewer2012_8-1]
+       ^b
+       [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Brewer2012_8-2]
+       ^c Brewer, Eric (2012).
+       [http://www.infoq.com/articles/cap-twelve-years-later-how-the-rules
+       -have-changed]"CAP twelve years later: How the "rules" have
+       changed". Computer. Institute of Electrical and Electronics
+       Engineers (IEEE). 45 (2): 23–29.
+       [https://en.wikipedia.org/wiki/Doi_(identifier)]doi:[https://doi.or
+       g/10.1109%2Fmc.2012.37]10.1109/mc.2012.37.
+       [https://en.wikipedia.org/wiki/ISSN_(identifier)]ISSN [https://www.
+       worldcat.org/issn/0018-9162]0018-9162.
+    9. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Brewer1999_9-0]
+       ^ Armando Fox; Eric Brewer (1999). Harvest, Yield and Scalable
+       Tolerant Systems. Proc. 7th Workshop Hot Topics in Operating
+       Systems (HotOS 99). IEEE CS. pp. 174–178.
+       [https://en.wikipedia.org/wiki/Doi_(identifier)]doi:[https://doi.or
+       g/10.1109%2FHOTOS.1999.798396]10.1109/HOTOS.1999.798396.
+   10. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-Brewer2000_10-0
+       ]^ Eric Brewer.
+       [http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf]"T
+       owards Robust Distributed Systems" (PDF).
+   11. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-:0_11-0]^
+       Carpenter, Jeff; Hewitt, Eben (July 2016).
+       [https://www.oreilly.com/library/view/cassandra-the-definitive/9781
+       491933657/]Cassandra: The Definitive Guide (2nd ed.). Oreilly.
+       [https://en.wikipedia.org/wiki/ISBN_(identifier)]ISBN [https://en.w
+       ikipedia.org/wiki/Special:BookSources/9781491933657]9781491933657.
+       "In February 2012, Eric Brewer provided an updated perspective on
+       his CAP theorem [..] Brewer now describes the "2 out of 3" axiom as
+       somewhat misleading. He notes that designers only need sacrifice
+       consistency or availability in the presence of partitions, and that
+       advances in partition recovery techniques have made it possible for
+       designers to achieve high levels of both consistency and
+       availability."
+   12. [https://en.wikipedia.org/wiki/CAP_theorem#cite_ref-12]^ Ken
+       Birman; Roy Friedman (April 1996).
+       [https://ecommons.cornell.edu/handle/1813/7235]"Trading Consistency
+       for Availability in Distributed Systems".
+       [https://en.wikipedia.org/wiki/Hdl_(identifier)]hdl:[https://hdl.ha
+       ndle.net/1813%2F7235]1813/7235.
+
+External
+links[[https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit&sec
+tion=5]edit]
+
+     * [https://research.google.com/pubs/pub45855.html]Spanner, TrueTime
+       and the CAP Theorem
+     * [http://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf]Perspec
+       tives on the CAP theorem: An update from Gilbert and Lynch in 2012
+
+     * [https://en.wikipedia.org/wiki/Template:Databases]v
+     * [https://en.wikipedia.org/wiki/Template_talk:Databases]t
+     * [https://en.wikipedia.org/w/index.php?title=Template:Databases&acti
+       on=edit]e
+
+   [https://en.wikipedia.org/wiki/Database]Database management systems
+   Types
+     * [https://en.wikipedia.org/wiki/Object_database]Object-oriented
+          + [https://en.wikipedia.org/wiki/Comparison_of_object_database_m
+            anagement_systems]comparison
+     * [https://en.wikipedia.org/wiki/Relational_database]Relational
+          + [https://en.wikipedia.org/wiki/List_of_relational_database_man
+            agement_systems]list
+          + [https://en.wikipedia.org/wiki/Comparison_of_relational_databa
+            se_management_systems]comparison
+     * [https://en.wikipedia.org/wiki/Key%E2%80%93value_database]Key–value
+     * [https://en.wikipedia.org/wiki/Column-oriented_DBMS]Column-oriented
+          + [https://en.wikipedia.org/wiki/List_of_column-oriented_DBMSes]
+            list
+     * [https://en.wikipedia.org/wiki/Document-oriented_database]Document-
+       oriented
+     * [https://en.wikipedia.org/wiki/Wide-column_store]Wide-column store
+     * [https://en.wikipedia.org/wiki/Graph_database]Graph
+     * [https://en.wikipedia.org/wiki/NoSQL]NoSQL
+     * [https://en.wikipedia.org/wiki/NewSQL]NewSQL
+     * [https://en.wikipedia.org/wiki/In-memory_database]In-memory
+          + [https://en.wikipedia.org/wiki/List_of_in-memory_databases]lis
+            t
+     * [https://en.wikipedia.org/wiki/Multi-model_database]Multi-model
+          + [https://en.wikipedia.org/wiki/Comparison_of_multi-model_datab
+            ases]comparison
+     * [https://en.wikipedia.org/wiki/Cloud_database]Cloud
+     * [https://en.wikipedia.org/wiki/Blockchain-based_database]Blockchain
+       -based database
+
+   Concepts
+     * [https://en.wikipedia.org/wiki/Database]Database
+     * [https://en.wikipedia.org/wiki/ACID]ACID
+     * [https://en.wikipedia.org/wiki/Armstrong%27s_axioms]Armstrong's
+       axioms
+     * [https://en.wikipedia.org/wiki/Codd%27s_12_rules]Codd's 12 rules
+     * CAP theorem
+     * [https://en.wikipedia.org/wiki/Create,_read,_update_and_delete]CRUD
+     * [https://en.wikipedia.org/wiki/Null_(SQL)]Null
+     * [https://en.wikipedia.org/wiki/Candidate_key]Candidate key
+     * [https://en.wikipedia.org/wiki/Foreign_key]Foreign key
+     * [https://en.wikipedia.org/wiki/Superkey]Superkey
+     * [https://en.wikipedia.org/wiki/Surrogate_key]Surrogate key
+     * [https://en.wikipedia.org/wiki/Unique_key]Unique key
+
+   Objects
+     * [https://en.wikipedia.org/wiki/Relation_(database)]Relation
+          + [https://en.wikipedia.org/wiki/Table_(database)]table
+          + [https://en.wikipedia.org/wiki/Column_(database)]column
+          + [https://en.wikipedia.org/wiki/Row_(database)]row
+     * [https://en.wikipedia.org/wiki/View_(SQL)]View
+     * [https://en.wikipedia.org/wiki/Database_transaction]Transaction
+     * [https://en.wikipedia.org/wiki/Transaction_log]Transaction log
+     * [https://en.wikipedia.org/wiki/Database_trigger]Trigger
+     * [https://en.wikipedia.org/wiki/Database_index]Index
+     * [https://en.wikipedia.org/wiki/Stored_procedure]Stored procedure
+     * [https://en.wikipedia.org/wiki/Cursor_(databases)]Cursor
+     * [https://en.wikipedia.org/wiki/Partition_(database)]Partition
+
+   Components
+     * [https://en.wikipedia.org/wiki/Concurrency_control]Concurrency
+       control
+     * [https://en.wikipedia.org/wiki/Data_dictionary]Data dictionary
+     * [https://en.wikipedia.org/wiki/Java_Database_Connectivity]JDBC
+     * [https://en.wikipedia.org/wiki/XQuery_API_for_Java]XQJ
+     * [https://en.wikipedia.org/wiki/Open_Database_Connectivity]ODBC
+     * [https://en.wikipedia.org/wiki/Query_language]Query language
+     * [https://en.wikipedia.org/wiki/Query_optimization]Query optimizer
+     * [https://en.wikipedia.org/wiki/Query_Rewriting]Query rewriting
+       system
+     * [https://en.wikipedia.org/wiki/Query_plan]Query plan
+
+   Functions
+
+     * [https://en.wikipedia.org/wiki/Database_administration]Administrati
+       on
+     * [https://en.wikipedia.org/wiki/Query_optimization]Query
+       optimization
+     * [https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE]Rep
+       lication
+     * [https://en.wikipedia.org/wiki/Shard_(database_architecture)]Shardi
+       ng
+
+   Related topics
+
+     * [https://en.wikipedia.org/wiki/Database_model]Database models
+     * [https://en.wikipedia.org/wiki/Database_normalization]Database
+       normalization
+     * [https://en.wikipedia.org/wiki/Database_storage_structures]Database
+       storage
+     * [https://en.wikipedia.org/wiki/Distributed_database]Distributed
+       database
+     * [https://en.wikipedia.org/wiki/Federated_database_system]Federated
+       database system
+     * [https://en.wikipedia.org/wiki/Referential_integrity]Referential
+       integrity
+     * [https://en.wikipedia.org/wiki/Relational_algebra]Relational
+       algebra
+     * [https://en.wikipedia.org/wiki/Relational_calculus]Relational
+       calculus
+     * [https://en.wikipedia.org/wiki/Relational_model]Relational model
+     * [https://en.wikipedia.org/wiki/Object%E2%80%93relational_database]O
+       bject–relational database
+     * [https://en.wikipedia.org/wiki/Transaction_processing]Transaction
+       processing
+
+     * [https://en.wikipedia.org/wiki/Category:Database_management_systems
+       ]Category
+     * [https://en.wikipedia.org/wiki/Outline_of_databases]Outline
+     * [https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Databases]Wiki
+       Project
+
+   Retrieved from
+   "[https://en.wikipedia.org/w/index.php?title=CAP_theorem&oldid=11609359
+   62]https://en.wikipedia.org/w/index.php?title=CAP_theorem&oldid=1160935
+   962"
+
+   [https://en.wikipedia.org/wiki/Help:Category]Categories:
+     * [https://en.wikipedia.org/wiki/Category:Database_management_systems
+       ]Database management systems
+     * [https://en.wikipedia.org/wiki/Category:Distributed_computing]Distr
+       ibuted computing
+
+   Hidden categories:
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_short_descrip
+       tion]Articles with short description
+     * [https://en.wikipedia.org/wiki/Category:Short_description_matches_W
+       ikidata]Short description matches Wikidata
+
+     * This page was last edited on 19 June 2023, at 16:37 (UTC).
+     * Text is available under the
+       [https://creativecommons.org/licenses/by-sa/4.0/]Creative Commons
+       Attribution-ShareAlike License
+       4.0[https://creativecommons.org/licenses/by-sa/4.0/]; additional
+       terms may apply. By using this site, you agree to the
+       [https://foundation.wikimedia.org/wiki/Terms_of_Use]Terms of Use
+       and [https://foundation.wikimedia.org/wiki/Privacy_policy]Privacy
+       Policy. Wikipedia® is a registered trademark of the
+       [https://www.wikimediafoundation.org/]Wikimedia Foundation, Inc., a
+       non-profit organization.
+
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Pr
+       ivacy_policy]Privacy policy
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer]Disclai
+       mers
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact
+       Wikipedia
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal
+       _Code_of_Conduct]Code of Conduct
+     * [https://en.m.wikipedia.org/w/index.php?title=CAP_theorem&mobileact
+       ion=toggle_view_mobile]Mobile view
+     * [https://developer.wikimedia.org/]Developers
+     * [https://stats.wikimedia.org/#/en.wikipedia.org]Statistics
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Co
+       okie_statement]Cookie statement
+
+     * [https://wikimediafoundation.org/]Wikimedia Foundation
+     * [https://www.mediawiki.org/]Powered by MediaWiki
+
+   (BUTTON) Toggle limited content width

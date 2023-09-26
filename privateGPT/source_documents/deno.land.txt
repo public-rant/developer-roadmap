@@ -1,0 +1,178 @@
+    [ ]
+   [https://deno.land/]
+   [ ] Modules
+   [https://deno.land/std]Standard Library
+   [https://deno.land/x]Third Party Modules
+   [https://deno.land/manual/node]NPM
+   [ ] Docs
+   [https://deno.land/manual]Manual
+   [https://deno.land/api]API
+   [https://deno.land/deploy]Deploy
+   [ ] Community
+   [https://discord.gg/deno]Discord
+   [https://github.com/denoland]GitHub
+   [https://twitter.com/deno_land]Twitter
+   [https://www.youtube.com/c/deno_land]YouTube
+   [https://fosstodon.org/@deno_land]Mastodon
+   (BUTTON)
+   Search...
+   ⌘ K
+   Background Image
+
+   Meet Deno
+
+The easiest,
+most secure
+JavaScript runtime.
+
+   [https://deno.land/manual/getting_started/installation]Installation[htt
+   ps://deno.land/manual]Documentation
+   [https://deno.land/kv]Announcing Deno KV: a global database for global
+   apps!
+   Easy
+
+The best developer experience
+
+   Without the learning curve…
+   [typing_deno.png?__frsh_c=64fcb611fba4e7165cb685f9b9607e74f18ad5e5]
+
+Avoid installing dependencies
+
+   Dive right into the code and skip the setup.
+   Web APIs
+
+Web-standard APIs
+
+   A runtime that resembles the web, using browser APIs that work on the
+   server.
+
+TypeScript out of the box
+
+   First-class support for TypeScript – no need to spend hours configuring
+   things that break as soon as you update a dependency.
+
+Great all-in-one tooling
+
+   Built in linter, code formatter, ability to build a self-contained
+   executable, test runner, IDE integration, and more.
+
+Hassle-free deployment
+
+   Launch to Deno Deploy with one line of code and zero server
+   configuration, or host with other platforms of your choice.
+
+     "Voted one of the most loved web technologies
+     in a survey of over 70,000 developers"
+
+   [https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-we
+   bframe-love-dread]Stack Overflow
+
+   Fast
+
+Built to perform at your speed.
+
+   Designed from the ground-up for high-performance.
+   HTTP Benchmark
+
+Best in class HTTP server speeds
+
+   The fastest JavaScript web server ever built.
+   ([https://github.com/denoland/deno/blob/v1.28.0/cli/bench/http/deno_htt
+   p_flash.js]HTTP hello⁠-⁠world using wrk on mac⁠)
+
+Powered by Chrome's V8
+
+   Built on top of the fastest and most complete JavaScript engine.
+
+     "What stood out first and foremost to our team was their laser focus
+     on security... like the ability to execute code with limited access
+     to the file system or external domains."
+
+   [https://deno.com/blog/slack-open-beta]Slack
+
+   Secure
+
+Secure by default.
+
+   Take total control over your workflow.
+   [armor_deno.png?__frsh_c=64fcb611fba4e7165cb685f9b9607e74f18ad5e5]
+
+Run untrusted code
+
+   By default Deno provides no I/O access and is appropriate for running
+   untrusted code and auditing new third⁠-⁠party code.
+
+Fine grained
+permission checks
+
+   Provide an allow-list to access only certain file system directories,
+   network hosts, and environment variables.
+
+Safer NPM
+packages
+
+   Install and run npm packages with less worry.
+
+   Used by a large community of developers and leading
+   technology companies:
+
+   Over 200k Monthly Actives
+   [https://slack.com/]Slack
+   [https://netlify.com/]Netlify
+   [https://github.com/]GitHub
+   [https://supabase.com/]Supabase
+
+   Frameworks
+
+Start building immediately.
+
+   With modern tooling that delivers a performant user experience, which
+   can be deployed anywhere.
+   [https://fresh.deno.dev/]
+
+[https://fresh.deno.dev/]Fresh
+
+   Fresh is a next-gen web framework built for speed, reliability, and
+   simplicity.
+   [https://deno.com/saaskit]
+
+[https://deno.com/saaskit]SaaSkit
+
+   Start your SaaS fast with this template that includes user logins,
+   authentication, billing, and more.
+   [https://lume.land/]
+
+[https://lume.land/]Lume
+
+   The fast & flexible static site generator that supports any template
+   engine.
+
+   [https://deno.land/runtime][ ] Why Deno?
+   [https://deno.land/runtime]Develop
+   Locally[https://deno.land/deploy]Deploy
+   Globally[https://deno.land/manual/node]Compare to
+   Node.js[https://deno.land/benchmarks]Benchmarks
+   [ ] Products
+   [https://deno.land/runtime]Deno CLI[https://deno.land/deploy]Deno
+   Deploy[https://deno.land/deploy/subhosting]Deploy
+   Subhosting[https://fresh.deno.dev/]Fresh[https://deno.land/saaskit/]Saa
+   SKit
+   [ ] Sources
+   [https://deno.land/manual]CLI Manual[https://deno.land/api]CLI Runtime
+   API[https://deno.land/deploy/docs]Deploy
+   Docs[https://deno.land/std]Standard
+   Library[https://deno.land/x]Third-Party
+   Modules[https://examples.deno.land/]Examples
+   [ ] Company
+   [https://deno.land/jobs]Careers[https://deno.land/blog]Blog[https://den
+   o.land/deploy/pricing]Pricing[https://deno.news/]News[https://merch.den
+   o.com/]Merch[https://deno.land/deploy/docs/privacy-policy]Privacy
+   Policy
+
+   IFRAME:
+   [https://denostatus.com/embed-status/72b9718f/light-sm]https://denostat
+   us.com/embed-status/72b9718f/light-sm
+
+   Copyright © 2023 Deno Land Inc. All rights reserved.
+   [https://github.com/denoland][https://discord.gg/deno][https://twitter.
+   com/deno_land][https://youtube.com/@deno_land]

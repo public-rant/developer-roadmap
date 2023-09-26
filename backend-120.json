@@ -1,0 +1,37 @@
+[
+ {
+  "id": "graph-databases",
+  "tag": "h1",
+  "text": "Graph databases"
+ },
+ {
+  "id": "neo4j",
+  "tag": "h1",
+  "text": "Neo4j"
+ },
+ {
+  "href": "https://neo4j.com/developer/graph-database/",
+  "tag": "a",
+  "text": "What is a Graph Database?"
+ },
+ {
+  "href": "https://www.freecodecamp.org/news/graph-database-vs-relational-database/",
+  "tag": "a",
+  "text": "Graph Databases VS Relational Databases"
+ },
+ {
+  "href": "https://neo4j.com/",
+  "tag": "a",
+  "text": "Official Website"
+ },
+ {
+  "href": "https://neo4j.com/docs/",
+  "tag": "a",
+  "text": "Official Docs"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=8jNPelugC2s",
+  "tag": "a",
+  "text": "Neo4j (Graph Database) Crash Course"
+ }
+]

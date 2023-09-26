@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm > $(basename https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm).txt

@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.apollographql.com > $(basename https://www.apollographql.com).txt

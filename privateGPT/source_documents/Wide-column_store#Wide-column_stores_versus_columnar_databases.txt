@@ -1,0 +1,285 @@
+   #[https://en.m.wikipedia.org/wiki/Wide-column_store]alternate
+   [https://en.wikipedia.org/w/index.php?title=Wide-column_store&action=ed
+   it]Edit this page
+   [https://en.wikipedia.org/w/opensearch_desc.php]Wikipedia (en)
+   [https://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=
+   atom]Wikipedia Atom feed
+
+   [https://en.wikipedia.org/wiki/Wide-column_store#bodyContent]Jump to
+   content
+
+   [ ] Main menu
+   Main menu
+   (BUTTON) move to sidebar (BUTTON) hide
+   Navigation
+     * [https://en.wikipedia.org/wiki/Main_Page]Main page
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contents]Contents
+     * [https://en.wikipedia.org/wiki/Portal:Current_events]Current events
+     * [https://en.wikipedia.org/wiki/Special:Random]Random article
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact us
+     * [https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm
+       _source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org
+       &uselang=en]Donate
+
+   Contribute
+     * [https://en.wikipedia.org/wiki/Help:Contents]Help
+     * [https://en.wikipedia.org/wiki/Help:Introduction]Learn to edit
+     * [https://en.wikipedia.org/wiki/Wikipedia:Community_portal]Community
+       portal
+     * [https://en.wikipedia.org/wiki/Special:RecentChanges]Recent changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard]Upload
+       file
+
+   Languages
+   Language links are at the top of the page across from the title.
+   [https://en.wikipedia.org/wiki/Main_Page]Wikipedia The Free
+   Encyclopedia
+   [https://en.wikipedia.org/wiki/Special:Search]Search
+   ____________________
+   (BUTTON) Search
+
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Wide-column+store]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Wide-column+store]Log in
+
+   [ ] Personal tools
+     * [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&r
+       eturnto=Wide-column+store]Create account
+     * [https://en.wikipedia.org/w/index.php?title=Special:UserLogin&retur
+       nto=Wide-column+store]Log in
+
+   Pages for logged out editors
+   [https://en.wikipedia.org/wiki/Help:Introduction]learn more
+     * [https://en.wikipedia.org/wiki/Special:MyContributions]Contribution
+       s
+     * [https://en.wikipedia.org/wiki/Special:MyTalk]Talk
+
+   [ ]
+
+Contents
+
+   (BUTTON) move to sidebar (BUTTON) hide
+     * [https://en.wikipedia.org/wiki/Wide-column_store](Top)
+     * [https://en.wikipedia.org/wiki/Wide-column_store#Wide-column_stores
+       _versus_columnar_databases]1Wide-column stores versus columnar
+       databases
+     * [https://en.wikipedia.org/wiki/Wide-column_store#History]2History
+     * [https://en.wikipedia.org/wiki/Wide-column_store#Notable_wide-colum
+       n_stores]3Notable wide-column stores
+     * [https://en.wikipedia.org/wiki/Wide-column_store#References]4Refere
+       nces
+
+   Toggle the table of contents
+
+   [ ] Toggle the table of contents
+
+Wide-column store
+
+   [ ] 4 languages
+     * [https://fa.wikipedia.org/wiki/%D9%85%D8%AE%D8%B2%D9%86_%D8%AF%D8%A
+       7%D8%AF%D9%87_%D8%B3%D8%AA%D9%88%D9%86_%DA%AF%D8%B3%D8%AA%D8%B1%D8%
+       AF%D9%87]فارسی
+     * [https://ko.wikipedia.org/wiki/%EC%99%80%EC%9D%B4%EB%93%9C_%EC%BB%A
+       C%EB%9F%BC_%EC%8A%A4%ED%86%A0%EC%96%B4]한국어
+     * [https://no.wikipedia.org/wiki/Bredt_kolonnelager]Norsk bokmål
+     * [https://uk.wikipedia.org/wiki/%D0%A1%D1%85%D0%BE%D0%B2%D0%B8%D1%89
+       %D0%B5_%D0%B7_%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D0%B8%D0%BC_%D1%81%D1%
+       82%D0%BE%D0%B2%D0%BF%D1%87%D0%B8%D0%BA%D0%BE%D0%BC]Українська
+
+   [https://www.wikidata.org/wiki/Special:EntityPage/Q25099437#sitelinks-w
+   ikipedia]Edit links
+
+     * [https://en.wikipedia.org/wiki/Wide-column_store]Article
+     * [https://en.wikipedia.org/wiki/Talk:Wide-column_store]Talk
+
+   [ ] English
+
+     * [https://en.wikipedia.org/wiki/Wide-column_store]Read
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+       n=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+       n=history]View history
+
+   [ ] Tools
+   Tools
+   (BUTTON) move to sidebar (BUTTON) hide
+   Actions
+     * [https://en.wikipedia.org/wiki/Wide-column_store]Read
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+       n=edit]Edit
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+       n=history]View history
+
+   General
+     * [https://en.wikipedia.org/wiki/Special:WhatLinksHere/Wide-column_st
+       ore]What links here
+     * [https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Wide-col
+       umn_store]Related changes
+     * [https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard]Upload
+       file
+     * [https://en.wikipedia.org/wiki/Special:SpecialPages]Special pages
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&oldid
+       =1148998225]Permanent link
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+       n=info]Page information
+     * [https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&pa
+       ge=Wide-column_store&id=1148998225&wpFormIdentifier=titleform]Cite
+       this page
+     * [https://www.wikidata.org/wiki/Special:EntityPage/Q25099437]Wikidat
+       a item
+
+   Print/export
+     * [https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&p
+       age=Wide-column_store&action=show-download-screen]Download as PDF
+     * [https://en.wikipedia.org/w/index.php?title=Wide-column_store&print
+       able=yes]Printable version
+
+   From Wikipedia, the free encyclopedia
+
+   A wide-column store (or extensible record store) is a
+   [https://en.wikipedia.org/wiki/Column-oriented_DBMS]column-oriented
+   DBMS and therefore a special type of
+   [https://en.wikipedia.org/wiki/NoSQL]NoSQL
+   [https://en.wikipedia.org/wiki/Database]database.^[https://en.wikipedia
+   .org/wiki/Wide-column_store#cite_note-db-engines-1][1] It uses tables,
+   rows, and columns, but unlike a
+   [https://en.wikipedia.org/wiki/Relational_database]relational database,
+   the names and format of the columns can vary from row to row in the
+   same table. A wide-column store can be interpreted as a two-dimensional
+   [https://en.wikipedia.org/wiki/Key%E2%80%93value_store]key–value
+   store.^[https://en.wikipedia.org/wiki/Wide-column_store#cite_note-db-en
+   gines-1][1]
+
+Wide-column stores versus columnar
+databases[[https://en.wikipedia.org/w/index.php?title=Wide-column_store&actio
+n=edit&section=1]edit]
+
+   Wide-column stores such as
+   [https://en.wikipedia.org/wiki/Bigtable]Bigtable and
+   [https://en.wikipedia.org/wiki/Apache_Cassandra]Apache Cassandra are
+   not [https://en.wikipedia.org/wiki/Column-oriented_DBMS]column stores
+   in the original sense of the term, since their two-level structures do
+   not use a columnar data layout. In genuine column stores, a columnar
+   data layout is adopted such that each column is stored separately on
+   disk. Wide-column stores do often support the notion of
+   [https://en.wikipedia.org/wiki/Column_family]column families that are
+   stored separately. However, each such column family typically contains
+   multiple columns that are used together, similar to traditional
+   relational database tables. Within a given column family, all data is
+   stored in a row-by-row fashion, such that the columns for a given row
+   are stored together, rather than each column being stored separately.
+
+   Wide-column stores that support column families are also known as
+   column family
+   databases.^[[https://en.wikipedia.org/wiki/Wikipedia:Citation_needed]ci
+   tation needed]
+
+History[[https://en.wikipedia.org/w/index.php?title=Wide-column_store&action=
+edit&section=2]edit]
+
+   [https://en.wikipedia.org/wiki/Google]Google's Bigtable is one of the
+   prototypical examples of a wide-column
+   store.^[https://en.wikipedia.org/wiki/Wide-column_store#cite_note-2][2]
+
+Notable wide-column
+stores[[https://en.wikipedia.org/w/index.php?title=Wide-column_store&action=e
+dit&section=3]edit]
+
+   Notable wide-column stores
+   ^[https://en.wikipedia.org/wiki/Wide-column_store#cite_note-3][3]
+   include:
+     * [https://en.wikipedia.org/wiki/Apache_Accumulo]Apache Accumulo
+     * [https://en.wikipedia.org/wiki/Apache_Cassandra]Apache Cassandra
+     * [https://en.wikipedia.org/wiki/Apache_HBase]Apache HBase
+     * [https://en.wikipedia.org/wiki/Bigtable]Bigtable
+     * [https://en.wikipedia.org/wiki/DataStax]DataStax Enterprise (uses
+       Apache Cassandra)
+     * [https://en.wikipedia.org/wiki/DataStax]DataStax Astra DB (uses
+       Apache Cassandra)
+     * [https://en.wikipedia.org/wiki/Hypertable]Hypertable
+     * [https://en.wikipedia.org/wiki/Microsoft_Azure#Storage_services]Azu
+       re Tables
+     * [https://en.wikipedia.org/wiki/Scylla_(database)]Scylla (database)
+
+References[[https://en.wikipedia.org/w/index.php?title=Wide-column_store&acti
+on=edit&section=4]edit]
+
+    1. ^
+       [https://en.wikipedia.org/wiki/Wide-column_store#cite_ref-db-engine
+       s_1-0]^a
+       [https://en.wikipedia.org/wiki/Wide-column_store#cite_ref-db-engine
+       s_1-1]^b [https://db-engines.com/en/article/Wide+Column+Stores]Wide
+       Column Stores. DB-Engines Encyclopedia.
+    2. [https://en.wikipedia.org/wiki/Wide-column_store#cite_ref-2]^
+       Chang, et al. (2006).
+       [http://db.usenix.org//events/osdi06/tech/chang/chang_html/]Bigtabl
+       e: A Distributed Storage System for Structured Data.
+    3. [https://en.wikipedia.org/wiki/Wide-column_store#cite_ref-3]^
+       [https://db-engines.com/en/ranking/wide+column+store]DB-Engines
+       Ranking of Wide Column Stores.
+
+   [https://en.wikipedia.org/wiki/File:Emoji_u1f4bb.svg]Stub icon
+
+   This computing article is a
+   [https://en.wikipedia.org/wiki/Wikipedia:Stub]stub. You can help
+   Wikipedia by
+   [https://en.wikipedia.org/w/index.php?title=Wide-column_store&action=ed
+   it]expanding it.
+     * [https://en.wikipedia.org/wiki/Template:Compu-stub]v
+     * [https://en.wikipedia.org/wiki/Template_talk:Compu-stub]t
+     * [https://en.wikipedia.org/w/index.php?title=Template:Compu-stub&act
+       ion=edit]e
+
+   Retrieved from
+   "[https://en.wikipedia.org/w/index.php?title=Wide-column_store&oldid=11
+   48998225]https://en.wikipedia.org/w/index.php?title=Wide-column_store&o
+   ldid=1148998225"
+   [https://en.wikipedia.org/wiki/Help:Category]Categories:
+     * [https://en.wikipedia.org/wiki/Category:NoSQL]NoSQL
+     * [https://en.wikipedia.org/wiki/Category:Databases]Databases
+     * [https://en.wikipedia.org/wiki/Category:Computing_stubs]Computing
+       stubs
+
+   Hidden categories:
+     * [https://en.wikipedia.org/wiki/Category:All_articles_with_unsourced
+       _statements]All articles with unsourced statements
+     * [https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_sta
+       tements_from_July_2022]Articles with unsourced statements from July
+       2022
+     * [https://en.wikipedia.org/wiki/Category:All_stub_articles]All stub
+       articles
+
+     * This page was last edited on 9 April 2023, at 15:06 (UTC).
+     * Text is available under the
+       [https://creativecommons.org/licenses/by-sa/4.0/]Creative Commons
+       Attribution-ShareAlike License
+       4.0[https://creativecommons.org/licenses/by-sa/4.0/]; additional
+       terms may apply. By using this site, you agree to the
+       [https://foundation.wikimedia.org/wiki/Terms_of_Use]Terms of Use
+       and [https://foundation.wikimedia.org/wiki/Privacy_policy]Privacy
+       Policy. Wikipedia® is a registered trademark of the
+       [https://www.wikimediafoundation.org/]Wikimedia Foundation, Inc., a
+       non-profit organization.
+
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Pr
+       ivacy_policy]Privacy policy
+     * [https://en.wikipedia.org/wiki/Wikipedia:About]About Wikipedia
+     * [https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer]Disclai
+       mers
+     * [https://en.wikipedia.org/wiki/Wikipedia:Contact_us]Contact
+       Wikipedia
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal
+       _Code_of_Conduct]Code of Conduct
+     * [https://en.m.wikipedia.org/w/index.php?title=Wide-column_store&mob
+       ileaction=toggle_view_mobile]Mobile view
+     * [https://developer.wikimedia.org/]Developers
+     * [https://stats.wikimedia.org/#/en.wikipedia.org]Statistics
+     * [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Co
+       okie_statement]Cookie statement
+
+     * [https://wikimediafoundation.org/]Wikimedia Foundation
+     * [https://www.mediawiki.org/]Powered by MediaWiki
+
+   (BUTTON) Toggle limited content width

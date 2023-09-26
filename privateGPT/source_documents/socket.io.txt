@@ -1,0 +1,262 @@
+   #[https://socket.io/]alternate [https://socket.io/fr/]alternate
+   [https://socket.io/pt-br/]alternate [https://socket.io/zh-CN/]alternate
+   [https://socket.io/]alternate [https://socket.io/blog/rss.xml]Socket.IO
+   RSS Feed [https://socket.io/blog/atom.xml]Socket.IO Atom Feed
+   [https://socket.io/opensearch.xml]Socket.IO
+
+   [https://socket.io/#docusaurus_skipToContent_fallback]Skip to main
+   content
+   📣 📣 📣 Participate in paid user research to help Azure build the most
+   productive cloud.
+   [https://microsoft.qualtrics.com/jfe/form/SV_4NmtotjrO4tJtki]Learn more
+
+   (BUTTON) [https://socket.io/]
+   Socket.IO logo Socket.IO logo
+   Socket.IO[https://socket.io/docs/v4/]Documentation[https://socket.io/ge
+   t-started/]Examples[https://socket.io/docs/v4/server-api/]Server
+   API[https://socket.io/docs/v4/client-api/]Client API
+   [https://socket.io/]Ecosystem
+     * Help
+     * [https://socket.io/docs/v4/troubleshooting-connection-issues/]Troub
+       leshooting
+     * [https://stackoverflow.com/questions/tagged/socket.io]Stack
+       Overflow
+     * [https://github.com/socketio/socket.io/discussions]GitHub
+       Discussions
+     * [https://socketio-slackin.herokuapp.com/]Slack
+     *
+         ______________________________________________________________
+
+     * News
+     * [https://socket.io/blog]Blog
+     * [https://twitter.com/SocketIO]Twitter
+     *
+         ______________________________________________________________
+
+     * Tools
+     * [https://cdn.socket.io/]CDN
+     * [https://admin.socket.io/]Admin UI
+
+   [https://socket.io/]About
+     * [https://socket.io/docs/v4/changelog]Changelog
+     * [https://github.com/socketio/socket.io/projects/3]Roadmap
+     * [https://opencollective.com/socketio]Become a sponsor
+
+   [https://socket.io/docs/v4/]4.x
+     * [https://socket.io/docs/v4/]4.x
+     * [https://socket.io/docs/v3/]3.x
+     * [https://socket.io/docs/v2/]2.x
+
+   [https://socket.io/]English
+     * [https://socket.io/]English
+     * [https://socket.io/fr/]Français
+     * [https://socket.io/pt-br/]Português (Brasil)
+     * [https://socket.io/zh-CN/]中文（中国）
+
+   [https://github.com/socketio/socket.io]
+   (BUTTON)
+   (BUTTON) Search
+
+   Socket.IO logo Socket.IO logo
+
+Socket.IO
+
+   Bidirectional and low-latency communication for every platform
+   [https://socket.io/get-started/chat]Get
+   started[https://socket.io/docs/v4/]Documentation
+
+Performant
+
+   In most cases, the connection will be established with WebSocket,
+   providing a low-overhead communication channel between the server and
+   the client.
+
+Reliable
+
+   Rest assured! In case the WebSocket connection is not possible, it will
+   fall back to HTTP long-polling. And if the connection is lost, the
+   client will automatically try to reconnect.
+
+Scalable
+
+   Scale to multiple servers and send events to all connected clients with
+   ease.
+
+Basic example
+
+   Browser window with server example Browser window with client example
+
+   Run this example on
+   [https://replit.com/@socketio/socketio-minimal-example]Replit /
+   [https://stackblitz.com/edit/socketio-base?file=index.js]StackBlitz /
+   [https://codesandbox.io/s/socket-io-minimal-example-k3h2l]CodeSandbox
+
+Our sponsors
+
+   [https://streamlabs.com/]Streamlabs
+   [https://icons8.com/]Icons8: free icons, photos, illustrations, and
+   music
+   [https://www.bonus.ca/]BonusFinder Canada
+   [https://bitcasino.io/]Bitcasino
+   [https://www.fortunegames.com/]FORTUNE GAMES
+   [https://www.bonus.net.nz/free-spins-no-deposit]BonusFinder New Zealand
+   [https://www.bonusfinder.com/casino-bonus]Bonusfinder.com US
+   [https://casino-professor.com/]Casino Professor
+   [https://www.minitool.com/]Admin MiniTool
+   [https://taxfreesnus.com/]TaxFreeSnus.com
+   [https://www.credimaxx.de/]CrediMaxx® GmbH
+   [https://casinogringos.se/]Casinogringos
+   [https://www.bestecasinobonussen.nl/]Bestecasinobonussen.nl
+   [https://www.kasinohai.com/nettikasinot]Kasinohai.com
+   [https://investingreviews.co.uk/]InvestingReviews.co.uk
+   [https://www.turtlebet.com/fi/kaikki-nettikasinot.html]Turtlebet -
+   Nettikasinot
+   [https://www.777casino.co.uk/]777 Casino
+   [https://supplementsreviews.co.uk/]SupplementsReviews.co.uk
+   [https://neuecasinos24.com/casino-bonus/ohne-einzahlung]NeueCasinos24
+   [https://bitkong.com/]BitKong
+   [https://papersowl.com/research-papers]Papersowl
+   [https://www.neueonline-casinos.com/]Neue Online Casinos
+   [https://casinodaddy.com/]Casino Daddy
+   [https://www.newcasinosites.me.uk/]NewCasinoSites
+   [https://pokiesportal.com/]Australian online pokies
+   [https://goread.io/buy-instagram-followers]Goread.io
+   [https://betting.bet/]Betting.bet
+   [https://casinority.com/au/]Casinority Australia
+   [https://writingmetier.com/]Writing Metier
+   [https://socialsup.net/]SocialsUp
+   [https://www.auscasinos.com/online-pokies/]AusCasinos
+   [https://www.casinotest.com/]CasinoTest Ltd.
+   [https://casino.guide/]Casino.Guide
+   [https://slotsempire.com/]Slots Empire Casino
+   [https://www.casinoonlineaams.com/]Casinoonlineaams.com
+   [https://svenskaonlinecasinon.se/]Svenskaonlinecasinon.se
+   [https://www.boosbe.com/]Boosbe
+   [https://coolspins.net/]Casino Utan Svensk Licens
+   [https://www.uudetkasinot.com/]uudetkasinot.com
+   [https://www.canadacasinohub.com/]Canada Casino Hub
+   [https://www.whitehatcasinos.com/]WhiteHatCasinos.com
+   [https://zamsino.com/uk/free-spins-no-deposit/]Erik King
+   [https://www.voetbalgokken.nl/]VoetbalGokken
+   [https://www.wagerdex.com/]WagerDex
+   [https://reddogcasino.com/en/games/blackjack]RedDogCasino.com
+   [https://www.onlinecasinosdeutschland.de/]www.onlinecasinosdeutschland.
+   de
+   [https://www.cryptonewsz.com/]CryptoNewsZ
+   [https://www.5bingosites.com/]www.5bingosites.com
+   [https://www.wizardslots.com/]Wizard Slots
+   [https://aspireglobalcasinos.com/]Aspire Global Casinos
+   [https://sportbetting24.se/]Sportbetting24
+   [https://parimatch.in/]Parimatch India
+   [https://leafletcasino.com/]leafletcasino.com
+   [https://www.automatenspiele.org/]automatenspiele.org
+   [https://www.ibeesoft.com/]iBeesoft
+   [https://playcasinoscanada.com/]Playcasinoscanada.com
+   [https://poprey.com/]Poprey.com
+   [https://www.casinosansdepot.com/]casinosansdepot
+   [https://hellsbet.com/en-au/]Betting sites Australia
+   [https://onlinecasino.kyiv.ua/]Онлайн Казино Украины
+   [https://www.casimba.com/en-gb/]Casimba Casino
+   [https://www.sure.bet/casinos-not-on-gamstop/]SureBet
+   [https://cryptotracker.com/]Crypto Tracker
+   [https://www.socialboosting.com/buy-tiktok-followers]SocialBoosting.com
+   [https://casinoburst.com/casino-utan-licens/]Casinoburst.com
+   [https://www.noneedtostudy.com/take-my-online-class/]Pay someone to
+   take my online class - NoNeedToStudy.com
+   [https://nongamstopcasinos.net/]nongamstopcasinos.net
+   [https://automatenspielex.com/online-casinos]beste online casino
+   deutschland
+   [https://www.allfreechips.com/]Allfreechips
+   [http://www.australiainternetpokies.com/]AU Internet Pokies
+   [https://www.australiaonlinecasinosites.com/]AU Online Casinos
+   [https://www.casinoaus.net/]CasinoAus
+   [https://www.topaustraliangambling.com/]Top Australian Gambling
+   [https://quickbookstoolhub.com/]Quickbooks Tool Hub
+   [https://www.norskeautomater.com/]NorskeAutomater
+   [https://investingreviews.com/]InvestingReviews.com
+   [https://legalbet.uk/]Legalbet
+   [https://www.gambleonline.co/nz/]GambleOnline NZ
+   [https://www.onlinecasinos.net/]OnlineCasinos
+   [https://mobogift.com/]mobogift
+   [https://twicsy.com/buy-instagram-likes]Twicsy
+   [https://newcasinos-au.com/]New Casinos AU
+   [https://gamerules.com/online-casinos/new/canada/]New Online Casinos
+   Canada 2023
+   [https://onlinecasinoosusume.jp/]Online Casino Osusume
+   [https://www.casinoaams.eu/]Renato Baldo
+   [https://casinozondercruks.net/]CZC-NET
+   [https://justuk.club/]justuk.club
+   [https://likes.io/buy-instagram-followers]Likes.io
+   [https://luckygambler.com/]LuckyGambler
+   [https://legitgamblingsites.com/]LegitGamblingSites
+   [https://www.bestunitedstatescasinos.com/]Best United States Casinos
+   [https://sup.today/]Sup.today
+   [https://www.nettcasino.com/]Nettcasino
+   [https://www.correctcasinos.com/australian-online-casinos/fast-payout/]
+   Fast Payout Casinos Australia
+   [https://kiwigambler.co.nz/online-casinos/no-deposit-bonuses/free-spins
+   ]Kiwi Gambler NZ
+   [https://www.weareroli.com/]pucuk138
+   [https://www.casinoaustraliaonline.com/payid-casinos/]PayID Casinos
+   Australia
+   [https://kiekkotorni.com/]Kiekkotorni - Nikotiinipussit
+   [https://www.sportsbookreviewsonline.com/]Sportsbook Reviews Online
+   [https://www.overlyzer.com/]Overlyzer
+   [https://veepn.com/vpn-apps/download-vpn-for-pc/]VeePN VPN
+   [https://stoiximatora.gr/]Stoixima Tora
+   [https://www.svindel.info/]Svindel.info
+   [https://casinoshunter.com/online-casinos/ontario/]CasinosHunter
+   Ontario
+   [https://casinolandia.com/]CasinoLandia
+   [https://no-verification.casino/canada/]online casino no verification
+   withdrawal canada
+   [https://www.vedonlyontibonukset.com/pitkavetovihjeet]Ilmaiset
+   Pitkävetovihjeet
+   [https://www.nyecasino.me/]NyeCasino
+   [https://www.casino-comparatif.org/]CasinoComparatif™
+   [https://releaf.co.uk/]Releaf
+   [https://famoid.com/]Famoid
+   [https://kajino.com/]Kajino.com
+   [https://quantumaitrading.net/]Quantum AI
+   [https://casino-zonder-cruks.com/]Casino-zonder-cruks
+   [https://freewaysocial.com/]FreewaySocial
+   [https://pleeease-casino.com/]Pleeease Casino
+   [https://buyyoutubviews.com/]buyyoutubviews.com
+   [https://www.socialwick.com/]SocialWick
+   [https://slotoking.ua/games/]Игровые автоматы
+   [https://twicsy.com/buy-instagram-followers]Buy Instagram Followers
+   Twicsy
+   [https://twicsy.com/buy-instagram-comments]Buy Instagram Comments
+   Twicsy
+   [https://opencollective.com/socketio]Become a sponsor
+
+   Documentation
+     * [https://socket.io/get-started/chat]Get started
+     * [https://socket.io/docs/v4/]Documentation
+     * [https://socket.io/get-started/]Examples
+     * [https://socket.io/docs/v4/server-api/]Server API
+     * [https://socket.io/docs/v4/client-api/]Client API
+
+   Help
+     * [https://socket.io/docs/v4/troubleshooting-connection-issues/]Troub
+       leshooting
+     * [https://stackoverflow.com/questions/tagged/socket.io]Stack
+       Overflow
+     * [https://github.com/socketio/socket.io/discussions]GitHub
+       Discussions
+     * [https://socketio-slackin.herokuapp.com/]Slack
+
+   News
+     * [https://socket.io/blog]Blog
+     * [https://twitter.com/SocketIO]Twitter
+
+   Tools
+     * [https://cdn.socket.io/]CDN
+     * [https://admin.socket.io/]Admin UI
+
+   About
+     * [https://socket.io/docs/v4/changelog]Changelog
+     * [https://github.com/socketio/socket.io/projects/3]Roadmap
+     * [https://opencollective.com/socketio]Become a sponsor
+
+   Copyright © 2023 Socket.IO

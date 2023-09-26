@@ -1,0 +1,400 @@
+this episode is supported by hover hi
+I m Kerri and welcome to crash course
+computer science computers in the 40s
+and early 50s ran one program at a time
+a programmer would write one at their
+desk for example on punch cards then
+they d carry it to a room containing a
+room sized computer and hand it to a
+dedicated computer operator that person
+would then feed the programming to the
+computer when it was next available the
+computer would run it spit out some
+output and haul this very manual process
+worked okay back when computers were
+slow and running a program often took
+hours days or even weeks but as we
+discussed last episode computers became
+faster and faster and faster
+exponentially so pretty soon having
+humans run around inserting programs
+into readers was taking longer than
+running the actual programs themselves
+we needed a way for computer to operate
+themselves and so operating systems were
+
+
+operating systems or OSS for short are
+just programs but special privileges on
+the hardware and let them run and manage
+other programs they re typically the
+first ones have start when a computer is
+turned on and all subsequent programs
+are launched by the OS they got their
+start in the 1950s as computers became
+more widespread and more powerful the
+very first OS is augmented the mundane
+manual tasks of loading programs by hand
+instead of being given one program at a
+time computers could be given batches
+when the computer was done with one it
+would automatically a near instantly
+start the next there was no downtime
+while some one scurried around an office
+to find the next program to run this was
+called batch processing while computers
+got faster they also got cheaper so they
+were popping up all over the world
+especially in universities and
+government offices soon people started
+sharing software but there was a problem
+in the era of one off computers like the
+Harvard mark 1 or ENIAC programmers only
+had to write code for that one single
+machine the process of punch card
+readers and Printers were known and
+unchanging but there s computers became
+more widespread their configurations
+were not always identical like computers
+might have the same CPU but not the same
+printer this was a huge pain for
+programmers not only did they have to
+worry about writing their program but
+also how to interface with each and
+every model of printer and all devices
+connected to a computer what are called
+peripherals interfacing with early
+peripherals with very low level
+requiring programmers to know intimate
+Hardware details about each device on
+top of that program has rarely had
+access to every model of peripheral to
+test their code on so they had to write
+code as best they could often just by
+reading manuals and hope it works when
+shared things weren t exactly
+plug and play back then more
+plug and play this was clearly terrible
+so to make it easier for programmers
+operating systems were implemented as
+intermediaries between software programs
+and hardware peripherals more
+specifically they provided a software
+abstraction through AP is called device
+drivers these allow programmers to talk
+to common input and output hardware or
+i o for short using standardized
+mechanisms for example programmers could
+call a function like print high school
+and the OS would do the heavy lifting to
+get it onto paper by the end of the
+1950s computers has gotten so fast they
+were often idle waiting for slow
+mechanical things like printers and
+punch card readers while programs
+blocks on I out the expensive processor
+was just chillin not like a villain you
+know just relaxing in the late 50s the
+University of Manchester in the UK
+started work on a supercomputer called
+Atlas one of the first in the world they
+knew it was going to be wicked fast so
+they needed a way to make maximal use of
+the expensive machine their solution was
+a program called the Atlas supervisor
+finished in 1962 this operating system
+not only loaded programs automatically
+like earlier batch systems but could
+also run several at the same time on its
+single CPU it did this through clever
+scheduling there so we have a game
+program running on Atlas and we call the
+function print high school which
+instructs Atlas to print the value of a
+variable named high school onto paper to
+show our friends that we re the ultimate
+champion of virtual tiddlywinks that
+function core is going to take while the
+equivalent of thousands of clock cycles
+because mechanical printers are slow in
+comparison to electronic CPUs so instead
+of waiting for the i o to finish Atlas
+instead puts our program to sleep then
+select from runs another program that s
+waiting and ready to run eventually the
+printer will report back to outlets that
+it finished printing the value of high
+score Atlas then marks our program is
+ready to go and at some point it will be
+scheduled to run again on the CPU and
+continue on to the next line of code
+following the print statement in this
+way Atlas could have one program running
+calculations on the CPU while another
+was printing out data and yet another
+reading in data from a punch tape
+Alice s engineers double down on this
+idea and outfitted their computer with
+four paper tape readers four paper tape
+crunches and up to eight magnetic tape
+drives this allowed many programs to be
+in progress
+all at once sharing time on a single CPU
+this ability enables by the operating
+system is called multitasking there s
+one big catch to having many programs
+running simultaneously on a single
+computer though each one is going to
+need some memory and we can t leave that
+programs data when we switch to another
+program the solution is to allocate each
+program its own block of memory so for
+example let s say a computer has 10 000
+memory locations in total program a when
+I get allocated memory addressing 0
+through 999 and program B might get
+1 000 through 1999 and so on
+if a program asks for more memory the
+operating system decides if it can grab
+that request and if so what memory block
+to allocate next this flexibility is
+great the introduces a quirk
+that program a could end up being
+allocated non sequential blocks of
+memory in say addresses zero through
+nine hundred ninety nine and two
+thousand through two thousand nine
+hundred and ninety nine and this is just
+a simple example a real program might be
+allocated dozens of blocks scattered all
+over memory as you might imagine this
+would get really confusing for
+programmers to keep track of
+maybe there s a long list of sales data
+in memory that a program has to total up
+at the end of the day this list is
+stored across a bunch of different
+blocks of memory to hide this complexity
+operating systems virtualized memory
+locations revert your memory programs
+consume their memory always starts at
+address zero keeping things simple and
+consistent however the actual physical
+location in computer memory is hidden
+and extracted by the operating system
+just a new level of abstraction let s
+take our example program B which has
+been allocated a block of memory from
+address 1000 to 1999 as far as program B
+can tell this appears to be a block from
+0 to 999 the OS and CPU handle the
+virtual to physical memory remapping
+automatically so if program B requests
+memory location 42 it really ends up
+reading address 1042 this virtualization
+of memory addresses is even more useful
+for program a which in our example has
+been allocated to blocks of memory that
+are separated from one another
+this too is invisible to program a as
+far as it can tell it s been allocated a
+continuous block of two thousand
+addresses when program a read memory
+address 999 that does coincidentally map
+to physical memory address 999 but if
+program a reads the very next value in
+memory at address one thousand that gets
+mapped behind the scenes the physical
+memory address two thousand this
+mechanism allows programs have flexible
+memory sizes called dynamic memory
+allocation that appear to be continuous
+to them it simplifies everything and
+offers tremendous flexibility to the
+operating system in running multiple
+programs simultaneously another upside
+of allocating each program its own
+memory is that they re better isolated
+from one another so if a buggy program
+goes awry and starts writing
+gobbledygook it can only trash its own
+memory not that of other programs this
+feature is called memory protection this
+is also really useful in protecting
+against malicious software like wire
+says for example we generally don t want
+other programs to have the ability to
+read or modify the memory of let s say
+our email with that kind of access
+malware could send emails on your behalf
+and maybe steal personal information not
+good
+Atlas had both virtual and protected
+memory it was the first computer and OS
+to support these features by the 1970s
+computers were sufficiently fast and
+cheap institutions like a university
+could buy a computer and let students
+use it it was not only fast enough to
+run several programs at once but also
+give several use of simultaneous
+interactive access this was done through
+a terminal which is the keyboard and
+screen that connects to a big computer
+but doesn t contain any processing power
+itself a refrigerator sized computer
+might have 50 terminals connected to it
+allowing up to 15 users now operating
+systems has handled not just multiple
+programs but also multiple users so that
+no one person could gobble up all of the
+computers resources operating systems
+were developed that offered time sharing
+with time sharing each individual user
+was only allowed to utilize a small
+fraction of the computer s processor
+memory and so on because computers are
+so fast even getting just 154 of its
+resources was enough for individuals to
+complete many tasks the most influential
+of early time sharing operating systems
+was multics or multiplex information and
+computing service released in 1969
+multics was the first major operating
+system designed to be secure from the
+outset developers didn t want
+mischievous users accessing data they
+shouldn t like students attempting to
+access their final exam on their
+professor s account features like this
+meant multix was really complicated for
+its time using around one megabit of
+memory which was a lot back then that
+might be half of a computer s memory
+just to run the OS Dennis Ritchie one of
+the researchers working on multix once
+said one of the obvious things that went
+wrong with mul 6 as a commercial success
+was just an it was sort of over
+engineered in a sense there was just too
+much in it this led Dennis and another
+multics researcher Ken Thompson to
+strike out on their own and build a new
+lean operating system called Unix they
+wanted to separate the OS into two parts
+first was the core functionality of the
+OS things like memory management
+multitasking and dealing with i o which
+is called the kernel the second part was
+a wide array of useful tools that came
+bundled with but not part of the kernel
+things like programs and libraries
+building a compact link
+intentionally leaving some functionality
+out Tom Van Vleck another multix
+developer record I remarked to Dennis
+that easily half of the code I was
+writing multix was error recovery code
+he said we left all that stuff out of
+Unix if there s an error we have this
+routine called panic and when it is
+called with machine crashes and you
+hollered down the hall hey reboot it you
+might have heard of kernel panics this
+is where the term came from it s
+literally when the kernel crashes has no
+recourse to recover and so calls a
+function called panic originally all it
+did was print the word panic and then
+enter an infinite loop this simplicity
+meant that UNIX could be run on cheaper
+and more diverse Hardware making it
+popular inside Bell Labs where Dennis
+and Ken worked as more developers
+started using UNIX to build and run
+their own programs the number of
+contributed tools group soon after its
+release in 1971 it gained compilers for
+different programming languages and even
+a word processor quickly making it one
+of the most popular OSS of the 1970s and
+80s at the same time by the early 1980s
+the cost of a basic computer had fallen
+to the point where individual people
+could afford one called a personal or
+home computer these were much simpler
+than the big mainframes found at
+universities corporations and
+governments so their operating systems
+had to be equally simple for example
+Microsoft s disk operating system or
+ms dos was just 160 kilobytes allowing
+it to fit as the name suggests onto a
+single disk first released in 1981 it
+became the most popular OS for early
+home computers even though it lacked
+features like multitasking and protected
+memory this meant that programs could
+and would regularly crash the system
+while annoying it was an acceptable
+trade off as users could just turn their
+own computers off and on again even
+early versions of Windows first released
+by Microsoft in 1985 and which dominated
+the OS scene throughout the 1990s let
+strong memory protection when programs
+misbehave you could get the blue screen
+of death a sign that a program had
+crashed so badly that it took down the
+whole operating system
+luckily newer versions of Windows have
+better protections and usually don t
+crash that often today computers run
+modern operating systems like Mac OS X
+Windows 10 minutes
+iOS and Android even though the
+computers we own are most often used by
+just a single person you their OS is all
+have multitasking and virtual and
+protected memory so they can run many
+programs at once
+you can watch YouTube in your web
+browser edit a photo in Photoshop play
+music and spotify and sync dropbox all
+at the same time this wouldn t be
+possible without those decades of
+research and development on operating
+systems and of course the proper memory
+to store those programs which we ll get
+to next week I d like to thank hover for
+sponsoring this episode
+hover is a service that helps you buy
+and manage domain names hover has over
+400 domain extensions to enter domain
+with including calm and dotnet you can
+also get unique domains that are more
+professional than a generic address here
+at crash course we d get the domain name
+Mongols dot fans but I think you know
+that already
+once you have your domain you can set up
+your custom email to forwards your
+existing email address including Outlook
+or Gmail or whatever you already use
+recover you can get a custom domain and
+email address for 10 off go to Hamid
+Khan flash crash course today to create
+your custom domain and help support our
+show crash course computer science is
+produced in association with PBS Digital
+Studios at their channel you can check
+out a playlist of shows like brain craft
+community and PBS infinite series this
+episode was filmed at the chad and
+stacey emigholz studio in indianapolis
+indiana and it was made with the help of
+all these nice people and our wonderful
+graphics team is thought cafe thanks for
+the random access memories I ll see you
+
+you

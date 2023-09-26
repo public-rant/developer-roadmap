@@ -1,0 +1,1543 @@
+how are you planning to protect your
+infrastructure from being overwhelmed by
+an increase of load
+or what happens if there s a temporary
+blip which impacts the stability of your
+application
+are you building a multi tenanted
+service and you need to protect
+some tenants from some kind of noisy
+neighbor then tune into this episode
+where i m joined by john downs once
+again
+and we talk through three different
+patterns today
+the throttling pattern the retry pattern
+and the circuit breaker pattern
+
+hello and welcome back to another
+episode of cloud with chris
+you re with me chris reddington and
+we ll be talking about all things cloud
+so as we mentioned in the intro there we
+will be continuing the discussion
+of architecting for the cloud one
+pattern at a time which is
+coming along very nicely and we re once
+again joined by
+my colleague john downs who i m very
+pleased to have back with me because
+we had a great discussion previously on
+the deployment stamps pattern
+so without further ado we ll just go
+ahead and jump straight
+in and not waste any time so all there
+is to say
+is uh good morning or good evening john
+how are you doing sir good morning chris
+i m well thank you how are you
+yes all good thank you all kids and uh
+once again recording at fun hours of the
+day for both of us but it s okay it s uh
+part of the fun exactly the good thing
+about being on a
+planet that s a globe indies indeed
+getting to the deep topics really
+quickly there
+excellent so um yeah i guess we ve got a
+few different topics that we re going to
+cover today because
+we ve got a few different ideas relating
+to
+potentially multi tenancy and noisy
+neighbours and protecting those
+kinds of organizations thinking about
+stability and just
+i would consider them some of the basics
+of the cloud design patterns as well to
+be honest these are kind
+of the staples of if you re building a
+brand new application to the cloud you
+want to go and make sure that you ve got
+things in order so
+i ll let you reveal maybe what some of
+those are but that s at least my
+perspective on
+on these ones we re talking about today
+yeah absolutely because i agree with you
+i mean for the for me especially the
+the the second second and third of these
+patterns
+they re almost not really architectural
+patterns they re just kind of good
+coding practice patterns that i think
+make sense everywhere the cloud kind of
+uniquely requires them but um
+uh but they certainly are useful
+everywhere and they re a bit different
+to i guess some of the other patterns
+that that you ve talked about and that
+we talked about previously
+that are kind of more conceptual more
+about how the entire solution works
+these are quite focused on on
+coding and kind of how services work
+yeah absolutely very tangible aren t
+they so i guess we ve uh teased it up
+uh long enough we should probably
+actually get into some of the topics
+here so
+i ll bring up your screen here so
+everyone can see the first one
+that we re going to be talking about
+which is the throttling pattern and i
+guess
+people normally talk about you know i ve
+been throttled or this that or the other
+so they may have an idea of what it
+means but
+we should probably just level set just
+in case uh there are folks who don t
+really understand the term throttling
+there as well
+yeah because throttling has kind of a
+negative sound to it but it doesn t
+necessarily have to be so
+the throttling pattern is really there
+to help protect
+a service from high load or from from
+load that s that s kind of not expected
+or that s not uh not welcome i guess
+so a really good example of this is api
+rate limits if you re hosting an api
+and you uh you you allow your clients to
+connect to that api and make requests
+then you want to make sure that that
+your application isn t going to be
+overwhelmed by
+lots and lots of requests either from
+the same from the same
+customer or the same user or the same ip
+address or even just broadly over the
+entire uh
+over everybody who s accessing it and so
+throttling is really there to protect
+your services
+and any downstream services or
+components that you might have so things
+like databases
+uh or you know back end service that you
+talk to um or potentially third party
+services as well
+so thrilling is really formed from the
+it s something that we think about from
+the perspective of
+um a service right it s it s a thing
+that the service
+does as part of its behavior absolutely
+and
+i know that um the third pattern we ll
+talk about as well the circuit breaker
+pattern
+uh relates to this one very closely as
+well so
+i won t give the game away just yet
+we ll come back to that later but
+uh if people are thinking it s just an
+on off switch
+and it s kind of binary one or the other
+it doesn t necessarily have to be like
+that either and this is the magic of
+bringing multiple patterns together to
+start building some advanced scenarios
+isn t it
+yeah yeah and i think you made a really
+good point there chris which is that
+i think when we when we think about
+throttling then one of the things that
+uh that we generally think about and and
+often many systems are designed this way
+is
+uh there s kind of a binary gate almost
+right so you re basically saying
+this request is allowed then this
+request is allowed and no we put the
+wall up
+now this request isn t allowed here
+anymore um and and this i mean that s
+that is a very common
+approach and it s one that works really
+well for many systems um
+but that s that s only one way that you
+can use the throttling pattern
+um so that approach you know it s it s
+it s
+many many azure services for example uh
+use that that kind of approach
+um so if you for example use cosmos db
+um or
+service bus or some of those services
+that are multi tenant services where you
+provision a certain amount of capacity
+that that you want to be able to use
+if you try and go over that capacity
+then then we ll basically just you know
+shut down the the service from you for a
+period of time
+um but one of the the interesting things
+about that is that
+in some of those services uh if you
+actually pay attention to how the
+the service is communicating that
+message back to you
+in the case of http uh responses for
+example
+we ll often send that response as an
+http 429
+which basically just means you re going
+too fast slow down
+but in the case of something like cosmos
+db there s actually a response header
+that we include in that response to say
+uh this is what we call the retry after
+header so in other words here s how long
+you should wait
+before you try over try making this
+request again
+uh we ll talk about retries in a bit
+more detail shortly but it s interesting
+to know that there s
+you can just the server can kind of give
+some hints back to the client about
+um about what when they expect uh that
+they re going to be back to be able to
+serve the request again
+absolutely and i think that s the nice
+thing and the reason why we ve
+kind of coupled these three patterns
+together right is because you can see
+that one
+really closely relates to the other
+closely relates to the other again there
+so
+good good yeah absolutely yeah yeah and
+so i think the
+the like i said returning a four to nine
+or
+you know blocking a request is is one
+approach to dealing with rolling
+um but i think the the design pattern
+that i ve got on on screen at the moment
+actually does a good job of talking
+about some of the other approaches that
+you could possibly use
+um to try and again protect the back end
+systems that you re dealing with
+or to uh to reduce the load um while not
+necessarily just
+cutting everybody off right um so one
+approach for example
+that s talked about a little bit in here
+is that you could potentially have
+uh have the ability to detect when
+you re going over some sort of limit
+and then you potentially turn off
+aspects of your system so you turn off
+particular features
+um a really interesting example of this
+which
+is on a kind of a longer time scale but
+uh
+is uh during the early days of the
+covert pandemic
+um microsoft teams actually shut down
+some of the features in microsoft teams
+because it was being so heavily used
+and to be able to use that capacity for
+you know the core
+services and teams uh they shut down
+some of the components so things like uh
+read receipts
+for messages um they just said we re
+just gonna turn off that entire service
+that entire feature
+um so again that s it s interesting to
+think about the fact that you might have
+these kind of
+knobs you can turn to to be able to
+enable or disable
+uh particular features that might not be
+as critical
+um and your load recovers or the the
+rates uh requests go down
+you can turn the back up again
+dynamically
+and that s a really brilliant point
+because i think a lot of the time when
+we talk requirements we get a lot of
+people thinking the big picture that hey
+my
+system needs to be online or serving
+users or whatever the requirement may be
+for
+at this volume for this amount of time
+etc but
+quite often i don t see people really
+think about what the core aspects are of
+the system so
+you know if if something bad happens and
+you know we get a surge in
+in requests for whatever reason then
+actually
+we can shut off and i guess we re almost
+getting a little bit
+into a bulkhead pattern there as well
+and being able to segment
+some of our different aspects of the
+solution but being able to say right
+we need components uh one component five
+component seven the rest we can just
+turn off uh is a really good way of
+looking at it
+exactly yeah yeah yeah and it s yeah and
+it s it s
+it s i was waiting to see how long it
+took for us to use the r word
+requirements um in this conversation
+because i know you and i are both a big
+fan of
+of trying to figure through that nine
+minutes roughly
+exactly yeah didn t take long at all um
+but the uh another aspect to that as
+well
+is that um uh this is a little bit off
+topic but
+when i talk to customers about things
+like disaster recovery and building
+resilience
+um that kind of idea of having some
+parts of your system that are absolutely
+critical and have to be working
+all the time or to a very high level
+versus the parts that don t
+um it s useful to distinguish those and
+in the documentation we we call we talk
+about rto and rpo
+recovery time objective recovery point
+objective there s also that another one
+and the recovery level objective rlo
+which i think doesn t get enough
+attention so that s that same kind of
+idea
+uh but of course throttling is kind of
+talking about that on a on a slightly
+different level um just talking about
+how
+uh you know how load can affect the
+ability for features to run
+and then the the other aspect another
+another way that you can um
+think about doing throttling is to
+re prioritize requests
+so if you ve got all of your requests
+coming in um then potentially you you
+don t necessarily want to cut
+off customers when they get to a certain
+point but what you might do for example
+is send their requests
+to a lower priority queue all right so
+if there s nobody else using the system
+then they ll still get processed as
+normal if there is somebody else using
+the system then they ll get bumped at
+the bottom of the list
+until they re there um uh until they ve
+their rate limit is reset or or the
+situation is resolved
+um and that s kind of a a specific
+example of a
+a kind of an idea of these soft versus
+hard limits where
+you might have you know some some uh
+some aspect of your system has been
+guaranteed up to some soft limit so you
+know will
+will allow you to make api requests up
+to 10 per second
+uh and then if you go above that we ll
+do our best but we don t make any
+guarantees
+um that kind of idea is also a really
+interesting one to think about when
+you re when you re designing
+especially multi tenant services and and
+when you ve got these shared resources
+that you need to be able to manage
+absolutely and coming back to the point
+you mentioned earlier about things like
+service bus and cosmos db
+um that s pretty much how they work
+right because they are multi tenants in
+nature as you mentioned and
+you need to make sure that one noisy
+neighbor isn t impacting
+everyone else and i think that was one
+of the things we said in the intro there
+is that
+patterns like this really help protect
+different
+tenants if you re building that software
+as a service and have multi tenanted
+environments there absolutely yeah yeah
+yeah and i mean another really good
+example of that is uh sql
+elastic pools uh in azure so that s that
+kind of
+that kind of design um again you can you
+can put limits across
+individual tenants across individual
+databases
+but then potentially allow them to kind
+of burst above those a little bit as
+well and
+again if you ve got the capacity sitting
+there then you want to use it
+but you also want to make sure that if
+you are under load then
+you re keeping control of that so that s
+another really nice example of of using
+that
+the same kind of idea of throttling but
+but not just you know
+
+and then there s another angle to this
+as well which i think that this
+the design pattern does a really good
+job of of mentioning which is
+um illustrated in this diagram here
+which isn t the clearest diagram
+um but the the basic idea is that um
+if you detect a throttling situation
+then you can also think about this in
+terms of kind of
+short term and long term actions as well
+so
+in the short term you might just
+basically say uh we re going to start
+shutting down requests or we re going to
+you know shut down features
+uh whatever all the things we ve talked
+about so far but what you can also then
+do is use that as a signal
+to your uh to your system to say well
+we re currently under a lot of load
+maybe we need to scale right and it ll
+probably take a little bit of time for
+that scale to be
+or that capacity to become available so
+you ll keep throttling
+until that capacity is available but
+once you do
+then you can then you can kind of take
+the brakes off again and and see how
+things go
+so uh that s another really interesting
+um uh aspect of the throttling pattern
+as well is
+that it s not just there to protect you
+it s also giving you a bit of a signal
+as well yeah it s it s almost acting as
+a bit of a buffer there isn t it in
+terms of right we can see the early
+indications that
+um we need to prepare the system for
+something that s coming in
+let s go ahead just temporarily leave
+ourselves from actually having to take
+all of that on
+uh rate limits and then once we ve got
+the system to a state where we think we
+can handle it
+off we go here we go again we re back to
+normal yeah and it s quite a nice
+dynamic way isn t it rather than
+like we said earlier that binary on off
+it s then adjusting as you say
+to some of those signals coming in nice
+i like it yeah yeah
+yeah yeah but i think that the key point
+there then is that you need to really
+design that up front right this isn t
+something that you can just
+throw in at the last minute um so again
+requirements come into play here but
+having the idea that you you want to
+architect for these kinds of
+uh that if you re going to be especially
+if you re going to be doing any kind of
+clever throttling around you know
+turning off features dynamically or
+re prioritizing requests or applying
+soft and hard limits or you know using
+it as an auto scale signal
+all of that requires that you really
+think through how you re going to
+achieve that
+and make sure you re architecting for
+that from the start um if you re just
+doing raid limiting then that s that can
+be a bit easier to kind of bolt on but
+that s also kind of the most blunt
+instrument you ve got available to you
+for this pattern
+gotcha makes complete sense makes
+complete sense
+so i guess then where are the times
+where i think we re about to go to
+on the screen there and thinking about
+some of the challenges maybe in some of
+the times where it does make sense and
+doesn t make sense i guess
+we ve hinted towards some of them for
+example with um
+you know multi tenant scenarios where it
+certainly makes sense but
+are there times where maybe it doesn t
+make so much sense and there may be some
+issues in us going down that path yeah i
+think there s
+there s a few that come to mind so one
+in particular is this point here which
+is
+um you might need to consider if you are
+especially if you re gonna you re
+you find yourself throttling a lot and
+potentially unexpectedly throttling a
+lot
+maybe that s an indication that you you
+actually need to scale your system
+uh and you need to increase the overall
+capacity um so again thinking of
+throttling as a signal as much as it is
+a
+uh you know an action that you can take
+um helps to really understand
+you know if you re throttling every
+single request because you re just
+constantly trying to keep up with demand
+then maybe you need to be increasing the
+overall capacity and
+and throttling is probably a bit
+overkill for that scenario um
+and i think we we also when we when we
+start talking about the
+uh the next two patterns retry and
+circuit breaker which are kind of on the
+the client side of this
+equation um it s also clear that you you
+start thinking when you start thinking
+about those patterns
+um the the way that the service can
+signal back some of the information
+about what s actually happening
+is really important to the client as
+well um so again you want to be very
+clear about when and why you re
+throttling
+and you want to make sure that you re
+sending the appropriate response
+to the client so that they can
+understand what s happening and they can
+actually deal with that in a sensible
+way
+absolutely and yeah i like the idea that
+you mentioned in the beginning there
+that if we ve got a
+sustained amount of load which is coming
+in and it s just now the norm and the
+default
+i think of this throttling approach is a
+bit like you know when you play
+the game monopoly and you ve got your
+get out of jail free card it s a little
+bit like that isn t it
+but if you ve got that sustained period
+of load coming in or sustained way of
+working that
+you find that throttling the system is
+happening on a regular basis
+that s a good indicator that actually
+you need to look at something else there
+yeah and equally if you re on the client
+side and we ll talk about this a bit
+more in a second but
+if you re on the client side and you re
+seeing that all of your requests are
+getting throttled or a very large
+proportion of them are getting throttled
+uh maybe then you also need to look at
+you know increasing the
+the tier of the service you re talking
+to or provisioning more capacity in the
+service or whatever the case may be
+um so that s an important uh kind of
+corrode to the corollary to that as well
+and i think the other the other point i
+just want to re emphasize here is that
+you know
+throttling especially when we talk about
+those more complex
+aspects of throttling really does need
+to be designed in having said that if
+you re just looking at doing rate
+limiting and nothing else
+you might be able to get by with
+something like you know azure api
+management or
+front door both of which have the
+ability to do
+some level of rate limiting but again
+those are going to be fairly
+blunt in what they do they re just going
+to send back a 429 to the client
+and you know they ll reset counters and
+that kind of thing for you uh
+so it s really useful and it s a really
+good backstop and i would generally say
+if you are
+building any kind of especially
+public facing application
+you should have some rate limit in there
+even if it s high
+just as a matter of course um but
+but yeah if you want to do anything more
+sophisticated then you really need to
+plan for that upfront
+makes sense okay cool so so that s the
+throttling side of things and i think
+that s
+you know that s really from the point of
+view of the service right so if you re a
+service designer if you re building an
+api
+or any other kind of service
+multi tenant or otherwise
+uh throttling is is something that you
+really want to consider but of course if
+you re on the client side of this
+equation
+then you ve got to figure out what to do
+if you get throttled right and
+um in in applications that are a lot of
+customers that i work with
+who have applications that weren t
+originally designed for the cloud
+um this is particularly a an interesting
+point because
+uh a lot of the time if applications
+have been designed to run in a you know
+on premises environment or in a server
+room in a
+server closet or something um the the
+number of things that can go wrong
+in terms of the connection from you know
+from server a to server b when they re
+literally connected by a
+one meter long ethernet cable uh it is a
+lot smaller than when you deal with
+the the very complex multi tenant
+environment of the cloud where you might
+have service distributed across
+multiple buildings multiple data centers
+availability zones regions
+with all sorts of networking and stuff
+in between so
+the scope of things that can go wrong in
+the cloud is also much higher
+and one of the things that i often see
+with customers who who bring their
+applications into azure who haven t
+um haven t really thought this through
+ahead of time is that they will
+potentially
+start seeing some problems where for
+example they re trying to connect from
+their application to their database
+and it ll work 99 9 of the time
+and then 0 1 of the time something will
+just not quite work right
+and if they haven t designed for that up
+front using these patterns we re about
+to talk
+about uh then potentially they re going
+to have a bad experience
+and similarly if they if they re using
+multi tenant services like we ve been
+talking about
+if those limit them in any way then then
+they similarly are going to have
+an application problem if they don t
+design for that up front
+so those next two patterns we ll talk
+about retry and circuit breaker are
+really there to
+help the client to make sure they re
+being sensible about how they deal with
+those situations
+yeah and i can only echo everything
+you ve said there john in terms of
+the number of customers and clients that
+we work with come in and have that
+application they think they can just go
+okay there we go but it s done it s in
+the cloud
+you know i think there was one slight
+thing that you didn t say in there which
+is this big
+uh network called the internet as well
+that we happen to have to use with the
+cloud which is
+extremely unreliable and uh you know
+roots
+might get changed roots might get
+blocked um something might appear like
+it s not there
+for a certain time and then the next
+millisecond it s actually back
+uh we call those transient failures for
+anyone who s listening in
+and uh i think this is exactly where the
+retry pattern can help isn t it so
+yeah yeah very much as as we said
+earlier one of those foundational
+patterns to when you re building a
+uh a cloud architecture and a cloud
+application here
+yeah absolutely yeah yeah and i think
+it s yeah it s probably worth just kind
+of delving into that idea of transient
+failure transient false because
+um that is such an important aspect of
+designing for the cloud
+um and it s i think one of the
+principles that that i
+think is a really important design
+principle in the cloud is to not
+try and paper over those kind of
+scenarios and those
+those situations and pretend they don t
+exist and kind of
+you know ignore them the way that we
+actually achieve higher resiliency in
+the cloud is to acknowledge that that
+happens
+and then to build in the resiliency
+necessary in our solutions
+uh so that if it does happen then we can
+figure out what to do about it and so
+that s where these kind of patterns
+come in to really make uh to make that
+possible um because it s not just about
+you know you talked about the internet
+and all of the
+myriad things that can go wrong on the
+internet but also i mean obviously we ve
+talked about throttling right that s a
+that s another
+at another time when you could
+potentially have a request that s that s
+failed for some reason
+um but also there s you know there are
+there are plenty of situations where
+independent of the network failing a
+particular service uh that you re
+talking to or a particular
+you know product in azure for example uh
+might just stop responding for a period
+of time
+so i ve actually pulled up the just as
+an example i ve pulled up the the
+service level agreement for azure sql
+database
+which is a service that lots of our
+customers use and
+it s a it s long and i m not going to
+read it all but but the important thing
+i wanted to
+to kind of point out in here is if you
+look down at the definition of what
+downtime means for azure sql database
+what it says is
+a minute is considered unavailable for a
+given database
+if all continuous attempts by customer
+to establish a connection to the
+database within the minute fail
+so what that means is that if you have a
+failure of if the databases is
+unavailable or you can t connect to it
+for
+58 seconds that s actually not
+considered to be downtime
+right so this is this is a normal
+failure mode of of azure sql db
+and so when you re architecting systems
+for the cloud you really need to
+understand
+these kinds of failure modes and to
+understand what kinds of things could
+actually happen
+uh and what points they re considered to
+be normal and abnormal
+um so if we look at sql database then
+you know if you
+have a situation where you you get a
+failed request from your application
+um then retrying that request for
+example of up for a period of up to a
+minute
+uh is likely to succeed this is what
+basically the sql team is telling us
+here
+so that s uh that s a really important
+point to consider is
+that yeah not only is it is it going to
+be all these kinds of random things that
+happen but
+but also this is actually something
+that s just part of the the way that the
+cloud works
+absolutely and also the the subtle point
+in there as well that
+if i am adopting the retry pattern and
+my
+first five attempts because you know
+maybe i m doing some kind of exponential
+back off and uh
+i can fit within 30 seconds those
+retries of the five of them
+um if those failed but then suddenly i
+get one that works and then
+uh another that doesn t then that resets
+the timer as well and it s thinking
+about those kind of scenarios about
+we might even get into the world of
+caching then at that point because
+if that particular component fails
+you ve at least got a cache somewhere
+else and
+you i think your point is completely
+valid going back to the failure mode
+analysis effectively that
+if that thing fails what is then the i
+like to call it the blast radius what
+what do we then need to think about as a
+result of that so yeah really like that
+point
+yeah yeah and you actually you
+introduced a really interesting
+point there which was around exponential
+back offs as well so i want to i
+really want to delve into that a bit too
+because um there s there s
+i guess in my mind there s there s a few
+different ways that you can retry
+requests
+and the retry pattern kind of captures
+all of this so one is that
+you immediately retry right if you have
+a failure talking to a system
+you don t wait you just immediately
+retry depending on the reason
+that that failed that that may or may
+not be very likely to succeed
+right so um in many cases an immediate
+retry you know within a few milliseconds
+uh probably the conditions that that
+that led to that original request
+failing
+may not have been resolved yet so that
+may or may not succeed
+um but then there s another uh another
+thing you can do which is to wait
+right and this is where things get a bit
+more interesting with the retry pattern
+because
+you can kind of just just wait you know
+one second two seconds five seconds
+just kind of a constant period of time
+and and maybe allow for five retries
+with five seconds apart
+and if it if it fails after that then
+fine that s that s just too bad we ll
+throw an exception
+and figure it out later um but but you
+talked about exponential back off which
+is another interesting strategy which is
+where you
+you wait increasingly long periods of
+time between requests right so you give
+the service
+more of a chance to recover as you go
+through each of those
+each of those iterations of the loop
+essentially um
+but then there s another another thing
+that you really need to consider here as
+well which is that at some point
+you need to give up right you will we do
+need to allow for the fact that we re
+not just
+going to retry forever at some point in
+time we need to basically say
+no this this game over for this
+particular transaction or request
+uh we we need to to just give up and
+again if we think back to
+our favorite topic requirements this is
+this is a really important point because
+um if we if we re just looking at a
+given little piece of code in isolation
+we might just say well we re just going
+to keep retrying forever if you look at
+this from an architectural point of view
+then maybe it s actually better to give
+up sooner and to let the components
+higher up in your stack or you know
+other other parts of your infrastructure
+or your client
+uh give them the opportunity to recover
+in some other way
+so giving up and kind of just throwing
+throwing the
+the problem back to the client um isn t
+necessarily a
+problem it s just something that you
+need to to be very conscious about you
+know how
+for how long will you retry what makes
+sense and at what point should you give
+up
+and the answer to that might be very
+different parts of your solution
+absolutely and i i might slightly give
+the game away here but i know we ll talk
+about that in the next pattern then as
+well because
+uh that really does i guess
+influence how we handle what we do from
+the client side of things you know
+if we can see that actually it s looking
+like it s just going to keep failing
+keep failing
+there s no point overwhelming the system
+because that s just going to exacerbate
+even further potentially the problem
+that
+is happening with the service but uh
+we ll park that one for now because we
+will come back to a
+circuit breaker which is kind of what
+i m explaining there so uh
+yeah let s go off with the retry for now
+yeah yeah yeah no that s that s a really
+good point though i will come back to
+that definitely
+um and i think the the other thing to
+bear in mind too is that like i said
+before in the throttling pattern
+um if a service actually is is clever
+enough to be able to tell you
+when its rate limit is going to be reset
+um then that gives you a really nice
+thing to be able to plug into your retry
+logic right so if you
+if you make a request the server says
+i m too busy to accept this request
+uh but come back in 300 milliseconds
+then you can wait 300 milliseconds
+try again and then hopefully you ve
+you ve kind of reduced
+the number of retries that you re you re
+you know attempting you ve reduced the
+amount of time that you need to waste
+waiting for that um and and hopefully
+your next request will succeed
+there are many ways they can go wrong so
+if you think about a database like
+cosmos db which is a good one that does
+this
+um that s you know that it s going to be
+giving you back an answer
+based on what it knows at the point in
+time when it calculated how long it
+thinks you need to wait
+but if at that 300 millisecond mark
+suddenly there were a whole bunch of
+other requests that came in
+you might you might accidentally end up
+in the back of the queue right so
+um you can t guarantee that that is
+absolutely going to be
+uh a you know a definite uh
+successful transaction at that point uh
+but at least
+some indication that that s you know
+that s the minimum amount of time that
+you ll need to wait at least
+absolutely and it s interesting you
+mentioned that because
+i was just thinking the same myself and
+that
+actually when we re talking about
+clients we don t necessarily mean you
+know a
+a client on my desktop or a web client
+at all it could be
+for example um a pattern we ll be
+talking about uh in a couple of weeks
+with will
+is the cubase load leveling pattern and
+competing consumers and those competing
+consumers
+when they re taking things from the
+queue are effectively a client
+potentially to like a database like you
+were just saying with cosmos so
+we should probably call that out that
+client doesn t necessarily mean the
+stereotypical guy that people mean yeah
+browser or something yeah yeah exactly
+no it could be
+anybody that s that s making an outbound
+request really um
+that s that s kind of yeah and many
+applications will both be clients and
+servers
+and we ll have to kind of think about
+all of these patterns together right
+um yeah and i think there s another
+aspect to that as well which is
+that the the retry pattern um so we ve
+talked about you know throttling we ve
+talked about transient failures
+but that there s also a another type of
+failure that we need to allow for which
+is
+kind of permanent failures right these
+are these are failures either because
+you know the services is completely dead
+uh which does happen but it s
+not too no cop too common or more likely
+the request that we re making to the
+server is never going to succeed
+right so if you think about http and
+http status codes
+if i make a request to a server like a
+post request and i get back
+a 400 bad request what that that means
+uh according to the http specification
+is that
+if i was to retry that request no matter
+how many times i retry it
+the server is not going to accept it
+because something about the the way i ve
+formatted that request or the input i
+provided whatever it is
+is invalid and so there s actually no
+fault on the server it s it s behaving
+as it should
+it s just that it s giving me an answer
+that i don t necessarily want right um
+there s something wrong with my code or
+you know the way that i m i m working
+with the service
+um so we need to be really careful to
+distinguish um
+those kind of permanent failures from
+the more transient failures like
+you know like the networking issues like
+services being down
+like throttling um so and those those
+second category are worth retrying and
+and you know they
+again depending on your requirements
+depending on what you need to do
+uh but for permanent failures you want
+to make sure that you re not
+retrying those unnecessarily because all
+you re going to do is you know waste
+your time and waste the service time
+you re better off failing fast logging
+that making sure that that s really
+clearly
+uh explained in your logs for example uh
+or escalating to a human or whatever the
+case may be
+uh and then just considering that to be
+that that s that s not going to be
+successful
+and and once again potentially
+exacerbating uh
+a problem there as well because uh
+that s obviously going to take some
+cycles from the server that your
+or service you re trying to deploy to uh
+to deploy two cents to
+um and this is the challenge as well as
+if you are having high loads and it s
+this particular issue that s uh you know
+not necessarily driving that problem but
+it could be
+somehow contributing to the problem as
+well so uh yeah good good
+there yeah yeah and actually i just want
+to pick up on that point um chris
+because
+that s an interesting one around kind of
+exacerbating problems for a server so
+let s say that you ve you ve got an
+application that uh
+you know is talking to a server this an
+api or something
+um that api has a problem let s say it s
+you know it s overwhelmed with requests
+um and if our clients are uh just
+basically just
+retrying immediately like they re just
+kind of going into a tight loop retrying
+re trying retrying retrying
+and we have lots of those clients or
+doing that um then potentially this
+service is going to have a really hard
+time recovering
+because as soon as it makes any headway
+into trying to to get on top of its load
+it s suddenly inundated with a bunch of
+requests from us
+right and and we call this a retry storm
+um so the again if you ve got one of
+those kind of retry
+after response headers and the requests
+and the response that that tells you to
+come back later
+then obeying that will help to that help
+to do that but also you know exponential
+back offs
+and you know having a point at which you
+say we re not going to keep retrying
+those kinds of things are really
+important as is not using
+too lower an interval between these
+retries so you need to have a little bit
+of empathy for the
+for the service you re talking to as
+well and not just assume that i am the
+most important
+service that can possibly be talking to
+you and you need to i m just going to
+keep
+bothering you like a toddler until you
+finally answer me um you know we need to
+allow us some time and space to be able
+to to recover and come back to
+back to life again yeah absolutely
+i think we re right encroaching closer
+and closer to that next pattern aren t
+we i think we are yeah i was just about
+to say yeah so that that kind of leads
+to this
+this idea of the circuit breaker pattern
+so i kind of think of this as like an
+extension of the retry pattern right
+it s it s a
+it s a fancy retry pattern essentially
+um so in the retro pattern we it s kind
+of a
+stateless pattern right we re mostly
+stateless so we re we re basically just
+saying i want to
+to try the request and then if it fails
+i ll wait some period of time and then
+try again
+and you know keep doing that for some
+number of times and then maybe give up
+in the circuit breaker pattern what
+we re doing instead is
+uh we re basically setting this thing
+called a circuit breaker which is which
+maintains some state
+right um so if actually there s a good
+diagram here i ll show you how that
+works
+um so if the uh if the um
+if the client tries to to access the the
+the resource like a database or an api
+or some kind
+um the circuit can be in what we call
+the closed state
+um so this basically sorry openstack
+so service can be in the open state um
+so the open state basically means
+that the the request will will succeed
+it will it will make its way through
+as expected um and if everything is
+happy and healthy then
+the circuit breaker essentially just
+allows the request all the way through
+the response comes back everything s
+good
+but if there s some sort of problem in
+the service like all the ones we ve
+talked about before
+then the circuit breaker will basically
+shut itself off right it will basically
+say
+what we re going to do is all of the
+requests that are coming through at the
+moment are going to just immediately
+fail
+so this is a client side object of some
+kind that essentially intercepts the
+request on its way out
+and just comes back and says look at the
+moment the service you re trying to talk
+to is not
+accepting requests uh go away you know
+maybe queue up this request for later
+maybe do something to to kind of uh to
+to to internally
+retry until you get to a point where uh
+we re
+telling you it s okay and then at a
+certain point
+the circuit breaker will then decide
+okay it s been long enough
+i m going to test the waters and see if
+the service is back online
+so what it might do then is going to a
+half open state where it basically says
+i m going to just try letting some
+requests through maybe one maybe a few
+and if that request succeeds probably
+the service is healthy again
+and then i ll i ll eventually let
+everything through but if that request
+fails then i ll just say okay i m giving
+up again
+i m going to going to waste some time so
+from the
+from the point of view of of the the
+client the circuit breaker becomes
+essentially
+almost like a proxy for the service and
+what it s really doing is adding a whole
+lot of intelligence
+and state to basically keep track of the
+state of that service and then to kind
+of avoid unnecessarily
+uh putting load on the service if it
+can t cope with that gotcha
+and you re completely right first time
+around by the way with the closed uh
+close state for being healthy
+Music
+so do i but the way uh the way i always
+try to think about it for anyone
+listening again is a bit like um
+a circuit diagram and think about closed
+as allowing the kind of current through
+and open then
+not allowing it through and that s the
+only way in my mind that i can get
+my mind around it because i m like you i
+always go open means okay we re open for
+business let s go ahead and
+exactly yeah but it s kind of the
+opposite way around which
+always gets me um but i guess i
+mentioned the circuit diagram example
+um the other example that is very
+relevant in these times if you look
+across the world with everything going
+on with covid
+is people truly government s trying to
+control the spread of
+covads and the infection rates they are
+effectively using this kind of circuit
+breaker pattern
+if you look at whales where i m from um
+they called it a fire break for some
+reason but effectively it s called a
+circuit break
+and they did the same thing they could
+see cases rising and said right we re
+temporarily going to put restrictions in
+place bring that down control it don t
+overwhelm the system
+you know similar analogies right here
+and now we ll open things back up again
+and let things keep going
+so just in case anyone s trying to get
+some analogies to how this works
+you know from circuit diagrams and uh
+when you think of the circuit breaker in
+your plugs that s exactly what we re
+talking about here
+same with uh what governments are doing
+to control the spread of covid as well
+yeah that s a good point yeah yeah um
+and yet i think yeah i always with any
+of these design patterns really any of
+the ones
+in the entire architecture i always try
+and imagine kind of real world analogies
+and i think that s a really good one
+um you know cubase load leveling i
+always think of the bank and you know
+those kinds of things are a really good
+analogy so it helps to kind of um think
+through this
+i m not entirely sure how half open
+circuits work in the real world
+yeah yeah i was trying to think
+but i gave up this so if anyone if
+anyone listening in has an
+analogy let us know because we would uh
+we would love to hear that
+yeah absolutely yeah um but yes i think
+the the the
+one of the key things to understand
+about the the circuit breaker pattern is
+well firstly it s it requires state
+right so you do need to
+to kind of the circuit breaker needs to
+remember where
+you know whether the service is up or
+down and and what the kind of time frame
+it should be looking at for retrying and
+for allowing you know requests to go
+through and that kind of thing
+so it is a more complex pattern to
+implement because of that reason
+having said that there are some really
+good implementations available
+just kind of out of the box from various
+solutions so
+if we talk about just things like the
+azure sdks as far as i know they don t
+use circuit breaker pattern but they do
+implement retry logic for you
+um but then if you re if you re in the
+dot net world for example then the poly
+library is a really good library to deal
+with things like circuit breakers and
+more complex retry
+logic and that kind of thing um and then
+if you there s also some interesting
+ways of doing kind of distributed
+um circuit breakers for you know for
+more complex
+uh kind of higher order systems using
+things like
+azure durable functions and durable
+entities and and that kind of thing too
+so
+um you don t necessarily want to or
+should uh be building
+the stuff yourself um this some of this
+logic is available to you in those kind
+of forms as well
+absolutely and there s an even another
+interesting scenario as well just
+given we re really in the depths of the
+application design world here
+um if you re going down a route like uh
+using kubernetes as a platform and just
+caveat here is that this is not the
+single reason to use kubernetes by the
+way so don t think right i ve got this
+scenario
+i need to use it we see a lot of that so
+i don t think this
+but for example with kubernetes um one
+of the common things that you can
+implement on a kubernetes cluster
+is a service mesh and this service bash
+is uh
+basically this kind of layer that you re
+putting to intercept any kind of
+networking call and you can do things
+like observability
+uh you can understand uh logic logging
+and metrics and these kind of things
+but one of the common examples is you
+could implement some of these patterns
+in that particular layer
+so if you think about the distributed
+scenario like you were just saying with
+different microservices and we ve got a
+python net uh ruby different
+microservices because of course they
+don t all need to be the same
+same language and same framework as a
+back end developer we would potentially
+have to re implement those patterns with
+every single
+different framework and that s going to
+be a lot of overhead on application
+development teams but
+with a service mesh you could implement
+it at that layer it s consistently
+applied then across all those
+microservices as well so
+again not a reason to go down that path
+but just another good example
+of what you were saying there john that
+you don t always have to necessarily
+implement this yourself
+yeah i was actually just looking up to
+see whether dapper also has a circuit
+breaker in it um and that s apparently
+some on their roadmap it s not there
+today but
+it s not a service mesh but it s kind of
+gives you some of those same uh
+qualities kind of takes care of some of
+these these kinds of
+non functional concerns or you know
+common concerns to a lot of a lot of
+applications and a lot of
+components uh so yeah any of these kinds
+of things these are
+these are solved problems right and you
+want to try and make use of
+of the really good implementations
+really well tested implementations that
+are already out there
+uh rather than building it yourself
+absolutely
+and then one other thing i just want to
+quickly throw in just before we finish
+up is
+um that with with retries and the
+circuit breaker really
+um it s it s important to remember that
+as with as we re throttling
+um when you run into these situations
+where you re you re retrying requests or
+your you know the circuit
+is becoming open or half open um that
+you
+are not just treating this as a problem
+to solve in your code but you re
+treating that as some interesting
+information some signals that you that
+you can record
+so i always suggest that if you if
+you re logging uh if you re
+retrying or if you re you re doing any
+kind of circuit breaker um
+code that you make sure you log
+information about uh the fact that
+you ve
+uh that you ve retried how many attempts
+um kind of if there s any more
+contextual
+information you can log to help
+understand when that happened
+because when you start to analyze that
+in the aggregate um you might find for
+example that
+at certain times of the day we re having
+to retry a lot more than others
+or when we re accessing this one system
+we have to log a lot
+we have to retry a lot more than others
+um and again if you re thinking about
+this from the point of view of
+managing capacity and making sure that
+you ve you ve provisioned
+uh the right kind of of capacity and
+tears and everything for your services
+you don t want to be throwing away
+important information you want this
+telemetry to be captured so that you can
+uh you can proactively respond to it
+absolutely and i think that s one of the
+common
+questions we get isn t it when we go
+back to the r word requirements and we
+ask you know
+what is the level of load you re
+expecting on the system is there that
+seasonality
+you kind of get this look of rabbit in
+headlights like
+uh okay don t you know i don t know when
+they are
+i can roughly tell you but specifics i m
+not sure and
+this is exactly as you say a really good
+way of just building upon that telemetry
+and understanding are there
+those seasonality pieces that uh
+contribute to that problem
+yeah absolutely yeah yeah that s good
+cool yeah so i m just trying to think of
+i think we ve done a pretty good job of
+covering the basics of all of those
+patterns i think um
+yeah yes i guess indeed i guess um
+probably a point for us to start
+wrapping up here just looking at the
+time
+uh that we spent talking and again
+another great session
+um any last minute kind of remarks or
+things you just want to reiterate from
+what we ve been talking about there
+overall there john
+yeah i think for me the the these
+patterns that we ve talked about
+especially retrained circuit breaker
+are important patterns for anybody who s
+developing against the cloud to
+understand
+i know that there are a lot of people
+who are who consider themselves to be
+developers
+and not architects or you know not not
+predominantly architects
+and so they don t necessarily think
+about you know reading architecture
+design patterns and
+thinking through architecture problems
+and those kinds of things
+um and that s that might be fair enough
+if that s kind of not your your area
+then that s that s all well and good but
+these two patterns and there are others
+as well uh are important patterns to to
+understand they they
+they re impacted by being in the cloud
+but they really do have an impact on the
+the code that you write
+and the configuration that you apply to
+your code and that kind of thing so
+um i guess my point here is that these
+patterns are patterns for everybody
+uh who s working with the cloud not just
+for people who are designing systems and
+putting things on whiteboards excellent
+really great final point there john
+thank you um
+so another great session thanks again
+for joining john really appreciate
+talking through these uh
+these three patterns and i think uh
+certainly the focus this thing will get
+a lot of value so thank you again
+thanks chris and until next time i m
+sure we ll

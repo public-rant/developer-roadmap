@@ -1,0 +1,220 @@
+    #[https://bitbucket.org/product/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/ja/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/fr/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/de/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/es/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/br/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/zh/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/ko/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/ru/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/pl/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/it/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/nl/guides/basics/-interface]alternate
+   [https://bitbucket.org/product/hu/guides/basics/-interface]alternate
+
+   [https://bitbucket.org/product/]logo (BUTTON) Open and close the
+   navigation menu
+     * [https://bitbucket.org/product/guides/basics/bitbucket-interface]Wh
+       y Bitbucket
+          + Features
+          + [https://bitbucket.org/product/features/pipelines]CI/CD
+          + [https://bitbucket.org/product/cloud-security]Cloud Security
+          + [http://www.atlassian.com/software/bitbucket/features/devsecop
+            s]DevSecOps
+          + [https://bitbucket.org/product/features/code-review]Code
+            review
+          + Integrations
+          + [https://www.atlassian.com/software/jira/bitbucket-integration
+            ]Jira Integration
+          + [http://www.atlassian.com/solutions/devops]Atlassian Open
+            DevOps
+     * [https://bitbucket.org/product/guides/basics/bitbucket-interface]Pr
+       oduct Guide
+          + [https://bitbucket.org/product/guides]
+
+Get Started
+          + [https://bitbucket.org/product/guides/getting-started/overview
+            ]Brief overview of Bitbucket
+          + [https://bitbucket.org/product/guides/basics/bitbucket-interfa
+            ce]Meet the Bitbucket interface
+          + [https://bitbucket.org/product/guides/basics/four-starting-ste
+            ps]Four starting steps
+     * [https://bitbucket.org/product/enterprise]Self-Hosted
+     * [https://bitbucket.org/product/pricing]Pricing
+     * [https://bitbucket.org/account/signin/]Log in
+
+   [http://www.atlassian.com/software/bitbucket/bundle]Get it free
+
+     * [https://bitbucket.org/product/guides/basics/bitbucket-interface]Wh
+       y Bitbucket
+          + Features
+          + [https://bitbucket.org/product/features/pipelines]CI/CD
+          + [https://bitbucket.org/product/cloud-security]Cloud Security
+          + [http://www.atlassian.com/software/bitbucket/features/devsecop
+            s]DevSecOps
+          + [https://bitbucket.org/product/features/code-review]Code
+            review
+          + Integrations
+          + [https://www.atlassian.com/software/jira/bitbucket-integration
+            ]Jira Integration
+          + [http://www.atlassian.com/solutions/devops]Atlassian Open
+            DevOps
+     * [https://bitbucket.org/product/guides/basics/bitbucket-interface]Pr
+       oduct Guide
+          + [https://bitbucket.org/product/guides]
+
+Get Started
+          + [https://bitbucket.org/product/guides/getting-started/overview
+            ]Brief overview of Bitbucket
+          + [https://bitbucket.org/product/guides/basics/bitbucket-interfa
+            ce]Meet the Bitbucket interface
+          + [https://bitbucket.org/product/guides/basics/four-starting-ste
+            ps]Four starting steps
+     * [https://bitbucket.org/product/enterprise]Self-Hosted
+     * [https://bitbucket.org/product/pricing]Pricing
+     * [https://bitbucket.org/account/signin/]Log in
+
+   Team ‘23 is now on demand! Watch epic keynotes, in-depth product demos,
+   and the latest Atlassian product updates.
+   [https://events.atlassian.com/team23/on-demand-library?ref=Team_23&utm_
+   source=butterbar&utm_campaign=od_drop1&utm_medium=internal&utm_type=Tea
+   m_23_352]Watch now →
+
+   [https://bitbucket.org/product/guides]Guides home
+   [https://bitbucket.org/product/guides/getting-started]Guide 1: A brief
+   overview of Bitbucket
+   [https://bitbucket.org/product/guides/getting-started/overview]Get
+   started with Bitbucket
+   [https://bitbucket.org/product/guides/basics]Guide 2: Getting started
+   with Bitbucket
+   [https://bitbucket.org/product/guides/basics/bitbucket-interface]Meet
+   the Bitbucket interface
+   [https://bitbucket.org/product/guides/basics/four-starting-steps]Better
+   code with Bitbucket: 4 starting steps
+
+Meet the Bitbucket interface
+
+   Before you begin, [https://bitbucket.org/account/signup]sign up for a
+   Bitbucket Cloud account so you can roll up your sleeves and try things
+   for yourself. This guide will give you a quick tour of the parts of
+   Bitbucket you’ll use a lot, so keep this tab open while you sign up.
+   We’ll be here when you’re done.
+
+   Want to get started with Bitbucket Server?
+   [https://confluence.atlassian.com/bitbucketserver/get-started-with-bitb
+   ucket-server-872139857.html]Go here.
+     __________________________________________________________________
+
+   Now let’s introduce you to the Bitbucket user interface and what you
+   need to get started.
+
+Your work
+
+   The Your work dashboard displays the pull requests and repositories you
+   care about.
+   Your work
+     * On the Your work dashboard you’ll see open pull requests that have
+       you as a reviewer, open pull requests you’ve created, and a list of
+       repositories you can access.
+
+Repositories
+
+   The Repositories view lists all the repositories you can access.
+   Bitbucket projects
+     * By default its organized by the Last updated repository, so you’ll
+       see the most recently changed repository at the top. Or you can
+       search for a repository by name, or filter the list by Project or
+       repository Owner.
+     * You can also only display the repositories you are watching by
+       selecting the Watching filter.
+
+Projects
+
+   Projects allow you to group and organize your repositories to make them
+   easier to find. In the Projects view you’ll see existing projects and
+   can create a new projects. Clicking on a project displays all the
+   repositories in that project.
+   Bitbucket projects
+
+Pull requests
+
+   Code review is crucial step in the software development life cycle and
+   helps ensure you’re shipping quality with confidence. Pull requests are
+   where code review happens in Bitbucket, and the Pull requests view
+   helps you quickly find what needs your attention.
+   Bitbucket pull requests
+
+   Use the quick filter buttons to change which pull requests are listed:
+     * Reviewing - Pull requests you’re reviewing
+     * Watching - Pull requests you’re watching
+     * Mine - Pull requests you created
+     * Teams - Pull requests your team created
+
+Issues
+
+   When you add a repository to Bitbucket Cloud, you also get an issue
+   tracker. This is the place to track your project's feature requests,
+   bug reports, and other tasks.
+   Bitbucket issue tracker
+
+Your Bitbucket settings
+
+   Bitbucket settings is where you’ll find important settings for managing
+   your account, like:
+     * Security settings - SSH keys and two-step verification
+     * Notifications settings
+     * Apps and integration - find, install, and manage apps from the
+       Bitbucket marketplace
+
+   Bitbucket account settings
+
+   To get to your Bitbucket settings, click your avatar in the lower-left
+   corner and select Bitbucket settings.
+     __________________________________________________________________
+
+Guide 1: A brief overview of Bitbucket
+
+   [https://bitbucket.org/product/guides/getting-started/overview]Previous
+   guide
+
+Guide 2 Part 2: Four starting steps
+
+   [https://bitbucket.org/product/guides/basics/four-starting-steps]Next
+   guide
+
+Bitbucket
+
+   [https://bitbucket.org/blog/]Blog
+   [https://bitbucket.org/product/write]Bitbucket writing program
+   [https://developer.atlassian.com/bitbucket]API
+   [http://status.bitbucket.org/]Site status
+
+Resources
+
+   [https://support.atlassian.com/help/#/bitbucket]Technical support
+   [https://confluence.atlassian.com/display/BITBUCKET]Documentation
+   [https://bitbucket.org/product/pricing]Plans & pricing
+   [https://bitbucket.org/product/version-control-software]What is Version
+   Control?
+
+Connect with us
+
+   Sign up for Git articles and resources:
+   ____________________
+   ____________________
+   Subscribe
+
+   Thanks for signing up!
+   Connect with Bitbucket
+     * [https://www.facebook.com/Atlassian]
+     * [https://twitter.com/bitbucket]
+
+   [https://www.atlassian.com/][http://www.atlassian.com/legal/privacy-pol
+   icy]Privacy policy
+   [http://www.atlassian.com/legal/customer-agreement]Terms of use
+   [http://www.atlassian.com/trust]Trust & security
+
+   Copyright © 2023
+   [http://www.atlassian.com/software]View all Atlassian products
+   [English_____________]

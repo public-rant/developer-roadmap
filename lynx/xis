@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://jsonapi.org/ > $(basename https://jsonapi.org/).txt

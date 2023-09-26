@@ -1,0 +1,145 @@
+hi i m tony messer from picaweb and in
+this video
+i m going to explain everything you need
+to know about web hosting
+at the end of this video you ll have all
+the information you need to make an
+informed decision
+when you buy a hosting service sound
+like a plan
+great let s get started
+
+okay so the basics hosting is the home
+of your website
+if you re on a website you ll need
+somewhere to host it that s exactly
+what web hosting is now there are
+different types of
+hosting service you ve got shared
+hosting reseller hosting
+virtual private servers or vps and
+dedicated servers
+but we re going to be looking at shared
+hosting in this video because that s the
+most popular
+and affordable type of hosting so
+hosting is basically
+the computer and network infrastructure
+that keeps your website available
+across the internet it also provides
+other key services like email for you
+so how does it all work well it all
+starts with a server which is basically
+a powerful
+computer which is stored in a highly
+secure
+purpose built multi million pound
+facility called a data center
+the data center provides the network and
+power connectivity
+with temperature control backup systems
+fire suppression and high levels of
+physical security
+security is also important at the server
+level so the servers are actually built
+with dual components for critical
+components
+things like hard drives and power supply
+units
+and the reason for this is to make sure
+that your website is available
+at all times so when you order a hosting
+service
+what you re actually purchasing is the
+physical disk space on the server
+as well as the bandwidth which is the
+network connection
+for the server and you ll often see
+hosting advertised in terms of disk
+space and bandwidth so you might see for
+example
+five gig five gigabytes of disk space
+and 100 gigabytes
+of bandwidth per month so the disk space
+that covers
+your website and all of your files
+including key files things like your
+emails
+and the monthly bandwidth allowance this
+is the amount of traffic that comes in
+and out of your website and your hosting
+space so that will usually most of it
+will be made up by email
+traffic in and out but also things like
+people visiting your website and when
+you actually publish
+your website files in order to manage
+your web hosting
+you ll need access to a user friendly
+interface called a control panel
+the one of the most popular control
+panels is called cpanel
+and this allows you to manage key areas
+of your hosting things like setting up
+email addresses
+managing domains and forwarding managing
+databases
+that kind of thing and this shields you
+basically from any of the sort of
+technical
+aspects of the hosting if you want to
+build your own website
+you can use a tool like website builder
+which is included
+and this basically allows non technical
+users
+to build and maintain a website and it
+uses templates pre made templates so you
+just add your own
+text and images and then can publish it
+for more advanced users or maybe you ve
+got a web designer
+then there are more advanced tools and
+applications which are included
+for free so so you can sort of manage
+databases and also use
+other tools to build your website and
+these kind of tools these applications
+these include popular content management
+systems like wordpress
+as well as more advanced e commerce
+tools like
+prestashop and magento so you can start
+selling online
+other security features are things like
+anti spam software
+and data backup and these ensure the
+integrity of your email
+and your data if if you re with one
+hosting company and you want to transfer
+to another hosting company that s very
+straightforward this is a process
+called migration and basically your
+files are copied from your current
+hosting to your new hosting service
+there are just a couple of
+small changes that need to be made to
+your domains and name server settings
+for that process to be fully completed
+okay so there you have it that s your
+quick guide
+to web hosting i hope you found that
+useful if you like this video
+don t forget to give it the big thumbs
+up and subscribe to our channel
+so you can get updated whenever we have
+any new content for you
+also please feel free to share it with
+your friends and also
+anyone who you know who s got who s
+looking for a hosting service
+if you ve got any comments just put them
+below i would really appreciate it
+i do read them and i will get back to
+you okay thanks very much for your time
+then

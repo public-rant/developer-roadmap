@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://github.com/memcached/memcached#readme > $(basename https://github.com/memcached/memcached#readme).txt

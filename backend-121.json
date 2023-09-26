@@ -1,0 +1,22 @@
+[
+ {
+  "id": "web-sockets",
+  "tag": "h1",
+  "text": "Web sockets"
+ },
+ {
+  "href": "https://www.tutorialspoint.com/websockets/index.htm",
+  "tag": "a",
+  "text": "Introduction to WebSockets"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=8ARodQ4Wlf4",
+  "tag": "a",
+  "text": "A Beginners Guide to WebSockets"
+ },
+ {
+  "href": "https://socket.io/",
+  "tag": "a",
+  "text": "Socket.io Library Bidirectional and low-latency communication for every platform"
+ }
+]

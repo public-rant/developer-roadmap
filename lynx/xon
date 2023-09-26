@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/ > $(basename https://farfetchtechblog.com/en/blog/post/the-art-of-failure-ii-graceful-degradation/).txt

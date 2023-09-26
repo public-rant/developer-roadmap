@@ -1,0 +1,615 @@
+    #[https://bitbucket.org/product/code-repository]alternate
+   [https://bitbucket.org/product/code-repository]alternate
+   [https://bitbucket.org/product/ja/code-repository]alternate
+   [https://bitbucket.org/product/fr/code-repository]alternate
+   [https://bitbucket.org/product/de/code-repository]alternate
+   [https://bitbucket.org/product/es/code-repository]alternate
+   [https://bitbucket.org/product/br/code-repository]alternate
+   [https://bitbucket.org/product/zh/code-repository]alternate
+   [https://bitbucket.org/product/ko/code-repository]alternate
+   [https://bitbucket.org/product/ru/code-repository]alternate
+   [https://bitbucket.org/product/pl/code-repository]alternate
+   [https://bitbucket.org/product/it/code-repository]alternate
+   [https://bitbucket.org/product/nl/code-repository]alternate
+   [https://bitbucket.org/product/hu/code-repository]alternate
+
+   [https://bitbucket.org/product/]
+   [https://bitbucket.org/account/signup/]Get started
+
+How to choose the best source code repository
+
+   Your guide to selecting a code repository solution for your team
+   source code
+
+Choosing a repository tool
+
+   There are a variety of modern software repository hosting tools
+   available to choose from. Each code repository system has its own
+   strength and weaknesses. Additionally, each repository hosting tool has
+   various support for underlying version control systems. This guide is
+   intended to walk you through the requirements that may impact which
+   code repository management tool is best suited for your team’s needs.
+   code management software vs version control software
+
+The difference between a repository hosting services and a version control
+system
+
+   It is important to acknowledge that repository hosting services and
+   version control systems are two separate entities. Version control
+   systems are the low level command line utilities that are used to
+   manage the software development life cycle changes to a collection of
+   source code files.
+
+   Learn how to pick the best
+   [https://bitbucket.org/product/version-control-software]version control
+   system for your team.
+
+   Repository hosting services are third-party web applications that wrap
+   and enhance a version control system. You cannot fully utilize a
+   repository hosting service without using an underlying version control
+   system.
+
+Which source code repository should I choose?
+
+   code-cabinet
+
+   A repository hosting service is an organizational management tool which
+   offers a transparent view into the traditionally opaque workflow
+   process of software development. A good repository hosting service will
+   provide tools for measuring, monitoring, discussing and managing
+   software development efficiency and correctness. A repository hosting
+   service should integrate with other management tools such as Task
+   management, Customer relationship management, and support ticket
+   management tools to provide a connected organizational communication
+   network. Whether your business treats software development as an asset
+   or liability it is important to have insight into that risk source.
+   Code file cabinet
+
+   A repository hosting service is an organizational management tool which
+   offers a transparent view into the traditionally opaque workflow
+   process of software development. A good repository hosting service will
+   provide tools for measuring, monitoring, discussing and managing
+   software development efficiency and correctness. A repository hosting
+   service should integrate with other management tools such as Task
+   management, Customer relationship management, and support ticket
+   management tools to provide a connected organizational communication
+   network. Whether your business treats software development as an asset
+   or liability it is important to have insight into that risk source.
+
+Elements for consideration when selecting a repository
+
+   Code repository hosting services are all similar in their surface level
+   offerings. It can be confusing to determine what is the best repository
+   hosting option for a projects specific needs. The following section
+   discusses points of consideration when evaluating if a code repository
+   hosting service is right for you.
+     __________________________________________________________________
+
+   Git branch icon
+
+Supported version control systems
+
+   Is the repository hosting service compatible with the version control
+   system in use on the project? This is a critical element to consider.
+   If your project is using Git and the repository service doesn’t offer
+   Git support, it would be very challenging to use that repository
+   hosting service.
+   Team Icon
+
+Team size and access control
+
+   Consider the project’s team structure and working dynamic. Is this a
+   one man operation or a team project? Is this a remote team? Is the team
+   all onsite in the same location? What level of access do team members
+   need to the repository hosting service?
+   Clock icon
+
+Release schedule
+
+   Will there be frequent small updates or larger smaller periodic
+   releases? Many repository hosting services offer CI/CD add-on tools.
+   Additionally the repository service may offer issue tracking and
+   release management tools.
+   Database storage icon
+
+Project size and data storage
+
+   Is the project going to be dealing with large binary data files such as
+   3D modeling graphics or Audio files? There are special repository
+   softwares that specialize in making large files easier to work with.
+   What is the ongoing volume of commits that will happen on the project?
+   Is it an established project with a long history that can take some
+   time to download?
+   Building blocks
+
+External tools and 3rd party integrations
+
+   A key feature of a repository hosting service is the integration of
+   external tools and services. These integrations really enable the power
+   user workflows of a repository service. Some examples of common
+   external integrations are: ticketing and task management. Customer
+   support management tools. Automated quality assurance tools. If your
+   team is already using a particular tool, ensure the code repository
+   integrates with it well.
+
+   Imbalanced scale
+
+Comparison code repository solutions
+
+   The table below aggregates these considerations and compares across
+   various repository hosting services:
+
+Feature & requirements
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Code review
+
+   A majority of your teams time spent using a repository hosting service
+   may be centered around the discussion of code review. Code review aides
+   have become a standard critical feature across repository services.
+   It’s important to find a review workflow that fits your teams style.
+   Green checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Green checkmark
+
+Gitlab
+
+   Green checkmark
+
+Best-in-class Jira integration
+
+   Release 14% more often with
+   [http://www.atlassian.com/software/jira/bitbucket-integration]Jira
+   Software and Bitbucket, which are seamlessly integrated from branch to
+   deployment. Create Bitbucket branches from within Jira Software or
+   transition issues without ever leaving Bitbucket.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Red x
+
+Gitlab
+
+   Red x
+
+Wiki
+
+   It can be hugely beneficial to team efficiency to keep project
+   documentation in an easily accessible location next to the projects
+   source code. In addition to hosting source code, repository services
+   host the accompanying documentation.
+   Green checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Green checkmark
+
+Gitlab
+
+   Green checkmark
+
+Free private repositories
+
+   Open source software development advocates for free and accessible
+   source code, in that respect some repository services treat privacy as
+   a premium feature. If privacy is critical to your business goals it’s
+   important to consider when choosing a repository service.
+   Green checkmark
+   Red x
+   Green checkmark
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Red x
+
+Gitlab
+
+   Green checkmark
+
+Soc 2 Type II certification
+
+   Bitbucket is the first of the leading Git solutions to ensure we won't
+   expose your code, we won't lose your code, and our Cloud will stay up
+   with a 3rd party [http://www.atlassian.com/trust/compliance]SOC 2 Type
+   II audit.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Red x
+
+Gitlab
+
+   Red x
+
+Code aware search
+
+   Save time combing through usage results with a
+   [https://confluence.atlassian.com/bitbucket/search-873876782.html]seman
+   tic search that ranks definitions first over usages or variables names.
+   Red x
+   Red x
+   Red x
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Red x
+
+Gitlab
+
+   Red x
+
+Built-in CI/CD
+
+   [https://bitbucket.org/product/features/pipelines]Bitbucket Pipelines
+   is a feature of Bitbucket that gives you one place to build, test and
+   deploy with integrated CI/CD. Benefit from configuration as code and
+   unlimited scaling without managing build infrastructure.
+   Green checkmark
+   Red x
+   Green checkmark
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Red x
+
+Gitlab
+
+   Green checkmark
+
+Teams
+
+   Give developers the right access, to the right code, at the right time.
+   Manage and override existing access for specific users and enable merge
+   restrictions at the branch level.
+   Green checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+   Green checkmark
+
+Github
+
+   Green checkmark
+
+Gitlab
+
+   Green checkmark
+
+Self-Hosting
+
+   Bitbucket Server allows your team to securely and privately host your
+   organizations sensitive code projects within a VPN or other secured
+   internal network.
+
+Bitbucket
+
+   Bitbucket Server
+
+Github
+
+   Enterprise only
+
+Gitlab
+
+   Green checkmark
+
+   Bitbucket Server
+
+   Enterprise only
+   Green checkmark
+
+Features & requirements
+
+Features & requirements
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Code review
+
+   A majority of your teams time spent using a repository hosting service
+   may be centered around the discussion of code review. Code review aides
+   have become a standard critical feature across repository services.
+   It’s important to find a review workflow that fits your teams style.
+   Green Checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Best-in-class Jira integration
+
+   Release 14% more often with Jira Software and Bitbucket, which are
+   seamlessly integrated from branch to deployment. Create Bitbucket
+   branches from within Jira Software or transition issues without ever
+   leaving Bitbucket.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Wiki
+
+   It can be hugely beneficial to team efficiency to keep project
+   documentation in an easily accessible location next to the projects
+   source code. In addition to hosting source code, repository services
+   host the accompanying documentation.
+   Green checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Free private repositories
+
+   Open source software development advocates for free and accessible
+   source code, in that respect some repository services treat privacy as
+   a premium feature. If privacy is critical to your business goals it’s
+   important to consider when choosing a repository service.
+   Green checkmark
+   Red x
+   Green checkmark
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Mercurial support
+
+   Bitbucket Cloud has Mercurial support. Mercurial is a free, distributed
+   source control management system like Git. Have the freedom of choice
+   and use the distributed version control system that works for you.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Soc 2 Type II certification
+
+   Bitbucket is the first of the leading Git solutions to ensure we won't
+   expose your code, we won't lose your code, and our Cloud will stay up
+   with a 3rd party SOC 2 Type II audit.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Code aware search
+
+   Save time combing through usage results with a semantic search that
+   ranks definitions first over usages or variables names.
+   Green checkmark
+   Red x
+   Red x
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Built-in CI/CD
+
+   Bitbucket Pipelines is a feature of Bitbucket that gives you one place
+   to build, test and deploy with integrated CI/CD. Benefit from
+   configuration as code and unlimited scaling without managing build
+   infrastructure.
+   Green checkmark
+   Red x
+   Green checkmark
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Teams
+
+   Give developers the right access, to the right code, at the right time.
+   Manage and override existing access for specific users and enable merge
+   restrictions at the branch level.
+   Green checkmark
+   Green checkmark
+   Green checkmark
+
+Bitbucket
+
+Github
+
+Gitlab
+
+Self-Hosting
+
+   Bitbucket Server allows your team to securely and privately host your
+   organizations sensitive code projects within a VPN or other secured
+   internal network.
+
+   Bitbucket Server
+
+   Enterprise only
+   Green checkmark
+
+Selecting a code repository that compliments your organization
+
+   The repository hosting service industry is competitive and has many
+   offerings. That said there is no single “best” option. Looking for a
+   “best” option means finding an offering that is complementary to the
+   immediate requirements of the project at hand.
+
+   A complementary repository hosting service is one that partners well
+   with the organizational culture and workflow expectations. If the
+   organization strives to follow agile practices it is important that the
+   repository tool matches this. The code repository tool should match the
+   organization’s “release rhythm”. If the organization has a rapid
+   release continuous integration schedule, or maybe a less frequent
+   static release schedule. The repository tool should accommodate these
+   workflows. By identifying these consideration points upfront, it makes
+   selecting a repository hosting tool a straightforward exercise.
+   Cargo ship carrying code file
+
+Bitbucket code repository
+
+   Why choose Bitbucket Cloud as your code repository
+     __________________________________________________________________
+
+Bitbucket is built for professional teams
+
+   From best-in-class integration with Jira to a better code review,
+   Bitbucket Cloud gives your team everything you need to build, track,
+   and deploy your software better.
+   Trophy icon
+
+Best-in-class Jira integration
+
+   Integrate with JIRA or Trello to keep stakeholders in the loop. Access
+   branches, build status, commits, and status on JIRA issues or Trello
+   cards.
+   infinity icon
+
+Continuous delivery in the cloud
+
+   Build, test and deploy with integrated CI/CD. Benefit from
+   configuration as code and unlimited scaling without managing build
+   infrastructure. Tie code and deployments together in one place to track
+   and preview deployments.
+   Admin tools icon
+
+One platform, one tool
+
+   Bitbucket Connect allows any developer to build deep integration with
+   Bitbucket Cloud right within the product UI. No more context switching
+   between tools and tasks. Have everything you need to build and ship
+   right within Bitbucket.
+   Shield icon
+
+Enhanced security
+
+   Utilize IP allowlisting, enforce merge checks, enforce Two-factor
+   authentication (2FA), or use Universal 2nd Factor (U2F) to secure your
+   code with a second confirmation in addition to your password.
+   Bitbucket’s SOC 2 Type II certifications ensures your code is secure
+   and that you’ll always have access.
+
+Choose Bitbucket
+
+   All the features your team needs to build great software, at a fraction
+   of the cost. Choose Bitbucket Cloud today.
+   [https://bitbucket.org/account/signup/]Get started for free
+
+Bitbucket
+
+   [https://bitbucket.org/blog/]Blog
+   [https://bitbucket.org/product/write]Bitbucket writing program
+   [https://developer.atlassian.com/bitbucket]API
+   [http://status.bitbucket.org/]Site status
+
+Resources
+
+   [https://support.atlassian.com/help/#/bitbucket]Technical support
+   [https://confluence.atlassian.com/display/BITBUCKET]Documentation
+   [https://bitbucket.org/product/pricing]Plans & pricing
+   [https://bitbucket.org/product/version-control-software]What is Version
+   Control?
+
+Connect with us
+
+   Sign up for Git articles and resources:
+   ____________________
+   ____________________
+   Subscribe
+
+   Thanks for signing up!
+   Connect with Bitbucket
+     * [https://www.facebook.com/Atlassian]
+     * [https://twitter.com/bitbucket]
+
+   [https://www.atlassian.com/][http://www.atlassian.com/legal/privacy-pol
+   icy]Privacy policy
+   [http://www.atlassian.com/legal/customer-agreement]Terms of use
+   [http://www.atlassian.com/trust]Trust & security
+
+   Copyright © 2023
+   [http://www.atlassian.com/software]View all Atlassian products
+   [English_____________]

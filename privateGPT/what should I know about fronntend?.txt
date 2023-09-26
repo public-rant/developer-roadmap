@@ -1,0 +1,72 @@
+## what should I know about fronntend?
+
+	* Frootend.org offers a wide range of resources and tutorials for developers, including documentation on PHP coding best practices (such as naming conventions), how to use MVC frameworks like Laravel or CodeIgniter efficiently with Slim, optimizing code performance by using caching techniques such as APC Cache & Memcached; understanding security concepts in web development - this will include protecting against attacks and securing access tokens. It's also a good idea for developers who are familiar with other programming languages to become proficient in PHP through the use of tools like MAMP or XAMPP, set up an Apache server on your local machine (with SSL enabled), create database connections using mysqli/PDO; setting file permissions and directory structure.
+  	* The freeCodeCamp website provides a wealth of resources for developers including tutorials on various topics such as how to use jQuery in web development, understanding the basics behind MVC architecture with Laravel or CodeIgniter (as well as other popular PHP frameworks), building APIs using RESTful methods and making HTTP requests; managing errors during testing - this will include error handling techniques like try-catch blocks.
+ 	* The freeCodeCamp website also provides a forum section, where developers can ask questions about programming concepts they are
+
+
+source_documents/Full PHP 8 Tutorial - Learn PHP The Right Way In 2023 [sVbEyFZKgqk].en.vtt.txt
+8 best practices
+hosting and deployments and more so as
+you can see there is a lot of content
+and i have not mentioned all the things
+that are going to be in the course
+these are just the main topics that will
+be there and basically after going
+through this course i m hoping that he
+will have enough knowledge to build
+something amazing whether it s just with
+vanilla php or with a framework
+it does not matter the goal of this
+course is for you to know
+things in php beyond the beginner s
+
+
+source_documents/Full PHP 8 Tutorial - Learn PHP The Right Way In 2023 [sVbEyFZKgqk].en.vtt.txt
+knowing these topics beyond the basics
+will help you better understand how
+certain
+things work in the frameworks later and
+it will help set the proper foundation
+it will also help you write clean
+efficient and secure code as well as
+help you dive into existing code base
+and understand how it works
+this course is for both beginners and
+experienced php developers
+my goal is to have enough content within
+this one course that even if you have
+experience with php you could still
+learn something new
+
+
+source_documents/Node.js Tutorial for Beginners： Learn Node in 1 Hour [TlB_eWDSMt4].en.vtt.txt
+course I will share with you lots of
+clean coding and refactoring techniques
+security best practices useful libraries
+to use as part of your development
+common mistakes that many node
+developers make and much much more
+the course is currently 14 hours long
+and I m planning to add more content to
+it in the future you can watch this
+course as many times as you want and if
+you watch it to the end you will get a
+certificate of completion that we can
+add to your resume so if you re serious
+
+
+source_documents/Full HTTP Networking Course – Fetch and REST APIs in JavaScript [2JYT5f2isg4].en.vtt.txt
+I love getting feedback about all my
+courses so if you do have feedback one
+of the easiest ways to get in touch with
+me is on Twitter at wagslane I d love to
+know what you think also if you find
+that you like the way that I m
+explaining these coding Concepts feel
+free to subscribe to my YouTube channel
+it s at boot dev if you get stuck or
+have questions during the course I m
+going to recommend three different
+places the first is the free code Camp
+Forum the second is the free code Camp

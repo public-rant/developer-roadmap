@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=z_hu2zm4_s8&amp;list=pltzyg7bz1u6o6wz9ef9tqt1js-pummktj"

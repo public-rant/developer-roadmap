@@ -1,0 +1,983 @@
+   #[https://thenewstack.io/wp-json/wp/v2/posts/8090169]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-is-and-why-you-sh
+   ould-care%2F]alternate
+   [https://thenewstack.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthen
+   ewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-is-and-why-you-sh
+   ould-care%2F&format=xml]alternate
+
+   Modal Title
+   (BUTTON) OK
+
+   [https://thenewstack.io/]
+   ____________________
+   (BUTTON) Search
+   (BUTTON) More Results
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   [https://thenewstack.io/podcasts/]PODCASTS
+   [https://thenewstack.io/ebooks/]EBOOKS
+   [https://thenewstack.io/events/]EVENTS
+   [https://thenewstack.io/newsletter/]NEWSLETTER
+   [https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and
+   -why-you-should-care/]ARCHITECTURE
+   [https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and
+   -why-you-should-care/]ENGINEERING
+   [https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and
+   -why-you-should-care/]OPERATIONS
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/new-to-building-on-a-platform-heres-how-to-expa
+   nd-your-skills/]New to Building on a Platform? Here's How to Expand
+   Your Skills
+   Jun 22nd 2023 11:29am, by Steve Gill
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/the-transformative-power-of-sboms-and-iboms-for
+   -cloud-apps/]The Transformative Power of SBOMs and IBOMs for Cloud Apps
+   Jun 15th 2023 9:20am, by Oren Penso
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by Alex Williams
+   [https://thenewstack.io/high-performance-computing-is-due-for-a-transfo
+   rmation/]High Performance Computing Is Due for a Transformation
+   Jun 27th 2023 10:00am, by Gregory M. Kurtzer
+   [https://thenewstack.io/get-up-to-speed-with-containers-very-quickly-wi
+   th-dockstarter/]Get up to Speed with Containers Very Quickly with
+   DockSTARTer
+   Jun 24th 2023 6:00am, by Jack Wallen
+   [https://thenewstack.io/run-opentelemetry-on-docker/]Run OpenTelemetry
+   on Docker
+   Jun 20th 2023 8:30am, by B. Cameron Gain
+   [https://thenewstack.io/install-and-use-podman-desktop-gui-to-manage-co
+   ntainers/]Install and Use Podman Desktop GUI to Manage Containers
+   Jun 17th 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/dev-news-react-still-king-vercel-ai-tools-netli
+   fy-connect/]Dev News: React Still King, Vercel AI Tools, Netlify
+   Connect
+   Jun 17th 2023 4:00am, by Loraine Lawson
+   [https://thenewstack.io/creating-an-iot-data-pipeline-using-influxdb-an
+   d-aws/]Creating an IoT Data Pipeline Using InfluxDB and AWS
+   Jun 5th 2023 10:25am, by Jason Myers
+   [https://thenewstack.io/dell-intros-new-edge-generative-ai-cloud-zero-t
+   rust-prods/]Dell Intros New Edge, Generative AI, Cloud, Zero Trust
+   Prods
+   May 31st 2023 11:00am, by Chris J. Preimesberger
+   [https://thenewstack.io/gothenburg-sweden-used-open-source-iot-to-drast
+   ically-cut-water-waste/]Gothenburg, Sweden Used Open Source IoT to
+   Drastically Cut Water Waste
+   May 23rd 2023 6:58am, by Alex Handy
+   [https://thenewstack.io/building-a-plant-monitoring-tool-with-iot/]Buil
+   ding a Plant Monitoring Tool with IoT
+   May 8th 2023 9:27am, by Zoe Steinkamp
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by Loraine Lawson
+   [https://thenewstack.io/in-the-great-microservices-debate-value-eats-si
+   ze-for-lunch/]In the Great Microservices Debate, Value Eats Size for
+   Lunch
+   Jun 13th 2023 6:10am, by Anoop Balakuntalam
+   [https://thenewstack.io/amazon-prime-videos-microservices-move-doesnt-l
+   ead-to-a-monolith-after-all/]Amazon Prime Video’s Microservices Move
+   Doesn’t Lead to a Monolith after All
+   Jun 13th 2023 6:00am, by Scott M. Fulton III
+   [https://thenewstack.io/case-study-a-webassembly-failure-and-lessons-le
+   arned/]Case Study: A WebAssembly Failure, and Lessons Learned
+   May 25th 2023 7:00am, by Susan Hall
+   [https://thenewstack.io/rabbitmq-is-boring-and-i-love-it/]RabbitMQ Is
+   Boring, and I Love It
+   May 15th 2023 6:30am, by Josh Long
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by Chris J. Preimesberger
+   [https://thenewstack.io/unveiling-the-future-of-application-networking-
+   trends-and-impacts/]Unveiling the Future of Application Networking:
+   Trends and Impacts
+   Jun 28th 2023 11:06am, by Bilgin Ibryam
+   [https://thenewstack.io/red-hat-launches-openstack-platform-17-1-with-e
+   nhanced-security/]Red Hat Launches OpenStack Platform 17.1 with
+   Enhanced Security
+   Jun 14th 2023 10:34am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/withsecure-pours-energy-into-making-software-mo
+   re-efficient/]WithSecure Pours Energy into Making Software More
+   Efficient
+   Jun 1st 2023 7:14am, by Joe Fay
+   [https://thenewstack.io/microsoft-fabric-defragments-analytics-enters-p
+   ublic-preview/]Microsoft Fabric Defragments Analytics, Enters Public
+   Preview
+   May 23rd 2023 8:00am, by Andrew Brust
+   [https://thenewstack.io/forrester-on-webassembly-for-developers-fronten
+   d-to-backend/]Forrester on WebAssembly for Developers: Frontend to
+   Backend
+   May 17th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/return-of-the-monolith-amazon-dumps-microservic
+   es-for-video-monitoring/]Return of the Monolith: Amazon Dumps
+   Microservices for Video Monitoring
+   May 4th 2023 7:23am, by Joab Jackson
+   [https://thenewstack.io/ibms-quiet-approach-to-ai-wasm-and-serverless/]
+   IBM's Quiet Approach to AI, Wasm and Serverless
+   May 4th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/cloud-control-planes-for-all-implement-internal
+   -platforms-with-crossplane/]Cloud Control Planes for All: Implement
+   Internal Platforms with Crossplane
+   Apr 13th 2023 10:00am, by Bassam Tabbara
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/nvidia-uses-openstack-swift-storage-as-part-of-
+   its-ai-ml-process/]Nvidia Uses OpenStack Swift Storage as Part of Its
+   AI/ML Process
+   Jun 30th 2023 6:50am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/minios-object-storage-supports-external-tables-
+   for-snowflake/]MinIO’s Object Storage Supports External Tables for
+   Snowflake
+   Jun 27th 2023 7:56am, by Jelani Harper
+   [https://thenewstack.io/the-architects-guide-to-storage-for-ai/]The
+   Architect’s Guide to Storage for AI
+   Jun 1st 2023 7:44am, by Keith Pijanowski
+   [https://thenewstack.io/8-real-time-data-best-practices/]8 Real-Time
+   Data Best Practices
+   Jun 1st 2023 5:00am, by Jennifer Riggins
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-pros-and-con-of-customizing-large-language-
+   models/]The Pros (And Con) of Customizing Large Language Models
+   Jul 3rd 2023 10:08am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-netlifys-new-tool-jupyterlab-4-0-and-m
+   dn-gets-ai/]Dev News: Netlify's New Tool, JupyterLab 4.0 and MDN Gets
+   AI
+   Jul 1st 2023 5:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by
+   [https://thenewstack.io/author/richard/]Richard MacManus
+   [https://thenewstack.io/state-of-the-api-microservices-gone-macro-and-z
+   ombie-apis/]State of the API: Microservices Gone Macro and Zombie APIs
+   Jun 28th 2023 8:55am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by
+   [https://thenewstack.io/author/greggostrowski/]Gregg Ostrowski
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by
+   [https://thenewstack.io/author/gerald-venzl/]Gerald Venzl
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascri
+   pt-standards/]Beyond Browsers: The Longterm Future of JavaScript
+   Standards
+   Jul 3rd 2023 11:51am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/quick-tips-to-make-your-sdk-more-maintainable-i
+   n-typescript/]Quick Tips to Make Your SDK More Maintainable in
+   TypeScript
+   Jul 5th 2023 10:21am, by
+   [https://thenewstack.io/author/sean-ferguson/]Sean Ferguson
+   [https://thenewstack.io/system-initiative-a-devops-makeover-by-ex-chef-
+   adam-jacob/]System Initiative: A DevOps Makeover by Ex-Chef Adam Jacob
+   Jun 21st 2023 8:00am, by
+   [https://thenewstack.io/author/susanhall/]Susan Hall
+   [https://thenewstack.io/70-percent-of-developers-using-or-will-use-ai-s
+   ays-stack-overflow-survey/]70% of Devs Using or Will Use AI, Says Stack
+   Overflow Survey
+   Jun 14th 2023 10:45am, by
+   [https://thenewstack.io/author/lawrence-hecht/]Lawrence E Hecht
+   [https://thenewstack.io/dev-news-a-new-rust-release-and-chrome-114-upda
+   tes/]Dev News: A New Rust Release and Chrome 114 Updates
+   Jun 3rd 2023 9:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/dev-news-new-microsoft-edge-tools-and-goodbye-n
+   ode-js-16/]Dev News: New Microsoft Edge Tools and Goodbye Node.js 16
+   May 27th 2023 6:00am, by
+   [https://thenewstack.io/author/loraine-lawson/]Loraine Lawson
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-1/]WebAssembly and Go: A Guide to Getting Started (Part 1)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/webassembly-and-go-a-guide-to-getting-started-p
+   art-2/]WebAssembly and Go: A Guide to Getting Started (Part 2)
+   Jun 12th 2023 5:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/how-wasm-and-rust-unlocks-the-mysteries-of-quan
+   tum-computing/]How WASM (and Rust) Unlocks the Mysteries of Quantum
+   Computing
+   Jun 8th 2023 3:00am, by
+   [https://thenewstack.io/author/marybranscombe/]Mary Branscombe
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   Jun 5th 2023 6:00am, by [https://thenewstack.io/author/bruce-gain/]B.
+   Cameron Gain
+   [https://thenewstack.io/python-and-webassembly-elevating-performance-fo
+   r-web-apps/]Python and WebAssembly: Elevating Performance for Web Apps
+   Jun 5th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/generative-ai-cloud-services-aws-azure-or-googl
+   e-cloud/]Generative AI Cloud Platforms: AWS, Azure, or Google?
+   Jun 30th 2023 9:00am, by
+   [https://thenewstack.io/author/janakiram/]Janakiram MSV
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/snowflake-pushes-range-of-new-ai-developer-capa
+   bilities/]Snowflake Pushes Range of New AI, Developer Capabilities
+   Jun 28th 2023 3:00am, by
+   [https://thenewstack.io/author/andrew-brust/]Andrew Brust
+   [https://thenewstack.io/deploying-cloud-native-applications-with-partne
+   r-expertise/]Deploying Cloud Native Applications with Partner Expertise
+   Jun 27th 2023 12:30pm, by
+   [https://thenewstack.io/author/jasonenglish/]Jason English
+   [https://thenewstack.io/relationalai-previews-ai-coprocessor-reshapes-k
+   nowledge-graph/]RelationalAI Previews AI Coprocessor, Reshapes
+   Knowledge Graph
+   Jun 27th 2023 12:00pm, by
+   [https://thenewstack.io/author/jelani-harper/]Jelani Harper
+   [https://thenewstack.io/how-containers-llms-and-gpus-fit-with-data-apps
+   /]How Containers, LLMs, and GPUs Fit with Data Apps
+   Jun 30th 2023 1:29pm, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/the-fundamentals-of-data-api-design/]The
+   Fundamentals of Data API Design
+   Jun 30th 2023 11:25am, by
+   [https://thenewstack.io/author/jim-moffitt/]Jim Moffitt
+   [https://thenewstack.io/vector-primer-understand-the-lingua-franca-of-g
+   enerative-ai/]Vector Primer: Understand the Lingua Franca of Generative
+   AI
+   Jun 30th 2023 6:26am, by
+   [https://thenewstack.io/author/charna-parkey/]Charna Parkey
+   [https://thenewstack.io/hasura-launches-new-data-network-for-apis-only/
+   ]Hasura Launches New Data Network for APIs Only
+   Jun 29th 2023 9:36am, by
+   [https://thenewstack.io/author/chris-j-preimesberger/]Chris J.
+   Preimesberger
+   [https://thenewstack.io/data-warehouses-and-customer-data-platforms-bet
+   ter-together/]Data Warehouses and Customer Data Platforms: Better
+   Together
+   Jun 29th 2023 7:14am, by
+   [https://thenewstack.io/author/kevin-niparko/]Kevin Niparko
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by
+   [https://thenewstack.io/author/robertkimani/]Robert Kimani
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by [https://thenewstack.io/author/sjvn/]Steven
+   J. Vaughan-Nichols
+   [https://thenewstack.io/a-good-sbom-is-hard-to-find/]A Good SBOM Is
+   Hard to Find
+   Jun 23rd 2023 10:42am, by [https://thenewstack.io/author/alex/]Alex
+   Williams
+   [https://thenewstack.io/how-to-use-chatgpt-for-it-security-audit/]How
+   to Use ChatGPT for IT Security Audit
+   Jun 22nd 2023 6:21am, by [https://thenewstack.io/author/dev-nag/]Dev
+   Nag
+   [https://thenewstack.io/how-to-choose-the-right-identity-resolution-sys
+   tem/]How to Choose the Right Identity Resolution System
+   Jun 21st 2023 6:43am, by
+   [https://thenewstack.io/author/seth-familian/]Seth Familian
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/how-ing-cut-time-to-market-via-a-better-develop
+   er-experience/]How ING Cut Time to Market via a Better Developer
+   Experience
+   Jun 23rd 2023 3:00am, by Jennifer Riggins
+   [https://thenewstack.io/open-source-platform-engineering-a-decade-of-cl
+   oud-foundry/]Open Source Platform Engineering: A Decade of Cloud
+   Foundry
+   Jun 19th 2023 7:00am, by Nick Kuhn
+   [https://thenewstack.io/at-platformcon-for-realtor-com-success-is-drive
+   n-by-stories/]Early Wins Drive Platform as a Product Adoption
+   Jun 13th 2023 9:31am, by Jennifer Riggins
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   Jun 7th 2023 8:30am, by Zohar Einy
+   [https://thenewstack.io/cios-heed-on-premises-app-and-infrastructure-pe
+   rformance/]CIOs, Heed On-Premises App and Infrastructure Performance
+   Jul 5th 2023 1:21pm, by Gregg Ostrowski
+   [https://thenewstack.io/json-and-relational-tables-how-to-get-the-best-
+   of-both/]JSON and Relational Tables: How to Get the Best of Both
+   Jul 5th 2023 7:19am, by Gerald Venzl
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/how-to-share-data-between-2-docker-containers/]
+   How to Share Data between 2 Docker Containers
+   Jul 1st 2023 7:00am, by Jack Wallen
+   [https://thenewstack.io/5-steps-to-deploy-efficient-cloud-native-founda
+   tion-ai-models/]5 Steps to Deploy Efficient Cloud Native Foundation AI
+   Models
+   Jun 29th 2023 11:05am, by Alex Williams
+   [https://thenewstack.io/what-infrastructure-as-code-must-do-for-ci-cd/]
+   What Infrastructure as Code Must Do for CI/CD
+   Jun 21st 2023 8:54am, by B. Cameron Gain
+   [https://thenewstack.io/tech-backgrounder-liblab/]Tech Backgrounder:
+   LibLab, an SDK and Documentation Generator
+   Jun 19th 2023 7:00am, by TNS Staff
+   [https://thenewstack.io/whats-up-with-openstack-in-2023/]What’s Up with
+   OpenStack in 2023
+   Jun 14th 2023 7:00am, by Kristin Barrientos
+   [https://thenewstack.io/kubernetes-operators-the-real-reason-your-boss-
+   is-smiling/]Kubernetes Operators: The Real Reason Your Boss Is Smiling
+   Jun 14th 2023 6:30am, by Ryan Wallner
+   [https://thenewstack.io/is-devops-tool-complexity-slowing-down-develope
+   r-velocity/]Is DevOps Tool Complexity Slowing Down Developer Velocity?
+   May 17th 2023 6:29am, by Heather Joslyn and Lawrence E Hecht
+   [https://thenewstack.io/engineers-new-no-code-programming-language-uses
+   -visual-diagrams/]Engineer's New No-Code Programming Language Uses
+   Visual Diagrams
+   Jul 2nd 2023 6:00am, by David Cassel
+   [https://thenewstack.io/what-developers-can-do-to-make-ai-ethical/]What
+   Developers Can Do to Make AI Ethical
+   Jun 30th 2023 6:00am, by Loraine Lawson
+   [https://thenewstack.io/entrepreneurship-for-engineers-how-to-grow-into
+   -leadership/]Entrepreneurship for Engineers: How to Grow into
+   Leadership
+   Jun 29th 2023 7:49am, by Emily Omier
+   [https://thenewstack.io/what-happens-when-ai-companies-try-to-police-th
+   emselves/]What Happens When AI Companies Try to Police Themselves?
+   Jun 25th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/the-developers-career-path-discovers-approach/]
+   The Developer's Career Path: Discover's Approach
+   Jun 21st 2023 2:03pm, by Alex Williams
+   [https://thenewstack.io/what-is-devsecops/]What Is DevSecOps?
+   Jul 4th 2023 3:00am, by Robert Kimani
+   [https://thenewstack.io/why-developers-hate-jira-and-what-atlassian-is-
+   doing-about-it/]Why Developers Hate Jira — and What Atlassian Is Doing
+   About It
+   Jul 3rd 2023 6:43am, by Matt Weinberger
+   [https://thenewstack.io/catch-performance-in-ebpf-with-rust-xdp-program
+   s/]Catch Performance in eBPF with Rust: XDP Programs
+   Jun 30th 2023 7:43am, by Everett Pompeii
+   [https://thenewstack.io/platformcon-2023-bigger-and-even-better/]Platfo
+   rmCon 2023: Bigger and Even Better
+   Jun 29th 2023 8:33am, by Aeris Stewart
+   [https://thenewstack.io/penpot-woos-developers-takes-on-figma-with-open
+   -source-tool/]Penpot Woos Developers, Takes on Figma with Open Source
+   Tool
+   Jun 29th 2023 5:00am, by Richard MacManus
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   Jun 29th 2023 10:14am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/install-korifi-to-manage-k3s-at-the-edge/]Insta
+   ll Korifi to Manage K3s at the Edge
+   Jun 29th 2023 6:00am, by Ram Iyengar
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   Jun 21st 2023 5:00am, by Steven J. Vaughan-Nichols
+   [https://thenewstack.io/kelsey-hightower-predicts-how-the-kubernetes-co
+   mmunity-will-evolve/]Kelsey Hightower Predicts How the Kubernetes
+   Community Will Evolve
+   Jun 18th 2023 6:00am, by David Cassel
+   [https://thenewstack.io/why-did-grafana-labs-need-to-add-adaptive-metri
+   cs/]Why Did Grafana Labs Need to Add Adaptive Metrics?
+   Jul 5th 2023 5:00am, by B. Cameron Gain
+   [https://thenewstack.io/observing-and-experimenting-enhanced-kubernetes
+   -optimization/]Observing and Experimenting: Enhanced Kubernetes
+   Optimization
+   Jun 30th 2023 10:00am, by Nick Walker
+   [https://thenewstack.io/how-we-slashed-detection-and-resolution-time-in
+   -half/]How We Slashed Detection and Resolution Time in Half
+   Jun 28th 2023 10:00am, by Eli Goldberg
+   [https://thenewstack.io/demystifying-service-level-objectives-for-you-a
+   nd-me/]Demystifying Service-Level Objectives for You and Me
+   Jun 28th 2023 8:12am, by Adriana Villela and Ana Margarita Medina
+   [https://thenewstack.io/acryl-data-unveils-data-observability-capabilit
+   ies-adds-funding/]Acryl Data Unveils Data Observability Capabilities,
+   Adds Funding
+   Jun 23rd 2023 12:00pm, by Jelani Harper
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   May 25th 2023 3:10pm, by Alex Williams
+   [https://thenewstack.io/linkerd-service-mesh-update-addresses-more-dema
+   nding-user-base/]Linkerd Service Mesh Update Addresses More Demanding
+   User Base
+   Apr 11th 2023 6:17am, by Joab Jackson
+   [https://thenewstack.io/how-to-create-zero-trust-architecture-for-servi
+   ce-mesh/]How to Create Zero Trust Architecture for Service Mesh
+   Mar 27th 2023 7:00am, by Joe Fay
+   [https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/]Ambient
+   Mesh: Sidestepping the Sidecar
+   Mar 1st 2023 8:44am, by Jeff Goldman
+   [https://thenewstack.io/service-mesh-demand-for-kubernetes-shifts-to-se
+   curity/]Service Mesh Demand for Kubernetes Shifts to Security
+   Oct 27th 2022 11:04am, by B. Cameron Gain
+
+   2019-07-22 13:00:06
+   Primer: How Kubernetes Came to Be, What It Is, and Why You Should Care
+   contributed,
+   [https://thenewstack.io/category/kubernetes/]Kubernetes
+
+Primer: How Kubernetes Came to Be, What It Is, and Why You Should Care
+
+   An explantory intruduction to Kubernetes and cloud native computing.
+   Jul 22nd, 2019 1:00pm by
+   [https://thenewstack.io/author/catherine-paganini/]Catherine Paganini
+   Featued image for: Primer: How Kubernetes Came to Be, What It Is, and
+   Why You Should Care
+
+   Feature image
+   [https://pixabay.com/illustrations/cube-surface-texture-background-2886
+   285/]via Pixabay.
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE
+
+   [https://www.linkedin.com/in/catherinepaganini/en/][2e29c52f-catherine-
+   paganini_kublr.jpg]
+   Catherine Paganini
+   Catherine Paganini leads Marketing at Kublr. From the strategic to the
+   tactical, Catherine helps Kublr evangelize the limitless power of cloud
+   native technologies, shape the brand, and keep pace with the growth.
+   Before joining the tech startup, Catherine marketed B2B services at
+   renowned organizations such as Booz Allen Hamilton and The Washington
+   Post. She recently discovered her passion for breaking down complex IT
+   concepts so people with no technical background can easily understand
+   the current technological revolution brought to us by cloud native tech
+   and digital transformation.
+
+   When I set out to run marketing for [http://www.kublr.com/]Kublr, an
+   enterprise-grade Kubernetes platform, I needed to wrap my head around
+   Kubernetes. I read some articles on the internet, talked to our
+   technical team and, at some point, understood the basic concepts.
+   However, I didn’t really get the full picture. I realized I needed to
+   zoom out, way out. Most articles and technical people start with the
+   assumption of context which non-technical people generally don’t have.
+   So, I read an Introduction to Computer Science then continued studying
+   distributed systems and, oh my god, had I aha-moments!
+
+   Finally understanding the core concepts the new stack is built on was
+   so enlightening, I wanted to share my newly found insights with all
+   those struggling to understand what this open-source technology is all
+   about and why it is so revolutionary.
+
+   Let me start with the basic concept needed to understand where
+   Kubernetes came from: the context. For technical folks, this may sound
+   very simplistic, and it should. The goal is to offer a simplified
+   overview to understand the big picture. I’ll start with a single
+   computer, move to virtual machines, and then briefly discuss
+   distributed applications. If you’re already familiar with these
+   concepts, feel free to jump to what’s new to you.
+
+   IFRAME:
+   [https://www.youtube.com/embed/XfBrtNZ2OCw]https://www.youtube.com/embe
+   d/XfBrtNZ2OCw
+
+Bare Metal Machines
+
+   A computer consists of hardware — mainly the central processing unit
+   (CPU), memory and storage — which runs different applications or
+   programs. The operating system (OS) is a software that sits on top of
+   the hardware and manages these resources. Above the OS are the
+   applications (e.g. Outlook or the Microsoft stack on your laptop). The
+   OS schedules when each app has access to which resource ensuring each
+   application has enough to run smoothly (while Outlook and Word may feel
+   like they run simultaneously, they don’t. Believe it or not, your
+   computer cannot multitask. Programs run one at a time. The intervals
+   are so fast, however, that they seem to run simultaneously — that’s OS
+   magic!). The applications are oblivious of the hardware, they only
+   interact with the OS. This principle is called abstraction: a layer
+   that mediates (OS) between two other layers (hardware and apps). Apps
+   don’t need to know anything about the hardware because the OS manages
+   everything.
+
+   Before virtualization came along there was no way to isolate
+   applications on the same machine, or server. When dealing with
+   mission-critical applications, companies would typically have one
+   application per server to avoid that, if one application crashes, it
+   would drag another one down with it. Running one app per machine is
+   expensive as each machine has to have the maximum resource capacity the
+   app can possibly reach during its peak, even if it only reaches that
+   capacity one percent of the time — an inefficient use of compute
+   resources. Machines like this (with no virtual machines) are referred
+   to as bare metal.
+
+   Co-locating applications optimizes resource utilization. Since it’s
+   unlikely that all application will peak at the same time (you only
+   co-locate apps that aren’t likely to), applications can share peak-time
+   capacity, significantly reducing resource needs. Virtualization enabled
+   exactly that by eliminating the risk of one app crashing and affecting
+   co-located apps.
+
+Virtual Machines
+
+   A virtual machine (VM) is code that “wraps around” an application,
+   pretending to be hardware. The code running inside the VM thinks the VM
+   is a separate computer, hence the term “virtual machine.” Just like
+   physical machines, VMs require an OS. An OS running inside a VM is
+   referred to as guest OS, while the OS on the real machine is referred
+   to as host OS.
+
+   Isolated with no risk of affecting co-located applications, multiple
+   applications can now run on a single server enabling more efficient
+   resource utilization — a true revolution at the time.
+
+   From an application standpoint, there is no difference between running
+   on a VM or a real physical machine. From a system administrator’s
+   perspective, however, VMs are much more convenient since adding or
+   deleting VMs is significantly easier, simplifying day-to-day
+   infrastructure management.
+
+Large Enterprise Applications and Distributed Systems
+
+   Enterprise applications can be huge and often require way more compute
+   capacity than a single machine can handle. Parallel computing, running
+   multiple programs at the same time, may also be required. In order to
+   achieve that, multiple machines are connected through a network forming
+   a distributed application/system. The two main characteristics of a
+   distributed system are (1) a collection of autonomous virtual or
+   physical machines (2) that appears as one single coherent system to the
+   end-user (which can be a person or an application).
+
+   A group of machines that works together forms a cluster; each machine
+   is referred to as a node.   For a cluster to realize a common goal,
+   nodes must communicate or “exchange messages.” Over the network, data
+   is exchanged, commands given or accepted, status updates provided, etc.
+
+   The key concept here is that a cluster or distributed system becomes
+   one big powerful machine even though the nodes may not necessarily be
+   located in the same physical location.
+
+   Unless we are dealing with monolithic applications (typically older
+   applications that were built as one single entity), these large
+   distributed applications are modular and broken down into several
+   components that are placed into VMs. This eases updates, fixes, and
+   rollouts. It also means that if one component crashes, the entire
+   system isn’t necessarily down.
+
+Containers: New Lightweight VMs
+
+   Containers are the next step in the virtualization evolution. Unlike
+   VMs which require a guest OS consuming additional resources, containers
+   are more lightweight. That means you can deploy a lot more containers
+   on a single machine than VMs — again a significant efficiency gain.
+
+   Another great benefit of containers is that they are portable.
+   Portability means that they work on and can be moved between any
+   environment (e.g. migrate an application from a data center to the
+   cloud) without affecting the application. Everything the application
+   needs is in the container making it completely environment independent
+   — yet another huge development in IT.
+
+   When using VMs, on the other hand, infrastructure dependencies remain.
+   Different clouds or data centers have different virtualization tools.
+   That means I can’t just take a VM that resides on-premise and move it
+   to the Amazon Cloud which uses its own virtualization technology.
+   Moving an application requires placing it into a VM for that particular
+   environment as well as further configuration and testing. This brings
+   additional risk and must be carefully planned and prepared for. All
+   this isn’t necessary if you migrate containers, saving companies a lot
+   of resources.
+
+Microservices
+
+   Microservices are applications broken down into even smaller
+   components. Each microcomponent is called a service — hence
+   microservices. More components mean more VMs or containers are needed.
+   The fact that containers require a lot less resources made
+   microservices feasible for many organizations which is why we are
+   hearing so much about them now.
+
+   Placed into a container, each microservice is isolated from one
+   another. Why is this beneficial? Well, the smaller an independent
+   component, the easier to build, test, deploy, debug, and fix. Clearly,
+   it’s much easier to find a bug in a few lines of code than hundreds of
+   them. Since they are isolated, it’s also easier to roll back should a
+   new feature or update prove problematic. But how micro should a
+   microservice be to be considered as such? One way of defining it is
+   code that can be built, tested, and deployed within a week.
+
+Container Orchestrators
+
+   If a legacy app with hundreds of VMs migrates to containers, it may now
+   be composed of thousands of containers. As you can imagine, managing
+   them all manually is just impossible. This is where container
+   orchestration tools, like Kubernetes, come in. The orchestrator ensures
+   the right number of containers are up and running and, if necessary,
+   intervenes to fix it. It automates a lot of otherwise very cumbersome
+   manual work which would make it impossible to scale. A container
+   orchestrator spans across the entire cluster and abstracts away the
+   underlying resources (hardware across the cluster such as CPU, memory,
+   and storage).
+
+   While there are a few container orchestrators on the market (Docker
+   Swarm is a well-known example), Kubernetes won the container war and in
+   2018 all major cloud providers adopted it.
+
+Kubernetes Enters the World Stage
+
+   Originally developed by Google and donated to the open source community
+   in 2014, Kubernetes is one of the hottest open source projects right
+   now. If you’re reading this you likely know it’s huge, but what exactly
+   does it do?
+
+   One way of seeing Kubernetes is as some type of data center or cluster
+   OS. As outlined above, a cluster is nothing more than a collection of
+   computers running on-premise, in clouds, physical and/or virtual
+   machines (yes! You can mix and match) which is connected over a network
+   appearing as a single large computer to the user. Cluster resources are
+   managed by Kubernetes, just like your OS manages the resources of your
+   laptop. Developers don’t have to worry about which CPU or memory their
+   apps should use, Kubernetes takes care of that.
+
+Cluster Components
+
+   A cluster is made up of a master node and multiple worker nodes. All
+   nodes are Linux hosts (machines running on Linux), although recently
+   Kubernetes started supporting Windows nodes as well. The actual
+   containerized app is running on the worker nodes. Each container is
+   placed in a pod — a sandbox-like environment that doesn’t play a major
+   role except for hosting and grouping containers. To scale an app, you
+   scale pods with their respective containers, not just containers.
+
+   The master is the brain of the cluster. This is where all control and
+   scheduling decisions are made. It ensures the application pods are up
+   and running as defined by the declarative state through watch loops
+   (more to that below). No applications run on the master except for
+   system applications. Its function is purely focused on monitoring and
+   managing the cluster.
+
+Kubernetes Benefits
+
+   Kubernetes brings a lot of great capabilities, the most revolutionary
+   are:
+
+   Declarative state — at the heart of Kubernetes is the declarative
+   model. Developers declare the desired state of their application (e.g.
+   how many pod replicas with which configuration, etc. their app needs)
+   and Kubernetes implements watch loops to ensure the cluster doesn’t
+   deviate from the desired state. This is a very powerful capability and
+   enables self-healing and scaling.
+
+   Self-healing — enabled by the declarative model, Kubernetes ensures the
+   cluster always matches the declarative state. Meaning it heals itself
+   when there is a discrepancy. If Kubernetes detects a deviation,
+   Kubernetes kicks in and fixes it (e.g. if a pod goes down, a new one
+   will be deployed to match the desired state).
+
+   Auto-scaling — Kubernetes has the capacity to automatically scale up
+   (spin up more nodes and/or pods) when capacity peaks (e.g. more people
+   watching Netflix on a Friday evening requires a lot more compute
+   resources from Netflix’ servers) and down again after a peak. This is a
+   tremendous asset, especially in the modern cloud, where costs are based
+   on the resources consumed.
+
+Kubernetes Is Great, But…
+
+   Kubernetes is really hard. Expertise is hard to find and it’s not a
+   full-fledged, ready-to-use solution. Kubernetes and containers are only
+   one part of the puzzle. To run applications on Kubernetes in
+   production, enterprises need an entire technology stack. You’ll need
+   something for logging and monitoring (gather and analyze application
+   metrics to know if all is going well), role-based access control,
+   commonly abbreviated as RBAC, (to ensure only those who should get
+   access to a cluster do), disaster recovery, and much more. Configuring
+   and fine-tuning these different technologies so they work well with
+   Kubernetes is no easy task and requires significant resources—time,
+   money, and highly specialized skills. Additionally, Kubernetes’
+   quarterly release schedule means, companies have to keep up with
+   regular updates. Most organizations have neither the resources nor the
+   in-house expertise to deploy pure open-source Kubernetes.
+
+   The complexity of Kubernetes gave birth to numerous Kubernetes
+   solutions. Just visit
+   [https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north
+   -america-2019/]KubeCon, the official Kubernetes conference, and you’ll
+   see an entire show floor full of Kubernetes solutions — all trying to
+   ease Kubernetes adoption. While some address one particular area (e.g.
+   Portworx, Linkered), others focus on a broader area such as security,
+   compliance, and operations (e.g. Kublr). It can be pretty confusing
+   navigating the space as, at first sight, they are all Kubernetes
+   solutions. However, while the space seems crowded it really isn’t, at
+   least not as much as it may seem.
+
+The Business Impact
+
+   Breaking applications down into microservices has allowed today’s big
+   cloud-born enterprises (e.g. Amazon, Google, Uber) to rapidly push out
+   new features and updates or roll them back should they not work as
+   planned. This provides them with the agility to adapt quickly,
+   outpacing more traditional competitors. This trend has put enormous
+   pressure on more traditional organizations as their pace of change is
+   significantly slower. The current trend towards digital transformation
+   is driven by the competitive advantage these technologies are providing
+   their adopters. As more companies adopt these technologies,
+   organizations are forced to adopt them too or risk becoming obsolete.
+
+   Containers and Kubernetes have revolutionized how companies do business
+   today. Software is playing an ever-increasing role for business success
+   and these technologies are enabling the software to improve and adapt
+   to market demands at an ever-increasing pace. Today, IT is no longer a
+   vertically aligned department; it runs horizontally across the entire
+   organization. Every department is enabled by software, be it a new data
+   analytics tool providing valuable insights about market trends or an AI
+   platform that customizes content to customer needs, increasing
+   retention. Whoever adapts and evolves faster, has a competitive edge.
+
+   Since we are at it, let’s put three more related buzzwords into
+   context: cloud native, DevOps, and digital transformation — all part of
+   this trend. The cloud native stack, also referred to as the new stack,
+   is used to build cloud native applications. Cloud native applications
+   are defined as containerized, dynamically orchestrated (a.k.a.
+   Kubernetes), and microservices-oriented. While developed for the cloud,
+   the cloud native stack is not cloud-bound. Today, a lot of enterprises
+   deploy containers and Kubernetes on-premises, sometimes even in
+   air-gapped environments (environments completely isolated from the
+   outside world with no connectivity). In fact, many of Kublr’s users
+   come to us for that particular use case.
+
+   DevOps, a methodology enabled by cloud native technologies, integrates
+   development, IT operations, quality assurance, and IT security. Well
+   implemented, it translates into better code, reduced cost as well as a
+   more motivated team. Getting there, however, requires a huge cultural
+   shift within the organization. In fact, experience has shown that it’s
+   easier to adopt the new stack (and that’s quite challenging already!)
+   than changing the corporate culture to embrace this radically different
+   way of doing things.
+
+   Digital transformation is the broader term that characterizes this
+   entire trend. It refers to the process of moving an organization to an
+   agile software-first approach to cope with the rapidly changing
+   technology developments — imperative to stay competitive today. Digital
+   transformation is enabled and made more efficient and agile by the new
+   stack and a DevOps approach.
+
+   I hope this provided you with the necessary context to read on and
+   learn more about this exciting space. We are currently witnessing a
+   true IT revolution and understanding what’s going on is pretty
+   exciting! If this article was helpful or if you have any comments,
+   please feel free to [https://twitter.com/CathPaga]tweet at me.
+
+   [https://kublr.com/infographic/kubernetes-primer.pdf]
+
+   Created with Sketch.
+
+   [https://thenewstack.io/author/catherine-paganini/]
+   [5984c027-screen-shot-2020-12-08-at-8.51.01-am-600x600.png]
+   Catherine Paganini is co-chair of the CNCF Business Value Subcommittee
+   and Head of Marketing at Buoyant, the creator of Linkerd. A marketing
+   leader turned cloud native evangelist, Catherine is passionate about
+   educating the broader community on the new stack and...
+   Read more from Catherine Paganini
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fprimer-ho
+   w-kubernetes-came-to-be-what-it-is-and-why-you-should-care%2F&text=Prim
+   er%3A+How+Kubernetes+Came+to+Be%2C+What+It+Is%2C+and+Why+You+Should+Car
+   e:%20&via=thenewstack][https://news.ycombinator.com/submitlink?u=https%
+   3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-is-an
+   d-why-you-should-care%2F][https://www.linkedin.com/sharing/share-offsit
+   e/?url=https%3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-
+   what-it-is-and-why-you-should-care%2F][https://reddit.com/submit?url=ht
+   tps%3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-i
+   s-and-why-you-should-care%2F&title=Primer%3A+How+Kubernetes+Came+to+Be%
+   2C+What+It+Is%2C+and+Why+You+Should+Care][https://www.facebook.com/shar
+   er/sharer.php?u=https://thenewstack.io/primer-how-kubernetes-came-to-be
+   -what-it-is-and-why-you-should-care/]
+   RELATED STORIES
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   [https://thenewstack.io/canonical-shrinks-openstack-for-small-clouds-wi
+   th-sunbeam/]Canonical Shrinks OpenStack for Small Clouds with Sunbeam
+   [https://thenewstack.io/7-core-elements-of-an-internal-developer-platfo
+   rm/]7 Core Elements of an Internal Developer Platform
+   [https://thenewstack.io/microsoft-adopts-openinfra-kata-containers-secu
+   rity-on-azure/]Microsoft Adopts OpenInfra Kata Containers Security on
+   Azure
+   [https://thenewstack.io/managing-kubernetes-complexity-in-multicloud-en
+   vironments/]Managing Kubernetes Complexity in Multicloud Environments
+
+   KubeCon + CloudNativeCon is a sponsor of The New Stack.
+   TNS owner Insight Partners is an investor in: Docker.
+
+   SHARE THIS STORY
+   [https://twitter.com/share?url=https%3A%2F%2Fthenewstack.io%2Fprimer-ho
+   w-kubernetes-came-to-be-what-it-is-and-why-you-should-care%2F&text=Prim
+   er%3A+How+Kubernetes+Came+to+Be%2C+What+It+Is%2C+and+Why+You+Should+Car
+   e:%20&via=thenewstack][https://news.ycombinator.com/submitlink?u=https%
+   3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-is-an
+   d-why-you-should-care%2F][https://www.linkedin.com/sharing/share-offsit
+   e/?url=https%3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-
+   what-it-is-and-why-you-should-care%2F][https://reddit.com/submit?url=ht
+   tps%3A%2F%2Fthenewstack.io%2Fprimer-how-kubernetes-came-to-be-what-it-i
+   s-and-why-you-should-care%2F&title=Primer%3A+How+Kubernetes+Came+to+Be%
+   2C+What+It+Is%2C+and+Why+You+Should+Care][https://www.facebook.com/shar
+   er/sharer.php?u=https://thenewstack.io/primer-how-kubernetes-came-to-be
+   -what-it-is-and-why-you-should-care/]
+   RELATED STORIES
+   [https://thenewstack.io/the-need-to-roll-up-your-sleeves-for-webassembl
+   y/]The Need to Roll up Your Sleeves for WebAssembly
+   [https://thenewstack.io/dont-force-containers-and-disrupt-workflows/]Do
+   n't Force Containers and Disrupt Workflows
+   [https://thenewstack.io/can-rancher-deliver-on-making-kubernetes-easy/]
+   Can Rancher Deliver on Making Kubernetes Easy?
+   [https://thenewstack.io/running-service-blueprint-for-a-kubernetes-deve
+   loper-portal/]‘Running Service’ Blueprint for a Kubernetes Developer
+   Portal
+   [https://thenewstack.io/7-core-elements-of-an-internal-developer-platfo
+   rm/]7 Core Elements of an Internal Developer Platform
+
+   THE NEW STACK UPDATE A newsletter digest of the week’s most important
+   stories & analyses.
+   ____________________ (BUTTON) SUBSCRIBE
+   The New stack does not sell your information or share it with
+   unaffiliated third parties. By continuing, you agree to our
+   [https://thenewstack.io/terms-of-use/]Terms of Use and
+   [https://thenewstack.io/privacy-policy/]Privacy Policy.
+
+   ARCHITECTURE
+   [https://thenewstack.io/cloud-native/]Cloud Native Ecosystem
+   [https://thenewstack.io/containers/]Containers
+   [https://thenewstack.io/edge-computing/]Edge Computing
+   [https://thenewstack.io/microservices/]Microservices
+   [https://thenewstack.io/networking/]Networking
+   [https://thenewstack.io/serverless/]Serverless
+   [https://thenewstack.io/storage/]Storage
+   ENGINEERING
+   [https://thenewstack.io/frontend-development/]Frontend Development
+   [https://thenewstack.io/software-development/]Software Development
+   [https://thenewstack.io/typescript/]Typescript
+   [https://thenewstack.io/webassembly/]WebAssembly
+   [https://thenewstack.io/cloud-services/]Cloud Services
+   [https://thenewstack.io/data/]Data
+   [https://thenewstack.io/security/]Security
+   OPERATIONS
+   [https://thenewstack.io/platform-engineering/]Platform Engineering
+   [https://thenewstack.io/operations/]Operations
+   [https://thenewstack.io/ci-cd/]CI/CD
+   [https://thenewstack.io/tech-culture/]Tech Life
+   [https://thenewstack.io/devops/]DevOps
+   [https://thenewstack.io/kubernetes/]Kubernetes
+   [https://thenewstack.io/observability/]Observability
+   [https://thenewstack.io/service-mesh/]Service Mesh
+   CHANNELS
+   [https://thenewstack.io/podcasts/]Podcasts
+   [https://thenewstack.io/ebooks/]Ebooks
+   [https://thenewstack.io/events/]Events
+   [https://thenewstack.io/newsletter/]Newsletter
+   [https://thenewstack.io/feed/]TNS RSS Feed
+   THE NEW STACK
+   [https://thenewstack.io/about-and-contact-info/]About / Contact
+   [https://thenewstack.io/sponsors/]Sponsors
+   [https://thenewstack.io/sponsorship/]Sponsorship
+   [https://thenewstack.io/contributions/]Contributions
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   [https://roadmap.sh/?utm_source=The+New+Stack&utm_medium=Referral&utm_c
+   ampaign=Footer]
+   roadmap.sh
+
+   Community created roadmaps, articles, resources and journeys for
+   developers to help you choose your path and grow in your career.
+   [https://roadmap.sh/frontend?utm_source=The+New+Stack&utm_medium=Referr
+   al&utm_campaign=Footer]Frontend Developer Roadmap
+   [https://roadmap.sh/backend?utm_source=The+New+Stack&utm_medium=Referra
+   l&utm_campaign=Footer]Backend Developer Roadmap
+   [https://roadmap.sh/devops?utm_source=The+New+Stack&utm_medium=Referral
+   &utm_campaign=Footer]Devops Roadmap
+   © The New Stack 2023
+   [https://thenewstack.io/disclosure-guidelines/]Disclosures
+   [https://thenewstack.io/terms-of-use/]Terms of Use
+   [https://thenewstack.io/privacy-policy/]Privacy Policy
+   [https://thenewstack.io/cookie-policy/]Cookie Policy
+
+   FOLLOW TNS
+   [https://twitter.com/thenewstack][https://www.linkedin.com/company/the-
+   new-stack][https://www.facebook.com/thenewstack/][https://www.instagram
+   .com/thenewstack/][https://www.youtube.com/c/thenewstack/]
+   TNS DAILY: NEVER MISS A STORY
+   (BUTTON) SUBSCRIBE
+   TNS DAILY
+   We've launched a new daily email newsletter! You can now receive a free
+   roundup of the most recent TNS articles in your inbox each day.
+   Register now, never miss a story, always stay in-the-know.
+   ____________________ (BUTTON) SUBSCRIBE

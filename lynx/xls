@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/ > $(basename https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/).txt

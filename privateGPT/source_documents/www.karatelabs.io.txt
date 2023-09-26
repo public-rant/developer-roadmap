@@ -1,0 +1,318 @@
+   [https://www.karatelabs.io/]logo
+     * Products
+          +
+             Products
+               o [https://www.karatelabs.io/products]Install karate
+                 Open-Source
+               o [https://www.karatelabs.io/api-documentation-k-flow]Insta
+                 ll karate API Documentation (K-Flow)
+          + [https://www.karatelabs.io/api-testing-products]API Testing
+          + [https://www.karatelabs.io/api-performance-testing]API
+            Performance Testing
+          + [https://www.karatelabs.io/api-mocks-products]API Mocks
+          + [https://www.karatelabs.io/ui-testing]UI Testing
+     * [https://www.karatelabs.io/integrations]Integrations
+     * Resources
+          +
+             [https://www.karatelabs.io/get-started]Get Started
+               o [https://github.com/karatelabs/karate/wiki/Get-Started:-V
+                 isual-Studio-Code]Install karate Visual Studio Code
+               o [https://github.com/karatelabs/karate/wiki/Get-Started:-J
+                 etBrains-IntelliJ]Install karate JetBrains IntelliJ
+               o [https://github.com/karatelabs/karate/wiki/Get-Started:-M
+                 aven-and-Gradle]Install karate Maven and Gradle
+          +
+             Learning
+               o [https://www.karatelabs.io/learning#blogs]Install karate
+                 Blogs
+               o [https://www.karatelabs.io/learning#tutorials]Install
+                 karate Tutorials
+               o [https://www.karatelabs.io/learning#webinars]Install
+                 karate Webinars
+          +
+             Support
+               o [https://www.karatelabs.io/support]Install karate Stack
+                 Overflow
+               o [https://www.karatelabs.io/support]Install karate GitHub
+                 Issues
+               o [https://www.karatelabs.io/support]Install karate
+                 Enterprise Support
+     * [https://www.karatelabs.io/pricing]Pricing
+     * [https://www.karatelabs.io/company]Company
+
+   IFRAME:
+   [https://ghbtns.com/github-btn.html?user=karatelabs&repo=karate&type=st
+   ar&count=true&size=large]https://ghbtns.com/github-btn.html?user=karate
+   labs&repo=karate&type=star&count=true&size=large
+
+   [javascript:void(0)]Log In [https://studio.karatelabs.io/signin]Sign up
+
+Open-Source Test Automation Platform
+
+   Unifying API testing, API Performance testing, API Mocks and UI
+   testing.
+   [https://www.karatelabs.io/get-started]Get Started
+   [https://www.youtube.com/watch?v=dt3BY_qCBc8]Watch Video
+   banner-review-1 ellipse-11 banner-review-3
+
+   1000+
+   Happy customers
+
+   [https://www.capterra.com/p/10008803/Karate-Labs/#reviews]4.8/5
+   star3 star3 star3 star3 Rating
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+   trusted user
+
+Products
+
+   Karate is an open-source unified test automation platform combining API
+   testing, API performance testing, API mocks & UI testing. Karate
+   customers typically save 80% time when writing tests for a single
+   endpoint, use 60% less code, and tests execute faster and integrate
+   seamlessly into existing infrastructure.
+
+   1+ million monthly downloads, used by 415+ companies including 42 of
+   the Fortune 500, are a testimony of Karate making it exceptionally
+   simple to write tests (low code), simulating end-user workflows
+   accurately, re-using API tests as performance tests, parallel
+   execution, collaboration via Git and zero set-up onboarding...
+   [https://www.karatelabs.io/products]READ MORE
+   [https://www.karatelabs.io/api-testing-products]
+   API-Testing
+
+API Testing
+
+   API Testing can solve specific problems that trouble the world of
+   test-automation....
+   [https://www.karatelabs.io/api-performance-testing]API-Testing
+
+API Performance Testing
+
+   API performance testing validates the quality of any application or
+   software built using APIs....
+   [https://www.karatelabs.io/api-mocks-products]API-Testing
+
+API Mocks
+
+   API mocks or test-doubles are an essential piece of the puzzle when it
+   comes to testing...
+   [https://www.karatelabs.io/ui-testing]API-Testing
+
+UI Testing
+
+   Karate’s standards compliant web-browser automation framework takes the
+   pain out of UI...
+   [https://www.karatelabs.io/api-documentation-k-flow]API-Testing
+
+API Documentation
+
+   The demand for APIs will continue to rise due to the ever-increasing
+   need to design cutting-edge...
+
+Integrations
+
+   "Karate makes your continuous testing journey more productive with
+   native and easy integrations with the most popular tools that fit into
+   your quality and DevOps architecture."
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   integrations
+   [https://www.karatelabs.io/integrations]VIEW ALL OUR INTEGRATIONS
+
+Resources
+
+   [https://www.karatelabs.io/media/uzmkmpvo/navigating-the-brave-new-worl
+   d-of-api-testing.pdf]
+   resources
+
+Have you ever wondered if your teams should be doing more API testing ? Do
+you.......
+
+   Navigating the Brave New World of API Testing’ distils years of
+   software development and testing.....
+   [https://www.karatelabs.io/learning/the-karate-advantage-5-compelling-r
+   easons-to-switch-from-selenium-for-test-automation]resources
+
+The Karate Advantage: 5 Compelling Reasons to Switch from Selenium for Test
+Automation
+
+   <p>Test automation has become an integral part of software development
+   processes, aiding in efficient and reliable testing. Selenium has long
+   been the go-to tool for web automation testing</p> <p>Karate is an
+   open-source framework that offers unique advantages over Selenium. In
+   this article, we will compare Selenium to Karate and present five
+   compelling reasons to make a switch.</p>
+   [https://www.karatelabs.io/learning#blogs]KNOW MORE
+
+Why Karate?
+
+   Open-Source Unified Test Automation Plattform
+   [https://www.karatelabs.io/api-testing-products]
+
+API Testing
+
+   API-Testing [https://www.karatelabs.io/api-performance-testing]
+
+API Performance Testing
+
+   API-Testing [https://www.karatelabs.io/api-mocks-products]
+
+API Mocks
+
+   API-Testing [https://www.karatelabs.io/ui-testing]
+
+UI Testing
+
+   API-Testing
+
+Top Differentiators
+
+   API Assertions
+
+API Assertions
+
+   Low-Code Schema Matching
+   API Assertions
+
+End-user workflows
+
+   Designed to chain API calls & user actions
+   API Assertions
+
+Data Driven Testing
+
+   Loop with ease and even use CSV files
+   API Assertions
+
+Parallel Execution
+
+   10 times faster than single-threaded
+   API Assertions
+
+Java Interop
+
+   Test DB calls, async,gRPC,Kafka etc.
+   API Assertions
+
+Re-use as Perf. Tests
+
+   Save time instead of re-writing tests in a 2nd tool
+   API Assertions
+
+Easy for non-programers
+
+   Product owner can contribute to tests.
+
+Get Started with Karate
+
+Create something that will amaze your users
+
+   [https://www.karatelabs.io/get-started]try karate
+   [https://www.karatelabs.io/contact-us/]talk to us
+   subscribe
+
+Subscribe to our email and get updates right in your inbox.
+
+   ____________________
+
+   ____________________
+   (Submit) SUBSCRIBE
+
+   [https://www.karatelabs.io/]logo
+
+   "We launched the Karate IntelliJ and Visual Studio code plugins to
+   simplify installations, configuration, and maintenance. With Karate's
+   "LOCAL-FIRST" approach, user data remains within the customer's
+   firewall, ensuring security and addressing any concerns.
+   [https://www.karatelabs.io/get-started]Get Started
+   [javascript:void(0)]Log In
+
+Home
+
+     * [https://www.karatelabs.io/#products]Products
+     * [https://www.karatelabs.io/#Integrations]Integrations
+     * [https://www.karatelabs.io/#Resources]Resources
+     * [https://www.karatelabs.io/#whyKarate]Why Karate
+
+Company
+
+     * [https://www.karatelabs.io/company#origin_of_karate]Origin of
+       Karate
+     * [https://www.karatelabs.io/company#Why_we%E2%80%99re_different]Why
+       we’re different
+     * [https://www.karatelabs.io/company#partners]Partners
+     * [https://www.karatelabs.io/company#core_team]Core Team
+     * [https://www.karatelabs.io/company#investors]Investors
+     * [https://www.karatelabs.io/news]News
+
+Products
+
+     * [https://www.karatelabs.io/api-testing-products]API Testing
+     * [https://www.karatelabs.io/api-performance-testing]API Performance
+       Testing
+     * [https://www.karatelabs.io/api-mocks-products]API Mocks
+     * [https://www.karatelabs.io/ui-testing/]UI Testing
+     * [https://www.karatelabs.io/api-documentation-k-flow]API
+       Documentation
+
+Resouces
+
+     * [https://github.com/karatelabs/karate/wiki/Get-Started:-Visual-Stud
+       io-Code]Visual Studio Code
+     * [https://github.com/karatelabs/karate/wiki/Get-Started:-JetBrains-I
+       ntelliJ]JetBrains Intellij
+     * [https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-G
+       radle]Maven and Gradle
+     * [https://github.com/karatelabs/karate/wiki/Get-Started:-GitHub-Code
+       spaces]GitHub Codespaces
+     * [https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runti
+       me-Options]Other runtime options
+     * [https://github.com/karatelabs/karate-examples/blob/main/README.md]
+       Examples
+
+Learning
+
+     * [https://www.karatelabs.io/learning#blogs]Blogs
+     * [https://www.karatelabs.io/learning#tutorials]Tutorials
+     * [https://www.karatelabs.io/learning#webinars]Webinars
+
+   [https://www.karatelabs.io/pricing]Pricing
+
+Support
+
+     * [https://www.karatelabs.io/support]Stack overflow
+     * [https://www.karatelabs.io/support]GitHub Issues
+     * [https://www.karatelabs.io/support]Enterprise Support
+
+   [https://www.karatelabs.io/contact-us/]Contact Us
+
+     * © 2023 by Karate Labs Inc.
+     * [https://www.karatelabs.io/privacy-policy]Privacy
+     * [https://www.karatelabs.io/terms-of-service]Terms of Service
+
+     * [https://github.com/karatelabs]Github
+     * [https://stackoverflow.com/questions/tagged/karate]stackoverflow
+     * [https://twitter.com/getkarate]twitter
+     * [https://www.linkedin.com/company/karatelabs]linkdin
+     * [https://www.youtube.com/@karatelabs]youtube
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-TRL96ZH]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-TRL96ZH

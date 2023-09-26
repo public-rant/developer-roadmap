@@ -1,0 +1,15 @@
+{
+  "name": "gymnasium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/public-rant/developer-roadmap.git",
+  "author": "Richard Anthony <82001325+public-rant@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs": "zx CONTRIBUTING.md"
+  },
+  "dependencies": {
+    "zx": "^7.2.3"
+  }
+}

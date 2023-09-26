@@ -1,0 +1,1141 @@
+   [https://www.javatpoint.com/]Javatpoint Logo
+   Go To Top [https://www.javatpoint.com/]Javatpoint Logo
+     * [https://www.javatpoint.com/]Home
+     * [https://www.javatpoint.com/operating-system]Operating System
+     * [https://www.javatpoint.com/c-programming-language-tutorial]C
+     * [https://www.javatpoint.com/java-tutorial]Java
+     * [https://www.javatpoint.com/php-tutorial]PHP
+     * [https://www.javatpoint.com/html-tutorial]HTML
+     * [https://www.javatpoint.com/css-tutorial]CSS
+     * [https://www.javatpoint.com/bootstrap-tutorial]Bootstrap
+     * [https://www.javatpoint.com/javascript-tutorial]JavaScript
+     * [https://www.javatpoint.com/jquery-tutorial]jQuery
+     * [https://www.javatpoint.com/jquery-ui-tutorial]jQuery UI
+     * [https://www.javatpoint.com/free-java-projects]Projects
+     * [https://www.javatpoint.com/corejava-interview-questions]Interview
+       Q
+
+   [INS: :INS]
+
+Operating System
+
+   [https://www.javatpoint.com/operating-system]Operating System
+   [https://www.javatpoint.com/types-of-operating-systems]Types of
+   Operating Systems
+
+Process Management
+
+   [https://www.javatpoint.com/process-management-in-os]Process Management
+   in OS [https://www.javatpoint.com/os-attributes-of-a-process]Attributes
+   of a Process [https://www.javatpoint.com/os-process-states]Process
+   States [https://www.javatpoint.com/os-process-schedulers]Process
+   Schedulers [https://www.javatpoint.com/os-process-queues]Process Queues
+   [https://www.javatpoint.com/os-various-time-related-to-the-process]Time
+   s Related to Process [https://www.javatpoint.com/os-cpu-scheduling]CPU
+   Scheduling
+   [https://www.javatpoint.com/os-scheduling-algorithms]Scheduling
+   Algorithms [https://www.javatpoint.com/os-fcfs-scheduling]FCFS
+   Scheduling [https://www.javatpoint.com/os-convoy-effect-in-fcfs]Convoy
+   Effect in FCFS [https://www.javatpoint.com/os-fcfs-with-overhead]FCFS
+   with overhead [https://www.javatpoint.com/os-sjf-scheduling]SJF
+   Scheduling
+   [https://www.javatpoint.com/os-prediction-of-cpu-burst-time-for-a-proce
+   ss-in-sjf]Burst Time Prediction
+   [https://www.javatpoint.com/os-srtf-scheduling-algorithm]SRTF
+   scheduling [https://www.javatpoint.com/os-srtf-gate-2011-example]SRTF
+   GATE 2011 Example
+   [https://www.javatpoint.com/os-round-robin-scheduling-algorithm]Round
+   Robin Scheduling
+   [https://www.javatpoint.com/os-round-robin-scheduling-example]RR
+   scheduling Example [https://www.javatpoint.com/os-hrrn-scheduling]HRRN
+   Scheduling [https://www.javatpoint.com/os-hrrn-example]HRNN Example
+   [https://www.javatpoint.com/os-priority-scheduling]Priority Scheduling
+   [https://www.javatpoint.com/os-non-preemptive-priority-scheduling]Non
+   Preemptive Priority
+   [https://www.javatpoint.com/os-preemptive-priority-scheduling]Preemptiv
+   e Priority
+   [https://www.javatpoint.com/os-srtf-with-processes-contains-cpu-and-io-
+   time]SRTF:IO bound processes
+
+Synchronization
+
+   [https://www.javatpoint.com/os-process-synchronization-introduction]Int
+   roduction
+   [https://www.javatpoint.com/os-critical-section-problem]Critical
+   Section Problem
+   [https://www.javatpoint.com/os-lock-variable-mechanism]Lock Variable
+   Mechanism [https://www.javatpoint.com/os-tsl-mechanism]TSL Mechanism
+   [https://www.javatpoint.com/os-priority-inversion-in-tsl]Priority
+   Inversion in TSL
+   [https://www.javatpoint.com/os-turn-variable-or-strict-alternation-appr
+   oach]Turn Variable
+   [https://www.javatpoint.com/os-interested-variable-mechanism]Interested
+   Variable [https://www.javatpoint.com/os-paterson-solution]Paterson
+   Solution
+   [https://www.javatpoint.com/os-synchronization-mechanism-without-busy-w
+   aiting]Without Busy Waiting
+   [https://www.javatpoint.com/os-sleep-and-wake]Sleep and Wake
+   [https://www.javatpoint.com/os-semaphore-introduction]Semaphore
+   Introduction [https://www.javatpoint.com/os-counting-semaphore]Counting
+   Semaphore
+   [https://www.javatpoint.com/os-problem-on-counting-semaphore]Problem on
+   counting semaphore
+   [https://www.javatpoint.com/os-binary-semaphore-or-mutex]Binary
+   Semaphore
+
+Deadlocks
+
+   [https://www.javatpoint.com/os-deadlocks-introduction]Introduction
+   [https://www.javatpoint.com/os-strategies-for-handling-deadlock]strateg
+   ies Handling
+   [https://www.javatpoint.com/os-deadlock-prevention]Deadlock Prevention
+   [https://www.javatpoint.com/os-deadlock-avoidance]Deadlock Avoidance
+   [https://www.javatpoint.com/os-resource-allocation-graph]Resource
+   Allocation Graph
+   [https://www.javatpoint.com/os-deadlock-detection-using-rag]Detection
+   using RAG
+   [https://www.javatpoint.com/os-deadlock-detection-and-recovery]Detectio
+   n and Recovery
+
+Memory Management
+
+   [https://www.javatpoint.com/os-memory-management-introduction]Introduct
+   ion [https://www.javatpoint.com/os-fixed-partitioning]Fixed
+   Partitioning
+   [https://www.javatpoint.com/os-dynamic-partitioning]Dynamic
+   Partitioning [https://www.javatpoint.com/os-compaction]Compaction
+   [https://www.javatpoint.com/os-bit-map-for-dynamic-partitioning]Bit Map
+   for Dynamic Partitioning
+   [https://www.javatpoint.com/os-linked-list-for-dynamic-partitioning]Lin
+   ked List for Dynamic Partitioning
+   [https://www.javatpoint.com/os-partitioning-algorithms]Partitioning
+   Algorithms
+   [https://www.javatpoint.com/os-gate-question-on-best-fit-and-first-fit]
+   GATE on Best Fit & First Fit
+   [https://www.javatpoint.com/os-need-for-paging]Need for Paging
+   [https://www.javatpoint.com/os-paging-with-example]Paging with Example
+   [https://www.javatpoint.com/os-basics-of-binary-addresses]Binary
+   Addresses
+   [https://www.javatpoint.com/os-physical-and-logical-address-space]Physi
+   cal & Logical Address [https://www.javatpoint.com/os-page-table]Page
+   Table
+   [https://www.javatpoint.com/os-mapping-from-page-table-to-main-memory]M
+   apping from page table
+   [https://www.javatpoint.com/os-page-table-entry]Page Table Entry
+   [https://www.javatpoint.com/os-page-table-size]Page Table Size
+   [https://www.javatpoint.com/os-finding-optimal-page-size]Finding
+   Optimal Page Size [https://www.javatpoint.com/os-virtual-memory]Virtual
+   Memory
+   [https://www.javatpoint.com/os-translation-look-aside-buffer]Look aside
+   Buffer [https://www.javatpoint.com/os-gate-2014-question-on-tlb]GATE
+   question on TLB [https://www.javatpoint.com/os-demand-paging]Demand
+   Paging [https://www.javatpoint.com/os-inverted-page-table]Inverted Page
+   Table [https://www.javatpoint.com/os-page-replacement-algorithms]Page
+   Replacement
+   [https://www.javatpoint.com/os-gate-2015-question-on-lru-and-fifo]Gate
+   on LRU and FIFO
+   [https://www.javatpoint.com/os-numerical-on-lru-fifo-and-optimal]Numeri
+   cal on LRU, FIFO [https://www.javatpoint.com/os-beladys-anamoly]Beladys
+   Anamoly [https://www.javatpoint.com/os-segmentation]Segmentation
+   [https://www.javatpoint.com/os-paging-vs-segmentation]Paging VS
+   Segmentation [https://www.javatpoint.com/os-segmented-paging]Segmented
+   Paging
+
+File Management
+
+   [https://www.javatpoint.com/os-attributes-of-the-file]Attributes of the
+   File [https://www.javatpoint.com/os-operations-on-the-file]Operations
+   on the File [https://www.javatpoint.com/os-file-access-methods]File
+   Access Methods
+   [https://www.javatpoint.com/os-directory-structure]Directory Structure
+   [https://www.javatpoint.com/os-single-level-directory]Single level
+   Directory [https://www.javatpoint.com/os-two-level-directory]Two level
+   Directory [https://www.javatpoint.com/os-tree-structured-directory]Tree
+   structured Directory
+   [https://www.javatpoint.com/os-acyclic-graph-directories]Acyclic Graph
+   Directories [https://www.javatpoint.com/os-file-system]File System
+   [https://www.javatpoint.com/os-file-system-structure]File System
+   Structure [https://www.javatpoint.com/os-master-boot-record]Master Boot
+   Record [https://www.javatpoint.com/os-on-disk-data-structures]On Disk
+   Data Structures
+   [https://www.javatpoint.com/os-in-memory-data-structures]In memory Data
+   structures
+   [https://www.javatpoint.com/os-directory-implementation]Directory
+   Implementation
+   [https://www.javatpoint.com/os-allocation-methods]Allocation Methods
+   [https://www.javatpoint.com/os-contiguous-allocation]Contiguous
+   Allocation [https://www.javatpoint.com/os-linked-list-allocation]Linked
+   List Allocation
+   [https://www.javatpoint.com/os-file-allocation-table]File Allocation
+   Table [https://www.javatpoint.com/os-indexed-allocation]Indexed
+   Allocation
+   [https://www.javatpoint.com/os-linked-index-allocation]Linked Index
+   Allocation [https://www.javatpoint.com/os-inode]Inode
+   [https://www.javatpoint.com/os-free-space-management]Free space
+   Management [https://www.javatpoint.com/os-disk-scheduling]Disk
+   Scheduling
+   [https://www.javatpoint.com/os-fcfs-scheduling-algorithm]FCFS
+   Scheduling
+   [https://www.javatpoint.com/os-sstf-scheduling-algorithm]SSTF
+   Scheduling
+   [https://www.javatpoint.com/os-scan-and-c-scan-algorithm]SCAN and
+   C-SCAN [https://www.javatpoint.com/os-look-and-c-look-scheduling]Look
+   and C-Look
+   [https://www.javatpoint.com/os-numerical-on-sstf-and-scan]Numerical on
+   SSTF
+   [https://www.javatpoint.com/os-numerical-on-disk-scheduling-algorithms]
+   Numerical on Disk
+
+Misc
+
+   [https://www.javatpoint.com/functions-of-operation-system]Functions of
+   OS [https://www.javatpoint.com/mobile-operating-system]Mobile OS
+   [https://www.javatpoint.com/swapping-in-operating-system]Swapping in OS
+   [https://www.javatpoint.com/threads-in-operating-system]Threads in OS
+   [https://www.javatpoint.com/fedora-operating-system]Fedora Operating
+   System [https://www.javatpoint.com/uses-of-operating-system]Uses of
+   Operating System
+   [https://www.javatpoint.com/producer-consumer-problem-in-os]Producer-Co
+   nsumer problem
+   [https://www.javatpoint.com/os-dining-philosophers-problem]Dining
+   Philosophers Problem
+   [https://www.javatpoint.com/os-readers-writers-problem]Readers Writers
+   Problem [https://www.javatpoint.com/history-of-operating-system]History
+   Of OS
+   [https://www.javatpoint.com/bankers-algorithm-in-operating-system]Banke
+   r's Algorithm in OS
+   [https://www.javatpoint.com/what-is-the-context-switching-in-the-operat
+   ing-system]What is the context switching in the operating system
+   [https://www.javatpoint.com/internal-vs-external-fragmentation]Internal
+   vs. External Fragmentation
+   [https://www.javatpoint.com/multiprocessing-operating-system]Multiproce
+   ssing Operating system
+   [https://www.javatpoint.com/multiprogramming-vs-multitasking]Multiprogr
+   amming vs Multitasking
+   [https://www.javatpoint.com/network-operating-system]Network Operating
+   System [https://www.javatpoint.com/latest-operating-systems]Latest
+   Operating System
+   [https://www.javatpoint.com/system-calls-in-operating-system]System
+   Calls in Operating System
+   [https://www.javatpoint.com/multitasking-operating-system]Multitasking
+   Operating System
+   [https://www.javatpoint.com/distributed-operating-system]Distributed
+   Operating System
+   [https://www.javatpoint.com/fragmentation-in-operating-system]Fragmenta
+   tion in Operating System
+   [https://www.javatpoint.com/multithreading-models-in-operating-system]M
+   ultithreading Models in Operating system
+   [https://www.javatpoint.com/operating-system-services]Operating system
+   services [https://www.javatpoint.com/batch-operating-system]Batch
+   Operating System
+   [https://www.javatpoint.com/embedded-operating-system]Embedded
+   Operating System
+   [https://www.javatpoint.com/time-sharing-vs-real-time-operating-system]
+   Time-Sharing vs Real-Time Operating System
+   [https://www.javatpoint.com/multi-user-operating-system]Multi-User
+   Operating System
+   [https://www.javatpoint.com/memory-management-operating-system]Memory
+   Management
+   [https://www.javatpoint.com/monolithic-structure-of-operating-system]Mo
+   nolithic Structure of Operating System
+   [https://www.javatpoint.com/ms-dos-operating-system]MS-DOS Operating
+   System
+   [https://www.javatpoint.com/spooling-in-operating-system]Spooling in
+   Operating System
+   [https://www.javatpoint.com/network-operating-system-vs-distributed-ope
+   rating-system]Network Operating System vs Distributed Operating System
+   [https://www.javatpoint.com/operating-system-vs-application-software]Op
+   erating system vs Application software
+   [https://www.javatpoint.com/system-software-vs-operating-system]System
+   Software vs Operating System
+   [https://www.javatpoint.com/real-time-operating-system]Real-Time
+   operating system
+   [https://www.javatpoint.com/booting-in-operating-system]Booting in
+   Operating System
+   [https://www.javatpoint.com/layered-structure-of-operating-system]Layer
+   ed Structure of Operating System
+   [https://www.javatpoint.com/multiprogramming-vs-time-sharing-operating-
+   system]Multiprogramming vs. Time Sharing Operating System
+   [https://www.javatpoint.com/distributed-file-system]Distributed File
+   System
+   [https://www.javatpoint.com/multiprogramming-operating-system]Multiprog
+   ramming Operating System
+   [https://www.javatpoint.com/server-operating-system]Server Operating
+   System [https://www.javatpoint.com/32-bit-vs-64-bit-operating-system]32
+   bit vs 64 bit Operating System
+   [https://www.javatpoint.com/single-user-operating-system]Single User
+   Operating System [https://www.javatpoint.com/process-vs-program]Process
+   vs Program
+   [https://www.javatpoint.com/operating-system-security]Operating System
+   Security
+   [https://www.javatpoint.com/components-of-operating-system]Components
+   of Operating System
+   [https://www.javatpoint.com/gui-operating-system]GUI Operating System
+   [https://www.javatpoint.com/android-operating-system]Android Operating
+   System
+   [https://www.javatpoint.com/buffering-in-operating-system]Buffering in
+   Operating System
+   [https://www.javatpoint.com/device-driver-in-operating-system]Device
+   Driver in Operating System
+   [https://www.javatpoint.com/best-operating-system-for-hacking]Best
+   Operating System for Hacking
+   [https://www.javatpoint.com/clustered-operating-system]Clustered
+   Operating System
+   [https://www.javatpoint.com/android-vs-windows-os]Android vs Windows OS
+   [https://www.javatpoint.com/scheduler-vs-dispatcher]Scheduler vs
+   Dispatcher [https://www.javatpoint.com/deadlock-vs-starvation]Deadlock
+   vs Starvation
+   [https://www.javatpoint.com/semaphore-vs-monitor]Semaphore vs Monitor
+   [https://www.javatpoint.com/boot-block-and-bad-block-in-operating-syste
+   m]Boot Block and Bad Block in Operating System
+   [https://www.javatpoint.com/hard-and-soft-real-time-operating-system]Ha
+   rd and Soft Real-Time Operating System
+   [https://www.javatpoint.com/concurrency-in-operating-system]Concurrency
+   in Operating System
+   [https://www.javatpoint.com/microkernel-in-operating-system]Microkernel
+   in Operating System
+   [https://www.javatpoint.com/protection-in-operating-system]Protection
+   in Operating System
+   [https://www.javatpoint.com/benefits-of-multithreading]Benefits of
+   Multithreading
+   [https://www.javatpoint.com/host-vs-guest-operating-system]Host vs
+   Guest Operating System
+   [https://www.javatpoint.com/livelock-in-operating-system]Livelock in
+   Operating System
+   [https://www.javatpoint.com/dual-mode-operations-in-operating-system]Du
+   al Mode Operations in Operating System
+   [https://www.javatpoint.com/what-is-access-token-in-operating-system]Wh
+   at is Access Token in Operating System
+   [https://www.javatpoint.com/deadlock-detection-in-distributed-systems]D
+   eadlock Detection in Distributed Systems
+   [https://www.javatpoint.com/cui-vs-gui]CUI vs GUI
+   [https://www.javatpoint.com/monolithic-vs-layered-operating-system]Mono
+   lithic vs layered Operating System
+   [https://www.javatpoint.com/mutex-vs-semaphore]Mutex vs Semaphore
+   [https://www.javatpoint.com/what-is-interleaved-memory]What is
+   Interleaved Memory
+   [https://www.javatpoint.com/trap-vs-interrupt-in-operating-system]Trap
+   vs Interrupt in Operating System
+   [https://www.javatpoint.com/open-source-operating-system]Open-Source
+   Operating System
+   [https://www.javatpoint.com/multiple-processors-scheduling-in-operating
+   -system]Multiple Processors Scheduling in Operating System
+   [https://www.javatpoint.com/starvation-and-aging-in-operating-systems]S
+   tarvation and Aging in Operating Systems
+   [https://www.javatpoint.com/best-android-operating-system-for-pc]Best
+   Android Operating System for PC
+   [https://www.javatpoint.com/device-management-in-operating-system]Devic
+   e Management in Operating System
+   [https://www.javatpoint.com/disk-controller-in-operating-system]Disk
+   Controller in Operating System
+   [https://www.javatpoint.com/views-of-operating-system]Views of
+   Operating System
+   [https://www.javatpoint.com/tasks-in-real-time-systems]Tasks in
+   Real-Time Systems
+   [https://www.javatpoint.com/what-is-rpc-in-operating-system]What is RPC
+   in Operating System
+   [https://www.javatpoint.com/c-scan-vs-sstf-disk-scheduling-algorithm]C-
+   SCAN vs SSTF Disk Scheduling Algorithm
+   [https://www.javatpoint.com/look-vs-c-look-disk-scheduling-algorithm]Lo
+   ok vs C-Look Disk Scheduling Algorithm
+   [https://www.javatpoint.com/scan-vs-c-scan-disk-scheduling-algorithm]SC
+   AN vs C-SCAN Disk Scheduling Algorithm
+   [https://www.javatpoint.com/scan-vs-fcfs-disk-scheduling-algorithm]SCAN
+   vs FCFS Disk Scheduling Algorithm
+   [https://www.javatpoint.com/lamports-bakery-algorithm]Lamport's Bakery
+   Algorithm [https://www.javatpoint.com/basic-disk-vs-dynamic-disk]Basic
+   Disk vs Dynamic Disk
+   [https://www.javatpoint.com/what-is-zombie-process]What is Zombie
+   Process
+   [https://www.javatpoint.com/fcfs-vs-sstf-disk-scheduling-algorithm]FCFS
+   vs SSTF Disk Scheduling Algorithm
+   [https://www.javatpoint.com/lru-vs-lfu-page-replacement-algorithm]LRU
+   vs LFU Page Replacement Algorithm
+   [https://www.javatpoint.com/sstf-vs-c-look-disk-scheduling-algorithm]SS
+   TF vs C-LOOK Disk Scheduling Algorithm
+   [https://www.javatpoint.com/c-look-vs-c-scan-disk-scheduling-algorithm]
+   C-LOOK vs C-SCAN Disk Scheduling Algorithm
+   [https://www.javatpoint.com/rotational-latency-vs-disk-access-time-in-d
+   isk-scheduling]Rotational Latency vs Disk Access Time in Disk
+   Scheduling
+   [https://www.javatpoint.com/sstf-vs-look-disk-scheduling-algorithm]SSTF
+   vs LOOK Disk Scheduling Algorithm
+   [https://www.javatpoint.com/virtual-vs-physical-address]Virtual vs
+   Physical Address
+   [https://www.javatpoint.com/address-binding-in-operating-system]Address
+   binding in Operating System
+   [https://www.javatpoint.com/preemptive-vs-non-preemptive-scheduling]Pre
+   emptive vs Non-Preemptive Scheduling
+   [https://www.javatpoint.com/properties-of-operating-system]Properties
+   of Operating System
+   [https://www.javatpoint.com/what-is-processor-affinity]What is
+   Processor Affinity
+   [https://www.javatpoint.com/seek-time-vs-disk-access-time-in-disk-sched
+   uling]Seek Time vs Disk Access Time in Disk Scheduling
+   [https://www.javatpoint.com/seek-time-vs-transfer-time-in-disk-scheduli
+   ng]Seek Time vs Transfer Time in Disk Scheduling
+   [https://www.javatpoint.com/page-vs-block-in-operating-system]Page vs
+   Block in Operating System
+   [https://www.javatpoint.com/virtual-memory-vs-job-pool]Virtual Memory
+   vs Job Pool [https://www.javatpoint.com/what-is-memory-ballooning]What
+   is Memory Ballooning
+   [https://www.javatpoint.com/embedded-operating-system-vs-desktop-operat
+   ing-system]Embedded OS vs Desktop OS
+   [https://www.javatpoint.com/microkernel-vs-monolithic-kernel]Microkerne
+   l vs Monolithic Kernel
+   [https://www.javatpoint.com/spinlock-vs-semaphore]Spinlock vs Semaphore
+   [https://www.javatpoint.com/what-are-demand-paging-and-pre-paging]What
+   are Demand Paging and Pre-paging
+   [https://www.javatpoint.com/what-is-interrupt-in-os]What is Interrupt
+   in OS
+   [https://www.javatpoint.com/swapping-vs-context-switching]Swapping vs
+   Context Switching
+   [https://www.javatpoint.com/system-call-vs-library-call]System Call vs
+   Library Call [https://www.javatpoint.com/ubuntu-vs-kubuntu]Ubuntu vs
+   Kubuntu [https://www.javatpoint.com/routine-vs-process]Routine vs
+   Process
+   [https://www.javatpoint.com/overlays-in-memory-management]Overlays in
+   Memory Management [https://www.javatpoint.com/fork-vs-exec]fork() vs
+   exec() [https://www.javatpoint.com/latency-vs-jitter]Latency vs Jitter
+   [https://www.javatpoint.com/process-contention-scope-vs-system-contenti
+   on-scope]Process Contention Scope vs System Contention Scope
+   [https://www.javatpoint.com/implement-threads-in-user-space]Implement
+   Threads in User Space
+   [https://www.javatpoint.com/isr-vs-function-call]ISR vs Function Call
+   [https://www.javatpoint.com/posix-threads-in-os]POSIX Threads in OS
+   [https://www.javatpoint.com/best-portable-operating-system]Best
+   Portable Operating System
+   [https://www.javatpoint.com/time-sharing-vs-distributed-operating-syste
+   m]Time-Sharing vs Distributed Operating System
+   [https://www.javatpoint.com/unix-vs-windows-operating-system]UNIX vs
+   Windows Operating System
+   [https://www.javatpoint.com/swap-space-management-in-operating-system]S
+   wap-Space Management in Operating System
+   [https://www.javatpoint.com/user-view-vs-hardware-view-vs-system-view-i
+   n-operating-system]User View vs Hardware View vs System View in
+   Operating System
+   [https://www.javatpoint.com/internal-structure-of-unix-file-system]Inte
+   rnal Structure of UNIX File system
+   [https://www.javatpoint.com/best-operating-system-for-programming]Best
+   Operating System for Programming
+   [https://www.javatpoint.com/disk-attachment-in-operating-system]Disk
+   Attachment in Operating System
+   [https://www.javatpoint.com/multiprocessor-and-multicore-system-in-oper
+   ating-system]Multiprocessor and Multicore System in Operating System
+   [https://www.javatpoint.com/resource-deadlocks-vs-communication-deadloc
+   ks-in-distributed-systems]Resource Deadlocks vs Communication Deadlocks
+   in Distributed Systems
+   [https://www.javatpoint.com/what-is-buddy-system]What is Buddy System
+   [https://www.javatpoint.com/why-must-user-threads-be-mapped-to-kernel-t
+   hread]Why must User Threads be mapped to Kernel Thread
+   [https://www.javatpoint.com/best-secure-operating-system]Best Secure
+   Operating System
+   [https://www.javatpoint.com/best-unix-operating-system]Best UNIX
+   Operating System
+   [https://www.javatpoint.com/what-is-hashed-page-table-in-operating-syst
+   em]What is Hashed Page Table in Operating System
+   [https://www.javatpoint.com/what-is-uefi-and-how-it-differ-from-bios]Wh
+   at is UEFI and How It Differ from BIOS
+   [https://www.javatpoint.com/macos-vs-openbsd]MacOS vs OpenBSD
+   [https://www.javatpoint.com/disk-operating-system-commands]Disk
+   Operating System Commands
+   [https://www.javatpoint.com/ipc-through-shared-memory]IPC through
+   Shared Memory [https://www.javatpoint.com/ipc-using-message-queues]IPC
+   using Message Queues
+   [https://www.javatpoint.com/causes-of-operating-system-failure]Causes
+   of Operating System Failure
+   [https://www.javatpoint.com/iot-operating-systems]IoT Operating Systems
+   [https://www.javatpoint.com/what-is-vse-operating-system]What is VSE
+   Operating System
+   [https://www.javatpoint.com/allocation-of-frames-in-os]Allocation of
+   Frames in OS
+   [https://www.javatpoint.com/cooperating-process-in-operating-system]Coo
+   perating Process in OS
+   [https://www.javatpoint.com/page-fault-handling-in-operating-system]Pag
+   e Fault Handling in OS
+   [https://www.javatpoint.com/client-operating-system-vs-server-operating
+   -system]Client OS vs Server OS
+   [https://www.javatpoint.com/long-term-scheduler-vs-short-term-scheduler
+   ]long term Scheduler vs short term Scheduler
+   [https://www.javatpoint.com/best-cloud-operating-systems]Best Cloud
+   Operating Systems
+   [https://www.javatpoint.com/firmware-vs-operating-system]Firmware vs
+   Operating System [https://www.javatpoint.com/linux-vs-solaris]Linux vs
+   Solaris
+   [https://www.javatpoint.com/mobile-operating-system-vs-desktop-operatin
+   g-system]Mobile OS vs Desktop OS
+   [https://www.javatpoint.com/freebsd-operating-system]FreeBSD Operating
+   System [https://www.javatpoint.com/tails-operating-system]Tails
+   Operating System
+   [https://www.javatpoint.com/best-real-time-operating-system]Best
+   Real-Time Operating System
+   [https://www.javatpoint.com/disk-management-in-operating-system]Disk
+   Management in Operating System
+   [https://www.javatpoint.com/best-books-for-operating-system]Best books
+   for Operating System
+   [https://www.javatpoint.com/implementation-of-access-matrix-in-the-oper
+   ating-system]Implementation of Access matrix in the operating system
+   [https://www.javatpoint.com/kaios-operating-system]KaiOS Operating
+   System
+   [https://www.javatpoint.com/best-alternative-operating-system]Best
+   Alternative Operating System
+   [https://www.javatpoint.com/operating-system-hardening]Operating System
+   Hardening
+   [https://www.javatpoint.com/best-courses-for-the-operating-system]Best
+   courses for the operating system
+   [https://www.javatpoint.com/business-operating-system]Business
+   Operating System
+   [https://www.javatpoint.com/bsd-based-operating-system]BSD Based
+   Operating System
+   [https://www.javatpoint.com/processor-vs-operating-system]Processor vs
+   Operating System
+   [https://www.javatpoint.com/standalone-vs-network-operating-system]Stan
+   dalone vs Network Operating System
+   [https://www.javatpoint.com/5-state-process-model-in-operating-system]5
+   State Process Model in Operating System
+   [https://www.javatpoint.com/best-operating-system-for-gaming]Best
+   operating system for gaming
+   [https://www.javatpoint.com/two-state-process-model-in-operating-system
+   ]Two State Process Model in Operating System
+   [https://www.javatpoint.com/best-book-for-linux-operating-system]Best
+   Book for Linux Operating System
+   [https://www.javatpoint.com/facts-about-android-operating-system]Facts
+   about Android Operating System
+   [https://www.javatpoint.com/facts-about-windows-operating-system]Facts
+   about Windows Operating System
+   [https://www.javatpoint.com/best-operating-system-for-netbook]Best
+   Operating System for Netbook
+   [https://www.javatpoint.com/best-alternative-operating-system-for-andro
+   id]Best Alternative Operating System for Android
+   [https://www.javatpoint.com/best-operating-system-for-chromebook]Best
+   Operating System for Chromebook
+   [https://www.javatpoint.com/design-approaches-in-operating-system]Desig
+   n approaches in Operating System
+   [https://www.javatpoint.com/best-32-bit-linux-operating-system]Best 32
+   bit Linux Operating System
+   [https://www.javatpoint.com/android-vs-linux]Android vs Linux
+   [https://www.javatpoint.com/physical-vs-logical-file-systems-in-os]phys
+   ical vs logical file systems
+   [https://www.javatpoint.com/shared-memory-vs-message-passing-in-operati
+   ng-system]Shared Memory vs Message Passing
+   [https://www.javatpoint.com/best-ubuntu-based-linux-distros]Best
+   Ubuntu-based Linux Distros [https://www.javatpoint.com/dos-vs-unix]DOS
+   vs UNIX
+   [https://www.javatpoint.com/file-models-in-distributed-operating-system
+   ]File Models in Distributed Operating System
+   [https://www.javatpoint.com/aix-operating-system-commands]AIX OS
+   Commands
+   [https://www.javatpoint.com/features-of-blackberry-10-os]Features of
+   Blackberry 10 OS
+   [https://www.javatpoint.com/contiguous-and-non-contiguous-memory-alloca
+   tion-in-operating-system]Contiguous and Non-Contiguous Memory
+   Allocation in Operating System
+   [https://www.javatpoint.com/aix-vs-linux-operating-system]AIX vs Linux
+   OS
+   [https://www.javatpoint.com/parallel-computing-vs-distributed-computing
+   ]Parallel Computing vs Distributed Computing
+   [https://www.javatpoint.com/multilevel-queue-scheduling-in-operating-sy
+   stem]Multilevel Queue Scheduling in Operating System
+   [https://www.javatpoint.com/best-ssd-for-operating-system]Best SSD for
+   Operating System
+   [https://www.javatpoint.com/interesting-facts-about-the-ios-operating-s
+   ystem]Interesting Facts about the iOS Operating System
+   [https://www.javatpoint.com/best-terminal-operating-system]Best
+   Terminal Operating Systems
+   [https://www.javatpoint.com/batch-operating-system-vs-multiprogramming-
+   operating-system]Batch OS vs Multiprogramming OS
+   [https://www.javatpoint.com/real-time-operating-system-vs-general-purpo
+   se-operating-system]Real-Time os vs general-purpose os
+   [https://www.javatpoint.com/static-and-dynamic-loading-in-operating-sys
+   tem]Static and Dynamic Loading in Operating System
+   [https://www.javatpoint.com/arch-linux-operating-system]Arch Linux
+   Operating System
+   [https://www.javatpoint.com/kylin-operating-system]Kylin Operating
+   System [https://www.javatpoint.com/parrot-operating-system]Parrot
+   Operating System
+   [https://www.javatpoint.com/hp-ux-operating-system]HP-UX Operating
+   System [https://www.javatpoint.com/tizen-operating-system]Tizen
+   Operating System
+   [https://www.javatpoint.com/vxworks-operating-system]VxWorks Operating
+   System [https://www.javatpoint.com/ecos-operating-system]eCos Operating
+   System [https://www.javatpoint.com/haiku-operating-system]Haiku
+   Operating System
+   [https://www.javatpoint.com/knoppix-operating-system]Knoppix Operating
+   System [https://www.javatpoint.com/puppy-linux-operating-system]Puppy
+   Linux Operating System
+   [https://www.javatpoint.com/alios-operating-system]AliOS Operating
+   System [https://www.javatpoint.com/gentoo-linux-operating-system]Gentoo
+   Linux Operating System
+   [https://www.javatpoint.com/skyos-operating-system]Skyos Operating
+   System
+   [https://www.javatpoint.com/best-operating-system-for-raspberry-pi]Best
+   Operating System for Raspberry Pi
+   [https://www.javatpoint.com/gos-operating-system]gOS Operating System
+   [https://www.javatpoint.com/edubuntu-operating-system]Edubuntu OS
+   [https://www.javatpoint.com/harmony-operating-system]Harmony OS
+   [https://www.javatpoint.com/irix-operating-system]IRIX OS
+   [https://www.javatpoint.com/security-vs-protection-in-operating-system]
+   Security vs Protection
+   [https://www.javatpoint.com/cold-booting-vs-warm-booting-in-operating-s
+   ystem]Cold booting vs Warm booting in OS
+   [https://www.javatpoint.com/fat32-vs-ntfs-in-operating-system]FAT32 vs
+   NTFS in OS
+   [https://www.javatpoint.com/paging-vs-swapping-in-operating-system]Pagi
+   ng vs Swapping in OS
+   [https://www.javatpoint.com/symmetric-and-asymmetric-multiprocessing-in
+   -operating-system]Symmetric vs Asymmetric Multiprocessing in OS
+   [https://www.javatpoint.com/buffering-vs-caching-in-operating-system]Di
+   fference between Buffering and Caching in Operating System
+   [https://www.javatpoint.com/interrupt-vs-polling-in-operating-system]Di
+   fference between Interrupt and Polling in Operating System
+   [https://www.javatpoint.com/multitasking-vs-multithreading-in-operating
+   -system]Difference between Multitasking and Multithreading in Operating
+   System
+   [https://www.javatpoint.com/system-call-vs-system-program-in-operating-
+   system]Difference between System call and System Program in Operating
+   System
+   [https://www.javatpoint.com/deadlock-prevention-vs-deadlock-avoidance-i
+   n-operating-system]Deadlock Prevention vs Deadlock Avoidance in OS
+   [https://www.javatpoint.com/fork-vs-vfork]fork() vs vfork()
+   [https://www.javatpoint.com/loosely-coupled-vs-tightly-coupled-multipro
+   cessor-system]Coupled vs Tightly Coupled Multiprocessor System
+   [https://www.javatpoint.com/maskable-vs-non-maskable-interrupts]Maskabl
+   e vs Non-Maskable Interrupts
+   [https://www.javatpoint.com/oracle-linux-vs-red-hat-enterprise-linux]Or
+   acle Linux vs Red Hat Enterprise Linux
+   [https://www.javatpoint.com/preemptive-vs-non-preemptive-kernel]Preempt
+   ive and Non-Preemptive Kernel
+   [https://www.javatpoint.com/centos-vs-red-hat-enterprise-linux-os]Diffe
+   rence between CentOS and Red Hat Enterprise Linux OS
+   [https://www.javatpoint.com/kubuntu-vs-debian-operating-system]Differen
+   ce between Kubuntu and Debian Operating System
+   [https://www.javatpoint.com/preemptive-vs-cooperative-multitasking]Diff
+   erence between Preemptive and Cooperative Multitasking
+   [https://www.javatpoint.com/spinlock-vs-mutex-in-operating-system]Diffe
+   rence between Spinlock and Mutex in Operating System
+   [https://www.javatpoint.com/cinnamon-vs-mate]Difference between
+   Cinnamon and MATE
+   [https://www.javatpoint.com/device-driver-vs-device-controller-in-opera
+   ting-system]Difference between Device Driver and Device Controller in
+   Operating System
+   [https://www.javatpoint.com/full-virtualization-vs-paravirtualization-i
+   n-operating-system]Difference between Full Virtualization and
+   Paravirtualization in Operating System
+   [https://www.javatpoint.com/grub-vs-lilo-in-operating-system]Difference
+   between GRUB and LILO in the operating system
+   [https://www.javatpoint.com/virtualbox-vs-vmware]Difference between
+   Virtualbox and VMware
+   [https://www.javatpoint.com/what-is-a-distributed-shared-memory]What is
+   a distributed shared memory? And its advantages
+   [https://www.javatpoint.com/aix-vs-solaris-operating-system]Difference
+   between AIX and Solaris Operating System
+   [https://www.javatpoint.com/concurrency-vs-parallelism-in-operating-sys
+   tem]Difference between Concurrency and Parallelism in Operating System
+   [https://www.javatpoint.com/qnx-vs-vxworks-operating-system]Difference
+   between QNX and VxWorks Operating System
+   [https://www.javatpoint.com/user-level-vs-kernel-level-threads-in-opera
+   ting-system]Difference between User level and Kernel level threads in
+   Operating System
+   [https://www.javatpoint.com/nucleus-operating-system]Nucleus Operating
+   System
+   [https://www.javatpoint.com/input-output-hardware-and-input-output-cont
+   roller]Input/Output Hardware and Input/Output Controller
+   [https://www.javatpoint.com/privileged-and-non-privileged-instructions-
+   in-operating-system]Privileged and Non-Privileged Instructions in
+   Operating System
+   [https://www.javatpoint.com/cpu-scheduling-algorithms-in-operating-syst
+   ems]CPU Scheduling Algorithms in Operating Systems
+   [https://www.javatpoint.com/mass-storage-structure-in-operating-systems
+   ]Mass Storage Structure in Operating Systems
+   [https://www.javatpoint.com/n-process-peterson-algorithm]N-Process
+   Peterson Algorithm
+   [https://www.javatpoint.com/xv6-operating-system-adding-a-new-system-ca
+   ll]Xv6 Operating System - Adding a New System Call
+   [https://www.javatpoint.com/non-contiguous-memory-allocation-in-operati
+   ng-system]Non-Contiguous Memory Allocation in Operating System
+   [https://www.javatpoint.com/types-of-linux-os]Types of Linux OS
+   [https://www.javatpoint.com/operating-system-structure]Operating System
+   Structure
+   [https://www.javatpoint.com/operating-system-examples]Operating System
+   Examples
+   [https://www.javatpoint.com/what-is-starvation-in-operating-system]What
+   is Starvation in Operating System
+   [https://www.javatpoint.com/what-is-google-chrome-operating-system]What
+   is Google Chrome Operating System
+   [https://www.javatpoint.com/introduction-to-robot-operating-system]Intr
+   oduction to Robot Operating System
+   [https://www.javatpoint.com/which-operating-system-to-choose-for-web-de
+   velopment]Which Operating System to Choose For Web Development
+   [https://www.javatpoint.com/necessary-condition-for-deadlock-in-os]Nece
+   ssary Condition for Deadlock in OS
+   [https://www.javatpoint.com/race-condition-in-operating-system]Race
+   Condition in Operating Systems
+   [https://www.javatpoint.com/simple-structure-in-operating-system]Simple
+   Structure in Operating Systems
+   [https://www.javatpoint.com/what-is-the-process-in-operating-system]Wha
+   t is the Process in Operating Systems
+   [https://www.javatpoint.com/kernel-memory-allocation]Kernel Memory
+   Allocation
+
+MCQ
+
+   [https://www.javatpoint.com/operating-system-mcq]Operating System MCQ
+   [https://www.javatpoint.com/operating-system-mcq-part-2]OS MCQ Part-2
+   JavaTpoint
+   [https://www.javatpoint.com/microkernel-in-operating-system]next →
+   [https://www.javatpoint.com/hard-and-soft-real-time-operating-system]←
+   prev
+
+Concurrency in Operating System
+
+   In this article, you will learn the concurrency in the operating system
+   with its principles, issues, advantages and disadvantages.
+
+What is Concurrency?
+
+   It refers to the execution of multiple instruction sequences at the
+   same time. It occurs in an operating system when multiple process
+   threads are executing concurrently. These threads can interact with one
+   another via shared memory or message passing. Concurrency results in
+   resource sharing, which causes issues like deadlocks and resource
+   scarcity. It aids with techniques such as process coordination, memory
+   allocation, and execution schedule to maximize throughput.
+
+Principles of Concurrency
+
+   Today's technology, like multi-core processors and parallel processing,
+   allows multiple processes and threads to be executed simultaneously.
+   Multiple processes and threads can access the same memory space, the
+   same declared variable in code, or even read or write to the same file.
+
+   The amount of time it takes a process to execute cannot be simply
+   estimated, and you cannot predict which process will complete first,
+   enabling you to build techniques to deal with the problems that
+   concurrency creates.
+
+   Interleaved and overlapping processes are two types of concurrent
+   processes with the same problems. It is impossible to predict the
+   relative speed of execution, and the following factors determine it:
+    1. The way operating system handles interrupts
+    2. Other processes' activities
+    3. The operating system's scheduling policies
+
+Problems in Concurrency
+
+   There are various problems in concurrency. Some of them are as follows:
+
+   1. Locating the programming errors
+
+   It's difficult to spot a programming error because reports are usually
+   repeatable due to the varying states of shared components each time the
+   code is executed.
+
+   2. Sharing Global Resources
+
+   Sharing global resources is difficult. If two processes utilize a
+   global variable and both alter the variable's value, the order in which
+   the many changes are executed is critical.
+
+   3. Locking the channel
+
+   It could be inefficient for the OS to lock the resource and prevent
+   other processes from using it.
+
+   4. Optimal Allocation of Resources
+
+   It is challenging for the OS to handle resource allocation properly.
+
+Issues of Concurrency
+
+   Various issues of concurrency are as follows:
+
+   1. Non-atomic
+
+   Operations that are non-atomic but interruptible by several processes
+   may happen issues. A non-atomic operation depends on other processes,
+   and an atomic operation runs independently of other processes.
+
+   2. Deadlock
+
+   In concurrent computing, it occurs when one group member waits for
+   another member, including itself, to send a message and release a lock.
+   Software and hardware locks are commonly used to arbitrate shared
+   resources and implement process synchronization in parallel computing,
+   distributed systems, and multiprocessing.
+
+   3. Blocking
+
+   A blocked process is waiting for some event, like the availability of a
+   resource or completing an I/O operation. Processes may block waiting
+   for resources, and a process may be blocked for a long time waiting for
+   terminal input. If the process is needed to update some data
+   periodically, it will be very undesirable.
+
+   4. Race Conditions
+
+   A race problem occurs when the output of a software application is
+   determined by the timing or sequencing of other uncontrollable events.
+   Race situations can also happen in multithreaded software, runs in a
+   distributed environment, or is interdependent on shared resources.
+
+   5. Starvation
+
+   A problem in concurrent computing is where a process is continuously
+   denied the resources it needs to complete its work. It could be caused
+   by errors in scheduling or mutual exclusion algorithm, but resource
+   leaks may also cause it.
+
+   Concurrent system design frequently requires developing dependable
+   strategies for coordinating their execution, data interchange, memory
+   allocation, and execution schedule to decrease response time and
+   maximize throughput.
+
+Advantages and Disadvantages of Concurrency in Operating System
+
+   Various advantages and disadvantages of Concurrency in Operating
+   systems are as follows:
+
+Advantages
+
+   1. Better Performance
+
+   It improves the operating system's performance. When one application
+   only utilizes the processor, and another only uses the disk drive, the
+   time it takes to perform both apps simultaneously is less than the time
+   it takes to run them sequentially.
+
+   2. Better Resource Utilization
+
+   It enables resources that are not being used by one application to be
+   used by another.
+
+   3. Running Multiple Applications
+
+   It enables you to execute multiple applications simultaneously.
+
+Disadvantages
+
+    1. It is necessary to protect multiple applications from each other.
+    2. It is necessary to use extra techniques to coordinate several
+       applications.
+    3. Additional performance overheads and complexities in OS are needed
+       for switching between applications.
+     __________________________________________________________________
+
+   Next
+   Topic[https://www.javatpoint.com/microkernel-in-operating-system]Microk
+   ernel in Operating System
+   [https://www.javatpoint.com/hard-and-soft-real-time-operating-system]←
+   prev [https://www.javatpoint.com/microkernel-in-operating-system]next →
+     __________________________________________________________________
+
+   Youtube For Videos Join Our Youtube Channel:
+   [https://bit.ly/2FOeX6S]Join Now
+     __________________________________________________________________
+
+Feedback
+
+     * Send your Feedback to
+       [https://www.javatpoint.com/cdn-cgi/l/email-protection][email prote
+       cted]
+     __________________________________________________________________
+
+Help Others, Please Share
+
+   [https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/concu
+   rrency-in-operating-system]facebook
+   [https://twitter.com/share?url=https://www.javatpoint.com/concurrency-i
+   n-operating-system]twitter
+   [https://www.pinterest.com/pin/create/button/?url=https://www.javatpoin
+   t.com/concurrency-in-operating-system]pinterest [INS: :INS]
+     __________________________________________________________________
+
+Learn Latest Tutorials
+
+   [https://www.javatpoint.com/splunk]
+   Splunk tutorial
+
+   Splunk
+   [https://www.javatpoint.com/spss]SPSS tutorial
+
+   SPSS
+   [https://www.javatpoint.com/swagger]Swagger tutorial
+
+   Swagger
+   [https://www.javatpoint.com/t-sql]T-SQL tutorial
+
+   Transact-SQL
+   [https://www.javatpoint.com/tumblr]Tumblr tutorial
+
+   Tumblr
+   [https://www.javatpoint.com/reactjs-tutorial]React tutorial
+
+   ReactJS
+   [https://www.javatpoint.com/regex]Regex tutorial
+
+   Regex
+   [https://www.javatpoint.com/reinforcement-learning]Reinforcement
+   learning tutorial
+
+   Reinforcement Learning
+   [https://www.javatpoint.com/r-tutorial]R Programming tutorial
+
+   R Programming
+   [https://www.javatpoint.com/rxjs]RxJS tutorial
+
+   RxJS
+   [https://www.javatpoint.com/react-native-tutorial]React Native tutorial
+
+   React Native
+   [https://www.javatpoint.com/python-design-pattern]Python Design
+   Patterns
+
+   Python Design Patterns
+   [https://www.javatpoint.com/python-pillow]Python Pillow tutorial
+
+   Python Pillow
+   [https://www.javatpoint.com/python-turtle-programming]Python Turtle
+   tutorial
+
+   Python Turtle
+   [https://www.javatpoint.com/keras]Keras tutorial
+
+   Keras
+     __________________________________________________________________
+
+Preparation
+
+   [https://www.javatpoint.com/aptitude/quantitative]
+   Aptitude
+
+   Aptitude
+   [https://www.javatpoint.com/reasoning]Logical Reasoning
+
+   Reasoning
+   [https://www.javatpoint.com/verbal-ability]Verbal Ability
+
+   Verbal Ability
+   [https://www.javatpoint.com/interview-questions-and-answers]Interview
+   Questions
+
+   Interview Questions
+   [https://www.javatpoint.com/company-interview-questions-and-recruitment
+   -process]Company Interview Questions
+
+   Company Questions
+     __________________________________________________________________
+
+Trending Technologies
+
+   [https://www.javatpoint.com/artificial-intelligence-ai]
+   Artificial Intelligence
+
+   Artificial Intelligence
+   [https://www.javatpoint.com/aws-tutorial]AWS Tutorial
+
+   AWS
+   [https://www.javatpoint.com/selenium-tutorial]Selenium tutorial
+
+   Selenium
+   [https://www.javatpoint.com/cloud-computing]Cloud Computing
+
+   Cloud Computing
+   [https://www.javatpoint.com/hadoop-tutorial]Hadoop tutorial
+
+   Hadoop
+   [https://www.javatpoint.com/reactjs-tutorial]ReactJS Tutorial
+
+   ReactJS
+   [https://www.javatpoint.com/data-science]Data Science Tutorial
+
+   Data Science
+   [https://www.javatpoint.com/angular-7-tutorial]Angular 7 Tutorial
+
+   Angular 7
+   [https://www.javatpoint.com/blockchain-tutorial]Blockchain Tutorial
+
+   Blockchain
+   [https://www.javatpoint.com/git]Git Tutorial
+
+   Git
+   [https://www.javatpoint.com/machine-learning]Machine Learning Tutorial
+
+   Machine Learning
+   [https://www.javatpoint.com/devops]DevOps Tutorial
+
+   DevOps
+     __________________________________________________________________
+
+B.Tech / MCA
+
+   [https://www.javatpoint.com/dbms-tutorial]
+   DBMS tutorial
+
+   DBMS
+   [https://www.javatpoint.com/data-structure-tutorial]Data Structures
+   tutorial
+
+   Data Structures
+   [https://www.javatpoint.com/daa-tutorial]DAA tutorial
+
+   DAA
+   [https://www.javatpoint.com/operating-system]Operating System
+
+   Operating System
+   [https://www.javatpoint.com/computer-network-tutorial]Computer Network
+   tutorial
+
+   Computer Network
+   [https://www.javatpoint.com/compiler-tutorial]Compiler Design tutorial
+
+   Compiler Design
+   [https://www.javatpoint.com/computer-organization-and-architecture-tuto
+   rial]Computer Organization and Architecture
+
+   Computer Organization
+   [https://www.javatpoint.com/discrete-mathematics-tutorial]Discrete
+   Mathematics Tutorial
+
+   Discrete Mathematics
+   [https://www.javatpoint.com/ethical-hacking]Ethical Hacking
+
+   Ethical Hacking
+   [https://www.javatpoint.com/computer-graphics-tutorial]Computer
+   Graphics Tutorial
+
+   Computer Graphics
+   [https://www.javatpoint.com/software-engineering]Software Engineering
+
+   Software Engineering
+   [https://www.javatpoint.com/html-tutorial]html tutorial
+
+   Web Technology
+   [https://www.javatpoint.com/cyber-security-tutorial]Cyber Security
+   tutorial
+
+   Cyber Security
+   [https://www.javatpoint.com/automata-tutorial]Automata Tutorial
+
+   Automata
+   [https://www.javatpoint.com/c-programming-language-tutorial]C Language
+   tutorial
+
+   C Programming
+   [https://www.javatpoint.com/cpp-tutorial]C++ tutorial
+
+   C++
+   [https://www.javatpoint.com/java-tutorial]Java tutorial
+
+   Java
+   [https://www.javatpoint.com/net-framework].Net Framework tutorial
+
+   .Net
+   [https://www.javatpoint.com/python-tutorial]Python tutorial
+
+   Python
+   [https://www.javatpoint.com/programs-list]List of Programs
+
+   Programs
+   [https://www.javatpoint.com/control-system-tutorial]Control Systems
+   tutorial
+
+   Control System
+   [https://www.javatpoint.com/data-mining]Data Mining Tutorial
+
+   Data Mining
+   [https://www.javatpoint.com/data-warehouse]Data Warehouse Tutorial
+
+   Data Warehouse
+
+   [INS: :INS]
+   [INS: :INS]
+   [INS: :INS]
+
+Javatpoint Services
+
+   JavaTpoint offers too many high quality services. Mail us on
+   h[https://www.javatpoint.com/cdn-cgi/l/email-protection][email protecte
+   d], to get more information about given services.
+     * Website Designing
+     * Website Development
+     * Java Development
+     * PHP Development
+     * WordPress
+     * Graphic Designing
+     * Logo
+     * Digital Marketing
+     * On Page and Off Page SEO
+     * PPC
+     * Content Development
+     * Corporate Training
+     * Classroom and Online Training
+     * Data Entry
+
+Training For College Campus
+
+   JavaTpoint offers college campus training on Core Java, Advance Java,
+   .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your
+   requirement at
+   [https://www.javatpoint.com/cdn-cgi/l/email-protection][email protected
+   ].
+   Duration: 1 week to 2 week
+   ^Like/Subscribe us for latest updates or newsletter
+   [https://feeds.feedburner.com/javatpointsonoo]RSS Feed
+   [https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo]Subs
+   cribe to Get Email Alerts [https://www.facebook.com/javatpoint]Facebook
+   Page [https://twitter.com/pagejavatpoint]Twitter Page
+   [https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg]YouTube
+   [https://javatpoint.blogspot.com/]Blog Page
+
+Learn Tutorials
+
+   [https://www.javatpoint.com/java-tutorial]Learn
+   Java[https://www.javatpoint.com/data-structure-tutorial]Learn Data
+   Structures[https://www.javatpoint.com/c-programming-language-tutorial]L
+   earn C Programming[https://www.javatpoint.com/cpp-tutorial]Learn C++
+   Tutorial[https://www.javatpoint.com/c-sharp-tutorial]Learn C#
+   Tutorial[https://www.javatpoint.com/php-tutorial]Learn PHP
+   Tutorial[https://www.javatpoint.com/html-tutorial]Learn HTML
+   Tutorial[https://www.javatpoint.com/javascript-tutorial]Learn
+   JavaScript Tutorial[https://www.javatpoint.com/jquery-tutorial]Learn
+   jQuery Tutorial[https://www.javatpoint.com/spring-tutorial]Learn Spring
+   Tutorial
+
+Our Websites
+
+   [https://www.javatpoint.com/]Javatpoint.com[https://www.hindi100.com/]H
+   indi100.com[https://www.lyricsia.com/]Lyricsia.com[https://www.quoteper
+   son.com/]Quoteperson.com[https://www.jobandplacement.com/]Jobandplaceme
+   nt.com
+
+Our Services
+
+   Website Development
+
+   Android Development
+
+   Website Designing
+
+   Digital Marketing
+
+   Summer Training
+
+   Industrial Training
+
+   College Campus Training
+
+Contact
+
+   Address: G-13, 2nd Floor, Sec-3
+
+   Noida, UP, 201301, India
+
+   Contact No: 0120-4256464, 9990449935
+   [https://www.javatpoint.com/contact-us]Contact Us
+   [https://www.javatpoint.com/subscribe.jsp]Subscribe Us
+   [https://www.javatpoint.com/privacy-policy]Privacy
+   Policy[https://www.javatpoint.com/sitemap.xml]Sitemap
+   [https://www.javatpoint.com/sonoo-jaiswal]About Me
+
+   © Copyright 2011-2021 www.javatpoint.com. All rights reserved.
+   Developed by JavaTpoint.

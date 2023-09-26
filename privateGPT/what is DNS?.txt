@@ -1,0 +1,17 @@
+
+
+> Question:
+what is DNS?
+
+> Answer (took 143.48 s.):
+ The Domain Name System (DNS) translates domain names into IP addresses, which are unique identifiers used by computers on a network for communication with one another using TCP/IP based application layer protocols such as HTTP.
+
+> source_documents/backend-100.md:
+
+Visit the following resources to learn more:
+The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+Visit the following resources to learn more:
+HTTP is the 
+TCP/IP
+ based application layer communication protocol which standardizes how the client and server communicate with each other. It defines how the content is requested and transmitted across the internet.
+Visit the following resources to learn more:

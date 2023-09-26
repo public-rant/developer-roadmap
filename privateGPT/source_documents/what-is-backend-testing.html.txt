@@ -1,0 +1,647 @@
+   #[https://www.guru99.com/wp-json/wp/v2/posts/699]alternate
+
+   [https://www.guru99.com/what-is-backend-testing.html#main]Skip to
+   content
+
+   [https://www.guru99.com/]Guru99
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   [https://www.guru99.com/]Guru99
+   (BUTTON)
+
+Backend Testing Tutorial (Examples)
+
+   By[https://www.guru99.com/author/thomas]Thomas Hamilton UpdatedJune 3,
+   2023
+
+What is Backend Testing?
+
+   Backend Testing is a testing method that checks the server side or
+   database of web applications or software. Backend testing aims to test
+   the application layer or database layer to ensure that the web
+   application or software is free from database defects like deadlock,
+   data corruption, or data loss.
+
+   Backend testing is also known as Database Testing. The data entered in
+   the front end will be stored in the back-end database. The database may
+   be[https://www.guru99.com/sql.html] SQL Server, MySQL, Oracle, DB2,
+   etc. The data will be organized in the tables as records and used to
+   support the page’s content.
+
+   Database or backend testing is important because if it is not done
+   properly, it may cause some serious complications like deadlock, data
+   corruption, data loss, etc.
+
+   In this Backend Testing tutorial, you will learn: (BUTTON)
+     * [https://www.guru99.com/what-is-backend-testing.html#what-is-backen
+       d-testing]What is Backend Testing?
+     * [https://www.guru99.com/what-is-backend-testing.html#how-to-do-back
+       end-testing]How to do Backend Testing
+     * [https://www.guru99.com/what-is-backend-testing.html#types-of-datab
+       ase-testing]Types of database testing
+     * [https://www.guru99.com/what-is-backend-testing.html#tools-used-for
+       -database-testing]Tools used for database testing
+     * [https://www.guru99.com/what-is-backend-testing.html#advantages-for
+       -backend-testing]Advantages for back-end testing
+
+How to do Backend Testing
+
+   Database testing mainly includes validating
+     * Schema
+     * Database tables
+     * Columns
+     * Keys and Indexes
+     * Stored procedures
+     * Triggers
+     * Database server validations
+     * Validating data duplication
+
+   In back-end testing, you are not required to use the GUI; you can
+   directly pass the request through some browser with the parameters
+   required for the function and get a response in some default format.
+   Example, XML or JSON. You also need to connect to the database directly
+   and verify the data using SQL queries. Through log files, debugging can
+   be done.
+
+   There are various phases in back-end testing. The first step is to
+   acquire design specifications for a database server. The next step is
+   to test the specification design, followed by implementing the tests in
+   this design with SQL code.
+
+Types of database testing
+
+   The types of database testing include
+     * Structural Testing
+     * Functional Testing
+     * Non-Functional Testing
+
+Tools used for database testing
+
+   Some of the useful tools used for database testing include
+
+1)
+[https://solarwinds.sjv.io/c/1359419/1676036/17790?subId1=what-is-backend-tes
+ting]Database Performance Analyzer
+
+   [https://solarwinds.sjv.io/c/1359419/1676036/17790?subId1=what-is-backe
+   nd-testing]SolarWinds Database Performance Analyzer is performance
+   monitoring and analysis tool for database admin. It also finds the
+   reason of bottlenecks and reduces the overall cost of database
+   operations.
+
+   [https://solarwinds.sjv.io/c/1359419/1676036/17790?subId1=what-is-backe
+   nd-testing]
+
+   Features:
+     * Monitor capacity constraints, queries, and server health
+       performance
+     * Expert database and SQL query tuning advisors
+     * Quickly find the cause of complex problems
+     * Identify database problems in real-time
+     * Cross-vendor database support from a single interface
+     * Low overhead on monitored databases
+     * Blocking and Deadlock analysis
+     * Analyze every factor that impacts SQL Server execution
+     * Monitors database in hybrid environments, on-premises, virtualized,
+       and in the cloud
+     * Helps proactively tune queries so applications can respond faster
+
+   [https://solarwinds.sjv.io/c/1359419/1676036/17790?subId1=what-is-backe
+   nd-testing]Visit Database Analyzer >>
+     __________________________________________________________________
+
+2) [https://bit.ly/3qTMZdt]DBVisualizer
+
+   [https://bit.ly/3qTMZdt]DBVisualizer is a universal database tool for
+   developers, analysts and database administrators/users. It provides
+   features to write SQL to query and visualize your data. Design and
+   development features to manage your databases, tables, relations,
+   indexes, triggers, users and etc. DbVisualizer has been downloaded over
+   5 million times and is being used in over 143 countries.
+
+   [https://bit.ly/3qTMZdt]DBVisualizer DBVisualizer
+
+   Features:
+     * Free version available
+     * Free evaluation of Pro version
+     * Cross-platform
+     * Query optimization with an explain plan feature
+     * Visual query builder using drag and drop
+     * Flexible SQL scripts execution with parameter support
+     * SQL formatting
+     * Command-line interface for headless execution
+     * And much, much more..
+
+   [https://bit.ly/3qTMZdt]Visit DBVisualizer >>
+
+Advantages for back-end testing
+
+     * Back-end testing is not like a
+       [https://www.guru99.com/black-box-testing.html]Black Box Testing
+     * Full control of
+       [https://www.guru99.com/test-coverage-in-software-testing.html]Test
+       coverage and depth
+     * In the early development stage, many bugs can be effectively found
+
+   In order to do the back-end testing, the tester is expected to have a
+   strong background in the database server and knowledge of structured
+   query language.
+
+   Further Reading –
+   [https://www.guru99.com/data-testing.html]https://www.guru99.com/data-t
+   esting.html
+   You Might Like:
+     * [https://www.guru99.com/software-testing-introduction-importance.ht
+       ml]What is Software Testing? Definition
+     * [https://www.guru99.com/software-testing-seven-principles.html]7
+       Principles of Software Testing with Examples
+     * [https://www.guru99.com/v-model-software-testing.html]V-Model in
+       Software Testing
+     * [https://www.guru99.com/software-testing-life-cycle.html]STLC
+       (Software Testing Life Cycle) Phases, Entry, Exit Criteria
+     * [https://www.guru99.com/manual-testing.html]Manual Testing
+       Tutorial: What is, Types, Concepts
+
+   Post navigation
+   [https://form.jotform.me/72391811797466]Report a Bug
+   [https://www.guru99.com/risk-based-testing.html]Prev
+   [https://www.guru99.com/smoke-testing.html]Next
+
+   Top Tutorials
+   [https://www.facebook.com/Guru99Official][https://twitter.com/guru99com
+   ][https://www.linkedin.com/company/guru99/][https://www.youtube.com/cha
+   nnel/UC19i1XD6k88KqHlET8atqFQ][https://forms.aweber.com/form/46/7248076
+   46.htm]About
+   [https://www.guru99.com/about-us]About Us
+   [https://www.guru99.com/advertise-us]Advertise with Us
+   [https://www.guru99.com/become-an-instructor]Write For Us
+   [https://www.guru99.com/contact-us]Contact Us
+   [https://www.guru99.com/python-tutorials.html]
+   Python
+   [https://www.guru99.com/software-testing.html]
+   Testing
+   [https://www.guru99.com/ethical-hacking-tutorials.html]
+   Hacking
+   Career Suggestion
+   [https://www.guru99.com/best-sap-module.html]SAP Career Suggestion Tool
+   [https://www.guru99.com/software-testing-career-complete-guide.html]Sof
+   tware Testing as a Career
+   Interesting
+   [https://www.guru99.com/ebook-pdf.html]eBook
+   [https://www.guru99.com/blog]Blog
+   [https://www.guru99.com/tests.html]Quiz
+   [https://www.guru99.com/sap-ebook-pdf.html]SAP eBook
+   [https://www.guru99.com/sap-training-hub.html]SAP
+   [https://www.guru99.com/java-tutorial.html]
+   Java
+   [https://www.guru99.com/sql.html]
+   SQL
+   Execute online
+   [https://www.guru99.com/try-java-editor.html]Execute Java Online
+   [https://www.guru99.com/execute-javascript-online.html]Execute
+   Javascript
+   [https://www.guru99.com/execute-html-online.html]Execute HTML
+   [https://www.guru99.com/execute-python-online.html]Execute Python
+   [https://www.guru99.com/selenium-tutorial.html]Selenium
+   [https://www.guru99.com/web-design-and-development-tutorial.html]
+   Build Website
+   [https://www.guru99.com/best-vpn.html]
+   VPNs
+
+   [svg%3E] [eLearning-badge-1.png]
+
+   © Copyright - Guru99 2023
+   [https://www.guru99.com/privacy-policy]Privacy
+   Policy  |  [https://www.guru99.com/affiliate-earning-disclaimer]Affilia
+   te Disclaimer  |  [https://www.guru99.com/terms-of-service]ToS
+
+   [https://www.guru99.com/what-is-backend-testing.html#wrapper](BUTTON)
+
+   (BUTTON)
+
+     * [https://www.guru99.com/]Home
+     * [https://www.guru99.com/software-testing.html]Testing (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/agile-testing-course.html]Agile
+            Testing
+          + [https://www.guru99.com/junit-tutorial.html]JUnit
+          + [https://www.guru99.com/hp-alm-free-tutorial.html]Quality
+            Center(ALM)
+          + [https://www.guru99.com/bugzilla-tutorial-for-beginners.html]B
+            ugzilla
+          + [https://www.guru99.com/loadrunner-v12-tutorials.html]HP
+            Loadrunner
+          + [https://www.guru99.com/rpa-tutorial.html]RPA
+          + [https://www.guru99.com/cucumber-tutorials.html]Cucumber
+          + [https://www.guru99.com/software-testing.html]Software Testing
+          + [https://www.guru99.com/learn-sap-testing-create-your-first-sa
+            p-test-case.html]SAP Testing
+          + [https://www.guru99.com/data-testing.html]Database Testing
+          + [https://www.guru99.com/mobile-testing.html]Mobile Testing
+          + [https://www.guru99.com/selenium-tutorial.html]Selenium
+          + [https://www.guru99.com/utlimate-guide-etl-datawarehouse-testi
+            ng.html]ETL Testing
+          + [https://www.guru99.com/mantis-bug-tracker-tutorial.html]Manti
+            s
+          + [https://www.guru99.com/soapui-tutorial.html]SoapUI
+          + [https://www.guru99.com/jmeter-tutorials.html]JMeter
+          + [https://www.guru99.com/postman-tutorial.html]Postman
+          + [https://www.guru99.com/test-management.html]TEST Management
+          + [https://www.guru99.com/jira-tutorial-a-complete-guide-for-beg
+            inners.html]JIRA
+          + [https://www.guru99.com/quick-test-professional-qtp-tutorial.h
+            tml]QTP
+          + [https://www.guru99.com/testlink-tutorial-complete-guide.html]
+            TestLink
+     * [https://www.guru99.com/what-is-sap.html]SAP (BUTTON) Expand child
+       menu
+          + [https://www.guru99.com/abap-tutorial.html]ABAP
+          + [https://www.guru99.com/sap-crm-training.html]CRM
+          + [https://www.guru99.com/sap-pi-process-integration-tutorial.ht
+            ml]PI/PO
+          + [https://www.guru99.com/overview-of-sap-apo.html]APO
+          + [https://www.guru99.com/crystal-reports-tutorial.html]Crystal
+            Reports
+          + [https://www.guru99.com/sap-pp-tutorials.html]PP
+          + [https://www.guru99.com/what-is-sap.html]Beginners
+          + [https://www.guru99.com/sap-fico-training-tutorials.html]FICO
+          + [https://www.guru99.com/free-sap-sd-training-course.html]SD
+          + [https://www.guru99.com/sap-basis-training-tutorials.html]Basi
+            s
+          + [https://www.guru99.com/sap-hana-tutorial.html]HANA
+          + [https://www.guru99.com/sapui5-tutorial.html]SAPUI5
+          + [https://www.guru99.com/sap-bods-tutorial.html]BODS
+          + [https://www.guru99.com/sap-hcm.html]HR
+          + [https://www.guru99.com/overview-of-sap-security.html]Security
+            Tutorial
+          + [https://www.guru99.com/sap-bi.html]BI/BW
+          + [https://www.guru99.com/sap-mm-training-tutorials.html]MM
+          + [https://www.guru99.com/overview-of-sap-solution-manager.html]
+            Solution Manager
+          + [https://www.guru99.com/sap-bpc.html]BPC
+          + [https://www.guru99.com/sap-quality-management-qm-tutorial.htm
+            l]QM
+          + [https://www.guru99.com/sap-successfactor.html]Successfactors
+          + [https://www.guru99.com/co-tutorials.html]CO
+          + [https://www.guru99.com/sap-payroll.html]Payroll
+          + [https://www.guru99.com/sap-training-hub.html]SAP Courses
+     * [https://www.guru99.com/java-tutorial.html]Web (BUTTON) Expand
+       child menu
+          + [https://www.guru99.com/apache.html]Apache
+          + [https://www.guru99.com/java-tutorial.html]Java
+          + [https://www.guru99.com/php-tutorials.html]PHP
+          + [https://www.guru99.com/ms-sql-server-tutorial.html]SQL Server
+          + [https://www.guru99.com/angularjs-tutorial.html]AngularJS
+          + [https://www.guru99.com/jsp-tutorial.html]JSP
+          + [https://www.guru99.com/pl-sql-tutorials.html]PL/SQL
+          + [https://www.guru99.com/uml-tutorial.html]UML
+          + [https://www.guru99.com/asp-net-tutorial.html]ASP.NET
+          + [https://www.guru99.com/kotlin-tutorial.html]Kotlin
+          + [https://www.guru99.com/postgresql-tutorial.html]PostgreSQL
+          + [https://www.guru99.com/vb-net-tutorial.html]VB.NET
+          + [https://www.guru99.com/c-programming-tutorial.html]C
+          + [https://www.guru99.com/unix-linux-tutorial.html]Linux
+          + [https://www.guru99.com/python-tutorials.html]Python
+          + [https://www.guru99.com/vbscript-tutorials-for-beginners.html]
+            VBScript
+          + [https://www.guru99.com/c-sharp-tutorial.html]C#
+          + [https://www.guru99.com/mariadb-tutorial-install.html]MariaDB
+          + [https://www.guru99.com/reactjs-tutorial.html]ReactJS
+          + [https://www.guru99.com/web-services-tutorial.html]Web
+            Services
+          + [https://www.guru99.com/cpp-programming-tutorial.html]C++
+          + [https://www.guru99.com/ms-access-tutorial.html]MS Access
+          + [https://www.guru99.com/ruby-on-rails-tutorial.html]Ruby &
+            Rails
+          + [https://www.guru99.com/wpf-tutorial.html]WPF
+          + [https://www.guru99.com/codeigniter-tutorial.html]CodeIgniter
+          + [https://www.guru99.com/mysql-tutorial.html]MySQL
+          + [https://www.guru99.com/scala-tutorial.html]Scala
+          + [https://www.guru99.com/sqlite-tutorial.html]SQLite
+          + [https://www.guru99.com/dbms-tutorial.html]DBMS
+          + [https://www.guru99.com/node-js-tutorial.html]Node.js
+          + [https://www.guru99.com/sql.html]SQL
+          + [https://www.guru99.com/perl-tutorials.html]Perl
+          + [https://www.guru99.com/interactive-javascript-tutorials.html]
+            JavaScript
+     * [https://www.guru99.com/design-analysis-algorithms-tutorial.html]Mu
+       st Learn (BUTTON) Expand child menu
+          + [https://www.guru99.com/accounting.html]Accounting
+          + [https://www.guru99.com/embedded-systems-tutorial.html]Embedde
+            d Systems
+          + [https://www.guru99.com/os-tutorial.html]Operating System
+          + [https://www.guru99.com/design-analysis-algorithms-tutorial.ht
+            ml]Algorithms
+          + [https://www.guru99.com/ethical-hacking-tutorials.html]Ethical
+            Hacking
+          + [https://www.guru99.com/pmp-tutorial.html]PMP
+          + [https://www.guru99.com/android-tutorial.html]Android
+          + [https://www.guru99.com/excel-tutorials.html]Excel Tutorial
+          + [https://www.guru99.com/photoshop-tutorials.html]Photoshop
+          + [https://www.guru99.com/cryptocurrency-tutorial.html]Blockchai
+            n
+          + [https://www.guru99.com/google-go-tutorial.html]Go Programming
+          + [https://www.guru99.com/project-management-tutorial.html]Proje
+            ct Management
+          + [https://www.guru99.com/business-analyst-tutorial-course.html]
+            Business Analyst
+          + [https://www.guru99.com/iot-tutorial.html]IoT
+          + [https://www.guru99.com/best-hard-disks.html]Reviews
+          + [https://www.guru99.com/web-design-and-development-tutorial.ht
+            ml]Build Website
+          + [https://www.guru99.com/itil-framework-process.html]ITIL
+          + [https://www.guru99.com/salesforce-tutorial.html]Salesforce
+          + [https://www.guru99.com/cloud-computing-for-beginners.html]Clo
+            ud Computing
+          + [https://www.guru99.com/jenkins-tutorial.html]Jenkins
+          + [https://www.guru99.com/seo-tutorial.html]SEO
+          + [https://www.guru99.com/learn-cobol-programming-tutorial.html]
+            COBOL
+          + [https://www.guru99.com/mis-tutorial.html]MIS
+          + [https://www.guru99.com/software-engineering-tutorial.html]Sof
+            tware Engineering
+          + [https://www.guru99.com/compiler-tutorial.html]Compiler Design
+          + [https://www.guru99.com/anime-websites-watch-online-free.html]
+            Movie
+          + [https://www.guru99.com/vba-tutorial.html]VBA
+          + [https://www.guru99.com/online-courses.html]Courses
+          + [https://www.guru99.com/data-communication-computer-network-tu
+            torial.html]Networking
+          + [https://www.guru99.com/best-vpn.html]VPN
+     * [https://www.guru99.com/bigdata-tutorials.html]Big Data (BUTTON)
+       Expand child menu
+          + [https://www.guru99.com/aws-tutorial.html]AWS
+          + [https://www.guru99.com/hive-tutorials.html]Hive
+          + [https://www.guru99.com/power-bi-tutorial.html]Power BI
+          + [https://www.guru99.com/bigdata-tutorials.html]Big Data
+          + [https://www.guru99.com/informatica-tutorials.html]Informatica
+          + [https://www.guru99.com/qlikview-tutorial.html]Qlikview
+          + [https://www.guru99.com/cassandra-tutorial.html]Cassandra
+          + [https://www.guru99.com/microstrategy-tutorial.html]MicroStrat
+            egy
+          + [https://www.guru99.com/tableau-tutorial.html]Tableau
+          + [https://www.guru99.com/cognos-tutorial.html]Cognos
+          + [https://www.guru99.com/mongodb-tutorials.html]MongoDB
+          + [https://www.guru99.com/talend-tutorial.html]Talend
+          + [https://www.guru99.com/data-warehousing-tutorial.html]Data
+            Warehousing
+          + [https://www.guru99.com/apache-nifi-tutorial.html]NiFi
+          + [https://www.guru99.com/zookeeper-tutorial.html]ZooKeeper
+          + [https://www.guru99.com/devops-tutorial.html]DevOps
+          + [https://www.guru99.com/obiee-tutorial.html]OBIEE
+          + [https://www.guru99.com/pentaho-tutorial.html]Pentaho
+          + [https://www.guru99.com/hbase-tutorials.html]HBase
+     * [https://www.guru99.com/live-testing-project.html]Live Project
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/live-agile-testing-project.html]Live
+            Agile Testing
+          + [https://www.guru99.com/live-selenium-project.html]Live
+            Selenium Project
+          + [https://www.guru99.com/live-interactive-exercise-hp-alm.html]
+            Live HP ALM
+          + [https://www.guru99.com/live-ecommerce-project.html]Live
+            Selenium 2
+          + [https://www.guru99.com/live-java-project.html]Live Java
+            Project
+          + [https://www.guru99.com/live-penetration-testing-project.html]
+            Live Security Testing
+          + [https://www.guru99.com/live-mobile-testing-project.html]Live
+            Mobile Testing
+          + [https://www.guru99.com/live-testing-project.html]Live Testing
+            Project
+          + [https://www.guru99.com/live-payment-gateway-project.html]Live
+            Payment Gateway
+          + [https://www.guru99.com/live-insurance-testing-project.html]Li
+            ve Testing 2
+          + [https://www.guru99.com/live-php-project-learn-complete-web-de
+            velopment-cycle.html]Live PHP Project
+          + [https://www.guru99.com/live-telecom-project.html]Live Telecom
+          + [https://www.guru99.com/live-projects.html]Live Projects Hub
+          + [https://www.guru99.com/live-uft-testing.html]Live UFT/QTP
+            Testing
+          + [https://www.guru99.com/live-python-project.html]Live Python
+            Project
+          + [https://www.guru99.com/live-seo-project.html]Live SEO Project
+     * [https://www.guru99.com/artificial-intelligence-tutorial.html]AI
+       (BUTTON) Expand child menu
+          + [https://www.guru99.com/ai-tutorial.html]Artificial
+            Intelligence
+          + [https://www.guru99.com/pytorch-tutorial.html]PyTorch
+          + [https://www.guru99.com/data-science-tutorial-for-beginners.ht
+            ml]Data Science
+          + [https://www.guru99.com/r-tutorial.html]R Programming
+          + [https://www.guru99.com/keras-tutorial.html]Keras
+          + [https://www.guru99.com/tensorflow-tutorial.html]TensorFlow
+          + [https://www.guru99.com/nltk-tutorial.html]NLTK
+
+   (BUTTON)
+   Search for: ____________________ Search

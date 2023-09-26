@@ -1,0 +1,375 @@
+   #[https://www.codecademy.com/blog.rss]Codecademy Blog
+
+   [https://www.codecademy.com/learn/learn-go#course-landing-page-heading]
+   Skip to Content
+
+     * Loading menu bar
+
+     * Loading menu bar
+     * (BUTTON) Menu Icon
+
+   Free
+   Course
+
+Learn Go
+
+   Learn how to use Go (Golang), an open-source programming language
+   supported by Google!
+   4.5
+   (BUTTON) 962 ratings
+   [https://www.codecademy.com/courses/learn-go/lessons/learn-go-introduct
+   ion]Start
+   136,935 learners enrolled
+   Built in partnership with
+     * Skill level
+       Beginner
+     * Time to complete
+       Approx. 10 hours
+     * Certificate of completion
+       Included with paid plans
+     * Prerequisites
+       None
+
+About this course
+
+   Go (or Golang) is an open source programming language designed to build
+   fast, reliable, and efficient software at scale.
+
+   Google uses Go specifically for its large networks of servers, and Go
+   also powers much of Google’s own cloud platform. Developers use Go in
+   application development, web development, in operations and
+   infrastructure teams, and much more. It is the language of Cloud Native
+   infrastructure and software development.
+
+   As Go’s popularity and adoption continue to increase, we’ll see even
+   greater usage and more creative implementations of the language!
+   (BUTTON) Read moreMini Chevron Down Icon
+
+Syllabus
+
+   6 lessons • 5 projects • 5 quizzes
+   (BUTTON) Expand all sections
+     * (BUTTON)
+       1
+
+Learn Go: Introduction
+       Ready to learn how to use Google’s new programming language, Go?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       2
+
+Learn Go: Variables
+       Learn about creating and storing values in Go by using variables.
+       Use different types to indicate what values those variables store.
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       3
+
+Learn Go: fmt Package
+       Learn how to print and scan data using Go’s fmt package!
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       4
+
+Learn Go: Conditionals
+       If you want to learn about implementing conditionals in Go, you’ve
+       come to the right place!
+       Arrow Chevron Down Icon
+     * (BUTTON)
+       5
+
+Learn Go: Functions
+       Learn how to write Go functions in this action-packed course!
+       Arrow Chevron Down Icon
+
+   [https://www.codecademy.com/courses/learn-go/lessons/learn-go-introduct
+   ion]Start
+   The platform
+
+Hands-on learning
+
+   Don’t just watch or read about someone else coding — write your own
+   code live in our online, interactive platform. You’ll even get
+   AI-driven recommendations on what you need to review to help keep you
+   on track.
+   Animated demonstration of running code in Codecademy's learning
+   environment
+
+Projects in this course
+
+     * [https://www.codecademy.com/courses/learn-go/projects/gopher-it]Pro
+       ject
+
+Gopher It
+       Create a Go program from scratch. You'll be incorporating the
+       concepts covered in the first lesson.
+     * [https://www.codecademy.com/courses/learn-go/projects/comic-mischie
+       f]Project
+
+Comic Mischief
+       Become the software administrator of the comic book store you own
+       and operate, Comic Mischief. Use variables to store data about your
+       shop and update those variables to maintain an internal state of
+       what comics are being added to the store!
+     * [https://www.codecademy.com/courses/learn-go/projects/new-device-se
+       tup-with-go-fmt]Project
+
+New Device Setup
+       Challenge your understanding of the `fmt` package in Go programming
+       a device setup!
+
+   Meet the creator of the course
+   [https://www.codecademy.com/pages/curriculum-developers]Meet the full
+   team
+   [https://www.codecademy.com/pages/kenny-lin]
+   Kenny Lin
+   Web Development Domain Manager at Codecademy
+   Kenny is the Domain Manager for the Web Development Domain at
+   Codecademy. He contributed to a wide range of courses and paths at
+   Codecademy, including JavaScript, Bootstrap, Handlebars, Phaser.js, Go,
+   Swift, TypeScript, and Lua.
+   [https://www.codecademy.com/pages/curriculum-developers]Meet the full
+   team
+
+   Learn Go course ratings and reviews
+   4.5
+   962 ratings
+    1. 5 stars
+       65%
+    2. 4 stars
+       25%
+    3. 3 stars
+       8%
+    4. 2 stars
+       2%
+    5. 1 star
+       0%
+
+     * Very good, has allowed me to grasp the basic syntax and structure
+       of Golang. Also provides effective challenges.
+       Tom H.
+       Verified Learner
+     * I have learned a ton about Golang from this course! And being able
+       to practice it here is really elevating my skills!
+       Peter M.
+       Verified Learner
+     * The exercises are super helpful to understand GO, especially
+       pointers. I had watched many videos and only with Codecademy was I
+       able to understand it.
+       Daniela V.
+       Verified Learner
+
+Our learners work at
+
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+
+   Two people in conversation while learning to code with Codecademy on
+   their laptops
+
+Unlock additional features with a paid plan
+
+     *
+
+Practice Projects
+       Guided projects that help you solidify the skills and concepts
+       you're learning.
+     *
+
+Assessments
+       Auto-graded quizzes and immediate feedback help you reinforce your
+       skills as you learn.
+     *
+
+Certificate of Completion
+       Earn a document to prove you've completed a course or path that you
+       can share with your network.
+
+   [https://www.codecademy.com/pricing]See pricing and plans
+
+Join over 50 million learners and start Learn Go today!
+
+   [https://www.codecademy.com/courses/learn-go/lessons/learn-go-introduct
+   ion]Start
+
+Frequently asked questions about Go
+
+     * (BUTTON)
+
+What is Go?
+       Arrow Chevron Down Icon
+       Golang (Go) is an open-source programming language. It’s powerful
+       and versatile, with well-organized code and an accessible syntax
+       that makes it a great choice for new programmers.
+     * (BUTTON)
+
+What does Go do?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What does Go have to do with Google?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What kind of jobs can Go get me?
+       Arrow Chevron Down Icon
+     * (BUTTON)
+
+What else should I study if I am learning Go?
+       Arrow Chevron Down Icon
+
+Company
+
+     * [https://www.codecademy.com/about]About
+     * [https://www.codecademy.com/about/careers]Careers
+     * [https://www.codecademy.com/pages/codecademy-affiliate-program]Affi
+       liates
+     *
+          + [https://twitter.com/Codecademy]
+          + [https://codecademy.com/users/redirect?redirect_url=https://ww
+            w.facebook.com/groups/codecademy.community]
+          + [https://instagram.com/codecademy]
+          + [https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ]
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Resources
+
+     * [https://www.codecademy.com/articles]Articles
+     * [https://codecademy.com/resources/blog]Blog
+     * [https://www.codecademy.com/resources/cheatsheets/all]Cheatsheets
+     * [https://www.codecademy.com/code-challenges]Code challenges
+     * [https://www.codecademy.com/resources/docs]Docs
+     * [https://www.codecademy.com/projects]Projects
+     * [https://www.codecademy.com/resources/videos]Videos
+     * [https://codecademy.com/pages/workspaces]Workspaces
+
+Support
+
+     * [https://help.codecademy.com/]Help Center
+
+Plans
+
+     * [https://www.codecademy.com/pages/paid-plans]Paid memberships
+     * [https://www.codecademy.com/student-center]For students
+     * [https://www.codecademy.com/business]For teams
+
+Community
+
+     * [https://discuss.codecademy.com/]Forums
+     * [https://community.codecademy.com/chapters]Chapters
+     * [https://www.codecademy.com/events]Events
+     * [https://try.codecademy.com/code-crew/]Code Crew
+     * [https://www.codecademy.com/resources/blog/category/learner-stories
+       ]Learner Stories
+     *
+     * [https://discord.com/invite/codecademy]Discord
+
+Subjects
+
+     * [https://www.codecademy.com/catalog/subject/artificial-intelligence
+       ]AI
+     * [https://www.codecademy.com/catalog/subject/cloud-computing]Cloud
+       Computing
+     * [https://www.codecademy.com/catalog/subject/code-foundations]Code
+       Foundations
+     * [https://www.codecademy.com/catalog/subject/computer-science]Comput
+       er Science
+     * [https://www.codecademy.com/catalog/subject/cybersecurity]Cybersecu
+       rity
+     * [https://www.codecademy.com/catalog/subject/data-analytics]Data
+       Analytics
+     * [https://www.codecademy.com/catalog/subject/data-science]Data
+       Science
+     * [https://www.codecademy.com/catalog/subject/data-visualization]Data
+       Visualization
+     * [https://www.codecademy.com/catalog/subject/developer-tools]Develop
+       er Tools
+     * [https://www.codecademy.com/catalog/subject/devops]DevOps
+     * [https://www.codecademy.com/catalog/subject/game-development]Game
+       Development
+     * [https://www.codecademy.com/catalog/subject/information-technology]
+       IT
+     * [https://www.codecademy.com/catalog/subject/machine-learning]Machin
+       e Learning
+     * [https://www.codecademy.com/catalog/subject/math]Math
+     * [https://www.codecademy.com/catalog/subject/mobile-development]Mobi
+       le Development
+     * [https://www.codecademy.com/catalog/subject/web-design]Web Design
+     * [https://www.codecademy.com/catalog/subject/web-development]Web
+       Development
+
+Languages
+
+     * [https://www.codecademy.com/catalog/language/bash]Bash
+     * [https://www.codecademy.com/catalog/language/c]C
+     * [https://www.codecademy.com/catalog/language/c-plus-plus]C++
+     * [https://www.codecademy.com/catalog/language/c-sharp]C#
+     * [https://www.codecademy.com/catalog/language/go]Go
+     * [https://www.codecademy.com/catalog/language/html-css]HTML & CSS
+     * [https://www.codecademy.com/catalog/language/java]Java
+     * [https://www.codecademy.com/catalog/language/javascript]JavaScript
+     * [https://www.codecademy.com/catalog/language/kotlin]Kotlin
+     * [https://www.codecademy.com/catalog/language/php]PHP
+     * [https://www.codecademy.com/catalog/language/python]Python
+     * [https://www.codecademy.com/catalog/language/r]R
+     * [https://www.codecademy.com/catalog/language/ruby]Ruby
+     * [https://www.codecademy.com/catalog/language/sql]SQL
+     * [https://www.codecademy.com/catalog/language/swift]Swift
+
+Career building
+
+     * [https://www.codecademy.com/catalog/all]Career paths
+     * [https://www.codecademy.com/pages/career-services]Career services
+     * [https://www.codecademy.com/pages/interview-prep]Interview prep
+     * [https://www.codecademy.com/pages/pro-certifications]Professional
+       certification
+     * —
+     * [https://www.codecademy.com/catalog/all]Full Catalog
+     * [https://www.codecademy.com/catalog/subject/beta]Beta Content
+     * [https://trello.com/b/vAgDXtT6/codecademy-releases-roadmap]Roadmap
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+Mobile
+
+     * [https://itunes.apple.com/us/app/codecademy-go/id1376029326]Downloa
+       d on the App Store
+     * [https://play.google.com/store/apps/details?id=com.ryzac.codecademy
+       go]Get it on Google Play
+
+     * [https://www.codecademy.com/policy]Privacy Policy
+     * [https://www.codecademy.com/cookie-policy]Cookie Policy
+     * [https://privacy.codecademy.com/]Do Not Sell My Personal
+       Information
+     * [https://www.codecademy.com/terms]Terms
+
+   Made with ❤️in NYC © 2023 Codecademy

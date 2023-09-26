@@ -1,0 +1,361 @@
+Music
+when it comes to cloud infrastructure
+virtual machine has been the go to
+standard for many of its advantages
+however what if you had an alternative
+to virtual machine that was more
+lightweight economical and more scalable
+that s exactly what tourists so docker
+is a container based technology that
+lets users develop distributed
+applications now how are these two
+different how do they complement each
+other so this introduces the topic for
+today s session that the stalker versus
+virtual machine so hello everyone the
+society on behalf of Freddy Rekha and
+I ll be walking you to the session on
+docker versus virtual machine
+so thank you all the attendees for
+joining in today s session so without
+wasting any further time let s look into
+the topics for today s session so we ll
+start today s session by understanding
+what is a virtual machine and then I ll
+tell you the benefits of virtual machine
+after understanding that I ll tell you
+what I ll talk are containers and then
+I ll tell you the benefits of docker
+containers after an introduction of
+virtual machine and docker containers
+I ll tell you the difference between
+docker containers and virtual machine
+and then the uses of them alright guys
+so is the agenda to everyone okay so
+that s great so now let s get started
+with the first topic for today s session
+that is what is virtual machine a
+virtual machine is an emulation of a
+computer system in simple terms it makes
+it possible to run what appears to be on
+many separate computers on hardware that
+is actually one computer the operating
+systems and their applications share
+hardware resources from a single host
+server or from a pod of host servers
+each virtual machine requires its own
+underlying operating system and then the
+hardware is virtualized not only this
+but a hypervisor or a virtual machine
+monitor is a software firmware or a
+hardware that creates and runs virtual
+machines it sits between the hardware
+and the virtual machine and is necessary
+to virtualize the server since the
+advent of affordable virtualization
+technology I
+departments have embraced virtual
+machines as the way to lower cost and
+increase efficiencies now with the note
+of this let me tell you the benefits of
+virtual machines so the benefits of
+virtual machines are mainly all the
+operating system resources are available
+to all the applications they have
+established management and security
+tools and not only this but they re
+better known for security controls now
+who are the popular virtual machine
+providers
+well the popular virtual machine
+providers are vmware k vm virtualbox Xen
+and hyper v so now that you ve
+understood what is the virtual machine
+let me tell you what docker containers
+are so as we all know that docker is the
+company driving the container movement
+and the only container platform provided
+to address every application across the
+hybrid cloud with containers instead of
+virtualizing the underlying computer
+like a virtual machine only the
+operating system is virtualized
+container sit on the top of a physical
+server and each container shares the
+host operating system kernel and usually
+the binaries and libraries to now
+sharing the operating system resources
+such as libraries significantly reduces
+the need to reproduce the operating
+system code and means that the server
+can run multiple workloads with a single
+operating system installation containers
+are thus exceptionally light and they re
+only megabytes in size and they just
+take few seconds to start and contrast
+with that virtual machines take minutes
+to run and are an order of magnitude
+larger than the equivalent container all
+that the container requires is enough of
+an operating system supporting programs
+and libraries and a system resource to
+run a specific program what this means
+is that in practice you can put two to
+three as many as applications in a
+single server with containers that you
+can with a virtual machine in addition
+to this with containers you can create a
+portable consistent operating
+environments for development testing and
+deployment
+
+so now that I ve told you about
+containers let me tell you the types of
+containers so mainly there are two
+different types of containers that is
+the Linux container and the docker
+containers so the Linux container is a
+Linux operating system level
+virtualization method for running
+multiple isolated Linux systems on a
+single host where ask doc has started as
+a project to build single application
+Linux containers introducing several
+changes to the Linux containers that
+make containers more portable and
+flexible to use at a high level we can
+say that docker is a Linux utility that
+can efficiently create ship and run
+containers so now that I ve told you the
+different types of containers let me
+tell you the benefits of containers so
+containers offer reduced IT management
+resources they reduce the size of the
+snapshots they are used in quicker
+spinning of apps and they also make sure
+that the security updates are reduced
+and simplified and they also make sure
+that there s less code to transfer
+migrate and upload workloads now who are
+the popular container providers
+well the popular container providers are
+the lyrics containers the docker and
+Windows Server so now that I ve told you
+individually what a container is what a
+virtual machine is and how do these to
+work
+Music
+now let me show you the major
+differences between docker containers
+and virtual machines well the major
+differences come with operating support
+security portability and performance so
+let s discuss each one of these terms
+one by one and let s know the
+differences between both of them so
+let s start with the operating system
+support the basic architecture of docker
+containers and virtual machines differ
+in their operating system supports
+containers are hosted in a single
+physical server with the host operating
+system which is shared among them but
+the virtual machines on the other hand
+have a host operating system and an
+individual guest operating system inside
+each virtual machine irrespective of the
+host operating system the guest
+operating system can be anything like it
+can be Linux Windows or any other
+operating system now the docker
+containers are suited for situations
+where you want to run multiple
+applications over a single operating
+system kernel but if you have
+applications or servers that need to run
+on different operating system flavors
+then virtual machines are required
+sharing the host operating system
+between the containers make them very
+light and helps them to boot up in just
+a few seconds hence the overhead to
+manage the container system is very low
+compared to that of virtual machines now
+let s move to the second difference
+status security in docker since the host
+kernel is shared among the containers
+the container technology has access to
+the kernel subsystems as a result of
+which a single vulnerable application
+can hack the entire host server
+providing root access to the
+applications and running them with a
+super user privileges is therefore not
+recommended in docker containers because
+of these security issues on the other
+hand virtual machines are unique
+instances with their own kernel and
+security features they can therefore run
+applications that need more privilege
+and security now moving on to the third
+difference that is portability docker
+containers are self contained packages
+that can run the required application
+since they do not have a separate guest
+operating system they can
+easily ported across different platforms
+the containers can be started and
+stopped in the matter of a few seconds
+compared to that of vm s
+due to the lightweight architecture this
+makes it easy to deploy docker
+containers quickly in service on the
+other hand virtual machines are isolated
+server instances with their own
+operating system they cannot be ported
+across multiple platforms without
+incurring compatibility issues for
+development purposes where the
+applications have to be developed and
+tested in different platforms docker
+containers are the ideal choice now
+let s move on to the final difference
+that is performance docker and virtual
+machines are intended for different
+purposes so it s not fair to measure the
+performance equally but the lightweight
+architecture makes docker containers
+less resource intensive than the virtual
+machines as a result of which containers
+can start up very fast compared to that
+of virtual machines and also the
+resource usage varies among the tube in
+containers the resource usage such as
+CPU memory input output varies with the
+load or traffic in it I like the case of
+virtual machines there is no need to
+allocate resources permanently to
+containers scaling up and duplicating
+the containers is also an easy task
+compared to that of virtual machines as
+there is no need to install an operating
+system in them
+
+so now that I ve told you the
+differences between docker containers
+and virtual machines let me show you a
+real life case study of how docker
+containers and virtual machines can
+complement each other so all of us know
+PayPal right so PayPal provides online
+payment solutions through their account
+balances bank accounts credit cards or
+promotional financing without sharing
+the financial information today PayPal
+is leveraging OpenStack for the private
+clouds and runs more than one lakh
+virtual machines now one of the biggest
+desire of PayPal s business was to
+modernize the data center infrastructure
+making it more on demand improving its
+security meeting compliance regulations
+and also making everything
+cost efficient so they wanted to
+refactor the existing Java and C
+legacy applications by dog arising them
+and deploying them as containers this
+called for a technology that provides a
+distributed application deployment
+architecture and can manage workloads
+but must also be deployed in both
+private and public cloud environments so
+PayPal uses taka commercial solutions to
+enable them to not only provide gains
+for the developers in terms of
+productivity and agility but also for
+the infrastructure teams in the form of
+cost efficiency and enterprise grade
+security the tools being used in
+production today include docker
+commercially supported engines docker
+trusted registry and as well as talk a
+compose the company believes that
+containers and virtual machines can
+coexist and thus they combine these two
+technologies leveraging docker
+containers and virtual machines together
+gave PayPal the ability to run more
+applications while reducing the number
+of total virtual machines and also
+optimizing their infrastructure this
+also allowed PayPal to spin up new
+applications much more quickly and also
+on as needed basis since containers are
+more lightweight and instantiate in a
+fraction of second while watching
+machines take minutes they can roll out
+a new application instance quickly patch
+up an existing application or even add
+the capacity to compensate for peak
+times
+in the year so this helped paypal to
+drive innovation and also outpaced the
+competition s so guys that s how the
+company gained the ability to scale
+quickly and deploy faster with the help
+of docker containers and virtual
+machines so now let me summarize the
+complete session in a minute for you so
+daughter is a containerization app that
+isolates applications at the software
+level if a virtual machine is a house
+then the docker container is a hotel
+room if you do not like the setup then
+you can always change the hotel room as
+it is much easier than changing a house
+isn t it so similarly as a hotel has
+multiple rooms sharing the same
+underlying infrastructure docker offers
+the ability to run multiple applications
+with the same host operating system and
+sharing underlying resources now it is
+often observed that some of them believe
+that docker is better than a virtual
+machine but we need to understand that
+while having a lot of functionality and
+being more efficient in running
+applications docker cannot replace
+virtual machines both containers and
+virtual machines have their own benefits
+and drawback and the ultimate decision
+will depend on your specific needs but
+let me also tell you that there s some
+general rules of thumb that is what your
+machines are a better choice for running
+applications that require all of the
+operating system resources and
+functionalities well you need to run
+multiple applications on servers or have
+a wide variety of operating systems to
+manage whereas the containers are a
+better choice when your biggest priority
+is to maximize the number of
+applications running on a minimal number
+of servers but in many situations the
+ideal setup is to likely include both
+with the current state of virtualization
+technology the flexibility of virtual
+machines and the minimal resource
+requirements of containers work together
+to provide environments with the maximum
+functionality so guys that s all for
+today s session I hope you found the
+session informated thank you and have a
+great day
+I hope you have enjoyed listening to
+this video please be kind enough to like
+it and you can comment any of your
+doubts and queries and we will reply
+them at the earliest do look out for
+more videos in our playlist and
+subscribe to any Rekha channel to learn

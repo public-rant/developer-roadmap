@@ -1,0 +1,83 @@
+hey everyone
+so today I m gonna continue working with
+Rich widgets like the ones from Dev
+extreme library and today I want to
+validate this phone input number widget
+and if we inspect the markup we can see
+a couple of interesting things
+notice that the actual number is inside
+this hidden input with the name mobile
+what you see on the page is not this
+input because this one is hidden instead
+you see this input that s a text box
+that s where the number is actually
+formatted having plus one you know in
+parenthesis and spaces
+so why don t we try to check it from a
+Cypress test
+now
+I m already visiting the page so I don t
+control the initial phone number but we
+want to check that initially the input
+has a 10 digit number
+so I m going to go back to my test and
+I m gonna find the input with name
+mobile
+and I know it should have
+wrap value I don t know the value though
+if I don t have a value and I use should
+have prop value then it heals the string
+value of that input so I can continue
+validating it so I can say that string
+should match and now I can say
+it s a 10 digit number so starts and
+ends and nothing else
+and now I can see that that s the 10
+digit number no spaces no extra
+punctuation no pluses no parenthesis no
+dashes excellent now I want to actually
+change it well we know that
+a markup
+if we find this hidden mobile input then
+if we go to its parent then we can drop
+down and find viral text box element
+now we already have the actual prop
+value so we have to grab the element
+again
+go to its parent
+and then find the input with our role
+text box
+we can clear it and we can type
+let s say one two three four five six
+seven eight nine so a 10 digit phone
+number
+okay let s play it again and you can see
+that we cleared and the text box
+actually formatted the number correctly
+it did not lose any digits I did not add
+any extra digits excellent
+and let s
+remove a focus by using side blur
+command because then
+fire removal Focus that s when it says
+the input
+but we can validate
+again
+so now we know the actual phone number
+right that s wherever we typed we can
+use a variable or you can just put the
+value I don t think it makes the test
+any less maintainable long term okay so
+we know the value of a hidden input what
+about the formatted text
+again
+let s find the text box
+and now we can say should
+have
+value and now the formatted text just
+like shown here
+perfect so we just validated the hidden
+input that has just the number with no
+formatting and we validated that the
+input text box with the user actually
+enters the number displays the formatted

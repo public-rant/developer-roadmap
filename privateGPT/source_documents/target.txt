@@ -1,0 +1,40 @@
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=htbY9-yggB0"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=AXVZYzw8geg"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=Kx_1NYYJS7Q"
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines > $(basename https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines).txt 2>/dev/null
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server > $(basename https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server).txt 2>/dev/null
+lynx -dump -list_inline https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/ > $(basename https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/).txt 2>/dev/null
+lynx -dump -list_inline https://howdns.works/ > $(basename https://howdns.works/).txt 2>/dev/null
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Glossary/DNS/ > $(basename https://developer.mozilla.org/en-US/docs/Glossary/DNS/).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=Wj0od2ag5sk"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=7lxgpKh_fRY"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=zEmUuNFBgN8&amp;list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K"
+lynx -dump -list_inline https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/ > $(basename https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).txt 2>/dev/null
+lynx -dump -list_inline https://www.browserstack.com/guide/browser-rendering-engine > $(basename https://www.browserstack.com/guide/browser-rendering-engine).txt 2>/dev/null
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work > $(basename https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work).txt 2>/dev/null
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name > $(basename https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name).txt 2>/dev/null
+lynx -dump -list_inline https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/ > $(basename https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=Y4cRx19nhJk"
+lynx -dump -list_inline https://cs.fyi/guide/how-does-internet-work > $(basename https://cs.fyi/guide/how-does-internet-work).txt 2>/dev/null
+lynx -dump -list_inline https://www.vox.com/2014/6/16/18076282/the-internet > $(basename https://www.vox.com/2014/6/16/18076282/the-internet).txt 2>/dev/null
+lynx -dump -list_inline http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm > $(basename http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm).txt 2>/dev/null
+lynx -dump -list_inline /guides/what-is-internet > $(basename /guides/what-is-internet).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=x3c1ih2NJEg"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=7_LPdttKXPc"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=z_hu2zm4_s8&amp;list=pltzyg7bz1u6o6wz9ef9tqt1js-pummktj"
+lynx -dump -list_inline https://cs.fyi/guide/http-in-depth > $(basename https://cs.fyi/guide/http-in-depth).txt 2>/dev/null
+lynx -dump -list_inline https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/ > $(basename https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=2JYT5f2isg4"
+lynx -dump -list_inline https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview > $(basename https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview).txt 2>/dev/null
+lynx -dump -list_inline https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/ > $(basename https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=a-sBfyiXysI"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=iYM2zFP3Zn0"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=j9QmMEWmcfo"
+lynx -dump -list_inline https://cs.fyi/guide/how-does-internet-work > $(basename https://cs.fyi/guide/how-does-internet-work).txt 2>/dev/null
+lynx -dump -list_inline https://www.vox.com/2014/6/16/18076282/the-internet > $(basename https://www.vox.com/2014/6/16/18076282/the-internet).txt 2>/dev/null
+lynx -dump -list_inline http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm > $(basename http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm).txt 2>/dev/null
+lynx -dump -list_inline /guides/what-is-internet > $(basename /guides/what-is-internet).txt 2>/dev/null
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=x3c1ih2NJEg"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=7_LPdttKXPc"
+docker run --rm -v $(pwd):$(pwd) -w $(pwd) youtube-dl youtube-dl --write-auto-sub --skip-download "https://www.youtube.com/watch?v=zN8YNNHcaZc"
+lynx -dump -list_inline https://www.howtographql.com/ > $(basename https://www.howtographql.com/).txt 2>/dev/null

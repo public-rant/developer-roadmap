@@ -1,0 +1,668 @@
+   #[https://stackoverflow.com/opensearch.xml]Stack Overflow
+   [https://stackoverflow.com/feeds/question/17769011]Feed for question
+   'How does cookie-based authentication work?'
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]
+   [https://stackoverflow.com/]Stack Overflow
+    1. [https://stackoverflow.co/]About
+    2. [https://stackoverflow.com/questions/17769011/how-does-cookie-based
+       -authentication-work]Products
+    3. [https://stackoverflow.co/teams/]For Teams
+
+    1. [https://stackoverflow.com/questions]Stack Overflow Public
+       questions & answers
+    2. [https://stackoverflow.co/teams/]Stack Overflow for Teams Where
+       developers & technologists share private knowledge with coworkers
+    3. [https://stackoverflow.co/talent/]Talent Build your employer brand
+    4. [https://stackoverflow.co/advertising/]Advertising Reach developers
+       & technologists worldwide
+    5. [https://stackoverflow.co/labs/]Labs The future of collective
+       knowledge sharing
+    6. [https://stackoverflow.co/]About the company
+
+   ____________________
+   Loading…
+
+    1.
+
+[https://stackoverflow.com/]current community
+       (BUTTON)
+          + [https://stackoverflow.com/]Stack Overflow
+            [https://stackoverflow.com/help]help
+            [https://chat.stackoverflow.com/?tab=site&host=stackoverflow.c
+            om]chat
+          + [https://meta.stackoverflow.com/]Meta Stack Overflow
+
+your communities
+       [https://stackoverflow.com/users/signup?ssrc=site_switcher&returnur
+       l=https%3a%2f%2fstackoverflow.com%2fquestions%2f17769011%2fhow-does
+       -cookie-based-authentication-work]Sign up or
+       [https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl
+       =https%3a%2f%2fstackoverflow.com%2fquestions%2f17769011%2fhow-does-
+       cookie-based-authentication-work]log in to customize your list.
+
+[https://stackexchange.com/sites]more stack exchange communities
+       [https://stackoverflow.blog/]company blog
+    2. (BUTTON)
+    3. [https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a
+       %2f%2fstackoverflow.com%2fquestions%2f17769011%2fhow-does-cookie-ba
+       sed-authentication-work]Log in
+    4. [https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3
+       a%2f%2fstackoverflow.com%2fquestions%2f17769011%2fhow-does-cookie-b
+       ased-authentication-work]Sign up
+
+    1. [https://stackoverflow.com/]Home
+    2.
+         1. Public
+         2. [https://stackoverflow.com/questions]Questions
+         3. [https://stackoverflow.com/tags]Tags
+         4. [https://stackoverflow.com/users]Users
+         5. [https://stackoverflow.com/jobs/companies?so_medium=stackoverf
+            low&so_source=SiteNav]Companies
+         6. Collectives
+            [javascript:void(0)]
+         7. [https://stackoverflow.com/collectives]Explore Collectives
+    3. Teams
+       Stack Overflow for Teams – Start collaborating and sharing
+       organizational knowledge.
+       [https://try.stackoverflow.co/why-teams/?utm_source=so-owned&utm_me
+       dium=side-bar&utm_campaign=campaign-38&utm_content=cta]Create a
+       free Team [https://stackoverflow.co/teams/]Why Teams?
+    4. Teams
+       [javascript:void(0)]
+    5. [https://stackoverflowteams.com/teams/create/free/?utm_source=so-ow
+       ned&utm_medium=side-bar&utm_campaign=campaign-38&utm_content=cta]Cr
+       eate free Team
+
+Collectives™ on Stack Overflow
+
+   Find centralized, trusted content and collaborate around the
+   technologies you use most.
+   [https://stackoverflow.com/collectives]Learn more about Collectives
+
+   Teams
+
+   Q&A for work
+
+   Connect and share knowledge within a single location that is structured
+   and easy to search.
+   [https://stackoverflow.co/teams/]Learn more about Teams
+
+[https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentic
+ation-work]How does cookie-based authentication work?
+
+   [https://stackoverflow.com/questions/ask]Ask Question
+   Asked 9 years, 11 months ago
+   Modified
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work?lastactivity]4 months ago
+   Viewed 193k times
+   (BUTTON)
+   298
+   (BUTTON) (BUTTON) [https://stackoverflow.com/posts/17769011/timeline]
+
+   What would be a step-by-step description of how cookie-based
+   authentication work?
+
+   I've never done anything involving either authentication or cookies.
+   What does the browser need to do? What does the server need to do? In
+   what order? How do we keep things secure?
+
+   I've been reading about different types of authentication and about
+   cookies, but I would like a basic description of how to use the two
+   together. I've only read that they are often used together, but I could
+   not find a description of how.
+     * [https://stackoverflow.com/questions/tagged/authentication]authenti
+       cation
+     * [https://stackoverflow.com/questions/tagged/cookies]cookies
+     * [https://stackoverflow.com/questions/tagged/browser]browser
+
+   [https://stackoverflow.com/q/17769011]Share
+   [https://stackoverflow.com/posts/17769011/edit]Improve this question
+   (BUTTON) Follow
+   [https://stackoverflow.com/posts/17769011/revisions]edited Feb 12 at
+   18:52
+   [https://stackoverflow.com/users/63550/peter-mortensen]
+   Peter Mortensen's user avatar
+   [https://stackoverflow.com/users/63550/peter-mortensen]Peter Mortensen
+   30.8k2121 gold badges105105 silver badges131131 bronze badges
+   asked Jul 21, 2013 at 4:21
+   [https://stackoverflow.com/users/2325773/mastid]
+   Mastid's user avatar
+   [https://stackoverflow.com/users/2325773/mastid]MastidMastid
+   3,15933 gold badges1313 silver badges88 bronze badges
+   1
+     * 4
+       [http://www.howstuffworks.com/cookie.htm]howstuffworks.com/cookie.h
+       tm
+       – [https://stackoverflow.com/users/1047662/cyclonecode]Cyclonecode
+       Jul 21, 2013 at 4:24
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]Add a comment  |
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]
+
+3 Answers 3
+
+   Sorted by:
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work?answertab=scoredesc#tab-top]Reset to default
+   [Highest score (default)___________]
+   (BUTTON)
+   398
+   (BUTTON) (BUTTON)
+   [https://stackoverflow.com/posts/32218069/timeline]
+
+   To expand on
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work/17769061#17769061]Conor's answer and add a little bit
+   more to the discussion...
+
+     Can someone give me a step by step description of how cookie based
+     authentication works? I've never done anything involving either
+     authentication or cookies. What does the browser need to do? What
+     does the server need to do? In what order? How do we keep things
+     secure?
+
+   Step 1: Client > Signing up
+
+   Before anything else, the user has to sign up. The client posts a HTTP
+   request to the server containing his/her username and password.
+
+   Step 2: Server > Handling sign up
+
+   The server receives this request and hashes the password before storing
+   the username and password in your database. This way, if someone gains
+   access to your database they won't see your users' actual passwords.
+
+   Step 3: Client > User login
+
+   Now your user logs in. He/she provides their username/password and
+   again, this is posted as a HTTP request to the server.
+
+   Step 4: Server > Validating login
+
+   The server looks up the username in the database, hashes the supplied
+   login password, and compares it to the previously hashed password in
+   the database. If it doesn't check out, we may deny them access by
+   [https://stackoverflow.com/questions/1959947/whats-an-appropriate-http-
+   status-code-to-return-by-a-rest-api-service-for-a-val]sending a 401
+   status code and ending the request.
+
+   Step 5: Server > Generating access token
+
+   If everything checks out, we're going to create an access token, which
+   uniquely identifies the user's session. Still in the server, we do two
+   things with the access token:
+    1. Store it in the database associated with that user
+    2. Attach it to a response cookie to be returned to the client. Be
+       sure to set an expiration date/time to limit the user's session
+
+   Henceforth, the cookies will be attached to every request (and
+   response) made between the client and server.
+
+   Step 6: Client > Making page requests
+
+   Back on the client side, we are now logged in. Every time the client
+   makes a request for a page that requires authorization (i.e. they need
+   to be logged in), the server obtains the access token from the cookie
+   and checks it against the one in the database associated with that
+   user. If it checks out, access is granted.
+
+   This should get you started. Be sure to clear the cookies upon logout!
+   [https://stackoverflow.com/a/32218069]Share
+   [https://stackoverflow.com/posts/32218069/edit]Improve this answer
+   (BUTTON) Follow
+   [https://stackoverflow.com/posts/32218069/revisions]edited Apr 25, 2022
+   at 18:30
+   [https://stackoverflow.com/users/2756409/tylerh]
+   TylerH's user avatar
+   [https://stackoverflow.com/users/2756409/tylerh]TylerH
+   20.7k6565 gold badges7373 silver badges9898 bronze badges
+   answered Aug 26, 2015 at 4:33
+   [https://stackoverflow.com/users/5266881/pllx]
+   pllx's user avatar
+   [https://stackoverflow.com/users/5266881/pllx]pllxpllx
+   4,08111 gold badge1010 silver badges99 bronze badges
+   8
+     * 13
+       Thanks for the description. I just wonder how does access token
+       provides security? Can an attacker if steals the cookie, pose as an
+       authenticated logged in user? Or that is protected by SSL?
+       – [https://stackoverflow.com/users/678342/richeek]Richeek
+       Oct 3, 2015 at 19:45
+     * 9
+       @Richeek SSL secures interception during requests/responses, but an
+       attacker might access your cookies at the endpoints (e.g. your
+       browser). Theoretically, they could then pose as a logged in user
+       until the cookie expires. I say “theoretically” because the
+       implementation above doesn’t handle that. In the above
+       implementation, the attacker will have access until the access
+       token in your database is updated (i.e. next login).
+       – [https://stackoverflow.com/users/5266881/pllx]pllx
+       Oct 7, 2015 at 3:17
+     * 18
+       You might invalidate the access token upon expiry yourself, perhaps
+       with an “expiration date” in your database. Or, you could consider
+       using
+       [http://techarena51.com/index.php/json-web-token-authentication-wit
+       h-flask-and-angularjs/]JSON Web Tokens (JWT), which are like access
+       tokens, but can handle token expiry among other things.
+       [http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#
+       rfc.section.4.1.4]More on JWT here. An attacker will still have
+       access to your account for brief periods of time if they have your
+       access token/JWT, so you should also secure your endpoints.
+       – [https://stackoverflow.com/users/5266881/pllx]pllx
+       Oct 7, 2015 at 3:17
+     * 10
+       @ManuChadha you could along with the token/session key also save
+       the user's ip address along with other identifying parameters such
+       as user-agent, etc. if the request then comes with a valid cookie
+       but from the wrong ip, browser, etc then you deny the request and
+       redirect the user to the login page to authenticate again.
+       – [https://stackoverflow.com/users/10263660/falcoger]FalcoGer
+       Dec 11, 2019 at 13:11
+     * 3
+       It is best practice to hash passwords client-side to further reduce
+       any risk of snooping.
+       – user10997580
+       Feb 29, 2020 at 20:56
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work] |
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]Show 3 more comments
+   (BUTTON)
+   210
+   (BUTTON) (BUTTON)
+   [https://stackoverflow.com/posts/17769061/timeline]
+
+   A cookie is basically just an item in a dictionary. Each item has a key
+   and a value. For authentication, the key could be something like
+   'username' and the value would be the username. Each time you make a
+   request to a website, your browser will include the cookies in the
+   request, and the host server will check the cookies. So authentication
+   can be done automatically like that.
+
+   To set a cookie, you just have to add it to the response the server
+   sends back after requests. The browser will then add the cookie upon
+   receiving the response.
+
+   There are different options you can configure for the cookie server
+   side, like expiration times or encryption. An encrypted cookie is often
+   referred to as a signed cookie. Basically the server encrypts the key
+   and value in the dictionary item, so only the server can make use of
+   the information. So then cookie would be secure.
+
+   A browser will save the cookies set by the server. In the HTTP header
+   of every request the browser makes to that server, it will add the
+   cookies. It will only add cookies for the domains that set them.
+   Example.com can set a cookie and also add options in the HTTP header
+   for the browsers to send the cookie back to subdomains, like
+   sub.example.com. It would be unacceptable for a browser to ever sends
+   cookies to a different domain.
+   [https://stackoverflow.com/a/17769061]Share
+   [https://stackoverflow.com/posts/17769061/edit]Improve this answer
+   (BUTTON) Follow
+   [https://stackoverflow.com/posts/17769061/revisions]edited Oct 10, 2017
+   at 12:45
+   [https://stackoverflow.com/users/7296893/erik-a]
+   Erik A's user avatar
+   [https://stackoverflow.com/users/7296893/erik-a]Erik A
+   31.5k1212 gold badges4141 silver badges6767 bronze badges
+   answered Jul 21, 2013 at 4:30
+   [https://stackoverflow.com/users/2490057/conor-patrick]
+   Conor Patrick's user avatar
+   [https://stackoverflow.com/users/2490057/conor-patrick]Conor
+   PatrickConor Patrick
+   2,85955 gold badges2121 silver badges3333 bronze badges
+   2
+     * What i understand is that the browser are able to send the cookie
+       back to the same domain. In relation to that does browser take
+       subdomain in account when differentiate between two domains?
+       – [https://stackoverflow.com/users/330799/aakash]Aakash
+       Jul 14, 2014 at 1:34
+     * 1
+       You can set options in the HTTP header for how a browser handles
+       subdomains.
+       – [https://stackoverflow.com/users/2490057/conor-patrick]Conor
+       Patrick
+       Jul 14, 2014 at 3:01
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]Add a comment  |
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]
+   (BUTTON)
+   40
+   (BUTTON) (BUTTON)
+   [https://stackoverflow.com/posts/48717678/timeline]
+
+   Cookie-Based Authentication
+
+   Cookie-based
+   [https://en.wiktionary.org/wiki/authentication#Noun]authentication
+   normally works in these four steps:
+    1. The user provides a username and password in the login form and the
+       client/browser sends a login request.
+    2. After the request is made, the server validates the user on the
+       backend by querying the database. If the request is valid, it will
+       create a session by using the user information fetched from the
+       database and store them. For each session a unique ID called the
+       session ID is created. By default, the session ID will be given to
+       the client through the browser.
+    3. The browser will submit this session ID on each subsequent request.
+       The session ID is verified against the database. Based on this
+       session ID, the server will identify the session belonging to which
+       client and then give the request access.
+    4. Once a user logs out of the app, the session is destroyed both
+       client-side and server-side.
+
+   [https://stackoverflow.com/a/48717678]Share
+   [https://stackoverflow.com/posts/48717678/edit]Improve this answer
+   (BUTTON) Follow
+   [https://stackoverflow.com/posts/48717678/revisions]edited Feb 12 at
+   19:02
+   [https://stackoverflow.com/users/63550/peter-mortensen]
+   Peter Mortensen's user avatar
+   [https://stackoverflow.com/users/63550/peter-mortensen]Peter Mortensen
+   30.8k2121 gold badges105105 silver badges131131 bronze badges
+   answered Feb 10, 2018 at 5:45
+   [https://stackoverflow.com/users/5418530/debendra-dash]
+   Debendra Dash's user avatar
+   [https://stackoverflow.com/users/5418530/debendra-dash]Debendra
+   DashDebendra Dash
+   5,3084545 silver badges3737 bronze badges
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]Add a comment  |
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]
+
+   [https://stackoverflow.com/help/privileges/protect-questions]Highly
+   active question. Earn 10 reputation (not counting the
+   [https://meta.stackexchange.com/questions/141648/what-is-the-associatio
+   n-bonus-and-how-does-it-work]association bonus) in order to answer this
+   question. The reputation requirement helps protect this question from
+   spam and non-answer activity.
+
+   Not the answer you're looking for? Browse other questions tagged
+     * [https://stackoverflow.com/questions/tagged/authentication]authenti
+       cation
+     * [https://stackoverflow.com/questions/tagged/cookies]cookies
+     * [https://stackoverflow.com/questions/tagged/browser]browser
+
+   or [https://stackoverflow.com/questions/ask]ask your own question.
+     * The Overflow Blog
+     * [https://stackoverflow.blog/2023/07/07/from-sims-to-supercycle-ep-5
+       87/]Why on earth are people paying for digital real estate? (Ep.
+       587)
+     * [https://stackoverflow.blog/2023/07/07/the-overflow-185-the-hardest
+       -part-of-software-is-requirements/]The Overflow #185: The hardest
+       part of software is requirements
+     * Featured on Meta
+     * [https://meta.stackexchange.com/questions/390463/starting-the-promp
+       t-design-site-a-new-home-in-our-stack-exchange-neighborhood]Startin
+       g the Prompt Design Site: A New Home in our Stack Exchange
+       Neighborhood
+     * [https://meta.stackexchange.com/questions/390761/colors-update-a-mo
+       re-detailed-look]Colors update: A more detailed look
+     * [https://meta.stackoverflow.com/questions/421831/temporary-policy-g
+       enerative-ai-e-g-chatgpt-is-banned]Temporary policy: Generative AI
+       (e.g., ChatGPT) is banned
+     * [https://meta.stackoverflow.com/questions/425384/testing-native-spo
+       nsored-banner-ads-on-stack-overflow-starting-july-6]Testing native,
+       sponsored banner ads on Stack Overflow (starting July 6)
+
+   [https://chat.stackoverflow.com/]Visit chat
+
+Linked
+
+   [https://stackoverflow.com/q/1959947]
+   453
+   [https://stackoverflow.com/questions/1959947/whats-an-appropriate-http-
+   status-code-to-return-by-a-rest-api-service-for-a-val?noredirect=1]What
+   's an appropriate HTTP status code to return by a REST API service for
+   a validation failure?
+   [https://stackoverflow.com/q/26862316]
+   3
+   [https://stackoverflow.com/questions/26862316/logging-out-of-webforms-a
+   uthentication-dos-not-remove-the-authentication-on-the?noredirect=1]Log
+   ging out of Webforms Authentication dos not remove the authentication
+   on the server
+   [https://stackoverflow.com/q/58478994]
+   3
+   [https://stackoverflow.com/questions/58478994/slack-oauth-automatically
+   -authorize-user-if-user-had-already-authorized-app?noredirect=1]Slack
+   Oauth: Automatically authorize user if user had already authorized app
+   [https://stackoverflow.com/q/62843583]
+   1
+   [https://stackoverflow.com/questions/62843583/question-regarding-passpo
+   rt-js-level-of-security?noredirect=1]Question regarding passport.js'
+   level of security
+   [https://stackoverflow.com/q/32427867]
+   0
+   [https://stackoverflow.com/questions/32427867/clarifications-and-peer-r
+   eview-regarding-authentication-and-roles-of-my-web-appl?noredirect=1]Cl
+   arifications and peer review regarding authentication and roles of my
+   web application
+   [https://stackoverflow.com/q/53309030]
+   0
+   [https://stackoverflow.com/questions/53309030/nodejs-authorization-appr
+   oaches?noredirect=1]Nodejs authorization approaches
+   [https://stackoverflow.com/q/48595482]
+   0
+   [https://stackoverflow.com/questions/48595482/personal-account-in-flask
+   ?noredirect=1]Personal account in flask
+   [https://stackoverflow.com/q/75563769]
+   0
+   [https://stackoverflow.com/questions/75563769/how-to-check-whether-a-us
+   er-has-logged-in-yet?noredirect=1]How to check whether a user has
+   logged-in yet?
+   [https://stackoverflow.com/q/63721025]
+   0
+   [https://stackoverflow.com/questions/63721025/how-are-session-based-coo
+   kies-validated-to-be-genuine-by-the-server?noredirect=1]How are session
+   based cookies validated to be genuine by the server?
+   [https://stackoverflow.com/q/61100605]
+   0
+   [https://stackoverflow.com/questions/61100605/set-cookie-using-jquery-o
+   n-form-submit-log-in?noredirect=1]Set cookie using jquery on form
+   submit / log in
+   [https://stackoverflow.com/questions/linked/17769011]See more linked
+   questions
+
+Related
+
+   [https://stackoverflow.com/q/2575886]
+   4
+   [https://stackoverflow.com/questions/2575886/how-do-cookies-work-when-b
+   rowsing-websites]How do cookies work when browsing websites
+   [https://stackoverflow.com/q/2575970]
+   3
+   [https://stackoverflow.com/questions/2575970/how-are-cookies-sent-to-a-
+   website]How are cookies sent to a website
+   [https://stackoverflow.com/q/3140099]
+   14
+   [https://stackoverflow.com/questions/3140099/how-do-cookies-work]How do
+   cookies work?
+   [https://stackoverflow.com/q/4907754]
+   5
+   [https://stackoverflow.com/questions/4907754/how-do-browsers-handle-coo
+   kies]How do browsers handle cookies?
+   [https://stackoverflow.com/q/5127775]
+   1
+   [https://stackoverflow.com/questions/5127775/how-does-stack-overflows-l
+   ogin-system-work]How does Stack Overflow's login system work?
+   [https://stackoverflow.com/q/7200539]
+   4
+   [https://stackoverflow.com/questions/7200539/how-does-a-browser-transfe
+   rs-a-cookie-to-server]How does a browser transfers a cookie to server?
+   [https://stackoverflow.com/q/13113698]
+   3
+   [https://stackoverflow.com/questions/13113698/how-does-google-know-that
+   -i-am-still-logged-in]How does Google know that I am still logged in?
+   [https://stackoverflow.com/q/15293093]
+   0
+   [https://stackoverflow.com/questions/15293093/regarding-the-workings-of
+   -cookies-in-sign-in-systems-on-the-web]Regarding the workings of
+   cookies in sign in systems on the web
+   [https://stackoverflow.com/q/39228281]
+   0
+   [https://stackoverflow.com/questions/39228281/how-sessions-and-cookies-
+   actually-managed-for-different-browsers]how sessions and cookies
+   actually managed for different browsers?
+   [https://stackoverflow.com/q/43398716]
+   0
+   [https://stackoverflow.com/questions/43398716/how-does-cookie-work-with
+   -http]How does cookie work with HTTP?
+
+[https://stackexchange.com/questions?tab=hot]Hot Network Questions
+
+     * [https://academia.stackexchange.com/questions/198031/can-i-contact-
+       the-editor-with-relevant-personal-information-in-hope-to-speed-up]C
+       an I contact the editor with relevant personal information in hope
+       to speed-up the review process?
+     * [https://physics.stackexchange.com/questions/771210/will-just-the-i
+       ncrease-in-height-of-water-column-increase-pressure-or-does-mass]Wi
+       ll just the increase in height of water column increase pressure or
+       does mass play any role in it?
+     * [https://softwareengineering.stackexchange.com/questions/446403/is-
+       password-hashing-bad]Is Password Hashing Bad?
+     * [https://academia.stackexchange.com/questions/198042/can-i-ask-a-sp
+       ecific-person-to-leave-my-defence-meeting]Can I ask a specific
+       person to leave my defence meeting?
+     * [https://serverfault.com/questions/1136210/how-can-i-troubleshoot-a
+       n-iptables-rule-that-is-preventing-internet-access-from]How can I
+       troubleshoot an iptables rule that is preventing internet access
+       from my server?
+     * [https://softwareengineering.stackexchange.com/questions/446432/how
+       -can-a-web-browser-simultaneously-run-more-videos-than-the-number-o
+       f-cpu-core]How can a web browser simultaneously run more videos
+       than the number of CPU cores?
+     * [https://langdev.stackexchange.com/questions/2128/why-do-keywords-h
+       ave-to-be-reserved-words]Why do keywords have to be reserved words?
+     * [https://politics.stackexchange.com/questions/80279/has-a-bill-ever
+       -failed-a-house-of-congress-unanimously]Has a bill ever failed a
+       house of Congress unanimously?
+     * [https://puzzling.stackexchange.com/questions/121461/operator-some-
+       product]Operator! Some Product!
+     * [https://askubuntu.com/questions/1477050/cannot-assign-ctrlaltup-do
+       wn-to-apps-ubuntu-holds-these-shortcuts-to-itself]Cannot assign
+       Ctrl+Alt+Up/Down to apps, Ubuntu holds these shortcuts to itself
+     * [https://literature.stackexchange.com/questions/25085/what-irish-oa
+       th-sounds-like-thoth]What "Irish Oath" sounds like "Thoth"?
+     * [https://langdev.stackexchange.com/questions/2122/do-you-need-an-an
+       y-type-when-implementing-a-statically-typed-programming-langu]Do
+       you need an "Any" type when implementing a statically typed
+       programming language?
+     * [https://movies.stackexchange.com/questions/120445/who-was-the-inte
+       nded-audience-for-dora-and-the-lost-city-of-gold]Who was the
+       intended audience for Dora and the Lost City of Gold?
+     * [https://langdev.stackexchange.com/questions/2134/languages-which-g
+       ive-you-access-to-the-ast-to-modify-during-compilation]Languages
+       which give you access to the AST to modify during compilation?
+     * [https://philosophy.stackexchange.com/questions/100494/how-does-the
+       -theory-of-evolution-make-it-less-likely-that-the-world-is-designed
+       ]How does the theory of evolution make it less likely that the
+       world is designed?
+     * [https://math.stackexchange.com/questions/4732860/dot-product-angle
+       s-greater-than-180]Dot product angles greater than 180
+     * [https://unix.stackexchange.com/questions/750951/is-there-any-poten
+       tial-negative-effect-of-adding-something-to-the-path-variable]Is
+       there any potential negative effect of adding something to the PATH
+       variable that is not yet installed on the system?
+     * [https://workplace.stackexchange.com/questions/192237/can-i-still-h
+       ave-hopes-for-an-offer-as-a-software-developer]Can I still have
+       hopes for an offer as a software developer
+     * [https://ell.stackexchange.com/questions/338560/what-is-the-verb-ex
+       pressing-the-action-of-moving-some-farm-animals-in-a-field-to]What
+       is the verb expressing the action of moving some farm animals in a
+       field to let them eat grass or plants?
+     * [https://academia.stackexchange.com/questions/198058/invitation-to-
+       help-writing-and-submitting-papers-how-does-this-scam-work]Invitati
+       on to help writing and submitting papers -- how does this scam
+       work?
+     * [https://french.stackexchange.com/questions/53306/how-do-you-say-he
+       s-cheap-in-french]How do you say "he's cheap" in French?
+     * [https://diy.stackexchange.com/questions/275879/how-to-get-romex-be
+       tween-two-garage-doors]How to get Romex between two garage doors
+     * [https://unix.stackexchange.com/questions/750864/how-to-format-a-js
+       on-string-as-a-table-using-jq]How to format a JSON string as a
+       table using jq?
+     * [https://stackoverflow.com/questions/76640378/python-zip-magic-for-
+       classes-instead-of-tuples]Python zip magic for classes instead of
+       tuples
+
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]more hot questions
+   [https://stackoverflow.com/feeds/question/17769011]Question feed
+
+Subscribe to RSS
+
+   Question feed
+
+   To subscribe to this RSS feed, copy and paste this URL into your RSS
+   reader.
+   https://stackoverflo
+   [https://stackoverflow.com/questions/17769011/how-does-cookie-based-aut
+   hentication-work]
+
+   [https://stackoverflow.com/]
+
+[https://stackoverflow.com/]Stack Overflow
+
+     * [https://stackoverflow.com/questions]Questions
+     * [https://stackoverflow.com/help]Help
+
+[https://stackoverflow.co/]Products
+
+     * [https://stackoverflow.co/teams/]Teams
+     * [https://stackoverflow.co/advertising/]Advertising
+     * [https://stackoverflow.co/collectives/]Collectives
+     * [https://stackoverflow.co/talent/]Talent
+
+[https://stackoverflow.co/]Company
+
+     * [https://stackoverflow.co/]About
+     * [https://stackoverflow.co/company/press/]Press
+     * [https://stackoverflow.co/company/work-here/]Work Here
+     * [https://stackoverflow.com/legal]Legal
+     * [https://stackoverflow.com/legal/privacy-policy]Privacy Policy
+     * [https://stackoverflow.com/legal/terms-of-service]Terms of Service
+     * [https://stackoverflow.co/company/contact/]Contact Us
+     * [https://stackoverflow.com/questions/17769011/how-does-cookie-based
+       -authentication-work]Cookie Settings
+     * [https://stackoverflow.com/legal/cookie-policy]Cookie Policy
+
+[https://stackexchange.com/]Stack Exchange Network
+
+     * [https://stackexchange.com/sites#technology]Technology
+     * [https://stackexchange.com/sites#culturerecreation]Culture &
+       recreation
+     * [https://stackexchange.com/sites#lifearts]Life & arts
+     * [https://stackexchange.com/sites#science]Science
+     * [https://stackexchange.com/sites#professional]Professional
+     * [https://stackexchange.com/sites#business]Business
+     * [https://api.stackexchange.com/]API
+     * [https://data.stackexchange.com/]Data
+
+     * [https://stackoverflow.blog/?blb=1]Blog
+     * [https://www.facebook.com/officialstackoverflow/]Facebook
+     * [https://twitter.com/stackoverflow]Twitter
+     * [https://linkedin.com/company/stack-overflow]LinkedIn
+     * [https://www.instagram.com/thestackoverflow]Instagram
+
+   Site design / logo © 2023 Stack Exchange Inc; user contributions
+   licensed under [https://stackoverflow.com/help/licensing]CC BY-SA.
+   rev 2023.7.7.43526
+
+   Your privacy
+
+   By clicking “Accept all cookies”, you agree Stack Exchange can store
+   cookies on your device and disclose information in accordance with our
+   [https://stackoverflow.com/legal/cookie-policy]Cookie Policy.
+   (BUTTON) Accept all cookies (BUTTON) Necessary cookies only
+   (BUTTON) Customize settings

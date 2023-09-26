@@ -1,0 +1,42 @@
+[
+ {
+  "id": "rabbitmq",
+  "tag": "h1",
+  "text": "RabbitMQ"
+ },
+ {
+  "id": "kafka",
+  "tag": "h1",
+  "text": "Kafka"
+ },
+ {
+  "id": "message-brokers",
+  "tag": "h1",
+  "text": "Message Brokers"
+ },
+ {
+  "href": "https://www.rabbitmq.com/getstarted.html",
+  "tag": "a",
+  "text": "RabbitMQ Tutorials"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=nFxjaVmFj5E",
+  "tag": "a",
+  "text": "RabbitMQ Tutorial - Message Queues and Distributed Systems"
+ },
+ {
+  "href": "https://kafka.apache.org/quickstart",
+  "tag": "a",
+  "text": "Apache Kafka quickstart"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+  "tag": "a",
+  "text": "Apache Kafka Fundamentals"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=57Qr9tk6Uxc",
+  "tag": "a",
+  "text": "Introduction to Message Brokers"
+ }
+]

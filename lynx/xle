@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://infosecscout.com/why-md5-is-not-safe/ > $(basename https://infosecscout.com/why-md5-is-not-safe/).txt

@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://learn.microsoft.com/en-us/azure/architecture/patterns/ > $(basename https://learn.microsoft.com/en-us/azure/architecture/patterns/).txt

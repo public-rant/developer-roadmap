@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.howtographql.com/react-apollo/0-introduction/ > $(basename https://www.howtographql.com/react-apollo/0-introduction/).txt

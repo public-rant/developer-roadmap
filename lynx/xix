@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.w3schools.com/xml/xml_soap.asp > $(basename https://www.w3schools.com/xml/xml_soap.asp).txt

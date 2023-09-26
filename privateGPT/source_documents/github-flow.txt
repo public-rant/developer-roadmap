@@ -1,0 +1,188 @@
+   [https://ooloo.io/]ooloo.io
+
+"I have no idea how to use Git in a professional dev team."
+
+"I'm feeling so confused and overwhelmed!"
+
+   You've been coding for a while now and feel somewhat comfortable with
+   it. But when it comes to using Git you still fumble around.
+
+   You know how to commit your code. Maybe you have worked with branches
+   here and there. But for the most part, you've been working on the
+   "master" branch on your own.
+
+   And to be honest, you've been fine.
+
+   At the same time, you know that you'll have to work with a team of
+   developers eventually. You'll have to collaborate with other
+   professionals on a common code-base. So there's the question:
+
+   How do real dev teams in real companies use Git?
+
+   You know there should be best practices and workflows. But the
+   tutorials you find are just too basic or abstract. How are you supposed
+   to learn the Git workflows of the pros?
+
+What if you could experience a professional Git workflow?
+
+   You read correctly. What if you could not only learn how to use Git in
+   a team, in theory, but experience it hands-on? And what if you had the
+   help of resources that go into depth and cover edge cases on top of
+   that?
+
+   You could get your Git knowledge on par with your coding skills. And
+   once you need it in real life you could navigate through the Git
+   workflow with a clear head.
+
+   You'd be independent of the help of the senior devs.
+
+   At least a bit. But how can you get real experience in a Git workflow
+   used by teams without the essential ingredient: a team?
+
+An interactive Git course to learn the GitHub flow
+
+   Learn how to use Git in a team with a workflow that is used in many
+   companies around the world: the GitHub flow.
+
+   Unlike other interactive Git tutorials you won't work inside the
+   browser in a fake environment but rather in a real developer
+   environment:
+     * on your machine inside your editor
+     * using the command line
+     * with a repository on GitHub
+     * with professional branch protection rules.
+
+   Don't worry, you don't need to know all of this already. You'll get
+   resources and a roadmap so you can guide yourself through the process
+   during the course. And in real life.
+
+Now, where exactly does the team part come into play?
+
+   This is where it gets really interesting. You will have a bot teammate
+   who helps you along the way. She will collaborate with you by reviewing
+   your code, requesting changes, and implementing features.
+   [https://ooloo.io/static/e07c58447619899629adf22ad11c3bbf/76cea/github-
+   change-requests.png]change request
+
+   You as well will have to review the code so you can see both sides of
+   the table. You'll work on multiple branches at the same time and run
+   into merge conflicts. Just like in a real team.
+
+   This way you will really experience what it feels like to work in a
+   team of developers using a professional Git workflow.
+
+This course is completely free
+
+   You don't have to pay and you don't need to subscribe to anything. I'd
+   appreciate it if you could share this course with your friends though.
+
+   Also, if you're a React developer and enjoy this experience have a look
+   at [https://ooloo.io/]my other course. It has a similar approach but
+   teaches many more professional skills by building a guided project
+   based on designs and tasks. Just like a real-world project.
+
+   Note that this course doesn't cover the very basics of Git. You're
+   expected to know at least a bit about commits and branches. More
+   advanced topics like merging, squash merging, and rebasing are covered
+   in the course material though.
+
+   Ready to learn how professional teams use Git?
+   [https://ooloo.io/project/github-flow/mindset]Start using Git like the
+   pros
+
+Who am I?
+
+   Hi, I'm Johannes Kettmann, the creator of this course.
+   [johannes-kettmann.jpeg]
+   [https://jkettmann.com/][svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy5
+   3My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwID
+   I0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxM
+   iAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptMSAxNi4wNTd2LTMuMDU3
+   aDIuOTk0Yy0uMDU5IDEuMTQzLS4yMTIgMi4yNC0uNDU2IDMuMjc5LS44MjMtLjEyLTEuNjc
+   0LS4xODgtMi41MzgtLjIyMnptMS45NTcgMi4xNjJjLS40OTkgMS4zMy0xLjE1OSAyLjQ5Ny
+   0xLjk1NyAzLjQ1NnYtMy42MmMuNjY2LjAyOCAxLjMxOS4wODEgMS45NTcuMTY0em0tMS45N
+   TctNy4yMTl2LTMuMDE1Yy44NjgtLjAzNCAxLjcyMS0uMTAzIDIuNTQ4LS4yMjQuMjM4IDEu
+   MDI3LjM4OSAyLjExMS40NDYgMy4yMzloLTIuOTk0em0wLTUuMDE0di0zLjY2MWMuODA2Ljk
+   2OSAxLjQ3MSAyLjE1IDEuOTcxIDMuNDk2LS42NDIuMDg0LTEuMy4xMzctMS45NzEuMTY1em
+   0yLjcwMy0zLjI2N2MxLjIzNy40OTYgMi4zNTQgMS4yMjggMy4yOSAyLjE0Ni0uNjQyLjIzN
+   C0xLjMxMS40NDItMi4wMTkuNjA3LS4zNDQtLjk5Mi0uNzc1LTEuOTEtMS4yNzEtMi43NTN6
+   bS03LjI0MSAxMy41NmMtLjI0NC0xLjAzOS0uMzk4LTIuMTM2LS40NTYtMy4yNzloMi45OTR
+   2My4wNTdjLS44NjUuMDM0LTEuNzE0LjEwMi0yLjUzOC4yMjJ6bTIuNTM4IDEuNzc2djMuNj
+   JjLS43OTgtLjk1OS0xLjQ1OC0yLjEyNi0xLjk1Ny0zLjQ1Ni42MzgtLjA4MyAxLjI5MS0uM
+   TM2IDEuOTU3LS4xNjR6bS0yLjk5NC03LjA1NWMuMDU3LTEuMTI4LjIwNy0yLjIxMi40NDYt
+   My4yMzkuODI3LjEyMSAxLjY4LjE5IDIuNTQ4LjIyNHYzLjAxNWgtMi45OTR6bTEuMDI0LTU
+   uMTc5Yy41LTEuMzQ2IDEuMTY1LTIuNTI3IDEuOTctMy40OTZ2My42NjFjLS42NzEtLjAyOC
+   0xLjMyOS0uMDgxLTEuOTctLjE2NXptLTIuMDA1LS4zNWMtLjcwOC0uMTY1LTEuMzc3LS4zN
+   zMtMi4wMTgtLjYwNy45MzctLjkxOCAyLjA1My0xLjY1IDMuMjktMi4xNDYtLjQ5Ni44NDQt
+   LjkyNyAxLjc2Mi0xLjI3MiAyLjc1M3ptLS41NDkgMS45MThjLS4yNjQgMS4xNTEtLjQzNCA
+   yLjM2LS40OTIgMy42MTFoLTMuOTMzYy4xNjUtMS42NTguNzM5LTMuMTk3IDEuNjE3LTQuNT
+   E4Ljg4LjM2MSAxLjgxNi42NyAyLjgwOC45MDd6bS4wMDkgOS4yNjJjLS45ODguMjM2LTEuO
+   TIuNTQyLTIuNzk3LjktLjg5LTEuMzI4LTEuNDcxLTIuODc5LTEuNjM3LTQuNTUxaDMuOTM0
+   Yy4wNTggMS4yNjUuMjMxIDIuNDg4LjUgMy42NTF6bS41NTMgMS45MTdjLjM0Mi45NzYuNzY
+   4IDEuODgxIDEuMjU3IDIuNzEyLTEuMjIzLS40OS0yLjMyNi0xLjIxMS0zLjI1Ni0yLjExNS
+   42MzYtLjIyOSAxLjI5OS0uNDM1IDEuOTk5LS41OTd6bTkuOTI0IDBjLjcuMTYzIDEuMzYyL
+   jM2NyAxLjk5OS41OTctLjkzMS45MDMtMi4wMzQgMS42MjUtMy4yNTcgMi4xMTYuNDg5LS44
+   MzIuOTE1LTEuNzM3IDEuMjU4LTIuNzEzem0uNTUzLTEuOTE3Yy4yNy0xLjE2My40NDItMi4
+   zODYuNTAxLTMuNjUxaDMuOTM0Yy0uMTY3IDEuNjcyLS43NDggMy4yMjMtMS42MzggNC41NT
+   EtLjg3Ny0uMzU4LTEuODEtLjY2NC0yLjc5Ny0uOXptLjUwMS01LjY1MWMtLjA1OC0xLjI1M
+   S0uMjI5LTIuNDYtLjQ5Mi0zLjYxMS45OTItLjIzNyAxLjkyOS0uNTQ2IDIuODA5LS45MDcu
+   ODc3IDEuMzIxIDEuNDUxIDIuODYgMS42MTYgNC41MThoLTMuOTMzeiIvPjwvc3ZnPg==]
+   [https://www.linkedin.com/in/johannes-kettmann-40a049145/][svg+xml;base
+   64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIg
+   aGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNC45OCAzLjVjMCA
+   xLjM4MS0xLjExIDIuNS0yLjQ4IDIuNXMtMi40OC0xLjExOS0yLjQ4LTIuNWMwLTEuMzggMS
+   4xMS0yLjUgMi40OC0yLjVzMi40OCAxLjEyIDIuNDggMi41em0uMDIgNC41aC01djE2aDV2L
+   TE2em03Ljk4MiAwaC00Ljk2OHYxNmg0Ljk2OXYtOC4zOTljMC00LjY3IDYuMDI5LTUuMDUy
+   IDYuMDI5IDB2OC4zOTloNC45ODh2LTEwLjEzMWMwLTcuODgtOC45MjItNy41OTMtMTEuMDE
+   4LTMuNzE0di0yLjE1NXoiLz48L3N2Zz4=]
+   [https://twitter.com/j_kettmann][svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDo
+   vL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD
+   0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNC41NTdjLS44ODMuMzkyLTEuODMyLjY1Ni0yL
+   jgyOC43NzUgMS4wMTctLjYwOSAxLjc5OC0xLjU3NCAyLjE2NS0yLjcyNC0uOTUxLjU2NC0y
+   LjAwNS45NzQtMy4xMjcgMS4xOTUtLjg5Ny0uOTU3LTIuMTc4LTEuNTU1LTMuNTk0LTEuNTU
+   1LTMuMTc5IDAtNS41MTUgMi45NjYtNC43OTcgNi4wNDUtNC4wOTEtLjIwNS03LjcxOS0yLj
+   E2NS0xMC4xNDgtNS4xNDQtMS4yOSAyLjIxMy0uNjY5IDUuMTA4IDEuNTIzIDYuNTc0LS44M
+   DYtLjAyNi0xLjU2Ni0uMjQ3LTIuMjI5LS42MTYtLjA1NCAyLjI4MSAxLjU4MSA0LjQxNSAz
+   Ljk0OSA0Ljg5LS42OTMuMTg4LTEuNDUyLjIzMi0yLjIyNC4wODQuNjI2IDEuOTU2IDIuNDQ
+   0IDMuMzc5IDQuNiAzLjQxOS0yLjA3IDEuNjIzLTQuNjc4IDIuMzQ4LTcuMjkgMi4wNCAyLj
+   E3OSAxLjM5NyA0Ljc2OCAyLjIxMiA3LjU0OCAyLjIxMiA5LjE0MiAwIDE0LjMwNy03LjcyM
+   SAxMy45OTUtMTQuNjQ2Ljk2Mi0uNjk1IDEuNzk3LTEuNTYyIDIuNDU3LTIuNTQ5eiIvPjwv
+   c3ZnPg==]
+
+   I'm a self-taught fullstack JS developer and know the struggle of
+   learning how to work professionally with Git first-hand.
+
+   When I started to code I had no clue about version control. At first,
+   everything was simple. I wrote tiny programs that fit into a single
+   file. Once my files grew larger and larger and I started breaking
+   existing code keeping track of previous versions seemed smart.
+
+   The perfect solution at the time was to create folders with names like
+   "2010-04-23 15:23" to host the corresponding version of my code.
+
+   Didn't work out that well of course.
+
+   Finally, I realized there was an existing tool called Git that can help
+   with versioned code. I was excited.
+
+   I happily committed to the master branch and pushed to my custom Git
+   server. Better, but still not the smartest idea.
+
+   At some point, I landed my first professional job. And it was
+   overwhelming. I had to understand the code base and figure out how to
+   work with other developers. And last but not least, using Git in a team
+   was totally different from what I was used to.
+
+   I wasn't allowed to commit to the sacred master branch anymore.
+   Instead: Atomic commits, feature branches, releases, code reviews,
+   merge, rebase...
+
+   It took me years to get fully used to that. And honestly, I'm still
+   learning.
+
+   I hope that this course can help you to get up to speed much faster and
+   in a safe environment. Maybe you don't have to experience the same
+   stress and anxiety I had to go through back in the days.
+   [https://ooloo.io/project/github-flow/mindset]Start using Git like the
+   pros
+   [https://ooloo.io/terms]Terms of Use[https://ooloo.io/privacy]Privacy

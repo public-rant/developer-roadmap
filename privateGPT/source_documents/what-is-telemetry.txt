@@ -1,0 +1,8 @@
+
+   REFRESH(0 sec):
+   [https://www.sumologic.com/glossary/telemetry/]https://www.sumologic.co
+   m/glossary/telemetry/
+
+   This page has moved to
+   [https://www.sumologic.com/glossary/telemetry/]https://www.sumologic.co
+   m/glossary/telemetry/ .

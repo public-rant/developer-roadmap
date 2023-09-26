@@ -1,0 +1,37 @@
+   #[https://www.youtube.com/opensearch?locale=en_US]YouTube
+   [https://m.youtube.com/watch?v=OqjJjpjDRLc]alternate
+   [https://m.youtube.com/watch?v=OqjJjpjDRLc]alternate
+   [android-app://com.google.android.youtube/http/www.youtube.com/watch?v=
+   OqjJjpjDRLc&feature=youtu.be]alternate
+   [ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=OqjJjpjDRLc&fe
+   ature=youtu.be]alternate
+   [https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtu
+   be.com%2Fwatch%3Fv%3DOqjJjpjDRLc]What is a Relational Database?
+   [https://www.youtube.com/oembed?format=xml&url=https%3A%2F%2Fwww.youtub
+   e.com%2Fwatch%3Fv%3DOqjJjpjDRLc]What is a Relational Database?
+
+   IFRAME:
+   [https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passi
+   ve=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle
+   _signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%2
+   6feature%3Dpassive&hl=en]passive_signin
+
+   ____________________
+
+   [https://www.youtube.com/][https://www.youtube.com/]
+
+   [https://www.youtube.com/about/]About[https://www.youtube.com/about/pre
+   ss/]Press[https://www.youtube.com/about/copyright/]Copyright[https://ww
+   w.youtube.com/t/contact_us/]Contact
+   us[https://www.youtube.com/creators/]Creators[https://www.youtube.com/a
+   ds/]Advertise[https://developers.google.com/youtube]Developers[https://
+   www.youtube.com/t/terms]Terms[https://www.youtube.com/t/privacy]Privacy
+   [https://www.youtube.com/about/policies/]Policy &
+   Safety[https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_s
+   ource=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtu
+   be.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26u
+   tm_campaign%3Dytgen]How YouTube works[https://www.youtube.com/new]Test
+   new features[https://tv.youtube.com/learn/nflsundayticket]NFL Sunday
+   Ticket
+
+   © 2023 Google LLC

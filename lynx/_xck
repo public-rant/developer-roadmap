@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline /javascript > $(basename /javascript).txt

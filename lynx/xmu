@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://www.rabbitmq.com/getstarted.html > $(basename https://www.rabbitmq.com/getstarted.html).txt

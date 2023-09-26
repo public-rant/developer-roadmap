@@ -1,0 +1,643 @@
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-T4MTBKP]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-T4MTBKP
+
+   [https://redis.io/][https://redis.io/docs/getting-started/]Get started
+   [https://redis.io/docs/getting-started/]Get started
+
+   Docs
+          [https://redis.io/docs/about/]Redis
+          [https://redis.io/docs/getting-started/]Get started
+          [https://redis.io/docs/data-types/]Data types
+          [https://redis.io/docs/ui/cli/]Redis CLI
+          [https://redis.io/docs/clients/]Redis clients
+          [https://redis.io/docs/management/persistence/]Persistence
+          [https://redis.io/docs/management/scaling/]Scaling
+
+          [https://redis.io/docs/stack/]Redis Stack
+          [https://redis.io/docs/getting-started/install-stack/]Get
+          started [https://redis.io/docs/clients/]Stack clients
+          [https://redis.io/docs/ui/insight/]RedisInsight
+          [https://redis.io/docs/data-types/json/]JSON
+          [https://redis.io/docs/interact/search-and-query/]Search
+          [https://redis.io/docs/data-types/probabilistic/]Probabilistic
+
+   Docs
+          [https://redis.io/docs/about/]Redis
+          [https://redis.io/docs/getting-started/]Get started
+          [https://redis.io/docs/data-types/]Data types
+          [https://redis.io/docs/ui/cli/]Redis CLI
+          [https://redis.io/docs/clients/]Redis clients
+          [https://redis.io/docs/management/persistence/]Persistence
+          [https://redis.io/docs/management/scaling/]Scaling
+            ___________________________________________________________
+
+          [https://redis.io/docs/stack/]Redis Stack
+          [https://redis.io/docs/getting-started/install-stack/]Get
+          started [https://redis.io/docs/clients/]Stack clients
+          [https://redis.io/docs/ui/insight/]RedisInsight
+          [https://redis.io/docs/data-types/json/]JSON
+          [https://redis.io/docs/interact/search-and-query/]Search
+          [https://redis.io/docs/data-types/probabilistic/]Probabilistic
+            ___________________________________________________________
+
+   [https://redis.io/commands/]Commands
+   [https://redis.io/commands/]Commands
+
+   Resources
+          [https://redis.io/resources/clients/]Clients
+          [https://redis.io/resources/libraries/]Libraries
+          [https://redis.io/resources/tools/]Tools
+          [https://redis.io/resources/modules/]Modules
+
+   Resources
+          [https://redis.io/resources/clients/]Clients
+          [https://redis.io/resources/libraries/]Libraries
+          [https://redis.io/resources/tools/]Tools
+          [https://redis.io/resources/modules/]Modules
+
+   [https://redis.io/community/]Community
+   [https://redis.io/community/]Community
+   [https://redis.io/support/]Support [https://redis.io/support/]Support
+   (BUTTON) Quick search…… Search… ⌘ K
+   [https://redis.io/download/]Download [http://redis.com/try-free/]Try
+   Redis Cloud
+   (BUTTON) Open main menu
+
+     * [https://redis.io/commands/]Commands
+          + [https://redis.io/commands/acl-cat/]ACL CAT
+          + [https://redis.io/commands/acl-deluser/]ACL DELUSER
+          + [https://redis.io/commands/acl-dryrun/]ACL DRYRUN
+          + [https://redis.io/commands/acl-genpass/]ACL GENPASS
+          + [https://redis.io/commands/acl-getuser/]ACL GETUSER
+          + [https://redis.io/commands/acl-list/]ACL LIST
+          + [https://redis.io/commands/acl-load/]ACL LOAD
+          + [https://redis.io/commands/acl-log/]ACL LOG
+          + [https://redis.io/commands/acl-save/]ACL SAVE
+          + [https://redis.io/commands/acl-setuser/]ACL SETUSER
+          + [https://redis.io/commands/acl-users/]ACL USERS
+          + [https://redis.io/commands/acl-whoami/]ACL WHOAMI
+          + [https://redis.io/commands/append/]APPEND
+          + [https://redis.io/commands/asking/]ASKING
+          + [https://redis.io/commands/auth/]AUTH
+          + [https://redis.io/commands/bf.add/]BF.ADD
+          + [https://redis.io/commands/bf.card/]BF.CARD
+          + [https://redis.io/commands/bf.exists/]BF.EXISTS
+          + [https://redis.io/commands/bf.info/]BF.INFO
+          + [https://redis.io/commands/bf.insert/]BF.INSERT
+          + [https://redis.io/commands/bf.loadchunk/]BF.LOADCHUNK
+          + [https://redis.io/commands/bf.madd/]BF.MADD
+          + [https://redis.io/commands/bf.mexists/]BF.MEXISTS
+          + [https://redis.io/commands/bf.reserve/]BF.RESERVE
+          + [https://redis.io/commands/bf.scandump/]BF.SCANDUMP
+          + [https://redis.io/commands/bgrewriteaof/]BGREWRITEAOF
+          + [https://redis.io/commands/bgsave/]BGSAVE
+          + [https://redis.io/commands/bitcount/]BITCOUNT
+          + [https://redis.io/commands/bitfield/]BITFIELD
+          + [https://redis.io/commands/bitfield_ro/]BITFIELD_RO
+          + [https://redis.io/commands/bitop/]BITOP
+          + [https://redis.io/commands/bitpos/]BITPOS
+          + [https://redis.io/commands/blmove/]BLMOVE
+          + [https://redis.io/commands/blmpop/]BLMPOP
+          + [https://redis.io/commands/blpop/]BLPOP
+          + [https://redis.io/commands/brpop/]BRPOP
+          + [https://redis.io/commands/brpoplpush/]BRPOPLPUSH
+          + [https://redis.io/commands/bzmpop/]BZMPOP
+          + [https://redis.io/commands/bzpopmax/]BZPOPMAX
+          + [https://redis.io/commands/bzpopmin/]BZPOPMIN
+          + [https://redis.io/commands/cf.add/]CF.ADD
+          + [https://redis.io/commands/cf.addnx/]CF.ADDNX
+          + [https://redis.io/commands/cf.count/]CF.COUNT
+          + [https://redis.io/commands/cf.del/]CF.DEL
+          + [https://redis.io/commands/cf.exists/]CF.EXISTS
+          + [https://redis.io/commands/cf.info/]CF.INFO
+          + [https://redis.io/commands/cf.insert/]CF.INSERT
+          + [https://redis.io/commands/cf.insertnx/]CF.INSERTNX
+          + [https://redis.io/commands/cf.loadchunk/]CF.LOADCHUNK
+          + [https://redis.io/commands/cf.mexists/]CF.MEXISTS
+          + [https://redis.io/commands/cf.reserve/]CF.RESERVE
+          + [https://redis.io/commands/cf.scandump/]CF.SCANDUMP
+          + [https://redis.io/commands/client-caching/]CLIENT CACHING
+          + [https://redis.io/commands/client-getname/]CLIENT GETNAME
+          + [https://redis.io/commands/client-getredir/]CLIENT GETREDIR
+          + [https://redis.io/commands/client-id/]CLIENT ID
+          + [https://redis.io/commands/client-info/]CLIENT INFO
+          + [https://redis.io/commands/client-kill/]CLIENT KILL
+          + [https://redis.io/commands/client-list/]CLIENT LIST
+          + [https://redis.io/commands/client-no-evict/]CLIENT NO-EVICT
+          + [https://redis.io/commands/client-no-touch/]CLIENT NO-TOUCH
+          + [https://redis.io/commands/client-pause/]CLIENT PAUSE
+          + [https://redis.io/commands/client-reply/]CLIENT REPLY
+          + [https://redis.io/commands/client-setinfo/]CLIENT SETINFO
+          + [https://redis.io/commands/client-setname/]CLIENT SETNAME
+          + [https://redis.io/commands/client-tracking/]CLIENT TRACKING
+          + [https://redis.io/commands/client-trackinginfo/]CLIENT
+            TRACKINGINFO
+          + [https://redis.io/commands/client-unblock/]CLIENT UNBLOCK
+          + [https://redis.io/commands/client-unpause/]CLIENT UNPAUSE
+          + [https://redis.io/commands/cluster-addslots/]CLUSTER ADDSLOTS
+          + [https://redis.io/commands/cluster-addslotsrange/]CLUSTER
+            ADDSLOTSRANGE
+          + [https://redis.io/commands/cluster-bumpepoch/]CLUSTER
+            BUMPEPOCH
+          + [https://redis.io/commands/cluster-count-failure-reports/]CLUS
+            TER COUNT-FAILURE-REPORTS
+          + [https://redis.io/commands/cluster-countkeysinslot/]CLUSTER
+            COUNTKEYSINSLOT
+          + [https://redis.io/commands/cluster-delslots/]CLUSTER DELSLOTS
+          + [https://redis.io/commands/cluster-delslotsrange/]CLUSTER
+            DELSLOTSRANGE
+          + [https://redis.io/commands/cluster-failover/]CLUSTER FAILOVER
+          + [https://redis.io/commands/cluster-flushslots/]CLUSTER
+            FLUSHSLOTS
+          + [https://redis.io/commands/cluster-forget/]CLUSTER FORGET
+          + [https://redis.io/commands/cluster-getkeysinslot/]CLUSTER
+            GETKEYSINSLOT
+          + [https://redis.io/commands/cluster-info/]CLUSTER INFO
+          + [https://redis.io/commands/cluster-keyslot/]CLUSTER KEYSLOT
+          + [https://redis.io/commands/cluster-links/]CLUSTER LINKS
+          + [https://redis.io/commands/cluster-meet/]CLUSTER MEET
+          + [https://redis.io/commands/cluster-myid/]CLUSTER MYID
+          + [https://redis.io/commands/cluster-myshardid/]CLUSTER
+            MYSHARDID
+          + [https://redis.io/commands/cluster-nodes/]CLUSTER NODES
+          + [https://redis.io/commands/cluster-replicas/]CLUSTER REPLICAS
+          + [https://redis.io/commands/cluster-replicate/]CLUSTER
+            REPLICATE
+          + [https://redis.io/commands/cluster-reset/]CLUSTER RESET
+          + [https://redis.io/commands/cluster-saveconfig/]CLUSTER
+            SAVECONFIG
+          + [https://redis.io/commands/cluster-set-config-epoch/]CLUSTER
+            SET-CONFIG-EPOCH
+          + [https://redis.io/commands/cluster-setslot/]CLUSTER SETSLOT
+          + [https://redis.io/commands/cluster-shards/]CLUSTER SHARDS
+          + [https://redis.io/commands/cluster-slaves/]CLUSTER SLAVES
+          + [https://redis.io/commands/cluster-slots/]CLUSTER SLOTS
+          + [https://redis.io/commands/cms.incrby/]CMS.INCRBY
+          + [https://redis.io/commands/cms.info/]CMS.INFO
+          + [https://redis.io/commands/cms.initbydim/]CMS.INITBYDIM
+          + [https://redis.io/commands/cms.initbyprob/]CMS.INITBYPROB
+          + [https://redis.io/commands/cms.merge/]CMS.MERGE
+          + [https://redis.io/commands/cms.query/]CMS.QUERY
+          + [https://redis.io/commands/command/]COMMAND
+          + [https://redis.io/commands/command-count/]COMMAND COUNT
+          + [https://redis.io/commands/command-docs/]COMMAND DOCS
+          + [https://redis.io/commands/command-getkeys/]COMMAND GETKEYS
+          + [https://redis.io/commands/command-getkeysandflags/]COMMAND
+            GETKEYSANDFLAGS
+          + [https://redis.io/commands/command-info/]COMMAND INFO
+          + [https://redis.io/commands/command-list/]COMMAND LIST
+          + [https://redis.io/commands/config-get/]CONFIG GET
+          + [https://redis.io/commands/config-resetstat/]CONFIG RESETSTAT
+          + [https://redis.io/commands/config-rewrite/]CONFIG REWRITE
+          + [https://redis.io/commands/config-set/]CONFIG SET
+          + [https://redis.io/commands/copy/]COPY
+          + [https://redis.io/commands/dbsize/]DBSIZE
+          + [https://redis.io/commands/decr/]DECR
+          + [https://redis.io/commands/decrby/]DECRBY
+          + [https://redis.io/commands/del/]DEL
+          + [https://redis.io/commands/discard/]DISCARD
+          + [https://redis.io/commands/dump/]DUMP
+          + [https://redis.io/commands/echo/]ECHO
+          + [https://redis.io/commands/eval/]EVAL
+          + [https://redis.io/commands/eval_ro/]EVAL_RO
+          + [https://redis.io/commands/evalsha/]EVALSHA
+          + [https://redis.io/commands/evalsha_ro/]EVALSHA_RO
+          + [https://redis.io/commands/exec/]EXEC
+          + [https://redis.io/commands/exists/]EXISTS
+          + [https://redis.io/commands/expire/]EXPIRE
+          + [https://redis.io/commands/expireat/]EXPIREAT
+          + [https://redis.io/commands/expiretime/]EXPIRETIME
+          + [https://redis.io/commands/failover/]FAILOVER
+          + [https://redis.io/commands/fcall/]FCALL
+          + [https://redis.io/commands/fcall_ro/]FCALL_RO
+          + [https://redis.io/commands/flushall/]FLUSHALL
+          + [https://redis.io/commands/flushdb/]FLUSHDB
+          + [https://redis.io/commands/ft._list/]FT._LIST
+          + [https://redis.io/commands/ft.aggregate/]FT.AGGREGATE
+          + [https://redis.io/commands/ft.aliasadd/]FT.ALIASADD
+          + [https://redis.io/commands/ft.aliasdel/]FT.ALIASDEL
+          + [https://redis.io/commands/ft.aliasupdate/]FT.ALIASUPDATE
+          + [https://redis.io/commands/ft.alter/]FT.ALTER
+          + [https://redis.io/commands/ft.config-get/]FT.CONFIG GET
+          + [https://redis.io/commands/ft.config-set/]FT.CONFIG SET
+          + [https://redis.io/commands/ft.create/]FT.CREATE
+          + [https://redis.io/commands/ft.cursor-del/]FT.CURSOR DEL
+          + [https://redis.io/commands/ft.cursor-read/]FT.CURSOR READ
+          + [https://redis.io/commands/ft.dictadd/]FT.DICTADD
+          + [https://redis.io/commands/ft.dictdel/]FT.DICTDEL
+          + [https://redis.io/commands/ft.dictdump/]FT.DICTDUMP
+          + [https://redis.io/commands/ft.dropindex/]FT.DROPINDEX
+          + [https://redis.io/commands/ft.explain/]FT.EXPLAIN
+          + [https://redis.io/commands/ft.explaincli/]FT.EXPLAINCLI
+          + [https://redis.io/commands/ft.info/]FT.INFO
+          + [https://redis.io/commands/ft.profile/]FT.PROFILE
+          + [https://redis.io/commands/ft.search/]FT.SEARCH
+          + [https://redis.io/commands/ft.spellcheck/]FT.SPELLCHECK
+          + [https://redis.io/commands/ft.sugadd/]FT.SUGADD
+          + [https://redis.io/commands/ft.sugdel/]FT.SUGDEL
+          + [https://redis.io/commands/ft.sugget/]FT.SUGGET
+          + [https://redis.io/commands/ft.suglen/]FT.SUGLEN
+          + [https://redis.io/commands/ft.syndump/]FT.SYNDUMP
+          + [https://redis.io/commands/ft.synupdate/]FT.SYNUPDATE
+          + [https://redis.io/commands/ft.tagvals/]FT.TAGVALS
+          + [https://redis.io/commands/function-delete/]FUNCTION DELETE
+          + [https://redis.io/commands/function-dump/]FUNCTION DUMP
+          + [https://redis.io/commands/function-flush/]FUNCTION FLUSH
+          + [https://redis.io/commands/function-kill/]FUNCTION KILL
+          + [https://redis.io/commands/function-list/]FUNCTION LIST
+          + [https://redis.io/commands/function-load/]FUNCTION LOAD
+          + [https://redis.io/commands/function-restore/]FUNCTION RESTORE
+          + [https://redis.io/commands/function-stats/]FUNCTION STATS
+          + [https://redis.io/commands/geoadd/]GEOADD
+          + [https://redis.io/commands/geodist/]GEODIST
+          + [https://redis.io/commands/geohash/]GEOHASH
+          + [https://redis.io/commands/geopos/]GEOPOS
+          + [https://redis.io/commands/georadius/]GEORADIUS
+          + [https://redis.io/commands/georadius_ro/]GEORADIUS_RO
+          + [https://redis.io/commands/georadiusbymember/]GEORADIUSBYMEMBE
+            R
+          + [https://redis.io/commands/georadiusbymember_ro/]GEORADIUSBYME
+            MBER_RO
+          + [https://redis.io/commands/geosearch/]GEOSEARCH
+          + [https://redis.io/commands/geosearchstore/]GEOSEARCHSTORE
+          + [https://redis.io/commands/get/]GET
+          + [https://redis.io/commands/getbit/]GETBIT
+          + [https://redis.io/commands/getdel/]GETDEL
+          + [https://redis.io/commands/getex/]GETEX
+          + [https://redis.io/commands/getrange/]GETRANGE
+          + [https://redis.io/commands/getset/]GETSET
+          + [https://redis.io/commands/hdel/]HDEL
+          + [https://redis.io/commands/hello/]HELLO
+          + [https://redis.io/commands/hexists/]HEXISTS
+          + [https://redis.io/commands/hget/]HGET
+          + [https://redis.io/commands/hgetall/]HGETALL
+          + [https://redis.io/commands/hincrby/]HINCRBY
+          + [https://redis.io/commands/hincrbyfloat/]HINCRBYFLOAT
+          + [https://redis.io/commands/hkeys/]HKEYS
+          + [https://redis.io/commands/hlen/]HLEN
+          + [https://redis.io/commands/hmget/]HMGET
+          + [https://redis.io/commands/hmset/]HMSET
+          + [https://redis.io/commands/hrandfield/]HRANDFIELD
+          + [https://redis.io/commands/hscan/]HSCAN
+          + [https://redis.io/commands/hset/]HSET
+          + [https://redis.io/commands/hsetnx/]HSETNX
+          + [https://redis.io/commands/hstrlen/]HSTRLEN
+          + [https://redis.io/commands/hvals/]HVALS
+          + [https://redis.io/commands/incr/]INCR
+          + [https://redis.io/commands/incrby/]INCRBY
+          + [https://redis.io/commands/incrbyfloat/]INCRBYFLOAT
+          + [https://redis.io/commands/info/]INFO
+          + [https://redis.io/commands/json.arrappend/]JSON.ARRAPPEND
+          + [https://redis.io/commands/json.arrindex/]JSON.ARRINDEX
+          + [https://redis.io/commands/json.arrinsert/]JSON.ARRINSERT
+          + [https://redis.io/commands/json.arrlen/]JSON.ARRLEN
+          + [https://redis.io/commands/json.arrpop/]JSON.ARRPOP
+          + [https://redis.io/commands/json.arrtrim/]JSON.ARRTRIM
+          + [https://redis.io/commands/json.clear/]JSON.CLEAR
+          + [https://redis.io/commands/json.debug/]JSON.DEBUG
+          + [https://redis.io/commands/json.debug-memory/]JSON.DEBUG
+            MEMORY
+          + [https://redis.io/commands/json.del/]JSON.DEL
+          + [https://redis.io/commands/json.forget/]JSON.FORGET
+          + [https://redis.io/commands/json.get/]JSON.GET
+          + [https://redis.io/commands/json.merge/]JSON.MERGE
+          + [https://redis.io/commands/json.mget/]JSON.MGET
+          + [https://redis.io/commands/json.mset/]JSON.MSET
+          + [https://redis.io/commands/json.numincrby/]JSON.NUMINCRBY
+          + [https://redis.io/commands/json.nummultby/]JSON.NUMMULTBY
+          + [https://redis.io/commands/json.objkeys/]JSON.OBJKEYS
+          + [https://redis.io/commands/json.objlen/]JSON.OBJLEN
+          + [https://redis.io/commands/json.resp/]JSON.RESP
+          + [https://redis.io/commands/json.set/]JSON.SET
+          + [https://redis.io/commands/json.strappend/]JSON.STRAPPEND
+          + [https://redis.io/commands/json.strlen/]JSON.STRLEN
+          + [https://redis.io/commands/json.toggle/]JSON.TOGGLE
+          + [https://redis.io/commands/json.type/]JSON.TYPE
+          + [https://redis.io/commands/keys/]KEYS
+          + [https://redis.io/commands/lastsave/]LASTSAVE
+          + [https://redis.io/commands/latency-doctor/]LATENCY DOCTOR
+          + [https://redis.io/commands/latency-graph/]LATENCY GRAPH
+          + [https://redis.io/commands/latency-histogram/]LATENCY
+            HISTOGRAM
+          + [https://redis.io/commands/latency-history/]LATENCY HISTORY
+          + [https://redis.io/commands/latency-latest/]LATENCY LATEST
+          + [https://redis.io/commands/latency-reset/]LATENCY RESET
+          + [https://redis.io/commands/lcs/]LCS
+          + [https://redis.io/commands/lindex/]LINDEX
+          + [https://redis.io/commands/linsert/]LINSERT
+          + [https://redis.io/commands/llen/]LLEN
+          + [https://redis.io/commands/lmove/]LMOVE
+          + [https://redis.io/commands/lmpop/]LMPOP
+          + [https://redis.io/commands/lolwut/]LOLWUT
+          + [https://redis.io/commands/lpop/]LPOP
+          + [https://redis.io/commands/lpos/]LPOS
+          + [https://redis.io/commands/lpush/]LPUSH
+          + [https://redis.io/commands/lpushx/]LPUSHX
+          + [https://redis.io/commands/lrange/]LRANGE
+          + [https://redis.io/commands/lrem/]LREM
+          + [https://redis.io/commands/lset/]LSET
+          + [https://redis.io/commands/ltrim/]LTRIM
+          + [https://redis.io/commands/memory-doctor/]MEMORY DOCTOR
+          + [https://redis.io/commands/memory-malloc-stats/]MEMORY
+            MALLOC-STATS
+          + [https://redis.io/commands/memory-purge/]MEMORY PURGE
+          + [https://redis.io/commands/memory-stats/]MEMORY STATS
+          + [https://redis.io/commands/memory-usage/]MEMORY USAGE
+          + [https://redis.io/commands/mget/]MGET
+          + [https://redis.io/commands/migrate/]MIGRATE
+          + [https://redis.io/commands/module-list/]MODULE LIST
+          + [https://redis.io/commands/module-load/]MODULE LOAD
+          + [https://redis.io/commands/module-loadex/]MODULE LOADEX
+          + [https://redis.io/commands/module-unload/]MODULE UNLOAD
+          + [https://redis.io/commands/monitor/]MONITOR
+          + [https://redis.io/commands/move/]MOVE
+          + [https://redis.io/commands/mset/]MSET
+          + [https://redis.io/commands/msetnx/]MSETNX
+          + [https://redis.io/commands/multi/]MULTI
+          + [https://redis.io/commands/object-encoding/]OBJECT ENCODING
+          + [https://redis.io/commands/object-freq/]OBJECT FREQ
+          + [https://redis.io/commands/object-idletime/]OBJECT IDLETIME
+          + [https://redis.io/commands/object-refcount/]OBJECT REFCOUNT
+          + [https://redis.io/commands/persist/]PERSIST
+          + [https://redis.io/commands/pexpire/]PEXPIRE
+          + [https://redis.io/commands/pexpireat/]PEXPIREAT
+          + [https://redis.io/commands/pexpiretime/]PEXPIRETIME
+          + [https://redis.io/commands/pfadd/]PFADD
+          + [https://redis.io/commands/pfcount/]PFCOUNT
+          + [https://redis.io/commands/pfdebug/]PFDEBUG
+          + [https://redis.io/commands/pfmerge/]PFMERGE
+          + [https://redis.io/commands/pfselftest/]PFSELFTEST
+          + [https://redis.io/commands/ping/]PING
+          + [https://redis.io/commands/psetex/]PSETEX
+          + [https://redis.io/commands/psubscribe/]PSUBSCRIBE
+          + [https://redis.io/commands/psync/]PSYNC
+          + [https://redis.io/commands/pttl/]PTTL
+          + [https://redis.io/commands/publish/]PUBLISH
+          + [https://redis.io/commands/pubsub-channels/]PUBSUB CHANNELS
+          + [https://redis.io/commands/pubsub-numpat/]PUBSUB NUMPAT
+          + [https://redis.io/commands/pubsub-numsub/]PUBSUB NUMSUB
+          + [https://redis.io/commands/pubsub-shardchannels/]PUBSUB
+            SHARDCHANNELS
+          + [https://redis.io/commands/pubsub-shardnumsub/]PUBSUB
+            SHARDNUMSUB
+          + [https://redis.io/commands/punsubscribe/]PUNSUBSCRIBE
+          + [https://redis.io/commands/quit/]QUIT
+          + [https://redis.io/commands/randomkey/]RANDOMKEY
+          + [https://redis.io/commands/readonly/]READONLY
+          + [https://redis.io/commands/readwrite/]READWRITE
+          + [https://redis.io/commands/rename/]RENAME
+          + [https://redis.io/commands/renamenx/]RENAMENX
+          + [https://redis.io/commands/replconf/]REPLCONF
+          + [https://redis.io/commands/replicaof/]REPLICAOF
+          + [https://redis.io/commands/reset/]RESET
+          + [https://redis.io/commands/restore/]RESTORE
+          + [https://redis.io/commands/restore-asking/]RESTORE-ASKING
+          + [https://redis.io/commands/role/]ROLE
+          + [https://redis.io/commands/rpop/]RPOP
+          + [https://redis.io/commands/rpoplpush/]RPOPLPUSH
+          + [https://redis.io/commands/rpush/]RPUSH
+          + [https://redis.io/commands/rpushx/]RPUSHX
+          + [https://redis.io/commands/sadd/]SADD
+          + [https://redis.io/commands/save/]SAVE
+          + [https://redis.io/commands/scan/]SCAN
+          + [https://redis.io/commands/scard/]SCARD
+          + [https://redis.io/commands/script-debug/]SCRIPT DEBUG
+          + [https://redis.io/commands/script-exists/]SCRIPT EXISTS
+          + [https://redis.io/commands/script-flush/]SCRIPT FLUSH
+          + [https://redis.io/commands/script-kill/]SCRIPT KILL
+          + [https://redis.io/commands/script-load/]SCRIPT LOAD
+          + [https://redis.io/commands/sdiff/]SDIFF
+          + [https://redis.io/commands/sdiffstore/]SDIFFSTORE
+          + [https://redis.io/commands/select/]SELECT
+          + [https://redis.io/commands/set/]SET
+          + [https://redis.io/commands/setbit/]SETBIT
+          + [https://redis.io/commands/setex/]SETEX
+          + [https://redis.io/commands/setnx/]SETNX
+          + [https://redis.io/commands/setrange/]SETRANGE
+          + [https://redis.io/commands/shutdown/]SHUTDOWN
+          + [https://redis.io/commands/sinter/]SINTER
+          + [https://redis.io/commands/sintercard/]SINTERCARD
+          + [https://redis.io/commands/sinterstore/]SINTERSTORE
+          + [https://redis.io/commands/sismember/]SISMEMBER
+          + [https://redis.io/commands/slaveof/]SLAVEOF
+          + [https://redis.io/commands/slowlog-get/]SLOWLOG GET
+          + [https://redis.io/commands/slowlog-len/]SLOWLOG LEN
+          + [https://redis.io/commands/slowlog-reset/]SLOWLOG RESET
+          + [https://redis.io/commands/smembers/]SMEMBERS
+          + [https://redis.io/commands/smismember/]SMISMEMBER
+          + [https://redis.io/commands/smove/]SMOVE
+          + [https://redis.io/commands/sort/]SORT
+          + [https://redis.io/commands/sort_ro/]SORT_RO
+          + [https://redis.io/commands/spop/]SPOP
+          + [https://redis.io/commands/spublish/]SPUBLISH
+          + [https://redis.io/commands/srandmember/]SRANDMEMBER
+          + [https://redis.io/commands/srem/]SREM
+          + [https://redis.io/commands/sscan/]SSCAN
+          + [https://redis.io/commands/ssubscribe/]SSUBSCRIBE
+          + [https://redis.io/commands/strlen/]STRLEN
+          + [https://redis.io/commands/subscribe/]SUBSCRIBE
+          + [https://redis.io/commands/substr/]SUBSTR
+          + [https://redis.io/commands/sunion/]SUNION
+          + [https://redis.io/commands/sunionstore/]SUNIONSTORE
+          + [https://redis.io/commands/sunsubscribe/]SUNSUBSCRIBE
+          + [https://redis.io/commands/swapdb/]SWAPDB
+          + [https://redis.io/commands/sync/]SYNC
+          + [https://redis.io/commands/tdigest.add/]TDIGEST.ADD
+          + [https://redis.io/commands/tdigest.byrank/]TDIGEST.BYRANK
+          + [https://redis.io/commands/tdigest.byrevrank/]TDIGEST.BYREVRAN
+            K
+          + [https://redis.io/commands/tdigest.cdf/]TDIGEST.CDF
+          + [https://redis.io/commands/tdigest.create/]TDIGEST.CREATE
+          + [https://redis.io/commands/tdigest.info/]TDIGEST.INFO
+          + [https://redis.io/commands/tdigest.max/]TDIGEST.MAX
+          + [https://redis.io/commands/tdigest.merge/]TDIGEST.MERGE
+          + [https://redis.io/commands/tdigest.min/]TDIGEST.MIN
+          + [https://redis.io/commands/tdigest.quantile/]TDIGEST.QUANTILE
+          + [https://redis.io/commands/tdigest.rank/]TDIGEST.RANK
+          + [https://redis.io/commands/tdigest.reset/]TDIGEST.RESET
+          + [https://redis.io/commands/tdigest.revrank/]TDIGEST.REVRANK
+          + [https://redis.io/commands/tdigest.trimmed_mean/]TDIGEST.TRIMM
+            ED_MEAN
+          + [https://redis.io/commands/time/]TIME
+          + [https://redis.io/commands/topk.add/]TOPK.ADD
+          + [https://redis.io/commands/topk.count/]TOPK.COUNT
+          + [https://redis.io/commands/topk.incrby/]TOPK.INCRBY
+          + [https://redis.io/commands/topk.info/]TOPK.INFO
+          + [https://redis.io/commands/topk.list/]TOPK.LIST
+          + [https://redis.io/commands/topk.query/]TOPK.QUERY
+          + [https://redis.io/commands/topk.reserve/]TOPK.RESERVE
+          + [https://redis.io/commands/touch/]TOUCH
+          + [https://redis.io/commands/ts.add/]TS.ADD
+          + [https://redis.io/commands/ts.alter/]TS.ALTER
+          + [https://redis.io/commands/ts.create/]TS.CREATE
+          + [https://redis.io/commands/ts.createrule/]TS.CREATERULE
+          + [https://redis.io/commands/ts.decrby/]TS.DECRBY
+          + [https://redis.io/commands/ts.del/]TS.DEL
+          + [https://redis.io/commands/ts.deleterule/]TS.DELETERULE
+          + [https://redis.io/commands/ts.get/]TS.GET
+          + [https://redis.io/commands/ts.incrby/]TS.INCRBY
+          + [https://redis.io/commands/ts.info/]TS.INFO
+          + [https://redis.io/commands/ts.madd/]TS.MADD
+          + [https://redis.io/commands/ts.mget/]TS.MGET
+          + [https://redis.io/commands/ts.mrange/]TS.MRANGE
+          + [https://redis.io/commands/ts.mrevrange/]TS.MREVRANGE
+          + [https://redis.io/commands/ts.queryindex/]TS.QUERYINDEX
+          + [https://redis.io/commands/ts.range/]TS.RANGE
+          + [https://redis.io/commands/ts.revrange/]TS.REVRANGE
+          + [https://redis.io/commands/ttl/]TTL
+          + [https://redis.io/commands/type/]TYPE
+          + [https://redis.io/commands/unlink/]UNLINK
+          + [https://redis.io/commands/unsubscribe/]UNSUBSCRIBE
+          + [https://redis.io/commands/unwatch/]UNWATCH
+          + [https://redis.io/commands/wait/]WAIT
+          + [https://redis.io/commands/waitaof/]WAITAOF
+          + [https://redis.io/commands/watch/]WATCH
+          + [https://redis.io/commands/xack/]XACK
+          + [https://redis.io/commands/xadd/]XADD
+          + [https://redis.io/commands/xautoclaim/]XAUTOCLAIM
+          + [https://redis.io/commands/xclaim/]XCLAIM
+          + [https://redis.io/commands/xdel/]XDEL
+          + [https://redis.io/commands/xgroup-create/]XGROUP CREATE
+          + [https://redis.io/commands/xgroup-createconsumer/]XGROUP
+            CREATECONSUMER
+          + [https://redis.io/commands/xgroup-delconsumer/]XGROUP
+            DELCONSUMER
+          + [https://redis.io/commands/xgroup-destroy/]XGROUP DESTROY
+          + [https://redis.io/commands/xgroup-setid/]XGROUP SETID
+          + [https://redis.io/commands/xinfo-consumers/]XINFO CONSUMERS
+          + [https://redis.io/commands/xinfo-groups/]XINFO GROUPS
+          + [https://redis.io/commands/xinfo-stream/]XINFO STREAM
+          + [https://redis.io/commands/xlen/]XLEN
+          + [https://redis.io/commands/xpending/]XPENDING
+          + [https://redis.io/commands/xrange/]XRANGE
+          + [https://redis.io/commands/xread/]XREAD
+          + [https://redis.io/commands/xreadgroup/]XREADGROUP
+          + [https://redis.io/commands/xrevrange/]XREVRANGE
+          + [https://redis.io/commands/xsetid/]XSETID
+          + [https://redis.io/commands/xtrim/]XTRIM
+          + [https://redis.io/commands/zadd/]ZADD
+          + [https://redis.io/commands/zcard/]ZCARD
+          + [https://redis.io/commands/zcount/]ZCOUNT
+          + [https://redis.io/commands/zdiff/]ZDIFF
+          + [https://redis.io/commands/zdiffstore/]ZDIFFSTORE
+          + [https://redis.io/commands/zincrby/]ZINCRBY
+          + [https://redis.io/commands/zinter/]ZINTER
+          + [https://redis.io/commands/zintercard/]ZINTERCARD
+          + [https://redis.io/commands/zinterstore/]ZINTERSTORE
+          + [https://redis.io/commands/zlexcount/]ZLEXCOUNT
+          + [https://redis.io/commands/zmpop/]ZMPOP
+          + [https://redis.io/commands/zmscore/]ZMSCORE
+          + [https://redis.io/commands/zpopmax/]ZPOPMAX
+          + [https://redis.io/commands/zpopmin/]ZPOPMIN
+          + [https://redis.io/commands/zrandmember/]ZRANDMEMBER
+          + [https://redis.io/commands/zrange/]ZRANGE
+          + [https://redis.io/commands/zrangebylex/]ZRANGEBYLEX
+          + [https://redis.io/commands/zrangebyscore/]ZRANGEBYSCORE
+          + [https://redis.io/commands/zrangestore/]ZRANGESTORE
+          + [https://redis.io/commands/zrank/]ZRANK
+          + [https://redis.io/commands/zrem/]ZREM
+          + [https://redis.io/commands/zremrangebylex/]ZREMRANGEBYLEX
+          + [https://redis.io/commands/zremrangebyrank/]ZREMRANGEBYRANK
+          + [https://redis.io/commands/zremrangebyscore/]ZREMRANGEBYSCORE
+          + [https://redis.io/commands/zrevrange/]ZREVRANGE
+          + [https://redis.io/commands/zrevrangebylex/]ZREVRANGEBYLEX
+          + [https://redis.io/commands/zrevrangebyscore/]ZREVRANGEBYSCORE
+          + [https://redis.io/commands/zrevrank/]ZREVRANK
+          + [https://redis.io/commands/zscan/]ZSCAN
+          + [https://redis.io/commands/zscore/]ZSCORE
+          + [https://redis.io/commands/zunion/]ZUNION
+          + [https://redis.io/commands/zunionstore/]ZUNIONSTORE
+
+    1. [https://redis.io/]Home
+    2. [https://redis.io/commands/]Commands
+    3. [https://redis.io/commands/eval/]EVAL
+
+EVAL
+
+   Syntax
+EVAL script numkeys [key [key ...]] [arg [arg ...]]
+
+   Available since:
+          2.6.0
+
+   Time complexity:
+          Depends on the script that is executed.
+
+   ACL categories:
+          @slow, @scripting,
+
+   Invoke the execution of a server-side Lua script.
+
+   The first argument is the script's source code. Scripts are written in
+   [https://lua.org/]Lua and executed by the embedded
+   [https://redis.io/topics/lua-api]Lua 5.1 interpreter in Redis.
+
+   The second argument is the number of input key name arguments, followed
+   by all the keys accessed by the script. These names of input keys are
+   available to the script as the
+   [https://redis.io/topics/lua-api#the-keys-global-variable]KEYS global
+   runtime variable Any additional input arguments should not represent
+   names of keys.
+
+   Important: to ensure the correct execution of scripts, both in
+   standalone and clustered deployments, all names of keys that a script
+   accesses must be explicitly provided as input key arguments. The script
+   should only access keys whose names are given as input arguments.
+   Scripts should never access keys with programmatically-generated names
+   or based on the contents of data structures stored in the database.
+
+   Please refer to the [https://redis.io/topics/programmability]Redis
+   Programmability and [https://redis.io/topics/eval-intro]Introduction to
+   Eval Scripts for more information about Lua scripts.
+
+Examples
+
+   The following example will run a script that returns the first argument
+   that it gets.
+> EVAL "return ARGV[1]" 0 hello
+"hello"
+
+   https://redis.io/com
+   Rate this page
+   (*) ★ ( ) ★ ( ) ★ ( ) ★ ( ) ★
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) Submit
+
+   [https://github.com/redis/redis-doc/edit/master/commands/eval.md]Edit
+          this page
+          [https://github.com/redis/redis-doc/issues/new?title=EVAL]Create
+          an issue
+
+   See also
+          [https://redis.io/commands/eval/]EVAL
+          [https://redis.io/commands/eval_ro/]EVAL_RO
+          [https://redis.io/commands/evalsha/]EVALSHA
+          [https://redis.io/commands/evalsha_ro/]EVALSHA_RO
+          [https://redis.io/commands/fcall/]FCALL
+          [https://redis.io/commands/fcall_ro/]FCALL_RO
+          [https://redis.io/commands/function-delete/]FUNCTION DELETE
+          [https://redis.io/commands/function-dump/]FUNCTION DUMP
+          [https://redis.io/commands/function-flush/]FUNCTION FLUSH
+          [https://redis.io/commands/function-kill/]FUNCTION KILL
+          [https://redis.io/commands/function-list/]FUNCTION LIST
+          [https://redis.io/commands/function-load/]FUNCTION LOAD
+          [https://redis.io/commands/function-restore/]FUNCTION RESTORE
+          [https://redis.io/commands/function-stats/]FUNCTION STATS
+          [https://redis.io/commands/script-debug/]SCRIPT DEBUG
+          [https://redis.io/commands/script-exists/]SCRIPT EXISTS
+          [https://redis.io/commands/script-flush/]SCRIPT FLUSH
+          [https://redis.io/commands/script-kill/]SCRIPT KILL
+          [https://redis.io/commands/script-load/]SCRIPT LOAD
+
+   This is a community website sponsored by [https://redis.com/]Redis Ltd.
+   © 2023. Redis and the cube logo are registered trademarks of Redis Ltd.
+   [https://redis.io/terms/]Terms of use & privacy policy.
+
+   ____________________ (BUTTON)
+   (BUTTON) Cancel
+
+   [https://redis.io/docs/stack/search/]Powered by Redis Stack

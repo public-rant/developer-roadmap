@@ -1,0 +1,101 @@
+okay what is github
+well github is a platform that helps
+people solve problems
+by building software together so how
+does it work
+this is sam sam works on tractors all
+day
+but not in the way you might be thinking
+she builds the software that helps make
+tractors more efficient
+and she does this on github with the
+help of her team
+vijay melinda and mike
+now even though they all work on the
+same project sam and her team don t all
+work in the same part of the world
+Music
+this is eddie eddie also works on
+tractors all day
+except he actually works on the tractors
+
+and this is the harvester l700 it s the
+latest flagship in the company s fleet
+of tractors
+it s full of sensors and processors that
+produce a ton of diagnostic data
+eddie has a great idea for how farmers
+might share their data and improve their
+harvests
+so eddie opens an issue on github issues
+are discussion threads where people can
+report bugs
+request features or even just ask
+questions
+sam is the first one on her team to see
+eddie s issue and she thinks that vj
+would be the best person to start the
+job
+and here s where we get into the nuts
+and bolts eddie isn t the only person
+using the harvester l700
+all over the world other tractors are
+collecting moisture data
+and they need to keep running smoothly
+even while vijay is working on the new
+features
+he needs a dedicated place to experiment
+so none of his changes end up on the
+farm before they re ready
+so he creates a branch of the code an
+alternate timeline where he can safely
+make changes to the software
+now he s ready to start writing the new
+
+github tracks vijay s changes and save
+snapshots of his progress
+when he s ready to collaborate on the
+changes with his team he opens a
+pull request on github pull requests let
+you show others the changes you re
+proposing so they can review and discuss
+them
+this means vijay s teammates can help
+with roadblocks and even make
+improvements
+on github everyone has a copy of the
+project
+so if melinda has an idea for something
+that will help make vijay s work even
+better
+
+github keeps a record of everyone s
+contributions and feedback in the pull
+request
+alongside relevant messages from the
+
+once the team has signed off on the
+changes vj can incorporate the new code
+into the project the new feature will be
+available to everyone as soon as he
+
+now farmers everywhere can all benefit
+from eddie s great idea
+but this is really only the beginning of
+the story
+because github is the largest community
+of developers in the world
+with millions of people sharing their
+projects eddie s idea could end up
+helping people in
+unimaginable ways what kinds of problems
+are you trying to sell
+whether you re an engineer a code
+enthusiast or even a farmer trying to
+harvest grain
+software touches every corner of our
+lives
+github is where people build that
+software it s how they build software
+Music
+together

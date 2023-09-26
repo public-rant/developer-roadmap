@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://aws.amazon.com/cloudwatch/getting-started/ > $(basename https://aws.amazon.com/cloudwatch/getting-started/).txt

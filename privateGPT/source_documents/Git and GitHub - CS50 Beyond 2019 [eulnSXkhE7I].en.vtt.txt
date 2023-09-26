@@ -1,0 +1,1729 @@
+Music
+welcome back to cs50 beyond hope you all
+enjoyed lunch feel free to help yourself
+to pizza now still if you d like as we
+go through this afternoon a bit of a
+change of pace this afternoon so we
+spent the morning talking about HTML and
+CSS which you would see in cs50 but we
+went a little bit beyond that looking at
+other features of HTML and CSS in more
+modern versions of both right we re
+gonna do this afternoon in this take a
+look at git and so just for show of
+hands if you ve actually just do the
+faces if you ve used git before and you
+feel comfortable with a green smiley
+face if you ve never used it before red
+frowny face if you re somewhere in
+between yellow ok so sort of all over
+the place a bunch of people have used it
+before a bunch of people have never used
+it before so if you ve never used it
+before this will be a good introduction
+even if you have used it before
+hopefully you ll get a bit more of an
+understanding of it here
+git is what we call a piece of version
+control software it s software designed
+to help us manage and track different
+versions of our code and it is
+incredibly helpful if you ever go on to
+take future computer science classes or
+you go and work in for a computer
+science internship or working computer
+science and industry you will almost
+definitely be using it as your means of
+keeping track of different versions of
+your projects and so it s good to have
+an understanding of it and how it works
+so today is going to be a bit of an
+introduction to that give you an
+opportunity to see the various features
+of it get an opportunity to practice
+with it hands on later on this afternoon
+and then in the latter part of the
+afternoon we ll also take a look at SAS
+which is a way to generate CSS code
+which we ll take a look at in a moment
+as well but questions before we begin
+on anything about anything from this
+morning anything about the structure of
+the class or logistics of what s gonna
+happen this afternoon alright let s go
+ahead and get started then so we re
+talking about git today and git is a
+piece of version control software as I
+mentioned and it s good for a number of
+different things so the first thing that
+get is particularly good for is for
+keeping track of changes you make to
+your code I remember when I first took
+cs50 I would be working on like a
+problem in the problem set and I would
+work and get like part of it working but
+not quite and I would be afraid that if
+I added more I would like break the
+stuff I d already done so I was like
+save a duplicate copy of the code
+somewhere make changes another copy and
+pretty soon you have like four or five
+different copies of the same program
+that are all slightly different and they
+just become a little bit tough to keep
+track of maybe some of you have had
+similar experiences definitely
+that happened to me this is before I
+learned how to use get which is
+primarily designed for trying to deal
+with problems like this keeping track of
+changes you make to your code such that
+you have a full revision history so to
+speak of all the changes you make so you
+might have initially created a file made
+some changes to the file added a line to
+the file remove the line from the file
+and get is going to help keep track of
+all of those different changes we make
+to the code so that we have a record of
+all the changes we ve made
+another thing that get is particularly
+good for is for synchronizing code
+between different people so you might
+imagine that you have some file that you
+and a collaborator a partner are working
+together on maybe it s a partner you re
+working on in a problem set in a class
+together or a bunch of people that
+you re working with on the same software
+project if you re working for the same
+company for instance and you re sharing
+some file that you re working on
+together and what get makes it easy to
+do is to give both you and your partner
+the same version of that file such that
+you can both independently be making
+modifications to that file change
+different parts of that file and then
+eventually synchronize them back up
+together in some sort of central server
+such that you can both then get that
+updated version of the file right where
+the idea is you can both be
+independently making changes to the code
+synchronize them somewhere so that you
+both have access to the latest version
+no more emailing like this is the latest
+version use that one and then their
+conflicting versions being emailed
+around and that starts to become messy
+yet helps to just simplify that process
+keep track of everything much more
+cleanly
+another thing that get is good for is
+it s good at testing changes to your
+code without losing the original copy of
+the code so you might have something
+that s working and you might want to add
+a new feature to your website for
+instance so you might want to tackle the
+next part of the problem set but doing
+so might involve breaking the stuff
+you ve already made and you want to save
+that
+so what get makes it very easy to do is
+say branch off the term that we ll
+explore more in just a moment but say
+try something else for a little bit
+while keeping the original and only when
+we ve tried it and it works and we re
+feeling comfortable with it can we then
+merge it back in with the original code
+such that we now have the original
+version of whatever it is that we were
+working with and finally get is very
+good at reverting back to old versions
+of code right you ve made some changes
+and you decide the feature you have is
+not a feature that you want or you
+decide that what you ve done has a
+mistake in and a bug you want to go back
+to a previous version it s very easy to
+just say you know what go back in the
+revision history go back to
+a previous version of that file so
+questions about the goals here the
+problems that we re trying to solve and
+then we ll introduce git and see how it
+actually goes about solving this
+problems all right a website you may or
+not may not be familiar with it s called
+github you should all have github
+accounts that you made when you took
+cs50 or in some other time and what
+github is going to do is it s going to
+be a website that s going to host what
+we called it repositories and the word
+repository you can think of as just
+meaning a folder where we re going to
+contain the code files that we re going
+to track the code that we want to keep
+track of different versions of and
+synchronize between different people
+it s just a folder where you re going to
+snort code and so github is an online
+place to store those repositories such
+that you can put code there and then
+different people can access that same
+shared repository so I ll show you an
+example of that now I ll go ahead and go
+to github calm you ll be brought to an
+interface that looks something like this
+and in the upper right you ll see a
+little plus button if I click on that
+there s a button there that says new
+repository so you click on that new
+repository you re going to give that
+repository a name I ll just call it
+beyond for now you can give a
+description if you want you can make it
+public meaning anyone can access it
+anyone can see it you can also make it
+private github recently allowed any user
+even for free to create private
+repositories so if you don t want other
+people to be able to see it you can make
+it private as well I ll make this one
+public and you go ahead and create the
+repository and what this is going to do
+is just create an empty folder an empty
+repository on github servers where an
+eye can begin to store code eventually
+so that s all I ve done created a new
+repository on github website so now what
+are the commands that I can run on the
+command line to interact with this get
+repository well the first thing I need
+to do is this repository is located on
+github servers I want it on my computer
+so that I can begin adding files to it
+looking at the files that are in it
+making modifications and such and so a
+command that we re going to use is
+called git clone and so would get clone
+is going to do is if I have my computer
+here and I have some server that s got
+the code that I want to clone locally
+onto my computer I run the command git
+clone followed by the URL of the
+repository and what that s going to do
+is because it s gonna make a copy it s
+gonna take the repository located up
+somewhere on github servers and it s
+going to copy it and
+down onto my own computer so that I have
+a copy of that repository on my local
+machine what questions do you have so
+far okay I ll actually do this you can
+see what it looks like what I have here
+is a URL and they re gonna be two
+different URLs in HTTP URL and an SSH
+URL if you set up SSH with github there
+are instructions for how to do that on
+the github website you can use that URL
+that involves something called public
+key cryptography cryptography which
+we ll talk about later in the week but
+if you haven t set that up you re
+probably safest using the HTTPS URL for
+now I m gonna use the SSH URL but either
+will work and you ll go into your
+terminal I ll go to my desktop and I m
+just going to type git clone followed by
+that URL and what that s going to do is
+it s going to clone that repository and
+it says warning you appear to have
+cloned a temp your repository but that s
+fine I know that the repository is empty
+but if I look at the folders that are
+inside of my desktop right now recall
+that LS is a terminal command that
+stands for a list list all the files and
+folders in this directory what I ll see
+is I have a directory now called beyond
+the same name as the repository that I
+had just a moment ago if I move into the
+beyond directory by typing CD CD for
+change directory or move into a folder
+CD Beyond and now inside the Beyond
+directory and if i type LS nothing
+happens there s nothing inside of this
+folder but I have now cloned this folder
+so that I have a copy of the repository
+on my computer so that s good clone
+questions yeah yep so the question was
+where did I get the URL when you create
+a new blank repository you should get a
+URL that shows up here if you have files
+in the repository this interface looks
+slightly different but there ll be a
+drop down where you can clone it and
+
+what I d like to do now is add some
+files to this repository right maybe I
+want to put my website that I was
+creating this morning inside of a git
+repository which would allow anyone to
+see it anyone to propose modifications
+to it allow multiple people to
+collaborate on it for instance and so to
+add something to a git repository the
+command we run is just called git add
+and so quite simply what happens is that
+if I have a file
+and I make some changes to it and I want
+to add these changes to the next time
+that I save a version of the repository
+and instead of save a version of the
+repository the terminology we re gonna
+start using is the word commit whenever
+I say commit just think of it as this is
+a version of the repository that I m
+saving and will save the entire history
+of commits so that anytime I make a
+commit it s going to save that as a
+version I have access to and so if I
+want to say this is a file I want to
+include the next time I make a commit
+I m gonna run a command called git add
+followed by the name of the file food
+pie or whatever the file happens to be
+and that s basically telling it that
+food a pie this is a file I want to
+include in my next commit and so I ll
+actually get better try and when you do
+that get will give you a message letting
+you know that this is now a change that
+you can commit and so let me go ahead
+and create a new file inside of this
+folder I ll call it hello dot HTML touch
+as a command that you can use just to
+create a file an empty file if you want
+to call it hello dot HTML I ll go ahead
+and edit that file and we will put it
+very simple very simple hello dot HTML
+file that I ve now put inside of the
+Beyond directory if I type ls I see
+that hello dot HTML is there and now if
+I type something like get add hello dot
+HTML nothing seems to have happened but
+I have now added hello dot HTML as a
+file that I want to include in my next
+commit I ve told gate that this is a
+file that should be in the repository
+the next step is to actually make this
+change to actually commit this change
+and so how might you do that the command
+is just get commit and so what does that
+look like a you type git commit mm for
+message and then in quotation marks
+you re going to include what s called a
+commit message which is just an English
+phrase or sentence describing what it is
+that you changed in this commit and that
+could be anything you want but the
+rationale for this is that when you re
+going back and looking at your history
+it becomes very clear what changes you
+made when and when other people are
+looking at repository it becomes easier
+for the
+to understand what changes you re making
+and this is especially useful people are
+collaborating you can see what other
+people have been up to not by trying to
+read every single line of code that
+they ve written but in particular by
+looking at their commit messages to see
+a description in English of what it is
+that they ve changed so git commits em
+followed by the message and you say okay
+this is what I did i just added a line
+to the file some message to describe
+what you did and that s going to take
+your code and just save a new version of
+that code with all of those changes in
+it so that s good commit will go ahead
+and give that a try I ll type git commit
+dash M and I ll just say add a holo file
+right this is what I did in this
+particular commit a press return your
+name and email address for configured
+automatically yeah that s fine
+I haven t yet set up my name and email
+address on this particular computer and
+that s something that you ll probably
+need to do the first time that you start
+working with git so okay questions so
+far
+
+oh good question so what do I actually
+so the question is like are there now
+two versions of this file if I just look
+inside of the Beyond directory right now
+I only have one copy of hello dot HTML
+and if I show what it s inside of it by
+saying cat hello dot HTML it s got the
+contents the most recent contents and so
+if I were to just look at the files
+themselves and they ll look like right
+now at least whatever my most recent
+version of the file is but separately
+get is storing all of those previous
+versions I just can t see them right now
+but yeah good question all right so
+maybe now I want to get a better
+understanding of what s happening inside
+my git repository I m a command I can
+use very frequently as git status that
+basically just tells you what s
+currently happening in my get repository
+what s going on and it lets me then
+figure out what to do next
+so if I type inside my repository get
+status what I ll see is that I m on
+branch master and we ll see in a moment
+what the branch means and it says but
+the upstream is gone okay
+I haven t quite configured everything
+just yet but I just did get status to
+check what was going on and then the
+command that I just typed was git push
+and so get I type git push and you saw a
+whole bunch of things happen so what
+exactly is get push and what does it do
+well when I added the hello HTML file it
+wasn t yet on github servers just yet
+right it was only on my own computer
+locally and so what get push does is it
+says when I type git push it says take
+whatever changes that I ve made and go
+ahead and push them up to the server
+right I want to take those changes and
+push them up to github so that anyone
+who goes online onto github and looks at
+my repository can actually see the
+changes that I ve made can see those
+commits that I ve made and in fact now
+if I go to my github repository that
+right now is just empty and i refresh
+this page what I ll see now is as a file
+here right there is hello dot HTML and
+if I click on hello dot HTML
+I ll see ok here is the file that I ve
+
+it s the same as the one that was
+locally on my computer but I added it to
+my git repository and then I pushed it
+up to github so that it now has the
+latest versions and anytime I make a
+change I can do something like this
+so for instance I can go back here and
+maybe instead of just hello world I want
+to put hello world inside of an h1 tag
+to make it big and bold so hello world
+get rid of that question yeah oh good
+question so what s the difference
+between get push and get push origin
+master get pushed normally we ll just
+default to doing what get push origin
+master is it has to do with pushing to
+different branches and we ll talk about
+branches in a moment all right so I took
+hello world and I put it inside of the
+h1 tag and now this is some change that
+I would like to commit I d like to save
+this as a new version of the repository
+and so I can say all right get add hello
+dot HTML this is the file I want to
+include in my next commit I get commit
+M and I ll say ok put text in an h1 tag
+and ok and it s telling me that I need
+to add my I ll just go ahead and do my
+name and email address that it stops
+telling me to do that ok sorry about
+that ok so I committed those changes and
+
+now if I type git status it says that
+I m on branch master and it says my
+branch is ahead of origin master by one
+commit ok it s a little bit confusing
+but what does that mean it means that my
+branch of the repository the version
+that I have on my computer is ahead of
+the origin version the origin one is the
+one that s up on github servers by one
+commit meaning I have made one change
+that my server on github doesn t yet
+know about and so if I want to publish
+those commits push them up to github I
+can type git push before I do that
+notice that hello dot HTML it just has
+hello not in an h1 tag but as soon as I
+type git push to say take my changes
+push them up to github so the get up has
+the
+version of my code I push that refresh
+the page and okay now hello world is
+inside those h1 tax this is the latest
+version of the repository but what
+you ll see on github is if I go to the
+github repository page I can see that
+I ve made two commits and if I click on
+ok two commits that I ve made here I can
+actually see ok here was the original a
+dejalo file and I can see ok here is the
+original file that I created the one
+without the h1 tag and then I can say ok
+when I put text inside the h1 tag let s
+look at that commit and ok here was the
+change that I made I took the hello
+world line and I added the h1 tags
+around it so github and get more
+generally is tracking all of these
+changes that I make it knows when I make
+the changes whenever I make a new commit
+and it s saving all of those different
+commits in the commit history of this
+
+good question so the question is what is
+get actually storing simply put get is
+storing a different version of the file
+for each type of time you create a new
+version of that file although there are
+ways to compress that and it does some
+compression behind the scenes to try and
+save space but it you can generally
+think of it as storing a separate
+version of the file every time you make
+a change yeah yes if you make two
+commits and then you type git push that
+will push both of those commits up to
+
+ok so let s explore a little more and
+actually before we go ahead can we die
+just get a little bit of feedback with
+the smiley faces about how much are we
+following this how much does it make
+sense are we feeling about it ok so mix
+of mostly green some yellow take some
+
+the default will be the most recent on
+github yes yeah why would you commit
+something and not push it good question
+pushing it is only relevant if you care
+about other people online being able to
+access that same version and so there
+are many times when I m working on a
+project independently for instance and I
+might care about committing things for
+myself but I don t really care about
+other people on the internet being able
+to access the repository and so then you
+might commit but not really care about
+pushing because you don t care about
+other people on the internet being able
+to access the repository yeah so git add
+is that so the question is why did I add
+before I committed it s sort of a
+two step process that get uses first you
+add files and put them in what s called
+the staging area which is to say you
+tell git that this is a file you want to
+include in your next commit and then you
+actually do the commit the reasoning
+here might be maybe you ve made
+modifications to a bunch of different
+files but you don t want to commit all
+of them at the same time maybe you were
+only done with like two or three of them
+and are ready to commit but the others
+you re not ready yet so you can only add
+the files you actually want to commit
+and then you say okay commit to say
+commit all of these files so there s
+always this additional add step now
+there are short short hand workarounds
+to this if you type instead of git
+commit dash M you do get commit am the
+a for add that will automatically add
+all of the changed files and commit at
+the same time it s you can combine the
+adding commit steps together but there
+is still that add step that needs to
+happen yeah good question so the quotes
+the idea here is even if of added it and
+it s in the repository if I make changes
+to the file I need to tell git that
+those changes to the file are ones that
+I want to include in the next commit so
+I still need to add it again yeah great
+question we ll get to that in a moment
+
+do you have to download get yes you ll
+need in order to so the question is how
+do you actually use get you ll need to
+install get most likely first if you go
+to either get or did hubs website there
+will be instructions for how to install
+it but it varies a little bit depending
+on which platform you re using but
+you ll likely need to install it first
+for Macs it comes with the Xcode
+developer tools which it may ask you to
+download but there are other ways to get
+access to it as well other things okay
+the opposite of git push as you might
+imagine is get pull so the idea here is
+that before we talked about situations
+where what s on my computer is more
+recent than whatever is up on the server
+sometimes it s going to be the other way
+around
+whatever is up on the server is going to
+be more recent than whatever I have on
+my computer and I want to take the
+changes from up in the server and
+download them down to my computer so
+that I can then use them and have access
+to them to do that I just run the
+command git pull that takes the changes
+from up on the server downloads them
+onto my computer such that I now have
+access to them and so I ll show you an
+example of that as well
+github is user interface actually lets
+me make modifications to the code so I
+can go into hello dot HTML then actually
+edit it so we ll go to hello it at HTML
+I ll edit it and I will say let me go
+ahead and add a comma between hello and
+world right just a simple change and I m
+gonna say okay add a comma
+that s my commit message and I m gonna
+commit those changes so I ve committed
+those changes just by a github web user
+interface which you can do just edit a
+file and make a commit online okay so
+that s what I ve done now but on my
+version of the repository here if I look
+at hello dot HTML right it s still hello
+world no comma right because the version
+on github is more recent than the
+version on my computer and I would like
+to pull down those changes so that my
+version on my computer is up to date so
+to do that I just type git PO press
+return and here s what it says alright
+it s updated my repository in and it
+says one file changed one insertion one
+Alysha yet is not quite smart enough to
+know that I ve taken one line and edited
+it so if I take one line and edit it it
+sees that as removing the line and
+adding in the new line so that s what
+one insertion one deletion means and now
+if I check the file you ll notice that
+there s actually a comma between hello
+one world right I ve pulled down the
+latest version of the file and now the
+file and my computer has updated in
+order to reflect those changes questions
+about that okay so we can get push to
+push our changes from our computer up to
+the server we can get pull to take
+changes from the server and pull them
+down onto our local computer what can go
+wrong here what are some problems you
+
+people trying to push different versions
+up to get up alright great and so what
+might go wrong if multiple people are
+trying to make changes to the same
+repository what can happen yeah yeah so
+imagine the situation where multiple
+people are making changes to the same
+line and now git is not going to be able
+to resolve for itself
+how to deal with that like which version
+should it actually be if person a has
+made this change a person B as made that
+change it is normally pretty smart about
+things if I m adding something to the
+beginning of a file and someone else is
+adding something to the end of the file
+yet is usually pretty smart about just
+being able to merge those changes
+together but it sometimes you ll run
+into situations when people are working
+on the same file where we can t quite
+resolve it and this brings up what we
+call merge conflicts when we try to
+merge two people s changes and we can t
+resolve those differences and that
+generates what we call a merge conflict
+and so that might happen if I like git
+pull some changes I pull some changes
+down from github but the changes I m
+pulling conflict with whatever I have on
+my repository there s some conflicts
+there and so rather than being able to
+actually merge it s going to say
+conflict there was some merge conflict
+in some file the automatic merge failed
+I need to fix the conflicts and then
+commit the results all right there s
+some problem we need to fix them you
+open up the file and you ll see
+something really cryptic that looks
+something like this
+this can be strange and confusing at
+first they ll try and help you decipher
+what it is that this actually means well
+you ll see is between the left arrow
+symbols and the equal signs these are
+your changes the changes that you ve
+made on your repository and the changes
+between the equal signs and the greater
+than signs these are the remote changes
+the changes that you re trying to merge
+in to whatever it is that you have and
+this long sequence of numbers and
+letters this is what we call a commit
+hash every time you make a commit
+it gives it a commit hash which is just
+a long sequence of numbers and letters
+uniquely identify that commit this is
+just telling you which commit is
+actually the one that s creating the
+conflict and so what do you do when you
+see something like this the first thing
+you can do is remove those marker
+symbols and then you need to decide what
+it is that the file should look like
+maybe remove any of the excess
+whitespace and when the file looks the
+way you want it to look you commit the
+results basically you need to manually
+go in and tell git how it is do you want
+to resolve these different conflicts
+some modern text editors come built in
+with some automated ways of trying to
+help you do that but in short you have
+to do something like this every time so
+let s give that a try I am gonna go to
+hello world and maybe add some
+exclamation points we ll add two
+exclamation points and I ll do git
+commit am to combine the add in the
+merge step and say add to exclamation
+points all right
+figure automatically okay and then up on
+this github repository I m going to edit
+it and let s I don t know add five
+
+so I ve made a change on my local
+computer I ve made a change on github
+and importantly these changes conflict
+their changes to the same line of code
+and git is not gonna know when it tries
+to take these two changes and merge them
+together like which one should it listen
+to so I go back here and now if I try to
+get PO I m gonna get okay
+trying to auto merge hello dot html
+conflict merge conflict in HTML and
+automatic merge failed fix the conflicts
+and then commit the results so let s
+take a look at it here s hello dot HTML
+amp vs code is doing some fancy
+highlighting to try and make it clear to
+me what exactly is going on but
+basically between the left arrow symbols
+and the equal sign these are my this is
+my version the one with just three
+exclamation points here then beneath it
+is the version that I m trying to pull
+in the one with even more exclamation
+points here s the commit hash of the one
+that s causing the conflict and I
+basically need to manually resolve this
+conflict in order to figure out what
+should actually happen next and so in
+order to do that well I can go ahead and
+say and that vs code actually give me
+some buttons like either accept my
+current chain you accept the incoming or
+like sort of compare them in order to
+figure out how to resolve it I m just
+going to resolve it manually for now by
+deleting this line deleting that line
+deleting that line so here the two
+versions and I sort of just need to
+decide how am I going to resolve these
+together and maybe I ll say you know
+what I ll just use all of the
+exclamation points just put them all
+together and save that right this is the
+version that I now want to keep I ll do
+git commit a m
+I ll say fix merge conflict and okay
+great now if I type git push say okay
+push those changes back up to github
+those are changes that I want to save if
+i refresh the page and all right now
+I ve been able to fix the merge conflict
+and I have the long sequence of
+exclamation points that I once I ve been
+able to resolve the changes that were
+conflicting between the two doesn t
+always come up when you re working with
+git but comes up often enough that it s
+good to know what a merge conflict is
+and how you can actually deal with it
+what questions you have about that merge
+
+good question so the question is alright
+we re working on the same piece of code
+I make some changes to the top of the
+code and that s fine my partner makes
+some changes to the bottom of the code
+but we re using the same variable maybe
+we re using the same variable in
+different ways and don t realize what
+the other person is doing is get going
+to catch that merge conflict it s not it
+is not smart enough to know anything
+about the logic of the program it s just
+looking at lines of code and figuring
+out how they work and so there s still
+something you need to be careful about
+you still need to be careful just
+because you don t have a merge conflict
+doesn t mean that things are going to go
+together perfectly the way that you want
+them to so something to be aware of good
+point yeah okay um let s when we get to
+project time come find one of the
+Teaching Fellows and we can help you try
+and solve that yeah good question
+how do you delete a file from a
+repository I m I m on your normal
+command line RM is the command to delete
+a file RM for remove so you do RM space
+the name of the file if you do get RM
+followed by the name of the file that s
+going to remove the file from the next
+time you make a commit so the next time
+you make a commit you ll save that but
+because git does store the history of
+all the commits if you wanted to go back
+and get that fire removed you still
+could yeah so question is how do you
+save changes to specific files rather
+than all the files you ve changed you do
+that via the git add step so when you
+type git add you specify which files you
+want to save in your next commit and so
+if you ve medet add 10 files but only
+half of them or once you want to commit
+only add those half and then when you
+commit you re only going to commit the
+ones that you ve added to the so called
+staging area great questions other
+things we ll get an opportunity to
+
+yeah they are yeah
+so get Ad dot dot stands for current
+directory that s basically a way of
+saying add everything that may have
+changed alright great questions a couple
+other commands that we ll look at
+briefly one is git log git log is a
+command that basically just shows you a
+history of the commits that you ve made
+it s a way of seeing all your commits on
+the command line so I typed something
+like git log and it basically just see
+alright here is a commit that I made and
+here s when I made it and what I changed
+and here s another commitment what
+happened and so if I type and git log I
+see alright here s when I fix the merge
+conflict at 1433 added five exclamation
+points added two exclamation points
+they re in reverse chronological order
+but I can see this whole history of all
+the commits that I ve made and what
+they re commit hashes were okay get
+reset is one of the probably the last
+command that we ll look at before we
+talk about branching this is a way of
+going back to a previous version of a
+commit and so if you type git reset
+hard so there s differences between soft
+resets and hard reset so we won t quite
+go into today up you can experiment with
+followed by a commit hash that will
+basically take you back to a previous
+version of the file so git reset
+hard followed by commit hash takes you
+back to like this particular command
+that will eliminate all those changes
+and take you back and you can also go
+back to a particular branch as well and
+when we start to talk about branching
+you ll see this a little more clearly
+so let s talk about making changes to a
+repository and what exactly happens as
+you go about the process of working on a
+repository working on a larger project
+and what making changes looks like right
+so you make your first command and maybe
+now you re adding features to it you re
+making changes to it you re making some
+more changes to it you start working on
+our new feature and
+what happens then you keep working on
+that new feature what happens then if
+you discover a bug in your program you
+want to go and fix that bug but you want
+to fix that bug but simultaneously
+you re also working on this new feature
+and that s not quite ideal when you want
+to figure out some strategy for being
+able to deal with this being able to
+work on two different parts of a project
+simultaneously and so that s what
+branching is this idea you hear about a
+lot when we start to talk about git and
+something that s built into the core of
+what get is it s designed to allow you
+to branch very easily where the idea
+here is you ve made your first commit
+you re making some changes to that
+commit you make some more changes to
+your project and now you want to start
+working on a new feature but you ve got
+this what we might call the master
+version of your repository some version
+of your code that works and when you
+start working on your new feature you
+don t want it to be on the master branch
+so to speak you want to work on it
+separately such that when it s done you
+can merge it back in with the rest of
+the code so rather than start working on
+a new feature and just keep it on the
+same branch what you might do is you
+might branch off start working on a new
+feature on a different branch and keep
+working on that new feature on a
+different branch and now you might
+imagine okay you discover that way back
+in the original version of the code
+there s some bug and so you can say
+alright this was when I first branched
+off to start working on the new feature
+but the bug is in this version of the
+code let me just go ahead and fix the
+bug on this version of the code and now
+what I ve got going on in two different
+branches I ve got this master branch the
+original version of the code and then I
+have my feature branch which could be
+called whatever you want just some name
+to describe the feature that I m
+currently working on and I ve got these
+two independent versions of the code
+that I can switch back and forth between
+git has a term called the head of the
+repository capital H EA D that just
+represents where in the repository am I
+now and by default head is going to be
+whatever master is it s going to be
+pointing to the master branch but I
+could move my head I could move where I
+am in the repository and say you know
+what I actually want to work on the
+feature branch instead for instance and
+so we ll show you how you can check out
+different branches so to speak in just a
+moment so I m keeping working on this
+new feature I fix the bug and the
+feature is now done I m ready to bring
+it back into the master branch the last
+thing I can do is say all right I want
+to take these two changes
+I want to merge them back together so
+that this new feature is
+on the master branch but so is the bug
+fix everything comes together in that
+way yeah the question is what s the
+significance of where the head is it
+represents whatever are which files I am
+currently working on and so if I try and
+open up a file to edit it the version of
+the file that I m looking at is whatever
+version the head is pointing to and so
+we ll see that in just a moment two
+other things okay
+so let s actually give this a try the
+commands we re gonna be using are a git
+branch to go to a different branch get
+checkout in order to check out some new
+branch and get merged to say merging
+some things together so let s go ahead
+and go into my repository and let s say
+get checkout get checkout as my way of
+saying I want to go to some new branch
+and I don t have any other branches
+right now in fact if I type get branch
+right now it ll show me the branches
+that I currently have I just have the
+master branch and the little star next
+to master means this is the branch that
+I m currently on I d like to branch off
+go create a new branch and so I m going
+to say get checkout be so git checkout
+will normally just take you to a
+different branch if I want to check out
+a brand new branch I ll do get checkout
+be to create a new branch I m gonna
+call this branch what am I gonna do I ll
+just call it feature I m adding some new
+feature to my web page and so okay
+switch to a new branch feature great if
+I type git branch right now I see that
+now I have two branches I have a feature
+branch and I m a master branch the
+feature one is the one with the star
+that s the branch that I m currently on
+and the master branch is the other
+branch that I have available to me and
+all right here s how loaded HTML and I
+want to add some sort of feature maybe
+the feature that I m going to add is
+some styling to this web page so I m
+going to go up here add a style header
+and say all right h1 is gonna have a
+color and it s gonna be blue right
+fairly straightforward I just added some
+styling to it I can test it open up
+header at HTML make sure it looks blue
+great so I ve added that now I d like to
+commit those changes so I m gonna say
+git commit am
+ad silent that s the change that I made
+and I want to save those changes in this
+repository so I m on git branch on the
+feature branch and I have this styling
+that I m coloring the h1 tag blue but
+this is only a change that I ve made to
+the Future branch if I go ahead and type
+git checkout master meaning switch
+branches go to the master branch instead
+press return
+all right I ve switched to branch master
+and now if I look at the code no more
+style code right the version I ve
+switched my head to be on the master
+branch I m now looking at the code on my
+master branch and the master branch
+doesn t have the styling yet only the
+feature branch does if I say git
+checkout feature switch back to the
+feature branch now my code has the style
+code there you switch back and forth
+between branches you can get different
+versions of the code I switched back to
+master ik to check out master now no
+more styling code so now what I d like
+to do is say okay I m happy with the
+feature it works I ve opened up the page
+it looks blue I ve tested this feature
+thoroughly
+I d like to merge it in I d like to
+merge it into the master branch so that
+my master branch has the latest version
+of this code how do I do that well what
+I can do is I can just say git merge and
+then the branch that I want to merge in
+so I want to merge in the feature branch
+into this current branch my master
+branch so I say git merge feature and it
+says one file changed five insertions
+which sounds about right for the style
+tag plus the style code and now I m
+looking at my master branch and the
+style code is now there so the story of
+what we did there is we created a brand
+new branch the feature branch added some
+code there made a commit then went back
+to the master branch and merged that
+commit into the master branch and this
+is a way of version control of being
+able to work on something without
+messing up the original until you re
+satisfied with the original at which
+point you can merge in those changes
+yeah you can can you still get conflicts
+absolutely if I and my feature branch
+made some changes and I and my master
+branch made other changes to the same
+places and tried to merge them in you
+can definitely get conflicts there as
+well but you resolve those the same way
+
+good question does the feature branch
+still exist yeah it does I tagged it
+branch the feature branch is still there
+I can switch to it if I don t want it
+anymore I can delete it I think it s a
+git branch capital D for delete
+followed by feature and that just hard
+deletes the branch so now if I type git
+branch just back to only the master
+branch other questions about anything so
+far okay one last thing I ll show you is
+the idea of a pull request which is a
+github based feature for when you re
+trying to merge in changes this is
+especially useful if you re
+collaborating with each other multiple
+people making changes and you want to
+make sure that whatever is being merged
+in has been reviewed that you have an
+opportunity to look at it and approve it
+before it actually gets merged into the
+master branch so I m gonna go ahead and
+push these changes push them up to
+github and what I m also going to do is
+let s say alright here s the master
+branch here s hello to the HTML it s
+blue right now let s say I want to make
+a change and the change I would like to
+make is I d like to make the heading red
+instead of blue so to do that I could
+just make the change in commit it but to
+show you branching I ll actually create
+a branch first so get checkout be
+create a new branch I ll call the branch
+red let s say because I want to change
+it to red some on a new branch called
+red I m gonna go to this hosta the style
+heading change the color from blue to
+red git commit am save all these
+changes add all the new files that I ve
+changed change color to red that s my
+commit message press return
+alright I ve made that change now if I
+type git push you ll see that I don t
+quite get this to work it says the
+current branch red has no upstream
+branch what does that mean well it means
+that I m trying to push the red branch
+but on github github doesn t know that
+there s a red branch get up only knows
+that there s a master branch so what I
+need to do is tell github the origin
+github is my origin repository to push
+my red branch up to a new branch called
+red on the origin and so to do that
+you ll just run this command git push
+set upstream origin
+ready to mean push upstream to the to
+github push to a new branch called red
+so I went in ahead and did that push to
+that new branch and so now if I check
+github refresh this page it s still blue
+and that s because I m on the master
+branch right now see on the left side I
+see here I have branch master but if I
+click on branch master I ll see a list
+of all of my branches and here I have
+master and I have red if I switch to the
+red branch now I ll see okay here s the
+fact that I have color red so I ve got
+both of these branches that are
+coexisting on github simultaneously and
+what I d like to do is I d like to use
+github interface to say I would like to
+propose this as a change to make to the
+master branch and so this is what a pull
+request
+is it s a request to pull in some code
+from a different branch and so I ll go
+to pull request and it s actually
+suggesting now that I actually make a
+new pull request from the red branch and
+notice that I ve just pushed this branch
+so I ll go ahead and compare and pull
+request it s gonna ask me to title my
+pull request proposed the name of the
+changes that I m making and leave a
+comment so I thought the red looked
+better whatever you want to say you can
+create the pull request and okay now
+anyone who has access to this repository
+can see this pull request you can go
+online and see it now if you want to you
+can see the comment about the proposed
+change if I go to the files changed you
+can see here s the change that I m
+proposing to make I m proposing to
+change the color from blue to red and
+you can see that what I want to do is I
+want to merge one commit into master
+from red that s what my pull request is
+doing I m trying to take one commit
+that s on the red branch and merge it
+into the master branch and so this is
+something you commonly see in industry
+where they don t just let anyone just
+make it change automatically to the code
+base where they ll want you to make
+changes on a different branch and then
+submit a pull request like propose these
+changes so that someone else can code
+review it leave comments and feedback on
+the changes that you ve made and then
+only when everyone feels confident and
+comfortable with the changes that you ve
+made did they go down here and click
+this green merge pull request button
+that says all right I m happy with these
+changes let s take the changes from the
+red brand
+bring them into the master branch and
+when I click confirm merge now on the
+master branch it s going to be updated
+with that new red styling it s now
+giving me the option to delete the red
+branch which I can do now because I no
+longer need the red branch but that s
+the idea of a pull request questions
+about all of that I know that s a lot
+yeah so the question is I changed the
+color to red but before I m able to
+merge it in someone s added new features
+to the master branch what happens when I
+merge red in it s going to keep all
+those same features so everything just
+gets merged together the only trouble
+comes if when someone was adding new
+features they also decided to change the
+color to green and now they conflict and
+then you have to deal with that merge
+conflict but other than that everything
+is preserved yeah good question is there
+a way and github to like have some
+approval mechanisms so that only certain
+people can approve pull requests
+absolutely in the settings you can go to
+collaborators and you can add
+configuration there for security to make
+sure you can even add certain branch
+protections to make sure that nobody can
+push to mascar without going through a
+pull request first even if they can push
+to other branches there are a lot of
+features there as well yeah yeah you
+think of it as that it s called a pull
+request insofar as you re trying to
+request to have some code pulled into a
+particular branch but depending on how
+you think of it however make some best
+sense to you but you re trying to merge
+code together one branch into another
+generally all right you ll have an
+opportunity to play around with pull
+requests and get and github a little
+more in the afternoon project but just
+wanted to introduce that to you as a
+useful tool that you can use over the
+course of this week in future classes
+that you take in your own work in
+industry someone and so forth other
+questions about git before we turn to
+
+okay so last topic we re going to talk
+about is SAS and so SAS is an extension
+to CSS that is going to add some new
+features to CSS so you might imagine
+that CSS code can quickly start to get a
+little bit repetitive where you might
+imagine that if you ve got a themed
+website where your website follows a
+standard color scheme for instance you
+might have a particular color that
+you re using again and again and again
+throughout the entirety of your each of
+your CSS page for instance whereby if
+you later then wanted to go back and
+change the color of the page you might
+run into some issues whereby you d have
+to go back and change the color in every
+single place where that color shows up
+and that starts to get a little bit
+annoying in code how do we solve this
+problem if we ve got some piece of code
+that we re reusing a lot some value that
+we re using a lot and we want to avoid
+using it over and over and over how
+would we solve this problem in a
+language like C or Python define a
+variable exactly we defined a variable
+set the variable equal to the value and
+then we can reuse that variable whenever
+we want to represent that value CSS by
+default doesn t give us that ability but
+it is an ability that we get with
+something called sass which we ll see in
+just a moment among other features that
+it adds on top of CSS and so let s take
+a look at what that would actually look
+like
+so give an example here we ll go ahead
+and go to the desktop and just create a
+new file which I m going to call
+variables dot CSS and you might imagine
+here that if I want to color unordered
+lists and ordered lists the same way I
+might say okay unordered lists I want to
+have a color of red and a font size of
+14 pixels and ordered lists I want to
+have a color of red also and ordered
+lists I want them to be bigger font size
+18 pixels
+let me now create a new file I ll call
+it variables dot HTML doctype HTML i ve
+created a separate CSS file which we
+haven t yet seen today but it works the
+same as putting things in the style tag
+the only change is cause my web page I m
+going to add in rather than putting a
+style tag here I m just gonna link the
+CSS file I m gonna say the relationship
+of this file is a stylesheet and the
+source for the file is that variables
+dot CSS right so basically I m saying
+take the CSS code located in variables
+dot CSS and include it as styling for
+this particular HTML page this can be a
+useful tool if you want to use the same
+CSS file for multiple pages you don t
+need to duplicate the CSS you just have
+all the files reference the same CSS
+file for instance and inside the body of
+this page now I might have an unordered
+list so ul I have a bunch of list items
+so item 1 and item 2 and item 3 and
+maybe in addition to that I also have an
+ordered list in Oh L so I have a ul and
+unordered list and an O L and ordered
+lists it also has items in it and I have
+them both or by now if I open up
+variables dot HTML I see that I have a
+small unordered list and a large ordered
+this both of which are red and that s to
+be expected because invariably stuff CSS
+I said auto owner the unordered list
+should be a size 14 point font color red
+and ordered lists should be a size 18
+point font and also colored red
+but the duplication here is in the color
+red right if I wanted to change the
+color to blue or green or something else
+I would have to actually go to both of
+the places in the code and change both
+of the occurrences of red to blue or
+green or something else now might not
+seem like a big deal for a simple
+example but you imagine starting to work
+on larger projects where things start to
+get more complicated and this can start
+to get messy or annoying to have to
+replace all of these changes constantly
+more room for error if you happen to
+miss one and then things start to look a
+little bit strange so how can we solve
+this problem
+that s what sass is designed to do so
+I m going to create a new file colored
+variables s CSS is the file extension
+for sass files and this is going to be
+very similar to CSS but we re going to
+extend it with the capability of
+defining variables so I m gonna define a
+variable called dollar sign color and
+dollar sign is just the way in sass that
+you define a variable red
+could have been anything but the dollar
+sign just says here s a new name for a
+variable the variable is called color
+and it s going to be set to red and now
+I can say alright unordered lists I
+should have a font size of 14 point but
+the color rather than just saying red
+here I m instead going to say dollar
+sign color alright that s the name of
+the variable that I would like to use
+right here
+just plug in the value of that variable
+here as well then I can also add an
+ordered list and say alright the font
+size for that should be 18 point font
+and the color there is also just going
+to be whatever the value of the color
+variable is I m using some variable
+there putting it inside of my s CSS file
+questions about what I m doing so far or
+why I m doing okay so what we might like
+to be able to do is go into our HTML
+file and say all right instead of using
+variables dot CSS let s use variables
+dot s CSS and then go ahead and load
+this page but when I do that I lost all
+the styling sizes are the same
+
+I didn t link it but I did link it i
+linked the scss file the problem here is
+that web browsers don t natively
+understand sass or s CSS files they only
+understand CSS as a language and this
+although it looks a lot like CSS is not
+quite CSS it s using variables that CSS
+doesn t support and so this is a bit of
+a problem so what you need to do is
+there s this extra step of converting
+our s CSS file our sass file into a CSS
+file and so that s the extra stuff that
+you ll need to do you ll have to install
+sass and there s instructions for how to
+do this on the south s website but when
+you do then you can say something like
+alright sass variables des CSS and then
+variables dot CSS what I m saying here
+is take variables s CSS and just convert
+it into plain old CSS and generate a
+file called variables dot CSS via the
+sauce program so I press return nothing
+seems to happen but if I look at
+variables dot CSS now looks a little bit
+different but the general thinking is
+the same thing I ve generated this CSS
+file whereby it s plugged in the color
+red into both unordered lists and
+ordered lists and if I go into the a CSS
+file now and change it go from red to
+blue and then I rerun sass say recompile
+the dot s CSS file into a dot CSS file
+then when I go back to variables dot CSS
+okay both colors are now blue it keeps
+generating the new CSS file based on
+whatever it is that I ve included in the
+sass file it s making that conversion
+for me and then in variables dot HTML
+rather than including the SSS file I m
+just going to include the CSS file the
+translated version of that file such
+that I can refresh it ok now everything
+is blue now if I m currently working on
+development it s probably a little bit
+annoying to have to constantly be every
+time I make a change to the sass file
+recompile it to the CSS file so sass has
+some features to help with this I can
+say sass watch to say keep watching
+this file and anytime I make a change to
+the file just automatically do the
+conversion into the CSS file so I ll say
+sass
+watch variables des CSS variables that
+CSS the colon separates original file
+resulting file just the way the command
+line program works I press return and
+all right now it says SAS is watching
+for changes now if I go to variables out
+CSS and instead of blue say alright
+let s make the color green save that and
+go to variables CSS
+alright the color is green it s
+automatically updated to CSS files for
+me based on whatever it is that I have
+in the s CSS file questions about that
+
+okay so this adds some ability for you
+in your own sass files to be a little
+bit clever about CSS to be a little bit
+better designed in the way that you
+structure your style sheets and the way
+do you go about thinking about what goes
+where and how to think about avoiding
+reusing the same thing multiple times to
+make it easier to change things later on
+down the line so now let s begin to look
+at some of the other features that were
+afforded in sass one of which is the
+idea of nesting and so let me show you
+an example I ll go to source are going
+to nesting dot HTML so notice here I ve
+got an HTML page I have a div a big div
+inside of which is a paragraph and
+inside of the div is also an unordered
+list a UL element then I have a
+paragraph that s outside of the div and
+I also have an unordered list that s
+outside of the div so some hierarchical
+structures here that are elements within
+other elements but maybe I only want to
+style like the paragraph in the list
+that are inside of the div and so you
+might end up with codes that look
+something like this so the sauce
+supports the idea of nesting CSS
+selectors within each other where the
+idea can be all right I m gonna style
+the div the div is going to have a font
+size of 18 point font and then if inside
+the div you have a paragraph a P tag
+that can be colored blue and if inside
+the div there s an unordered list that s
+gonna have a color of green so you can
+add the nesting of elements within
+elements that can often be helpful if
+you re thinking about larger more
+complex CSS stylesheets and in fact
+earlier this morning I was working with
+some of you who are starting to come up
+with things that were a little more
+complicated you had a lot of things
+nested within each other it s just a lot
+simpler to think about when you can nest
+CSS selectors within each other to say
+only style paragraphs and unordered
+lists that are inside of the div in
+particular ways whereby if I open up
+nesting that HTML SCD nesting HTML
+oh I haven t okay I haven t compiled the
+sass file and the CSS yet so sass
+nesting dot s CSS nesting dot CSS and
+all right great so now the list items
+inside the div and the paragraph inside
+the div those get styled but the
+paragraph outside the day of in the list
+outside that of those don t get styled
+because I was able to generate from
+nesting s CSS the nesting dot CSS file
+which looks something a little like this
+it s generating equivalent CSS code
+that s taking advantage of the
+descendant selector that we were talking
+about earlier this morning questions
+about that okay I ll show you one other
+sass example just to give you a sense
+for the type of thing that you can do
+oftentimes you might have a whole bunch
+of different things that are very
+similarly styled except for a couple of
+differences so an example of that might
+be going to inheritance and open
+inheritance of HTML right this is the
+type of thing I want to create where I
+have similar to like bootstrap alert
+messages I have a success message a
+warning message in an error message and
+these are admittedly different right the
+success message is Gris and the warning
+is a yellow or orange and the error
+message is red and there are all
+different colors but there s also things
+about them that are the same there are
+similarly space they have a border
+around the edge of them they re in a
+similar font in the same font in fact so
+everything about them is the same except
+for the color and so I d like some way
+of
+repeating myself when I m writing this
+code and so here s the code I might use
+I ll use inheritance scss and what I
+have up here is I m defining the styling
+for something called a message and a
+message that I m defining with this
+which is gonna allow me to extend it
+later is gonna be sad serif it has a
+particular font size it s going to be
+bold it has a border and has certain
+spacing 20 pixels around the edge of it
+and 20 pixels inside of it and then
+anything with a class of success I m
+gonna say is going to extend the message
+it s going to inherit all of the CSS
+properties that the original message had
+so all of these CSS properties get used
+inside of the success class the only
+difference is that the background color
+is green and likewise for my warning
+message I m also going to extend the
+message that has all of these CSS
+properties and values and I m just gonna
+say alright let s change the background
+color to be orange and for the error
+message I m likewise just going to
+extend that message and change the
+background color to red when I generate
+the resulting inheritance dot CSS file
+it s going to look like this
+it looks like all right let s give
+success warning and error all of these
+same properties in common and let s make
+success have a background color of green
+and warning of a background color of
+orange an era of a background color of
+red and certainly you can do this for
+yourself but someone s gonna be easier
+to reason about and easier to think
+about by just giving it a name saying
+these are all a message and success
+extends that message and also has a
+background color for instance to avoid
+needing have success in too many places
+to avoid having to repeat yourself too
+many times and so yet another thing that
+sauce can be useful for just in making
+it easier to design your style sheets a
+
+good question so the question is about
+like conflicting class names like what
+if you have a class name declaration the
+bootstrap has and you reuse that
+declaration and sass this has actually
+very little to do with sass itself
+because sass is just generating CSS
+files but it is an interesting question
+of a bootstrap defines what class
+success means maybe and my code also
+defines what class success how class
+success should be styled how should
+those two things be resolved and the
+answer is that if the selectors are
+identical we talked a little bit earlier
+about specificity the idea to like IDs
+by more tightly than class names and so
+if something has an ID that will take
+precedence but if the selectors are the
+same CSS tends to go with the last one
+so whatever occurs last and so we can
+demonstrate this very quickly if I open
+up I ll just open up a copy variables
+dead HTML and call it style dot HTML and
+open up style dot HTML and I m gonna
+have a h1 and it says hello I can add
+some style here whereby h1s are colored
+red and H ones are colored blue these
+are identical selectors so they should
+bind equally tightly but when both are
+in conflict the latter one is going to
+take precedence it s gonna be blue
+instead of red because the color blue
+selector comes after the color red
+selector now there are ways to override
+this if you really want one of them to
+take precedence even if it is earlier in
+a file you can say color red exclamation
+point important like this is an
+important style you should use this one
+and if you do that then hello is going
+to show up as red but you should use
+that sparingly usually there s almost
+always a way to get by without needing
+to use being important where you can
+just add an ID or add some additional
+layer of specificity such that you can
+make sure it binds more tightly but good
+question all right questions about sass
+or what it can be used for or what the
+idea of it is so we saw this idea of
+variables of being able to in sass be
+able to specify names a variable
+that you can reuse later when you re
+trying to use some common CSS property
+value I talked about nesting things
+inside of each other to avoid having
+code that look something like this you
+can have code that looks something a
+little more like the right that s a
+little bit easier to reason about
+sometimes so this afternoon what I
+thought we d do is do a couple of things
+I ll leave this up for a little bit so
+you can take a look at it first thing to
+do
+install sass on your computer you re
+probably also going to want to install
+git if you haven t already and again the
+TS can walk around and help you with
+that and add some sass to your HTML page
+add some variables add nesting if you d
+like to add some inheritance if you want
+to as well
+then go to github create a new
+repository and take to the HTML page
+you ve been working on today and push it
+up to get up push it up to the master
+branch and just try and practice
+committing changes and pushing them up
+to github since that s probably new for
+many of you and then here s an
+opportunity to get to know each other
+what we re gonna ask you to do is find a
+partner someone to work with add each
+other as collaborators to your github
+repository so if you go to settings and
+collaborators you can add the other
+person s get up username as a
+collaborator there and then what we ll
+have you do is clone each other s
+repositories but I didn t get clone
+followed by the URL make some changes on
+a new branch go to a new branch and
+change the styling change the wording of
+something for instance and push those
+changes up to github on a new branch and
+then practice making the pull request
+make a pull request to the master branch
+and have whoever owns the repository
+look at those changes maybe comment on
+them and then approve that pull request
+that ll sort of simulate for Isis idea
+of what very commonly happens in
+practice and an industry all over this
+idea of making chain is pushing them to
+branches merging them together it ll be
+good practice with HTML CSS and sass and
+also good practice with git as well so
+what I think we ll do is we ll I know
+people are sitting in slightly different
+places but we ll chain you up the
+group s a little bit we ll have the
+people sitting in the middle go to room
+136 have the people sitting on this side
+go to room 212 and actually we re going
+to 12 last time this side go to 212 and
+this side will stay here and we ll go
+ahead and work on that just so everyone
+knows we want all can reconvene here
+we ll keep working until five o clock or
+so and then tomorrow we ll meet again

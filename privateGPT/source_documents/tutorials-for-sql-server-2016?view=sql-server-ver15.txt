@@ -1,0 +1,183 @@
+   [https://learn.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-ser
+   ver-2016?view=sql-server-ver15#main]Skip to main content
+
+   This browser is no longer supported.
+
+   Upgrade to Microsoft Edge to take advantage of the latest features,
+   security updates, and technical support.
+   [https://go.microsoft.com/fwlink/p/?LinkID=2092881]Download Microsoft
+   Edge
+   [https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-micr
+   osoft-edge]More info about Internet Explorer and Microsoft Edge
+   [https://www.microsoft.com/]
+   (BUTTON) Table of contents (BUTTON) Exit focus mode
+
+   Read in English (BUTTON) Save
+   [https://github.com/MicrosoftDocs/sql-docs/blob/live/docs/sql-server/tu
+   torials-for-sql-server-2016.md]
+   (BUTTON) Table of contents Read in English (BUTTON) Save
+   [https://github.com/MicrosoftDocs/sql-docs/blob/live/docs/sql-server/tu
+   torials-for-sql-server-2016.md]Edit (BUTTON) Print
+   Twitter LinkedIn Facebook Email
+   (BUTTON) Table of contents
+
+Tutorials for SQL Server
+
+     * Article
+     * 03/31/2023
+     * (BUTTON) 12 contributors
+
+   (BUTTON) Feedback
+
+In this article
+
+   Applies to: [yes-icon.svg?view=sql-server-ver15]
+   [https://learn.microsoft.com/en-us/sql/sql-server/sql-docs-navigation-g
+   uide?view=sql-server-ver15#applies-to]SQL Server
+
+   SQL Server provides tutorials to help you learn new technologies and
+   features. Tutorials for earlier versions can usually be used with more
+   recent versions. When tutorials address a newer feature, they will
+   indicate the minimum version to complete the tutorial.
+     * If a tutorial uses one of the Adventure Works databases, you should
+       download and use the most recent version from CodePlex. For more
+       information, see
+       [https://github.com/microsoft/sql-server-samples/releases/tag/adven
+       tureworks]AdventureWorks Databases and Scripts for SQL Server 2016
+       CTP3.
+     * Download a Power Pivot workbook and Power View reports to use with
+       Power View tutorials, go to
+       [https://go.microsoft.com/fwlink/?LinkId=220734]Power View Samples
+       for SQL Server 2012.
+       Note
+       Power View support is no longer available after SQL Server 2017.
+     * Check out the new
+       [https://learn.microsoft.com/en-us/sql/samples/wide-world-importers
+       -what-is?view=sql-server-ver15]Wide World Importers sample
+       available on the
+       [https://github.com/Microsoft/sql-server-samples]sql-server-samples
+       GitHub repository.
+
+Current tutorials
+
+   Technology Description
+   [https://learn.microsoft.com/en-us/analysis-services/analysis-services-
+   tutorials-ssas]Analysis Services Tutorials (SSAS) Learn how to develop
+   and deploy Analysis Services tabular or multidimensional models. Also
+   learn how to use tools such as PowerPivot to analyze the data in the
+   models.
+   [https://learn.microsoft.com/en-us/sql/relational-databases/database-en
+   gine-tutorials?view=sql-server-ver15]Database Engine Tutorials Learn
+   how to connect to an instance of the database engine and then build and
+   run Transact-SQL statements.
+   [https://wiki.scn.sap.com/wiki/display/EIM/EIM+Tutorials]Enterprise
+   Information Management Tutorials Learn how to manage information in an
+   enterprise using Microsoft EIM technologies.
+   [https://learn.microsoft.com/en-us/sql/integration-services/integration
+   -services-tutorials?view=sql-server-ver15]Integration Services
+   Tutorials Learn how to create and deploy SSIS packages.
+   [https://learn.microsoft.com/en-us/sql/relational-databases/replication
+   /replication-tutorials?view=sql-server-ver15]Replication Tutorials
+   Learn how to set up and run replication topologies using SQL Server
+   Management Studio.
+   [https://learn.microsoft.com/en-us/sql/reporting-services/reporting-ser
+   vices-tutorials-ssrs?view=sql-server-ver15]Reporting Services Tutorials
+   (SSRS) Learn how to create basic reports and subscriptions.
+   [https://learn.microsoft.com/en-us/sql/machine-learning/tutorials/r-tut
+   orials?view=sql-server-ver15]SQL Server Machine Learning Tutorials
+   Learn how to work with SQL Server data using R or Python. Run R or
+   Python scripts from Transact-SQL.
+
+Previously published tutorials
+
+     * [https://www.quackit.com/sql_server/sql_server_2014/tutorial/]Tutor
+       ials for SQL Server 2014
+     * [https://learn.microsoft.com/en-us/previous-versions/sql/sql-server
+       -2012/hh231699(v=sql.110)]Tutorials for SQL Server 2012
+     * [https://learn.microsoft.com/en-us/previous-versions/sql/sql-server
+       -2008-r2/ms167593(v=sql.105)]Tutorials for SQL Server 2008 R2
+
+[info-tip.svg?view=sql-server-ver15] Get help
+
+     * [https://feedback.azure.com/forums/908035-sql-server]Ideas for SQL:
+       Have suggestions for improving SQL Server?
+     * [https://learn.microsoft.com/en-us/answers/products/sql-server]Micr
+       osoft Q & A (SQL Server)
+     * [https://dba.stackexchange.com/questions/tagged/sql-server]DBA
+       Stack Exchange (tag sql-server): Ask SQL Server questions
+     * [https://stackoverflow.com/questions/tagged/sql-server]Stack
+       Overflow (tag sql-server): Answers to SQL development questions
+     * [https://www.reddit.com/r/SQLServer/]Reddit: General discussion
+       about SQL Server
+     * [https://www.microsoft.com/licensing/product-licensing/sql-server]M
+       icrosoft SQL Server License Terms and Information
+     * [https://support.microsoft.com/gp/support-options-for-business]Supp
+       ort options for business users
+     * [https://support.microsoft.com/gp/contactus81?Audience=Commercial]C
+       ontact Microsoft
+     * [https://learn.microsoft.com/en-us/sql/sql-server/sql-server-get-he
+       lp?view=sql-server-ver15]Additional SQL Server help and feedback
+
+[edit-topic-pencil.svg?view=sql-server-ver15] Contribute to SQL documentation
+
+   Did you know that you can edit SQL content yourself? If you do so, not
+   only do you help improve our documentation, but you also get credited
+   as a contributor to the page.
+
+   For more information, see
+   [https://learn.microsoft.com/en-us/sql/sql-server/sql-server-docs-contr
+   ibute?view=sql-server-ver15]How to contribute to SQL Server
+   documentation
+
+Feedback
+
+   Submit and view feedback for
+   [https://feedback.azure.com/d365community/forum/04fe6ee0-3b25-ec11-b6e6
+   -000d3a4f0da0]This product This page
+   [https://github.com/MicrosoftDocs/sql-docs/issues]View all page
+   feedback
+     __________________________________________________________________
+
+Additional resources
+
+   [https://learn.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-ser
+   ver-2016?view=sql-server-ver15]
+   (BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023
+
+Additional resources
+
+In this article
+
+   [https://learn.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-ser
+   ver-2016?view=sql-server-ver15]
+   (BUTTON) Theme
+     * (BUTTON) Light
+     * (BUTTON) Dark
+     * (BUTTON) High contrast
+
+     *
+     * [https://learn.microsoft.com/en-us/previous-versions/]Previous
+       Versions
+     * [https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/M
+       icrosoftLearnBlog]Blog
+     * [https://learn.microsoft.com/en-us/contribute/]Contribute
+     * [https://go.microsoft.com/fwlink/?LinkId=521839]Privacy
+     * [https://learn.microsoft.com/en-us/legal/termsofuse]Terms of Use
+     * [https://www.microsoft.com/en-us/legal/intellectualproperty/Tradema
+       rks/EN-US.aspx]Trademarks
+     * © Microsoft 2023

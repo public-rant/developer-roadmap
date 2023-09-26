@@ -1,0 +1,366 @@
+     * [https://www.tutorialspoint.com/index.htm]Home
+     * [https://www.tutorialspoint.com/codingground.htm]Coding Ground
+     * [https://www.tutorialspoint.com/about/about_careers.htm]Jobs
+     * [https://www.tutorialspoint.com/whiteboard.htm]Whiteboard
+     * [https://www.tutorialspoint.com/online_dev_tools.htm]Tools
+     * [https://www.tutorialspoint.com/business/index.asp]Corporate
+       Training
+
+   [https://www.tutorialspoint.com/market/teach_with_us.jsp]Teach with us
+     * [https://www.facebook.com/tutorialspointindia]
+     * [https://www.instagram.com/tutorialspoint_/]
+     * [https://twitter.com/tutorialspoint]
+     * [https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg]
+     * [https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkqX2eckF__gAAA
+       X-wMwEYvrsjBVbEtWQd4pgEdVSzkL22Nik1KEpY_ECWLKDGc41z8IOZWr2Bb0fvJplT
+       60NPBtSw87J6QCpc7wD4qQ3iU13n6xJtBxME5o05Wmpg5JPm5YY=&originalRefere
+       r=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftutor
+       ialspoint]
+
+   [https://www.tutorialspoint.com/index.htm]logo logo (BUTTON) (BUTTON)
+     * Login
+     * [javascript:void(0);]Category
+          + [https://www.tutorialspoint.com/academic_tutorials.htm]Academi
+            c Tutorials
+          + [https://www.tutorialspoint.com/big_data_tutorials.htm]Big
+            Data & Analytics
+          + [https://www.tutorialspoint.com/computer_programming_tutorials
+            .htm]Computer Programming
+          + [https://www.tutorialspoint.com/computer_science_tutorials.htm
+            ]Computer Science
+          + [https://www.tutorialspoint.com/database_tutorials.htm]Databas
+            es
+          + [https://www.tutorialspoint.com/devops_tutorials.htm]DevOps
+          + [https://www.tutorialspoint.com/digital_marketing_tutorials.ht
+            m]Digital Marketing
+          + [https://www.tutorialspoint.com/engineering_tutorials.htm]Engi
+            neering Tutorials
+          + [https://www.tutorialspoint.com/upsc_ias_exams.htm]Exams
+            Syllabus
+          + [https://www.tutorialspoint.com/famous_monuments.htm]Famous
+            Monuments
+          + [https://www.tutorialspoint.com/gate_exams_tutorials.htm]GATE
+            Exams
+          + [https://www.tutorialspoint.com/latest_technologies.htm]Latest
+            Technologies
+          + [https://www.tutorialspoint.com/machine_learning_tutorials.htm
+            ]Machine Learning
+          + [https://www.tutorialspoint.com/mainframe_tutorials.htm]Mainfr
+            ame Development
+          + [https://www.tutorialspoint.com/management_tutorials.htm]Manag
+            ement Tutorials
+          + [https://www.tutorialspoint.com/maths_tutorials.htm]Mathematic
+            s Tutorials
+          + [https://www.tutorialspoint.com/microsoft_technologies_tutoria
+            ls.htm]Microsoft Technologies
+          + [https://www.tutorialspoint.com/misc_tutorials.htm]Misc
+            tutorials
+          + [https://www.tutorialspoint.com/mobile_development_tutorials.h
+            tm]Mobile Development
+          + [https://www.tutorialspoint.com/java_technology_tutorials.htm]
+            Java Technologies
+          + [https://www.tutorialspoint.com/python_technologies_tutorials.
+            htm]Python Technologies
+          + [https://www.tutorialspoint.com/sap_tutorials.htm]SAP
+            Tutorials
+          + [https://www.tutorialspoint.com/scripting_lnaguage_tutorials.h
+            tm]Programming Scripts
+          + [https://www.tutorialspoint.com/selected_reading.htm]Selected
+            Reading
+          + [https://www.tutorialspoint.com/software_quality_tutorials.htm
+            ]Software Quality
+          + [https://www.tutorialspoint.com/soft_skill_tutorials.htm]Soft
+            Skills
+          + [https://www.tutorialspoint.com/telecom_tutorials.htm]Telecom
+            Tutorials
+          + [https://www.tutorialspoint.com/upsc_ias_exams.htm]UPSC IAS
+            Exams
+          + [https://www.tutorialspoint.com/web_development_tutorials.htm]
+            Web Development
+          + [https://www.tutorialspoint.com/sports_tutorials.htm]Sports
+            Tutorials
+          + [https://www.tutorialspoint.com/xml_technologies_tutorials.htm
+            ]XML Technologies
+          + [https://www.tutorialspoint.com/multi_language_tutorials.htm]M
+            ulti-Language
+          + [https://www.tutorialspoint.com/questions_and_answers.htm]Inte
+            rview Questions
+
+   ____________________ (BUTTON)
+     * [https://www.tutorialspoint.com/latest/prime-packs]Prime Packs
+     * [https://www.tutorialspoint.com/market/index.asp]Courses
+     * [https://www.tutorialspoint.com/latest/ebooks]eBooks
+     * [https://www.tutorialspoint.com/tutorialslibrary.htm]Library
+     * [https://www.tutorialspoint.com/articles/index.php]Articles
+
+   [https://www.tutorialspoint.com/market/login.asp]Login
+
+   Operating System Tutorial
+     * [https://www.tutorialspoint.com/operating_system/index.asp]Operatin
+       g System Video Tutorials
+
+     * Operating System Tutorial
+     * [https://www.tutorialspoint.com/operating_system/index.htm]OS -
+       Home
+     * [https://www.tutorialspoint.com/operating_system/os_overview.htm]OS
+       - Overview
+     * [https://www.tutorialspoint.com/operating_system/os_components.htm]
+       OS - Components
+     * [https://www.tutorialspoint.com/operating_system/os_types.htm]OS -
+       Types
+     * [https://www.tutorialspoint.com/operating_system/os_services.htm]OS
+       - Services
+     * [https://www.tutorialspoint.com/operating_system/os_properties.htm]
+       OS - Properties
+     * [https://www.tutorialspoint.com/operating_system/os_processes.htm]O
+       S - Processes
+     * [https://www.tutorialspoint.com/operating_system/os_process_schedul
+       ing.htm]OS - Process Scheduling
+     * [https://www.tutorialspoint.com/operating_system/os_process_schedul
+       ing_algorithms.htm]OS - Scheduling algorithms
+     * [https://www.tutorialspoint.com/operating_system/os_multi_threading
+       .htm]OS - Multi-threading
+     * [https://www.tutorialspoint.com/operating_system/os_memory_manageme
+       nt.htm]OS - Memory Management
+     * [https://www.tutorialspoint.com/operating_system/os_virtual_memory.
+       htm]OS - Virtual Memory
+     * [https://www.tutorialspoint.com/operating_system/os_io_hardware.htm
+       ]OS - I/O Hardware
+     * [https://www.tutorialspoint.com/operating_system/os_io_software.htm
+       ]OS - I/O Software
+     * [https://www.tutorialspoint.com/operating_system/os_file_system.htm
+       ]OS - File System
+     * [https://www.tutorialspoint.com/operating_system/os_security.htm]OS
+       - Security
+     * [https://www.tutorialspoint.com/operating_system/os_linux.htm]OS -
+       Linux
+
+     * OS - Exams Questions with Answers
+     * [https://www.tutorialspoint.com/operating_system/os_exams_questions
+       _answers.htm]OS - Exams Questions with Answers
+
+     * Operating System Useful Resources
+     * [https://www.tutorialspoint.com/operating_system/os_quick_guide.htm
+       ]OS - Quick Guide
+     * [https://www.tutorialspoint.com/operating_system/os_useful_resource
+       s.htm]OS - Useful Resources
+     * [https://www.tutorialspoint.com/operating_system/os_discussion.htm]
+       OS - Discussion
+
+     * Selected Reading
+     * [https://www.tutorialspoint.com/upsc_ias_exams.htm]UPSC IAS Exams
+       Notes
+     * [https://www.tutorialspoint.com/developers_best_practices/index.htm
+       ]Developer's Best Practices
+     * [https://www.tutorialspoint.com/questions_and_answers.htm]Questions
+       and Answers
+     * [https://www.tutorialspoint.com/effective_resume_writing.htm]Effect
+       ive Resume Writing
+     * [https://www.tutorialspoint.com/hr_interview_questions/index.htm]HR
+       Interview Questions
+     * [https://www.tutorialspoint.com/computer_glossary.htm]Computer
+       Glossary
+     * [https://www.tutorialspoint.com/computer_whoiswho.htm]Who is Who
+
+Operating System - I/O Hardware
+     __________________________________________________________________
+
+   [https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm]
+   Previous Page
+   [https://www.tutorialspoint.com/operating_system/os_io_software.htm]Nex
+   t Page
+
+   One of the important jobs of an Operating System is to manage various
+   I/O devices including mouse, keyboards, touch pad, disk drives, display
+   adapters, USB devices, Bit-mapped screen, LED, Analog-to-digital
+   converter, On/off switch, network connections, audio I/O, printers etc.
+
+   An I/O system is required to take an application I/O request and send
+   it to the physical device, then take whatever response comes back from
+   the device and send it to the application. I/O devices can be divided
+   into two categories −
+     * Block devices − A block device is one with which the driver
+       communicates by sending entire blocks of data. For example, Hard
+       disks, USB cameras, Disk-On-Key etc.
+     * Character devices − A character device is one with which the driver
+       communicates by sending and receiving single characters (bytes,
+       octets). For example, serial ports, parallel ports, sounds cards
+       etc
+
+Device Controllers
+
+   Device drivers are software modules that can be plugged into an OS to
+   handle a particular device. Operating System takes help from device
+   drivers to handle all I/O devices.
+
+   The Device Controller works like an interface between a device and a
+   device driver. I/O units (Keyboard, mouse, printer, etc.) typically
+   consist of a mechanical component and an electronic component where
+   electronic component is called the device controller.
+
+   There is always a device controller and a device driver for each device
+   to communicate with the Operating Systems. A device controller may be
+   able to handle multiple devices. As an interface its main task is to
+   convert serial bit stream to block of bytes, perform error correction
+   as necessary.
+
+   Any device connected to the computer is connected by a plug and socket,
+   and the socket is connected to a device controller. Following is a
+   model for connecting the CPU, memory, controllers, and I/O devices
+   where CPU and device controllers all use a common bus for
+   communication.
+   Device Controllers
+
+Synchronous vs asynchronous I/O
+
+     * Synchronous I/O − In this scheme CPU execution waits while I/O
+       proceeds
+     * Asynchronous I/O − I/O proceeds concurrently with CPU execution
+
+Communication to I/O Devices
+
+   The CPU must have a way to pass information to and from an I/O device.
+   There are three approaches available to communicate with the CPU and
+   Device.
+     * Special Instruction I/O
+     * Memory-mapped I/O
+     * Direct memory access (DMA)
+
+Special Instruction I/O
+
+   This uses CPU instructions that are specifically made for controlling
+   I/O devices. These instructions typically allow data to be sent to an
+   I/O device or read from an I/O device.
+
+Memory-mapped I/O
+
+   When using memory-mapped I/O, the same address space is shared by
+   memory and I/O devices. The device is connected directly to certain
+   main memory locations so that I/O device can transfer block of data
+   to/from memory without going through CPU.
+   Memory-mapped I/O
+
+   While using memory mapped IO, OS allocates buffer in memory and informs
+   I/O device to use that buffer to send data to the CPU. I/O device
+   operates asynchronously with CPU, interrupts CPU when finished.
+
+   The advantage to this method is that every instruction which can access
+   memory can be used to manipulate an I/O device. Memory mapped IO is
+   used for most high-speed I/O devices like disks, communication
+   interfaces.
+
+Direct Memory Access (DMA)
+
+   Slow devices like keyboards will generate an interrupt to the main CPU
+   after each byte is transferred. If a fast device such as a disk
+   generated an interrupt for each byte, the operating system would spend
+   most of its time handling these interrupts. So a typical computer uses
+   direct memory access (DMA) hardware to reduce this overhead.
+
+   Direct Memory Access (DMA) means CPU grants I/O module authority to
+   read from or write to memory without involvement. DMA module itself
+   controls exchange of data between main memory and the I/O device. CPU
+   is only involved at the beginning and end of the transfer and
+   interrupted only after entire block has been transferred.
+
+   Direct Memory Access needs a special hardware called DMA controller
+   (DMAC) that manages the data transfers and arbitrates access to the
+   system bus. The controllers are programmed with source and destination
+   pointers (where to read/write the data), counters to track the number
+   of transferred bytes, and settings, which includes I/O and memory
+   types, interrupts and states for the CPU cycles.
+   DMA
+
+   The operating system uses the DMA hardware as follows −
+   Step Description
+   1 Device driver is instructed to transfer disk data to a buffer address
+   X.
+   2 Device driver then instruct disk controller to transfer data to
+   buffer.
+   3 Disk controller starts DMA transfer.
+   4 Disk controller sends each byte to DMA controller.
+   5 DMA controller transfers bytes to buffer, increases the memory
+   address, decreases the counter C until C becomes zero.
+   6 When C becomes zero, DMA interrupts CPU to signal transfer
+   completion.
+
+Polling vs Interrupts I/O
+
+   A computer must have a way of detecting the arrival of any type of
+   input. There are two ways that this can happen, known as polling and
+   interrupts. Both of these techniques allow the processor to deal with
+   events that can happen at any time and that are not related to the
+   process it is currently running.
+
+Polling I/O
+
+   Polling is the simplest way for an I/O device to communicate with the
+   processor. The process of periodically checking status of the device to
+   see if it is time for the next I/O operation, is called polling. The
+   I/O device simply puts the information in a Status register, and the
+   processor must come and get the information.
+
+   Most of the time, devices will not require attention and when one does
+   it will have to wait until it is next interrogated by the polling
+   program. This is an inefficient method and much of the processors time
+   is wasted on unnecessary polls.
+
+   Compare this method to a teacher continually asking every student in a
+   class, one after another, if they need help. Obviously the more
+   efficient method would be for a student to inform the teacher whenever
+   they require assistance.
+
+Interrupts I/O
+
+   An alternative scheme for dealing with I/O is the interrupt-driven
+   method. An interrupt is a signal to the microprocessor from a device
+   that requires attention.
+
+   A device controller puts an interrupt signal on the bus when it needs
+   CPU’s attention when CPU receives an interrupt, It saves its current
+   state and invokes the appropriate interrupt handler using the interrupt
+   vector (addresses of OS routines to handle various events). When the
+   interrupting device has been dealt with, the CPU continues with its
+   original task as if it had never been interrupted.
+   [https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm]
+   Previous Page
+   [https://www.tutorialspoint.com/operating_system/os_io_hardware.htm]Pri
+   nt Page
+   [https://www.tutorialspoint.com/operating_system/os_io_software.htm]Nex
+   t Page
+   Advertisements
+
+   [https://www.tutorialspoint.com/market/business/subscription.jsp]
+   Annual Membership
+
+Annual Membership
+
+   Enjoy unlimited access on 5500+ Hand Picked Quality Video Courses
+   Subscribe Now
+   [https://www.tutorialspoint.com/business/index.asp#demoRequest]
+   Training for a Team
+
+Training for a Team
+
+   Affordable solution to train a team and make them project ready.
+   Request a Demo
+
+   [https://www.tutorialspoint.com/index.htm]Tutorials Point Tutorials
+   Point
+     * [https://www.tutorialspoint.com/about/index.htm]About us
+     * [https://www.tutorialspoint.com/about/return_refund_policy.htm]Refu
+       nd Policy
+     * [https://www.tutorialspoint.com/about/about_terms_of_use.htm]Terms
+       of use
+     * [https://www.tutorialspoint.com/about/about_privacy.htm]Privacy
+       Policy
+     * [https://www.tutorialspoint.com/about/faq.htm]FAQ's
+     * [https://www.tutorialspoint.com/about/contact_us.htm]Contact
+
+   Copyright © Tutorials Point (India) Private Limited. All Rights
+   Reserved.
+
+   We make use of First and third party cookies to improve our user
+   experience. By using this website, you agree with our Cookies Policy.
+   [https://www.tutorialspoint.com/operating_system/os_io_hardware.htm]Agr
+   ee [https://www.tutorialspoint.com/about/about_cookies.htm]Learn more

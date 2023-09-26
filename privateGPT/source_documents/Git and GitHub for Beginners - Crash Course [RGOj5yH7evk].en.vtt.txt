@@ -1,0 +1,1759 @@
+hi everyone welcome in this video we are
+going to learn about git and github why
+they are important and also how to use
+them so we re going to start off going
+over the terms and concepts that you
+will use in git
+and the ecosystem and then get into
+practical applications
+this tutorial will include everything
+from basic git repositories
+to what is github
+to some more intermediate concepts like
+branching and merging and forking and
+that kind of stuff
+i want to quickly introduce myself my
+name is gwen and i run a youtube channel
+called faraday academy
+where i upload coding tutorial videos
+and i also do a couple live streams a
+week mostly on python and javascript
+topics as well as some more general
+purpose coding videos
+you can also find me on twitter and
+instagram and pretty much everywhere by
+typing in gwen faraday
+
+i want to start off here by defining
+what git is
+git is what we call a version control
+system that is free
+and open source and it s the most widely
+used version control system in
+development today most programmers
+interact with git on a daily basis
+so what is version control
+version control is basically a way that
+we as programmers track our code changes
+we basically save an initial version of
+our code into git
+and then when we update code we can save
+it into git again
+and again and again and again and
+throughout time as our code continues to
+change we can look back at all of the
+changes we have made over time this
+helps us to see and understand what we
+did when as well as track down bugs or
+go back to a previous version of the
+code if we need to
+so let s look at some of the terms that
+you re going to see in this video
+first of all i use the term directory
+which is also known as a folder on your
+computer when i reference the terminal
+or command line i basically mean an
+application that runs on your computer
+which is just an interface where you can
+type in text commands
+you can navigate around files and
+folders create files change update
+things
+install and run programs and much more
+you might also hear me use the term cli
+which is just the command line interface
+many programs that you install as a
+programmer will require you to interact
+with them via text commands in the
+command line
+so you will be typing out some text and
+hitting enter instead of say double
+clicking on a folder icon on your
+desktop just think of it as another way
+to run a program now you might be
+wondering why are we going to use the
+terminal or command line instead of
+using one of these beautiful
+applications that handle interacting
+with git for us
+well as programmers it s always good to
+use the terminal so you learn the get
+commands and workflow of git as well as
+become accustomed to it as a developer
+you are going to be using the terminal a
+lot to install clis run programs search
+for things etc throughout your
+development career and learning git is a
+great way to get started with the
+command line
+cd stands for change directory it s
+basically the same thing as when you
+double click on a folder using the icons
+on your desktop while in the command
+line if you want to move into a folder
+or even up to a parent folder you ll use
+cd
+followed by the directions to get to
+whatever folder on your system you want
+to get to
+a code editor of course is a place to
+write code
+you ll probably see this in a lot of
+different programming videos but just in
+case you are unfamiliar with it you can
+write code anywhere in a text document
+word processor anything
+but there are special ones that are
+designed with lots of tools and features
+for programmers and these are called
+code editors
+now some people get confused by the word
+repository because it has multiple
+meanings
+but in the world of programming it
+usually refers to a git repository which
+is basically just your project or the
+folder place where your project is kept
+you can call it a repository
+people also sometimes confuse git and
+github
+now git
+is the tool that tracks the changes in
+your code over time
+github is a website where you host all
+of your git repositories
+being online it makes it easy to work in
+groups with other people and organize
+your projects into a portfolio for you
+to show potential employers
+so here are some of the get commands
+we re going to cover in this video which
+you will be typing into your terminal or
+command line on your computer
+they are clone for example if there s a
+repository that is not on your local
+machine but it s on github and you want
+to bring it down on your local machine
+so you can use it locally you use the
+clone command by the way all of these
+commands are lowercase not uppercase as
+we re going to see as we go through the
+examples in this video
+when you have updated files or created
+or deleted files and folders you re
+going to want to tell get that you made
+changes and that you would like get to
+track those changes so you use the add
+command for that as i said earlier git
+is there for you to save the changes you
+make in your code so you do that through
+a commit and we call it committing your
+changes
+once you have made changes locally on
+your computer and you are ready to put
+them in git you tell git to track them
+through the add command you save your
+files to get through the commit command
+and then you upload your files to a
+place like github or another what we
+call remote repository or github
+alternative like bitbucket gitlab and
+there s many of them you do this through
+the push command
+when there are changes to your code on
+github and you want to bring those to
+your local machine then you use the pull
+command you pull down changes from the
+remote repository those are all the
+commands that i want to cover to get
+started again we re going to go over
+examples of each of
+these the first thing you will need to
+do is of course sign up for an account
+on github
+this is pretty straightforward you enter
+minimal information and then you sign up
+for an account you will get an email
+that will ask you to verify and then you
+can log into your account
+when you log in you will either be on
+this page which is your profile page
+that you can access from this drop down
+menu
+or you might be
+on the dashboard page here
+either way you will have access to this
+green button here
+or this plus sign and the drop down here
+where you can create a new repository
+now a repository is basically a project
+it s all of your coding files and
+folders for whatever kind of application
+that you are building
+for example this is a repository that i
+have it s for a curriculum app that i ve
+been building you can see the mock ups
+pretty straightforward application and
+in this repository this is my complete
+project with the folders and all of my
+coding files are inside of these folders
+for this one application
+each application or project is in a
+separate repository so i m going to go
+ahead and create a new repository here
+give it a name demo repo
+by the way repo is just short for
+
+i m going to leave these settings as
+they are
+and click create repository
+now you can create your files and
+folders for this repository locally on
+your machine
+or you can create them straight in the
+online editor on the github website so
+i m going to go ahead and create a basic
+markdown file called a readme and this
+is the most basic file that you will
+find in almost every project that
+contains text to describe what the
+project is about what it does and any
+other relevant information so i m going
+to click here create a new file i m
+going to name it read me
+dot md for markdown
+markdown is basically an easy way to
+format your text in these sort of files
+so i m going to come down here
+and type some text now markdown has all
+these shortcuts like one hashtag for
+a main header so i m just going to put
+demo here and then some plain text so
+i ll put some
+description
+and then i ll scroll to the bottom to
+commit
+the file in other words save this file
+i just want to point out really quickly
+that this create readme md
+is placeholder text but if you don t
+write anything else here when i commit
+this
+it will use this text as the default
+so let me commit
+and you can see here that this is the
+commit message from when i saved this
+readme file and now you can see the
+readme file which because it s named
+readme md
+is the default file that github always
+shows down here
+i can also go into the file here which
+is the same thing except with a few
+different options here
+and in either screen i have this edit
+this file option so i m going to go
+ahead and do that
+i m going to simply change this
+to an exclamation point
+now the default text instead of create
+readme md is now update readme md
+which isn t that descriptive but it s
+okay for right now
+so i m going to commit
+and by committing i saved my changes
+here and if i go to the demo repo
+it shows my last commit message here as
+update readme md
+now if i want to see my entire history
+of changes in other words every commit
+that i ve made i can come here to
+commits
+and each commit has a unique identifier
+and i can also see the message or the
+title that i wrote on these commits so i
+can come back to this one and see what
+was added this green with the plus signs
+means these lines were added to this
+file
+and then i ll go back
+and in the updated commit it shows me
+this red with the minus sign
+that means this line was deleted and
+then the green with the plus means this
+line was added anything that s white
+means it stayed the same so this is a
+very basic view of seeing changes
+now what about using this on your local
+machine
+if you are using a mac or linux
+operating system you should already have
+git installed
+you can check this by opening your
+terminal or command line application
+and typing in get space dash dash
+version
+if git is not already installed i highly
+recommend checking out this tutorial by
+atlassian which i will link in the
+description below
+it walks you through how to install git
+on any operating system
+now i do want to note for the windows
+installation when you download the get
+windows installer i recommend you choose
+the get bash option from the install
+menu you can of course use command
+prompt and it will set up get in command
+prompt for you but in the past i ve had
+an easier time with git bash on windows
+for mac it gives you a few different
+options for install
+but i highly recommend you use the
+homebrew package manager if you can and
+it takes you through all of the steps
+here
+but again you probably already have get
+installed if you re using a mac or linux
+and don t need to worry about this
+there s just one more piece of setup
+before we continue with the rest of the
+git tutorial and that is getting a code
+editor
+of course you can write code in whatever
+you want any type of word processing
+software will do from notepad to
+microsoft word but there are specific
+ones made for coding and many of them
+are really good and free visual studio
+code is a free code editor made by
+microsoft is widely used with people
+learning to code and professionals alike
+so you can install it for free from
+code visualstudio com
+it s available on every major operating
+system mac windows and linux
+now i have visual studio code open
+with no files or folders inside
+if you haven t used this before then all
+of these icons on the side are how
+you re going to navigate around your
+project and use your tools
+so i m going to come to this top one
+and this bar comes out where i m going
+to see all my files and folders i m just
+going to open a folder real quick
+in this test folder i m going to go to
+my git
+then this is an empty folder that i have
+i m going to click open
+and now i have a folder that s open in
+visual studio code that i can actually
+add files and folders to but i m not
+going to right now because i m actually
+going to pull the repo that we created
+at the beginning of this tutorial here
+on github i m going to pull that to my
+local system using git
+so in visual studio code i have access
+to a terminal from here that i m going
+to use
+if i come up to the top
+in the view menu i m going to come to
+terminal and select it and now it opens
+this terminal here
+by the way the only reason why this says
+git is because my folder is named git
+and because i ve opened the folder here
+it automatically uses that as the
+directory for my terminal
+so now i want to clone down my repo to
+my local machine i want to pull all that
+code down here so i can work with it
+locally i m going to use a command
+called git clone
+and then in clone or download here clone
+with ssh exactly what we just set up so
+i m going to copy this
+go back to my terminal and paste and
+i ll hit enter
+and now we can see a folder here
+which is my repo from github that s
+pulled down
+into the directory that i am in so i m
+going to move inside this folder real
+quick from the command line which i can
+just do by cd
+and then the name of the folder to
+change directory into the folder so now
+i am inside of the folder demo repo
+which was the name of the repository we
+created on github so when it pulled it
+down it gave the folder this name so my
+whole repository is inside of that
+folder and now it says git master now
+this might look different on your
+machine this part looks different on
+every machine
+i have a specific setup to make it look
+like this but either way you will
+probably see some kind of indication
+that you are in a git repository now now
+how do you know this looks like a
+regular folder and a regular readme file
+well there s actually a hidden folder
+that you can t see here and that you
+won t see on most operating systems
+unless you have selected to show hidden
+folders and that is called the dot get
+directory so there s just a special
+command in my terminal that i will use
+to show you that folder now the la
+command that i used here is actually a
+mac shorthand
+for ls space
+dash la
+which means list everything in the
+directory including hidden files and
+folders so if you re not on a mac i
+don t think la will work for you but you
+can use ls space dash la to do the same
+thing
+so you can see here s the readme file
+and then there s something dot git
+and because it s blue here that means
+it s actually a folder
+and this hidden git folder
+actually stores all of the files that
+save your commits or your code changes
+over time
+it has all of the changes recorded in
+the history of this repository
+which includes the ones we made on
+github com
+so now let s make some more locally i m
+going to go into the readme file
+and come here and add a subheader
+not too creative i m just going to call
+it subheader
+
+now that i have changed this file i need
+to save the changes in git
+so i do that through a commit still so
+first i m going to use the get status
+command
+now the git status command shows me all
+of the files that were updated or
+created or deleted but haven t been
+saved in a commit yet
+so for example if i come here and i
+create a new file i m going to call this
+index html
+and i m just going to put a quick div
+
+with nothing else and now let me rerun
+the get status command and now you can
+see i have one file that s been modified
+and one file that it says is untracked
+meaning git doesn t know about this file
+yet so you have to tell git to track the
+file before you can save it to git
+to do that you need to use the get add
+command and then tell it which files to
+track now most of the time or a lot of
+the time you see people use a period
+which means you re telling git to track
+all of the files that are listed here in
+both the untracked and the modified
+section so both the changes we made to
+readme and the new file index html would
+be staged with git if we did git add
+period because it includes all of the
+files
+you could also
+optionally tell it just the names of
+each individual file or folder that you
+want get to track
+in this case i m just going to use the
+dot
+now i m going to use git status again
+and now you can see that all of the
+changes have been tracked that s why
+they show up differently now and they
+are ready to be committed so i m going
+to come here
+and do git commit
+dash m now dash m is for message and you
+need to have a message in order to
+commit your files the message could be
+one character in meaningless if you want
+but there needs to be a message and
+ideally that message should have
+something to do with the what and why
+behind the commit you re making
+so i m going to add a message here
+added index html and this is just the
+title of the message if you remember
+from the web interface there were two
+boxes a title and a description this
+first dash m and what s inside of the
+quotes is a message you can add a second
+one for the description box
+so i can say sum description
+and i ll click enter
+and now it gives me some information two
+files change five insertions but we ve
+still only saved our code locally the
+commit isn t live on github yet we make
+it live by using another git command
+called git push which means i want to
+push this live to a remote repository
+
+in order to push them to github under
+your account you re going to have to
+prove to github that you are the owner
+of your account
+so you have to connect your local
+machine to your github account somehow
+the way this is done is by using ssh
+keys
+you need to start by generating a key
+locally using the ssh keygen command
+then you specify the type of encryption
+and then the strength of encryption
+and at the end you need to include your
+github email address
+this is just a test for me because i
+already have keys set up so i m just
+going to put a fake email address
+but make sure that the email address you
+enter here is the same one you use to
+log into your github account click enter
+now the default file for the ssh key is
+inside your user directory in the dot
+ssh directory and it will be called id
+underscore rsa
+i m going to give it a different name
+here because i already have a key under
+that name
+you can optionally enter a passphrase
+for your key here or leave it blank so
+i m just going to click enter to leave
+it blank and my key has been generated
+now i am going to search for the key
+that i just generated
+and now i find that there are two so
+there s testkey and testkey pub
+so
+pub testkey pub the key that you are
+going to upload to your github interface
+pub stands for public it s called your
+public key
+which means that it s okay for other
+people to see this key the key that was
+generated without the dot pub extension
+is called your private key and is the
+one that you have to keep secure on your
+local machine you don t share this key
+with anybody how it works is that the
+public key you put on github and then
+every time you want to connect to github
+or push your code on github or use your
+account via your local machine
+you use your private key
+to show github that you are the one that
+generated this public key
+it s a mathematical proof that only this
+private key could have generated this
+public key
+i m going to print out this public key
+and your key should look something like
+this
+ssh
+rsa starts with this it has a bunch of
+characters in the middle and it ends
+with your email
+now you need to copy this whole key
+which you can do by
+highlighting it in your terminal or
+command line which automatically copies
+it you don t need to do control or
+command c
+because control c actually means
+something completely different in the
+terminal not copy
+there s also a terminal command that
+allows you to copy it s called pb copy
+and then you do the less than symbol and
+then the path to your file
+so it s in our user home directory and i
+didn t actually push it put it in the
+dot ssh directory but this is the
+directory you would have your key in
+and then it s just test key dot
+pub
+and now it s copied to my clipboard
+on github i m going to go to settings
+and in the list of all settings i m
+going to go to ssh and gpg keys
+and you can see any ssh keys associated
+with your account then you just click on
+new ssh key you can give it whatever
+title you want this is just for your
+reference
+and then you paste your key in here
+and i m going to remove the extra enter
+at the end and now add ssh key to
+confirm my password
+and now you can see my key was
+successfully added
+the only thing left to do is to make
+sure that your local get command line
+interface knows about the key you just
+generated and i m going to link all of
+these steps in the description below you
+need to start the ssh agent then if
+you re using version
+10 12 2 or later you will need to modify
+this file your ssh config
+and add this text to it
+i m going to just show you how to get
+into that file now paste the location of
+the file in your ssh directory
+and then anywhere in this file perhaps
+at the end you can paste in that
+information
+i m not going to do that because i
+already have my file set up so i m going
+to delete it
+after you do that you ll run this ssh
+add command from your terminal
+and then your key will be set up to work
+with git
+again all of the information that i
+covered with keys here is going to be
+linked in the description below
+but this is the general way that you
+will do it with any operating system
+although there might be some slight
+
+now there are two more arguments we have
+to put here the first one is origin
+and the second one is master
+now origin is an option set for us here
+and is basically a word that stands for
+the location of our git repository
+master is the branch that we want to
+push to and we ll get into what that
+means in a minute i m going to click
+enter
+and now i ll refresh this page
+and you can see my code changes are all
+live on github now
+you can also see that there are three
+commits
+two that we made online
+on github com
+and one that we made locally and pushed
+up to github com
+of course this was our commit message
+that we made locally
+and this was the description that we
+wrote after that second dash m
+we can see all of our file changes that
+we made locally here as well
+so this was to demonstrate how to create
+a new git repository using github but
+what about if you start a repo locally
+so let me exit out of these
+and i will create a new folder here
+called demo
+repo 2
+drag it outside
+so now it s in a completely separate
+folder from the other git repository
+that we have but this one s not a git
+repository yet and nothing s in there
+so i m going to move into that folder in
+the terminal
+demo
+2 so now i m in demo 2 you can see
+it s not a git repository
+even if i look for that hidden get
+folder it s not there
+so let me first add a file in here and
+i m again going to add a readme file dot
+md
+and i m going to add a header demo
+2
+and some text
+now if i want to turn this into a git
+repository i can use the command line
+and say git
+init
+and it says initialize git repository in
+yada yada this folder and now you can
+see i have
+the get keyword there
+and if i do get status
+i can see there s this untracked readme
+file
+i will go ahead and add that file either
+with the period or the name of the file
+git status again
+okay so the file is ready to be
+committed and now i will do git commit
+dash m
+created
+
+and now i ll put description here
+and enter
+now what if i want to push this live
+let s try get push origin master
+and now you can see it s giving me this
+error fatal origin does not appear to be
+a git repository because we didn t clone
+this down from a git repository we
+didn t already create this repo on
+github we created it locally so git is
+saying i have no idea where to push this
+to because it s not connected to
+anything
+so we have to create that connection and
+first the easiest way to do this is by
+creating an empty git repository up on
+github
+so i m going to come here create new
+repository
+i m going to call this
+demo
+repo
+2 don t need a description going to
+leave all this here now i have another
+empty repository
+so to start pushing here i m going to
+copy this
+and say git remote now remote means
+somewhere else but not on this computer
+we re going to use this to add a
+reference to the remote repository on
+github
+and then i m going to say add origin
+and paste that link that i copied and i
+can check that by saying git
+remote
+dash v
+and it shows any remote repositories
+that i ve connected to this repo now
+that these are set up
+i can now use get push
+origin
+master just as i did before
+now there s a shortcut here because if i
+don t want to type out this whole thing
+every time in the future i can just use
+git push but i have to set something
+called an upstream meaning this is where
+i want to push it to by default so i m
+going to do dash u for set up stream and
+then enter
+and in the future i can just use git
+push without typing out origin master
+it says to github looks like everything
+was pushed just fine i will refresh this
+page and i can see the readme that i
+just added so that s how you initialize
+a repository locally and push it to a
+remote location like github so let s
+review the workflows that we ve gone
+over so far and compare the flow of
+adding code in the github interface
+versus writing it locally
+so when we first started working in the
+github interface we wrote some code in
+the readme and then we committed our
+changes we saved them to get
+now notice there wasn t an ad step here
+we never did a get add to stage changes
+well that s because github handles that
+for us so really by committing in github
+we are adding and committing at the same
+time and then that was it really because
+it was our repository we had full access
+to change whatever we wanted
+we could just update the code just by
+committing it in the github interface of
+course we didn t have to push the code
+because it was already live on github
+there s no other remote repository
+because it s already in the remote
+repository
+now if we didn t own the repository or
+we didn t have access rights or we
+needed other people to review our code
+before we merged it in with all the rest
+of the code
+then we would also have to take the
+extra step of making a pull request
+which is something we re going to cover
+later in this video
+so let s compare this workflow if we re
+just writing code on github versus doing
+it locally and then pushing it up to
+github so locally in our text editor we
+wrote the code
+and then we had to do git add to let get
+know about the changes and then we saved
+them to git using the git commit command
+and then we pushed them to the remote
+repository on github
+using the get push command and that
+updated github s code or the code in the
+github repository with our changes that
+were made locally
+and then just like before if we didn t
+have access rights or we needed a code
+review before we merged changes in we ll
+need to make a pull request
+so these two methods cover the most
+basic ways to use git by using the
+github web interface and then doing it
+locally
+if you have any questions about this
+then please leave them in the comments
+below
+
+let s first go over some of the concepts
+of branching and then we ll dive into a
+practical example
+now what is git branching you ve seen in
+our examples that we re on something
+called the master branch
+now master is a naming convention for
+the main or the default branch in a
+repository so if you re just working off
+of one branch that s where your code
+will live and all your code all your
+commits everything will be in that one
+branch
+now this is called branching because it
+starts to look more like a tree when you
+have multiple branches
+so we saw earlier that we had a master
+branch we were committing to that master
+branch
+but we could also make another branch
+we ll call it feature branch so let s
+talk about what happens when we create a
+new branch
+at first the code on master and this new
+feature branch will be exactly the same
+but as you make updates to
+the feature branch
+those changes are only seen in the
+feature branch so if you make changes on
+the feature branch you make a commit to
+save those changes onto that branch
+and then you switch back to the master
+branch you won t be able to see any of
+the changes that you made on that
+feature branch
+each individual branch has no way of
+knowing
+what commits or what changes have been
+made to any other branch each branch is
+only keeping track of what changes are
+made on its own branch
+now you can continue to change the code
+on master branch and save it through a
+commit to the master branch and then if
+you switch back to the feature branch
+likewise you will not be able to see the
+changes that you just saved to master
+why is this useful
+it s extremely useful because you will
+be building out new features to
+applications that may break your code or
+they are not finished yet and you don t
+want to save them to the main master
+branch you want to work on them in kind
+of a sandbox area so you can write all
+the code you need and get it correct and
+in the state that you want before you
+merge it back into the main branch of
+the code base
+and this is really helpful when you have
+many different people working in the
+same repository or a lot of different
+branches going on at once
+one very common thing that you ll see in
+development is that you ll be working on
+let s say this feature branch for a week
+or more
+and you have all of these changes that
+you ve made
+and then you find out there s this major
+bug that you have to fix real quick
+so for that we make this other branch
+called it a hotfix branch here
+represented by yellow and you can see
+that i made the change in one commit to
+fix whatever bug was wrong with the code
+on its own branch
+i made sure it was working correctly and
+then i merged it back into the master
+branch now that we ve gone over the
+concepts of branching let s dive into
+the command line and try it out
+and now i m using a full screen terminal
+just so i have more space as i m running
+different get commands that are going to
+take up more screen space to show you
+but it works the exact same way as the
+terminal inside of vs code
+so i m back in my terminal inside of my
+demo repo again
+and you can see here i have information
+about my git branch again you might see
+this presented in different ways it
+shows you re on the master branch
+if i type in git
+branch
+you can see that i currently only have
+one branch and it s master
+and you can also see there s a star
+beside it and that means that i am
+currently on that branch
+so i m going to hit the letter q here to
+get out of that
+and now i m going to create a new branch
+so i do that with git
+checkout
+and git checkout is what you will use to
+switch between branches
+but to tell it to create a new branch
+use dash b
+and then you give it the name of your
+branch
+so in this case i m going to call it
+feature
+now if you re working in a real
+application with people you want to make
+this name as descriptive as possible
+some people like to use feature slash
+the ticket number or description
+or you can use hyphen
+and then you could give it the issue
+number like if it s a github issue
+number 11 or whatever convention you
+want to use
+and then you can make this
+longer if you want and put some more
+details
+i m going to
+call this feature
+readme instructions because i m just
+going to be updating
+a section of the readme
+click enter
+and now it says i switched to a new
+branch meaning i created this new branch
+called feature readme instructions and
+now you see
+that my branch changed so now if i do
+get branch again
+i have two branches listed here and the
+top one is starred and highlighted so it
+shows me which branch i m currently on
+i m going to hit q
+and like i mentioned git checkout
+will switch between branches so now that
+i am on this feature readme instructions
+i can
+check out master
+and now you see i switched to master
+i ll do git branch
+shows i m on master now
+and i will do another get checkout
+feature
+readme instructions you see that i hit
+the tab button and it auto filled the
+rest of the branch so i didn t have to
+type out the whole long name
+you can also
+hit tab
+even if you don t start at the beginning
+like in this case i started typing
+feature and then hit tab
+but i could actually start typing
+instructions
+and hit tab and it still auto completes
+now this is very useful because
+eventually
+when you work in a repo you re going to
+start a lot of stuff with feature or
+with bug or hotfix or whatever so only
+your last few words will be unique so
+that s just something useful to know so
+now i m back on the feature readme
+instructions branch and i m going to
+make some changes on this branch
+so i m in my code here i m going to come
+into my readme
+and make a new section
+i m going to say
+just local
+development or something
+and then give it one step i wasn t going
+to say open
+index html in your
+browser
+just as a demo all right i saved that
+and you can see in vs code it gives me
+this m here meaning it s been modified
+since i ve last checked this into git
+that s kind of a nice feature to have to
+see which files you ve added and which
+files you ve modified right in your text
+editor
+all right now that i ve modified some
+files here i m going to do the get
+status command again
+and it says i modified readme
+so first i m going to save things that
+i ve changed on this branch
+so i m going to do the git
+add command
+and i m just going to stage the readme
+changes
+and now i will do a git commit
+dash m and say
+oops i have to put that in quotes so
+updated
+readme
+okay so you can see i have one file
+changed for insertions
+so now it s saved to git but it s only
+saved on this feature readme
+instructions branch
+so if i do a git checkout master
+come back to my code and you can see the
+changes aren t here
+because they re only on that other
+branch
+now if i want to here
+i can go ahead and merge these two
+branches locally
+using the get merge command
+but before i do that i just want to
+double check and see the code that i m
+merging in
+which i can do through the get diff
+command
+now diff
+or diffing shows me what changes have
+been made it compares two versions of
+the code and shows me all of the lines
+that have been changed
+and you kind of saw this in the get
+interface because you saw a nice visual
+representation of the diff where it
+showed in green with a plus sign the
+lines that had been added and then in
+red with the minus sign the lines that
+had been removed and let me
+say get diff and the name of the branch
+hit enter
+and now you can see
+it shows which file it s talking about
+this readme md file and in white it
+shows text that was already been there
+that hasn t been changed
+and then it shows that my master branch
+doesn t have some of the changes that
+are in my other branch
+so i m going to hit q here to get out of
+this all right now i could go ahead and
+like i said use the git merge
+command
+pass in the branch and it ll merge in
+those changes
+but the more common pattern that you re
+going to see
+is pushing these changes on that branch
+up to github and then making a pr
+so i m going to change back to the
+feature branch
+and now i ll do git status
+and it says i have no changes to commit
+because they ve already been committed
+but i do need to push them up to github
+so let me run git push
+and now you can see
+since i m on a new branch it says that i
+need to tell it which branch on github i
+want to push to
+now the answer is almost always that the
+branch will be named the same thing on
+github
+and on your local machine
+so i could copy this line
+and now you ll notice this set upstream
+
+is the same thing that we were doing
+before with the dash u
+it s just shorthand for set upstream so
+i m going to hit enter here
+and now it s pushed up to github
+and it s even giving me a hint for how
+to create a pull request on github
+by giving me these instructions here
+so what is a pull request or a pr
+it s basically a request to have your
+code pulled into another branch
+in the example we re using today we have
+a feature branch and we want to have our
+code pulled into the master branch
+so we make a pr from the feature branch
+to the master branch now once we have
+made a pr
+anyone can review our code comment on it
+ask us to make changes or updates
+now after you make a pr you can also
+update the code just by making
+additional commits and pushing them up
+to github
+as long as it s on the same branch that
+you re making the pr with once the pr is
+merged you ll generally delete your
+feature or source branch
+and to switch back to the master branch
+then when you want to make additional
+coding changes
+you will create another new branch and
+start the process over make your commits
+make a pr and then merge again
+and i could go straight to this url but
+i m going to show you how to do it
+manually on github
+first so i look at my github interface
+and you can see already
+github picked up on the fact that i just
+pushed a new branch
+so now it s asking me right here if i
+want to compare
+this new branch to another branch and
+create a pull request
+and it takes me to this screen here
+now sometimes this is confusing for
+people which branch is being merged into
+which branch this github interface does
+a pretty good job because of the arrow
+so you can see that the branch you re
+comparing this feature readme
+instructions will be merged into the
+base so there s always a base branch
+where all the code is going to get
+merged into
+and then there s the branch you re
+comparing so now i have this message i
+have a title that says i updated readme
+and i can put some more description here
+so usually i m going to put a list of
+the changes that i ve made and maybe
+some description as to why i made
+certain decisions
+so here i m just going to say added
+section about local development
+to the
+readme
+and i will create a pull request
+now that i ve created a pull request i
+can actually come here
+in the interface i can see any comments
+that people have made on the pull
+request
+or i can write more comments of my own
+i can
+look through all the commits i ve made
+that i m trying to merge into master
+right now
+and i can also look at
+all the files that have been changed and
+see the diff of what s been added
+removed or updated
+another thing i can do right here is if
+i want to make a comment about a
+particular line of code that i ve
+written i can press the plus button this
+
+and now i can make a comment there i m
+just going to say
+add a new subheader and add it as a
+single comment and you can see that the
+comment appears at the line of code
+where you hit the plus button
+this is a really nice way if there are
+multiple people
+working on a repository to make comments
+about specific lines of code and then
+usually the person who created this pr
+will reply to them with an explanation
+or make another commit if changes need
+to be made to the code or something
+all right so i m going to go ahead and
+merge this pr
+and you ll notice that i added the
+single comment it says resolve now
+because i m the owner here i have full
+permissions i don t have to resolve i
+can still merge the pr
+if you don t have permissions or your
+repo set up in a certain way then you
+might have to resolve comments before
+you can merge
+anyway i m just going to merge here
+confirm
+and merge successful
+now that the pr is merged
+i m going to
+go over to the code
+and if i scroll down
+you can see that i am on the master
+branch
+and my changes are also here
+so the branch was successfully merged
+so locally now i m going to switch to
+the master branch
+and if you look at the code the changes
+aren t there yet
+and that s because they are only on
+github and i need to pull them down to
+my local environment
+so to get the changes on my local master
+branch from origin
+i m going to do git pull
+now if i didn t already set the upstream
+i would have to do git pull origin
+master
+but i already have an upstream set here
+so i m just going to do git pull and
+then enter
+and you can see one file changed for
+insertions
+and now if i look at my code i can see
+my local master has also been updated
+with the changes from the branch
+and now that i am done with that feature
+branch
+i m going to do get branch
+and it s still there even though i m not
+going to be using it again because you
+don t really reuse branches that you ve
+already merged into your master branch
+so i m going to go ahead and delete this
+branch
+so i m going to do get branch dash d
+and then the name of the branch and
+again i can tab over
+so i ll hit enter
+and now it says i deleted that branch so
+now if i do get branch
+and i only have master again all right
+well that s all fine and great and works
+well but in real life you re not always
+going to have such an easy time merging
+there s something called merge conflicts
+in git
+where basically you re building your own
+code writing a bunch of code on your own
+branch
+maybe other people are writing code on
+their branches and master is getting
+updated from multiple different places
+so it s possible for multiple people to
+change the same files
+and so sometimes git doesn t know which
+code you want to keep or which code is
+redundant or which code you want to get
+rid of so you ll have to manually do
+that
+let s try that out let me create another
+branch
+i m going to do git checkout dash b
+and then i m just going to call this
+quick test all right i m on the quick
+test branch
+now i m going to come into index html
+and i m going to add
+a p tag here
+and say world
+and p all right so i modified this file
+let me go ahead and do git status
+it s always a good idea to do git status
+before you commit anything
+looks good what i can also do from here
+is do a git diff
+enter and it shows me all of the changes
+that i ve made since my last commit so
+i m gonna hit q
+and now i will
+commit these now generally the workflow
+has been git add
+and then file name or a period to add
+everything in this directory this time
+there s a shortcut because
+we ve just modified one file
+and the file has already been committed
+to get in the past which is why it says
+modified and not created
+so what i m going to do is get commit
+and then instead of dash m i m going to
+do dash a
+which stands for add and m at the same
+time for message
+then i m going to put my commit message
+so this basically adds and commits at
+the same time but it only works for
+modified files not for newly created
+files because if it s newly created you
+have to stage that with git and let get
+know about it first
+for my message i ll just say added
+world
+okay and now i have one file changed to
+insertions
+now let me go to my master branch git
+checkout master
+you can see i don t have the changes
+from my other branch there
+but what if i updated the same line so
+on master now i m updating line two
+and here i m going to put
+there so hello there so now master has a
+line 2 but the new branch i created also
+has a line 2 now everything is fine now
+because both branches are separate but
+what if i try to merge these two
+together
+who s line two is going to be put there
+so let s try that i m going to go to my
+quick test branch so i m going to do git
+check out
+quick test
+and now it s actually giving me an error
+and not letting me change branches
+because i have local changes that line
+two that i added in master it says it s
+going to be overwritten if i change
+branches
+so it s asking me to commit before i
+change so that way
+that line two will be saved to get in
+the master branch and won t be lost when
+i change branches now stashing is a
+little bit beyond the scope of this
+tutorial but it s basically a way for
+you to stash your changes somewhere
+and then you can retrieve them later but
+it s not making a commit to get
+it s like a temporary holding place
+so we re not going to do that i m just
+going to go ahead and commit
+so let me do git status first
+all right and i m going to use the
+shorthand because i only have the
+modified file there so i m going to do
+git commit am
+and then a commit message i m going to
+say added
+there
+and now i should be able to check out
+press the up arrow key
+i should be able to check out this quick
+test branch
+and before i merge master into this
+branch i m going to diff
+against master real quick
+and it shows me the changes here
+so now i m going to do merge
+so remember how i said before that
+merging locally wasn t the regular
+pattern well it isn t for merging
+branches into master
+but
+master gets updated as you go along as
+you re working on your project because
+maybe other people are merging into
+master and you don t have those changes
+in your branch
+but you don t want to get too far behind
+master as you re working because then
+it s going to be really difficult to
+merge later
+so as changes are made to master in the
+github repo you re going to want to pull
+those down to your local master branch
+and then whatever feature branch you re
+working off of like quick test here
+you ll want to use git merge master to
+keep your branch up to date with what s
+going on in master so that s what we re
+doing here get merge master
+hit enter
+and now it says we have a conflict so we
+have a merge conflict in index html
+so there are a couple ways to fix merge
+conflicts interfaces like github give
+you an interface to fix them
+you can also fix it in the terminal but
+the easiest way to fix merge conflicts
+is directly in your code a nice code
+editor like vs code will let you click
+buttons like accept the current change
+or accept incoming or take both of these
+but you can also come in here make the
+changes that you want and delete these
+lines that get added this lets get know
+that there s a conflict
+and first between this head and these
+equal signs it shows the code that we
+have on the current branch that we are
+on and then it shows the code coming
+from the other branch that we re trying
+to merge in so in this case i am just
+going to delete these lines and save
+both of the changes but in this case one
+to line two and one to line three and
+this is just letting git know what we
+want to do because it didn t know how to
+handle the conflict now we have handled
+it and deleted the conflict markers
+we can now look here and see that we
+need to make another commit even though
+it seems like we are adding and
+subtracting the same things we basically
+need to make a commit because we have
+fixed the merge conflicts so i m going
+to say here get commit
+dash am
+and i can say merged in master
+or
+updated with master or something like
+that and now i ve officially updated my
+branch with the changes that have been
+happening on master branch and i can
+continue coding whatever feature or bug
+fix or whatever i m doing on this quick
+
+so what if we make a mistake what if we
+accidentally add something or commit
+something to get and we didn t mean to
+do it we can actually undo our stages or
+are commits
+so let me come to readme i m going to
+add another line here
+and say have fun
+okay so i ve made a change here on line
+12
+and back in my demo rebuild i m going to
+do git status
+so now let s say i want to get
+add this readme
+and let me do git status again
+and you can see before it said change is
+not staged and now changes to be
+committed meaning they ve been staged
+already
+but what if i want to undo staging what
+if i didn t mean to stage this file i
+can actually easily undo it by using the
+get reset command
+so i can either do git reset with no
+arguments or i can say git reset and
+just the name of the file that i want to
+unstage
+so here i m just going to do the plain
+git reset
+and it gives me a list of the files so
+unstate changes after reset readme
+now if i do another get status
+it shows me that this file is no longer
+staged
+so what if i want to undo a commit so
+let me go ahead and add
+the readme file
+and then i m gonna come and commit
+readme
+and i m gonna say added install
+step
+now if i do get status
+you ll see there s nothing to commit
+because all changes have now been
+committed well if i made a mistake on
+that commit i can use that same get
+reset command
+and this time
+i m going to say git reset head in all
+caps and what head means to get is a
+pointer to the last commit so i m
+telling it to do something with the last
+commit
+and then i m going to say tilde 1
+which is telling git instead of pointing
+to this last commit that i just made
+right here i want you to go back one
+commit further
+and head will now point back one commit
+further meaning it will completely undo
+the commit that i just made
+let me click enter
+and now you can see it says i unstaged
+the changes so i m going to say git
+status
+and what happened was that it unstaged
+and uncommitted those last changes
+so if i do git diff
+you ll see that git picks this up as a
+new change now
+now if you have many different commits
+you might want to go back to a specific
+commit or undo multiple commits
+and for that there s no quick pointer in
+git like the uppercase head pointer
+where you can just look at the last
+commit or use that to undo the last
+commit but you can see a log of all your
+commits and you ll see that these are
+arranged in reverse chronological order
+so this is the latest commit that we
+made and you can see with the commit
+message that s also why it s important
+to write a good commit message because
+it s easier for humans to scroll through
+and see which commit is which to get
+these commits are differentiated with
+this unique hash here so if you want to
+go back to a certain commit
+you can copy one of these hashes let s
+say i want to go back to added world
+before i added the their line
+so i want to basically undo when i
+merged this there
+from master into this branch
+so let me copy this commit hash
+and by the way when you see all of these
+commits you can scroll down with
+spacebar and now it shows this is the
+end so i ll say quit
+so i m going to do git
+reset
+and then the hash of that commit
+and it s unstaged any changes made to
+these files after this commit
+so you can see the changes are still
+there
+i added have fun and this line three in
+the index html
+but they are just not saved in get or
+staged with git any longer so what if i
+was just testing something out and i
+want to
+get rid of all of the changes after a
+certain point
+while i can do that by
+using the get reset command as well
+let me just
+grab a commit hash
+so i m going to go back just a couple
+random commits to
+this commit right here where i said
+updated readme i m gonna hit q
+Music
+and now i m gonna do git reset
+dash dash hard meaning i want all of the
+changes
+to not just be unstaged but to be
+completely removed
+so head is now pointing to a different
+commit because i ve undone several
+commits now
+and if i look in my files we ve just
+completely gone back in time and erased
+the latest updates
+so those are the basics of branching
+merging
+fixing merge conflicts and undoing
+staging and commits that you ve made
+one more thing that i want to quickly
+mention is forking
+you may have seen this already in the
+git interface you can hit fork here
+and then it s going to make a complete
+copy of the repository
+now why would you want to fork well you
+probably don t want to fork your own
+repo because you already have full
+access to all of the code here but you
+don t for other people s repos so let me
+find just
+a random repo
+on github okay so here s vue js
+so let me click on this
+and i actually don t have access to
+change anything in this repo so if i
+want to make a pr against this repo and
+request for my changes to be added or if
+i just want to
+be able to branch off of the code in
+this repo and do whatever i want with it
+then i want to fork it
+
+and fork it to my user account these are
+just groups that i m a part of on github
+sometimes it takes a minute to fork over
+all the code
+especially with vue js because it s a
+large repository
+all right and now you can see the repo
+is no longer under the view js
+organization now it s under my personal
+github
+and now that i ve forked this i have
+complete control to make any updates or
+changes that i want to this code
+so if i want to come into readme
+and hit the pencil update this i can say
+hide there and now i can come to the
+bottom and commit changes again
+so i can say
+updated readme or whatever i want
+i m just going to leave it with the
+default text again commit to the dev
+branch
+so before we worked off the master
+branch as being the default branch
+but sometimes when you re working in a
+larger project with other people you re
+going to want to create
+multiple branches
+like master staging and dev
+for different kinds of environments
+so in this case dev is set to the
+default branch for this repository
+instead of master so i m just going to
+commit my changes directly to dev
+and you can see my changes here of
+course they aren t part of the main
+vue js
+view repository but they re part of the
+one that i forked because i forked a
+complete copy of that repository
+including the branches associated with
+it
+and you can see dev
+is marked as the default
+so now what if i wanted to get my
+changes back
+into this vue js repository of course i
+don t but what if i did
+i would go and create a pull request
+so new pull request
+and then as my base the place that i
+want to merge my changes into i would
+put the repository that i forked from
+this vjs repository
+and the branch
+and i want to compare that with my
+repository that i forked and the branch
+on my repository that i updated of
+course i m not going to click create
+pull request because this is just a demo
+i can also see the diff down here of the
+changes that i ve made
+and what commits i ve made to this
+branch on my fork
+now if i want to merge within my fork
+i can do that easily let s say
+of course there isn t anything to
+compare because i m comparing the same
+branch here
+but i could merge into any other branch
+let me find master here
+so i could merge straight into master
+and you can see i can create pull
+requests now
+
+and
+i m going to create pull request
+and you can see they had a bunch of
+default text added to
+the pull request information
+
+go back to the code
+if i scroll down of course i m on dev it
+says hi there and now if i go to
+master
+it also has my changes on master because
+i merged them
+generally speaking after we merge a
+branch into one of our default branches
+like master then we would clean up the
+branch that has just been merged in
+other words we would delete it from
+github and from our local machine
+because we re not using that branch
+anymore but it s a little bit different
+when we use branches like dev staging
+and master
+because generally you re merging your
+feature branches into either dev or
+master and you have dev and master and
+sometimes staging reserved for just
+merging into so you don t make any
+changes
+on dev and master themselves you ll just
+be merging other branches into dev or
+master depending on how your code base
+is set up
+in a large project like vue js
+we would merge all of our feature
+branches or bug fixes or whatever into
+the dev branch and then delete the
+branch that we just merged in
+and then when all the changes on the dev
+branch are ready those get merged into
+master
+but dev never gets deleted just like
+master never gets deleted those kind of
+stay around forever all the other
+branches are just temporary
+so me having my own fork
+allows me full reign full access full
+control
+of crud operations create read update
+delete whatever i want to do with all of
+this code all of these files
+and if i want to make some major updates
+what i m going to do is fork the
+repository which i already did
+pull my fork down to my local machine
+make all the updates that i want to
+test them out whatever i want to do
+i ll push them back up to my fork
+and then i will create a pr against the
+original repository thanks so much for
+watching i hope that you enjoyed this
+video and that you also got something
+out of it if you did then don t forget
+to like the video and subscribe to the
+free code camp channel don t forget to
+check out my youtube channel called
+faraday academy where i do weekly videos
+and live streams on python and
+javascript and other related programming
+topics i would also appreciate if you
+would leave me a comment here and let me
+know what you liked about the video
+or any other feedback that you might
+have have a great day and i hope you

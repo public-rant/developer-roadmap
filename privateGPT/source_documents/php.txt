@@ -1,0 +1,2154 @@
+   [https://www.w3schools.com/][javascript:void(0)]Tutorials
+   [javascript:void(0)]Exercises [javascript:void(0)]Get Certified
+   [javascript:void(0)]Services [javascript:void(0)]Menu
+   [https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-lea
+   rning.w3schools.com]Log in
+   [https://billing.w3schools.com/products/spaces?frequency=monthly&change
+   Plan=true]Upgrade [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+
+   [javascript:void(0)]Close
+   [javascript:void(0);]Tutorials
+   [javascript:void(0);]Exercises
+   [javascript:void(0);]Get Certified
+   [javascript:void(0);]Services
+   [https://www.w3schools.com/spaces/index.php]Spaces
+   [https://www.w3schools.com/signup/index.php]Sign Up
+   [https://www.w3schools.com/bootcamp/index.php]Bootcamps
+   [https://www.w3schools.com/videos/index.php]Videos
+   [https://shop.w3schools.com/]Shop
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+
+   ×
+
+Tutorials and References
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/default.asp]Learn HTML
+   [https://www.w3schools.com/html/default.asp]Tutorial
+   [https://www.w3schools.com/tags/default.asp]Reference
+   [https://www.w3schools.com/css/default.asp]Learn CSS
+   [https://www.w3schools.com/css/default.asp]Tutorial
+   [https://www.w3schools.com/cssref/default.asp]Reference
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Learn RWD
+   [https://www.w3schools.com/css/css_rwd_intro.asp]Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Learn Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Overview
+   [https://www.w3schools.com/w3css/default.asp]Learn W3.CSS
+   [https://www.w3schools.com/w3css/default.asp]Tutorial
+   [https://www.w3schools.com/w3css/w3css_references.asp]Reference
+   [https://www.w3schools.com/sass/default.php]Learn Sass
+   [https://www.w3schools.com/sass/default.php]Tutorial
+   [https://www.w3schools.com/sass/sass_functions_string.php]Reference
+   [https://www.w3schools.com/colors/default.asp]Learn Colors
+   [https://www.w3schools.com/colors/default.asp]Tutorial
+   [https://www.w3schools.com/colors/colors_fs595.asp]Reference
+   [https://www.w3schools.com/icons/default.asp]Learn Icons
+   [https://www.w3schools.com/icons/default.asp]Tutorial
+   [https://www.w3schools.com/icons/icons_reference.asp]Reference
+   [https://www.w3schools.com/graphics/svg_intro.asp]Learn SVG
+   [https://www.w3schools.com/graphics/svg_intro.asp]Tutorial
+   [https://www.w3schools.com/graphics/svg_reference.asp]Reference
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Learn Canvas
+   [https://www.w3schools.com/graphics/canvas_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/api_canvas.asp]Reference
+   [https://www.w3schools.com/graphics/default.asp]Learn Graphics
+   [https://www.w3schools.com/graphics/default.asp]Tutorial
+   [https://www.w3schools.com/howto/default.asp]Learn How To
+   [https://www.w3schools.com/howto/default.asp]Tutorial
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+JavaScript
+
+   [https://www.w3schools.com/js/default.asp]Learn JavaScript
+   [https://www.w3schools.com/js/default.asp]Tutorial
+   [https://www.w3schools.com/jsref/default.asp]Reference
+   [https://www.w3schools.com/react/default.asp]Learn React
+   [https://www.w3schools.com/react/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/default.asp]Learn jQuery
+   [https://www.w3schools.com/jquery/default.asp]Tutorial
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]Reference
+   [https://www.w3schools.com/vue/index.php]Learn Vue
+   [https://www.w3schools.com/vue/index.php]Tutorial
+   [https://www.w3schools.com/vue/vue_ref_builtin-attributes.php]Reference
+   [https://www.w3schools.com/angular/default.asp]Learn AngularJS
+   [https://www.w3schools.com/angular/default.asp]Tutorial
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Reference
+   [https://www.w3schools.com/js/js_json_intro.asp]Learn JSON
+   [https://www.w3schools.com/js/js_json_intro.asp]Tutorial
+   [https://www.w3schools.com/jsref/jsref_obj_json.asp]Reference
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Learn AJAX
+   [https://www.w3schools.com/js/js_ajax_intro.asp]Tutorial
+   [https://www.w3schools.com/appml/default.asp]Learn AppML
+   [https://www.w3schools.com/appml/default.asp]Tutorial
+   [https://www.w3schools.com/appml/appml_reference.asp]Reference
+   [https://www.w3schools.com/w3js/default.asp]Learn W3.JS
+   [https://www.w3schools.com/w3js/default.asp]Tutorial
+   [https://www.w3schools.com/w3js/w3js_references.asp]Reference
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+Backend
+
+   [https://www.w3schools.com/python/default.asp]Learn Python
+   [https://www.w3schools.com/python/default.asp]Tutorial
+   [https://www.w3schools.com/python/python_reference.asp]Reference
+   [https://www.w3schools.com/sql/default.asp]Learn SQL
+   [https://www.w3schools.com/sql/default.asp]Tutorial
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]Reference
+   [https://www.w3schools.com/mysql/default.asp]Learn MySQL
+   [https://www.w3schools.com/mysql/default.asp]Tutorial
+   [https://www.w3schools.com/mysql/mysql_datatypes.asp]Reference
+   [https://www.w3schools.com/php/default.asp]Learn PHP
+   [https://www.w3schools.com/php/default.asp]Tutorial
+   [https://www.w3schools.com/php/php_ref_overview.asp]Reference
+   [https://www.w3schools.com/java/default.asp]Learn Java
+   [https://www.w3schools.com/java/default.asp]Tutorial
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Reference
+   [https://www.w3schools.com/c/index.php]Learn C
+   [https://www.w3schools.com/c/index.php]Tutorial
+   [https://www.w3schools.com/cpp/default.asp]Learn C++
+   [https://www.w3schools.com/cpp/default.asp]Tutorial
+   [https://www.w3schools.com/cs/index.php]Learn C#
+   [https://www.w3schools.com/cs/index.php]Tutorial
+   [https://www.w3schools.com/r/default.asp]Learn R
+   [https://www.w3schools.com/r/default.asp]Tutorial
+   [https://www.w3schools.com/kotlin/index.php]Learn Kotlin
+   [https://www.w3schools.com/kotlin/index.php]Tutorial
+   [https://www.w3schools.com/go/index.php]Learn Go
+   [https://www.w3schools.com/go/index.php]Tutorial
+   [https://www.w3schools.com/django/index.php]Learn Django
+   [https://www.w3schools.com/django/index.php]Tutorial
+   [https://www.w3schools.com/django/django_ref_template_tags.php]Referenc
+   e
+   [https://www.w3schools.com/postgresql/index.php]Learn PostgreSQL
+   [https://www.w3schools.com/postgresql/index.php]Tutorial
+   [https://www.w3schools.com/typescript/index.php]Learn TypeScript
+   [https://www.w3schools.com/typescript/index.php]Tutorial
+   [https://www.w3schools.com/asp/default.asp]Learn ASP
+   [https://www.w3schools.com/asp/default.asp]Tutorial
+   [https://www.w3schools.com/asp/asp_ref_vbscript_functions.asp]Reference
+   [https://www.w3schools.com/nodejs/default.asp]Learn Node.js
+   [https://www.w3schools.com/nodejs/default.asp]Tutorial
+   [https://www.w3schools.com/nodejs/ref_modules.asp]Reference
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Learn
+   Raspberry Pi
+   [https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp]Tutorial
+   [https://www.w3schools.com/git/default.asp]Learn Git
+   [https://www.w3schools.com/git/default.asp]Tutorial
+   [https://www.w3schools.com/mongodb/index.php]Learn MongoDB
+   [https://www.w3schools.com/mongodb/index.php]Tutorial
+   [https://www.w3schools.com/aws/index.php]Learn AWS Cloud
+   [https://www.w3schools.com/aws/index.php]Tutorial
+   [https://www.w3schools.com/xml/default.asp]Learn XML
+   [https://www.w3schools.com/xml/default.asp]Tutorial
+   [https://www.w3schools.com/xml/dom_nodetype.asp]Reference
+
+Next Bootcamp:
+
+August 1st
+
+   [https://www.w3schools.com/bootcamp/index.php]Learn More
+
+Data Analytics
+
+   [https://www.w3schools.com/ai/default.asp]Learn AI
+   [https://www.w3schools.com/ai/default.asp]Tutorial
+   [https://www.w3schools.com/gen_ai/index.php]Learn Generative AI
+   [https://www.w3schools.com/gen_ai/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Learn
+   ChatGPT-3.5
+   [https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Learn ChatGPT-4
+   [https://www.w3schools.com/gen_ai/chatgpt-4/index.php]Tutorial
+   [https://www.w3schools.com/gen_ai/bard/index.php]Learn Google Bard
+   [https://www.w3schools.com/gen_ai/bard/index.php]Tutorial
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Learn
+   Machine Learning
+   [https://www.w3schools.com/python/python_ml_getting_started.asp]Tutoria
+   l
+   [https://www.w3schools.com/datascience/default.asp]Learn Data Science
+   [https://www.w3schools.com/datascience/default.asp]Tutorial
+   [https://www.w3schools.com/python/numpy/default.asp]Learn NumPy
+   [https://www.w3schools.com/python/numpy/default.asp]Tutorial
+   [https://www.w3schools.com/python/pandas/default.asp]Learn Pandas
+   [https://www.w3schools.com/python/pandas/default.asp]Tutorial
+   [https://www.w3schools.com/python/scipy/index.php]Learn SciPy
+   [https://www.w3schools.com/python/scipy/index.php]Tutorial
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Learn Matplotlib
+   [https://www.w3schools.com/python/matplotlib_intro.asp]Tutorial
+   [https://www.w3schools.com/statistics/index.php]Learn Statistics
+   [https://www.w3schools.com/statistics/index.php]Tutorial
+   [https://www.w3schools.com/excel/index.php]Learn Excel
+   [https://www.w3schools.com/excel/index.php]Tutorial
+   [https://www.w3schools.com/googlesheets/index.php]Learn Google Sheets
+   [https://www.w3schools.com/googlesheets/index.php]Tutorial
+
+Web Building
+
+   [https://www.w3schools.com/spaces/index.php]Create a Website HOT!
+   [https://www.w3schools.com/spaces/index.php]Create a Server NEW
+   [https://www.w3schools.com/where_to_start.asp]Where To Start
+   [https://www.w3schools.com/w3css/w3css_templates.asp]Web Templates
+   [https://www.w3schools.com/browsers/default.asp]Web Statistics
+   [https://campus.w3schools.com/]Web Certificates
+   [https://www.w3schools.com/whatis/default.asp]Web Development
+   [https://www.w3schools.com/tryit/default.asp]Code Editor
+   [https://www.w3schools.com/typingspeed/default.asp]Test Your Typing
+   Speed [https://www.w3schools.com/codegame/index.html]Play a Code Game
+   [https://www.w3schools.com/cybersecurity/index.php]Cyber Security
+   [https://www.w3schools.com/accessibility/index.php]Accessibility
+   [https://campus.w3schools.com/pages/newsletter]Join our Newsletter
+
+   ×
+
+Exercises and Quizzes
+
+HTML and CSS
+
+   [https://www.w3schools.com/html/html_exercises.asp]HTML
+   [https://www.w3schools.com/html/html_exercises.asp]Exercise
+   [https://www.w3schools.com/html/html_quiz.asp]Quiz
+   [https://www.w3schools.com/css/css_exercises.asp]CSS
+   [https://www.w3schools.com/css/css_exercises.asp]Exercise
+   [https://www.w3schools.com/css/css_quiz.asp]Quiz
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Bootstrap
+   [https://www.w3schools.com/bootstrap/bootstrap_exercises.asp]Exercise
+   [https://www.w3schools.com/bootstrap/bootstrap_quiz.asp]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+JavaScript
+
+   [https://www.w3schools.com/js/js_exercises.asp]JavaScript
+   [https://www.w3schools.com/js/js_exercises.asp]Exercise
+   [https://www.w3schools.com/js/js_quiz.asp]Quiz
+   [https://www.w3schools.com/react/react_exercises.asp]React
+   [https://www.w3schools.com/react/react_exercises.asp]Exercise
+   [https://www.w3schools.com/react/react_quiz.asp]Quiz
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]jQuery
+   [https://www.w3schools.com/jquery/jquery_exercises.asp]Exercise
+   [https://www.w3schools.com/jquery/jquery_quiz.asp]Quiz
+   [https://www.w3schools.com/vue/vue_exercises.php]Vue
+   [https://www.w3schools.com/vue/vue_exercises.php]Exercise
+   [https://www.w3schools.com/vue/vue_quiz.php]Quiz
+
+Backend
+
+   [https://www.w3schools.com/python/python_exercises.asp]Python
+   [https://www.w3schools.com/python/python_exercises.asp]Exercise
+   [https://www.w3schools.com/python/python_quiz.asp]Quiz
+   [https://www.w3schools.com/sql/sql_exercises.asp]SQL
+   [https://www.w3schools.com/sql/sql_exercises.asp]Exercise
+   [https://www.w3schools.com/sql/sql_quiz.asp]Quiz
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]MySQL
+   [https://www.w3schools.com/mysql/mysql_exercises.asp]Exercise
+   [https://www.w3schools.com/mysql/mysql_quiz.asp]Quiz
+   [https://www.w3schools.com/php/php_exercises.asp]PHP
+   [https://www.w3schools.com/php/php_exercises.asp]Exercise
+   [https://www.w3schools.com/php/php_quiz.asp]Quiz
+   [https://www.w3schools.com/java/java_exercises.asp]Java
+   [https://www.w3schools.com/java/java_exercises.asp]Exercise
+   [https://www.w3schools.com/java/java_quiz.asp]Quiz
+   [https://www.w3schools.com/c/c_exercises.php]C
+   [https://www.w3schools.com/c/c_exercises.php]Exercise
+   [https://www.w3schools.com/c/c_quiz.php]Quiz
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]C++
+   [https://www.w3schools.com/cpp/cpp_exercises.asp]Exercise
+   [https://www.w3schools.com/cpp/cpp_quiz.asp]Quiz
+   [https://www.w3schools.com/cs/cs_exercises.php]C#
+   [https://www.w3schools.com/cs/cs_exercises.php]Exercise
+   [https://www.w3schools.com/cs/cs_quiz.php]Quiz
+   [https://www.w3schools.com/r/r_exercises.asp]R
+   [https://www.w3schools.com/r/r_exercises.asp]Exercise
+   [https://www.w3schools.com/r/r_quiz.asp]Quiz
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Kotlin
+   [https://www.w3schools.com/kotlin/kotlin_exercises.php]Exercise
+   [https://www.w3schools.com/kotlin/kotlin_quiz.php]Quiz
+   [https://www.w3schools.com/django/django_exercises.php]Django
+   [https://www.w3schools.com/django/django_exercises.php]Exercise
+   [https://www.w3schools.com/django/django_quiz.php]Quiz
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]PostgreS
+   QL
+   [https://www.w3schools.com/postgresql/postgresql_exercises.php]Exercise
+   [https://www.w3schools.com/postgresql/postgresql_quiz.php]Quiz
+   [https://www.w3schools.com/typescript/typescript_exercises.php]TypeScri
+   pt
+   [https://www.w3schools.com/typescript/typescript_exercises.php]Exercise
+   [https://www.w3schools.com/typescript/typescript_quiz.php]Quiz
+   [https://www.w3schools.com/git/git_exercises.asp]Git
+   [https://www.w3schools.com/git/git_exercises.asp]Exercise
+   [https://www.w3schools.com/git/git_quiz.asp]Quiz
+   [https://www.w3schools.com/go/go_exercises.php]Go
+   [https://www.w3schools.com/go/go_exercises.php]Exercise
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]MongoDB
+   [https://www.w3schools.com/mongodb/mongodb_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_exercises.php]AWS Cloud
+   [https://www.w3schools.com/aws/aws_exercises.php]Exercise
+   [https://www.w3schools.com/aws/aws_quiz.php]Quiz
+
+Data Analytics
+
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]NumPy
+   [https://www.w3schools.com/python/numpy/numpy_exercises.asp]Exercise
+   [https://www.w3schools.com/python/numpy/numpy_quiz.asp]Quiz
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Pandas
+   [https://www.w3schools.com/python/pandas/pandas_exercises.asp]Exercise
+   [https://www.w3schools.com/python/pandas/pandas_quiz.asp]Quiz
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]SciPy
+   [https://www.w3schools.com/python/scipy/scipy_exercises.php]Exercise
+   [https://www.w3schools.com/python/scipy/scipy_quiz.php]Quiz
+   [https://www.w3schools.com/excel/excel_exercises.php]Excel
+   [https://www.w3schools.com/excel/excel_exercises.php]Exercise
+   [https://www.w3schools.com/exercises/index.php]What is an Exercise?
+   [https://www.w3schools.com/quiztest/default.asp]What is a Quiz?
+
+   ×
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications]w3schools
+   CERTIFIED . 2023
+
+HTML and CSS
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/html-
+   course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/css-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Bootstrap
+   [https://campus.w3schools.com/collections/certifications/products/boots
+   trap-3-certificate]Certificate
+   [https://campus.w3schools.com/collections/single-courses/products/boots
+   trap-course]Course
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+JavaScript
+
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/javas
+   cript-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_js.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]React
+   [https://campus.w3schools.com/collections/certifications/products/react
+   -js-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/react
+   -js-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/jquer
+   y-course]Course
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Vue
+   [https://campus.w3schools.com/products/vue-js-certification-exam]Certif
+   icate
+
+Programs
+
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Full Access Best Value!
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/front
+   -end-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_frontend.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Web Dev.
+   [https://campus.w3schools.com/collections/certifications/products/moder
+   n-web-development-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-modern-web-development]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Web App
+   [https://campus.w3schools.com/collections/certifications/products/web-a
+   pplication-development-certificates]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   web-application-development-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Web Design
+   [https://campus.w3schools.com/collections/certifications/products/web-d
+   esign-certification]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   learn-web-design]Course
+
+Backend
+
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/pytho
+   n-course]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_python.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/sql-c
+   ourse]Course
+   [https://www.w3schools.com/bootcamp/bootcamp_sql.php]Bootcamp
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]MySQL
+   [https://campus.w3schools.com/collections/certifications/products/mysql
+   -certificate]Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/php-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/java-
+   course]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse-1]Course
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C#
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/c-cou
+   rse]Course
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]R
+   [https://campus.w3schools.com/collections/course-catalog/products/r-cou
+   rse]Course
+   [https://campus.w3schools.com/products/django-certification-exam]Django
+   [https://campus.w3schools.com/products/django-certification-exam]Certif
+   icate
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]TypeScript
+   [https://campus.w3schools.com/collections/certifications/products/types
+   cript-certificate]Certificate
+   [https://campus.w3schools.com/products/learn-typescript]Course
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]Certificate
+   [https://campus.w3schools.com/collections/course-catalog/products/xml-c
+   ourse]Course
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Cyber Security
+   [https://campus.w3schools.com/collections/certifications/products/cyber
+   -security-certificate]Certificate
+   [https://campus.w3schools.com/products/cyber-security-course]Course
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Accessibility
+   [https://campus.w3schools.com/collections/certifications/products/acces
+   sibility-certificate]Certificate
+   [https://campus.w3schools.com/products/accessibility-course]Course
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Python Apps on AWS
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   building-modern-python-apps-on-aws]Course
+   [https://www.w3schools.com/training/aws/home/]AWS Training
+   [https://www.w3schools.com/training/aws/home/]Courses
+
+Data Analytics
+
+   [https://campus.w3schools.com/products/data-analytics-program]Data
+   Analytics
+   [https://campus.w3schools.com/products/data-analytics-program]Course
+   [https://campus.w3schools.com/products/numpy-course]NumPy
+   [https://campus.w3schools.com/products/numpy-course]Course
+   [https://campus.w3schools.com/products/pandas-course]Pandas
+   [https://campus.w3schools.com/products/pandas-course]Course
+   [https://campus.w3schools.com/products/excel-certificate]Excel
+   [https://campus.w3schools.com/products/excel-certificate]Certificate
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Social Media
+   [https://campus.w3schools.com/collections/course-best-sellers/products/
+   social-media-marketing-course]Course
+   [https://campus.w3schools.com/]What is a Certificate?
+   [https://www.w3schools.com/bootcamp/index.php]What is a Bootcamp?
+
+   ×
+
+All Our Services
+
+   W3Schools offers a wide range of services and products for beginners
+   and professionals,
+   helping millions of people everyday to learn and master new skills.
+   [https://www.w3schools.com/tutorials/index.php]
+
+Free Tutorials
+
+   Enjoy our free tutorials like millions of other internet users since
+   1999
+   [https://www.w3schools.com/references/index.php]
+
+References
+
+   Explore our selection of references covering all popular coding
+   languages
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Website
+
+   Create your own website with W3Schools Spaces - no setup required
+   [https://www.w3schools.com/exercises/index.php]
+
+Exercises
+
+   Test your skills with different exercises
+   [https://www.w3schools.com/quiztest/default.asp]
+
+Quizzes
+
+   Test yourself with multiple choice questions
+   [https://campus.w3schools.com/collections/certifications]
+
+Get Certified
+
+   Document your knowledge.
+   [https://www.w3schools.com/signup/index.php]
+
+Log in / Sign Up
+
+   Create a free W3Schools Account to Improve Your Learning Experience
+   [https://www.w3schools.com/signup/index.php]
+
+My Learning
+
+   Track your learning progress at W3Schools and collect rewards
+   [https://www.w3schools.com/pro/index.php]
+
+Upgrade
+
+   Become a PRO user and unlock powerful features (ad-free, hosting,
+   videos,..)
+   [https://www.w3schools.com/where_to_start.asp]
+
+Where To Start
+
+   Not sure where you want to start? Follow our guided path
+   [https://www.w3schools.com/tryit/default.asp]
+
+Code Editor (Try it)
+
+   With our online code editor, you can edit code and view the result in
+   your browser
+   [https://www.w3schools.com/bootcamp/index.php]
+
+Bootcamps
+
+   Join one of our online bootcamps and learn from experienced instructors
+   [https://www.w3schools.com/w3css/w3css_templates.asp]
+
+Templates
+
+   We have created a bunch of responsive website templates you can use -
+   for free
+   [https://www.w3schools.com/howto/default.asp]
+
+How To's
+
+   Large collection of code snippets for HTML, CSS and JavaScript
+   [https://www.w3schools.com/videos/index.php]
+
+Videos
+
+   Learn the basics of HTML in a fun and engaging video tutorial
+   [https://www.w3schools.com/w3css/default.asp]
+
+CSS Framework
+
+   Build fast and responsive sites using our free W3.CSS framework
+   [https://www.w3schools.com/spaces/index.php]
+
+Web Hosting
+
+   Host your own website, and share it to the world with W3Schools Spaces
+   [https://www.w3schools.com/spaces/index.php]
+
+Create a Server
+
+   Create your own server using Python, PHP, React.js, Node.js, Java, C#,
+   etc.
+   [https://www.w3schools.com/browsers/default.asp]
+
+Browser Statistics
+
+   Read long term trends of browser usage
+   [https://www.w3schools.com/typingspeed/default.asp]
+
+Typing Speed
+
+   Test your typing speed
+   [https://www.w3schools.com/training/aws/home/]
+
+AWS Training
+
+   Learn Amazon Web Services
+   [https://www.w3schools.com/colors/colors_picker.asp]
+
+Color Picker
+
+   Use our color picker to find different RGB, HEX and HSL colors
+   colorpicker
+   [https://www.w3schools.com/codegame/index.html]
+
+Code Game
+
+   W3Schools Coding Game! Help the lynx collect pine cones Lynx logo
+   [https://campus.w3schools.com/pages/newsletter]
+
+Newsletter
+
+   Join our newsletter and get access to exclusive content every month
+   [https://discord.gg/6Z7UaRbUQM][https://www.linkedin.com/company/w3scho
+   ols.com/][https://www.instagram.com/w3schools.com_official/][https://ww
+   w.facebook.com/w3schoolscom/]
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-KTCFC3S
+
+   [javascript:void(0);][https://www.w3schools.com/default.asp][https://ww
+   w.w3schools.com/html/default.asp]HTML
+   [https://www.w3schools.com/css/default.asp]CSS
+   [https://www.w3schools.com/js/default.asp]JAVASCRIPT
+   [https://www.w3schools.com/sql/default.asp]SQL
+   [https://www.w3schools.com/python/default.asp]PYTHON
+   [https://www.w3schools.com/java/default.asp]JAVA
+   [https://www.w3schools.com/php/default.asp]PHP
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]BOOTSTRAP
+   [https://www.w3schools.com/howto/default.asp]HOW TO
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS
+   [https://www.w3schools.com/c/index.php]C
+   [https://www.w3schools.com/cpp/default.asp]C++
+   [https://www.w3schools.com/cs/index.php]C#
+   [https://www.w3schools.com/react/default.asp]REACT
+   [https://www.w3schools.com/r/default.asp]R
+   [https://www.w3schools.com/jquery/default.asp]JQUERY
+   [https://www.w3schools.com/django/index.php]DJANGO
+   [https://www.w3schools.com/typescript/index.php]TYPESCRIPT
+   [https://www.w3schools.com/nodejs/default.asp]NODEJS
+   [https://www.w3schools.com/mysql/default.asp]MYSQL
+   [javascript:void(0);] [javascript:void(0);] [javascript:void(0);]
+   [ ] Dark mode
+   [ ] Dark code
+
+PHP Tutorial
+
+   [https://www.w3schools.com/php/default.asp]PHP HOME
+   [https://www.w3schools.com/php/php_intro.asp]PHP Intro
+   [https://www.w3schools.com/php/php_install.asp]PHP Install
+   [https://www.w3schools.com/php/php_syntax.asp]PHP Syntax
+   [https://www.w3schools.com/php/php_comments.asp]PHP Comments
+   [https://www.w3schools.com/php/php_variables.asp]PHP Variables
+   [https://www.w3schools.com/php/php_variables.asp]Variables
+   [https://www.w3schools.com/php/php_variables_scope.asp]Variables Scope
+   [https://www.w3schools.com/php/php_echo_print.asp]PHP Echo / Print
+   [https://www.w3schools.com/php/php_datatypes.asp]PHP Data Types
+   [https://www.w3schools.com/php/php_string.asp]PHP Strings
+   [https://www.w3schools.com/php/php_numbers.asp]PHP Numbers
+   [https://www.w3schools.com/php/php_math.asp]PHP Math
+   [https://www.w3schools.com/php/php_constants.asp]PHP Constants
+   [https://www.w3schools.com/php/php_operators.asp]PHP Operators
+   [https://www.w3schools.com/php/php_if_else.asp]PHP If...Else...Elseif
+   [https://www.w3schools.com/php/php_switch.asp]PHP Switch
+   [https://www.w3schools.com/php/php_looping.asp]PHP Loops
+   [https://www.w3schools.com/php/php_looping.asp]Loops
+   [https://www.w3schools.com/php/php_looping_while.asp]While Loop
+   [https://www.w3schools.com/php/php_looping_do_while.asp]Do While Loop
+   [https://www.w3schools.com/php/php_looping_for.asp]For Loop
+   [https://www.w3schools.com/php/php_looping_foreach.asp]Foreach Loop
+   [https://www.w3schools.com/php/php_looping_break.asp]Break/Continue
+   [https://www.w3schools.com/php/php_functions.asp]PHP Functions
+   [https://www.w3schools.com/php/php_arrays.asp]PHP Arrays
+   [https://www.w3schools.com/php/php_arrays.asp]Arrays
+   [https://www.w3schools.com/php/php_arrays_indexed.asp]Indexed Arrays
+   [https://www.w3schools.com/php/php_arrays_associative.asp]Associative
+   Arrays
+   [https://www.w3schools.com/php/php_arrays_multidimensional.asp]Multidim
+   ensional Arrays
+   [https://www.w3schools.com/php/php_arrays_sort.asp]Sorting Arrays
+   [https://www.w3schools.com/php/php_superglobals.asp]PHP Superglobals
+   [https://www.w3schools.com/php/php_superglobals.asp]Superglobals
+   [https://www.w3schools.com/php/php_superglobals_globals.asp]$GLOBALS
+   [https://www.w3schools.com/php/php_superglobals_server.asp]$_SERVER
+   [https://www.w3schools.com/php/php_superglobals_request.asp]$_REQUEST
+   [https://www.w3schools.com/php/php_superglobals_post.asp]$_POST
+   [https://www.w3schools.com/php/php_superglobals_get.asp]$_GET
+   [https://www.w3schools.com/php/php_regex.asp]PHP RegEx
+
+PHP Forms
+
+   [https://www.w3schools.com/php/php_forms.asp]PHP Form Handling
+   [https://www.w3schools.com/php/php_form_validation.asp]PHP Form
+   Validation [https://www.w3schools.com/php/php_form_required.asp]PHP
+   Form Required [https://www.w3schools.com/php/php_form_url_email.asp]PHP
+   Form URL/E-mail
+   [https://www.w3schools.com/php/php_form_complete.asp]PHP Form Complete
+
+PHP Advanced
+
+   [https://www.w3schools.com/php/php_date.asp]PHP Date and Time
+   [https://www.w3schools.com/php/php_includes.asp]PHP Include
+   [https://www.w3schools.com/php/php_file.asp]PHP File Handling
+   [https://www.w3schools.com/php/php_file_open.asp]PHP File Open/Read
+   [https://www.w3schools.com/php/php_file_create.asp]PHP File
+   Create/Write [https://www.w3schools.com/php/php_file_upload.asp]PHP
+   File Upload [https://www.w3schools.com/php/php_cookies.asp]PHP Cookies
+   [https://www.w3schools.com/php/php_sessions.asp]PHP Sessions
+   [https://www.w3schools.com/php/php_filter.asp]PHP Filters
+   [https://www.w3schools.com/php/php_filter_advanced.asp]PHP Filters
+   Advanced [https://www.w3schools.com/php/php_callback_functions.asp]PHP
+   Callback Functions [https://www.w3schools.com/php/php_json.asp]PHP JSON
+   [https://www.w3schools.com/php/php_exceptions.asp]PHP Exceptions
+
+PHP OOP
+
+   [https://www.w3schools.com/php/php_oop_what_is.asp]PHP What is OOP
+   [https://www.w3schools.com/php/php_oop_classes_objects.asp]PHP
+   Classes/Objects
+   [https://www.w3schools.com/php/php_oop_constructor.asp]PHP Constructor
+   [https://www.w3schools.com/php/php_oop_destructor.asp]PHP Destructor
+   [https://www.w3schools.com/php/php_oop_access_modifiers.asp]PHP Access
+   Modifiers [https://www.w3schools.com/php/php_oop_inheritance.asp]PHP
+   Inheritance [https://www.w3schools.com/php/php_oop_constants.asp]PHP
+   Constants
+   [https://www.w3schools.com/php/php_oop_classes_abstract.asp]PHP
+   Abstract Classes
+   [https://www.w3schools.com/php/php_oop_interfaces.asp]PHP Interfaces
+   [https://www.w3schools.com/php/php_oop_traits.asp]PHP Traits
+   [https://www.w3schools.com/php/php_oop_static_methods.asp]PHP Static
+   Methods
+   [https://www.w3schools.com/php/php_oop_static_properties.asp]PHP Static
+   Properties [https://www.w3schools.com/php/php_namespaces.asp]PHP
+   Namespaces [https://www.w3schools.com/php/php_iterables.asp]PHP
+   Iterables
+
+MySQL Database
+
+   [https://www.w3schools.com/php/php_mysql_intro.asp]MySQL Database
+   [https://www.w3schools.com/php/php_mysql_connect.asp]MySQL Connect
+   [https://www.w3schools.com/php/php_mysql_create.asp]MySQL Create DB
+   [https://www.w3schools.com/php/php_mysql_create_table.asp]MySQL Create
+   Table [https://www.w3schools.com/php/php_mysql_insert.asp]MySQL Insert
+   Data [https://www.w3schools.com/php/php_mysql_insert_lastid.asp]MySQL
+   Get Last ID
+   [https://www.w3schools.com/php/php_mysql_insert_multiple.asp]MySQL
+   Insert Multiple
+   [https://www.w3schools.com/php/php_mysql_prepared_statements.asp]MySQL
+   Prepared [https://www.w3schools.com/php/php_mysql_select.asp]MySQL
+   Select Data
+   [https://www.w3schools.com/php/php_mysql_select_where.asp]MySQL Where
+   [https://www.w3schools.com/php/php_mysql_select_orderby.asp]MySQL Order
+   By [https://www.w3schools.com/php/php_mysql_delete.asp]MySQL Delete
+   Data [https://www.w3schools.com/php/php_mysql_update.asp]MySQL Update
+   Data [https://www.w3schools.com/php/php_mysql_select_limit.asp]MySQL
+   Limit Data
+
+PHP XML
+
+   [https://www.w3schools.com/php/php_xml_parsers.asp]PHP XML Parsers
+   [https://www.w3schools.com/php/php_xml_simplexml_read.asp]PHP SimpleXML
+   Parser [https://www.w3schools.com/php/php_xml_simplexml_get.asp]PHP
+   SimpleXML - Get
+   [https://www.w3schools.com/php/php_xml_parser_expat.asp]PHP XML Expat
+   [https://www.w3schools.com/php/php_xml_dom.asp]PHP XML DOM
+
+PHP - AJAX
+
+   [https://www.w3schools.com/php/php_ajax_intro.asp]AJAX Intro
+   [https://www.w3schools.com/php/php_ajax_php.asp]AJAX PHP
+   [https://www.w3schools.com/php/php_ajax_database.asp]AJAX Database
+   [https://www.w3schools.com/php/php_ajax_xml.asp]AJAX XML
+   [https://www.w3schools.com/php/php_ajax_livesearch.asp]AJAX Live Search
+   [https://www.w3schools.com/php/php_ajax_poll.asp]AJAX Poll
+
+PHP Examples
+
+   [https://www.w3schools.com/php/php_examples.asp]PHP Examples
+   [https://www.w3schools.com/php/php_compiler.asp]PHP Compiler
+   [https://www.w3schools.com/php/php_quiz.asp]PHP Quiz
+   [https://www.w3schools.com/php/php_exercises.asp]PHP Exercises
+   [https://www.w3schools.com/php/php_exam.asp]PHP Certificate
+
+PHP Reference
+
+   [https://www.w3schools.com/php/php_ref_overview.asp]PHP Overview
+   [https://www.w3schools.com/php/php_ref_array.asp]PHP Array
+   [https://www.w3schools.com/php/func_array.asp]array()
+   [https://www.w3schools.com/php/func_array_change_key_case.asp]array_cha
+   nge_key_case()
+   [https://www.w3schools.com/php/func_array_chunk.asp]array_chunk()
+   [https://www.w3schools.com/php/func_array_column.asp]array_column()
+   [https://www.w3schools.com/php/func_array_combine.asp]array_combine()
+   [https://www.w3schools.com/php/func_array_count_values.asp]array_count_
+   values()
+   [https://www.w3schools.com/php/func_array_diff.asp]array_diff()
+   [https://www.w3schools.com/php/func_array_diff_assoc.asp]array_diff_ass
+   oc()
+   [https://www.w3schools.com/php/func_array_diff_key.asp]array_diff_key()
+   [https://www.w3schools.com/php/func_array_diff_uassoc.asp]array_diff_ua
+   ssoc()
+   [https://www.w3schools.com/php/func_array_diff_ukey.asp]array_diff_ukey
+   () [https://www.w3schools.com/php/func_array_fill.asp]array_fill()
+   [https://www.w3schools.com/php/func_array_fill_keys.asp]array_fill_keys
+   () [https://www.w3schools.com/php/func_array_filter.asp]array_filter()
+   [https://www.w3schools.com/php/func_array_flip.asp]array_flip()
+   [https://www.w3schools.com/php/func_array_intersect.asp]array_intersect
+   ()
+   [https://www.w3schools.com/php/func_array_intersect_assoc.asp]array_int
+   ersect_assoc()
+   [https://www.w3schools.com/php/func_array_intersect_key.asp]array_inter
+   sect_key()
+   [https://www.w3schools.com/php/func_array_intersect_uassoc.asp]array_in
+   tersect_uassoc()
+   [https://www.w3schools.com/php/func_array_intersect_ukey.asp]array_inte
+   rsect_ukey()
+   [https://www.w3schools.com/php/func_array_key_exists.asp]array_key_exis
+   ts() [https://www.w3schools.com/php/func_array_keys.asp]array_keys()
+   [https://www.w3schools.com/php/func_array_map.asp]array_map()
+   [https://www.w3schools.com/php/func_array_merge.asp]array_merge()
+   [https://www.w3schools.com/php/func_array_merge_recursive.asp]array_mer
+   ge_recursive()
+   [https://www.w3schools.com/php/func_array_multisort.asp]array_multisort
+   () [https://www.w3schools.com/php/func_array_pad.asp]array_pad()
+   [https://www.w3schools.com/php/func_array_pop.asp]array_pop()
+   [https://www.w3schools.com/php/func_array_product.asp]array_product()
+   [https://www.w3schools.com/php/func_array_push.asp]array_push()
+   [https://www.w3schools.com/php/func_array_rand.asp]array_rand()
+   [https://www.w3schools.com/php/func_array_reduce.asp]array_reduce()
+   [https://www.w3schools.com/php/func_array_replace.asp]array_replace()
+   [https://www.w3schools.com/php/func_array_replace_recursive.asp]array_r
+   eplace_recursive()
+   [https://www.w3schools.com/php/func_array_reverse.asp]array_reverse()
+   [https://www.w3schools.com/php/func_array_search.asp]array_search()
+   [https://www.w3schools.com/php/func_array_shift.asp]array_shift()
+   [https://www.w3schools.com/php/func_array_slice.asp]array_slice()
+   [https://www.w3schools.com/php/func_array_splice.asp]array_splice()
+   [https://www.w3schools.com/php/func_array_sum.asp]array_sum()
+   [https://www.w3schools.com/php/func_array_udiff.asp]array_udiff()
+   [https://www.w3schools.com/php/func_array_udiff_assoc.asp]array_udiff_a
+   ssoc()
+   [https://www.w3schools.com/php/func_array_udiff_uassoc.asp]array_udiff_
+   uassoc()
+   [https://www.w3schools.com/php/func_array_uintersect.asp]array_uinterse
+   ct()
+   [https://www.w3schools.com/php/func_array_uintersect_assoc.asp]array_ui
+   ntersect_assoc()
+   [https://www.w3schools.com/php/func_array_uintersect_uassoc.asp]array_u
+   intersect_uassoc()
+   [https://www.w3schools.com/php/func_array_unique.asp]array_unique()
+   [https://www.w3schools.com/php/func_array_unshift.asp]array_unshift()
+   [https://www.w3schools.com/php/func_array_values.asp]array_values()
+   [https://www.w3schools.com/php/func_array_walk.asp]array_walk()
+   [https://www.w3schools.com/php/func_array_walk_recursive.asp]array_walk
+   _recursive()
+   [https://www.w3schools.com/php/func_array_arsort.asp]arsort()
+   [https://www.w3schools.com/php/func_array_asort.asp]asort()
+   [https://www.w3schools.com/php/func_array_compact.asp]compact()
+   [https://www.w3schools.com/php/func_array_count.asp]count()
+   [https://www.w3schools.com/php/func_array_current.asp]current()
+   [https://www.w3schools.com/php/func_array_each.asp]each()
+   [https://www.w3schools.com/php/func_array_end.asp]end()
+   [https://www.w3schools.com/php/func_array_extract.asp]extract()
+   [https://www.w3schools.com/php/func_array_in_array.asp]in_array()
+   [https://www.w3schools.com/php/func_array_key.asp]key()
+   [https://www.w3schools.com/php/func_array_krsort.asp]krsort()
+   [https://www.w3schools.com/php/func_array_ksort.asp]ksort()
+   [https://www.w3schools.com/php/func_array_list.asp]list()
+   [https://www.w3schools.com/php/func_array_natcasesort.asp]natcasesort()
+   [https://www.w3schools.com/php/func_array_natsort.asp]natsort()
+   [https://www.w3schools.com/php/func_array_next.asp]next()
+   [https://www.w3schools.com/php/func_array_pos.asp]pos()
+   [https://www.w3schools.com/php/func_array_prev.asp]prev()
+   [https://www.w3schools.com/php/func_array_range.asp]range()
+   [https://www.w3schools.com/php/func_array_reset.asp]reset()
+   [https://www.w3schools.com/php/func_array_rsort.asp]rsort()
+   [https://www.w3schools.com/php/func_array_shuffle.asp]shuffle()
+   [https://www.w3schools.com/php/func_array_sizeof.asp]sizeof()
+   [https://www.w3schools.com/php/func_array_sort.asp]sort()
+   [https://www.w3schools.com/php/func_array_uasort.asp]uasort()
+   [https://www.w3schools.com/php/func_array_uksort.asp]uksort()
+   [https://www.w3schools.com/php/func_array_usort.asp]usort()
+   [https://www.w3schools.com/php/php_ref_calendar.asp]PHP Calendar
+   [https://www.w3schools.com/php/func_cal_cal_days_in_month.asp]cal_days_
+   in_month()
+   [https://www.w3schools.com/php/func_cal_cal_from_jd.asp]cal_from_jd()
+   [https://www.w3schools.com/php/func_cal_cal_info.asp]cal_info()
+   [https://www.w3schools.com/php/func_cal_cal_to_jd.asp]cal_to_jd()
+   [https://www.w3schools.com/php/func_cal_easter_date.asp]easter_date()
+   [https://www.w3schools.com/php/func_cal_easter_days.asp]easter_days()
+   [https://www.w3schools.com/php/func_cal_frenchtojd.asp]frenchtojd()
+   [https://www.w3schools.com/php/func_cal_gregoriantojd.asp]gregoriantojd
+   ()
+   [https://www.w3schools.com/php/func_cal_jddayofweek.asp]jddayofweek()
+   [https://www.w3schools.com/php/func_cal_jdmonthname.asp]jdmonthname()
+   [https://www.w3schools.com/php/func_cal_jdtofrench.asp]jdtofrench()
+   [https://www.w3schools.com/php/func_cal_jdtogregorian.asp]jdtogregorian
+   () [https://www.w3schools.com/php/func_cal_jdtojewish.asp]jdtojewish()
+   [https://www.w3schools.com/php/func_cal_jdtojulian.asp]jdtojulian()
+   [https://www.w3schools.com/php/func_cal_jdtounix.asp]jdtounix()
+   [https://www.w3schools.com/php/func_cal_jewishtojd.asp]jewishtojd()
+   [https://www.w3schools.com/php/func_cal_juliantojd.asp]juliantojd()
+   [https://www.w3schools.com/php/func_cal_unixtojd.asp]unixtojd()
+   [https://www.w3schools.com/php/php_ref_date.asp]PHP Date
+   [https://www.w3schools.com/php/func_date_checkdate.asp]checkdate()
+   [https://www.w3schools.com/php/func_date_date_add.asp]date_add()
+   [https://www.w3schools.com/php/func_date_create_from_format.asp]date_cr
+   eate_from_format()
+   [https://www.w3schools.com/php/func_date_date_create.asp]date_create()
+   [https://www.w3schools.com/php/func_date_date_set.asp]date_date_set()
+   [https://www.w3schools.com/php/func_date_default_timezone_get.asp]date_
+   default_timezone_get()
+   [https://www.w3schools.com/php/func_date_default_timezone_set.asp]date_
+   default_timezone_set()
+   [https://www.w3schools.com/php/func_date_date_diff.asp]date_diff()
+   [https://www.w3schools.com/php/func_date_date_format.asp]date_format()
+   [https://www.w3schools.com/php/func_date_get_last_errors.asp]date_get_l
+   ast_errors()
+   [https://www.w3schools.com/php/func_date_interval_create_from_date_stri
+   ng.asp]date_interval_create_from_date_string()
+   [https://www.w3schools.com/php/func_date_interval_format.asp]date_inter
+   val_format()
+   [https://www.w3schools.com/php/func_date_isodate_set.asp]date_isodate_s
+   et() [https://www.w3schools.com/php/func_date_modify.asp]date_modify()
+   [https://www.w3schools.com/php/func_date_offset_get.asp]date_offset_get
+   ()
+   [https://www.w3schools.com/php/func_date_parse_from_format.asp]date_par
+   se_from_format()
+   [https://www.w3schools.com/php/func_date_date_parse.asp]date_parse()
+   [https://www.w3schools.com/php/func_date_date_sub.asp]date_sub()
+   [https://www.w3schools.com/php/func_date_sun_info.asp]date_sun_info()
+   [https://www.w3schools.com/php/func_date_sunrise.asp]date_sunrise()
+   [https://www.w3schools.com/php/func_date_sunset.asp]date_sunset()
+   [https://www.w3schools.com/php/func_date_time_set.asp]date_time_set()
+   [https://www.w3schools.com/php/func_date_timestamp_get.asp]date_timesta
+   mp_get()
+   [https://www.w3schools.com/php/func_date_timestamp_set.asp]date_timesta
+   mp_set()
+   [https://www.w3schools.com/php/func_date_timezone_get.asp]date_timezone
+   _get()
+   [https://www.w3schools.com/php/func_date_timezone_set.asp]date_timezone
+   _set() [https://www.w3schools.com/php/func_date_date.asp]date()
+   [https://www.w3schools.com/php/func_date_getdate.asp]getdate()
+   [https://www.w3schools.com/php/func_date_gettimeofday.asp]gettimeofday(
+   ) [https://www.w3schools.com/php/func_date_gmdate.asp]gmdate()
+   [https://www.w3schools.com/php/func_date_gmmktime.asp]gmmktime()
+   [https://www.w3schools.com/php/func_date_gmstrftime.asp]gmstrftime()
+   [https://www.w3schools.com/php/func_date_idate.asp]idate()
+   [https://www.w3schools.com/php/func_date_localtime.asp]localtime()
+   [https://www.w3schools.com/php/func_date_microtime.asp]microtime()
+   [https://www.w3schools.com/php/func_date_mktime.asp]mktime()
+   [https://www.w3schools.com/php/func_date_strftime.asp]strftime()
+   [https://www.w3schools.com/php/func_date_strptime.asp]strptime()
+   [https://www.w3schools.com/php/func_date_strtotime.asp]strtotime()
+   [https://www.w3schools.com/php/func_date_time.asp]time()
+   [https://www.w3schools.com/php/func_date_timezone_abbreviations_list.as
+   p]timezone_abbreviations_list()
+   [https://www.w3schools.com/php/func_date_timezone_identifiers_list.asp]
+   timezone_identifiers_list()
+   [https://www.w3schools.com/php/func_date_timezone_location_get.asp]time
+   zone_location_get()
+   [https://www.w3schools.com/php/func_date_timezone_name_from_abbr.asp]ti
+   mezone_name_from_abbr()
+   [https://www.w3schools.com/php/func_date_timezone_name_get.asp]timezone
+   _name_get()
+   [https://www.w3schools.com/php/func_date_timezone_offset_get.asp]timezo
+   ne_offset_get()
+   [https://www.w3schools.com/php/func_date_timezone_open.asp]timezone_ope
+   n()
+   [https://www.w3schools.com/php/func_date_timezone_transitions_get.asp]t
+   imezone_transitions_get()
+   [https://www.w3schools.com/php/func_date_timezone_version_get.asp]timez
+   one_version_get()
+   [https://www.w3schools.com/php/php_ref_directory.asp]PHP Directory
+   [https://www.w3schools.com/php/func_directory_chdir.asp]chdir()
+   [https://www.w3schools.com/php/func_directory_chroot.asp]chroot()
+   [https://www.w3schools.com/php/func_directory_closedir.asp]closedir()
+   [https://www.w3schools.com/php/func_directory_dir.asp]dir()
+   [https://www.w3schools.com/php/func_directory_getcwd.asp]getcwd()
+   [https://www.w3schools.com/php/func_directory_opendir.asp]opendir()
+   [https://www.w3schools.com/php/func_directory_readdir.asp]readdir()
+   [https://www.w3schools.com/php/func_directory_rewinddir.asp]rewinddir()
+   [https://www.w3schools.com/php/func_directory_scandir.asp]scandir()
+   [https://www.w3schools.com/php/php_ref_error.asp]PHP Error
+   [https://www.w3schools.com/php/func_error_debug_backtrace.asp]debug_bac
+   ktrace()
+   [https://www.w3schools.com/php/func_error_debug_print_backtrace.asp]deb
+   ug_print_backtrace()
+   [https://www.w3schools.com/php/func_error_get_last.asp]error_get_last()
+   [https://www.w3schools.com/php/func_error_log.asp]error_log()
+   [https://www.w3schools.com/php/func_error_reporting.asp]error_reporting
+   ()
+   [https://www.w3schools.com/php/func_error_restore_error_handler.asp]res
+   tore_error_handler()
+   [https://www.w3schools.com/php/func_error_restore_exception_handler.asp
+   ]restore_exception_handler()
+   [https://www.w3schools.com/php/func_error_set_error_handler.asp]set_err
+   or_handler()
+   [https://www.w3schools.com/php/func_error_set_exception_handler.asp]set
+   _exception_handler()
+   [https://www.w3schools.com/php/func_error_trigger_error.asp]trigger_err
+   or()
+   [https://www.w3schools.com/php/php_ref_exception.asp]PHP Exception
+   [https://www.w3schools.com/php/ref_exception_obj.asp]Exception()
+   [https://www.w3schools.com/php/ref_exception_getcode.asp]getCode()
+   [https://www.w3schools.com/php/ref_exception_getfile.asp]getFile()
+   [https://www.w3schools.com/php/ref_exception_getmessage.asp]getMessage(
+   ) [https://www.w3schools.com/php/ref_exception_getline.asp]getLine()
+   [https://www.w3schools.com/php/ref_exception_getprevious.asp]getPreviou
+   s()
+   [https://www.w3schools.com/php/ref_exception_gettrace.asp]getTrace()
+   [https://www.w3schools.com/php/ref_exception_gettraceasstring.asp]getTr
+   aceAsString()
+   [https://www.w3schools.com/php/php_ref_filesystem.asp]PHP Filesystem
+   [https://www.w3schools.com/php/func_filesystem_basename.asp]basename()
+   [https://www.w3schools.com/php/func_filesystem_chgrp.asp]chgrp()
+   [https://www.w3schools.com/php/func_filesystem_chmod.asp]chmod()
+   [https://www.w3schools.com/php/func_filesystem_chown.asp]chown()
+   [https://www.w3schools.com/php/func_filesystem_clearstatcache.asp]clear
+   statcache()
+   [https://www.w3schools.com/php/func_filesystem_copy.asp]copy()
+   [https://www.w3schools.com/php/func_filesystem_delete.asp]delete()
+   [https://www.w3schools.com/php/func_filesystem_dirname.asp]dirname()
+   [https://www.w3schools.com/php/func_filesystem_disk_free_space.asp]disk
+   _free_space()
+   [https://www.w3schools.com/php/func_filesystem_disk_total_space.asp]dis
+   k_total_space()
+   [https://www.w3schools.com/php/func_filesystem_diskfreespace.asp]diskfr
+   eespace()
+   [https://www.w3schools.com/php/func_filesystem_fclose.asp]fclose()
+   [https://www.w3schools.com/php/func_filesystem_feof.asp]feof()
+   [https://www.w3schools.com/php/func_filesystem_fflush.asp]fflush()
+   [https://www.w3schools.com/php/func_filesystem_fgetc.asp]fgetc()
+   [https://www.w3schools.com/php/func_filesystem_fgetcsv.asp]fgetcsv()
+   [https://www.w3schools.com/php/func_filesystem_fgets.asp]fgets()
+   [https://www.w3schools.com/php/func_filesystem_fgetss.asp]fgetss()
+   [https://www.w3schools.com/php/func_filesystem_file.asp]file()
+   [https://www.w3schools.com/php/func_filesystem_file_exists.asp]file_exi
+   sts()
+   [https://www.w3schools.com/php/func_filesystem_file_get_contents.asp]fi
+   le_get_contents()
+   [https://www.w3schools.com/php/func_filesystem_file_put_contents.asp]fi
+   le_put_contents()
+   [https://www.w3schools.com/php/func_filesystem_fileatime.asp]fileatime(
+   )
+   [https://www.w3schools.com/php/func_filesystem_filectime.asp]filectime(
+   )
+   [https://www.w3schools.com/php/func_filesystem_filegroup.asp]filegroup(
+   )
+   [https://www.w3schools.com/php/func_filesystem_fileinode.asp]fileinode(
+   )
+   [https://www.w3schools.com/php/func_filesystem_filemtime.asp]filemtime(
+   )
+   [https://www.w3schools.com/php/func_filesystem_fileowner.asp]fileowner(
+   )
+   [https://www.w3schools.com/php/func_filesystem_fileperms.asp]fileperms(
+   )
+   [https://www.w3schools.com/php/func_filesystem_filesize.asp]filesize()
+   [https://www.w3schools.com/php/func_filesystem_filetype.asp]filetype()
+   [https://www.w3schools.com/php/func_filesystem_flock.asp]flock()
+   [https://www.w3schools.com/php/func_filesystem_fnmatch.asp]fnmatch()
+   [https://www.w3schools.com/php/func_filesystem_fopen.asp]fopen()
+   [https://www.w3schools.com/php/func_filesystem_fpassthru.asp]fpassthru(
+   ) [https://www.w3schools.com/php/func_filesystem_fputcsv.asp]fputcsv()
+   [https://www.w3schools.com/php/func_filesystem_fputs.asp]fputs()
+   [https://www.w3schools.com/php/func_filesystem_fread.asp]fread()
+   [https://www.w3schools.com/php/func_filesystem_fscanf.asp]fscanf()
+   [https://www.w3schools.com/php/func_filesystem_fseek.asp]fseek()
+   [https://www.w3schools.com/php/func_filesystem_fstat.asp]fstat()
+   [https://www.w3schools.com/php/func_filesystem_ftell.asp]ftell()
+   [https://www.w3schools.com/php/func_filesystem_ftruncate.asp]ftruncate(
+   ) [https://www.w3schools.com/php/func_filesystem_fwrite.asp]fwrite()
+   [https://www.w3schools.com/php/func_filesystem_glob.asp]glob()
+   [https://www.w3schools.com/php/func_filesystem_is_dir.asp]is_dir()
+   [https://www.w3schools.com/php/func_filesystem_is_executable.asp]is_exe
+   cutable()
+   [https://www.w3schools.com/php/func_filesystem_is_file.asp]is_file()
+   [https://www.w3schools.com/php/func_filesystem_is_link.asp]is_link()
+   [https://www.w3schools.com/php/func_filesystem_is_readable.asp]is_reada
+   ble()
+   [https://www.w3schools.com/php/func_filesystem_is_uploaded_file.asp]is_
+   uploaded_file()
+   [https://www.w3schools.com/php/func_filesystem_is_writable.asp]is_writa
+   ble()
+   [https://www.w3schools.com/php/func_filesystem_is_writeable.asp]is_writ
+   eable()
+   [https://www.w3schools.com/php/func_filesystem_lchgrp.asp]lchgrp()
+   [https://www.w3schools.com/php/func_filesystem_lchown.asp]lchown()
+   [https://www.w3schools.com/php/func_filesystem_link.asp]link()
+   [https://www.w3schools.com/php/func_filesystem_linkinfo.asp]linkinfo()
+   [https://www.w3schools.com/php/func_filesystem_lstat.asp]lstat()
+   [https://www.w3schools.com/php/func_filesystem_mkdir.asp]mkdir()
+   [https://www.w3schools.com/php/func_filesystem_move_uploaded_file.asp]m
+   ove_uploaded_file()
+   [https://www.w3schools.com/php/func_filesystem_parse_ini_file.asp]parse
+   _ini_file()
+   [https://www.w3schools.com/php/func_filesystem_parse_ini_string.asp]par
+   se_ini_string()
+   [https://www.w3schools.com/php/func_filesystem_pathinfo.asp]pathinfo()
+   [https://www.w3schools.com/php/func_filesystem_pclose.asp]pclose()
+   [https://www.w3schools.com/php/func_filesystem_popen.asp]popen()
+   [https://www.w3schools.com/php/func_filesystem_readfile.asp]readfile()
+   [https://www.w3schools.com/php/func_filesystem_readlink.asp]readlink()
+   [https://www.w3schools.com/php/func_filesystem_realpath.asp]realpath()
+   [https://www.w3schools.com/php/func_filesystem_realpath_cache_get.asp]r
+   ealpath_cache_get()
+   [https://www.w3schools.com/php/func_filesystem_realpath_cache_size.asp]
+   realpath_cache_size()
+   [https://www.w3schools.com/php/func_filesystem_rename.asp]rename()
+   [https://www.w3schools.com/php/func_filesystem_rewind.asp]rewind()
+   [https://www.w3schools.com/php/func_filesystem_rmdir.asp]rmdir()
+   [https://www.w3schools.com/php/func_filesystem_set_file_buffer.asp]set_
+   file_buffer()
+   [https://www.w3schools.com/php/func_filesystem_stat.asp]stat()
+   [https://www.w3schools.com/php/func_filesystem_symlink.asp]symlink()
+   [https://www.w3schools.com/php/func_filesystem_tempnam.asp]tempnam()
+   [https://www.w3schools.com/php/func_filesystem_tmpfile.asp]tmpfile()
+   [https://www.w3schools.com/php/func_filesystem_touch.asp]touch()
+   [https://www.w3schools.com/php/func_filesystem_umask.asp]umask()
+   [https://www.w3schools.com/php/func_filesystem_unlink.asp]unlink()
+   [https://www.w3schools.com/php/php_ref_filter.asp]PHP Filter
+   [https://www.w3schools.com/php/func_filter_has_var.asp]filter_has_var()
+   [https://www.w3schools.com/php/func_filter_id.asp]filter_id()
+   [https://www.w3schools.com/php/func_filter_input.asp]filter_input()
+   [https://www.w3schools.com/php/func_filter_input_array.asp]filter_input
+   _array()
+   [https://www.w3schools.com/php/func_filter_list.asp]filter_list()
+   [https://www.w3schools.com/php/func_filter_var.asp]filter_var()
+   [https://www.w3schools.com/php/func_filter_var_array.asp]filter_var_arr
+   ay()
+   [https://www.w3schools.com/php/php_ref_ftp.asp]PHP FTP
+   [https://www.w3schools.com/php/func_ftp_alloc.asp]ftp_alloc()
+   [https://www.w3schools.com/php/func_ftp_cdup.asp]ftp_cdup()
+   [https://www.w3schools.com/php/func_ftp_chdir.asp]ftp_chdir()
+   [https://www.w3schools.com/php/func_ftp_chmod.asp]ftp_chmod()
+   [https://www.w3schools.com/php/func_ftp_close.asp]ftp_close()
+   [https://www.w3schools.com/php/func_ftp_connect.asp]ftp_connect()
+   [https://www.w3schools.com/php/func_ftp_delete.asp]ftp_delete()
+   [https://www.w3schools.com/php/func_ftp_exec.asp]ftp_exec()
+   [https://www.w3schools.com/php/func_ftp_fget.asp]ftp_fget()
+   [https://www.w3schools.com/php/func_ftp_fput.asp]ftp_fput()
+   [https://www.w3schools.com/php/func_ftp_get.asp]ftp_get()
+   [https://www.w3schools.com/php/func_ftp_get_option.asp]ftp_get_option()
+   [https://www.w3schools.com/php/func_ftp_login.asp]ftp_login()
+   [https://www.w3schools.com/php/func_ftp_mdtm.asp]ftp_mdtm()
+   [https://www.w3schools.com/php/func_ftp_mkdir.asp]ftp_mkdir()
+   [https://www.w3schools.com/php/func_ftp_mlsd.asp]ftp_mlsd()
+   [https://www.w3schools.com/php/func_ftp_nb_continue.asp]ftp_nb_continue
+   () [https://www.w3schools.com/php/func_ftp_nb_fget.asp]ftp_nb_fget()
+   [https://www.w3schools.com/php/func_ftp_nb_fput.asp]ftp_nb_fput()
+   [https://www.w3schools.com/php/func_ftp_nb_get.asp]ftp_nb_get()
+   [https://www.w3schools.com/php/func_ftp_nb_put.asp]ftp_nb_put()
+   [https://www.w3schools.com/php/func_ftp_nlist.asp]ftp_nlist()
+   [https://www.w3schools.com/php/func_ftp_pasv.asp]ftp_pasv()
+   [https://www.w3schools.com/php/func_ftp_put.asp]ftp_put()
+   [https://www.w3schools.com/php/func_ftp_pwd.asp]ftp_pwd()
+   [https://www.w3schools.com/php/func_ftp_quit.asp]ftp_quit()
+   [https://www.w3schools.com/php/func_ftp_raw.asp]ftp_raw()
+   [https://www.w3schools.com/php/func_ftp_rawlist.asp]ftp_rawlist()
+   [https://www.w3schools.com/php/func_ftp_rename.asp]ftp_rename()
+   [https://www.w3schools.com/php/func_ftp_rmdir.asp]ftp_rmdir()
+   [https://www.w3schools.com/php/func_ftp_set_option.asp]ftp_set_option()
+   [https://www.w3schools.com/php/func_ftp_site.asp]ftp_site()
+   [https://www.w3schools.com/php/func_ftp_size.asp]ftp_size()
+   [https://www.w3schools.com/php/func_ftp_ssl_connect.asp]ftp_ssl_connect
+   () [https://www.w3schools.com/php/func_ftp_systype.asp]ftp_systype()
+   [https://www.w3schools.com/php/php_ref_json.asp]PHP JSON
+   [https://www.w3schools.com/php/func_json_decode.asp]json_decode()
+   [https://www.w3schools.com/php/func_json_encode.asp]json_encode()
+   [https://www.w3schools.com/php/php_ref_keywords.asp]PHP Keywords
+   [https://www.w3schools.com/php/keyword_abstract.asp]abstract
+   [https://www.w3schools.com/php/keyword_and.asp]and
+   [https://www.w3schools.com/php/keyword_as.asp]as
+   [https://www.w3schools.com/php/keyword_break.asp]break
+   [https://www.w3schools.com/php/keyword_callable.asp]callable
+   [https://www.w3schools.com/php/keyword_case.asp]case
+   [https://www.w3schools.com/php/keyword_catch.asp]catch
+   [https://www.w3schools.com/php/keyword_class.asp]class
+   [https://www.w3schools.com/php/keyword_clone.asp]clone
+   [https://www.w3schools.com/php/keyword_const.asp]const
+   [https://www.w3schools.com/php/keyword_continue.asp]continue
+   [https://www.w3schools.com/php/keyword_declare.asp]declare
+   [https://www.w3schools.com/php/keyword_default.asp]default
+   [https://www.w3schools.com/php/keyword_do.asp]do
+   [https://www.w3schools.com/php/keyword_echo.asp]echo
+   [https://www.w3schools.com/php/keyword_else.asp]else
+   [https://www.w3schools.com/php/keyword_elseif.asp]elseif
+   [https://www.w3schools.com/php/keyword_empty.asp]empty
+   [https://www.w3schools.com/php/keyword_enddeclare.asp]enddeclare
+   [https://www.w3schools.com/php/keyword_endfor.asp]endfor
+   [https://www.w3schools.com/php/keyword_endforeach.asp]endforeach
+   [https://www.w3schools.com/php/keyword_endif.asp]endif
+   [https://www.w3schools.com/php/keyword_endswitch.asp]endswitch
+   [https://www.w3schools.com/php/keyword_extends.asp]extends
+   [https://www.w3schools.com/php/keyword_final.asp]final
+   [https://www.w3schools.com/php/keyword_finally.asp]finally
+   [https://www.w3schools.com/php/keyword_fn.asp]fn
+   [https://www.w3schools.com/php/keyword_for.asp]for
+   [https://www.w3schools.com/php/keyword_foreach.asp]foreach
+   [https://www.w3schools.com/php/keyword_function.asp]function
+   [https://www.w3schools.com/php/keyword_global.asp]global
+   [https://www.w3schools.com/php/keyword_if.asp]if
+   [https://www.w3schools.com/php/keyword_implements.asp]implements
+   [https://www.w3schools.com/php/keyword_include.asp]include
+   [https://www.w3schools.com/php/keyword_include_once.asp]include_once
+   [https://www.w3schools.com/php/keyword_instanceof.asp]instanceof
+   [https://www.w3schools.com/php/keyword_insteadof.asp]insteadof
+   [https://www.w3schools.com/php/keyword_interface.asp]interface
+   [https://www.w3schools.com/php/keyword_isset.asp]isset
+   [https://www.w3schools.com/php/keyword_list.asp]list
+   [https://www.w3schools.com/php/keyword_namespace.asp]namespace
+   [https://www.w3schools.com/php/keyword_new.asp]new
+   [https://www.w3schools.com/php/keyword_or.asp]or
+   [https://www.w3schools.com/php/keyword_print.asp]print
+   [https://www.w3schools.com/php/keyword_private.asp]private
+   [https://www.w3schools.com/php/keyword_protected.asp]protected
+   [https://www.w3schools.com/php/keyword_public.asp]public
+   [https://www.w3schools.com/php/keyword_require.asp]require
+   [https://www.w3schools.com/php/keyword_require_once.asp]require_once
+   [https://www.w3schools.com/php/keyword_return.asp]return
+   [https://www.w3schools.com/php/keyword_static.asp]static
+   [https://www.w3schools.com/php/keyword_switch.asp]switch
+   [https://www.w3schools.com/php/keyword_throw.asp]throw
+   [https://www.w3schools.com/php/keyword_trait.asp]trait
+   [https://www.w3schools.com/php/keyword_try.asp]try
+   [https://www.w3schools.com/php/keyword_use.asp]use
+   [https://www.w3schools.com/php/keyword_var.asp]var
+   [https://www.w3schools.com/php/keyword_while.asp]while
+   [https://www.w3schools.com/php/keyword_xor.asp]xor
+   [https://www.w3schools.com/php/keyword_yield.asp]yield
+   [https://www.w3schools.com/php/keyword_yield_from.asp]yield from
+   [https://www.w3schools.com/php/php_ref_libxml.asp]PHP Libxml
+   [https://www.w3schools.com/php/func_libxml_clear_errors.asp]libxml_clea
+   r_errors()
+   [https://www.w3schools.com/php/func_libxml_disable_entity_loader.asp]li
+   bxml_disable_entity_loader()
+   [https://www.w3schools.com/php/func_libxml_get_errors.asp]libxml_get_er
+   rors()
+   [https://www.w3schools.com/php/func_libxml_get_last_error.asp]libxml_ge
+   t_last_error()
+   [https://www.w3schools.com/php/func_libxml_set_external_entity_loader.a
+   sp]libxml_set_external_entity_loader()
+   [https://www.w3schools.com/php/func_libxml_set_streams_context.asp]libx
+   ml_set_streams_context()
+   [https://www.w3schools.com/php/func_libxml_use_internal_errors.asp]libx
+   ml_use_internal_errors()
+   [https://www.w3schools.com/php/php_ref_mail.asp]PHP Mail
+   [https://www.w3schools.com/php/func_mail_ezmlm_hash.asp]ezmlm_hash()
+   [https://www.w3schools.com/php/func_mail_mail.asp]mail()
+   [https://www.w3schools.com/php/php_ref_math.asp]PHP Math
+   [https://www.w3schools.com/php/func_math_abs.asp]abs()
+   [https://www.w3schools.com/php/func_math_acos.asp]acos()
+   [https://www.w3schools.com/php/func_math_acosh.asp]acosh()
+   [https://www.w3schools.com/php/func_math_asin.asp]asin()
+   [https://www.w3schools.com/php/func_math_asinh.asp]asinh()
+   [https://www.w3schools.com/php/func_math_atan.asp]atan()
+   [https://www.w3schools.com/php/func_math_atan2.asp]atan2()
+   [https://www.w3schools.com/php/func_math_atanh.asp]atanh()
+   [https://www.w3schools.com/php/func_math_base_convert.asp]base_convert(
+   ) [https://www.w3schools.com/php/func_math_bindec.asp]bindec()
+   [https://www.w3schools.com/php/func_math_ceil.asp]ceil()
+   [https://www.w3schools.com/php/func_math_cos.asp]cos()
+   [https://www.w3schools.com/php/func_math_cosh.asp]cosh()
+   [https://www.w3schools.com/php/func_math_decbin.asp]decbin()
+   [https://www.w3schools.com/php/func_math_dechex.asp]dechex()
+   [https://www.w3schools.com/php/func_math_decoct.asp]decoct()
+   [https://www.w3schools.com/php/func_math_deg2rad.asp]deg2rad()
+   [https://www.w3schools.com/php/func_math_exp.asp]exp()
+   [https://www.w3schools.com/php/func_math_expm1.asp]expm1()
+   [https://www.w3schools.com/php/func_math_floor.asp]floor()
+   [https://www.w3schools.com/php/func_math_fmod.asp]fmod()
+   [https://www.w3schools.com/php/func_math_getrandmax.asp]getrandmax()
+   [https://www.w3schools.com/php/func_math_hexdec.asp]hexdec()
+   [https://www.w3schools.com/php/func_math_hypot.asp]hypot()
+   [https://www.w3schools.com/php/func_math_intdiv.asp]intdiv()
+   [https://www.w3schools.com/php/func_math_is_finite.asp]is_finite()
+   [https://www.w3schools.com/php/func_math_is_infinite.asp]is_infinite()
+   [https://www.w3schools.com/php/func_math_is_nan.asp]is_nan()
+   [https://www.w3schools.com/php/func_math_lcg_value.asp]lcg_value()
+   [https://www.w3schools.com/php/func_math_log.asp]log()
+   [https://www.w3schools.com/php/func_math_log10.asp]log10()
+   [https://www.w3schools.com/php/func_math_log1p.asp]log1p()
+   [https://www.w3schools.com/php/func_math_max.asp]max()
+   [https://www.w3schools.com/php/func_math_min.asp]min()
+   [https://www.w3schools.com/php/func_math_mt_getrandmax.asp]mt_getrandma
+   x() [https://www.w3schools.com/php/func_math_mt_rand.asp]mt_rand()
+   [https://www.w3schools.com/php/func_math_mt_srand.asp]mt_srand()
+   [https://www.w3schools.com/php/func_math_octdec.asp]octdec()
+   [https://www.w3schools.com/php/func_math_pi.asp]pi()
+   [https://www.w3schools.com/php/func_math_pow.asp]pow()
+   [https://www.w3schools.com/php/func_math_rad2deg.asp]rad2deg()
+   [https://www.w3schools.com/php/func_math_rand.asp]rand()
+   [https://www.w3schools.com/php/func_math_round.asp]round()
+   [https://www.w3schools.com/php/func_math_sin.asp]sin()
+   [https://www.w3schools.com/php/func_math_sinh.asp]sinh()
+   [https://www.w3schools.com/php/func_math_sqrt.asp]sqrt()
+   [https://www.w3schools.com/php/func_math_srand.asp]srand()
+   [https://www.w3schools.com/php/func_math_tan.asp]tan()
+   [https://www.w3schools.com/php/func_math_tanh.asp]tanh()
+   [https://www.w3schools.com/php/php_ref_misc.asp]PHP Misc
+   [https://www.w3schools.com/php/func_misc_connection_aborted.asp]connect
+   ion_aborted()
+   [https://www.w3schools.com/php/func_misc_connection_status.asp]connecti
+   on_status()
+   [https://www.w3schools.com/php/func_misc_connection_timeout.asp]connect
+   ion_timeout()
+   [https://www.w3schools.com/php/func_misc_constant.asp]constant()
+   [https://www.w3schools.com/php/func_misc_define.asp]define()
+   [https://www.w3schools.com/php/func_misc_defined.asp]defined()
+   [https://www.w3schools.com/php/func_misc_die.asp]die()
+   [https://www.w3schools.com/php/func_misc_eval.asp]eval()
+   [https://www.w3schools.com/php/func_misc_exit.asp]exit()
+   [https://www.w3schools.com/php/func_misc_get_browser.asp]get_browser()
+   [https://www.w3schools.com/php/func_misc___halt_compiler.asp]__halt_com
+   piler()
+   [https://www.w3schools.com/php/func_misc_highlight_file.asp]highlight_f
+   ile()
+   [https://www.w3schools.com/php/func_misc_highlight_string.asp]highlight
+   _string() [https://www.w3schools.com/php/func_misc_hrtime.asp]hrtime()
+   [https://www.w3schools.com/php/func_misc_ignore_user_abort.asp]ignore_u
+   ser_abort() [https://www.w3schools.com/php/func_misc_pack.asp]pack()
+   [https://www.w3schools.com/php/func_misc_php_strip_whitespace.asp]php_s
+   trip_whitespace()
+   [https://www.w3schools.com/php/func_misc_show_source.asp]show_source()
+   [https://www.w3schools.com/php/func_misc_sleep.asp]sleep()
+   [https://www.w3schools.com/php/func_misc_sys_getloadavg.asp]sys_getload
+   avg()
+   [https://www.w3schools.com/php/func_misc_time_nanosleep.asp]time_nanosl
+   eep()
+   [https://www.w3schools.com/php/func_misc_time_sleep_until.asp]time_slee
+   p_until() [https://www.w3schools.com/php/func_misc_uniqid.asp]uniqid()
+   [https://www.w3schools.com/php/func_misc_unpack.asp]unpack()
+   [https://www.w3schools.com/php/func_misc_usleep.asp]usleep()
+   [https://www.w3schools.com/php/php_ref_mysqli.asp]PHP MySQLi
+   [https://www.w3schools.com/php/func_mysqli_affected_rows.asp]affected_r
+   ows
+   [https://www.w3schools.com/php/func_mysqli_autocommit.asp]autocommit
+   [https://www.w3schools.com/php/func_mysqli_change_user.asp]change_user
+   [https://www.w3schools.com/php/func_mysqli_character_set_name.asp]chara
+   cter_set_name
+   [https://www.w3schools.com/php/func_mysqli_close.asp]close
+   [https://www.w3schools.com/php/func_mysqli_commit.asp]commit
+   [https://www.w3schools.com/php/func_mysqli_connect.asp]connect
+   [https://www.w3schools.com/php/func_mysqli_connect_errno.asp]connect_er
+   rno
+   [https://www.w3schools.com/php/func_mysqli_connect_error.asp]connect_er
+   ror [https://www.w3schools.com/php/func_mysqli_data_seek.asp]data_seek
+   [https://www.w3schools.com/php/func_mysqli_debug.asp]debug
+   [https://www.w3schools.com/php/func_mysqli_dump_debug_info.asp]dump_deb
+   ug_info [https://www.w3schools.com/php/func_mysqli_errno.asp]errno
+   [https://www.w3schools.com/php/func_mysqli_error.asp]error
+   [https://www.w3schools.com/php/func_mysqli_error_list.asp]error_list
+   [https://www.w3schools.com/php/func_mysqli_fetch_all.asp]fetch_all
+   [https://www.w3schools.com/php/func_mysqli_fetch_array.asp]fetch_array
+   [https://www.w3schools.com/php/func_mysqli_fetch_assoc.asp]fetch_assoc
+   [https://www.w3schools.com/php/func_mysqli_fetch_field.asp]fetch_field
+   [https://www.w3schools.com/php/func_mysqli_fetch_field_direct.asp]fetch
+   _field_direct
+   [https://www.w3schools.com/php/func_mysqli_fetch_fields.asp]fetch_field
+   s
+   [https://www.w3schools.com/php/func_mysqli_fetch_lengths.asp]fetch_leng
+   ths
+   [https://www.w3schools.com/php/func_mysqli_fetch_object.asp]fetch_objec
+   t [https://www.w3schools.com/php/func_mysqli_fetch_row.asp]fetch_row
+   [https://www.w3schools.com/php/func_mysqli_field_count.asp]field_count
+   [https://www.w3schools.com/php/func_mysqli_field_seek.asp]field_seek
+   [https://www.w3schools.com/php/func_mysqli_get_charset.asp]get_charset
+   [https://www.w3schools.com/php/func_mysqli_get_client_info.asp]get_clie
+   nt_info
+   [https://www.w3schools.com/php/func_mysqli_get_client_stats.asp]get_cli
+   ent_stats
+   [https://www.w3schools.com/php/func_mysqli_get_client_version.asp]get_c
+   lient_version
+   [https://www.w3schools.com/php/func_mysqli_get_connection_stats.asp]get
+   _connection_stats
+   [https://www.w3schools.com/php/func_mysqli_get_host_info.asp]get_host_i
+   nfo
+   [https://www.w3schools.com/php/func_mysqli_get_proto_info.asp]get_proto
+   _info
+   [https://www.w3schools.com/php/func_mysqli_get_server_info.asp]get_serv
+   er_info
+   [https://www.w3schools.com/php/func_mysqli_get_server_version.asp]get_s
+   erver_version [https://www.w3schools.com/php/func_mysqli_info.asp]info
+   [https://www.w3schools.com/php/func_mysqli_init.asp]init
+   [https://www.w3schools.com/php/func_mysqli_insert_id.asp]insert_id
+   [https://www.w3schools.com/php/func_mysqli_kill.asp]kill
+   [https://www.w3schools.com/php/func_mysqli_more_results.asp]more_result
+   s
+   [https://www.w3schools.com/php/func_mysqli_multi_query.asp]multi_query
+   [https://www.w3schools.com/php/func_mysqli_next_result.asp]next_result
+   [https://www.w3schools.com/php/func_mysqli_options.asp]options
+   [https://www.w3schools.com/php/func_mysqli_ping.asp]ping
+   [https://www.w3schools.com/php/func_mysqli_poll.asp]poll
+   [https://www.w3schools.com/php/func_mysqli_prepare.asp]prepare
+   [https://www.w3schools.com/php/func_mysqli_query.asp]query
+   [https://www.w3schools.com/php/func_mysqli_real_connect.asp]real_connec
+   t
+   [https://www.w3schools.com/php/func_mysqli_real_escape_string.asp]real_
+   escape_string
+   [https://www.w3schools.com/php/func_mysqli_real_query.asp]real_query
+   [https://www.w3schools.com/php/func_mysqli_reap_async_query.asp]reap_as
+   ync_query
+   [https://www.w3schools.com/php/func_mysqli_refresh.asp]refresh
+   [https://www.w3schools.com/php/func_mysqli_rollback.asp]rollback
+   [https://www.w3schools.com/php/func_mysqli_select_db.asp]select_db
+   [https://www.w3schools.com/php/func_mysqli_set_charset.asp]set_charset
+   [https://www.w3schools.com/php/func_mysqli_set_local_infile_handler.asp
+   ]set_local_infile_handler
+   [https://www.w3schools.com/php/func_mysqli_sqlstate.asp]sqlstate
+   [https://www.w3schools.com/php/func_mysqli_ssl_set.asp]ssl_set
+   [https://www.w3schools.com/php/func_mysqli_stat.asp]stat
+   [https://www.w3schools.com/php/func_mysqli_stmt_init.asp]stmt_init
+   [https://www.w3schools.com/php/func_mysqli_thread_id.asp]thread_id
+   [https://www.w3schools.com/php/func_mysqli_thread_safe.asp]thread_safe
+   [https://www.w3schools.com/php/func_mysqli_use_result.asp]use_result
+   [https://www.w3schools.com/php/func_mysqli_warning_count.asp]warning_co
+   unt
+   [https://www.w3schools.com/php/php_ref_network.asp]PHP Network
+   [https://www.w3schools.com/php/func_network_checkdnsrr.asp]checkdnsrr()
+   [https://www.w3schools.com/php/func_network_closelog.asp]closelog()
+   [https://www.w3schools.com/php/func_network_dns_check_record.asp]dns_ch
+   eck_record()
+   [https://www.w3schools.com/php/func_network_dns_get_mx.asp]dns_get_mx()
+   [https://www.w3schools.com/php/func_network_dns_get_record.asp]dns_get_
+   record()
+   [https://www.w3schools.com/php/func_network_fsockopen.asp]fsockopen()
+   [https://www.w3schools.com/php/func_network_gethostbyaddr.asp]gethostby
+   addr()
+   [https://www.w3schools.com/php/func_network_gethostbyname.asp]gethostby
+   name()
+   [https://www.w3schools.com/php/func_network_gethostbynamel.asp]gethostb
+   ynamel()
+   [https://www.w3schools.com/php/func_network_gethostname.asp]gethostname
+   () [https://www.w3schools.com/php/func_network_getmxrr.asp]getmxrr()
+   [https://www.w3schools.com/php/func_network_getprotobyname.asp]getproto
+   byname()
+   [https://www.w3schools.com/php/func_network_getprotobynumber.asp]getpro
+   tobynumber()
+   [https://www.w3schools.com/php/func_network_getservbyname.asp]getservby
+   name()
+   [https://www.w3schools.com/php/func_network_getservbyport.asp]getservby
+   port()
+   [https://www.w3schools.com/php/func_network_header_register_callback.as
+   p]header_register_callback()
+   [https://www.w3schools.com/php/func_network_header_remove.asp]header_re
+   move() [https://www.w3schools.com/php/func_network_header.asp]header()
+   [https://www.w3schools.com/php/func_network_headers_list.asp]headers_li
+   st()
+   [https://www.w3schools.com/php/func_network_headers_sent.asp]headers_se
+   nt()
+   [https://www.w3schools.com/php/func_network_http_response_code.asp]http
+   _response_code()
+   [https://www.w3schools.com/php/func_network_inet_ntop.asp]inet_ntop()
+   [https://www.w3schools.com/php/func_network_inet_pton.asp]inet_pton()
+   [https://www.w3schools.com/php/func_network_ip2long.asp]ip2long()
+   [https://www.w3schools.com/php/func_network_long2ip.asp]long2ip()
+   [https://www.w3schools.com/php/func_network_openlog.asp]openlog()
+   [https://www.w3schools.com/php/func_network_pfsockopen.asp]pfsockopen()
+   [https://www.w3schools.com/php/func_network_setcookie.asp]setcookie()
+   [https://www.w3schools.com/php/func_network_setrawcookie.asp]setrawcook
+   ie()
+   [https://www.w3schools.com/php/func_network_socket_get_status.asp]socke
+   t_get_status()
+   [https://www.w3schools.com/php/func_network_socket_set_blocking.asp]soc
+   ket_set_blocking()
+   [https://www.w3schools.com/php/func_network_socket_set_timeout.asp]sock
+   et_set_timeout()
+   [https://www.w3schools.com/php/func_network_syslog.asp]syslog()
+   [https://www.w3schools.com/php/php_ref_output_control.asp]PHP Output
+   Control
+   [https://www.w3schools.com/php/ref_output_flush.asp]flush()
+   [https://www.w3schools.com/php/ref_output_ob_clean.asp]ob_clean()
+   [https://www.w3schools.com/php/ref_output_ob_end_clean.asp]ob_end_clean
+   ()
+   [https://www.w3schools.com/php/ref_output_ob_end_flush.asp]ob_end_flush
+   () [https://www.w3schools.com/php/ref_output_ob_flush.asp]ob_flush()
+   [https://www.w3schools.com/php/ref_output_ob_get_clean.asp]ob_get_clean
+   ()
+   [https://www.w3schools.com/php/ref_output_ob_get_contents.asp]ob_get_co
+   ntents()
+   [https://www.w3schools.com/php/ref_output_ob_get_flush.asp]ob_get_flush
+   ()
+   [https://www.w3schools.com/php/ref_output_ob_get_length.asp]ob_get_leng
+   th()
+   [https://www.w3schools.com/php/ref_output_ob_get_level.asp]ob_get_level
+   ()
+   [https://www.w3schools.com/php/ref_output_ob_gzhandler.asp]ob_gzhandler
+   ()
+   [https://www.w3schools.com/php/ref_output_ob_implicit_flush.asp]ob_impl
+   icit_flush()
+   [https://www.w3schools.com/php/ref_output_ob_list_handlers.asp]ob_list_
+   handlers()
+   [https://www.w3schools.com/php/ref_output_ob_start.asp]ob_start()
+   [https://www.w3schools.com/php/ref_output_add_rewrite_var.asp]output_ad
+   d_rewrite_var()
+   [https://www.w3schools.com/php/ref_output_reset_rewrite_vars.asp]output
+   _reset_rewrite_vars()
+   [https://www.w3schools.com/php/php_ref_regex.asp]PHP RegEx
+   [https://www.w3schools.com/php/func_regex_preg_filter.asp]preg_filter()
+   [https://www.w3schools.com/php/func_regex_preg_grep.asp]preg_grep()
+   [https://www.w3schools.com/php/func_regex_preg_last_error.asp]preg_last
+   _error()
+   [https://www.w3schools.com/php/func_regex_preg_match.asp]preg_match()
+   [https://www.w3schools.com/php/func_regex_preg_match_all.asp]preg_match
+   _all()
+   [https://www.w3schools.com/php/func_regex_preg_replace.asp]preg_replace
+   [https://www.w3schools.com/php/func_regex_preg_replace_callback.asp]pre
+   g_replace_callback
+   [https://www.w3schools.com/php/func_regex_preg_replace_callback_array.a
+   sp]preg_replace_callback_array
+   [https://www.w3schools.com/php/func_regex_preg_split.asp]preg_split
+   [https://www.w3schools.com/php/func_regex_preg_quote.asp]preg_quote
+   [https://www.w3schools.com/php/php_ref_simplexml.asp]PHP SimpleXML
+   [https://www.w3schools.com/php/func_simplexml__construct.asp]__construc
+   t()
+   [https://www.w3schools.com/php/func_simplexml__tostring.asp]__tostring(
+   )
+   [https://www.w3schools.com/php/func_simplexml_addattribute.asp]addAttri
+   bute()
+   [https://www.w3schools.com/php/func_simplexml_addchild.asp]addChild()
+   [https://www.w3schools.com/php/func_simplexml_asxml.asp]asXML()
+   [https://www.w3schools.com/php/func_simplexml_attributes.asp]attributes
+   ()
+   [https://www.w3schools.com/php/func_simplexml_children.asp]children()
+   [https://www.w3schools.com/php/func_simplexml_count.asp]count()
+   [https://www.w3schools.com/php/func_simplexml_getdocnamespaces.asp]getD
+   ocNamespaces()
+   [https://www.w3schools.com/php/func_simplexml_getname.asp]getName()
+   [https://www.w3schools.com/php/func_simplexml_getnamespaces.asp]getName
+   spaces()
+   [https://www.w3schools.com/php/func_simplexml_registerxpathnamespace.as
+   p]registerXPathNamespace()
+   [https://www.w3schools.com/php/func_simplexml_savexml.asp]saveXML()
+   [https://www.w3schools.com/php/func_simplexml_import_dom.asp]simplexml_
+   import_dom()
+   [https://www.w3schools.com/php/func_simplexml_load_file.asp]simplexml_l
+   oad_file()
+   [https://www.w3schools.com/php/func_simplexml_load_string.asp]simplexml
+   _load_string()
+   [https://www.w3schools.com/php/func_simplexml_xpath.asp]xpath()
+   [https://www.w3schools.com/php/func_simplexml_current.asp]current()
+   [https://www.w3schools.com/php/func_simplexml_getchildren.asp]getchildr
+   en()
+   [https://www.w3schools.com/php/func_simplexml_haschildren.asp]haschildr
+   en() [https://www.w3schools.com/php/func_simplexml_key.asp]key()
+   [https://www.w3schools.com/php/func_simplexml_next.asp]next()
+   [https://www.w3schools.com/php/func_simplexml_rewind.asp]rewind()
+   [https://www.w3schools.com/php/func_simplexml_valid.asp]valid()
+   [https://www.w3schools.com/php/php_ref_stream.asp]PHP Stream
+   [https://www.w3schools.com/php/php_ref_string.asp]PHP String
+   [https://www.w3schools.com/php/func_string_addcslashes.asp]addcslashes(
+   )
+   [https://www.w3schools.com/php/func_string_addslashes.asp]addslashes()
+   [https://www.w3schools.com/php/func_string_bin2hex.asp]bin2hex()
+   [https://www.w3schools.com/php/func_string_chop.asp]chop()
+   [https://www.w3schools.com/php/func_string_chr.asp]chr()
+   [https://www.w3schools.com/php/func_string_chunk_split.asp]chunk_split(
+   )
+   [https://www.w3schools.com/php/func_string_convert_cyr_string.asp]conve
+   rt_cyr_string()
+   [https://www.w3schools.com/php/func_string_convert_uudecode.asp]convert
+   _uudecode()
+   [https://www.w3schools.com/php/func_string_convert_uuencode.asp]convert
+   _uuencode()
+   [https://www.w3schools.com/php/func_string_count_chars.asp]count_chars(
+   ) [https://www.w3schools.com/php/func_string_crc32.asp]crc32()
+   [https://www.w3schools.com/php/func_string_crypt.asp]crypt()
+   [https://www.w3schools.com/php/func_string_echo.asp]echo()
+   [https://www.w3schools.com/php/func_string_explode.asp]explode()
+   [https://www.w3schools.com/php/func_string_fprintf.asp]fprint()
+   [https://www.w3schools.com/php/func_string_get_html_translation_table.a
+   sp]get_html_translation_table()
+   [https://www.w3schools.com/php/func_string_hebrev.asp]hebrev()
+   [https://www.w3schools.com/php/func_string_hebrevc.asp]hebrevc()
+   [https://www.w3schools.com/php/func_string_hex2bin.asp]hex2bin()
+   [https://www.w3schools.com/php/func_string_html_entity_decode.asp]html_
+   entity_decode()
+   [https://www.w3schools.com/php/func_string_htmlentities.asp]htmlentitie
+   s()
+   [https://www.w3schools.com/php/func_string_htmlspecialchars_decode.asp]
+   htmlspecialchars_decode()
+   [https://www.w3schools.com/php/func_string_htmlspecialchars.asp]htmlspe
+   cialchars()
+   [https://www.w3schools.com/php/func_string_implode.asp]implode()
+   [https://www.w3schools.com/php/func_string_join.asp]join()
+   [https://www.w3schools.com/php/func_string_lcfirst.asp]lcfirst()
+   [https://www.w3schools.com/php/func_string_levenshtein.asp]levenshtein(
+   )
+   [https://www.w3schools.com/php/func_string_localeconv.asp]localeconv()
+   [https://www.w3schools.com/php/func_string_ltrim.asp]ltrim()
+   [https://www.w3schools.com/php/func_string_md5.asp]md5()
+   [https://www.w3schools.com/php/func_string_md5_file.asp]md5_file()
+   [https://www.w3schools.com/php/func_string_metaphone.asp]metaphone()
+   [https://www.w3schools.com/php/func_string_money_format.asp]money_forma
+   t()
+   [https://www.w3schools.com/php/func_string_nl_langinfo.asp]nl_langinfo(
+   ) [https://www.w3schools.com/php/func_string_nl2br.asp]nl2br()
+   [https://www.w3schools.com/php/func_string_number_format.asp]number_for
+   mat() [https://www.w3schools.com/php/func_string_ord.asp]ord()
+   [https://www.w3schools.com/php/func_string_parse_str.asp]parse_str()
+   [https://www.w3schools.com/php/func_string_print.asp]print()
+   [https://www.w3schools.com/php/func_string_printf.asp]printf()
+   [https://www.w3schools.com/php/func_string_quoted_printable_decode.asp]
+   quoted_printable_decode()
+   [https://www.w3schools.com/php/func_string_quoted_printable_encode.asp]
+   quoted_printable_encode()
+   [https://www.w3schools.com/php/func_string_quotemeta.asp]quotemeta()
+   [https://www.w3schools.com/php/func_string_rtrim.asp]rtrim()
+   [https://www.w3schools.com/php/func_string_setlocale.asp]setlocale()
+   [https://www.w3schools.com/php/func_string_sha1.asp]sha1()
+   [https://www.w3schools.com/php/func_string_sha1_file.asp]sha1_file()
+   [https://www.w3schools.com/php/func_string_similar_text.asp]similar_tex
+   t() [https://www.w3schools.com/php/func_string_soundex.asp]soundex()
+   [https://www.w3schools.com/php/func_string_sprintf.asp]sprintf()
+   [https://www.w3schools.com/php/func_string_sscanf.asp]sscanf()
+   [https://www.w3schools.com/php/func_string_str_getcsv.asp]str_getcsv()
+   [https://www.w3schools.com/php/func_string_str_ireplace.asp]str_ireplac
+   e() [https://www.w3schools.com/php/func_string_str_pad.asp]str_pad()
+   [https://www.w3schools.com/php/func_string_str_repeat.asp]str_repeat()
+   [https://www.w3schools.com/php/func_string_str_replace.asp]str_replace(
+   ) [https://www.w3schools.com/php/func_string_str_rot13.asp]str_rot13()
+   [https://www.w3schools.com/php/func_string_str_shuffle.asp]str_shuffle(
+   ) [https://www.w3schools.com/php/func_string_str_split.asp]str_split()
+   [https://www.w3schools.com/php/func_string_str_word_count.asp]str_word_
+   count()
+   [https://www.w3schools.com/php/func_string_strcasecmp.asp]strcasecmp()
+   [https://www.w3schools.com/php/func_string_strchr.asp]strchr()
+   [https://www.w3schools.com/php/func_string_strcmp.asp]strcmp()
+   [https://www.w3schools.com/php/func_string_strcoll.asp]strcoll()
+   [https://www.w3schools.com/php/func_string_strcspn.asp]strcspn()
+   [https://www.w3schools.com/php/func_string_strip_tags.asp]strip_tags()
+   [https://www.w3schools.com/php/func_string_stripcslashes.asp]stripcslas
+   hes()
+   [https://www.w3schools.com/php/func_string_stripslashes.asp]stripslashe
+   s() [https://www.w3schools.com/php/func_string_stripos.asp]stripos()
+   [https://www.w3schools.com/php/func_string_stristr.asp]stristr()
+   [https://www.w3schools.com/php/func_string_strlen.asp]strlen()
+   [https://www.w3schools.com/php/func_string_strnatcasecmp.asp]strnatcase
+   cmp()
+   [https://www.w3schools.com/php/func_string_strnatcmp.asp]strnatcmp()
+   [https://www.w3schools.com/php/func_string_strncasecmp.asp]strncasecmp(
+   ) [https://www.w3schools.com/php/func_string_strncmp.asp]strncmp()
+   [https://www.w3schools.com/php/func_string_strpbrk.asp]strpbrk()
+   [https://www.w3schools.com/php/func_string_strpos.asp]strpos()
+   [https://www.w3schools.com/php/func_string_strrchr.asp]strrchr()
+   [https://www.w3schools.com/php/func_string_strrev.asp]strrev()
+   [https://www.w3schools.com/php/func_string_strripos.asp]strripos()
+   [https://www.w3schools.com/php/func_string_strrpos.asp]strrpos()
+   [https://www.w3schools.com/php/func_string_strspn.asp]strspn()
+   [https://www.w3schools.com/php/func_string_strstr.asp]strstr()
+   [https://www.w3schools.com/php/func_string_strtok.asp]strtok()
+   [https://www.w3schools.com/php/func_string_strtolower.asp]strtolower()
+   [https://www.w3schools.com/php/func_string_strtoupper.asp]strtoupper()
+   [https://www.w3schools.com/php/func_string_strtr.asp]strtr()
+   [https://www.w3schools.com/php/func_string_substr.asp]substr()
+   [https://www.w3schools.com/php/func_string_substr_compare.asp]substr_co
+   mpare()
+   [https://www.w3schools.com/php/func_string_substr_count.asp]substr_coun
+   t()
+   [https://www.w3schools.com/php/func_string_substr_replace.asp]substr_re
+   place() [https://www.w3schools.com/php/func_string_trim.asp]trim()
+   [https://www.w3schools.com/php/func_string_ucfirst.asp]ucfirst()
+   [https://www.w3schools.com/php/func_string_ucwords.asp]ucwords()
+   [https://www.w3schools.com/php/func_string_vfprintf.asp]vfprintf()
+   [https://www.w3schools.com/php/func_string_vprintf.asp]vprintf()
+   [https://www.w3schools.com/php/func_string_vsprintf.asp]vsprintf()
+   [https://www.w3schools.com/php/func_string_wordwrap.asp]wordwrap()
+   [https://www.w3schools.com/php/php_ref_variable_handling.asp]PHP
+   Variable Handling
+   [https://www.w3schools.com/php/func_var_boolval.asp]boolval()
+   [https://www.w3schools.com/php/func_var_debug_zval_dump.asp]debug_zval_
+   dump()
+   [https://www.w3schools.com/php/func_var_doubleval.asp]doubleval()
+   [https://www.w3schools.com/php/func_var_is_countable.asp]is_countable()
+   [https://www.w3schools.com/php/func_var_empty.asp]empty()
+   [https://www.w3schools.com/php/func_var_floatval.asp]floatval()
+   [https://www.w3schools.com/php/func_var_get_defined_vars.asp]get_define
+   d_vars()
+   [https://www.w3schools.com/php/func_var_get_resource_type.asp]get_resou
+   rce_type()
+   [https://www.w3schools.com/php/func_var_gettype.asp]gettype()
+   [https://www.w3schools.com/php/func_var_intval.asp]intval()
+   [https://www.w3schools.com/php/func_var_is_array.asp]is_array()
+   [https://www.w3schools.com/php/func_var_is_bool.asp]is_bool()
+   [https://www.w3schools.com/php/func_var_is_callable.asp]is_callable()
+   [https://www.w3schools.com/php/func_var_is_double.asp]is_double()
+   [https://www.w3schools.com/php/func_var_is_float.asp]is_float()
+   [https://www.w3schools.com/php/func_var_is_int.asp]is_int()
+   [https://www.w3schools.com/php/func_var_is_integer.asp]is_integer()
+   [https://www.w3schools.com/php/func_var_is_iterable.asp]is_iterable()
+   [https://www.w3schools.com/php/func_var_is_long.asp]is_long()
+   [https://www.w3schools.com/php/func_var_is_null.asp]is_null()
+   [https://www.w3schools.com/php/func_var_is_numeric.asp]is_numeric()
+   [https://www.w3schools.com/php/func_var_is_object.asp]is_object()
+   [https://www.w3schools.com/php/func_var_is_real.asp]is_real()
+   [https://www.w3schools.com/php/func_var_is_resource.asp]is_resource()
+   [https://www.w3schools.com/php/func_var_is_scalar.asp]is_scalar()
+   [https://www.w3schools.com/php/func_var_is_string.asp]is_string()
+   [https://www.w3schools.com/php/func_var_isset.asp]isset()
+   [https://www.w3schools.com/php/func_var_print_r.asp]print_r()
+   [https://www.w3schools.com/php/func_var_serialize.asp]serialize()
+   [https://www.w3schools.com/php/func_var_settype.asp]settype()
+   [https://www.w3schools.com/php/func_var_strval.asp]strval()
+   [https://www.w3schools.com/php/func_var_unserialize.asp]unserialize()
+   [https://www.w3schools.com/php/func_var_unset.asp]unset()
+   [https://www.w3schools.com/php/func_var_var_dump.asp]var_dump()
+   [https://www.w3schools.com/php/func_var_var_export.asp]var_export()
+   [https://www.w3schools.com/php/php_ref_xml.asp]PHP XML Parser
+   [https://www.w3schools.com/php/func_xml_utf8_decode.asp]utf8_decode()
+   [https://www.w3schools.com/php/func_xml_utf8_encode.asp]utf8_encode()
+   [https://www.w3schools.com/php/func_xml_error_string.asp]xml_error_stri
+   ng()
+   [https://www.w3schools.com/php/func_xml_get_current_byte_index.asp]xml_
+   get_current_byte_index()
+   [https://www.w3schools.com/php/func_xml_get_current_column_number.asp]x
+   ml_get_current_column_number()
+   [https://www.w3schools.com/php/func_xml_get_current_line_number.asp]xml
+   _get_current_line_number()
+   [https://www.w3schools.com/php/func_xml_get_error_code.asp]xml_get_erro
+   r_code() [https://www.w3schools.com/php/func_xml_parse.asp]xml_parse()
+   [https://www.w3schools.com/php/func_xml_parse_into_struct.asp]xml_parse
+   _into_struct()
+   [https://www.w3schools.com/php/func_xml_parser_create_ns.asp]xml_parser
+   _create_ns()
+   [https://www.w3schools.com/php/func_xml_parser_create.asp]xml_parser_cr
+   eate()
+   [https://www.w3schools.com/php/func_xml_parser_free.asp]xml_parser_free
+   ()
+   [https://www.w3schools.com/php/func_xml_parser_get_option.asp]xml_parse
+   r_get_option()
+   [https://www.w3schools.com/php/func_xml_parser_set_option.asp]xml_parse
+   r_set_option()
+   [https://www.w3schools.com/php/func_xml_set_character_data_handler.asp]
+   xml_set_character_data_handler()
+   [https://www.w3schools.com/php/func_xml_set_default_handler.asp]xml_set
+   _default_handler()
+   [https://www.w3schools.com/php/func_xml_set_element_handler.asp]xml_set
+   _element_handler()
+   [https://www.w3schools.com/php/func_xml_set_end_namespace_decl_handler.
+   asp]xml_set_end_namespace_decl_handler()
+   [https://www.w3schools.com/php/func_xml_set_external_entity_ref_handler
+   .asp]xml_set_external_entity_ref_handler()
+   [https://www.w3schools.com/php/func_xml_set_notation_decl_handler.asp]x
+   ml_set_notation_decl_handler()
+   [https://www.w3schools.com/php/func_xml_set_object.asp]xml_set_object()
+   [https://www.w3schools.com/php/func_xml_set_processing_instruction_hand
+   ler.asp]xml_set_processing_instruction_handler()
+   [https://www.w3schools.com/php/func_xml_set_start_namespace_decl_handle
+   r.asp]xml_set_start_namespace_decl_handler()
+   [https://www.w3schools.com/php/func_xml_set_unparsed_entity_decl_handle
+   r.asp]xml_set_unparsed_entity_decl_handler()
+   [https://www.w3schools.com/php/php_ref_zip.asp]PHP Zip
+   [https://www.w3schools.com/php/func_zip_close.asp]zip_close()
+   [https://www.w3schools.com/php/func_zip_entry_close.asp]zip_entry_close
+   ()
+   [https://www.w3schools.com/php/func_zip_entry_compressedsize.asp]zip_en
+   try_compressedsize()
+   [https://www.w3schools.com/php/func_zip_entry_compressionmethod.asp]zip
+   _entry_compressionmethod()
+   [https://www.w3schools.com/php/func_zip_entry_filesize.asp]zip_entry_fi
+   lesize()
+   [https://www.w3schools.com/php/func_zip_entry_name.asp]zip_entry_name()
+   [https://www.w3schools.com/php/func_zip_entry_open.asp]zip_entry_open()
+   [https://www.w3schools.com/php/func_zip_entry_read.asp]zip_entry_read()
+   [https://www.w3schools.com/php/func_zip_open.asp]zip_open()
+   [https://www.w3schools.com/php/func_zip_read.asp]zip_read()
+   [https://www.w3schools.com/php/php_ref_timezones.asp]PHP Timezones
+
+PHP Tutorial
+
+   [https://www.w3schools.com/default.asp]❮ Home
+   [https://www.w3schools.com/php/php_intro.asp]Next ❯
+
+Learn PHP
+
+   PHP is a server scripting language, and a powerful tool for making
+   dynamic and interactive Web pages.
+
+   PHP is a widely-used, free, and efficient alternative to competitors
+   such as Microsoft's ASP.
+   [https://www.w3schools.com/php/php_intro.asp]Start learning PHP now »
+     __________________________________________________________________
+
+Easy Learning with "PHP Tryit"
+
+   With our online "PHP Tryit" editor, you can edit the PHP code, and
+   click on a button to view the result.
+
+Example
+
+   <!DOCTYPE html>
+   <html>
+   <body>
+   <?php
+   echo "My first PHP script!";
+   ?>
+   </body>
+   </html>
+   [https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro]Try
+   it Yourself »
+
+   Click on the "Try it Yourself" button to see how it works.
+     __________________________________________________________________
+
+PHP Exercises
+
+Test Yourself With Exercises
+
+Exercise:
+
+   Insert the missing part of the code below to output "Hello World".
+____________________ "Hello World";
+
+   (BUTTON) Submit Answer »
+     __________________________________________________________________
+     __________________________________________________________________
+
+PHP Examples
+
+   Learn by examples! This tutorial supplements all explanations with
+   clarifying examples.
+
+   [https://www.w3schools.com/php/php_examples.asp]See All PHP Examples
+     __________________________________________________________________
+
+PHP Quiz Test
+
+   Learn by taking a quiz! This quiz will give you a signal of how much
+   you know, or do not know, about PHP.
+
+   [https://www.w3schools.com/php/php_quiz.asp]Start PHP Quiz!
+     __________________________________________________________________
+
+My Learning
+
+   Track your progress with the free "My Learning" program here at
+   W3Schools.
+
+   Log in to your account, and start earning points!
+
+   This is an optional feature. You can study W3Schools without using My
+   Learning.
+   [https://my-learning.w3schools.com/][mylearning.png]
+     __________________________________________________________________
+
+PHP References
+
+   W3Schools' PHP reference contains different categories of all PHP
+   functions, keywords and constants, along with examples.
+   [https://www.w3schools.com/php/php_ref_array.asp]Array
+   [https://www.w3schools.com/php/php_ref_calendar.asp]Calendar
+   [https://www.w3schools.com/php/php_ref_date.asp]Date
+   [https://www.w3schools.com/php/php_ref_directory.asp]Directory
+   [https://www.w3schools.com/php/php_ref_error.asp]Error
+   [https://www.w3schools.com/php/php_ref_exception.asp]Exception
+   [https://www.w3schools.com/php/php_ref_filesystem.asp]Filesystem
+   [https://www.w3schools.com/php/php_ref_filter.asp]Filter
+   [https://www.w3schools.com/php/php_ref_ftp.asp]FTP
+   [https://www.w3schools.com/php/php_ref_json.asp]JSON
+   [https://www.w3schools.com/php/php_ref_keywords.asp]Keywords
+   [https://www.w3schools.com/php/php_ref_libxml.asp]Libxml
+   [https://www.w3schools.com/php/php_ref_mail.asp]Mail
+   [https://www.w3schools.com/php/php_ref_math.asp]Math
+   [https://www.w3schools.com/php/php_ref_misc.asp]Misc
+   [https://www.w3schools.com/php/php_ref_mysqli.asp]MySQLi
+   [https://www.w3schools.com/php/php_ref_network.asp]Network
+   [https://www.w3schools.com/php/php_ref_output_control.asp]Output
+   Control [https://www.w3schools.com/php/php_ref_regex.asp]RegEx
+   [https://www.w3schools.com/php/php_ref_simplexml.asp]SimpleXML
+   [https://www.w3schools.com/php/php_ref_stream.asp]Stream
+   [https://www.w3schools.com/php/php_ref_string.asp]String
+   [https://www.w3schools.com/php/php_ref_variable_handling.asp]Var
+   Handling [https://www.w3schools.com/php/php_ref_xml.asp]XML Parser
+   [https://www.w3schools.com/php/php_ref_zip.asp]Zip
+   [https://www.w3schools.com/php/php_ref_timezones.asp]Timezones
+
+Kickstart your career
+
+   Get certified by completing the course
+   [https://campus.w3schools.com/collections/course-catalog]Get certified
+   w3schools CERTIFIED . 2023
+   [https://www.w3schools.com/php/default.asp]❮ Home
+   [https://www.w3schools.com/php/php_intro.asp]Next ❯
+   [https://campus.w3schools.com/collections/course-catalog/products/w3sch
+   ools-full-access-course]Unlock Full Access 50% off
+
+[https://www.w3schools.com/colors/colors_picker.asp]COLOR PICKER
+
+   [https://www.w3schools.com/colors/colors_picker.asp]colorpicker
+   [https://www.facebook.com/w3schoolscom/][https://www.instagram.com/w3sc
+   hools.com_official/][https://www.linkedin.com/company/w3schools.com/][h
+   ttps://discord.gg/6Z7UaRbUQM]
+   [https://www.w3schools.com/bootcamp/bootcamp_htmlcss.php]Join our
+   Bootcamp!
+     __________________________________________________________________
+     __________________________________________________________________
+
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/spaces/index.html]Spaces
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://www.w3schools.com/pro/index.php]Upgrade
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/pages/newsletter]Newsletter
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [https://campus.w3schools.com/collections/certifications]Get Certified
+   [javascript:void(0);]Report Error
+   [javascript:void(0);]Report Error
+     __________________________________________________________________
+
+   ×
+
+Report Error
+
+   If you want to report an error, or if you want to make a suggestion, do
+   not hesitate to send us an e-mail:
+
+   help@w3schools.com
+   ×
+
+Thank You For Helping Us!
+
+   Your message has been sent to W3Schools.
+
+Top Tutorials
+
+   [https://www.w3schools.com/html/default.asp]HTML Tutorial
+   [https://www.w3schools.com/css/default.asp]CSS Tutorial
+   [https://www.w3schools.com/js/default.asp]JavaScript Tutorial
+   [https://www.w3schools.com/howto/default.asp]How To Tutorial
+   [https://www.w3schools.com/sql/default.asp]SQL Tutorial
+   [https://www.w3schools.com/python/default.asp]Python Tutorial
+   [https://www.w3schools.com/w3css/default.asp]W3.CSS Tutorial
+   [https://www.w3schools.com/bootstrap/bootstrap_ver.asp]Bootstrap
+   Tutorial
+   [https://www.w3schools.com/php/default.asp]PHP Tutorial
+   [https://www.w3schools.com/java/default.asp]Java Tutorial
+   [https://www.w3schools.com/cpp/default.asp]C++ Tutorial
+   [https://www.w3schools.com/jquery/default.asp]jQuery Tutorial
+
+Top References
+
+   [https://www.w3schools.com/tags/default.asp]HTML Reference
+   [https://www.w3schools.com/cssref/index.php]CSS Reference
+   [https://www.w3schools.com/jsref/default.asp]JavaScript Reference
+   [https://www.w3schools.com/sql/sql_ref_keywords.asp]SQL Reference
+   [https://www.w3schools.com/python/python_reference.asp]Python Reference
+   [https://www.w3schools.com/w3css/w3css_references.asp]W3.CSS Reference
+   [https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp]Boot
+   strap Reference
+   [https://www.w3schools.com/php/php_ref_overview.asp]PHP Reference
+   [https://www.w3schools.com/colors/colors_names.asp]HTML Colors
+   [https://www.w3schools.com/java/java_ref_keywords.asp]Java Reference
+   [https://www.w3schools.com/angular/angular_ref_directives.asp]Angular
+   Reference
+   [https://www.w3schools.com/jquery/jquery_ref_overview.asp]jQuery
+   Reference
+
+Top Examples
+
+   [https://www.w3schools.com/html/html_examples.asp]HTML Examples
+   [https://www.w3schools.com/css/css_examples.asp]CSS Examples
+   [https://www.w3schools.com/js/js_examples.asp]JavaScript Examples
+   [https://www.w3schools.com/howto/default.asp]How To Examples
+   [https://www.w3schools.com/sql/sql_examples.asp]SQL Examples
+   [https://www.w3schools.com/python/python_examples.asp]Python Examples
+   [https://www.w3schools.com/w3css/w3css_examples.asp]W3.CSS Examples
+   [https://www.w3schools.com/bootstrap/bootstrap_examples.asp]Bootstrap
+   Examples
+   [https://www.w3schools.com/php/php_examples.asp]PHP Examples
+   [https://www.w3schools.com/java/java_examples.asp]Java Examples
+   [https://www.w3schools.com/xml/xml_examples.asp]XML Examples
+   [https://www.w3schools.com/jquery/jquery_examples.asp]jQuery Examples
+   [https://campus.w3schools.com/collections/course-catalog]
+
+Get Certified
+
+   [https://campus.w3schools.com/collections/certifications/products/html-
+   certificate]HTML Certificate
+   [https://campus.w3schools.com/collections/certifications/products/css-c
+   ertificate]CSS Certificate
+   [https://campus.w3schools.com/collections/certifications/products/javas
+   cript-certificate]JavaScript Certificate
+   [https://campus.w3schools.com/collections/certifications/products/front
+   -end-certificate]Front End Certificate
+   [https://campus.w3schools.com/collections/certifications/products/sql-c
+   ertificate]SQL Certificate
+   [https://campus.w3schools.com/collections/certifications/products/pytho
+   n-certificate]Python Certificate
+   [https://campus.w3schools.com/collections/certifications/products/php-c
+   ertificate]PHP Certificate
+   [https://campus.w3schools.com/collections/certifications/products/jquer
+   y-certificate]jQuery Certificate
+   [https://campus.w3schools.com/collections/certifications/products/java-
+   certificate]Java Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate]C++ Certificate
+   [https://campus.w3schools.com/collections/certifications/products/c-cer
+   tificate-1]C# Certificate
+   [https://campus.w3schools.com/collections/certifications/products/xml-c
+   ertificate]XML Certificate
+     __________________________________________________________________
+
+   [https://www.w3schools.com/forum/default.asp]FORUM |
+   [https://www.w3schools.com/about/default.asp]ABOUT
+   W3Schools is optimized for learning and training. Examples might be
+   simplified to improve reading and learning. Tutorials, references, and
+   examples are constantly reviewed to avoid errors, but we cannot warrant
+   full correctness of all content. While using W3Schools, you agree to
+   have read and accepted our
+   [https://www.w3schools.com/about/about_copyright.asp]terms of use,
+   [https://www.w3schools.com/about/about_privacy.asp]cookie and privacy
+   policy.
+   [https://www.w3schools.com/about/about_copyright.asp]Copyright
+   1999-2023 by Refsnes Data. All Rights Reserved.
+   [https://www.w3schools.com/w3css/default.asp]W3Schools is Powered by
+   W3.CSS.
+   [https://www.w3schools.com/php/]

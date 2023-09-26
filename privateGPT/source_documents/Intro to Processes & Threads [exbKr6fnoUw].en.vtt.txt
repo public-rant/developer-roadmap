@@ -1,0 +1,260 @@
+this tutorial looks at the difference
+between processes and threads the
+processes and threads are fundamental
+concepts in any multitasking operating
+system such as UNIX OS 10 Windows there
+are many tools and all these operating
+systems that allow you to manipulate
+shutdown process is to look at threads
+and thread priorities and try to see how
+your system is is functioning but first
+we re going to look at how basic CPUs
+work to give you a background on talking
+about processes and threads so we re
+first going to look at a simple program
+so let s suppose we have a simple
+four step program that gets a number 3
+get to number 4 adds those numbers
+together and stores the result in memory
+every program every step of a program is
+converted to what s called an
+instruction now instructions and
+computers all have a binary code so
+here s an instruction and they re all
+unique to the CPU so if you had a
+Pentium CPU I get three instruction
+would have a certain binary code if
+you re using a totally different like an
+arm CPU could have a totally different
+binary code and all these codes are
+called the instruction set so all of
+these codes are in binary but often
+people don t work very well with zeros
+and ones we often shorthand this and
+write binary as a hexadecimal number
+just because it s easier for us to to
+manipulate and talk about now the basic
+CPU system our computer system has the
+CPU at its center and system memory or
+Ram for instance in your personal
+computer you might have one gigabyte 2
+gigabyte 4 gigabytes of system memory
+now we re not talking about the hard
+disk or any optical disk we re talking
+about the system Ram
+in a program or these binary codes have
+to reside in system memory in order to
+be executed so somewhere inner system
+Ram will have this program that we want
+to execute so if a program is on a hard
+drive one of the first things that has
+
+now that program is is then read by the
+CPU is transferred to the CPU over one
+of the computer buses there are many
+different types of buses address and
+data buses and control buses and they
+all work together a lot of parallel
+lines to move all these bits into the
+CPU at once
+now once the program goes into a CPU you
+can think of it as going down a long
+queue to be processed so all these
+instructions work their way down this
+queue so three C was the last
+instruction now this long queue is often
+
+and the CPU executes all these
+instructions using various components
+inside the CPU so for instance we might
+have a math processor which will do adds
+and subtracts sum multiplies can even do
+scientific math and we have multiple
+components which do some other parts
+
+and so what so it is the heartbeat for
+every CPU is a little clock that runs at
+a certain frequency so for instance this
+clock might run it to gigahertz and it
+might go to various stages in the
+pipeline pipeline backs we have stages
+before a annex and instruction gets
+executed but eventually it gets executed
+so that s the basic operation of the CPU
+now we can think of this program is
+actually a thread so we have our CPU
+here and we have our program coming in
+
+and maybe these instructions are from an
+application and we ll use maybe
+Microsoft Office Word application as
+they come in we can think of this as a
+unit of execution which means it s a
+collection of instructions which
+together form some specific task and
+that s called a thread so this thread is
+being read into our CPU so here we have
+a single threaded application and that
+was how things work in the days of
+ms dos and command line based operating
+systems very quickly when Windows came
+in in Mac OS 10 we quickly moved to a
+multitasking operating systems where we
+had wanted to have multiple applications
+open at once so we may have second
+application maybe Excel spreadsheet and
+it has its own set of instructions that
+are being executed to carry out its task
+maybe it s generating a recalculate on a
+spreadsheet and so now we have a second
+thread that we want to execute and we
+wanted to appear to the user that s
+being executed at the same time so in
+all operating systems were modified to
+introduce a new component in here and
+
+and it was a software component that
+basically controls these instructions
+getting to the cpu pipeline to be
+executed so you can think of it in this
+case as having being able to handle the
+two threads and it really being just
+like a switch that can change positions
+from here to here and depending on the
+position of the switch if the switches
+up here this thread or these
+instructions go to the CPU to be
+executed and this switch can change to
+the bottom position and then this thread
+goes in to be executed and this is what
+happens in today s multitasking
+operating system now when this switches
+back and forth it actually does so on a
+regular basis and that regular basis is
+called a time slice so for instance
+maybe the time slice is one millisecond
+so in one millisecond we could actually
+execute thousands of instructions on
+words and then we re going to switch
+over and we re going to execute
+thousands of instructions from excel and
+we re going to switch back and forth
+every one millisecond now it s humans to
+us this is going to happen so fast it
+appears that everything is happening at
+
+
+pre emptive multitasking because it
+doesn t rely on any of these
+applications to give up control this
+scheduler is simply going to take
+control away from one application and
+give it to another and work it back and
+forth what s nice about that if somehow
+Excel crashes it s not going to crash
+your operating system yes you may lose a
+time slice but when you go back here
+your word program is going to work fine
+and when you notice this is hung you can
+actually just close it down by hitting
+the close button on your GUI now threads
+have other unique characteristics as
+well they also have something associated
+with them called a priority and a
+priority is simply a number some systems
+use 1 to 32 1 to 99 so we ll say this
+has a priority of 10 and this has a
+priority of 2 now built into the
+scheduler usually most schedulers simply
+give the highest priority thread a
+passage to the CPU so what would happen
+here is this thread would get executed
+and it would just stay on this thread
+because this is lower priority there s
+usually multiple parts to a scheduler
+and part of the schedulers duty is to
+boost priorities of threads which don t
+get executed so we ll go down here and
+we ll execute this thread for one or two
+time slices and then we ll boost this
+execute boost and eventually this thread
+will get up to the same level and then
+both threads will then what s called
+round robin they ll both be executed two
+time slice until the threads finish
+being executed so this is how a
+multitasking operating system works now
+we talked here about multi threaded
+application
+because most programs today and so we re
+going to look at a program called word
+and now we re going to call this a
+process so a process is really a name
+for a program but most programs today
+are multi threaded so for instance you
+may have one thread or unit of execution
+which is just looking for keyboard input
+waiting for the user to type something
+and then putting it on a screen
+maybe you ve hit the print key plot or
+the print function or when the print
+function happens you don t want to wait
+for that print to be completed you re
+going to get control back to your word
+processing program so another thread is
+spawned another bunch of instructions
+are sent or created and sent to the CPU
+which take care of printing in the
+background you may want to save a file
+that can spawn another thread so most
+
+today s CPUs need to be different than
+they were twenty years ago because we
+have these multi threaded ol asus multi
+
+
+so today CPUs are designed to be able to
+handle multiple threads more easily and
+one of the first systems was on a single
+CPU was something called hyper threading
+and we talked about this thing called a
+pipeline inside the CPU and what hyper
+threading did was it duplicated a part
+of this pipeline so at least it could
+accept two threads
+it didn t duplicate some of the
+execution engine or the math coprocessor
+so sometimes you would have threads that
+would start into these two pipelines but
+would have to be put on hold
+while they waited for maybe the math
+processor if they both had to do some
+math but it did allow multi threaded
+
+better and generally faster way to
+handle multi threaded applications are
+the today s multi core CPUs where we
+have a single CPU and we have more the
+pipeline and the execution engine being
+duplicated so we would have a pipeline
+and we would have its own execution
+engine we spirally the best solution is
+actually to have multi CPUs two separate
+CPUs on a motherboard and many servers
+have this type of setup and this is
+called symmetric multiprocessing
+most expensive multi core seems to be
+where most of the energy is going for
+the designs these days you had four core
+or eight core of CPUs that handled
+multi threaded applications so this was
+designed as a limiter little
+introduction to the difference between
+processes and threads so the process is
+really the program or application that s
+running these programs have many threads
+that can be spawned as they re executing
+and each of these threads have different
+priorities and as we re going to see
+later there are many tools for
+manipulating the shutting down or

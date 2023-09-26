@@ -1,0 +1,1368 @@
+so I m Kecia and I work on the product
+marketing side of swagger and swagger
+hub and today we ll just be diving into
+headfirst on like what really is the
+open API specification so we re gonna be
+starting off with understanding giving a
+quick overview of the open API
+specification like what is and
+specifically open a POS 3 0 we ll be
+talking more about what s new in OS
+Suite 3 0 and we did a webinar about
+last month which meant more into details
+and like what were the new features this
+is just gonna be a quick overview of the
+new field of just the highlights of the
+new features and then finally of course
+we are gonna be going in and doing a
+live demo on swagger hub like when
+you re actually we re gonna be taking an
+idea of what any case suppose me and
+then designing it from scratch using OS
+3 0 and of course you ll always will
+always have time for Q amp A there we go so
+so really let s look at listen if you
+have to think about why the open API
+specification egg says we need to start
+thinking more than API a first so an API
+is just a set of protocols that allows
+different applications or logical units
+to communicate right you know so think
+of it as a purifying channel of data
+exchange that gets exchanged between
+systems the receiving unit is usually a
+client which then puts out a request and
+then of course there s gonna be a
+response which comes in from the server
+when the client hits the server with the
+specific request know an API
+traditionally it s been is sort of like
+a black box at least before before an
+interface was defined using swagger or
+the opening pacification right it was
+just like a set of protocols that was
+also built by a way that actually goes
+through a life cycle of different
+personas so you have the architect to go
+about from a top level overview
+understanding how the API supposed to
+behave and function you ll have the
+developers and the testers were making
+sure that the API works works correctly
+works as intended and they re also
+writing business logic against different
+resources and of course you have the
+technical writers who actually have to
+document this API to make sure that your
+end the end consumers of this API know
+what this API does now however in
+traditional sense when when people
+actually approach the API development
+without using a restful interface or
+like a design per se there are some
+major problems that they encounter the
+first one of course is that maintaining
+documentation tests and implementation
+was hard right because you know all
+because aps are just like any other
+product they do go to update they go
+they do go to an agile iteration of new
+features new updates new bug fixes and
+then you have all because we have such a
+diverse set of teams or working on these
+API so maintaining all of their
+different units together was incredibly
+hard implement and because there was no
+real defined design on how the API
+should look and feel and behave
+implementation was was sort of all over
+the place and always came at the cost of
+the end users experience so you know
+because there was such a need to like
+push the API out really quickly and
+because there was no plan approach like
+actually building an API the end user
+the end consumer of the API software and
+finally of course communication between
+different services built and different
+program programming languages was not
+always easy right so for example if you
+have a service that s built in Ruby and
+I have a service that s built in nodejs
+we shouldn t be imposing restrictions on
+each other saying you know I can only
+consume your service if I say get a ruby
+SDK from you or like oh so you know that
+sdk from you right it has to be seamless
+there has to be a common framework and
+that really is what happened in 2010
+when a company called word nick decided
+to solve this was actually creating a
+restful interface sort of like the
+equivalent of soap in soap called wisdom
+and what this interface does is it not
+just allows it not doesn t just act as a
+common framework for all of these
+different teams working together to like
+build EAP iso acting like say a template
+or a blueprint for your api but also it
+sort of acts as an interface of sorts
+for your api so think like sort of like
+um not a GUI per se but really an
+interface not it doesn t your api is no
+longer a black box there s actually a
+restful interface that allows your
+clients to actually interact with the
+data or the service you want to expose
+and this was this is what this is this
+is the swagger specification this
+restful interface now now it s called
+the open API specification it was
+formerly called swagger specification
+and adalah and this is a human and
+machine readable API interface purely
+for rest rest based services that allows
+humans to implement API code that allows
+consumers of the API to read and
+generate API documentation as well as
+test cases against wares API resources
+and also because it s both human and
+machine readable it acts as an interface
+of sorts not just for internal systems
+
+so the open API specification is now the
+industry standard in how restful epa s
+are supposed to be defined and so it s
+governed by the open API initiative and
+this is an open technical at this is a
+collaborative project under the Linux
+Foundation and you have all of these
+different companies working together as
+well as like the open source community
+in general and all of them are working
+together to like standardize the way
+restful api sort built and designed so
+while the open api initiative supports
+the specification you know and there s
+always this question what is swagger now
+well swagger is and always be the set of
+tools that s that s built around the
+implementation of the open API
+specification so you have the swagger
+editor swagger UI the swagger coach and
+we have swagger core and we have a bunch
+of the for another open source project
+if you can find a bit under the swagger
+github repository and all of them are
+essentially helping accelerate the
+implementation of the opening PS
+specifications so swagger Z are the set
+of tools that are built around the
+implementation of the open API
+specification so really quickly
+high level you know what s new is we
+have some some great features you know
+there s improve reusability parameter
+changes there s improved examples as
+well as support for content negotiation
+and this is exactly what we will be
+covering in today s demo there are some
+additional advanced features like
+support for describing callbacks there s
+also a lot of questions on security we
+will not be covering this in today s
+demo and also of course links between
+different operations you will not be
+covering all these three sections in
+today s demo but we do have plans like
+go go into more detail in
+the upcoming webinars so I just want to
+quickly walk through some of the
+specification restructures and so this
+is how the open api 2 0 was right so
+this is swagger 2 0 you had it if you
+just look at it from a high level in
+terms of like the structure there was a
+lot of complexity to it right these
+there was now there s like structural
+changes in a bit to simplify the way you
+visualize how the open API spec defines
+an API the root level object objects
+such as definitions have been modified
+to be more and kept encapsulate you know
+bigger sections and the whole purpose of
+this restructure is to address the
+inconsistencies and behavior of root
+level definitions it also extends the
+opportunities so reuse different
+reusable syntax across multiple
+operations yeah so there s also the
+addition of servers as well to the root
+level identity and this replaces the
+host and base paths with 3 0 you can
+have multiple servers as well for
+different environments and we will show
+you all of these in the demo of course
+we have now we have the parameters as
+well so apart from like the regular
+query and path parameters which have
+been carry forward which have carried
+forward from swagger to point out open
+API spec 3 0 we also have the header
+parameter we also have cookies as well
+so open API lets you define headers as
+in like header parameters and also
+cookie headers multiple cookie
+parameters can be sent in the same
+header and this they can be suffered by
+semicolon in space and also instead of a
+big changes we d there s no longer the
+body parameter from swagger to finals so
+when you re defining a post operation
+you don t have you don t do it you don t
+use a body of the body parameter it s
+been replaced with the request body and
+request body also allows you to send
+form data and finally of course these
+parameters are reusable and they can be
+specified as reusable components under
+on the component section and finally of
+course in this demo we will be covering
+content negotiation so you know the from
+swagger to final consumes and produces
+have been removed thus there was like
+basic content negotiation which was
+supporting 2 0 but OAS repoint know
+takes it a step further so you can
+define different media types in your
+various schemas and you can specify what
+goes into these different media types so
+there s also better file upload support
+so things like defining different media
+types and files uploading an array of
+files as present in OS 3 0 but this was
+not present in 2 0
+there s also you can also specify a
+range and responses so standard HTTP
+codes from 200 to 500 can be specified
+missile range so it s time for the demo
+and the way I d like to structure this
+demo is really taking a hypothetical
+scenario so let s take for example that
+you know we re part of the smart bear
+company and we want to design an API
+that allows users to obtain information
+about the employees within the company
+or also post information about a new
+employee into the company s database
+right so think of this as an HR API our
+team you know because swagger hub
+because we won t we re gonna be
+showcasing some of our collaborative
+features you have the API designer the
+API documentation team and you also have
+any player development team so this is
+our team our objective is to build this
+HR API so from a planning perspective
+let s assume that we have one resource
+called the employee resource and we want
+to specifically show one is of course
+define a get operation under this under
+this resource that allows users to one
+is of course get is get the information
+of all the employees within this company
+as an array you know I knew kids but you
+can specify the page limit as well as
+the information limit using some of the
+query parameters you can also get
+information about a specific employee
+within from the company s HR database so
+here we re going to be showing a path
+parameter to do so and finally of course
+you can post information about a new
+employee and so we will be showing you
+how to create a post post operation
+using
+response body object in the rig we re
+gonna be doing this is using swagger hub
+so swagger hub is the API design and
+documentation platform
+let s build four teams to drive
+consistency and discipline across API
+development workflow so feet so we have
+specific proposition of features like
+you know allowing teams to standardize
+the API design across there across there
+across multiple teams centralized
+centralized collaboration on a secure
+cloud platform and finally order
+generation and hosting of interactive
+API documentation so let s get started
+so this here is swagger hub so I m right
+now in my in the spider hub website or
+the app I ve logged in so you can see my
+login information right over here and
+what I m gonna be doing over here is if
+you can note if you see over my screen
+there s like the left panel is the my
+hat hey sorry folks I see that we re
+seeing some people saying that they
+can t see ketchup screen and we re gonna
+work to resolve this quickly hey folks I
+hope everyone can now see my screen so
+yeah so sorry about that
+so this here is the swagger hub
+interface so if you ll notice on the
+left hand side this is the left
+navigation panel and this is where you
+can quickly access some of the EPS which
+you ve worked on so for example there s
+the my hub section where you can go in
+and look at all of the EPS which either
+you ve created so you can see all of
+these ApS that you ve created or API is
+which you ve collaborated on right so um
+so for example here occasion I need to
+this is an API which I created but
+there s also for example EPS which I ve
+collaborated on so there s like the book
+API
+there s the inventory EP all of these
+ApS which I ve collaborated on you can
+also search through all of the public
+API is available on swagger hub so this
+over here for example this is you can
+they re their swagger hub allows you to
+host and allow make public ApS
+discoverable by not just your teams or
+your partners but also to the rest of
+the world if needed and so you can
+search the public ApS available so we
+have the uber API we have Instagram so
+a bunch of public API is available in
+Stockholm and finally of course you have
+the ability to define organizations
+within swagger hub so for example I have
+the smart bird software organization
+which I m the owner of and you can see
+all the EPS with smart bird software s
+builds in the past so these are the API
+definitions which you ve created and you
+can see and you can discover all of
+these API is really quickly for the
+organizations which you belong to so in
+our case again so let s get back to what
+we wanted to do is we wanted to build a
+new HR API in open API specification 3 0
+so let s do that real quickly so let s
+go to my let s click on the plus symbol
+right over here
+and let s click on create a new API so
+we re gonna be starting with open API
+spec 3 0 and we will be starting with a
+blank template so let s give this API a
+name so I m gonna call this the HR API
+OS 3 0 just give a quick name version
+number of 1 0 0 I m gonna give this API
+name a title so I m gonna call this the
+smart bear HR API and then I m gonna
+give this on a quick description here
+and I ll modify this once we go into the
+editor within swagger hub you have the
+ability to define privacy or visibility
+for an API so for example if you re
+creating an API firm for just
+consumption within your organization s
+like an internal API then you can set
+the visibility the private you also have
+the ability to create a public API for
+like consumption from the rest of the
+world so we always recommend that if
+you re starting an API from scratch even
+if you want to eventually transition to
+a public model like start make sure that
+it s in pry your visibility set to
+private just because you don t want an
+API which is unstable to be accessed by
+the rest of the world so in this case
+specifically I m gonna send this to
+public so that you know while I m
+working on this you anyone any of our
+viewers can come in and check us out I m
+gonna send this to off the autumn walk
+the autumn acting features on a road map
+for open API spec 3 0 so we re going to
+send this to off for now and finally of
+course you can define the owner
+for this API so by default it s set to
+smart bar software you can change the
+owner to your personal account as well
+I m gonna keep this set to my
+organization so now we are on the
+swagger hub editor where you can
+actually now go go in and start defining
+and building your your restful interface
+for the HR API so let s start by again
+so one of the things which I always like
+to do before I start by defining my API
+is like let s just lay out the metadata
+and some of the most important features
+for information for any API it s like
+apart from like the basic information
+like the version number and like the
+overall high level description the also
+it s good practice and define the Terms
+of Service as well as the support
+contact and the license information for
+the API so let s just do that right over
+here so I m going to define a better
+description just information of new
+employees right so this is just a
+high level description on what we want
+this API to do let s give this the Terms
+of Service and in this case I m just
+gonna go ahead and put down the
+
+and then from here I m gonna define the
+contact information so name here is
+gonna be me sure I can define a URL as
+well as if I have a pot if I have a
+website I can define that here I m just
+going to define smartbear com as the
+website name and finally of course I can
+put specify an email as well and here
+I m gonna set my smart bear email
+account and you notice that as I m
+typing it s getting automatically
+visualized on the right so you can see
+that all of the information I just put
+in has been visualized my slider hub
+automatically and every time saying I
+put in a deaf and I put in an object or
+like any other syntax which is not
+compliant with the open API standards it
+gives me an error with also like
+feedback on how to resolve it I m also
+gonna put in some license information so
+this is just smart bear license and URL
+in this case I m just gonna put in smart
+
+so yeah so this is just like some basic
+groundwork before you go go ahead and
+define your API further so one of the
+big features in the open API spec 3 0 is
+the ability to actually define multiple
+servers right up so it s 2 0 you had the
+ability you can only set like one host
+and base path or one server for your API
+in 3 0 you actually have the ability to
+set multiple servers so say for example
+you have the API definition that exists
+in different environments you can
+actually actually define this as well
+so let s actually do that and service
+
+consistent to find this sort of I can
+just use food calm for now and
+description this is the dev server for
+the API and same thing I m going to
+
+you go safe so we re defining the
+opening Claire specification in the ammo
+and yanil is very particular about
+indentation so one of the
+recommendations is always make sure that
+the indentation is correct and again do
+the open API standard we ve recommend
+that Yama will be the way in which you
+define an API just because it s more
+human readable than JSON so now let s go
+ahead and start defining our first
+resource which is the employees resource
+and again if you remember recall our
+objective objective is to allow users to
+get information about existing employees
+within the company s HR database so
+let s go ahead and do that so I m gonna
+define my employees resource right and
+under this I m letting defining my first
+endpoint sorry for my first method which
+is the get method let s give a
+description for this does get matter the
+more information you can give about the
+API the better because that s the whole
+purpose of the open API specification is
+apart from the Russell interface it s
+also making sure that it s also allowing
+your consumers to get rich information
+about how to consume your API HR
+database and and if you recall one of
+our we also want to make sure that we
+have the right parameters so let s
+define two query parameters one which
+I m which allows your end consumer to
+define how many employees they want
+returned and then the second one which
+allows users to define how many pages
+they want this information so we were
+chartered so let s define parameters I m
+gonna give my first time at a name it s
+gonna call this body limit this is gonna
+be a query parameter so I m going to
+define this as a quake it this is
+defined with the in object it s again
+give it as many descriptions as possible
+
+and then finally one of the big
+differences as well when you re defining
+api s from 2 0 to 3 0 is the usage of
+the schema object so there s a common
+and you ll see this pattern as we as we
+design this API further you ll see the
+schema object being referenced a lot so
+we re gonna which essentially allows you
+to define what specifically like are
+this specific parameter is so here I ll
+show you exactly what I mean so under
+the schema object you will be defining
+things like what type of parameter it is
+you also define say things like the
+minimum so let s say the minimum here is
+gonna be 10 the maximum we want maximum
+employees we want return but with any
+specific API call those 20 and we can
+also define an example so let s say
+example is 15 right so this is and again
+we re getting the an error right now
+because we haven t defined our responses
+yet so we re gonna find our first query
+parameter which is the body limit Cripe
+parameter and which defines how many
+employees you want returned let s define
+our second parameter and I m just gonna
+copy paste this real quick and let s
+call this page limit and here we want to
+
+employee whoops right and let s just say
+over here that the maximum pages we want
+return at any given point is five the
+minimum is one and an example of this is
+to write so we ve defined to us our two
+parameters so we ve defined two Kray
+parameters so now let s go ahead and
+start defining our responses so in this
+specific response I want to define a 200
+response and in this 200 response
+I wanna in my response on body which is
+going to be an array of employees I want
+to give the ID if the employee and the
+employee title so let s go ahead and
+define our responses and again this the
+response should be in the same level as
+the parameters so make sure you re on
+the same level there and when the spider
+how about it so you can actually see
+which lioness with the lines over here
+
+responses right so let s define our 200
+response and this is again standard HTTP
+
+and now let s define what are the odd
+objects you the array of objects you ve
+got you re going to get returned so this
+is where the content negotiation part of
+the open EPS that comes in and I ll show
+you what I mean so you can actually
+instead of defining directly the body of
+the responses you actually define start
+with the content so the type of media
+like the type of content you re going to
+be receiving so in our case let s say we
+want to define this in JSON right so
+
+and under application JSON again we re
+gonna be calling the schema and if you
+recall the schema schema what the schema
+does is it defines it defines the
+content little more like so we re gonna
+called say this is an array and the
+items you re gonna be getting out of the
+array and again if you re defining an
+item in a way you have to follow that up
+with the items involved in the area so
+let s define all the properties under
+this and I ll describe everything which
+I m doing again just so that we can can
+be sure from this so just to recap what
+I m doing right now I m defining the
+successful response which is a 200
+response and I m defining that the
+response is gonna give back and a JSON
+array and in this JSON array I want to
+define I want to say that you re on a
+successful call consumers are going to
+be getting the ID of the employee in the
+name of the employee and the title of
+the employee so let s define that so
+this is the first in information one
+
+so yeah so we re defining the ID which
+is an integer let s give an example of
+this which is 4 right so I m defining
+again my first endpoint and my first
+response object which is the ID and
+let s go in and define our second
+employee name this is going to be a
+strength again and an example of this is
+say Ryan Pinker and finally let s give
+employee title type of this is string an
+example of this is its market right so
+what did I do over here well let s let s
+recap real quick so if we define our
+first resource which is the employees
+resource under this resource we define
+our first method the get method and form
+and again what we want to do is we want
+to define parameters and responses
+because that s what makes a basic API at
+the request and response cycles so the
+request cycles we have two parameters we
+have the query parameter both of them
+being query parameters the first
+parameter allows you to specify how many
+employees you want returned and over
+here the way we define it is 1 of course
+defining the name and what it is which
+is the Quai but also then whenever you
+want to describe something in terms of
+like what the type of parameter you re
+the type of object it is in general and
+with the examples as well as some
+constraints you use this the schema
+object over here so let me use schema
+and under this we define the type of
+some more details about the parameters
+in terms of like the data what is the
+datum what is the data structure what is
+what type of data it is what is the
+minimum and maximum as well as with an
+example
+same exact real logic for the second
+query parameter finally when we go ahead
+and define our responses we re defining
+our first successful response which is
+200 and then we have the introduction of
+a new object you know
+or knowledge is content and content
+essentially this is where the content
+negotiation aspect if it can come into
+the picture you go in from instead of
+defining the responses directly you
+actually go in and define first first of
+all the type of content you re going to
+be getting back so here for example we
+were defining application slash JSON to
+be the type of content and under this
+again remember schema is where you go
+ahead and define like the type of
+information are going to be getting back
+so we have the schema information over
+here
+we re calling this an array and under
+this we have the various properties
+which you use to then go ahead and
+define what that response object is you
+can always like this is just our first
+endpoint and so let s go ahead and
+define well this our first method so
+let s go ahead and define our post
+method now and of course if you go over
+here you can notice that whatever we
+just put in this information has been
+rendered now if you add more content
+over here so we have application JSON we
+can actually go ahead and put
+application in slash XML you ll actually
+see that being rendered so I can
+actually put real quick as well so we ll
+do that as you move forward I ll give
+you I ll show you an example when we go
+into the next phase of the design so
+let s now go ahead and define our post
+operation so again be careful about the
+indentation is awareness so this is
+where I define a post and no matter and
+under post I m gonna be again describing
+
+mmm hmm so so this is where again so
+this is a big change as well from 2 0
+3 0 so when you re doing a post in 2 0
+you had the body parameter 3 0 is God
+done away with the body parameters and
+what we have now is something called
+request body this is just me this just
+makes it much more easier to define
+objects and we ve also added I believe
+the file upload on the the form data
+under the request body object you know I
+know we have Ron on call if I say
+anything wrong let me know Ron it was
+the developer evangelist for swagger and
+open API so yeah so this is so we re
+gonna be now defining all of our the
+parameter image for the post parameter
+under the request body object so we then
+need to specify that this is a required
+entity so we say required true right so
+because the post requires that you
+actually post something so this is going
+to be true and again the same exact
+logic or the content negotiation part of
+it is you can now have to go and define
+what is that content you want to push or
+like post to that specific resource so
+over here the same thing let s define up
+to the application slash JSON let s
+define the schema which is defining what
+the type of information you want to put
+now when we when we post I don t want to
+post an array I want to post
+specifically just one employee so I m
+gonna just do the post an object so
+instead of array I m gonna say this is
+an object and now let s define all the
+information that goes in the post right
+so same whatever we posted or whatever
+information we get back we won t also
+
+second my computer screen a stock okay
+sorry about that seems to be a little
+problem my browser let s give me a
+
+yeah perfect so we just defined what is
+the content which gets posted and again
+I just copy pasted all the information
+you get back in a specific in when you
+actually make a successful call so the
+ID the employee name and the employee
+title I m only saying that you when
+you re posting a new employee
+information these are some of the things
+you need to have which is the ID the
+employee name and the employee title and
+of course every by default every
+operation requires that you also have a
+response so this response is in the same
+level as the parameters or in this case
+the request party which is a parameter
+of sorts right and under this I m gonna
+be specifying or 200 response so yes
+sorry this I put in a request it should
+actually responses yep so yeah so we
+just defined our first pet a post method
+as well so just a quick summary we this
+is a very simple API lets me show the
+split view all as if now what we did is
+we define a first get operation under
+the employee resource we define the
+parameters that go both of them are
+query parameters and we define what the
+successful response is when we actually
+get this information and then we re also
+defining a post method on under this
+resource where you can post information
+about a new employee in the system so
+I m defining the ID the name of the
+employee in the title of the employer
+and responses which I am in defining
+under this is 200 is is just a basic
+success to a successful response India
+in though in the real world of course we
+recommend defining as many whatever
+those responses your API supposed to get
+so here and in this example I m only
+defining 200 responses ideally what you
+should be doing is defining even like
+the other responses like the for
+hundreds or the 500 which are APR
+potentially Gibbs so let me save this
+and now let s go in and define our next
+method I saw your next resource which
+was which is gonna be a path parameter
+right so here I want to say that I want
+to get information about a specific
+employee within the company so here I m
+gonna define get let s see if everything
+is in terms of like the structure here
+right and over here let s change
+information about specific employee and
+over here what I m saying is now if say
+for example someone puts in the ID in in
+their request if this I have someone
+specifies the ID of an employee they
+should be getting information about that
+employees about that specific employee
+from the from the API so I m gonna be
+specifying for this a pad parameter the
+name of the parameter is called ID
+required yes we pass parameters like
+request bodies need to be need to be set
+to true from the required perspective
+because again you need to specify this
+in order to get any sort of information
+we have to define what the specific path
+parameter so that s where the schema
+comes in so you define the type of this
+
+the you say specifically that this is
+the ID of the employee actually that s
+we should say that over here and then
+let s give an example as well before of
+course you re gonna be getting an error
+because you need to have responses as
+well so let s say that on a successful
+response you re only defining 200 s in
+this example let s give a description of
+the success and also as always define
+the content right and I m gonna be
+exactly defining exactly all this
+specific information same exact content
+which on which we get right so we define
+it to be application JSON and then we
+defined specifically the schema there
+you go so we just defined our path
+parameter over here which was the
+employee slash ID which is where you
+actually can specify specifically which
+employees information want to get and
+use put in your request you put in the
+ID of the employee and you will be
+getting this is the ID of the employee
+and you will be getting all of the
+exactly if you see the example model
+over here you ll be getting all of this
+information so now I want to quickly
+touch upon if you look at this API you
+will notice that there s a lot of
+reusable components which we added
+specifically all of the responses can be
+reused multiple times across the right
+there s also specifically if you look at
+the post prime post method
+under the post operation in the request
+party you re essentially presenting back
+the same information you might be
+getting back on the secona on a get
+operation under the get operation so
+what you can actually do is define the
+components section where you can
+actually have all of this reusable
+components defined in a singular section
+that can be referenced across multiple
+operations or resources within the API
+so I m gonna save this API I m gonna
+actually create a new app add a new
+version to this API so let s call this
+2 0 but then swagger hop saga has an
+internal versioning system so you can
+actually add multiple versions of the
+same
+and so I ve added a new version you can
+toggle between one and two at any given
+point when I m gonna be making my edits
+to the new version so just like make it
+more I would say it s simple to
+understand and make sure all of the
+reusable components are defined in a
+senior section so let s define let s see
+what are the common things we can define
+the first thing as soon as you based on
+what we just said and you know as soon
+as you start looking at this API
+specification one thing you ll notice is
+quickly you can actually define all of
+this the information like the ID the
+employee name and the employee tell the
+response objects as a common model which
+is which is what you we will be doing
+now so let s go in schemas and so we re
+defining this was instructor 2 0 this is
+called definitions the definitions model
+has been done with and it s been changed
+to components and now under components
+you have to define the schemas right so
+remember schemas is what what OS the
+users like define specifically the data
+type in the examples and some
+information on like whatever the model
+is so over here I m gonna be defining a
+new model call employee write
+
+containing employee info and essentially
+what I m going to be doing is I m gonna
+be defining all of this information
+right so the properties and everything
+this for an employee I m gonna be
+defining that over here make sure this
+is in Yama s and make sure all the
+indentations are right and notice that
+as soon as I type this it s been
+rendered on the right so I ve just
+defined my first employee model and what
+I can do now is go in over here and this
+is our first information so let me go in
+right over here and instead of having
+the properties go in
+the dollar rough the syntax for this so
+if you do a dollar breath right and now
+what we re doing is now instead of
+defining all of those objects in the in
+the operation itself I m going to be
+referencing this specific component so
+it s gonna be this is a syntax you re
+first gonna be pointing to the specific
+API which is done by the hatch and then
+it s going to go Traverse who the
+component section and under components
+they re schemas right and under schemas
+there s employee so I m now referencing
+this specific component over here
+schemas so now let s go over here and
+
+there we go we can also reference the
+specific component in the post method as
+well so let s do that the same exact
+sense X I m just gonna copy paste this
+and again we can see all of this
+information over here and and one of the
+things we can actually show off over
+here is also the content negotiation
+part of it so now I can actually define
+application say slash XML and as
+copy paste the same exact and if you go
+
+you can actually select application XML
+application JSON and you can see how the
+response object would be so response
+party would be saying it s changing
+based on the type of responses you want
+
+and you can do the same exact thing over
+here is you can in your post is you can
+just change this to XML and so you can
+go into the post and you can select what
+type of response bar even one no let s
+let s actually now go in and if you if I
+look at the responses in my first
+operation which is the ghetto operation
+for an array notice that this is
+actually asking for an array right and
+so what I can do actually is in my
+
+section called employees
+this isn t plural and this is where I
+can actually let I m defining um an
+array of employees right so in my
+description you can call this an array
+of employee info okay I m gonna define
+this to be type array and then my items
+in this is going to essentially be all
+of the information under the employee
+model so you can actually reference
+under components as well another
+component so so under my employees array
+the plural I am actually referencing
+this specific I m saying all the items
+in that array is gonna be having this
+all of these properties so the ID the
+employee name and the employee title so
+I m gonna be clicking on save and now I
+can actually go in over here to my first
+the first get method right and now in my
+responses which is an array of
+information about the employees I can
+actually just go in and under schema
+instead of all of this information all I
+do is type ref and opponents slash
+schemas slash employees second right so
+now you ll get all this we re now
+referencing the specific employees which
+is essentially an array of all of these
+all of the information in the employee
+model so you this is where you can
+actually be very creative and make sure
+that your API is is defined and in the
+most simplistic of ways but also in the
+way in which like all future definitions
+or for all future iterations of this API
+can be done in a much more quicker
+fashion so now when your other
+developers come in and add more updates
+this APR new endpoints new methods they
+don t have to constantly keep real
+dating adding new information they can
+just keep referencing the components
+part of it so the one thing so this
+really is so we ve done a lot behind I
+know we were short of time so you know
+we ve gone from actually going in and
+defining say specific we ve done we ve
+defined to specific resources one is of
+course the employees resource where we
+go in and we defined two set of
+parameters both of which are query
+parameters and we ve shown you how you
+can actually go in and do and actually
+specify different information about
+these parameters under the schema
+section and the schema section is again
+the same how the OAS v point know what
+the OAS 3 0 uses to define information
+about any request or response party
+right so we ve done that we ve shown you
+how you can actually define the 200
+response she let me show it this is in
+
+right so you can actually define the 200
+response again we also showed you the
+post method and under the under the post
+method we showed you a new object called
+request body which is new to OS 3 0 you
+can define what you want to post and
+finally of course even we showed you the
+path parameter which is how you can
+actually get information about a
+specific entity in this case a specific
+employee then finally in our version 2 0
+of this API we actually made this API a
+little smaller but a little more elegant
+for future iterations by defining all of
+our common information under reusable
+sections called components you can also
+be more creative for example you can
+define your parameters as well under the
+components section you can end for
+referencing you can also for example
+define your responses as well under
+components but in this example I m
+keeping it short by just defining just
+these common models the other big
+feature which I want to quickly touch
+upon is how so I in swagger home you can
+actually take an existing API in 2 0 and
+convert that to 3 0 so I have over here
+say an existing HR API which is defined
+in 2 0 which is exactly essentially the
+same thing which I just showed but in
+2 0 you can actually go in over here and
+if you click on the top right corner you
+can actually convert this to open API
+3 0 so swagger hub is one of the first
+tools to actually not just support open
+e pets like 3 0 in terms of designing
+and documentation but also conversion so
+once you click on conversion you know
+you can you have this option to convert
+so I m going to click on convert and
+update and you will see that all of this
+API is now converted to the open e
+inspector you point oh and of course
+you ll have to go in and potentially add
+a little more definitions or make it
+more concrete like in terms of
+descriptions but for the most part this
+is our conversion was very seamless and
+
+so that brings us to the end of our demo
+I know we have no we have about 10 more
+minutes for Q amp A five to ten more minutes
+but these are just the resources which
+you can use one thing I do want to bring
+the point out is that we have a very
+very concrete documentation portal on
+swagger area where we ve documented not
+just the usage of the open API of the
+swagger or open source tooling but also
+the but also open API spec 3 0 and this
+is I think the only comprehensive one of
+the few only comprehensive documentation
+that exists for the open API is that we
+point O so please do check it out shout
+out to our documentation team until
+who ve done this who done a great job in
+documenting the open e cares like 3 0
+soonest it came up oh yeah if you if
+you re interested in learning more
+please feel free to use that resource
+and swagger hub they re always there we
+have our resources we have an active
+blog where we continue to support the
+latest and greatest in technology so
+
+thanks so much we did receive a ton of
+questions during today s webinar and we
+did our best to get to as many of them
+as we could we a for anyone the Mary
+we ll just cover here or didn t get to
+in chat we ll do our best default with
+everyone to get your questions answered
+one of the questions that come through
+with someone who seems to be just
+getting started they want to know I m
+when we recommend starting with three
+dotto or made sense and maybe start out
+with gyro and then move to three doe
+things should be probably pretty
+straightforward answer but figure thing
+up yeah I mean I think that s a very
+subjective question as of not like 3 0
+is great for my buddy it has it adds a
+lot of rich expressive powers for
+actually defining an API that that makes
+it really great but again one thing is
+of course like if you really want that
+concrete tooling as well like 2 0 has
+been and has been an established
+framework which has a lot of tooling
+built around it right and so a lot of
+swagger open source flowing as well
+which has now transitioned into 3 0 so
+it really depends on which stage of the
+lifecycle you re in I would
+say that you know 3 0 is just great
+lakes just it s to describe any pn them
+in probably the best expressive way
+possible but again if you re looking for
+more tooling to like fully utilize the
+power of 3 0 then a lot of tools are
+still coming out to like you know
+implement in the opening has my dream
+you know so that s just my
+recommendation defining the api opening
+aspect we point out but if you also want
+to take this in excel and harness some
+of your open source as well as
+commercial tooling out there to like
+really take this to the next level you
+know maybe we might hopefully we will be
+seeing more much more to like to come
+out and like support this one thank you
+and can you put different content types
+in one response that you re defining yes
+you can you can specify it like
+application json xml even images i
+believe in different responses as well
+as request bodies so yeah you can
+definitely do that which is what we also
+build this in the demo as well so we
+define application JSON we also did in
+the file XML so this is one of the new
+features which has been added to okay
+now can i define some object like a
+class and further user as a reference
+
+that I know is Ron on Ron s on the lines
+of I don t really know you may not be
+able to get to jump in on that one we
+have to go back to that one
+the other question we had was around
+mechanisms to verify that uh OS 3 data
+of specification is actually up to date
+I know that s something that you know
+we ve validate it ll validate within
+your spat correct yes so with swagger
+hub automatically validates your API to
+make sure that it s compliant with the
+open API standards right so we whether
+it s 3 0 or 2 0 you know you ll always
+get like that error validation swagger
+poppins also actually work if you re
+actually actively working to like
+release our style validator as well
+specifically for the opening I expect we
+point oh so within your organization s
+say for example you have specific styles
+or guidelines which you want your API to
+follow then or like your designed to
+follow then you can have that specified
+in our style guide as well and that s
+something we re actively working and you
+did show this quickly at the end there
+but someone was asking if they have two
+of those specs what s the best way of
+kind of get started on converting those
+to 3 0 so I think if you re using
+swagger up today we do have the ability
+to do that and you can convert your
+specification over we did get a lot of
+questions as well about importing
+existing swagger files into swagger hub
+if you aren t using a platform like
+swagger hub on your using to do a spec I
+mean I think porn things are using some
+of the takeaways from today s sessions
+then maybe have to go back and
+reconfigure your existing spider
+definition I m I don t have anything
+else to add to that one of the cool
+things about the conversion is now
+instead of like going line by line in
+your existing swagger 2 0 spikes and
+like converting each and every line or
+like seeing if you re it s compliant
+especially if it s like a long API which
+has like over 500 lines which is a lot
+of API sand in the ecosystem as of now
+you don t have to do that manually you
+can actually import that directly to
+starter home so we have an import
+capability within slogra home where you
+can just import an existing API this is
+a 2 0 and then convert it to 3 0 using
+our autocut our conversion feature
+awesome we did get a lot of questions
+around different tooling and we ll have
+support for oai 3 dot
+it is important to point out that you
+know here s part of the swagger team we
+are actively involved in the development
+of the new spec and certainly they focus
+on the tools but we won t necessarily
+have insight into some of the other
+tools that might be out there that are
+beyond the initial swagger tooling um if
+you do want to learn but the latest
+open source tools that support that we
+do have some information on our swagger
+bio website and there was a lot of
+specific questions around the square Co
+gen tool I did check with the team and
+they will be releasing the first release
+candidates before the end of October to
+get your feedback and then I would
+expect you ll see that within swagger
+hub hopefully by the end of this year
+let s see if we had a couple different
+questions uh yes so we had one there was
+a couple questions that are coming in
+and folks are asking us to go back to
+some of their questions so you may just
+need to put them in we are just throw up
+time but if you are asking us to revisit
+your questions I m sorry if I didn t
+miss them we will get our bet do our
+best to get back to those let s see if
+we have time for a couple more someone s
+asking around for the use of the links
+section for documentation I know you
+touched on links a little bit but maybe
+it s all from a documentation standpoint
+um the use of those in three oh yeah
+definitely so that s one of the things I
+highlighted initially is that that s
+that s something we re not planning on
+like taking a deep dive in our upcoming
+webinars linking is something which you
+know it s so it s a very touchy topic
+because you know it s not directly
+hypermedia but it also helps in some
+high level way so that s something we
+definitely want to touch upon in our
+upcoming webinars in this webinar IV we
+didn t want to touch on it just because
+it was it felt like a more advanced
+topic but if you re very interested in
+like learning about in a linking please
+feel free to go to swagger bio slash
+talks you ll see the specification
+documentation and right there on the
+left we will see the linking section
+link sections where you can learn more
+about how links work and OS 3 0 and
+someone was asking it looks like it s
+the first time seeing the swagger hub
+platform
+can close on this question and I know we
+did have we re still seeing questions
+come through so we are trying to take
+them out this weekend and we will do our
+best to answer these questions in the
+follow up blog post or made a video or
+in another webinar so thank you for
+funders to be putting your questions but
+specifically you know why did we show
+swagger hub maybe you know they re
+usually using the swagger tooling today
+and why would they want to use Swire hub
+over some of the swagger editor I what
+people using the editor of the UI today
+yeah that s a great question so you know
+the the open source tools are great for
+like doing specific job functions like
+for example the swagger editor is like
+really great for like going about
+designing concrete awesome api s both in
+OS 3 0 as well as swagger you have the
+swagger UI which is a section which is a
+another tool to like generate
+documentation you have the code gent
+like generate code and then of course
+you have to go in and build your own
+infrastructure like host all of this
+documentation as well as provide the
+right access control specifically to
+different API is you know based on
+whether it s a private model or a
+partner model or even internal model a
+complex model what swagger hub does is
+essentially takes the best of all of
+these open source tools adds another
+layer of features as well as removes all
+of this infrastructure complexity of
+hosting and generation of code as well
+as documentation and essentially allows
+you to go from planning all the way to
+documentation as well as generating code
+and the quickest and easiest way
+possible the icing on the cake is
+collaboration so we we know that API is
+especially API is no 1 it s well ats
+building api is a collaborative process
+you know as we mentioned before like it
+goes from architects developers testers
+deployed devops
+documentation writers all their
+different job functions all and all of
+these people have to work together to
+like build a great API and it starts
+from the EPS design and so swagger hub
+offers a very collaborative tool to like
+to essentially allow you to deployed and
+deliver great grade ApS in the quickest
+way possible while also ensuring quality
+near API is by standardization of design
+across your rigorous API is for your
+teams so that really isn t a nutshell
+why why what what s the power of swagger
+apart from you know all of the regularly
+bringing together the open source tools
+as well as auto generating and hosting
+
+often thank you so much unfortunately
+our a little overtime here guys we are
+gonna have to wrap up I do still see
+questions coming in from Ronan William
+Peter sorry we weren t able to get to
+all of the questions there were some
+questions that came in that we do need
+some more time to meet with the team to
+get some insight on so we will do our
+best to answer all those we appreciate
+you taking time out of your schedule
+today do feel free to send any feedback
+on today s session or any other further
+questions and as I said we ll do our
+best to get back to it
+I d like to thank Asia for the great
+introduction to OS 3 0 and thanks again
+for everyone who tuned in and best of

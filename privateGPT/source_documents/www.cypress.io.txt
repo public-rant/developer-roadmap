@@ -1,0 +1,463 @@
+   #[https://www.cypress.io/]alternate
+
+   IFRAME:
+   [https://www.googletagmanager.com/ns.html?id=GTM-K8R2FS5]https://www.go
+   ogletagmanager.com/ns.html?id=GTM-K8R2FS5
+
+   [https://www.cypress.io/]Logo
+     * (BUTTON) Product
+       (BUTTON) Product
+         ______________________________________________________________
+
+       [https://www.cypress.io/app]Cypress App Test your modern
+       applications with our open-source app
+          + [https://www.cypress.io/app]Browser Testing
+          + [https://www.cypress.io/app#visual_debugging]Visual Debugging
+          + [https://www.cypress.io/app#delightful_experience]Delightful
+            Experience
+          + [https://www.cypress.io/app#flake_resistance]Flake Resistance
+         ______________________________________________________________
+
+       [https://www.cypress.io/cloud]Cypress Cloud Scale your testing with
+       total confidence on every release
+          + [https://www.cypress.io/cloud#smart_orchestration]Smart
+            Orchestration
+          + [https://www.cypress.io/cloud#visual_reviews]Visual Reviews
+          + [https://www.cypress.io/cloud#test_analytics]Test Analytics
+          + [https://www.cypress.io/cloud#integrated_workflows]Integrated
+            Workflows
+     * (BUTTON) Docs
+       (BUTTON) Docs
+         ______________________________________________________________
+
+       [https://on.cypress.io/]Documentation Learn how to test your code
+       with Cypress
+         ______________________________________________________________
+
+       Getting started
+          + [https://on.cypress.io/installing-cypress]Installing Cypress
+          + [https://on.cypress.io/writing-your-first-test]Writing your
+            first test
+          + [https://on.cypress.io/testing-your-app]Testing your app
+       References
+          + [https://docs.cypress.io/api/commands/and]API
+          + [https://on.cypress.io/configuration]Configuration
+          + [https://on.cypress.io/best-practices]Best practices
+       [https://learn.cypress.io/]Learn Cypress
+       [https://on.cypress.io/changelog]Changelog
+       [https://on.cypress.io/migration-guide]Migration guides
+       [https://on.cypress.io/faq]FAQ
+     * (BUTTON) Community
+       (BUTTON) Community
+         ______________________________________________________________
+
+       [https://blog.cypress.io/]Blog Best practices, insights & more
+         ______________________________________________________________
+
+       Topics
+          + [https://cypress.io/blog/tag/product-updates/]Releases
+          + [https://cypress.io/blog/tag/in-the-community/]Community
+          + [https://cypress.io/blog/tag/ambassador/]Ambassador spotlights
+       [https://www.cypress.io/ambassadors]Ambassador program
+       [https://www.cypress.io/events]Events
+       [https://www.cypress.io/customer-stories]Customer stories
+     * (BUTTON) Company
+       (BUTTON) Company
+         ______________________________________________________________
+
+       [https://www.cypress.io/about-us]About Cypress Supporting a new
+       generation of testing
+         ______________________________________________________________
+
+       Company
+          + [https://www.cypress.io/support]Support
+          + [https://www.cypress.io/careers]Working at Cypress
+          + [https://www.cypress.io/careers#open-roles]Open positions
+          + [https://www.cypress.io/press-kit]Press & media
+       [https://github.com/cypress-io/cypress]GitHub
+       [https://www.youtube.com/c/Cypressio]YouTube
+       [https://www.linkedin.com/company/cypress.io]LinkedIn
+       [https://twitter.com/Cypress_io]Twitter
+       [https://facebook.com/cypressio]Facebook
+       [https://on.cypress.io/chat]Discord
+     * [https://www.cypress.io/pricing]Pricing
+     * [https://cloud.cypress.io/login]Log in
+       [https://cloud.cypress.io/signup]Sign up
+
+   [https://cloud.cypress.io/login]Log In (BUTTON) Install
+   [ ] Open navigation
+
+Test. Automate. Accelerate.
+
+   With Cypress, you can easily create tests for your modern web
+   applications, debug them visually, and automatically run them in your
+   continuous integration builds.
+   (BUTTON) npm install cypress [https://on.cypress.io/]Documentation
+   http://localhost:3000
+   Authentication.cy.ts
+   Button.tsx
+   Button.cy.tsx
+     * design-system
+          + assets
+          + cypress
+               o e2e
+                    # Authentication.cy.ts
+          + src
+               o components
+                    # Button.cy.tsx
+                    # Button.tsx
+
+describe('login', () => {
+  it('user should be able to log in', () => {
+    cy.visit('/')
+
+    // open the login modal
+    cy.get('button').contains('Login').click()
+
+    // fill in the form
+    cy.get('input[type="email"]').type('[https://www.cypress.io/cdn-cgi/l/email-
+protection][email protected]')
+    cy.get('input[type="password"]').type('test123')
+
+    // submit the form // @cy-startTyping
+    cy.get('button').contains('Sign in').click()
+    cy.contains('button', 'Logout').should('be.visible')
+  })
+})
+
+describe('login', () => {
+  it('user should be able to log in', () => {
+    cy.visit('/')
+
+    // open the login modal
+    cy.get('button').contains('Login').click()
+
+    // fill in the form
+    cy.get('input[type="email"]').type('[https://www.cypress.io/cdn-cgi/l/email-
+protection][email protected]')
+    cy.get('input[type="password"]').type('test123')
+
+    // submit the form
+
+   [https://www.paypal.com/]PayPal [https://www.intel.com/]Intel
+   [https://clickup.com/]ClickUp [https://www.loom.com/]Loom
+   [https://www.hashicorp.com/]HashiCorp
+   [https://www.glossier.com/]Glossier
+   [https://www.iheartmedia.com/]iHeartMedia [https://time.com/]Time
+   [https://www.frontify.com/]Frontify [https://www.vizio.com/]Vizio
+   [https://www.shutterstock.com/]Shutterstock [https://bark.co/]Bark
+   [https://www.paramount.com/]ViacomCBS [https://www.houzz.com/]Houzz
+   [https://www.trulia.com/]Trulia [https://fortune.com/]Fortune
+   [https://classpass.com/]Classpass [https://www.nielsen.com/]Nielsen
+   [https://www.warbyparker.com/]WarbyParker
+   [https://www.mercari.com/]Mercari
+
+   Introducing the [https://www.cypress.io/app]Cypress App
+
+[https://www.cypress.io/#app]Write, run, and debug like a pro
+
+   Cypress user avatar
+
+Test modern apps directly in the browser
+
+   Watch your end-to-end and component tests run in real-time as you
+   develop your applications. Cypress’s simple, yet powerful API runs as
+   fast as your browser can render content.
+   [https://www.cypress.io/app]Learn more
+   http://localhost:8080
+
+Write your first passing test in minutes
+
+   Installing Cypress and writing your first passing test is a breeze.
+   There are no servers, drivers, or other dependencies to install or
+   configure.
+   [https://www.cypress.io/app#delightful_experience]Learn more
+it('user should be able to log in', () => {
+  cy.visit('/login')
+
+  // fill in the form
+  cy.get('input[type="email"]').type('[https://www.cypress.io/cdn-cgi/l/email-pr
+otection][email protected]')
+  cy.get('input[type="password"]').type('test1234')
+
+  // submit the form
+  cy.get('button').contains('Sign in').click()
+  cy.contains('button', 'Logout').should('be.visible')
+}) // @cy-startTyping
+
+Debug failures directly in the browser
+
+   Because Cypress runs directly in the browser, you can debug failed
+   tests using the in-browser developer tools you already know and love.
+   [https://www.cypress.io/app#visual_debugging]Learn more
+   localhost:8080
+
+Eliminate flaky tests with ease
+
+   Cypress deterministically interacts with your application the same way
+   as your users so you can discover intermittent bugs before your users
+   do.
+   [https://www.cypress.io/app#flake_resistance]Learn more
+   Authentication.cy.js
+   #102flaky
+   Auth Login Owner Role
+   #104flaky
+   Auth Login Owner Role
+   .github/workflows/test.yml
+on: [push]
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/[https://www.cypress.io/cdn-cgi/l/email-protection][email
+protected]
+      - name: Cypress run
+        uses: cypress-io/[https://www.cypress.io/cdn-cgi/l/email-protection][ema
+il protected]
+        with:
+          build: npm run build
+          start: npm start
+
+   Circle CI Github Actions Gitlab CI Atlassian Bitbucket Jenkins Travis
+   CI
+
+Integrate Cypress with any CI provider
+
+   Easily integrate Cypress with your current CI provider. Run Cypress in
+   CI and you will know as soon as there is a failure. We make it simple
+   to run in CI. Use our Docker images or bring your own.
+   [https://www.cypress.io/cloud#integrated_workflows]Learn more
+
+   Introducing [https://www.cypress.io/cloud]Cypress Cloud
+
+[https://www.cypress.io/#cloud]Increase your productivity and confidence
+
+   Cypress user avatar
+
+Optimize your runs for a faster feedback loop
+
+   Run Cypress in your existing CI pipeline and use test parallelization,
+   load balancing, spec prioritization, and more to be as efficient as
+   possible with your available CI resources.
+   [https://www.cypress.io/cloud#smart_orchestration]Learn more
+   Machine 1
+   Machine 2
+   Machine 3
+   Machine 4
+
+Review and debug failures visually
+
+   Reach new levels of visibility into why your tests failed in CI. Play
+   back videos of your tests as they failed, read friendly stack trace
+   errors, and never guess why another test failed.
+   [https://www.cypress.io/cloud#visual_reviews]Learn more
+   Video of in-browser Cypress E2E testing
+
+Gain actionable insights into your test suite
+
+   Monitor your test suite’s health with in-depth analytics. Cypress
+   surfaces failing and flaky test result trends and config changes that
+   affect your test suite’s performance.
+   [https://www.cypress.io/cloud#test_analytics]Learn more
+   A bar graph showing the historical run duration of Cypress E2E testing.
+
+Integrate seamlessly into your workflow
+
+   Plug Cypress into any CI pipeline and you can manage test results as a
+   team thanks to native integrations with Slack, Teams, GitHub, GitLab,
+   JIRA, and more.
+   [https://www.cypress.io/cloud#integrated_workflows]Learn more
+   Screenshot of an instant messaging system like slack or team notifying
+   of a cypress run
+
+Loved by OSS, trusted by Enterprise
+
+   Cypress is proud to support developers all around the world by making
+   it easier to build and test modern applications.
+   5.0M+
+   Weekly downloads
+   43K+
+   GitHub stars
+   753K+
+   Dependent repositories
+   Twitter Avatar of hakimel
+   Hakim El Hattab
+   [https://twitter.com/hakimel]@hakimel
+   [https://twitter.com/hakimel/status/1583369424845041664]Go to tweet
+   Cypress makes me feel about 10x as confident in my work. Just look at
+   those tests go 🥰
+   Twitter Avatar of tobmaster
+   Tobias Struckmeier
+   [https://twitter.com/tobmaster]@tobmaster
+   [https://twitter.com/tobmaster/status/1426117878877769730]Go to tweet
+   Every day I learn something awesome new about @Cypress_io.
+   Its extensibility just makes it the super tool for new approaches and
+   integrates in most environments. Especially when I compare it with
+   other tools, it always feels easier and more stable to me.
+   #testing
+   Twitter Avatar of __etienne
+   Etienne Roudeix
+   [https://twitter.com/__etienne]@__etienne
+   [https://twitter.com/__etienne/status/1494680852525158409]Go to tweet
+   Hey @Cypress_io just wanted to give you a big 👏👏👏 for the quality of
+   your documentation. Thank you for the good work.
+   Twitter Avatar of BrentA1283
+   brent
+   [https://twitter.com/BrentA1283]@BrentA1283
+   [https://twitter.com/BrentA1283/status/1426943822232231941]Go to tweet
+   I've been meaning to express my gratitude to the incredibly talented
+   people who built and maintain the docs @Cypress_io. From start to
+   finish, it's such an incredible platform and so much of that is due to
+   how easy it is to get into it via the top notch documentation! Thank
+   you!
+   Twitter Avatar of HenrikJoreteg
+   Henrik Joreteg
+   [https://twitter.com/HenrikJoreteg]@HenrikJoreteg
+   [https://twitter.com/HenrikJoreteg/status/1489469473899769856]Go to
+   tweet
+   Overall, settings up @Cypress_io's dashboard service and using GitHub
+   actions to run all my Cypress tests in parallel has been a big win.
+   Recommended 👍
+   Twitter Avatar of Lumigo
+   Lumigo
+   [https://twitter.com/Lumigo]@Lumigo
+   [https://twitter.com/Lumigo/status/1519399453924511744]Go to tweet
+   Cypress makes it possible to have the best of both worlds: a
+   streamlined and stable testing infrastructure.
+   Twitter Avatar of DiliStefan
+   Stefan Dili
+   [https://twitter.com/DiliStefan]@DiliStefan
+   [https://twitter.com/DiliStefan/status/1419411976850182145]Go to tweet
+   @Cypress_io is by far the best DX tool I have encountered.
+   Twitter Avatar of francescomugnai
+   Francesco Mugnai
+   [https://twitter.com/francescomugnai]@francescomugnai
+   [https://twitter.com/francescomugnai/status/1422562127471124481]Go to
+   tweet
+   @Cypress_io is an amazing tool. And the documentation is pure joy. It's
+   like reading a great book...the more you read it, the more you love it.
+   Thank you, @Cypress_io!
+   Twitter Avatar of IrinaTheNerd
+   Irina the nerd 🤓
+   [https://twitter.com/IrinaTheNerd]@IrinaTheNerd
+   [https://twitter.com/IrinaTheNerd/status/1427529715032657920]Go to
+   tweet
+   I need a relaxing morning.
+   I'll write some @Cypress_io tests.
+   #WomenWhoCode
+   Twitter Avatar of lyrixx
+   Gregoire Pineau
+   [https://twitter.com/lyrixx]@lyrixx
+   [https://twitter.com/lyrixx/status/1464284400821194761]Go to tweet
+   I spend the last two days working with @Cypress_io: "A complete
+   end-to-end testing experience"
+   I'm **really** impressed by this project. We feel the DX is super
+   important for them... And it just works© 👏👏👏
+   Twitter Avatar of mister_bourbon
+   Yash Raj
+   [https://twitter.com/mister_bourbon]@mister_bourbon
+   [https://twitter.com/mister_bourbon/status/1422905039182438401]Go to
+   tweet
+   I'm awestruck with the power of @Cypress_io. It makes the development
+   and automation experience so awesome that you'll fall in love with it.
+   With the updates more frequent than your sprint review, cypress is
+   totally disrupting the market and is here to knock your socks off.
+   Twitter Avatar of franckgrenier
+   Franck Grenier 🇪🇺🇺🇦
+   [https://twitter.com/franckgrenier]@franckgrenier
+   [https://twitter.com/franckgrenier/status/1464505973490466824]Go to
+   tweet
+   Cypress is a real game changer in e2e testing. It runs inside 2
+   containers on our stack. The setup was almost easy and its adoption by
+   the team was immediate. Now our test coverage is growing fast.
+   Also mention the amazing test runner tool. @Cypress_io beats them all !
+   Twitter Avatar of adilconstantine
+   a-deal
+   [https://twitter.com/adilconstantine]@adilconstantine
+   [https://twitter.com/adilconstantine/status/1565162370632019968]Go to
+   tweet
+   Explaining to my 4 year old what I do for work & what automation is. So
+   I showed him an automated @Cypress_io test & how its clicking and
+   typing.
+   Me: I made the computer do the work while my hands are not touching it
+   My son: Oh so you can play with me while computer do work
+   😅
+   Twitter Avatar of s_chwastek
+   Sebastian Chwastek
+   [https://twitter.com/s_chwastek]@s_chwastek
+   [https://twitter.com/s_chwastek/status/1519000460421648385]Go to tweet
+   @Cypress_io docs must be one of the best! 🤯 Well done.
+   It has it all: learning course, real world examples, best practices,
+   even FAQ is impressive (it has questions I didn't even know I wanted to
+   ask).
+   All open source too.
+   Twitter Avatar of 2co_p
+   Nico
+   [https://twitter.com/2co_p]@2co_p
+   [https://twitter.com/2co_p/status/1538306307731726336]Go to tweet
+   Opened a pretty big PR to our project in Hyperjump but our
+   comprehensive @Cypress_io tests make me confident it won't break
+   anything. So proud of my team 👏
+
+   Cypress logo
+     * [https://github.com/cypress-io/cypress]GitHub
+     * [https://www.youtube.com/c/Cypressio]YouTube
+     * [https://www.linkedin.com/company/cypress.io]LinkedIn
+     * [https://twitter.com/Cypress_io]Twitter
+     * [https://facebook.com/cypressio]Facebook
+     * [https://on.cypress.io/chat]Discord
+
+Getting started
+
+   [https://on.cypress.io/why-cypress]Why Cypress
+   [https://on.cypress.io/installing-cypress]Installing Cypress
+   [https://on.cypress.io/writing-your-first-test]Write your first test
+   [https://on.cypress.io/testing-your-app]Testing your app
+   [https://www.cypress.io/how-it-works]How Cypress works
+
+Developers
+
+   [https://on.cypress.io/]Documentation
+   [https://on.cypress.io/changelog]Changelog
+   [https://www.cypressstatus.com/]Status site
+   [https://on.cypress.io/contributing]Contribute
+   [https://learn.cypress.io/]Learn Cypress
+
+Community
+
+   [https://www.cypress.io/blog]Blog
+   [https://www.cypress.io/ambassadors]Ambassadors
+   [https://www.cypress.io/events]Events
+   [https://www.cypress.io/customer-stories]Customer stories
+
+Company
+
+   [https://www.cypress.io/about-us]About
+   [https://www.cypress.io/careers]Working at Cypress
+   [https://www.cypress.io/careers#open-roles]Open positions
+   [https://www.cypress.io/support]Support
+   [https://www.cypress.io/press-kit]Press & media
+
+   Stay in the loop
+
+   Sign up to our newsletter for monthly updates on product releases,
+   news, and articles direct to your inbox.
+   [https://www.cypress.io/subscribe]Subscribe to our newsletter
+
+     * © Cypress.io
+     * [https://www.cypress.io/privacy-policy]Privacy Policy
+       [https://www.cypress.io/privacy-policy]Privacy
+     * [https://www.cypress.io/terms-of-use]Terms of Use
+       [https://www.cypress.io/terms-of-use]Terms
+     * [https://www.cypress.io/security]Security & Compliance
+       [https://www.cypress.io/security]Security
+     * [https://www.cypress.io/]Cookie Preferences
+       [https://www.cypress.io/]Cookies
+
+     * [https://github.com/cypress-io/cypress]GitHub
+     * [https://www.youtube.com/c/Cypressio]YouTube
+     * [https://www.linkedin.com/company/cypress.io]LinkedIn
+     * [https://twitter.com/Cypress_io]Twitter
+     * [https://facebook.com/cypressio]Facebook
+     * [https://on.cypress.io/chat]Discord

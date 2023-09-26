@@ -1,0 +1,1 @@
+lynx -accept_all_cookies -dump -list_inline https://securew2.com/blog/oauth-vs-openid-which-is-better > $(basename https://securew2.com/blog/oauth-vs-openid-which-is-better).txt
